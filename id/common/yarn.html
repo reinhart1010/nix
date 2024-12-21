@@ -1,0 +1,40 @@
+<h1 id="yarn">yarn</h1>
+
+<p>Pengelola paket alternatif untuk JavaScript dan Node.js.
+Informasi lebih lanjut: <a href="https://yarnpkg.com">https://yarnpkg.com</a>.</p>
+
+<ul>
+  <li>Pasang suatu modul secara global:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn global add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_modul</span></p>
+
+<ul>
+  <li>Pasang semua pustaka prasyarat (dependency) yang dirujuk dalam berkas <code class="language-plaintext highlighter-rouge">package.json</code> (perintah <code class="language-plaintext highlighter-rouge">install</code> adalah opsional):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn install</code></p>
+
+<ul>
+  <li>Pasang dan catat suatu modul sebagai prasyarat ke dalam berkas <code class="language-plaintext highlighter-rouge">package.json</code> (tambahkan <code class="language-plaintext highlighter-rouge">--dev</code> jika hendak menyimpannya sebagai prasyarat khusus tahap pengembangan):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_modul</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versi</span></p>
+
+<ul>
+  <li>Hapus pemasangan modul beserta entrinya dalam berkas <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_modul</span></p>
+
+<ul>
+  <li>Membuat berkas <code class="language-plaintext highlighter-rouge">package.json</code> secara interaktif:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn init</code></p>
+
+<ul>
+  <li>Periksa apakah suatu modul merupakan suatu prasyarat serta tampilkan daftar modul lainnya yang bergantung kepadanya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn why </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_modul</span></p>

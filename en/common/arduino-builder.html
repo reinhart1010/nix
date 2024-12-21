@@ -1,0 +1,35 @@
+<h1 id="arduino-builder">arduino-builder</h1>
+
+<p>Compile arduino sketches.
+DEPRECATION WARNING: this tool is being phased out in favor of <code class="language-plaintext highlighter-rouge">arduino</code>.
+More information: <a href="https://github.com/arduino/arduino-builder">https://github.com/arduino/arduino-builder</a>.</p>
+
+<ul>
+  <li>Compile a sketch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -compile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/sketch.ino</span></p>
+
+<ul>
+  <li>Specify the debug level (default: 5):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -debug-level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1..10</span></p>
+
+<ul>
+  <li>Specify a custom build directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -build-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/build_directory</span></p>
+
+<ul>
+  <li>Use a build option file, instead of specifying <code class="language-plaintext highlighter-rouge">-hardware</code>, <code class="language-plaintext highlighter-rouge">-tools</code>, etc. manually every time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -build-options-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/build.options.json</span></p>
+
+<ul>
+  <li>Enable verbose mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span></p>

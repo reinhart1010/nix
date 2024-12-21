@@ -1,0 +1,28 @@
+<h1 id="asciidoctor">asciidoctor</h1>
+
+<p>Convert AsciiDoc files to a publishable format.
+More information: <a href="https://docs.asciidoctor.org">https://docs.asciidoctor.org</a>.</p>
+
+<ul>
+  <li>Convert a specific <code class="language-plaintext highlighter-rouge">.adoc</code> file to HTML (the default output format):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciidoctor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.adoc</span></p>
+
+<ul>
+  <li>Convert a specific <code class="language-plaintext highlighter-rouge">.adoc</code> file to HTML and link a CSS stylesheet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciidoctor -a stylesheet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/stylesheet.css</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.adoc</span></p>
+
+<ul>
+  <li>Convert a specific <code class="language-plaintext highlighter-rouge">.adoc</code> file to embeddable HTML, removing everything except the body:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciidoctor --embedded </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.adoc</span></p>
+
+<ul>
+  <li>Convert a specific <code class="language-plaintext highlighter-rouge">.adoc</code> file to a PDF using the <code class="language-plaintext highlighter-rouge">asciidoctor-pdf</code> library:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciidoctor --backend </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span><code class="language-plaintext highlighter-rouge"> --require </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">asciidoctor-pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.adoc</span></p>

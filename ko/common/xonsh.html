@@ -1,0 +1,41 @@
+<h1 id="xonsh">xonsh</h1>
+
+<p>Python 기반의 크로스 플랫폼 및 Unix 지향 셸.
+Xonsh(발음: conch)에서 sh/Python 코드를 작성하고 혼합할 수 있습니다.
+더 많은 정보: <a href="https://xon.sh">https://xon.sh</a>.</p>
+
+<ul>
+  <li>대화형 셸 세션 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xonsh</code></p>
+
+<ul>
+  <li>단일 명령 실행 후 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xonsh -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>스크립트 파일에서 명령을 실행하고 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xonsh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트_파일.xonsh</span></p>
+
+<ul>
+  <li>셸 프로세스를 위한 환경 변수를 정의:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xonsh -D</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름1</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값1</span><code class="language-plaintext highlighter-rouge"> -D</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름2</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값2</span></p>
+
+<ul>
+  <li>지정된 <code class="language-plaintext highlighter-rouge">.xonsh</code> 또는 <code class="language-plaintext highlighter-rouge">.json</code> 설정 파일 로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xonsh --rc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.xonsh</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2.json</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.xonshrc</code> 설정 파일 로딩 건너뜀:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xonsh --no-rc</code></p>

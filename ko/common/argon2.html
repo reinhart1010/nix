@@ -1,0 +1,28 @@
+<h1 id="argon2">argon2</h1>
+
+<p>Argon2 암호화 해시 계산.
+더 많은 정보: <a href="https://github.com/P-H-C/phc-winner-argon2#command-line-utility">https://github.com/P-H-C/phc-winner-argon2#command-line-utility</a>.</p>
+
+<ul>
+  <li>기본 매개변수를 사용하여 비밀번호와 솔트를 사용하여 해시를 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">솔트_문자</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>지정된 알고리즘을 사용하여 해시 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">솔트_문자</span><code class="language-plaintext highlighter-rouge">" -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">d|i|id</span></p>
+
+<ul>
+  <li>추가 정보 없이 출력 해시 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">솔트_문자</span><code class="language-plaintext highlighter-rouge">" -e</code></p>
+
+<ul>
+  <li>주어진 반복 <a href="시간">t</a>, <a href="메모리 사용량">m</a> 및 <a href="병렬성 매개변수">p</a>를 사용하여 해시를 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">솔트_문자</span><code class="language-plaintext highlighter-rouge">" -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7</span></p>

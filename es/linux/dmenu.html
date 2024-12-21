@@ -1,0 +1,35 @@
+<h1 id="dmenu">dmenu</h1>
+
+<p>Menú dinámico.
+Crea un menú a partir de una entrada de texto con cada elemento, en una nueva línea.
+Más información: <a href="https://manned.org/dmenu">https://manned.org/dmenu</a>.</p>
+
+<ul>
+  <li>Muestra un menú a partir de la salida del comando 'ls':</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls</span><code class="language-plaintext highlighter-rouge"> | dmenu</code></p>
+
+<ul>
+  <li>Muestra un menú con artículos personalizados separados por una nueva línea (<code class="language-plaintext highlighter-rouge">\n</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rojo</span><code class="language-plaintext highlighter-rouge">\n</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">verde</span><code class="language-plaintext highlighter-rouge">\n</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">azul</span><code class="language-plaintext highlighter-rouge">" | dmenu</code></p>
+
+<ul>
+  <li>Deja que el usuario elija entre varios elementos y guarda el seleccionado en un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rojo</span><code class="language-plaintext highlighter-rouge">\n</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">verde</span><code class="language-plaintext highlighter-rouge">\n</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">azul</span><code class="language-plaintext highlighter-rouge">" | dmenu &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">color.txt</span></p>
+
+<ul>
+  <li>Lanza dmenu en un monitor específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls | dmenu -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Muestra dmenu en la parte inferior de la pantalla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls | dmenu -b</code></p>

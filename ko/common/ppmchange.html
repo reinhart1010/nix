@@ -1,0 +1,22 @@
+<h1 id="ppmchange">ppmchange</h1>
+
+<p>PPM 이미지에서 특정 색상의 모든 픽셀을 다른 색상으로 변경.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/ppmchange.html">https://netpbm.sourceforge.net/doc/ppmchange.html</a>.</p>
+
+<ul>
+  <li>각 <code class="language-plaintext highlighter-rouge">옛색상</code> - <code class="language-plaintext highlighter-rouge">새색상</code> 쌍에서 첫 번째 색상을 두 번째 색상으로 교체:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmchange </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">옛색상1 새색상1 옛색상2 새색상2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.ppm</span></p>
+
+<ul>
+  <li>동일하다고 간주되기 위한 색상의 유사도를 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmchange -closeness </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">퍼센트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">옛색상1 새색상1 옛색상2 새색상2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.ppm</span></p>
+
+<ul>
+  <li>인수에 지정되지 않은 모든 픽셀을 특정 색상으로 대체:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmchange -remainder </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">색상</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">옛색상1 새색상1 옛색상2 새색상2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.ppm</span></p>

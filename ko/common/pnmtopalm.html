@@ -1,0 +1,34 @@
+<h1 id="pnmtopalm">pnmtopalm</h1>
+
+<p>PNM 이미지를 Palm 비트맵으로 변환.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/pnmtopalm.html">https://netpbm.sourceforge.net/doc/pnmtopalm.html</a>.</p>
+
+<ul>
+  <li>PNM 이미지를 Palm 비트맵으로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtopalm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.palm</span></p>
+
+<ul>
+  <li>결과 비트맵의 색상 깊이 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtopalm -depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|4|8|16</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.palm</span></p>
+
+<ul>
+  <li>결과 비트맵에 대한 압축 방법 선택:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtopalm -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scanline_compression|rle_compression|packbits_compression</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.palm</span></p>
+
+<ul>
+  <li>사용자 지정 색상 맵을 생성하고 결과 비트맵에 포함:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtopalm -colormap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.palm</span></p>
+
+<ul>
+  <li>비트맵의 밀도 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtopalm -density </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">72|108|144|216|288</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.palm</span></p>

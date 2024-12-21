@@ -1,0 +1,40 @@
+<h1 id="filefrag">filefrag</h1>
+
+<p>Report how badly fragmented a particular file might be.
+More information: <a href="https://manned.org/filefrag">https://manned.org/filefrag</a>.</p>
+
+<ul>
+  <li>Display a report for one or more files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filefrag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Display a report using a 1024 byte blocksize:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filefrag -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Display a report using a certain blocksize:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filefrag -b</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024|1K|1M|1G|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Sync the file before requesting the mapping:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filefrag -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Display mapping of extended attributes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filefrag -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Display a report with verbose information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filefrag -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>

@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="arp">arp</h1>
+
+<p>Den ARP Cache des Systems anzeigen und manipulieren.
+Weitere Informationen: <a href="https://manned.org/arp">https://manned.org/arp</a>.</p>
+
+<ul>
+  <li>Zeige die aktuelle ARP Tabelle an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arp -a</code></p>
+
+<ul>
+  <li>Leere den gesamten Cache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo arp -a -d</code></p>
+
+<ul>
+  <li>Lösche einen spezifischen Eintrag in der Tabelle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arp -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">addresse</span></p>
+
+<ul>
+  <li>Erstelle einen Eintrag in der ARP Tabelle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arp -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adresse</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac_adresse</span></p>

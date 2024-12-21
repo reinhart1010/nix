@@ -1,0 +1,22 @@
+<h1 id="aplay">aplay</h1>
+
+<p>Konsolowy odtwarzacz dźwięku dla sterownika dźwiękowego ALSA.
+Więcej informacji: <a href="https://manned.org/aplay">https://manned.org/aplay</a>.</p>
+
+<ul>
+  <li>Odtwórz określony plik (częstotliwość próbkowania, ilość bitów, itd. będą określane automatycznie na podstawie formatu):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aplay </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span></p>
+
+<ul>
+  <li>Odtwórz pierwsze 10 sekund określonego pliku z częstotliwością 2500 Hz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aplay --duration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> --rate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2500</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span></p>
+
+<ul>
+  <li>Odtwórz surowy plik jako plik Mu-Law <code class="language-plaintext highlighter-rouge">.au</code>, 22050 Hz, mono, 8-bit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aplay --channels=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> --file-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raw</span><code class="language-plaintext highlighter-rouge"> --rate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22050</span><code class="language-plaintext highlighter-rouge"> --format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mu_law</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span></p>

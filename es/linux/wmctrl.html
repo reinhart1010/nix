@@ -1,0 +1,40 @@
+<h1 id="wmctrl">wmctrl</h1>
+
+<p>CLI para X Window Manager.
+Más información: <a href="https://manned.org/wmctrl">https://manned.org/wmctrl</a>.</p>
+
+<ul>
+  <li>Lista todas las ventanas, gestionadas por el gestor de ventanas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wmctrl -l</code></p>
+
+<ul>
+  <li>Cambia a la primera ventana cuyo título (parcial) coincida:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wmctrl -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">título_ventana</span></p>
+
+<ul>
+  <li>Mueve una ventana al espacio de trabajo actual, levántala y dale foco:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wmctrl -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">título_ventana</span></p>
+
+<ul>
+  <li>Cambia a un espacio de trabajo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wmctrl -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_de_espacio_de_trabajo</span></p>
+
+<ul>
+  <li>Selecciona una ventana y activa la pantalla completa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wmctrl -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">título_ventana</span><code class="language-plaintext highlighter-rouge"> -b toggle,fullscreen</code></p>
+
+<ul>
+  <li>Selecciona una ventana y muévela a un espacio de trabajo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wmctrl -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">título_ventana</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_de_espacio_de_trabajo</span></p>

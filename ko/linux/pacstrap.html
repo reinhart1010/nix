@@ -1,0 +1,52 @@
+<h1 id="pacstrap">pacstrap</h1>
+
+<p>Arch Linux 설치 스크립트로, 지정된 새로운 루트 디렉터리에 패키지를 설치합니다.
+더 많은 정보: <a href="https://manned.org/pacstrap.8">https://manned.org/pacstrap.8</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">base</code> 패키지, 리눅스 커널 및 일반 하드웨어용 펌웨어 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacstrap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/새로운/루트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linux</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linux-firmware</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">base</code> 패키지, 리눅스 LTS 커널 및 <code class="language-plaintext highlighter-rouge">base-devel</code> 빌드 도구 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacstrap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/새로운/루트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base-devel</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linux-lts</span></p>
+
+<ul>
+  <li>호스트의 미러리스트를 대상에 복사하지 않고 패키지 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacstrap -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/새로운/루트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지들</span></p>
+
+<ul>
+  <li>Pacman의 대체 설정 파일 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacstrap -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/pacman.conf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/새로운/루트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지들</span></p>
+
+<ul>
+  <li>대상이 아닌 호스트의 패키지 캐시를 사용하여 패키지 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacstrap -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/새로운/루트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지들</span></p>
+
+<ul>
+  <li>호스트에서 복사하지 않고 대상에서 빈 <code class="language-plaintext highlighter-rouge">pacman</code> 키링 초기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacstrap -K </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/새로운/루트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지들</span></p>
+
+<ul>
+  <li>대화형 모드로 패키지 설치 (확인 요청):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacstrap -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/새로운/루트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지들</span></p>
+
+<ul>
+  <li>패키지 파일을 사용하여 패키지 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacstrap -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/새로운/루트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/패키지1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/패키지2</span></p>

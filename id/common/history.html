@@ -1,0 +1,40 @@
+<h1 id="history">history</h1>
+
+<p>Tampilkan riwayat penugasan baris perintah (command-line).
+Informasi lebih lanjut: <a href="https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html">https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html</a>.</p>
+
+<ul>
+  <li>Tampilkan riwayat penugasan baris perintah beserta angka baris:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">history</code></p>
+
+<ul>
+  <li>Tampilkan 20 perintah tugas terakhir (di Zsh perintah ini menampilkan semua perintah-perintah sejak dari baris ke-20):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">history </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span></p>
+
+<ul>
+  <li>Tampilkan riwayat dengan format tanggal dan waktu tertentu (hanya tersedia dalam Zsh):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">history -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">d|f|i|E</span></p>
+
+<ul>
+  <li>Hapus seluruh riwayat perintah penugasan (hanya untuk sesi shell Bash saat ini):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">history -c</code></p>
+
+<ul>
+  <li>Tulis ulang berkas dengan riwayat sesi shell Bash saat ini (seringkali dikombinasikan dengan <code class="language-plaintext highlighter-rouge">history -c</code> untuk menghapus riwayat):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">history -w</code></p>
+
+<ul>
+  <li>Hapus entri riwayat pada offset tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">history -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">offset</span></p>

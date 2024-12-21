@@ -1,0 +1,41 @@
+<h1 id="gcov">gcov</h1>
+
+<p>프로그램의 테스트되지 않은 부분을 발견하는 코드 커버리지 분석 및 프로파일링 도구.
+코드 세그먼트의 실행 빈도로 주석이 추가된 소스 코드의 복사본도 표시합니다.
+더 많은 정보: <a href="https://gcc.gnu.org/onlinedocs/gcc/Invoking-Gcov.html">https://gcc.gnu.org/onlinedocs/gcc/Invoking-Gcov.html</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">file.cpp.gcov</code>라는 이름의 커버리지 보고서 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcov </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/file.cpp</span></p>
+
+<ul>
+  <li>각 기본 블록에 대한 개별 실행 횟수 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcov --all-blocks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.cpp</span></p>
+
+<ul>
+  <li>분기 빈도를 출력 파일에 기록하고 요약 정보를 백분율로 <code class="language-plaintext highlighter-rouge">stdout</code>에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcov --branch-probabilities </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.cpp</span></p>
+
+<ul>
+  <li>백분율이 아닌 실행된 분기의 수로 분기 빈도 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcov --branch-counts </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.cpp</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">gcov</code> 출력 파일 생성 안 함:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcov --no-output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.cpp</span></p>
+
+<ul>
+  <li>파일 수준 및 함수 수준 요약을 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcov --function-summaries </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.cpp</span></p>

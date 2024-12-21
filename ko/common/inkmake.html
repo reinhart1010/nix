@@ -1,0 +1,34 @@
+<h1 id="inkmake">inkmake</h1>
+
+<p>Inkscape의 백엔드를 사용하여 GNU Makefile 스타일 SVG 내보내기.
+더 많은 정보: <a href="https://github.com/wader/inkmake">https://github.com/wader/inkmake</a>.</p>
+
+<ul>
+  <li>지정된 Inkfile을 실행하는 SVG 파일 내보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inkmake </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/Inkfile</span></p>
+
+<ul>
+  <li>Inkfile을 실행하고 자세한 정보를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inkmake --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/Inkfile</span></p>
+
+<ul>
+  <li>SVG 입력 파일과 출력 파일을 지정하여, Inkfile을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inkmake --svg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.svg</span><code class="language-plaintext highlighter-rouge"> --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_이미지</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/Inkfile</span></p>
+
+<ul>
+  <li>사용자 정의 Inkscape 바이너리를 백엔드로 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inkmake --inkscape </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/Applications/Inkscape.app/Contents/Resources/bin/inkscape</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/Inkfile</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inkmake --help</code></p>

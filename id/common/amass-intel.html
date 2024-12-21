@@ -1,0 +1,46 @@
+<h1 id="amass-intel">amass intel</h1>
+
+<p>Kumpulkan data pendukung pengintaian bersumber terbuka (OSI) terhadap suatu organisasi, seperti domain pangkal dan informasi Nomor Sistem Otonom (ASN).
+Informasi lebih lanjut: <a href="https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-intel-subcommand">https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-intel-subcommand</a>.</p>
+
+<ul>
+  <li>Cari para domain pangkal yang berkaitan dengan rentang alamat ([addr]ess) IP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass intel -addr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1-254</span></p>
+
+<ul>
+  <li>Gunakan metode pengintaian secara aktif:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass intel -active -addr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1-254</span></p>
+
+<ul>
+  <li>Cari para domain pangkal yang berkaitan dengan suatu [d]omain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass intel -whois -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_domain</span></p>
+
+<ul>
+  <li>Cari para pihak ASN yang berkaitan dengan suatu [org]anisasi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass intel -org </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_organisasi</span></p>
+
+<ul>
+  <li>Cari daftar domain yang dipegang oleh suatu pihak Nomor Sistem Otonom (ASN) berdasarkan nomornya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass intel -asn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nomor_asn</span></p>
+
+<ul>
+  <li>Simpan hasil pencarian ke dalam suatu berkas teks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass intel -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">berkas_output</span><code class="language-plaintext highlighter-rouge"> -whois -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_domain</span></p>
+
+<ul>
+  <li>Tampilkan daftar sumber pencarian data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass intel -list</code></p>

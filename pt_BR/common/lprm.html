@@ -1,0 +1,35 @@
+<h1 id="lprm">lprm</h1>
+
+<p>Cancela trabalhos de impressão na fila de um servidor.
+Veja também: <code class="language-plaintext highlighter-rouge">lpq</code>.
+Mais informações: <a href="https://openprinting.github.io/cups/doc/man-lprm.html">https://openprinting.github.io/cups/doc/man-lprm.html</a>.</p>
+
+<ul>
+  <li>Cancela o trabalho atual na impressora padrão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lprm</code></p>
+
+<ul>
+  <li>Cancela um trabalho de um servidor específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lprm -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor[:porta]</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_do_trabalho</span></p>
+
+<ul>
+  <li>Cancela múltiplos trabalhos com uma conexão criptografada com o servidor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lprm -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_do_trabalho1 id_do_trabalho2 …</span></p>
+
+<ul>
+  <li>Cancela todos os trabalhos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lprm -</code></p>
+
+<ul>
+  <li>Cancela o trabalho atual de uma impressora ou classe específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lprm -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino[/instância]</span></p>

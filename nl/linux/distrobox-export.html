@@ -1,0 +1,34 @@
+<h1 id="distrobox-export">distrobox-export</h1>
+
+<p>Exporteer app/service/binary van container naar host-besturingssysteem. Bekijk ook: <code class="language-plaintext highlighter-rouge">tldr distrobox</code>.
+Meer informatie: <a href="https://distrobox.it/usage/distrobox-export">https://distrobox.it/usage/distrobox-export</a>.</p>
+
+<ul>
+  <li>Exporteer een app van de container naar de host (het desktop pictogram verschijnt in de applicatielijst van uw hostsysteem):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-export --app </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span><code class="language-plaintext highlighter-rouge"> --extra-flags "--foreground"</code></p>
+
+<ul>
+  <li>Exporteer een binary van de container naar de host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-export --bin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/binary</span><code class="language-plaintext highlighter-rouge"> --export-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/binary_on_host</span></p>
+
+<ul>
+  <li>Exporteer een binary van de container naar de host (bijv.<code class="language-plaintext highlighter-rouge">$HOME/.local/bin</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-export --bin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/binary</span><code class="language-plaintext highlighter-rouge"> --export-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/export</span></p>
+
+<ul>
+  <li>Exporteer een service van de container naar de host (<code class="language-plaintext highlighter-rouge">--sudo</code> zal de service uitvoeren als root in de container):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-export --service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span><code class="language-plaintext highlighter-rouge"> --extra-flags "--allow-newer-config" --sudo</code></p>
+
+<ul>
+  <li>Verwijder een geëxporteerde applicatie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-export --app </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span><code class="language-plaintext highlighter-rouge"> --delete</code></p>

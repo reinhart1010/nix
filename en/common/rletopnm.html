@@ -1,0 +1,22 @@
+<h1 id="rletopnm">rletopnm</h1>
+
+<p>Convert a Utah Raster Tools RLE image file to a PNM file.
+More information: <a href="https://netpbm.sourceforge.net/doc/rletopnm.html">https://netpbm.sourceforge.net/doc/rletopnm.html</a>.</p>
+
+<ul>
+  <li>Convert an RLE image to a PNM file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rletopnm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.rle</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Create a PGM image containing the RLE file's alpha channel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rletopnm -alphaout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/alpha_file.pgm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.rle</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Operate in verbose mode and print the contents of the RLE header to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rletopnm -verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.rle</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>

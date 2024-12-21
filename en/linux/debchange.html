@@ -1,0 +1,22 @@
+<h1 id="debchange">debchange</h1>
+
+<p>Mantain the debian/changelog file of a Debian source package.
+More information: <a href="https://manned.org/debchange.1">https://manned.org/debchange.1</a>.</p>
+
+<ul>
+  <li>Add a new version for a non-maintainer upload to the changelog:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debchange --nmu</code></p>
+
+<ul>
+  <li>Add a changelog entry to the current version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debchange --append</code></p>
+
+<ul>
+  <li>Add a changelog entry to close the bug with specified ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debchange --closes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bug_id</span></p>

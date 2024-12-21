@@ -1,0 +1,40 @@
+<h1 id="unzip">unzip</h1>
+
+<p>Ferramenta de descompactação de arquivos zip.
+Mais informações: <a href="https://manned.org/unzip">https://manned.org/unzip</a>.</p>
+
+<ul>
+  <li>Extrai arquivos zip:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1.zip caminho/para/arquivo2.zip …</span></p>
+
+<ul>
+  <li>Extrai arquivos zip para caminhos específicos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1.zip caminho/para/arquivo2.zip …</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/saída</span></p>
+
+<ul>
+  <li>Extrai arquivos/diretórios de arquivos para <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1.zip caminho/para/arquivo2.zip …</span></p>
+
+<ul>
+  <li>Extrai o conteúdo do(s) arquivo(s) para <code class="language-plaintext highlighter-rouge">stdout</code> ao lado dos nomes dos arquivos extraídos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gbk</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1.zip caminho/para/arquivo2.zip …</span></p>
+
+<ul>
+  <li>Lista conteúdos de arquivos zip:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.zip</span></p>
+
+<ul>
+  <li>Extrai arquivos zip sem a estrutura dos diretórios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1 caminho/para/arquivo2 …</span></p>

@@ -1,0 +1,22 @@
+<h1 id="erl">erl</h1>
+
+<p>Run and manage programs in the Erlang programming language.
+More information: <a href="https://www.erlang.org">https://www.erlang.org</a>.</p>
+
+<ul>
+  <li>Compile and run sequential Erlang program as a common script and then exit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">erlc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; erl -noshell '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mymodule:myfunction(arguments)</span><code class="language-plaintext highlighter-rouge">, init:stop().'</code></p>
+
+<ul>
+  <li>Connect to a running Erlang node:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">erl -remsh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nodename</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> -sname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">custom_shortname</span><code class="language-plaintext highlighter-rouge"> -hidden -setcookie </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cookie_of_remote_node</span></p>
+
+<ul>
+  <li>Tell the Erlang shell to load modules from a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">erl -pa </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory_with_beam_files</span></p>

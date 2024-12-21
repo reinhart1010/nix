@@ -1,0 +1,28 @@
+<h1 id="ppmfade">ppmfade</h1>
+
+<p>두 개의 PPM 이미지 간의 전환을 생성.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/ppmfade.html">https://netpbm.sourceforge.net/doc/ppmfade.html</a>.</p>
+
+<ul>
+  <li>지정된 효과를 사용하여 두 PPM 이미지([f]irst 및 [l]ast) 간의 전환 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmfade -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지1.ppm</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지2.ppm</span><code class="language-plaintext highlighter-rouge"> -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mix|spread|shift|relief|oil|…</span></p>
+
+<ul>
+  <li>지정된 이미지로 시작하여 검은색 단색 이미지로 끝나는 전환 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmfade -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.ppm</span><code class="language-plaintext highlighter-rouge"> -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mix|spread|shift|relief|oil|…</span></p>
+
+<ul>
+  <li>검은색 단색 이미지로 시작하여 지정된 이미지로 끝나는 전환 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmfade -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.ppm</span><code class="language-plaintext highlighter-rouge"> -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mix|spread|shift|relief|oil|…</span></p>
+
+<ul>
+  <li>결과 이미지를 <code class="language-plaintext highlighter-rouge">base.NNNN.ppm</code> 형식의 파일에 저장 (<code class="language-plaintext highlighter-rouge">NNNN</code>은 증가하는 숫자):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmfade -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지1.ppm</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지2.ppm</span><code class="language-plaintext highlighter-rouge"> -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mix|spread|shift|relief|oil|…</span><code class="language-plaintext highlighter-rouge"> -base </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base</span></p>

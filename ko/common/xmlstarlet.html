@@ -1,0 +1,53 @@
+<h1 id="xmlstarlet">xmlstarlet</h1>
+
+<p>명령줄 XML/XSLT 도구 모음.
+참고: XPath를 알아야 할 수도 있습니다: <a href="https://developer.mozilla.org/en-US/docs/Web/XPath">https://developer.mozilla.org/en-US/docs/Web/XPath</a>.
+더 많은 정보: <a href="https://xmlstar.sourceforge.net/docs.php">https://xmlstar.sourceforge.net/docs.php</a>.</p>
+
+<ul>
+  <li>XML 문서를 포맷하여 <code class="language-plaintext highlighter-rouge">stdout</code>에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmlstarlet format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.xml</span></p>
+
+<ul>
+  <li>XML 문서를 <code class="language-plaintext highlighter-rouge">stdin</code>에서 파이프로 입력할 수도 있음:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat 경로/대상/파일.xml</span><code class="language-plaintext highlighter-rouge"> | xmlstarlet format</code></p>
+
+<ul>
+  <li>주어진 XPath와 일치하는 모든 노드 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmlstarlet select --template --copy-of </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xpath</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.xml</span></p>
+
+<ul>
+  <li>일치하는 모든 노드에 속성을 삽입하고 <code class="language-plaintext highlighter-rouge">stdout</code>에 출력 (원본 파일은 변경되지 않음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmlstarlet edit --insert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xpath</span><code class="language-plaintext highlighter-rouge"> --type attr --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">속성_이름</span><code class="language-plaintext highlighter-rouge"> --value </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">속성_값</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.xml</span></p>
+
+<ul>
+  <li>일치하는 모든 노드의 값을 직접 업데이트 (원본 파일이 변경됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmlstarlet edit --inplace --update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xpath</span><code class="language-plaintext highlighter-rouge"> --value </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새로운_값</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.xml</span></p>
+
+<ul>
+  <li>일치하는 모든 노드 삭제 (원본 파일이 변경됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmlstarlet edit --inplace --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xpath</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.xml</span></p>
+
+<ul>
+  <li>주어진 문자열의 특수 XML 문자를 이스케이프 또는 언이스케이프:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmlstarlet [un]escape </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span></p>
+
+<ul>
+  <li>주어진 디렉토리를 XML로 나열 (인수를 생략하면 현재 디렉토리를 나열):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmlstarlet ls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>

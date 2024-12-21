@@ -1,0 +1,28 @@
+<h1 id="select">select</h1>
+
+<p>메뉴를 생성하기 위한 Bash 내장 구조.
+더 많은 정보: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-select">https://www.gnu.org/software/bash/manual/bash.html#index-select</a>.</p>
+
+<ul>
+  <li>개별 단어로 메뉴 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">select </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">단어</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사과 오렌지 배 바나나</span><code class="language-plaintext highlighter-rouge">; do echo $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">단어</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li>다른 명령의 출력으로 메뉴 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">select </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">줄</span><code class="language-plaintext highlighter-rouge"> in $(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span><code class="language-plaintext highlighter-rouge">); do echo $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">줄</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">select</code>의 프롬프트 문자열을 지정하고 현재 디렉토리에서 파일이나 폴더를 선택하는 메뉴 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">PS3="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일을 선택하세요: </span><code class="language-plaintext highlighter-rouge">"; select </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일</span><code class="language-plaintext highlighter-rouge"> in *; do echo $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li>Bash 배열로 메뉴 생성:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">과일들</span><code class="language-plaintext highlighter-rouge">=(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사과 오렌지 배 바나나</span><code class="language-plaintext highlighter-rouge">); select </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">단어</span><code class="language-plaintext highlighter-rouge"> in $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{과일들[@]}</span><code class="language-plaintext highlighter-rouge">; do echo $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">단어</span><code class="language-plaintext highlighter-rouge">; done</code></p>

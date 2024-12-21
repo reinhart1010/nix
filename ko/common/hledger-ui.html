@@ -1,0 +1,46 @@
+<h1 id="hledger-ui">hledger-ui</h1>
+
+<p><code class="language-plaintext highlighter-rouge">hledger</code>의 터미널 인터페이스(TUI), 강력하고 친숙한 일반 텍스트 회계 앱.
+더 많은 정보: <a href="https://hledger.org/hledger-ui.html">https://hledger.org/hledger-ui.html</a>.</p>
+
+<ul>
+  <li>기본 저널 파일을 읽어 메인 메뉴 화면에서 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger-ui</code></p>
+
+<ul>
+  <li>다른 색상 테마로 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger-ui --theme </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">terminal|greenterm|dark</span></p>
+
+<ul>
+  <li>대차대조표 계정 화면에서 시작하고, 계층 구조를 3단계까지 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger-ui --bs --tree --depth 3</code></p>
+
+<ul>
+  <li>이 계정의 화면에서 시작하고, 정리된 거래를 표시하며 변경 시 다시 로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger-ui --register </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">assets:bank:checking</span><code class="language-plaintext highlighter-rouge"> --cleared --watch</code></p>
+
+<ul>
+  <li>두 개의 저널 파일을 읽고, 알려진 경우 현재 가치로 금액을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger-ui --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/2024.journal</span><code class="language-plaintext highlighter-rouge"> --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/2024-prices.journal</span><code class="language-plaintext highlighter-rouge"> --value now</code></p>
+
+<ul>
+  <li>가능한 경우 Info 형식으로 매뉴얼 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger-ui --info</code></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger-ui --help</code></p>

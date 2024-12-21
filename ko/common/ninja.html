@@ -1,0 +1,34 @@
+<h1 id="ninja">ninja</h1>
+
+<p>빠른 빌드를 위해 설계된 빌드 시스템.
+더 많은 정보: <a href="https://ninja-build.org/manual.html">https://ninja-build.org/manual.html</a>.</p>
+
+<ul>
+  <li>현재 디렉토리에서 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ninja</code></p>
+
+<ul>
+  <li>현재 디렉토리에서 빌드하고, 동시에 4개의 작업을 병렬로 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ninja -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span></p>
+
+<ul>
+  <li>주어진 디렉토리에서 프로그램 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ninja -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>대상 표시 (예: <code class="language-plaintext highlighter-rouge">install</code> 및 <code class="language-plaintext highlighter-rouge">uninstall</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ninja -t targets</code></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ninja -h</code></p>

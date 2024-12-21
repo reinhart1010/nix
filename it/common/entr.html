@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="entr">entr</h1>
+
+<p>Esegui comandi arbitrari al cambiamento di file.
+Maggiori informazioni: <a href="https://eradman.com/entrproject/">https://eradman.com/entrproject/</a>.</p>
+
+<ul>
+  <li>Ricompila con <code class="language-plaintext highlighter-rouge">make</code> se qualsiasi file in quasiasi sottodirectory cambia:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ag -l</span><code class="language-plaintext highlighter-rouge"> | entr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make</span></p>
+
+<ul>
+  <li>Ricompila e testa con <code class="language-plaintext highlighter-rouge">make</code> se qualsiasi file sorgente <code class="language-plaintext highlighter-rouge">.c</code> nella directory corrente cambia:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls *.c</span><code class="language-plaintext highlighter-rouge"> | entr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'make &amp;&amp; make test'</span></p>
+
+<ul>
+  <li>Invia il segnale <code class="language-plaintext highlighter-rouge">SIGTERM</code> ad un sottoprocesso ruby precedentemente avviato prima di eseguire <code class="language-plaintext highlighter-rouge">ruby main.rb</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls *.rb</span><code class="language-plaintext highlighter-rouge"> | entr -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby main.rb</span></p>
+
+<ul>
+  <li>Esegui un comando con il file cambiato (<code class="language-plaintext highlighter-rouge">/_</code>) come argomento:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls *.sql</span><code class="language-plaintext highlighter-rouge"> | entr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">psql -f</span><code class="language-plaintext highlighter-rouge"> /_</code></p>

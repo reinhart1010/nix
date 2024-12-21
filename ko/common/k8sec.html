@@ -1,0 +1,46 @@
+<h1 id="k8sec">k8sec</h1>
+
+<p>Kubernetes 시크릿 관리 도구.
+더 많은 정보: <a href="https://github.com/dtan4/k8sec">https://github.com/dtan4/k8sec</a>.</p>
+
+<ul>
+  <li>모든 시크릿 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k8sec list</code></p>
+
+<ul>
+  <li>특정 시크릿을 base64로 인코딩된 문자열로 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k8sec list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀_이름</span><code class="language-plaintext highlighter-rouge"> --base64</code></p>
+
+<ul>
+  <li>시크릿 값 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k8sec set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key=값</span></p>
+
+<ul>
+  <li>base64로 인코딩된 값 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k8sec set --base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key=인코딩된_값</span></p>
+
+<ul>
+  <li>시크릿 해제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k8sec unset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀_이름</span></p>
+
+<ul>
+  <li>파일에서 시크릿 불러오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k8sec load -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀_이름</span></p>
+
+<ul>
+  <li>파일로 시크릿 덤프:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k8sec dump -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀_이름</span></p>

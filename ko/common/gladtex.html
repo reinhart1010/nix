@@ -1,0 +1,47 @@
+<h1 id="gladtex">gladtex</h1>
+
+<p>HTML 파일용 LaTeX 수식 전처리기.
+LaTeX 수식을 이미지로 변환.
+더 많은 정보: <a href="https://manned.org/gladtex.1">https://manned.org/gladtex.1</a>.</p>
+
+<ul>
+  <li>HTML로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gladtex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력파일.htex</span></p>
+
+<ul>
+  <li>변환된 파일을 특정 위치에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gladtex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력파일.htex</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력파일.html</span></p>
+
+<ul>
+  <li>생성된 이미지를 특정 디렉토리([d]irectory)에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gladtex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력파일.htex</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지_출력_디렉토리</span></p>
+
+<ul>
+  <li>이미지 해상도([r]esolution) 설정 (dpi 단위, 기본값은 100):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gladtex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력파일.htex</span><code class="language-plaintext highlighter-rouge"> -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resolution</span></p>
+
+<ul>
+  <li>변환 후 LaTeX 파일 유지([k]eep) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gladtex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력파일.htex</span><code class="language-plaintext highlighter-rouge"> -k</code></p>
+
+<ul>
+  <li>이미지의 배경([b]ackground) 및 전경([f]oreground)색 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gladtex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력파일.htex</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">배경_색</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">전경_색</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">pandoc</code> 및 <code class="language-plaintext highlighter-rouge">gladtex</code>를 사용하여 마크다운을 HTML로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pandoc -s -t html --gladtex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력파일.md</span><code class="language-plaintext highlighter-rouge"> | gladtex -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력파일.html</span></p>

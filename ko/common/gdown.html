@@ -1,0 +1,34 @@
+<h1 id="gdown">gdown</h1>
+
+<p>Google Drive 및 기타 URL에서 파일을 다운로드.
+더 많은 정보: <a href="https://github.com/wkentaro/gdown">https://github.com/wkentaro/gdown</a>.</p>
+
+<ul>
+  <li>URL에서 파일 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주소</span></p>
+
+<ul>
+  <li>파일 ID를 사용하여 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_아이디</span></p>
+
+<ul>
+  <li>퍼지 파일 ID 추출을 사용하여 다운로드 (<a href="https://docs.google.com">https://docs.google.com</a> 링크에서도 작동):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdown --fuzzy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주소</span></p>
+
+<ul>
+  <li>해당 ID 또는 전체 URL을 사용하여 폴더를 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">폴더_아이디|주소</span><code class="language-plaintext highlighter-rouge"> -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_디렉토리</span><code class="language-plaintext highlighter-rouge"> --folder</code></p>
+
+<ul>
+  <li>tar 아카이브를 다운로드하고, <code class="language-plaintext highlighter-rouge">stdout</code>에 쓴 후 추출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tar압축파일_주소</span><code class="language-plaintext highlighter-rouge"> -O - --quiet | tar xvf -</code></p>

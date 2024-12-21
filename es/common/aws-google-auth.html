@@ -1,0 +1,28 @@
+<h1 id="aws-google-auth">aws-google-auth</h1>
+
+<p>Herramienta de línea de comandos para adquirir credenciales temporales de AWS (STS) utilizando Google Apps como proveedor federado (Single Sign-On).
+Más información: <a href="https://github.com/cevoaustralia/aws-google-auth">https://github.com/cevoaustralia/aws-google-auth</a>.</p>
+
+<ul>
+  <li>Inicia sesión con Google SSO utilizando los identificadores IDP y SP y establece la duración de las credenciales en una hora:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws-google-auth -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo@ejemplo.com</span><code class="language-plaintext highlighter-rouge"> -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$GOOGLE_IDP_ID</span><code class="language-plaintext highlighter-rouge"> -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$GOOGLE_SP_ID</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3600</span></p>
+
+<ul>
+  <li>Inicia sesión pregunt[a]ndo qué rol usar (en caso de varios roles disponibles SAML):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws-google-auth -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo@ejemplo.com</span><code class="language-plaintext highlighter-rouge"> -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$GOOGLE_IDP_ID</span><code class="language-plaintext highlighter-rouge"> -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$GOOGLE_SP_ID</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3600</span><code class="language-plaintext highlighter-rouge"> -a</code></p>
+
+<ul>
+  <li>Resuelve alias para cuentas AWS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws-google-auth -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo@ejemplo.com</span><code class="language-plaintext highlighter-rouge"> -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$GOOGLE_IDP_ID</span><code class="language-plaintext highlighter-rouge"> -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$GOOGLE_SP_ID</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3600</span><code class="language-plaintext highlighter-rouge"> -a --resolve-aliases</code></p>
+
+<ul>
+  <li>Muestra información de ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws-google-auth -h</code></p>

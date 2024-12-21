@@ -1,0 +1,47 @@
+<h1 id="hub">hub</h1>
+
+<p>A wrapper for Git that adds commands for working with GitHub-based projects.
+If set up as instructed by <code class="language-plaintext highlighter-rouge">hub alias</code>, one can use <code class="language-plaintext highlighter-rouge">git</code> to run <code class="language-plaintext highlighter-rouge">hub</code> commands.
+More information: <a href="https://hub.github.com">https://hub.github.com</a>.</p>
+
+<ul>
+  <li>Clone a repository using its slug (owners can omit the username):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hub clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo_name</span></p>
+
+<ul>
+  <li>Create a fork of the current repository (cloned from another user) under your GitHub profile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hub fork</code></p>
+
+<ul>
+  <li>Push the current local branch to GitHub and create a PR for it in the original repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hub push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; hub pull-request</code></p>
+
+<ul>
+  <li>Create a PR of the current (already pushed) branch, reusing the message from the first commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hub pull-request --no-edit</code></p>
+
+<ul>
+  <li>Create a new branch with the contents of a pull request and switch to it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hub pr checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pr_number</span></p>
+
+<ul>
+  <li>Upload the current (local-only) repository to your GitHub account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hub create</code></p>
+
+<ul>
+  <li>Fetch Git objects from upstream and update local branches:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hub sync</code></p>

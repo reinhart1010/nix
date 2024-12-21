@@ -1,0 +1,22 @@
+<h1 id="systemd-cgls">systemd-cgls</h1>
+
+<p>Show the contents of the selected Linux control group hierarchy in a tree.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/systemd-cgls.html">https://www.freedesktop.org/software/systemd/man/systemd-cgls.html</a>.</p>
+
+<ul>
+  <li>Display the whole control group hierarchy on your system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cgls</code></p>
+
+<ul>
+  <li>Display a control group tree of a specific resource controller:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cgls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu|memory|io</span></p>
+
+<ul>
+  <li>Display the control group hierarchy of one or more systemd units:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cgls --unit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unit1 unit2 …</span></p>

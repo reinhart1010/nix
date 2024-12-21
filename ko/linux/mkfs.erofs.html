@@ -1,0 +1,28 @@
+<h1 id="mkfserofs">mkfs.erofs</h1>
+
+<p>이미지 내에 EROFS 파일 시스템 생성.
+더 많은 정보: <a href="https://erofs.docs.kernel.org/en/latest/">https://erofs.docs.kernel.org/en/latest/</a>.</p>
+
+<ul>
+  <li>루트 디렉토리를 기반으로 EROFS 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.erofs image.erofs root/</code></p>
+
+<ul>
+  <li>특정 UUID를 가진 EROFS 이미지 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.erofs -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UUID</span><code class="language-plaintext highlighter-rouge"> image.erofs root/</code></p>
+
+<ul>
+  <li>압축된 EROFS 이미지 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.erofs -zlz4hc image.erofs root/</code></p>
+
+<ul>
+  <li>모든 파일의 소유자가 root인 EROFS 이미지 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.erofs --all-root image.erofs root/</code></p>

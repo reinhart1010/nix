@@ -1,0 +1,46 @@
+<h1 id="zgrep">zgrep</h1>
+
+<p>Grep text patterns from files within compressed file (equivalent to <code class="language-plaintext highlighter-rouge">grep -Z</code>).
+More information: <a href="https://manned.org/zgrep">https://manned.org/zgrep</a>.</p>
+
+<ul>
+  <li>Grep a pattern in a compressed file (case-sensitive):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed/file</span></p>
+
+<ul>
+  <li>Grep a pattern in a compressed file (case-insensitive):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed/file</span></p>
+
+<ul>
+  <li>Output count of lines containing matched pattern in a compressed file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed/file</span></p>
+
+<ul>
+  <li>Display the lines which don’t have the pattern present (Invert the search function):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed/file</span></p>
+
+<ul>
+  <li>Grep a compressed file for multiple patterns:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_1</span><code class="language-plaintext highlighter-rouge">" -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_2</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed/file</span></p>
+
+<ul>
+  <li>Use extended regular expressions (supporting <code class="language-plaintext highlighter-rouge">?</code>, <code class="language-plaintext highlighter-rouge">+</code>, <code class="language-plaintext highlighter-rouge">{}</code>, <code class="language-plaintext highlighter-rouge">()</code> and <code class="language-plaintext highlighter-rouge">|</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C|B|A</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed/file</span></p>

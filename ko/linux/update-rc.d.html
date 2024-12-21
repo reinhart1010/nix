@@ -1,0 +1,29 @@
+<h1 id="update-rcd">update-rc.d</h1>
+
+<p>System-V 스타일의 init 스크립트 링크를 설치하고 제거합니다.
+Init 스크립트는 <code class="language-plaintext highlighter-rouge">/etc/init.d/</code>에 있습니다.
+더 많은 정보: <a href="https://manned.org/update-rc.d">https://manned.org/update-rc.d</a>.</p>
+
+<ul>
+  <li>서비스 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">update-rc.d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mysql</span><code class="language-plaintext highlighter-rouge"> defaults</code></p>
+
+<ul>
+  <li>서비스 활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">update-rc.d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mysql</span><code class="language-plaintext highlighter-rouge"> enable</code></p>
+
+<ul>
+  <li>서비스 비활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">update-rc.d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mysql</span><code class="language-plaintext highlighter-rouge"> disable</code></p>
+
+<ul>
+  <li>서비스를 강제로 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">update-rc.d -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mysql</span><code class="language-plaintext highlighter-rouge"> remove</code></p>

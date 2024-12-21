@@ -1,0 +1,41 @@
+<h1 id="gcloud-container">gcloud container</h1>
+
+<p>Manage containerized applications on Kubernetes and clusters.
+See also: <code class="language-plaintext highlighter-rouge">gcloud</code>.
+More information: <a href="https://cloud.google.com/sdk/gcloud/reference/container">https://cloud.google.com/sdk/gcloud/reference/container</a>.</p>
+
+<ul>
+  <li>Register <code class="language-plaintext highlighter-rouge">gcloud</code> as a Docker credential helper:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud auth configure-docker</code></p>
+
+<ul>
+  <li>Create a cluster to run GKE containers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud container clusters create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span></p>
+
+<ul>
+  <li>List clusters for running GKE containers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud container clusters list</code></p>
+
+<ul>
+  <li>Update kubeconfig to get <code class="language-plaintext highlighter-rouge">kubectl</code> to use a GKE cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud container clusters get-credentials </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span></p>
+
+<ul>
+  <li>List tag and digest metadata for a container image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud container images list-tags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span></p>
+
+<ul>
+  <li>Describe an existing cluster for running containers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud container clusters describe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span></p>

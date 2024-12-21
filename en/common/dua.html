@@ -1,0 +1,46 @@
+<h1 id="dua">dua</h1>
+
+<p>Dua (Disk Usage Analyzer): get the disk space usage of a directory.
+More information: <a href="https://github.com/Byron/dua-cli">https://github.com/Byron/dua-cli</a>.</p>
+
+<ul>
+  <li>Analyze specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dua </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Display apparent size instead of disk usage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dua --apparent-size</code></p>
+
+<ul>
+  <li>Count hard-linked files each time they are seen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dua --count-hard-links</code></p>
+
+<ul>
+  <li>Aggregate the consumed space of one or more directories or files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dua aggregate</code></p>
+
+<ul>
+  <li>Launch the terminal user interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dua interactive</code></p>
+
+<ul>
+  <li>Format printing byte counts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dua --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">metric|binary|bytes|GB|GiB|MB|MiB</span></p>
+
+<ul>
+  <li>Use a specific number of threads (defaults to the process number of threads):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dua --threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span></p>

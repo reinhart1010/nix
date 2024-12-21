@@ -1,0 +1,40 @@
+<h1 id="chkconfig">chkconfig</h1>
+
+<p>CentOS 6에서 서비스의 실행 레벨을 관리합니다.
+더 많은 정보: <a href="https://manned.org/chkconfig">https://manned.org/chkconfig</a>.</p>
+
+<ul>
+  <li>서비스와 실행 레벨 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkconfig --list</code></p>
+
+<ul>
+  <li>특정 서비스의 실행 레벨 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkconfig --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ntpd</span></p>
+
+<ul>
+  <li>부팅 시 서비스 활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkconfig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sshd</span><code class="language-plaintext highlighter-rouge"> on</code></p>
+
+<ul>
+  <li>실행 레벨 2, 3, 4, 5에서 부팅 시 서비스 활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkconfig --level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2345</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sshd</span><code class="language-plaintext highlighter-rouge"> on</code></p>
+
+<ul>
+  <li>부팅 시 서비스 비활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkconfig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ntpd</span><code class="language-plaintext highlighter-rouge"> off</code></p>
+
+<ul>
+  <li>실행 레벨 3에서 부팅 시 서비스 비활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkconfig --level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ntpd</span><code class="language-plaintext highlighter-rouge"> off</code></p>

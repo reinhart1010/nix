@@ -1,0 +1,46 @@
+<h1 id="pw-config">pw-config</h1>
+
+<p>List configuration paths and sections that will be used by the PipeWire server and clients.
+More information: <a href="https://docs.pipewire.org/page_man_pw-config_1.html">https://docs.pipewire.org/page_man_pw-config_1.html</a>.</p>
+
+<ul>
+  <li>List all configuration files that will be used:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-config</code></p>
+
+<ul>
+  <li>List all configuration files that will be used by the PipeWire PulseAudio server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-config --name pipewire-pulse.conf</code></p>
+
+<ul>
+  <li>List all configuration sections used by the PipeWire PulseAudio server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-config --name pipewire-pulse.conf list</code></p>
+
+<ul>
+  <li>List the <code class="language-plaintext highlighter-rouge">context.properties</code> fragments used by the JACK clients:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-config --name jack.conf list context.properties</code></p>
+
+<ul>
+  <li>List the merged <code class="language-plaintext highlighter-rouge">context.properties</code> used by the JACK clients:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-config --name jack.conf merge context.properties</code></p>
+
+<ul>
+  <li>List the merged <code class="language-plaintext highlighter-rouge">context.modules</code> used by the PipeWire server and [r]eformat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-config --name pipewire.conf --recurse merge context.modules</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-config --help</code></p>

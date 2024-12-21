@@ -1,0 +1,17 @@
+<h1 id="cargo-package">cargo package</h1>
+
+<p>로컬 패키지를 배포 가능한 tarball (<code class="language-plaintext highlighter-rouge">.crate</code> 파일)로 어셈블.
+<code class="language-plaintext highlighter-rouge">cargo publish --dry-run</code>과 유사하지만, 더 많은 옵션이 있음.
+더 많은 정보: <a href="https://doc.rust-lang.org/cargo/commands/cargo-package.html">https://doc.rust-lang.org/cargo/commands/cargo-package.html</a>.</p>
+
+<ul>
+  <li>검사를 수행하고 <code class="language-plaintext highlighter-rouge">.crate</code> 파일을 생성 (<code class="language-plaintext highlighter-rouge">cargo publish --dry-run</code>과 동일):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo package</code></p>
+
+<ul>
+  <li>실제로 tarball을 생성하지 않고 tarball에 포함될 파일을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo package --list</code></p>

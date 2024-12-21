@@ -1,0 +1,47 @@
+<h1 id="bc">bc</h1>
+
+<p>任意精度的计算器语言。
+请参阅：<code class="language-plaintext highlighter-rouge">dc</code>，<code class="language-plaintext highlighter-rouge">qalc</code>。
+更多信息：<a href="https://manned.org/bc">https://manned.org/bc</a>.</p>
+
+<ul>
+  <li>启动交互式会话：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc</code></p>
+
+<ul>
+  <li>启动交互式会话并启用标准数学库：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc --interactive --mathlib</code></p>
+
+<ul>
+  <li>计算表达式：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span><code class="language-plaintext highlighter-rouge">' | bc</code></p>
+
+<ul>
+  <li>执行脚本：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/脚本.bc</span></p>
+
+<ul>
+  <li>使用指定的小数位数计算一个表达式：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo 'scale = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge">; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span><code class="language-plaintext highlighter-rouge">' | bc</code></p>
+
+<ul>
+  <li>使用 <code class="language-plaintext highlighter-rouge">mathlib</code> 计算正弦/余弦/反正切/自然对数/指数函数：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s|c|a|l|e</span><code class="language-plaintext highlighter-rouge">(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge">)' | bc --mathlib</code></p>
+
+<ul>
+  <li>执行一个内联的阶乘脚本：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "define factorial(n) { if (n &lt;= 1) return 1; return n*factorial(n-1); }; factorial(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge">)" | bc</code></p>

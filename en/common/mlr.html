@@ -1,0 +1,46 @@
+<h1 id="mlr">mlr</h1>
+
+<p>Miller is like <code class="language-plaintext highlighter-rouge">awk</code>, <code class="language-plaintext highlighter-rouge">sed</code>, <code class="language-plaintext highlighter-rouge">cut</code>, <code class="language-plaintext highlighter-rouge">join</code>, and <code class="language-plaintext highlighter-rouge">sort</code> for name-indexed data such as CSV, TSV, and tabular JSON.
+More information: <a href="https://johnkerl.org/miller/doc">https://johnkerl.org/miller/doc</a>.</p>
+
+<ul>
+  <li>Pretty-print a CSV file in a tabular format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mlr --icsv --opprint cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.csv</span></p>
+
+<ul>
+  <li>Receive JSON data and pretty print the output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '{"hello":"world"}' | mlr --ijson --opprint cat</code></p>
+
+<ul>
+  <li>Sort alphabetically on a field:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mlr --icsv --opprint sort -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">field</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.csv</span></p>
+
+<ul>
+  <li>Sort in descending numerical order on a field:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mlr --icsv --opprint sort -nr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">field</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.csv</span></p>
+
+<ul>
+  <li>Convert CSV to JSON, performing calculations and display those calculations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mlr --icsv --ojson put '$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">newField1</span><code class="language-plaintext highlighter-rouge"> = $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">oldFieldA</span><code class="language-plaintext highlighter-rouge">/$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">oldFieldB</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.csv</span></p>
+
+<ul>
+  <li>Receive JSON and format the output as vertical JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '{"hello":"world", "foo":"bar"}' | mlr --ijson --ojson --jvstack cat</code></p>
+
+<ul>
+  <li>Filter lines of a compressed CSV file treating numbers as strings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mlr --prepipe 'gunzip' --csv filter -S '$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fieldName</span><code class="language-plaintext highlighter-rouge"> =~ "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">"' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.csv.gz</span></p>

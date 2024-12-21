@@ -1,0 +1,46 @@
+<h1 id="df">df</h1>
+
+<p>फ़ाइल सिस्टम डिस्क स्पेस उपयोग का अवलोकन दिखाएँ।
+अधिक जानकारी: <a href="https://man.netbsd.org/df.1">https://man.netbsd.org/df.1</a>।</p>
+
+<ul>
+  <li>512-बाइट इकाइयों का उपयोग करके सभी फ़ाइल सिस्टम और उनके डिस्क उपयोग को दिखाएँ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df</code></p>
+
+<ul>
+  <li>[h]मानव-पठनीय इकाइयों का उपयोग करें (1024 की शक्तियों के आधार पर):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df -h</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">statvfs</code> द्वारा लौटाए गए संरचना(ओं) के सभी फ़ील्ड दिखाएँ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df -G</code></p>
+
+<ul>
+  <li>दिए गए फ़ाइल या निर्देशिका को शामिल करते हुए फ़ाइल सिस्टम और उसके डिस्क उपयोग को दिखाएँ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल_या_निर्देशिका का पथ</span></p>
+
+<ul>
+  <li>मुक्त और उपयोग किए गए [I]इनोड की संख्या पर सांख्यिकी शामिल करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df -i</code></p>
+
+<ul>
+  <li>स्पेस आंकड़े लिखते समय 1024-बाइट इकाइयों का उपयोग करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df -k</code></p>
+
+<ul>
+  <li>जानकारी को [P]पोर्टेबल तरीके से दिखाएँ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df -P</code></p>

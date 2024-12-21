@@ -1,0 +1,28 @@
+<h1 id="jtbl">jtbl</h1>
+
+<p>JSON 및 JSON Lines 데이터를 터미널에서 표 형태로 출력하는 유틸리티.
+더 많은 정보: <a href="https://github.com/kellyjonbrazil/jtbl">https://github.com/kellyjonbrazil/jtbl</a>.</p>
+
+<ul>
+  <li>JSON 또는 JSON Lines 입력으로부터 표 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.json</span><code class="language-plaintext highlighter-rouge"> | jtbl</code></p>
+
+<ul>
+  <li>표를 출력하고 열 너비를 지정하여 줄 바꿈 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.json</span><code class="language-plaintext highlighter-rouge"> | jtbl --cols=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">너비</span></p>
+
+<ul>
+  <li>표를 출력하고 줄 바꿈 대신 행 잘라내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.json</span><code class="language-plaintext highlighter-rouge"> | jtbl -t</code></p>
+
+<ul>
+  <li>표를 출력하고 행을 줄 바꾸거나 잘라내지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.json</span><code class="language-plaintext highlighter-rouge"> | jtbl -n</code></p>

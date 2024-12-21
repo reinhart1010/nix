@@ -1,0 +1,40 @@
+<h1 id="mongoimport">mongoimport</h1>
+
+<p>JSON, CSV, 또는 TSV 파일의 내용을 MongoDB 데이터베이스로 가져오기.
+더 많은 정보: <a href="https://docs.mongodb.com/database-tools/mongoimport/">https://docs.mongodb.com/database-tools/mongoimport/</a>.</p>
+
+<ul>
+  <li>특정 컬렉션에 JSON 파일 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongoimport --file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.json</span><code class="language-plaintext highlighter-rouge"> --uri=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mongodb_uri</span><code class="language-plaintext highlighter-rouge"> --collection=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컬렉션_이름</span></p>
+
+<ul>
+  <li>CSV 파일을 가져와서 파일의 첫 번째 줄을 필드 이름으로 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongoimport --type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">csv</span><code class="language-plaintext highlighter-rouge"> --file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.csv</span><code class="language-plaintext highlighter-rouge"> --db=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span><code class="language-plaintext highlighter-rouge"> --collection=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컬렉션_이름</span></p>
+
+<ul>
+  <li>JSON 배열을 가져와서 각 요소를 별도의 문서로 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongoimport --jsonArray --file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.json</span></p>
+
+<ul>
+  <li>특정 모드와 기존 문서를 일치시키는 쿼리를 사용하여 JSON 파일 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongoimport --file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.json</span><code class="language-plaintext highlighter-rouge"> --mode=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delete|merge|upsert</span><code class="language-plaintext highlighter-rouge"> --upsertFields="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">필드1,필드2,…</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>별도의 CSV 파일에서 필드 이름을 읽고 빈 값의 필드를 무시하여 CSV 파일 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongoimport --type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">csv</span><code class="language-plaintext highlighter-rouge"> --file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.csv</span><code class="language-plaintext highlighter-rouge"> --fieldFile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/필드_파일.csv</span><code class="language-plaintext highlighter-rouge"> --ignoreBlanks</code></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongoimport --help</code></p>

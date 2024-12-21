@@ -1,0 +1,46 @@
+<h1 id="cargo-build">cargo build</h1>
+
+<p>ஒரு உள்ளூர் தொகுப்பு மற்றும் அதன் அனைத்து சார்புகளையும் தொகுக்கவும்.
+மேலும் விவரத்திற்கு: <a href="https://doc.rust-lang.org/cargo/commands/cargo-build.html">https://doc.rust-lang.org/cargo/commands/cargo-build.html</a>.</p>
+
+<ul>
+  <li>உள்ளூர் பாதையில் <code class="language-plaintext highlighter-rouge">Cargo.toml</code> மேனிஃபெஸ்ட் கோப்பால் வரையறுக்கப்பட்ட தொகுப்பு அல்லது தொகுப்புகளை உருவாக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build</code></p>
+
+<ul>
+  <li>மேம்படுத்தல்களுடன், வெளியீட்டு பயன்முறையில் கலைப்பொருட்களை உருவாக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --release</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Cargo.lock</code> புதுப்பித்த நிலையில் இருக்க வேண்டும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --locked</code></p>
+
+<ul>
+  <li>பணியிடத்தில் அனைத்து தொகுப்புகளையும் உருவாக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --workspace</code></p>
+
+<ul>
+  <li>ஒரு குறிப்பிட்ட தொகுப்பை உருவாக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொகுப்பு</span></p>
+
+<ul>
+  <li>குறிப்பிட்ட பைனரியை மட்டும் உருவாக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --bin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பெயர்</span></p>
+
+<ul>
+  <li>குறிப்பிட்ட சோதனை இலக்கை மட்டும் உருவாக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">சோதனை_பெயர்</span></p>

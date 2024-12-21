@@ -1,0 +1,40 @@
+<h1 id="filefrag">filefrag</h1>
+
+<p>Informa del grado de fragmentación de un archivo en particular.
+Más información: <a href="https://manned.org/filefrag">https://manned.org/filefrag</a>.</p>
+
+<ul>
+  <li>Muestra un informe para uno o más archivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filefrag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 …</span></p>
+
+<ul>
+  <li>Muestra un informe con un tamaño de bloque de 1024 bytes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filefrag -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Muestra un informe con un tamaño de bloque determinado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filefrag -b</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024|1K|1M|1G|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Sincroniza el archivo antes de solicitar la asignación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filefrag -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 …</span></p>
+
+<ul>
+  <li>Muestra la asignación de atributos extendidos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filefrag -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 …</span></p>
+
+<ul>
+  <li>Muestra un informe con información detallada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filefrag -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 …</span></p>

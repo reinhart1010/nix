@@ -1,0 +1,28 @@
+<h1 id="shnsplit">shnsplit</h1>
+
+<p>Splits audio files according to a <code class="language-plaintext highlighter-rouge">.cue</code> file.
+More information: <a href="http://shnutils.freeshell.org/shntool/">http://shnutils.freeshell.org/shntool/</a>.</p>
+
+<ul>
+  <li>Split a <code class="language-plaintext highlighter-rouge">.wav</code> + <code class="language-plaintext highlighter-rouge">.cue</code> file into multiple files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shnsplit -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cue</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.wav</span></p>
+
+<ul>
+  <li>Show supported formats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shnsplit -a</code></p>
+
+<ul>
+  <li>Split a <code class="language-plaintext highlighter-rouge">.flac</code> file into multiple files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shnsplit -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cue</span><code class="language-plaintext highlighter-rouge"> -o flac </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.flac</span></p>
+
+<ul>
+  <li>Split a <code class="language-plaintext highlighter-rouge">.wav</code> file into files of the form "track-number - album - title":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shnsplit -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cue</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.wav</span><code class="language-plaintext highlighter-rouge"> -t "%n - %a - %t"</code></p>

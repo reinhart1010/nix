@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="diff">diff</h1>
+
+<p>Compare deux fichiers ou répertoires.
+Plus d'informations : <a href="https://manned.org/diff">https://manned.org/diff</a>.</p>
+
+<ul>
+  <li>Compare deux fichiers (liste les changements pour transformer <code class="language-plaintext highlighter-rouge">ancien_fichier</code> en <code class="language-plaintext highlighter-rouge">nouveau_fichier</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ancien_fichier</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nouveau_fichier</span></p>
+
+<ul>
+  <li>Compare deux fichiers, en ignorant l'espacement :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --ignore-all-space </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ancien_fichier</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nouveau_fichier</span></p>
+
+<ul>
+  <li>Compare deux fichiers, en affichant différences côte à côte :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --side-by-side </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ancien_fichier</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nouveau_fichier</span></p>
+
+<ul>
+  <li>Compare deux fichiers, en affichant les différences dans un format unifié (comme <code class="language-plaintext highlighter-rouge">git diff</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --unified </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ancien_fichier</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nouveau_fichier</span></p>
+
+<ul>
+  <li>Compare récursivement deux répertoires directories (affiche les noms de fichiers et de répertoires divergents ainsi que les modifications de fichiers) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ancien_répertoire</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nouveau_répertoire</span></p>
+
+<ul>
+  <li>Compare deux répertoires, en affichant uniquement les fichiers qui diffèrent :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --recursive --brief </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ancien_répertoire</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nouveau_répertoire</span></p>
+
+<ul>
+  <li>Crée un fichier patch des différences entre deux fichiers texte pour Git, en traitant les fichiers inexistants comme fichiers vides :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --text --unified --new-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ancien_fichier</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nouveau_fichier</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diff.patch</span></p>

@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="echo">echo</h1>
+
+<p>Stampa a schermo gli argomenti forniti.
+Maggiori informazioni: <a href="https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html</a>.</p>
+
+<ul>
+  <li>Stampa un messaggio di testo. Nota: le virgolette sono opzionali:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Stampa un messaggio con il contenuto di variabili di ambiente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">La mia path è $PATH</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Stampa un messaggio senza il carattere di nuova linea finale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Aggiungi un messaggio in coda ad un file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World</span><code class="language-plaintext highlighter-rouge">" &gt;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.txt</span></p>
+
+<ul>
+  <li>Abilita l'interpretazione delle sequenze di escape con il backslash (caratteri speciali):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Colonna 1\tColonna 2</span><code class="language-plaintext highlighter-rouge">"</code></p>

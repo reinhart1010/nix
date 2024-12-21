@@ -1,0 +1,40 @@
+<h1 id="nova">nova</h1>
+
+<p>컴퓨팅 인스턴스를 프로비저닝하는 방법을 제공하는 OpenStack 프로젝트.
+더 많은 정보: <a href="https://docs.openstack.org/nova/latest/">https://docs.openstack.org/nova/latest/</a>.</p>
+
+<ul>
+  <li>현재 테넌트의 VM 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nova list</code></p>
+
+<ul>
+  <li>모든 테넌트의 VM 나열 (관리자 사용자만 가능):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nova list --all-tenants</code></p>
+
+<ul>
+  <li>특정 호스트에 VM 부팅:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nova boot --nic net-id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">네트워크_ID</span><code class="language-plaintext highlighter-rouge"> --image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_ID</span><code class="language-plaintext highlighter-rouge"> --flavor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">플레이버</span><code class="language-plaintext highlighter-rouge"> --availability-zone nova:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VM_이름</span></p>
+
+<ul>
+  <li>서버 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nova start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서버</span></p>
+
+<ul>
+  <li>서버 중지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nova stop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서버</span></p>
+
+<ul>
+  <li>특정 VM에 네트워크 인터페이스 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nova interface-attach --net-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">네트워크_ID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서버</span></p>

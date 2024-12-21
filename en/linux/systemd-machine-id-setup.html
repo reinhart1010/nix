@@ -1,0 +1,29 @@
+<h1 id="systemd-machine-id-setup">systemd-machine-id-setup</h1>
+
+<p>Initialize the machine ID stored in <code class="language-plaintext highlighter-rouge">/etc/machine-id</code> at install time with a provisioned or randomly generated ID.
+Note: Always use <code class="language-plaintext highlighter-rouge">sudo</code> to execute these commands as they require elevated privileges.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/systemd-machine-id-setup.html">https://www.freedesktop.org/software/systemd/man/systemd-machine-id-setup.html</a>.</p>
+
+<ul>
+  <li>Print the generated or committed machine ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-machine-id-setup --print</code></p>
+
+<ul>
+  <li>Specify an image policy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-machine-id-setup --image-policy=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">your_policy</span></p>
+
+<ul>
+  <li>Display the output as JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo systemd-machine-id-setup --json=pretty</code></p>
+
+<ul>
+  <li>Operate on a disk image instead of a directory tree:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-machine-id-setup --image=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/image</span></p>

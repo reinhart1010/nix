@@ -1,0 +1,54 @@
+<h1 id="pwsh">pwsh</h1>
+
+<p>Command-line shell and scripting language designed especially for system administration.
+This command refers to PowerShell version 6 and above (also known as PowerShell Core and cross-platform PowerShell).
+To use the original Windows version (5.1 and below, also known as the legacy Windows PowerShell), use <code class="language-plaintext highlighter-rouge">powershell</code> instead of <code class="language-plaintext highlighter-rouge">pwsh</code>.
+More information: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh">https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh</a>.</p>
+
+<ul>
+  <li>Start an interactive shell session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwsh</code></p>
+
+<ul>
+  <li>Start an interactive shell session without loading startup configs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwsh -NoProfile</code></p>
+
+<ul>
+  <li>Execute specific commands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwsh -Command "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'powershell is executed'</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Execute a specific script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwsh -File </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.ps1</span></p>
+
+<ul>
+  <li>Start a session with a specific version of PowerShell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwsh -Version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Prevent a shell from exit after running startup commands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwsh -NoExit</code></p>
+
+<ul>
+  <li>Describe the format of data sent to PowerShell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwsh -InputFormat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Text|XML</span></p>
+
+<ul>
+  <li>Determine how an output from PowerShell is formatted:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwsh -OutputFormat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Text|XML</span></p>

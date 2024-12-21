@@ -1,0 +1,28 @@
+<h1 id="xml-canonic">xml canonic</h1>
+
+<p>Make XML documents canonical.
+More information: <a href="https://xmlstar.sourceforge.net/docs.php">https://xmlstar.sourceforge.net/docs.php</a>.</p>
+
+<ul>
+  <li>Make an XML document canonical, preserving comments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml canonic </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.xml|URI</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.xml</span></p>
+
+<ul>
+  <li>Make an XML document canonical, removing comments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml canonic --without-comments </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.xml|URI</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.xml</span></p>
+
+<ul>
+  <li>Make XML exclusively canonical, using an XPATH from a file, preserving comments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml canonic --exc-with-comments </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.xml|URI</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/c14n.xpath</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml canonic --help</code></p>

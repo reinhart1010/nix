@@ -1,0 +1,28 @@
+<h1 id="hostess">hostess</h1>
+
+<p><code class="language-plaintext highlighter-rouge">/etc/hosts</code> 파일 관리.
+더 많은 정보: <a href="https://github.com/cbednarski/hostess">https://github.com/cbednarski/hostess</a>.</p>
+
+<ul>
+  <li>도메인, 대상 IP 주소 및 켜기/끄기 상태를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hostess list</code></p>
+
+<ul>
+  <li>호스트 파일에 컴퓨터를 가리키는 도메인을 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hostess add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local.example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1</span></p>
+
+<ul>
+  <li>호스트 파일에서 도메인을 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hostess del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local.example.com</span></p>
+
+<ul>
+  <li>도메인 비활성화(제거하지는 않음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hostess off </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local.example.com</span></p>

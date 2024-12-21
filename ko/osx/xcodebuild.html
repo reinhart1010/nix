@@ -1,0 +1,22 @@
+<h1 id="xcodebuild">xcodebuild</h1>
+
+<p>Xcode 프로젝트 빌드.
+더 많은 정보: <a href="https://developer.apple.com/library/archive/technotes/tn2339/_index.html">https://developer.apple.com/library/archive/technotes/tn2339/_index.html</a>.</p>
+
+<ul>
+  <li>워크스페이스 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodebuild -workspace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">워크스페이스_이름.workspace</span><code class="language-plaintext highlighter-rouge"> -scheme </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스킴_이름</span><code class="language-plaintext highlighter-rouge"> -configuration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구성_이름</span><code class="language-plaintext highlighter-rouge"> clean build SYMROOT=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SYMROOT_경로</span></p>
+
+<ul>
+  <li>프로젝트 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodebuild -target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상_이름</span><code class="language-plaintext highlighter-rouge"> -configuration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구성_이름</span><code class="language-plaintext highlighter-rouge"> clean build SYMROOT=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SYMROOT_경로</span></p>
+
+<ul>
+  <li>SDK 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodebuild -showsdks</code></p>

@@ -1,0 +1,22 @@
+<h1 id="recsel">recsel</h1>
+
+<p>Print records from a recfile: a human-editable, plain text database.
+More information: <a href="https://www.gnu.org/software/recutils/manual/recutils.html">https://www.gnu.org/software/recutils/manual/recutils.html</a>.</p>
+
+<ul>
+  <li>Extract name and version field:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">recsel -p name,version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.rec</span></p>
+
+<ul>
+  <li>Use "~" to match a string with a given regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">recsel -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">field_name</span><code class="language-plaintext highlighter-rouge"> ~ '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.rec</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Use a predicate to match a name and a version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">recsel -e "name ~ '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">' &amp;&amp; version ~ '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">'" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.rec</span></p>

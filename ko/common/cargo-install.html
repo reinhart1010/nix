@@ -1,0 +1,28 @@
+<h1 id="cargo-install">cargo install</h1>
+
+<p>Rust 바이너리를 빌드하고 설치.
+더 많은 정보: <a href="https://doc.rust-lang.org/cargo/commands/cargo-install.html">https://doc.rust-lang.org/cargo/commands/cargo-install.html</a>.</p>
+
+<ul>
+  <li><a href="https://crates.io">https://crates.io</a>에서 패키지를 설치 (버전은 선택사항 - 기본적으로 최신버전):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버전</span></p>
+
+<ul>
+  <li>지정된 Git 저장소에서 패키지를 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo install --git </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레포지토리_주소</span></p>
+
+<ul>
+  <li>Git 저장소에서 설치할 떄 지정된 분기/태그/커밋에서 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo install --git </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레포지토리_주소</span><code class="language-plaintext highlighter-rouge"> --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch|tag|rev</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브랜치_이름|태그|커밋_해시</span></p>
+
+<ul>
+  <li>설치된 모든 패키지와 해당 버전을 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo install --list</code></p>

@@ -1,0 +1,52 @@
+<h1 id="shutdown">shutdown</h1>
+
+<p>A tool for shutting down, restarting or logging off a machine.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/shutdown">https://learn.microsoft.com/windows-server/administration/windows-commands/shutdown</a>.</p>
+
+<ul>
+  <li>Shutdown the current machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /s</code></p>
+
+<ul>
+  <li>Shutdown the current machine force-closing all apps:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /s /f</code></p>
+
+<ul>
+  <li>Restart the current machine immediately:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /r /t 0</code></p>
+
+<ul>
+  <li>Hibernate the current machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /h</code></p>
+
+<ul>
+  <li>Log off the current machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /l</code></p>
+
+<ul>
+  <li>Specify a timeout in seconds to wait before shutting down:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /s /t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span></p>
+
+<ul>
+  <li>Abort a shutdown sequence whose timeout is yet to expire:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /a</code></p>
+
+<ul>
+  <li>Shutdown a remote machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\hostname</span></p>

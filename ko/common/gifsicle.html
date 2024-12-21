@@ -1,0 +1,46 @@
+<h1 id="gifsicle">gifsicle</h1>
+
+<p>GIF 파일에 대한 정보를 생성, 편집, 조작 및 가져옴.
+더 많은 정보: <a href="https://www.lcdf.org/gifsicle">https://www.lcdf.org/gifsicle</a>.</p>
+
+<ul>
+  <li>GIF를 새로운 파일로 최적화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gifsicle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력파일.gif</span><code class="language-plaintext highlighter-rouge"> --optimize=3 -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력파일.gif</span></p>
+
+<ul>
+  <li>[b]atch 모드를 사용하고 (주어진 각 파일을 제자리에서 수정) GIF 최적화를 취소:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gifsicle -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력파일.gif</span><code class="language-plaintext highlighter-rouge"> --unoptimize</code></p>
+
+<ul>
+  <li>GIF에서 프레임 추출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gifsicle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력파일.gif</span><code class="language-plaintext highlighter-rouge"> '#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge">' &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/첫번째_프레임.gif</span></p>
+
+<ul>
+  <li>선택한 GIF로 GIF 애니메이션 만들기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gifsicle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.gif</span><code class="language-plaintext highlighter-rouge"> --delay=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> --loop &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력파일.gif</span></p>
+
+<ul>
+  <li>손실 압축을 사용하여 파일 크기 줄이기 :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gifsicle -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력파일.gif</span><code class="language-plaintext highlighter-rouge"> --optimize=3 --lossy=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --colors=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span><code class="language-plaintext highlighter-rouge"> --dither</code></p>
+
+<ul>
+  <li>GIF에서 처음 10개 프레임과 20개 이후 프레임 모두를 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gifsicle -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력파일.gif</span><code class="language-plaintext highlighter-rouge"> --delete '#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0-9</span><code class="language-plaintext highlighter-rouge">' '#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20-</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>직사각형으로 자르고, 비율을 변경하고, 뒤집고, 회전하여 모든 프레임을 수정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gifsicle -b --crop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x시작점</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y시작점</span><code class="language-plaintext highlighter-rouge">+</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">직사각형_너비</span><code class="language-plaintext highlighter-rouge">x</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">직사각형_높이</span><code class="language-plaintext highlighter-rouge"> --scale </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.25</span><code class="language-plaintext highlighter-rouge"> --flip-horizontal --rotate-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">90|180|270</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력파일.gif</span></p>

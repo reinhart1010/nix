@@ -1,0 +1,29 @@
+<h1 id="nmcli-device">nmcli device</h1>
+
+<p>NetworkManager를 사용하여 네트워크 인터페이스를 관리하고 새로운 Wi-Fi 연결을 설정합니다.
+이 하위 명령은 <code class="language-plaintext highlighter-rouge">nmcli d</code>로도 호출할 수 있습니다.
+더 많은 정보: <a href="https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html">https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html</a>.</p>
+
+<ul>
+  <li>모든 네트워크 인터페이스의 상태를 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli device status</code></p>
+
+<ul>
+  <li>사용 가능한 Wi-Fi 액세스 포인트를 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli device wifi</code></p>
+
+<ul>
+  <li>지정된 SSID의 Wi-Fi 네트워크에 연결 (비밀번호 입력 요청이 표시됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli --ask device wifi connect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssid</span></p>
+
+<ul>
+  <li>현재 Wi-Fi 네트워크의 비밀번호와 QR 코드를 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli device wifi show-password</code></p>

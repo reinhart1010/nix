@@ -1,0 +1,47 @@
+<h1 id="chat">chat</h1>
+
+<p>Automate conversations with a modem or serial device.
+Commonly used to establish PPP (Point-to-Point Protocol) connections.
+More information: <a href="https://manned.org/chat.8">https://manned.org/chat.8</a>.</p>
+
+<ul>
+  <li>Execute a chat script directly from the command line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chat '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expect_send_pairs</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Execute a chat script from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chat -f '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/chat_script</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Set a custom timeout (in seconds) for expecting a response:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chat -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">timeout_in_seconds</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expect_send_pairs</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Enable verbose output to log the conversation to <code class="language-plaintext highlighter-rouge">syslog</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chat -v '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expect_send_pairs</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Use a report file to log specific strings received during the conversation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chat -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/report_file</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expect_send_pairs</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Dial a phone number using a variable, substituting <code class="language-plaintext highlighter-rouge">\T</code> in the script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chat -T '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">phone_number</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"ATDT\T CONNECT"</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Include an abort condition if a specific string is received:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chat 'ABORT "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">error_string</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expect_send_pairs</span><code class="language-plaintext highlighter-rouge">'</code></p>

@@ -1,0 +1,35 @@
+<h1 id="zenity">zenity</h1>
+
+<p>Display dialogs from the command-line/shell scripts.
+Return user-inserted values or 1 if error.
+More information: <a href="https://manned.org/zenity">https://manned.org/zenity</a>.</p>
+
+<ul>
+  <li>Display the default question dialog:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zenity --question</code></p>
+
+<ul>
+  <li>Display an info dialog displaying the text "Hello!":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zenity --info --text="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello!</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Display a name/password form and output the data separated by ";":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zenity --forms --add-entry="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Name</span><code class="language-plaintext highlighter-rouge">" --add-password="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Password</span><code class="language-plaintext highlighter-rouge">" --separator="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">;</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Display a file selection form in which the user can only select directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zenity --file-selection --directory</code></p>
+
+<ul>
+  <li>Display a progress bar which updates its message every second and show a progress percent:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">(echo "#1"; sleep 1; echo "50"; echo "#2"; sleep 1; echo "100")</span><code class="language-plaintext highlighter-rouge"> | zenity --progress</code></p>

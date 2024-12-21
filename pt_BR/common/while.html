@@ -1,0 +1,19 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="while">while</h1>
+
+<p>Loop simples da shell.
+Mais informações: <a href="https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_09_04_09">https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_09_04_09</a>.</p>
+
+<ul>
+  <li>Lê a entrada default (<code class="language-plaintext highlighter-rouge">stdin</code>) e realiza uma ação a cada linha:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while read line; do echo "$line"; done</code></p>
+
+<ul>
+  <li>Executa um comando para sempre a cada segundo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while :; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge">; sleep 1; done</code></p>

@@ -1,0 +1,40 @@
+<h1 id="svn">svn</h1>
+
+<p>Subversion command-line client tool.
+More information: <a href="https://subversion.apache.org">https://subversion.apache.org</a>.</p>
+
+<ul>
+  <li>Check out a working copy from a repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svn co </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url/to/repository</span></p>
+
+<ul>
+  <li>Bring changes from the repository into the working copy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svn up</code></p>
+
+<ul>
+  <li>Put files and directories under version control, scheduling them for addition to repository. They will be added in next commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svn add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PATH</span></p>
+
+<ul>
+  <li>Send changes from your working copy to the repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svn ci -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_log_message</span><code class="language-plaintext highlighter-rouge"> [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PATH</span><code class="language-plaintext highlighter-rouge">]</code></p>
+
+<ul>
+  <li>Display changes from the last 10 revisions, showing modified files for each revision:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svn log -vl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svn help</code></p>

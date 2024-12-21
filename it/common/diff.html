@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="diff">diff</h1>
+
+<p>Confronta file e directory.
+Maggiori informazioni: <a href="https://manned.org/diff">https://manned.org/diff</a>.</p>
+
+<ul>
+  <li>Confronta due file (elenca cambiamenti necessari per trasformare <code class="language-plaintext highlighter-rouge">vecchio_file</code> in <code class="language-plaintext highlighter-rouge">nuovo_file</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vecchio_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuovo_file</span></p>
+
+<ul>
+  <li>Confronta due file ignorando gli spazi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vecchio_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuovo_file</span></p>
+
+<ul>
+  <li>Confronta due file mostrando le differenze fianco a fianco:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff -y </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vecchio_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuovo_file</span></p>
+
+<ul>
+  <li>Confronta due file, mostrando le differenze in formato unificato (come <code class="language-plaintext highlighter-rouge">git diff</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vecchio_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuovo_file</span></p>
+
+<ul>
+  <li>Confronta due directory ricorsivamente (mostra i nomi dei file/directory diversi e le differenze trai file):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_directory</span></p>
+
+<ul>
+  <li>Confronta due directory mostrando solamente il nome dei file diversi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff -rq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_directory</span></p>

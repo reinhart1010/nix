@@ -1,0 +1,40 @@
+<h1 id="pg_dump">pg_dump</h1>
+
+<p>Extrae una base de datos PostgreSQL en un archivo de script u otro archivo de almacenamiento.
+Más información: <a href="https://www.postgresql.org/docs/current/app-pgdump.html">https://www.postgresql.org/docs/current/app-pgdump.html</a>.</p>
+
+<ul>
+  <li>Vuelca la base de datos en un archivo script-SQL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_dump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_resultado.sql</span></p>
+
+<ul>
+  <li>Igual que antes usando además un nombre de usuario:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_dump -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_resultado.sql</span></p>
+
+<ul>
+  <li>Lo mismo que antes usando además equipo y puerto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_dump -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">equipo</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_resultado.sql</span></p>
+
+<ul>
+  <li>Vuelca una base de datos en un archivo de formato personalizado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_dump -Fc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_resultado.dump</span></p>
+
+<ul>
+  <li>Recupera solo datos de bases de datos en un archivo script-SQL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_dump -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_resultado.sql</span></p>
+
+<ul>
+  <li>Vuelca solo el esquema (definiciones de datos) en un archivo script-SQL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_dump -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_resultado.sql</span></p>

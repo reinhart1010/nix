@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-config">git config</h1>
+
+<p>Gérer les options de configuration personnalisées pour les référentiels Git.
+Ces configurations peuvent être locales (pour le référentiel courant) ou globales (pour l'utilisateur).
+Plus d'informations : <a href="https://git-scm.com/docs/git-config">https://git-scm.com/docs/git-config</a>.</p>
+
+<ul>
+  <li>Liste les entrées de configurations locales (stockées dans <code class="language-plaintext highlighter-rouge">.git/config</code> du répertoire courant) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --list --local</code></p>
+
+<ul>
+  <li>Liste les entrées de configuration globales (stockées dans <code class="language-plaintext highlighter-rouge">~/.gitconfig</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --list --global</code></p>
+
+<ul>
+  <li>Récupère la valeur d'une entrée de configuration :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config alias.unstage</code></p>
+
+<ul>
+  <li>Attribue la valeur d'une entrée de configuration :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global alias.unstage "reset HEAD --"</code></p>
+
+<ul>
+  <li>Restaure la valeur d'une entrée de configuration globale à sa valeur par défaut :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global --unset alias.unstage</code></p>
+
+<ul>
+  <li>Édite le fichier de configuration du référentiel courant dans l'éditeur par défaut :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --edit</code></p>
+
+<ul>
+  <li>Édite le fichier de configuration globale dans l'éditeur par défaut :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global --edit</code></p>

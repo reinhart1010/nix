@@ -1,0 +1,40 @@
+<h1 id="java">java</h1>
+
+<p>Inicializador de programas Java.
+Mais informações: <a href="https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html">https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html</a>.</p>
+
+<ul>
+  <li>Executa um arquivo Java <code class="language-plaintext highlighter-rouge">.class</code> que contém um método main, usando o nome da classe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_classe</span></p>
+
+<ul>
+  <li>Executa um programa Java e usa classes adicionais de terceiros ou definidas pelo usuário:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -classpath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/classes1</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/classes2</span><code class="language-plaintext highlighter-rouge">:. </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_classe</span></p>
+
+<ul>
+  <li>Executa um programa <code class="language-plaintext highlighter-rouge">.jar</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -jar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo.jar</span></p>
+
+<ul>
+  <li>Executa um programa <code class="language-plaintext highlighter-rouge">.jar</code> com o debugger aguardando conexão na porta 5005:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo.jar</span></p>
+
+<ul>
+  <li>Exibe a versão do JDK, JRE e HotSpot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -version</code></p>
+
+<ul>
+  <li>Exibe os comandos disponíveis do Java:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -help</code></p>

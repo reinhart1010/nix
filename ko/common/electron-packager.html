@@ -1,0 +1,29 @@
+<h1 id="electron-packager">electron-packager</h1>
+
+<p>Windows, Linux 및 macOS용 Electron 앱 실행 파일을 빌드.
+애플리케이션 디렉터리에 유효한 package.json이 필요.
+더 많은 정보: <a href="https://github.com/electron/electron-packager">https://github.com/electron/electron-packager</a>.</p>
+
+<ul>
+  <li>현재 아키텍처 및 플랫폼에 대한 애플리케이션을 패키징:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electron-packager "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/앱</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">애플리케이션</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>모든 아키텍처와 플랫폼에 대한 애플리케이션을 패키징:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electron-packager "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/앱</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">애플리케이션</span><code class="language-plaintext highlighter-rouge">" --all</code></p>
+
+<ul>
+  <li>64비트 Linux용 애플리케이션을 패키징:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electron-packager "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/앱</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">애플리케이션</span><code class="language-plaintext highlighter-rouge">" --platform="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linux</span><code class="language-plaintext highlighter-rouge">" --arch="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x64</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>ARM macOS용 애플리케이션을 패키징:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electron-packager "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/앱</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">애플리케이션</span><code class="language-plaintext highlighter-rouge">" --platform="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">darwin</span><code class="language-plaintext highlighter-rouge">" --arch="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arm64</span><code class="language-plaintext highlighter-rouge">"</code></p>

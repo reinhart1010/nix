@@ -1,0 +1,35 @@
+<h1 id="transmission-create">transmission-create</h1>
+
+<p>Cria arquivos BitTorrent <code class="language-plaintext highlighter-rouge">.torrent</code>.
+Veja também: <code class="language-plaintext highlighter-rouge">transmission</code>.
+Mais informações: <a href="https://manned.org/transmission-create">https://manned.org/transmission-create</a>.</p>
+
+<ul>
+  <li>Cria um torrent com 2048 KB como o tamanho da parte:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/exemplo.torrent</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_anuncio_tracker</span><code class="language-plaintext highlighter-rouge"> --piecesize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2048</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretório</span></p>
+
+<ul>
+  <li>Cria um torrent privado com um tamanho de parte de 2048 KB:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create -p -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/exemplo.torrent</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_anuncio_tracker</span><code class="language-plaintext highlighter-rouge"> --piecesize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2048</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretório</span></p>
+
+<ul>
+  <li>Cria um torrent com um comentário:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/exemplo.torrent</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_rastreador1</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comentário</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretório</span></p>
+
+<ul>
+  <li>Cria um torrent com vários rastreadores:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/exemplo.torrent</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_rastreador1</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_rastreador2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretório</span></p>
+
+<ul>
+  <li>Exibe a página de ajuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create --help</code></p>

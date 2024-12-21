@@ -1,0 +1,53 @@
+<h1 id="emacs">emacs</h1>
+
+<p>El editor extensible, personalizable, autodocumentado, en tiempo real.
+Véase también <code class="language-plaintext highlighter-rouge">emacsclient</code>.
+Más información: <a href="https://www.gnu.org/software/emacs">https://www.gnu.org/software/emacs</a>.</p>
+
+<ul>
+  <li>Inicia Emacs y abre un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Abre un archivo en un número de línea especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacs +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">line_number</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Ejecuta un archivo Emacs Lisp como guión (script):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacs --script </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.el</span></p>
+
+<ul>
+  <li>Inicia Emacs en modo consola (sin una ventana X):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacs --no-window-system</code></p>
+
+<ul>
+  <li>Inicia un servidor Emacs en segundo plano (accesible a través de <code class="language-plaintext highlighter-rouge">emacsclient</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacs --daemon</code></p>
+
+<ul>
+  <li>Detiene un servidor Emacs en funcionamiento y todas sus instancias, pidiendo confirmación en archivos no guardados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --eval '(save-buffers-kill-emacs)'</code></p>
+
+<ul>
+  <li>Guarda un archivo en Emacs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt; + X, &lt;Ctrl&gt; + S</code></p>
+
+<ul>
+  <li>Sale de Emacs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt; + X, &lt;Ctrl&gt; + C</code></p>

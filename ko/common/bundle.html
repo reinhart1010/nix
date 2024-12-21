@@ -1,0 +1,52 @@
+<h1 id="bundle">bundle</h1>
+
+<p>Ruby 프로그래밍 언어의 종속성 관리자.
+더 많은 정보: <a href="https://bundler.io/man/bundle.1.html">https://bundler.io/man/bundle.1.html</a>.</p>
+
+<ul>
+  <li>작업 디렉토리에 있는 <code class="language-plaintext highlighter-rouge">Gemfile</code>에 정의된 모든 gem을 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle install</code></p>
+
+<ul>
+  <li>현재 번들의 컨텍스트에서 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인자</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Gemfile</code> 에 정의된 규칙에 따라 모든 gem을 업데이트 하고 <code class="language-plaintext highlighter-rouge">Gemfile.lock</code>을 재생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle update</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Gemfile</code>에 정의된 하나 이상의 특정 gem을 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_이름1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_이름2</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Gemfile</code>에 정의된 하나 이상의 특정 gem을 다음 패치 버전으로만 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle update --patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_이름1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_이름2</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Gemfile</code>에서 지정된 그룹 내의 모든 gem을 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle update --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">development</span></p>
+
+<ul>
+  <li>최신 버전이 있는 <code class="language-plaintext highlighter-rouge">Gemfile</code>에 설치된 gem을 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle outdated</code></p>
+
+<ul>
+  <li>새로운 gem 스켈레톤을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle gem </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_이름</span></p>

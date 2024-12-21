@@ -1,0 +1,28 @@
+<h1 id="qrencode">qrencode</h1>
+
+<p>QR 코드 생성기. PNG와 EPS를 지원합니다.
+더 많은 정보: <a href="https://fukuchi.org/works/qrencode">https://fukuchi.org/works/qrencode</a>.</p>
+
+<ul>
+  <li>문자열을 QR 코드로 변환하여 출력 파일로 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qrencode -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span></p>
+
+<ul>
+  <li>입력 파일을 QR 코드로 변환하여 출력 파일로 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qrencode -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.png</span><code class="language-plaintext highlighter-rouge"> -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일</span></p>
+
+<ul>
+  <li>문자열을 QR 코드로 변환하여 터미널에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qrencode -t ansiutf8 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span></p>
+
+<ul>
+  <li>파이프로부터 입력을 받아 QR 코드로 변환하여 터미널에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge"> | qrencode -t ansiutf8</code></p>

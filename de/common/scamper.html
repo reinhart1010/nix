@@ -1,0 +1,41 @@
+<h1 id="scamper">scamper</h1>
+
+<p>Sondiert aktiv das Internet, um die Topologie und Leistung zu analysieren.
+Liefert einige Werkzeuge mit, welche mit <code class="language-plaintext highlighter-rouge">sc_</code> starten, beispielsweise <code class="language-plaintext highlighter-rouge">sc_warts2text</code> oder <code class="language-plaintext highlighter-rouge">sc_ttlexp</code>.
+Weitere Informationen: <a href="https://www.caida.org/catalog/software/scamper/">https://www.caida.org/catalog/software/scamper/</a>.</p>
+
+<ul>
+  <li>Führe die Standardoption (Traceroute) auf ein Ziel aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scamper -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.1</span></p>
+
+<ul>
+  <li>Führe zwei Aktionen (ping und traceroute) auf zwei verschiedenen Zielen aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scamper -I "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ping</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.1</span><code class="language-plaintext highlighter-rouge">" -I "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">trace</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.2</span></p>
+
+<ul>
+  <li>Pinge mehrere Hosts mit UDP an, verwende eine bestimmte Portnummer für den ersten Ping und erhöhe sie für jeden weiteren Ping:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scamper -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ping</span><code class="language-plaintext highlighter-rouge"> -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UDP-dport</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">33434</span><code class="language-plaintext highlighter-rouge">" -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.1</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.2</span></p>
+
+<ul>
+  <li>Verwende den Multipath Discovery Algorithm (MDA), um das Vorhandensein von lastverteilten Pfaden zum Ziel zu ermitteln, und verwende für die Sondierung ICMP-Echopakete mit maximal drei Versuchen, und schreibe das Ergebnis in eine <code class="language-plaintext highlighter-rouge">warts</code>-Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scamper -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">warts</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.warts</span><code class="language-plaintext highlighter-rouge"> -I "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracelb</span><code class="language-plaintext highlighter-rouge"> -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ICMP-echo</span><code class="language-plaintext highlighter-rouge"> -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.1</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Führe eine Paris-Traceroute mit ICMP zu einem Ziel aus und speichere das Ergebnis in einer komprimierten <code class="language-plaintext highlighter-rouge">warts</code>-Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scamper -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">warts.gz</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.warts</span><code class="language-plaintext highlighter-rouge"> -I "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">trace</span><code class="language-plaintext highlighter-rouge"> -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">icmp-paris</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2001:db8:dead:beaf::4</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Zeichne alle ICMP-Pakete, die an einer bestimmten IP-Adresse ankommen und eine bestimmte ICMP-ID haben, in einer <code class="language-plaintext highlighter-rouge">warts</code>-Datei auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scamper -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">warts</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.warts</span><code class="language-plaintext highlighter-rouge"> -I "sniff -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2001:db8:dead:beef::6</span><code class="language-plaintext highlighter-rouge"> icmp[icmpid] == </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">101</span><code class="language-plaintext highlighter-rouge">"</code></p>

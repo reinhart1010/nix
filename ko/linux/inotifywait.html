@@ -1,0 +1,52 @@
+<h1 id="inotifywait">inotifywait</h1>
+
+<p>파일 변경을 대기합니다.
+더 많은 정보: <a href="https://manned.org/inotifywait">https://manned.org/inotifywait</a>.</p>
+
+<ul>
+  <li>특정 파일의 이벤트를 감시하고 첫 번째 이벤트 이후 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inotifywait </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>특정 파일의 이벤트를 종료하지 않고 지속적으로 감시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inotifywait --monitor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>폴더의 이벤트를 재귀적으로 감시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inotifywait --monitor --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>정규 표현식과 일치하는 파일을 제외하고 폴더의 변경 사항 감시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inotifywait --monitor --recursive --exclude "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">정규_표현식</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>30초 동안 이벤트가 발생하지 않으면 종료하며 파일의 변경 사항 감시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inotifywait --monitor --timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일 수정 이벤트만 감시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inotifywait --event </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modify</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>이벤트만 출력하고 상태 메시지는 출력하지 않고 파일 감시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inotifywait --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일에 접근할 때 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inotifywait --event </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">access</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span></p>

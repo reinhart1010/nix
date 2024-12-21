@@ -1,0 +1,47 @@
+<h1 id="borg">borg</h1>
+
+<p>Outil de sauvegarde avec dé-duplication.
+Crée des sauvegardes distantes ou locales qui peuvent être montées comme un système de fichiers.
+Plus d'informations : <a href="https://borgbackup.readthedocs.io/en/stable/usage/general.html">https://borgbackup.readthedocs.io/en/stable/usage/general.html</a>.</p>
+
+<ul>
+  <li>Initialise un dépôt local :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/chemin/vers/repertoire_du_depot</span></p>
+
+<ul>
+  <li>Sauvegarde un répertoire dans le dépôt en créant une archive appelée "Lundi" :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg create --progress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/chemin/vers/repertoire_du_depot</span><code class="language-plaintext highlighter-rouge">::</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Lundi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/chemin/vers/repertoire_source</span></p>
+
+<ul>
+  <li>Liste toutes les archives d'un dépôt :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/chemin/vers/repertoire_du_depot</span></p>
+
+<ul>
+  <li>Extrait un répertoire donné de l'archive nommée "Lundi" à partir d'un dépôt distant tout en excluant tous les fichiers *.ext :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg extract </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utilisateur</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/chemin/vers/repertoire_du_depot</span><code class="language-plaintext highlighter-rouge">::</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Lundi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/repertoire_destination</span><code class="language-plaintext highlighter-rouge"> --exclude '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Nettoie un dépôt en effaçant toutes les archives âgées de plus de 7 jours tout en affichant les changements :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg prune --keep-within </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7d</span><code class="language-plaintext highlighter-rouge"> --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/chemin/vers/repertoire_du_depot</span></p>
+
+<ul>
+  <li>Monte un dépôt comme un système de fichiers FUSE :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/chemin/vers/repertoire_du_depot</span><code class="language-plaintext highlighter-rouge">::</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Lundi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/chemin/vers/point_de_montage</span></p>
+
+<ul>
+  <li>Affiche l'aide sur la création d'archives :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg create --help</code></p>

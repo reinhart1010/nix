@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="7za">7za</h1>
+
+<p>Compactador de arquivos com uma alta taxa de compressão.
+Semelhante to '7z', a principal diferença é que este suporta menos tipos de arquivamento/compressão.
+Mais informações: <a href="https://manned.org/7za">https://manned.org/7za</a>.</p>
+
+<ul>
+  <li>Compacta um ficheiro ou diretório:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro_compactado.7z</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro_ou_diretório</span></p>
+
+<ul>
+  <li>Encripta um arquivo existente (incluindo os nomes dos ficheiros):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro_encriptado.7z</span><code class="language-plaintext highlighter-rouge"> -p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">palavra-passe</span><code class="language-plaintext highlighter-rouge"> -mhe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro_compactado.7z</span></p>
+
+<ul>
+  <li>Descompacta um arquivo mantendo a estrutura de diretórios original:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro_compactado.7z</span></p>
+
+<ul>
+  <li>Descompacta um arquivo para uma diretório especificado pelo utilizador:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro_compactado.7z</span><code class="language-plaintext highlighter-rouge"> -o</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Descompacta um arquivo para a saída padrão (<code class="language-plaintext highlighter-rouge">stdout</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro_compactado.7z</span><code class="language-plaintext highlighter-rouge"> -so</code></p>
+
+<ul>
+  <li>Compacta utilizando um tipo específico de arquivamento/compressão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za a -t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7z|bzip2|gzip|lzip|tar|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro_compactado.7z</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro_ou_diretório</span></p>
+
+<ul>
+  <li>Lista os conteúdos de um arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro_compactado.7z</span></p>

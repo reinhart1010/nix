@@ -1,0 +1,28 @@
+<h1 id="docker-login">docker login</h1>
+
+<p>Log into a Docker registry.
+More information: <a href="https://docs.docker.com/reference/cli/docker/login/">https://docs.docker.com/reference/cli/docker/login/</a>.</p>
+
+<ul>
+  <li>Interactively log into a registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker login</code></p>
+
+<ul>
+  <li>Log into a registry with a specific username (user will be prompted for a password):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker login --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Log into a registry with username and password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker login --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server</span></p>
+
+<ul>
+  <li>Log into a registry with password from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge">" | docker login --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --password-stdin</code></p>

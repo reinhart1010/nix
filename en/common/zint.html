@@ -1,0 +1,22 @@
+<h1 id="zint">zint</h1>
+
+<p>Generate barcodes and QR codes.
+More information: <a href="https://www.zint.org.uk/manual/chapter/4">https://www.zint.org.uk/manual/chapter/4</a>.</p>
+
+<ul>
+  <li>Generate a barcode and save it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zint --data "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UTF-8 data</span><code class="language-plaintext highlighter-rouge">" --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Specify a code type for generation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zint --barcode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">code_type</span><code class="language-plaintext highlighter-rouge"> --data "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UTF-8 data</span><code class="language-plaintext highlighter-rouge">" --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>List all supported code types:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zint --types</code></p>

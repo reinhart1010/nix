@@ -1,0 +1,42 @@
+<h1 id="rbash">rbash</h1>
+
+<p>제한된 Bash 셸로, <code class="language-plaintext highlighter-rouge">bash --restricted</code>와 동등합니다.
+작업 디렉토리 변경, 명령 출력 리디렉션, 환경 변수 수정 등을 허용하지 않습니다.
+히스토리 확장을 위해 <code class="language-plaintext highlighter-rouge">histexpand</code>도 참조하세요.
+더 많은 정보: <a href="https://www.gnu.org/software/bash/manual/html_node/The-Restricted-Shell">https://www.gnu.org/software/bash/manual/html_node/The-Restricted-Shell</a>.</p>
+
+<ul>
+  <li>대화형 셸 세션 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rbash</code></p>
+
+<ul>
+  <li>명령을 실행한 후 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rbash -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>스크립트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rbash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트.sh</span></p>
+
+<ul>
+  <li>각 명령을 실행 전에 출력하며 스크립트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rbash -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트.sh</span></p>
+
+<ul>
+  <li>스크립트에서 명령을 읽고 첫 번째 오류에서 중지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rbash -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트.sh</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 명령을 읽고 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rbash -s</code></p>

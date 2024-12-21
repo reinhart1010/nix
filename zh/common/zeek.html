@@ -1,0 +1,41 @@
+<h1 id="zeek">zeek</h1>
+
+<p>被动网络流量分析器。
+所有输出和日志文件将保存到当前工作目录。
+更多信息：<a href="https://docs.zeek.org/en/lts/quickstart.html#zeek-as-a-command-line-utility">https://docs.zeek.org/en/lts/quickstart.html#zeek-as-a-command-line-utility</a>.</p>
+
+<ul>
+  <li>分析来自网络接口的实时流量：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo zeek --iface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">接口</span></p>
+
+<ul>
+  <li>分析来自网络接口的实时流量并加载自定义脚本：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo zeek --iface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">接口</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">脚本1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">脚本2</span></p>
+
+<ul>
+  <li>分析来自网络接口的实时流量，不加载任何脚本：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo zeek --bare-mode --iface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">接口</span></p>
+
+<ul>
+  <li>分析来自网络接口的实时流量，应用 <code class="language-plaintext highlighter-rouge">tcpdump</code> 过滤器：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo zeek --filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/过滤器</span><code class="language-plaintext highlighter-rouge"> --iface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">接口</span></p>
+
+<ul>
+  <li>使用看门狗计时器分析来自网络接口的实时流量：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo zeek --watchdog --iface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">接口</span></p>
+
+<ul>
+  <li>分析来自 PCAP 文件的流量：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zeek --readfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.trace</span></p>

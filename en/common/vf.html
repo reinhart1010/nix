@@ -1,0 +1,52 @@
+<h1 id="vf">vf</h1>
+
+<p>VirtualFish is a fish shell tool for managing Python virtual environments.
+More information: <a href="https://virtualfish.readthedocs.io/en/latest/">https://virtualfish.readthedocs.io/en/latest/</a>.</p>
+
+<ul>
+  <li>Create a virtual environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vf new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">virtualenv_name</span></p>
+
+<ul>
+  <li>Create a virtual environment for a specific Python version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vf new --python </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/local/bin/python3.8</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">virtualenv_name</span></p>
+
+<ul>
+  <li>Activate and use the specified virtual environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vf activate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">virtualenv_name</span></p>
+
+<ul>
+  <li>Connect the current virtualenv to the current directory, so that it is activated automatically as soon as you enter it (and deactivated as soon as you leave):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vf connect</code></p>
+
+<ul>
+  <li>Deactivate the current virtual environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vf deactivate</code></p>
+
+<ul>
+  <li>List all virtual environments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vf ls</code></p>
+
+<ul>
+  <li>Remove a virtual environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vf rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">virtualenv_name</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vf help</code></p>

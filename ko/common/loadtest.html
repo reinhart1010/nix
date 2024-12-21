@@ -1,0 +1,22 @@
+<h1 id="loadtest">loadtest</h1>
+
+<p>선택한 HTTP 또는 WebSockets URL에 대해 부하 테스트를 실행.
+더 많은 정보: <a href="https://github.com/alexfernandez/loadtest">https://github.com/alexfernandez/loadtest</a>.</p>
+
+<ul>
+  <li>동시 사용자 및 초당 요청 수를 지정하여 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loadtest --concurrency </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> --rps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">200</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>사용자 지정 HTTP 헤더와 함께 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loadtest --headers "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">accept:text/plain;text-html</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>특정 HTTP 메서드를 사용하여 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loadtest --method </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>

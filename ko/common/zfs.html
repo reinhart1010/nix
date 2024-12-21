@@ -1,0 +1,40 @@
+<h1 id="zfs">zfs</h1>
+
+<p>ZFS 파일 시스템 관리.
+더 많은 정보: <a href="https://manned.org/zfs">https://manned.org/zfs</a>.</p>
+
+<ul>
+  <li>사용 가능한 모든 ZFS 파일 시스템 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zfs list</code></p>
+
+<ul>
+  <li>새 ZFS 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zfs create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">풀_이름/파일시스템_이름</span></p>
+
+<ul>
+  <li>ZFS 파일 시스템 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zfs destroy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">풀_이름/파일시스템_이름</span></p>
+
+<ul>
+  <li>ZFS 파일 시스템의 스냅샷 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zfs snapshot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">풀_이름/파일시스템_이름</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스냅샷_이름</span></p>
+
+<ul>
+  <li>파일 시스템에 압축 활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zfs set compression=on </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">풀_이름/파일시스템_이름</span></p>
+
+<ul>
+  <li>파일 시스템의 마운트 포인트 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zfs set mountpoint=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/my/mount/path</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">풀_이름/파일시스템_이름</span></p>

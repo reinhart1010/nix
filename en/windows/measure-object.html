@@ -1,0 +1,17 @@
+<h1 id="measure-object">Measure-Object</h1>
+
+<p>Calculates the numeric properties of objects, and the characters, words, and lines in string objects, such as files of text.
+Note: This command can only be used through PowerShell.
+More information: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/measure-object">https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/measure-object</a>.</p>
+
+<ul>
+  <li>Count the files and folders in a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-ChildItem | Measure-Object</code></p>
+
+<ul>
+  <li>Pipe input to Measure-Command (objects that are piped to <code class="language-plaintext highlighter-rouge">Measure-Command</code> are available to the script block that is passed to the Expression parameter):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">"One", "Two", "Three", "Four" | Set-Content -Path "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span><code class="language-plaintext highlighter-rouge">"; Get-Content "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span><code class="language-plaintext highlighter-rouge">"; | Measure-Object -Character -Line -Word</code></p>

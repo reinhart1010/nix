@@ -1,0 +1,28 @@
+<h1 id="yank">yank</h1>
+
+<p>从 <code class="language-plaintext highlighter-rouge">stdin</code> 读取输入并显示一个选择界面，该界面允许选择一个字段并将其复制到剪贴板。
+更多信息：<a href="https://manned.org/yank">https://manned.org/yank</a>.</p>
+
+<ul>
+  <li>使用默认分隔符（\f, \n, \r, \s, \t）：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sudo dmesg</span><code class="language-plaintext highlighter-rouge"> | yank</code></p>
+
+<ul>
+  <li>输入单行：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sudo dmesg</span><code class="language-plaintext highlighter-rouge"> | yank -l</code></p>
+
+<ul>
+  <li>使用特定分 <code class="language-plaintext highlighter-rouge">=</code> 隔符输入：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo hello=world</span><code class="language-plaintext highlighter-rouge"> | yank -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">=</span></p>
+
+<ul>
+  <li>只有与特定正则表达式匹配的内容才输入：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ps ux</span><code class="language-plaintext highlighter-rouge"> | yank -g "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[0-9]+</span><code class="language-plaintext highlighter-rouge">"</code></p>

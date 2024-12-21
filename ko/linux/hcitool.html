@@ -1,0 +1,52 @@
+<h1 id="hcitool">hcitool</h1>
+
+<p>Bluetooth 장치에 연결을 모니터링, 구성하고 특수 명령을 전송합니다.
+더 많은 정보: <a href="https://manned.org/hcitool">https://manned.org/hcitool</a>.</p>
+
+<ul>
+  <li>Bluetooth 장치 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hcitool scan</code></p>
+
+<ul>
+  <li>장치의 이름을 출력하고 MAC 주소 반환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hcitool name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bdaddr</span></p>
+
+<ul>
+  <li>원격 Bluetooth 장치 정보 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hcitool info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bdaddr</span></p>
+
+<ul>
+  <li>Bluetooth 장치와의 연결 품질 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hcitool lq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bdaddr</span></p>
+
+<ul>
+  <li>전송 전력 수준 수정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hcitool tpl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bdaddr</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1</span></p>
+
+<ul>
+  <li>연결 정책 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hcitool lp</code></p>
+
+<ul>
+  <li>특정 장치와 인증 요청:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hcitool auth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bdaddr</span></p>
+
+<ul>
+  <li>로컬 장치 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hcitool dev</code></p>

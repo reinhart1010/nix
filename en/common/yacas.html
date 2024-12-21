@@ -1,0 +1,40 @@
+<h1 id="yacas">yacas</h1>
+
+<p>Yet Another Computer Algebra System.
+More information: <a href="https://www.yacas.org">https://www.yacas.org</a>.</p>
+
+<ul>
+  <li>Start an interactive <code class="language-plaintext highlighter-rouge">yacas</code> session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yacas</code></p>
+
+<ul>
+  <li>While in a <code class="language-plaintext highlighter-rouge">yacas</code> session, execute a statement:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Integrate(x)Cos(x)</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>While in a <code class="language-plaintext highlighter-rouge">yacas</code> session, display an example:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Example()</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>Quit from a <code class="language-plaintext highlighter-rouge">yacas</code> session:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quit</span></p>
+
+<ul>
+  <li>Execute one or more <code class="language-plaintext highlighter-rouge">yacas</code> scripts (without terminal or prompts), then exit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yacas -p -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script2</span></p>
+
+<ul>
+  <li>Execute and print the result of one statement, then exit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Echo( Deriv(x)Cos(1/x) );</span><code class="language-plaintext highlighter-rouge">" | yacas -p -c /dev/stdin</code></p>

@@ -1,0 +1,40 @@
+<h1 id="pio-test">pio test</h1>
+
+<p>Voer lokale testen uit op een PlatformIO project.
+Meer informatie: <a href="https://docs.platformio.org/en/latest/core/userguide/cmd_test.html">https://docs.platformio.org/en/latest/core/userguide/cmd_test.html</a>.</p>
+
+<ul>
+  <li>Voer alle testen in alle omgevingen uit van het huidige PlatformIO project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio test</code></p>
+
+<ul>
+  <li>Test alleen op specifieke omgevingen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio test --environment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">omgeving1</span><code class="language-plaintext highlighter-rouge"> --environment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">omgeving2</span></p>
+
+<ul>
+  <li>Voer alleen testen uit die qua naam overeenkomen met een specifiek glob patroon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio test --filter "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patroon</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Negeer testen die qua naam overeenkomen met een specifiek glob patroon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio test --ignore "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patroon</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Specificeer een poort voor firmware uploading:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio test --upload-port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">upload_poort</span></p>
+
+<ul>
+  <li>Specificeer een aangepast configuratiebestand voor het uitvoeren van de testen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio test --project-conf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/platformio.ini</span></p>

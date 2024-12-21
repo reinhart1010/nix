@@ -1,0 +1,52 @@
+<h1 id="rustscan">rustscan</h1>
+
+<p>Escáner de puertos rápido, escrito en Rust integrado con <code class="language-plaintext highlighter-rouge">nmap</code>.
+Más información: <a href="https://github.com/RustScan/RustScan">https://github.com/RustScan/RustScan</a>.</p>
+
+<ul>
+  <li>Escanea todos los puertos de una o más direcciones delimitadas por comas usando los valores predeterminados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustscan --addresses </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_nombrehost</span></p>
+
+<ul>
+  <li>Escanea los [t]op 1000 puertos con detección de servicio y versión:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustscan --top --addresses </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_o_direcciones</span></p>
+
+<ul>
+  <li>Escanea una lista específica de [p]uertos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustscan --ports </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto1,puerto2,…,puertoN</span><code class="language-plaintext highlighter-rouge"> --addresses </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_o_direcciones</span></p>
+
+<ul>
+  <li>Escanea un rango específico de puertos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustscan --range </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inicio-fin</span><code class="language-plaintext highlighter-rouge"> --addresses </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_o_direcciones</span></p>
+
+<ul>
+  <li>Añade argumentos de script a <code class="language-plaintext highlighter-rouge">nmap</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustscan --addresses </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_o_direcciones</span><code class="language-plaintext highlighter-rouge"> -- -A -sC</code></p>
+
+<ul>
+  <li>Escanea con un tamaño de lote ([b]atch) (por defecto: 4500) y [t]iempo de espera personalizado (por defecto: 1500ms):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustscan --batch-size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tamaño_lote</span><code class="language-plaintext highlighter-rouge"> --timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">timeout</span><code class="language-plaintext highlighter-rouge"> --addresses </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_o_direcciones</span></p>
+
+<ul>
+  <li>Escanea puertos en un orden específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustscan --scan-order </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">serial|random</span><code class="language-plaintext highlighter-rouge"> --addresses </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_o_direcciones</span></p>
+
+<ul>
+  <li>Escanea en modo "greppable" (solo imprime los puertos y no usa <code class="language-plaintext highlighter-rouge">nmap</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustscan --greppable --addresses </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_o_direcciones</span></p>

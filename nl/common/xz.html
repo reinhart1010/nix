@@ -1,0 +1,52 @@
+<h1 id="xz">xz</h1>
+
+<p>Comprimeren of decomprimeren van XZ en LZMA bestanden.
+Meer informatie: <a href="https://manned.org/xz">https://manned.org/xz</a>.</p>
+
+<ul>
+  <li>Comprimeer een bestand gebruik makend van xz file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Decomprimer een xz bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --decompress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.xz</span></p>
+
+<ul>
+  <li>Comprimeer een bestand gebruik makend van lzma:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --format=lzma </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Decomprimer een LZMA bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --decompress --format=lzma </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.lzma</span></p>
+
+<ul>
+  <li>Decomprimer een bestand en schrijf het naar <code class="language-plaintext highlighter-rouge">stdout</code> (impliceert <code class="language-plaintext highlighter-rouge">--keep</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --decompress --stdout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.xz</span></p>
+
+<ul>
+  <li>Comprimeer een bestand, maar verwijder het origineel niet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --keep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Comprimeer een bestand, gebruik makend van de snelste compressie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz -0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Comprimeer een bestand, gebruik makend van de beste compressie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz -9 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>

@@ -1,0 +1,34 @@
+<h1 id="lxi">lxi</h1>
+
+<p>Control LXI compatible instruments such as oscilloscopes.
+More information: <a href="https://github.com/lxi-tools/lxi-tools">https://github.com/lxi-tools/lxi-tools</a>.</p>
+
+<ul>
+  <li>Discover LXI devices on available networks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxi discover</code></p>
+
+<ul>
+  <li>Capture a screenshot, detecting a plugin automatically:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxi screenshot --address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span></p>
+
+<ul>
+  <li>Capture a screenshot using a specified plugin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxi screenshot --address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span><code class="language-plaintext highlighter-rouge"> --plugin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rigol-1000z</span></p>
+
+<ul>
+  <li>Send an SCPI command to an instrument:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxi scpi --address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*IDN?</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run a benchmark for request and response performance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxi benchmark --address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span></p>

@@ -1,0 +1,22 @@
+<h1 id="grub-install">grub-install</h1>
+
+<p>安装 GRUB 到设备。
+更多信息：<a href="https://www.gnu.org/software/grub/manual/grub/html_node/Installing-GRUB-using-grub_002dinstall.html">https://www.gnu.org/software/grub/manual/grub/html_node/Installing-GRUB-using-grub_002dinstall.html</a>.</p>
+
+<ul>
+  <li>安装 GRUB 到基于 BIOS 的系统：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-install --target=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">i386-pc</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>安装 GRUB 到基于 UEFI 的系统：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-install --target=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x86_64-efi</span><code class="language-plaintext highlighter-rouge"> --efi-directory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/efi_directory</span><code class="language-plaintext highlighter-rouge"> --bootloader-id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GRUB</span></p>
+
+<ul>
+  <li>安装预置指定模块的 GRUB：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-install --target=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x86_64-efi</span><code class="language-plaintext highlighter-rouge"> --efi-directory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/efi_directory</span><code class="language-plaintext highlighter-rouge"> --modules="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">part_gpt part_msdos</span><code class="language-plaintext highlighter-rouge">"</code></p>

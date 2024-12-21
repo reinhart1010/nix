@@ -1,0 +1,46 @@
+<h1 id="psalm">psalm</h1>
+
+<p>Suatu alat analisis kode statis yang dapat dimanfaatkan untuk mencari kesalahan pada aplikasi berbasis PHP.
+Informasi lebih lanjut: <a href="https://psalm.dev">https://psalm.dev</a>.</p>
+
+<ul>
+  <li>Buat sebuah berkas konfigurasi Psalm baru:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">psalm --init</code></p>
+
+<ul>
+  <li>Periksa kesalahan pada direktori saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">psalm</code></p>
+
+<ul>
+  <li>Periksa kesalahan pada suatu direktori atau berkas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">psalm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori</span></p>
+
+<ul>
+  <li>Periksa kesalahan menggunakan suatu berkas konfigurasi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">psalm --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/psalm.xml</span></p>
+
+<ul>
+  <li>Lampirkan penemuan-penemuan informasional ke dalam luaran hasil pengecekan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">psalm --show-info</code></p>
+
+<ul>
+  <li>Periksa suatu proyek dan tampilkan hasil statistika:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">psalm --stats</code></p>
+
+<ul>
+  <li>Periksa suatu proyek secara paralel denan 4 thread pemrosesan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">psalm --threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span></p>

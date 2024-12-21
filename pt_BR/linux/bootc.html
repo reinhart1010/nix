@@ -1,0 +1,35 @@
+<h1 id="bootc">bootc</h1>
+
+<p>Inicializa e atualiza seu sistema usando imagens de containeres.
+Manipula atualizações transacionais e transparentes utilizando imagens de containeres OCI/Docker.
+Mais informações: <a href="https://containers.github.io/bootc/">https://containers.github.io/bootc/</a>.</p>
+
+<ul>
+  <li>Mostra todos os deployments na ordem que eles aparecem na inicialização:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bootc status</code></p>
+
+<ul>
+  <li>Mostra se há alguma atualização disponível:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bootc upgrade --check</code></p>
+
+<ul>
+  <li>Atualiza e reinicia o sistema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bootc upgrade --apply</code></p>
+
+<ul>
+  <li>Move seu sistema para outra base:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bootc switch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem</span></p>
+
+<ul>
+  <li>Reinicia o seu sistema no deployment anterior:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bootc rollback</code></p>

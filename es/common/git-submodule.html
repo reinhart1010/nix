@@ -1,0 +1,28 @@
+<h1 id="git-submodule">git submodule</h1>
+
+<p>Inspecciona, actualiza y gestiona los submódulos.
+Más información: <a href="https://git-scm.com/docs/git-submodule">https://git-scm.com/docs/git-submodule</a>.</p>
+
+<ul>
+  <li>Instala los submódulos específicos de un repositorio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git submodule update --init --recursive</code></p>
+
+<ul>
+  <li>Añade un repositorio como un submódulo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git submodule add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_del_repositorio</span></p>
+
+<ul>
+  <li>Añade un repositorio Git como submódulo en un directorio específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git submodule add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_del_repositorio</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Actualiza cada submódulo a su último commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git submodule foreach git pull</code></p>

@@ -1,0 +1,28 @@
+<h1 id="gyb">gyb</h1>
+
+<p>Locally back up Gmail messages using Gmail's API over HTTPS.
+More information: <a href="https://github.com/GAM-team/got-your-back">https://github.com/GAM-team/got-your-back</a>.</p>
+
+<ul>
+  <li>Estimate the number and the size of all emails on your Gmail account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gyb --email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email@gmail.com</span><code class="language-plaintext highlighter-rouge"> --action estimate</code></p>
+
+<ul>
+  <li>Backup a Gmail account to a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gyb --email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email@gmail.com</span><code class="language-plaintext highlighter-rouge"> --action backup --local-folder </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Backup only important or starred emails from a Gmail account to the default local folder:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gyb --email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email@gmail.com</span><code class="language-plaintext highlighter-rouge"> --search "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">is:important OR is:starred</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Restore from a local folder to a Gmail account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gyb --email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email@gmail.com</span><code class="language-plaintext highlighter-rouge"> --action restore --local-folder </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

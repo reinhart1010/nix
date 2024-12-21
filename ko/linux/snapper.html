@@ -1,0 +1,40 @@
+<h1 id="snapper">snapper</h1>
+
+<p>파일 시스템 스냅샷 관리 도구.
+더 많은 정보: <a href="http://snapper.io/manpages/snapper.html">http://snapper.io/manpages/snapper.html</a>.</p>
+
+<ul>
+  <li>스냅샷 구성 목록 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snapper list-configs</code></p>
+
+<ul>
+  <li>스냅퍼 구성 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snapper -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구성</span><code class="language-plaintext highlighter-rouge"> create-config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>설명과 함께 스냅샷 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snapper -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구성</span><code class="language-plaintext highlighter-rouge"> create -d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스냅샷_설명</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 구성의 스냅샷 목록 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snapper -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구성</span><code class="language-plaintext highlighter-rouge"> list</code></p>
+
+<ul>
+  <li>스냅샷 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snapper -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구성</span><code class="language-plaintext highlighter-rouge"> delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스냅샷_번호</span></p>
+
+<ul>
+  <li>스냅샷 범위 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snapper -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구성</span><code class="language-plaintext highlighter-rouge"> delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스냅샷1</span><code class="language-plaintext highlighter-rouge">-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스냅샷2</span></p>

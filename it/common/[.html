@@ -1,0 +1,47 @@
+<h1>[</h1>
+
+<p>Controlla i tipi di file e confronta i valori.
+Restituisce uno stato pari a 0 se la condizione risulta vera, 1 se risulta falsa.
+Maggiori informazioni: <a href="https://gnu.org/software/bash/manual/bash.html#index-test">https://gnu.org/software/bash/manual/bash.html#index-test</a>.</p>
+
+<ul>
+  <li>Verifica se una determinata variabile è uguale/diversa dalla stringa specificata:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabile</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">=|!=</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stringa</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Verifica se una variabile data è [eq]uguale/[n]on [e]uguale/[g]maggiore [t]di/[l]minore [t]di/[g]maggiore di o [e]uguale/[l]minore di o [e]uguale al numero specificato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabile</span><code class="language-plaintext highlighter-rouge">" -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eq|ne|gt|lt|ge|le</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">intero</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>Verifica se la variabile specificata ha un valore [n]on-empty :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -n "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabile</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Verifica se la variabile specificata ha un valore vuoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -z "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabile</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Verifica se il [f]ile specificato esiste:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>Verifica se la [d]irectory specificata esiste:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>Verifica se la directory o file specificata/o [e]siste:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span><code class="language-plaintext highlighter-rouge"> ]</code></p>

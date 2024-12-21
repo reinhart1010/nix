@@ -1,0 +1,41 @@
+<h1 id="pacman-files">pacman –files</h1>
+
+<p>Arch Linux Paketverwaltungs-Werkzeug.
+Siehe auch: <code class="language-plaintext highlighter-rouge">pacman</code>, <code class="language-plaintext highlighter-rouge">pkgfile</code>.
+Weitere Informationen: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Aktualisiere die Paketdatenbank:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --files --refresh</code></p>
+
+<ul>
+  <li>Finde das Paket, welches eine bestimmte Datei besitzt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dateiname</span></p>
+
+<ul>
+  <li>Finde das Paket, welches eine bestimmte Datei besitzt, mittels eines regulären Ausdrucks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files --regex '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suchmuster</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Liste nur Paketnamen auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dateiname</span></p>
+
+<ul>
+  <li>Liste die Dateien auf welche einem bestimmten Paket gehören:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span></p>
+
+<ul>
+  <li>Zeige Hilfe an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files --help</code></p>

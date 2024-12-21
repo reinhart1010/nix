@@ -1,0 +1,11 @@
+<h1 id="qm-disk-import">qm disk import</h1>
+
+<p>Importa una imagen de disco a una máquina virtual como un disco sin utilizar.
+Los formatos de imagen que <code class="language-plaintext highlighter-rouge">qemu-img</code> soporta son: raw, qcow2, qed, vdi, vmdk, y vhd.
+Más información: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>Importa una imagen de disco VMDK/qcow2/raw usando un nombre de almacenamiento específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm importdisk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/disco</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_disco</span><code class="language-plaintext highlighter-rouge"> --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">qcow2|raw|vmdk</span></p>

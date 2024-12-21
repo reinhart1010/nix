@@ -1,0 +1,52 @@
+<h1 id="rclone">rclone</h1>
+
+<p>Copy, synchronize or move files and directories to and from many cloud services.
+More information: <a href="https://rclone.org">https://rclone.org</a>.</p>
+
+<ul>
+  <li>Launch an interactive menu to setup rclone:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rclone config</code></p>
+
+<ul>
+  <li>List contents of a directory on an rclone remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rclone lsf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Copy a file or directory from the local machine to the remote destination:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rclone copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Copy files changed within the past 24 hours to a remote from the local machine, asking the user to confirm each file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rclone copy --interactive --max-age 24h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_directory</span></p>
+
+<ul>
+  <li>Mirror a specific file or directory (Note: Unlike copy, sync removes files from the remote if it does not exist locally):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rclone sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Delete a remote file or directory (Note: <code class="language-plaintext highlighter-rouge">--dry-run</code> means test, remove it from the command to actually delete):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rclone --dry-run delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Mount rclone remote (experimental):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rclone mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mount_point</span></p>
+
+<ul>
+  <li>Unmount rclone remote if CTRL-C fails (experimental):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fusermount -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mount_point</span></p>

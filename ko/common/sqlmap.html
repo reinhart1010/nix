@@ -1,0 +1,34 @@
+<h1 id="sqlmap">sqlmap</h1>
+
+<p>SQL 인젝션 취약점을 탐지하고 악용.
+더 많은 정보: <a href="https://sqlmap.org">https://sqlmap.org</a>.</p>
+
+<ul>
+  <li>단일 대상 URL에 대해 sqlmap 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">python sqlmap.py -u "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://www.target.com/vuln.php?id=1</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>POST 요청으로 데이터 전송 (<code class="language-plaintext highlighter-rouge">--data</code>는 POST 요청을 의미):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">python sqlmap.py -u "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://www.target.com/vuln.php</span><code class="language-plaintext highlighter-rouge">" --data="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id=1</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>매개변수 구분자 변경 (기본값은 &amp;):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">python sqlmap.py -u "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://www.target.com/vuln.php</span><code class="language-plaintext highlighter-rouge">" --data="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query=foobar;id=1</span><code class="language-plaintext highlighter-rouge">" --param-del="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">;</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">./txt/user-agents.txt</code>에서 무작위 <code class="language-plaintext highlighter-rouge">User-Agent</code> 선택 및 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">python sqlmap.py -u "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://www.target.com/vuln.php</span><code class="language-plaintext highlighter-rouge">" --random-agent</code></p>
+
+<ul>
+  <li>HTTP 프로토콜 인증을 위한 사용자 자격 증명 제공:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">python sqlmap.py -u "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://www.target.com/vuln.php</span><code class="language-plaintext highlighter-rouge">" --auth-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Basic</span><code class="language-plaintext highlighter-rouge"> --auth-cred "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">testuser:testpass</span><code class="language-plaintext highlighter-rouge">"</code></p>

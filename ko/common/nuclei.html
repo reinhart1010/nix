@@ -1,0 +1,52 @@
+<h1 id="nuclei">nuclei</h1>
+
+<p>간단한 YAML 기반 DSL을 사용하는 빠르고 커스터마이즈 가능한 취약점 스캐너.
+더 많은 정보: <a href="https://docs.projectdiscovery.io/tools/nuclei/overview">https://docs.projectdiscovery.io/tools/nuclei/overview</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">nuclei</code> [t]emplates를 최신 버전으로 [u]pdate (다운로드는 <code class="language-plaintext highlighter-rouge">~/nuclei-templates</code>에 저장됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nuclei -ut</code></p>
+
+<ul>
+  <li>특정 [p]rotocol [t]ype의 모든 [t]emplates 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nuclei -tl -pt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dns|file|http|headless|tcp|workflow|ssl|websocket|whois|code|javascript</span></p>
+
+<ul>
+  <li>wappalyzer 기술 감지를 사용하여 자동 웹 스캔을 수행하고 스캔할 대상 [u]RL/호스트 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nuclei -as -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scanme.nmap.org</span></p>
+
+<ul>
+  <li>높은 및 치명적 심각도의 HTTP [p]rotocol [t]ype 템플릿을 실행하고, 결과를 특정 디렉토리 내 [m]arkdown 파일로 [e]xport:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nuclei -severity high,critical -pt http -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://scanme.sh</span><code class="language-plaintext highlighter-rouge"> -me </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">마크다운_디렉토리</span></p>
+
+<ul>
+  <li>다른 [r]ate [l]imit과 최대 [b]ulk [s]ize를 사용하여 모든 템플릿 실행하며, 조용한 출력(발견된 내용만 표시):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nuclei -rl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">150</span><code class="language-plaintext highlighter-rouge"> -bs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">25</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">25</span><code class="language-plaintext highlighter-rouge"> -silent -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://scanme.sh</span></p>
+
+<ul>
+  <li>WordPress 사이트에 대해 WordPress [w]orkflow 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nuclei -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/nuclei-templates/workflows/wordpress-workflow.yaml</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://sample.wordpress.site</span></p>
+
+<ul>
+  <li>하나 이상의 특정 [t]emplates 또는 [t]emplates가 있는 디렉토리를 실행하며 <code class="language-plaintext highlighter-rouge">stderr</code>에 [v]erbose 출력 및 검출된 문제/취약점을 파일로 [o]utput:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nuclei -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/nuclei-templates/http</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://scanme.sh</span><code class="language-plaintext highlighter-rouge"> -v -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">결과들</span></p>
+
+<ul>
+  <li>하나 이상의 [t]emplate [c]onditions에 기반한 스캔 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nuclei -tc "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contains(tags, 'xss') &amp;&amp; contains(tags, 'cve')</span><code class="language-plaintext highlighter-rouge">" -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://vulnerable.website</span></p>

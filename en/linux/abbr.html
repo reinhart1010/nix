@@ -1,0 +1,29 @@
+<h1 id="abbr">abbr</h1>
+
+<p>Manage abbreviations for the fish shell.
+User-defined words are replaced with longer phrases after they are entered.
+More information: <a href="https://fishshell.com/docs/current/cmds/abbr.html">https://fishshell.com/docs/current/cmds/abbr.html</a>.</p>
+
+<ul>
+  <li>Add a new abbreviation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">abbr --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">abbreviation_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>
+
+<ul>
+  <li>Rename an existing abbreviation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">abbr --rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_name</span></p>
+
+<ul>
+  <li>Erase an existing abbreviation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">abbr --erase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">abbreviation_name</span></p>
+
+<ul>
+  <li>Import the abbreviations defined on another host over SSH:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_name</span><code class="language-plaintext highlighter-rouge"> abbr --show | source</code></p>

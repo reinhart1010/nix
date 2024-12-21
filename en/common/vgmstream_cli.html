@@ -1,0 +1,40 @@
+<h1 id="vgmstream_cli">vgmstream_cli</h1>
+
+<p>Play a wide variety of audio formats used in video games and convert them into <code class="language-plaintext highlighter-rouge">wav</code>.
+More information: <a href="https://github.com/vgmstream/vgmstream/blob/master/doc/USAGE.md">https://github.com/vgmstream/vgmstream/blob/master/doc/USAGE.md</a>.</p>
+
+<ul>
+  <li>Decode an <code class="language-plaintext highlighter-rouge">adc</code> file to <code class="language-plaintext highlighter-rouge">wav</code>. (Default output name is <code class="language-plaintext highlighter-rouge">input.wav</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgmstream_cli </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.adc</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.wav</span></p>
+
+<ul>
+  <li>Print metadata without decoding the audio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgmstream_cli </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.adc</span><code class="language-plaintext highlighter-rouge"> -m</code></p>
+
+<ul>
+  <li>Decode an audio file without loops:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgmstream_cli </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.adc</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.wav</span><code class="language-plaintext highlighter-rouge"> -i</code></p>
+
+<ul>
+  <li>Decode with three loops, then add a 3s delay followed by a 5s fadeout:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgmstream_cli </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.adc</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.wav</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3.0</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5.0</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3.0</span></p>
+
+<ul>
+  <li>Convert multiple files to <code class="language-plaintext highlighter-rouge">bgm_(original name).wav</code> (Default <code class="language-plaintext highlighter-rouge">-o</code> pattern is <code class="language-plaintext highlighter-rouge">?f.wav</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgmstream_cli -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bgm_?f.wav</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.adc</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.adc</span></p>
+
+<ul>
+  <li>Play the file looping endlessly (<code class="language-plaintext highlighter-rouge">channels</code> and <code class="language-plaintext highlighter-rouge">rate</code> must match metadata):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgmstream_cli </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.adc</span><code class="language-plaintext highlighter-rouge"> -pec | aplay --format cd --channels </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> --rate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">44100</span></p>

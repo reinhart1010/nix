@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="docker-images">docker images</h1>
+
+<p>도커 이미지 관리.
+더 많은 정보: <a href="https://docs.docker.com/reference/cli/docker/image/ls/">https://docs.docker.com/reference/cli/docker/image/ls/</a>.</p>
+
+<ul>
+  <li>모든 도커 이미지 목록 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images</code></p>
+
+<ul>
+  <li>중간 레이어를 포함한 도커 이미지 목록 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images --all</code></p>
+
+<ul>
+  <li>조용한 모드로 결과 목록 보기 (이미지 ID만 출력):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images --quiet</code></p>
+
+<ul>
+  <li>어떤 컨테이너에도 사용되지 않은 도커 이미지 목록 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images --filter dangling=true</code></p>
+
+<ul>
+  <li>이름에 부분 문자열을 포함한 이미지 목록 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>이름</em></span><code class="language-plaintext highlighter-rouge">"</code></p>

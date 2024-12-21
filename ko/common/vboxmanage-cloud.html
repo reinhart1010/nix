@@ -1,0 +1,52 @@
+<h1 id="vboxmanage-cloud">vboxmanage-cloud</h1>
+
+<p>클라우드 인스턴스 및 이미지를 관리하기 위한 VirtualBox 명령줄 인터페이스.
+더 많은 정보: <a href="https://www.virtualbox.org/manual/ch08.html#vboxmanage-cloud">https://www.virtualbox.org/manual/ch08.html#vboxmanage-cloud</a>.</p>
+
+<ul>
+  <li>지정된 구획에 속하는 특정 상태의 인스턴스 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage cloud --provider=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">제공자_이름</span><code class="language-plaintext highlighter-rouge"> --profile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로필_이름</span><code class="language-plaintext highlighter-rouge"> list instances --state=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">running|terminated|paused</span><code class="language-plaintext highlighter-rouge"> --compartment-id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구획_id</span></p>
+
+<ul>
+  <li>새 인스턴스 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage cloud --provider=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">제공자_이름</span><code class="language-plaintext highlighter-rouge"> --profile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로필_이름</span><code class="language-plaintext highlighter-rouge"> instance create --domain-name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인_이름</span><code class="language-plaintext highlighter-rouge"> --image-id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_id</span><code class="language-plaintext highlighter-rouge"> | </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–옵션…</span></p>
+
+<ul>
+  <li>특정 인스턴스에 대한 정보 수집:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage cloud --provider=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">제공자_이름</span><code class="language-plaintext highlighter-rouge"> --profile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로필_이름</span><code class="language-plaintext highlighter-rouge"> instance info --id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">고유_id</span></p>
+
+<ul>
+  <li>인스턴스 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage cloud --provider=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">제공자_이름</span><code class="language-plaintext highlighter-rouge"> --profile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로필_이름</span><code class="language-plaintext highlighter-rouge"> instance terminate --id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">고유_id</span></p>
+
+<ul>
+  <li>특정 구획 및 상태의 이미지 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage cloud --provider=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">제공자_이름</span><code class="language-plaintext highlighter-rouge"> --profile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로필_이름</span><code class="language-plaintext highlighter-rouge"> list images --compartment-id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구획_id</span><code class="language-plaintext highlighter-rouge"> --state=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">상태_이름</span></p>
+
+<ul>
+  <li>새 이미지 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage cloud --provider=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">제공자_이름</span><code class="language-plaintext highlighter-rouge"> --profile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로필_이름</span><code class="language-plaintext highlighter-rouge"> image create --instance-id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인스턴스_id</span><code class="language-plaintext highlighter-rouge"> --display-name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">표시_이름</span><code class="language-plaintext highlighter-rouge"> --compartment-id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구획_id</span></p>
+
+<ul>
+  <li>특정 이미지에 대한 정보 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage cloud --provider=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">제공자_이름</span><code class="language-plaintext highlighter-rouge"> --profile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로필_이름</span><code class="language-plaintext highlighter-rouge"> image info --id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">고유_id</span></p>
+
+<ul>
+  <li>이미지 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage cloud --provider=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">제공자_이름</span><code class="language-plaintext highlighter-rouge"> --profile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로필_이름</span><code class="language-plaintext highlighter-rouge"> image delete --id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">고유_id</span></p>

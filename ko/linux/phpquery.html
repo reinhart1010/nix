@@ -1,0 +1,28 @@
+<h1 id="phpquery">phpquery</h1>
+
+<p>Debian 기반 운영체제를 위한 PHP 확장 관리자.
+더 많은 정보: <a href="https://helpmanual.io/help/phpquery/">https://helpmanual.io/help/phpquery/</a>.</p>
+
+<ul>
+  <li>사용 가능한 PHP 버전 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo phpquery -V</code></p>
+
+<ul>
+  <li>PHP 7.3에 대한 사용 가능한 SAPI 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo phpquery -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7.3</span><code class="language-plaintext highlighter-rouge"> -S</code></p>
+
+<ul>
+  <li>PHP 7.3의 cli SAPI에 대해 활성화된 확장 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo phpquery -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7.3</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cli</span><code class="language-plaintext highlighter-rouge"> -M</code></p>
+
+<ul>
+  <li>PHP 7.3의 apache2 SAPI에 대해 JSON 확장이 활성화되었는지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo phpquery -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7.3</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apache2</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json</span></p>

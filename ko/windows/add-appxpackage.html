@@ -1,0 +1,28 @@
+<h1 id="add-appxpackage">Add-AppxPackage</h1>
+
+<p>서명된 앱 패키지(<code class="language-plaintext highlighter-rouge">.appx</code>, <code class="language-plaintext highlighter-rouge">.msix</code>, <code class="language-plaintext highlighter-rouge">.appxbundle</code>, <code class="language-plaintext highlighter-rouge">.msixbundle</code>)를 사용자 계정에 추가하는 PowerShell 유틸리티.
+더 많은 정보: <a href="https://learn.microsoft.com/powershell/module/appx/Add-AppxPackage">https://learn.microsoft.com/powershell/module/appx/Add-AppxPackage</a>.</p>
+
+<ul>
+  <li>앱 패키지 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Add-AppxPackage -Path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\패키지.msix</span></p>
+
+<ul>
+  <li>의존성과 함께 앱 패키지 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Add-AppxPackage -Path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\패키지.msix</span><code class="language-plaintext highlighter-rouge"> -DependencyPath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\의존성.msix</span></p>
+
+<ul>
+  <li>앱 설치 파일을 사용하여 앱 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Add-AppxPackage -AppInstallerFile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\앱.appinstaller</span></p>
+
+<ul>
+  <li>서명되지 않은 패키지 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Add-AppxPackage -Path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\패키지.msix</span><code class="language-plaintext highlighter-rouge"> -DependencyPath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\의존성.msix</span><code class="language-plaintext highlighter-rouge"> -AllowUnsigned</code></p>

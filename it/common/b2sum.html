@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="b2sum">b2sum</h1>
+
+<p>Calcola checksum BLAKE2.
+Maggiori informazioni: <a href="https://www.gnu.org/software/coreutils/manual/html_node/b2sum-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/b2sum-invocation.html</a>.</p>
+
+<ul>
+  <li>Calcola il checksum BLAKE2 per un file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2sum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span></p>
+
+<ul>
+  <li>Calcola checksum BLAKE2 per più file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2sum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span></p>
+
+<ul>
+  <li>Leggi un file di checksum BLAKE2 e nomi di file e verifica che tutti i file abbiano lo stesso checksum:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2sum -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">elenco_checksum.b2</span></p>
+
+<ul>
+  <li>Calcola il checksum BLAKE2 da standard input:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | b2sum</code></p>

@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="cut">cut</h1>
+
+<p><code class="language-plaintext highlighter-rouge">stdin</code> 혹은 파일에서 출력 필드를 자른다.
+더 많은 정보: <a href="https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>의 각 라인에 첫번째 16개의 문자를 자르기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-16</span></p>
+
+<ul>
+  <li>지정된 파일의 각 라인의 첫번째 16개 문자를 자르기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-16</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일</span></p>
+
+<ul>
+  <li>3번째 문자 부터 각 라인의 끝까지 모든 문자를 자르기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3-</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">:</code> 을 필드 구분 기호로 사용하여 각 라인의 5번째 필드를 자르기(기본 구분 기호 : 탭):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -d'</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:</span><code class="language-plaintext highlighter-rouge">' -f</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">;</code> 을 구분 기호로 사용하여 각 라인의 2번째와 10번째 필드를 자르기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -d'</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">;</span><code class="language-plaintext highlighter-rouge">' -f</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2,10</span></p>
+
+<ul>
+  <li>공백을 구분 기호로 사용하여 각 라인의 끝까지 필드 3을 자르기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -d'</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"> </span><code class="language-plaintext highlighter-rouge">' -f</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3-</span></p>

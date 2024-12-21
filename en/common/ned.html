@@ -1,0 +1,53 @@
+<h1 id="ned">ned</h1>
+
+<p>Like <code class="language-plaintext highlighter-rouge">grep</code> but with powerful replace capabilities.
+Unlike <code class="language-plaintext highlighter-rouge">sed</code>, as it isn't restricted to line oriented editing.
+More information: <a href="https://github.com/nevdelap/ned">https://github.com/nevdelap/ned</a>.</p>
+
+<ul>
+  <li>Recursively search starting in the current directory, ignoring case:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ned --ignore-case --recursive '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^[dl]og</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span></p>
+
+<ul>
+  <li>Search always showing colored output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ned --colors '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^[dl]og</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span></p>
+
+<ul>
+  <li>Search never showing colored output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ned --colors=never '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^[dl]og</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span></p>
+
+<ul>
+  <li>Search ignoring certain files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ned --recursive --exclude '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.htm</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^[dl]og</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span></p>
+
+<ul>
+  <li>Simple replace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ned '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dog</span><code class="language-plaintext highlighter-rouge">' --replace '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span></p>
+
+<ul>
+  <li>Replace using numbered group references:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ned '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">the ([a-z]+) dog and the ([a-z]+) dog</span><code class="language-plaintext highlighter-rouge">' --replace '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">the $2 dog and the $1 dog</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span></p>
+
+<ul>
+  <li>Replace changing case:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ned '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">([a-z]+) dog</span><code class="language-plaintext highlighter-rouge">' --case-replacements --replace '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\U$1\E! dog</span><code class="language-plaintext highlighter-rouge">' --stdout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span></p>
+
+<ul>
+  <li>Preview results of a find and replace without updating the target files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ned '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^[sb]ad</span><code class="language-plaintext highlighter-rouge">' --replace '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">happy</span><code class="language-plaintext highlighter-rouge">' --stdout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span></p>

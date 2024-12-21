@@ -1,0 +1,36 @@
+<h1 id="pacman-mirrors">pacman-mirrors</h1>
+
+<p>Génère une liste de miroirs pour pacman sur Manjaro Linux.
+Tout appel à pacman-mirrors demande de synchroniser les bases de données et de mettre à jour le système en exécutant <code class="language-plaintext highlighter-rouge">sudo pacman -Syyu</code> en suivant.
+Voir aussi: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Plus d'informations : <a href="https://wiki.manjaro.org/index.php?title=Pacman-mirrors">https://wiki.manjaro.org/index.php?title=Pacman-mirrors</a>.</p>
+
+<ul>
+  <li>Génère une liste de miroirs avec les réglages par défaut :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-mirrors --fasttrack</code></p>
+
+<ul>
+  <li>Obtiens le statut des miroirs actuels :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman-mirrors --status</code></p>
+
+<ul>
+  <li>Affiche la branche courante :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman-mirrors --get-branch</code></p>
+
+<ul>
+  <li>Utilise une branche différente :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-mirrors --api --set-branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stable|unstable|testing</span></p>
+
+<ul>
+  <li>Génère une liste de miroirs se trouvant dans le pays associé à l'adresse IP :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-mirrors --geoip</code></p>

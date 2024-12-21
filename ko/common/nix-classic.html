@@ -1,0 +1,41 @@
+<h1 id="nix-classic">nix classic</h1>
+
+<p>안정적이고 강력한 패키지 관리자를 위한 클래식하고 안정적인 인터페이스로, 패키지 관리를 신뢰성 있고 재현 가능하며 선언적으로 만듭니다.
+<code class="language-plaintext highlighter-rouge">nix-build</code>, <code class="language-plaintext highlighter-rouge">nix-shell</code>, <code class="language-plaintext highlighter-rouge">nix-env</code>, <code class="language-plaintext highlighter-rouge">nix-store</code>와 같은 일부 Nix 명령에는 자체 페이지가 있습니다. 같이 보기: <code class="language-plaintext highlighter-rouge">tldr nix</code>.
+더 많은 정보: <a href="https://nixos.org">https://nixos.org</a>.</p>
+
+<ul>
+  <li>nixpkgs에서 이름으로 패키지 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -qaP </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_용어_정규식</span></p>
+
+<ul>
+  <li>지정된 패키지를 사용 가능한 상태로 쉘 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-shell -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지1 패키지2 패키지3…</span></p>
+
+<ul>
+  <li>일부 패키지를 영구적으로 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -iA </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs.패키지1 nixpkgs.패키지2…</span></p>
+
+<ul>
+  <li>저장소 경로(패키지)의 모든 종속성을 트리 형식으로 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-store --query --tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/nix/store/…</span></p>
+
+<ul>
+  <li>채널(저장소) 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-channel --update</code></p>
+
+<ul>
+  <li>Nix 저장소에서 사용하지 않는 경로 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-collect-garbage</code></p>

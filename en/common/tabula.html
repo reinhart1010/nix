@@ -1,0 +1,40 @@
+<h1 id="tabula">tabula</h1>
+
+<p>Extract tables from PDF files.
+More information: <a href="https://tabula.technology">https://tabula.technology</a>.</p>
+
+<ul>
+  <li>Extract all tables from a PDF to a CSV file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tabula -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.csv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.pdf</span></p>
+
+<ul>
+  <li>Extract all tables from a PDF to a JSON file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tabula --format JSON -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.json</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.pdf</span></p>
+
+<ul>
+  <li>Extract tables from pages 1, 2, 3, and 6 of a PDF:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tabula --pages </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-3,6</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.pdf</span></p>
+
+<ul>
+  <li>Extract tables from page 1 of a PDF, guessing which portion of the page to examine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tabula --guess --pages </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.pdf</span></p>
+
+<ul>
+  <li>Extract all tables from a PDF, using ruling lines to determine cell boundaries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tabula --spreadsheet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.pdf</span></p>
+
+<ul>
+  <li>Extract all tables from a PDF, using blank space to determine cell boundaries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tabula --no-spreadsheet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.pdf</span></p>

@@ -1,0 +1,22 @@
+<h1 id="pamtowinicon">pamtowinicon</h1>
+
+<p>Convert a PAM image to a Windows ICO file.
+More information: <a href="https://netpbm.sourceforge.net/doc/pamtowinicon.html">https://netpbm.sourceforge.net/doc/pamtowinicon.html</a>.</p>
+
+<ul>
+  <li>Convert a PAM image file to an ICO file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtowinicon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ico</span></p>
+
+<ul>
+  <li>Encode images with resolutions smaller than t in the BMP format and all other images in the PNG format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtowinicon -pngthreshold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">t</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ico</span></p>
+
+<ul>
+  <li>Make all pixels outside the non-opaque area black:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtowinicon -truetransparent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ico</span></p>

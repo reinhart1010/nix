@@ -1,0 +1,41 @@
+<h1 id="bspc">bspc</h1>
+
+<p><code class="language-plaintext highlighter-rouge">bspwm</code>을 구성하고 제어하여 노드, 데스크톱, 모니터 등을 관리합니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">bspwm</code>.
+더 많은 정보: <a href="https://github.com/baskerville/bspwm">https://github.com/baskerville/bspwm</a>.</p>
+
+<ul>
+  <li>두 개의 가상 데스크톱 정의:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc monitor --reset-desktops </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데스크톱_이름1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데스크톱_이름2</span></p>
+
+<ul>
+  <li>지정한 데스크톱으로 포커스 이동:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc desktop --focus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">번호</span></p>
+
+<ul>
+  <li>선택한 노드에 있는 창 닫기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc node --close</code></p>
+
+<ul>
+  <li>선택한 노드를 지정한 데스크톱으로 보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc node --to-desktop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">번호</span></p>
+
+<ul>
+  <li>선택한 노드의 전체 화면 모드 전환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc node --state ~fullscreen</code></p>
+
+<ul>
+  <li>특정 설정의 값 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">설정_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span></p>

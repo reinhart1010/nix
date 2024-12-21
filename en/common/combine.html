@@ -1,0 +1,30 @@
+<h1 id="combine">combine</h1>
+
+<p>Perform set operations on lines of two files.
+The order of the output lines is determined by the order of the lines in the first file.
+See also: <code class="language-plaintext highlighter-rouge">diff</code>.
+More information: <a href="https://joeyh.name/code/moreutils/">https://joeyh.name/code/moreutils/</a>.</p>
+
+<ul>
+  <li>Output lines that are in both specified files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">combine </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> and </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Output lines that are in the first but not in the second file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">combine </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> not </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Output lines that in are in either of the specified files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">combine </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> or </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Output lines that are in exactly one of the specified files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">combine </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> xor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>

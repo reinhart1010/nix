@@ -1,0 +1,28 @@
+<h1 id="httping">httping</h1>
+
+<p>웹 서버의 대기 시간과 처리량을 측정.
+더 많은 정보: <a href="https://manned.org/httping">https://manned.org/httping</a>.</p>
+
+<ul>
+  <li>지정된 URL을 ping:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httping -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주소</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">호스트</code> 및 <code class="language-plaintext highlighter-rouge">포트</code>에서 웹 서버를 ping:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httping -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span></p>
+
+<ul>
+  <li>TLS 연결을 사용하여 <code class="language-plaintext highlighter-rouge">호스트</code>에서 웹 서버를 ping:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httping -l -g https://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span></p>
+
+<ul>
+  <li>HTTP 기본 인증을 사용하여 <code class="language-plaintext highlighter-rouge">호스트</code>에서 웹 서버를 ping:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httping -g http://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span><code class="language-plaintext highlighter-rouge"> -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span></p>

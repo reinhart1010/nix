@@ -1,0 +1,40 @@
+<h1 id="du">du</h1>
+
+<p>Uso do Disco: estima e resume o uso do espaço de arquivos e diretórios.
+Mais informações: <a href="https://keith.github.io/xcode-man-pages/du.1.html">https://keith.github.io/xcode-man-pages/du.1.html</a>.</p>
+
+<ul>
+  <li>Lista os tamanhos de um diretório e quaisquer subdiretórios, na unidade fornecida (KiB/MiB/GiB):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">k|m|g</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Lista os tamanhos de um diretório e quaisquer subdiretórios, em formato legível (ou seja, selecionando automaticamente a unidade apropriada para cada tamanho):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Exibe o tamanho de um único diretório, em unidades legíveis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -sh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Lista os tamanhos legíveis de um diretório e de todos os arquivos e diretórios dentro dele:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -ah </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Lista os tamanhos legíveis de um diretório e quaisquer subdiretórios, até N níveis de profundidade:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -h -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Lista o tamanho legível de todos os arquivos <code class="language-plaintext highlighter-rouge">.jpg</code> nos subdiretórios do diretório atual e exibe um total cumulativo no final:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -ch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>/</em>.jpg</span></p>

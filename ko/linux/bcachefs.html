@@ -1,0 +1,53 @@
+<h1 id="bcachefs">bcachefs</h1>
+
+<p><code class="language-plaintext highlighter-rouge">bcachefs</code> 파일 시스템/장치를 관리합니다.
+<code class="language-plaintext highlighter-rouge">device</code>와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+더 많은 정보: <a href="https://bcachefs-docs.readthedocs.io/en/latest/index.html">https://bcachefs-docs.readthedocs.io/en/latest/index.html</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">bcachefs</code>로 파티션 포맷:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bcachefs format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파티션</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">bcachefs</code> 파일 시스템 마운트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bcachefs mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파티션</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/마운트포인트</span></p>
+
+<ul>
+  <li>SSD를 캐시로, HDD를 장기 저장소로 사용하는 RAID 0 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bcachefs format --label=ssd.ssd1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/ssd/파티션</span><code class="language-plaintext highlighter-rouge"> --label=hdd.hdd1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/hdd/파티션</span><code class="language-plaintext highlighter-rouge"> --replicas=1 --foreground_target=ssd --promote_target=ssd --background_target=hdd</code></p>
+
+<ul>
+  <li>다중 장치 파일 시스템 마운트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bcachefs mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파티션1</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파티션2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/마운트포인트</span></p>
+
+<ul>
+  <li>디스크 사용량 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bcachefs fs usage --human-readable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/마운트포인트</span></p>
+
+<ul>
+  <li>포맷 및 마운트 후 복제본 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bcachefs set-fs-option --metadata_replicas=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> --data_replicas=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파티션</span></p>
+
+<ul>
+  <li>모든 파일이 복제되도록 <code class="language-plaintext highlighter-rouge">bcachefs</code> 강제화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bcachefs data rereplicate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/마운트포인트</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bcachefs</code></p>

@@ -1,0 +1,35 @@
+<h1 id="chafa">chafa</h1>
+
+<p>Image printing in the terminal.
+See also: <code class="language-plaintext highlighter-rouge">catimg</code>, <code class="language-plaintext highlighter-rouge">pixterm</code>.
+More information: <a href="https://hpjansson.org/chafa/man">https://hpjansson.org/chafa/man</a>.</p>
+
+<ul>
+  <li>Render an image directly in the terminal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chafa </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Render an image with 24-bit [c]olor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chafa -c full </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Improve image rendering with small color palettes using dithering:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chafa -c 16 --dither ordered </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Render an image, making it appear pixelated:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chafa --symbols vhalf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Render a monochrome image with only braille characters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chafa -c none --symbols braille </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

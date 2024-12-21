@@ -1,0 +1,52 @@
+<h1 id="incus">incus</h1>
+
+<p>Modern, secure and powerful system container and virtual machine manager.
+More information: <a href="https://linuxcontainers.org/incus/docs/main">https://linuxcontainers.org/incus/docs/main</a>.</p>
+
+<ul>
+  <li>List all containers and virtual machines (both running and stopped):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">incus list</code></p>
+
+<ul>
+  <li>Create a container from an image, with a custom name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">incus create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Start or stop an existing container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">incus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Open a shell inside an already running container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">incus shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Remove a stopped container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">incus delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Pull an image from an image repository (remote) to local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">incus copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span><code class="language-plaintext highlighter-rouge"> local:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">custom_image_name</span></p>
+
+<ul>
+  <li>List all available images in the official <code class="language-plaintext highlighter-rouge">images:</code> remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">incus image list images:</code></p>
+
+<ul>
+  <li>List all images already downloaded to the <code class="language-plaintext highlighter-rouge">local:</code> remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">incus image list local:</code></p>

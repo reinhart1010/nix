@@ -1,0 +1,16 @@
+<h1 id="qm-rescan">qm rescan</h1>
+
+<p>Revisa de nuevo (rescan) todos los almacenamientos (storages) y actualiza los tamaños de discos e imágenes de disco no utilizadas de una máquina virtual.
+Más información: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>Restaura todos los almacenamientos y actualiza los tamaños de disco e imágenes de disco no utilizadas de la máquina virtual indicada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm rescan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_mv</span></p>
+
+<ul>
+  <li>Realiza una simulación de rescan en una máquina virtual específica y no escribe ningún cambio en las configuraciones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm rescan --dryrun </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_mv</span></p>

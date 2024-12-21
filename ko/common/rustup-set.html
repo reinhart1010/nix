@@ -1,0 +1,22 @@
+<h1 id="rustup-set">rustup set</h1>
+
+<p><code class="language-plaintext highlighter-rouge">rustup</code> 설정 변경.
+더 많은 정보: <a href="https://rust-lang.github.io/rustup">https://rust-lang.github.io/rustup</a>.</p>
+
+<ul>
+  <li>기본 호스트 트리플 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup set default-host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트_트리플</span></p>
+
+<ul>
+  <li>기본 프로필 설정 (<code class="language-plaintext highlighter-rouge">minimal</code>은 <code class="language-plaintext highlighter-rouge">rustc</code>, <code class="language-plaintext highlighter-rouge">rust-std</code>, <code class="language-plaintext highlighter-rouge">cargo</code>만 포함하고, <code class="language-plaintext highlighter-rouge">default</code>는 <code class="language-plaintext highlighter-rouge">rust-docs</code>, <code class="language-plaintext highlighter-rouge">rustfmt</code>, <code class="language-plaintext highlighter-rouge">clippy</code>를 추가로 포함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup set profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">minimal|default</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">rustup update</code> 실행 시 <code class="language-plaintext highlighter-rouge">rustup</code> 자체 업데이트 여부 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup set auto-self-update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enable|disable|check-only</span></p>

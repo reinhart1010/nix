@@ -1,0 +1,28 @@
+<h1 id="mysqlcheck">mysqlcheck</h1>
+
+<p>Check and repair MySQL tables.
+More information: <a href="https://dev.mysql.com/doc/refman/8.0/en/mysqlcheck.html">https://dev.mysql.com/doc/refman/8.0/en/mysqlcheck.html</a>.</p>
+
+<ul>
+  <li>Check a table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlcheck --check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table</span></p>
+
+<ul>
+  <li>Check a table and provide credentials to access it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlcheck --check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Repair a table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlcheck --repair </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table</span></p>
+
+<ul>
+  <li>Optimize a table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlcheck --optimize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table</span></p>

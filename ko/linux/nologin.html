@@ -1,0 +1,16 @@
+<h1 id="nologin">nologin</h1>
+
+<p>사용자가 로그인하지 못하도록 하는 대체 셸.
+더 많은 정보: <a href="https://manned.org/nologin.5">https://manned.org/nologin.5</a>.</p>
+
+<ul>
+  <li>사용자의 로그인 셸을 <code class="language-plaintext highlighter-rouge">nologin</code>으로 설정하여 로그인을 방지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chsh -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge"> nologin</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">nologin</code> 로그인 셸을 가진 사용자에게 표시할 메시지 사용자 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">로그인_거부_메시지</span><code class="language-plaintext highlighter-rouge">" &gt; /etc/nologin.txt</code></p>

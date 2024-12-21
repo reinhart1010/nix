@@ -1,0 +1,47 @@
+<h1 id="pm2">pm2</h1>
+
+<p>Manajer proses untuk Node.js.
+Digunakan untuk manajemen log, pemantauan, dan pengaturan proses.
+Informasi lebih lanjut: <a href="https://pm2.keymetrics.io">https://pm2.keymetrics.io</a>.</p>
+
+<ul>
+  <li>Memulai prooses dengan nama yang dapat digunakan untuk operasi selanjutnya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pm2 start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app.js</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_aplikasi</span></p>
+
+<ul>
+  <li>Tampilkan daftar proses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pm2 list</code></p>
+
+<ul>
+  <li>Pantau semua proses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pm2 monit</code></p>
+
+<ul>
+  <li>Menghentikan sebuah proses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pm2 stop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_aplikasi</span></p>
+
+<ul>
+  <li>Memulai ulang sebuah proses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pm2 restart </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_aplikasi</span></p>
+
+<ul>
+  <li>Membuang semua proses dan menghidupkan mereka kembali nanti:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pm2 save</code></p>
+
+<ul>
+  <li>Menghidupkan kembali proses yang sebelumnya dibuang:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pm2 resurrect</code></p>

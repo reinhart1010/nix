@@ -1,0 +1,52 @@
+<h1 id="exclamation-mark">Exclamation mark</h1>
+
+<p>Bash 内置命令，用于替换历史记录中找到的命令。
+更多信息：<a href="https://gnu.org/software/bash/manual/bash.html#Event-Designators">https://gnu.org/software/bash/manual/bash.html#Event-Designators</a>.</p>
+
+<ul>
+  <li>使用<code class="language-plaintext highlighter-rouge">sudo</code>重新执行上一个命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo !!</code></p>
+
+<ul>
+  <li>通过在<code class="language-plaintext highlighter-rouge">history</code>中出现的<code class="language-plaintext highlighter-rouge">行号</code>来调取命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">行号</span></p>
+
+<ul>
+  <li>调取<code class="language-plaintext highlighter-rouge">history</code>中的倒数第<code class="language-plaintext highlighter-rouge">数字</code>条命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">数字</span></p>
+
+<ul>
+  <li>调取以<code class="language-plaintext highlighter-rouge">字符串</code>开头的最近执行的命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串</span></p>
+
+<ul>
+  <li>调取上一个命令的参数给<code class="language-plaintext highlighter-rouge">当前命令</code>：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">当前命令</span><code class="language-plaintext highlighter-rouge"> !*</code></p>
+
+<ul>
+  <li>调取上一个命令的最后一个参数给<code class="language-plaintext highlighter-rouge">当前命令</code>：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">当前命令</span><code class="language-plaintext highlighter-rouge"> !$</code></p>
+
+<ul>
+  <li>调取上一个命令，但不包含最后一个参数：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!:-</code></p>
+
+<ul>
+  <li>显示以特定字符串开头的最后一个命令，但不执行：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串</span><code class="language-plaintext highlighter-rouge">:p</code></p>

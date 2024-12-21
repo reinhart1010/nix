@@ -1,0 +1,22 @@
+<h1 id="sh5util">sh5util</h1>
+
+<p>Merge HDF5 files produced by the <code class="language-plaintext highlighter-rouge">sacct_gather_profile</code> plugin.
+More information: <a href="https://slurm.schedmd.com/sh5util.html">https://slurm.schedmd.com/sh5util.html</a>.</p>
+
+<ul>
+  <li>Merge HDF5 files produced on each allocated node for the specified job or step:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sh5util --jobs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id|job_id.step_id</span></p>
+
+<ul>
+  <li>Extract one or more data series from a merged job file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sh5util --jobs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id|job_id.step_id</span><code class="language-plaintext highlighter-rouge"> --extract -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.h5</span><code class="language-plaintext highlighter-rouge"> --series=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Energy|Filesystem|Network|Task</span></p>
+
+<ul>
+  <li>Extract one data item from all nodes in a merged job file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sh5util --jobs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id|job_id.step_id</span><code class="language-plaintext highlighter-rouge"> --item-extract --series=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Energy|Filesystem|Network|Task</span><code class="language-plaintext highlighter-rouge"> --data=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data_item</span></p>

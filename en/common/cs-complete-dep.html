@@ -1,0 +1,28 @@
+<h1 id="cs-complete-dep">cs complete dep</h1>
+
+<p>Search for libraries without doing it directly on the web.
+More information: <a href="https://get-coursier.io/docs/cli-complete">https://get-coursier.io/docs/cli-complete</a>.</p>
+
+<ul>
+  <li>Print which artifacts are published under a specific Maven group identifier:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs complete-dep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_id</span></p>
+
+<ul>
+  <li>List published library versions under a specific Maven group identifier and an artifact one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs complete-dep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_id</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">artifact_id</span></p>
+
+<ul>
+  <li>Print which artifacts are pubblished under a given Maven groupId searching in the ivy2local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs complete-dep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_id</span><code class="language-plaintext highlighter-rouge"> --repository ivy2local</code></p>
+
+<ul>
+  <li>List published artifacts under a Maven group identifier searching in a specific repository and credentials:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs complete-dep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_id</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">artifact_id</span><code class="language-plaintext highlighter-rouge"> --repository </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span><code class="language-plaintext highlighter-rouge"> --credentials </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>

@@ -1,0 +1,47 @@
+<h1 id="urpmq">urpmq</h1>
+
+<p>Mageia에서 패키지 및 미디어에 대한 정보를 조회합니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">urpmi</code>, <code class="language-plaintext highlighter-rouge">urpmi.update</code>, <code class="language-plaintext highlighter-rouge">urpmi.addmedia</code>, <code class="language-plaintext highlighter-rouge">urpmi.removemedia</code>, <code class="language-plaintext highlighter-rouge">urpmf</code>, <code class="language-plaintext highlighter-rouge">urpme</code>.
+더 많은 정보: <a href="https://wiki.mageia.org/en/URPMI#urpmq">https://wiki.mageia.org/en/URPMI#urpmq</a>.</p>
+
+<ul>
+  <li>설치 가능한 패키지에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">urpmq -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>패키지의 직접적인 의존성 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">urpmq --requires </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>패키지의 직접 및 간접 의존성 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">urpmq --requires-recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>RPM [f]파일에 필요한 설치되지 않은 패키지 및 소스 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo urpmq --requires-recursive -m --sources </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.rpm</span></p>
+
+<ul>
+  <li>URL과 함께 모든 구성된 미디어 나열(비활성 미디어 포함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">urpmq --list-media --list-url</code></p>
+
+<ul>
+  <li>패키지 검색 시 [g]그룹, 버전 및 [r]릴리즈 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">urpmq -g -r --fuzzy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키워드</span></p>
+
+<ul>
+  <li>패키지의 정확한 이름을 사용하여 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">urpmq -g -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>

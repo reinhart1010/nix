@@ -1,0 +1,54 @@
+<h1 id="wget2">wget2</h1>
+
+<p>웹에서 파일을 다운로드하기 위한 개선된 <code class="language-plaintext highlighter-rouge">wget</code> 버전.
+HTTP, HTTPS 및 HTTP/2 프로토콜을 지원하며 성능이 향상되었습니다.
+기본적으로 <code class="language-plaintext highlighter-rouge">wget2</code>는 더 빠른 다운로드를 위해 여러 스레드를 사용합니다.
+더 많은 정보: <a href="https://gitlab.com/gnuwget/wget2">https://gitlab.com/gnuwget/wget2</a>.</p>
+
+<ul>
+  <li>여러 스레드를 사용하여 URL의 내용을 파일로 다운로드 (기본 동작이 <code class="language-plaintext highlighter-rouge">wget</code>과 다릅니다):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/foo</span></p>
+
+<ul>
+  <li>다운로드에 사용할 스레드 수 제한 (기본값은 5 스레드):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget2 --max-threads=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/foo</span></p>
+
+<ul>
+  <li>단일 웹 페이지와 모든 리소스(스크립트, 스타일시트, 이미지 등) 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget2 --page-requisites --convert-links </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/somepage.html</span></p>
+
+<ul>
+  <li>웹사이트를 미러링하되 상위 디렉토리로 올라가지 않음 (내장 페이지 요소는 다운로드하지 않음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget2 --mirror --no-parent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/somepath/</span></p>
+
+<ul>
+  <li>다운로드 속도와 연결 재시도 횟수 제한:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget2 --limit-rate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300k</span><code class="language-plaintext highlighter-rouge"> --tries=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/somepath/</span></p>
+
+<ul>
+  <li>불완전한 다운로드 계속 (동작이 <code class="language-plaintext highlighter-rouge">wget</code>과 일치):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget2 --continue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>텍스트 파일에 저장된 모든 URL을 특정 디렉토리에 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget2 --directory-prefix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> --input-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">URLs.txt</span></p>
+
+<ul>
+  <li>HTTP 서버에서 Basic Auth를 사용하여 파일 다운로드 (HTTPS에도 작동):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget2 --user=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_명</span><code class="language-plaintext highlighter-rouge"> --password=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>

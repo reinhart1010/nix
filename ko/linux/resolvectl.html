@@ -1,0 +1,53 @@
+<h1 id="resolvectl">resolvectl</h1>
+
+<p>도메인 이름, IPv4 및 IPv6 주소, DNS 리소스 레코드 및 서비스를 해석.
+DNS 해석기를 검사하고 재구성.
+더 많은 정보: <a href="https://www.freedesktop.org/software/systemd/man/resolvectl.html">https://www.freedesktop.org/software/systemd/man/resolvectl.html</a>.</p>
+
+<ul>
+  <li>DNS 설정 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl status</code></p>
+
+<ul>
+  <li>하나 이상의 도메인에 대한 IPv4 및 IPv6 주소 해석:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인1 도메인2 …</span></p>
+
+<ul>
+  <li>지정한 IP 주소의 도메인 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP_주소</span></p>
+
+<ul>
+  <li>모든 로컬 DNS 캐시 플러시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl flush-caches</code></p>
+
+<ul>
+  <li>DNS 통계(트랜잭션, 캐시 및 DNSSEC 판결) 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl statistics</code></p>
+
+<ul>
+  <li>도메인의 MX 레코드 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl --legend=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">no</span><code class="language-plaintext highlighter-rouge"> --type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MX</span><code class="language-plaintext highlighter-rouge"> query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인</span></p>
+
+<ul>
+  <li>예를 들어 _xmpp-server._tcp gmail.com와 같은 SRV 레코드 해석:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl service _</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서비스</span><code class="language-plaintext highlighter-rouge">._</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로토콜</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>TLS 키 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl tlsa tcp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인</span><code class="language-plaintext highlighter-rouge">:443</code></p>

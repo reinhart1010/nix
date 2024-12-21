@@ -1,0 +1,28 @@
+<h1 id="xprop">xprop</h1>
+
+<p>X 서버에서 창 및 폰트 속성을 표시.
+더 많은 정보: <a href="https://manned.org/xprop">https://manned.org/xprop</a>.</p>
+
+<ul>
+  <li>루트 창의 이름 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xprop -root WM_NAME</code></p>
+
+<ul>
+  <li>창의 윈도우 매니저 힌트 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xprop -name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">창_이름</span><code class="language-plaintext highlighter-rouge">" WM_HINTS</code></p>
+
+<ul>
+  <li>폰트의 포인트 크기 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xprop -font "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">폰트_이름</span><code class="language-plaintext highlighter-rouge">" POINT_SIZE</code></p>
+
+<ul>
+  <li>ID가 0x200007인 창의 모든 속성 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xprop -id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0x200007</span></p>

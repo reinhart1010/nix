@@ -1,0 +1,52 @@
+<h1 id="aws-accessanalyzer">aws accessanalyzer</h1>
+
+<p>Analisa dan tinjau ulang kebijakan penggunaan sumber daya untuk melihat potensi risiko keamanan.
+Informasi lebih lanjut: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/accessanalyzer/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/accessanalyzer/index.html</a>.</p>
+
+<ul>
+  <li>Buat suatu instansi Access Analyzer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer create-analyzer --analyzer-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_analyzer</span><code class="language-plaintext highlighter-rouge"> --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tipe_analisis</span><code class="language-plaintext highlighter-rouge"> --tags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">daftar_tag</span></p>
+
+<ul>
+  <li>Hapus suatu instansi Access Analyzer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer delete-analyzer --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arn_analyzer</span></p>
+
+<ul>
+  <li>Tampilkan rincian tentang suatu instansi Access Analyzer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer get-analyzer --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arn_analyzer</span></p>
+
+<ul>
+  <li>Tampilkan daftar seluruh instansi Access Analyzers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer list-analyzers</code></p>
+
+<ul>
+  <li>Mutakhirkan suatu aturan terhadap instansi Access Analyzer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer update-analyzer --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arn_analyzer</span><code class="language-plaintext highlighter-rouge"> --tags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">daftar_tag_baru</span></p>
+
+<ul>
+  <li>Buat sebuah aturan bagi proses pengarsipan terhadap instansi Access Analyzer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer create-archive-rule --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arn_analyzer</span><code class="language-plaintext highlighter-rouge"> --rule-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_aturan</span><code class="language-plaintext highlighter-rouge"> --filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter</span></p>
+
+<ul>
+  <li>Hapus suatu aturan pengarsipan bagi instansi Access Analyzer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer delete-archive-rule --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arn_analyzer</span><code class="language-plaintext highlighter-rouge"> --rule-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_aturan</span></p>
+
+<ul>
+  <li>Tampilkan daftar seluruh aturan pengarsipan yang berlaku bagi suatu instansi Access Analyzer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer list-archive-rules --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arn_analyzer</span></p>

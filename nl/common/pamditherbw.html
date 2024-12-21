@@ -1,0 +1,29 @@
+<h1 id="pamditherbw">pamditherbw</h1>
+
+<p>Pas dithering toe op een grijze afbeelding, zet het bijvoorbeeld om in een patroon van een zwarte en witte pixels die eruitzien als de originele grijstinten.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">pbmreduce</code>.
+Meer informatie: <a href="https://netpbm.sourceforge.net/doc/pamditherbw.html">https://netpbm.sourceforge.net/doc/pamditherbw.html</a>.</p>
+
+<ul>
+  <li>Lees een PGM afbeelding, pas dithering toe en sla het op naar een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmditherbw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding.pgm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.pgm</span></p>
+
+<ul>
+  <li>Gebruik de gespecificeerde kwantificering methode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmditherbw -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">floyd|fs|atkinson|threshold|hilbert|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding.pgm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.pgm</span></p>
+
+<ul>
+  <li>Gebruik de atkinson kwantificering methode en de gespecifieerde seed voor een pseudo-random nummer generator:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmditherbw -atkinson -randomseed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1337</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding.pgm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.pgm</span></p>
+
+<ul>
+  <li>Specificeer de drempel waarde van de kwantificering methodes die een vorm van drempels uitvoeren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmditherbw -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fs|atkinson|thresholding</span><code class="language-plaintext highlighter-rouge"> -value </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding.pgm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.pgm</span></p>

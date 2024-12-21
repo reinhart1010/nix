@@ -1,0 +1,28 @@
+<h1 id="rpcinfo">rpcinfo</h1>
+
+<p>원격 컴퓨터에서 RPC를 통해 프로그램 목록 표시.
+더 많은 정보: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/rpcinfo">https://learn.microsoft.com/windows-server/administration/windows-commands/rpcinfo</a>.</p>
+
+<ul>
+  <li>로컬 컴퓨터에 등록된 모든 프로그램 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo</code></p>
+
+<ul>
+  <li>원격 컴퓨터에 등록된 모든 프로그램 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo /p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컴퓨터명</span></p>
+
+<ul>
+  <li>원격 컴퓨터에서 특정 프로그램 호출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo /t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컴퓨터명</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로그램명</span></p>
+
+<ul>
+  <li>원격 컴퓨터에서 특정 프로그램 호출 (UDP 사용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo /u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컴퓨터명</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로그램명</span></p>

@@ -1,0 +1,53 @@
+<h1 id="aria2c">aria2c</h1>
+
+<p>快速下载工具。
+支持 HTTP(S)、FTP、SFTP、BitTorrent 和 Metalink。
+更多信息：<a href="https://aria2.github.io">https://aria2.github.io</a>.</p>
+
+<ul>
+  <li>将特定 URI 下载到一个文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>从一个 URI 下载文件，并指定输出文件名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>并行下载多个不同的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --force-sequential </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">false</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url1 url2 …</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>从不同的镜像下载相同的文件，并验证已下载文件的校验和：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --checksum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sha-256</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url1</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url2</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">urlN</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>下载文件中列出的 URI，并指定并行下载的数量：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --input-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span><code class="language-plaintext highlighter-rouge"> --max-concurrent-downloads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">下载数</span></p>
+
+<ul>
+  <li>使用多个连接进行下载：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --split </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">连接数</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>使用用户名和密码进行 FTP 下载：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --ftp-user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge"> --ftp-passwd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>限制下载速度为字节/秒（bytes/s）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --max-download-limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">速度</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>

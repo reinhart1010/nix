@@ -1,0 +1,52 @@
+<h1 id="aws-ce">aws ce</h1>
+
+<p>AWS Cost Explorer 서비스를 통한 비용 관리 작업 수행합니다.
+더 많은 정보: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ce/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ce/index.html</a>.</p>
+
+<ul>
+  <li>이상 모니터 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ce create-anomaly-monitor --monitor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모니터_이름</span><code class="language-plaintext highlighter-rouge"> --monitor-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모니터_유형</span></p>
+
+<ul>
+  <li>이상 구독 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ce create-anomaly-subscription --subscription </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구독_이름</span><code class="language-plaintext highlighter-rouge"> --monitor-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모니터_arn</span><code class="language-plaintext highlighter-rouge"> --subscribers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구독자</span></p>
+
+<ul>
+  <li>이상 조회:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ce get-anomalies --monitor-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모니터_arn</span><code class="language-plaintext highlighter-rouge"> --start-time </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">시작_날짜</span><code class="language-plaintext highlighter-rouge"> --end-time </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">종료_날짜</span></p>
+
+<ul>
+  <li>비용 및 사용량 조회:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ce get-cost-and-usage --time-period </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">시작_날짜</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">종료_날짜</span><code class="language-plaintext highlighter-rouge"> --granularity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">세분화</span><code class="language-plaintext highlighter-rouge"> --metrics </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">메트릭</span></p>
+
+<ul>
+  <li>비용 예측 조회:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ce get-cost-forecast --time-period </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">시작_날짜</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">종료_날짜</span><code class="language-plaintext highlighter-rouge"> --granularity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">세분화</span><code class="language-plaintext highlighter-rouge"> --metric </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">메트릭</span></p>
+
+<ul>
+  <li>예약 사용량 조회:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ce get-reservation-utilization --time-period </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">시작_날짜</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">종료_날짜</span><code class="language-plaintext highlighter-rouge"> --granularity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">세분화</span></p>
+
+<ul>
+  <li>비용 카테고리 정의 목록 조회:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ce list-cost-category-definitions</code></p>
+
+<ul>
+  <li>리소스 태깅:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ce tag-resource --resource-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_arn</span><code class="language-plaintext highlighter-rouge"> --tags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그</span></p>

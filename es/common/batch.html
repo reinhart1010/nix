@@ -1,0 +1,24 @@
+<h1 id="batch">batch</h1>
+
+<p>Ejecuta comandos en un momento posterior cuando los niveles de carga del sistema lo permitan.
+Los resultados serán enviados al correo del usuario.
+Vea también: <code class="language-plaintext highlighter-rouge">at</code>, <code class="language-plaintext highlighter-rouge">atq</code>, <code class="language-plaintext highlighter-rouge">atrm</code> <code class="language-plaintext highlighter-rouge">mail</code>.
+Más información: <a href="https://manned.org/batch">https://manned.org/batch</a>.</p>
+
+<ul>
+  <li>Lanza el servicio <code class="language-plaintext highlighter-rouge">atd</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl start atd</code></p>
+
+<ul>
+  <li>Ejecuta comandos de <code class="language-plaintext highlighter-rouge">stdin</code> (presiona <code class="language-plaintext highlighter-rouge">Ctrl + D</code> cuando hayas finalizado):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">batch</code></p>
+
+<ul>
+  <li>Ejecuta un comando desde <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./hacer_copia_de_la_bd.sh</span><code class="language-plaintext highlighter-rouge">" | batch</code></p>

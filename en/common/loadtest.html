@@ -1,0 +1,22 @@
+<h1 id="loadtest">loadtest</h1>
+
+<p>Run a load test on the selected HTTP or WebSockets URL.
+More information: <a href="https://github.com/alexfernandez/loadtest">https://github.com/alexfernandez/loadtest</a>.</p>
+
+<ul>
+  <li>Run with concurrent users and a specified amount of requests per second:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loadtest --concurrency </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> --rps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">200</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Run with a custom HTTP header:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loadtest --headers "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">accept:text/plain;text-html</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Run with a specific HTTP method:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loadtest --method </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>

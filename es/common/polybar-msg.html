@@ -1,0 +1,47 @@
+<h1 id="polybar-msg">polybar-msg</h1>
+
+<p>Controla <code class="language-plaintext highlighter-rouge">polybar</code> utilizando mensajería entre procesos (IPC).
+Nota: IPC está desactivado por defecto y se puede habilitar configurando <code class="language-plaintext highlighter-rouge">enable-ipc = true</code> en la configuación de Polybar.
+Más información: <a href="https://polybar.rtfd.io/en/stable/user/ipc.html">https://polybar.rtfd.io/en/stable/user/ipc.html</a>.</p>
+
+<ul>
+  <li>Cierra la barra:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">polybar-msg cmd quit</code></p>
+
+<ul>
+  <li>Reinicia la barra en su lugar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">polybar-msg cmd restart</code></p>
+
+<ul>
+  <li>Oculta la barra (no hace nada si la barra ya está oculta):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">polybar-msg cmd hide</code></p>
+
+<ul>
+  <li>Muestra la barra nuevamente (no hace nada si la barra no está oculta):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">polybar-msg cmd show</code></p>
+
+<ul>
+  <li>Alterna entre oculto/visible:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">polybar-msg cmd toggle</code></p>
+
+<ul>
+  <li>Ejecuta una acción de módulo (la cadena de datos es opcional):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">polybar-msg action "#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_módulo</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_acción</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena_de_datos</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Envía mensajes solo a una instancia específica de Polybar (todas las instancias por defecto):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">polybar-msg -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cmd|action</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">carga</span></p>

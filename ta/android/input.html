@@ -1,0 +1,35 @@
+<h1 id="input">input</h1>
+
+<p>நிகழ்வுக் குறியீடுகள் அல்லது தொடுதிரை சைகைகளை ஆண்ட்ராய்டு சாதனத்திற்கு அனுப்பவும்.
+இந்தக் கட்டளையை <code class="language-plaintext highlighter-rouge">adb shell</code> மூலம் மட்டுமே பயன்படுத்த முடியும்.
+மேலும் விவரத்திற்கு: <a href="https://developer.android.com/reference/android/view/KeyEvent.html#constants_1">https://developer.android.com/reference/android/view/KeyEvent.html#constants_1</a>.</p>
+
+<ul>
+  <li>ஆண்ட்ராய்டு சாதனத்திற்கு ஒற்றை எழுத்துக்கான நிகழ்வுக் குறியீட்டை அனுப்பவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input keyevent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிகழ்வு_குறியீடு</span></p>
+
+<ul>
+  <li>ஆண்ட்ராய்டு சாதனத்திற்கு உரையை அனுப்பு (<code class="language-plaintext highlighter-rouge">%s</code> என்பது இடைவெளிகளைக் குறிக்கிறது):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input text "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">உரை</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>ஆண்ட்ராய்டு சாதனத்திற்கு ஒரு முறை தட்டவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input tap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">எக்ஸ்_போஸ்</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ஒய்_போஸ்</span></p>
+
+<ul>
+  <li>ஆண்ட்ராய்டு சாதனத்திற்கு ஸ்வைப் சைகையை அனுப்பவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input swipe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">எக்ஸ்_தொடக்கம்</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ஒய்_தொடக்கம்</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">எக்ஸ்_முடிவு</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ஒய்_முடிவு</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">காலம்_மில்லி_வினாடியில்</span></p>
+
+<ul>
+  <li>ஸ்வைப் சைகையைப் பயன்படுத்தி ஆண்ட்ராய்டு சாதனத்திற்கு நீண்ட அழுத்தத்தை அனுப்பவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input swipe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">எக்ஸ்_போஸ்</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ஒய்_போஸ்</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">எக்ஸ்_போஸ்</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ஒய்_போஸ்</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">காலம்_மில்லி_வினாடியில்</span></p>

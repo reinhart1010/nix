@@ -1,0 +1,22 @@
+<h1 id="rpicam-still">rpicam-still</h1>
+
+<p>Capture and store a photo using a Raspberry Pi camera with legacy features missing from <code class="language-plaintext highlighter-rouge">rpicam-jpeg</code>.
+More information: <a href="https://www.raspberrypi.com/documentation/computers/camera_software.html#rpicam-still">https://www.raspberrypi.com/documentation/computers/camera_software.html#rpicam-still</a>.</p>
+
+<ul>
+  <li>Capture a photo with different encoding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpicam-still -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bmp|png|rgb|yuv420</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.<code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;bmp|png|rgb|yuv420}&lt;/span&gt;</code>}`</span></p>
+
+<ul>
+  <li>Capture a raw image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpicam-still -r -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.jpg</span></p>
+
+<ul>
+  <li>Capture a 100 second exposure image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpicam-still -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.jpg</span><code class="language-plaintext highlighter-rouge"> --shutter 100000</code></p>

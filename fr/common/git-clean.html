@@ -1,0 +1,40 @@
+<h1 id="git-clean">git clean</h1>
+
+<p>Supprimer les fichiers non-suivis d'un dépôt Git.
+Plus d'informations : <a href="https://git-scm.com/docs/git-clean">https://git-scm.com/docs/git-clean</a>.</p>
+
+<ul>
+  <li>Supprimer les fichiers non-suivis :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean</code></p>
+
+<ul>
+  <li>Supprimer les fichiers non-suivis de manière interactive :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–interactive</span></p>
+
+<ul>
+  <li>Affiche les fichiers non-suivis qui peuvent être supprimés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean --dry-run</code></p>
+
+<ul>
+  <li>Nettoyage forcé des fichiers non-suivis :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–force</span></p>
+
+<ul>
+  <li>Nettoyage forcé des répertoires non-suivis :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–force</span><code class="language-plaintext highlighter-rouge"> -d</code></p>
+
+<ul>
+  <li>Supprime tous les fichiers suivis, incluant ceux répertoriés par <code class="language-plaintext highlighter-rouge">.gitignore</code> et <code class="language-plaintext highlighter-rouge">.git/info/exclude</code> :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean -x</code></p>

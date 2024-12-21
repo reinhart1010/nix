@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="date">date</h1>
+
+<p>Imposta o mostra data e ora di sistema.
+Maggiori informazioni: <a href="https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html</a>.</p>
+
+<ul>
+  <li>Mostra la data corrente utilizzando il formato predefinito della locale corrente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">date +"%c"</code></p>
+
+<ul>
+  <li>Mostra la data corrente in UTC e formato ISO 8601:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">date -u +"%Y-%m-%dT%H:%M:%S%Z"</code></p>
+
+<ul>
+  <li>Mostra la data corrente come timestamp Unix (secondi dall'epoca Unix):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">date +%s</code></p>
+
+<ul>
+  <li>Mostra una specifica data (rappresentata come timestamp Unix) utilizzando il formato predefinito:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">date -d @1473305798</code></p>
+
+<ul>
+  <li>Converti una specifica data in un timestamp Unix:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">date -d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2018-09-01 00:00</span><code class="language-plaintext highlighter-rouge">" +%s --utc</code></p>

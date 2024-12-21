@@ -1,0 +1,52 @@
+<h1 id="argocd-app">argocd app</h1>
+
+<p>Program baris perintah untuk mengatur aplikasi bersama Argo CD.
+Informasi lebih lanjut: <a href="https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd_app/">https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd_app/</a>.</p>
+
+<ul>
+  <li>Dapatkan daftar aplikasi yang diatur bersama Argo CD:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argocd app list --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|yaml|wide</span></p>
+
+<ul>
+  <li>Lihat informasi mengenai suatu aplikasi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argocd app get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_aplikasi</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|yaml|wide</span></p>
+
+<ul>
+  <li>Sebarkan (deploy) aplikasi secara internal (ke dalam klaster yang sama dengan yang dijalankan Argo CD):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argocd app create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_aplikasi</span><code class="language-plaintext highlighter-rouge"> --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat_url_repositori_dalam_git</span><code class="language-plaintext highlighter-rouge"> --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/repo</span><code class="language-plaintext highlighter-rouge"> --dest-server https://kubernetes.default.svc --dest-namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ns</span></p>
+
+<ul>
+  <li>Hapus suatu aplikasi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argocd app delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_aplikasi</span></p>
+
+<ul>
+  <li>Aktifkan fitur sinkronisasi otomatis dalam suatu aplikasi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argocd app set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_aplikasi</span><code class="language-plaintext highlighter-rouge"> --sync-policy auto --auto-prune --self-heal</code></p>
+
+<ul>
+  <li>Pratinjau hasil proses sinkronisasi aplikasi tanpa berdampak kepada klaster yang berjalan (dry-run):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argocd app sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_aplikasi</span><code class="language-plaintext highlighter-rouge"> --dry-run --prune</code></p>
+
+<ul>
+  <li>Tampilkan riwayat penyebaran (deployment) aplikasi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argocd app history </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_aplikasi</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wide|id</span></p>
+
+<ul>
+  <li>Batalkan penyebaran dengan memuat (rollback) versi hasil sebaran sebelumnya (dan menghapus sumber daya baru yang tak diduga), berdasarkan nomor induk (ID) riwayat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">argocd app rollback </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_aplikasi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_riwayat</span><code class="language-plaintext highlighter-rouge"> --prune</code></p>

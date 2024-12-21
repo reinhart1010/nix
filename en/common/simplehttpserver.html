@@ -1,0 +1,35 @@
+<h1 id="simplehttpserver">simplehttpserver</h1>
+
+<p>A simple HTTP/S server that supports file upload, basic authentication, and YAML rules for custom responses.
+A Go alternative to Python's <code class="language-plaintext highlighter-rouge">http.server</code>.
+More information: <a href="https://github.com/projectdiscovery/simplehttpserver">https://github.com/projectdiscovery/simplehttpserver</a>.</p>
+
+<ul>
+  <li>Start the HTTP server serving the current directory with verbose output (listen on all interfaces and port 8000 by default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">simplehttpserver -verbose</code></p>
+
+<ul>
+  <li>Start the HTTP server with basic authentication serving a specific path over port 80 on all interfaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo simplehttpserver -basic-auth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> -path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/var/www/html</span><code class="language-plaintext highlighter-rouge"> -listen 0.0.0.0:80</code></p>
+
+<ul>
+  <li>Start the HTTP server, enabling HTTPS using a self-signed certificate with custom SAN on all interfaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo simplehttpserver -https -domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.selfsigned.com</span><code class="language-plaintext highlighter-rouge"> -listen 0.0.0.0:443</code></p>
+
+<ul>
+  <li>Start the HTTP server with custom response headers and upload capability:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">simplehttpserver -upload -header '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">X-Powered-By: Go</span><code class="language-plaintext highlighter-rouge">' -header '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Server: SimpleHTTPServer</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Start the HTTP server with customizable rules in YAML (see documentation for DSL):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">simplehttpserver -rules </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rules.yaml</span></p>

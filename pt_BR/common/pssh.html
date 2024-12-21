@@ -1,0 +1,40 @@
+<h1 id="pssh">pssh</h1>
+
+<p>Programa de SSH paralelo.
+Mais informações: <a href="https://manned.org/pssh">https://manned.org/pssh</a>.</p>
+
+<ul>
+  <li>Executa um comando em dois servidores e imprime a saída em cada servidor em linha:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pssh -i -H "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor2</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname -i</span></p>
+
+<ul>
+  <li>Executa um comando e salva a saída em arquivos separados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pssh -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor1</span><code class="language-plaintext highlighter-rouge"> -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor2</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório_de_saída</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname -i</span></p>
+
+<ul>
+  <li>Executa um comando em vários servidores, especificados em um arquivo separado por nova linha:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pssh -i -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_servidores</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname -i</span></p>
+
+<ul>
+  <li>Executa um comando como root (isso solicitará a senha do root):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pssh -i -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_servidores</span><code class="language-plaintext highlighter-rouge"> -A -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_de_usuário_do_root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname -i</span></p>
+
+<ul>
+  <li>Executa um comando com argumentos SSH adicionais:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pssh -i -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_servidores</span><code class="language-plaintext highlighter-rouge"> -x "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-O VisualHostKey=yes</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname -i</span></p>
+
+<ul>
+  <li>Executa um comando limitando o número de conexões paralelas para 10:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pssh -i -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_servidores</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cd dir; ./script.sh; exit</span><code class="language-plaintext highlighter-rouge">'</code></p>

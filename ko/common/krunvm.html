@@ -1,0 +1,34 @@
+<h1 id="krunvm">krunvm</h1>
+
+<p>OCI 이미지를 사용하여 MicroVM을 생성.
+더 많은 정보: <a href="https://github.com/containers/krunvm">https://github.com/containers/krunvm</a>.</p>
+
+<ul>
+  <li>Fedora 기반 MicroVM 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">krunvm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">docker.io/fedora</span><code class="language-plaintext highlighter-rouge"> --cpus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vCPU_수</span><code class="language-plaintext highlighter-rouge"> --mem </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">메모리_메가바이트</span><code class="language-plaintext highlighter-rouge"> --name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 이미지 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">krunvm start "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_이름</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>이미지 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">krunvm list</code></p>
+
+<ul>
+  <li>특정 이미지 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">krunvm changevm --cpus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vCPU_수</span><code class="language-plaintext highlighter-rouge"> --mem </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">메모리_메가바이트</span><code class="language-plaintext highlighter-rouge"> --name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_VM_이름</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">현재_VM_이름</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 이미지 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">krunvm delete "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_이름</span><code class="language-plaintext highlighter-rouge">"</code></p>

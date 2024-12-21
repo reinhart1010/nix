@@ -1,0 +1,40 @@
+<h1 id="xsel">xsel</h1>
+
+<p>Outil de sélection et de manipulation du presse-papiers X11.
+Plus d'informations : <a href="https://manned.org/xsel">https://manned.org/xsel</a>.</p>
+
+<ul>
+  <li>Utilise la sortie d'une commande comme entrée du presse-papiers (équivalent de <code class="language-plaintext highlighter-rouge">Ctrl + C</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo 123 | xsel -ib</code></p>
+
+<ul>
+  <li>Utilise le contenu d'un fichier comme entrée du presse-papiers :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span><code class="language-plaintext highlighter-rouge"> | xsel -ib</code></p>
+
+<ul>
+  <li>Affiche le contenu du presse-papiers dans le terminal (équivalent à <code class="language-plaintext highlighter-rouge">Ctrl + V</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsel -ob</code></p>
+
+<ul>
+  <li>Sortie du contenu du presse-papiers dans un fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsel -ob &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>
+
+<ul>
+  <li>Efface le presse-papiers :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsel -cb</code></p>
+
+<ul>
+  <li>Affiche le contenu de la sélection primaire X11 dans le terminal (équivalent à un clic du milieu de la souris) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsel -op</code></p>

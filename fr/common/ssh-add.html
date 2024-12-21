@@ -1,0 +1,41 @@
+<h1 id="ssh-add">ssh-add</h1>
+
+<p>Gère les clés SSH enregistrées dans l'agent SSH <code class="language-plaintext highlighter-rouge">ssh-agent</code>.
+S'assurer que <code class="language-plaintext highlighter-rouge">ssh-agent</code> est en fonctionnement pour enregistrer des clés.
+Plus d'informations : <a href="https://man.openbsd.org/ssh-add">https://man.openbsd.org/ssh-add</a>.</p>
+
+<ul>
+  <li>Ajoute les clés présentes dans <code class="language-plaintext highlighter-rouge">~/.ssh</code> (clés par défaut) à l'agent SSH :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-add</code></p>
+
+<ul>
+  <li>Ajoute une clé spécifique à l'agent SSH :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/clé_privée</span></p>
+
+<ul>
+  <li>Liste les empreintes des clés actuellement enregistrées :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-add -l</code></p>
+
+<ul>
+  <li>Supprime une clé de l'agent SSH :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-add -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/clé_privée</span></p>
+
+<ul>
+  <li>Supprime toutes les clés enregistrées de l'agent SSH :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-add -D</code></p>
+
+<ul>
+  <li>Ajoute une clé spécifique à l'agent SSH et au trousseau de clés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-add -K </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/clé_privée</span></p>

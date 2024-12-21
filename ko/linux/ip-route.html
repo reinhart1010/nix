@@ -1,0 +1,46 @@
+<h1 id="ip-route">ip route</h1>
+
+<p>IP 라우팅 테이블 관리 하위 명령.
+더 많은 정보: <a href="https://manned.org/ip-route">https://manned.org/ip-route</a>.</p>
+
+<ul>
+  <li>라우팅 테이블 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">show|list</span></p>
+
+<ul>
+  <li>게이트웨이 포워딩을 사용하여 기본 라우트 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip route add default via </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">게이트웨이_IP</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">eth0</code>을 사용하여 기본 라우트 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip route add default dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>고정 라우트 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip route add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상_IP</span><code class="language-plaintext highlighter-rouge"> via </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">게이트웨이_IP</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>고정 라우트 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip route del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상_IP</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>고정 라우트 변경 또는 대체:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip route </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">change|replace</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상_IP</span><code class="language-plaintext highlighter-rouge"> via </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">게이트웨이_IP</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>특정 IP 주소에 도달하기 위해 커널이 사용할 라우트 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상_IP</span></p>

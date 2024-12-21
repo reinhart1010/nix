@@ -1,0 +1,34 @@
+<h1 id="msfconsole">msfconsole</h1>
+
+<p>Consola para el Metasploit Framework.
+Más información: <a href="https://docs.rapid7.com/metasploit/msf-overview">https://docs.rapid7.com/metasploit/msf-overview</a>.</p>
+
+<ul>
+  <li>Inicia la consola:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msfconsole</code></p>
+
+<ul>
+  <li>Lanza la consola [q]uietamente sin ningún mensaje:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msfconsole --quiet</code></p>
+
+<ul>
+  <li>No habilita el soporte de bases de datos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msfconsole --no-database</code></p>
+
+<ul>
+  <li>Ejecuta los comandos de la consola (Nota: utiliza <code class="language-plaintext highlighter-rouge">;</code> para pasar varios comandos):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msfconsole --execute-command "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">use auxiliary/server/capture/ftp; set SRVHOST 0.0.0.0; set SRVPORT 21; run</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Muestra [v]ersión:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msfconsole --version</code></p>

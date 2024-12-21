@@ -1,0 +1,29 @@
+<h1 id="eventcreate">eventcreate</h1>
+
+<p>इवेंट लॉग में कस्टम प्रविष्टियाँ बनाएँ।
+इवेंट आईडी 1 और 1000 के बीच कोई भी संख्या हो सकती है।
+अधिक जानकारी: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/eventcreate">https://learn.microsoft.com/windows-server/administration/windows-commands/eventcreate</a>।</p>
+
+<ul>
+  <li>लॉग में दी गई आईडी (1-1000) के साथ एक नया ईवेंट बनाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eventcreate /t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">success|error|warning|information</span><code class="language-plaintext highlighter-rouge"> /id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आईडी</span><code class="language-plaintext highlighter-rouge"> /d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">संदेश</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>किसी विशिष्ट इवेंट लॉग में एक इवेंट बनाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eventcreate /l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">लॉग_नाम</span><code class="language-plaintext highlighter-rouge"> /t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">प्रकार</span><code class="language-plaintext highlighter-rouge"> /id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आईडी</span><code class="language-plaintext highlighter-rouge"> /d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">संदेश</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>किसी विशिष्ट स्रोत के साथ एक ईवेंट बनाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eventcreate /so </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्रोत_नाम</span><code class="language-plaintext highlighter-rouge"> /t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">प्रकार</span><code class="language-plaintext highlighter-rouge"> /id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आईडी</span><code class="language-plaintext highlighter-rouge"> /d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">संदेश</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>रिमोट मशीन के इवेंट लॉग में एक इवेंट बनाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eventcreate /s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">होस्ट का नाम</span><code class="language-plaintext highlighter-rouge"> /u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता_नाम</span><code class="language-plaintext highlighter-rouge"> /p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पासवर्ड</span><code class="language-plaintext highlighter-rouge"> /t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">प्रकार</span><code class="language-plaintext highlighter-rouge"> /id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आईडी</span><code class="language-plaintext highlighter-rouge"> /d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">संदेश</span><code class="language-plaintext highlighter-rouge">"</code></p>

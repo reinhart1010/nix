@@ -1,0 +1,28 @@
+<h1 id="ppmtoarbtxt">ppmtoarbtxt</h1>
+
+<p>Convert a PPM image to an arbitrary text format according to a template.
+More information: <a href="https://netpbm.sourceforge.net/doc/ppmtoarbtxt.html">https://netpbm.sourceforge.net/doc/ppmtoarbtxt.html</a>.</p>
+
+<ul>
+  <li>Convert a PPM image to text as specified by the given template:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoarbtxt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/template</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.txt</span></p>
+
+<ul>
+  <li>Convert a PPM image to text as specified by the given template, prepend the contents of the specified head template:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoarbtxt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/template</span><code class="language-plaintext highlighter-rouge"> -hd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/head_template</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.txt</span></p>
+
+<ul>
+  <li>Convert a PPM image to text as specified by the given template, append the contents of the specified tail template:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoarbtxt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/template</span><code class="language-plaintext highlighter-rouge"> -hd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/tail_template</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.txt</span></p>
+
+<ul>
+  <li>Display version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoarbtxt -version</code></p>
