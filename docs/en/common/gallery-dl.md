@@ -2,8 +2,12 @@
 layout: page
 title: common/gallery-dl (English)
 description: "Download image galleries and collections from several image hosting sites."
-content_hash: f5116c7e5d4c21f655630c56d2b5d975640deb30
-last_modified_at: 2023-11-12
+content_hash: fdfe1e75f391124db56436e066e24bbe0e8f382f
+last_modified_at: 2024-12-21
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/gallery-dl.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # gallery-dl
@@ -14,6 +18,10 @@ More information: <https://github.com/mikf/gallery-dl>.
 - Download images from the specified URL:
 
 `gallery-dl "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
+
+- Save images to a specific directory:
+
+`gallery-dl --destination `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`"`
 
 - Retrieve pre-existing cookies from your web browser (useful for sites that require login):
 

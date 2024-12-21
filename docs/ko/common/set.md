@@ -3,14 +3,17 @@ layout: page
 title: common/set (한국어)
 description: "셸 옵션을 토글하거나 위치 매개변수의 값을 설정."
 content_hash: 7e74df761d7923e26b30ee51aab0052005ce5671
-last_modified_at: 2024-11-10
+last_modified_at: 2024-12-21
 related_topics:
   - title: English version
     url: /en/common/set.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# set
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># set
 
 셸 옵션을 토글하거나 위치 매개변수의 값을 설정.
 더 많은 정보: <https://manned.org/set.1posix>.

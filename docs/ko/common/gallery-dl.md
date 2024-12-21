@@ -3,14 +3,17 @@ layout: page
 title: common/gallery-dl (한국어)
 description: "여러 이미지 호스팅 사이트에서 이미지 갤러리와 컬렉션 다운로드."
 content_hash: e0bd13db46953dade06b95a02735e2496a492cd0
-last_modified_at: 2024-10-21
+last_modified_at: 2024-12-21
 related_topics:
   - title: English version
     url: /en/common/gallery-dl.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# gallery-dl
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># gallery-dl
 
 여러 이미지 호스팅 사이트에서 이미지 갤러리와 컬렉션 다운로드.
 더 많은 정보: <https://github.com/mikf/gallery-dl>.
