@@ -2,8 +2,8 @@
 layout: page
 title: common/dircolors (English)
 description: "Output commands to set the LS_COLOR environment variable and style `ls`, `dir`, etc."
-content_hash: e1e56809ab3a8b7cbec455b5636f05de481d6b7e
-last_modified_at: 2024-09-14
+content_hash: dfe3edebeafb8e66dba0a4827f420f4a136000f5
+last_modified_at: 2024-12-22
 related_topics:
   - title: italiano version
     url: /it/common/dircolors.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # dircolors
 
 Output commands to set the LS_COLOR environment variable and style `ls`, `dir`, etc.
-More information: <https://www.gnu.org/software/coreutils/dircolors>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/dircolors-invocation.html>.
 
 - Output commands to set LS_COLOR using default colors:
 

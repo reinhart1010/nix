@@ -2,8 +2,8 @@
 layout: page
 title: common/dircolors (한국어)
 description: "LS_COLOR 환경변수와 스타일 `ls`, `dir`, 등을 설정하기 위한 명령어들을 출력한다."
-content_hash: f2b97b5f7662db31e84e5ef0f0bac34dd7ff632d
-last_modified_at: 2024-09-14
+content_hash: 932c6ac827bc4f80397491e25744cadc8a76bf94
+last_modified_at: 2024-12-22
 related_topics:
   - title: English version
     url: /en/common/dircolors.html
@@ -22,7 +22,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># dircolors
 
 LS_COLOR 환경변수와 스타일 `ls`, `dir`, 등을 설정하기 위한 명령어들을 출력한다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/dircolors>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/dircolors-invocation.html>.
 
 - 기본 색상을 사용하여 LS_COLOR를 설정하는 명령어들 출력하기:
 
