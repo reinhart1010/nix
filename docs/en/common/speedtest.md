@@ -2,8 +2,8 @@
 layout: page
 title: common/speedtest (English)
 description: "Official command-line interface for testing internet bandwidth using <https://speedtest.net>."
-content_hash: 258c86606f843501a2676a489a6b50571d914583
-last_modified_at: 2024-11-13
+content_hash: 5de9282c616b2f374491740868ec0f088e5b33f9
+last_modified_at: 2024-12-22
 related_topics:
   - title: 한국어 version
     url: /ko/common/speedtest.html
@@ -13,7 +13,8 @@ tldri18n_status: 2
 # speedtest
 
 Official command-line interface for testing internet bandwidth using <https://speedtest.net>.
-Note: some platforms link `speedtest` to `speedtest-cli`. If some of the examples in this page don't work, see `speedtest-cli`.
+Note: some platforms link `speedtest` to `speedtest-cli` or other tools like `librespeed`, which can also be installed as `speedtest` on certain Linux distributions.
+These command examples apply only to the official client.
 More information: <https://www.speedtest.net/apps/cli>.
 
 - Run a speed test:

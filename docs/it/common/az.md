@@ -2,8 +2,8 @@
 layout: page
 title: common/az (italiano)
 description: "Strumento ufficiale da linea di comando per Microsoft Azure."
-content_hash: dfd88bb90e946cbf7fd8f362c932d1634f5f5b89
-last_modified_at: 2024-11-10
+content_hash: 77ba8f2168be1849fe6904f9ba5696aff483217a
+last_modified_at: 2024-12-22
 related_topics:
   - title: English version
     url: /en/common/az.html
@@ -26,12 +26,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/az.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az
+# az
 
 Strumento ufficiale da linea di comando per Microsoft Azure.
 Alcuni comandi aggiuntivi, come `login`, hanno la propria documentazione.
@@ -41,7 +38,7 @@ Maggiori informazioni: <https://learn.microsoft.com/cli/azure/reference-index>.
 
 `az login`
 
-- Gestisci la tua iscrizione ad Azure:
+- Gestisci il tuo abbonamento ad Azure:
 
 `az account`
 
@@ -49,7 +46,7 @@ Maggiori informazioni: <https://learn.microsoft.com/cli/azure/reference-index>.
 
 `az disk list`
 
-- Elenca tutte le virtual machine Azure:
+- Elenca tutte le macchine virtuali di Azure:
 
 `az vm list`
 
@@ -60,3 +57,11 @@ Maggiori informazioni: <https://learn.microsoft.com/cli/azure/reference-index>.
 - Gestisci le risorse della rete di Azure:
 
 `az network`
+
+- Avvia la modalità interattiva:
+
+`az interactive`
+
+- Mostra le descrizioni dei comandi:
+
+`az --help`

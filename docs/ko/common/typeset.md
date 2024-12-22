@@ -3,14 +3,17 @@ layout: page
 title: common/typeset (한국어)
 description: "변수를 선언하고 속성을 부여합니다."
 content_hash: cde2bdf1609e0d3ced2514daf5f2772b20945abd
-last_modified_at: 2024-11-10
+last_modified_at: 2024-12-22
 related_topics:
   - title: English version
     url: /en/common/typeset.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# typeset
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># typeset
 
 변수를 선언하고 속성을 부여합니다.
 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#Bash-Builtins>.
