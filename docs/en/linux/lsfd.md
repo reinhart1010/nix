@@ -2,8 +2,8 @@
 layout: page
 title: linux/lsfd (English)
 description: "List open files and the corresponding processes in Linux."
-content_hash: 9f804452dd3db06dece62313db6bd33a7ea775d7
-last_modified_at: 2024-12-21
+content_hash: a5eafe8963422dc7ca1107f31a4929ffd01159b5
+last_modified_at: 2024-12-23
 tldri18n_status: 2
 ---
 # lsfd
@@ -17,11 +17,11 @@ More information: <https://manned.org/lsfd>.
 
 - List all files kept open by a specific program:
 
-`lsfd -Q 'PID == `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_ID</span>`'`
+`lsfd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-Q|--filter</span>` 'PID == `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_ID</span>`'`
 
 - Check what program has a specific file open:
 
-`lsfd -Q "NAME == '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/file</span>`'"`
+`lsfd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-Q|--filter</span>` "NAME == '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/file</span>`'"`
 
 - List open IPv4 or IPv6 sockets:
 
