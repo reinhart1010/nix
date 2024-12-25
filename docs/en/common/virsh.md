@@ -2,8 +2,8 @@
 layout: page
 title: common/virsh (English)
 description: "Manage `virsh` guest domains. (Note: `guest_id` can be the ID, name or UUID of the guest)."
-content_hash: eb8f1769e9078856848ec627acf1711a8fe8709c
-last_modified_at: 2024-10-05
+content_hash: bbbb0f18f8d84d4d18ca99b4c19aed1ebcad9e71
+last_modified_at: 2024-12-25
 related_topics:
   - title: 한국어 version
     url: /ko/common/virsh.html
@@ -23,13 +23,13 @@ More information: <https://libvirt.org/manpages/virsh.html>.
 
 `virsh connect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">qemu:///system</span>
 
+- Activate a network named `default`:
+
+`virsh net-start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">default</span>
+
 - List all domains:
 
 `virsh list --all`
-
-- Dump guest configuration file:
-
-`virsh dumpxml `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">guest_id</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/guest.xml</span>
 
 - Create a guest from a configuration file:
 
