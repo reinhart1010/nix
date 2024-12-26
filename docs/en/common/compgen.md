@@ -2,9 +2,15 @@
 layout: page
 title: common/compgen (English)
 description: "A built-in command for auto-completion in Bash, which is called on pressing TAB key twice."
-content_hash: 4063bd2ff9c6d2cd4ab03ea9be7fd6ef62b31c72
-last_modified_at: 2023-11-12
+content_hash: 8c989f1c8f8a3812314224496e69a4a0524b62d7
+last_modified_at: 2024-12-26
 related_topics:
+  - title: español version
+    url: /es/common/compgen.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/compgen.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/compgen.html
     icon: bi bi-globe
@@ -21,6 +27,10 @@ More information: <https://www.gnu.org/software/bash/manual/bash.html#index-comp
 - List all commands that you could run:
 
 `compgen -c`
+
+- List all commands that you could run that start with a specified string:
+
+`compgen -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">str</span>
 
 - List all aliases:
 

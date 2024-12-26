@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-upgrade (English)
 description: "Arch Linux package manager utility."
-content_hash: c627b8ada4e2fee44c35e8c8c74911e934aca93c
-last_modified_at: 2024-09-25
+content_hash: e26c30853c70f19e20003d2aaceecb3ed3aa8b84
+last_modified_at: 2024-12-26
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-upgrade.html
@@ -33,24 +33,24 @@ More information: <https://manned.org/pacman.8>.
 
 - Install one or more packages from files:
 
-`sudo pacman --upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package1.pkg.tar.zst</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package2.pkg.tar.zst</span>
+`sudo pacman -U `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package1.pkg.tar.zst</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package2.pkg.tar.zst</span>
 
 - Install a package without prompting:
 
-`sudo pacman --upgrade --noconfirm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span>
+`sudo pacman -U --noconfirm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span>
 
 - Overwrite conflicting files during a package installation:
 
-`sudo pacman --upgrade --overwrite `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span>
+`sudo pacman -U --overwrite `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span>
 
-- Install a package, skipping the dependency version checks:
+- Install a package, skipping the dependency [(d)] version checks:
 
-`sudo pacman --upgrade --nodeps `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span>
+`sudo pacman -Ud `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span>
 
-- List packages that would be affected (does not install any packages):
+- Fetch and [p]rint packages that would be affected by upgrade (does not install any packages):
 
-`pacman --upgrade --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span>
+`pacman -Up `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span>
 
 - Display help:
 
-`pacman --upgrade --help`
+`pacman -U --help`

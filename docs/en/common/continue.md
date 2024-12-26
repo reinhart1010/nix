@@ -2,7 +2,7 @@
 layout: page
 title: common/continue (English)
 description: "Skip to the next iteration of a `for`, `while`, `until` or `select` loop."
-content_hash: 02fbdaa1c6a6202aac5e19ffa2be2c4e404e8ce8
+content_hash: 5b48f4b56257947d2d7b9fd8a32c14e509c771b2
 last_modified_at: 2024-12-26
 tldri18n_status: 0
 ---
@@ -24,6 +24,6 @@ More information: <https://www.gnu.org/software/bash/manual/bash.html#index-cont
 
 `while :; do continue; echo "This will never be reached"; done`
 
-- Skip the next iteration from within a nested loop:
+- Skip to the next iteration from within a nested loop:
 
 `for i in {1..3}; do while :; do continue 2; done; done`

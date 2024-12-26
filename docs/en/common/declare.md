@@ -2,14 +2,18 @@
 layout: page
 title: common/declare (English)
 description: "Declare variables and give them attributes."
-content_hash: db736e7a68742fe686468329e5ba45883970627a
-last_modified_at: 2023-11-12
+content_hash: 807157d3104069c781d86a91c30f67d818532bc6
+last_modified_at: 2024-12-26
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/declare.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # declare
 
 Declare variables and give them attributes.
-More information: <https://www.gnu.org/software/bash/manual/bash.html#Bash-Builtins>.
+More information: <https://www.gnu.org/software/bash/manual/bash.html#index-declare>.
 
 - Declare a string variable with the specified value:
 
@@ -34,3 +38,7 @@ More information: <https://www.gnu.org/software/bash/manual/bash.html#Bash-Built
 - Declare a global variable within a function with the specified value:
 
 `declare -g `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>`"`
+
+- Print a function definition:
+
+`declare -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">function_name</span>

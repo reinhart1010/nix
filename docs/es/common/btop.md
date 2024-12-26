@@ -2,8 +2,8 @@
 layout: page
 title: common/btop (español)
 description: "Un monitor de recursos que muestra información sobre la CPU, memoria, discos, red y procesos."
-content_hash: 479873c29bedc90b0c02eb319bf094e547c4a40c
-last_modified_at: 2024-12-18
+content_hash: 0b2c47a22435fce02c7c29f51fbbf0dae3bfa02f
+last_modified_at: 2024-12-26
 related_topics:
   - title: English version
     url: /en/common/btop.html
@@ -43,3 +43,7 @@ Más información: <https://github.com/aristocratos/btop>.
 - Inicia `btop` en modo 256 colores en lugar de 24 bits:
 
 `btop --low-color`
+
+- Establece la tasa de actualización a 500 milisegundos:
+
+`btop --update 500`
