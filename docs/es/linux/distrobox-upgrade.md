@@ -3,7 +3,7 @@ layout: page
 title: linux/distrobox-upgrade (español)
 description: "Actualiza uno o varios contenedores Distrobox. Vea también: `tldr distrobox`."
 content_hash: d7ad88c8557278816f2c56c09fc2e598bd79ee7a
-last_modified_at: 2024-12-25
+last_modified_at: 2024-12-26
 related_topics:
   - title: English version
     url: /en/linux/distrobox-upgrade.html
@@ -17,18 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/distrobox-upgrade.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/distrobox-upgrade.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># distrobox-upgrade
+# distrobox-upgrade
 
 Actualiza uno o varios contenedores Distrobox. Vea también: `tldr distrobox`.
 Más información: <https://distrobox.it/usage/distrobox-upgrade>.

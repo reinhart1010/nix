@@ -3,7 +3,7 @@ layout: page
 title: common/josm (español)
 description: "Editor extensible de OpenStreetMap para Java 8+."
 content_hash: 06a2f2bbd32e023ceb90d61f7eb33d6067052d0a
-last_modified_at: 2024-12-25
+last_modified_at: 2024-12-26
 related_topics:
   - title: English version
     url: /en/common/josm.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/josm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/josm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># josm
+# josm
 
 Editor extensible de OpenStreetMap para Java 8+.
 Más información: <https://josm.openstreetmap.de/>.
