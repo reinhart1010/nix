@@ -3,14 +3,17 @@ layout: page
 title: common/declare (한국어)
 description: "변수를 선언하고 속성을 부여."
 content_hash: 6e3f8e7bfa6e58cd0752ff68d205ae2cd862bc70
-last_modified_at: 2024-10-12
+last_modified_at: 2024-12-27
 related_topics:
   - title: English version
     url: /en/common/declare.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# declare
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># declare
 
 변수를 선언하고 속성을 부여.
 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#Bash-Builtins>.

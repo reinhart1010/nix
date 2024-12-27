@@ -3,10 +3,13 @@ layout: page
 title: common/compgen (한국어)
 description: "TAB 키를 두 번 누르면 호출되는 Bash의 자동 완성 명령이 내장."
 content_hash: 70f64f5adc7ad0b727baa9f522952b09004194a2
-last_modified_at: 2024-10-09
+last_modified_at: 2024-12-27
 related_topics:
   - title: English version
     url: /en/common/compgen.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/compgen.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/compgen.html
@@ -14,9 +17,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/compgen.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# compgen
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># compgen
 
 TAB 키를 두 번 누르면 호출되는 Bash의 자동 완성 명령이 내장.
 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-compgen>.

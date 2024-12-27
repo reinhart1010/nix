@@ -3,7 +3,7 @@ layout: page
 title: common/ruff-check (español)
 description: "Un linter extremadamente rápido para Python. `check` es el comando predeterminado - se puede omitir en todas partes."
 content_hash: 5ed6df2bfe955f88d6e6d88dba54cceb40e836a1
-last_modified_at: 2024-12-26
+last_modified_at: 2024-12-27
 related_topics:
   - title: English version
     url: /en/common/ruff-check.html
@@ -14,18 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/ruff-check.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ruff-check.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ruff check
+# ruff check
 
 Un linter extremadamente rápido para Python. `check` es el comando predeterminado - se puede omitir en todas partes.
 Si no se especifican archivos o directorios, el directorio de trabajo actual se utiliza por defecto.

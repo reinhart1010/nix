@@ -3,7 +3,7 @@ layout: page
 title: common/adb (中文)
 description: "安卓调试桥：与 Android 模拟器或已连接的 Android 设备通信。"
 content_hash: 5a27ad009e3f53e8c8882cc205301b22770434ae
-last_modified_at: 2024-10-05
+last_modified_at: 2024-12-27
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -35,9 +35,12 @@ related_topics:
   - title: русский version
     url: /ru/common/adb.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# adb
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># adb
 
 安卓调试桥：与 Android 模拟器或已连接的 Android 设备通信。
 此命令也有关于其子命令的文件，例如：`shell`.

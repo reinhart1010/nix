@@ -3,7 +3,7 @@ layout: page
 title: common/adb (polski)
 description: "Android Debug Bridge: komunikuj się z instancją emulatora Androida lub podłączonym urządzeniem z Androidem."
 content_hash: ebf360fe0ffc7de47a6414f1cd88718a1a2ced3a
-last_modified_at: 2024-10-05
+last_modified_at: 2024-12-27
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -35,9 +35,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# adb
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># adb
 
 Android Debug Bridge: komunikuj się z instancją emulatora Androida lub podłączonym urządzeniem z Androidem.
 Niektóre podkomendy takie jak `shell` mają osobną dokumentację.

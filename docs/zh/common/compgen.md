@@ -3,17 +3,26 @@ layout: page
 title: common/compgen (中文)
 description: "用于在 bash 中自动完成的内置命令，按两次 tab 键即可调用该命令。"
 content_hash: df3be191a7ee39420c6de2ae937c1864d09cf5a5
-last_modified_at: 2023-11-12
+last_modified_at: 2024-12-27
 related_topics:
   - title: English version
     url: /en/common/compgen.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/compgen.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/compgen.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/compgen.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# compgen
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># compgen
 
 用于在 bash 中自动完成的内置命令，按两次 tab 键即可调用该命令。
 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-compgen>.

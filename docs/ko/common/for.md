@@ -3,7 +3,7 @@ layout: page
 title: common/for (한국어)
 description: "명령을 여러 번 수행."
 content_hash: f62bc11060720efa7b3e002791e0b3b10266fff4
-last_modified_at: 2024-10-21
+last_modified_at: 2024-12-27
 related_topics:
   - title: English version
     url: /en/common/for.html
@@ -11,9 +11,12 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/for.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# for
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># for
 
 명령을 여러 번 수행.
 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#Looping-Constructs>.

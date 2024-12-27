@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-deptest (English)
 description: "Check each dependency specified and return a list of dependencies that are not currently satisfied on the system."
-content_hash: 99e45ee9d8da1d693853e88879446f77b7ad2c59
-last_modified_at: 2024-09-25
+content_hash: 7f38d9f0a5411ab2e67a9fb3fb31a6aa3b80ca9b
+last_modified_at: 2024-12-27
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-deptest.html
@@ -17,6 +17,9 @@ related_topics:
   - title: polski version
     url: /pl/linux/pacman-deptest.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/pacman-deptest.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/pacman-deptest.html
     icon: bi bi-globe
@@ -28,18 +31,18 @@ Check each dependency specified and return a list of dependencies that are not c
 See also: `pacman`.
 More information: <https://manned.org/pacman.8>.
 
-- Print the package names of the dependencies that aren't installed:
+- Print the package names of the dependencies that are not installed:
 
-`pacman --deptest `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
+`pacman -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 
 - Check if the installed package satisfies the given minimum version:
 
-`pacman --deptest "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash>=5</span>`"`
+`pacman -T "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash>=5</span>`"`
 
 - Check if a later version of a package is installed:
 
-`pacman --deptest "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash>5</span>`"`
+`pacman -T "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash>5</span>`"`
 
 - Display help:
 
-`pacman --deptest --help`
+`pacman -T --help`

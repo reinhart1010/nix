@@ -3,7 +3,7 @@ layout: page
 title: common/compgen (español)
 description: "Un comando integrado para autocompletar en Bash, que se invoca al presionar la tecla TAB dos veces."
 content_hash: 390fc9b1d0ee761febb05337e3516a56dd0a6f02
-last_modified_at: 2024-12-12
+last_modified_at: 2024-12-27
 related_topics:
   - title: English version
     url: /en/common/compgen.html
@@ -17,9 +17,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/compgen.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# compgen
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># compgen
 
 Un comando integrado para autocompletar en Bash, que se invoca al presionar la tecla TAB dos veces.
 Más información: <https://www.gnu.org/software/bash/manual/bash.html#index-compgen>.

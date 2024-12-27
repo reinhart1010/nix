@@ -2,11 +2,14 @@
 layout: page
 title: linux/pacman-database (English)
 description: "Operate on the Arch Linux package database."
-content_hash: 4339467e2b921ca9f61329cf2ee61b8475cd4d46
-last_modified_at: 2024-09-25
+content_hash: 1936cc44fc94a436c7ecf037f61c0e5a854b64a9
+last_modified_at: 2024-12-27
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-database.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/pacman-database.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman-database.html
@@ -16,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/pacman-database.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/pacman-database.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/pacman-database.html
@@ -31,24 +37,24 @@ More information: <https://manned.org/pacman.8>.
 
 - Mark a package as implicitly installed:
 
-`sudo pacman --database --asdeps `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`sudo pacman -D --asdeps `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Mark a package as explicitly installed:
 
-`sudo pacman --database --asexplicit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`sudo pacman -D --asexplicit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Check that all the package dependencies are installed:
+- Chec[k] that all the package dependencies are installed:
 
-`pacman --database --check`
+`pacman -Dk`
 
-- Check the repositories to ensure all specified dependencies are available:
+- Chec[k] the sync [D]atabase to ensure all specified dependencies of downloadable packages are available:
 
-`pacman --database --check --check`
+`pacman -Dkk`
 
-- Display only error messages:
+- Chec[k] and display in [q]uiet mode (only error messages are displayed):
 
-`pacman --database --check --quiet`
+`pacman -Dkq`
 
 - Display help:
 
-`pacman --database --help`
+`pacman -D --help`

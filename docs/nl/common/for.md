@@ -3,14 +3,20 @@ layout: page
 title: common/for (Nederlands)
 description: "Voer een commando meerdere keren uit."
 content_hash: 67d5c957eb136a41cf61bfca4ec22075be93440e
-last_modified_at: 2024-08-13
+last_modified_at: 2024-12-27
 related_topics:
   - title: English version
     url: /en/common/for.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: 한국어 version
+    url: /ko/common/for.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# for
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># for
 
 Voer een commando meerdere keren uit.
 Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#Looping-Constructs>.

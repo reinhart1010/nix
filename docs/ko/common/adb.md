@@ -3,7 +3,7 @@ layout: page
 title: common/adb (한국어)
 description: "안드로이드 디버그 브릿지: 안드로이드 에뮬레이터 객체 또는 연결된 안드로이드 장치와 통신."
 content_hash: eb0d72b1f36c00b94a8aa98bd307d0f3ec3e35d5
-last_modified_at: 2024-02-22
+last_modified_at: 2024-12-27
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -35,9 +35,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# adb
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># adb
 
 안드로이드 디버그 브릿지: 안드로이드 에뮬레이터 객체 또는 연결된 안드로이드 장치와 통신.
 더 많은 정보: <https://developer.android.com/tools/adb>.

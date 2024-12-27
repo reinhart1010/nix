@@ -3,7 +3,7 @@ layout: page
 title: common/adb (русский)
 description: "Android Debug Bridge: управление запущенным эмулятором Android или подключенным устройством Android."
 content_hash: 01b999b0330b3cecc2ed62e1cdfcd8e79baba024
-last_modified_at: 2024-10-05
+last_modified_at: 2024-12-27
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -35,9 +35,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# adb
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># adb
 
 Android Debug Bridge: управление запущенным эмулятором Android или подключенным устройством Android.
 Некоторые подкоманды, такие как `shell`, имеют собственную документацию по использованию.
