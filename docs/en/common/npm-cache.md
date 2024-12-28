@@ -2,8 +2,12 @@
 layout: page
 title: common/npm-cache (English)
 description: "Manage the npm package cache."
-content_hash: e557bbf61bcf463096a73a2dbb5c069008f599f5
-last_modified_at: 2024-10-28
+content_hash: 4cc57e9d93c4a00d9b5af6c9185ba2cbc405a9c5
+last_modified_at: 2024-12-28
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/npm-cache.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # npm cache
@@ -35,9 +39,9 @@ More information: <https://docs.npmjs.com/cli/commands/npm-cache>.
 
 `npm cache verify`
 
-- Show information about the npm cache location and configuration:
+- Show the cache path:
 
-`npm cache dir`
+`npm config get cache`
 
 - Change the cache path:
 
