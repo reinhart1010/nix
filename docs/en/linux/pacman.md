@@ -2,11 +2,14 @@
 layout: page
 title: linux/pacman (English)
 description: "Arch Linux package manager utility."
-content_hash: c6ebd36e4cadfccbed9b630e87e2a6e2e8b37243
-last_modified_at: 2024-10-12
+content_hash: edce3a4095407b9a8a7ce0daae36f537b3d0577f
+last_modified_at: 2024-12-28
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/pacman.html
     icon: bi bi-globe
   - title: فارسی version
     url: /fa/linux/pacman.html
@@ -56,7 +59,7 @@ See also: `pacman-sync`, `pacman-remove`, `pacman-query`, `pacman-upgrade`, `pac
 For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 More information: <https://manned.org/pacman.8>.
 
-- Synchronize and update all packages:
+- [S]ynchronize and update all packages:
 
 `sudo pacman -Syu`
 
@@ -64,23 +67,23 @@ More information: <https://manned.org/pacman.8>.
 
 `sudo pacman -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Remove a package and its dependencies:
+- [R]emove a package and its dependencies:
 
 `sudo pacman -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Search the database for packages containing a specific file:
+- Search ([s]) the package database for a regular expression or keyword:
+
+`pacman -Ss "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`"`
+
+- Search the database for packages containing a specific [F]ile:
 
 `pacman -F "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_name</span>`"`
 
-- List installed packages and versions:
-
-`pacman -Q`
-
-- List only the explicitly installed packages and versions:
+- List only the [e]xplicitly installed packages and versions:
 
 `pacman -Qe`
 
-- List orphan packages (installed as dependencies but not actually required by any package):
+- List orphan packages (installed as [d]ependencies but not actually required by any package):
 
 `pacman -Qtdq`
 
