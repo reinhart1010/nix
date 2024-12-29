@@ -2,7 +2,7 @@
 layout: page
 title: common/mysql (中文)
 description: "MySQL 命令行工具。"
-content_hash: aa90cc2f009a13358a158791514ec18d942b285a
+content_hash: 750bea2b70888a14c90664e969446c49c7f15151
 last_modified_at: 2024-12-29
 related_topics:
   - title: English version
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # mysql
 
 MySQL 命令行工具。
-更多信息：<https://www.mysql.com/cn/>.
+更多信息：<https://www.mysql.com/>.
 
 - 连接数据库：
 
