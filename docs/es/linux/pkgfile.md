@@ -3,7 +3,7 @@ layout: page
 title: linux/pkgfile (español)
 description: "Busca archivos en los paquetes de los repositorios oficiales en sistemas basados en Arch."
 content_hash: 8acc4dfa0552f9f15aa13149ce2fa569fae2705b
-last_modified_at: 2024-12-28
+last_modified_at: 2024-12-29
 related_topics:
   - title: English version
     url: /en/linux/pkgfile.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/linux/pkgfile.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pkgfile.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pkgfile
+# pkgfile
 
 Busca archivos en los paquetes de los repositorios oficiales en sistemas basados en Arch.
 Vea también: `pacman files`, que describe el uso de `pacman --files`.

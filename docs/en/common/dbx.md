@@ -3,19 +3,10 @@ layout: page
 title: common/dbx (English)
 description: "Interact with the Databricks platform."
 content_hash: 1a1a7d82a3e5fe3e9f8db50e282116fed25f5ab9
-last_modified_at: 2024-12-28
-tldri18n_status: 0
+last_modified_at: 2024-12-29
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/dbx.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dbx
+# dbx
 
 Interact with the Databricks platform.
 Note: this tool has been retired and it is recommended to use Databricks Asset Bundles instead.
