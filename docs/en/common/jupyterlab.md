@@ -1,28 +1,15 @@
 ---
 layout: page
 title: common/jupyterlab (English)
-description: "Interactive development environment for Jupyter notebooks."
-content_hash: 1d6bda22a3cae3a9018ebce56b7624d97a6e7171
+description: "This command is an alias of `jupyter lab`."
+content_hash: f40a3f8a95603374fd135e872f04ad65188c1a3c
 last_modified_at: 2024-12-30
 tldri18n_status: 2
 ---
-# jupyter lab
+# jupyterlab
 
-Interactive development environment for Jupyter notebooks.
-More information: <https://jupyterlab.readthedocs.io/en/stable/>.
+This command is an alias of `jupyter lab`.
 
-- Start JupyterLab:
+- View documentation for the original command:
 
-`jupyter lab`
-
-- Open a specific notebook:
-
-`jupyter lab `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/notebook.ipynb</span>
-
-- Start JupyterLab in a specific directory:
-
-`jupyter lab --notebook-dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
-
-- Start JupyterLab in debug mode:
-
-`jupyter lab --debug`
+`tldr jupyter lab`
