@@ -3,14 +3,20 @@ layout: page
 title: linux/flatpak-run (español)
 description: "Ejecuta aplicaciones y tiempos de ejecución flatpak."
 content_hash: 2452b355a6c83982f9fdbcf70f1bb3b5890a1756
-last_modified_at: 2024-09-05
+last_modified_at: 2024-12-30
 related_topics:
   - title: English version
     url: /en/linux/flatpak-run.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: 한국어 version
+    url: /ko/linux/flatpak-run.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# flatpak run
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># flatpak run
 
 Ejecuta aplicaciones y tiempos de ejecución flatpak.
 Más información: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-run>.

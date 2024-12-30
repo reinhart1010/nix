@@ -3,7 +3,7 @@ layout: page
 title: common/llm (español)
 description: "Interactúa con modelos grandes de lenguaje (LLMs) a través de APIs y modelos remotos que pueden instalarse y ejecutarse en su máquina."
 content_hash: 107e6b17c7769c6237cc01847b58e3edc8b94b13
-last_modified_at: 2024-12-29
+last_modified_at: 2024-12-30
 related_topics:
   - title: English version
     url: /en/common/llm.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/llm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/llm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># llm
+# llm
 
 Interactúa con modelos grandes de lenguaje (LLMs) a través de APIs y modelos remotos que pueden instalarse y ejecutarse en su máquina.
 Más información: <https://llm.datasette.io/en/stable/help.html>.
