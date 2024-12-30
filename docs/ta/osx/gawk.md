@@ -1,22 +1,10 @@
 ---
 layout: page
 title: osx/gawk (தமிழ்)
-description: "இக்கட்டளை `-p linux awk` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: ce20ae138b833e50adc34d8990046c4b6d746512
-last_modified_at: 2023-11-12
+description: "இக்கட்டளை `awk` கட்டளையின் மற்றொருப் பெயர்."
+content_hash: 731a5ace3700a209b061a2ad901100c0a7d76ca9
+last_modified_at: 2024-12-30
 related_topics:
-  - title: العربية version
-    url: /ar/osx/gawk.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/osx/gawk.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/osx/gawk.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/osx/gawk.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/osx/gawk.html
     icon: bi bi-globe
@@ -38,26 +26,11 @@ related_topics:
   - title: italiano version
     url: /it/osx/gawk.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/osx/gawk.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/osx/gawk.html
     icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/osx/gawk.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/osx/gawk.html
-    icon: bi bi-globe
-  - title: नेपाली version
-    url: /ne/osx/gawk.html
-    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/osx/gawk.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/osx/gawk.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/osx/gawk.html
@@ -68,20 +41,11 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/osx/gawk.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/osx/gawk.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/osx/gawk.html
-    icon: bi bi-globe
   - title: ไทย version
     url: /th/osx/gawk.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/osx/gawk.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/osx/gawk.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/gawk.html
@@ -93,8 +57,8 @@ tldri18n_status: 2
 ---
 # gawk
 
-இக்கட்டளை `-p linux awk` கட்டளையின் மற்றொருப் பெயர்.
+இக்கட்டளை `awk` கட்டளையின் மற்றொருப் பெயர்.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 
-`tldr -p linux awk`
+`tldr awk`

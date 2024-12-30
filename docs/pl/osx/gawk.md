@@ -1,22 +1,10 @@
 ---
 layout: page
 title: osx/gawk (polski)
-description: "To polecenie jest aliasem `-p linux awk`."
-content_hash: dee195c9db3fc46d86bd0fe385110976e2ee91e5
-last_modified_at: 2023-11-12
+description: "To polecenie jest aliasem `awk`."
+content_hash: 2a9d79261d9a68aa8de3330a083c715371798401
+last_modified_at: 2024-12-30
 related_topics:
-  - title: العربية version
-    url: /ar/osx/gawk.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/osx/gawk.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/osx/gawk.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/osx/gawk.html
-    icon: bi bi-globe
   - title: Deutsch version
     url: /de/osx/gawk.html
     icon: bi bi-globe
@@ -38,38 +26,17 @@ related_topics:
   - title: italiano version
     url: /it/osx/gawk.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/osx/gawk.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/osx/gawk.html
     icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/osx/gawk.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/osx/gawk.html
-    icon: bi bi-globe
-  - title: नेपाली version
-    url: /ne/osx/gawk.html
-    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/osx/gawk.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/osx/gawk.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/gawk.html
     icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/osx/gawk.html
-    icon: bi bi-globe
-  - title: русский version
-    url: /ru/osx/gawk.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/osx/gawk.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/osx/gawk.html
@@ -79,9 +46,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/osx/gawk.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/osx/gawk.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/gawk.html
@@ -93,8 +57,8 @@ tldri18n_status: 2
 ---
 # gawk
 
-To polecenie jest aliasem `-p linux awk`.
+To polecenie jest aliasem `awk`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux awk`
+`tldr awk`

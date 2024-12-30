@@ -1,22 +1,10 @@
 ---
 layout: page
 title: osx/gawk (Deutsch)
-description: "Dieser Befehl ist ein Alias von `-p linux awk`."
-content_hash: 4554ff9a2039ab3c28587054d98e550541581b82
-last_modified_at: 2023-11-12
+description: "Dieser Befehl ist ein Alias von `awk`."
+content_hash: 1d4048e427d7a14a6e90a74534566d6c3fd2088c
+last_modified_at: 2024-12-30
 related_topics:
-  - title: العربية version
-    url: /ar/osx/gawk.html
-    icon: bi bi-globe
-  - title: bosanski version
-    url: /bs/osx/gawk.html
-    icon: bi bi-globe
-  - title: català version
-    url: /ca/osx/gawk.html
-    icon: bi bi-globe
-  - title: dansk version
-    url: /da/osx/gawk.html
-    icon: bi bi-globe
   - title: English version
     url: /en/osx/gawk.html
     icon: bi bi-globe
@@ -35,26 +23,11 @@ related_topics:
   - title: italiano version
     url: /it/osx/gawk.html
     icon: bi bi-globe
-  - title: 日本語 version
-    url: /ja/osx/gawk.html
-    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/osx/gawk.html
     icon: bi bi-globe
-  - title: ລາວ version
-    url: /lo/osx/gawk.html
-    icon: bi bi-globe
-  - title: മലയാളം version
-    url: /ml/osx/gawk.html
-    icon: bi bi-globe
-  - title: नेपाली version
-    url: /ne/osx/gawk.html
-    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/osx/gawk.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/osx/gawk.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/osx/gawk.html
@@ -65,12 +38,6 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/osx/gawk.html
     icon: bi bi-globe
-  - title: русский version
-    url: /ru/osx/gawk.html
-    icon: bi bi-globe
-  - title: svenska version
-    url: /sv/osx/gawk.html
-    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/osx/gawk.html
     icon: bi bi-globe
@@ -79,9 +46,6 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/osx/gawk.html
-    icon: bi bi-globe
-  - title: українська version
-    url: /uk/osx/gawk.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/gawk.html
@@ -93,8 +57,8 @@ tldri18n_status: 2
 ---
 # gawk
 
-Dieser Befehl ist ein Alias von `-p linux awk`.
+Dieser Befehl ist ein Alias von `awk`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr -p linux awk`
+`tldr awk`
