@@ -2,14 +2,17 @@
 layout: page
 title: linux/coredumpctl (English)
 description: "Retrieve and process saved core dumps and metadata."
-content_hash: 0e953cb60aea103e12806389d7edd1aca6bc6274
-last_modified_at: 2023-11-12
+content_hash: 54d7a4e32aa46f17dc70343d65feaf06b924a444
+last_modified_at: 2024-12-31
 related_topics:
   - title: català version
     url: /ca/linux/coredumpctl.html
     icon: bi bi-globe
   - title: español version
     url: /es/linux/coredumpctl.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/coredumpctl.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/coredumpctl.html
@@ -23,7 +26,7 @@ More information: <https://www.freedesktop.org/software/systemd/man/coredumpctl.
 
 - List all captured core dumps:
 
-`coredumpctl list`
+`coredumpctl`
 
 - List captured core dumps for a program:
 
@@ -32,6 +35,10 @@ More information: <https://www.freedesktop.org/software/systemd/man/coredumpctl.
 - Show information about the core dumps matching a program with `PID`:
 
 `coredumpctl info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span>
+
+- Invoke debugger using the last core dump:
+
+`coredumpctl debug`
 
 - Invoke debugger using the last core dump of a program:
 
