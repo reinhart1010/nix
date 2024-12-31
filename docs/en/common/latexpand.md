@@ -3,7 +3,11 @@ layout: page
 title: common/latexpand (English)
 description: "Simplify LaTeX source files by removing comments and resolving `\include`s, `\input`s, etc."
 content_hash: 2a710c083fe3a0e7aad7a5e9fa107f9b65f7ef25
-last_modified_at: 2024-12-30
+last_modified_at: 2024-12-31
+related_topics:
+  - title: español version
+    url: /es/common/latexpand.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # latexpand
