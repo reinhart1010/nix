@@ -3,7 +3,7 @@ layout: page
 title: linux/coredumpctl (español)
 description: "Recupera y procesa volcados de memoria y sus metadatos."
 content_hash: 8ec7eff9144436ac6c00d7566363d6cebf92e2fc
-last_modified_at: 2023-11-12
+last_modified_at: 2025-01-01
 related_topics:
   - title: català version
     url: /ca/linux/coredumpctl.html
@@ -11,12 +11,18 @@ related_topics:
   - title: English version
     url: /en/linux/coredumpctl.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/coredumpctl.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/linux/coredumpctl.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# coredumpctl
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># coredumpctl
 
 Recupera y procesa volcados de memoria y sus metadatos.
 Más información: <https://www.freedesktop.org/software/systemd/man/coredumpctl.html>.

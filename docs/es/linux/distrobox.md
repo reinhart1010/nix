@@ -3,7 +3,7 @@ layout: page
 title: linux/distrobox (español)
 description: "Utiliza cualquier distribución Linux dentro de su terminal en un contenedor."
 content_hash: f14982a72041f3621ec0ae530b1b4a2ad4068f64
-last_modified_at: 2024-12-31
+last_modified_at: 2025-01-01
 related_topics:
   - title: English version
     url: /en/linux/distrobox.html
@@ -17,18 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/distrobox.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/distrobox.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># distrobox
+# distrobox
 
 Utiliza cualquier distribución Linux dentro de su terminal en un contenedor.
 Instala y utiliza paquetes dentro de la misma, mientras se integra estrechamente con el sistema operativo anfitrión, compartiendo el almacenamiento (directorio `home`) y el hardware.

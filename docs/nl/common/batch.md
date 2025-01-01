@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/batch (Nederlands)
-description: "Dit commando is een alias van `at`."
-content_hash: 6061de311bd1173c4d4015fe982ddec5e98eb446
-last_modified_at: 2024-12-15
+description: "Voer commando's uit op een later tijdstip wanneer de systeembelasting het toelaat."
+content_hash: 5173592c4d62cd47282a6328d6dc08a9606bfc0b
+last_modified_at: 2025-01-01
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -33,8 +33,19 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># batch
 
-Dit commando is een alias van `at`.
+Voer commando's uit op een later tijdstip wanneer de systeembelasting het toelaat.
+Resultaten worden verzonden naar de e-mail van de gebruiker.
+Bekijk ook: `at`, `atq`, `atrm` `mail`.
+Meer informatie: <https://manned.org/batch>.
 
-- Bekijk de documentatie van het originele commando:
+- Start de `atd` daemon:
 
-`tldr at`
+`systemctl start atd`
+
+- Voer commando's uit vanaf `stdin` (druk op `Ctrl + D` om te stoppen):
+
+`batch`
+
+- Voer een commando uit vanaf `stdin`:
+
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./make_db_backup.sh</span>`" | batch`

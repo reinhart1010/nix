@@ -3,19 +3,10 @@ layout: page
 title: common/llvm-mc (English)
 description: "LLVM Machine Code Playground. It provides a set of tools for working with LLVM machine code."
 content_hash: 06b2acaaefa63f05e991ecb55bdc23f728158c6b
-last_modified_at: 2024-12-31
-tldri18n_status: 0
+last_modified_at: 2025-01-01
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/llvm-mc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># llvm-mc
+# llvm-mc
 
 LLVM Machine Code Playground. It provides a set of tools for working with LLVM machine code.
 Part of LLVM.

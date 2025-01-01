@@ -3,14 +3,17 @@ layout: page
 title: common/timew (한국어)
 description: "활동의 지속 시간을 측정하는 시간 추적 도구."
 content_hash: 70aaeb46a0a4a189b38b9675bba71624e1fe1f96
-last_modified_at: 2024-11-10
+last_modified_at: 2025-01-01
 related_topics:
   - title: English version
     url: /en/common/timew.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# timew
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># timew
 
 활동의 지속 시간을 측정하는 시간 추적 도구.
 더 많은 정보: <https://timewarrior.net/docs>.

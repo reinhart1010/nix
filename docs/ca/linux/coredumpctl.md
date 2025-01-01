@@ -3,7 +3,7 @@ layout: page
 title: linux/coredumpctl (català)
 description: "Recupera i processa volcats de memòria i les seves metadades."
 content_hash: 671936b3ba310dc6a492d112867250533ab8105d
-last_modified_at: 2023-11-12
+last_modified_at: 2025-01-01
 related_topics:
   - title: English version
     url: /en/linux/coredumpctl.html
@@ -11,12 +11,18 @@ related_topics:
   - title: español version
     url: /es/linux/coredumpctl.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/coredumpctl.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/linux/coredumpctl.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# coredumpctl
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># coredumpctl
 
 Recupera i processa volcats de memòria i les seves metadades.
 Més informació: <https://www.freedesktop.org/software/systemd/man/coredumpctl.html>.
