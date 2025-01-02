@@ -2,8 +2,8 @@
 layout: page
 title: common/dig (português (Brasil))
 description: "Utilitário de pesquisa de DNS."
-content_hash: ab0551a7c944d3b4624700470b4aa84f248945de
-last_modified_at: 2024-10-25
+content_hash: 2a0201afc81f43a017a16e2847d4559653b35ad2
+last_modified_at: 2025-01-02
 related_topics:
   - title: English version
     url: /en/common/dig.html
@@ -33,11 +33,11 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Utilitário de pesquisa de DNS.
 Mais informações: <https://manned.org/dig>.
 
-- Pesquisa o(s) IP(s) associados a um hostname (Registros A):
+- Pesquisa o(s) IP(s) associados a um hostname (registros A):
 
 `dig +short `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 
-- Obtém uma resposta detalhada para um determinado domínio (Registros A):
+- Obtém uma resposta detalhada para um determinado domínio (registros A):
 
 `dig +noall +answer `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 
@@ -45,11 +45,11 @@ Mais informações: <https://manned.org/dig>.
 
 `dig +short `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A|MX|TXT|CNAME|NS</span>
 
-- Especifica um servidor DNS alternativo para consultar:
+- Especifica um DNS alternativo para busca e opcionalmente usa DNS sobre TLS (DoT):
 
-`dig @`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
+`dig `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+tls</span>` @`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.1.1.1|8.8.8.8|9.9.9.9|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 
-- Performa uma busca reversa de DNS em um endereço de IP (Registro PTR):
+- Performa uma busca reversa de DNS em um endereço de IP (registro PTR):
 
 `dig -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span>
 
@@ -60,3 +60,7 @@ Mais informações: <https://manned.org/dig>.
 - Performa consultas iterativas e exibe o caminho de ratreio completo para resolver um nome de domínio:
 
 `dig +trace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
+
+- Busca um servidor DNS sobre uma [p]orta não padrão usando protocolo TCP:
+
+`dig +tcp -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta</span>` @`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_servidor_dns</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>

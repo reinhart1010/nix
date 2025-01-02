@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-run (português (Brasil))
 description: "Executa um comando em um novo container Docker."
-content_hash: da34a9f6dc773e6484ecaef89a7e04ae6e18541e
-last_modified_at: 2024-09-26
+content_hash: ae29986aca593ca17b4cd29477c58490ca32453a
+last_modified_at: 2025-01-02
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-run.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/docker-run.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/docker-run.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-run.html
@@ -56,3 +59,11 @@ Mais informações: <https://docs.docker.com/reference/cli/docker/container/run/
 - Executa um comando em um novo container e abre as portas para acesso:
 
 `docker run --publish `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_do_host_local</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_do_container</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
+
+- Executa um comando em um novo container sobrescrevendo o entrypoint da imagem:
+
+`docker run --entrypoint `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem</span>
+
+- Executa um comando em um novo container conectando-o a rede:
+
+`docker run --network `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rede</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem</span>

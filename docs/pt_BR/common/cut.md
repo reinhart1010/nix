@@ -2,8 +2,8 @@
 layout: page
 title: common/cut (português (Brasil))
 description: "Recorta campos do `stdin` ou de arquivos."
-content_hash: 7d3fbe356625c3e3b266a6bbf87697ee27af8ded
-last_modified_at: 2024-12-18
+content_hash: 4e48f90f30b7fdc71b39dfc81ce973e8f2418ed5
+last_modified_at: 2025-01-02
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -47,3 +47,7 @@ Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/cut
 - Imprime um intervalo de caracteres de cada linha de um arquivo específico:
 
 `cut --characters `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
+
+- Imprime campos específicos de linhas terminadas em `NUL` (ex.: assim como em `find . -print0`) ao invés de novas linhas:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` | cut --zero-terminated --fields `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
