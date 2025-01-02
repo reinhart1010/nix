@@ -3,7 +3,7 @@ layout: page
 title: linux/semanage-port (한국어)
 description: "지속적인 SELinux 포트 정의를 관리합니다."
 content_hash: 181842b2da657827d147cd97b8f65066dca7e03b
-last_modified_at: 2024-11-12
+last_modified_at: 2025-01-02
 related_topics:
   - title: English version
     url: /en/linux/semanage-port.html
@@ -11,9 +11,12 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/semanage-port.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# semanage port
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># semanage port
 
 지속적인 SELinux 포트 정의를 관리합니다.
 같이 보기: `semanage`.

@@ -3,7 +3,7 @@ layout: page
 title: common/batch (Nederlands)
 description: "Voer commando's uit op een later tijdstip wanneer de systeembelasting het toelaat."
 content_hash: 5173592c4d62cd47282a6328d6dc08a9606bfc0b
-last_modified_at: 2025-01-01
+last_modified_at: 2025-01-02
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -26,12 +26,9 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/batch.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># batch
+# batch
 
 Voer commando's uit op een later tijdstip wanneer de systeembelasting het toelaat.
 Resultaten worden verzonden naar de e-mail van de gebruiker.
