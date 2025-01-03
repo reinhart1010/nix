@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-deptest (English)
 description: "Check each dependency specified and return a list of dependencies that are not currently satisfied on the system."
-content_hash: 7f38d9f0a5411ab2e67a9fb3fb31a6aa3b80ca9b
-last_modified_at: 2024-12-27
+content_hash: fda8f4bfd3b327b607ca329aed1a73e31d17446b
+last_modified_at: 2025-01-03
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-deptest.html
@@ -43,6 +43,6 @@ More information: <https://manned.org/pacman.8>.
 
 `pacman -T "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash>5</span>`"`
 
-- Display help:
+- Display [h]elp:
 
-`pacman -T --help`
+`pacman -Th`

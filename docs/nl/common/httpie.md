@@ -2,8 +2,8 @@
 layout: page
 title: common/httpie (Nederlands)
 description: "Beheersinterface voor HTTPie."
-content_hash: 1f341f12c7a279d17c3e4a8f0a7e309d344c395f
-last_modified_at: 2024-08-27
+content_hash: 33b3dc1edaac1df77ef53a94916ff1d507a88b04
+last_modified_at: 2025-01-03
 related_topics:
   - title: Deutsch version
     url: /de/common/httpie.html
@@ -11,12 +11,15 @@ related_topics:
   - title: English version
     url: /en/common/httpie.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/httpie.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # httpie
 
 Beheersinterface voor HTTPie.
-Zie ook: `http`, de tool zelf.
+Bekijk ook: `http`, de tool zelf.
 Meer informatie: <https://httpie.io/docs/cli/plugin-manager>.
 
 - Controleer op updates voor `http`:

@@ -2,14 +2,17 @@
 layout: page
 title: common/declare (español)
 description: "Declara variables y les da atributos."
-content_hash: e35b19a75257c575d48f076303c008ef342c0352
-last_modified_at: 2024-12-30
+content_hash: 2dd20313c55bfd95bb0ae1be49982b848d4d74be
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/common/declare.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/declare.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/declare.html
     icon: bi bi-globe
 tldri18n_status: 1
 ---
@@ -19,7 +22,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># declare
 
 Declara variables y les da atributos.
-Más información: <https://www.gnu.org/software/bash/manual/bash.html#Bash-Builtins>.
+Más información: <https://www.gnu.org/software/bash/manual/bash.html#index-declare>.
 
 - Describe una variable de cadena con el valor especificado:
 

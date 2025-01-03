@@ -2,8 +2,8 @@
 layout: page
 title: linux/jobs (한국어)
 description: "현재 셸에서 실행된 프로세스에 대한 정보를 표시하는 셸 내장 명령입니다."
-content_hash: 878667cfd91f363d9b4a979cd9c2c26641cc0564
-last_modified_at: 2024-11-10
+content_hash: 44ab516acf8de5a7814f9d100f100440426db25f
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/linux/jobs.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 현재 셸에서 실행된 프로세스에 대한 정보를 표시하는 셸 내장 명령입니다.
 `-l` 및 `-p`를 제외한 옵션은 `bash`에만 적용됩니다.
-더 많은 정보: <https://manned.org/jobs>.
+더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-jobs>.
 
 - 현재 셸에서 실행된 작업 보기:
 

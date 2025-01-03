@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/pacman-files (Nederlands)
-description: "Arch Linux Pakketbeheerder hulpprogramma."
-content_hash: 758df211ba41eab348b0f447f2de315db16f9770
-last_modified_at: 2025-01-02
+description: "Arch Linux pakketbeheer hulpprogramma."
+content_hash: 961f59a9b731deb139ec815ad1fa7c41308edb24
+last_modified_at: 2025-01-03
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-files.html
@@ -33,7 +33,7 @@ tldri18n_status: 2
 ---
 # pacman --files
 
-Arch Linux Pakketbeheerder hulpprogramma.
+Arch Linux pakketbeheer hulpprogramma.
 Bekijk ook: `pacman`,` pkgfile`.
 Meer informatie: <https://manned.org/pacman.8>.
 

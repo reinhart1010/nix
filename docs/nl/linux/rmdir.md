@@ -2,11 +2,17 @@
 layout: page
 title: linux/rmdir (Nederlands)
 description: "Verwijder directories zonder bestanden."
-content_hash: 44c8412759f7b6e61c45f2169f746c002e54a3cc
-last_modified_at: 2024-09-22
+content_hash: f8564de2f1a8186bbe16ea44b3eddd88b533719e
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/linux/rmdir.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/rmdir.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/rmdir.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/rmdir.html
@@ -16,7 +22,7 @@ tldri18n_status: 2
 # rmdir
 
 Verwijder directories zonder bestanden.
-Zie ook: `rm`.
+Bekijk ook: `rm`.
 Meer informatie: <https://www.gnu.org/software/coreutils/rmdir>.
 
 - Verwijder specifieke directories:

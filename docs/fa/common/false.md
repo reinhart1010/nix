@@ -2,8 +2,8 @@
 layout: page
 title: common/false (فارسی)
 description: "برگرداندن 1 به عنوان کد خروجی."
-content_hash: 71aa6ed570e00f5db32278e5365f78a63edc5e73
-last_modified_at: 2023-11-12
+content_hash: 1de581fea5e9b4ac889d437c6a8b59873cad6a96
+last_modified_at: 2025-01-03
 related_topics:
   - title: bosanski version
     url: /bs/common/false.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # false
 
 برگرداندن 1 به عنوان کد خروجی.
-اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/false>.
+اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/false-invocation.html>.
 
 - برگرداندن 1 به عنوان کد خروجی:
 

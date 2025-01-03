@@ -2,18 +2,21 @@
 layout: page
 title: linux/mesg (Nederlands)
 description: "Controleer of stel in of een terminal berichten van andere gebruikers kan ontvangen, meestal van het `write`-commando."
-content_hash: f4f1ab7e706ed18fa2bcfb07d589c95a301e058a
-last_modified_at: 2024-08-21
+content_hash: bd0b34a7a1fe4d9ff5d73b0bd99fe99bb37cbfd9
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/linux/mesg.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/mesg.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # mesg
 
 Controleer of stel in of een terminal berichten van andere gebruikers kan ontvangen, meestal van het `write`-commando.
-Zie ook `write`, `talk`.
+Bekijk ook `write`, `talk`.
 Meer informatie: <https://manned.org/mesg.1>.
 
 - Controleer of de terminal openstaat voor berichten:

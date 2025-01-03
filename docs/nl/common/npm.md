@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/npm (Nederlands)
-description: "JavaScript en Node.js pakketbeheerder."
-content_hash: c23fe5aaaeadcfbb8b305dbb8d7786b2b1687955
-last_modified_at: 2024-10-20
+description: "JavaScript en Node.js pakketbeheer."
+content_hash: 9c01ea1aafc7a925088044fdae307732d6b5f0e6
+last_modified_at: 2025-01-03
 related_topics:
   - title: Deutsch version
     url: /de/common/npm.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 ---
 # npm
 
-JavaScript en Node.js pakketbeheerder.
+JavaScript en Node.js pakketbeheer.
 Beheer Node.js-projecten en hun module-afhankelijkheden.
 Meer informatie: <https://www.npmjs.com>.
 

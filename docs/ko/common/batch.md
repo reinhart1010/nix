@@ -2,8 +2,8 @@
 layout: page
 title: common/batch (한국어)
 description: "이 명령은 `at`의 에일리어스 (별칭) 입니다."
-content_hash: 889f14b11ae0f979b90b4b9abbe2930a7aec7e47
-last_modified_at: 2024-12-15
+content_hash: e1f1480909b9605c8f092fcebbf230a4337b157f
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -34,6 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># batch
 
 이 명령은 `at`의 에일리어스 (별칭) 입니다.
+더 많은 정보: <https://manned.org/batch>.
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:
 

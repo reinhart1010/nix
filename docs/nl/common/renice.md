@@ -2,11 +2,14 @@
 layout: page
 title: common/renice (Nederlands)
 description: "Verander de scheduleringsprioriteit/niceness van lopende processen."
-content_hash: bbcc39bc7321dc8c0d3624b2a2d471b63632b1ab
-last_modified_at: 2024-09-22
+content_hash: f531f796dda42bb438fbf9b23143262c0df2d79b
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/common/renice.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/renice.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/renice.html
@@ -17,7 +20,7 @@ tldri18n_status: 2
 
 Verander de scheduleringsprioriteit/niceness van lopende processen.
 Niceness waarden variëren van -20 (meest gunstig voor het proces) tot 19 (minst gunstig voor het proces).
-Zie ook: `nice`.
+Bekijk ook: `nice`.
 Meer informatie: <https://manned.org/renice>.
 
 - Verhoog/verlaag de prioriteit van een lopend [p]roces:

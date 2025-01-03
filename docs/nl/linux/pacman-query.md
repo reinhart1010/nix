@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/pacman-query (Nederlands)
-description: "Arch Linux pakketbeheerder hulpprogramma."
-content_hash: f6139de0099a5b923f6c860f58477af3583a96ef
-last_modified_at: 2025-01-02
+description: "Arch Linux pakketbeheer hulpprogramma."
+content_hash: 3948187200805a4d5b850d3fc8893050eee2d727
+last_modified_at: 2025-01-03
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-query.html
@@ -33,7 +33,7 @@ tldri18n_status: 2
 ---
 # pacman --query
 
-Arch Linux pakketbeheerder hulpprogramma.
+Arch Linux pakketbeheer hulpprogramma.
 Bekijk ook: `pacman`.
 Meer informatie: <https://manned.org/pacman.8>.
 

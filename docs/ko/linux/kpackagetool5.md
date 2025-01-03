@@ -2,8 +2,8 @@
 layout: page
 title: linux/kpackagetool5 (한국어)
 description: "K패키지 관리자: Plasma 패키지 설치, 나열, 제거."
-content_hash: 6fdc8839ea4be24e3b80cf1898cecf88779b56af
-last_modified_at: 2024-11-10
+content_hash: f46abcffa57aa939f58acc064e3edb5429026acf
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/linux/kpackagetool5.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # kpackagetool5
 
 K패키지 관리자: Plasma 패키지 설치, 나열, 제거.
-더 많은 정보: <https://techbase.kde.org/Development/Tutorials/Plasma5/QML2/GettingStarted#Kpackagetool5>.
+더 많은 정보: <https://manned.org/kpackagetool5>.
 
 - 설치 가능한 모든 패키지 유형 나열:
 

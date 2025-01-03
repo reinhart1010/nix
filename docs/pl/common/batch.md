@@ -2,8 +2,8 @@
 layout: page
 title: common/batch (polski)
 description: "To polecenie jest aliasem `at`."
-content_hash: 034add0935714b6e8c0886ec628b02f752bb7861
-last_modified_at: 2024-12-15
+content_hash: 835fd6db3d48495d1e5c5eace3971366c1f3ea40
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -34,6 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># batch
 
 To polecenie jest aliasem `at`.
+Więcej informacji: <https://manned.org/batch>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

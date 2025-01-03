@@ -2,8 +2,8 @@
 layout: page
 title: common/false (bosanski)
 description: "Vrati izlazni kod od 1."
-content_hash: af893e1f4e5c321223c76920b4a44af89a5a83a6
-last_modified_at: 2023-11-12
+content_hash: 44beeaf31d3dafed38aff42991d1445e6bdb9c53
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/common/false.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # false
 
 Vrati izlazni kod od 1.
-Više informacija: <https://www.gnu.org/software/coreutils/false>.
+Više informacija: <https://www.gnu.org/software/coreutils/manual/html_node/false-invocation.html>.
 
 - Vrati izlazni kod od 1:
 

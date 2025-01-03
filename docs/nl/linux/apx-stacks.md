@@ -2,18 +2,21 @@
 layout: page
 title: linux/apx-stacks (Nederlands)
 description: "Beheer stacks in `apx`."
-content_hash: 698da9b6dfc5c4c12a75a84e455ddccc57584286
-last_modified_at: 2023-11-12
+content_hash: 427b3306d08642f69d2f4cde3d5b9bf5b7a1401b
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/linux/apx-stacks.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/apx-stacks.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # apx stacks
 
 Beheer stacks in `apx`.
-Let op: Door gebruikers gecreëerde pakketbeheerderconfiguraties worden opgeslagen in `~/.local/share/apx/pkgmanagers`.
+Let op: door gebruikers gecreëerde pakketbeheerconfiguraties worden opgeslagen in `~/.local/share/apx/pkgmanagers`.
 Meer informatie: <https://github.com/Vanilla-OS/apx>.
 
 - Maak interactief een nieuwe stack configuratie:

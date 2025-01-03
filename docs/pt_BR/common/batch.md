@@ -2,8 +2,8 @@
 layout: page
 title: common/batch (português (Brasil))
 description: "Este comando é um apelido de `at`."
-content_hash: bfa3b8c91d6578018a208b0f1a63545311fa525e
-last_modified_at: 2024-12-15
+content_hash: 2db03994b604a571b65f927d0e5a10af8ed47b2b
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -34,6 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># batch
 
 Este comando é um apelido de `at`.
+Mais informações: <https://manned.org/batch>.
 
 - Exibe documentação sobre o comando original:
 

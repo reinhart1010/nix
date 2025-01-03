@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-database (English)
 description: "Operate on the Arch Linux package database."
-content_hash: 1936cc44fc94a436c7ecf037f61c0e5a854b64a9
-last_modified_at: 2024-12-27
+content_hash: 4d792533a9b660ee77da8f3eafe6b4e0262e76c8
+last_modified_at: 2025-01-03
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-database.html
@@ -55,6 +55,6 @@ More information: <https://manned.org/pacman.8>.
 
 `pacman -Dkq`
 
-- Display help:
+- Display [h]elp:
 
-`pacman -D --help`
+`pacman -Dh`

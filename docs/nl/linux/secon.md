@@ -2,18 +2,21 @@
 layout: page
 title: linux/secon (Nederlands)
 description: "Krijg de SELinux-beveiligingscontext van een bestand, PID, huidige uitvoeringscontext of een contextspecificatie."
-content_hash: 18b33b1d4850c115efd61662898e1e7785fabc8f
-last_modified_at: 2024-09-19
+content_hash: 228413b1eae7777fbb9386621b36515dc31f37d9
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/linux/secon.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/secon.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # secon
 
 Krijg de SELinux-beveiligingscontext van een bestand, PID, huidige uitvoeringscontext of een contextspecificatie.
-Zie ook: `semanage`, `runcon`, `chcon`.
+Bekijk ook: `semanage`, `runcon`, `chcon`.
 Meer informatie: <https://manned.org/secon>.
 
 - Krijg de beveiligingscontext van de huidige uitvoeringscontext:

@@ -2,8 +2,8 @@
 layout: page
 title: common/false (English)
 description: "Returns a non-zero exit code."
-content_hash: ab61e6818e72bed459a97773f836fa9482afba1c
-last_modified_at: 2023-11-12
+content_hash: 5ec6d7bdc1a93138811dfe36f874e2ea6dce3fec
+last_modified_at: 2025-01-03
 related_topics:
   - title: bosanski version
     url: /bs/common/false.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # false
 
 Returns a non-zero exit code.
-More information: <https://www.gnu.org/software/coreutils/false>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/false-invocation.html>.
 
 - Return a non-zero exit code:
 

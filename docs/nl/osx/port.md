@@ -1,15 +1,18 @@
 ---
 layout: page
 title: osx/port (Nederlands)
-description: "Pakketbeheerder voor macOS."
-content_hash: 9d06dbff11f5313849818c95e7b571dd1e6c1020
-last_modified_at: 2024-10-20
+description: "Pakketbeheer voor macOS."
+content_hash: e2829a64284b4d750989985d938732b6d96c9f7b
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/osx/port.html
     icon: bi bi-globe
   - title: español version
     url: /es/osx/port.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/osx/port.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/port.html
@@ -18,7 +21,7 @@ tldri18n_status: 2
 ---
 # port
 
-Pakketbeheerder voor macOS.
+Pakketbeheer voor macOS.
 Meer informatie: <https://www.macports.org>.
 
 - Zoek naar een pakket:

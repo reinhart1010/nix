@@ -2,9 +2,12 @@
 layout: page
 title: linux/rm (Nederlands)
 description: "Verwijder bestanden of directories."
-content_hash: b7bc4bad158dae89f026c27a984f7d147d537256
-last_modified_at: 2024-09-22
+content_hash: c480c75b64dd5ed5c1804e40fed4f09aec110cec
+last_modified_at: 2025-01-03
 related_topics:
+  - title: العربية version
+    url: /ar/linux/rm.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/rm.html
     icon: bi bi-globe
@@ -22,7 +25,7 @@ tldri18n_status: 2
 # rm
 
 Verwijder bestanden of directories.
-Zie ook: `rmdir`.
+Bekijk ook: `rmdir`.
 Meer informatie: <https://www.gnu.org/software/coreutils/rm>.
 
 - Verwijder specifieke bestanden:

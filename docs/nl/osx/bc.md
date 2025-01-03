@@ -2,14 +2,17 @@
 layout: page
 title: osx/bc (Nederlands)
 description: "Een rekenmachinetaal met willekeurige precisie."
-content_hash: 3a8251c00f24e638e6aaf67c217f60170851a68d
-last_modified_at: 2024-08-14
+content_hash: 33168044938cda603eabc9c88a5f75cfdcfa9a4b
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/osx/bc.html
     icon: bi bi-globe
   - title: español version
     url: /es/osx/bc.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/osx/bc.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/bc.html
@@ -19,7 +22,7 @@ tldri18n_status: 2
 # bc
 
 Een rekenmachinetaal met willekeurige precisie.
-Zie ook: `dc`.
+Bekijk ook: `dc`.
 Meer informatie: <https://keith.github.io/xcode-man-pages/bc.1.html>.
 
 - Start een interactieve sessie:

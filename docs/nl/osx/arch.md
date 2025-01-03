@@ -2,8 +2,8 @@
 layout: page
 title: osx/arch (Nederlands)
 description: "Toon de naam van de systeemarchitectuur, of voer een commando uit onder een andere architectuur."
-content_hash: 8633539cadec2edcbf1403a77ac04eb6ceb28ef8
-last_modified_at: 2024-08-14
+content_hash: b0791469ad88ef046d82fa2b54cd44a9976b6e9f
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/osx/arch.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/osx/arch.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/osx/arch.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/arch.html
@@ -28,7 +31,7 @@ tldri18n_status: 2
 # arch
 
 Toon de naam van de systeemarchitectuur, of voer een commando uit onder een andere architectuur.
-Zie ook: `uname`.
+Bekijk ook: `uname`.
 Meer informatie: <https://keith.github.io/xcode-man-pages/arch.1.html>.
 
 - Toon de systeemarchitectuur:

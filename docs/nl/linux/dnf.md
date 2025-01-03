@@ -2,8 +2,8 @@
 layout: page
 title: linux/dnf (Nederlands)
 description: "Hulpprogramma voor pakketbeheer van RHEL, Fedora en CentOS (vervangt Yum)."
-content_hash: c895db18d62d7a6908f2872dff1f0ac2154b2e2f
-last_modified_at: 2023-11-12
+content_hash: ecf8279c4125386962dd8ed0320528744ebb904b
+last_modified_at: 2025-01-03
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -23,6 +23,9 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/dnf.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/dnf.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/dnf.html
     icon: bi bi-globe
@@ -32,12 +35,15 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/dnf.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/dnf.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # dnf
 
 Hulpprogramma voor pakketbeheer van RHEL, Fedora en CentOS (vervangt Yum).
-Voor gelijkwaardige commando's binnen andere pakketbeheerders, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
+Voor gelijkwaardige commando's binnen andere pakketbeheer, zie <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 Meer informatie: <https://dnf.readthedocs.io>.
 
 - Upgrade geïnstalleerde pakketten naar de nieuwste beschikbare versies:

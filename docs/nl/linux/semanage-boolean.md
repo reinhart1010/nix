@@ -2,18 +2,21 @@
 layout: page
 title: linux/semanage-boolean (Nederlands)
 description: "Beheer persistente SELinux-boolean-instellingen."
-content_hash: efe54fe67082acdb51bce6b0fa6b4ed846227657
-last_modified_at: 2024-09-19
+content_hash: 974eb653baf342e9eb409c3b225cf7ffbbe1f2ae
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/linux/semanage-boolean.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/semanage-boolean.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # semanage boolean
 
 Beheer persistente SELinux-boolean-instellingen.
-Zie ook: `semanage` voor het beheren van SELinux-beleid, `getsebool` voor het controleren van boolean-waarden, en `setsebool` voor het toepassen van niet-blijvende boolean-instellingen.
+Bekijk ook: `semanage` voor het beheren van SELinux-beleid, `getsebool` voor het controleren van boolean-waarden, en `setsebool` voor het toepassen van niet-blijvende boolean-instellingen.
 Meer informatie: <https://manned.org/semanage-boolean>.
 
 - Toon alle boolean-instellingen:

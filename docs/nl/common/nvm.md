@@ -2,8 +2,8 @@
 layout: page
 title: common/nvm (Nederlands)
 description: "Installeer, deïnstalleer of wissel tussen verschillende Node.js-versies."
-content_hash: d86ce6b0a3ba30a78cc611ef24755745fcf667c0
-last_modified_at: 2024-08-21
+content_hash: 0965c6b3e1dcfb0796c18d7170b54e2bde0ffaf6
+last_modified_at: 2025-01-03
 related_topics:
   - title: Deutsch version
     url: /de/common/nvm.html
@@ -14,13 +14,16 @@ related_topics:
   - title: Indonesia version
     url: /id/common/nvm.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/nvm.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # nvm
 
 Installeer, deïnstalleer of wissel tussen verschillende Node.js-versies.
 Ondersteunt versienummers zoals "12.8" of "v16.13.1", en labels zoals "stable", "system", enz.
-Zie ook: `asdf`.
+Bekijk ook: `asdf`.
 Meer informatie: <https://github.com/creationix/nvm>.
 
 - Installeer een specifieke versie van Node.js:

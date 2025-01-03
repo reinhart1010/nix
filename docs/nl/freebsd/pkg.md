@@ -1,15 +1,18 @@
 ---
 layout: page
 title: freebsd/pkg (Nederlands)
-description: "FreeBSD pakketbeheerder."
-content_hash: 3351b4e54b43ca374a502bcfe9a76dd0b827e406
-last_modified_at: 2024-09-19
+description: "FreeBSD pakketbeheer."
+content_hash: 117f69b1a117fe55118c8e4eca32e0084cf83e8a
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/freebsd/pkg.html
     icon: bi bi-globe
   - title: español version
     url: /es/freebsd/pkg.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/freebsd/pkg.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/freebsd/pkg.html
@@ -24,7 +27,7 @@ tldri18n_status: 2
 ---
 # pkg
 
-FreeBSD pakketbeheerder.
+FreeBSD pakketbeheer.
 Meer informatie: <https://man.freebsd.org/cgi/man.cgi?pkg>.
 
 - Installeer een nieuw pakket:

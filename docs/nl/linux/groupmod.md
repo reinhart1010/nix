@@ -2,18 +2,21 @@
 layout: page
 title: linux/groupmod (Nederlands)
 description: "Wijzig bestaande gebruikersgroepen in het systeem."
-content_hash: 4f5b7db7e0491f768babb1d2fc8f790ffdc30e4a
-last_modified_at: 2024-06-19
+content_hash: d08699a577eeb83fc9203c4a990ab9928a94f64e
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/linux/groupmod.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/groupmod.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # groupmod
 
 Wijzig bestaande gebruikersgroepen in het systeem.
-Zie ook: `groups`, `groupadd`, `groupdel`.
+Bekijk ook: `groups`, `groupadd`, `groupdel`.
 Meer informatie: <https://manned.org/groupmod>.
 
 - Wijzig de groepsnaam:

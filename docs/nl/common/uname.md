@@ -2,8 +2,8 @@
 layout: page
 title: common/uname (Nederlands)
 description: "Toon details over de huidige machine en het besturingssysteem dat erop draait."
-content_hash: 1b17a5d9b200ac574714b2dc0fc44770bbe3abbb
-last_modified_at: 2024-06-19
+content_hash: 590998dcd9a484ee08434abdc04b07bd82f86d9b
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/common/uname.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # uname
 
 Toon details over de huidige machine en het besturingssysteem dat erop draait.
-Zie ook `lsb_release`.
+Bekijk ook `lsb_release`.
 Meer informatie: <https://www.gnu.org/software/coreutils/uname>.
 
 - Toon de kernelnaam:

@@ -2,8 +2,8 @@
 layout: page
 title: common/false (Nederlands)
 description: "Geeft een afsluitcode van 1 terug."
-content_hash: ff3b7848c40eb985e84183d08d06a96f222a1223
-last_modified_at: 2023-11-12
+content_hash: 8769b2fbc3b22caa28a7a2b150873eb73ac9813e
+last_modified_at: 2025-01-03
 related_topics:
   - title: bosanski version
     url: /bs/common/false.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # false
 
 Geeft een afsluitcode van 1 terug.
-Meer informatie: <https://www.gnu.org/software/coreutils/false>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/false-invocation.html>.
 
 - Geeft een afsluitcode van 1 terug:
 

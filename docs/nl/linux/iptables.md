@@ -2,14 +2,20 @@
 layout: page
 title: linux/iptables (Nederlands)
 description: "Configureer tabellen, ketens en regels van de Linux kernel IPv4 firewall."
-content_hash: 255f2e92a3c8d9b9ebf0a3e68ca4212d806cce7b
-last_modified_at: 2024-06-19
+content_hash: 24d5c067db3cbbfe1adfc4885d8908f405e6f36f
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/linux/iptables.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/linux/iptables.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/iptables.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/iptables.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/iptables.html
@@ -19,7 +25,7 @@ tldri18n_status: 2
 # iptables
 
 Configureer tabellen, ketens en regels van de Linux kernel IPv4 firewall.
-Gebruik `ip6tables` om regels in te stellen voor IPv6 verkeer. Zie ook: `iptables-save`, `iptables-restore`.
+Gebruik `ip6tables` om regels in te stellen voor IPv6 verkeer. Bekijk ook: `iptables-save`, `iptables-restore`.
 Meer informatie: <https://manned.org/iptables>.
 
 - Bekijk ketens, regels, pakket/byte tellers en regelnummers voor de filter tabel:

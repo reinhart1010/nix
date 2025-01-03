@@ -2,18 +2,21 @@
 layout: page
 title: linux/semanage-fcontext (Nederlands)
 description: "Beheer persistente SELinux-beveiligingscontextregels op bestanden/mappen."
-content_hash: eea62db3cd80574a65d59ac884fd13248b5cab5f
-last_modified_at: 2024-06-26
+content_hash: cc00366b001105544e89e0509ea6814feb7fcac8
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/linux/semanage-fcontext.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/semanage-fcontext.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # semanage fcontext
 
 Beheer persistente SELinux-beveiligingscontextregels op bestanden/mappen.
-Zie ook: `semanage`, `matchpathcon`, `secon`, `chcon`, `restorecon`.
+Bekijk ook: `semanage`, `matchpathcon`, `secon`, `chcon`, `restorecon`.
 Meer informatie: <https://manned.org/semanage-fcontext>.
 
 - Toon alle bestandslabelregels:

@@ -2,8 +2,8 @@
 layout: page
 title: common/false (svenska)
 description: "Returnerar en utgångskod på 1."
-content_hash: ad14fa1791111bbc01f0cec4e144aeb3f1856744
-last_modified_at: 2023-11-12
+content_hash: b98c2626d2e1f2e52d1889384e15a355e06a8fad
+last_modified_at: 2025-01-03
 related_topics:
   - title: bosanski version
     url: /bs/common/false.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # false
 
 Returnerar en utgångskod på 1.
-Mer information: <https://www.gnu.org/software/coreutils/false>.
+Mer information: <https://www.gnu.org/software/coreutils/manual/html_node/false-invocation.html>.
 
 - Returnera en utgångskod på 1:
 

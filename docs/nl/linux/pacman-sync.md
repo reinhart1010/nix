@@ -2,14 +2,17 @@
 layout: page
 title: linux/pacman-sync (Nederlands)
 description: "Hulpprogramma voor het beheren van pakketten op Arch Linux."
-content_hash: 068b3909f4729fb7aa321b6547bb4322883fc312
-last_modified_at: 2024-11-20
+content_hash: 8746aa70dcfc5fc4f08188733bdb5e078eb358a9
+last_modified_at: 2025-01-03
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-sync.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/pacman-sync.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/pacman-sync.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman-sync.html
@@ -34,7 +37,7 @@ tldri18n_status: 2
 # pacman --sync
 
 Hulpprogramma voor het beheren van pakketten op Arch Linux.
-Zie ook: `pacman`.
+Bekijk ook: `pacman`.
 Meer informatie: <https://manned.org/pacman.8>.
 
 - Installeer een nieuw pakket:

@@ -2,8 +2,8 @@
 layout: page
 title: linux/semanage-port (Nederlands)
 description: "Beheer persistente SELinux-poortdefinities."
-content_hash: 3644fd8d892770ca5f830cbc84e72f4f2c7ed884
-last_modified_at: 2025-01-02
+content_hash: 62359d554798d9d762107be768a702ad90206f25
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/linux/semanage-port.html
@@ -19,7 +19,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># semanage port
 
 Beheer persistente SELinux-poortdefinities.
-Zie ook: `semanage`.
+Bekijk ook: `semanage`.
 Meer informatie: <https://manned.org/semanage-port>.
 
 - Toon alle poortlabelregels:

@@ -2,8 +2,8 @@
 layout: page
 title: common/false (norsk)
 description: "Returner en utgangskode på 1."
-content_hash: 70ae7eb0ea3fe39ae9e4b1297d8c768f479ff036
-last_modified_at: 2023-11-12
+content_hash: e3173d0a405a354aa2a81e437551b934510c6db0
+last_modified_at: 2025-01-03
 related_topics:
   - title: bosanski version
     url: /bs/common/false.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # false
 
 Returner en utgangskode på 1.
-Mer informasjon: <https://www.gnu.org/software/coreutils/false>.
+Mer informasjon: <https://www.gnu.org/software/coreutils/manual/html_node/false-invocation.html>.
 
 - Returner en utgangskode på 1:
 

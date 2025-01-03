@@ -2,8 +2,8 @@
 layout: page
 title: common/more (Nederlands)
 description: "Toon een bestand interactief, met de mogelijkheid om te scrollen en te zoeken."
-content_hash: 8429e70c7c523b184a17d4635b760df6f10c0357
-last_modified_at: 2024-10-20
+content_hash: edf3216a0af640202167e78f631a30b50dda15cb
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/common/more.html
@@ -14,6 +14,9 @@ related_topics:
   - title: italiano version
     url: /it/common/more.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/more.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/more.html
     icon: bi bi-globe
@@ -22,7 +25,7 @@ tldri18n_status: 2
 # more
 
 Toon een bestand interactief, met de mogelijkheid om te scrollen en te zoeken.
-Zie ook: `less`.
+Bekijk ook: `less`.
 Meer informatie: <https://manned.org/more.1p>.
 
 - Open een bestand:

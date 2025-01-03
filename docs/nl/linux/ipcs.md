@@ -2,18 +2,21 @@
 layout: page
 title: linux/ipcs (Nederlands)
 description: "Toon informatie over het gebruik van System V IPC-faciliteiten: gedeelde geheugensegmenten, berichtenwachtrijen en semafoorarrays."
-content_hash: 1b3aef997310f337316b94af8d22f93d960c04fa
-last_modified_at: 2024-08-13
+content_hash: 3d732962d9e8999527e183da69cb233198770cfa
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/linux/ipcs.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/ipcs.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # ipcs
 
 Toon informatie over het gebruik van System V IPC-faciliteiten: gedeelde geheugensegmenten, berichtenwachtrijen en semafoorarrays.
-Zie ook: `lsipc` voor een flexibeler tool, `ipcmk` voor het maken van IPC-faciliteiten, en `ipcrm` voor het verwijderen ervan.
+Bekijk ook: `lsipc` voor een flexibeler tool, `ipcmk` voor het maken van IPC-faciliteiten, en `ipcrm` voor het verwijderen ervan.
 Meer informatie: <https://manned.org/ipcs>.
 
 - Toon informatie over alle actieve IPC-faciliteiten:

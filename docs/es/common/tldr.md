@@ -2,7 +2,7 @@
 layout: page
 title: common/tldr (español)
 description: "Muestra páginas de ayuda simples para herramientas de línea de comandos del proyecto tldr-pages."
-content_hash: 5e918056add67a6402e5cd5ca8165ed636b504f4
+content_hash: 0995bdd2b61ecd7668557c8e66bb573e82e74831
 last_modified_at: 2025-01-03
 related_topics:
   - title: Deutsch version
@@ -94,3 +94,7 @@ Más información: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFIC
 - [l]ista todas las páginas de subcomandos disponibles para un comando:
 
 `tldr --list | grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` | column`
+
+- Imprime la página tldr para un comando aleatorio:
+
+`tldr --list | shuf -n1 | xargs tldr`

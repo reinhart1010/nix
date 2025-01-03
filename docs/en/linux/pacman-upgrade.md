@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-upgrade (English)
 description: "Arch Linux package manager utility."
-content_hash: e26c30853c70f19e20003d2aaceecb3ed3aa8b84
-last_modified_at: 2024-12-26
+content_hash: bedfe5da75fc6eb52e94c4aad8761b48c3a4470e
+last_modified_at: 2025-01-03
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-upgrade.html
@@ -43,7 +43,7 @@ More information: <https://manned.org/pacman.8>.
 
 `sudo pacman -U --overwrite `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span>
 
-- Install a package, skipping the dependency [(d)] version checks:
+- Install a package, skipping the [d]ependency version checks:
 
 `sudo pacman -Ud `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span>
 
@@ -51,6 +51,6 @@ More information: <https://manned.org/pacman.8>.
 
 `pacman -Up `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span>
 
-- Display help:
+- Display [h]elp:
 
-`pacman -U --help`
+`pacman -Uh`

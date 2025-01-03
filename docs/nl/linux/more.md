@@ -2,18 +2,21 @@
 layout: page
 title: linux/more (Nederlands)
 description: "Toon een bestand interactief, met de mogelijkheid om te scrollen en te zoeken."
-content_hash: c9fff0310c501336fb60053f54287dcbd64ad094
-last_modified_at: 2024-10-20
+content_hash: fae4de3f305683c4008ae21bb2c6f4931057169b
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/linux/more.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/more.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # more
 
 Toon een bestand interactief, met de mogelijkheid om te scrollen en te zoeken.
-Zie ook: `less`.
+Bekijk ook: `less`.
 Meer informatie: <https://manned.org/more>.
 
 - Open een bestand:
