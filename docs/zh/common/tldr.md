@@ -3,7 +3,7 @@ layout: page
 title: common/tldr (中文)
 description: "显示来自 tldr-pages 项目的命令行工具的简单帮助页面。"
 content_hash: f1645fd34f4e72fc92724669a4faa62efca5f49b
-last_modified_at: 2024-09-14
+last_modified_at: 2025-01-03
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -56,9 +56,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/tldr.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# tldr
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># tldr
 
 显示来自 tldr-pages 项目的命令行工具的简单帮助页面。
 注意：`--language` 和 `--list` 选项并非客户端规范所必需，但大多数客户端都实现了它们。

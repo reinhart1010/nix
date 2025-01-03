@@ -3,7 +3,7 @@ layout: page
 title: common/tldr (español)
 description: "Muestra páginas de ayuda simples para herramientas de línea de comandos del proyecto tldr-pages."
 content_hash: 5e918056add67a6402e5cd5ca8165ed636b504f4
-last_modified_at: 2024-08-05
+last_modified_at: 2025-01-03
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -56,9 +56,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/tldr.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# tldr
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># tldr
 
 Muestra páginas de ayuda simples para herramientas de línea de comandos del proyecto tldr-pages.
 Nota: las opciones `--language` y `--list` no son requeridas por la especificación del cliente, pero la mayoría de los mismos las implementan.

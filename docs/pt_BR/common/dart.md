@@ -3,7 +3,7 @@ layout: page
 title: common/dart (português (Brasil))
 description: "A ferramenta para gerenciar projetos Dart."
 content_hash: dbc8902597391771a7bb34d68573033ade97d3b1
-last_modified_at: 2025-01-02
+last_modified_at: 2025-01-03
 related_topics:
   - title: Deutsch version
     url: /de/common/dart.html
@@ -20,12 +20,9 @@ related_topics:
   - title: polski version
     url: /pl/common/dart.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dart
+# dart
 
 A ferramenta para gerenciar projetos Dart.
 Mais informações: <https://dart.dev/tools/dart-tool>.

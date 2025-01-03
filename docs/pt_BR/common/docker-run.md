@@ -3,7 +3,7 @@ layout: page
 title: common/docker-run (português (Brasil))
 description: "Executa um comando em um novo container Docker."
 content_hash: ae29986aca593ca17b4cd29477c58490ca32453a
-last_modified_at: 2025-01-02
+last_modified_at: 2025-01-03
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-run.html
@@ -26,12 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/docker-run.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker run
+# docker run
 
 Executa um comando em um novo container Docker.
 Mais informações: <https://docs.docker.com/reference/cli/docker/container/run/>.

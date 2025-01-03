@@ -2,8 +2,8 @@
 layout: page
 title: common/bundletool (한국어)
 description: "Android 애플리케이션 번들을 조작."
-content_hash: 3b926a5a0f4cd8b279832e80db19b4a4fbd3d780
-last_modified_at: 2024-10-05
+content_hash: 1ed70700190952251460977d699420501426adb9
+last_modified_at: 2025-01-03
 related_topics:
   - title: English version
     url: /en/common/bundletool.html
@@ -26,7 +26,7 @@ Android 애플리케이션 번들을 조작.
 
 - 키스토어 비밀번호를 제공하는 애플리케이션 번들에서 APK를 생성:
 
-`bundletool build-apks --bundle `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/bundle.aab</span>` --ks `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/key.keystore</span>` --ks-key-alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_alias</span>` –ks-pass `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pass:the_password</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/file.apks</span>
+`bundletool build-apks --bundle `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/bundle.aab</span>` --ks `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/key.keystore</span>` --ks-key-alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_alias</span>` --ks-pass `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pass:the_password</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/file.apks</span>
 
 - 보편적인 사용을 위해 단 하나의 단일 APK를 포함하는 APK 생성:
 

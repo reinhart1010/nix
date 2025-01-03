@@ -3,7 +3,7 @@ layout: page
 title: common/tldr (한국어)
 description: "tldr-pages 프로젝트에서 제공하는 명령줄 도구에 대한 간단한 도움말 페이지를 표시합니다."
 content_hash: 1966277e51486a0e69fa2b08506a46fa772ea18f
-last_modified_at: 2024-11-10
+last_modified_at: 2025-01-03
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -56,9 +56,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/tldr.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# tldr
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># tldr
 
 tldr-pages 프로젝트에서 제공하는 명령줄 도구에 대한 간단한 도움말 페이지를 표시합니다.
 참고: `--language` 및 `--list` 옵션은 클라이언트 사양에 필수는 아니지만 대부분의 클라이언트가 이를 구현합니다.
