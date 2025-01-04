@@ -2,8 +2,8 @@
 layout: page
 title: linux/semanage-port (Nederlands)
 description: "Beheer persistente SELinux-poortdefinities."
-content_hash: 62359d554798d9d762107be768a702ad90206f25
-last_modified_at: 2025-01-03
+content_hash: 450ebe29db68d0ba879b854100b3056f7c347a5e
+last_modified_at: 2025-01-04
 related_topics:
   - title: English version
     url: /en/linux/semanage-port.html
@@ -11,12 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/linux/semanage-port.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># semanage port
+# semanage port
 
 Beheer persistente SELinux-poortdefinities.
 Bekijk ook: `semanage`.
@@ -33,6 +30,10 @@ Meer informatie: <https://manned.org/semanage-port>.
 - Voeg een door de gebruiker gedefinieerde regel toe die een label toekent aan een protocol-poortpaar:
 
 `sudo semanage port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|--add</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|--type</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh_port_t</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--proto</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22000</span>
+
+- Voeg een door de gebruiker gedefinieerde regel toe die een label toekent aan een protocol-poort-bereikpaar:
+
+`sudo semanage port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|--add</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|--type</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http_port_t</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--proto</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80-88</span>
 
 - Verwijder een door de gebruiker gedefinieerde regel met behulp van zijn protocol-poortpaar:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/for (Nederlands)
 description: "Voer een commando meerdere keren uit."
-content_hash: 67d5c957eb136a41cf61bfca4ec22075be93440e
-last_modified_at: 2024-12-27
+content_hash: 71ee91449f7f2f42426dd7bed23501efb2678dab
+last_modified_at: 2025-01-04
 related_topics:
   - title: English version
     url: /en/common/for.html
@@ -11,15 +11,16 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/for.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># for
+# for
 
 Voer een commando meerdere keren uit.
 Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#Looping-Constructs>.
+
+- Itereer over de command line argumenten:
+
+`for `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabele</span>`; do `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo $variabele</span>`; done`
 
 - Voer de gegeven commando's uit voor elk van de opgegeven items:
 
