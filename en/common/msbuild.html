@@ -1,0 +1,46 @@
+<h1 id="msbuild">msbuild</h1>
+
+<p>The Microsoft build tool for Visual Studio project solutions.
+More information: <a href="https://learn.microsoft.com/visualstudio/msbuild">https://learn.microsoft.com/visualstudio/msbuild</a>.</p>
+
+<ul>
+  <li>Build the first project file in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msbuild</code></p>
+
+<ul>
+  <li>Build a specific project file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msbuild </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project_file</span></p>
+
+<ul>
+  <li>Specify one or more semicolon-separated targets to build:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msbuild </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project_file</span><code class="language-plaintext highlighter-rouge"> /target:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">targets</span></p>
+
+<ul>
+  <li>Specify one or more semicolon-separated properties:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msbuild </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project_file</span><code class="language-plaintext highlighter-rouge"> /property:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name=value</span></p>
+
+<ul>
+  <li>Specify the build tools version to use:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msbuild </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project_file</span><code class="language-plaintext highlighter-rouge"> /toolsversion:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Display detailed information at the end of the log about how the project was configured:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msbuild </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project_file</span><code class="language-plaintext highlighter-rouge"> /detailedsummary</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msbuild /help</code></p>

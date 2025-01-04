@@ -1,0 +1,41 @@
+<h1 id="dog">dog</h1>
+
+<p>Утиліта пошуку DNS.
+Вона має кольоровий вихід, підтримує протоколи DNS-over-TLS і DNS-over-HTTPS та може видавати JSON.
+Більше інформації: <a href="https://dns.lookup.dog">https://dns.lookup.dog</a>.</p>
+
+<ul>
+  <li>Шукає IP-адреси пов'язані з іменем хоста (A records):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dog </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Запитує тип записів MX, пов’язаних із заданим доменним ім’ям:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dog </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> MX</code></p>
+
+<ul>
+  <li>Вкажіть конкретний DNS-сервер для запиту (наприклад, Cloudflare):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dog </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> MX @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.1.1.1</span></p>
+
+<ul>
+  <li>Запит через TCP, а не UDP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dog </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> MX @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.1.1.1</span><code class="language-plaintext highlighter-rouge"> --tcp</code></p>
+
+<ul>
+  <li>Запитує тип записів MX, пов’язаних із заданим доменним ім’ям через TCP, використовуючи явні аргументи:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dog --query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --type MX --nameserver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.1.1.1</span><code class="language-plaintext highlighter-rouge"> --tcp</code></p>
+
+<ul>
+  <li>Шукає IP-адреси, пов’язані з іменем хоста (записи A), за допомогою DNS через HTTPS (DoH):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dog </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --https @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://cloudflare-dns.com/dns-query</span></p>

@@ -1,0 +1,35 @@
+<h1 id="odps-table">odps table</h1>
+
+<p>Create and modify tables in ODPS (Open Data Processing Service).
+See also <code class="language-plaintext highlighter-rouge">odps</code>.
+More information: <a href="https://www.alibabacloud.com/help/doc-detail/27971.htm">https://www.alibabacloud.com/help/doc-detail/27971.htm</a>.</p>
+
+<ul>
+  <li>Create a table with partition and lifecycle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">create table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">col</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type</span><code class="language-plaintext highlighter-rouge">) partitioned by (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">col</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type</span><code class="language-plaintext highlighter-rouge">) lifecycle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">days</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>Create a table based on the definition of another table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">create table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> like </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">another_table</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>Add partition to a table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alter table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> add partition (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">partition_spec</span><code class="language-plaintext highlighter-rouge">);</code></p>
+
+<ul>
+  <li>Delete partition from a table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alter table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> drop partition (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">partition_spec</span><code class="language-plaintext highlighter-rouge">);</code></p>
+
+<ul>
+  <li>Delete table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drop table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge">;</code></p>

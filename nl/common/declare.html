@@ -1,0 +1,46 @@
+<h1 id="declare">declare</h1>
+
+<p>Declareer variabelen en geef ze attributen.
+Meer informatie: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-declare">https://www.gnu.org/software/bash/manual/bash.html#index-declare</a>.</p>
+
+<ul>
+  <li>Declareer een string variabele met de gespecificeerde waarde:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">declare </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabele</span><code class="language-plaintext highlighter-rouge">="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">waarde</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Declareer een integer variabele met de gespecificeerde waarde:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">declare -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabele</span><code class="language-plaintext highlighter-rouge">="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">waarde</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Declareer een array variabele met de gespecificeerde waarde:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">declare -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabele</span><code class="language-plaintext highlighter-rouge">=(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">item_a item_b item_c</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Declareer een associatieve array variabele met de gespecificeerde waarde:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">declare -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabele</span><code class="language-plaintext highlighter-rouge">=(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[sleutel_a]=item_a [sleutel_b]=item_b [sleutel_c]=item_c</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Declareer a readonly string variabele met de gespecificeerde waarde:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">declare -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabele</span><code class="language-plaintext highlighter-rouge">="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">waarde</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Declareer een globale variabele binnen een functie met de gespecificeerde waarde:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">declare -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabele</span><code class="language-plaintext highlighter-rouge">="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">waarde</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Print een functie-definitie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">declare -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">functie_naam</span></p>

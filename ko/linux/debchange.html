@@ -1,0 +1,22 @@
+<h1 id="debchange">debchange</h1>
+
+<p>Debian 소스 패키지의 debian/changelog 파일을 관리합니다.
+더 많은 정보: <a href="https://manned.org/debchange.1">https://manned.org/debchange.1</a>.</p>
+
+<ul>
+  <li>비관리자 업로드를 위한 새 버전을 변경 로그에 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debchange --nmu</code></p>
+
+<ul>
+  <li>현재 버전에 변경 로그 항목 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debchange --append</code></p>
+
+<ul>
+  <li>지정된 ID의 버그를 종료하는 변경 로그 항목 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debchange --closes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버그_ID</span></p>

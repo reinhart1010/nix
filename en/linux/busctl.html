@@ -1,0 +1,46 @@
+<h1 id="busctl">busctl</h1>
+
+<p>Introspect and monitor the D-Bus bus.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/busctl.html">https://www.freedesktop.org/software/systemd/man/busctl.html</a>.</p>
+
+<ul>
+  <li>Show all peers on the bus, by their service names:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">busctl list</code></p>
+
+<ul>
+  <li>Show process information and credentials of a bus service, a process, or the owner of the bus (if no parameter is specified):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">busctl status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service|pid</span></p>
+
+<ul>
+  <li>Dump messages being exchanged. If no service is specified, show all messages on the bus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">busctl monitor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service1 service2 …</span></p>
+
+<ul>
+  <li>Show an object tree of one or more services (or all services if no service is specified):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">busctl tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service1 service2 …</span></p>
+
+<ul>
+  <li>Show interfaces, methods, properties and signals of the specified object on the specified service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">busctl introspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/object</span></p>
+
+<ul>
+  <li>Retrieve the current value of one or more object properties:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">busctl get-property </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/object</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">property_name</span></p>
+
+<ul>
+  <li>Invoke a method and show the response:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">busctl call </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/object</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">method_name</span></p>

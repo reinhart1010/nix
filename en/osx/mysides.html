@@ -1,0 +1,34 @@
+<h1 id="mysides">mysides</h1>
+
+<p>Add, list and remove finder favorites.
+More information: <a href="https://github.com/mosen/mysides">https://github.com/mosen/mysides</a>.</p>
+
+<ul>
+  <li>List sidebar favorites:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysides list</code></p>
+
+<ul>
+  <li>Add a new item to the end of the sidebar favorites:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysides add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file:///Users/Shared/example</span></p>
+
+<ul>
+  <li>Remove an item by name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysides remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example</span></p>
+
+<ul>
+  <li>Add the current directory to the sidebar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysides add $(basename $(pwd)) file:///$(pwd)</code></p>
+
+<ul>
+  <li>Remove the current directory from the sidebar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysides remove $(basename $(pwd))</code></p>

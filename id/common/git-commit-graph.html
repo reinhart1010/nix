@@ -1,0 +1,22 @@
+<h1 id="git-commit-graph">git commit-graph</h1>
+
+<p>Tulis dan verifikasi file grafik komit Git.
+Informasi lebih lanjut: <a href="https://git-scm.com/docs/git-commit-graph">https://git-scm.com/docs/git-commit-graph</a>.</p>
+
+<ul>
+  <li>Tulis file grafik komit untuk komit yang dikemas di dalam direktori <code class="language-plaintext highlighter-rouge">.git</code> pada lokal repositori:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit-graph write</code></p>
+
+<ul>
+  <li>Tulis file grafik komit yang berisi semua komit yang dapat dijangkau:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show-ref --hash | git commit-graph write --stdin-commits</code></p>
+
+<ul>
+  <li>Tulis file grafik komit yang berisi semua komit dalam file grafik komit saat ini beserta yang dapat dijangkau dari <code class="language-plaintext highlighter-rouge">HEAD</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-parse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span><code class="language-plaintext highlighter-rouge"> | git commit-graph write --stdin-commits --append</code></p>

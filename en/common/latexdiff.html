@@ -1,0 +1,22 @@
+<h1 id="latexdiff">latexdiff</h1>
+
+<p>Determine differences between two LaTeX files.
+More information: <a href="https://ctan.org/pkg/latexdiff">https://ctan.org/pkg/latexdiff</a>.</p>
+
+<ul>
+  <li>Determine changes between different versions of a LaTeX file (the resulting LaTeX file can be compiled to show differences underlined):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexdiff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old.tex</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new.tex</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diff.tex</span></p>
+
+<ul>
+  <li>Determine changes between different versions of a LaTeX file by highlighting differences in boldface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexdiff --type=BOLD </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old.tex</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new.tex</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diff.tex</span></p>
+
+<ul>
+  <li>Determine changes between different versions of a LaTeX file, and display minor changes in equations with both added and deleted graphics:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexdiff --math-markup=fine --graphics-markup=both </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old.tex</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new.tex</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diff.tex</span></p>

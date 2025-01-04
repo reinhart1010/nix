@@ -1,0 +1,28 @@
+<h1 id="openfortivpn">openfortivpn</h1>
+
+<p>A VPN client, for Fortinet's proprietary PPP+SSL VPN solution.
+More information: <a href="https://github.com/adrienverge/openfortivpn">https://github.com/adrienverge/openfortivpn</a>.</p>
+
+<ul>
+  <li>Connect to a VPN with a username and password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openfortivpn --username=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --password=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Connect to a VPN using a specific configuration file (defaults to <code class="language-plaintext highlighter-rouge">/etc/openfortivpn/config</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo openfortivpn --config=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config</span></p>
+
+<ul>
+  <li>Connect to a VPN by specifying the host and port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openfortivpn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Trust a given gateway by passing in its certificate's sha256 sum:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openfortivpn --trusted-cert=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sha256_sum</span></p>

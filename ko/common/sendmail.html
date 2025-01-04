@@ -1,0 +1,22 @@
+<h1 id="sendmail">sendmail</h1>
+
+<p>이메일 보내기.
+더 많은 정보: <a href="https://manned.org/sendmail">https://manned.org/sendmail</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">message.txt</code>의 내용을 로컬 사용자 <code class="language-plaintext highlighter-rouge">username</code>의 메일 디렉토리로 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sendmail </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message.txt</span></p>
+
+<ul>
+  <li>메일 서버가 설정되어 있다고 가정하고, you@yourdomain.com에서 test@gmail.com으로 <code class="language-plaintext highlighter-rouge">message.txt</code>의 내용을 포함한 이메일 보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sendmail -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">you@yourdomain.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test@gmail.com</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message.txt</span></p>
+
+<ul>
+  <li>메일 서버가 설정되어 있다고 가정하고, you@yourdomain.com에서 test@gmail.com으로 <code class="language-plaintext highlighter-rouge">file.zip</code> 파일을 포함한 이메일 보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sendmail -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">you@yourdomain.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test@gmail.com</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.zip</span></p>

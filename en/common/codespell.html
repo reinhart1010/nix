@@ -1,0 +1,52 @@
+<h1 id="codespell">codespell</h1>
+
+<p>Spellchecker for source code.
+More information: <a href="https://github.com/codespell-project/codespell">https://github.com/codespell-project/codespell</a>.</p>
+
+<ul>
+  <li>Check for typos in all text files in the current directory, recursively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">codespell</code></p>
+
+<ul>
+  <li>Correct all typos found in-place:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">codespell --write-changes</code></p>
+
+<ul>
+  <li>Skip files with names that match the specified pattern (accepts a comma-separated list of patterns using wildcards):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">codespell --skip "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Use a custom dictionary file when checking (<code class="language-plaintext highlighter-rouge">--dictionary</code> can be used multiple times):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">codespell --dictionary </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>
+
+<ul>
+  <li>Do not check words that are listed in the specified file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">codespell --ignore-words </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>
+
+<ul>
+  <li>Do not check the specified words:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">codespell --ignore-words-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ignored_word1,ignored_word2,…</span></p>
+
+<ul>
+  <li>Print 3 lines of context around, before or after each match:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">codespell --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>Check file names for typos, in addition to file contents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">codespell --check-filenames</code></p>

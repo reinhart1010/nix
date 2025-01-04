@@ -1,0 +1,40 @@
+<h1 id="http-server-upload">http-server-upload</h1>
+
+<p>Zero-configuration command-line HTTP server which provides a lightweight interface to upload files.
+More information: <a href="https://github.com/crycode-de/http-server-upload">https://github.com/crycode-de/http-server-upload</a>.</p>
+
+<ul>
+  <li>Start an HTTP server on the default port to upload files to the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http-server-upload</code></p>
+
+<ul>
+  <li>Start an HTTP server with the specified maximum allowed file size for uploads in MiB (defaults to 200 MiB):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">MAX_FILE_SIZE=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size_in_megabytes</span><code class="language-plaintext highlighter-rouge"> http-server-upload</code></p>
+
+<ul>
+  <li>Start an HTTP server on a specific port to upload files to the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">PORT=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> http-server-upload</code></p>
+
+<ul>
+  <li>Start an HTTP server, storing the uploaded files in a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">UPLOAD_DIR=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> http-server-upload</code></p>
+
+<ul>
+  <li>Start an HTTP server using a specific directory to temporarily store files during the upload process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">UPLOAD_TMP_DIR=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> http-server-upload</code></p>
+
+<ul>
+  <li>Start an HTTP server accepting uploads with a specific token field in the HTTP post:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">TOKEN=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secret</span><code class="language-plaintext highlighter-rouge"> http-server-upload</code></p>

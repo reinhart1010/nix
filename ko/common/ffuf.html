@@ -1,0 +1,47 @@
+<h1 id="ffuf">ffuf</h1>
+
+<p>Go로 작성된 빠른 웹 퍼저.
+<code class="language-plaintext highlighter-rouge">FUZZ</code> 키워드가 자리 표시자로 사용됨. <code class="language-plaintext highlighter-rouge">ffuf</code>는 <code class="language-plaintext highlighter-rouge">FUZZ</code>라는 단어를 단어 목록의 모든 단어로 변경해 URL에 접속하려 시도.
+더 많은 정보: <a href="https://github.com/ffuf/ffuf#usage">https://github.com/ffuf/ffuf#usage</a>.</p>
+
+<ul>
+  <li>색상 출력([c]olored output)과 대상 URL([u]RL)을 지정하는 단어 리스트([w]ordlist)를 사용하여 디렉토리를 열거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffuf -c -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/단어목록.txt</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://target/FUZZ</span></p>
+
+<ul>
+  <li>키워드 위치를 변경하여 하위 도메인의 웹서버를 열거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffuf -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/서브도메인.txt</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://FUZZ.target.com</span></p>
+
+<ul>
+  <li>지정된 스레드([t]hreads) (기본값: 40)를 퍼징하고 트래픽을 프로파일링(pro[x]ying)하고 출력([o]utput)을 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffuf -o -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/단어목록.txt</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://target/FUZZ</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">500</span><code class="language-plaintext highlighter-rouge"> -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://127.0.0.1:8080</span></p>
+
+<ul>
+  <li>특정 헤더([H]eader) ("이름: 값")를 퍼징하고 HTTP 상태 코드와 일치시킴([m]atch):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffuf -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/단어목록.txt</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://target.com</span><code class="language-plaintext highlighter-rouge"> -H "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Host: FUZZ</span><code class="language-plaintext highlighter-rouge">" -mc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">200</span></p>
+
+<ul>
+  <li>지정된 HTTP 메소드와 데이터([d]ata)를 퍼즈하고, 쉼표로 구분된 상태 코드([c]odes)를 필터링([f]iltering):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffuf -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/포스트데이터.txt</span><code class="language-plaintext highlighter-rouge"> -X </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">POST</span><code class="language-plaintext highlighter-rouge"> -d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username=admin\&amp;password=FUZZ</span><code class="language-plaintext highlighter-rouge">" -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://target/login.php</span><code class="language-plaintext highlighter-rouge"> -fc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">401,403</span></p>
+
+<ul>
+  <li>다양한 모드를 사용하여 여러 단어 목록으로 여러 위치를 퍼즈:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffuf -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/keys:KEY</span><code class="language-plaintext highlighter-rouge"> -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/values:VALUE</span><code class="language-plaintext highlighter-rouge"> -mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pitchfork|clusterbomb</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://target.com/id?KEY=VALUE</span></p>
+
+<ul>
+  <li>HTTP MITM 프록시(pro[x]y) (Burp Suite 또는 <code class="language-plaintext highlighter-rouge">mitmproxy</code>)를 통한 프록시 요청:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffuf -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/단어목록</span><code class="language-plaintext highlighter-rouge"> -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://127.0.0.1:8080</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://target.com/FUZZ</span></p>

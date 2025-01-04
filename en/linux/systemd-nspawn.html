@@ -1,0 +1,28 @@
+<h1 id="systemd-nspawn">systemd-nspawn</h1>
+
+<p>Spawn a command or OS in a lightweight container.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/latest/systemd-nspawn.html">https://www.freedesktop.org/software/systemd/man/latest/systemd-nspawn.html</a>.</p>
+
+<ul>
+  <li>Run a command in a container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-nspawn --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/container_root</span></p>
+
+<ul>
+  <li>Run a full Linux-based OS in a container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-nspawn --boot --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/container_root</span></p>
+
+<ul>
+  <li>Run the specified command as PID 2 in the container (as opposed to PID 1) using a stub init process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-nspawn --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/container_root</span><code class="language-plaintext highlighter-rouge"> --as-pid2</code></p>
+
+<ul>
+  <li>Specify the machine name and hostname:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-nspawn --machine=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> --hostname=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_host</span><code class="language-plaintext highlighter-rouge"> --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/container_root</span></p>

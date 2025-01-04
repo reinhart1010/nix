@@ -1,0 +1,46 @@
+<h1 id="top">top</h1>
+
+<p>Display dynamic real-time information about running processes.
+More information: <a href="https://manned.org/top">https://manned.org/top</a>.</p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">top</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">top</code></p>
+
+<ul>
+  <li>Do not show any idle or zombie processes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">top -i</code></p>
+
+<ul>
+  <li>Show only processes owned by given user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">top -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Sort processes by a field:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">top -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">field_name</span></p>
+
+<ul>
+  <li>Show the individual threads of a given process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">top -Hp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_id</span></p>
+
+<ul>
+  <li>Show only the processes with the given PID(s), passed as a comma-separated list. (Normally you wouldn't know PIDs off hand. This example picks the PIDs from the process name):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">top -p $(pgrep -d ',' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Display help about interactive commands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">?</code></p>

@@ -1,0 +1,28 @@
+<h1 id="cargo-clean">cargo clean</h1>
+
+<p>删除 <code class="language-plaintext highlighter-rouge">target</code> 目录中生成的构建产物。
+更多信息：<a href="https://doc.rust-lang.org/cargo/commands/cargo-clean.html">https://doc.rust-lang.org/cargo/commands/cargo-clean.html</a>.</p>
+
+<ul>
+  <li>删除整个 <code class="language-plaintext highlighter-rouge">target</code> 目录：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo clean</code></p>
+
+<ul>
+  <li>删除文档构建产物 (<code class="language-plaintext highlighter-rouge">target/doc</code> 目录)：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo clean --doc</code></p>
+
+<ul>
+  <li>删除 release 模式的构建产物 (<code class="language-plaintext highlighter-rouge">target/release</code> 目录)：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo clean --release</code></p>
+
+<ul>
+  <li>删除给定配置文件的目录中的构建产物（在本例中为 <code class="language-plaintext highlighter-rouge">target/debug</code>)：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo clean --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dev</span></p>

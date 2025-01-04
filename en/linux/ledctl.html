@@ -1,0 +1,28 @@
+<h1 id="ledctl">ledctl</h1>
+
+<p>Intel(R) Enclosure LED Control Application.
+More information: <a href="https://manned.org/ledctl">https://manned.org/ledctl</a>.</p>
+
+<ul>
+  <li>Turn on the "Locate" LED for specified device(s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ledctl locate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda,/dev/sdb,…</span></p>
+
+<ul>
+  <li>Turn off the "Locate" LED for specified device(s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ledctl locate_off=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda,/dev/sdb,…</span></p>
+
+<ul>
+  <li>Turn off the "Status" LED and "Failure" LED for specified device(s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ledctl off=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda,/dev/sdb,…</span></p>
+
+<ul>
+  <li>Turn off the "Status" LED, "Failure" LED and "Locate" LED for specified device(s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ledctl normal=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda,/dev/sdb,…</span></p>

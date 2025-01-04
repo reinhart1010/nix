@@ -1,0 +1,52 @@
+<h1 id="awk">awk</h1>
+
+<p>Langage de programmation polyvalent pour travailler sur des fichiers.
+Plus d'informations : <a href="https://github.com/onetrueawk/awk">https://github.com/onetrueawk/awk</a>.</p>
+
+<ul>
+  <li>Affiche la cinquième colonne (ou le champ) dans un fichier qui utilise des espaces comme séparateur :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{print $5}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_fichier</span></p>
+
+<ul>
+  <li>Affiche la deuxième colonne dans des lignes contenant "quelque-chose" dans un fichier qui utilise des espaces comme séparateur :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quelque-chose</span><code class="language-plaintext highlighter-rouge">/ {print $2}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_fichier</span></p>
+
+<ul>
+  <li>Affiche la dernière colonne de chaque ligne d'un fichier en utilisant une virgule (au lieu des espaces) comme séparateur :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk -F ',' '{print $NF}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_fichier</span></p>
+
+<ul>
+  <li>Additionne les valeurs de la première colonne des lignes d'un fichier et affiche le total :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{s+=$1} END {print s}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_fichier</span></p>
+
+<ul>
+  <li>Additionne les valeurs de la première colonne des lignes d'un fichier et affiche ces valeurs puis affiche le total :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{s+=$1; print $1} END {print "--------"; print s}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_fichier</span></p>
+
+<ul>
+  <li>Affiche une ligne sur trois en partant de la première ligne :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk 'NR%3==1' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_fichier</span></p>
+
+<ul>
+  <li>Affiche les lignes dont la valeur de la colonne 10 vaut la valeur recherchée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '($10 == valeur)'</code></p>
+
+<ul>
+  <li>Affiche les lignes dont la valeur de la colonne 10 est comprise entre un min et un max :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '($10 &gt;= valeur_min &amp;&amp; $10 &lt;= valeur_max)'</code></p>

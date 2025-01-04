@@ -1,0 +1,46 @@
+<h1 id="act">act</h1>
+
+<p>Execute GitHub Actions locally using Docker.
+More information: <a href="https://github.com/nektos/act">https://github.com/nektos/act</a>.</p>
+
+<ul>
+  <li>[l]ist the available jobs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act -l</code></p>
+
+<ul>
+  <li>Run the default event:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act</code></p>
+
+<ul>
+  <li>Run a specific event:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">event_type</span></p>
+
+<ul>
+  <li>Run a specific [j]ob:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span></p>
+
+<ul>
+  <li>Do [n]ot actually run the actions (i.e. a dry run):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act -n</code></p>
+
+<ul>
+  <li>Show [v]erbose logs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act -v</code></p>
+
+<ul>
+  <li>Run a specific [W]orkflow with the push event:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act push -W </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/workflow</span></p>

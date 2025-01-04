@@ -1,0 +1,34 @@
+<h1 id="quarto">quarto</h1>
+
+<p>Pandoc 기반의 오픈 소스 과학 및 기술 출판 시스템.
+더 많은 정보: <a href="https://quarto.org/">https://quarto.org/</a>.</p>
+
+<ul>
+  <li>새 프로젝트 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quarto create-project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">book|default|website</span></p>
+
+<ul>
+  <li>새 블로그 웹사이트 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quarto create-project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">website</span><code class="language-plaintext highlighter-rouge"> --template </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blog</span></p>
+
+<ul>
+  <li>입력 파일을 다양한 형식으로 렌더링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quarto render </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.<code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;qmd|rmd|ipynb}&lt;/span&gt;</code>} –to `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">html|pdf|docx</span></span></p>
+
+<ul>
+  <li>문서나 웹사이트를 렌더링하고 미리보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quarto preview </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더|경로/대상/파일</span></p>
+
+<ul>
+  <li>문서나 프로젝트를 Quarto Pub, Github Pages, RStudio Connect 또는 Netlify에 게시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quarto publish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quarto-pub|gh-pages|connect|netlify</span></p>

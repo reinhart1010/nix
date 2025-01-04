@@ -1,0 +1,52 @@
+<h1 id="tomb">tomb</h1>
+
+<p>암호화된 저장 디렉터리를 관리하여 파일 시스템에서 안전하게 이동하고 숨길 수 있습니다.
+더 많은 정보: <a href="https://www.dyne.org/software/tomb/">https://www.dyne.org/software/tomb/</a>.</p>
+
+<ul>
+  <li>초기 크기 100MB로 새로운 톰 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tomb dig -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">암호화된_디렉터리.tomb</span></p>
+
+<ul>
+  <li>톰을 잠글 수 있는 새로운 키 파일 생성; 사용자에게 키에 대한 비밀번호를 요청함:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tomb forge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">암호화된_디렉터리.tomb.key</span></p>
+
+<ul>
+  <li>톰이 키 생성 허용하지 않아도(스왑으로 인해) 강제로 새로운 키 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tomb forge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">암호화된_디렉터리.tomb.key</span><code class="language-plaintext highlighter-rouge"> -f</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">forge</code>로 생성한 키를 사용하여 빈 톰 초기화 및 잠금:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tomb lock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">암호화된_디렉터리.tomb</span><code class="language-plaintext highlighter-rouge"> -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">암호화된_디렉터리.tomb.key</span></p>
+
+<ul>
+  <li>톰을 키를 사용하여 마운트(기본적으로 <code class="language-plaintext highlighter-rouge">/media</code>에), 일반 파일 시스템 디렉터리처럼 사용 가능하게 함:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tomb open </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">암호화된_디렉터리.tomb</span><code class="language-plaintext highlighter-rouge"> -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">암호화된_디렉터리.tomb.key</span></p>
+
+<ul>
+  <li>톰 닫기(프로세스가 사용 중이면 실패):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tomb close </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">암호화된_디렉터리.tomb</span></p>
+
+<ul>
+  <li>모든 열린 톰을 강제로 닫고, 사용 중인 애플리케이션 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tomb slam all</code></p>
+
+<ul>
+  <li>열린 모든 톰 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tomb list</code></p>

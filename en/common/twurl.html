@@ -1,0 +1,40 @@
+<h1 id="twurl">twurl</h1>
+
+<p>Curl-like command but tailored specifically for the Twitter API.
+More information: <a href="https://github.com/twitter/twurl">https://github.com/twitter/twurl</a>.</p>
+
+<ul>
+  <li>Authorize <code class="language-plaintext highlighter-rouge">twurl</code> to access a Twitter account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twurl authorize --consumer-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">twitter_api_key</span><code class="language-plaintext highlighter-rouge"> --consumer-secret </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">twitter_api_secret</span></p>
+
+<ul>
+  <li>Make a GET request to an API endpoint:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twurl -X GET </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">twitter_api_endpoint</span></p>
+
+<ul>
+  <li>Make a POST request to an API endpoint:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twurl -X POST -d '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">endpoint_params</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">twitter_api_endpoint</span></p>
+
+<ul>
+  <li>Upload media to Twitter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twurl -H "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">twitter_upload_url</span><code class="language-plaintext highlighter-rouge">" -X POST "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">twitter_upload_endpoint</span><code class="language-plaintext highlighter-rouge">" --file "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/media.jpg</span><code class="language-plaintext highlighter-rouge">" --file-field "media"</code></p>
+
+<ul>
+  <li>Access a different Twitter API host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twurl -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">twitter_api_url</span><code class="language-plaintext highlighter-rouge"> -X GET </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">twitter_api_endpoint</span></p>
+
+<ul>
+  <li>Create an alias for a requested resource:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twurl alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alias_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource</span></p>

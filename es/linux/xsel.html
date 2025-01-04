@@ -1,0 +1,40 @@
+<h1 id="xsel">xsel</h1>
+
+<p>Herramienta X11 de selección y manipulación del portapapeles.
+Más información: <a href="https://manned.org/xsel">https://manned.org/xsel</a>.</p>
+
+<ul>
+  <li>Utiliza la salida de un comando como entrada del portapapeles (clip[b]oard) (equivalente a <code class="language-plaintext highlighter-rouge">Ctrl + C</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo 123 | xsel -ib</code></p>
+
+<ul>
+  <li>Utiliza el contenido de un archivo como entrada del portapapeles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span><code class="language-plaintext highlighter-rouge"> | xsel -ib</code></p>
+
+<ul>
+  <li>Envía el contenido del portapapeles a la terminal (equivalente a <code class="language-plaintext highlighter-rouge">Ctrl + V</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsel -ob</code></p>
+
+<ul>
+  <li>Envía el contenido del portapapeles a un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsel -ob &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Limpia el portapapeles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsel -cb</code></p>
+
+<ul>
+  <li>Envía el contenido de la selección primaria X11 a la terminal (equivalente a clic del tercer botón del ratón):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsel -op</code></p>

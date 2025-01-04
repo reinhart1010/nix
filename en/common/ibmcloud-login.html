@@ -1,0 +1,40 @@
+<h1 id="ibmcloud-login">ibmcloud login</h1>
+
+<p>Log in to the IBM Cloud.
+More information: <a href="https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli#ibmcloud_login">https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli#ibmcloud_login</a>.</p>
+
+<ul>
+  <li>Log in by using an interactive prompt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ibmcloud login</code></p>
+
+<ul>
+  <li>Log in to a specific API endpoint (default is <code class="language-plaintext highlighter-rouge">cloud.ibm.com</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ibmcloud login -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">api_endpoint</span></p>
+
+<ul>
+  <li>Log in by providing username, password and the targeted region as parameters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ibmcloud login -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us-south</span></p>
+
+<ul>
+  <li>Log in with an API key, passing it as an argument:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ibmcloud login --apikey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">api_key_string</span></p>
+
+<ul>
+  <li>Log in with an API key, passing it as a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ibmcloud login --apikey @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/api_key_file</span></p>
+
+<ul>
+  <li>Log in with a federated ID (single sign-on):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ibmcloud login --sso</code></p>

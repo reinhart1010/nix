@@ -1,0 +1,52 @@
+<h1 id="crontab">crontab</h1>
+
+<p>Plan cron jobs zodat deze volgens een tijdsinterval voor de huidige gebruiker worden uitgevoerd.
+Meer informatie: <a href="https://crontab.guru/">https://crontab.guru/</a>.</p>
+
+<ul>
+  <li>Pas het crontab bestand aan voor de huidige gebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crontab -e</code></p>
+
+<ul>
+  <li>Pas het crontab bestand aan voor een specifieke gebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo crontab -e -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruiker</span></p>
+
+<ul>
+  <li>Vervang de huidige crontab met de inhoud van een opgegeven bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crontab </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Bekijk een lijst van bestaande cron jobs voor de huidige gebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crontab -l</code></p>
+
+<ul>
+  <li>Verwijder alle cron jobs voor de huidige gebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crontab -r</code></p>
+
+<ul>
+  <li>Voorbeeld crontab entry, welke iedere dag om 10:00 draait (* betekent elke waarde):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">0 10 * * * </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando_om_uit_te_voeren</span></p>
+
+<ul>
+  <li>Voorbeeld crontab entry, welke iedere 10 minuten een commando uitvoert:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">*/10 * * * * </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando_om_uit_te_voeren</span></p>
+
+<ul>
+  <li>Voorbeeld crontab entry, welke iedere vrijdag om 02:30 een specifiek script draait:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">30 2 * * Fri </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/absoluut/pad/naar/script.sh</span></p>

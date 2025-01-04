@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-clone">git clone</h1>
+
+<p>Clona un repository esistente.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-clone">https://git-scm.com/docs/git-clone</a>.</p>
+
+<ul>
+  <li>Clona un repository remoto esistente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_repository_remoto</span></p>
+
+<ul>
+  <li>Clona un repository remoto insieme ai suoi sottomoduli:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_repository_remoto</span></p>
+
+<ul>
+  <li>Clona un repository locale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/repository/locale</span></p>
+
+<ul>
+  <li>Clona in modalità silenziosa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_repository_remoto</span></p>
+
+<ul>
+  <li>Clona un repository remoto scaricando solo i 10 commit più recenti del ramo principale (utile per risparmiare tempo):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_repository_remoto</span></p>

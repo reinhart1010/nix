@@ -1,0 +1,25 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="flatpak-run">flatpak run</h1>
+
+<p>Flatpak 애플리케이션 및 런타임 실행.
+더 많은 정보: <a href="https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-run">https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-run</a>.</p>
+
+<ul>
+  <li>설치된 애플리케이션 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.example.app</span></p>
+
+<ul>
+  <li>특정 브랜치(예: stable, beta, master)에서 설치된 애플리케이션 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak run --branch=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stable|beta|master|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.example.app</span></p>
+
+<ul>
+  <li>Flatpak 안에서 인터랙티브 셸 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak run --command=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.example.app</span></p>

@@ -1,0 +1,34 @@
+<h1 id="pcapfix">pcapfix</h1>
+
+<p>Repair damaged or corrupted PCAP and PcapNG files.
+More information: <a href="https://f00l.de/pcapfix/">https://f00l.de/pcapfix/</a>.</p>
+
+<ul>
+  <li>Repair a PCAP/PCapNG file (Note: for PCAP files, only the first 262144 bytes of each packet are scanned):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pcapfix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pcapng</span></p>
+
+<ul>
+  <li>Repair an entire PCAP file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pcapfix --deep-scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pcap</span></p>
+
+<ul>
+  <li>Repair a PCAP/PcapNG file and write the repaired file to the specified location:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pcapfix --outfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repaired.pcap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pcap</span></p>
+
+<ul>
+  <li>Treat the specified file as a PcapNG file, ignoring automatic recognition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pcapfix --pcapng </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pcapng</span></p>
+
+<ul>
+  <li>Repair a file and show the process in detail:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pcapfix --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pcap</span></p>

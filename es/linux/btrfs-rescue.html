@@ -1,0 +1,34 @@
+<h1 id="btrfs-rescue">btrfs rescue</h1>
+
+<p>Intenta recuperar un sistema de archivos btrfs dañado.
+Más información: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-rescue.html">https://btrfs.readthedocs.io/en/latest/btrfs-rescue.html</a>.</p>
+
+<ul>
+  <li>Reconstruye el árbol de metadatos del sistema de archivos (muy lento):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs rescue chunk-recover </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la_partición</span></p>
+
+<ul>
+  <li>Corrige problemas relacionados con la alineación del tamaño del dispositivo (por ejemplo, incapacidad para montar el sistema de archivos debido a una discrepancia en los bytes totales del superbloque):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs rescue fix-device-size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la_partición</span></p>
+
+<ul>
+  <li>Recupera un superbloque dañado de copias correctas (recupera la raíz del árbol de archivos del sistema):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs rescue super-recover </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la_partición</span></p>
+
+<ul>
+  <li>Recupera de transacciones interrumpidas (corrige problemas de reproducción de registros):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs rescue zero-log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la_partición</span></p>
+
+<ul>
+  <li>Crea un dispositivo de control <code class="language-plaintext highlighter-rouge">/dev/btrfs-control</code> cuando <code class="language-plaintext highlighter-rouge">mknod</code> no está instalado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs rescue create-control-device</code></p>

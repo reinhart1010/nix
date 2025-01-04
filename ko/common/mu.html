@@ -1,0 +1,46 @@
+<h1 id="mu">mu</h1>
+
+<p>로컬 Maildir에서 이메일을 색인하고 검색.
+더 많은 정보: <a href="https://man.cx/mu">https://man.cx/mu</a>.</p>
+
+<ul>
+  <li>이메일 데이터베이스 초기화, 선택적으로 Maildir 디렉토리와 이메일 주소 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mu init --maildir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> --my-address=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name@example.com</span></p>
+
+<ul>
+  <li>새로운 이메일 색인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mu index</code></p>
+
+<ul>
+  <li>특정 키워드를 사용하여 메시지 찾기 (메시지 본문, 제목, 발신자 등):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mu find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키워드</span></p>
+
+<ul>
+  <li>Alice에게 보낸 메시지 중 제목이 <code class="language-plaintext highlighter-rouge">jellyfish</code>이고 본문에 <code class="language-plaintext highlighter-rouge">apples</code> 또는 <code class="language-plaintext highlighter-rouge">oranges</code>가 포함된 메시지 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mu find to:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice</span><code class="language-plaintext highlighter-rouge"> subject:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jellyfish</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apples</span><code class="language-plaintext highlighter-rouge"> OR </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">oranges</span></p>
+
+<ul>
+  <li>보낸 편지함에 있는, <code class="language-plaintext highlighter-rouge">soc</code>로 시작하는 단어에 대한 읽지 않은 메시지 찾기 (<code class="language-plaintext highlighter-rouge">*</code>는 검색어 끝에서만 작동):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mu find 'subject:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">soc</span><code class="language-plaintext highlighter-rouge">*' flag:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unread</span><code class="language-plaintext highlighter-rouge"> maildir:'/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Sent Items</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Sam에게서 온, 이미지가 첨부된 2 KiB에서 2 MiB 사이의 크기로 2021년에 작성된 메시지 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mu find 'mime:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image/*</span><code class="language-plaintext highlighter-rouge"> size:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2k..2m</span><code class="language-plaintext highlighter-rouge"> date:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20210101..20211231</span><code class="language-plaintext highlighter-rouge"> from:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sam</span></p>
+
+<ul>
+  <li>이름 또는 이메일 주소에 <code class="language-plaintext highlighter-rouge">Bob</code>이 포함된 연락처 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mu cfind </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Bob</span></p>

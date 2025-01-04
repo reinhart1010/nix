@@ -1,0 +1,40 @@
+<h1 id="java">java</h1>
+
+<p>Java application launcher.
+More information: <a href="https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html">https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html</a>.</p>
+
+<ul>
+  <li>Execute a Java <code class="language-plaintext highlighter-rouge">.class</code> file that contains a main method by using just the class name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">classname</span></p>
+
+<ul>
+  <li>Execute a Java program and use additional third-party or user-defined classes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -classpath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/classes1</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/classes2</span><code class="language-plaintext highlighter-rouge">:. </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">classname</span></p>
+
+<ul>
+  <li>Execute a <code class="language-plaintext highlighter-rouge">.jar</code> program:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -jar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.jar</span></p>
+
+<ul>
+  <li>Execute a <code class="language-plaintext highlighter-rouge">.jar</code> program with debug waiting to connect on port 5005:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.jar</span></p>
+
+<ul>
+  <li>Display JDK, JRE and HotSpot versions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -version</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -help</code></p>

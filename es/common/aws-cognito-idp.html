@@ -1,0 +1,40 @@
+<h1 id="aws-cognito-idp">aws cognito-idp</h1>
+
+<p>Administra el grupo de usuarios de Amazon Cognito y sus usuarios y grupos utilizando la CLI.
+Más información: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cognito-idp/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cognito-idp/index.html</a>.</p>
+
+<ul>
+  <li>Crea un nuevo grupo de usuarios de Cognito:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cognito-idp create-user-pool --pool-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>
+
+<ul>
+  <li>Lista todos los grupos de usuarios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cognito-idp list-user-pools --max-results </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Elimina un grupo de usuarios específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cognito-idp delete-user-pool --user-pool-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_pool</span></p>
+
+<ul>
+  <li>Crea un usuario en un grupo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cognito-idp admin-create-user --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> --user-pool-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_pool</span></p>
+
+<ul>
+  <li>Lista los usuarios de un pool específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cognito-idp list-users --user-pool-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_pool</span></p>
+
+<ul>
+  <li>Elimina un usuario de un grupo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cognito-idp admin-delete-user --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> --user-pool-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_pool</span></p>

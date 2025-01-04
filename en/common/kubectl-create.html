@@ -1,0 +1,40 @@
+<h1 id="kubectl-create">kubectl create</h1>
+
+<p>Create a resource from a file or from <code class="language-plaintext highlighter-rouge">stdin</code>.
+More information: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#create">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#create</a>.</p>
+
+<ul>
+  <li>Create a resource using the resource definition file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl create -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.yml</span></p>
+
+<ul>
+  <li>Create a resource from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl create -f -</code></p>
+
+<ul>
+  <li>Create a deployment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl create deployment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deployment_name</span><code class="language-plaintext highlighter-rouge"> --image=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span></p>
+
+<ul>
+  <li>Create a deployment with replicas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl create deployment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deployment_name</span><code class="language-plaintext highlighter-rouge"> --image=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span><code class="language-plaintext highlighter-rouge"> --replicas=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_replicas</span></p>
+
+<ul>
+  <li>Create a service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl create service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge"> --tcp=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_port</span></p>
+
+<ul>
+  <li>Create a namespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl create namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace_name</span></p>

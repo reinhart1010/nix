@@ -1,0 +1,35 @@
+<h1 id="img2pdf">img2pdf</h1>
+
+<p>Losslessly convert raster images to a PDF file.
+Some supported image formats are: GIF, JPEG, JPEG2000, PNG, GIF and TIFF.
+More information: <a href="https://gitlab.mister-muffin.de/josch/img2pdf">https://gitlab.mister-muffin.de/josch/img2pdf</a>.</p>
+
+<ul>
+  <li>Convert one or more images to a single PDF, each image being on its own page:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">img2pdf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.ext path/to/image2.ext …</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span></p>
+
+<ul>
+  <li>Convert only the first frame of a multi-frame image to PDF:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">img2pdf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.gif</span><code class="language-plaintext highlighter-rouge"> --first-frame-only --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span></p>
+
+<ul>
+  <li>Auto orient the image, use a specific page size in landscape mode, and set a border of specific sizes horizontally and vertically:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">img2pdf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ext</span><code class="language-plaintext highlighter-rouge"> --auto-orient --pagesize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A4^T</span><code class="language-plaintext highlighter-rouge"> --border </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2cm</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5.1cm</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span></p>
+
+<ul>
+  <li>Shrink only larger images to a rectangle of specified dimensions inside a page with a specific size:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">img2pdf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ext</span><code class="language-plaintext highlighter-rouge"> --pagesize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30cm</span><code class="language-plaintext highlighter-rouge">x</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20cm</span><code class="language-plaintext highlighter-rouge"> --imgsize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10cm</span><code class="language-plaintext highlighter-rouge">x</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">15cm</span><code class="language-plaintext highlighter-rouge"> --fit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shrink</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span></p>
+
+<ul>
+  <li>Convert an image to PDF, and specify metadata for the resulting file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">img2pdf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ext</span><code class="language-plaintext highlighter-rouge"> --title </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">title</span><code class="language-plaintext highlighter-rouge"> --author </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">author</span><code class="language-plaintext highlighter-rouge"> --creationdate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1970-01-31</span><code class="language-plaintext highlighter-rouge"> --keywords </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword1 keyword2</span><code class="language-plaintext highlighter-rouge"> --subject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span></p>

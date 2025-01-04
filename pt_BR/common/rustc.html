@@ -1,0 +1,47 @@
+<h1 id="rustc">rustc</h1>
+
+<p>O compilador Rust.
+Projetos Rust geralmente usam o <code class="language-plaintext highlighter-rouge">cargo</code> em vez de chamar <code class="language-plaintext highlighter-rouge">rustc</code> diretamente.
+Mais informações: <a href="https://doc.rust-lang.org/rustc">https://doc.rust-lang.org/rustc</a>.</p>
+
+<ul>
+  <li>Compila uma crate binária:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.rs</span></p>
+
+<ul>
+  <li>Compila com otimizações (s significa otimizar o tamanho do binário; z é o mesmo com ainda mais otimizações):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc -C lto -C opt-level=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|2|3|s|z</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.rs</span></p>
+
+<ul>
+  <li>Compila com informações de depuração:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.rs</span></p>
+
+<ul>
+  <li>Explica uma mensagem de erro:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc --explain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">código_de_erro</span></p>
+
+<ul>
+  <li>Compila com otimizações específicas de arquitetura para a CPU atual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc -C target-cpu=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">native</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.rs</span></p>
+
+<ul>
+  <li>Exibe lista de targets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc --print target-list</code></p>
+
+<ul>
+  <li>Compila para um target específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_triplo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.rs</span></p>

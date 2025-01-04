@@ -1,0 +1,28 @@
+<h1 id="curlie">curlie</h1>
+
+<p><code class="language-plaintext highlighter-rouge">curl</code>의 프론트엔드로, <code class="language-plaintext highlighter-rouge">httpie</code>의 사용 편의성을 추가합니다.
+더 많은 정보: <a href="https://github.com/rs/curlie">https://github.com/rs/curlie</a>.</p>
+
+<ul>
+  <li>GET 요청 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curlie </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpbin.org/get</span></p>
+
+<ul>
+  <li>POST 요청 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curlie post </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpbin.org/post</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name=john</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">age:=25</span></p>
+
+<ul>
+  <li>쿼리 매개변수를 포함한 GET 요청 전송 (예: <code class="language-plaintext highlighter-rouge">first_param=5&amp;second_param=true</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curlie get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpbin.org/get</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">first_param==5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">second_param==true</span></p>
+
+<ul>
+  <li>사용자 정의 헤더와 함께 GET 요청 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curlie get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpbin.org/get</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">header-name:header-value</span></p>

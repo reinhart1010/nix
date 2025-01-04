@@ -1,0 +1,35 @@
+<h1 id="az-disk">az disk</h1>
+
+<p>Manage Azure Managed Disks.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/disk">https://learn.microsoft.com/cli/azure/disk</a>.</p>
+
+<ul>
+  <li>Create a managed disk:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az disk create --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">disk_name</span><code class="language-plaintext highlighter-rouge"> --size-gb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size_in_gb</span></p>
+
+<ul>
+  <li>List managed disks in a resource group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az disk list --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span></p>
+
+<ul>
+  <li>Delete a managed disk:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az disk delete --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">disk_name</span></p>
+
+<ul>
+  <li>Grant read or write access to a managed disk (for export):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az disk grant-access --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">disk_name</span><code class="language-plaintext highlighter-rouge"> --access-level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Read|Write</span><code class="language-plaintext highlighter-rouge"> --duration-in-seconds </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconds</span></p>
+
+<ul>
+  <li>Update disk size:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az disk update --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">disk_name</span><code class="language-plaintext highlighter-rouge"> --size-gb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_size_in_gb</span></p>

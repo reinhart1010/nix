@@ -1,0 +1,34 @@
+<h1 id="ar">ar</h1>
+
+<p>Crée, modifie et extrais depuis des archives (<code class="language-plaintext highlighter-rouge">.a</code>, <code class="language-plaintext highlighter-rouge">.so</code>, <code class="language-plaintext highlighter-rouge">.o</code>).
+Plus d'informations : <a href="https://manned.org/ar">https://manned.org/ar</a>.</p>
+
+<ul>
+  <li>E[x]trais tous les éléments depuis une archive :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.a</span></p>
+
+<ul>
+  <li>Lis[t]e tous les éléments depuis une archive :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.ar</span></p>
+
+<ul>
+  <li>[r]emplace ou ajoute des fichiers à une archive :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.deb</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/debian-binary chemin/vers/control.tar.gz chemin/vers/data.tar.xz …</span></p>
+
+<ul>
+  <li>In[s]ère un fichier d'indexation (équivalent à <code class="language-plaintext highlighter-rouge">ranlib</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.a</span></p>
+
+<ul>
+  <li>Crée une archive avec des fichiers et un fichier d'indexation qui l'accompagne :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar rs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.a</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier1.o chemin/vers/fichier2.o …</span></p>

@@ -1,0 +1,22 @@
+<h1 id="kernel-install">kernel-install</h1>
+
+<p>커널 및 initrd 이미지를 <code class="language-plaintext highlighter-rouge">/boot</code>에 추가 및 제거.
+더 많은 정보: <a href="https://manned.org/kernel-install.8">https://manned.org/kernel-install.8</a>.</p>
+
+<ul>
+  <li>커널 및 initramfs 이미지를 부트로더 파티션에 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kernel-install add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커널-버전</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커널-이미지</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/initrd-파일 …</span></p>
+
+<ul>
+  <li>부트로더 파티션에서 커널 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kernel-install remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커널-버전</span></p>
+
+<ul>
+  <li>구성되거나 자동으로 감지된 다양한 경로와 매개변수 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kernel-install inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커널-이미지</span></p>

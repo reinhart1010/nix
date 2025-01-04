@@ -1,0 +1,28 @@
+<h1 id="git-worktree">git worktree</h1>
+
+<p>Gestiona múltiples árboles de trabajo adjuntos al mismo repositorio.
+Más información: <a href="https://git-scm.com/docs/git-worktree">https://git-scm.com/docs/git-worktree</a>.</p>
+
+<ul>
+  <li>Crea un nuevo directorio con la rama específicada y se cambia a él:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git worktree add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama</span></p>
+
+<ul>
+  <li>Crea un nuevo directorio con un nueva rama y se cambia a él:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git worktree add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama_nueva</span></p>
+
+<ul>
+  <li>Muestra todos los directorios de trabajo adjuntos a este repositorio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git worktree list</code></p>
+
+<ul>
+  <li>Elimina un árbol de trabajo (después de eliminar el directorio del árbol de trabajo):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git worktree prune</code></p>

@@ -1,0 +1,28 @@
+<h1 id="hive">hive</h1>
+
+<p>Apache Hive용 CLI 도구.
+더 많은 정보: <a href="https://cwiki.apache.org/confluence/display/Hive/LanguageManual+Cli">https://cwiki.apache.org/confluence/display/Hive/LanguageManual+Cli</a>.</p>
+
+<ul>
+  <li>Hive 대화형 쉘을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hive</code></p>
+
+<ul>
+  <li>HiveQL 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hive -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hiveql_쿼리</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>변수 대체를 사용해서 HiveQL 파일을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hive --define </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.sql</span></p>
+
+<ul>
+  <li>HiveConfig를 사용해 HiveQL을 실행 (예: <code class="language-plaintext highlighter-rouge">mapred.reduce.tasks=32</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hive --hiveconf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구성_이름</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구성_값</span></p>

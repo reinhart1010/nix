@@ -1,0 +1,22 @@
+<h1 id="bcachefs-device">bcachefs device</h1>
+
+<p>Manage devices within a running <code class="language-plaintext highlighter-rouge">bcachefs</code> filesystem.
+More information: <a href="https://bcachefs-docs.readthedocs.io/en/latest/mgmt-devicemanagement.html">https://bcachefs-docs.readthedocs.io/en/latest/mgmt-devicemanagement.html</a>.</p>
+
+<ul>
+  <li>Format and add a new device to an existing filesystem.:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bcachefs device add --label=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mountpoint</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/device</span></p>
+
+<ul>
+  <li>Migrate data off a device to prepare for removal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bcachefs device evacuate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/device</span></p>
+
+<ul>
+  <li>Permanently remove a device from a filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bcachefs device remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/device</span></p>

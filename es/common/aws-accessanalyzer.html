@@ -1,0 +1,52 @@
+<h1 id="aws-accessanalyzer">aws accessanalyzer</h1>
+
+<p>Analiza y revisa las políticas de recursos para identificar posibles riesgos de seguridad.
+Más información: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/accessanalyzer/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/accessanalyzer/index.html</a>.</p>
+
+<ul>
+  <li>Crea un nuevo Access Analyzer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer create-analyzer --analyzer-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_analizador</span><code class="language-plaintext highlighter-rouge"> --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tipo</span><code class="language-plaintext highlighter-rouge"> --tags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiquetas</span></p>
+
+<ul>
+  <li>Elimina un analizador de acceso existente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer delete-analyzer --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analizador_arn</span></p>
+
+<ul>
+  <li>Obtiene detalles de un analizador de acceso específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer get-analyzer --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analizador_arn</span></p>
+
+<ul>
+  <li>Lista todos los analizadores de acceso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer list-analyzers</code></p>
+
+<ul>
+  <li>Actualiza la configuración de un analizador de acceso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer update-analyzer --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analizador_arn</span><code class="language-plaintext highlighter-rouge"> --tags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuevas_etiquetas</span></p>
+
+<ul>
+  <li>Crea una nueva regla de archivo de Access Analyzer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer create-archive-rule --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analizador_arn</span><code class="language-plaintext highlighter-rouge"> --rule-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_regla</span><code class="language-plaintext highlighter-rouge"> --filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filtro</span></p>
+
+<ul>
+  <li>Elimina una regla de archivo de Access Analyzer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer delete-archive-rule --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analizador_arn</span><code class="language-plaintext highlighter-rouge"> --rule-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_regla</span></p>
+
+<ul>
+  <li>Lista todas las reglas de archivo de Access Analyzer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer list-archive-rules --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analizador_arn</span></p>

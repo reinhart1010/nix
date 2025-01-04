@@ -1,0 +1,34 @@
+<h1 id="keychain">keychain</h1>
+
+<p>ssh-agent 및/또는 gpg-agent를 로그인 간에 재사용.
+더 많은 정보: <a href="https://funtoo.org/Keychain">https://funtoo.org/Keychain</a>.</p>
+
+<ul>
+  <li>실행 중인 ssh-agent를 확인하고 필요한 경우 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keychain</code></p>
+
+<ul>
+  <li>gpg-agent도 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keychain --agents "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gpg,ssh</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>모든 활성 키의 서명 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keychain --list</code></p>
+
+<ul>
+  <li>모든 활성 키의 지문 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keychain --list-fp</code></p>
+
+<ul>
+  <li>에이전트에 추가된 ID에 대한 타임아웃을 분 단위로 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keychain --timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">분</span></p>

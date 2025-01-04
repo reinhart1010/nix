@@ -1,0 +1,52 @@
+<h1 id="set">set</h1>
+
+<p>Toggle shell options or set the values of positional parameters.
+More information: <a href="https://manned.org/set.1posix">https://manned.org/set.1posix</a>.</p>
+
+<ul>
+  <li>Display the names and values of shell variables:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">set</code></p>
+
+<ul>
+  <li>Export newly initialized variables to child processes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">set -a</code></p>
+
+<ul>
+  <li>Write formatted messages to <code class="language-plaintext highlighter-rouge">stderr</code> when jobs finish:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">set -b</code></p>
+
+<ul>
+  <li>Write and edit text in the command-line with <code class="language-plaintext highlighter-rouge">vi</code>-like keybindings (e.g. <code class="language-plaintext highlighter-rouge">yy</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">set -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vi</span></p>
+
+<ul>
+  <li>Return to default mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">set -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">emacs</span></p>
+
+<ul>
+  <li>List all modes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">set -o</code></p>
+
+<ul>
+  <li>Exit the shell when (some) commands fail:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">set -e</code></p>
+
+<ul>
+  <li>Reset all shell parameters and assign new ones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">set -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2…</span></p>

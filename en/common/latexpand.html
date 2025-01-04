@@ -1,0 +1,34 @@
+<h1 id="latexpand">latexpand</h1>
+
+<p>Simplify LaTeX source files by removing comments and resolving <code class="language-plaintext highlighter-rouge">\include</code>s, <code class="language-plaintext highlighter-rouge">\input</code>s, etc.
+More information: <a href="https://www.ctan.org/pkg/latexpand">https://www.ctan.org/pkg/latexpand</a>.</p>
+
+<ul>
+  <li>Simplify the specified source file and save the result to the specified [o]utput file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexpand --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.tex</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tex</span></p>
+
+<ul>
+  <li>Do not remove comments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexpand --keep-comments --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.tex</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tex</span></p>
+
+<ul>
+  <li>Do not expand <code class="language-plaintext highlighter-rouge">\include</code>s, <code class="language-plaintext highlighter-rouge">\input</code>s etc.:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexpand --keep-includes --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.tex</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tex</span></p>
+
+<ul>
+  <li>Expand <code class="language-plaintext highlighter-rouge">\usepackage</code>s as far as the corresponding STY files can be found:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexpand --expand-usepackage --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.tex</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tex</span></p>
+
+<ul>
+  <li>Inline the specified BBL file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexpand --expand-bbl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bibliography.bbl</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.tex</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tex</span></p>

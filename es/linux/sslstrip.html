@@ -1,0 +1,41 @@
+<h1 id="sslstrip">sslstrip</h1>
+
+<p>Realiza ataques de stripping de Secure Sockets Layer (SSL) basados en el trabajo de Moxie Marlinspike.
+Realiza un ataque de suplantación de ARP en conjunto.
+Más información: <a href="https://www.kali.org/tools/sslstrip/">https://www.kali.org/tools/sslstrip/</a>.</p>
+
+<ul>
+  <li>Registra sólo el tráfico HTTPS POST en el puerto 10000 por defecto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sslstrip</code></p>
+
+<ul>
+  <li>Registra sólo el tráfico HTTPS POST en el puerto 8080:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sslstrip --listen=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8080</span></p>
+
+<ul>
+  <li>Registra todo el tráfico SSL hacia y desde el servidor en el puerto 8080:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sslstrip --ssl --listen=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8080</span></p>
+
+<ul>
+  <li>Registra todo el tráfico SSL y HTTP hacia y desde el servidor en el puerto 8080:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sslstrip --listen=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8080</span><code class="language-plaintext highlighter-rouge"> --all</code></p>
+
+<ul>
+  <li>Especifica la ruta del archivo para almacenar los registros:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sslstrip --listen=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8080</span><code class="language-plaintext highlighter-rouge"> --write=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo</span></p>
+
+<ul>
+  <li>Muestra la ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sslstrip --help</code></p>

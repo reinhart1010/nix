@@ -1,0 +1,41 @@
+<h1 id="chpass">chpass</h1>
+
+<p>사용자 데이터베이스 정보, 로그인 셸 및 비밀번호를 추가하거나 변경합니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">passwd</code>.
+더 많은 정보: <a href="https://man.netbsd.org/chsh">https://man.netbsd.org/chsh</a>.</p>
+
+<ul>
+  <li>현재 사용자에게 특정 로그인 셸을 대화식으로 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c chpass</code></p>
+
+<ul>
+  <li>현재 사용자에게 특정 로그인 셸 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/셸</span></p>
+
+<ul>
+  <li>특정 사용자에게 로그인 셸 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass chsh -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/셸</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">passwd</code> 파일 형식으로 사용자 데이터베이스 항목 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명:암호화된_비밀번호:uid:gid:…</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>로컬 비밀번호 파일만 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -l -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/셸</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>데이터베이스 [y]P 비밀번호 데이터베이스 항목을 강제로 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -y -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/셸</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>

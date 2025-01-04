@@ -1,0 +1,40 @@
+<h1 id="gdalinfo">gdalinfo</h1>
+
+<p>GDAL 지원 래스터 데이터세트에 대한 다양한 정보를 나열.
+더 많은 정보: <a href="https://gdal.org/programs/gdalinfo.html">https://gdal.org/programs/gdalinfo.html</a>.</p>
+
+<ul>
+  <li>지원하는 래스터 포맷 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdalinfo --formats</code></p>
+
+<ul>
+  <li>특정 래스터 데이터세트에 대한 정보 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdalinfo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.tif</span></p>
+
+<ul>
+  <li>특정 래스터 데이터세트에 대한 정보를 JSON 형식으로 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdalinfo -json </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.tif</span></p>
+
+<ul>
+  <li>특정 래스터 데이터세트의 히스토그램 값 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdalinfo -hist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.tif</span></p>
+
+<ul>
+  <li>웹 맵 서비스(WMS)에 대한 정보를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdalinfo WMS:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://services.meggsimum.de/geoserver/ows</span></p>
+
+<ul>
+  <li>웹 맵 서비스(WMS)의 특정 데이터세트에 대한 정보를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdalinfo WMS:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://services.meggsimum.de/geoserver/ows</span><code class="language-plaintext highlighter-rouge"> -sd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span></p>

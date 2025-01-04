@@ -1,0 +1,41 @@
+<h1 id="alias">alias</h1>
+
+<p>Cria apelidos – palavras que são substituídas por um comando.
+Apelidos expiram ao final da sessão atual do shell de comando, a menos que sejam definidos no arquivo de configuração do shell, por exemplo <code class="language-plaintext highlighter-rouge">~/.bashrc</code>.
+Mais informações: <a href="https://tldp.org/LDP/abs/html/aliases.html">https://tldp.org/LDP/abs/html/aliases.html</a>.</p>
+
+<ul>
+  <li>Lista todos os apelidos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alias</code></p>
+
+<ul>
+  <li>Cria um apelido genérico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apelido</span><code class="language-plaintext highlighter-rouge">="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Visualiza o comando associado a um determinado apelido:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apelido</span></p>
+
+<ul>
+  <li>Remove um apelido:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unalias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apelido</span></p>
+
+<ul>
+  <li>Torna o comando <code class="language-plaintext highlighter-rouge">rm</code> interativo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm</span><code class="language-plaintext highlighter-rouge">="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm –interactive</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Cria o apelido <code class="language-plaintext highlighter-rouge">la</code> como um atalho para <code class="language-plaintext highlighter-rouge">ls --all</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">la</span><code class="language-plaintext highlighter-rouge">="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls –all</span><code class="language-plaintext highlighter-rouge">"</code></p>

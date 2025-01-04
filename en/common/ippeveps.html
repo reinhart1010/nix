@@ -1,0 +1,18 @@
+<h1 id="ippeveps">ippeveps</h1>
+
+<p>Print to Adobe PostScript printers.
+Supports PDF, PostScript, JPEG, PWG Raster or Apple Raster files.
+See also: <code class="language-plaintext highlighter-rouge">ippevepcl</code>, <code class="language-plaintext highlighter-rouge">ippeveprinter</code>.
+More information: <a href="https://openprinting.github.io/cups/doc/man-ippevepcl.html">https://openprinting.github.io/cups/doc/man-ippevepcl.html</a>.</p>
+
+<ul>
+  <li>Print a file to <code class="language-plaintext highlighter-rouge">stdout</code> (status and progress messages are sent to <code class="language-plaintext highlighter-rouge">stderr</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ippeveps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print a file from <code class="language-plaintext highlighter-rouge">stdin</code> to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wget -O - https://examplewebsite.com/file</span><code class="language-plaintext highlighter-rouge"> | ippeveps</code></p>

@@ -1,0 +1,17 @@
+<h1 id="git-utimes">git utimes</h1>
+
+<p>Change files modification time to their last commit date. Does not touch files that are in the working tree or index.
+Part of <code class="language-plaintext highlighter-rouge">git-extras</code>.
+More information: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-utimes">https://github.com/tj/git-extras/blob/master/Commands.md#git-utimes</a>.</p>
+
+<ul>
+  <li>Change all files modification time to their last commit date:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git utimes</code></p>
+
+<ul>
+  <li>Change files modification time that are newer than their last commit date, preserving original modification time of files that were committed from the local repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git utimes --newer</code></p>

@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="base64">base64</h1>
+
+<p>Codifica e decodifica usando a representação Base64.
+Mais informações: <a href="https://keith.github.io/xcode-man-pages/base64.1.html">https://keith.github.io/xcode-man-pages/base64.1.html</a>.</p>
+
+<ul>
+  <li>Codifica um arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 --input=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span></p>
+
+<ul>
+  <li>Decodifica um arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 --decode --input=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_base64</span></p>
+
+<ul>
+  <li>Codifica de <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texto</span><code class="language-plaintext highlighter-rouge">" | base64</code></p>
+
+<ul>
+  <li>Decodifica de <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texto_base64</span><code class="language-plaintext highlighter-rouge"> | base64 --decode</code></p>

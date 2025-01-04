@@ -1,0 +1,34 @@
+<h1 id="etckeeper">etckeeper</h1>
+
+<p>Track system configuration files in Git.
+More information: <a href="https://etckeeper.branchable.com/">https://etckeeper.branchable.com/</a>.</p>
+
+<ul>
+  <li>Set up a Git repo and perform various setup tasks (run from <code class="language-plaintext highlighter-rouge">/etc</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo etckeeper init</code></p>
+
+<ul>
+  <li>Commit all changes in <code class="language-plaintext highlighter-rouge">/etc</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo etckeeper commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span></p>
+
+<ul>
+  <li>Run arbitrary Git commands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo etckeeper vcs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">status</span></p>
+
+<ul>
+  <li>Check if there are uncommitted changes (only returns an exit code):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo etckeeper unclean</code></p>
+
+<ul>
+  <li>Destroy existing repo and stop tracking changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo etckeeper uninit</code></p>

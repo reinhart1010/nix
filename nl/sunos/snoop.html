@@ -1,0 +1,35 @@
+<h1 id="snoop">snoop</h1>
+
+<p>Network packet sniffer.
+SunOS equivalent van tcpdump.
+Meer informatie: <a href="https://www.unix.com/man-page/sunos/1m/snoop">https://www.unix.com/man-page/sunos/1m/snoop</a>.</p>
+
+<ul>
+  <li>Capteer de pakketten van een specifieke netwerk interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">e1000g0</span></p>
+
+<ul>
+  <li>Slaag de pakketten op in een bestand, in plaats van ze weer te geven:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestandsnaam</span></p>
+
+<ul>
+  <li>Toon de verboze protocal layer samenvatting van de pakketten in een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -V -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestandsnaam</span></p>
+
+<ul>
+  <li>Capteren van netwerk pakketten die van een bepaalde host komen en naar een gegeven poort gaan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop to port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">poort</span><code class="language-plaintext highlighter-rouge"> from host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostnaam</span></p>
+
+<ul>
+  <li>Capteren en weergave van een hex-dump van network pakketten die uitgewisseld zijn tussen twee IP addressen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -x0 -p4 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_adres_1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_adres_2</span></p>

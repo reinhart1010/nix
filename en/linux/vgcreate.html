@@ -1,0 +1,17 @@
+<h1 id="vgcreate">vgcreate</h1>
+
+<p>Create volume groups combining multiple mass-storage devices.
+See also: <code class="language-plaintext highlighter-rouge">lvm</code>.
+More information: <a href="https://manned.org/vgcreate">https://manned.org/vgcreate</a>.</p>
+
+<ul>
+  <li>Create a new volume group called vg1 using the <code class="language-plaintext highlighter-rouge">/dev/sda1</code> device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgcreate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vg1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda1</span></p>
+
+<ul>
+  <li>Create a new volume group called vg1 using multiple devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgcreate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vg1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdc1</span></p>

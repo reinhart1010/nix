@@ -1,0 +1,52 @@
+<h1 id="kcat">kcat</h1>
+
+<p>Apache Kafka produceer en consumeer tool.
+Meer informatie: <a href="https://github.com/edenhill/kcat">https://github.com/edenhill/kcat</a>.</p>
+
+<ul>
+  <li>Consumeer berichten startend met de nieuwste offset:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kcat -C -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">onderwerp</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">makelaars</span></p>
+
+<ul>
+  <li>Consumeer berichten startend met de oudste offset en sluit af nadat het laatste bericht is ontvangen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kcat -C -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">onderwerp</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">makelaars</span><code class="language-plaintext highlighter-rouge"> -o beginning -e</code></p>
+
+<ul>
+  <li>Consumeer berichten als een Kafka consumeer groep:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kcat -G </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groep_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">onderwerp</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">makelaars</span></p>
+
+<ul>
+  <li>Publiceer bericht via het lezen van de <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bericht</span><code class="language-plaintext highlighter-rouge"> | kcat -P -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">onderwerp</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">makelaars</span></p>
+
+<ul>
+  <li>Publiceer berichten via het lezen van een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kcat -P -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">onderwerp</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">makelaars</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon de metadata voor alle onderwerpen en makelaars:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kcat -L -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">makelaars</span></p>
+
+<ul>
+  <li>Toon de metadata voor een specifiek onderwerp:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kcat -L -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">onderwerp</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">makelaars</span></p>
+
+<ul>
+  <li>Verkrijg de offset voor een onderwerp/partitie voor een specifiek punt in de tijd:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kcat -Q -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">onderwerp</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">partitie</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unix_timestamp</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">makelaars</span></p>

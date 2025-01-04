@@ -1,0 +1,47 @@
+<h1 id="pacman-remove">pacman –remove</h1>
+
+<p>Hulpprogramma voor het beheren van pakketten op Arch Linux.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Meer informatie: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Verwijde[R] een pakket en zijn afhankelijkheden recur[s]ief:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Rs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span></p>
+
+<ul>
+  <li>Verwijde[R] een pakket en zijn afhankelijkheden. Maak ook gee[n] back-ups van configuratiebestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Rsn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span></p>
+
+<ul>
+  <li>Verwijde[R] een pakket zonder bevestigingsprompt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -R --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span></p>
+
+<ul>
+  <li>Verwijde[R] weespakketten (geïnstalleerd als [d]ependencies maar [n]iet vereist door een ander pakket):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Rsn $(pacman -Qdtq)</code></p>
+
+<ul>
+  <li>Verwijde[R] een pakket en [c]ascadeer dat naar alle pakketten die ervan afhankelijk zijn:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Rc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span></p>
+
+<ul>
+  <li>Toon en [p]rint pakketten die beïnvloed zouden worden (verwijdert [R] geen pakketten):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Rp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span></p>
+
+<ul>
+  <li>Toon [h]ulp:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Rh</code></p>

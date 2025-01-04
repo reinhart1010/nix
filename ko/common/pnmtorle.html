@@ -1,0 +1,22 @@
+<h1 id="pnmtorle">pnmtorle</h1>
+
+<p>PNM 파일을 Utah Raster Tools RLE 이미지 파일로 변환.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/pnmtorle.html">https://netpbm.sourceforge.net/doc/pnmtorle.html</a>.</p>
+
+<ul>
+  <li>PNM 이미지를 RLE 이미지로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtorle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.rle</span></p>
+
+<ul>
+  <li>PNM 헤더 정보를 <code class="language-plaintext highlighter-rouge">stdout</code>에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtorle -verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.rle</span></p>
+
+<ul>
+  <li>출력 이미지에 투명 채널 포함, 모든 검은색 픽셀은 완전히 투명하게, 다른 모든 픽셀은 완전히 불투명하게 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtorle -alpha </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.rle</span></p>

@@ -1,0 +1,28 @@
+<h1 id="adb-forward">adb forward</h1>
+
+<p>Connect to an Android device wirelessly.
+More information: <a href="https://developer.android.com/tools/adb">https://developer.android.com/tools/adb</a>.</p>
+
+<ul>
+  <li>Forward a TCP port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb forward tcp:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span><code class="language-plaintext highlighter-rouge"> tcp:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_port</span></p>
+
+<ul>
+  <li>List all forwardings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb forward --list</code></p>
+
+<ul>
+  <li>Remove a forwarding rule:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb forward --remove tcp:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span></p>
+
+<ul>
+  <li>Remove all forwarding rules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb forward --remove-all</code></p>

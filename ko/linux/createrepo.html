@@ -1,0 +1,22 @@
+<h1 id="createrepo">createrepo</h1>
+
+<p>디렉터리에 RPM 저장소를 초기화하고 모든 XML 및 SQLite 파일을 포함합니다.
+더 많은 정보: <a href="https://manned.org/createrepo">https://manned.org/createrepo</a>.</p>
+
+<ul>
+  <li>기본 저장소를 디렉터리에서 초기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">createrepo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>저장소를 초기화하고, 테스트 RPM을 제외하고, 자세한 로그를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">createrepo -v -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test_*.rpm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>SHA1을 체크섬 알고리즘으로 사용하고, 심볼릭 링크를 무시하여 저장소를 초기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">createrepo -S -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sha1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>

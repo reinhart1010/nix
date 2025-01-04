@@ -1,0 +1,23 @@
+<h1 id="mpicc">mpicc</h1>
+
+<p>Open MPI C wrapper compiler.
+The wrappers are simply thin shells on top of a C compiler, they add the relevant compiler and linker flags to the command-line that are necessary to compile/link Open MPI programs, and then invoke the underlying C compiler to actually perform the command.
+More information: <a href="https://www.mpich.org/static/docs/latest/www1/mpicc.html">https://www.mpich.org/static/docs/latest/www1/mpicc.html</a>.</p>
+
+<ul>
+  <li>Compile a source code file into an object file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpicc -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.c</span></p>
+
+<ul>
+  <li>Link an object file and make an executable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpicc -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/object_file.o</span></p>
+
+<ul>
+  <li>Compile and link source code in a single command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpicc -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.c</span></p>

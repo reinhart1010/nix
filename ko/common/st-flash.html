@@ -1,0 +1,22 @@
+<h1 id="st-flash">st-flash</h1>
+
+<p>STM32 ARM Cortex 마이크로컨트롤러에 바이너리 파일을 플래시.
+더 많은 정보: <a href="https://github.com/texane/stlink">https://github.com/texane/stlink</a>.</p>
+
+<ul>
+  <li>장치에서 0x8000000부터 4096 바이트 읽기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">st-flash read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">펌웨어</span><code class="language-plaintext highlighter-rouge">.bin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0x8000000</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4096</span></p>
+
+<ul>
+  <li>장치에 0x8000000부터 펌웨어 쓰기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">st-flash write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">펌웨어</span><code class="language-plaintext highlighter-rouge">.bin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0x8000000</span></p>
+
+<ul>
+  <li>장치에서 펌웨어 지우기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">st-flash erase</code></p>

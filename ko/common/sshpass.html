@@ -1,0 +1,23 @@
+<h1 id="sshpass">sshpass</h1>
+
+<p>SSH 비밀번호 제공 도구.
+TTY를 생성하고 비밀번호를 입력한 후 <code class="language-plaintext highlighter-rouge">stdin</code>을 SSH 세션으로 리디렉션하여 작동합니다.
+더 많은 정보: <a href="https://manned.org/sshpass">https://manned.org/sshpass</a>.</p>
+
+<ul>
+  <li>파일 디스크립터(이 경우, <code class="language-plaintext highlighter-rouge">stdin</code>)에 제공된 비밀번호를 사용하여 원격 서버에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sshpass -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span></p>
+
+<ul>
+  <li>옵션으로 제공된 비밀번호를 사용하여 원격 서버에 연결하고, 알 수 없는 SSH 키를 자동으로 수락:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sshpass -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> ssh -o StrictHostKeyChecking=no </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span></p>
+
+<ul>
+  <li>파일의 첫 번째 줄을 비밀번호로 사용하여 원격 서버에 연결하고, 알 수 없는 SSH 키를 자동으로 수락하며 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sshpass -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> ssh -o StrictHostKeyChecking=no </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span><code class="language-plaintext highlighter-rouge">"</code></p>

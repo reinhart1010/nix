@@ -1,0 +1,46 @@
+<h1 id="aws-cloudwatch">aws cloudwatch</h1>
+
+<p>Monitor AWS resources to gain system-wide visibility into resource utilization, application performance, and operational health.
+More information: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudwatch/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudwatch/index.html</a>.</p>
+
+<ul>
+  <li>List dashboards for your account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudwatch list-dashboards</code></p>
+
+<ul>
+  <li>Display details for the specified dashboard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudwatch get-dashboard --dashboard-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dashboard_name</span></p>
+
+<ul>
+  <li>List metrics:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudwatch list-metrics</code></p>
+
+<ul>
+  <li>List alarms:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudwatch describe-alarms</code></p>
+
+<ul>
+  <li>Create or update an alarm and associate it with a metric:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudwatch put-metric-alarm --alarm-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alarm_name</span><code class="language-plaintext highlighter-rouge"> --evaluation-periods </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">evaluation_periods</span><code class="language-plaintext highlighter-rouge"> --comparison-operator </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comparison_operator</span></p>
+
+<ul>
+  <li>Delete the specified alarms:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudwatch delete-alarms --alarm_names </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alarm_names</span></p>
+
+<ul>
+  <li>Delete the specified dashboards:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudwatch delete-dashboards --dashboard-names </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dashboard_names</span></p>

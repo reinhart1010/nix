@@ -1,0 +1,35 @@
+<h1 id="lrunzip">lrunzip</h1>
+
+<p>A large file decompression program.
+See also: <code class="language-plaintext highlighter-rouge">lrzip</code>, <code class="language-plaintext highlighter-rouge">lrztar</code>, <code class="language-plaintext highlighter-rouge">lrzuntar</code>.
+More information: <a href="https://manned.org/lrunzip">https://manned.org/lrunzip</a>.</p>
+
+<ul>
+  <li>Decompress a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lrunzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.lrz</span></p>
+
+<ul>
+  <li>Decompress a file using a specific number of processor threads:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lrunzip -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.lrz</span></p>
+
+<ul>
+  <li>Decompress a file and silently overwrite files if they exist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lrunzip -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.lrz</span></p>
+
+<ul>
+  <li>Keep broken or damaged files instead of deleting them when decompressing:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lrunzip -K </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.lrz</span></p>
+
+<ul>
+  <li>Specify output file name and/or path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lrunzip -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">outfilename</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.lrz</span></p>

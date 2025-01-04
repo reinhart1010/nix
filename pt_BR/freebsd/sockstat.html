@@ -1,0 +1,52 @@
+<h1 id="sockstat">sockstat</h1>
+
+<p>Lista sockets de domínio aberto Internet ou UNIX.
+Mais informações: <a href="https://man.freebsd.org/cgi/man.cgi?sockstat">https://man.freebsd.org/cgi/man.cgi?sockstat</a>.</p>
+
+<ul>
+  <li>Vê quais usuários/processos estão [e]scutando em quais portas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -l</code></p>
+
+<ul>
+  <li>Exibe informação para sockets IPv[4] e IPv[6] escutando em portas específicas usando um [p]rotocolo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4|6</span><code class="language-plaintext highlighter-rouge"> -l -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp|udp|sctp|divert</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port1,port2…</span></p>
+
+<ul>
+  <li>Exibe também sockets [c]onectados, não resolvendo UIDs [n]uméricos para nome de usuários e usando um campo mais largo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -cnw</code></p>
+
+<ul>
+  <li>Exibe somente sockets que pertencem a um ID [j]ail específico ou nome de modo detalhado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -jv</code></p>
+
+<ul>
+  <li>Exibe o estado do protocolo e o número da porta do encapsulamento [U]DP remoto, se aplicável (atualmente, estes estão implementados somente para SCTP e TCP):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -sU</code></p>
+
+<ul>
+  <li>Exibe o módulo de controle de [c]ongestionamento e a pilha de protocolo, se aplicável (atualmente, estes estão implementados somente para TCP):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -CS</code></p>
+
+<ul>
+  <li>Exibe apenas sockets da Internet se os endereços local e estrangeiro não estiverem no prefixo de rede loopback 127.0.0.0/8, ou não contiverem o endereço de loopback IPv6 ::1:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -L</code></p>
+
+<ul>
+  <li>Não exibe o cabeçalho (modo silencioso), mostrando sockets [u]nix e exibindo o <code class="language-plaintext highlighter-rouge">inp_gencnt</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -qui</code></p>

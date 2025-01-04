@@ -1,0 +1,53 @@
+<h1 id="kubectl">kubectl</h1>
+
+<p>Command-line interface for running commands against Kubernetes clusters.
+Some subcommands such as <code class="language-plaintext highlighter-rouge">run</code> have their own usage documentation.
+More information: <a href="https://kubernetes.io/docs/reference/kubectl/">https://kubernetes.io/docs/reference/kubectl/</a>.</p>
+
+<ul>
+  <li>List information about a resource with more details:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod|service|deployment|ingress|…</span><code class="language-plaintext highlighter-rouge"> -o wide</code></p>
+
+<ul>
+  <li>Update specified pod with the label 'unhealthy' and the value 'true':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl label pods </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> unhealthy=true</code></p>
+
+<ul>
+  <li>List all resources with different types:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get all</code></p>
+
+<ul>
+  <li>Display resource (CPU/Memory/Storage) usage of nodes or pods:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl top </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod|node</span></p>
+
+<ul>
+  <li>Print the address of the master and cluster services:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl cluster-info</code></p>
+
+<ul>
+  <li>Display an explanation of a specific field:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl explain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pods.spec.containers</span></p>
+
+<ul>
+  <li>Print the logs for a container in a pod or specified resource:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl logs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span></p>
+
+<ul>
+  <li>Run command in an existing pod:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls /</span></p>

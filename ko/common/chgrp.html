@@ -1,0 +1,28 @@
+<h1 id="chgrp">chgrp</h1>
+
+<p>파일 및 디렉토리의 그룹 소유권 변경.
+더 많은 정보: <a href="https://www.gnu.org/software/coreutils/manual/html_node/chgrp-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/chgrp-invocation.html</a>.</p>
+
+<ul>
+  <li>파일/디렉토리의 소유 그룹 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chgrp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명_또는_디렉토리명</span></p>
+
+<ul>
+  <li>디렉토리 및 해당 컨텐츠의 소유 그룹 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chgrp -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/디렉토리명</span></p>
+
+<ul>
+  <li>심볼릭 링크의 소유 그룹 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chgrp -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/심볼릭_링크</span></p>
+
+<ul>
+  <li>참조 파일과 일치하도록 파일/디렉토리의 소유 그룹 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chgrp --reference </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/참조_파일명</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명_또는_디렉토리명</span></p>

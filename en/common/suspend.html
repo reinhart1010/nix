@@ -1,0 +1,22 @@
+<h1 id="suspend">suspend</h1>
+
+<p>Suspend the execution of the current shell.
+More information: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-suspend">https://www.gnu.org/software/bash/manual/bash.html#index-suspend</a>.</p>
+
+<ul>
+  <li>Suspend the current shell (useful for when you are in nested shells like <code class="language-plaintext highlighter-rouge">su</code>):</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash</span><code class="language-plaintext highlighter-rouge"> &lt;Enter&gt; suspend</code></p>
+
+<ul>
+  <li>Run in a separate terminal to continue from suspension if <code class="language-plaintext highlighter-rouge">suspend</code> was used in a non-nested shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkill -CONT bash</code></p>
+
+<ul>
+  <li>Force suspension even if this would lock you out of the system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">suspend -f</code></p>

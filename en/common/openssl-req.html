@@ -1,0 +1,16 @@
+<h1 id="openssl-req">openssl req</h1>
+
+<p>OpenSSL command to manage PKCS#10 Certificate Signing Requests.
+More information: <a href="https://www.openssl.org/docs/manmaster/man1/openssl-req.html">https://www.openssl.org/docs/manmaster/man1/openssl-req.html</a>.</p>
+
+<ul>
+  <li>Generate a certificate signing request to be sent to a certificate authority:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl req -new -sha256 -key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.key</span><code class="language-plaintext highlighter-rouge"> -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.csr</span></p>
+
+<ul>
+  <li>Generate a self-signed certificate and a corresponding key-pair, storing both in a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl req -new -x509 -newkey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rsa</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4096</span><code class="language-plaintext highlighter-rouge"> -keyout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.key</span><code class="language-plaintext highlighter-rouge"> -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.cert</span><code class="language-plaintext highlighter-rouge"> -subj "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/C=XX/CN=foobar</span><code class="language-plaintext highlighter-rouge">" -days </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">365</span></p>

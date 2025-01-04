@@ -1,0 +1,52 @@
+<h1 id="cmstp">cmstp</h1>
+
+<p>कनेक्शन सेवा प्रोफाइल प्रबंधित करें।
+अधिक जानकारी: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/cmstp">https://learn.microsoft.com/windows-server/administration/windows-commands/cmstp</a>।</p>
+
+<ul>
+  <li>एक विशेष प्रोफाइल स्थापित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmstp "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">प्रोफ़ाइल_फ़ाइल\का\पथ</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>डेस्कटॉप शॉर्टकट बनाए बिना स्थापित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmstp /ns "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">प्रोफ़ाइल_फ़ाइल\का\पथ</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>निर्भरताओं की जांच किए बिना स्थापित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmstp /nf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">प्रोफ़ाइल_फ़ाइल\का\पथ</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>केवल वर्तमान उपयोगकर्ता के लिए स्थापित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmstp /su "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">प्रोफ़ाइल_फ़ाइल\का\पथ</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>सभी उपयोगकर्ताओं के लिए स्थापित करें (प्रशासक विशेषाधिकार की आवश्यकता है):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmstp /au "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">प्रोफ़ाइल_फ़ाइल\का\पथ</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>बिना किसी संकेत के चुपचाप स्थापित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmstp /s "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">प्रोफ़ाइल_फ़ाइल\का\पथ</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>एक विशेष प्रोफाइल अनइंस्टॉल करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmstp /u "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">प्रोफ़ाइल_फ़ाइल\का\पथ</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>बिना पुष्टि संकेत के चुपचाप अनइंस्टॉल करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmstp /u /s "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">प्रोफ़ाइल_फ़ाइल\का\पथ</span><code class="language-plaintext highlighter-rouge">"</code></p>

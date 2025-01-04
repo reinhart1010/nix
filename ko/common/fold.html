@@ -1,0 +1,22 @@
+<h1 id="fold">fold</h1>
+
+<p>지정된 너비에 맞게 입력 파일의 각 줄을 감싸고 <code class="language-plaintext highlighter-rouge">stdout</code>으로 출력.
+더 많은 정보: <a href="https://manned.org/fold.1p">https://manned.org/fold.1p</a>.</p>
+
+<ul>
+  <li>각 줄을 기본 너비로 변경 (80 자):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>각 줄을 너비 "30"으로 줄 바꿈:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fold -w30 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>각 줄을 너비 "5"로 묶고 공백에서 줄을 (공백으로 구분된 각 단어를, 새 줄에 넣고, 5보다 큰 단어는 줄바꿈됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fold -w5 -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

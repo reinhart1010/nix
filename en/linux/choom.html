@@ -1,0 +1,22 @@
+<h1 id="choom">choom</h1>
+
+<p>Display and change the adjust out-of-memory killer score.
+More information: <a href="https://manned.org/choom">https://manned.org/choom</a>.</p>
+
+<ul>
+  <li>Display the OOM-killer score of the process with a specific ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choom -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Change the adjust OOM-killer score of a specific process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choom -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1000..+1000</span></p>
+
+<ul>
+  <li>Run a command with a specific adjust OOM-killer score:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choom -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1000..+1000</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 …</span></p>

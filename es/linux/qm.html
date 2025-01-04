@@ -1,0 +1,41 @@
+<h1 id="qm">qm</h1>
+
+<p>Administrador de máquinas virtuales QEMU/KVM.
+Algunas órdenes como <code class="language-plaintext highlighter-rouge">list</code>, <code class="language-plaintext highlighter-rouge">start</code>, <code class="language-plaintext highlighter-rouge">stop</code>, <code class="language-plaintext highlighter-rouge">clone</code>, etc. tienen su propia documentación.
+Más información: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>Lista todas las máquinas virtuales:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm list</code></p>
+
+<ul>
+  <li>Dado un archivo ISO subido en el almacenamiento local, crea una máquina virtual con un disco IDE de 4 GB en el almacenamiento <code class="language-plaintext highlighter-rouge">local-lvm</code> y con ID 100:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> -ide0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local-lvm:4</span><code class="language-plaintext highlighter-rouge"> -net0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">e1000</span><code class="language-plaintext highlighter-rouge"> -cdrom </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local:iso/proxmox-mailgateway_2.1.iso</span></p>
+
+<ul>
+  <li>Muestra la configuración de una máquina virtual especificando su ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span></p>
+
+<ul>
+  <li>Inicia una máquina virtual específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span></p>
+
+<ul>
+  <li>Envía una solicitud de apagado, luego espera hasta que se detenga la máquina virtual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm shutdown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; qm wait </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span></p>
+
+<ul>
+  <li>Destruye una máquina virtual y elimina todos los recursos relacionados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm destroy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --purge</code></p>

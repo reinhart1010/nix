@@ -1,0 +1,34 @@
+<h1 id="whence">whence</h1>
+
+<p>Un comando integrado de zsh para indicar cómo se interpretaría un comando dado.
+Más información: <a href="https://keith.github.io/xcode-man-pages/whence.1.html">https://keith.github.io/xcode-man-pages/whence.1.html</a>.</p>
+
+<ul>
+  <li>Interpreta <code class="language-plaintext highlighter-rouge">comando</code>, con expansión si se define como un <code class="language-plaintext highlighter-rouge">alias</code> (similar al <code class="language-plaintext highlighter-rouge">command -v</code> integrado):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whence "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Muestra tipo de <code class="language-plaintext highlighter-rouge">comando</code>, con localización si se define como una función, o binario (equivalente a los <code class="language-plaintext highlighter-rouge">type</code> y <code class="language-plaintext highlighter-rouge">command -V</code> integrados):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whence -v "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Igual que el anterior, excepto que muestra el contenido de las funciones del shell en lugar de la ubicación (equivalente al <code class="language-plaintext highlighter-rouge">which</code> integrado):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whence -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Igual que el anterior, pero muestra todas las apariciones en la ruta del comando (equivalente al <code class="language-plaintext highlighter-rouge">where</code> integrado):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whence -ca "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Busca un comando en la variable de entorno <code class="language-plaintext highlighter-rouge">PATH</code>, ignorando los comandos integrados, aliases o funciones del shell (equivalente al comando <code class="language-plaintext highlighter-rouge">where</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whence -p "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge">"</code></p>

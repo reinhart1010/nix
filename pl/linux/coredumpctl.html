@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="coredumpctl">coredumpctl</h1>
+
+<p>Pobieraj i przetwarzaj zapisane zrzuty pamięci i metadane.
+Więcej informacji: <a href="https://www.freedesktop.org/software/systemd/man/coredumpctl.html">https://www.freedesktop.org/software/systemd/man/coredumpctl.html</a>.</p>
+
+<ul>
+  <li>Wyświetl wszystkie zapisane zrzuty pamięci:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">coredumpctl list</code></p>
+
+<ul>
+  <li>Wyświetl zapisane zrzuty pamięci podanego programu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">coredumpctl list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Wyświetl informacje o zrzutach pamięci programu o podanym PID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">coredumpctl info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>
+
+<ul>
+  <li>Wywołaj debugger używając ostatniego zrzutu pamięci programu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">coredumpctl debug </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Wyodrębnij ostatni zrzut pamięci programu do pliku:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">coredumpctl --output=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span><code class="language-plaintext highlighter-rouge"> dump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>

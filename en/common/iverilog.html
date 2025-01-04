@@ -1,0 +1,34 @@
+<h1 id="iverilog">iverilog</h1>
+
+<p>Preprocesses and compiles Verilog HDL (IEEE-1364) code into executable programs for simulation.
+More information: <a href="https://github.com/steveicarus/iverilog">https://github.com/steveicarus/iverilog</a>.</p>
+
+<ul>
+  <li>Compile a source file into an executable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iverilog </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.v</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span></p>
+
+<ul>
+  <li>Compile a source file into an executable while displaying all warnings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iverilog </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.v</span><code class="language-plaintext highlighter-rouge"> -Wall -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span></p>
+
+<ul>
+  <li>Compile and run explicitly using the VVP runtime:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iverilog -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span><code class="language-plaintext highlighter-rouge"> -tvvp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.v</span></p>
+
+<ul>
+  <li>Compile using Verilog library files from a different path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iverilog </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.v</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span><code class="language-plaintext highlighter-rouge"> -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/library_directory</span></p>
+
+<ul>
+  <li>Preprocess Verilog code without compiling:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iverilog -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.v</span></p>

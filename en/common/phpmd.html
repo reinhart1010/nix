@@ -1,0 +1,46 @@
+<h1 id="phpmd">phpmd</h1>
+
+<p>PHP mess detector: check for common potential problems.
+More information: <a href="https://github.com/phpmd/phpmd">https://github.com/phpmd/phpmd</a>.</p>
+
+<ul>
+  <li>Display a list of available rulesets and formats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpmd</code></p>
+
+<ul>
+  <li>Scan a file or directory for problems using comma-separated rulesets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpmd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml|text|html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruleset1,ruleset2,…</span></p>
+
+<ul>
+  <li>Specify the minimum priority threshold for rules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpmd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml|text|html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruleset1,ruleset2,…</span><code class="language-plaintext highlighter-rouge"> --minimumpriority </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">priority</span></p>
+
+<ul>
+  <li>Include only the specified extensions in analysis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpmd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml|text|html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruleset1,ruleset2,…</span><code class="language-plaintext highlighter-rouge"> --suffixes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">extensions</span></p>
+
+<ul>
+  <li>Exclude the specified comma-separated directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpmd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1,path/to/file_or_directory2,…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml|text|html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruleset1,ruleset2,…</span><code class="language-plaintext highlighter-rouge"> --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory_patterns</span></p>
+
+<ul>
+  <li>Output the results to a file instead of <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpmd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml|text|html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruleset1,ruleset2,…</span><code class="language-plaintext highlighter-rouge"> --reportfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/report_file</span></p>
+
+<ul>
+  <li>Ignore the use of warning-suppressive PHPDoc comments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpmd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml|text|html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruleset1,ruleset2,…</span><code class="language-plaintext highlighter-rouge"> --strict</code></p>

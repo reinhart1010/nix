@@ -1,0 +1,28 @@
+<h1 id="par2">par2</h1>
+
+<p>PAR 2.0 호환 패리티 아카이브(.par2 파일)를 사용한 파일 검증 및 복구.
+더 많은 정보: <a href="https://github.com/Parchive/par2cmdline/">https://github.com/Parchive/par2cmdline/</a>.</p>
+
+<ul>
+  <li>설정된 비율의 여유를 사용하여 패리티 아카이브 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">par2 create -r</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1..100</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>선택한 수의 볼륨 파일(색인 파일 추가)을 사용하여 패리티 아카이브 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">par2 create -n</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1..32768</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>패리티 아카이브로 파일 검증:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">par2 verify -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.par2</span></p>
+
+<ul>
+  <li>패리티 아카이브로 파일 복구:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">par2 repair -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.par2</span></p>

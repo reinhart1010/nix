@@ -1,0 +1,34 @@
+<h1 id="a2query">a2query</h1>
+
+<p>Apache ve Debian tabanlı işletim sistemlerinde çalışma süresi yapılandırmasını kurtar.
+Daha fazla bilgi için: <a href="https://manned.org/a2query">https://manned.org/a2query</a>.</p>
+
+<ul>
+  <li>Etkinleştirilmiş Apache modüllerini sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo a2query -m</code></p>
+
+<ul>
+  <li>Belirtilen modülün indirilip indirilmediğini kontrol et:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo a2query -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modül_ismi</span></p>
+
+<ul>
+  <li>Etkinleştirilmiş sanal hostları sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo a2query -s</code></p>
+
+<ul>
+  <li>Mevcut etkinleştirilmiş Çoklu İşlem Modülü'nü görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo a2query -M</code></p>
+
+<ul>
+  <li>Apache sürümünü görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo a2query -v</code></p>

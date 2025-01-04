@@ -1,0 +1,28 @@
+<h1 id="liquidctl">liquidctl</h1>
+
+<p>수냉 쿨러 제어.
+더 많은 정보: <a href="https://github.com/liquidctl/liquidctl">https://github.com/liquidctl/liquidctl</a>.</p>
+
+<ul>
+  <li>사용 가능한 장치 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">liquidctl list</code></p>
+
+<ul>
+  <li>지원되는 모든 장치 초기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo liquidctl initialize all</code></p>
+
+<ul>
+  <li>사용 가능한 수냉 쿨러의 상태 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">liquidctl status</code></p>
+
+<ul>
+  <li>제품 이름에서 문자열을 일치시켜 장치를 선택하고 팬 속도를 20°C에서 0%, 50°C에서 50%, 70°C에서 100%로 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">liquidctl --match </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge"> set fan speed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20 0 50 50 70 100</span></p>

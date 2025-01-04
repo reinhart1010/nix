@@ -1,0 +1,34 @@
+<h1 id="timidity">timidity</h1>
+
+<p>Play and convert MIDI files.
+More information: <a href="https://timidity.sourceforge.net">https://timidity.sourceforge.net</a>.</p>
+
+<ul>
+  <li>Play a MIDI file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timidity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mid</span></p>
+
+<ul>
+  <li>Play a MIDI file in a loop:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timidity --loop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mid</span></p>
+
+<ul>
+  <li>Play a MIDI file in a specific key (0 = C major/A minor, -1 = F major/D minor, +1 = G major/E minor, etc.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timidity --force-keysig=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-flats|+sharps</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mid</span></p>
+
+<ul>
+  <li>Convert a MIDI file to PCM (WAV) audio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timidity --output-mode=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">w</span><code class="language-plaintext highlighter-rouge"> --output-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.wav</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mid</span></p>
+
+<ul>
+  <li>Convert a MIDI file to FLAC audio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timidity --output-mode=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">F</span><code class="language-plaintext highlighter-rouge"> --output-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.flac</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mid</span></p>

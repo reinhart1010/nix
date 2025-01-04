@@ -1,0 +1,34 @@
+<h1 id="ip-neighbour">ip neighbour</h1>
+
+<p>Neighbour/ARP 테이블 관리 IP 하위 명령어.
+더 많은 정보: <a href="https://manned.org/ip-neighbour.8">https://manned.org/ip-neighbour.8</a>.</p>
+
+<ul>
+  <li>Neighbour/ARP 테이블 항목 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip neighbour</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">eth0</code> 장치에서 neighbour 테이블의 항목 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip neighbour flush dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Neighbour 조회를 수행하고 neighbour 항목 반환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip neighbour get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조회_아이피</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Neighbour IP 주소에 대한 ARP 항목을 <code class="language-plaintext highlighter-rouge">eth0</code>에 추가하거나 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip neighbour </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">add|del</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아이피_주소</span><code class="language-plaintext highlighter-rouge"> lladdr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">맥_주소</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> nud reachable</code></p>
+
+<ul>
+  <li>Neighbour IP 주소에 대한 ARP 항목을 <code class="language-plaintext highlighter-rouge">eth0</code>에 변경하거나 대체:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip neighbour </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">change|replace</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아이피_주소</span><code class="language-plaintext highlighter-rouge"> lladdr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새로운_맥_주소</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>

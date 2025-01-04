@@ -1,0 +1,28 @@
+<h1 id="pnmcrop">pnmcrop</h1>
+
+<p>Crop PNM images.
+More information: <a href="https://netpbm.sourceforge.net/doc/pnmcrop.html">https://netpbm.sourceforge.net/doc/pnmcrop.html</a>.</p>
+
+<ul>
+  <li>Remove white borders on a PNM image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmcrop -white </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Remove borders of the specified color that are on the top and left side of the image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmcrop -bg-color </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">color</span><code class="language-plaintext highlighter-rouge"> -top -left </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Determine the color of the borders to be removed by the color of the pixel in the specified corner:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmcrop -bg-corner </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topleft|topright|bottomleft|bottomright</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Leave a border with a width of <code class="language-plaintext highlighter-rouge">n</code> pixels. Additionally, specify the behaviour if the image is entirely made out of background:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmcrop -margins </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> -blank-image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pass|minimize|maxcrop</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>

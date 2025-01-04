@@ -1,0 +1,28 @@
+<h1 id="netselect-apt">netselect-apt</h1>
+
+<p>지연 시간이 가장 낮은 Debian 미러를 위한 <code class="language-plaintext highlighter-rouge">sources.list</code> 파일 생성.
+더 많은 정보: <a href="https://manned.org/netselect-apt">https://manned.org/netselect-apt</a>.</p>
+
+<ul>
+  <li>가장 낮은 지연 시간의 서버를 사용하여 <code class="language-plaintext highlighter-rouge">sources.list</code> 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo netselect-apt</code></p>
+
+<ul>
+  <li>Debian 브랜치를 지정, 기본적으로 stable이 사용됨:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo netselect-apt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">testing</span></p>
+
+<ul>
+  <li>non-free 섹션 포함:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo netselect-apt --non-free</code></p>
+
+<ul>
+  <li>미러 목록 조회를 위한 국가 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo netselect-apt -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인도</span></p>

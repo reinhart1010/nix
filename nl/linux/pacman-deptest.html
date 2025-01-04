@@ -1,0 +1,29 @@
+<h1 id="pacman-deptest">pacman –deptest</h1>
+
+<p>Controleer elke opgegeven afhankelijkheid en retourneer een lijst met afhankelijkheden die momenteel niet zijn voldaan op het systeem.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Meer informatie: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Toon de pakket-namen van de afhankelijkheden welke niet geïnstalleerd zijn:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket1 pakket2 …</span></p>
+
+<ul>
+  <li>Controleer of het geïnstalleerde pakket voldoet met de gegeven minimale versie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -T "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash&gt;=5</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Controleer of een latere versie van een pakket is geïnstalleerd:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -T "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash&gt;5</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Toon de [h]elp:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Th</code></p>

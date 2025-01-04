@@ -1,0 +1,41 @@
+<h1 id="sockstat">sockstat</h1>
+
+<p>Toon open Internet- of UNIX-domeinsockets.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">netstat</code>.
+Meer informatie: <a href="https://manned.org/sockstat">https://manned.org/sockstat</a>.</p>
+
+<ul>
+  <li>Toon informatie voor IPv4- en IPv6-sockets voor zowel luister- als verbonden sockets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat</code></p>
+
+<ul>
+  <li>Toon informatie voor IPv[4]/IPv[6] sockets die [l]uisteren op specifieke [p]oorten met een specifiek p[R]otocol:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4|6</span><code class="language-plaintext highlighter-rouge"> -l -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp|udp|sctp|divert</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">poort1,poort2…</span></p>
+
+<ul>
+  <li>Toon ook [c]onnected sockets en [u]nix-sockets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -cu</code></p>
+
+<ul>
+  <li>Toon alleen sockets van het opgegeven <code class="language-plaintext highlighter-rouge">pid</code> of proces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid|proces</span></p>
+
+<ul>
+  <li>Toon alleen sockets van de opgegeven <code class="language-plaintext highlighter-rouge">uid</code> of gebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uid|gebruiker</span></p>
+
+<ul>
+  <li>Toon alleen sockets van de opgegeven <code class="language-plaintext highlighter-rouge">gid</code> of groep:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -G </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gid|groep</span></p>

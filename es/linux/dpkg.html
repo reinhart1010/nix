@@ -1,0 +1,48 @@
+<h1 id="dpkg">dpkg</h1>
+
+<p>Administrador de paquetes de Debian.
+Algunos subcomandos como <code class="language-plaintext highlighter-rouge">deb</code> tienen su propia documentación de uso.
+Para comandos equivalentes en otros gestores de paquetes, vea <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a>.
+Más información: <a href="https://manned.org/dpkg">https://manned.org/dpkg</a>.</p>
+
+<ul>
+  <li>Instala un paquete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.deb</span></p>
+
+<ul>
+  <li>Remueve un paquete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Lista los paquetes instalados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patrón</span></p>
+
+<ul>
+  <li>Lista los contenidos de un paquete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Lista los contenidos de un archivo de paquete local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.deb</span></p>
+
+<ul>
+  <li>Averigua qué paquete posee un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Purga un paquete instalado o ya eliminado, incluyendo su configuración:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>

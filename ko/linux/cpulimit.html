@@ -1,0 +1,40 @@
+<h1 id="cpulimit">cpulimit</h1>
+
+<p>다른 프로세스의 CPU 사용을 제한하는 도구.
+더 많은 정보: <a href="https://cpulimit.sourceforge.net/">https://cpulimit.sourceforge.net/</a>.</p>
+
+<ul>
+  <li>PID 1234인 기존 프로세스의 CPU 사용을 25%로 제한:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpulimit --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span><code class="language-plaintext highlighter-rouge"> --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">25%</span></p>
+
+<ul>
+  <li>실행 파일 이름으로 기존 프로그램의 CPU 사용 제한:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpulimit --exe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로그램</span><code class="language-plaintext highlighter-rouge"> --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">25</span></p>
+
+<ul>
+  <li>주어진 프로그램을 실행하고 CPU 사용을 50%로 제한:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpulimit --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로그램 인수1 인수2 …</span></p>
+
+<ul>
+  <li>프로그램을 실행하고 CPU 사용을 50%로 제한하며 cpulimit을 백그라운드에서 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpulimit --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span><code class="language-plaintext highlighter-rouge"> --background -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로그램</span></p>
+
+<ul>
+  <li>프로그램의 CPU 사용이 50%를 초과하면 프로세스 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpulimit --limit 50 --kill -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로그램</span></p>
+
+<ul>
+  <li>프로그램과 자식 프로세스의 CPU 사용을 각각 25%로 제한:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpulimit --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">25</span><code class="language-plaintext highlighter-rouge"> --monitor-forks -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로그램</span></p>

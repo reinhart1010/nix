@@ -1,0 +1,41 @@
+<h1 id="uwfmgr">uwfmgr</h1>
+
+<p>Unified Write Filter (UWF).
+Protect drives by redirecting any writes to the drive to a virtual overlay. Writes are discarded upon reboot unless committed by default.
+More information: <a href="https://learn.microsoft.com/windows/iot/iot-enterprise/customize/unified-write-filter">https://learn.microsoft.com/windows/iot/iot-enterprise/customize/unified-write-filter</a>.</p>
+
+<ul>
+  <li>Get the current status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uwfmgr get-config</code></p>
+
+<ul>
+  <li>Set a drive as protected:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uwfmgr volume protect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">drive_letter</span><code class="language-plaintext highlighter-rouge">:</code></p>
+
+<ul>
+  <li>Remove a drive from protection list:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uwfmgr volume unprotect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">drive_letter</span><code class="language-plaintext highlighter-rouge">:</code></p>
+
+<ul>
+  <li>Enable or disable protection (Applies after reboot):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uwfmgr filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enable|disable</span></p>
+
+<ul>
+  <li>Commit changes of a file on protected drive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uwfmgr file commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">drive_letter:\path\to\file</span></p>
+
+<ul>
+  <li>Commit deletion of a file on protected drive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uwfmgr file commit-delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">drive_letter:\path\to\file</span></p>

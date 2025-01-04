@@ -1,0 +1,28 @@
+<h1 id="sg">sg</h1>
+
+<p>Ast-grep은 코드 구조 검색, 린트 및 재작성 도구입니다.
+더 많은 정보: <a href="https://ast-grep.github.io/guide/introduction.html">https://ast-grep.github.io/guide/introduction.html</a>.</p>
+
+<ul>
+  <li>대화형 모드를 사용하여 가능한 쿼리 스캔:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sg scan --interactive</code></p>
+
+<ul>
+  <li>패턴을 사용하여 현재 디렉토리의 코드 재작성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sg run --pattern '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge">' --rewrite '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span><code class="language-plaintext highlighter-rouge">' --lang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">python</span></p>
+
+<ul>
+  <li>변경 사항을 적용하지 않고 시각화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sg run --pattern '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">useState<number>($A)&lt;/span&gt;`' --rewrite '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">useState($A)</span>`' --lang `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">typescript</span></number></span></p>
+
+<ul>
+  <li>결과를 JSON으로 출력하고, <code class="language-plaintext highlighter-rouge">jq</code>를 사용하여 정보 추출 후 <code class="language-plaintext highlighter-rouge">jless</code>를 통해 대화형으로 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sg run --pattern '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Some($A)</span><code class="language-plaintext highlighter-rouge">' --rewrite '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">None</span><code class="language-plaintext highlighter-rouge">' --json | jq '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.[].replacement</span><code class="language-plaintext highlighter-rouge">' | jless</code></p>

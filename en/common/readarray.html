@@ -1,0 +1,28 @@
+<h1 id="readarray">readarray</h1>
+
+<p>Read lines from <code class="language-plaintext highlighter-rouge">stdin</code> into an array.
+More information: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-readarray">https://www.gnu.org/software/bash/manual/bash.html#index-readarray</a>.</p>
+
+<ul>
+  <li>Interactively input lines into an array:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readarray </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">array_name</span></p>
+
+<ul>
+  <li>Read lines from a file and insert them in an array:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readarray </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">array_name</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>
+
+<ul>
+  <li>Remove trailing deliminators (newline by default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readarray -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">array_name</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>
+
+<ul>
+  <li>Copy at most the specified number of lines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readarray -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">array_name</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>

@@ -1,0 +1,35 @@
+<h1 id="strigger">strigger</h1>
+
+<p>Slurm 트리거 정보를 조회하거나 수정합니다.
+트리거는 Slurm 클러스터에서 이벤트가 발생할 때 자동으로 실행되는 작업입니다.
+더 많은 정보: <a href="https://slurm.schedmd.com/strigger.html">https://slurm.schedmd.com/strigger.html</a>.</p>
+
+<ul>
+  <li>새로운 트리거 등록: 지정된 이벤트가 발생할 때 지정된 프로그램을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strigger --set --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">primary_database_failure|primary_slurmdbd_failure|primary_slurmctld_acct_buffer_full|primary_slurmctld_failure|…</span><code class="language-plaintext highlighter-rouge"> --program=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/실행파일</span></p>
+
+<ul>
+  <li>지정된 작업이 종료될 때 지정된 프로그램을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strigger --set --jobid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_ID</span><code class="language-plaintext highlighter-rouge"> --fini --program="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/실행파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수1 인수2 …</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>활성 트리거 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strigger --get</code></p>
+
+<ul>
+  <li>지정된 작업과 관련된 활성 트리거 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strigger --get --jobid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_ID</span></p>
+
+<ul>
+  <li>지정된 트리거 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strigger --clear </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">트리거_ID</span></p>

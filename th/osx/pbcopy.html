@@ -1,0 +1,17 @@
+<h1 id="pbcopy">pbcopy</h1>
+
+<p>คัดลอกข้อมูลจากอินพุตมาตรฐาน (<code class="language-plaintext highlighter-rouge">stdin</code>) ไปยังคลิปบอร์ด
+เทียบได้กับการกดปุ่ม Cmd + C บนแป้นพิมพ์
+ข้อมูลเพิ่มเติม: <a href="https://keith.github.io/xcode-man-pages/pbcopy.1.html">https://keith.github.io/xcode-man-pages/pbcopy.1.html</a></p>
+
+<ul>
+  <li>คัดลอกเนื้อหาในไฟล์ที่กำหนดไปยังคลิปบอร์ด:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbcopy &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ทาง/ไป/ไฟล์</span></p>
+
+<ul>
+  <li>คัดลอกผลลัพธ์ของคำสั่งไปยังคลิปบอร์ด:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find . -type t -name "*.png" | pbcopy</code></p>

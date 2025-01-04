@@ -1,0 +1,52 @@
+<h1 id="cupsd">cupsd</h1>
+
+<p>Daemon de servidor para o servidor de impressão CUPS.
+Mais informações: <a href="https://openprinting.github.io/cups/doc/man-cupsd.html">https://openprinting.github.io/cups/doc/man-cupsd.html</a>.</p>
+
+<ul>
+  <li>Inicia o <code class="language-plaintext highlighter-rouge">cupsd</code> em segundo plano, ou seja, como um daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd</code></p>
+
+<ul>
+  <li>Inicia o <code class="language-plaintext highlighter-rouge">cupsd</code> em primeiro plano:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -f</code></p>
+
+<ul>
+  <li>Inicia o <code class="language-plaintext highlighter-rouge">cupsd</code> sob demanda (usado comumente pelo <code class="language-plaintext highlighter-rouge">launchd</code> ou <code class="language-plaintext highlighter-rouge">systemd</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -l</code></p>
+
+<ul>
+  <li>Inicia o <code class="language-plaintext highlighter-rouge">cupsd</code> usando o arquivo de configuração [<code class="language-plaintext highlighter-rouge">c</code>]<code class="language-plaintext highlighter-rouge">upsd.conf</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/cupsd.conf</span></p>
+
+<ul>
+  <li>Inicia o <code class="language-plaintext highlighter-rouge">cupsd</code> usando os arquivos de configuração no arquivo <code class="language-plaintext highlighter-rouge">cups-file</code>[<code class="language-plaintext highlighter-rouge">s</code>]<code class="language-plaintext highlighter-rouge">.conf</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivos-cups.conf</span></p>
+
+<ul>
+  <li>[t]esta o arquivo de configuração [<code class="language-plaintext highlighter-rouge">c</code>]<code class="language-plaintext highlighter-rouge">upsd.conf</code> por erros:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -t -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/cupsd.conf</span></p>
+
+<ul>
+  <li>[t]esta os arquivos de configuração no arquivo <code class="language-plaintext highlighter-rouge">cups-file</code>[<code class="language-plaintext highlighter-rouge">s</code>]<code class="language-plaintext highlighter-rouge">.conf</code> por erros:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -t -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivos-cups.conf</span></p>
+
+<ul>
+  <li>Mostra todas as opções disponíveis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -h</code></p>

@@ -1,0 +1,46 @@
+<h1 id="strace">strace</h1>
+
+<p>Troubleshooting tool for tracing system calls.
+More information: <a href="https://manned.org/strace">https://manned.org/strace</a>.</p>
+
+<ul>
+  <li>Start tracing a specific [p]rocess by its PID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strace -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Trace a [p]rocess and filt[e]r output by system call:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strace -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">system_call,system_call2,…</span></p>
+
+<ul>
+  <li>Count time, calls, and errors for each system call and report a summary on program exit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strace -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> -c</code></p>
+
+<ul>
+  <li>Show the [T]ime spent in every system call and specify the maximum string [s]ize to print:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strace -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> -T -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">32</span></p>
+
+<ul>
+  <li>Start tracing a program by executing it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Start tracing file operations of a program:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strace -e trace=file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Start tracing network operations of a program as well as all its [f]orked and child processes, saving the [o]utput to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strace -f -e trace=network -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">trace.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>

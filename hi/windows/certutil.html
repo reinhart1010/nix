@@ -1,0 +1,34 @@
+<h1 id="certutil">certutil</h1>
+
+<p>सर्टीफिकेट सूचना को प्रबंधित और विन्यसित करने के लिए एक टूल।
+अधिक जानकारी: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/certutil">https://learn.microsoft.com/windows-server/administration/windows-commands/certutil</a>।</p>
+
+<ul>
+  <li>विन्यास सूचना या फ़ाइलों को डंप करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल_नाम</span></p>
+
+<ul>
+  <li>एक फ़ाइल को हेक्साडेसिमल में एनकोड करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil -encodehex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">इनपुट_फ़ाइल\का\पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट_फ़ाइल\का\पथ</span></p>
+
+<ul>
+  <li>एक फ़ाइल को बेस64 में एनकोड करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil -encode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">इनपुट_फ़ाइल\का\पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट_फ़ाइल\का\पथ</span></p>
+
+<ul>
+  <li>बेस64-एनकोड फ़ाइल को डीकोड करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil -decode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">इनपुट_फ़ाइल\का\पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट_फ़ाइल\का\पथ</span></p>
+
+<ul>
+  <li>एक फ़ाइल पर एक आपातकालिक हैश उत्पन्न करें और प्रदर्शित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil -hashfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">इनपुट_फ़ाइल\का\पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">md2|md4|md5|sha1|sha256|sha384|sha512</span></p>

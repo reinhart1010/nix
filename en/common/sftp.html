@@ -1,0 +1,54 @@
+<h1 id="sftp">sftp</h1>
+
+<p>Secure File Transfer Program.
+Interactive program to copy files between hosts over SSH.
+For non-interactive file transfers, see <code class="language-plaintext highlighter-rouge">scp</code> or <code class="language-plaintext highlighter-rouge">rsync</code>.
+More information: <a href="https://manned.org/sftp">https://manned.org/sftp</a>.</p>
+
+<ul>
+  <li>Connect to a remote server and enter an interactive command mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_user</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>
+
+<ul>
+  <li>Connect using an alternate port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sftp -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_user</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>
+
+<ul>
+  <li>Connect using a predefined host (in <code class="language-plaintext highlighter-rouge">~/.ssh/config</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Transfer remote file to the local system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/remote_file</span></p>
+
+<ul>
+  <li>Transfer local file to the remote system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">put </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/local_file</span></p>
+
+<ul>
+  <li>Transfer remote directory to the local system recursively (works with <code class="language-plaintext highlighter-rouge">put</code> too):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">get -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/remote_directory</span></p>
+
+<ul>
+  <li>Get list of files on local machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lls</code></p>
+
+<ul>
+  <li>Get list of files on remote machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls</code></p>

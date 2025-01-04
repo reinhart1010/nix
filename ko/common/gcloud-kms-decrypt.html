@@ -1,0 +1,17 @@
+<h1 id="gcloud-kms-decrypt">gcloud kms decrypt</h1>
+
+<p>Cloud KMS 키를 사용하여 암호화된 파일 복호화.
+같이 보기: <code class="language-plaintext highlighter-rouge">gcloud</code>.
+더 많은 정보: <a href="https://cloud.google.com/sdk/gcloud/reference/kms/decrypt">https://cloud.google.com/sdk/gcloud/reference/kms/decrypt</a>.</p>
+
+<ul>
+  <li>지정된 키, 키 링 및 위치를 사용하여 파일 복호화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud kms decrypt --key=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> --keyring=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_링_이름</span><code class="language-plaintext highlighter-rouge"> --location=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global</span><code class="language-plaintext highlighter-rouge"> --ciphertext-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/암호문</span><code class="language-plaintext highlighter-rouge"> --plaintext-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/평문</span></p>
+
+<ul>
+  <li>추가 인증 데이터를 사용하여 파일을 복호화하고 복호화된 평문을 <code class="language-plaintext highlighter-rouge">stdout</code>에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud kms decrypt --key=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> --keyring=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_링_이름</span><code class="language-plaintext highlighter-rouge"> --location=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global</span><code class="language-plaintext highlighter-rouge"> --additional-authenticated-data-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.aad</span><code class="language-plaintext highlighter-rouge"> --ciphertext-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/암호문</span><code class="language-plaintext highlighter-rouge"> --plaintext-file=-</code></p>

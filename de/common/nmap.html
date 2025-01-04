@@ -1,0 +1,53 @@
+<h1 id="nmap">nmap</h1>
+
+<p>Netzwerk-Erkundungs-Werkzeug und Security / Port Scanner.
+Manche Funktionen können nur benutzt werden, wenn Nmap mit Root Rechten ausgeführt wird.
+Weitere Informationen: <a href="https://nmap.org/book/man.html">https://nmap.org/book/man.html</a>.</p>
+
+<ul>
+  <li>Überprüfe ob eine IP-Adresse online ist und versuche, das Betriebssystem herauszufinden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_oder_hostname</span></p>
+
+<ul>
+  <li>Überprüfe nur ob die angegebenen Hosts online sind (Ping Scan) und ihre Domain-Namen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nmap -sn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_oder_hostname</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_noch_eine_addresse</span></p>
+
+<ul>
+  <li>Scanne zusätzlich mit Skripten, Service-Erkennung, Betriebssystem-Fingerprinting und Traceroute:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">addresse_oder_addressen</span></p>
+
+<ul>
+  <li>Scanne eine spezifische Liste an Ports (benutze '-p-' für alle Ports von 1 bis 65535):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port1,port2,…,portN</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">addresse_oder_addressen</span></p>
+
+<ul>
+  <li>Führe Dienst- und Versions-Erkennung auf den top 1000 Ports mit den Standard NSE Skripten aus; und schreibe das Ergebnis ('-oN') in der Ausgabe Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -sC -sV -oN </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ergebnis.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">addresse_oder_addressen</span></p>
+
+<ul>
+  <li>Scanne Ziel(e) vorsichtig mit 'default and safe' NSE Scripts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap --script "default and safe" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">addresse_oder_addressen</span></p>
+
+<ul>
+  <li>Scanne einen Web-Server, der auf den Standard Ports 80 und 443 läuft, mit allen verfügbaren 'http-*' NSE Skripten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap --script "http-*" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">addresse_oder_addressen</span><code class="language-plaintext highlighter-rouge"> -p 80,443</code></p>
+
+<ul>
+  <li>Führe einen sehr langsamen verborgenen Scan ('-T0') aus um die Entdeckung von IDS/IPS zu umgehen und benutze Köder IP-Adressen ('-D'):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -T0 -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">köder1_ipaddresse,köder2_ipaddresse,…,köderN_ipaddresse</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">addresse_oder_addressen</span></p>

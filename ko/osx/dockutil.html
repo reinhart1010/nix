@@ -1,0 +1,46 @@
+<h1 id="dockutil">dockutil</h1>
+
+<p>macOS Dock 항목 관리 도구.
+더 많은 정보: <a href="https://github.com/kcrawford/dockutil">https://github.com/kcrawford/dockutil</a>.</p>
+
+<ul>
+  <li>현재 사용자 Dock 끝에 애플리케이션 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/애플리케이션</span></p>
+
+<ul>
+  <li>현재 사용자 Dock에서 한 애플리케이션을 다른 애플리케이션으로 교체:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/애플리케이션</span><code class="language-plaintext highlighter-rouge"> --replacing '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dock_item_label</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>보기 옵션과 함께 폴더를 추가하고 폴더 아이콘 또는 스택으로 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> --view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grid|fan|list|auto</span><code class="language-plaintext highlighter-rouge"> --display </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">folder|stack</span></p>
+
+<ul>
+  <li>다른 항목 뒤에 URL Dock 항목 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vnc://example_server.local</span><code class="language-plaintext highlighter-rouge"> --label '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Example VNC</span><code class="language-plaintext highlighter-rouge">' --after </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dock_item_label</span></p>
+
+<ul>
+  <li>Dock에서 주어진 Dock 라벨 이름의 애플리케이션 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --remove '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dock_item_label</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>애플리케이션 뒤에 구분자를 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --add '' --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">spacer|small-spacer|flex-spacer</span><code class="language-plaintext highlighter-rouge"> --section </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apps</span><code class="language-plaintext highlighter-rouge"> --after </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dock_item_label</span></p>
+
+<ul>
+  <li>모든 구분자 타일 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --remove spacer-tiles</code></p>

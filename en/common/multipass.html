@@ -1,0 +1,52 @@
+<h1 id="multipass">multipass</h1>
+
+<p>Manage Ubuntu virtual machines using native hypervisors.
+More information: <a href="https://multipass.run/">https://multipass.run/</a>.</p>
+
+<ul>
+  <li>List the aliases that can be used to launch an instance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">multipass find</code></p>
+
+<ul>
+  <li>Launch a new instance, set its name and use a cloud-init configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">multipass launch -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instance_name</span><code class="language-plaintext highlighter-rouge"> --cloud-init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">configuration_file</span></p>
+
+<ul>
+  <li>List all the created instances and some of their properties:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">multipass list</code></p>
+
+<ul>
+  <li>Start a specific instance by name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">multipass start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instance_name</span></p>
+
+<ul>
+  <li>Show the properties of an instance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">multipass info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instance_name</span></p>
+
+<ul>
+  <li>Open a shell prompt on a specific instance by name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">multipass shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instance_name</span></p>
+
+<ul>
+  <li>Delete an instance by name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">multipass delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instance_name</span></p>
+
+<ul>
+  <li>Mount a directory into a specific instance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">multipass mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local/directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instance_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target/directory</span></p>

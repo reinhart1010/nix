@@ -1,0 +1,35 @@
+<h1 id="ect">ect</h1>
+
+<p>Efficient Compression Tool.
+Otimizador de arquivos escrito em C++. Suporta arquivos do tipo PNG, JPEG, gzip and Zip.
+Mais informações: <a href="https://github.com/fhanau/Efficient-Compression-Tool">https://github.com/fhanau/Efficient-Compression-Tool</a>.</p>
+
+<ul>
+  <li>Comprime um arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.png</span></p>
+
+<ul>
+  <li>Comprime um arquivo com level de compressão específico e multithreading (1=Mais rápido (pior), 9=Mais lento (Melhor). O padrão é 3):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ect -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9</span><code class="language-plaintext highlighter-rouge"> --mt-deflate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.zip</span></p>
+
+<ul>
+  <li>Comprime todos os arquivos em um diretório recursivamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ect -recurse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Comprime um arquivo, mantendo o tempo de modificação original:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ect -keep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.png</span></p>
+
+<ul>
+  <li>Comprime um arquivo, removendo metadados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ect -strip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.png</span></p>

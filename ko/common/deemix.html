@@ -1,0 +1,29 @@
+<h1 id="deemix">deemix</h1>
+
+<p>Deezloader Remix의 나머지를 바탕으로 구축된 베어본 deezer 다운로드 라이브러리.
+독립형 CLI 앱 또는 API를 사용하여 UI에서 구현 가능.
+더 많은 정보: <a href="https://gitlab.com/RemixDev/deemix-py">https://gitlab.com/RemixDev/deemix-py</a>.</p>
+
+<ul>
+  <li>트랙이나 재생목록 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">deemix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.deezer.com/us/track/00000000</span></p>
+
+<ul>
+  <li>특정 비트전송률로 트랙/재생 목록 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">deemix --bitrate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">FLAC|MP3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>특정 경로로 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">deemix --bitrate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비트전송률</span><code class="language-plaintext highlighter-rouge"> --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>현재 디렉터리에 휴대용 deemix 구성 파일을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">deemix --portable --bitrate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비트전송률</span><code class="language-plaintext highlighter-rouge"> --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>

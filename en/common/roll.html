@@ -1,0 +1,40 @@
+<h1 id="roll">roll</h1>
+
+<p>Rolls a user-defined dice sequence.
+More information: <a href="https://manned.org/roll">https://manned.org/roll</a>.</p>
+
+<ul>
+  <li>Roll 3 6-sided dice and sums the results:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">roll </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3d</span></p>
+
+<ul>
+  <li>Roll 1 8-sided die, add 3 and sum the results:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">roll </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">d8 + 3</span></p>
+
+<ul>
+  <li>Roll 4 6-sided dice, keep the 3 highest results and sum the results:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">roll </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4d6h3</span></p>
+
+<ul>
+  <li>Roll 2 12-sided dice 2 times and show every roll:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">roll --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2{2d12}</span></p>
+
+<ul>
+  <li>Roll 2 20-sided dice until the result is bigger than 10:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">roll "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2d20&gt;10</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Roll 2 5-sided dice 3 times and show the total sum:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">roll --sum-series </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3{2d5}</span></p>

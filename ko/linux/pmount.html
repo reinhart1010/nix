@@ -1,0 +1,34 @@
+<h1 id="pmount">pmount</h1>
+
+<p>일반 사용자가 임의의 핫플러그 가능 장치를 마운트.
+더 많은 정보: <a href="https://manned.org/pmount">https://manned.org/pmount</a>.</p>
+
+<ul>
+  <li>장치를 <code class="language-plaintext highlighter-rouge">/media/</code> 아래에 마운트(장치를 마운트 지점으로 사용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pmount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/to/block/device</span></p>
+
+<ul>
+  <li>특정 파일시스템 타입으로 장치를 <code class="language-plaintext highlighter-rouge">/media/label</code>에 마운트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pmount --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일시스템</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/to/block/device</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">라벨</span></p>
+
+<ul>
+  <li>CD-ROM을 읽기 전용 모드로 마운트(파일시스템 타입 ISO9660):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pmount --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">iso9660</span><code class="language-plaintext highlighter-rouge"> --read-only </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/cdrom</span></p>
+
+<ul>
+  <li>NTFS로 포맷된 디스크를 읽기-쓰기 모드로 강제 마운트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pmount --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ntfs</span><code class="language-plaintext highlighter-rouge"> --read-write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>마운트된 모든 이동식 장치 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pmount</code></p>

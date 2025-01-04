@@ -1,0 +1,28 @@
+<h1 id="bclm">bclm</h1>
+
+<p>Set a custom charge limit on MacBooks.
+More information: <a href="https://github.com/zackelia/bclme">https://github.com/zackelia/bclme</a>.</p>
+
+<ul>
+  <li>Set the charge limit to about 80% (for Intel machines, the battery charge level may be slightly lower than the set value):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bclm write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">77</span></p>
+
+<ul>
+  <li>Read the current charge limit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bclm read</code></p>
+
+<ul>
+  <li>Keep the charge limit after rebooting/smc reset:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bclm persist</code></p>
+
+<ul>
+  <li>Remove the persistent charge limit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bclm unpersist</code></p>

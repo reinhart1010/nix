@@ -1,0 +1,16 @@
+<h1 id="genisoimage">genisoimage</h1>
+
+<p>Pre-mastering program to generate ISO9660/Joliet/HFS hybrid filesystems.
+More information: <a href="https://manned.org/genisoimage.1">https://manned.org/genisoimage.1</a>.</p>
+
+<ul>
+  <li>Create an ISO image from the given source directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">genisoimage -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">myimage.iso</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_directory</span></p>
+
+<ul>
+  <li>Create an ISO image with files larger than 2GiB by reporting a smaller apparent size for ISO9660 filesystems:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">genisoimage -o -allow-limited-size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">myimage.iso</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_directory</span></p>

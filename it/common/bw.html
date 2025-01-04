@@ -1,0 +1,34 @@
+<h1 id="bw">bw</h1>
+
+<p>CLI per accedere e gestire vault Bitwarden.
+Maggiori informazioni: <a href="https://help.bitwarden.com/article/cli/">https://help.bitwarden.com/article/cli/</a>.</p>
+
+<ul>
+  <li>Esegui il login ad un account Bitwarden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bw login</code></p>
+
+<ul>
+  <li>Esegui il logout da un account Bitwarden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bw logout</code></p>
+
+<ul>
+  <li>Cerca e mostra oggetti in un vault Bitwarden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bw list items --search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github</span></p>
+
+<ul>
+  <li>Mostra un particolare oggetto contenuto in un vault Bitwarden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bw get item </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github</span></p>
+
+<ul>
+  <li>Crea una directory in un vault bitwarden:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo -n '{"name":"Nome directory"}' | base64</span><code class="language-plaintext highlighter-rouge"> | bw create folder</code></p>

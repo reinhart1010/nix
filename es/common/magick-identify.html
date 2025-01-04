@@ -1,0 +1,23 @@
+<h1 id="magick-identify">magick identify</h1>
+
+<p>Describe el formato y las características de los archivos de imagen.
+Vea también: <code class="language-plaintext highlighter-rouge">magick</code>.
+Más información: <a href="https://imagemagick.org/script/identify.php">https://imagemagick.org/script/identify.php</a>.</p>
+
+<ul>
+  <li>Describe el formato y las características básicas de una imagen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick identify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/imagen</span></p>
+
+<ul>
+  <li>Describe el formato y las características de una imagen detalladamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick identify -verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/imagen</span></p>
+
+<ul>
+  <li>Recopila las dimensiones de todos los archivos JPEG en el directorio actual y los guarda en un archivo CSV:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick identify -format "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%f,%w,%h\n</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpg</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.csv</span></p>

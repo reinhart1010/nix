@@ -1,0 +1,52 @@
+<h1 id="clamdscan">clamdscan</h1>
+
+<p>Escaneo de virus con el servicio (daemon) ClamAV.
+Más información: <a href="https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan">https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan</a>.</p>
+
+<ul>
+  <li>Escanea un archivo o directorio buscando vulnerabilidades:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio</span></p>
+
+<ul>
+  <li>Escanea desde 'stdin`:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | clamdscan -</code></p>
+
+<ul>
+  <li>Escanea el directorio actual y muestra solo los archivos infectados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --infected</code></p>
+
+<ul>
+  <li>Imprime el informe de la exploración a un archivo de registro (log):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_registro</span></p>
+
+<ul>
+  <li>Mueve los archivos infectados a un directorio específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio_de_cuarentena</span></p>
+
+<ul>
+  <li>Elimina los archivos infectados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --remove</code></p>
+
+<ul>
+  <li>Utiliza varios hilos para escanear un directorio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --multiscan</code></p>
+
+<ul>
+  <li>Pasa el descriptor de archivo en lugar de transmitir el archivo al daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --fdpass</code></p>

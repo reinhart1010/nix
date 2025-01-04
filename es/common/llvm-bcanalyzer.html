@@ -1,0 +1,22 @@
+<h1 id="llvm-bcanalyzer">llvm-bcanalyzer</h1>
+
+<p>Analizador de bitcode LLVM (<code class="language-plaintext highlighter-rouge">.bc</code>).
+Más información: <a href="https://llvm.org/docs/CommandGuide/llvm-bcanalyzer.html">https://llvm.org/docs/CommandGuide/llvm-bcanalyzer.html</a>.</p>
+
+<ul>
+  <li>Imprime estadísticas sobre un archivo bitcode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-bcanalyzer </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.bc</span></p>
+
+<ul>
+  <li>Imprime una representación SGML y estadísticas sobre un archivo bitcode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-bcanalyzer -dump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.bc</span></p>
+
+<ul>
+  <li>Lee un archivo bitcode de <code class="language-plaintext highlighter-rouge">stdin</code> y lo analiza:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.bc</span><code class="language-plaintext highlighter-rouge"> | llvm-bcanalyzer</code></p>

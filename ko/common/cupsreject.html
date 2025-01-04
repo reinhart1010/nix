@@ -1,0 +1,24 @@
+<h1 id="cupsreject">cupsreject</h1>
+
+<p>프린터로 전송된 작업 거부.
+참고: 목적지는 프린터 또는 프린터 클래스를 나타냄.
+더 보기: <code class="language-plaintext highlighter-rouge">cupsaccept</code>, <code class="language-plaintext highlighter-rouge">cupsenable</code>, <code class="language-plaintext highlighter-rouge">cupsdisable</code>, <code class="language-plaintext highlighter-rouge">lpstat</code>.
+더 많은 정보: <a href="https://www.cups.org/doc/man-cupsaccept.html">https://www.cups.org/doc/man-cupsaccept.html</a>.</p>
+
+<ul>
+  <li>지정된 목적지로의 인쇄 작업 거부:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsreject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">목적지1 목적지2 …</span></p>
+
+<ul>
+  <li>다른 서버 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsreject -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서버</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">목적지1 목적지2 …</span></p>
+
+<ul>
+  <li>이유 문자열을 지정 (기본적으로 "Reason Unknown"):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsreject -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이유</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">목적지1 목적지2 …</span></p>

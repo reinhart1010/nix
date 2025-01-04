@@ -1,0 +1,35 @@
+<h1 id="prosodyctl">prosodyctl</h1>
+
+<p>Prosody XMPP 서버의 제어 도구.
+참고: <code class="language-plaintext highlighter-rouge">prosodyctl</code>을 통한 프로세스 관리는 권장되지 않습니다. 대신, 시스템에서 제공하는 도구(예: <code class="language-plaintext highlighter-rouge">systemctl</code>)를 사용하세요.
+더 많은 정보: <a href="https://prosody.im/doc/prosodyctl">https://prosody.im/doc/prosodyctl</a>.</p>
+
+<ul>
+  <li>Prosody 서버의 상태 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo prosodyctl status</code></p>
+
+<ul>
+  <li>서버의 구성 파일 다시 로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo prosodyctl reload</code></p>
+
+<ul>
+  <li>Prosody XMPP 서버에 사용자 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo prosodyctl adduser </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@example.com</span></p>
+
+<ul>
+  <li>사용자의 비밀번호 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo prosodyctl passwd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@example.com</span></p>
+
+<ul>
+  <li>사용자를 영구적으로 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo prosodyctl deluser </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@example.com</span></p>

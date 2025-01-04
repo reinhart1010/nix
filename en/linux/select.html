@@ -1,0 +1,28 @@
+<h1 id="select">select</h1>
+
+<p>Bash builtin construct for creating menus.
+More information: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-select">https://www.gnu.org/software/bash/manual/bash.html#index-select</a>.</p>
+
+<ul>
+  <li>Create a menu out of individual words:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">select </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">word</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apple</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">orange</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pear</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">banana</span><code class="language-plaintext highlighter-rouge">; do echo $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">word</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li>Create a menu from the output of another command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">select </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">line</span><code class="language-plaintext highlighter-rouge"> in $(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">); do echo $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">line</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li>Specify the prompt string for <code class="language-plaintext highlighter-rouge">select</code> and create a menu for picking a file or folder from the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">PS3="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Select a file: </span><code class="language-plaintext highlighter-rouge">"; select </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span><code class="language-plaintext highlighter-rouge"> in *; do echo $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li>Create a menu from a Bash array:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fruits</span><code class="language-plaintext highlighter-rouge">=(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apple</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">orange</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pear</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">banana</span><code class="language-plaintext highlighter-rouge">); select </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">word</span><code class="language-plaintext highlighter-rouge"> in $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{fruits</span><code class="language-plaintext highlighter-rouge">[@]}; do echo $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">word</span><code class="language-plaintext highlighter-rouge">; done</code></p>

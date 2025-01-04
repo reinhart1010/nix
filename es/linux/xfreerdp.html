@@ -1,0 +1,40 @@
+<h1 id="xfreerdp">xfreerdp</h1>
+
+<p>Implementación del protocolo del Free Remote Desktop.
+Más información: <a href="https://www.freerdp.com">https://www.freerdp.com</a>.</p>
+
+<ul>
+  <li>Conéctate a un servidor FreeRDP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xfreerdp /u:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> /p:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge"> /v:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_ip</span></p>
+
+<ul>
+  <li>Conéctate a un servidor FreeRDP y activa la redirección de la salida de audio mediante el dispositivo <code class="language-plaintext highlighter-rouge">sys:alsa</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xfreerdp /u:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> /p:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge"> /v:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_ip</span><code class="language-plaintext highlighter-rouge"> /sound:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sys:alsa</span></p>
+
+<ul>
+  <li>Conéctate a un servidor FreeRDP con resolución dinámica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xfreerdp /v:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_ip</span><code class="language-plaintext highlighter-rouge"> /u:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> /p:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge"> /dynamic-resolution</code></p>
+
+<ul>
+  <li>Conéctate a un servidor FreeRDP con redirección del portapapeles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xfreerdp /v:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_ip</span><code class="language-plaintext highlighter-rouge"> /u:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> /p:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge"> +clipboard</code></p>
+
+<ul>
+  <li>Conéctate a un servidor FreeRDP ignorando cualquier comprobación de certificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xfreerdp /v:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_ip</span><code class="language-plaintext highlighter-rouge"> /u:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> /p:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge"> /cert:ignore</code></p>
+
+<ul>
+  <li>Conéctate a un servidor FreeRDP con un directorio compartido:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xfreerdp /v:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_ip</span><code class="language-plaintext highlighter-rouge"> /u:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> /p:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge"> /drive:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_compartido</span></p>

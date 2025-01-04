@@ -1,0 +1,52 @@
+<h1 id="gmssl">gmssl</h1>
+
+<p>GmSSL은 SM1, SM2, SM3, SM4, SM9 및 ZUC/ZUC256을 지원하는 암호화 툴킷.
+더 많은 정보: <a href="http://gmssl.org/english.html">http://gmssl.org/english.html</a>.</p>
+
+<ul>
+  <li>파일에 대한 SM3 해시를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gmssl sm3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>SM4 암호를 사용하여 파일을 암호화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gmssl sms4 -e -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.sms4</span></p>
+
+<ul>
+  <li>SM4 암호를 사용하여 파일을 복호화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gmssl sms4 -d -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.sms4</span></p>
+
+<ul>
+  <li>SM2 개인키를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gmssl sm2 -genkey -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pem</span></p>
+
+<ul>
+  <li>기존 개인 키에서 SM2 공개키를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gmssl sm2 -pubout -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pem</span><code class="language-plaintext highlighter-rouge"> -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pem.pub</span></p>
+
+<ul>
+  <li>ZUC 암호를 사용하여 파일을 암호화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gmssl zuc -e -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.zuc</span></p>
+
+<ul>
+  <li>ZUC 암호를 사용하여 파일을 복호화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gmssl zuc -d -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.zuc</span></p>
+
+<ul>
+  <li>버전 정보 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gmssl version</code></p>

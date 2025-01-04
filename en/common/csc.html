@@ -1,0 +1,52 @@
+<h1 id="csc">csc</h1>
+
+<p>The Microsoft C# Compiler.
+More information: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe">https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe</a>.</p>
+
+<ul>
+  <li>Compile one or more C# files to a CIL executable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file_a.cs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file_b.cs</span></p>
+
+<ul>
+  <li>Specify the output filename:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csc /out:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.cs</span></p>
+
+<ul>
+  <li>Compile into a <code class="language-plaintext highlighter-rouge">.dll</code> library instead of an executable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csc /target:library </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.cs</span></p>
+
+<ul>
+  <li>Reference another assembly:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csc /reference:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/library.dll</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.cs</span></p>
+
+<ul>
+  <li>Embed a resource:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csc /resource:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/resource_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.cs</span></p>
+
+<ul>
+  <li>Automatically generate XML documentation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csc /doc:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.xml</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.cs</span></p>
+
+<ul>
+  <li>Specify an icon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csc /win32icon:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/icon.ico</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.cs</span></p>
+
+<ul>
+  <li>Strongly-name the resulting assembly with a keyfile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csc /keyfile:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/keyfile</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.cs</span></p>

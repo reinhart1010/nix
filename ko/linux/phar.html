@@ -1,0 +1,52 @@
+<h1 id="phar">phar</h1>
+
+<p>PHP 아카이브(PHAR)를 생성, 업데이트 또는 추출.
+더 많은 정보: <a href="https://manned.org/phar">https://manned.org/phar</a>.</p>
+
+<ul>
+  <li>하나 이상의 파일이나 디렉터리를 Phar 파일에 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phar add -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/phar_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉터리1 경로/대상/파일_또는_디렉터리2 …</span></p>
+
+<ul>
+  <li>Phar 파일의 내용 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phar list -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/phar_파일</span></p>
+
+<ul>
+  <li>Phar 파일에서 지정된 파일이나 디렉터리 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phar delete -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/phar_파일</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_또는_디렉터리</span></p>
+
+<ul>
+  <li>Phar 파일 내 파일과 디렉터리 압축 또는 압축 해제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phar compress -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/phar_파일</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">알고리즘</span></p>
+
+<ul>
+  <li>Phar 파일에 대한 정보 얻기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phar info -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/phar_파일</span></p>
+
+<ul>
+  <li>특정 해시 알고리즘으로 Phar 파일 서명:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phar sign -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/phar_파일</span><code class="language-plaintext highlighter-rouge"> -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">알고리즘</span></p>
+
+<ul>
+  <li>OpenSSL 개인 키로 Phar 파일 서명:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phar sign -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/phar_파일</span><code class="language-plaintext highlighter-rouge"> -h openssl -y </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/개인_키</span></p>
+
+<ul>
+  <li>도움말 및 사용 가능한 해싱/압축 알고리즘 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phar help</code></p>

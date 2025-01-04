@@ -1,0 +1,28 @@
+<h1 id="mytop">mytop</h1>
+
+<p>Display MySQL server performance info like <code class="language-plaintext highlighter-rouge">top</code>.
+More information: <a href="https://jeremy.zawodny.com/mysql/mytop/mytop.html">https://jeremy.zawodny.com/mysql/mytop/mytop.html</a>.</p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">mytop</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mytop</code></p>
+
+<ul>
+  <li>Connect with a specified username and password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mytop -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Connect with a specified username (the user will be prompted for a password):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mytop -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> --prompt</code></p>
+
+<ul>
+  <li>Do not show any idle (sleeping) threads:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mytop -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> --noidle</code></p>

@@ -1,0 +1,40 @@
+<h1 id="fuser">fuser</h1>
+
+<p>파일이나 소켓을 현재 사용 중인 프로세스 ID를 표시합니다.
+더 많은 정보: <a href="https://manned.org/fuser">https://manned.org/fuser</a>.</p>
+
+<ul>
+  <li>파일이나 폴더에 접근 중인 프로세스 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fuser </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>
+
+<ul>
+  <li>더 많은 필드 표시 (<code class="language-plaintext highlighter-rouge">USER</code>, <code class="language-plaintext highlighter-rouge">PID</code>, <code class="language-plaintext highlighter-rouge">ACCESS</code>, <code class="language-plaintext highlighter-rouge">COMMAND</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fuser --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>
+
+<ul>
+  <li>TCP 소켓을 사용하는 프로세스 식별:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fuser --namespace tcp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span></p>
+
+<ul>
+  <li>파일이나 폴더에 접근 중인 모든 프로세스 종료 (<code class="language-plaintext highlighter-rouge">SIGKILL</code> 신호 전송):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fuser --kill </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>
+
+<ul>
+  <li>특정 파일이나 폴더가 포함된 파일 시스템에 접근 중인 프로세스 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fuser --mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>
+
+<ul>
+  <li>특정 포트에서 TCP 연결을 가진 모든 프로세스 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fuser --kill </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span><code class="language-plaintext highlighter-rouge">/tcp</code></p>

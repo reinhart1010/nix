@@ -1,0 +1,34 @@
+<h1 id="mysides">mysides</h1>
+
+<p>Añade, lista y elimina favoritos del Finder.
+Más información: <a href="https://github.com/mosen/mysides">https://github.com/mosen/mysides</a>.</p>
+
+<ul>
+  <li>Lista favoritos de la barra lateral:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysides list</code></p>
+
+<ul>
+  <li>Añade un nuevo elemento al final de los favoritos de la barra lateral:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysides add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file:///Usuarios/Compartidos/ejemplo</span></p>
+
+<ul>
+  <li>Elimina un elemento por su nombre:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysides remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo</span></p>
+
+<ul>
+  <li>Añade el directorio actual a la barra lateral:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysides add $(basename $(pwd)) file:///$(pwd)</code></p>
+
+<ul>
+  <li>Elimina el directorio actual de la barra lateral:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysides remove $(basename $(pwd))</code></p>

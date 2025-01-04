@@ -1,0 +1,40 @@
+<h1 id="gum">gum</h1>
+
+<p>Produce guiones glamorosos para el intérprete de comando.
+Más información: <a href="https://github.com/charmbracelet/gum">https://github.com/charmbracelet/gum</a>.</p>
+
+<ul>
+  <li>Ofrece varias opciones para elegir una y la imprime en <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gum choose "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opción_1</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opción_2</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opción_3</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Muestra una entrada de texto interactiva para que el usuario introduzca una cadena con un texto indicativo (placeholder) específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gum input --placeholder "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Abre un aviso de confirmación interactivo y sale con <code class="language-plaintext highlighter-rouge">0</code> o <code class="language-plaintext highlighter-rouge">1</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gum confirm "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">¿Continuar?</span><code class="language-plaintext highlighter-rouge">" --default=false --affirmative "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Sí</span><code class="language-plaintext highlighter-rouge">" --negative "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">No</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">&amp;&amp; echo "Seleccionó Sí" || echo "Seleccionó No"</span></p>
+
+<ul>
+  <li>Muestra un spinner con un texto acompañante mientras se ejecuta una orden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gum spin --spinner </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dot|line|minidot|jump|pulse|points|globe|moon|monkey|meter|hamburger</span><code class="language-plaintext highlighter-rouge"> --title "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cargando…</span><code class="language-plaintext highlighter-rouge">" -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">orden</span></p>
+
+<ul>
+  <li>Formatea texto para incluir emojis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gum format -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">emoji</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:smile: :heart: hola</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Solicita texto de varias líneas interactivamente (CTRL + D para salvar) y escribir en <code class="language-plaintext highlighter-rouge">datos.txt</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gum write &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">datos.txt</span></p>

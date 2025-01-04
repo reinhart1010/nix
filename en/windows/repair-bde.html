@@ -1,0 +1,52 @@
+<h1 id="repair-bde">repair-bde</h1>
+
+<p>Attempt to repair or decrypt a damaged BitLocker-encrypted volume.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/repair-bde">https://learn.microsoft.com/windows-server/administration/windows-commands/repair-bde</a>.</p>
+
+<ul>
+  <li>Attempt to repair a specified volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repair-bde </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:</span></p>
+
+<ul>
+  <li>Attempt to repair a specified volume and output to another volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repair-bde </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">D:</span></p>
+
+<ul>
+  <li>Attempt to repair a specified volume using the provided recovery key file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repair-bde </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:</span><code class="language-plaintext highlighter-rouge"> -RecoveryKey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file.bek</span></p>
+
+<ul>
+  <li>Attempt to repair a specified volume using the provided numerical recovery password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repair-bde </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:</span><code class="language-plaintext highlighter-rouge"> -RecoveryPassword </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Attempt to repair a specified volume using the provided password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repair-bde </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:</span><code class="language-plaintext highlighter-rouge"> -Password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Attempt to repair a specified volume using the provided key package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repair-bde </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:</span><code class="language-plaintext highlighter-rouge"> -KeyPackage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span></p>
+
+<ul>
+  <li>Log all output to a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repair-bde </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:</span><code class="language-plaintext highlighter-rouge"> -LogFile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repair-bde /?</code></p>

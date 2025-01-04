@@ -1,0 +1,22 @@
+<h1 id="kubectl-expose">kubectl expose</h1>
+
+<p>리소스를 새로운 Kubernetes 서비스로 노출.
+더 많은 정보: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#expose">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#expose</a>.</p>
+
+<ul>
+  <li>컨테이너 포트에서 노드 포트로 제공될 리소스에 대한 서비스 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl expose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_타입</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_이름</span><code class="language-plaintext highlighter-rouge"> --port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">노드_포트</span><code class="language-plaintext highlighter-rouge"> --target-port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_포트</span></p>
+
+<ul>
+  <li>파일로 식별된 리소스에 대한 서비스 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl expose -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.yml</span><code class="language-plaintext highlighter-rouge"> --port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">노드_포트</span><code class="language-plaintext highlighter-rouge"> --target-port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_포트</span></p>
+
+<ul>
+  <li>컨테이너 포트와 동일한 노드 포트로 제공할 이름이 있는 서비스 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl expose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_타입</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_이름</span><code class="language-plaintext highlighter-rouge"> --port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">노드_포트</span><code class="language-plaintext highlighter-rouge"> --name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서비스_이름</span></p>

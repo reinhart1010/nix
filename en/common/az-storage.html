@@ -1,0 +1,35 @@
+<h1 id="az-storage">az storage</h1>
+
+<p>Manage Azure Cloud Storage resources.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/storage">https://learn.microsoft.com/cli/azure/storage</a>.</p>
+
+<ul>
+  <li>Create a storage account specifying a [l]ocation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage account create --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">account_name</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">location</span><code class="language-plaintext highlighter-rouge"> --sku </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">account_sku</span></p>
+
+<ul>
+  <li>List all storage accounts in a resource group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage account list --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span></p>
+
+<ul>
+  <li>List the access keys for a storage account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage account keys list --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">account_name</span></p>
+
+<ul>
+  <li>Delete a storage account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage account delete --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">account_name</span></p>
+
+<ul>
+  <li>Update the minimum tls version setting for a storage account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage account update --min-tls-version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">TLS1_0|TLS1_1|TLS1_2</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">account_name</span></p>

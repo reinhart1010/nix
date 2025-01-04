@@ -1,0 +1,47 @@
+<h1 id="eselect-repository">eselect repository</h1>
+
+<p>Un módulo <code class="language-plaintext highlighter-rouge">eselect</code> para configurar repositorios ebuild para Portage.
+Después de habilitar un repositorio, tienes que ejecutar <code class="language-plaintext highlighter-rouge">emerge --sync repo_name</code> para descargar ebuilds.
+Más información: <a href="https://wiki.gentoo.org/wiki/Eselect/Repository">https://wiki.gentoo.org/wiki/Eselect/Repository</a>.</p>
+
+<ul>
+  <li>Lista todos los repositorios ebuild registrados en <a href="https://repos.gentoo.org">https://repos.gentoo.org</a>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository list</code></p>
+
+<ul>
+  <li>Lista de repositorios habilitados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository list -i</code></p>
+
+<ul>
+  <li>Habilita un repositorio de la lista según su nombre o índice desde el comando <code class="language-plaintext highlighter-rouge">list</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository enable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|index</span></p>
+
+<ul>
+  <li>Activa un repositorio no registrado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rsync|git|mercurial|svn|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sync_uri</span></p>
+
+<ul>
+  <li>Deshabilita repositorios sin eliminar su contenido:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository disable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo1 repo2 …</span></p>
+
+<ul>
+  <li>Desactiva repositorios y elimina su contenido:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo1 repo2 …</span></p>
+
+<ul>
+  <li>Crea un repositorio local y lo habilita:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/repo</span></p>

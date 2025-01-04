@@ -1,0 +1,34 @@
+<h1 id="mmcli">mmcli</h1>
+
+<p>ModemManager를 제어하고 모니터링.
+더 많은 정보: <a href="https://www.freedesktop.org/software/ModemManager/man/latest/mmcli.1.html">https://www.freedesktop.org/software/ModemManager/man/latest/mmcli.1.html</a>.</p>
+
+<ul>
+  <li>사용 가능한 모뎀 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmcli --list-modems</code></p>
+
+<ul>
+  <li>모뎀에 대한 정보 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmcli --modem=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모뎀</span></p>
+
+<ul>
+  <li>모뎀 활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmcli --modem=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모뎀</span><code class="language-plaintext highlighter-rouge"> --enable</code></p>
+
+<ul>
+  <li>모뎀에서 사용 가능한 SMS 메시지 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mmcli --modem=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모뎀</span><code class="language-plaintext highlighter-rouge"> --messaging-list-sms</code></p>
+
+<ul>
+  <li>모뎀에서 메시지를 삭제, 경로 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mmcli --modem=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모뎀</span><code class="language-plaintext highlighter-rouge"> --messaging-delete-sms=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/메시지_파일</span></p>

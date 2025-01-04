@@ -1,0 +1,53 @@
+<h1 id="gh-skyline">gh skyline</h1>
+
+<p>Generate a 3D model of your GitHub contribution history.
+By default, it will create a <code class="language-plaintext highlighter-rouge">{username}-{year}-github-skyline.stl</code> file in the current directory.
+More information: <a href="https://github.com/github/gh-skyline">https://github.com/github/gh-skyline</a>.</p>
+
+<ul>
+  <li>Generate a skyline STL file for the current year and authenticated user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh skyline</code></p>
+
+<ul>
+  <li>Generate a skyline for a specific [u]ser and [y]ear:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh skyline --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --year </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">year</span></p>
+
+<ul>
+  <li>Generate a skyline for a range of [y]ears:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh skyline --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --year </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">first_year</span><code class="language-plaintext highlighter-rouge">-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">last_year</span></p>
+
+<ul>
+  <li>Generate a [f]ull skyline (from the user's join year to the current year):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh skyline --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --full</code></p>
+
+<ul>
+  <li>Enable [d]ebug logging:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh skyline --debug</code></p>
+
+<ul>
+  <li>Generate a skyline and specify the [o]utput file path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh skyline --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.stl</span></p>
+
+<ul>
+  <li>Open the GitHub profile for a specific [u]ser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh skyline --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --web</code></p>
+
+<ul>
+  <li>Display [h]elp:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh skyline --help</code></p>

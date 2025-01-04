@@ -1,0 +1,41 @@
+<h1 id="unzip">unzip</h1>
+
+<p>Extrae archivos/directorios de archivos Zip.
+Vea también: <code class="language-plaintext highlighter-rouge">zip</code>.
+Más información: <a href="https://manned.org/unzip">https://manned.org/unzip</a>.</p>
+
+<ul>
+  <li>Extrae todos los archivos/directorios de archivos específicos en el directorio actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1.zip ruta/al/archivo2.zip …</span></p>
+
+<ul>
+  <li>Extrae los archivos/directorios de archivos a una ruta específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1.zip ruta/al/archivo2.zip …</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/resultado</span></p>
+
+<ul>
+  <li>Extrae los archivos/directorios de archivos a <code class="language-plaintext highlighter-rouge">stdout</code> junto con los nombres de archivos extraídos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1.zip ruta/al/archivo2.zip …</span></p>
+
+<ul>
+  <li>Extrae un archivo creado en Windows, que contiene archivos con caracteres no ASCII en su nombre (por ejemplo, caracteres chinos o japoneses):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gbk</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1.zip ruta/al/archivo2.zip …</span></p>
+
+<ul>
+  <li>Enumera los contenidos de un archivo específico sin extraerlos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.zip</span></p>
+
+<ul>
+  <li>Extrae un archivo específico de un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unzip -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1_en_archivo ruta/al/archivo2_en_archivo …</span></p>

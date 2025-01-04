@@ -1,0 +1,35 @@
+<h1 id="pueue-pause">pueue pause</h1>
+
+<p>Pause running tasks or groups.
+See also: <code class="language-plaintext highlighter-rouge">pueue start</code>.
+More information: <a href="https://github.com/Nukesor/pueue">https://github.com/Nukesor/pueue</a>.</p>
+
+<ul>
+  <li>Pause all tasks in the default group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue pause</code></p>
+
+<ul>
+  <li>Pause a running task:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue pause </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Pause a running task and stop all its direct children:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue pause --children </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Pause all tasks in a group and prevent it from starting new tasks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue pause --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span></p>
+
+<ul>
+  <li>Pause all tasks and prevent all groups from starting new tasks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue pause --all</code></p>

@@ -1,0 +1,28 @@
+<h1 id="pamslice">pamslice</h1>
+
+<p>Haal een regel van waarden uit een PAM afbeelding.
+Meer informatie: <a href="https://netpbm.sourceforge.net/doc/pamslice.html">https://netpbm.sourceforge.net/doc/pamslice.html</a>.</p>
+
+<ul>
+  <li>Toon de waarden van de pixels in de opgegeven rij in een tabel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamslice -row </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding.pam</span></p>
+
+<ul>
+  <li>Toon de waarden van de pixels in de opgegeven kolom in een tabel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamslice -column </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding.pam</span></p>
+
+<ul>
+  <li>Beschouw alleen het opgegeven vlak (m) van de invoer-afbeelding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamslice -row </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> -plane </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">m</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding.pam</span></p>
+
+<ul>
+  <li>Produceer uitvoer in een formaat dat geschikt is voor invoer naar een <code class="language-plaintext highlighter-rouge">xmgr</code> voor visualisatie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamslice -row </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> -xmgr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding.pam</span></p>

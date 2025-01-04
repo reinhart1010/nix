@@ -1,0 +1,40 @@
+<h1 id="cpulimit">cpulimit</h1>
+
+<p>Eina per limitar l'ús de la CPU en altres processos.
+Més informació: <a href="https://cpulimit.sourceforge.net/">https://cpulimit.sourceforge.net/</a>.</p>
+
+<ul>
+  <li>Limita un procés existent amb PID 1234 perquè només utilitzi el 25% de CPU:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpulimit --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span><code class="language-plaintext highlighter-rouge"> --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">25%</span></p>
+
+<ul>
+  <li>Limita un programa existent per el seu nom d'execució:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpulimit --exe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programa</span><code class="language-plaintext highlighter-rouge"> --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">25</span></p>
+
+<ul>
+  <li>Executa un programa determinat i limita el seu ús a només el 50% de la CPU:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpulimit --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programa argument1 argument2 …</span></p>
+
+<ul>
+  <li>Executa un programa, limita l'ús de la CPU a 50% i executa cpulimit en segon pla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpulimit --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span><code class="language-plaintext highlighter-rouge"> --background -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programa</span></p>
+
+<ul>
+  <li>Mata el procés si l'ús de CPU del programa supera el 50%:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpulimit --limit 50 --kill -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programa</span></p>
+
+<ul>
+  <li>Regula el seu procés i els subprocessos perquè cap superi el 25% de CPU:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpulimit --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">25</span><code class="language-plaintext highlighter-rouge"> --monitor-forks -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programa</span></p>

@@ -1,0 +1,41 @@
+<h1 id="edquota">edquota</h1>
+
+<p>Edit quotas for a user or group. By default it operates on all filesystems with quotas.
+Quota information is stored permanently in the <code class="language-plaintext highlighter-rouge">quota.user</code> and <code class="language-plaintext highlighter-rouge">quota.group</code> files in the root of the filesystem.
+More information: <a href="https://manned.org/edquota">https://manned.org/edquota</a>.</p>
+
+<ul>
+  <li>Edit quota of the current user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">edquota --user $(whoami)</code></p>
+
+<ul>
+  <li>Edit quota of a specific user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo edquota --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Edit quota for a group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo edquota --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span></p>
+
+<ul>
+  <li>Restrict operations to a given filesystem (by default edquota operates on all filesystems with quotas):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo edquota --file-system </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filesystem</span></p>
+
+<ul>
+  <li>Edit the default grace period:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo edquota -t</code></p>
+
+<ul>
+  <li>Duplicate a quota to other users:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo edquota -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reference_user</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination_user1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination_user2</span></p>

@@ -1,0 +1,40 @@
+<h1 id="tectonic">tectonic</h1>
+
+<p>A modern, self-contained TeX/LaTeX engine.
+More information: <a href="https://tectonic-typesetting.github.io/book/latest">https://tectonic-typesetting.github.io/book/latest</a>.</p>
+
+<ul>
+  <li>Compile a standalone TeX/LaTeX file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tectonic -X compile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tex</span></p>
+
+<ul>
+  <li>Compile a standalone TeX/LaTeX file with synctex data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tectonic -X compile --synctex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tex</span></p>
+
+<ul>
+  <li>Initialize a tectonic project in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tectonic -X init</code></p>
+
+<ul>
+  <li>Initialize a tectonic project in the specified directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tectonic -X new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span></p>
+
+<ul>
+  <li>Build the project in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tectonic -X build</code></p>
+
+<ul>
+  <li>Start a watcher to build the project in the current directory on change:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tectonic -X watch</code></p>

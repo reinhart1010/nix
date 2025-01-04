@@ -1,0 +1,22 @@
+<h1 id="dvc-dag">dvc dag</h1>
+
+<p>Visualize the pipeline(s) defined in <code class="language-plaintext highlighter-rouge">dvc.yaml</code>.
+More information: <a href="https://dvc.org/doc/command-reference/dag">https://dvc.org/doc/command-reference/dag</a>.</p>
+
+<ul>
+  <li>Visualize the entire pipeline:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc dag</code></p>
+
+<ul>
+  <li>Visualize the pipeline stages up to a specified target stage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc dag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target</span></p>
+
+<ul>
+  <li>Export the pipeline in the dot format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dvc dag --dot &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pipeline.dot</span></p>

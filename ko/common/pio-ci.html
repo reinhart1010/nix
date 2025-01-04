@@ -1,0 +1,41 @@
+<h1 id="pio-ci">pio ci</h1>
+
+<p>임의의 소스 코드 구조로 PlatformIO 프로젝트를 빌드.
+소스 코드가 복사될 새로운 임시 프로젝트를 생성.
+더 많은 정보: <a href="https://docs.platformio.org/en/latest/core/userguide/cmd_ci.html">https://docs.platformio.org/en/latest/core/userguide/cmd_ci.html</a>.</p>
+
+<ul>
+  <li>기본 시스템 임시 디렉토리에서 PlatformIO 프로젝트를 빌드하고 이후 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio ci </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/프로젝트</span></p>
+
+<ul>
+  <li>특정 라이브러리를 지정하여 PlatformIO 프로젝트 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio ci --lib </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/라이브러리_폴더</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/프로젝트</span></p>
+
+<ul>
+  <li>특정 보드를 지정하여 PlatformIO 프로젝트 빌드 (<code class="language-plaintext highlighter-rouge">pio boards</code> 명령어로 모든 보드 목록 확인 가능):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio ci --board </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">보드</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/프로젝트</span></p>
+
+<ul>
+  <li>특정 디렉토리에서 PlatformIO 프로젝트 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio ci --build-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/빌드_디렉토리</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/프로젝트</span></p>
+
+<ul>
+  <li>빌드 디렉토리를 삭제하지 않고 PlatformIO 프로젝트 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio ci --keep-build-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/프로젝트</span></p>
+
+<ul>
+  <li>특정 구성 파일을 사용하여 PlatformIO 프로젝트 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio ci --project-conf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/platformio.ini</span></p>

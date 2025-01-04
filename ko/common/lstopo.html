@@ -1,0 +1,34 @@
+<h1 id="lstopo">lstopo</h1>
+
+<p>시스템의 하드웨어 토폴로지를 보여줍니다.
+더 많은 정보: <a href="https://manned.org/lstopo">https://manned.org/lstopo</a>.</p>
+
+<ul>
+  <li>그래픽 창에서 요약된 시스템 토폴로지 표시 (그래픽 디스플레이가 없는 경우 콘솔에 출력):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lstopo</code></p>
+
+<ul>
+  <li>요약 없이 전체 시스템 토폴로지 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lstopo --no-factorize</code></p>
+
+<ul>
+  <li>요약된 시스템 토폴로지를 [p]hysical 인덱스만 사용하여 표시 (즉, OS에서 보는 것처럼):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lstopo --physical</code></p>
+
+<ul>
+  <li>지정된 형식으로 파일에 전체 시스템 토폴로지 작성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lstopo --no-factorize --output-format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">콘솔|ascii|tex|fig|svg|pdf|ps|png|xml</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>단색 또는 회색조로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lstopo --palette </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">없음|회색</span></p>

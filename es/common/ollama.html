@@ -1,0 +1,53 @@
+<h1 id="ollama">ollama</h1>
+
+<p>Un ejecutor de modelos de lenguaje grande.
+Para ver una lista de los modelos disponibles, consulta <a href="https://ollama.com/library">https://ollama.com/library</a>.
+Más información: <a href="https://github.com/ollama/ollama">https://github.com/ollama/ollama</a>.</p>
+
+<ul>
+  <li>Inicia el demonio requerido para ejecutar otros comandos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ollama serve</code></p>
+
+<ul>
+  <li>Ejecuta un modelo y chatea con él:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ollama run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modelo</span></p>
+
+<ul>
+  <li>Ejecuta un modelo con un solo mensaje:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ollama run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modelo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje</span></p>
+
+<ul>
+  <li>Lista los modelos descargados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ollama list</code></p>
+
+<ul>
+  <li>Descarga/actualiza un modelo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ollama pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modelo</span></p>
+
+<ul>
+  <li>Lista los modelos en ejecución:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ollama ps</code></p>
+
+<ul>
+  <li>Elimina un modelo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ollama rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modelo</span></p>
+
+<ul>
+  <li>Crea un modelo desde un <code class="language-plaintext highlighter-rouge">Modelfile</code> ([f]):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ollama create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_nuevo_modelo</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/Modelfile</span></p>

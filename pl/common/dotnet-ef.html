@@ -1,0 +1,52 @@
+<h1 id="dotnet-ef">dotnet ef</h1>
+
+<p>Narzędzia projektowania dla Entity Framework Core.
+Więcej informacji: <a href="https://learn.microsoft.com/ef/core/cli/dotnet">https://learn.microsoft.com/ef/core/cli/dotnet</a>.</p>
+
+<ul>
+  <li>Zaaktualizuj bazę danych do wybranej migracji:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef database update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">migracja</span></p>
+
+<ul>
+  <li>Wyczyść bazę danych:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef database drop</code></p>
+
+<ul>
+  <li>Wyświetl dostępne <code class="language-plaintext highlighter-rouge">DbContext</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef dbcontext list</code></p>
+
+<ul>
+  <li>Wygeneruj kod dla <code class="language-plaintext highlighter-rouge">DbContext</code> oraz typów encji bazy danych:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef dbcontext scaffold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">connection_string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dostawca</span></p>
+
+<ul>
+  <li>Dodaj nową migrację:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef migrations add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa</span></p>
+
+<ul>
+  <li>Usuń poprzednią migrację, cofa zmiany w kodzie stworzone dla poprzedniej migracji:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef migrations remove</code></p>
+
+<ul>
+  <li>Wyświetl dostępne migracje:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef migrations list</code></p>
+
+<ul>
+  <li>Wygeneruj skrypt SQL dla zakresu migracji:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef migrations script </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">początkowa_migracja</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">końcowa_migracja</span></p>

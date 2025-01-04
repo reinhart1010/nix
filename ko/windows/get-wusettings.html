@@ -1,0 +1,17 @@
+<h1 id="get-wusettings">Get-WUSettings</h1>
+
+<p>현재 Windows Update 에이전트 구성을 가져옵니다. 외부 <code class="language-plaintext highlighter-rouge">PSWindowsUpdate</code> 모듈의 일부입니다.
+이 명령은 PowerShell에서만 실행할 수 있습니다.
+더 많은 정보: <a href="https://github.com/mgajda83/PSWindowsUpdate">https://github.com/mgajda83/PSWindowsUpdate</a>.</p>
+
+<ul>
+  <li>현재 Windows Update 에이전트 구성 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-WUSettings</code></p>
+
+<ul>
+  <li>현재 구성 데이터를 이메일(SMTP)로 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-WUSettings -SendReport -PSWUSettings @{SmtpServer="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smtp_서버</span><code class="language-plaintext highlighter-rouge">"; Port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smtp_포트</span><code class="language-plaintext highlighter-rouge"> From="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이메일_보낸이</span><code class="language-plaintext highlighter-rouge">" To="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이메일_받는이</span><code class="language-plaintext highlighter-rouge">"}</code></p>

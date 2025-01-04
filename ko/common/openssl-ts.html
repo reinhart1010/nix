@@ -1,0 +1,28 @@
+<h1 id="openssl-ts">openssl ts</h1>
+
+<p>OpenSSL 명령어로 타임스탬프를 생성하고 검증합니다.
+더 많은 정보: <a href="https://www.openssl.org/docs/manmaster/man1/openssl-ts.html">https://www.openssl.org/docs/manmaster/man1/openssl-ts.html</a>.</p>
+
+<ul>
+  <li>특정 파일의 SHA-512 타임스탬프 요청을 생성하고 <code class="language-plaintext highlighter-rouge">file.tsq</code>에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl ts -query -data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> -sha512 -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.tsq</span></p>
+
+<ul>
+  <li>특정 타임스탬프 응답 파일의 날짜 및 메타데이터 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl ts -reply -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.tsr</span><code class="language-plaintext highlighter-rouge"> -text</code></p>
+
+<ul>
+  <li>SSL 인증서 파일을 사용하여 서버로부터 타임스탬프 요청 파일과 타임스탬프 응답 파일 검증:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl ts -verify -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.tsr</span><code class="language-plaintext highlighter-rouge"> -queryfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.tsq</span><code class="language-plaintext highlighter-rouge"> -partial_chain -CAfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/cert.pem</span></p>
+
+<ul>
+  <li>키 및 서명 인증서를 사용하여 요청에 대한 타임스탬프 응답을 생성하고 <code class="language-plaintext highlighter-rouge">file.tsr</code>에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl ts -reply -queryfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.tsq</span><code class="language-plaintext highlighter-rouge"> -inkey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/tsakey.pem</span><code class="language-plaintext highlighter-rouge"> -signer tsacert.pem -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.tsr</span></p>

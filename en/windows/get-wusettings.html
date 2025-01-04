@@ -1,0 +1,17 @@
+<h1 id="get-wusettings">Get-WUSettings</h1>
+
+<p>Get the current Windows Update Agent configuration. Part of external <code class="language-plaintext highlighter-rouge">PSWindowsUpdate</code> module.
+This command can only be run under PowerShell.
+More information: <a href="https://github.com/mgajda83/PSWindowsUpdate">https://github.com/mgajda83/PSWindowsUpdate</a>.</p>
+
+<ul>
+  <li>Get the current Windows Update Agent configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-WUSettings</code></p>
+
+<ul>
+  <li>Send the current configuration data via email (SMTP):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-WUSettings -SendReport -PSWUSettings @{SmtpServer="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smtp_server</span><code class="language-plaintext highlighter-rouge">"; Port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smtp_port</span><code class="language-plaintext highlighter-rouge"> From="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sender_email</span><code class="language-plaintext highlighter-rouge">" To="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">receiver_email</span><code class="language-plaintext highlighter-rouge">"}</code></p>

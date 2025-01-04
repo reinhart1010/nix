@@ -1,0 +1,34 @@
+<h1 id="pg_ctl">pg_ctl</h1>
+
+<p>Utilidad para controlar un servidor PostgreSQL y un grupo (clúster) de bases de datos.
+Más información: <a href="https://www.postgresql.org/docs/current/app-pg-ctl.html">https://www.postgresql.org/docs/current/app-pg-ctl.html</a>.</p>
+
+<ul>
+  <li>Inicia un nuevo grupo de base de datos PostgreSQL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_ctl -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directorio_de_datos</span><code class="language-plaintext highlighter-rouge"> init</code></p>
+
+<ul>
+  <li>Inicia un servidor PostgreSQL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_ctl -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directorio_de_datos</span><code class="language-plaintext highlighter-rouge"> start</code></p>
+
+<ul>
+  <li>Detiene un servidor PostgreSQL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_ctl -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directorio_de_datos</span><code class="language-plaintext highlighter-rouge"> stop</code></p>
+
+<ul>
+  <li>Reinicia un servidor PostgreSQL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_ctl -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directorio_de_datos</span><code class="language-plaintext highlighter-rouge"> restart</code></p>
+
+<ul>
+  <li>Recarga la configuración del servidor PostgreSQL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_ctl -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directorio_de_datos</span><code class="language-plaintext highlighter-rouge"> reload</code></p>

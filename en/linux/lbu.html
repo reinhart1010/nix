@@ -1,0 +1,53 @@
+<h1 id="lbu">lbu</h1>
+
+<p>Manage <code class="language-plaintext highlighter-rouge">apk</code> overlay files on a diskless Alpine Linux system.
+Note: subcommands like <code class="language-plaintext highlighter-rouge">include</code> write to <code class="language-plaintext highlighter-rouge">/etc</code>, which is stored in RAM. You need to run <code class="language-plaintext highlighter-rouge">lbu commit</code> to save the changes.
+More information: <a href="https://wiki.alpinelinux.org/wiki/Alpine_local_backup">https://wiki.alpinelinux.org/wiki/Alpine_local_backup</a>.</p>
+
+<ul>
+  <li>Commit changes to persistent storage (only files in <code class="language-plaintext highlighter-rouge">/etc</code> by default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lbu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ci|commit</span></p>
+
+<ul>
+  <li>List files that would be saved using <code class="language-plaintext highlighter-rouge">commit</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lbu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">st|status</span></p>
+
+<ul>
+  <li>Display changes in tracked files that would be saved using <code class="language-plaintext highlighter-rouge">commit</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lbu diff</code></p>
+
+<ul>
+  <li>Include a specific file or directory in the <code class="language-plaintext highlighter-rouge">apk</code> overlay:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lbu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">add|inc|include</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Exclude a specific file or directory in <code class="language-plaintext highlighter-rouge">/etc</code> from the <code class="language-plaintext highlighter-rouge">apk</code> overlay:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lbu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ex|exclude|delete</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Display the list of manually included/excluded files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lbu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inc|include|ex|exclude</span><code class="language-plaintext highlighter-rouge"> -l</code></p>
+
+<ul>
+  <li>List backups (previously created overlays):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lbu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lb|list-backup</span></p>
+
+<ul>
+  <li>Revert to a backup overlay:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lbu revert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">overlay_filename.tar.gz</span></p>

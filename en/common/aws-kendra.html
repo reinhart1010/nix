@@ -1,0 +1,40 @@
+<h1 id="aws-kendra">aws kendra</h1>
+
+<p>CLI for AWS Kendra.
+More information: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/kendra/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/kendra/index.html</a>.</p>
+
+<ul>
+  <li>Create an index:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kendra create-index --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --role-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role_arn</span></p>
+
+<ul>
+  <li>List indexes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kendra list-indexes</code></p>
+
+<ul>
+  <li>Describe an index:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kendra describe-index --id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">index_id</span></p>
+
+<ul>
+  <li>List data sources:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kendra list-data-sources</code></p>
+
+<ul>
+  <li>Describe a data source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kendra describe-data-source --id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data_source_id</span></p>
+
+<ul>
+  <li>List search queries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kendra list-query-suggestions --index-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">index_id</span><code class="language-plaintext highlighter-rouge"> --query-text </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query_text</span></p>

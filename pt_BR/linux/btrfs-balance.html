@@ -1,0 +1,46 @@
+<h1 id="btrfs-balance">btrfs balance</h1>
+
+<p>Balanceia grupos de blocos em um sistema de arquivos btrfs.
+Mais informações: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-balance.html">https://btrfs.readthedocs.io/en/latest/btrfs-balance.html</a>.</p>
+
+<ul>
+  <li>Mostra o status de uma operação balance em execução ou pausada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs balance status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/sistema_de_arquivos_btrfs</span></p>
+
+<ul>
+  <li>Balanceia todos os grupos de blocos (lento; reescreve todos os blocos no sistema de arquivos):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs balance start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/sistema_de_arquivos_btrfs</span></p>
+
+<ul>
+  <li>Balanceia grupos de blocos de dados com menos de 15% de utilização, executando a operação em segundo plano:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs balance start --bg -dusage=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">15</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/sistema_de_arquivos_btrfs</span></p>
+
+<ul>
+  <li>Balanceia um máximo de 10 partes de metadados com menos de 20% de utilização e pelo menos 1 parte em um determinado dispositivo <code class="language-plaintext highlighter-rouge">devid</code> (consulte <code class="language-plaintext highlighter-rouge">btrfs filesystem show</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs balance start -musage=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span><code class="language-plaintext highlighter-rouge">,limit=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge">,devid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">devid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/sistema_de_arquivos_btrfs</span></p>
+
+<ul>
+  <li>Converte blocos de dados para raid6 e metadados para raid1c3 (veja mkfs.btrfs(8) para perfis):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs balance start -dconvert=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raid6</span><code class="language-plaintext highlighter-rouge"> -mconvert=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raid1c3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/sistema_de_arquivos_btrfs</span></p>
+
+<ul>
+  <li>Converte blocos de dados para raid1, pulando pedaços já convertidos (por exemplo, após uma operação de conversão cancelada anterior):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs balance start -dconvert=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raid1</span><code class="language-plaintext highlighter-rouge">,soft </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/sistema_de_arquivos_btrfs</span></p>
+
+<ul>
+  <li>Cancela, pausa ou retoma uma operação de balanceamento em execução ou pausada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs balance </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cancel|pause|resume</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/sistema_de_arquivos_btrfs</span></p>

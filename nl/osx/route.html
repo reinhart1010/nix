@@ -1,0 +1,41 @@
+<h1 id="route">route</h1>
+
+<p>Manipuleer handmatig de routetabellen.
+Vereist rootrechten.
+Meer informatie: <a href="https://keith.github.io/xcode-man-pages/route.8.html">https://keith.github.io/xcode-man-pages/route.8.html</a>.</p>
+
+<ul>
+  <li>Voeg een route toe naar een bestemming via een gateway:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestemming_ip_adres</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gateway_adres</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Voeg een route toe naar een /24 subnet via een gateway:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subnet_ip_adres</span><code class="language-plaintext highlighter-rouge">/24" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gateway_adres</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Voer uit in testmodus (doet niets, alleen afdrukken):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route -t add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestemming_ip_adres</span><code class="language-plaintext highlighter-rouge">/24" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gateway_adres</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Verwijder alle routes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route flush</code></p>
+
+<ul>
+  <li>Verwijder een specifieke route:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route delete "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestemming_ip_adres</span><code class="language-plaintext highlighter-rouge">/24"</code></p>
+
+<ul>
+  <li>Zoek en toon de route voor een bestemming (hostname of IP-adres):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route get "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestemming</span><code class="language-plaintext highlighter-rouge">"</code></p>

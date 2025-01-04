@@ -1,0 +1,28 @@
+<h1 id="stormlock">Stormlock</h1>
+
+<p>중앙 집중식 잠금 시스템.
+더 많은 정보: <a href="https://github.com/tmccombs/stormlock">https://github.com/tmccombs/stormlock</a>.</p>
+
+<ul>
+  <li>리소스에 대한 임대 획득:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stormlock acquire </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스</span></p>
+
+<ul>
+  <li>주어진 리소스에 대한 주어진 임대 해제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stormlock release </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">임대_ID</span></p>
+
+<ul>
+  <li>리소스에 대한 현재 임대 정보 표시 (있는 경우):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stormlock current </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스</span></p>
+
+<ul>
+  <li>주어진 리소스에 대한 임대가 현재 활성 상태인지 테스트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stormlock is-held </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">임대_ID</span></p>

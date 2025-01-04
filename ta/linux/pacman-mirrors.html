@@ -1,0 +1,36 @@
+<h1 id="pacman-mirrors">pacman-mirrors</h1>
+
+<p>மஞ்சாரோ லினக்ஸுக்கு பேக்மேன் கண்ணாடி பட்டியலை உருவாக்கவும்.
+பேக்மேன்-கண்ணாடிகள் ஒவ்வொரு ஓட்டத்திற்கும் உங்கள் தரவுத்தளத்தை ஒத்திசைக்க மற்றும் <code class="language-plaintext highlighter-rouge">sudo pacman -Syyu</code> ஐப் பயன்படுத்தி உங்கள் கணினியைப் புதுப்பிக்க வேண்டும்.
+இதையும் பார்க்கவும்: <code class="language-plaintext highlighter-rouge">pacman</code>.
+மேலும் விவரத்திற்கு: <a href="https://wiki.manjaro.org/index.php?title=Pacman-mirrors">https://wiki.manjaro.org/index.php?title=Pacman-mirrors</a>.</p>
+
+<ul>
+  <li>இயல்புநிலை அமைப்புகளைப் பயன்படுத்தி ஒரு கண்ணாடி பட்டியலை உருவாக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-mirrors --fasttrack</code></p>
+
+<ul>
+  <li>தற்போதைய கண்ணாடிகளின் நிலையைப் பெறுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman-mirrors --status</code></p>
+
+<ul>
+  <li>தற்போதைய கிளையைக் காட்டு:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman-mirrors --get-branch</code></p>
+
+<ul>
+  <li>வேறு கிளைக்கு மாறவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-mirrors --api --set-branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stable|unstable|testing</span></p>
+
+<ul>
+  <li>உங்கள் நாட்டில் உள்ள கண்ணாடிகளை மட்டும் பயன்படுத்தி, கண்ணாடி பட்டியலை உருவாக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-mirrors --geoip</code></p>

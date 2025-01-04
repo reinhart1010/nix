@@ -1,0 +1,16 @@
+<h1 id="xephyr">Xephyr</h1>
+
+<p>X 애플리케이션으로 실행되는 중첩 X 서버.
+더 많은 정보: <a href="https://manned.org/xserver-xephyr">https://manned.org/xserver-xephyr</a>.</p>
+
+<ul>
+  <li>디스플레이 ID ":2"로 검은색 창 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Xephyr -br -ac -noreset -screen </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">800x600</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:2</span></p>
+
+<ul>
+  <li>새 화면에서 X 애플리케이션 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">DISPLAY=:2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령_이름</span></p>

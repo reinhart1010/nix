@@ -1,0 +1,34 @@
+<h1 id="systemd-hwdb">systemd-hwdb</h1>
+
+<p>Hardware database management tool.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/systemd-hwdb.html">https://www.freedesktop.org/software/systemd/man/systemd-hwdb.html</a>.</p>
+
+<ul>
+  <li>Update the binary hardware database in <code class="language-plaintext highlighter-rouge">/etc/udev</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-hwdb update</code></p>
+
+<ul>
+  <li>Query the hardware database and print the result for a specific modalias:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-hwdb query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modalias</span></p>
+
+<ul>
+  <li>Update the binary hardware database, returning a non-zero exit value on any parsing error:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-hwdb --strict update</code></p>
+
+<ul>
+  <li>Update the binary hardware database in <code class="language-plaintext highlighter-rouge">/usr/lib/udev</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-hwdb --usr update</code></p>
+
+<ul>
+  <li>Update the binary hardware database in the specified root path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-hwdb --root=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/root</span><code class="language-plaintext highlighter-rouge"> update</code></p>

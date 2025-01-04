@@ -1,0 +1,28 @@
+<h1 id="airmon-ng">airmon-ng</h1>
+
+<p>Kablosuz ağ cihazlarında izleme modunu etkinleştirin.
+Daha fazla bilgi için: <a href="https://www.aircrack-ng.org/doku.php?id=airmon-ng">https://www.aircrack-ng.org/doku.php?id=airmon-ng</a>.</p>
+
+<ul>
+  <li>Kablosuz cihazları ve durumlarını listeleyin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng</code></p>
+
+<ul>
+  <li>Belirli bir cihaz için izleme modunu açın:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span></p>
+
+<ul>
+  <li>Kablosuz cihazları kullanan rahatsız edici işlemleri sonlandırın:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng check kill</code></p>
+
+<ul>
+  <li>Belirli bir ağ arabirimi için izleme modunu kapatın:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng stop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0mon</span></p>
