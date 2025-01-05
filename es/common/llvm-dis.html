@@ -1,0 +1,22 @@
+<h1 id="llvm-dis">llvm-dis</h1>
+
+<p>Convierte archivos LLVM de bitcode en representación intermedia (IR) LLVM legible.
+Más información: <a href="https://www.llvm.org/docs/CommandGuide/llvm-dis.html">https://www.llvm.org/docs/CommandGuide/llvm-dis.html</a>.</p>
+
+<ul>
+  <li>Convierte un archivo bitcode como LLVM IR y escribe el resultado en <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-dis </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/entrada.bc</span><code class="language-plaintext highlighter-rouge"> -o -</code></p>
+
+<ul>
+  <li>Convierte un archivo bitcode en un archivo LLVM IR con el mismo nombre de archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-dis </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.bc</span></p>
+
+<ul>
+  <li>Convierte un archivo bitcode en LLVM IR, escribe el resultado al archivo especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-dis </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/entrada.bc</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/resultado.ll</span></p>

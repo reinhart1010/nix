@@ -1,0 +1,28 @@
+<h1 id="shnsplit">shnsplit</h1>
+
+<p>Splitst audiobestanden volgens een <code class="language-plaintext highlighter-rouge">.cue</code> bestand.
+Meer informatie: <a href="http://shnutils.freeshell.org/shntool/">http://shnutils.freeshell.org/shntool/</a>.</p>
+
+<ul>
+  <li>Splits een <code class="language-plaintext highlighter-rouge">.wav</code> + <code class="language-plaintext highlighter-rouge">.cue</code> bestand in meerdere bestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shnsplit -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.cue</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.wav</span></p>
+
+<ul>
+  <li>Toon ondersteunde formaten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shnsplit -a</code></p>
+
+<ul>
+  <li>Splits een <code class="language-plaintext highlighter-rouge">.flac</code> bestand in meerdere bestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shnsplit -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.cue</span><code class="language-plaintext highlighter-rouge"> -o flac </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.flac</span></p>
+
+<ul>
+  <li>Splits een <code class="language-plaintext highlighter-rouge">.wav</code> bestand in meerdere bestanden in de vorm van "track-nummer - album - titel":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shnsplit -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.cue</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.wav</span><code class="language-plaintext highlighter-rouge"> -t "%n - %a - %t"</code></p>

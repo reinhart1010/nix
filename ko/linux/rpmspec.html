@@ -1,0 +1,34 @@
+<h1 id="rpmspec">rpmspec</h1>
+
+<p>RPM 스펙 파일을 쿼리합니다.
+더 많은 정보: <a href="https://manned.org/rpmspec">https://manned.org/rpmspec</a>.</p>
+
+<ul>
+  <li>RPM 스펙 파일에서 생성될 바이너리 패키지 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpmspec --query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/rpm.spec</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">--queryformat</code>의 모든 옵션 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpmspec --querytags</code></p>
+
+<ul>
+  <li>RPM 스펙 파일에서 생성된 단일 바이너리 패키지의 요약 정보 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpmspec --query --queryformat "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%{name}: %{summary}\n</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/rpm.spec</span></p>
+
+<ul>
+  <li>RPM 스펙 파일에서 생성될 소스 패키지 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpmspec --query --srpm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/rpm.spec</span></p>
+
+<ul>
+  <li>RPM 스펙 파일을 <code class="language-plaintext highlighter-rouge">stdout</code>으로 파싱:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpmspec --parse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/rpm.spec</span></p>

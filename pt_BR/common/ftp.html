@@ -1,0 +1,52 @@
+<h1 id="ftp">ftp</h1>
+
+<p>Ferramentas para interagir com um servidor via Protocolo de Transferência de Arquivos.
+Mais informações: <a href="https://manned.org/ftp">https://manned.org/ftp</a>.</p>
+
+<ul>
+  <li>Conecta-se a um servidor FTP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp.example.com</span></p>
+
+<ul>
+  <li>Conecta a um servidor FTP especificando o endereço de IP e porta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">endereço_IP</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta</span></p>
+
+<ul>
+  <li>Alterna para o modo de transferência binária (gráficos, arquivos compactados, etc):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binary</code></p>
+
+<ul>
+  <li>Transfere vários arquivos sem solicitar confirmação em cada arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prompt off</code></p>
+
+<ul>
+  <li>Baixa vários arquivos (expressão glob):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.png</span></p>
+
+<ul>
+  <li>Carrega vários arquivos (expressão glob):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mput </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.zip</span></p>
+
+<ul>
+  <li>Exclui vários arquivos do servidor remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mdelete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span></p>
+
+<ul>
+  <li>Renomeia um arquivo no servidor remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo_original</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">novo_nome_do_arquivo</span></p>

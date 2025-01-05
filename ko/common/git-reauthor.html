@@ -1,0 +1,23 @@
+<h1 id="git-reauthor">git reauthor</h1>
+
+<p>작성자 신원에 대한 세부 정보를 변경합니다. 이 명령은 Git 기록을 재작성하므로 다음 푸시 시 <code class="language-plaintext highlighter-rouge">--force</code>가 필요합니다.
+<code class="language-plaintext highlighter-rouge">git-extras</code>의 일부입니다.
+더 많은 정보: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-reauthor">https://github.com/tj/git-extras/blob/master/Commands.md#git-reauthor</a>.</p>
+
+<ul>
+  <li>Git 저장소 전체에서 작성자의 이메일과 이름 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reauthor --old-email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old@example.com</span><code class="language-plaintext highlighter-rouge"> --correct-email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new@example.com</span><code class="language-plaintext highlighter-rouge"> --correct-name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Git 설정에 정의된 이메일과 이름으로 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reauthor --old-email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old@example.com</span><code class="language-plaintext highlighter-rouge"> --use-config</code></p>
+
+<ul>
+  <li>원래 작성자와 관계없이 모든 커밋의 이메일과 이름 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reauthor --all --correct-email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name@example.com</span><code class="language-plaintext highlighter-rouge"> --correct-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>

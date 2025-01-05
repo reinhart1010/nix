@@ -1,0 +1,23 @@
+<h1 id="gvcolor">gvcolor</h1>
+
+<p>다양한 색상으로 순위가 매겨진 이중 그래프를 색깔 입히기.
+그래프비즈 필터: <code class="language-plaintext highlighter-rouge">acyclic</code>, <code class="language-plaintext highlighter-rouge">bcomps</code>, <code class="language-plaintext highlighter-rouge">comps</code>, <code class="language-plaintext highlighter-rouge">edgepaint</code>, <code class="language-plaintext highlighter-rouge">gvcolor</code>, <code class="language-plaintext highlighter-rouge">gvpack</code>, <code class="language-plaintext highlighter-rouge">mingle</code>, <code class="language-plaintext highlighter-rouge">nop</code>, <code class="language-plaintext highlighter-rouge">sccmap</code>, <code class="language-plaintext highlighter-rouge">tred</code>, &amp; <code class="language-plaintext highlighter-rouge">unflatten</code>.
+더 많은 정보: <a href="https://graphviz.org/pdf/gvcolor.1.pdf">https://graphviz.org/pdf/gvcolor.1.pdf</a>.</p>
+
+<ul>
+  <li>하나 이상의 순위가 매겨진 이중 그래프(이미 <code class="language-plaintext highlighter-rouge">dot</code>으로 처리됨)에 색상을 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gvcolor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/레이아웃1.gv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/레이아웃2.gv …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.gv</span></p>
+
+<ul>
+  <li>그래프를 배치하고 색상을 지정한 다음, PNG 이미지로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.gv</span><code class="language-plaintext highlighter-rouge"> | gvcolor | dot -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">png</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.png</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gvcolor -?</code></p>

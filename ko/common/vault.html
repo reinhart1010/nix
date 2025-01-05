@@ -1,0 +1,46 @@
+<h1 id="vault">vault</h1>
+
+<p>HashiCorp Vault와 상호작용.
+더 많은 정보: <a href="https://www.vaultproject.io/docs/commands">https://www.vaultproject.io/docs/commands</a>.</p>
+
+<ul>
+  <li>Vault 서버에 연결하고 새로운 암호화 데이터 저장소 초기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vault init</code></p>
+
+<ul>
+  <li>암호화된 데이터 저장소에 접근하기 위해 필요한 키 공유 중 하나를 제공하여 금고의 잠금 해제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vault unseal </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_공유_x</span></p>
+
+<ul>
+  <li>인증 토큰을 사용하여 Vault 서버에 대해 CLI 클라이언트 인증:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vault auth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인증_토큰</span></p>
+
+<ul>
+  <li>"secret"이라는 일반 백엔드를 사용하여 금고에 새 비밀 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vault write secret/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hello</span><code class="language-plaintext highlighter-rouge"> value=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">world</span></p>
+
+<ul>
+  <li>"secret"이라는 일반 백엔드를 사용하여 금고에서 값 읽기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vault read secret/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hello</span></p>
+
+<ul>
+  <li>값에서 특정 필드 읽기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vault read -field=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">필드_이름</span><code class="language-plaintext highlighter-rouge"> secret/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hello</span></p>
+
+<ul>
+  <li>데이터 저장소의 암호화 키를 메모리에서 제거하여 Vault 서버 잠금:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vault seal</code></p>

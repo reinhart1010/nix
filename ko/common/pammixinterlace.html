@@ -1,0 +1,23 @@
+<h1 id="pammixinterlace">pammixinterlace</h1>
+
+<p>이미지의 각 행을 인접한 두 행과 병합.
+같이 보기: <code class="language-plaintext highlighter-rouge">pamdeinterlace</code>.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/pammixinterlace.html">https://netpbm.sourceforge.net/doc/pammixinterlace.html</a>.</p>
+
+<ul>
+  <li>이미지의 각 행을 인접한 두 행과 병합:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pammixinterlace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.ppm</span></p>
+
+<ul>
+  <li>지정된 필터링 메커니즘 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pammixinterlace -filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linear|fir|ffmpeg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.ppm</span></p>
+
+<ul>
+  <li>적응형 필터링 모드 활성화, 즉 명백히 빗살무늬 패턴의 일부인 픽셀만 수정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pammixinterlace -adaptive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.ppm</span></p>

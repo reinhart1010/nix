@@ -1,0 +1,41 @@
+<h1 id="pacman-upgrade">pacman –upgrade</h1>
+
+<p>Arch Linux package manager utility.
+See also: <code class="language-plaintext highlighter-rouge">pacman</code>.
+More information: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Install one or more packages from files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package1.pkg.tar.zst</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package2.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Install a package without prompting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -U --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Overwrite conflicting files during a package installation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -U --overwrite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Install a package, skipping the [d]ependency version checks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Ud </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Fetch and [p]rint packages that would be affected by upgrade (does not install any packages):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Up </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Display [h]elp:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Uh</code></p>

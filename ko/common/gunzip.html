@@ -1,0 +1,34 @@
+<h1 id="gunzip">gunzip</h1>
+
+<p><code class="language-plaintext highlighter-rouge">gzip</code> (<code class="language-plaintext highlighter-rouge">.gz</code>) 아카이브에서 파일을 추출.
+더 많은 정보: <a href="https://manned.org/gunzip">https://manned.org/gunzip</a>.</p>
+
+<ul>
+  <li>아카이브에서 파일을 추출하고, 원본 파일이 있는 경우 교체:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gunzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아카이브.tar.gz</span></p>
+
+<ul>
+  <li>대상 목적지로 파일을 추출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gunzip --stdout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아카이브.tar.gz</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아카이브.tar</span></p>
+
+<ul>
+  <li>파일을 추출하고 아카이브 파일을 보관:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gunzip --keep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아카이브.tar.gz</span></p>
+
+<ul>
+  <li>압축 파일의 내용을 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gunzip --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.txt.gz</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 아카이브 압축 풀기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/아카이브.gz</span><code class="language-plaintext highlighter-rouge"> | gunzip</code></p>

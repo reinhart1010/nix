@@ -1,0 +1,46 @@
+<h1 id="terraform-plan">terraform plan</h1>
+
+<p>Generate and show Terraform execution plans.
+More information: <a href="https://developer.hashicorp.com/terraform/cli/commands/plan">https://developer.hashicorp.com/terraform/cli/commands/plan</a>.</p>
+
+<ul>
+  <li>Generate and show the execution plan in the currently directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan</code></p>
+
+<ul>
+  <li>Show a plan to destroy all remote objects that currently exist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan -destroy</code></p>
+
+<ul>
+  <li>Show a plan to update the Terraform state and output values:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan -refresh-only</code></p>
+
+<ul>
+  <li>Specify values for input variables:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan -var '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name1</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value1</span><code class="language-plaintext highlighter-rouge">' -var '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name2</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value2</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Focus Terraform's attention on only a subset of resources:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan -target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_type.resource_name[instance index]</span></p>
+
+<ul>
+  <li>Output a plan as JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan -json</code></p>
+
+<ul>
+  <li>Write a plan to a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan -no-color &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

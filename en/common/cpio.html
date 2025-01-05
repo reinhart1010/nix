@@ -1,0 +1,23 @@
+<h1 id="cpio">cpio</h1>
+
+<p>Copy files in and out of archives.
+Supports the following archive formats: cpio's custom binary, old ASCII, new ASCII, crc, HPUX binary, HPUX old ASCII, old tar, and POSIX.1 tar.
+More information: <a href="https://www.gnu.org/software/cpio">https://www.gnu.org/software/cpio</a>.</p>
+
+<ul>
+  <li>Take a list of file names from <code class="language-plaintext highlighter-rouge">stdin</code> and add them [o]nto an archive in cpio's binary format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span><code class="language-plaintext highlighter-rouge">" | cpio -o &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.cpio</span></p>
+
+<ul>
+  <li>Copy all files and directories in a directory and add them [o]nto an archive, in [v]erbose mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> | cpio -ov &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.cpio</span></p>
+
+<ul>
+  <li>P[i]ck all files from an archive, generating [d]irectories where needed, in [v]erbose mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cpio -idv &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.cpio</span></p>

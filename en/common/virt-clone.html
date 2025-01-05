@@ -1,0 +1,16 @@
+<h1 id="virt-clone">virt-clone</h1>
+
+<p>Clone a libvirt virtual machine.
+More information: <a href="https://manned.org/virt-clone">https://manned.org/virt-clone</a>.</p>
+
+<ul>
+  <li>Clone a virtual machine and automatically generate a new name, storage path, and MAC address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-clone --original </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span><code class="language-plaintext highlighter-rouge"> --auto-clone</code></p>
+
+<ul>
+  <li>Clone a virtual machine and specify the new name, storage path, and MAC address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-clone --original </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_vm_name</span><code class="language-plaintext highlighter-rouge"> --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new_storage</span><code class="language-plaintext highlighter-rouge"> --mac </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ff:ff:ff:ff:ff:ff|RANDOM</span></p>

@@ -1,0 +1,41 @@
+<h1 id="nmcli-general">nmcli general</h1>
+
+<p>NetworkManager의 일반 설정을 관리합니다.
+이 하위 명령은 <code class="language-plaintext highlighter-rouge">nmcli g</code>로도 호출할 수 있습니다.
+더 많은 정보: <a href="https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html">https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html</a>.</p>
+
+<ul>
+  <li>NetworkManager의 일반 상태 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli general</code></p>
+
+<ul>
+  <li>현재 장치의 호스트명 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli general hostname</code></p>
+
+<ul>
+  <li>현재 장치의 호스트명 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nmcli general hostname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_호스트명</span></p>
+
+<ul>
+  <li>NetworkManager의 권한 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli general permissions</code></p>
+
+<ul>
+  <li>현재 로깅 수준 및 도메인 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli general logging</code></p>
+
+<ul>
+  <li>로깅 수준 및/또는 도메인 설정 (<code class="language-plaintext highlighter-rouge">man NetworkManager.conf</code>에서 사용 가능한 모든 도메인 확인):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli general logging level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">INFO|OFF|ERR|WARN|DEBUG|TRACE</span><code class="language-plaintext highlighter-rouge"> domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인_1,도메인_2,…</span></p>

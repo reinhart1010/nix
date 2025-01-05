@@ -1,0 +1,28 @@
+<h1 id="log">log</h1>
+
+<p>로그 시스템을 보기, 내보내기 및 구성.
+더 많은 정보: <a href="https://keith.github.io/xcode-man-pages/log.1.html">https://keith.github.io/xcode-man-pages/log.1.html</a>.</p>
+
+<ul>
+  <li>실시간 시스템 로그 스트리밍:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">log stream</code></p>
+
+<ul>
+  <li>특정 PID를 가진 프로세스에서 <code class="language-plaintext highlighter-rouge">syslog</code>로 전송된 로그 스트리밍:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">log stream --process </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로세스_ID</span></p>
+
+<ul>
+  <li>특정 이름을 가진 프로세스에서 syslog로 전송된 로그 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">log show --predicate "process == '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로세스_이름</span><code class="language-plaintext highlighter-rouge">'"</code></p>
+
+<ul>
+  <li>지난 한 시간 동안 모든 로그를 디스크에 내보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo log collect --last </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1h</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.logarchive</span></p>

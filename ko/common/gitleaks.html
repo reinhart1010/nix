@@ -1,0 +1,46 @@
+<h1 id="gitleaks">gitleaks</h1>
+
+<p>Git 레포지토리에서 유출된 비밀 및 API 키를 탐지.
+더 많은 정보: <a href="https://github.com/gitleaks/gitleaks">https://github.com/gitleaks/gitleaks</a>.</p>
+
+<ul>
+  <li>원격 디렉터리 스캔:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks detect --repo-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://github.com/username/repository.git</span></p>
+
+<ul>
+  <li>로컬 디렉터리 스캔:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks detect --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리</span></p>
+
+<ul>
+  <li>스캔 결과를 JSON 파일로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks detect --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리</span><code class="language-plaintext highlighter-rouge"> --report </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/리포트.json</span></p>
+
+<ul>
+  <li>사용자 정의 규칙 파일을 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks detect --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리</span><code class="language-plaintext highlighter-rouge"> --config-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/구성파일.toml</span></p>
+
+<ul>
+  <li>특정 커밋에서 스캔을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks detect --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리</span><code class="language-plaintext highlighter-rouge"> --log-opts </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–since=commit_id</span></p>
+
+<ul>
+  <li>커밋 전에 커밋되지 않은 변경사항을 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks protect --staged</code></p>
+
+<ul>
+  <li>스캔 중에 보안 위험 노출로 식별된 부분을 나타내는 자세한 출력을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks protect --staged --verbose</code></p>

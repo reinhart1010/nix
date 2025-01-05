@@ -1,0 +1,52 @@
+<h1 id="ip-route-show">ip route show</h1>
+
+<p>Exibe subcomando para o gerenciamento de tabelas de roteamento de IP.
+Mais informações: <a href="https://manned.org/ip-route">https://manned.org/ip-route</a>.</p>
+
+<ul>
+  <li>Exibe a tabela de roteamento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show</code></p>
+
+<ul>
+  <li>Exibe a tabela de roteamento principal (mesmo que o primeiro exemplo):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">main|254</span></p>
+
+<ul>
+  <li>Exibe a tabela de roteamento local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local|255</span></p>
+
+<ul>
+  <li>Exibe todas as tabelas de roteamento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">all|unspec|0</span></p>
+
+<ul>
+  <li>Lista rotas apenas a partir de um dispositivo provido:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Lista rotas dentro de um escopo provido:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show scope link</code></p>
+
+<ul>
+  <li>Exibe o cache de roteamento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route show cache</code></p>
+
+<ul>
+  <li>Exibe apenas rotas IPv6 ou IPv4:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-6|-4</span><code class="language-plaintext highlighter-rouge"> route show</code></p>

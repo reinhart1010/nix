@@ -1,0 +1,34 @@
+<h1 id="apt-mark">apt-mark</h1>
+
+<p>Servizio per cambiare lo stato di un pacchetto installato.
+Maggiori informazioni: <a href="https://manned.org/apt-mark.8">https://manned.org/apt-mark.8</a>.</p>
+
+<ul>
+  <li>Contrassegna un pacchetto come installato automaticamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt-mark auto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_del_pacchetto</span></p>
+
+<ul>
+  <li>Mantiene un pacchetto alla sua versione attuale e ne previene l'aggiornamento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt-mark hold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_del_pacchetto</span></p>
+
+<ul>
+  <li>Consente ad un pacchetto di essere nuovamente aggiornato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt-mark unhold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_del_pacchetto</span></p>
+
+<ul>
+  <li>Mostra i pacchetti installati manualmente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-mark showmanual</code></p>
+
+<ul>
+  <li>Visualizza i pacchetti mantenuti alla versione attuale che non sono stati aggiornati:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-mark showhold</code></p>

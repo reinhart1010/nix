@@ -1,0 +1,41 @@
+<h1 id="pacman-files">pacman –files</h1>
+
+<p>Utilidad de manejo de paquetes de Arch Linux.
+Vea también: <code class="language-plaintext highlighter-rouge">pacman</code>, <code class="language-plaintext highlighter-rouge">pkgfile</code>.
+Más información: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Actualiza la base de datos de paquetes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Fy</code></p>
+
+<ul>
+  <li>Encuentra el paquete que posee un archivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span></p>
+
+<ul>
+  <li>Encuentra el paquete que posee un archivo específico, utilizando una e[x]presión regular:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Fx '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expresión_regular</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Lista solo los nombres de los paquetes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Fq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span></p>
+
+<ul>
+  <li>[L]ista los archivos que hacen parte de un paquete específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Fl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Muestra la ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Fh</code></p>

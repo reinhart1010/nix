@@ -1,0 +1,34 @@
+<h1 id="git-svn">git svn</h1>
+
+<p>Subversion 저장소와 Git 간의 양방향 작업.
+더 많은 정보: <a href="https://git-scm.com/docs/git-svn">https://git-scm.com/docs/git-svn</a>.</p>
+
+<ul>
+  <li>SVN 저장소 클론:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git svn clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/subversion_repo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_dir</span></p>
+
+<ul>
+  <li>특정 리비전 번호에서 시작하여 SVN 저장소 클론:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git svn clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–revision</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span><code class="language-plaintext highlighter-rouge">:HEAD </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://svn.example.net/subversion/repo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_dir</span></p>
+
+<ul>
+  <li>원격 SVN 저장소에서 로컬 클론 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git svn rebase</code></p>
+
+<ul>
+  <li>Git HEAD를 변경하지 않고 원격 SVN 저장소에서 업데이트 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git svn fetch</code></p>
+
+<ul>
+  <li>SVN 저장소에 커밋:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git svn commit</code></p>

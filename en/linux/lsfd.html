@@ -1,0 +1,28 @@
+<h1 id="lsfd">lsfd</h1>
+
+<p>List open files and the corresponding processes in Linux.
+More information: <a href="https://manned.org/lsfd">https://manned.org/lsfd</a>.</p>
+
+<ul>
+  <li>List all open file descriptors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsfd</code></p>
+
+<ul>
+  <li>List all files kept open by a specific program:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsfd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-Q|–filter</span><code class="language-plaintext highlighter-rouge"> 'PID == </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_ID</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Check what program has a specific file open:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsfd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-Q|–filter</span><code class="language-plaintext highlighter-rouge"> "NAME == '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/file</span><code class="language-plaintext highlighter-rouge">'"</code></p>
+
+<ul>
+  <li>List open IPv4 or IPv6 sockets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsfd -i</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4|6</span></p>

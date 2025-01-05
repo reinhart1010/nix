@@ -1,0 +1,34 @@
+<h1 id="cu">cu</h1>
+
+<p>Call Up another system and act as a dial-in/serial terminal or perform file transfers with no error checking.
+More information: <a href="https://manned.org/cu">https://manned.org/cu</a>.</p>
+
+<ul>
+  <li>Open a given serial port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cu --line </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyUSB0</span></p>
+
+<ul>
+  <li>Open a given serial port with a given baud rate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cu --line </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyUSB0</span><code class="language-plaintext highlighter-rouge"> --speed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">115200</span></p>
+
+<ul>
+  <li>Open a given serial port with a given baud rate and echo characters locally (half-duplex mode):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cu --line </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyUSB0</span><code class="language-plaintext highlighter-rouge"> --speed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">115200</span><code class="language-plaintext highlighter-rouge"> --halfduplex</code></p>
+
+<ul>
+  <li>Open a given serial port with a given baud rate, parity, and no hardware or software flow control:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cu --line </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyUSB0</span><code class="language-plaintext highlighter-rouge"> --speed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">115200</span><code class="language-plaintext highlighter-rouge"> --parity=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">even|odd|none</span><code class="language-plaintext highlighter-rouge"> --nortscts --nostop</code></p>
+
+<ul>
+  <li>Exit the <code class="language-plaintext highlighter-rouge">cu</code> session when in connection:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">~.</code></p>

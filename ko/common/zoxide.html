@@ -1,0 +1,41 @@
+<h1 id="zoxide">zoxide</h1>
+
+<p>가장 자주 사용되는 디렉터리를 추적.
+순위 알고리즘을 사용하여 가장 적합한 경로로 이동.
+더 많은 정보: <a href="https://github.com/ajeetdsouza/zoxide">https://github.com/ajeetdsouza/zoxide</a>.</p>
+
+<ul>
+  <li>이름에 "foo"가 포함된 가장 높은 순위의 디렉터리로 이동:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>이름에 "foo"와 "bar"가 차례로 포함된 가장 높은 순위의 디렉터리로 이동:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span></p>
+
+<ul>
+  <li>대화형 디렉터리 검색 시작 (<code class="language-plaintext highlighter-rouge">fzf</code> 필요):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide query --interactive</code></p>
+
+<ul>
+  <li>디렉터리를 추가하거나 순위를 증가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">zoxide</code> 데이터베이스에서 대화형으로 디렉터리 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> --interactive</code></p>
+
+<ul>
+  <li>명령 별칭 (<code class="language-plaintext highlighter-rouge">z</code>, <code class="language-plaintext highlighter-rouge">za</code>, <code class="language-plaintext highlighter-rouge">zi</code>, <code class="language-plaintext highlighter-rouge">zq</code>, <code class="language-plaintext highlighter-rouge">zr</code>)에 대한 쉘 구성 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash|fish|zsh</span></p>

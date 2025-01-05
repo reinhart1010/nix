@@ -1,0 +1,28 @@
+<h1 id="docker-context">docker context</h1>
+
+<p>Switch between contexts to manage multiple Docker environments.
+More information: <a href="https://docs.docker.com/reference/cli/docker/context/">https://docs.docker.com/reference/cli/docker/context/</a>.</p>
+
+<ul>
+  <li>Create a context using a specific Docker endpoint:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker context create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_context</span><code class="language-plaintext highlighter-rouge"> --docker "host=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp://remote-host:2375</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Create a context based on the <code class="language-plaintext highlighter-rouge">DOCKER_HOST</code> environment variable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker context create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_context</span></p>
+
+<ul>
+  <li>Switch to a context:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker context use </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_context</span></p>
+
+<ul>
+  <li>List all contexts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker context ls</code></p>

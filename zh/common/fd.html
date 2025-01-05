@@ -1,0 +1,41 @@
+<h1 id="fd">fd</h1>
+
+<p><code class="language-plaintext highlighter-rouge">find</code> 的替代工具。
+旨在比 <code class="language-plaintext highlighter-rouge">find</code> 更快且更易于使用。
+更多信息：<a href="https://github.com/sharkdp/fd">https://github.com/sharkdp/fd</a>.</p>
+
+<ul>
+  <li>递归查找当前目录中匹配特定模式的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fd "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串|正则表达式</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>查找以特定字符串开头的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fd "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^字符串</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>查找具有特定扩展名的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fd --extension </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txt</span></p>
+
+<ul>
+  <li>在特定目录中查找文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fd "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串|正则表达式</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span></p>
+
+<ul>
+  <li>在搜索中包含被忽略和隐藏的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fd --hidden --no-ignore "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串|正则表达式</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>对每个返回的搜索结果执行命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fd "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串|正则表达式</span><code class="language-plaintext highlighter-rouge">" --exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span></p>

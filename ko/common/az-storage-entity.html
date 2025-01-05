@@ -1,0 +1,35 @@
+<h1 id="az-storage-entity">az storage entity</h1>
+
+<p>Azure Table storage 엔티티를 관리.
+<code class="language-plaintext highlighter-rouge">azure-cli</code>의 일부 (<code class="language-plaintext highlighter-rouge">az</code>라고도 함).
+더 많은 정보: <a href="https://learn.microsoft.com/cli/azure/storage/entity">https://learn.microsoft.com/cli/azure/storage/entity</a>.</p>
+
+<ul>
+  <li>테이블에 엔터티를 삽입:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage entity insert --entity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">space_separated_key_value_pairs</span><code class="language-plaintext highlighter-rouge"> --table-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge"> --account-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_키</span></p>
+
+<ul>
+  <li>테이블에서 기존 엔터티를 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage entity delete --partition-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파티션_키</span><code class="language-plaintext highlighter-rouge"> --row-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">행_키</span><code class="language-plaintext highlighter-rouge"> --table-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge"> --account-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_키</span></p>
+
+<ul>
+  <li>해당 속성을 병합하여 기존 엔터티를 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage entity merge --entity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">space_separated_key_value_pairs</span><code class="language-plaintext highlighter-rouge"> --table-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge"> --account-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_키</span></p>
+
+<ul>
+  <li>쿼리를 만족하는 항목을 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage entity query --filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">쿼리_필터</span><code class="language-plaintext highlighter-rouge"> --table-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge"> --account-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_키</span></p>
+
+<ul>
+  <li>지정된 테이블에서 엔터티를 가져옴:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage entity show --partition-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파티션_키</span><code class="language-plaintext highlighter-rouge"> --row-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">행_키</span><code class="language-plaintext highlighter-rouge"> --table-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge"> --account-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_키</span></p>

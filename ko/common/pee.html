@@ -1,0 +1,23 @@
+<h1 id="pee">pee</h1>
+
+<p><code class="language-plaintext highlighter-rouge">stdin</code>을 파이프로 전달하는 도구.
+같이 보기: <code class="language-plaintext highlighter-rouge">tee</code>.
+더 많은 정보: <a href="https://joeyh.name/code/moreutils/">https://joeyh.name/code/moreutils/</a>.</p>
+
+<ul>
+  <li>각 명령을 실행하고, 각 명령에 <code class="language-plaintext highlighter-rouge">stdin</code>의 별도 복사본 제공:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pee </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령1 명령2 …</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>의 복사본을 <code class="language-plaintext highlighter-rouge">stdout</code>에 쓰기 (<code class="language-plaintext highlighter-rouge">tee</code>처럼 동작):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pee cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령1 명령2 …</span></p>
+
+<ul>
+  <li>SIGPIPE 및 쓰기 오류 발생 시 즉시 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pee --no-ignore-sigpipe --no-ignore-write-errors </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령1 명령2 …</span></p>

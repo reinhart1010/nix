@@ -1,0 +1,53 @@
+<h1 id="tldr">tldr</h1>
+
+<p>Muestra páginas de ayuda simples para herramientas de línea de comandos del proyecto tldr-pages.
+Nota: las opciones <code class="language-plaintext highlighter-rouge">--language</code> y <code class="language-plaintext highlighter-rouge">--list</code> no son requeridas por la especificación del cliente, pero la mayoría de los mismos las implementan.
+Más información: <a href="https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface">https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface</a>.</p>
+
+<ul>
+  <li>Imprime la página tldr para un comando específico (pista: ¡así es como has llegado hasta aquí!):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Imprime la página tldr para un subcomando específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span></p>
+
+<ul>
+  <li>Imprime la página tldr para un comando en el [L]enguaje dado (si está disponible, de lo contrario vuelve al inglés):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --language </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">código_de_lenguaje</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Imprime la página tldr para un comando de una [p]lataforma específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Actualiza la caché local de páginas tldr:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --update</code></p>
+
+<ul>
+  <li>[l]ista todas las páginas para la plataforma actual y <code class="language-plaintext highlighter-rouge">common</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --list</code></p>
+
+<ul>
+  <li>[l]ista todas las páginas de subcomandos disponibles para un comando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --list | grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | column</code></p>
+
+<ul>
+  <li>Imprime la página tldr para un comando aleatorio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --list | shuf -n1 | xargs tldr</code></p>

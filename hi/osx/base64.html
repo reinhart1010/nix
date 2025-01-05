@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="base64">base64</h1>
+
+<p>बेस 64 प्रस्तुतीकरण का उपयोग करके कोड और डिकोड करें।
+अधिक जानकारी: <a href="https://keith.github.io/xcode-man-pages/base64.1.html">https://keith.github.io/xcode-man-pages/base64.1.html</a>।</p>
+
+<ul>
+  <li>फ़ाइल को कोड करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 --input=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">सादा_फ़ाइल</span></p>
+
+<ul>
+  <li>फ़ाइल को डिकोड करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 --decode --input=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base64_फ़ाइल</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code> से कोड करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">सादा_फ़ाइल</span><code class="language-plaintext highlighter-rouge">" | base64</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code> से डिकोड करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base64_फ़ाइल</span><code class="language-plaintext highlighter-rouge"> | base64 --decode</code></p>

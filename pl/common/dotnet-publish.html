@@ -1,0 +1,40 @@
+<h1 id="dotnet-publish">dotnet publish</h1>
+
+<p>Opublikuj aplikację .NET i jej zależności w celu wdrożenia na docelowym systemie.
+Więcej informacji: <a href="https://learn.microsoft.com/dotnet/core/tools/dotnet-publish">https://learn.microsoft.com/dotnet/core/tools/dotnet-publish</a>.</p>
+
+<ul>
+  <li>Opublikuj projekt w konfiguracji wydania:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet publish --configuration Release </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/projektu_lub_solucji</span></p>
+
+<ul>
+  <li>Opublikuj projekt z dołączonym wybranym środowiskiem uruchomieniowym:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet publish --self-contained true --runtime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identyfikator_runtime</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/projektu_lub_solucji</span></p>
+
+<ul>
+  <li>Zapakuj aplikację do pojedyńczego pliku uruchomieniowego dla konkretnej platformy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet publish --runtime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identyfikator_runtime</span><code class="language-plaintext highlighter-rouge"> -p:PublishSingleFile=true </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/projektu_lub_solucji</span></p>
+
+<ul>
+  <li>Pomiń nieużywane biblioteki aby obniżyć rozmiar wdrażanej aplikacji:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet publish --self-contained true --runtime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identyfikator_runtime</span><code class="language-plaintext highlighter-rouge"> -p:PublishTrimmed=true </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/projektu_lub_solucji</span></p>
+
+<ul>
+  <li>Kompiluj projekt bez przywracania zależności:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet publish --no-restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/projektu_lub_solucji</span></p>
+
+<ul>
+  <li>Wybierz katalog docelowy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet publish --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ściezka/do/katalogu</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/projektu_lub_solucji</span></p>

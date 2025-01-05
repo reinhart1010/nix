@@ -1,0 +1,52 @@
+<h1 id="shutdown">shutdown</h1>
+
+<p>用于关闭、重启或注销计算机的工具。
+更多信息：<a href="https://learn.microsoft.com/windows-server/administration/windows-commands/shutdown">https://learn.microsoft.com/windows-server/administration/windows-commands/shutdown</a>.</p>
+
+<ul>
+  <li>关闭当前计算机：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /s</code></p>
+
+<ul>
+  <li>强制关闭当前计算机的所有应用程序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /s /f</code></p>
+
+<ul>
+  <li>立即重启当前计算机：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /r /t 0</code></p>
+
+<ul>
+  <li>休眠当前计算机：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /h</code></p>
+
+<ul>
+  <li>注销当前计算机：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /l</code></p>
+
+<ul>
+  <li>指定在关闭前等待的秒数：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /s /t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">秒</span></p>
+
+<ul>
+  <li>中止尚未超时的关机序列：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /a</code></p>
+
+<ul>
+  <li>关闭远程计算机：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\ 主机名</span></p>

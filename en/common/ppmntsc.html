@@ -1,0 +1,28 @@
+<h1 id="ppmntsc">ppmntsc</h1>
+
+<p>Make the RGB colors in a PPM image compatible with NTSC or PAL color systems.
+More information: <a href="https://netpbm.sourceforge.net/doc/ppmntsc.html">https://netpbm.sourceforge.net/doc/ppmntsc.html</a>.</p>
+
+<ul>
+  <li>Make the RGB colors in a PPM image compatible with NTSC color systems:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmntsc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.ppm</span></p>
+
+<ul>
+  <li>Make the RGB colors in a PPM image compatible with PAL color systems:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmntsc --pal </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.ppm</span></p>
+
+<ul>
+  <li>Print the number of illegal pixels in the input image to <code class="language-plaintext highlighter-rouge">stderr</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmntsc --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.ppm</span></p>
+
+<ul>
+  <li>Output only legal/illegal/corrected pixels, set other pixels to black:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmntsc --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">legalonly|illegalonly|correctedonly</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.ppm</span></p>

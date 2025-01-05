@@ -1,0 +1,47 @@
+<h1 id="zip">zip</h1>
+
+<p>Утиліта архівування файлів в Zip-архів.
+Дивіться також: <code class="language-plaintext highlighter-rouge">unzip</code>.
+Більше інформації: <a href="https://manned.org/zip">https://manned.org/zip</a>.</p>
+
+<ul>
+  <li>Додати файли/каталоги до певного архіву рекурсивно ([r]ecursively):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/архіву.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу_або_каталогу1 шлях/до/файлу_або_каталогу2 …</span></p>
+
+<ul>
+  <li>Видалити файли/каталоги із певного архіву ([d]elete):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/архіву.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу_або_каталогу1 шлях/до/файлу_або_каталогу2 …</span></p>
+
+<ul>
+  <li>Архівувати файли/каталоги, окрім (e[x]cluding) зазначених:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/архіву.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу_або_каталогу1 шлях/до/файлу_або_каталогу2 …</span><code class="language-plaintext highlighter-rouge"> -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/виключених_файлів_або_каталогів</span></p>
+
+<ul>
+  <li>Архівувати файли/каталоги з певним рівнем стиснення (<code class="language-plaintext highlighter-rouge">0</code> - найнижчий, <code class="language-plaintext highlighter-rouge">9</code> - найвищий):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0..9</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/архіву.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу_або_каталогу1 шлях/до/файлу_або_каталогу2 …</span></p>
+
+<ul>
+  <li>Створити зашифрований ([e]ncrypted) архів із певним паролем (з’явиться запит на введення пароля):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/архіву.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу_або_каталогу1 шлях/до/файлу_або_каталогу2 …</span></p>
+
+<ul>
+  <li>Архівувати файли/каталоги в архів з багатьох частин ([s]split) (наприклад, частини по 3 Гб):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3g</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/архіву.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу_або_каталогу1 шлях/до/файлу_або_каталогу2 …</span></p>
+
+<ul>
+  <li>Print a specific archive contents Вивести перелік вмісту певного архіву:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -sf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/архіву.zip</span></p>

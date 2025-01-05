@@ -1,0 +1,52 @@
+<h1 id="crontab">crontab</h1>
+
+<p>排程作業按時間間隔執行。
+更多資訊：<a href="https://crontab.guru/">https://crontab.guru/</a>.</p>
+
+<ul>
+  <li>編輯目前使用者的排程文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crontab -e</code></p>
+
+<ul>
+  <li>編輯特定使用者的排程文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo crontab -e -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">使用者名稱</span></p>
+
+<ul>
+  <li>用給定檔案的內容取代目前的排程文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crontab </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/路徑</span></p>
+
+<ul>
+  <li>查看目前使用者的排程：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crontab -l</code></p>
+
+<ul>
+  <li>刪除目前使用者的所有排程：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crontab -r</code></p>
+
+<ul>
+  <li>範例排程：每天於 10：00 時執行， <code class="language-plaintext highlighter-rouge">*</code> 表示任意值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">0 10 * * * </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">執行命令</span></p>
+
+<ul>
+  <li>範例排程：每 10 分鐘執行一次命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">*/10 * * * * </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">執行命令</span></p>
+
+<ul>
+  <li>範例排程：每週五 02：30 執行sh檔：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">30 2 * * Fri </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh檔路徑</span></p>

@@ -1,0 +1,35 @@
+<h1 id="az-tag">az tag</h1>
+
+<p>Manage tags on a resource.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/tag">https://learn.microsoft.com/cli/azure/tag</a>.</p>
+
+<ul>
+  <li>Create a tag value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az tag add-value --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_name</span><code class="language-plaintext highlighter-rouge"> --value </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_value</span></p>
+
+<ul>
+  <li>Create a tag in the subscription:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az tag create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_name</span></p>
+
+<ul>
+  <li>Delete a tag from the subscription:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az tag delete --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_name</span></p>
+
+<ul>
+  <li>List all tags on a subscription:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az tag list --resource-id /subscriptions/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subscription_id</span></p>
+
+<ul>
+  <li>Delete a tag value for a specific tag name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az tag remove-value --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_name</span><code class="language-plaintext highlighter-rouge"> --value </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_value</span></p>

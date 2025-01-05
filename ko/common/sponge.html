@@ -1,0 +1,16 @@
+<h1 id="sponge">sponge</h1>
+
+<p>입력을 출력 파일에 쓰기 전에 흡수합니다.
+더 많은 정보: <a href="https://manned.org/sponge">https://manned.org/sponge</a>.</p>
+
+<ul>
+  <li>파일 내용을 원본 파일에 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> | sponge -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일에서 #으로 시작하는 모든 줄 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep -v '^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">#</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> | sponge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

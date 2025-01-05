@@ -1,0 +1,29 @@
+<h1 id="encfs">encfs</h1>
+
+<p>Mount or create encrypted virtual filesystems.
+See also <code class="language-plaintext highlighter-rouge">fusermount</code>, which can unmount filesystems mounted by this command.
+More information: <a href="https://github.com/vgough/encfs">https://github.com/vgough/encfs</a>.</p>
+
+<ul>
+  <li>Initialize or mount an encrypted filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">encfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/cipher_dir</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/mount_point</span></p>
+
+<ul>
+  <li>Initialize an encrypted filesystem with standard settings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">encfs --standard </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/cipher_dir</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/mount_point</span></p>
+
+<ul>
+  <li>Run encfs in the foreground instead of spawning a daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">encfs -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/cipher_dir</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/mount_point</span></p>
+
+<ul>
+  <li>Mount an encrypted snapshot of a plain directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">encfs --reverse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/plain_dir</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cipher_dir</span></p>

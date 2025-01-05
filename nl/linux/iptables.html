@@ -1,0 +1,41 @@
+<h1 id="iptables">iptables</h1>
+
+<p>Configureer tabellen, ketens en regels van de Linux kernel IPv4 firewall.
+Gebruik <code class="language-plaintext highlighter-rouge">ip6tables</code> om regels in te stellen voor IPv6 verkeer. Bekijk ook: <code class="language-plaintext highlighter-rouge">iptables-save</code>, <code class="language-plaintext highlighter-rouge">iptables-restore</code>.
+Meer informatie: <a href="https://manned.org/iptables">https://manned.org/iptables</a>.</p>
+
+<ul>
+  <li>Bekijk ketens, regels, pakket/byte tellers en regelnummers voor de filter tabel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables --verbose --numeric --list --line-numbers</code></p>
+
+<ul>
+  <li>Zet keten [P]olicy regel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables --policy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keten</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regel</span></p>
+
+<ul>
+  <li>Voeg regel toe aan keten policy voor IP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables --append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keten</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge"> --jump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regel</span></p>
+
+<ul>
+  <li>Voeg regel toe aan keten policy voor IP met [p]rotocol en poort in overweging:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables --append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keten</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge"> --protocol </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp|udp|icmp|…</span><code class="language-plaintext highlighter-rouge"> --dport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">poort</span><code class="language-plaintext highlighter-rouge"> --jump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regel</span></p>
+
+<ul>
+  <li>Voeg een NAT regel toe om al het verkeer van <code class="language-plaintext highlighter-rouge">192.168.0.0/24</code> subnet te vertalen naar de host's publieke IP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables --table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nat</span><code class="language-plaintext highlighter-rouge"> --append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">POSTROUTING</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.0/24</span><code class="language-plaintext highlighter-rouge"> --jump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MASQUERADE</span></p>
+
+<ul>
+  <li>Verwij[D]er keten regel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keten</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regelnummer</span></p>

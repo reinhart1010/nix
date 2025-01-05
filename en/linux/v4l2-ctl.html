@@ -1,0 +1,52 @@
+<h1 id="v4l2-ctl">v4l2-ctl</h1>
+
+<p>Control video devices.
+More information: <a href="https://manned.org/v4l2-ctl">https://manned.org/v4l2-ctl</a>.</p>
+
+<ul>
+  <li>List all video devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">v4l2-ctl --list-devices</code></p>
+
+<ul>
+  <li>List supported video formats and resolutions of default video device <code class="language-plaintext highlighter-rouge">/dev/video0</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">v4l2-ctl --list-formats-ext</code></p>
+
+<ul>
+  <li>List supported video formats and resolutions of a specific video device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">v4l2-ctl --list-formats-ext --device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/video_device</span></p>
+
+<ul>
+  <li>Get all details of a video device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">v4l2-ctl --all --device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/video_device</span></p>
+
+<ul>
+  <li>Capture a JPEG photo with a specific resolution from video device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">v4l2-ctl --device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/video_device</span><code class="language-plaintext highlighter-rouge"> --set-fmt-video=width=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width</span><code class="language-plaintext highlighter-rouge">,height=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">height</span><code class="language-plaintext highlighter-rouge">,pixelformat=MJPG --stream-mmap --stream-to=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.jpg</span><code class="language-plaintext highlighter-rouge"> --stream-count=1</code></p>
+
+<ul>
+  <li>Capture a raw video stream from video device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">v4l2-ctl --device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/video_device</span><code class="language-plaintext highlighter-rouge"> --set-fmt-video=width=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width</span><code class="language-plaintext highlighter-rouge">,height=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">height</span><code class="language-plaintext highlighter-rouge">,pixelformat=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">format</span><code class="language-plaintext highlighter-rouge"> --stream-mmap --stream-to=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output</span><code class="language-plaintext highlighter-rouge"> --stream-count=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_frames_to_capture</span></p>
+
+<ul>
+  <li>List all video device's controls and their values:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">v4l2-ctl --list-ctrls --device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/video_device</span></p>
+
+<ul>
+  <li>Set the value of a video device control:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">v4l2-ctl --device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/video_device</span><code class="language-plaintext highlighter-rouge"> --set-ctrl=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">control_name</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>

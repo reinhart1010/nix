@@ -1,0 +1,52 @@
+<h1 id="chmod">chmod</h1>
+
+<p>Mengubah hak akses pengguna suatu file atau direktori.
+Informasi lebih lanjut: <a href="https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html</a>.</p>
+
+<ul>
+  <li>Berikan pengguna pembuat file hak untuk mengeksekusinya (misal: sebagai script):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod u+x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Berikan hak kepada pengguna untuk membaca ([r]ead) dan menulis ([w]rite) suatu file atau direktori:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod u+rw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori</span></p>
+
+<ul>
+  <li>Hentikan hak akses terhadap [g]rup untuk mengeksekusi suatu file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod g-x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span></p>
+
+<ul>
+  <li>Berikan semua pengguna hak untuk membaca dan mengeksekusi suatu file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod a+rx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span></p>
+
+<ul>
+  <li>Berikan hak-hak akses suatu file yang sama dari [g]rup kepada pengguna di luar grup ([o]thers):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod o=g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span></p>
+
+<ul>
+  <li>Hentikan semua hak akses suatu file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod o= </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span></p>
+
+<ul>
+  <li>Berikan hak tulis suatu direktori bagi [g]rup dan lainnya secara [R]ekursif (termasuk seluruh file yang terkandung di dalamnya):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod -R g+w,o+w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span></p>
+
+<ul>
+  <li>Berikan hak semua pengguna untuk membaca seluruh file dan mengeksekusi para sub-direktori dalam suatu direktori:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod -R a+rX </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span></p>

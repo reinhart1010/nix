@@ -1,0 +1,29 @@
+<h1 id="alex">alex</h1>
+
+<p>Uno strumento per individuare frasi scritte in modo insensibile o sconsiderato.
+Aiuta a trovare termini che favoriscono un certo genere, legati alla razza, religiosamente inappropriati, o simili termini non equi in un testo.
+Maggiori informazioni: <a href="https://github.com/get-alex/alex">https://github.com/get-alex/alex</a>.</p>
+
+<ul>
+  <li>Analizza testo da standard input:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Frase da analizzare</span><code class="language-plaintext highlighter-rouge"> | alex --stdin</code></p>
+
+<ul>
+  <li>Analizza tutti i file nella directory corrente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alex</code></p>
+
+<ul>
+  <li>Analizza uno specifico file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.md</span></p>
+
+<ul>
+  <li>Analizza tutti i file Markdown eccetto <code class="language-plaintext highlighter-rouge">esempio.md</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alex *.md !</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">esempio.md</span></p>

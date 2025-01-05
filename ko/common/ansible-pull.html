@@ -1,0 +1,28 @@
+<h1 id="ansible-pull">ansible-pull</h1>
+
+<p>VCS 저장소에서 Ansible 플레이북을 가져와 로컬 호스트에서 실행.
+더 많은 정보: <a href="https://docs.ansible.com/ansible/latest/cli/ansible-pull.html">https://docs.ansible.com/ansible/latest/cli/ansible-pull.html</a>.</p>
+
+<ul>
+  <li>VCS에서 플레이북을 가져와 기본 local.yml playbook을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-pull -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">저장소_url</span></p>
+
+<ul>
+  <li>VCS에서 플레이북을 가져와 특정 플레이북을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-pull -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">저장소_url</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span></p>
+
+<ul>
+  <li>특정 지점의 VCS에서 플레이북을 가져와 특정 플레이북을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-pull -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">저장소_url</span><code class="language-plaintext highlighter-rouge"> -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span></p>
+
+<ul>
+  <li>VCS에서 플레이북을 가져오고, 호스트 파일을 지정하고 특정 플레이북을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-pull -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">저장소_url</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hosts_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span></p>

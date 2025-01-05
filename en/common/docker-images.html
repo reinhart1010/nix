@@ -1,0 +1,40 @@
+<h1 id="docker-images">docker images</h1>
+
+<p>Manage Docker images.
+More information: <a href="https://docs.docker.com/reference/cli/docker/image/ls/">https://docs.docker.com/reference/cli/docker/image/ls/</a>.</p>
+
+<ul>
+  <li>List all Docker images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images</code></p>
+
+<ul>
+  <li>List all Docker images including intermediates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images --all</code></p>
+
+<ul>
+  <li>List the output in quiet mode (only numeric IDs):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images --quiet</code></p>
+
+<ul>
+  <li>List all Docker images not used by any container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images --filter dangling=true</code></p>
+
+<ul>
+  <li>List images that contain a substring in their name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>name</em></span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Sort images by size:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images --format "\{\{.ID\}\}\t\{\{.Size\}\}\t\{\{.Repository\}\}:\{\{.Tag\}\}" | sort -k 2 -h</code></p>

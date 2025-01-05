@@ -1,0 +1,53 @@
+<h1 id="pass">pass</h1>
+
+<p>비밀번호나 기타 민감한 데이터를 저장하고 읽기.
+모든 데이터는 GPG로 암호화되며, Git 저장소로 관리됩니다.
+더 많은 정보: <a href="https://www.passwordstore.org">https://www.passwordstore.org</a>.</p>
+
+<ul>
+  <li>하나 이상의 GPG ID를 사용하여 저장소 초기화 (또는 재암호화):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pass init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gpg_id_1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gpg_id_2</span></p>
+
+<ul>
+  <li>새 비밀번호 및 추가 정보 저장 (새 줄에서 Ctrl + D를 눌러 완료):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pass insert --multiline </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/데이터</span></p>
+
+<ul>
+  <li>항목 편집:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pass edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/데이터</span></p>
+
+<ul>
+  <li>비밀번호(데이터 파일의 첫 번째 줄)를 클립보드에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pass -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/데이터</span></p>
+
+<ul>
+  <li>전체 저장소 트리 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pass</code></p>
+
+<ul>
+  <li>지정된 길이의 새로운 무작위 비밀번호 생성 및 클립보드에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pass generate -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/데이터</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">숫자</span></p>
+
+<ul>
+  <li>새로운 Git 저장소 초기화 (pass에 의해 이루어진 모든 변경 사항은 자동으로 커밋됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pass git init</code></p>
+
+<ul>
+  <li>비밀번호 저장소를 대신하여 Git 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pass git </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span></p>

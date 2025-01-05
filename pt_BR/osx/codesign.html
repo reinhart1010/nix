@@ -1,0 +1,16 @@
+<h1 id="codesign">codesign</h1>
+
+<p>Cria e manipula assinaturas de código para macOS.
+Mais informações: <a href="https://keith.github.io/xcode-man-pages/codesign.1.html">https://keith.github.io/xcode-man-pages/codesign.1.html</a>.</p>
+
+<ul>
+  <li>Assina um aplicativo com um certificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">codesign --sign "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Nome da Minha Empresa</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/App.app</span></p>
+
+<ul>
+  <li>Verifica o certificado de um aplicativo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">codesign --verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/App.app</span></p>

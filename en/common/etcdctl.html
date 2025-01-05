@@ -1,0 +1,52 @@
+<h1 id="etcdctl">etcdctl</h1>
+
+<p>Interact with <code class="language-plaintext highlighter-rouge">etcd</code>, a highly-available key-value pair store.
+More information: <a href="https://etcd.io/docs/latest/dev-guide/interacting_v3/">https://etcd.io/docs/latest/dev-guide/interacting_v3/</a>.</p>
+
+<ul>
+  <li>Display the value associated with a specified key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcdctl get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my/key</span></p>
+
+<ul>
+  <li>Store a key-value pair:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcdctl put </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my/key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_value</span></p>
+
+<ul>
+  <li>Delete a key-value pair:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcdctl del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my/key</span></p>
+
+<ul>
+  <li>Store a key-value pair, reading the value from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcdctl put </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my/file</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>
+
+<ul>
+  <li>Save a snapshot of the etcd keystore:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcdctl snapshot save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/snapshot.db</span></p>
+
+<ul>
+  <li>Restore a snapshot of an etcd keystore (restart the etcd server afterwards):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcdctl snapshot restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/snapshot.db</span></p>
+
+<ul>
+  <li>Add a user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcdctl user add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_user</span></p>
+
+<ul>
+  <li>Watch a key for changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcdctl watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my/key</span></p>

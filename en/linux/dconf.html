@@ -1,0 +1,41 @@
+<h1 id="dconf">dconf</h1>
+
+<p>Manage dconf databases.
+See also: <code class="language-plaintext highlighter-rouge">dconf-read</code>, <code class="language-plaintext highlighter-rouge">dconf-reset</code>, <code class="language-plaintext highlighter-rouge">dconf-write</code>, <code class="language-plaintext highlighter-rouge">gsettings</code>.
+More information: <a href="https://manned.org/dconf">https://manned.org/dconf</a>.</p>
+
+<ul>
+  <li>Print a specific key value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/key</span></p>
+
+<ul>
+  <li>Print a specific path sub-directories and sub-keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/directory/</span></p>
+
+<ul>
+  <li>Write a specific key value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/key</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Reset a specific key value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf reset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/key</span></p>
+
+<ul>
+  <li>Watch a specific key/directory for changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/key|/path/to/directory/</span></p>
+
+<ul>
+  <li>Dump a specific directory in INI file format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf dump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/directory/</span></p>

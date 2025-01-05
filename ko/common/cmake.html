@@ -1,0 +1,25 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="cmake">cmake</h1>
+
+<p>빌드 시스템을 생성하는 크로스 플랫폼으로 선택한 시스템에 따라 Makefiles, Visual Studio 프로젝트 또는 기타를 생성합니다.
+더 많은 정보: <a href="https://cmake.org/cmake/help/latest/manual/cmake.1.html">https://cmake.org/cmake/help/latest/manual/cmake.1.html</a>.</p>
+
+<ul>
+  <li>작성 파일을 생성하고 이를 사용하여 원본과 동일한 디렉토리에서 프로젝트를 컴파일합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake &amp;&amp; make</code></p>
+
+<ul>
+  <li>Makefile을 생성하고 이를 사용하여 별도의 "빌드" 디렉토리(소스 외 빌드)에 프로젝트를 컴파일합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake -H. -B</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">빌드</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; make -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">빌드</span></p>
+
+<ul>
+  <li>대화형 모드로 cmake를 실행 (기본값을 사용하는 대신 각 변수에 대해 요청합니다):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake -i</code></p>

@@ -1,0 +1,34 @@
+<h1 id="msg">msg</h1>
+
+<p>Wyślij wiadomość do wybranego użytnownika lub sesji.
+Więcej informacji: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/msg">https://learn.microsoft.com/windows-server/administration/windows-commands/msg</a>.</p>
+
+<ul>
+  <li>Wysyła wiadomość do użytkownika lub sesji:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika|nazwa_sesji|identyfikator_sesji</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wiadomość</span></p>
+
+<ul>
+  <li>Wyślij wiadomość ze standardowego wejścia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wiadomość</span><code class="language-plaintext highlighter-rouge">" | msg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika|nazwa_sesji|identyfikator_sesji</span></p>
+
+<ul>
+  <li>Wyślij wiadomość to zdalnej maszyny:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msg /server:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_serwera</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika|nazwa_sesji|identyfikator_sesji</span></p>
+
+<ul>
+  <li>Wyślij wiadomość do wszystkich użytkowników aktualnej maszyny:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msg *</code></p>
+
+<ul>
+  <li>Wyślij wiadomość z opóźnieniem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msg /time:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconds</span></p>

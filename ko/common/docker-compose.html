@@ -1,0 +1,52 @@
+<h1 id="docker-compose">docker compose</h1>
+
+<p>다중 컨테이너 도커 어플리케이션 실행 및 관리.
+더 많은 정보: <a href="https://docs.docker.com/reference/cli/docker/compose/">https://docs.docker.com/reference/cli/docker/compose/</a>.</p>
+
+<ul>
+  <li>실행 중인 모든 컨테이너 목록 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose ps</code></p>
+
+<ul>
+  <li>현재 디렉토리의 <code class="language-plaintext highlighter-rouge">docker-compose.yml</code> 파일을 사용해 모든 컨테이너를 백그라운드에서 생성하고 실행하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose up --detach</code></p>
+
+<ul>
+  <li>모든 컨테이너 실행, 필요 시 재빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose up --build</code></p>
+
+<ul>
+  <li>특정 구성 파일을 사용해 모든 컨테이너 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span><code class="language-plaintext highlighter-rouge"> --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명</span><code class="language-plaintext highlighter-rouge"> up</code></p>
+
+<ul>
+  <li>실행 중인 모든 컨테이너 중지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose stop</code></p>
+
+<ul>
+  <li>모든 컨테이너, 네트워크, 이미지, 볼륨 중지 및 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose down --rmi all --volumes</code></p>
+
+<ul>
+  <li>모든 컨테이너에 대한 로그 팔로우:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose logs --follow</code></p>
+
+<ul>
+  <li>특정 컨테이너에 대한 로그 팔로우:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose logs --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span></p>

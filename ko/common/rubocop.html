@@ -1,0 +1,46 @@
+<h1 id="rubocop">rubocop</h1>
+
+<p>Ruby 파일을 린트합니다.
+더 많은 정보: <a href="https://docs.rubocop.org/rubocop/usage/basic_usage.html">https://docs.rubocop.org/rubocop/usage/basic_usage.html</a>.</p>
+
+<ul>
+  <li>현재 디렉토리의 모든 파일 확인(하위 디렉토리 포함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop</code></p>
+
+<ul>
+  <li>하나 이상의 특정 파일 또는 디렉토리 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더1 경로/대상/파일_또는_폴더2 …</span></p>
+
+<ul>
+  <li>출력 결과를 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>cop(린터 규칙) 목록 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --show-cops</code></p>
+
+<ul>
+  <li>특정 cop 제외:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --except </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop1 cop2 …</span></p>
+
+<ul>
+  <li>지정된 cop만 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --only </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop1 cop2 …</span></p>
+
+<ul>
+  <li>파일 자동 수정(실험적 기능):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --auto-correct</code></p>

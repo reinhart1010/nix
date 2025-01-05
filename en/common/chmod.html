@@ -1,0 +1,52 @@
+<h1 id="chmod">chmod</h1>
+
+<p>Change the access permissions of a file or directory.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html</a>.</p>
+
+<ul>
+  <li>Give the [u]ser who owns a file the right to e[x]ecute it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod u+x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Give the [u]ser rights to [r]ead and [w]rite to a file/directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod u+rw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Remove e[x]ecutable rights from the [g]roup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod g-x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Give [a]ll users rights to [r]ead and e[x]ecute:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod a+rx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Give [o]thers (not in the file owner's group) the same rights as the [g]roup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod o=g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Remove all rights from [o]thers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod o= </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Change permissions recursively giving [g]roup and [o]thers the ability to [w]rite:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod -R g+w,o+w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Recursively give [a]ll users [r]ead permissions to files and e[X]ecute permissions to sub-directories within a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod -R a+rX </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

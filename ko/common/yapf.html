@@ -1,0 +1,22 @@
+<h1 id="yapf">yapf</h1>
+
+<p>Python 스타일 가이드 검사기.
+더 많은 정보: <a href="https://github.com/google/yapf">https://github.com/google/yapf</a>.</p>
+
+<ul>
+  <li>변경 사항을 적용하지 않고 변경 사항의 차이를 표시 (드라이런):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yapf --diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일을 제자리에서 포맷하고 변경 사항의 차이를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yapf --diff --in-place </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>디렉토리 내의 모든 Python 파일을 재귀적으로 동시에 포맷:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yapf --recursive --in-place --style </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pep8</span><code class="language-plaintext highlighter-rouge"> --parallel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>

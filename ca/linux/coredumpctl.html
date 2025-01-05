@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="coredumpctl">coredumpctl</h1>
+
+<p>Recupera i processa volcats de memòria i les seves metadades.
+Més informació: <a href="https://www.freedesktop.org/software/systemd/man/coredumpctl.html">https://www.freedesktop.org/software/systemd/man/coredumpctl.html</a>.</p>
+
+<ul>
+  <li>Llista tots els volcats de memòria capturats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">coredumpctl list</code></p>
+
+<ul>
+  <li>Llista tots els volcats de memòria capturats per un programa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">coredumpctl list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programa</span></p>
+
+<ul>
+  <li>Mostra informació sobre els volcats de memòria que coincideixin amb el <code class="language-plaintext highlighter-rouge">PID</code> d'un programa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">coredumpctl info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>
+
+<ul>
+  <li>Invoca el depurador fent servir l'últim volcat de memòria per un programa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">coredumpctl debug </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programa</span></p>
+
+<ul>
+  <li>Extreu l'últim volcat de memòria a un fitxer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">coredumpctl --output=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/arxiu</span><code class="language-plaintext highlighter-rouge"> dump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programa</span></p>

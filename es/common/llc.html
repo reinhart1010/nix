@@ -1,0 +1,28 @@
+<h1 id="llc">llc</h1>
+
+<p>Compila Representación intermedia LLVM o código bit (bitcode) para el lenguaje ensamblador objetivo específico.
+Más información: <a href="https://www.llvm.org/docs/CommandGuide/llc.html">https://www.llvm.org/docs/CommandGuide/llc.html</a>.</p>
+
+<ul>
+  <li>Compila un bitcode o archivo IR a un archivo ensamblador con el mismo nombre base:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.ll</span></p>
+
+<ul>
+  <li>Habilita todas las optimizaciones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llc -O3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.ll</span></p>
+
+<ul>
+  <li>Dirige la salida a un archivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llc --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/resultado.s</span></p>
+
+<ul>
+  <li>Emite código, independiente de la posición que pueda reubicarse completamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llc -relocation-model=pic </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/entrada.ll</span></p>

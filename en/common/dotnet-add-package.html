@@ -1,0 +1,40 @@
+<h1 id="dotnet-add-package">dotnet add package</h1>
+
+<p>Add or update a .NET package reference in a project file.
+More information: <a href="https://learn.microsoft.com/dotnet/core/tools/dotnet-add-package">https://learn.microsoft.com/dotnet/core/tools/dotnet-add-package</a>.</p>
+
+<ul>
+  <li>Add a package to the project in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet add package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Add a package to a specific project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csproj</span><code class="language-plaintext highlighter-rouge"> package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Add a specific version of a package to the project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet add package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> --version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.0.0</span></p>
+
+<ul>
+  <li>Add a package using a specific NuGet source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet add package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://api.nuget.org/v3/index.json</span></p>
+
+<ul>
+  <li>Add a package only when targeting a specific framework:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet add package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> --framework </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">net7.0</span></p>
+
+<ul>
+  <li>Add and specify the directory where to restore packages (<code class="language-plaintext highlighter-rouge">~/.nuget/packages</code> by default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet add package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> --package-directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

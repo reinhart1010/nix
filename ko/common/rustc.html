@@ -1,0 +1,47 @@
+<h1 id="rustc">rustc</h1>
+
+<p>Rust 컴파일러.
+Rust 프로젝트는 보통 <code class="language-plaintext highlighter-rouge">rustc</code>를 직접 호출하는 대신 <code class="language-plaintext highlighter-rouge">cargo</code>를 사용합니다.
+더 많은 정보: <a href="https://doc.rust-lang.org/rustc">https://doc.rust-lang.org/rustc</a>.</p>
+
+<ul>
+  <li>바이너리 크레이트 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/main.rs</span></p>
+
+<ul>
+  <li>최적화하여 컴파일 (<code class="language-plaintext highlighter-rouge">s</code>는 바이너리 크기 최적화를 의미하며, <code class="language-plaintext highlighter-rouge">z</code>는 더 많은 최적화를 포함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc -C lto -C opt-level=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|2|3|s|z</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/main.rs</span></p>
+
+<ul>
+  <li>디버깅 정보 포함하여 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/main.rs</span></p>
+
+<ul>
+  <li>오류 메시지 설명:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc --explain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">오류_코드</span></p>
+
+<ul>
+  <li>현재 CPU에 대한 아키텍처별 최적화로 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc -C target-cpu=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">native</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/main.rs</span></p>
+
+<ul>
+  <li>대상 목록 표시 (참고: 컴파일하려는 대상은 먼저 <code class="language-plaintext highlighter-rouge">rustup</code>을 사용하여 추가해야 함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc --print target-list</code></p>
+
+<ul>
+  <li>특정 대상에 대해 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">타겟_트리플</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/main.rs</span></p>

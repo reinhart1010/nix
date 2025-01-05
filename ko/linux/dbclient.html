@@ -1,0 +1,34 @@
+<h1 id="dbclient">dbclient</h1>
+
+<p>경량 Dropbear 보안 셸 클라이언트.
+더 많은 정보: <a href="https://manned.org/dbclient.1">https://manned.org/dbclient.1</a>.</p>
+
+<ul>
+  <li>원격 호스트에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dbclient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span></p>
+
+<ul>
+  <li>[p]포트 2222로 원격 호스트에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dbclient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span><code class="language-plaintext highlighter-rouge"> -p 2222</code></p>
+
+<ul>
+  <li>Dropbear 형식의 특정 [i]dentity 키를 사용하여 원격 호스트에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dbclient -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/키_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span></p>
+
+<ul>
+  <li>[t]ty 할당으로 원격 명령과 상호작용하며 원격 호스트에서 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dbclient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수1 인수2 …</span></p>
+
+<ul>
+  <li>[A]gent 연결을 원격 호스트로 전달하며 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dbclient -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span></p>

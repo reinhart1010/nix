@@ -1,0 +1,53 @@
+<h1 id="make">make</h1>
+
+<p>Makefile에 작성된 대상에 대한 작업 실행기입니다.
+주로 소스 코드에서 실행 파일의 컴파일을 제어하는 데 사용됩니다.
+더 많은 정보: <a href="https://www.gnu.org/software/make/manual/make.html">https://www.gnu.org/software/make/manual/make.html</a>.</p>
+
+<ul>
+  <li>Makefile에 지정된 첫 번째 대상(일반적으로 "all"이라는 이름)을 호출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">make</code></p>
+
+<ul>
+  <li>특정 대상을 호출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">make </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상</span></p>
+
+<ul>
+  <li>특정 대상을 호출하여, 한 번에 4개의 작업을 병렬로 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">make -j</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상</span></p>
+
+<ul>
+  <li>특정 Makefile을 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">make --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>다른 디렉토리에서 make 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">make --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>소스 파일이 변경되지 않은 경우에도, 대상을 강제로 make 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">make --always-make </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상</span></p>
+
+<ul>
+  <li>Makefile에 정의된 변수를 재정의:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">make </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변수</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새로운_값</span></p>
+
+<ul>
+  <li>환경에 의해 Makefile에 정의된 변수를 재정의:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">make --environment-overrides </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상</span></p>

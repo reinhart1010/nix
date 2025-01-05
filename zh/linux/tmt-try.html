@@ -1,0 +1,52 @@
+<h1 id="tmt-try">tmt try</h1>
+
+<p>测试及环境快速上手。
+更多信息：<a href="https://tmt.readthedocs.io/en/stable/stories/cli.html#try">https://tmt.readthedocs.io/en/stable/stories/cli.html#try</a>.</p>
+
+<ul>
+  <li>快速尝试默认的测试环境配置方法（当前工作目录中没有测试）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt try</code></p>
+
+<ul>
+  <li>在当前的工作目录中运行一个测试：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/test</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; tmt try</code></p>
+
+<ul>
+  <li>使用特定的操作系统：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt try </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora-41</span></p>
+
+<ul>
+  <li>选择定制的镜像和测试环境配置方法：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt try </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora@container</span></p>
+
+<ul>
+  <li>根据定制的筛选条件选择测试：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt try --test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">feature</span></p>
+
+<ul>
+  <li>配置客户机并等待用户输入指令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt try --ask</code></p>
+
+<ul>
+  <li>直接登录到客户机：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt try --login</code></p>
+
+<ul>
+  <li>显示帮助：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt try --help</code></p>

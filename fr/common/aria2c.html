@@ -1,0 +1,53 @@
+<h1 id="aria2c">aria2c</h1>
+
+<p>Utilitaire de téléchargement.
+Supporte HTTP(S), FTP, SFTP, BitTorrent, et Metalink.
+Plus d'informations : <a href="https://aria2.github.io">https://aria2.github.io</a>.</p>
+
+<ul>
+  <li>Télécharge depuis une URI vers un fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Télécharge un fichier via l'url spécifié en choisissant le nom de ce dernier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_fichier</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Télécharge plusieurs fichiers (différents) en parallèle :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --force-sequential </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">false</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url1 url2 …</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Télécharge depuis plusieurs sources avec chaque URI pointant vers le même fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url1 url2 …</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Télécharge les URIs listées dans un fichier avec un nombre limité de téléchargements en parallèle :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --input-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_fichier</span><code class="language-plaintext highlighter-rouge"> --max-concurrent-downloads=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_téléchargements</span></p>
+
+<ul>
+  <li>Télécharge avec plusieurs connections :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --split </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_connections</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Téléchargement FTP avec nom d'utilisateur et mot de passe :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --ftp-user=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_d_utilisateur</span><code class="language-plaintext highlighter-rouge"> --ftp-passwd=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mot_de_passe</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Limite la vitesse de téléchargement en octets/s :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --max-download-limit=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vitesse</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>

@@ -1,0 +1,17 @@
+<h1 id="elink">elink</h1>
+
+<p>Look up precomputed neighbors within a database, or find associated records in other databases.
+It is part of the <code class="language-plaintext highlighter-rouge">edirect</code> package.
+More information: <a href="https://www.ncbi.nlm.nih.gov/books/NBK179288/">https://www.ncbi.nlm.nih.gov/books/NBK179288/</a>.</p>
+
+<ul>
+  <li>Search pubmed then find related sequences:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">esearch -db pubmed -query "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">selective serotonin reuptake inhibitor</span><code class="language-plaintext highlighter-rouge">" | elink -target nuccore</code></p>
+
+<ul>
+  <li>Search nucleotide then find related biosamples:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">esearch -db nuccore -query "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">insulin [PROT] AND rodents [ORGN]</span><code class="language-plaintext highlighter-rouge">" | elink -target biosample</code></p>

@@ -1,0 +1,28 @@
+<h1 id="setfacl">setfacl</h1>
+
+<p>파일 접근 제어 목록(ACL) 설정.
+더 많은 정보: <a href="https://manned.org/setfacl">https://manned.org/setfacl</a>.</p>
+
+<ul>
+  <li>[u]사용자에게 읽기 및 쓰기 권한으로 파일의 ACL [m]수정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setfacl --modify u:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge">:rw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>
+
+<ul>
+  <li>모든 사용자에 대한 파일의 기본 ACL [m]수정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setfacl --modify --default u::rw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>
+
+<ul>
+  <li>파일의 사용자에 대한 ACL 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setfacl --remove u:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>
+
+<ul>
+  <li>파일의 모든 ACL 항목 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setfacl --remove-all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>

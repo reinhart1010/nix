@@ -1,0 +1,29 @@
+<h1 id="fsck">fsck</h1>
+
+<p>Check the integrity of a filesystem or repair it. The filesystem should be unmounted at the time the command is run.
+It is a wrapper that calls <code class="language-plaintext highlighter-rouge">fsck_hfs</code>, <code class="language-plaintext highlighter-rouge">fsck_apfs</code>, <code class="language-plaintext highlighter-rouge">fsck_msdos</code>, <code class="language-plaintext highlighter-rouge">fsck_exfat</code>, and <code class="language-plaintext highlighter-rouge">fsck_udf</code> as needed.
+More information: <a href="https://keith.github.io/xcode-man-pages/fsck.8.html">https://keith.github.io/xcode-man-pages/fsck.8.html</a>.</p>
+
+<ul>
+  <li>Check filesystem <code class="language-plaintext highlighter-rouge">/dev/sdX</code>, reporting any damaged blocks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fsck </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Check filesystem <code class="language-plaintext highlighter-rouge">/dev/sdX</code> only if it is clean, reporting any damaged blocks and interactively letting the user choose to repair each one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fsck -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Check filesystem <code class="language-plaintext highlighter-rouge">/dev/sdX</code> only if it is clean, reporting any damaged blocks and automatically repairing them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fsck -fy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Check filesystem <code class="language-plaintext highlighter-rouge">/dev/sdX</code>, reporting whether it has been cleanly unmounted:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fsck -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>

@@ -1,0 +1,29 @@
+<h1 id="lit">lit</h1>
+
+<p>LLVM integrated tester for executing LLVM and Clang style test suites, summarizing results.
+Part of LLVM.
+More information: <a href="https://www.llvm.org/docs/CommandGuide/lit.html">https://www.llvm.org/docs/CommandGuide/lit.html</a>.</p>
+
+<ul>
+  <li>Run a specified test case:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/test_file.test</span></p>
+
+<ul>
+  <li>Run all test cases in a specified directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/test_suite</span></p>
+
+<ul>
+  <li>Run all test cases and check the wall time for each cases, then report to summary output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/test_suite</span><code class="language-plaintext highlighter-rouge"> --time-tests</code></p>
+
+<ul>
+  <li>Run individual tests with Valgrind (memory check and memory leak test):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/test_file.test</span><code class="language-plaintext highlighter-rouge"> --vg --vg-leak --vg-args=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">args_to_valgrind</span></p>

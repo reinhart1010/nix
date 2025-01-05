@@ -1,0 +1,35 @@
+<h1 id="pueue-start">pueue start</h1>
+
+<p>작업 또는 작업 그룹의 실행을 재개.
+같이 보기: <code class="language-plaintext highlighter-rouge">pueue pause</code>.
+더 많은 정보: <a href="https://github.com/Nukesor/pueue">https://github.com/Nukesor/pueue</a>.</p>
+
+<ul>
+  <li>기본 그룹의 모든 작업 재개:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue start</code></p>
+
+<ul>
+  <li>특정 작업 재개:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_아이디</span></p>
+
+<ul>
+  <li>여러 작업을 동시에 재개:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_아이디</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_아이디</span></p>
+
+<ul>
+  <li>모든 작업과 그 하위 작업 재개:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue start --all --children</code></p>
+
+<ul>
+  <li>특정 그룹의 모든 작업 재개:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue start group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹_이름</span></p>

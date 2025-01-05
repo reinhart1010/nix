@@ -1,0 +1,35 @@
+<h1 id="waitpid">waitpid</h1>
+
+<p>Wait for the termination of arbitrary processes.
+See also: <code class="language-plaintext highlighter-rouge">wait</code>.
+More information: <a href="https://manned.org/waitpid.1">https://manned.org/waitpid.1</a>.</p>
+
+<ul>
+  <li>Sleep until all processes whose PIDs have been specified have exited:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waitpid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid1 pid2 …</span></p>
+
+<ul>
+  <li>Sleep for at most <code class="language-plaintext highlighter-rouge">n</code> seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waitpid --timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid1 pid2 …</span></p>
+
+<ul>
+  <li>Do not error if specified PIDs have already exited:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waitpid --exited </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid1 pid2 …</span></p>
+
+<ul>
+  <li>Sleep until <code class="language-plaintext highlighter-rouge">n</code> of the specified processes have exited:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waitpid --count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid1 pid2 …</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waitpid -h</code></p>

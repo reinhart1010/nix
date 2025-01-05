@@ -1,0 +1,35 @@
+<h1 id="snoop">snoop</h1>
+
+<p>네트워크 패킷 스니퍼.
+tcpdump와 동일한 기능을 하는 SunOS 대체품.
+더 많은 정보: <a href="https://www.unix.com/man-page/sunos/1m/snoop">https://www.unix.com/man-page/sunos/1m/snoop</a>.</p>
+
+<ul>
+  <li>특정 네트워크 인터페이스에서 패킷을 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">e1000g0</span></p>
+
+<ul>
+  <li>화면에 표시하는 대신 캡처된 패킷을 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일에서 패킷의 상세 프로토콜 레이어 요약 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -V -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>호스트 이름에서 지정된 포트로 가는 네트워크 패킷을 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop to port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span><code class="language-plaintext highlighter-rouge"> from host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span></p>
+
+<ul>
+  <li>두 IP 주소 간에 교환되는 네트워크 패킷의 hex 덤프를 캡처하고 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -x0 -p4 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip2</span></p>

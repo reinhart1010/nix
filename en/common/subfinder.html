@@ -1,0 +1,35 @@
+<h1 id="subfinder">subfinder</h1>
+
+<p>Discover valid subdomains for websites.
+Designed as a passive framework to be useful for bug bounties and safe for penetration testing.
+More information: <a href="https://github.com/projectdiscovery/subfinder">https://github.com/projectdiscovery/subfinder</a>.</p>
+
+<ul>
+  <li>Find subdomains for a specific [d]omain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">subfinder -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Show only the subdomains found:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">subfinder -silent -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Show only active subdomains:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">subfinder -nW -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Use all sources for enumeration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">subfinder -all -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Use a given comma-separated list of [r]esolvers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">subfinder -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8,1.1.1.1,…</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>

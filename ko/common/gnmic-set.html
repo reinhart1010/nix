@@ -1,0 +1,28 @@
+<h1 id="gnmic-set">gnmic set</h1>
+
+<p>gnmi 네트워크 장치 구성을 수정.
+더 많은 정보: <a href="https://gnmic.kmrd.dev/cmd/set">https://gnmic.kmrd.dev/cmd/set</a>.</p>
+
+<ul>
+  <li>경로의 값을 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic --address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아이피:포트</span><code class="language-plaintext highlighter-rouge"> set --update-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로</span><code class="language-plaintext highlighter-rouge"> --update-value </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span></p>
+
+<ul>
+  <li>JSON 파일의 내용과 일치하도록 경로 값을 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아이피:포트</span><code class="language-plaintext highlighter-rouge"> set --update-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로</span><code class="language-plaintext highlighter-rouge"> --update-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일경로</span></p>
+
+<ul>
+  <li>JSON 파일의 내용과 일치하도록 경로 값을 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아이피:포트</span><code class="language-plaintext highlighter-rouge"> set --replace-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로</span><code class="language-plaintext highlighter-rouge"> --replace-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일경로</span></p>
+
+<ul>
+  <li>주어진 경로에서 노드를 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아이피:포트</span><code class="language-plaintext highlighter-rouge"> set --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로</span></p>

@@ -1,0 +1,35 @@
+<h1 id="scalafmt">scalafmt</h1>
+
+<p>Scala 코드를 위한 코드 포매터.
+설정은 <code class="language-plaintext highlighter-rouge">.scalafmt.conf</code> 파일에 저장됩니다.
+더 많은 정보: <a href="https://scalameta.org/scalafmt">https://scalameta.org/scalafmt</a>.</p>
+
+<ul>
+  <li>현재 디렉토리의 모든 <code class="language-plaintext highlighter-rouge">.scala</code> 파일을 재귀적으로 재포맷:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scalafmt</code></p>
+
+<ul>
+  <li>특정 파일 또는 디렉토리를 사용자 정의 포맷 설정으로 재포맷:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scalafmt --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/.scalafmt.conf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉토리</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉토리</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">…</span></p>
+
+<ul>
+  <li>파일이 올바르게 포맷되었는지 확인하고, 모든 파일이 포맷 스타일을 준수하면 <code class="language-plaintext highlighter-rouge">0</code> 반환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scalafmt --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/.scalafmt.conf</span><code class="language-plaintext highlighter-rouge"> --test</code></p>
+
+<ul>
+  <li>파일이나 디렉토리 제외:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scalafmt --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉토리</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">…</span></p>
+
+<ul>
+  <li>현재 Git 브랜치에 대해 수정된 파일만 포맷:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scalafmt --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/.scalafmt.conf</span><code class="language-plaintext highlighter-rouge"> --mode diff</code></p>

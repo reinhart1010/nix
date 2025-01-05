@@ -1,0 +1,46 @@
+<h1 id="diskpart">diskpart</h1>
+
+<p>வட்டு, தொகுதி மற்றும் பகிர்வு மேலாளர்.
+மேலும் விவரத்திற்கு: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart">https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">diskpart</code> ஐ அதன் கட்டளை வரியை உள்ளிட நிர்வாக கட்டளை வரியில் தானாகவே இயக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskpart</code></p>
+
+<ul>
+  <li>அனைத்து வட்டுகளையும் பட்டியலிடுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">list disk</code></p>
+
+<ul>
+  <li>ஒரு தொகுதியைத் தேர்ந்தெடுக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">select volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொகுதி</span></p>
+
+<ul>
+  <li>தேர்ந்தெடுக்கப்பட்ட தொகுதிக்கு ஒரு இயக்கி கடிதத்தை ஒதுக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">assign letter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கடிதம்</span></p>
+
+<ul>
+  <li>ஒரு புதிய பகிர்வை உருவாக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">create partition primary</code></p>
+
+<ul>
+  <li>தேர்ந்தெடுக்கப்பட்ட தொகுதியை செயல்படுத்தவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">active</code></p>
+
+<ul>
+  <li>வட்டு பகுதியிலிருந்து வெளியேறு:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exit</code></p>

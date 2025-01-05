@@ -1,0 +1,47 @@
+<h1 id="eselect-repository">eselect repository</h1>
+
+<p>An <code class="language-plaintext highlighter-rouge">eselect</code> module for configuring ebuild repositories for Portage.
+After enabling a repository, you have to run <code class="language-plaintext highlighter-rouge">emerge --sync repo_name</code> to download ebuilds.
+More information: <a href="https://wiki.gentoo.org/wiki/Eselect/Repository">https://wiki.gentoo.org/wiki/Eselect/Repository</a>.</p>
+
+<ul>
+  <li>List all ebuild repositories registered on <a href="https://repos.gentoo.org">https://repos.gentoo.org</a>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository list</code></p>
+
+<ul>
+  <li>List enabled repositories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository list -i</code></p>
+
+<ul>
+  <li>Enable a repository from the list by its name or index from the <code class="language-plaintext highlighter-rouge">list</code> command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository enable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|index</span></p>
+
+<ul>
+  <li>Enable an unregistered repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rsync|git|mercurial|svn|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sync_uri</span></p>
+
+<ul>
+  <li>Disable repositories without removing their contents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository disable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo1 repo2 …</span></p>
+
+<ul>
+  <li>Disable repositories and remove their contents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo1 repo2 …</span></p>
+
+<ul>
+  <li>Create a local repository and enable it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect repository create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repo</span></p>

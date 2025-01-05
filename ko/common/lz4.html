@@ -1,0 +1,40 @@
+<h1 id="lz4">lz4</h1>
+
+<p>.lz4 파일을 압축하거나 압축 해제합니다.
+더 많은 정보: <a href="https://github.com/lz4/lz4">https://github.com/lz4/lz4</a>.</p>
+
+<ul>
+  <li>파일 압축:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lz4 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일 압축 해제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lz4 -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.lz4</span></p>
+
+<ul>
+  <li>파일 압축 해제 후 <code class="language-plaintext highlighter-rouge">stdout</code>에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lz4 -dc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.lz4</span></p>
+
+<ul>
+  <li>디렉토리 및 그 내용 패키징 및 압축:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar cvf - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> | lz4 - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디렉토리.tar.lz4</span></p>
+
+<ul>
+  <li>디렉토리 및 그 내용 압축 해제 및 풀기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lz4 -dc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디렉토리.tar.lz4</span><code class="language-plaintext highlighter-rouge"> | tar -xv</code></p>
+
+<ul>
+  <li>최고 압축률로 파일 압축:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lz4 -9 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

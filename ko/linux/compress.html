@@ -1,0 +1,40 @@
+<h1 id="compress">compress</h1>
+
+<p>Unix <code class="language-plaintext highlighter-rouge">compress</code> 명령어를 사용하여 파일 압축.
+더 많은 정보: <a href="https://manned.org/compress.1">https://manned.org/compress.1</a>.</p>
+
+<ul>
+  <li>특정 파일 압축:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>특정 파일 압축, 존재하지 않는 파일은 무시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compress -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>최대 압축 비트 지정 (9-16 비트):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compress -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비트</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdout</code>에 기록 (파일은 변경되지 않음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compress -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일 압축 해제 (<code class="language-plaintext highlighter-rouge">uncompress</code>처럼 동작):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compress -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>압축 비율 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compress -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

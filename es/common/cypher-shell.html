@@ -1,0 +1,47 @@
+<h1 id="cypher-shell">cypher-shell</h1>
+
+<p>Abre una sesión interactiva y ejecuta consultas Cypher contra una instancia Neo4j.
+Vea también: <code class="language-plaintext highlighter-rouge">neo4j-admin</code>, <code class="language-plaintext highlighter-rouge">mysql</code>.
+Más información: <a href="https://neo4j.com/docs/operations-manual/current/tools/cypher-shell/">https://neo4j.com/docs/operations-manual/current/tools/cypher-shell/</a>.</p>
+
+<ul>
+  <li>Conéctate a una instancia local en el puerto por defecto (<code class="language-plaintext highlighter-rouge">neo4j://localhost:7687</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell</code></p>
+
+<ul>
+  <li>Conéctate a una instancia remota:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell --address neo4j://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto</span></p>
+
+<ul>
+  <li>Conéctate y proporciona credenciales de seguridad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span></p>
+
+<ul>
+  <li>Conéctate a una base de datos específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell --database </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span></p>
+
+<ul>
+  <li>Ejecuta sentencias Cypher en un archivo y lo cierra:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.cypher</span></p>
+
+<ul>
+  <li>Activa el registro en un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell --log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.log</span></p>
+
+<ul>
+  <li>Muestra ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell --help</code></p>

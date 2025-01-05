@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="adb">adb</h1>
+
+<p>Android Debug Bridge: Communiquer avec une instance d'émulateur Android ou un appareil Android.
+Certaines commandes comme <code class="language-plaintext highlighter-rouge">adb shell</code> ont leur propre documentation.
+Plus d'informations : <a href="https://developer.android.com/tools/adb">https://developer.android.com/tools/adb</a>.</p>
+
+<ul>
+  <li>Vérifie si le processus du serveur adb est en fonctionnement et le démarre :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb start-server</code></p>
+
+<ul>
+  <li>Arrête le processus du serveur adb :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb kill-server</code></p>
+
+<ul>
+  <li>Démarre un shell distant sur l'émulateur/l'appareil ciblé :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell</code></p>
+
+<ul>
+  <li>Pousse une application Android vers l'émulateur/l'appareil :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/fichier.apk</span></p>
+
+<ul>
+  <li>Copie un fichier/dossier depuis l'appareil ciblé :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/fichier_ou_dossier_de_l'appareil</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/dossier_de_destination_local</span></p>
+
+<ul>
+  <li>Copie un fichier/dossier vers l'appareil ciblé :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/fichier_ou_dossier_local</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/dossier_de_destination_de_l'appareil</span></p>
+
+<ul>
+  <li>Récupère une liste des appareils connectés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb devices</code></p>

@@ -1,0 +1,35 @@
+<h1 id="lrzuntar">lrzuntar</h1>
+
+<p>A wrapper for <code class="language-plaintext highlighter-rouge">lrunzip</code> to simplify decompression of directories.
+See also: <code class="language-plaintext highlighter-rouge">lrztar</code>, <code class="language-plaintext highlighter-rouge">lrzip</code>.
+More information: <a href="https://manned.org/lrzuntar">https://manned.org/lrzuntar</a>.</p>
+
+<ul>
+  <li>Decompress from a file to the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lrzuntar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.tar.lrz</span></p>
+
+<ul>
+  <li>Decompress from a file to the current directory using a specific number of processor threads:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lrzuntar -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.tar.lrz</span></p>
+
+<ul>
+  <li>Decompress from a file to the current directory and silently overwrite items that already exist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lrzuntar -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.tar.lrz</span></p>
+
+<ul>
+  <li>Specify the output path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lrzuntar -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.tar.lrz</span></p>
+
+<ul>
+  <li>Delete the compressed file after decompression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lrzuntar -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.tar.lrz</span></p>

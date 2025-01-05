@@ -1,0 +1,34 @@
+<h1 id="reflex">reflex</h1>
+
+<p>특정 파일이 변경되면 디렉토리를 모니터링하고 명령을 다시 실행.
+더 많은 정보: <a href="https://github.com/cespare/reflex">https://github.com/cespare/reflex</a>.</p>
+
+<ul>
+  <li>파일이 변경되면 <code class="language-plaintext highlighter-rouge">make</code>로 다시 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reflex make</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.go</code> 파일이 변경되면 Go 애플리케이션을 컴파일하고 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reflex --regex='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.go$</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">go run .</span></p>
+
+<ul>
+  <li>변경 사항을 모니터링할 때 디렉토리를 무시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reflex --inverse-regex='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^dir/</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">reflex</code>가 시작될 때 명령어를 실행하고 파일이 변경되면 다시 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reflex --start-service=true </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>변경된 파일 이름을 대체하여 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reflex -- echo {}</code></p>

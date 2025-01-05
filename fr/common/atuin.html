@@ -1,0 +1,41 @@
+<h1 id="atuin">atuin</h1>
+
+<p>Enregistre votre historique shell dans une base de donnée.
+Peut également synchroniser votre historique chiffré entre plusieurs machines.
+Plus d'informations : <a href="https://atuin.sh/docs/commands">https://atuin.sh/docs/commands</a>.</p>
+
+<ul>
+  <li>Installe atuin dans votre shell :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eval "$(atuin init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash|zsh|fish</span><code class="language-plaintext highlighter-rouge">)"</code></p>
+
+<ul>
+  <li>Importe l'historique du shell par défaut :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atuin import auto</code></p>
+
+<ul>
+  <li>Recherche dans l'historique shell une commande spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atuin search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span></p>
+
+<ul>
+  <li>Inscrire un compte sur le serveur de synchronisation par défaut :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atuin register -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_d_utilisateur</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mot_de_passe</span></p>
+
+<ul>
+  <li>Connexion au serveur de synchronisation par défaut :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atuin login -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_d_utilisateur</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mot_de_passe</span></p>
+
+<ul>
+  <li>Synchronise l'historique avec le serveur :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atuin sync</code></p>

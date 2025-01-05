@@ -1,0 +1,23 @@
+<h1 id="magick-import">magick import</h1>
+
+<p>Captura parte o toda la pantalla de un servidor X y guarda la imagen en un archivo.
+Vea también: <code class="language-plaintext highlighter-rouge">magick</code>.
+Más información: <a href="https://imagemagick.org/script/import.php">https://imagemagick.org/script/import.php</a>.</p>
+
+<ul>
+  <li>Captura toda la pantalla del servidor X en un archivo PostScript:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick import -window root </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/salida.ps</span></p>
+
+<ul>
+  <li>Captura el contenido de la pantalla de un servidor X remoto en una imagen PNG:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick import -window root -display </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor_remoto</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pantalla</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">display</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/salida.png</span></p>
+
+<ul>
+  <li>Captura una ventana específica dada su ID mostrada por <code class="language-plaintext highlighter-rouge">xwininfo</code> en una imagen JPEG:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick import -window </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_ventana</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/salida.jpg</span></p>

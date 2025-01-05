@@ -1,0 +1,40 @@
+<h1 id="tcpreplay">tcpreplay</h1>
+
+<p>Replay network traffic stored in a <code class="language-plaintext highlighter-rouge">pcap</code> file.
+More information: <a href="https://tcpreplay.appneta.com/">https://tcpreplay.appneta.com/</a>.</p>
+
+<ul>
+  <li>List available network interfaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpreplay --listnics</code></p>
+
+<ul>
+  <li>Replay traffic to interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpreplay -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">traffic.pcap</span></p>
+
+<ul>
+  <li>Replay traffic to interface and <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpreplay -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">traffic.pcap</span></p>
+
+<ul>
+  <li>Replay traffic to interface as fast as possible:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpreplay -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> --topspeed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">traffic.pcap</span></p>
+
+<ul>
+  <li>Replay traffic to interface at given Mbps:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpreplay -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">traffic.pcap</span></p>
+
+<ul>
+  <li>Replay traffic to interface several times:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpreplay -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> --loop=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">num_times</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">traffic.pcap</span></p>

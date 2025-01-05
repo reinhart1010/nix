@@ -1,0 +1,47 @@
+<h1 id="set-location">Set-Location</h1>
+
+<p>현재 작업 디렉토리를 표시하거나 다른 디렉토리로 이동합니다.
+이 명령어는 PowerShell을 통해서만 사용할 수 있습니다.
+더 많은 정보: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.management/set-location">https://learn.microsoft.com/powershell/module/microsoft.powershell.management/set-location</a>.</p>
+
+<ul>
+  <li>지정된 디렉토리로 이동:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-Location </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\폴더</span></p>
+
+<ul>
+  <li>다른 드라이브의 특정 디렉토리로 이동:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-Location </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\폴더</span></p>
+
+<ul>
+  <li>지정된 디렉토리의 위치 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-Location </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\폴더</span><code class="language-plaintext highlighter-rouge"> -PassThru</code></p>
+
+<ul>
+  <li>현재 디렉토리의 상위 디렉토리로 이동:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-Location ..</code></p>
+
+<ul>
+  <li>현재 사용자의 홈 디렉토리로 이동:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-Location ~</code></p>
+
+<ul>
+  <li>이전에 선택한 디렉토리로 돌아가기/앞으로 이동:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-Location </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-|+</span></p>
+
+<ul>
+  <li>현재 드라이브의 루트 디렉토리로 이동:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-Location \</code></p>

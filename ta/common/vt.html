@@ -1,0 +1,53 @@
+<h1 id="vt">vt</h1>
+
+<p>வைரஸ் டோட்டலுக்கான கட்டளை-வரி இடைமுகம்.
+இந்த கட்டளைக்கு வைரஸ் டோட்டல் கணக்கிலிருந்து API விசை தேவை.
+மேலும் விவரத்திற்கு: <a href="https://github.com/VirusTotal/vt-cli">https://github.com/VirusTotal/vt-cli</a>.</p>
+
+<ul>
+  <li>வைரஸ்களுக்காக ஒரு குறிப்பிட்ட கோப்பை ஸ்கேன் செய்யவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt scan file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span></p>
+
+<ul>
+  <li>வைரஸ்களுக்காக முகவரி ஐ ஸ்கேன் செய்யவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt scan url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span></p>
+
+<ul>
+  <li>ஒரு குறிப்பிட்ட பகுப்பாய்விலிருந்து தகவலைக் காண்பி:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt analysis </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_ஐடி|பகுப்பாய்வு_ஐடி</span></p>
+
+<ul>
+  <li>என்க்ரிப்ட் செய்யப்பட்ட Zip வடிவத்தில் கோப்புகளைப் பதிவிறக்கவும் (பிரீமியம் கணக்கு தேவை):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt download </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_ஐடி</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை</span><code class="language-plaintext highlighter-rouge"> --zip --zip-password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கடவுச்சொல்</span></p>
+
+<ul>
+  <li>ஊடாடும் வகையில் API விசையை உள்ளிட <code class="language-plaintext highlighter-rouge">vt</code> ஐத் துவக்கவும் அல்லது மீண்டும் தொடங்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt init</code></p>
+
+<ul>
+  <li>ஒரு டொமைன் பற்றிய தகவலைக் காட்டு:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span></p>
+
+<ul>
+  <li>குறிப்பிட்ட முகவரிக்கான தகவலைக் காட்டு:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span></p>
+
+<ul>
+  <li>குறிப்பிட்ட IP(ஐபி) முகவரிக்கான தகவலைக் காண்பி:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ஐபி_முகவரி</span></p>

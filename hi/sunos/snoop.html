@@ -1,0 +1,35 @@
+<h1 id="snoop">snoop</h1>
+
+<p>नेटवर्क पैकेट स्निफर।
+सनओएस का tcpdump समकक्ष।
+अधिक जानकारी: <a href="https://www.unix.com/man-page/sunos/1m/snoop">https://www.unix.com/man-page/sunos/1m/snoop</a>।</p>
+
+<ul>
+  <li>एक विशेष नेटवर्क इंटरफेस पर पैकेट कैप्चर करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">e1000g0</span></p>
+
+<ul>
+  <li>कैप्चर किए गए पैकेट को प्रदर्शित करने के बजाय एक फ़ाइल में सहेजें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span></p>
+
+<ul>
+  <li>एक फ़ाइल से पैकेट का विस्तृत प्रोटोकॉल स्तर सारांश प्रदर्शित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -V -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span></p>
+
+<ul>
+  <li>एक होस्टनाम से आने वाले और एक दिए गए पोर्ट पर जाने वाले नेटवर्क पैकेट कैप्चर करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop to port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पोर्ट</span><code class="language-plaintext highlighter-rouge"> from host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">होस्टनाम</span></p>
+
+<ul>
+  <li>दो आईपी पते के बीच विनिमय किए गए नेटवर्क पैकेट का हेक्स-डंप कैप्चर और दिखाएँ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -x0 -p4 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip2</span></p>

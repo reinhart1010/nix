@@ -1,0 +1,10 @@
+<h1 id="pasuspender">pasuspender</h1>
+
+<p>Temporarily suspends <code class="language-plaintext highlighter-rouge">pulseaudio</code> while another command is running to allow access to alsa.
+More information: <a href="https://manned.org/pasuspender">https://manned.org/pasuspender</a>.</p>
+
+<ul>
+  <li>Suspend PulseAudio while running <code class="language-plaintext highlighter-rouge">jackd</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pasuspender -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jackd -d alsa –device hw:0</span></p>

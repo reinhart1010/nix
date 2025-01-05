@@ -1,0 +1,35 @@
+<h1 id="doggo">doggo</h1>
+
+<p>Cliente DNS para Humanos.
+Escrito en Golang.
+Más información: <a href="https://github.com/mr-karan/doggo">https://github.com/mr-karan/doggo</a>.</p>
+
+<ul>
+  <li>Realiza una simple búsqueda DNS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doggo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Consulta registros MX usando un servidor de nombres específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doggo MX </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">codeberg.org</span><code class="language-plaintext highlighter-rouge"> @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.1.1.2</span></p>
+
+<ul>
+  <li>Utiliza DNS sobre HTTPS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doggo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://dns.quad9.net/dns-query</span></p>
+
+<ul>
+  <li>Salida en formato JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doggo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --json | jq '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.responses[0].answers[].address</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Realiza una búsqueda DNS inversa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doggo --reverse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.4.4</span><code class="language-plaintext highlighter-rouge"> --short</code></p>

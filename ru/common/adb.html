@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="adb">adb</h1>
+
+<p>Android Debug Bridge: управление запущенным эмулятором Android или подключенным устройством Android.
+Некоторые подкоманды, такие как <code class="language-plaintext highlighter-rouge">shell</code>, имеют собственную документацию по использованию.
+Больше информации: <a href="https://developer.android.com/tools/adb">https://developer.android.com/tools/adb</a>.</p>
+
+<ul>
+  <li>Проверить, запущен ли процесс сервера adb и запустить его:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb start-server</code></p>
+
+<ul>
+  <li>Завершить процесс сервера adb:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb kill-server</code></p>
+
+<ul>
+  <li>Запустить удалённую оболочку на целевом эмуляторе/устройстве:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell</code></p>
+
+<ul>
+  <li>Установить приложение Android на эмуляторе/устройстве:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла.apk</span></p>
+
+<ul>
+  <li>Скопировать файл/папку с целевого устройства:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/папки_или_файла_на_устройстве</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/локальной_папки</span></p>
+
+<ul>
+  <li>Скопировать файл/папку на целевое устройство:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/локального_файла_или_папки</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/целевой_папки_на_устройстве</span></p>
+
+<ul>
+  <li>Вывести список подключенных устройств:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb devices</code></p>

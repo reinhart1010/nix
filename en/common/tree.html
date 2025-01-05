@@ -1,0 +1,52 @@
+<h1 id="tree">tree</h1>
+
+<p>Show the contents of the current directory as a tree.
+More information: <a href="https://manned.org/tree">https://manned.org/tree</a>.</p>
+
+<ul>
+  <li>Print files and directories up to 'num' levels of depth (where 1 means the current directory):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">num</span></p>
+
+<ul>
+  <li>Print directories only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -d</code></p>
+
+<ul>
+  <li>Print hidden files too with colorization on:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -a -C</code></p>
+
+<ul>
+  <li>Print the tree without indentation lines, showing the full path instead (use <code class="language-plaintext highlighter-rouge">-N</code> to not escape non-printable characters):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -i -f</code></p>
+
+<ul>
+  <li>Print the size of each file and the cumulative size of each directory, in human-readable format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -s -h --du</code></p>
+
+<ul>
+  <li>Print files within the tree hierarchy, using a wildcard (glob) pattern, and pruning out directories that don't contain matching files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -P '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span><code class="language-plaintext highlighter-rouge">' --prune</code></p>
+
+<ul>
+  <li>Print directories within the tree hierarchy, using the wildcard (glob) pattern, and pruning out directories that aren't ancestors of the wanted one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory_name</span><code class="language-plaintext highlighter-rouge"> --matchdirs --prune</code></p>
+
+<ul>
+  <li>Print the tree ignoring the given directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -I '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory_name1|directory_name2</span><code class="language-plaintext highlighter-rouge">'</code></p>

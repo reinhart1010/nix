@@ -1,0 +1,40 @@
+<h1 id="testssl">testssl</h1>
+
+<p>서버에서 지원하는 SSL/TLS 프로토콜 및 암호를 확인.
+더 많은 정보: <a href="https://testssl.sh/">https://testssl.sh/</a>.</p>
+
+<ul>
+  <li>서버 테스트 (모든 검사를 실행) 포트 443에서:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">testssl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>다른 포트 테스트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">testssl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com:465</span></p>
+
+<ul>
+  <li>사용 가능한 프로토콜만 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">testssl --protocols </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>취약점만 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">testssl --vulnerable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>HTTP 보안 헤더만 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">testssl --headers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>다른 STARTTLS 지원 프로토콜 테스트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">testssl --starttls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp|smtp|pop3|imap|xmpp|sieve|xmpp-server|telnet|ldap|irc|lmtp|nntp|postgres|mysql</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span></p>

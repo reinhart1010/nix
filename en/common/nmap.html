@@ -1,0 +1,53 @@
+<h1 id="nmap">nmap</h1>
+
+<p>Network exploration tool and security/port scanner.
+Some features (e.g. SYN scan) activate only when <code class="language-plaintext highlighter-rouge">nmap</code> is run with root privileges.
+More information: <a href="https://nmap.org/book/man.html">https://nmap.org/book/man.html</a>.</p>
+
+<ul>
+  <li>Scan the top 1000 ports of a remote host with various [v]erbosity levels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -v</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname</span></p>
+
+<ul>
+  <li>Run a ping sweep over an entire subnet or individual hosts very aggressively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -T5 -sn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.0/24|ip_or_hostname1,ip_or_hostname2,…</span></p>
+
+<ul>
+  <li>Enable OS detection, version detection, script scanning, and traceroute of hosts from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nmap -A -iL </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>
+
+<ul>
+  <li>Scan a specific list of ports (use <code class="language-plaintext highlighter-rouge">-p-</code> for all ports from 1 to 65535):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port1,port2,…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_host1,ip_or_host2,…</span></p>
+
+<ul>
+  <li>Perform service and version detection of the top 1000 ports using default NSE scripts, writing results (<code class="language-plaintext highlighter-rouge">-oA</code>) to output files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -sC -sV -oA </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">top-1000-ports</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_host1,ip_or_host2,…</span></p>
+
+<ul>
+  <li>Scan target(s) carefully using <code class="language-plaintext highlighter-rouge">default and safe</code> NSE scripts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap --script "default and safe" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_host1,ip_or_host2,…</span></p>
+
+<ul>
+  <li>Scan for web servers running on standard ports 80 and 443 using all available <code class="language-plaintext highlighter-rouge">http-*</code> NSE scripts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap --script "http-*" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_host1,ip_or_host2,…</span><code class="language-plaintext highlighter-rouge"> -p 80,443</code></p>
+
+<ul>
+  <li>Attempt evading IDS/IPS detection by using an extremely slow scan (<code class="language-plaintext highlighter-rouge">-T0</code>), decoy source addresses (<code class="language-plaintext highlighter-rouge">-D</code>), [f]ragmented packets, random data and other methods:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nmap -T0 -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">decoy_ip1,decoy_ip2,…</span><code class="language-plaintext highlighter-rouge"> --source-port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">53</span><code class="language-plaintext highlighter-rouge"> -f --data-length </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span><code class="language-plaintext highlighter-rouge"> -Pn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_host</span></p>

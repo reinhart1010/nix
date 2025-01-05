@@ -1,0 +1,34 @@
+<h1 id="sdiff">sdiff</h1>
+
+<p>Compare the differences between and optionally merge 2 files.
+More information: <a href="https://manned.org/sdiff">https://manned.org/sdiff</a>.</p>
+
+<ul>
+  <li>Compare 2 files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sdiff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Compare 2 files, ignoring all tabs and whitespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sdiff -W </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Compare 2 files, ignoring whitespace at the end of lines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sdiff -Z </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Compare 2 files in a case-insensitive manner:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sdiff -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Compare and then merge, writing the output to a new file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sdiff -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/merged_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>

@@ -1,0 +1,34 @@
+<h1 id="btrfs-device">btrfs device</h1>
+
+<p>Gestiona dispositivos en un sistema de archivos btrfs.
+Más información: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-device.html">https://btrfs.readthedocs.io/en/latest/btrfs-device.html</a>.</p>
+
+<ul>
+  <li>Agrega uno o más dispositivos a un sistema de archivos btrfs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs device add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/dispositivo_bloque1</span><code class="language-plaintext highlighter-rouge"> [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/dispositivo_bloque2</span><code class="language-plaintext highlighter-rouge">] </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_sistema_de_archivos_btrfs</span></p>
+
+<ul>
+  <li>Elimina un dispositivo de un sistema de archivos btrfs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs device remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/dispositivo|id_del_dispositivo</span><code class="language-plaintext highlighter-rouge"> [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">…</span><code class="language-plaintext highlighter-rouge">]</code></p>
+
+<ul>
+  <li>Muestra estadísticas de errores:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs device stats </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_sistema_de_archivos_btrfs</span></p>
+
+<ul>
+  <li>Escanea todos los discos e informa al kernel de todos los sistemas de archivos btrfs detectados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs device scan --all-devices</code></p>
+
+<ul>
+  <li>Muestra estadísticas detalladas de asignación por disco:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs device usage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_sistema_de_archivos_btrfs</span></p>

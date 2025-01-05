@@ -1,0 +1,52 @@
+<h1 id="aws-accessanalyzer">aws accessanalyzer</h1>
+
+<p>잠재적인 보안 위험을 파악하기 위해, 리소스 정책을 분석하고 검토.
+더 많은 정보: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/accessanalyzer/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/accessanalyzer/index.html</a>.</p>
+
+<ul>
+  <li>새로운 Access Analyzer 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer create-analyzer --analyzer-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">분석기_이름</span><code class="language-plaintext highlighter-rouge"> --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">타입</span><code class="language-plaintext highlighter-rouge"> --tags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그</span></p>
+
+<ul>
+  <li>기존 Access Analyzer 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer delete-analyzer --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer_arn</span></p>
+
+<ul>
+  <li>특정 Access Analyzer 세부 정보 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer get-analyzer --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer_arn</span></p>
+
+<ul>
+  <li>모든 Access Analyzers 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer list-analyzers</code></p>
+
+<ul>
+  <li>Access Analyzer 설정 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer update-analyzer --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer_arn</span><code class="language-plaintext highlighter-rouge"> --tags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_tags</span></p>
+
+<ul>
+  <li>새로운 Access Analyzer 아카이브 규칙 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer create-archive-rule --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer_arn</span><code class="language-plaintext highlighter-rouge"> --rule-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">규칙_이름</span><code class="language-plaintext highlighter-rouge"> --filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter</span></p>
+
+<ul>
+  <li>Access Analyzer 아카이브 규칙 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer delete-archive-rule --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer_arn</span><code class="language-plaintext highlighter-rouge"> --rule-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_name</span></p>
+
+<ul>
+  <li>모든 Access Analyzer 아카이브 규칙 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws accessanalyzer list-archive-rules --analyzer-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer_arn</span></p>

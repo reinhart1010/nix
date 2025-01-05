@@ -1,0 +1,34 @@
+<h1 id="debootstrap">debootstrap</h1>
+
+<p>Crea un sistema básico de Debian.
+Más información: <a href="https://wiki.debian.org/Debootstrap">https://wiki.debian.org/Debootstrap</a>.</p>
+
+<ul>
+  <li>Crea un sistema de la versión estable de Debian dentro del directorio <code class="language-plaintext highlighter-rouge">debian-root</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo debootstrap stable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/debian-root/</span><code class="language-plaintext highlighter-rouge"> http://deb.debian.org/debian</code></p>
+
+<ul>
+  <li>Crea un sistema mínimo que incluye solo los paquetes necesarios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo debootstrap --variant=minbase stable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/debian-root/</span></p>
+
+<ul>
+  <li>Crea un sistema Ubuntu 20.04 dentro del directorio <code class="language-plaintext highlighter-rouge">focal-root</code> con un espejo local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo debootstrap focal </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/focal-root/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file:///ruta/a/mirror/</span></p>
+
+<ul>
+  <li>Cambia a un sistema de arranque:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/root</span></p>
+
+<ul>
+  <li>Lista las versiones mayores disponibles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls /usr/share/debootstrap/scripts/</code></p>

@@ -1,0 +1,22 @@
+<h1 id="spottopgm">spottopgm</h1>
+
+<p>Convert a SPOT satellite image to PGM format.
+More information: <a href="https://netpbm.sourceforge.net/doc/spottopgm.html">https://netpbm.sourceforge.net/doc/spottopgm.html</a>.</p>
+
+<ul>
+  <li>Convert the specified SPOT image to PGM format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">spottopgm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.spot</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pgm</span></p>
+
+<ul>
+  <li>Extract the specified color channel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">spottopgm -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.spot</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pgm</span></p>
+
+<ul>
+  <li>Extract the specified rectangle from the input image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">spottopgm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">first_col first_row last_col last_row</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.spot</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pgm</span></p>

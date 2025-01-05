@@ -1,0 +1,29 @@
+<h1 id="ifs">IFS</h1>
+
+<p>IFS (Internal Field Separator)는 Unix쉘에서 단어 분할에 사용되는 구분 기호를 정의하는 특수 환경 변수.
+IFS의 기본값은 공백, 탭 및 줄바꿈. 세 문자는 구분 기호 역할을 함.
+더 많은 정보: <a href="https://www.gnu.org/software/bash/manual/html_node/Word-Splitting.html">https://www.gnu.org/software/bash/manual/html_node/Word-Splitting.html</a>.</p>
+
+<ul>
+  <li>현재 IFS 값 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "$IFS"</code></p>
+
+<ul>
+  <li>IFS 값 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">IFS="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>IFS를 기본값으로 재설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">IFS=$' \t\n'</code></p>
+
+<ul>
+  <li>서브셸에서 IFS 값을 일시적으로 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">(IFS="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:</span><code class="language-plaintext highlighter-rouge">"; echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">one:two:three</span><code class="language-plaintext highlighter-rouge">")</code></p>

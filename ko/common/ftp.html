@@ -1,0 +1,52 @@
+<h1 id="ftp">ftp</h1>
+
+<p>파일 전송 프로토콜을 통해 서버와 상호 작용하는 도구.
+더 많은 정보: <a href="https://manned.org/ftp">https://manned.org/ftp</a>.</p>
+
+<ul>
+  <li>FTP 서버에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp.example.com</span></p>
+
+<ul>
+  <li>IP 주소와 포트를 지정하여 FTP 서버에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아이피_주소</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span></p>
+
+<ul>
+  <li>바이너리 전송 모드 (그래픽, 압축 파일 등)로 전환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binary</code></p>
+
+<ul>
+  <li>모든 파일에 대해 확인 메시지를 표시하지 않고 여러 파일을 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prompt off</code></p>
+
+<ul>
+  <li>여러 파일 다운로드 (glob 표현식):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.png</span></p>
+
+<ul>
+  <li>여러 파일 업로드 (glob 표현식):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mput </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.zip</span></p>
+
+<ul>
+  <li>원격 서버에서 여러 파일 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mdelete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span></p>
+
+<ul>
+  <li>원격 서버의 파일 이름 바꾸기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원본_파일이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새로운_파일이름</span></p>

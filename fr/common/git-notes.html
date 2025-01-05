@@ -1,0 +1,52 @@
+<h1 id="git-notes">git notes</h1>
+
+<p>Ajoute ou inspecte des notes d'objets.
+Plus d'informations : <a href="https://git-scm.com/docs/git-notes">https://git-scm.com/docs/git-notes</a>.</p>
+
+<ul>
+  <li>Lister toutes les notes et leurs objets rattachés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git notes list</code></p>
+
+<ul>
+  <li>Lister toutes les notes attachées à un objet donné :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git notes list [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">objet</span><code class="language-plaintext highlighter-rouge">]</code></p>
+
+<ul>
+  <li>Afficher les notes attachées à un objet donné :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git notes show [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">objet</span><code class="language-plaintext highlighter-rouge">]</code></p>
+
+<ul>
+  <li>Ajoute une note à un objet donné :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git notes append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">objet</span></p>
+
+<ul>
+  <li>Ajoute une note à un objet donné, en spécifiant le message :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git notes append --message="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texte_du_message</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Édite une note existante :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git notes edit [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">objet</span><code class="language-plaintext highlighter-rouge">]</code></p>
+
+<ul>
+  <li>Copie la note d'un objet vers un autre :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git notes copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">objet_source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">objet_cible</span></p>
+
+<ul>
+  <li>Supprime toutes les notes d'un objet donné :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git notes remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">objet</span></p>

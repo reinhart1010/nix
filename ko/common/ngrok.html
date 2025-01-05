@@ -1,0 +1,34 @@
+<h1 id="ngrok">ngrok</h1>
+
+<p>로컬에서 실행 중인 웹 서비스에 공용 엔드포인트로부터 안전한 터널을 생성하는 리버스 프록시.
+더 많은 정보: <a href="https://ngrok.com">https://ngrok.com</a>.</p>
+
+<ul>
+  <li>지정된 포트로 로컬 HTTP 서비스 노출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrok http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span></p>
+
+<ul>
+  <li>특정 호스트에서 로컬 HTTP 서비스 노출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrok http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo.dev</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span></p>
+
+<ul>
+  <li>로컬 HTTPS 서버 노출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrok http https://localhost</code></p>
+
+<ul>
+  <li>지정된 포트로 TCP 트래픽 노출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrok tcp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22</span></p>
+
+<ul>
+  <li>특정 호스트 및 포트를 위한 TLS 트래픽 노출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ngrok tls -hostname=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">443</span></p>

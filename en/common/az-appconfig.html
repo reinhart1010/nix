@@ -1,0 +1,41 @@
+<h1 id="az-appconfig">az appconfig</h1>
+
+<p>Manage App configurations on Azure.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/appconfig">https://learn.microsoft.com/cli/azure/appconfig</a>.</p>
+
+<ul>
+  <li>Create an App Configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az appconfig create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span><code class="language-plaintext highlighter-rouge"> --location </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">location</span></p>
+
+<ul>
+  <li>Delete a specific App Configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az appconfig delete --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rg_name</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">appconfig_name</span></p>
+
+<ul>
+  <li>List all App Configurations under the current subscription:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az appconfig list</code></p>
+
+<ul>
+  <li>List all App Configurations under a specific resource group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az appconfig list --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rg_name</span></p>
+
+<ul>
+  <li>Show properties of an App Configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az appconfig show --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">appconfig_name</span></p>
+
+<ul>
+  <li>Update a specific App Configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az appconfig update --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rg_name</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">appconfig_name</span></p>

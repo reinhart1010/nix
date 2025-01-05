@@ -1,0 +1,35 @@
+<h1 id="semanage-fcontext">semanage fcontext</h1>
+
+<p>Beheer persistente SELinux-beveiligingscontextregels op bestanden/mappen.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">semanage</code>, <code class="language-plaintext highlighter-rouge">matchpathcon</code>, <code class="language-plaintext highlighter-rouge">secon</code>, <code class="language-plaintext highlighter-rouge">chcon</code>, <code class="language-plaintext highlighter-rouge">restorecon</code>.
+Meer informatie: <a href="https://manned.org/semanage-fcontext">https://manned.org/semanage-fcontext</a>.</p>
+
+<ul>
+  <li>Toon alle bestandslabelregels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage fcontext --list</code></p>
+
+<ul>
+  <li>Toon alle door de gebruiker gedefinieerde bestandslabelregels zonder koppen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage fcontext --list --locallist --noheading</code></p>
+
+<ul>
+  <li>Voeg een door de gebruiker gedefinieerde regel toe die elk pad labelt dat overeenkomt met een PCRE-regex:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage fcontext --add --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">samba_share_t</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'/mnt/share(/.*)?'</span></p>
+
+<ul>
+  <li>Verwijder een door de gebruiker gedefinieerde regel met behulp van zijn PCRE-regex:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage fcontext --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'/mnt/share(/.*)?'</span></p>
+
+<ul>
+  <li>Herlabel een map recursief door de nieuwe regels toe te passen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">restorecon -R -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span></p>

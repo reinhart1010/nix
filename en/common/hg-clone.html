@@ -1,0 +1,34 @@
+<h1 id="hg-clone">hg clone</h1>
+
+<p>Create a copy of an existing repository in a new directory.
+More information: <a href="https://www.mercurial-scm.org/doc/hg.1.html#clone">https://www.mercurial-scm.org/doc/hg.1.html#clone</a>.</p>
+
+<ul>
+  <li>Clone a repository to a specified directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hg clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination_path</span></p>
+
+<ul>
+  <li>Clone a repository to the head of a specific branch, ignoring later commits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hg clone --branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_source</span></p>
+
+<ul>
+  <li>Clone a repository with only the <code class="language-plaintext highlighter-rouge">.hg</code> directory, without checking out files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hg clone --noupdate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_source</span></p>
+
+<ul>
+  <li>Clone a repository to a specific revision, tag or branch, keeping the entire history:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hg clone --updaterev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_source</span></p>
+
+<ul>
+  <li>Clone a repository up to a specific revision without any newer history:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hg clone --rev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_source</span></p>

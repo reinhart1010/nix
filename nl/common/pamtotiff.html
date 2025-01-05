@@ -1,0 +1,22 @@
+<h1 id="pamtotiff">pamtotiff</h1>
+
+<p>Converteer een PAM afbeelding naar een TIFF bestand.
+Meer informatie: <a href="https://netpbm.sourceforge.net/doc/pamtotiff.html">https://netpbm.sourceforge.net/doc/pamtotiff.html</a>.</p>
+
+<ul>
+  <li>Converteer een PAM afbeelding naar een TIFF afbeelding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtotiff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/invoer_bestand.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer_bestand.tiff</span></p>
+
+<ul>
+  <li>Specificeer expliciet de compressie methode voor een uitvoerbestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtotiff -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">none|packbits|lzw|g3|g4|flate|adobeflate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/invoer_bestand.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer_bestand.tiff</span></p>
+
+<ul>
+  <li>Produceer altijd een gekleurde TIFF afbeelding, ook als de invoer afbeelding een grijsschaal is:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtotiff -color </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/invoer_bestand.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer_bestand.tiff</span></p>

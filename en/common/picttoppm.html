@@ -1,0 +1,22 @@
+<h1 id="picttoppm">picttoppm</h1>
+
+<p>Convert a Macintosh PICT file to a PPM image.
+More information: <a href="https://netpbm.sourceforge.net/doc/picttoppm.html">https://netpbm.sourceforge.net/doc/picttoppm.html</a>.</p>
+
+<ul>
+  <li>Convert a PICT file to a PPM image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">picttoppm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pict</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span></p>
+
+<ul>
+  <li>Force any images in the PICT file to be output at full resolution:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">picttoppm -fullres </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pict</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span></p>
+
+<ul>
+  <li>Do not assume that the input file contains a PICT header and execute quickdraw operations only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">picttoppm -noheader -quickdraw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pict</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span></p>

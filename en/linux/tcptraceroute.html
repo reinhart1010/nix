@@ -1,0 +1,40 @@
+<h1 id="tcptraceroute">tcptraceroute</h1>
+
+<p>A traceroute implementation using TCP packets.
+More information: <a href="https://github.com/mct/tcptraceroute">https://github.com/mct/tcptraceroute</a>.</p>
+
+<ul>
+  <li>Trace the route to a host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcptraceroute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Specify the destination port and packet length in bytes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcptraceroute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination_port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">packet_length</span></p>
+
+<ul>
+  <li>Specify the local source port and source address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcptraceroute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_port</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_address</span></p>
+
+<ul>
+  <li>Set the first and maximum TTL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcptraceroute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">first_ttl</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_ttl</span></p>
+
+<ul>
+  <li>Specify the wait time and number of queries per hop:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcptraceroute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wait_time</span><code class="language-plaintext highlighter-rouge"> -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_queries</span></p>
+
+<ul>
+  <li>Specify the interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcptraceroute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>

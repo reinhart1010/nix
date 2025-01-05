@@ -1,0 +1,23 @@
+<h1 id="semanage-boolean">semanage boolean</h1>
+
+<p>Beheer persistente SELinux-boolean-instellingen.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">semanage</code> voor het beheren van SELinux-beleid, <code class="language-plaintext highlighter-rouge">getsebool</code> voor het controleren van boolean-waarden, en <code class="language-plaintext highlighter-rouge">setsebool</code> voor het toepassen van niet-blijvende boolean-instellingen.
+Meer informatie: <a href="https://manned.org/semanage-boolean">https://manned.org/semanage-boolean</a>.</p>
+
+<ul>
+  <li>Toon alle boolean-instellingen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage boolean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–list</span></p>
+
+<ul>
+  <li>Toon alle door de gebruiker gedefinieerde boolean-instellingen zonder koppen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage boolean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–list</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-C|–locallist</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–noheading</span></p>
+
+<ul>
+  <li>Stel een boolean blijvend in of uit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage boolean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–modify</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1|–on|-0|–off</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">haproxy_connect_any</span></p>

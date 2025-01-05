@@ -1,0 +1,34 @@
+<h1 id="systemsetup">systemsetup</h1>
+
+<p>Configure System Preferences machine settings.
+More information: <a href="https://support.apple.com/guide/remote-desktop/about-systemsetup-apd95406b8d/mac">https://support.apple.com/guide/remote-desktop/about-systemsetup-apd95406b8d/mac</a>.</p>
+
+<ul>
+  <li>Enable remote login (SSH):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemsetup -setremotelogin on</code></p>
+
+<ul>
+  <li>Specify timezone, NTP Server and enable network time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemsetup -settimezone "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">US/Pacific</span><code class="language-plaintext highlighter-rouge">" -setnetworktimeserver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us.pool.ntp.org</span><code class="language-plaintext highlighter-rouge"> -setusingnetworktime on</code></p>
+
+<ul>
+  <li>Make the machine never sleep and automatically restart on power failure or kernel panic:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemsetup -setsleep off -setrestartpowerfailure on -setrestartfreeze on</code></p>
+
+<ul>
+  <li>List valid startup disks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemsetup -liststartupdisks</code></p>
+
+<ul>
+  <li>Specify a new startup disk:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemsetup -setstartupdisk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

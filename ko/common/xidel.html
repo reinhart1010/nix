@@ -1,0 +1,52 @@
+<h1 id="xidel">xidel</h1>
+
+<p>HTML/XML 페이지 및 JSON API에서 데이터를 다운로드하고 추출.
+더 많은 정보: <a href="https://www.videlibri.de/xidel.html">https://www.videlibri.de/xidel.html</a>.</p>
+
+<ul>
+  <li>Google 검색으로 찾은 모든 URL 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xidel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.google.com/search?q=test</span><code class="language-plaintext highlighter-rouge"> --extract "//a/extract(@href, 'url[?]q=([^&amp;]+)&amp;', 1)[. != '']"</code></p>
+
+<ul>
+  <li>Google 검색으로 찾은 모든 페이지의 제목을 출력하고 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xidel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.google.com/search?q=test</span><code class="language-plaintext highlighter-rouge"> --follow "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">//a/extract(@href, 'url[?]q=([^&amp;]+)&amp;', 1)[. != '']</span><code class="language-plaintext highlighter-rouge">" --extract </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">//title</span><code class="language-plaintext highlighter-rouge"> --download </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{$host}/'</span></p>
+
+<ul>
+  <li>페이지의 모든 링크를 따라가서 제목을 XPath로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xidel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.org</span><code class="language-plaintext highlighter-rouge"> --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">//a</span><code class="language-plaintext highlighter-rouge"> --extract </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">//title</span></p>
+
+<ul>
+  <li>페이지의 모든 링크를 따라가서 제목을 CSS 선택자로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xidel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.org</span><code class="language-plaintext highlighter-rouge"> --follow "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">css('a')</span><code class="language-plaintext highlighter-rouge">" --css </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">title</span></p>
+
+<ul>
+  <li>페이지의 모든 링크를 따라가서 제목을 패턴 매칭으로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xidel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.org</span><code class="language-plaintext highlighter-rouge"> --follow "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><a>{.}</a>*</span><code class="language-plaintext highlighter-rouge">" --extract "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><title>{.}</title></span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>example.xml에서 패턴을 읽고 "ood"를 포함한 요소가 있는지 확인(없으면 실패):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xidel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/example.xml</span><code class="language-plaintext highlighter-rouge"> --extract "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><x><foo>ood</foo><bar>{.}</bar></x></span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>패턴 매칭을 사용하여 제목과 URL을 포함한 최신 Stack Overflow 질문 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xidel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://stackoverflow.com/feeds</span><code class="language-plaintext highlighter-rouge"> --extract "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><entry><title>{title:=.}</title><link />{uri:=@href}&lt;/link&gt;</entry>+</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>읽지 않은 Reddit 메일 확인, 웹 스크래핑, CSS, XPath, JSONiq 및 자동 양식 평가 조합:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xidel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://reddit.com</span><code class="language-plaintext highlighter-rouge"> --follow "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">form(css('form.login-form')[1], {'user': '$your_username', 'passwd': '$your_password'})</span><code class="language-plaintext highlighter-rouge">" --extract "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">css('#mail')/@title</span><code class="language-plaintext highlighter-rouge">"</code></p>

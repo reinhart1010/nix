@@ -1,0 +1,46 @@
+<h1 id="btrfs-check">btrfs check</h1>
+
+<p>Verifica ou repara um sistema de arquivos btrfs.
+Mais informações: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-check.html">https://btrfs.readthedocs.io/en/latest/btrfs-check.html</a>.</p>
+
+<ul>
+  <li>Verifica um sistema de arquivos btrfs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/partição</span></p>
+
+<ul>
+  <li>Verifica e repara um sistema de arquivos btrfs (perigoso):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --repair </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/partição</span></p>
+
+<ul>
+  <li>Mostra o andamento da verificação:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --progress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/partição</span></p>
+
+<ul>
+  <li>Verifica a soma de verificação de cada bloco de dados (se o sistema de arquivos estiver bom):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --check-data-csum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/partição</span></p>
+
+<ul>
+  <li>Usa o <code class="language-plaintext highlighter-rouge">n</code>-ésimo superbloco (<code class="language-plaintext highlighter-rouge">n</code> pode ser 0, 1 ou 2):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --super </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/partição</span></p>
+
+<ul>
+  <li>Reconstrói a árvore de soma de verificação:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --repair --init-csum-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/partição</span></p>
+
+<ul>
+  <li>Reconstrói a árvore de extensão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --repair --init-extent-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/partição</span></p>

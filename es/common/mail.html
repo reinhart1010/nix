@@ -1,0 +1,29 @@
+<h1 id="mail">mail</h1>
+
+<p>El comando opera en el buzón de correo del usuario si no se da ningún argumento.
+Para enviar un correo electrónico, el cuerpo del mensaje se construye desde <code class="language-plaintext highlighter-rouge">stdin</code>.
+Más información: <a href="https://manned.org/mail">https://manned.org/mail</a>.</p>
+
+<ul>
+  <li>Abre un prompt interactivo para revisar el correo personal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mail</code></p>
+
+<ul>
+  <li>Envía un mensaje de correo con CC opcional. La línea de comandos continúa después de presionar <code class="language-plaintext highlighter-rouge">&lt;Intro&gt;</code>. Ingresa el texto del mensaje (pueden ser varias líneas). Presiona <code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt;-D</code> para indicar el final del texto del mensaje:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mail --subject="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">título del correo electrónico</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">para_usuario@example.com</span><code class="language-plaintext highlighter-rouge"> --cc="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cc_correo_electrónico</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Envía un correo electrónico que contiene el contenido de un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mail --subject="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$HOSTNAME archivo.txt</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">para_usuario@example.com</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.txt</span></p>
+
+<ul>
+  <li>Envía un archivo <code class="language-plaintext highlighter-rouge">tar.gz</code> como adjunto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar cvzf - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio1 ruta/al/directorio2</span><code class="language-plaintext highlighter-rouge"> | uuencode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.tar.gz</span><code class="language-plaintext highlighter-rouge"> | mail --subject="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">asunto</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a_usuario@example.com</span></p>

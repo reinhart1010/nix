@@ -1,0 +1,41 @@
+<h1 id="lsipc">lsipc</h1>
+
+<p>Show information on System V IPC facilities currently employed in the system.
+See also: <code class="language-plaintext highlighter-rouge">ipcs</code> for the older tool.
+More information: <a href="https://manned.org/lsipc">https://manned.org/lsipc</a>.</p>
+
+<ul>
+  <li>Show information about all active IPC facilities:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsipc</code></p>
+
+<ul>
+  <li>Show information about active shared [m]emory segments, message [q]ueues or [s]empahore sets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsipc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–shmems|–queues|–semaphores</span></p>
+
+<ul>
+  <li>Show full details on the resource with a specific [i]D:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsipc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–shmems|–queues|–semaphores</span><code class="language-plaintext highlighter-rouge"> --id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_id</span></p>
+
+<ul>
+  <li>Print the given [o]utput columns (see all supported columns with <code class="language-plaintext highlighter-rouge">--help</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsipc --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">KEY,ID,PERMS,SEND,STATUS,NSEMS,RESOURCE,…</span></p>
+
+<ul>
+  <li>Use [r]aw, [J]SON, [l]ist or [e]xport (key="value") format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsipc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–raw|–json|–list|–export</span></p>
+
+<ul>
+  <li>Don't truncate the output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsipc --notruncate</code></p>

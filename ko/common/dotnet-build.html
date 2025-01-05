@@ -1,0 +1,46 @@
+<h1 id="dotnet-build">dotnet build</h1>
+
+<p>.NET 애플리케이션과 그 의존성을 빌드.
+더 많은 정보: <a href="https://learn.microsoft.com/dotnet/core/tools/dotnet-build">https://learn.microsoft.com/dotnet/core/tools/dotnet-build</a>.</p>
+
+<ul>
+  <li>현재 디렉토리의 프로젝트나 솔루션 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build</code></p>
+
+<ul>
+  <li>디버그 모드에서 .NET 프로젝트나 솔루션 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/프로젝트_또는_솔루션</span></p>
+
+<ul>
+  <li>릴리즈 모드에서 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build --configuration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Release</span></p>
+
+<ul>
+  <li>의존성을 복원하지 않고 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build --no-restore</code></p>
+
+<ul>
+  <li>특정 상세 수준으로 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build --verbosity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quiet|minimal|normal|detailed|diagnostic</span></p>
+
+<ul>
+  <li>특정 런타임을 위해 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build --runtime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">런타임_식별자</span></p>
+
+<ul>
+  <li>출력 디렉토리 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>

@@ -1,0 +1,40 @@
+<h1 id="duti">duti</h1>
+
+<p>Set default applications for document types and URL schemes on macOS.
+More information: <a href="https://github.com/moretension/duti">https://github.com/moretension/duti</a>.</p>
+
+<ul>
+  <li>Set Safari as the default handler for HTML documents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duti -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.apple.Safari</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public.html</span><code class="language-plaintext highlighter-rouge"> all</code></p>
+
+<ul>
+  <li>Set VLC as the default viewer for files with <code class="language-plaintext highlighter-rouge">.m4v</code> extensions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duti -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.videolan.vlc</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">m4v</span><code class="language-plaintext highlighter-rouge"> viewer</code></p>
+
+<ul>
+  <li>Set Finder as the default handler for the ftp:// URL scheme:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duti -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.apple.Finder</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Display information about the default application for a given extension:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duti -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ext</span></p>
+
+<ul>
+  <li>Display the default handler for a given UTI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duti -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uti</span></p>
+
+<ul>
+  <li>Display all handlers of a given UTI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duti -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uti</span></p>

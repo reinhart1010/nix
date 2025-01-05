@@ -1,0 +1,35 @@
+<h1 id="magick-montage">magick montage</h1>
+
+<p>Tile images into a customizable grid.
+See also: <code class="language-plaintext highlighter-rouge">magick</code>.
+More information: <a href="https://imagemagick.org/script/montage.php">https://imagemagick.org/script/montage.php</a>.</p>
+
+<ul>
+  <li>Tile images into a grid, automatically resizing images larger than the grid cell size:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick montage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.jpg path/to/image2.jpg …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/montage.jpg</span></p>
+
+<ul>
+  <li>Tile images into a grid, automatically calculating the grid cell size from the largest image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick montage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.jpg path/to/image2.jpg …</span><code class="language-plaintext highlighter-rouge"> -geometry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+0+0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/montage.jpg</span></p>
+
+<ul>
+  <li>Specify the grid cell size and resize images to fit it before tiling:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick montage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.jpg path/to/image2.jpg …</span><code class="language-plaintext highlighter-rouge"> -geometry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640x480+0+0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/montage.jpg</span></p>
+
+<ul>
+  <li>Limit the number of rows and columns in the grid, causing input images to overflow into multiple output montages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick montage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.jpg path/to/image2.jpg …</span><code class="language-plaintext highlighter-rouge"> -geometry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+0+0</span><code class="language-plaintext highlighter-rouge"> -tile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2x3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">montage_%d.jpg</span></p>
+
+<ul>
+  <li>Resize and crop images to fill their grid cells before tiling:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick montage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.jpg path/to/image2.jpg …</span><code class="language-plaintext highlighter-rouge"> -geometry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+0+0</span><code class="language-plaintext highlighter-rouge"> -resize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640x480^</span><code class="language-plaintext highlighter-rouge"> -gravity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">center</span><code class="language-plaintext highlighter-rouge"> -crop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640x480+0+0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/montage.jpg</span></p>

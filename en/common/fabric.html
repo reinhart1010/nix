@@ -1,0 +1,53 @@
+<h1 id="fabric">fabric</h1>
+
+<p>An open-source framework for augmenting humans using AI.
+Provides a modular framework for solving specific problems using a crowdsourced set of AI prompts.
+More information: <a href="https://github.com/danielmiessler/fabric">https://github.com/danielmiessler/fabric</a>.</p>
+
+<ul>
+  <li>Run the setup to configure fabric:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fabric --setup</code></p>
+
+<ul>
+  <li>List all available patterns:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fabric --listpatterns</code></p>
+
+<ul>
+  <li>Run a pattern with input from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fabric --pattern </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_name</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span></p>
+
+<ul>
+  <li>Run a pattern on a YouTube video URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fabric --youtube "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=video_id</span><code class="language-plaintext highlighter-rouge">" --pattern </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_name</span></p>
+
+<ul>
+  <li>Chain patterns together by piping output from one to another:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fabric --pattern </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern1</span><code class="language-plaintext highlighter-rouge"> | fabric --pattern </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern2</span></p>
+
+<ul>
+  <li>Run a custom user-defined pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fabric --pattern </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">custom_pattern_name</span></p>
+
+<ul>
+  <li>Run a pattern and save the output to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fabric --pattern </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_name</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span></p>
+
+<ul>
+  <li>Run a pattern with the specified variables:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fabric --pattern </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_name</span><code class="language-plaintext highlighter-rouge"> --variable "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge">"</code></p>

@@ -1,0 +1,53 @@
+<h1 id="slmgrvbs">slmgr.vbs</h1>
+
+<p>Install, activate, and manage Windows licenses.
+This command may override, deactivate, and/or remove your current Windows license. Please proceed with caution.
+More information: <a href="https://learn.microsoft.com/windows-server/get-started/activation-slmgr-vbs-options">https://learn.microsoft.com/windows-server/get-started/activation-slmgr-vbs-options</a>.</p>
+
+<ul>
+  <li>[d]isplay the current Windows [l]icense [i]nformation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slmgr.vbs /dli</code></p>
+
+<ul>
+  <li>[d]isplay the ins[t]allation [i]D for the current device. Useful for offline license activation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slmgr.vbs /dti</code></p>
+
+<ul>
+  <li>Display the current license's e[xp]i[r]ation date and time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slmgr.vbs /xpr</code></p>
+
+<ul>
+  <li>[i]nstall a new Windows license [p]roduct [k]ey. Requires Administrator privileges and will override the existing license:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slmgr.vbs /ipk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">product_key</span></p>
+
+<ul>
+  <li>[a]c[t]ivate the Windows product license [o]nline. Requires Administrator privileges to do so:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slmgr.vbs /ato</code></p>
+
+<ul>
+  <li>[a]c[t]ivate the Windows [p]roduct license offline. Requires Administrator privileges and an Confirmation ID provided by Microsoft Product Activation Center:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slmgr.vbs /atp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmation_id</span></p>
+
+<ul>
+  <li>[c]lear the current license's [p]roduct [k]e[y] from the Windows Registry. This will not deactivate or uninstall the current license, but prevents the key from being stolen by malicious programs in the future:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slmgr.vbs /cpky</code></p>
+
+<ul>
+  <li>[u]ninstall the current license (by its [p]roduct [k]ey):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slmgr.vbs /upk</code></p>

@@ -1,0 +1,46 @@
+<h1 id="ansible-galaxy">ansible-galaxy</h1>
+
+<p>Esegui varie operazioni inerenti ai Ruoli e alle Collezioni in Ansible.
+Maggiori informazioni: <a href="https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html">https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html</a>.</p>
+
+<ul>
+  <li>Lista i ruoli o le collezioni installate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-galaxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruolo|collezione</span><code class="language-plaintext highlighter-rouge"> list</code></p>
+
+<ul>
+  <li>Cerca un ruolo con vari livelli di verbosità (<code class="language-plaintext highlighter-rouge">-v</code> deve essere specificato alla fine):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-galaxy role search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span><code class="language-plaintext highlighter-rouge"> -v</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vvvvv</span></p>
+
+<ul>
+  <li>Installa o rimuovi ruoli:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-galaxy role </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">install|remove</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ruolo1 nome_ruolo2 …</span></p>
+
+<ul>
+  <li>Crea un nuovo ruolo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-galaxy role init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ruolo</span></p>
+
+<ul>
+  <li>Ottieni informazioni inerenti a un ruolo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-galaxy role info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ruolo</span></p>
+
+<ul>
+  <li>Installa o rimuovi collezioni:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-galaxy collection </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">install|remove</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_collezione1 nome_collezione2 …</span></p>
+
+<ul>
+  <li>Mostra aiuto su ruoli o collezioni:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-galaxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruolo|collezione</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span></p>

@@ -1,0 +1,22 @@
+<h1 id="aplay">aplay</h1>
+
+<p>ALSA 声卡驱动程序的命令行声音播放器。
+更多信息：<a href="https://manned.org/aplay">https://manned.org/aplay</a>.</p>
+
+<ul>
+  <li>播放一个文件（会自动根据文件格式确定采样率、位深等）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aplay </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径</span></p>
+
+<ul>
+  <li>以 2500 Hz 播放指定文件的前 10 秒：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aplay --duration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> --rate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2500</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径</span></p>
+
+<ul>
+  <li>以 22050 Hz，mono，8-bit，Mu-Law 和 <code class="language-plaintext highlighter-rouge">.au</code> 格式来播放指定原始文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aplay --channels=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> --file-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raw</span><code class="language-plaintext highlighter-rouge"> --rate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22050</span><code class="language-plaintext highlighter-rouge"> --format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mu_law</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径</span></p>

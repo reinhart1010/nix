@@ -1,0 +1,34 @@
+<h1 id="btrfs-restore">btrfs restore</h1>
+
+<p>Intenta recuperar archivos de un sistema de archivos btrfs dañado.
+Más información: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-restore.html">https://btrfs.readthedocs.io/en/latest/btrfs-restore.html</a>.</p>
+
+<ul>
+  <li>Restaura todos los archivos de un sistema de archivos btrfs a un directorio dado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_dispositivo_btrfs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_directorio_destino</span></p>
+
+<ul>
+  <li>Lista (sin escribir) los archivos que se van a restaurar de un sistema de archivos btrfs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs restore --dry-run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_dispositivo_btrfs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_directorio_destino</span></p>
+
+<ul>
+  <li>Restaura archivos que coincidan con una expresión regular dada (insensible a mayúsculas) de un sistema de archivos btrfs (todos los directorios padres de los archivos de destino también deben coincidir):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs restore --path-regex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regex</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_dispositivo_btrfs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_directorio_destino</span></p>
+
+<ul>
+  <li>Restaura archivos de un sistema de archivos btrfs usando un <code class="language-plaintext highlighter-rouge">bytenr</code> específico del árbol raíz (ver <code class="language-plaintext highlighter-rouge">btrfs-find-root</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs restore -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bytenr</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_dispositivo_btrfs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_directorio_destino</span></p>
+
+<ul>
+  <li>Restaura archivos de un sistema de archivos btrfs (junto con metadatos, atributos extendidos y enlaces simbólicos), sobrescribiendo archivos en el destino:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs restore --metadata --xattr --symlinks --overwrite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_dispositivo_btrfs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al_directorio_destino</span></p>

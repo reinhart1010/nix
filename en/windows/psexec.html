@@ -1,0 +1,35 @@
+<h1 id="psexec">psexec</h1>
+
+<p>Execute a command-line process on a remote machine.
+This is an advanced command and it might potentially be dangerous.
+More information: <a href="https://learn.microsoft.com/sysinternals/downloads/psexec">https://learn.microsoft.com/sysinternals/downloads/psexec</a>.</p>
+
+<ul>
+  <li>Execute a command using <code class="language-plaintext highlighter-rouge">cmd</code> in a remote shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">psexec \\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge"> cmd</code></p>
+
+<ul>
+  <li>Execute a command on a remote host (pre-authenticated):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">psexec \\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_name</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Execute a command remotely and output the result to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">psexec \\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge"> cmd /c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> -an ^&gt;</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file.txt</span></p>
+
+<ul>
+  <li>Execute a program to interact with users:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">psexec \\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge"> -d -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program_name</span></p>
+
+<ul>
+  <li>Display the IP configuration of the remote host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">psexec \\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge"> ipconfig /all</code></p>

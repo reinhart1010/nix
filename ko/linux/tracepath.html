@@ -1,0 +1,40 @@
+<h1 id="tracepath">tracepath</h1>
+
+<p>네트워크 호스트로의 경로를 추적하여 이 경로를 따라 MTU를 발견합니다.
+더 많은 정보: <a href="https://manned.org/tracepath">https://manned.org/tracepath</a>.</p>
+
+<ul>
+  <li>호스트로의 경로를 추적하는 권장 방법:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracepath -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">33434</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span></p>
+
+<ul>
+  <li>초기 목적지 포트 지정 (비표준 방화벽 설정에 유용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracepath -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">목적지_포트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span></p>
+
+<ul>
+  <li>호스트명과 숫자 IP 주소 둘 다 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracepath -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span></p>
+
+<ul>
+  <li>최대 TTL(홉 수) 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracepath -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">최대_홉수</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span></p>
+
+<ul>
+  <li>초기 패킷 길이 지정 (IPv4의 경우 기본값은 65535, IPv6의 경우 128000):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracepath -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패킷_길이</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span></p>
+
+<ul>
+  <li>IPv6 주소만 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracepath -6 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span></p>

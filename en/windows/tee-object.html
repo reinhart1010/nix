@@ -1,0 +1,17 @@
+<h1 id="tee-object">Tee-Object</h1>
+
+<p>Saves command output in a file or variable and also sends it down the pipeline.
+Note: This command can only be used through PowerShell.
+More information: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/tee-object">https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/tee-object</a>.</p>
+
+<ul>
+  <li>Output processes to a file and to the console:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Process | Tee-Object -FilePath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span></p>
+
+<ul>
+  <li>Output processes to a variable and <code class="language-plaintext highlighter-rouge">Select-Object</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Process notepad | Tee-Object -Variable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">proc</span><code class="language-plaintext highlighter-rouge"> | Select-Object processname,handles</code></p>

@@ -1,0 +1,22 @@
+<h1 id="git-check-ref-format">git check-ref-format</h1>
+
+<p>참조 이름이 적절한지 확인하고, 그렇지 않으면 0이 아닌 상태로 종료.
+더 많은 정보: <a href="https://git-scm.com/docs/git-check-ref-format">https://git-scm.com/docs/git-check-ref-format</a>.</p>
+
+<ul>
+  <li>지정된 참조 이름의 형식 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ref-format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">refs/head/refname</span></p>
+
+<ul>
+  <li>마지막으로 체크아웃한 브랜치 이름 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ref-format --branch @{-1}</code></p>
+
+<ul>
+  <li>참조 이름을 정규화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ref-format --normalize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">refs/head/refname</span></p>

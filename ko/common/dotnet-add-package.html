@@ -1,0 +1,40 @@
+<h1 id="dotnet-add-package">dotnet add package</h1>
+
+<p>프로젝트 파일에 .NET 패키지 참조 추가 또는 업데이트.
+더 많은 정보: <a href="https://learn.microsoft.com/dotnet/core/tools/dotnet-add-package">https://learn.microsoft.com/dotnet/core/tools/dotnet-add-package</a>.</p>
+
+<ul>
+  <li>현재 디렉토리의 프로젝트에 패키지 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet add package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>특정 프로젝트에 패키지 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.csproj</span><code class="language-plaintext highlighter-rouge"> package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>특정 버전의 패키지를 프로젝트에 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet add package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span><code class="language-plaintext highlighter-rouge"> --version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.0.0</span></p>
+
+<ul>
+  <li>특정 NuGet 소스를 사용하여 패키지 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet add package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://api.nuget.org/v3/index.json</span></p>
+
+<ul>
+  <li>특정 프레임워크를 대상으로 할 때만 패키지 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet add package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span><code class="language-plaintext highlighter-rouge"> --framework </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">net7.0</span></p>
+
+<ul>
+  <li>패키지를 복원할 디렉토리 지정 후 추가 (<code class="language-plaintext highlighter-rouge">~/.nuget/packages</code> 기본값):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet add package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span><code class="language-plaintext highlighter-rouge"> --package-directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>

@@ -1,0 +1,46 @@
+<h1 id="traceroute">traceroute</h1>
+
+<p>Toon het pad dat pakketjes volgen naar een netwerkhost.
+Meer informatie: <a href="https://manned.org/traceroute">https://manned.org/traceroute</a>.</p>
+
+<ul>
+  <li>Traceroute naar een host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Schakel IP-adres en hostnaam mapping uit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Specificeer wachttijd in seconden voor antwoord:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute --wait=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Specificeer het aantal queries per hop:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute --queries=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Specificeer de grootte in bytes van het peilpakket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">42</span></p>
+
+<ul>
+  <li>Bepaal de MTU naar de bestemming:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute --mtu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Gebruik ICMP in plaats van UDP voor tracerouting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute --icmp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>

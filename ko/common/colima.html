@@ -1,0 +1,52 @@
+<h1 id="colima">colima</h1>
+
+<p>최소한의 설정으로 macOS 및 Linux용 컨테이너 런타임을 제공.
+더 많은 정보: <a href="https://github.com/abiosoft/colima">https://github.com/abiosoft/colima</a>.</p>
+
+<ul>
+  <li>백그라운드에서 데몬을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colima start</code></p>
+
+<ul>
+  <li>구성 파일을 생성하고 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colima start --edit</code></p>
+
+<ul>
+  <li>containerd 시작 및 설정 (<code class="language-plaintext highlighter-rouge">nerdctl</code>을 통해 containerd를 사용하려면 <code class="language-plaintext highlighter-rouge">nerdctl</code> 설치):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colima start --runtime containerd</code></p>
+
+<ul>
+  <li>Kubernetes로 시작 (<code class="language-plaintext highlighter-rouge">kubectl</code>이 필요):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colima start --kubernetes</code></p>
+
+<ul>
+  <li>CPU 수, RAM 메모리 및 디스크 공간(GiB 단위)을 사용자 정의:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colima start --cpu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">숫자</span><code class="language-plaintext highlighter-rouge"> --memory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">메모리</span><code class="language-plaintext highlighter-rouge"> --disk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">저장_공간</span></p>
+
+<ul>
+  <li>Colima를 통해 Docker 사용 (Docker가 필요함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colima start</code></p>
+
+<ul>
+  <li>정보 및 상태와 함께 컨테이너를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colima list</code></p>
+
+<ul>
+  <li>런타임 상태 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">colima status</code></p>

@@ -1,0 +1,22 @@
+<h1 id="pg_isready">pg_isready</h1>
+
+<p>PostgreSQL 서버의 연결 상태 확인.
+더 많은 정보: <a href="https://www.postgresql.org/docs/current/app-pg-isready.html">https://www.postgresql.org/docs/current/app-pg-isready.html</a>.</p>
+
+<ul>
+  <li>연결 상태 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_isready</code></p>
+
+<ul>
+  <li>특정 호스트명과 포트를 사용하여 연결 상태 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_isready --host=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> --port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span></p>
+
+<ul>
+  <li>연결 실패 시에만 메시지 표시하며 연결 상태 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_isready --quiet</code></p>

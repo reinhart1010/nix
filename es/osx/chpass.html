@@ -1,0 +1,36 @@
+<h1 id="chpass">chpass</h1>
+
+<p>Añade o cambia la información de la base de datos del usuario, incluyendo el intérprete de comandos (shell) y la contraseña.
+Nota: no es posible cambiar la contraseña del usuario en sistemas Open Directory, utiliza <code class="language-plaintext highlighter-rouge">passwd</code> en su lugar.
+Vea también: <code class="language-plaintext highlighter-rouge">passwd</code>.
+Más información: <a href="https://man.freebsd.org/cgi/man.cgi?chpass">https://man.freebsd.org/cgi/man.cgi?chpass</a>.</p>
+
+<ul>
+  <li>Añade o cambia la información de la base de datos del usuario actual de forma interactiva:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c chpass</code></p>
+
+<ul>
+  <li>Establece un [s]hell de inicio de sesión específico para el usuario actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/shell</span></p>
+
+<ul>
+  <li>Establece un inicio de sesión [s]hell para un usuario específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span></p>
+
+<ul>
+  <li>Edita el registro de usuario en el nodo de directorio en la ubicación dada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ubicación</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span></p>
+
+<ul>
+  <li>Utiliza el [u]suario_autenticado al identificarse en el nodo de directorio que contiene a cierto usuario:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario_autenticado</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span></p>

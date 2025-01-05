@@ -1,0 +1,40 @@
+<h1 id="devenv">devenv</h1>
+
+<p>Fast, Declarative, Reproducible and Composable Developer Environments using Nix.
+More information: <a href="https://devenv.sh">https://devenv.sh</a>.</p>
+
+<ul>
+  <li>Initialise the environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devenv init</code></p>
+
+<ul>
+  <li>Enter the Development Environment with relaxed hermeticity (state of being airtight):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devenv shell --impure</code></p>
+
+<ul>
+  <li>Get detailed information about the current environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devenv info --verbose</code></p>
+
+<ul>
+  <li>Start processes with <code class="language-plaintext highlighter-rouge">devenv</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devenv up --config /</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path</span><code class="language-plaintext highlighter-rouge">/</code></p>
+
+<ul>
+  <li>Clean the environment variables and re-enter the shell in offline mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devenv --clean --offline</code></p>
+
+<ul>
+  <li>Delete the previous shell generations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devenv gc</code></p>

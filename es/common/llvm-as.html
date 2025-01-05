@@ -1,0 +1,22 @@
+<h1 id="llvm-as">llvm-as</h1>
+
+<p>Ir de Representación intermedia LLVM (<code class="language-plaintext highlighter-rouge">.ll</code>) a Bitcode de Ensamblador  (<code class="language-plaintext highlighter-rouge">.bc</code>).
+Más información: <a href="https://llvm.org/docs/CommandGuide/llvm-as.html">https://llvm.org/docs/CommandGuide/llvm-as.html</a>.</p>
+
+<ul>
+  <li>Ensambla un archivo IR:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-as -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/ensamblado.bc</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/fuente.ll</span></p>
+
+<ul>
+  <li>Ensambla un archivo IR e incluye un hash de módulo en el archivo bitcode producido:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-as --module-hash -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/ensamblado.bc</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/fuente.ll</span></p>
+
+<ul>
+  <li>Lee un archivo IR de <code class="language-plaintext highlighter-rouge">stdin</code> y lo ensambla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/fuente.ll</span><code class="language-plaintext highlighter-rouge"> | llvm-as -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/ensamblado.bc</span></p>

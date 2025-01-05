@@ -1,0 +1,22 @@
+<h1 id="jhat">jhat</h1>
+
+<p>Java heap analysis tool.
+More information: <a href="https://docs.oracle.com/javase/8/docs/technotes/tools/unix/jhat.html">https://docs.oracle.com/javase/8/docs/technotes/tools/unix/jhat.html</a>.</p>
+
+<ul>
+  <li>Analyze a heap dump (from <code class="language-plaintext highlighter-rouge">jmap</code>), view via HTTP on port 7000:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dump_file.bin</span></p>
+
+<ul>
+  <li>Analyze a heap dump, specifying an alternate port for the HTTP server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhat -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dump_file.bin</span></p>
+
+<ul>
+  <li>Analyze a dump letting <code class="language-plaintext highlighter-rouge">jhat</code> use up to 8 GB RAM (2-4x dump size recommended):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhat -J-mx8G </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dump_file.bin</span></p>

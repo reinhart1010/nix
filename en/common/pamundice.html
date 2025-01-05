@@ -1,0 +1,23 @@
+<h1 id="pamundice">pamundice</h1>
+
+<p>Combine a grid of Netpbm images into one.
+See also: <code class="language-plaintext highlighter-rouge">pamdice</code>.
+More information: <a href="https://netpbm.sourceforge.net/doc/pamundice.html">https://netpbm.sourceforge.net/doc/pamundice.html</a>.</p>
+
+<ul>
+  <li>Combine the images whose names match the <code class="language-plaintext highlighter-rouge">printf</code>-style filename expression. Assume a grid with a specific size:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamundice </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename_%1d_%1a.ppm</span><code class="language-plaintext highlighter-rouge"> -across </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grid_width</span><code class="language-plaintext highlighter-rouge"> -down </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grid_height</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Assume that the tiles overlap horizontally and vertically by the specified amount:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamundice </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename_%1d_%1a.ppm</span><code class="language-plaintext highlighter-rouge"> -across </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_value</span><code class="language-plaintext highlighter-rouge"> -down </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_value</span><code class="language-plaintext highlighter-rouge"> -hoverlap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> -voverlap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Specify the images to be combined through a text file containing one filename per line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamundice -listfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span><code class="language-plaintext highlighter-rouge"> -across </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_value</span><code class="language-plaintext highlighter-rouge"> -down </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_value</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>

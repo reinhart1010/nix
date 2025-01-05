@@ -1,0 +1,52 @@
+<h1 id="tmt-run">tmt run</h1>
+
+<p>Execute tmt test steps. By default, all steps are run.
+More information: <a href="https://tmt.readthedocs.io/en/stable/overview.html#run">https://tmt.readthedocs.io/en/stable/overview.html#run</a>.</p>
+
+<ul>
+  <li>Run all test steps for each plan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt run</code></p>
+
+<ul>
+  <li>Run only the discover step to show what tests would be run:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt run discover -v</code></p>
+
+<ul>
+  <li>Run all steps and adjust the provision step options:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt run --all provision --how </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container</span><code class="language-plaintext highlighter-rouge"> --image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora:rawhide</span></p>
+
+<ul>
+  <li>Run only selected plans and tests:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt run plan --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/plan/name</span><code class="language-plaintext highlighter-rouge"> test --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/test/name</span></p>
+
+<ul>
+  <li>Show results from the last run in a web browser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt run --last report --how </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">html</span><code class="language-plaintext highlighter-rouge"> --open</code></p>
+
+<ul>
+  <li>Run tests with the provided context:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt run --context </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key=value</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distro=fedora</span></p>
+
+<ul>
+  <li>Run tests interactively (debug test code in the middle of a test):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt run --all execute --how </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmt</span><code class="language-plaintext highlighter-rouge"> --interactive</code></p>
+
+<ul>
+  <li>Use dry mode to see what actions would happen and use the highest verbosity:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt run --dry -vvv</code></p>

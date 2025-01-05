@@ -1,0 +1,28 @@
+<h1 id="findfs">findfs</h1>
+
+<p>파일시스템을 레이블 또는 UUID로 찾습니다.
+더 많은 정보: <a href="https://mirrors.edge.kernel.org/pub/linux/utils/util-linux">https://mirrors.edge.kernel.org/pub/linux/utils/util-linux</a>.</p>
+
+<ul>
+  <li>파일시스템 레이블로 블록 장치 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findfs LABEL=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레이블</span></p>
+
+<ul>
+  <li>파일시스템 UUID로 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findfs UUID=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uuid</span></p>
+
+<ul>
+  <li>파티션 레이블로 검색 (GPT 또는 MAC 파티션 테이블):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findfs PARTLABEL=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파티션_레이블</span></p>
+
+<ul>
+  <li>파티션 UUID로 검색 (GPT 파티션 테이블 전용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findfs PARTUUID=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파티션_uuid</span></p>

@@ -1,0 +1,40 @@
+<h1 id="transfersh">transfersh</h1>
+
+<p>비공식적인 transfer.sh 명령줄 클라이언트.
+더 많은 정보: <a href="https://github.com/AlpixTM/transfersh">https://github.com/AlpixTM/transfersh</a>.</p>
+
+<ul>
+  <li>파일을 transfer.sh에 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transfersh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>진행 표시줄을 보여주며 파일 업로드 (Python 패키지 <code class="language-plaintext highlighter-rouge">requests_toolbelt</code> 필요):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transfersh --progress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>다른 파일 이름으로 파일 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transfersh --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일명</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>사용자 지정 transfer.sh 서버에 파일 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transfersh --servername </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">업로드.서버.이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>디렉터리의 모든 파일을 재귀적으로 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transfersh --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더/</span></p>
+
+<ul>
+  <li>특정 디렉터리를 압축되지 않은 tar로 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transfersh -rt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>

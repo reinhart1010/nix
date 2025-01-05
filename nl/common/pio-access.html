@@ -1,0 +1,34 @@
+<h1 id="pio-access">pio access</h1>
+
+<p>Stel het toegangsniveau in op publieke bronnen (pakketten) in het register.
+Meer informatie: <a href="https://docs.platformio.org/en/latest/core/userguide/access/">https://docs.platformio.org/en/latest/core/userguide/access/</a>.</p>
+
+<ul>
+  <li>Verleen een gebruiker toegang tot een bron:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio access grant </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">guest|maintainer|admin</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bron_urn</span></p>
+
+<ul>
+  <li>Verwijder de toegang voor een gebruiker tot een bron:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio access revoke </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bron_urn</span></p>
+
+<ul>
+  <li>Toon alle bronnen waartoe een gebruiker of team toegang tot heeft en het toegangsniveau:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio access list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>
+
+<ul>
+  <li>Beperk de toegang tot een bron voor specifieke gebruikers of teamleden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio access private </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bron_urn</span></p>
+
+<ul>
+  <li>Verleen alle gebruikers toegang tot een bron:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio access public </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bron_urn</span></p>

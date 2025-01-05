@@ -1,0 +1,46 @@
+<h1 id="rubocop">rubocop</h1>
+
+<p>Lint les fichiers Ruby.
+Plus d'informations : <a href="https://docs.rubocop.org/rubocop/usage/basic_usage.html">https://docs.rubocop.org/rubocop/usage/basic_usage.html</a>.</p>
+
+<ul>
+  <li>Vérifie tous les fichiers du répertoire actuel (y compris les sous-répertoires) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop</code></p>
+
+<ul>
+  <li>Vérifie un ou plusieurs fichiers ou répertoires spécifiques :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_ou_dossier1 chemin/vers/fichier_ou_dossier2 …</span></p>
+
+<ul>
+  <li>Écrit la sortie dans un fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Affiche la liste des cops (règles de lint) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --show-cops</code></p>
+
+<ul>
+  <li>Exclue un cop :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --except </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop_1 cop_2 …</span></p>
+
+<ul>
+  <li>Exécute uniquement les cops spécifiés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --only </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop_1 cop_2 …</span></p>
+
+<ul>
+  <li>Corrige automatiquement les fichiers (expérimental) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --auto-correct</code></p>

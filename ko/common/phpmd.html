@@ -1,0 +1,46 @@
+<h1 id="phpmd">phpmd</h1>
+
+<p>PHP Mess Detector: 일반적인 잠재적 문제를 확인.
+더 많은 정보: <a href="https://github.com/phpmd/phpmd">https://github.com/phpmd/phpmd</a>.</p>
+
+<ul>
+  <li>사용 가능한 규칙 세트 및 형식 목록 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpmd</code></p>
+
+<ul>
+  <li>쉼표로 구분된 규칙 세트를 사용하여 파일 또는 폴더에서 문제 스캔:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpmd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml|text|html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">규칙세트1,규칙세트2,…</span></p>
+
+<ul>
+  <li>규칙의 최소 우선순위 임계값 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpmd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml|text|html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">규칙세트1,규칙세트2,…</span><code class="language-plaintext highlighter-rouge"> --minimumpriority </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">우선순위</span></p>
+
+<ul>
+  <li>분석에 포함할 확장자 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpmd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml|text|html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">규칙세트1,규칙세트2,…</span><code class="language-plaintext highlighter-rouge"> --suffixes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">확장자</span></p>
+
+<ul>
+  <li>쉼표로 구분된 특정 폴더 제외:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpmd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더1,경로/대상/파일_또는_폴더2,…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml|text|html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">규칙세트1,규칙세트2,…</span><code class="language-plaintext highlighter-rouge"> --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">폴더_패턴</span></p>
+
+<ul>
+  <li>결과를 <code class="language-plaintext highlighter-rouge">stdout</code> 대신 파일에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpmd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml|text|html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">규칙세트1,규칙세트2,…</span><code class="language-plaintext highlighter-rouge"> --reportfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/보고서_파일</span></p>
+
+<ul>
+  <li>경고 억제 PHPDoc 주석 사용 무시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpmd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml|text|html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">규칙세트1,규칙세트2,…</span><code class="language-plaintext highlighter-rouge"> --strict</code></p>

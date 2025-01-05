@@ -1,0 +1,29 @@
+<h1 id="git-cherry-pick">git cherry-pick</h1>
+
+<p>기존의 커밋에서 가져온 변경내용을 현재 브랜치에 적용합니다.
+변경내용을 다른 브랜치에 적용하고싶으면, 우선 <code class="language-plaintext highlighter-rouge">git checkout</code>을 사용해 원하는 브랜치로 변경하세요.
+더 많은 정보: <a href="https://git-scm.com/docs/git-cherry-pick">https://git-scm.com/docs/git-cherry-pick</a>.</p>
+
+<ul>
+  <li>커밋을 현재 브랜치에 적용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋</span></p>
+
+<ul>
+  <li>특정 범위의 커밋들을 현재 브랜치에 적용 (<code class="language-plaintext highlighter-rouge">git rebase --onto</code>도 보세요):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">시작_커밋</span><code class="language-plaintext highlighter-rouge">~..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">끝_커밋</span></p>
+
+<ul>
+  <li>연속되지 않은 여러 커밋들을 현재 브랜치에 적용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋1 커밋2 …</span></p>
+
+<ul>
+  <li>커밋의 변경내역을 커밋 없이 디렉토리에 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick --no-commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋</span></p>

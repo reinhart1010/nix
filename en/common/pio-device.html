@@ -1,0 +1,46 @@
+<h1 id="pio-device">pio device</h1>
+
+<p>Manage and monitor PlatformIO devices.
+More information: <a href="https://docs.platformio.org/en/latest/core/userguide/device/">https://docs.platformio.org/en/latest/core/userguide/device/</a>.</p>
+
+<ul>
+  <li>List all available serial ports:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio device list</code></p>
+
+<ul>
+  <li>List all available logical devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio device list --logical</code></p>
+
+<ul>
+  <li>Start an interactive device monitor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio device monitor</code></p>
+
+<ul>
+  <li>Start an interactive device monitor and listen to a specific port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio device monitor --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyUSBX</span></p>
+
+<ul>
+  <li>Start an interactive device monitor and set a specific baud rate (defaults to 9600):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio device monitor --baud </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">57600</span></p>
+
+<ul>
+  <li>Start an interactive device monitor and set a specific EOL character (defaults to <code class="language-plaintext highlighter-rouge">CRLF</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio device monitor --eol </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">CRLF|CR|LF</span></p>
+
+<ul>
+  <li>Go to the menu of the interactive device monitor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt; + T</code></p>

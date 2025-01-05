@@ -1,0 +1,40 @@
+<h1 id="heroku">heroku</h1>
+
+<p>Heroku 애플리케이션 생성 및 관리.
+더 많은 정보: <a href="https://www.heroku.com/">https://www.heroku.com/</a>.</p>
+
+<ul>
+  <li>Heroku 계정에 로그인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">heroku login</code></p>
+
+<ul>
+  <li>Heroku 애플리케이션 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">heroku create</code></p>
+
+<ul>
+  <li>애플리케이션 로그 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">heroku logs --app </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">애플리케이션_이름</span></p>
+
+<ul>
+  <li>dyno (Heroku 가상 머신) 내에서 일회성 프로세스를 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">heroku run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로세스_이름</span><code class="language-plaintext highlighter-rouge"> --app </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">애플리케이션_이름</span></p>
+
+<ul>
+  <li>애플리케이션의 dynos (Heroku 가상 머신) 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">heroku ps --app </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">애플리케이션_이름</span></p>
+
+<ul>
+  <li>애플리케이션 영구적으로 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">heroku destroy --app </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">애플리케이션_이름</span></p>

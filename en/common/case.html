@@ -1,0 +1,37 @@
+<h1 id="case">case</h1>
+
+<p>Bash builtin construct for creating multi-choice conditional statements.
+More information: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-case">https://www.gnu.org/software/bash/manual/bash.html#index-case</a>.</p>
+
+<ul>
+  <li>Match a variable against string literals to decide which command to run:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$COUNTRULE</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">words</span><code class="language-plaintext highlighter-rouge">) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -w README</span><code class="language-plaintext highlighter-rouge"> ;; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lines</span><code class="language-plaintext highlighter-rouge">) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -l README</span><code class="language-plaintext highlighter-rouge"> ;; esac</code></p>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Combine patterns with</td>
+          <td>, use * as a fallback pattern:</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$COUNTRULE</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[wW]|words</span><code class="language-plaintext highlighter-rouge">) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -w README</span><code class="language-plaintext highlighter-rouge"> ;; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[lL]|lines</span><code class="language-plaintext highlighter-rouge">) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -l README</span><code class="language-plaintext highlighter-rouge"> ;; *) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "what?"</span><code class="language-plaintext highlighter-rouge"> ;; esac</code></p>
+
+<ul>
+  <li>Allow matching multiple patterns:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$ANIMAL</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat</span><code class="language-plaintext highlighter-rouge">) echo "It's a cat" ;;&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat|dog</span><code class="language-plaintext highlighter-rouge">) echo "It's a cat or a dog" ;;&amp; *) echo "Fallback" ;; esac</code></p>
+
+<ul>
+  <li>Continue to the next pattern's commands without checking the pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$ANIMAL</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat</span><code class="language-plaintext highlighter-rouge">) echo "It's a cat" ;&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dog</span><code class="language-plaintext highlighter-rouge">) echo "It's either a dog or cat fell through" ;&amp; *) echo "Fallback" ;; esac</code></p>

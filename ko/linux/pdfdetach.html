@@ -1,0 +1,35 @@
+<h1 id="pdfdetach">pdfdetach</h1>
+
+<p>PDF 파일에서 첨부 파일(내장 파일)을 나열하거나 추출.
+같이 보기: <code class="language-plaintext highlighter-rouge">pdfattach</code>, <code class="language-plaintext highlighter-rouge">pdfimages</code>, <code class="language-plaintext highlighter-rouge">pdfinfo</code>.
+더 많은 정보: <a href="https://manned.org/pdfdetach">https://manned.org/pdfdetach</a>.</p>
+
+<ul>
+  <li>특정 텍스트 인코딩으로 파일의 모든 첨부 파일 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfdetach list -enc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UTF-8</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.pdf</span></p>
+
+<ul>
+  <li>번호를 지정하여 특정 내장 파일 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfdetach -save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.pdf</span></p>
+
+<ul>
+  <li>이름을 지정하여 특정 내장 파일 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfdetach -savefile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.pdf</span></p>
+
+<ul>
+  <li>사용자 지정 출력 파일 이름으로 내장 파일 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfdetach -save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">번호</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.pdf</span></p>
+
+<ul>
+  <li>소유자/사용자 암호로 보호된 파일에서 첨부 파일 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfdetach -save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-opw|-upw</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">암호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.pdf</span></p>

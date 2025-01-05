@@ -1,0 +1,28 @@
+<h1 id="doctl-databases-firewalls">doctl databases firewalls</h1>
+
+<p>데이터베이스 클러스터의 방화벽을 관리.
+더 많은 정보: <a href="https://docs.digitalocean.com/reference/doctl/reference/databases/firewalls">https://docs.digitalocean.com/reference/doctl/reference/databases/firewalls</a>.</p>
+
+<ul>
+  <li>액세스 토큰을 사용하여 <code class="language-plaintext highlighter-rouge">doctl databases firewalls</code> 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases firewalls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> --access-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">액세스_토큰</span></p>
+
+<ul>
+  <li>특정 데이터베이스에 대한 방화벽 규칙 목록을 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases firewalls list</code></p>
+
+<ul>
+  <li>특정 데이터베이스에 데이터베이스 방화벽 규칙을 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases firewalls append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span><code class="language-plaintext highlighter-rouge"> --rule </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">droplet|k8s|ip_addr|tag|app</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>특정 데이터베이스에 대한 방화벽 규칙을 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases firewalls remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">룰_uuid</span></p>

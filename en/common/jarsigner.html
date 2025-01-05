@@ -1,0 +1,22 @@
+<h1 id="jarsigner">jarsigner</h1>
+
+<p>Sign and verify Java archive (JAR) files.
+More information: <a href="https://docs.oracle.com/en/java/javase/20/docs/specs/man/jarsigner.html">https://docs.oracle.com/en/java/javase/20/docs/specs/man/jarsigner.html</a>.</p>
+
+<ul>
+  <li>Sign a JAR file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jarsigner </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.jar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keystore_alias</span></p>
+
+<ul>
+  <li>Sign a JAR file with a specific algorithm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jarsigner -sigalg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algorithm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.jar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keystore_alias</span></p>
+
+<ul>
+  <li>Verify the signature of a JAR file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jarsigner -verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.jar</span></p>

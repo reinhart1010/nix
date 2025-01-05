@@ -1,0 +1,22 @@
+<h1 id="crane-export">crane export</h1>
+
+<p>Exporteer het bestandssysteem van een containerimage als een tarball.
+Meer informatie: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_digest.md">https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_digest.md</a>.</p>
+
+<ul>
+  <li>Schrijf de tarball naar <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_naam</span><code class="language-plaintext highlighter-rouge"> -</code></p>
+
+<ul>
+  <li>Schrijf de tarball naar een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_naam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/tarball</span></p>
+
+<ul>
+  <li>Lees de image vanuit <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane export - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/filenaam</span></p>

@@ -1,0 +1,46 @@
+<h1 id="pio-device">pio device</h1>
+
+<p>PlatformIO 장치를 관리하고 모니터링.
+더 많은 정보: <a href="https://docs.platformio.org/en/latest/core/userguide/device/">https://docs.platformio.org/en/latest/core/userguide/device/</a>.</p>
+
+<ul>
+  <li>사용 가능한 모든 시리얼 포트 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio device list</code></p>
+
+<ul>
+  <li>사용 가능한 모든 논리 장치 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio device list --logical</code></p>
+
+<ul>
+  <li>대화형 장치 모니터 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio device monitor</code></p>
+
+<ul>
+  <li>특정 포트를 수신하며 대화형 장치 모니터 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio device monitor --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyUSBX</span></p>
+
+<ul>
+  <li>특정 전송 속도를 설정하여 대화형 장치 모니터 시작 (기본값은 9600):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio device monitor --baud </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">57600</span></p>
+
+<ul>
+  <li>특정 EOL 문자를 설정하여 대화형 장치 모니터 시작 (기본값은 <code class="language-plaintext highlighter-rouge">CRLF</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio device monitor --eol </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">CRLF|CR|LF</span></p>
+
+<ul>
+  <li>대화형 장치 모니터 메뉴로 이동:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt; + T</code></p>

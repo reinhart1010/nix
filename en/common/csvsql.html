@@ -1,0 +1,23 @@
+<h1 id="csvsql">csvsql</h1>
+
+<p>Generate SQL statements for a CSV file or execute those statements directly on a database.
+Included in csvkit.
+More information: <a href="https://csvkit.readthedocs.io/en/latest/scripts/csvsql.html">https://csvkit.readthedocs.io/en/latest/scripts/csvsql.html</a>.</p>
+
+<ul>
+  <li>Generate a <code class="language-plaintext highlighter-rouge">CREATE TABLE</code> SQL statement for a CSV file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvsql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/data.csv</span></p>
+
+<ul>
+  <li>Import a CSV file into an SQL database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvsql --insert --db "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mysql://user:password@host/database</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>
+
+<ul>
+  <li>Run an SQL query on a CSV file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvsql --query "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">select * from 'data'</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>

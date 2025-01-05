@@ -1,0 +1,28 @@
+<h1 id="etcd">etcd</h1>
+
+<p>A distributed, reliable key-value store for the most critical data of a distributed system.
+More information: <a href="https://etcd.io">https://etcd.io</a>.</p>
+
+<ul>
+  <li>Start a single-node etcd cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcd</code></p>
+
+<ul>
+  <li>Start a single-node etcd cluster, listening for client requests on a custom URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcd --advertise-client-urls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://127.0.0.1:1234</span><code class="language-plaintext highlighter-rouge"> --listen-client-urls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://127.0.0.1:1234</span></p>
+
+<ul>
+  <li>Start a single-node etcd cluster with a custom name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcd --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_etcd_cluster</span></p>
+
+<ul>
+  <li>Start a single-node etcd cluster with extensive metrics available at <a href="http://localhost:2379/debug/pprof/">http://localhost:2379/debug/pprof/</a>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcd --enable-pprof --metrics extensive</code></p>

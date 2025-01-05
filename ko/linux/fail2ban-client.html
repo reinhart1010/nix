@@ -1,0 +1,22 @@
+<h1 id="fail2ban-client">fail2ban-client</h1>
+
+<p>fail2ban 서버를 구성하고 제어.
+더 많은 정보: <a href="https://github.com/fail2ban/fail2ban">https://github.com/fail2ban/fail2ban</a>.</p>
+
+<ul>
+  <li>감옥 서비스의 현재 상태 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fail2ban-client status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">감옥</span></p>
+
+<ul>
+  <li>지정된 IP를 감옥 서비스의 차단 목록에서 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fail2ban-client set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">감옥</span><code class="language-plaintext highlighter-rouge"> unbanip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP</span></p>
+
+<ul>
+  <li>fail2ban 서버가 실행 중인지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fail2ban-client ping</code></p>

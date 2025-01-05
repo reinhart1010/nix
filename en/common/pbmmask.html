@@ -1,0 +1,17 @@
+<h1 id="pbmmask">pbmmask</h1>
+
+<p>Create a mask bitmap from a regular bitmap.
+See also: <code class="language-plaintext highlighter-rouge">pambackground</code>.
+More information: <a href="https://netpbm.sourceforge.net/doc/pbmmask.html">https://netpbm.sourceforge.net/doc/pbmmask.html</a>.</p>
+
+<ul>
+  <li>Create a mask bitmap separating background from foreground:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmmask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbm</span></p>
+
+<ul>
+  <li>Expand the generated mask by one pixel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmmask -expand </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbm</span></p>

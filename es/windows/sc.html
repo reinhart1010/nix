@@ -1,0 +1,28 @@
+<h1 id="sc">sc</h1>
+
+<p>Comunicación con el Administrador de Control de Servicios y los servicios.
+Más información: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/sc-query">https://learn.microsoft.com/windows-server/administration/windows-commands/sc-query</a>.</p>
+
+<ul>
+  <li>Muestra el estado de un servicio (al no nombrar un servicio se listan todos los servicios):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc.exe query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_servicio</span></p>
+
+<ul>
+  <li>Inicia un servicio asincrónicamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc.exe create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_servicio</span><code class="language-plaintext highlighter-rouge"> binpath= </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta\al\binario_del_servicio</span></p>
+
+<ul>
+  <li>Detiene un servicio asincrónicamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc.exe delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_servicio</span></p>
+
+<ul>
+  <li>Establece el tipo de servicio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc.exe config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_servicio</span><code class="language-plaintext highlighter-rouge"> type= </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tipo_de_servicio</span></p>

@@ -1,0 +1,35 @@
+<h1 id="killall">killall</h1>
+
+<p>Verstuur een kill-signaal naar alle instanties van een proces op naam (moet exact overeenkomen).
+Alle signalen behalve SIGKILL en SIGSTOP kunnen door het proces worden onderschept, waardoor een nette afsluiting mogelijk is.
+Meer informatie: <a href="https://manned.org/killall">https://manned.org/killall</a>.</p>
+
+<ul>
+  <li>Beëindig een proces met behulp van het standaard SIGTERM (terminate) signaal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">proces_naam</span></p>
+
+<ul>
+  <li>Toon beschikbare signaalnamen (te gebruiken zonder het 'SIG'-voorvoegsel):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall --list</code></p>
+
+<ul>
+  <li>Vraag interactief om bevestiging voordat het proces wordt beëindigd:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">proces_naam</span></p>
+
+<ul>
+  <li>Beëindig een proces met het SIGINT (interrupt) signaal, hetzelfde signaal dat wordt verzonden door <code class="language-plaintext highlighter-rouge">Ctrl + C</code> in te drukken:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall -INT </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">proces_naam</span></p>
+
+<ul>
+  <li>Forceer het beëindigen van een proces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall -KILL </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">proces_naam</span></p>

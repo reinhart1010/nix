@@ -1,0 +1,17 @@
+<h1 id="pamdeinterlace">pamdeinterlace</h1>
+
+<p>Remove every other row in a Netpbm image.
+See also: <code class="language-plaintext highlighter-rouge">pammixinterlace</code>.
+More information: <a href="https://netpbm.sourceforge.net/doc/pamdeinterlace.html">https://netpbm.sourceforge.net/doc/pamdeinterlace.html</a>.</p>
+
+<ul>
+  <li>Produce an image consisting of the input's even-numbered rows:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamdeinterlace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Produce an image consisting of the input's odd-numbered rows:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamdeinterlace -takeodd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>

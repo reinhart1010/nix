@@ -1,0 +1,28 @@
+<h1 id="gixy">gixy</h1>
+
+<p>nginx 구성 파일 분석.
+더 많은 정보: <a href="https://github.com/yandex/gixy">https://github.com/yandex/gixy</a>.</p>
+
+<ul>
+  <li>nginx 구성 파일 분석 (기본 경로: <code class="language-plaintext highlighter-rouge">/etc/nginx/nginx.conf</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gixy</code></p>
+
+<ul>
+  <li>nginx 구성 분석하지만 특정 테스트 넘어감:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gixy --skips </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http_splitting</span></p>
+
+<ul>
+  <li>특정 세부 수준으로 nginx 구성을 분석:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gixy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|-ll|-lll</span></p>
+
+<ul>
+  <li>특정 경로에서 nginx 구성 파일을 분석:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gixy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/구성_파일_1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/구성_파일_2</span></p>

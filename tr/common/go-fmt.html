@@ -1,0 +1,35 @@
+<h1 id="go-fmt">go fmt</h1>
+
+<p>Go kaynak dosyalarını formatla.
+Değiştirilen dosya isimlerini yazdırır.
+Daha fazla bilgi için: <a href="https://pkg.go.dev/cmd/go#hdr-Gofmt__reformat__package_sources">https://pkg.go.dev/cmd/go#hdr-Gofmt__reformat__package_sources</a>.</p>
+
+<ul>
+  <li>Mevcut dizindeki Go kaynak dosyalarını formatla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go fmt</code></p>
+
+<ul>
+  <li>Belirtilen Go paketini içe aktarım yolunda formatla (<code class="language-plaintext highlighter-rouge">$GOPATH/src</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go fmt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/konum/paket</span></p>
+
+<ul>
+  <li>Paketi mevcut dizinde ve tüm öbür alt dizinlerde formatla (<code class="language-plaintext highlighter-rouge">...</code> ifadesine dikkat):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go fmt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./…</span></p>
+
+<ul>
+  <li>Hiçbir şeyi düzenlemeden format komutlarının ne yapacağını yazdır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go fmt -n</code></p>
+
+<ul>
+  <li>Komut çalışırken arkaplanda hangi komutların çalıştığını yazdır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go fmt -x</code></p>

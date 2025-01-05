@@ -1,0 +1,35 @@
+<h1 id="x11docker">x11docker</h1>
+
+<p>Docker 컨테이너에서 GUI 애플리케이션 및 데스크톱 UI를 안전하게 실행.
+같이 보기: <code class="language-plaintext highlighter-rouge">xephyr</code>.
+더 많은 정보: <a href="https://github.com/mviereck/x11docker">https://github.com/mviereck/x11docker</a>.</p>
+
+<ul>
+  <li>컨테이너에서 VLC 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">x11docker --pulseaudio --share=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$HOME/Videos</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jess/vlc</span></p>
+
+<ul>
+  <li>창에서 Xfce 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">x11docker --desktop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x11docker/xfce</span></p>
+
+<ul>
+  <li>창에서 GNOME 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">x11docker --desktop --gpu --init=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemd</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x11docker/gnome</span></p>
+
+<ul>
+  <li>창에서 KDE Plasma 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">x11docker --desktop --gpu --init=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemd</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x11docker/kde-plasma</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">x11docker --help</code></p>

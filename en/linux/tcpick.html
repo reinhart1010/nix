@@ -1,0 +1,23 @@
+<h1 id="tcpick">tcpick</h1>
+
+<p>Packet sniffing and network traffic analysis tool.
+It can capture and display TCP connections and data. It can also monitor network traffic on a interface, host, or port.
+More information: <a href="https://manned.org/tcpick.8">https://manned.org/tcpick.8</a>.</p>
+
+<ul>
+  <li>Capture traffic on a specific [i]nterface, port and host::</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tcpick -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span><code class="language-plaintext highlighter-rouge"> -C -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Capture traffic on port 80 (HTTP) of a specific host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tcpick -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> -C -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.100</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpick --help</code></p>

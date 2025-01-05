@@ -1,0 +1,40 @@
+<h1 id="forfiles">forfiles</h1>
+
+<p>Select files to execute a specified command on.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/forfiles">https://learn.microsoft.com/windows-server/administration/windows-commands/forfiles</a>.</p>
+
+<ul>
+  <li>Search for files in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">forfiles</code></p>
+
+<ul>
+  <li>Search for files in a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">forfiles /p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span></p>
+
+<ul>
+  <li>Run the specified command for each file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">forfiles /c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Search for files using a specific glob mask:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">forfiles /m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">glob_pattern</span></p>
+
+<ul>
+  <li>Search for files recursively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">forfiles /s</code></p>
+
+<ul>
+  <li>Search for files older than 5 days:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">forfiles /d +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>

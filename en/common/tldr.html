@@ -1,0 +1,53 @@
+<h1 id="tldr">tldr</h1>
+
+<p>Display simple help pages for command-line tools from the tldr-pages project.
+Note: the <code class="language-plaintext highlighter-rouge">--language</code> and <code class="language-plaintext highlighter-rouge">--list</code> options are not required by the client specification, but most clients implement them.
+More information: <a href="https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface">https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface</a>.</p>
+
+<ul>
+  <li>Print the tldr page for a specific command (hint: this is how you got here!):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Print the tldr page for a specific subcommand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>
+
+<ul>
+  <li>Print the tldr page for a command in the given [L]anguage (if available, otherwise fall back to English):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --language </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">language_code</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Print the tldr page for a command from a specific [p]latform:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>[u]pdate the local cache of tldr pages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --update</code></p>
+
+<ul>
+  <li>[l]ist all pages for the current platform and <code class="language-plaintext highlighter-rouge">common</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --list</code></p>
+
+<ul>
+  <li>[l]ist all available subcommand pages for a command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --list | grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | column</code></p>
+
+<ul>
+  <li>Print the tldr page for a random command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --list | shuf -n1 | xargs tldr</code></p>

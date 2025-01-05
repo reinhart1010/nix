@@ -1,0 +1,16 @@
+<h1 id="qm-reset">qm reset</h1>
+
+<p>Reinicia una máquina virtual en el administrador de máquinas virtuales QEMU/KVM.
+Más información: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>Restablece una máquina virtual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm reset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_mv</span></p>
+
+<ul>
+  <li>Reinicia una máquina virtual y omite cualquier bloqueo (solo el root puede usar esta opción):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm reset --skiplock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_mv</span></p>

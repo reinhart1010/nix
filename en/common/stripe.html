@@ -1,0 +1,34 @@
+<h1 id="stripe">stripe</h1>
+
+<p>Interact with a Stripe account.
+More information: <a href="https://docs.stripe.com/stripe-cli">https://docs.stripe.com/stripe-cli</a>.</p>
+
+<ul>
+  <li>Follow the logs of activity on the account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stripe logs tail</code></p>
+
+<ul>
+  <li>Listen for events, filtering on events with the name <code class="language-plaintext highlighter-rouge">charge.succeeded</code> and forwarding them to localhost:3000/events:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stripe listen --events="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">charge.succeeded</span><code class="language-plaintext highlighter-rouge">" --forward-to="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">localhost:3000/events</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Send a test webhook event:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stripe trigger </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">charge.succeeded</span></p>
+
+<ul>
+  <li>Create a customer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stripe customers create --email="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test@example.com</span><code class="language-plaintext highlighter-rouge">" --name="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Jenny Rosen</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Print to JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stripe listen --print-json</code></p>

@@ -1,0 +1,17 @@
+<h1 id="distrobox-create">distrobox-create</h1>
+
+<p>Criar um contêiner Distrobox. Veja também: <code class="language-plaintext highlighter-rouge">tldr distrobox</code>.
+O contêiner criado será integrado ao sistema host, permitindo o compartilhamento do diretório HOME do usuário, armazenamento externo, dispositivos USB externos, aplicativos gráficos (X11/Wayland) e áudio.
+Mais informações: <a href="https://distrobox.it/usage/distrobox-create">https://distrobox.it/usage/distrobox-create</a>.</p>
+
+<ul>
+  <li>Cria um contêiner Distrobox usando a imagem do Ubuntu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_contêiner</span><code class="language-plaintext highlighter-rouge"> --image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ubuntu:latest</span></p>
+
+<ul>
+  <li>Clona um contêiner Distrobox:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-create --clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_contêiner</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_contêiner_clonado</span></p>

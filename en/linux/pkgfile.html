@@ -1,0 +1,53 @@
+<h1 id="pkgfile">pkgfile</h1>
+
+<p>Search files from packages in the official repositories on Arch-based systems.
+See also: <code class="language-plaintext highlighter-rouge">pacman files</code>, describing the usage of <code class="language-plaintext highlighter-rouge">pacman --files</code>.
+More information: <a href="https://manned.org/pkgfile">https://manned.org/pkgfile</a>.</p>
+
+<ul>
+  <li>Synchronize the pkgfile database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pkgfile --update</code></p>
+
+<ul>
+  <li>Search for a package that owns a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>List all files provided by a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgfile --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>List executables provided by a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgfile --list --binaries </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Search for a package that owns a specific file using case-insensitive matching:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgfile --ignorecase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Search for a package that owns a specific file in the <code class="language-plaintext highlighter-rouge">bin</code> or <code class="language-plaintext highlighter-rouge">sbin</code> directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgfile --binaries </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Search for a package that owns a specific file, displaying the package version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgfile --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Search for a package that owns a specific file in a specific repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgfile --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>

@@ -1,0 +1,29 @@
+<h1 id="machinectl">machinectl</h1>
+
+<p>systemd 머신 관리자를 제어합니다.
+가상 머신, 컨테이너 및 이미지에서 작업을 실행합니다.
+더 많은 정보: <a href="https://www.freedesktop.org/software/systemd/man/machinectl.html">https://www.freedesktop.org/software/systemd/man/machinectl.html</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">systemd-nspawn</code>을 사용하여 서비스를 머신으로 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo machinectl start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">머신_이름</span></p>
+
+<ul>
+  <li>실행 중인 머신 중지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo machinectl stop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">머신_이름</span></p>
+
+<ul>
+  <li>실행 중인 머신 목록 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">machinectl list</code></p>
+
+<ul>
+  <li>머신 내부에서 대화형 셸 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo machinectl shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">머신_이름</span></p>

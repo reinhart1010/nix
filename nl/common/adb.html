@@ -1,0 +1,53 @@
+<h1 id="adb">adb</h1>
+
+<p>Android Debug-Brug: communiceer met een Android-emulator of een aangesloten Android-apparaat.
+Sommige subcommando's zoals <code class="language-plaintext highlighter-rouge">shell</code> hebben hun eigen documentatie.
+Meer informatie: <a href="https://developer.android.com/tools/adb">https://developer.android.com/tools/adb</a>.</p>
+
+<ul>
+  <li>Controleer of het adb serverproces draait en start het:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb start-server</code></p>
+
+<ul>
+  <li>Sluit het adb serverproces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb kill-server</code></p>
+
+<ul>
+  <li>Start een remote shell voor de doel-emulator of apparaat-instantie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell</code></p>
+
+<ul>
+  <li>Stuur een Android-applicatie naar de emulator/het apparaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.apk</span></p>
+
+<ul>
+  <li>Kopiëer een bestand/map van het doelapparaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/extern/bestand_of_map</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/lokaal/bestand_of_map</span></p>
+
+<ul>
+  <li>Kopiëer een bestand/map naar het doelapparaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/lokaal/bestand_of_map</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/extern/bestand_of_map</span></p>
+
+<ul>
+  <li>Toon alle aangesloten apparaten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb devices</code></p>
+
+<ul>
+  <li>Specificeer naar welk apparaat de opdrachten verzonden dienen te worden als er meerdere apparaten zijn:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apparaat_ID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell</span></p>

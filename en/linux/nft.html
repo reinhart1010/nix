@@ -1,0 +1,53 @@
+<h1 id="nft">nft</h1>
+
+<p>Allows configuration of tables, chains and rules provided by the Linux kernel firewall.
+Nftables replaces iptables.
+More information: <a href="https://wiki.nftables.org/wiki-nftables/index.php/Main_Page">https://wiki.nftables.org/wiki-nftables/index.php/Main_Page</a>.</p>
+
+<ul>
+  <li>View current configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nft list ruleset</code></p>
+
+<ul>
+  <li>Add a new table with family "inet" and table "filter":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nft add table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inet</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter</span></p>
+
+<ul>
+  <li>Add a new chain to accept all inbound traffic:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nft add chain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inet</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input</span><code class="language-plaintext highlighter-rouge"> \{ type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter</span><code class="language-plaintext highlighter-rouge"> hook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input</span><code class="language-plaintext highlighter-rouge"> priority </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> \; policy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">accept</span><code class="language-plaintext highlighter-rouge"> \; \}</code></p>
+
+<ul>
+  <li>Add a new rule to accept several TCP ports:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nft add rule </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inet</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dport { telnet, ssh, http, https } accept</span></p>
+
+<ul>
+  <li>Add a NAT rule to translate all traffic from the <code class="language-plaintext highlighter-rouge">192.168.0.0/24</code> subnet to the host's public IP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nft add rule </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nat</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">postrouting</span><code class="language-plaintext highlighter-rouge"> ip saddr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.0/24</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">masquerade</span></p>
+
+<ul>
+  <li>Show rule handles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nft --handle --numeric list chain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">family</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chain</span></p>
+
+<ul>
+  <li>Delete a rule:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nft delete rule </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inet</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input</span><code class="language-plaintext highlighter-rouge"> handle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>Save current configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nft list ruleset &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/etc/nftables.conf</span></p>

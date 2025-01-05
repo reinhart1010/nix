@@ -1,0 +1,34 @@
+<h1 id="bluetoothd">bluetoothd</h1>
+
+<p>管理蓝牙设备的守护进程。
+更多信息：<a href="https://manned.org/bluetoothd">https://manned.org/bluetoothd</a>.</p>
+
+<ul>
+  <li>启动守护进程：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluetoothd</code></p>
+
+<ul>
+  <li>启动守护进程，日志输出到标准输出：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluetoothd --nodetach</code></p>
+
+<ul>
+  <li>指定一个配置文件启动守护进程（默认是 <code class="language-plaintext highlighter-rouge">/etc/bluetooth/main.conf</code>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluetoothd --configfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">配置文件</span></p>
+
+<ul>
+  <li>启动守护进程并将详细信息输出到标准错误：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluetoothd --debug</code></p>
+
+<ul>
+  <li>使用来自 bluetoothd 或插件源中特定文件启动守护进程并输出详细信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluetoothd --debug=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件一:文件二:…</span></p>

@@ -1,0 +1,53 @@
+<h1 id="dnf">dnf</h1>
+
+<p>RHEL, Fedora 和 CentOS 的软件包管理工具（yum 的替代品）。
+对于其他包管理器中的等效命令，请见 <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a>.
+更多信息：<a href="https://dnf.readthedocs.io">https://dnf.readthedocs.io</a>.</p>
+
+<ul>
+  <li>更新已安装的包到最新可用版本：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf upgrade</code></p>
+
+<ul>
+  <li>通过关键词搜索包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">关键词1 关键词2 …</span></p>
+
+<ul>
+  <li>显示软件包的描述：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">包</span></p>
+
+<ul>
+  <li>安装软件包（使用 <code class="language-plaintext highlighter-rouge">-y</code> 自动确认所有提示）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">包1 包2 …</span></p>
+
+<ul>
+  <li>删除软件包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">包1 包2 …</span></p>
+
+<ul>
+  <li>列出已安装的包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf list --installed</code></p>
+
+<ul>
+  <li>查找哪些包提供给定命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf provides </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span></p>
+
+<ul>
+  <li>查看所有过去的操作：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf history</code></p>

@@ -1,0 +1,28 @@
+<h1 id="arch-chroot">arch-chroot</h1>
+
+<p>辅助 Arch Linux 安装流程的更强 <code class="language-plaintext highlighter-rouge">chroot</code> 命令。
+更多信息：<a href="https://manned.org/arch-chroot.8">https://manned.org/arch-chroot.8</a>.</p>
+
+<ul>
+  <li>在新的根目录下开启一个交互外壳程序（默认是 Bash）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arch-chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">新根目录</span></p>
+
+<ul>
+  <li>指定除当前用户外的其他用户来运行外壳程序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arch-chroot -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">新根目录</span></p>
+
+<ul>
+  <li>在新的根目录下运行一个自定义命令（取代默认的 Bash）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arch-chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">新根目录</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令参数</span></p>
+
+<ul>
+  <li>指定除默认的 Bash 以外的外壳程序（以下例子需要现在目标系统中先安装 <code class="language-plaintext highlighter-rouge">zsh</code>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arch-chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">新根目录</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zsh</span></p>

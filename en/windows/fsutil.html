@@ -1,0 +1,34 @@
+<h1 id="fsutil">fsutil</h1>
+
+<p>Display information about file system volumes.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/fsutil">https://learn.microsoft.com/windows-server/administration/windows-commands/fsutil</a>.</p>
+
+<ul>
+  <li>Display a list of volumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fsutil volume list</code></p>
+
+<ul>
+  <li>Display information about a volume's file system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fsutil fsInfo volumeInfo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">drive_letter|volume_path</span></p>
+
+<ul>
+  <li>Display the current state of the file system auto-repair for all volumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fsutil repair state</code></p>
+
+<ul>
+  <li>Display the dirty bit state of all volumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fsutil dirty query</code></p>
+
+<ul>
+  <li>Set the dirty bit state of a volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fsutil dirty set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">drive_letter|volume_path</span></p>

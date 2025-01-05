@@ -1,0 +1,53 @@
+<h1 id="gh-skyline">gh skyline</h1>
+
+<p>Genera un modelo 3D de tu historial de contribuciones a GitHub.
+Por defecto, creará un archivo <code class="language-plaintext highlighter-rouge">{usuario}-{año}-github-skyline.stl</code> en el directorio actual.
+Más información: <a href="https://github.com/github/gh-skyline">https://github.com/github/gh-skyline</a>.</p>
+
+<ul>
+  <li>Genera un archivo STL de la línea del horizonte para el año actual y el usuario autenticado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh skyline</code></p>
+
+<ul>
+  <li>Genera una línea del horizonte para un [u]suario y un año [y] específicos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh skyline --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span><code class="language-plaintext highlighter-rouge"> --year </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">año</span></p>
+
+<ul>
+  <li>Genera una línea del horizonte para un intervalo de [a]ños:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh skyline --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span><code class="language-plaintext highlighter-rouge"> --year </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">primer_año</span><code class="language-plaintext highlighter-rouge">-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">último_año</span></p>
+
+<ul>
+  <li>Genera una línea del horizonte completa [f] (desde el año de alta del usuario hasta el año actual):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh skyline --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span><code class="language-plaintext highlighter-rouge"> --full</code></p>
+
+<ul>
+  <li>Habilita el registro de [d]epuración:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh skyline --debug</code></p>
+
+<ul>
+  <li>Genera una línea del horizonte y especifica la ruta del archivo de salida:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh skyline --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_salida.stl</span></p>
+
+<ul>
+  <li>Abre el perfil de GitHub de un [u]suario específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh skyline --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span><code class="language-plaintext highlighter-rouge"> --web</code></p>
+
+<ul>
+  <li>Muestra ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh skyline --help</code></p>

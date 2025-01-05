@@ -1,0 +1,29 @@
+<h1 id="vcpkg">vcpkg</h1>
+
+<p>Gestor de paquetes para librerías C/C++.
+Nota: los paquetes no se instalan en el sistema. Para usarlos, necesitas decirle a tu sistema de compilación (por ejemplo CMake) que use <code class="language-plaintext highlighter-rouge">vcpkg</code>.
+Más información: <a href="https://learn.microsoft.com/en-us/vcpkg/">https://learn.microsoft.com/en-us/vcpkg/</a>.</p>
+
+<ul>
+  <li>Construye y añade el paquete <code class="language-plaintext highlighter-rouge">libcurl</code> al entorno de <code class="language-plaintext highlighter-rouge">vcpkg</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vcpkg install curl</code></p>
+
+<ul>
+  <li>Construye y añade <code class="language-plaintext highlighter-rouge">zlib</code> usando la cadena de herramientas <code class="language-plaintext highlighter-rouge">emscripten</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vcpkg install --triplet=wasm32-emscripten zlib</code></p>
+
+<ul>
+  <li>Busca un paquete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vcpkg search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_paquete</span></p>
+
+<ul>
+  <li>Configura un proyecto CMake para utilizar los paquetes de <code class="language-plaintext highlighter-rouge">vcpkg</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake -B build -DCMAKE_TOOLCHAIN_FILE=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_de_instalación_vcpkg</span><code class="language-plaintext highlighter-rouge">/scripts/buildsystems/vcpkg.cmake</code></p>

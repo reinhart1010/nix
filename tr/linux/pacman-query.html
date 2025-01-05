@@ -1,0 +1,53 @@
+<h1 id="pacman-query">pacman –query</h1>
+
+<p>Arch Linux paket yönetim aracı.
+Ayrıca bakınız: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Daha fazla bilgi için: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Yüklenmiş paket ve sürümleri sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query</code></p>
+
+<ul>
+  <li>Sadece özellikle indirilmiş paket ve sürümleri sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --explicit</code></p>
+
+<ul>
+  <li>Hangi paketin belirtilen dosyaya sahip olduğunu bul:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --owns </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya_ismi</span></p>
+
+<ul>
+  <li>İndirilmiş bir pakete dair bilgiyi görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_ismi</span></p>
+
+<ul>
+  <li>Bir paketin içerdiği dosyaları sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_ismi</span></p>
+
+<ul>
+  <li>Yetim (başka bir pakete bağlılık olarak indirilmiş ancak herhangi bir paket tarafından gerektirilmeyen) paketleri sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --unrequired --deps --quiet</code></p>
+
+<ul>
+  <li>Mevcut depolarda bulunmayan, indirilmiş paketleri sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --foreign</code></p>
+
+<ul>
+  <li>Miadı dolmuş paketleri sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --upgrades</code></p>

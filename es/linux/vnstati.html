@@ -1,0 +1,28 @@
+<h1 id="vnstati">vnstati</h1>
+
+<p>Genera imágenes PNG compatibles con vnStat.
+Más información: <a href="https://manned.org/vnstati">https://manned.org/vnstati</a>.</p>
+
+<ul>
+  <li>Genera un resumen de los últimos dos meses, días, etc:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vnstati --summary --iface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interfaz_de_red</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/salida.png</span></p>
+
+<ul>
+  <li>Genera los 10 días con mayor tráfico de todos los tiempos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vnstati --top 10 --iface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interfaz_de_red</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/salida.png</span></p>
+
+<ul>
+  <li>Genera estadísticas de tráfico mensual de los últimos 12 meses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vnstati --months --iface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interfaz_de_red</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/salida.png</span></p>
+
+<ul>
+  <li>Genera estadísticas de tráfico por hora de las últimas 24 horas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vnstati --hours --iface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interfaz_de_red</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/salida.png</span></p>

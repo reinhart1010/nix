@@ -1,0 +1,28 @@
+<h1 id="lipo">lipo</h1>
+
+<p>Herramienta para el manejo de binarios universales Mach-O.
+Más información: <a href="https://keith.github.io/xcode-man-pages/lipo.1.html">https://keith.github.io/xcode-man-pages/lipo.1.html</a>.</p>
+
+<ul>
+  <li>Crea un archivo universal a partir de dos archivos de una sola arquitectura:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lipo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo/binario.x86_64</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_binario.arm64e</span><code class="language-plaintext highlighter-rouge"> -create -output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_binario</span></p>
+
+<ul>
+  <li>Lista todas las arquitecturas contenidas en un archivo universal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lipo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_binario</span><code class="language-plaintext highlighter-rouge"> -archs</code></p>
+
+<ul>
+  <li>Muestra información detallada sobre un archivo universal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lipo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_binario</span><code class="language-plaintext highlighter-rouge"> -detailed_info</code></p>
+
+<ul>
+  <li>Extrae un archivo de arquitectura única de un archivo universal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lipo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_binario</span><code class="language-plaintext highlighter-rouge"> -thin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arm64e</span><code class="language-plaintext highlighter-rouge"> -output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_binario.arm64e</span></p>

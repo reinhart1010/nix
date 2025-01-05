@@ -1,0 +1,28 @@
+<h1 id="eclean">eclean</h1>
+
+<p>Clean repository source files and binary packages.
+More information: <a href="https://wiki.gentoo.org/wiki/Eclean">https://wiki.gentoo.org/wiki/Eclean</a>.</p>
+
+<ul>
+  <li>Clean the source file directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo eclean distfiles</code></p>
+
+<ul>
+  <li>Clean the binary package directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo eclean packages</code></p>
+
+<ul>
+  <li>Clean the distfiles of all uninstalled packages, but keep the distfiles of installed packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo eclean --deep --package-names distfiles</code></p>
+
+<ul>
+  <li>Clean the binary packages of all uninstalled packages, but keep the binaries of installed packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo eclean --deep --package-names packages</code></p>

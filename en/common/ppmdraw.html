@@ -1,0 +1,17 @@
+<h1 id="ppmdraw">ppmdraw</h1>
+
+<p>Draw lines, text and more on a PPM image by executing a script.
+Documentation on the utilized scripting language can be found by following the link below.
+More information: <a href="https://netpbm.sourceforge.net/doc/ppmdraw.html">https://netpbm.sourceforge.net/doc/ppmdraw.html</a>.</p>
+
+<ul>
+  <li>Draw on the specified PPM image by executing the supplied script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmdraw -script '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">setpos 50 50; text_here "hello!"; </span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Draw on the specified PPM image by executing the script in the specified file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmdraw -scriptfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>

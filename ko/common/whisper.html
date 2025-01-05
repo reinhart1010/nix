@@ -1,0 +1,40 @@
+<h1 id="whisper">whisper</h1>
+
+<p>오디오 파일을 <code class="language-plaintext highlighter-rouge">txt</code>, <code class="language-plaintext highlighter-rouge">vtt</code>, <code class="language-plaintext highlighter-rouge">srt</code>, <code class="language-plaintext highlighter-rouge">tsv</code>, <code class="language-plaintext highlighter-rouge">json</code>으로 변환.
+더 많은 정보: <a href="https://github.com/openai/whisper">https://github.com/openai/whisper</a>.</p>
+
+<ul>
+  <li>특정 오디오 파일을 모든 제공된 파일 형식으로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whisper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/오디오.mp3</span></p>
+
+<ul>
+  <li>변환된 파일의 출력 형식을 지정하여 오디오 파일 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whisper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/오디오.mp3</span><code class="language-plaintext highlighter-rouge"> --output_format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txt</span></p>
+
+<ul>
+  <li>특정 모델을 사용하여 오디오 파일 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whisper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/오디오.mp3</span><code class="language-plaintext highlighter-rouge"> --model </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tiny.en,tiny,base.en,base,small.en,small,medium.en,medium,large-v1,large-v2,large</span></p>
+
+<ul>
+  <li>오디오 파일의 언어를 지정하여 변환 시간을 단축하며 오디오 파일 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whisper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/오디오.mp3</span><code class="language-plaintext highlighter-rouge"> --language </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">english</span></p>
+
+<ul>
+  <li>오디오 파일을 변환하고 특정 위치에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whisper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/오디오.mp3</span><code class="language-plaintext highlighter-rouge"> --output_dir "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>조용한 모드로 오디오 파일 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whisper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/오디오.mp3</span><code class="language-plaintext highlighter-rouge"> --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">False</span></p>

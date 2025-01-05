@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="for">for</h1>
+
+<p>명령을 여러 번 수행.
+더 많은 정보: <a href="https://www.gnu.org/software/bash/manual/bash.html#Looping-Constructs">https://www.gnu.org/software/bash/manual/bash.html#Looping-Constructs</a>.</p>
+
+<ul>
+  <li>지정된 각 항목에 대해 지정된 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변수</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">item1 item2 …</span><code class="language-plaintext highlighter-rouge">; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "Loop is executed"</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li>주어진 숫자 범위에 대해 반복:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변수</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{from</span><code class="language-plaintext highlighter-rouge">..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to</span><code class="language-plaintext highlighter-rouge">..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">step}</span><code class="language-plaintext highlighter-rouge">; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "Loop is executed"</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li>주어진 파일 목록을 반복:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변수</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span><code class="language-plaintext highlighter-rouge">; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "Loop is executed"</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li>주어진 디렉터리 목록을 반복:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변수</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리1/ 경로/대상/디렉터리2/ …</span><code class="language-plaintext highlighter-rouge">; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "Loop is executed"</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li>모든 디렉터리에서 주어진 명령을 수행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변수</span><code class="language-plaintext highlighter-rouge"> in */; do (cd "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변수</span><code class="language-plaintext highlighter-rouge">" || continue; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "Loop is executed"</span><code class="language-plaintext highlighter-rouge">) done</code></p>

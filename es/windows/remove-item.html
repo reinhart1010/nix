@@ -1,0 +1,41 @@
+<h1 id="remove-item">Remove-Item</h1>
+
+<p>Elimina archivos, carpetas, así como claves de registro y subclaves.
+Este comando solo se puede ejecutar a través de PowerShell.
+Más información: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.management/remove-item">https://learn.microsoft.com/powershell/module/microsoft.powershell.management/remove-item</a>.</p>
+
+<ul>
+  <li>Elimina archivos específicos o claves de registro (sin subclaves):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-Item </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta\al\archivo_o_clave1 , ruta\al\archivo_o_clave2 …</span></p>
+
+<ul>
+  <li>Elimina archivos ocultos o de solo lectura:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-Item -Force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta\al\archivo1 , ruta\al\archivo2 …</span></p>
+
+<ul>
+  <li>Elimina archivos específicos o claves de registro de forma interactiva antes de cada eliminación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-Item -Confirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta\al\archivo_o_clave1 , ruta\al\archivo_o_clave2 …</span></p>
+
+<ul>
+  <li>Elimina archivos y directorios específicos recursivamente (Windows 10 versión 1909 o posterior):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-Item -Recurse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta\al\archivo_o_directorio1 , ruta\al\archivo_o_directorio2 …</span></p>
+
+<ul>
+  <li>Quita claves específicas del registro de Windows y todas sus subclaves:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-Item -Recurse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta\a\la\clave1 , ruta\a\la\clave2 …</span></p>
+
+<ul>
+  <li>Realiza una simulación del proceso de eliminación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-Item -WhatIf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta\al\archivo1 , ruta\al\archivo2 …</span></p>

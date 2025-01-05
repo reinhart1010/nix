@@ -1,0 +1,40 @@
+<h1 id="accelerate">accelerate</h1>
+
+<p>Uma biblioteca que habilita o mesmo código PyTorch a rodar em qualquer configuração distribuída.
+Mais informações: <a href="https://huggingface.co/docs/accelerate/index">https://huggingface.co/docs/accelerate/index</a>.</p>
+
+<ul>
+  <li>Mostra informações do ambiente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate env</code></p>
+
+<ul>
+  <li>Cria um arquivo de configuração de forma interativa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate config</code></p>
+
+<ul>
+  <li>Mostra o custo de memória de GPU estimado para rodar um Modelo de Face aumentado com diferentes tipos de dados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate estimate-memory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome/modelo</span></p>
+
+<ul>
+  <li>Testa um arquivo Accelerate de configuração:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate test --config_file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/config.yaml</span></p>
+
+<ul>
+  <li>Roda um modelo na CPU com Accelerate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate launch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.py</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–cpu</span></p>
+
+<ul>
+  <li>Roda um modelo em multi-GPU com Accelerate, com 2 máquinas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate launch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.py</span><code class="language-plaintext highlighter-rouge"> --multi_gpu --num_machines 2</code></p>

@@ -1,0 +1,40 @@
+<h1 id="compgen">compgen</h1>
+
+<p>A built-in command for auto-completion in Bash, which is called on pressing TAB key twice.
+More information: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-compgen">https://www.gnu.org/software/bash/manual/bash.html#index-compgen</a>.</p>
+
+<ul>
+  <li>List all commands that you could run:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compgen -c</code></p>
+
+<ul>
+  <li>List all commands that you could run that start with a specified string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compgen -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">str</span></p>
+
+<ul>
+  <li>List all aliases:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compgen -a</code></p>
+
+<ul>
+  <li>List all functions that you could run:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compgen -A function</code></p>
+
+<ul>
+  <li>Show shell reserved keywords:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compgen -k</code></p>
+
+<ul>
+  <li>See all available commands/aliases starting with 'ls':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">compgen -ac </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls</span></p>

@@ -1,0 +1,35 @@
+<h1 id="llvm-mc">llvm-mc</h1>
+
+<p>LLVM Machine Code Playground. It provides a set of tools for working with LLVM machine code.
+Part of LLVM.
+More information: <a href="https://llvm.org/docs/CommandGuide/llvm-mc.html">https://llvm.org/docs/CommandGuide/llvm-mc.html</a>.</p>
+
+<ul>
+  <li>Assemble assembly code file into object file with machine code:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-mc --filetype=obj -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.o</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.s</span></p>
+
+<ul>
+  <li>Disassemble object file with machine code into assembly code file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-mc --disassemble -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.s</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.o</span></p>
+
+<ul>
+  <li>Compile LLVM bit code file into assembly code:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-mc -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.s</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.bc</span></p>
+
+<ul>
+  <li>Assemble assembly code from standard input stream and show encoding to standard output stream:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">addl %eax, %ebx</span><code class="language-plaintext highlighter-rouge">" | llvm-mc -show-encoding -show-inst</code></p>
+
+<ul>
+  <li>Disassemble machine code from standard input stream for specified triple:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0xCD 0x21</span><code class="language-plaintext highlighter-rouge">" | llvm-mc --disassemble -triple=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_name</span></p>

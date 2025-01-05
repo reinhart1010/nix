@@ -1,0 +1,52 @@
+<h1 id="pct">pct</h1>
+
+<p>Manage LXC containers in Proxmox.
+More information: <a href="https://pve.proxmox.com/pve-docs/pct.1.html">https://pve.proxmox.com/pve-docs/pct.1.html</a>.</p>
+
+<ul>
+  <li>List all containers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pct list</code></p>
+
+<ul>
+  <li>Start/Stop/Reboot a specific container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pct </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop|reboot</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span></p>
+
+<ul>
+  <li>Access a specific container's shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pct enter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span></p>
+
+<ul>
+  <li>Create a container from template:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pct create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/var/lib/vz/template/cache/distro-name.tar.zst</span><code class="language-plaintext highlighter-rouge"> -hostname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> -password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> --rootfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local-lvm</span><code class="language-plaintext highlighter-rouge"> --on-boot</code></p>
+
+<ul>
+  <li>Resize the container's disk to 20G:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pct resize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rootfs|mpX</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20G</span></p>
+
+<ul>
+  <li>Show the configuration of a container, specifying its ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pct config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span></p>
+
+<ul>
+  <li>Snapshot a specific container with description:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pct snapshot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my-snapshot</span><code class="language-plaintext highlighter-rouge"> --description </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">My snapshot description</span></p>
+
+<ul>
+  <li>Destroy a container and remove all related resources:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pct destroy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --purge</code></p>

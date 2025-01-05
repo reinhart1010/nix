@@ -1,0 +1,35 @@
+<h1 id="tuc">tuc</h1>
+
+<p>Cut text (or bytes) where a delimiter matches, then keep the desired parts.
+A more user-friendly and powerful version of <code class="language-plaintext highlighter-rouge">cut</code> with sensible defaults.
+More information: <a href="https://github.com/riquito/tuc">https://github.com/riquito/tuc</a>.</p>
+
+<ul>
+  <li>Cut and rearrange fields:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "foo bar baz" | tuc -d '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"> </span><code class="language-plaintext highlighter-rouge">' -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3,2,1</span></p>
+
+<ul>
+  <li>Replace the delimiter <code class="language-plaintext highlighter-rouge">space</code> with an arrow:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "foo bar baz" | tuc -d ' ' -r ' ➡ '</code></p>
+
+<ul>
+  <li>Keep a range of fields:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "foo bar    baz" | tuc -d ' ' -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2:</span></p>
+
+<ul>
+  <li>Cut using regular expressions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "a,b, c" | tuc -e '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[, ]+</span><code class="language-plaintext highlighter-rouge">' -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,3</span></p>
+
+<ul>
+  <li>Emit JSON output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "foo bar baz" | tuc -d '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"> </span><code class="language-plaintext highlighter-rouge">' --json</code></p>

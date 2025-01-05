@@ -1,0 +1,41 @@
+<h1 id="wtype">wtype</h1>
+
+<p>Wayland에서 키보드 입력을 시뮬레이트합니다. X11의 <code class="language-plaintext highlighter-rouge">xdotool type</code>과 유사합니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">ydotool</code>.
+더 많은 정보: <a href="https://github.com/atx/wtype">https://github.com/atx/wtype</a>.</p>
+
+<ul>
+  <li>텍스트 입력을 시뮬레이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wtype "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 키 입력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wtype -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Left</span></p>
+
+<ul>
+  <li>수정 키 누르기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wtype -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shift|ctrl|…</span></p>
+
+<ul>
+  <li>수정 키 놓기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wtype -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ctrl</span></p>
+
+<ul>
+  <li>키 입력 간 대기 시간 설정 (밀리초):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wtype -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">500</span><code class="language-plaintext highlighter-rouge"> -- "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">텍스트</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 텍스트 읽기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">텍스트</span><code class="language-plaintext highlighter-rouge">" | wtype -</code></p>

@@ -1,0 +1,34 @@
+<h1 id="expand">expand</h1>
+
+<p>विंडोज कैबिनेट फाइलों को अनकंप्रेस करें।
+अधिक जानकारी: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/expand">https://learn.microsoft.com/windows-server/administration/windows-commands/expand</a>।</p>
+
+<ul>
+  <li>एकल-फाइल कैबिनेट फाइल को निर्दिष्ट निर्देशिका में अनकंप्रेस करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expand </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल.cab/का/पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">निर्देशिका/का/पथ</span></p>
+
+<ul>
+  <li>स्रोत कैबिनेट फाइल में फाइलों की सूची प्रदर्शित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expand </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल.cab/का/पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">निर्देशिका/का/पथ</span><code class="language-plaintext highlighter-rouge"> -d</code></p>
+
+<ul>
+  <li>कैबिनेट फाइल से सभी फाइलों को अनकंप्रेस करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expand </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल.cab/का/पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">निर्देशिका/का/पथ</span><code class="language-plaintext highlighter-rouge"> -f:*</code></p>
+
+<ul>
+  <li>कैबिनेट फाइल से एक विशेष फाइल को अनकंप्रेस करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expand </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल.cab/का/पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">निर्देशिका/का/पथ</span><code class="language-plaintext highlighter-rouge"> -f:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span></p>
+
+<ul>
+  <li>अनकंप्रेस करते समय निर्देशिका संरचना की अनदेखी करें, और उन्हें एकल निर्देशिका में जोड़ें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expand </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल.cab/का/पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">निर्देशिका/का/पथ</span><code class="language-plaintext highlighter-rouge"> -i</code></p>

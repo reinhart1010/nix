@@ -1,0 +1,40 @@
+<h1 id="wol">wol</h1>
+
+<p>Wake-on-LAN 매직 패킷을 보내는 클라이언트.
+더 많은 정보: <a href="https://sourceforge.net/projects/wake-on-lan/">https://sourceforge.net/projects/wake-on-lan/</a>.</p>
+
+<ul>
+  <li>장치에 WoL 패킷 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wol </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MAC_주소</span></p>
+
+<ul>
+  <li>다른 서브넷의 IP를 기반으로 장치에 WoL 패킷 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wol --ipaddr=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP_주소</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MAC_주소</span></p>
+
+<ul>
+  <li>다른 서브넷의 호스트명을 기반으로 장치에 WoL 패킷 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wol --host=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MAC_주소</span></p>
+
+<ul>
+  <li>특정 포트의 호스트에 WoL 패킷 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wol --port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트_번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MAC_주소</span></p>
+
+<ul>
+  <li>[하]드웨어 주소, IP 주소/호스트명, 선택적 포트 및 SecureON 비밀번호를 [f]파일에서 읽기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wol --file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>[v]자세히 출력 켜기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wol --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MAC_주소</span></p>

@@ -1,0 +1,28 @@
+<h1 id="ppmtopjxl">ppmtopjxl</h1>
+
+<p>Convert a PPM image into an HP PaintJet XL PCL file.
+More information: <a href="https://netpbm.sourceforge.net/doc/ppmtopjxl.html">https://netpbm.sourceforge.net/doc/ppmtopjxl.html</a>.</p>
+
+<ul>
+  <li>Convert a PPM image into an PJXL file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtopjxl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pjxl</span></p>
+
+<ul>
+  <li>Resize the input image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtopjxl -xsize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10cm</span><code class="language-plaintext highlighter-rouge"> -ysize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5cm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pjxl</span></p>
+
+<ul>
+  <li>Shift the input image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtopjxl -xshift </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10pt</span><code class="language-plaintext highlighter-rouge"> -yshift </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5pt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pjxl</span></p>
+
+<ul>
+  <li>Do not use the normal TIFF 4.0 compression method:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtopjxl -nopack </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pjxl</span></p>

@@ -1,0 +1,35 @@
+<h1 id="getopts">getopts</h1>
+
+<p>Parse shell options from arguments.
+This command does not support longform options and thus using <code class="language-plaintext highlighter-rouge">getopt</code> is recommended instead.
+More information: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-getopts">https://www.gnu.org/software/bash/manual/bash.html#index-getopts</a>.</p>
+
+<ul>
+  <li>Check if an option is set:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">getopts </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opt</span><code class="language-plaintext highlighter-rouge">; echo $opt</code></p>
+
+<ul>
+  <li>Set an option to require an argument and check said argument:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">getopts </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x</span><code class="language-plaintext highlighter-rouge">: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opt</span><code class="language-plaintext highlighter-rouge">; echo $OPTARG</code></p>
+
+<ul>
+  <li>Check for multiple options:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while getopts </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xyz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opt</span><code class="language-plaintext highlighter-rouge">; do case $opt in x) echo x is set;; y) echo y is set;; z) echo z is set;; esac; done</code></p>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">getopts</code> to silent mode and handle option errors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while getopts :</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x:</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opt</span><code class="language-plaintext highlighter-rouge">; do case $opt in x) ;; :) echo "Argument required";; ?) echo "Invalid argument" esac;; done</code></p>
+
+<ul>
+  <li>Reset <code class="language-plaintext highlighter-rouge">getopts</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">OPTIND=1</code></p>

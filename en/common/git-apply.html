@@ -1,0 +1,41 @@
+<h1 id="git-apply">git apply</h1>
+
+<p>Apply a patch to files and/or to the index without creating a commit.
+See also <code class="language-plaintext highlighter-rouge">git am</code>, which applies a patch and also creates a commit.
+More information: <a href="https://git-scm.com/docs/git-apply">https://git-scm.com/docs/git-apply</a>.</p>
+
+<ul>
+  <li>Print messages about the patched files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Apply and add the patched files to the index:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Apply a remote patch file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/file.patch</span><code class="language-plaintext highlighter-rouge"> | git apply</code></p>
+
+<ul>
+  <li>Output diffstat for the input and apply the patch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --stat --apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Apply the patch in reverse:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --reverse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Store the patch result in the index without modifying the working tree:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --cache </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

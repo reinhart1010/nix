@@ -1,0 +1,34 @@
+<h1 id="glab-repo">glab repo</h1>
+
+<p>Work with GitLab repositories.
+More information: <a href="https://glab.readthedocs.io/en/latest/repo/index.html#synopsis">https://glab.readthedocs.io/en/latest/repo/index.html#synopsis</a>.</p>
+
+<ul>
+  <li>Create a new repository (if the repository name is not set, the default name will be the name of the current directory):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab repo create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Clone a repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab repo clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">owner</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span></p>
+
+<ul>
+  <li>Fork and clone a repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab repo fork </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">owner</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span><code class="language-plaintext highlighter-rouge"> --clone</code></p>
+
+<ul>
+  <li>View a repository in the default web browser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab repo view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">owner</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span><code class="language-plaintext highlighter-rouge"> --web</code></p>
+
+<ul>
+  <li>Search some repositories in the GitLab instance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab repo search -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_string</span></p>

@@ -1,0 +1,35 @@
+<h1 id="zenity">zenity</h1>
+
+<p>Muestra diálogos desde guiones de la línea de comandos.
+Regresa los valores suministrados por el usuario o 1 si hay error.
+Más información: <a href="https://manned.org/zenity">https://manned.org/zenity</a>.</p>
+
+<ul>
+  <li>Muestra el diálogo predeterminado de pregunta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zenity --question</code></p>
+
+<ul>
+  <li>Muestra un diálogo de información que muestra el texto "¡Hola!":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zenity --info --text="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">¡Hola!</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Muestra un formulario  de nombre/contraseña y retorna los datos separados por ";":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zenity --forms --add-entry="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Nombre</span><code class="language-plaintext highlighter-rouge">" --add-password="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Contraseña</span><code class="language-plaintext highlighter-rouge">" --separator="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">;</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Muestra un formulario de selección de archivos en el que el usuario sólo puede seleccionar directorios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zenity --file-selection --directory</code></p>
+
+<ul>
+  <li>Muestra una barra de progreso que actualiza su mensaje cada segundo y muestra un porcentaje de progreso:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">(echo "#1"; sleep 1; echo "50"; echo "#2"; sleep 1; echo "100")</span><code class="language-plaintext highlighter-rouge"> | zenity --progress</code></p>

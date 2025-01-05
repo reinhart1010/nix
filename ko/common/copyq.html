@@ -1,0 +1,46 @@
+<h1 id="copyq">copyq</h1>
+
+<p>고급 기능을 갖춘 클립보드 매니저.
+더 많은 정보: <a href="https://copyq.readthedocs.io/en/latest/command-line.html">https://copyq.readthedocs.io/en/latest/command-line.html</a>.</p>
+
+<ul>
+  <li>copyQ를 시작하여 클립보드 기록 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq</code></p>
+
+<ul>
+  <li>현재 클립보드 내용 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq clipboard</code></p>
+
+<ul>
+  <li>클립보드 기록에 원본 텍스트 삽입:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq add -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">텍스트1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">텍스트2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">텍스트3</span></p>
+
+<ul>
+  <li>이스케이프 시퀀스 ('\n', '\t')가 포함 된 텍스트를 클립보드 기록에 삽입:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">첫째 줄\n둘째 줄</span></p>
+
+<ul>
+  <li>클립보드 기록에서 처음 3개 항목의 내용을 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq read 0 1 2</code></p>
+
+<ul>
+  <li>파일 내용을 클립보드에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq copy &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.txt</span></p>
+
+<ul>
+  <li>JPEG 이미지를 클립보드에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq copy image/jpeg &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지.jpg</span></p>

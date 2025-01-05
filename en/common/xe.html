@@ -1,0 +1,34 @@
+<h1 id="xe">xe</h1>
+
+<p>Execute a command once for each line piped from another command or file.
+More information: <a href="https://github.com/leahneukirchen/xe">https://github.com/leahneukirchen/xe</a>.</p>
+
+<ul>
+  <li>Run a command once for each line of input data as arguments:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments_source</span><code class="language-plaintext highlighter-rouge"> | xe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Execute the commands, replacing any occurrence of the placeholder (marked as <code class="language-plaintext highlighter-rouge">{}</code>) with the input line:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments_source</span><code class="language-plaintext highlighter-rouge"> | xe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> {} </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_extra_arguments</span></p>
+
+<ul>
+  <li>Execute a shellscript, joining every <code class="language-plaintext highlighter-rouge">N</code> lines into a single call:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -e 'a\nb' | xe -N</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> -s 'echo $2 $1'</code></p>
+
+<ul>
+  <li>Delete all files with a <code class="language-plaintext highlighter-rouge">.backup</code> extension:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find . -name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'*.backup'</span><code class="language-plaintext highlighter-rouge"> | xe rm -v</code></p>
+
+<ul>
+  <li>Run up to <code class="language-plaintext highlighter-rouge">max-jobs</code> processes in parallel; the default is 1. If <code class="language-plaintext highlighter-rouge">max-jobs</code> is 0, xe will run as many processes as cpu cores:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments_source</span><code class="language-plaintext highlighter-rouge"> | xe -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max-jobs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>

@@ -1,0 +1,41 @@
+<h1 id="scamper">scamper</h1>
+
+<p>인터넷을 능동적으로 탐색하여 토폴로지와 성능을 분석.
+<code class="language-plaintext highlighter-rouge">sc_</code>로 시작하는 몇 가지 도구를 포함, 예를 들어 <code class="language-plaintext highlighter-rouge">sc_warts2text</code> 또는 <code class="language-plaintext highlighter-rouge">sc_ttlexp</code>.
+더 많은 정보: <a href="https://www.caida.org/catalog/software/scamper/">https://www.caida.org/catalog/software/scamper/</a>.</p>
+
+<ul>
+  <li>목적지에 표준 옵션(트레이서트) 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scamper -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.1</span></p>
+
+<ul>
+  <li>두 가지 작업(핑 및 트레이서트)을 두 개의 다른 대상에 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scamper -I "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ping</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.1</span><code class="language-plaintext highlighter-rouge">" -I "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">trace</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.2</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>여러 호스트에 UDP로 핑, 첫 번째 핑에 특정 포트 번호를 사용하고 각 후속 핑마다 증가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scamper -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ping</span><code class="language-plaintext highlighter-rouge"> -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UDP-목적지_포트</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">33434</span><code class="language-plaintext highlighter-rouge">" -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.1</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.2</span></p>
+
+<ul>
+  <li>다중 경로 발견 알고리즘(MDA)을 사용하여 목적지로의 로드 밸런싱 경로 존재 여부를 결정하고 ICMP 에코 패킷을 사용하여 최대 세 번 시도하여 샘플링한 결과를 <code class="language-plaintext highlighter-rouge">warts</code> 파일에 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scamper -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">warts</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.warts</span><code class="language-plaintext highlighter-rouge"> -I "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracelb</span><code class="language-plaintext highlighter-rouge"> -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ICMP-echo</span><code class="language-plaintext highlighter-rouge"> -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.1</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>목적지에 ICMP로 파리 트레이서트 실행하고 결과를 압축된 <code class="language-plaintext highlighter-rouge">warts</code> 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scamper -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">warts.gz</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.warts</span><code class="language-plaintext highlighter-rouge"> -I "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">trace</span><code class="language-plaintext highlighter-rouge"> -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">icmp-paris</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2001:db8:dead:beaf::4</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 IP 주소에 도착하는 모든 ICMP 패킷과 특정 ICMP ID를 <code class="language-plaintext highlighter-rouge">warts</code> 파일에 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scamper -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">warts</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.warts</span><code class="language-plaintext highlighter-rouge"> -I "sniff -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2001:db8:dead:beef::6</span><code class="language-plaintext highlighter-rouge"> icmp[icmpid] == </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">101</span><code class="language-plaintext highlighter-rouge">"</code></p>

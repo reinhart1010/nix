@@ -1,0 +1,28 @@
+<h1 id="ttyplot">ttyplot</h1>
+
+<p>A realtime plotting utility for the command-line with data input from <code class="language-plaintext highlighter-rouge">stdin</code>.
+More information: <a href="https://github.com/tenox7/ttyplot">https://github.com/tenox7/ttyplot</a>.</p>
+
+<ul>
+  <li>Plot the values <code class="language-plaintext highlighter-rouge">1</code>, <code class="language-plaintext highlighter-rouge">2</code> and <code class="language-plaintext highlighter-rouge">3</code> (<code class="language-plaintext highlighter-rouge">cat</code> prevents ttyplot to exit):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">{ echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1 2 3</span><code class="language-plaintext highlighter-rouge">; cat } | ttyplot</code></p>
+
+<ul>
+  <li>Set a specific title and unit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">{ echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1 2 3</span><code class="language-plaintext highlighter-rouge">; cat } | ttyplot -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">title</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unit</span></p>
+
+<ul>
+  <li>Use a while loop to continuously plot random values:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">{ while </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span><code class="language-plaintext highlighter-rouge">; do echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$RANDOM</span><code class="language-plaintext highlighter-rouge">; sleep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge">; done } | ttyplot</code></p>
+
+<ul>
+  <li>Parse the output from <code class="language-plaintext highlighter-rouge">ping</code> and visualize it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span><code class="language-plaintext highlighter-rouge"> | sed -u '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s/^.*time=//g; s/ ms//g</span><code class="language-plaintext highlighter-rouge">' | ttyplot -t "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ping to 8.8.8.8</span><code class="language-plaintext highlighter-rouge">" -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ms</span></p>

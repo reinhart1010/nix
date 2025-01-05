@@ -1,0 +1,29 @@
+<h1 id="netperf">netperf</h1>
+
+<p>네트워크 처리량을 측정하는 벤치마킹 애플리케이션 <code class="language-plaintext highlighter-rouge">netperf</code>의 클라이언트 측 명령어. <code class="language-plaintext highlighter-rouge">iperf</code>와 유사합니다.
+같이 보기: 서버 측 명령어 <code class="language-plaintext highlighter-rouge">netserver</code>.
+더 많은 정보: <a href="https://hewlettpackard.github.io/netperf/doc/netperf.html#Global-Command_002dline-Options">https://hewlettpackard.github.io/netperf/doc/netperf.html#Global-Command_002dline-Options</a>.</p>
+
+<ul>
+  <li>기본 포트(12865)를 통해 특정 IP 주소의 서버에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netperf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주소</span></p>
+
+<ul>
+  <li>[p]ort 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netperf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주소</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span></p>
+
+<ul>
+  <li>샘플링 [l]ength를 초 단위로 지정 (기본값은 10초):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netperf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주소</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">초</span></p>
+
+<ul>
+  <li>IPv[4] 또는 IPv[6] 강제 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netperf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주소</span><code class="language-plaintext highlighter-rouge"> -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4|6</span></p>

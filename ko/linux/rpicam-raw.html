@@ -1,0 +1,16 @@
+<h1 id="rpicam-raw">rpicam-raw</h1>
+
+<p>Raspberry Pi 카메라에서 raw 비디오를 캡처합니다.
+더 많은 정보: <a href="https://www.raspberrypi.com/documentation/computers/camera_software.html#rpicam-raw">https://www.raspberrypi.com/documentation/computers/camera_software.html#rpicam-raw</a>.</p>
+
+<ul>
+  <li>특정 초 동안 비디오 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpicam-raw -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2000</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.raw</span></p>
+
+<ul>
+  <li>비디오 크기 및 프레임 속도 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpicam-raw -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5000</span><code class="language-plaintext highlighter-rouge"> --width </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4056</span><code class="language-plaintext highlighter-rouge"> --height </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3040</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.raw</span><code class="language-plaintext highlighter-rouge"> --framerate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span></p>

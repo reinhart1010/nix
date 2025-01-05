@@ -1,0 +1,40 @@
+<h1 id="for">for</h1>
+
+<p>Perform a command several times.
+More information: <a href="https://www.gnu.org/software/bash/manual/bash.html#Looping-Constructs">https://www.gnu.org/software/bash/manual/bash.html#Looping-Constructs</a>.</p>
+
+<ul>
+  <li>Iterate through command line arguments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo $variable</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li>Execute the given commands for each of the specified items:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">item1 item2 …</span><code class="language-plaintext highlighter-rouge">; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "Loop is executed"</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li>Iterate over a given range of numbers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{from</span><code class="language-plaintext highlighter-rouge">..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to</span><code class="language-plaintext highlighter-rouge">..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">step}</span><code class="language-plaintext highlighter-rouge">; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "Loop is executed"</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li>Iterate over a given list of files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span><code class="language-plaintext highlighter-rouge">; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "Loop is executed"</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li>Iterate over a given list of directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1/ path/to/directory2/ …</span><code class="language-plaintext highlighter-rouge">; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "Loop is executed"</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li>Perform a given command in every directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge"> in */; do (cd "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">" || continue; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "Loop is executed"</span><code class="language-plaintext highlighter-rouge">) done</code></p>

@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="journalctl">journalctl</h1>
+
+<p>Запити до журналу systemd.
+Більше інформації: <a href="https://manned.org/journalctl">https://manned.org/journalctl</a>.</p>
+
+<ul>
+  <li>Показати всі повідомлення з рівнем пріоритету 3 (помилки) від цього завантаження ([b]oot):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl -b --priority=3</code></p>
+
+<ul>
+  <li>Видалити записи журналу, які старіші за 2 дні:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl --vacuum-time=2d</code></p>
+
+<ul>
+  <li>Слідкувати за новими повідомленнями (як <code class="language-plaintext highlighter-rouge">tail -f</code> для традиційного syslog):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl --follow</code></p>
+
+<ul>
+  <li>Показати всі повідомлення за конкретним блоком ([u]nit):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl --unit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">блок</span></p>
+
+<ul>
+  <li>Фільтрувати повідомлення в межах діапазону часу (мітка часу або покажчики місця заповнення, як-от «вчора»):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl --since </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">now|today|yesterday|tomorrow</span><code class="language-plaintext highlighter-rouge"> --until "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD HH:MM:SS</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Показати всі повідомлення за певним процесом:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl _PID=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Показати всі повідомлення за певним виконуваним файлом:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/виконуваного_файлу</span></p>

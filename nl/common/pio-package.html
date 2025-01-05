@@ -1,0 +1,53 @@
+<h1 id="pio-package">pio package</h1>
+
+<p>Beheer pakketten in het register.
+Pakketten kunnen alleen verwijderd worden binnen 72 uur (3 dagen) vanaf de datum dat ze gepubliceerd zijn.
+Meer informatie: <a href="https://docs.platformio.org/en/latest/core/userguide/package/">https://docs.platformio.org/en/latest/core/userguide/package/</a>.</p>
+
+<ul>
+  <li>Maak een pakket tarball van de huidige map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio package pack --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pakket.tar.gz</span></p>
+
+<ul>
+  <li>Maak en publiceer een pakket tarball van de huidige map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio package publish</code></p>
+
+<ul>
+  <li>Publiceer de huidige map en beperk de publieke toegang:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio package publish --private</code></p>
+
+<ul>
+  <li>Publiceer een pakket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio package publish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pakket.tar.gz</span></p>
+
+<ul>
+  <li>Publiceer een pakket met een aangepaste release datum (UTC):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio package publish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pakket.tar.gz</span><code class="language-plaintext highlighter-rouge"> --released-at "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2021-04-08 21:15:38</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Verwijder alle versies van een gepubliceerd pakket van het register:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio package unpublish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span></p>
+
+<ul>
+  <li>Verwijder een specifieke versie van een gepubliceerd pakket van het register:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio package unpublish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Maak de verwijdering ongedaan en zet alle versies of een specifieke versie van het pakket terug in het register:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio package unpublish --undo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>

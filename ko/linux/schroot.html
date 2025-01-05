@@ -1,0 +1,52 @@
+<h1 id="schroot">schroot</h1>
+
+<p>다른 루트 디렉터리로 명령을 실행하거나 대화형 셸을 시작합니다. <code class="language-plaintext highlighter-rouge">chroot</code>보다 더 커스터마이즈 가능합니다.
+더 많은 정보: <a href="https://wiki.debian.org/Schroot">https://wiki.debian.org/Schroot</a>.</p>
+
+<ul>
+  <li>사용 가능한 chroot 목록 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">schroot --list</code></p>
+
+<ul>
+  <li>특정 chroot에서 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">schroot --chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chroot</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span></p>
+
+<ul>
+  <li>특정 chroot에서 옵션과 함께 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">schroot --chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chroot</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령_옵션</span></p>
+
+<ul>
+  <li>모든 사용 가능한 chroot에서 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">schroot --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span></p>
+
+<ul>
+  <li>특정 사용자로 특정 chroot 내에서 대화형 셸 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">schroot --chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chroot</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span></p>
+
+<ul>
+  <li>새 세션 시작 (고유한 세션 ID가 <code class="language-plaintext highlighter-rouge">stdout</code>에 반환됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">schroot --begin-session --chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chroot</span></p>
+
+<ul>
+  <li>기존 세션에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">schroot --run-session --chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">세션_ID</span></p>
+
+<ul>
+  <li>기존 세션 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">schroot --end-session --chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">세션_ID</span></p>

@@ -1,0 +1,34 @@
+<h1 id="doas">doas</h1>
+
+<p>Executes a command as another user.
+More information: <a href="https://man.openbsd.org/doas">https://man.openbsd.org/doas</a>.</p>
+
+<ul>
+  <li>Run a command as root:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Run a command as another user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Launch the default shell as root:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas -s</code></p>
+
+<ul>
+  <li>Parse a configuration file and check if the execution of a command as another user is allowed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Make <code class="language-plaintext highlighter-rouge">doas</code> request a password even after it was supplied earlier:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas -L</code></p>

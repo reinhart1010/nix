@@ -1,0 +1,16 @@
+<h1 id="xdg-user-dirs-update">xdg-user-dirs-update</h1>
+
+<p>XDG 사용자 디렉터리 업데이트.
+더 많은 정보: <a href="https://manned.org/xdg-user-dirs-update">https://manned.org/xdg-user-dirs-update</a>.</p>
+
+<ul>
+  <li>XDG의 DESKTOP 디렉터리를 지정한 디렉터리로 변경 (절대 경로여야 함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdg-user-dirs-update --set DESKTOP "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>결과를 <code class="language-plaintext highlighter-rouge">user-dirs.dirs</code> 파일 대신 지정한 실행 파일에 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdg-user-dirs-update --dummy-output "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/실행_파일</span><code class="language-plaintext highlighter-rouge">" --set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xdg_사용자_디렉터리</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge">"</code></p>

@@ -1,0 +1,28 @@
+<h1 id="git-checkout-index">git checkout-index</h1>
+
+<p>Salin file dari indeks menuju direktori kerja saat ini.
+Informasi lebih lanjut: <a href="https://git-scm.com/docs/git-checkout-index">https://git-scm.com/docs/git-checkout-index</a>.</p>
+
+<ul>
+  <li>Pulihkan berkas-berkas yang terhapus sejak komit terakhir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout-index --all</code></p>
+
+<ul>
+  <li>Pulihkan berkas-berkas yang terhapus atau termodifikasi sejak komit terakhir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout-index --all --force</code></p>
+
+<ul>
+  <li>Pulihkan berkas-berkas yang diubah sejak komit terakhir, mengabaikan berkas-berkas yang telah dihapus sebelumnya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout-index --all --force --no-create</code></p>
+
+<ul>
+  <li>Ekspor sebuah salinan pohon (tree) pada komit terakhir kepada suatu direktori (nama direktori pada <code class="language-plaintext highlighter-rouge">--prefix</code> perlu diakhiri dengan garis miring):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout-index --all --force --prefix=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_ekspor/</span></p>

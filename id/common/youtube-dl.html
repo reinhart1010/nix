@@ -1,0 +1,52 @@
+<h1 id="youtube-dl">youtube-dl</h1>
+
+<p>Unduh video dari YouTube dan situs web lain.
+Informasi lebih lanjut: <a href="https://rg3.github.io/youtube-dl/">https://rg3.github.io/youtube-dl/</a>.</p>
+
+<ul>
+  <li>Mengunduh sebuah video atau daftar putar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">youtube-dl '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Tampilkan daftar format yang tersedia untuk video atau daftar putar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">youtube-dl --list-formats '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=Mwa0_nE9H7A</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Mengunduh video atau daftar putar dengan kualitas tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">youtube-dl --format "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">best[height&lt;=480]</span><code class="language-plaintext highlighter-rouge">" '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Mengunduh audio dari video dan ubah menjadi MP3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">youtube-dl -x --audio-format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mp3</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Mengunduh video dan audio dengan kualitas terbaik lalu gabungkan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">youtube-dl -f bestvideo+bestaudio '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Mengunduh satu atau beberapa video sebagai file MP4 dengan nama tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">youtube-dl --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mp4</span><code class="language-plaintext highlighter-rouge"> -o "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%(playlist_index)s-%(title)s oleh %(uploader)s pada %(upload_date)s di dalam %(playlist)s.%(ext)s</span><code class="language-plaintext highlighter-rouge">" '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Mengunduh video bersama dengan subtitle bahasa tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">youtube-dl --sub-lang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">en</span><code class="language-plaintext highlighter-rouge"> --write-sub '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=Mwa0_nE9H7A</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Mengunduh daftar putar dan ekstrak MP3 darinya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">youtube-dl -f "bestaudio" --continue --no-overwrites --ignore-errors --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_to_playlist</span><code class="language-plaintext highlighter-rouge">'</code></p>

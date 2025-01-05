@@ -1,0 +1,28 @@
+<h1 id="amass-db">amass db</h1>
+
+<p>Intéragie avec une base de données Amass.
+Plus d'informations : <a href="https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-db-subcommand">https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-db-subcommand</a>.</p>
+
+<ul>
+  <li>Liste toutes les énumérations performées pas la base de données :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass db -dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier_de_la_base_de_données</span><code class="language-plaintext highlighter-rouge"> -list</code></p>
+
+<ul>
+  <li>Affiche les résultats pour un index d'énumération et un nom de domaine spécifiés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass db -dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier_de_la_base_de_données</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_domaine</span><code class="language-plaintext highlighter-rouge"> -enum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">index_depuis_la liste</span><code class="language-plaintext highlighter-rouge"> -show</code></p>
+
+<ul>
+  <li>Liste tous les sous-domaines trouvés pour un domaine inclus dans une énumération :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass db -dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier_de_la_base_de_données</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_domaine</span><code class="language-plaintext highlighter-rouge"> -enum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">index_depuis_la liste</span><code class="language-plaintext highlighter-rouge"> -names</code></p>
+
+<ul>
+  <li>Affiche un sommaire des sous-domaines inclus dans une énumération :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass db -dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier_de_la_base_de_données</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_domaine</span><code class="language-plaintext highlighter-rouge"> -enum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">index_depuis_la liste</span><code class="language-plaintext highlighter-rouge"> -summary</code></p>

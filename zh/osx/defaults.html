@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="defaults">defaults</h1>
+
+<p>读取和写入 macOS 应用程序的用户配置。
+更多信息：<a href="https://keith.github.io/xcode-man-pages/defaults.1.html">https://keith.github.io/xcode-man-pages/defaults.1.html</a>.</p>
+
+<ul>
+  <li>读取应用程序选项的系统默认值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">defaults read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">应用名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">选项</span></p>
+
+<ul>
+  <li>读取应用程序选项的默认值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">defaults read -app </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">应用名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">选项</span></p>
+
+<ul>
+  <li>写入应用程序选项的默认值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">defaults write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">应用名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">选项</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">- 类型</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">值</span></p>
+
+<ul>
+  <li>加速任务控制界面弹出动画（时间设置为 0.1）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">defaults write com.apple.Dock expose-animation-duration -float 0.1</code></p>
+
+<ul>
+  <li>删除应用程序的所有默认值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">defaults delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">应用名</span></p>

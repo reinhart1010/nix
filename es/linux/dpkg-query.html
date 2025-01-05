@@ -1,0 +1,34 @@
+<h1 id="dpkg-query">dpkg-query</h1>
+
+<p>Muestra información sobre paquetes instalados.
+Más información: <a href="https://manned.org/dpkg-query.1">https://manned.org/dpkg-query.1</a>.</p>
+
+<ul>
+  <li>Lista todos los paquetes instalados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-query --list</code></p>
+
+<ul>
+  <li>Lista de paquetes instalados que coinciden con un patrón:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-query --list '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">libc6*</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Lista todos los archivos instalados por un paquete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-query --listfiles </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">libc6</span></p>
+
+<ul>
+  <li>Muestra información sobre un paquete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-query --status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">libc6</span></p>
+
+<ul>
+  <li>Busca paquetes que tengan archivos que coincidan con un patrón:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-query --search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/etc/ld.so.conf.d</span></p>

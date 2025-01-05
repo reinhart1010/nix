@@ -1,0 +1,28 @@
+<h1 id="znew">znew</h1>
+
+<p>Recompress files from <code class="language-plaintext highlighter-rouge">.Z</code> to gzip format.
+More information: <a href="https://manned.org/znew">https://manned.org/znew</a>.</p>
+
+<ul>
+  <li>Recompress a file from <code class="language-plaintext highlighter-rouge">.Z</code> to gzip format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">znew </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.Z</span></p>
+
+<ul>
+  <li>Recompress multiple files and display the achieved size reduction % per file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">znew -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.Z path/to/file2.Z …</span></p>
+
+<ul>
+  <li>Recompress a file using the slowest compression method (for optimal compression):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">znew -9 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.Z</span></p>
+
+<ul>
+  <li>Recompress a file, [K]eeping the <code class="language-plaintext highlighter-rouge">.Z</code> file if it is smaller than the gzip file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">znew -K </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.Z</span></p>

@@ -1,0 +1,47 @@
+<h1 id="mysqlsh">mysqlsh</h1>
+
+<p>SQL, JavaScript, Python을 지원하는 MySQL의 고급 명령줄 클라이언트.
+InnoDB 클러스터 및 문서 저장소 컬렉션 관리를 위한 기능 제공.
+더 많은 정보: <a href="https://dev.mysql.com/doc/mysql-shell/8.0/en/mysql-shell-commands.html">https://dev.mysql.com/doc/mysql-shell/8.0/en/mysql-shell-commands.html</a>.</p>
+
+<ul>
+  <li>대화형 모드로 MySQL Shell 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlsh</code></p>
+
+<ul>
+  <li>MySQL 서버에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlsh --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_명</span><code class="language-plaintext highlighter-rouge"> --host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트_명</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span></p>
+
+<ul>
+  <li>서버에서 SQL 문을 실행하고 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlsh --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_명</span><code class="language-plaintext highlighter-rouge"> --execute '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sql_문</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>JavaScript 모드로 MySQL Shell 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlsh --js</code></p>
+
+<ul>
+  <li>Python 모드로 MySQL Shell 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlsh --py</code></p>
+
+<ul>
+  <li>JSON 문서를 MySQL 컬렉션에 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlsh --import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.json</span><code class="language-plaintext highlighter-rouge"> --schema </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스키마_명</span><code class="language-plaintext highlighter-rouge"> --collection </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컬렉션_명</span></p>
+
+<ul>
+  <li>상세 출력 활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlsh --verbose</code></p>

@@ -1,0 +1,22 @@
+<h1 id="chattr">chattr</h1>
+
+<p>파일 또는 디렉토리의 속성 변경.
+더 많은 정보: <a href="https://manned.org/chattr">https://manned.org/chattr</a>.</p>
+
+<ul>
+  <li>파일 또는 디렉토리를 변경 및 삭제 불가능하도록 설정 (슈퍼유저도 포함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chattr +i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>
+
+<ul>
+  <li>파일 또는 디렉토리를 변경 가능하도록 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chattr -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>
+
+<ul>
+  <li>전체 디렉토리와 그 내용을 재귀적으로 변경 및 삭제 불가능하도록 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chattr -R +i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>

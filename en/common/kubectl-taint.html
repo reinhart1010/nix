@@ -1,0 +1,22 @@
+<h1 id="kubectl-taint">kubectl taint</h1>
+
+<p>Update the taints on nodes.
+More information: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#taint">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#taint</a>.</p>
+
+<ul>
+  <li>Apply taint to a node:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl taint nodes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">label_key</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">label_value</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">effect</span></p>
+
+<ul>
+  <li>Remove taint from a node:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl taint nodes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">label_key</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">effect</span><code class="language-plaintext highlighter-rouge">-</code></p>
+
+<ul>
+  <li>Remove all taints from a node:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl taint nodes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">label_key</span><code class="language-plaintext highlighter-rouge">-</code></p>

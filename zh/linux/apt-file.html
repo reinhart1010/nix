@@ -1,0 +1,28 @@
+<h1 id="apt-file">apt-file</h1>
+
+<p>在 APT 软件包中查找文件，其中也包括未安装的软件。
+更多信息：<a href="https://manned.org/apt-file.1">https://manned.org/apt-file.1</a>.</p>
+
+<ul>
+  <li>更新元数据的数据库：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>查找包含指定文件或路径的软件包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search|find</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径</span></p>
+
+<ul>
+  <li>列出指定包的内容：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">show|list</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">软件包名</span></p>
+
+<ul>
+  <li>查找符合给定 <code class="language-plaintext highlighter-rouge">pattern</code> 中正则表达式的软件包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search|find</span><code class="language-plaintext highlighter-rouge"> --regexp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">正则表达式</span></p>

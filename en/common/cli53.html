@@ -1,0 +1,52 @@
+<h1 id="cli53">cli53</h1>
+
+<p>Command line tool for Amazon Route 53.
+More information: <a href="https://github.com/barnybug/cli53">https://github.com/barnybug/cli53</a>.</p>
+
+<ul>
+  <li>List domains:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cli53 list</code></p>
+
+<ul>
+  <li>Create a domain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cli53 create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mydomain.com</span><code class="language-plaintext highlighter-rouge"> --comment "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comment</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Export a bind zone file to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cli53 export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mydomain.com</span></p>
+
+<ul>
+  <li>Create a <code class="language-plaintext highlighter-rouge">www</code> subdomain pointing to a relative record in the same zone:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cli53 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rc|rrcreate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mydomain.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'www 300 CNAME lb'</span></p>
+
+<ul>
+  <li>Create a <code class="language-plaintext highlighter-rouge">www</code> subdomain pointing to an external address (must end with a dot):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cli53 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rc|rrcreate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mydomain.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'www 300 CNAME lb.externalhost.com.'</span></p>
+
+<ul>
+  <li>Create a <code class="language-plaintext highlighter-rouge">www</code> subdomain pointing to an IP address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cli53 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rc|rrcreate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mydomain.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'www 300 A 150.130.110.1'</span></p>
+
+<ul>
+  <li>Replace a <code class="language-plaintext highlighter-rouge">www</code> subdomain pointing to a different IP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cli53 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rc|rrcreate</span><code class="language-plaintext highlighter-rouge"> --replace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'www 300 A 150.130.110.2'</span></p>
+
+<ul>
+  <li>Delete a record A:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cli53 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rd|rrdelete</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mydomain.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">www</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A</span></p>

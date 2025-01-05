@@ -1,0 +1,52 @@
+<h1 id="aws-workmail">aws workmail</h1>
+
+<p>Amazon WorkMail을 관리.
+더 많은 정보: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/workmail/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/workmail/index.html</a>.</p>
+
+<ul>
+  <li>모든 WorkMail 조직을 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws workmail list-organizations</code></p>
+
+<ul>
+  <li>특정 조직의 모든 사용자를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws workmail list-users --organization-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조직_아이디</span></p>
+
+<ul>
+  <li>특정 조직에서 WorkMail 사용자를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws workmail create-user --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> --display-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> --organization-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조직_아이디</span></p>
+
+<ul>
+  <li>그룹/사용자를 WorkMail에 등록하고 활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws workmail register-to-work-mail --entity-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">엔티티_아이디</span><code class="language-plaintext highlighter-rouge"> --email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이메일</span><code class="language-plaintext highlighter-rouge"> --organization-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조직_아이디</span></p>
+
+<ul>
+  <li>특정 조직에 WorkMail 그룹을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws workmail create-group --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹_이름</span><code class="language-plaintext highlighter-rouge"> --organization-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조직_아이디</span></p>
+
+<ul>
+  <li>특정 그룹에 구성원을 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws workmail associate-member-to-group --group-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹_아이디</span><code class="language-plaintext highlighter-rouge"> --member-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">멤버_아이디</span><code class="language-plaintext highlighter-rouge"> --organization-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조직_아이디</span></p>
+
+<ul>
+  <li>WorkMail에서 사용자/그룹 등록을 취소하고 비활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws workmail deregister-from-work-mail --entity-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">엔티티_아이디</span><code class="language-plaintext highlighter-rouge"> --organization-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조직_아이디</span></p>
+
+<ul>
+  <li>조직에서 사용자 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws workmail delete-user --user-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_아이디</span><code class="language-plaintext highlighter-rouge"> --organization-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조직_아이디</span></p>

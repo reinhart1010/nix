@@ -1,0 +1,53 @@
+<h1 id="npm">npm</h1>
+
+<p>JavaScript en Node.js pakketbeheer.
+Beheer Node.js-projecten en hun module-afhankelijkheden.
+Meer informatie: <a href="https://www.npmjs.com">https://www.npmjs.com</a>.</p>
+
+<ul>
+  <li>Maak een <code class="language-plaintext highlighter-rouge">package.json</code>-bestand met standaardwaarden (laat –yes weg om dit interactief te doen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-y|–yes</span></p>
+
+<ul>
+  <li>Download alle pakketten die zijn vermeld als afhankelijkheden in <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm install</code></p>
+
+<ul>
+  <li>Download een specifieke versie van een pakket en voeg het toe aan de lijst van afhankelijkheden in <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket_naam</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versie</span></p>
+
+<ul>
+  <li>Download de nieuwste versie van een pakket en voeg het toe aan de lijst van dev-afhankelijkheden in <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket_naam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-D|–save-dev</span></p>
+
+<ul>
+  <li>Download de nieuwste versie van een pakket en installeer het globaal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–global</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket_naam</span></p>
+
+<ul>
+  <li>Verwijder een pakket en haal het uit de lijst van afhankelijkheden in <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm uninstall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket_naam</span></p>
+
+<ul>
+  <li>Toon alle lokaal geïnstalleerde afhankelijkheden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm list</code></p>
+
+<ul>
+  <li>Toon alle top-level globaal geïnstalleerde pakketten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–global</span><code class="language-plaintext highlighter-rouge"> --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span></p>

@@ -1,0 +1,34 @@
+<h1 id="greater-than">Greater than</h1>
+
+<p>Redirect output to a file.
+More information: <a href="https://gnu.org/software/bash/manual/bash.html#Redirecting-Output">https://gnu.org/software/bash/manual/bash.html#Redirecting-Output</a>.</p>
+
+<ul>
+  <li>Redirect <code class="language-plaintext highlighter-rouge">stdout</code> to a file:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Append to a file:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> &gt;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Redirect both <code class="language-plaintext highlighter-rouge">stdout</code> and <code class="language-plaintext highlighter-rouge">stderr</code> to a file:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> &amp;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Redirect <code class="language-plaintext highlighter-rouge">stderr</code> to <code class="language-plaintext highlighter-rouge">/dev/null</code> to keep the terminal output clean:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> 2&gt; /dev/null</code></p>
+
+<ul>
+  <li>Clear the file contents or create a new empty file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

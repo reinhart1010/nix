@@ -1,0 +1,28 @@
+<h1 id="einfo">einfo</h1>
+
+<p>Provides the number of records indexed in each database field, the last update date of the database, and the available links from the database to other Entrez databases.
+More information: <a href="https://www.ncbi.nlm.nih.gov/books/NBK179288/">https://www.ncbi.nlm.nih.gov/books/NBK179288/</a>.</p>
+
+<ul>
+  <li>Print all database names:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">einfo -dbs</code></p>
+
+<ul>
+  <li>Print all information of the protein database in XML format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">einfo -db </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protein</span></p>
+
+<ul>
+  <li>Print all fields of the nuccore database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">einfo -db </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuccore</span><code class="language-plaintext highlighter-rouge"> -fields</code></p>
+
+<ul>
+  <li>Print all links of the protein database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">einfo -db </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protein</span><code class="language-plaintext highlighter-rouge"> -links</code></p>

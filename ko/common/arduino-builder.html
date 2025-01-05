@@ -1,0 +1,35 @@
+<h1 id="arduino-builder">arduino-builder</h1>
+
+<p>아두이노 스케치 컴파일.
+사용 중단 경고: 이 도구는 <code class="language-plaintext highlighter-rouge">arduino</code>로 인해 단계적으로 중단.
+더 많은 정보: <a href="https://github.com/arduino/arduino-builder">https://github.com/arduino/arduino-builder</a>.</p>
+
+<ul>
+  <li>스케치를 작성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -compile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/sketch.ino</span></p>
+
+<ul>
+  <li>디버그 수준 지정 (기본값: 5):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -debug-level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1..10</span></p>
+
+<ul>
+  <li>사용자 정의 빌드 디렉토리 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -build-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/빌드_디렉터리</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">-hardware</code>, <code class="language-plaintext highlighter-rouge">-tools</code> 등을 매번 수동으로 지정하는 대신, 빌드 옵션 파일을 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -build-options-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/build.options.json</span></p>
+
+<ul>
+  <li>상세 모드 활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span></p>
