@@ -3,7 +3,7 @@ layout: page
 title: common/read (中文)
 description: "从标准输入（或文件）读取一行并将单词分配给变量。"
 content_hash: 98487e7501efe0033043668d8735cc627cb2e161
-last_modified_at: 2025-01-04
+last_modified_at: 2025-01-05
 related_topics:
   - title: English version
     url: /en/common/read.html
@@ -17,18 +17,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/read.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/read.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># read
+# read
 
 从标准输入（或文件）读取一行并将单词分配给变量。
 更多信息：<https://manned.org/read.1p>.

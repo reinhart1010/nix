@@ -1,12 +1,12 @@
 ---
 layout: page
-title: common/fc-list (English)
-description: "List available fonts installed on the system."
-content_hash: 01926c407cf1f3ba5de455d215747a54b49fc879
+title: common/fc-list (español)
+description: "Lista las fuentes disponibles instaladas en el sistema."
+content_hash: aeee7a295f09eefc2869675c1e229421a8f83d68
 last_modified_at: 2025-01-05
 related_topics:
-  - title: español version
-    url: /es/common/fc-list.html
+  - title: English version
+    url: /en/common/fc-list.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/fc-list.html
@@ -21,25 +21,25 @@ tldri18n_status: 2
 ---
 # fc-list
 
-List available fonts installed on the system.
-More information: <https://manned.org/fc-list>.
+Lista las fuentes disponibles instaladas en el sistema.
+Más información: <https://manned.org/fc-list>.
 
-- Return a list of installed fonts in your system:
+- Devuelve una lista de las fuentes instaladas en su sistema:
 
 `fc-list`
 
-- Return a list of installed fonts with given name:
+- Devuelve una lista de las fuentes instaladas con el nombre dado:
 
 `fc-list | grep '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">DejaVu Serif</span>`'`
 
-- Return the number of installed fonts in your system:
+- Devuelve el número de fuentes instaladas con el nombre dado:
 
 `fc-list | wc -l`
 
-- Return a list of installed fonts that support the language based on its locale code:
+- Devuelve una lista de las fuentes instaladas que soportan el idioma basado en su código de idioma:
 
 `fc-list :lang=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jp</span>
 
-- Return a list of installed fonts that contain the glyph specified by its Unicode code-point:
+- Devuelve una lista de las fuentes instaladas que contienen el glifo especificado por su código Unicode:
 
 `fc-list :charset=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f303</span>

@@ -3,7 +3,7 @@ layout: page
 title: common/case (한국어)
 description: "표현식의 값에 근거하여 분기."
 content_hash: a2c7952b60cfe9200652ce0b3469c3d38bc9c370
-last_modified_at: 2023-11-12
+last_modified_at: 2025-01-05
 related_topics:
   - title: English version
     url: /en/common/case.html
@@ -11,12 +11,18 @@ related_topics:
   - title: italiano version
     url: /it/common/case.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/case.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/case.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# case
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># case
 
 표현식의 값에 근거하여 분기.
 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-case>.

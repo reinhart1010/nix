@@ -2,8 +2,15 @@
 layout: page
 title: common/if (English)
 description: "Performs conditional processing in shell scripts."
-content_hash: 0a5b2e6a1886d84490b7b9bb332335e11d298fc5
-last_modified_at: 2023-11-12
+content_hash: e4f847254526312f75f8e10ca26206cc2edb2a67
+last_modified_at: 2025-01-05
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/if.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/if.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # if
@@ -42,4 +49,4 @@ More information: <https://www.gnu.org/software/bash/manual/bash.html#Conditiona
 
 - List all possible conditions (`test` is an alias to `[`; both are commonly used with `if`):
 
-`man [`
+`man test`

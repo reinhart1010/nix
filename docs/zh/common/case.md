@@ -3,7 +3,7 @@ layout: page
 title: common/case (中文)
 description: "case ... esac 与其他语言中的 switch ... case 语句类似，是一种多分枝选择结构。"
 content_hash: e9f431cec9c18b9a68283fc70a897eb43477b5c0
-last_modified_at: 2024-01-01
+last_modified_at: 2025-01-05
 related_topics:
   - title: English version
     url: /en/common/case.html
@@ -17,9 +17,12 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/case.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# case
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># case
 
 case ... esac 与其他语言中的 switch ... case 语句类似，是一种多分枝选择结构。
 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-case>.

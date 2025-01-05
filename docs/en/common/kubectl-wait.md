@@ -3,19 +3,10 @@ layout: page
 title: common/kubectl-wait (English)
 description: "Wait for resource(s) to reach a certain state."
 content_hash: d8b6971f3f67b7f1572e0c431a736eac8679a1af
-last_modified_at: 2025-01-04
-tldri18n_status: 0
+last_modified_at: 2025-01-05
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/kubectl-wait.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kubectl wait
+# kubectl wait
 
 Wait for resource(s) to reach a certain state.
 More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#wait>.

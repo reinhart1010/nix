@@ -3,10 +3,13 @@ layout: page
 title: common/fc-list (português (Brasil))
 description: "Exibe todas as fontes disponíveis no sistema."
 content_hash: bc328ddd06bb7a9bd3863440297ef70caa8b4d06
-last_modified_at: 2024-11-18
+last_modified_at: 2025-01-05
 related_topics:
   - title: English version
     url: /en/common/fc-list.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/fc-list.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/fc-list.html
@@ -14,9 +17,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/fc-list.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# fc-list
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># fc-list
 
 Exibe todas as fontes disponíveis no sistema.
 Mais informações: <https://manned.org/fc-list>.
