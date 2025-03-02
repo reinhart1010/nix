@@ -2,8 +2,8 @@
 layout: page
 title: common/alacritty (English)
 description: "Cross-platform, GPU-accelerated terminal emulator."
-content_hash: fbaa84b576ae3e75931a3ec2c7152a435b459ddd
-last_modified_at: 2024-05-18
+content_hash: 92889d40e0c528a44a91bdd04829aa76b91c89e8
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -42,15 +42,23 @@ tldri18n_status: 2
 Cross-platform, GPU-accelerated terminal emulator.
 More information: <https://github.com/alacritty/alacritty>.
 
-- Open a new Alacritty window:
+- Start a new Alacritty process and create a window:
 
 `alacritty`
 
-- Run in a specific directory:
+- Start the Alacritty daemon (without creating a window):
+
+`alacritty --daemon`
+
+- Create a new window using the already running Alacritty process:
+
+`alacritty msg create-window`
+
+- Start the shell in a specific directory (also works with `alacritty msg create-window`):
 
 `alacritty --working-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- [e]xecute a command in a new Alacritty window:
+- [e]xecute a command in a new Alacritty window (also works with `alacritty msg create-window`):
 
 `alacritty -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 

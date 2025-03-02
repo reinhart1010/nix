@@ -2,8 +2,8 @@
 layout: page
 title: common/du (English)
 description: "Disk usage: estimate and summarize file and directory space usage."
-content_hash: d33f8bea17d088b0c33664f5f3612f47a6274ddf
-last_modified_at: 2024-04-28
+content_hash: ac78a36562f69560bb27549d3a63377571c7a339
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/du.html
@@ -11,17 +11,26 @@ related_topics:
   - title: español version
     url: /es/common/du.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/du.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/du.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/du.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/du.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/du.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/du.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/du.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/du.html
@@ -31,7 +40,7 @@ tldri18n_status: 2
 # du
 
 Disk usage: estimate and summarize file and directory space usage.
-More information: <https://www.gnu.org/software/coreutils/du>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html>.
 
 - List the sizes of a directory and any subdirectories, in the given unit (B/KiB/MiB):
 
@@ -53,9 +62,9 @@ More information: <https://www.gnu.org/software/coreutils/du>.
 
 `du -h --max-depth=N `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- List the human-readable size of all `.jpg` files in subdirectories of the current directory, and show a cumulative total at the end:
+- List the human-readable size of all `.jpg` files in current directory, and show a cumulative total at the end:
 
-`du -ch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*/*.jpg</span>
+`du -ch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./*.jpg</span>
 
 - List all files and directories (including hidden ones) above a certain [t]hreshold size (useful for investigating what is actually taking up the space):
 

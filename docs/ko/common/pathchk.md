@@ -2,8 +2,8 @@
 layout: page
 title: common/pathchk (한국어)
 description: "경로명의 유효성과 이식성을 확인합니다."
-content_hash: e57d4bb1604b0b2aad1d41c8aa1bdd402bbabfc7
-last_modified_at: 2024-11-08
+content_hash: 8043aed48c8b8b937ec8b78a26a3e8281e3f6399
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/pathchk.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # pathchk
 
 경로명의 유효성과 이식성을 확인합니다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/pathchk>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/pathchk-invocation.html>.
 
 - 현재 시스템에서 경로명의 유효성을 확인:
 

@@ -3,14 +3,26 @@ layout: page
 title: linux/pw-record (Türkçe)
 description: "Pipewire aracılığıyla ses dosyalarını kaydedin."
 content_hash: 7328a7708fc332a881b1ac7e0c188a7716c2141a
-last_modified_at: 2023-11-12
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/pw-record.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: 한국어 version
+    url: /ko/linux/pw-record.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/pw-record.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/pw-record.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# pw-record
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># pw-record
 
 Pipewire aracılığıyla ses dosyalarını kaydedin.
 pw-cat --record için kısaltma.

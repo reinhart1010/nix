@@ -2,8 +2,8 @@
 layout: page
 title: common/crane-delete (Nederlands)
 description: "Verwijder een image-referentie uit de registry."
-content_hash: 0c08d0517696408ce2c6045a88c85614ae8207e3
-last_modified_at: 2024-10-27
+content_hash: ef10700fcec50ec2e39c0a1d8dbb21660afa4662
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/crane-delete.html
@@ -22,6 +22,6 @@ Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/c
 
 `crane delete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_naam</span>
 
-- Toon help:
+- Toon de help:
 
 `crane delete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

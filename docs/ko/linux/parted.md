@@ -3,7 +3,7 @@ layout: page
 title: linux/parted (한국어)
 description: "파티션 조작 프로그램."
 content_hash: 8816b8861102f13fed2f11aef2e7bf7940e6f6b5
-last_modified_at: 2024-11-10
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/parted.html
@@ -14,9 +14,12 @@ related_topics:
   - title: українська version
     url: /uk/linux/parted.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# parted
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># parted
 
 파티션 조작 프로그램.
 같이 보기: `partprobe`.

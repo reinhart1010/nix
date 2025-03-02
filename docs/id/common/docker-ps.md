@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-ps (Indonesia)
 description: "Tampilkan daftar kontainer Docker."
-content_hash: 5fd9da24c4ce5c0b7649b4c26b4a0521288d0801
-last_modified_at: 2024-09-08
+content_hash: c65877d4b845817dc64bcd1e6b1af9d0feeaef37
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-ps.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/docker-ps.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/docker-ps.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-ps.html
@@ -44,7 +47,7 @@ Informasi lebih lanjut: <https://docs.docker.com/reference/cli/docker/container/
 
 - Pilah kontainer yang mengandung substring dalam namanya:
 
-`docker ps --filter="name=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama</span>`"`
+`docker ps --filter "name=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama</span>`"`
 
 - Pilah kontainer yang memiliki gambar yang sama sebagai leluhur:
 
@@ -52,7 +55,7 @@ Informasi lebih lanjut: <https://docs.docker.com/reference/cli/docker/container/
 
 - Pilah kontainer berdasarkan kode status keluar (exit status code):
 
-`docker ps --all --filter="exited=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kode</span>`"`
+`docker ps --all --filter "exited=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kode</span>`"`
 
 - Pilah kontainer berdasarkan status (created, running, removing, paused, exited, dan dead):
 

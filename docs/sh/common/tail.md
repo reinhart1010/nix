@@ -2,8 +2,8 @@
 layout: page
 title: common/tail (sh)
 description: "Prikazuje krajnji deo datoteke."
-content_hash: 33480f5607343ab7e7e72979fbc90909a93dda42
-last_modified_at: 2023-11-12
+content_hash: 0111eb5e48c620bcfa98805fda3f8727ece9c470
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/tail.html
@@ -14,6 +14,15 @@ related_topics:
   - title: español version
     url: /es/common/tail.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tail.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/tail.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/tail.html
+    icon: bi bi-globe
 tldri18n_status: 1
 ---
 
@@ -22,7 +31,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># tail
 
 Prikazuje krajnji deo datoteke.
-Više informacija: <https://www.gnu.org/software/coreutils/tail>.
+Više informacija: <https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html>.
 
 - Prikaži poslednjih 'broj' linija u datoteci:
 

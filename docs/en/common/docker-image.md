@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-image (English)
 description: "Manage Docker images."
-content_hash: cffc17623bbf5b343a44e5fcce985b5c25b2545a
-last_modified_at: 2024-09-23
+content_hash: c3dd203b75bcf0ca3ba32f76cbac61837cd430ae
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-image.html
@@ -43,3 +43,7 @@ More information: <https://docs.docker.com/reference/cli/docker/image/>.
 - Show the history of a local Docker image:
 
 `docker image history `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span>
+
+- View documentation for `docker image rm`:
+
+`tldr docker rmi`

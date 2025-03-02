@@ -2,8 +2,8 @@
 layout: page
 title: common/tee (Nederlands)
 description: "Lees van `stdin` en schrijf naar `stdout` en bestanden (of commando's)."
-content_hash: 231db4bcd4bec2ec68e07be3fe84715c19899319
-last_modified_at: 2024-06-29
+content_hash: bb435321109d689d9c1d2ee178073ef746e09412
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/tee.html
@@ -11,12 +11,18 @@ related_topics:
   - title: español version
     url: /es/common/tee.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/tee.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tee.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # tee
 
 Lees van `stdin` en schrijf naar `stdout` en bestanden (of commando's).
-Meer informatie: <https://www.gnu.org/software/coreutils/tee>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/tee-invocation.html>.
 
 - Kopieer `stdin` naar elk bestand en ook naar `stdout`:
 

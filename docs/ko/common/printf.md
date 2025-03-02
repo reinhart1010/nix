@@ -2,8 +2,8 @@
 layout: page
 title: common/printf (한국어)
 description: "텍스트를 형식화하여 출력."
-content_hash: cf87db27d3c08a3f4ab011d065329a4c65d2ad39
-last_modified_at: 2024-11-08
+content_hash: 51f0be91388b841def9ff96ea0cf3989cfdd3edd
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/printf.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # printf
 
 텍스트를 형식화하여 출력.
-더 많은 정보: <https://www.gnu.org/software/coreutils/printf>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/printf-invocation.html>.
 
 - 텍스트 메시지 출력:
 

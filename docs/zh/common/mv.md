@@ -2,8 +2,8 @@
 layout: page
 title: common/mv (中文)
 description: "移动或重命名文件或目录。"
-content_hash: d7284702947317ba9a3783428bcd501df761dc54
-last_modified_at: 2023-11-12
+content_hash: d3385537013f8ee27b87689ed3ab865f5429a01c
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -23,11 +23,20 @@ related_topics:
   - title: italiano version
     url: /it/common/mv.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mv.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/mv.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/mv.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/mv.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/mv.html
     icon: bi bi-globe
 tldri18n_status: 1
 ---
@@ -37,7 +46,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># mv
 
 移动或重命名文件或目录。
-更多信息：<https://www.gnu.org/software/coreutils/mv>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
 - 移动文件到任意位置：
 

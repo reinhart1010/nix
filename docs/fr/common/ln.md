@@ -2,14 +2,17 @@
 layout: page
 title: common/ln (français)
 description: "Crée des liens vers des fichiers et répertoires."
-content_hash: 39a4fb3c5ef3a4c97f8868fbaccdb9ccfe6e375e
-last_modified_at: 2023-11-12
+content_hash: 429fcfc27fd543eb22f9306bacc038f2886c5e4e
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/ln.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/ln.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/ln.html
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/ln.html
@@ -31,7 +34,7 @@ tldri18n_status: 2
 # ln
 
 Crée des liens vers des fichiers et répertoires.
-Plus d'informations : <https://www.gnu.org/software/coreutils/ln>.
+Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/ln-invocation.html>.
 
 - Crée un lien symbolique vers un fichier ou un répertoire :
 

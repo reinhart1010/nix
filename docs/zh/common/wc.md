@@ -2,8 +2,8 @@
 layout: page
 title: common/wc (中文)
 description: "计数行、单词或字节。"
-content_hash: a39ff942ce25a9a0b1e4c79c745c6f99ef59a83e
-last_modified_at: 2023-11-12
+content_hash: cab88ccf7324d4df77d9e291a4ffe35cb31f6763
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/wc.html
@@ -17,6 +17,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/wc.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/wc.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/wc.html
     icon: bi bi-globe
@@ -28,7 +31,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># wc
 
 计数行、单词或字节。
-更多信息：<https://www.gnu.org/software/coreutils/wc>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/wc-invocation.html>.
 
 - 计数文件中的行数：
 

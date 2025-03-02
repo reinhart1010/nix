@@ -2,9 +2,12 @@
 layout: page
 title: common/timeout (English)
 description: "Run a command with a time limit."
-content_hash: 66aba87ee709cbbff0be9d8f45f2d0f5fafd0753
-last_modified_at: 2024-08-01
+content_hash: afb8b9b3b5d9d57c938240eec52f7be313014b9c
+last_modified_at: 2025-03-02
 related_topics:
+  - title: 한국어 version
+    url: /ko/common/timeout.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/timeout.html
     icon: bi bi-globe
@@ -13,7 +16,7 @@ tldri18n_status: 2
 # timeout
 
 Run a command with a time limit.
-More information: <https://www.gnu.org/software/coreutils/timeout>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/timeout-invocation.html>.
 
 - Run `sleep 10` and terminate it after 3 seconds:
 

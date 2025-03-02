@@ -2,8 +2,8 @@
 layout: page
 title: common/crane-append (Nederlands)
 description: "Push een image gebaseerd op een (optionele) basisimage."
-content_hash: 8faf9d3d639a457ad4db84e982302a027484d628
-last_modified_at: 2024-10-27
+content_hash: 2ce062c5142d0f35ef3544f1fc50a1a6c0a845c8
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/crane-append.html
@@ -43,6 +43,6 @@ Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/c
 
 `crane append --set-base-image-annotations`
 
-- Toon help:
+- Toon de help:
 
 `crane append `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

@@ -2,8 +2,15 @@
 layout: page
 title: common/kubeadm (English)
 description: "Command-line interface for creating and managing Kubernetes clusters."
-content_hash: a78a9f8ecb1ebf5a2999e844f8856f22fe8de22c
-last_modified_at: 2023-11-12
+content_hash: f25b2f4970031fc430f02935598423d07fb80d33
+last_modified_at: 2025-03-02
+related_topics:
+  - title: español version
+    url: /es/common/kubeadm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/kubeadm.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # kubeadm
@@ -11,7 +18,7 @@ tldri18n_status: 2
 Command-line interface for creating and managing Kubernetes clusters.
 More information: <https://kubernetes.io/docs/reference/setup-tools/kubeadm>.
 
-- Create a Kubernetes master node:
+- Create a Kubernetes control plane:
 
 `kubeadm init`
 

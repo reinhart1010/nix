@@ -2,14 +2,21 @@
 layout: page
 title: linux/ptx (English)
 description: "Generate a permuted index of words from text files."
-content_hash: d32e50e68e2394bd2a6b909f900c26663b05f2b0
-last_modified_at: 2024-01-25
+content_hash: cc54905ec4e10026457bcaf473bef3381854dc06
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/linux/ptx.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/ptx.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # ptx
 
 Generate a permuted index of words from text files.
-More information: <https://www.gnu.org/software/coreutils/ptx>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/ptx-invocation.html>.
 
 - Generate a permuted index where the first field of each line is an index reference:
 

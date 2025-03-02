@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (Deutsch)
 description: "Lösche Dateien oder Verzeichnisse."
-content_hash: 4bf3110b7685257963fef251b9acfa4cee3ece16
-last_modified_at: 2023-12-29
+content_hash: bc297b5e032568aef4fe96d23278e5195d5292df
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/rm.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># rm
 
 Lösche Dateien oder Verzeichnisse.
-Weitere Informationen: <https://www.gnu.org/software/coreutils/rm>.
+Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - Lösche Dateien an beliebigen Speicherorten:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/pulumi (한국어)
 description: "친숙한 프로그래밍 언어를 사용하여 어떤 클라우드에서도 인프라 정의."
-content_hash: 66bfd1a813cec79339a1a2267f454d1882b3cea4
-last_modified_at: 2024-11-08
+content_hash: 366e27ccc39f567316812ef8c99fba569195df94
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/pulumi.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 친숙한 프로그래밍 언어를 사용하여 어떤 클라우드에서도 인프라 정의.
 `up`과 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
-더 많은 정보: <https://www.pulumi.com/docs/cli>.
+더 많은 정보: <https://www.pulumi.com/docs/iac/cli/>.
 
 - 템플릿을 사용하여 새 프로젝트 생성:
 

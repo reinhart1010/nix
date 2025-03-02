@@ -2,8 +2,8 @@
 layout: page
 title: common/pulumi-login (한국어)
 description: "Pulumi 클라우드에 로그인."
-content_hash: 7d56be3f462f2fccfd52b9ecc2e1f7583809f45b
-last_modified_at: 2024-11-08
+content_hash: a6a5d1acfb1b6f6338288f1c796cb9988453d648
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/pulumi-login.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # pulumi login
 
 Pulumi 클라우드에 로그인.
-더 많은 정보: <https://www.pulumi.com/docs/cli/commands/pulumi_login/>.
+더 많은 정보: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_login/>.
 
 - 관리되는 Pulumi Cloud 백엔드에 로그인. 기본값은 `app.pulumi.cloud`:
 

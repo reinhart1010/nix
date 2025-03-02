@@ -3,7 +3,7 @@ layout: page
 title: common/docker-image (français)
 description: "Gérer les images Docker."
 content_hash: 3790c0d5be55ca733c6cf997a4f1cdf9d69a5f41
-last_modified_at: 2024-09-23
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-image.html
@@ -20,9 +20,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/docker-image.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# docker image
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># docker image
 
 Gérer les images Docker.
 Voir aussi `docker build`, `docker import`, and `docker pull`.

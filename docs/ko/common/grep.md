@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (한국어)
 description: "정규표현식으로 파일에서 패턴을 찾습니다."
-content_hash: 8792ed40f2a74f9ade2cfc9095c5f44110deb28f
-last_modified_at: 2024-10-13
+content_hash: 792710e8086b9bbcebc3d273e75aa3ab6c3263f7
+last_modified_at: 2025-03-02
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -22,6 +22,12 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/grep.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/grep.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/grep.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/grep.html
@@ -44,6 +50,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/grep.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/grep.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # grep
@@ -63,7 +72,7 @@ tldri18n_status: 2
 
 `grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recursive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--line-number</span>` --binary-files `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디렉토리/의/경로</span>
 
-- 대소문자를 구분하지 않는 모드에서 확장된 정규표현식 사용 (`?`, `+`, `{}`, `()` 그리고 `|` 를 지원):
+- 대소문자를 구분하지 않는 모드에서 확장된 정규표현식 사용 (`?`, `+`, `{}`, `()`, 그리고 `|` 를 지원):
 
 `grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-E|--extended-regexp</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--ignore-case</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일/의/경로</span>
 

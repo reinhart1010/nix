@@ -2,11 +2,14 @@
 layout: page
 title: common/sort (Nederlands)
 description: "Sorteer regels van tekstbestanden."
-content_hash: b054ee680c3c1442fd448e10801e7e7a07913a56
-last_modified_at: 2024-06-29
+content_hash: 7c8a25e52eff8c0c597b38f8f001d2a83b864ac7
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/sort.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/sort.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/sort.html
@@ -16,7 +19,7 @@ tldri18n_status: 2
 # sort
 
 Sorteer regels van tekstbestanden.
-Meer informatie: <https://www.gnu.org/software/coreutils/sort>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html>.
 
 - Sorteer een bestand in oplopende volgorde:
 

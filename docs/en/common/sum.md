@@ -2,9 +2,15 @@
 layout: page
 title: common/sum (English)
 description: "Compute checksums and the number of blocks for a file."
-content_hash: c702bc3656c6d165820a887ebd8ec2ba9c567d75
-last_modified_at: 2023-11-12
+content_hash: 6b41ef4f7c9716b16ef9133e51234402e663917e
+last_modified_at: 2025-03-02
 related_topics:
+  - title: 한국어 version
+    url: /ko/common/sum.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/sum.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/sum.html
     icon: bi bi-globe
@@ -14,7 +20,7 @@ tldri18n_status: 2
 
 Compute checksums and the number of blocks for a file.
 A predecessor to the more modern `cksum`.
-More information: <https://www.gnu.org/software/coreutils/sum>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/sum-invocation.html>.
 
 - Compute a checksum with BSD-compatible algorithm and 1024-byte blocks:
 

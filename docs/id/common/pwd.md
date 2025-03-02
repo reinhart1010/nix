@@ -2,8 +2,8 @@
 layout: page
 title: common/pwd (Indonesia)
 description: "Mencetak nama dari direktori saat ini/kerja."
-content_hash: 40e09e4d413742dccf754a42a8d5e5a521636ff4
-last_modified_at: 2024-12-10
+content_hash: b5c9d8e3f43ce169490dc1dd1adb924aef3afafb
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/common/pwd.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # pwd
 
 Mencetak nama dari direktori saat ini/kerja.
-Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/pwd>.
+Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html>.
 
 - Mencetak direktori saat ini:
 

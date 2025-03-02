@@ -2,8 +2,8 @@
 layout: page
 title: common/users (中文)
 description: "显示已登录用户的列表。"
-content_hash: 9857bb9cfb83b5a4250d94457288182f14511668
-last_modified_at: 2024-11-20
+content_hash: c003eb19fa0519dd8b421f16112fcba606811cc2
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/users.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 显示已登录用户的列表。
 请参阅：`useradd`，`userdel`，`usermod`。
-更多信息：<https://www.gnu.org/software/coreutils/users>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/users-invocation.html>.
 
 - 输出已登录的用户名：
 

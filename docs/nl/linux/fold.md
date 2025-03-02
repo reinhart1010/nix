@@ -2,18 +2,21 @@
 layout: page
 title: linux/fold (Nederlands)
 description: "Breek lange regels af voor uitvoerapparaten met vaste breedte."
-content_hash: 565bc7c09252db9f60099d19f9f08c028f71078f
-last_modified_at: 2024-06-19
+content_hash: e564b080e120a77310cc3260a6311eb8502853d1
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/fold.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/fold.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # fold
 
 Breek lange regels af voor uitvoerapparaten met vaste breedte.
-Meer informatie: <https://www.gnu.org/software/coreutils/fold>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/fold-invocation.html>.
 
 - Breek regels af met een vaste breedte:
 

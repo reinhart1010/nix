@@ -2,8 +2,8 @@
 layout: page
 title: common/yes (Nederlands)
 description: "Iets herhaaldelijk uitvoeren."
-content_hash: be9c6846926834c25fb67e99549a25033e5d7055
-last_modified_at: 2024-06-19
+content_hash: 85e8ec28b5b95b814f889d4cc8374ac0caf3c198
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/yes.html
@@ -14,6 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/yes.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/yes.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/yes.html
     icon: bi bi-globe
@@ -23,13 +26,16 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/yes.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/yes.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # yes
 
 Iets herhaaldelijk uitvoeren.
 Deze opdracht wordt vaak gebruikt om ja te beantwoorden op elke prompt door installatieopdrachten (zoals apt-get).
-Meer informatie: <https://www.gnu.org/software/coreutils/yes>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/yes-invocation.html>.
 
 - Toon herhaaldelijk "bericht":
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/pwd (日本語)
 description: "現在の作業ディレクトリを表示します。"
-content_hash: 094521672c1d1f2821ced120d2c4105cd3bfae1e
-last_modified_at: 2024-12-10
+content_hash: 33b70ed4d9cba920991b72242dabec89bfad81ec
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/common/pwd.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # pwd
 
 現在の作業ディレクトリを表示します。
-詳しくはこちら: <https://www.gnu.org/software/coreutils/pwd>
+もっと詳しく: <https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html>。
 
 - 現在のディレクトリを表示する:
 

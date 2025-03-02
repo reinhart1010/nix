@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (हिन्दी)
 description: "एक निर्देशिका बनाता है।"
-content_hash: dab43d4056448d418625ce4ab368018a4e0c31d3
-last_modified_at: 2024-09-07
+content_hash: e4c6f3de6efd3ddfe95a77b84f8173978d1e1c80
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -52,7 +52,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># mkdir
 
 एक निर्देशिका बनाता है।
-अधिक जानकारी: <https://www.gnu.org/software/coreutils/mkdir>।
+अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>।
 
 - वर्तमान निर्देशिका या दिए गए पथ में एक निर्देशिका बनाएँ:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/mkfifo (English)
 description: "Make FIFOs (named pipes)."
-content_hash: 6ddae5547218317e4ae4809381e009567e77a5a1
-last_modified_at: 2024-12-05
+content_hash: 0dd6c1e1b9b676d68fa1fdf4a1e87eef92c710cb
+last_modified_at: 2025-03-02
 related_topics:
   - title: bosanski version
     url: /bs/common/mkfifo.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # mkfifo
 
 Make FIFOs (named pipes).
-More information: <https://www.gnu.org/software/coreutils/mkfifo>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/mkfifo-invocation.html>.
 
 - Create a named pipe at a given path:
 

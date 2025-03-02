@@ -2,14 +2,20 @@
 layout: page
 title: common/rmdir (हिन्दी)
 description: "निर्देशिका को हटाता है।"
-content_hash: 205b48dc558a3105a6580e6c998b9d41239f711f
-last_modified_at: 2023-11-12
+content_hash: c890ff58566936e3c66fee763616051eb09ff0f2
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/common/rmdir.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/rmdir.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/rmdir.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/rmdir.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/rmdir.html
@@ -25,7 +31,7 @@ tldri18n_status: 2
 # rmdir
 
 निर्देशिका को हटाता है।
-अधिक जानकारी: <https://www.gnu.org/software/coreutils/rmdir>।
+अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/rmdir-invocation.html>।
 
 - निर्देशिका निकालें, बशर्ते वह खाली हो। गैर-रिक्त निर्देशिकाओं को हटाने के लिए `rm -r` का उपयोग करें:
 

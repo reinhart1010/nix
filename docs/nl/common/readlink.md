@@ -2,8 +2,8 @@
 layout: page
 title: common/readlink (Nederlands)
 description: "Volg symlinks en verkrijg symlink-informatie."
-content_hash: 8bb690ca1968e7fe6cd3fa544ab1cf25d5d2b12a
-last_modified_at: 2024-06-19
+content_hash: b73314e6dfccda74f81f1f9d4c482d0b8faa3d37
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/readlink.html
@@ -11,12 +11,15 @@ related_topics:
   - title: italiano version
     url: /it/common/readlink.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/readlink.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # readlink
 
 Volg symlinks en verkrijg symlink-informatie.
-Meer informatie: <https://www.gnu.org/software/coreutils/readlink>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/readlink-invocation.html>.
 
 - Toon het werkelijke bestand waarnaar de symlink verwijst:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/pwd (English)
 description: "Print name of current/working directory."
-content_hash: e72ab3e9a718f6489b18c4aed1652589892d7357
-last_modified_at: 2024-12-09
+content_hash: ad278e6e83374682f4ef8d8a34b4d7f009370331
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/common/pwd.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # pwd
 
 Print name of current/working directory.
-More information: <https://www.gnu.org/software/coreutils/pwd>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html>.
 
 - Print the current directory:
 

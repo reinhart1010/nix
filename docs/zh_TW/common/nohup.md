@@ -2,14 +2,20 @@
 layout: page
 title: common/nohup (中文 (繁體, 台灣))
 description: "當終端被關閉時允許程序繼續存在運作。"
-content_hash: ce371337b1992d81f22f494e6b4a144eb495ccde
-last_modified_at: 2023-11-12
+content_hash: 9936398685035a4d5a3a33cfd7e6bdca30714217
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/nohup.html
     icon: bi bi-globe
   - title: فارسی version
     url: /fa/common/nohup.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/nohup.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/nohup.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/nohup.html
@@ -22,7 +28,7 @@ tldri18n_status: 2
 # nohup
 
 當終端被關閉時允許程序繼續存在運作。
-更多資訊：<https://www.gnu.org/software/coreutils/nohup>.
+更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/nohup-invocation.html>.
 
 - 執行一個可以在終端機之外繼續執行的程序：
 

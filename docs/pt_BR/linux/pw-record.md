@@ -3,17 +3,26 @@ layout: page
 title: linux/pw-record (português (Brasil))
 description: "Grava arquivos de áudio através do PipeWire."
 content_hash: 43bc3ff12fefda332e5ad9dccbe78c1d8399c6bf
-last_modified_at: 2024-03-14
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/pw-record.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/pw-record.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/pw-record.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pw-record.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# pw-record
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># pw-record
 
 Grava arquivos de áudio através do PipeWire.
 Atalho para pw-cat --record.

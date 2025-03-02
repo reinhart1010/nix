@@ -2,14 +2,24 @@
 layout: page
 title: common/paste (English)
 description: "Merge lines of files."
-content_hash: afb0813797a5bd1b6ce67e368d98ff7881e44f63
-last_modified_at: 2024-06-26
+content_hash: ed5ec31d600e807fde74d813f1152811583e7c33
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/paste.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/paste.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/paste.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # paste
 
 Merge lines of files.
-More information: <https://www.gnu.org/software/coreutils/paste>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/paste-invocation.html>.
 
 - Join all the lines into a single line, using TAB as delimiter:
 

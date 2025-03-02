@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (italiano)
 description: "Rimuovi file o directory."
-content_hash: 759aeb0fea6bd532757edd110d36a3f89ec3777d
-last_modified_at: 2023-12-29
+content_hash: 387d47df20b6883ba048689190683cf4ac912a0e
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # rm
 
 Rimuovi file o directory.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/rm>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - Rimuovi file:
 

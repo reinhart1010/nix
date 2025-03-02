@@ -2,8 +2,12 @@
 layout: page
 title: linux/inxi (English)
 description: "Print a summary of system information and resources for debugging purposes."
-content_hash: 834ba1d559c5c25323456e4a46c9a48f33447f36
-last_modified_at: 2023-11-12
+content_hash: 28cf6238b9833549796c7081e2a12c734d07e2e3
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/linux/inxi.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # inxi
@@ -15,10 +19,30 @@ More information: <https://manned.org/inxi>.
 
 `inxi`
 
-- Print a full description of CPU, memory, disk, network and process information:
+- Print a full description of CPU, memory, disk, network, and process information and filter sensitive information:
 
-`inxi -Fz`
+`inxi --expanded --filter`
 
-- Print information about the distribution's repository:
+- Print a summary of CPU information:
 
-`inxi -r`
+`inxi --cpu`
+
+- Print a summary of graphics information:
+
+`inxi --graphics`
+
+- Print a summary of system RAM:
+
+`inxi --memory`
+
+- Print a summary of system audio:
+
+`inxi --audio`
+
+- Print available sensor data:
+
+`inxi --sensors`
+
+- Print information about the distribution's repositories:
+
+`inxi --repos`

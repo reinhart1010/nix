@@ -2,8 +2,8 @@
 layout: page
 title: common/unexpand (한국어)
 description: "공백을 탭으로 변환."
-content_hash: a1b69d1b782151b8ba2c458c260cafcc86e0d5aa
-last_modified_at: 2024-11-02
+content_hash: f4752900c6f7d2294c047dcc105ee927b2f7e84c
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/unexpand.html
@@ -11,12 +11,15 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/unexpand.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/unexpand.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # unexpand
 
 공백을 탭으로 변환.
-더 많은 정보: <https://www.gnu.org/software/coreutils/unexpand>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/unexpand-invocation.html>.
 
 - 각 파일의 공백을 탭으로 변환하여 `stdout`에 출력:
 

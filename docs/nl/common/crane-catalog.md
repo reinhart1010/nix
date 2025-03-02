@@ -2,8 +2,8 @@
 layout: page
 title: common/crane-catalog (Nederlands)
 description: "Toon de repositories in een registry."
-content_hash: 9573c6f909968535cdda9b9798668da1f70be3ad
-last_modified_at: 2024-10-27
+content_hash: 331ce4b57d9493a414d4af5eed1d12b552b9a3e4
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/crane-catalog.html
@@ -26,6 +26,6 @@ Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/c
 
 `crane catalog `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry_adres</span>` --full-ref`
 
-- Toon help:
+- Toon de help:
 
 `crane catalog `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

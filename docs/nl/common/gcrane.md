@@ -2,8 +2,8 @@
 layout: page
 title: common/gcrane (Nederlands)
 description: "Beheer tool voor containerafbeeldingen."
-content_hash: aa411cdf1e995dc3c4a3916733aea9133d474ad1
-last_modified_at: 2024-10-27
+content_hash: e89b1438b241a95db776838ee5717ea3b6c9192d
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/gcrane.html
@@ -41,6 +41,6 @@ Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/g
 
 `gcrane `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|--verbose</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 
-- Toon help:
+- Toon de help:
 
 `gcrane `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

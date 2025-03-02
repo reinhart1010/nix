@@ -2,8 +2,8 @@
 layout: page
 title: common/tail (Deutsch)
 description: "Gib das Ende einer Datei aus."
-content_hash: a4ec6acb7c10c2535d8be2ecea7b5e090f3fbac0
-last_modified_at: 2023-12-28
+content_hash: a6709de0aea887652517e81b88167040beef6759
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/tail.html
@@ -11,15 +11,24 @@ related_topics:
   - title: español version
     url: /es/common/tail.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tail.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/tail.html
+    icon: bi bi-globe
   - title: sh version
     url: /sh/common/tail.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/tail.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # tail
 
 Gib das Ende einer Datei aus.
-Weitere Informationen: <https://www.gnu.org/software/coreutils/tail>.
+Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html>.
 
 - Zeige die letzten Zeilen einer Datei an:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-config (English)
 description: "Manage custom configuration options for Git repositories."
-content_hash: ceba6062b2a23bbcd8051c1f9f1f2248081627f9
-last_modified_at: 2024-08-10
+content_hash: 88f04bee3044d7525c362fff5cd61e1d92c55552
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/git-config.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-config.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-config.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-config.html
@@ -44,25 +47,25 @@ More information: <https://git-scm.com/docs/git-config>.
 
 `git config --global `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user.name|user.email</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Your Name|email@example.com</span>`"`
 
-- List local or global configuration entries:
+- List local, global or system configuration entries and show their file location:
 
-`git config --list --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local|global</span>
+`git config --list --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local|global|system</span>` --show-origin`
 
-- List only system configuration entries (stored in `/etc/gitconfig`), and show their file location:
+- Set the global value of a given configuration entry (in this case an alias):
 
-`git config --list --system --show-origin`
+`git config --global `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alias.unstage</span>` "reset HEAD --"`
 
 - Get the value of a given configuration entry:
 
-`git config alias.unstage`
+`git config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alias.unstage</span>
 
-- Set the global value of a given configuration entry:
+- Use an alias:
 
-`git config --global alias.unstage "reset HEAD --"`
+`git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unstage</span>
 
 - Revert a global configuration entry to its default value:
 
-`git config --global --unset alias.unstage`
+`git config --global --unset `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alias.unstage</span>
 
 - Edit the local Git configuration (`.git/config`) in the default editor:
 

@@ -2,14 +2,17 @@
 layout: page
 title: common/fmt (Nederlands)
 description: "Herformatteer een tekstbestand door de alinea's samen te voegen en de regelbreedte te beperken tot een aantal tekens (standaard 75)."
-content_hash: 8310bb084058a6f9c2896fa60e3b3a1c3b4dddd9
-last_modified_at: 2024-06-19
+content_hash: 7ec62f60fec9e4eb025dfeb7e8e3efe3f9ca8785
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/fmt.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/fmt.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/fmt.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/fmt.html
@@ -19,7 +22,7 @@ tldri18n_status: 2
 # fmt
 
 Herformatteer een tekstbestand door de alinea's samen te voegen en de regelbreedte te beperken tot een aantal tekens (standaard 75).
-Meer informatie: <https://www.gnu.org/software/coreutils/fmt>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/fmt-invocation.html>.
 
 - Herformatteer een bestand:
 

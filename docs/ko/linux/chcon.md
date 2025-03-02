@@ -2,8 +2,8 @@
 layout: page
 title: linux/chcon (한국어)
 description: "파일 또는 파일/디렉토리의 SELinux 보안 컨텍스트를 변경합니다."
-content_hash: e7041797e6129024a0997d7ca16c76119197b90f
-last_modified_at: 2024-11-08
+content_hash: 169fa14c7ea9d9711b8dcd54e9133dc5c3f521c2
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/chcon.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 파일 또는 파일/디렉토리의 SELinux 보안 컨텍스트를 변경합니다.
 같이 보기: `secon`, `restorecon`, `semanage-fcontext`.
-더 많은 정보: <https://www.gnu.org/software/coreutils/chcon>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/chcon-invocation.html>.
 
 - 파일의 보안 컨텍스트 보기:
 

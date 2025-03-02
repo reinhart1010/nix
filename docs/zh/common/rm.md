@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (中文)
 description: "删除文件或目录。"
-content_hash: e008cd6e0b32324f2fd31ecb1517fd397dd09aa7
-last_modified_at: 2023-12-29
+content_hash: 13ff8449e756aa40266ef4ca1ae4d5de5c8fcfd7
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># rm
 
 删除文件或目录。
-更多信息：<https://www.gnu.org/software/coreutils/rm>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - 从任意位置删除文件：
 

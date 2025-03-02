@@ -2,8 +2,8 @@
 layout: page
 title: common/rmdir (中文)
 description: "删除一个目录。"
-content_hash: 8714c768834ff36ff5e7861d860afdc7568f4bcf
-last_modified_at: 2023-11-12
+content_hash: f54c12db06c179d70e59ce9deea22373eda0f014
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/common/rmdir.html
@@ -13,6 +13,12 @@ related_topics:
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/rmdir.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/rmdir.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/rmdir.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/rmdir.html
@@ -25,7 +31,7 @@ tldri18n_status: 2
 # rmdir
 
 删除一个目录。
-更多信息：<https://www.gnu.org/software/coreutils/rmdir>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/rmdir-invocation.html>.
 
 - 删除空目录，使用 `rm -r` 删除非空目录：
 

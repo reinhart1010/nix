@@ -2,8 +2,8 @@
 layout: page
 title: linux/links2 (polski)
 description: "Tekstowa przeglądarka WWW."
-content_hash: d3a5616c7b6e1fad675cf4278d493aca05b647b2
-last_modified_at: 2024-11-01
+content_hash: 4c7f26b25827586592b8c79fa1c4c0d3d9dfd1fc
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/links2.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # links2
 
 Tekstowa przeglądarka WWW.
-Zobacz też: `links`.
+Zobacz także: `links`.
 Więcej informacji: <http://links.twibright.com/>.
 
 - Odwiedź stronę w trybie graficznym:

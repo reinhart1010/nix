@@ -2,8 +2,8 @@
 layout: page
 title: common/truncate (한국어)
 description: "파일의 크기를 지정된 크기로 줄이거나 늘립니다."
-content_hash: 258e07e9ddc450800bf158ee9c2cfc9d2ced71ae
-last_modified_at: 2024-11-10
+content_hash: 41136f3d75200bc4a1456f0d3b063ce50402a872
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/truncate.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # truncate
 
 파일의 크기를 지정된 크기로 줄이거나 늘립니다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/truncate>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/truncate-invocation.html>.
 
 - 기존 파일의 크기를 10GB로 설정하거나, 지정된 크기로 새 파일 생성:
 

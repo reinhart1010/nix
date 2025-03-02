@@ -2,14 +2,23 @@
 layout: page
 title: common/env (italiano)
 description: "Mostra le variabili d'ambiente o esegui un programma in un ambiente modificato."
-content_hash: 7e35ccf1111ff62ceb94a8e2b9f2fe74df390bfc
-last_modified_at: 2023-11-12
+content_hash: 0cf7ff06410417ad6757f02af0e5bd2635a6883e
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/env.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/env.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/env.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/env.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/env.html
     icon: bi bi-globe
   - title: norsk version
     url: /no/common/env.html
@@ -22,7 +31,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># env
 
 Mostra le variabili d'ambiente o esegui un programma in un ambiente modificato.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/env>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/env-invocation.html>.
 
 - Mostra le variabili d'ambiente:
 

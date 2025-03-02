@@ -2,8 +2,12 @@
 layout: page
 title: common/pulumi-stack (English)
 description: "Manage stacks and view stack state."
-content_hash: f09c1dc0beac5932fbd365f9254d8d9341d48647
-last_modified_at: 2024-10-31
+content_hash: 54188b023a06db90ef1e1204e9cd2f438b0f5d7b
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/pulumi-stack.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # pulumi stack
@@ -31,6 +35,10 @@ More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_stack/>.
 
 `pulumi stack select `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stack_name</span>
 
+- Delete a stack:
+
+`pulumi stack rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stack_name</span>
+
 - Show stack outputs, including secrets, in plaintext:
 
 `pulumi stack output --show-secrets`
@@ -38,7 +46,3 @@ More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_stack/>.
 - Export the stack state to a JSON file:
 
 `pulumi stack export --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span>
-
-- Display help:
-
-`pulumi stack --help`

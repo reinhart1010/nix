@@ -2,8 +2,15 @@
 layout: page
 title: linux/kde-builder (English)
 description: "Easily build KDE components from its source repositories."
-content_hash: 5f482f47a62677583d75bad8cd94d1d8a36931fe
-last_modified_at: 2024-08-29
+content_hash: 5bdf9bfbaa52a5fc8824527f0ebf979b74b46854
+last_modified_at: 2025-03-02
+related_topics:
+  - title: español version
+    url: /es/linux/kde-builder.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/kde-builder.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # kde-builder
@@ -14,7 +21,7 @@ More information: <https://kde-builder.kde.org/en/cmdline/cmdline-usage.html>.
 
 - Initialize `kde-builder`:
 
-`kde-builder --initial-setup`
+`kde-builder --generate-config && kde-builder --install-distro-packages`
 
 - Compile a KDE component and its dependencies from the source:
 
@@ -30,7 +37,7 @@ More information: <https://kde-builder.kde.org/en/cmdline/cmdline-usage.html>.
 
 - Resume compilation from a specific dependency:
 
-`kde-builder --resume-from=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dependency_component</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">component_name</span>
+`kde-builder --resume-from `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dependency_component</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">component_name</span>
 
 - Run a component with a specified executable name:
 

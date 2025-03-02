@@ -2,14 +2,20 @@
 layout: page
 title: common/exa (italiano)
 description: "Un moderno sostituto per `ls` (elenca i contenuti di una directory)."
-content_hash: 43854512a8e7d8ad2e17e1fc8eef2651ca358ca4
-last_modified_at: 2023-11-12
+content_hash: 5e2ed3065e1cecf31f011b86999f0a1f6663d5da
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/exa.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/exa.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/exa.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/exa.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/exa.html
@@ -22,7 +28,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># exa
 
 Un moderno sostituto per `ls` (elenca i contenuti di una directory).
-Maggiori informazioni: <https://the.exa.website>.
+Maggiori informazioni: <https://github.com/ogham/exa>.
 
 - Elenca i file nella directory corrente, uno per riga:
 

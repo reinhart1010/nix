@@ -2,18 +2,27 @@
 layout: page
 title: common/join (English)
 description: "Join lines of two sorted files on a common field."
-content_hash: a69ad4b1e445b0dfd42d4deb9c8f893b42d7740b
-last_modified_at: 2024-01-31
+content_hash: a8cd4f6c80e1745103ff319ed11bf70ad5b0659c
+last_modified_at: 2025-03-02
 related_topics:
+  - title: 한국어 version
+    url: /ko/common/join.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/join.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/join.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/join.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # join
 
 Join lines of two sorted files on a common field.
-More information: <https://www.gnu.org/software/coreutils/join>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/join-invocation.html>.
 
 - Join two files on the first (default) field:
 

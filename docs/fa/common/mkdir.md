@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (فارسی)
 description: "ساخت پوشه ها و تنظیم مجوز آنها."
-content_hash: 53403478e79052b498fcb3fac2da36b570083fb3
-last_modified_at: 2024-09-07
+content_hash: f5e19764603a4f62b836b0c6a960d013afbbc183
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -49,7 +49,7 @@ tldri18n_status: 2
 # mkdir
 
 ساخت پوشه ها و تنظیم مجوز آنها.
-اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/mkdir>.
+اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - ساخت پوشه مشخص:
 

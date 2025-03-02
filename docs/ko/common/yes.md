@@ -2,8 +2,8 @@
 layout: page
 title: common/yes (한국어)
 description: "무언가를 반복적으로 출력."
-content_hash: 8d52a66e9060c106964f2a65bb21e3648c5a3e6b
-last_modified_at: 2024-11-02
+content_hash: 6d7fd48a44d0d6783fd45c3bff4af8dffe896c34
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/yes.html
@@ -26,13 +26,16 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/yes.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/yes.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # yes
 
 무언가를 반복적으로 출력.
 이 명령은 일반적으로 설치 명령(예: apt-get)의 모든 프롬프트에 'yes'로 응답하기 위해 사용됩니다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/yes>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/yes-invocation.html>.
 
 - "메시지"를 반복적으로 출력:
 

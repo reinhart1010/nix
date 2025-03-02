@@ -2,9 +2,12 @@
 layout: page
 title: common/cd (日本語)
 description: "現在の作業ディレクトリを変更します。"
-content_hash: 2da6a56ebc945bae1c3adcd3358fca18fa3c7b52
-last_modified_at: 2023-11-12
+content_hash: c49b580cf8642e45a158a2fe8276e9f945e97b44
+last_modified_at: 2025-03-02
 related_topics:
+  - title: العربية version
+    url: /ar/common/cd.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/common/cd.html
     icon: bi bi-globe
@@ -67,7 +70,7 @@ tldri18n_status: 2
 # cd
 
 現在の作業ディレクトリを変更します。
-詳しくはこちら: <https://manned.org/cd>
+もっと詳しく: <https://manned.org/cd>。
 
 - 指定したディレクトリへ移動する:
 

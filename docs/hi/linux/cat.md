@@ -2,24 +2,39 @@
 layout: page
 title: linux/cat (हिन्दी)
 description: "फ़ाइलों को प्रिंट करता है और जोड़ता है।"
-content_hash: 6f8174152390e922228d50ed8f023c8f7d16ed67
-last_modified_at: 2024-01-03
+content_hash: 120d2a090827e9021498fa3b9c5edf53f8db81e5
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/cat.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/linux/cat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/cat.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/cat.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/cat.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/cat.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/cat.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/cat.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # cat
 
 फ़ाइलों को प्रिंट करता है और जोड़ता है।
-अधिक जानकारी: <https://www.gnu.org/software/coreutils/cat>।
+अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>।
 
 - फ़ाइल की सामग्री को मानक (standard) आउटपुट पर प्रिंट करें:
 

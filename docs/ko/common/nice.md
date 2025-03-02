@@ -2,8 +2,8 @@
 layout: page
 title: common/nice (한국어)
 description: "프로그램을 사용자 정의 스케줄링 우선순위(친화도)로 실행."
-content_hash: f3c0ff249173a81b014037246e4aa799ee9318ec
-last_modified_at: 2024-11-06
+content_hash: 9ff7afecbef99b2ff824a0fe3df3a1fc41d8928b
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/nice.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 프로그램을 사용자 정의 스케줄링 우선순위(친화도)로 실행.
 친화도 값은 -20(가장 높은 우선순위)에서 19(가장 낮은 우선순위)까지 범위.
-더 많은 정보: <https://www.gnu.org/software/coreutils/nice>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/nice-invocation.html>.
 
 - 변경된 우선순위로 프로그램 실행:
 

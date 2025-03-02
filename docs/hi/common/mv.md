@@ -2,8 +2,8 @@
 layout: page
 title: common/mv (हिन्दी)
 description: "फ़ाइलों और निर्देशिकाओं को स्थानांतरित या नाम बदलें।"
-content_hash: ebdc4af051b63f0b55d18760f827c25db14c9222
-last_modified_at: 2023-11-12
+content_hash: b0cd9e6d4cfe6c8cfde3c16ac4123cd0a87f2a97
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -20,6 +20,12 @@ related_topics:
   - title: italiano version
     url: /it/common/mv.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mv.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/mv.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/mv.html
     icon: bi bi-globe
@@ -29,6 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/mv.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/mv.html
+    icon: bi bi-globe
 tldri18n_status: 1
 ---
 
@@ -37,7 +46,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># mv
 
 फ़ाइलों और निर्देशिकाओं को स्थानांतरित या नाम बदलें।
-अधिक जानकारी: <https://www.gnu.org/software/coreutils/mv>।
+अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>।
 
 - किसी फ़ाइल को मनमाना स्थान पर ले जाएँ:
 

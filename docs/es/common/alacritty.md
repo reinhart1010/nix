@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/alacritty (español)
-description: "Emulador de terminal acelerado por GPU y multiplataforma."
-content_hash: 866b39ac519707fb77c9097cbebcd3bac463bc45
-last_modified_at: 2024-05-18
+description: "Emulador de terminal multiplataforma acelerado por GPU."
+content_hash: b7adf65f0e9548eea31973d02601b42203fbb7d4
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -39,25 +39,33 @@ tldri18n_status: 2
 ---
 # alacritty
 
-Emulador de terminal acelerado por GPU y multiplataforma.
+Emulador de terminal multiplataforma acelerado por GPU.
 Más información: <https://github.com/alacritty/alacritty>.
 
-- Abre una nueva ventana de Alacritty:
+- Inicia un nuevo proceso Alacritty y crea una ventana:
 
 `alacritty`
 
-- Ejecuta Alacritty en un directorio específico:
+- Inicia el programa residente de Alacritty (sin crear una ventana):
 
-`alacritty --working-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
+`alacritty --daemon`
 
-- Ejecuta un comando en una nueva ventana de Alacritty:
+- Crea una nueva ventana utilizando el proceso Alacritty que ya está en marcha:
+
+`alacritty msg create-window`
+
+- Inicia el intérprete de comandos en un directorio específico (también funciona con `alacritty msg create-window`):
+
+`alacritty --working-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio</span>
+
+- [e]jecuta un comando en una nueva ventana de Alacritty (también funciona con `alacritty msg create-window`):
 
 `alacritty -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 
-- Especifica un archivo de configuración alternativo (por defecto es `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
+- Utiliza un archivo de configuración alternativo (por defecto es `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
 
-`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/config.toml</span>
+`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/config.toml</span>
 
-- Ejecuta con recarga automática de la configuración activada (puede activarse por defecto en `alacritty.toml`):
+- Ejecuta con la recarga de la configuración activa (también puede activarse por defecto en `alacritty.toml`):
 
-`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/config.toml</span>
+`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/config.toml</span>

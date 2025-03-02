@@ -2,17 +2,26 @@
 layout: page
 title: common/find (English)
 description: "Find files or directories under a directory tree, recursively."
-content_hash: 38f53264c1f5e4a069b862fd0d2f0a09a7f21fa0
-last_modified_at: 2024-07-21
+content_hash: 99bec14cc74326f629c6af86fe60b9add0edbca2
+last_modified_at: 2025-03-02
 related_topics:
   - title: français version
     url: /fr/common/find.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/find.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/find.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/find.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/find.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/find.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/find.html
@@ -30,7 +39,7 @@ More information: <https://manned.org/find>.
 
 - Find files matching multiple path/name patterns:
 
-`find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span>` -path '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">**/path/**/*.ext</span>`' -or -name '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*pattern*</span>`'`
+`find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span>` -path '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*/path/*/*.ext</span>`' -or -name '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*pattern*</span>`'`
 
 - Find directories matching a given name, in case-insensitive mode:
 
@@ -52,6 +61,6 @@ More information: <https://manned.org/find>.
 
 `find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span>` -daystart -mtime `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1</span>` -exec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tar -cvf archive.tar</span>` {} \+`
 
-- Find empty files (0 byte) or directories and delete them verbosely:
+- Search for either empty files or directories and delete them verbosely:
 
 `find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span>` -type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f|d</span>` -empty -delete -print`

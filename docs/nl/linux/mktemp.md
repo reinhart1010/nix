@@ -2,18 +2,21 @@
 layout: page
 title: linux/mktemp (Nederlands)
 description: "Maak een tijdelijk bestand of een tijdelijke map aan."
-content_hash: 47b375e22633b157ae38fce4b99ba21699def03b
-last_modified_at: 2024-06-19
+content_hash: c438e0c8141b876ff52b315fe002a31e86eed72d
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/mktemp.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/mktemp.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # mktemp
 
 Maak een tijdelijk bestand of een tijdelijke map aan.
-Meer informatie: <https://www.gnu.org/software/coreutils/mktemp>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/mktemp-invocation.html>.
 
 - Maak een leeg tijdelijk bestand en toon het absolute pad:
 

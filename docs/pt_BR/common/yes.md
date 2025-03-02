@@ -2,8 +2,8 @@
 layout: page
 title: common/yes (português (Brasil))
 description: "Exibe algo repetidamente."
-content_hash: a02e2bede58cef35dbcd348233dea684a62b4978
-last_modified_at: 2024-02-13
+content_hash: ab67bd34f54990670bcef0e79631d47c2f603c42
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/yes.html
@@ -14,6 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/yes.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/yes.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/yes.html
     icon: bi bi-globe
@@ -23,6 +26,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/yes.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/yes.html
+    icon: bi bi-globe
 tldri18n_status: 1
 ---
 
@@ -31,7 +37,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># yes
 
 Exibe algo repetidamente.
-Mais informações: <https://www.gnu.org/software/coreutils/yes>.
+Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/yes-invocation.html>.
 
 - Exibir a palavra "mensagem" repetidamente:
 

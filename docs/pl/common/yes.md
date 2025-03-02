@@ -2,8 +2,8 @@
 layout: page
 title: common/yes (polski)
 description: "Wypisuje coś wielokrotnie."
-content_hash: 24f462af5fc48b485cef38e43a5e2b61290050f8
-last_modified_at: 2024-06-14
+content_hash: f6d08f74cf7f88b6e92efc4838ace13cc0c57406
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/yes.html
@@ -14,6 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/yes.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/yes.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/yes.html
     icon: bi bi-globe
@@ -23,13 +26,16 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/yes.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/yes.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # yes
 
 Wypisuje coś wielokrotnie.
 Komenda używana często aby potwierdzić pytania zadawane przez komendy instalujące takie jak apt-get.
-Więcej informacji: <https://www.gnu.org/software/coreutils/yes>.
+Więcej informacji: <https://www.gnu.org/software/coreutils/manual/html_node/yes-invocation.html>.
 
 - Wypisuj bez końca "wiadomość":
 

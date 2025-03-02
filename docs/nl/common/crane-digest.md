@@ -2,8 +2,8 @@
 layout: page
 title: common/crane-digest (Nederlands)
 description: "Verkrijg de digest van een image."
-content_hash: cda2dc6a08d2dee5c1dc2674d900d6b6cd28812e
-last_modified_at: 2024-10-27
+content_hash: 634c240de93bee72ce7755dcc9983369b303bc52
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/crane-digest.html
@@ -30,6 +30,6 @@ Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/c
 
 `crane digest `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_naam</span>` --tarball `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/tarball</span>
 
-- Toon help:
+- Toon de help:
 
 `crane digest `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

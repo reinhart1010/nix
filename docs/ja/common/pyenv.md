@@ -2,14 +2,17 @@
 layout: page
 title: common/pyenv (日本語)
 description: "複数バージョンのPythonを容易に切り替えします。"
-content_hash: 312e0a0dd7e5861f43ac9ab2261ad2075e9e4eca
-last_modified_at: 2023-11-12
+content_hash: 2f554ac5c8c43caa73c2a9d5dacabfe05395e93a
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/pyenv.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/pyenv.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/pyenv.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/pyenv.html
@@ -19,7 +22,7 @@ tldri18n_status: 2
 # pyenv
 
 複数バージョンのPythonを容易に切り替えします。
-詳しくはこちら: <https://github.com/pyenv/pyenv>
+もっと詳しく: <https://github.com/pyenv/pyenv>。
 
 - 利用可能なコマンド全てをリスト表示する:
 

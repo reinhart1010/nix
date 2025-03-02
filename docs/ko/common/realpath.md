@@ -2,8 +2,8 @@
 layout: page
 title: common/realpath (한국어)
 description: "파일이나 디렉터리에 대한 절대 경로를 표시."
-content_hash: bd03b19d28ebec168ec66c40279fbf94600e243f
-last_modified_at: 2024-11-08
+content_hash: e83d43dce7889fad61dfc3201cd876490f831935
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/realpath.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # realpath
 
 파일이나 디렉터리에 대한 절대 경로를 표시.
-더 많은 정보: <https://www.gnu.org/software/coreutils/realpath>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/realpath-invocation.html>.
 
 - 파일이나 디렉터리에 대한 절대 경로 표시:
 

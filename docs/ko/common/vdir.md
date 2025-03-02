@@ -2,8 +2,8 @@
 layout: page
 title: common/vdir (한국어)
 description: "디렉토리 내용 나열."
-content_hash: 0011e88f0c445a6e12ed9790877b0af881b9dab4
-last_modified_at: 2024-11-04
+content_hash: 4b7fcc4f60dd1e697090e01f0277a80eefb0c57f
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/vdir.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 디렉토리 내용 나열.
 `ls -l`의 대체품.
-더 많은 정보: <https://www.gnu.org/software/coreutils/vdir>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/vdir-invocation.html>.
 
 - 현재 디렉토리의 파일 및 디렉토리를 한 줄에 하나씩 자세히 나열:
 

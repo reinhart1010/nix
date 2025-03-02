@@ -2,8 +2,8 @@
 layout: page
 title: common/dirname (Nederlands)
 description: "Berekent de bovenliggende map van een bestand of map."
-content_hash: 93504c6ef8fb3979efae58cf564bd6e5eee65257
-last_modified_at: 2024-06-14
+content_hash: e976d30d50a4fdcb5c661a056bc1fe1dad7c9699
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/dirname.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # dirname
 
 Berekent de bovenliggende map van een bestand of map.
-Meer informatie: <https://www.gnu.org/software/coreutils/dirname>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/dirname-invocation.html>.
 
 - Bereken de bovenliggende map van een opgegeven pad:
 

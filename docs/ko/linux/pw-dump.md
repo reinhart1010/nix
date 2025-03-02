@@ -3,7 +3,7 @@ layout: page
 title: linux/pw-dump (한국어)
 description: "PipeWire의 현재 상태를 노드, 장치, 모듈, 포트 및 기타 객체 정보를 포함하여 JSON 형식으로 덤프."
 content_hash: c9574b18587c1375a4e268f825b1b5e9affe74f2
-last_modified_at: 2024-10-30
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/pw-dump.html
@@ -11,9 +11,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/pw-dump.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# pw-dump
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># pw-dump
 
 PipeWire의 현재 상태를 노드, 장치, 모듈, 포트 및 기타 객체 정보를 포함하여 JSON 형식으로 덤프.
 같이 보기: `pw-mon`.

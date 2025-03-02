@@ -2,8 +2,8 @@
 layout: page
 title: common/tail (한국어)
 description: "파일의 마지막 부분을 표시."
-content_hash: 591120746f6e0071ba20a0e96f07af3fd32d6e5c
-last_modified_at: 2024-11-10
+content_hash: cb47232e48c97dd509843338d3046bfe048869cb
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/tail.html
@@ -20,13 +20,16 @@ related_topics:
   - title: sh version
     url: /sh/common/tail.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/tail.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # tail
 
 파일의 마지막 부분을 표시.
 같이 보기: `head`.
-더 많은 정보: <https://www.gnu.org/software/coreutils/tail>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html>.
 
 - 파일에서 마지막 'count' 줄 표시:
 

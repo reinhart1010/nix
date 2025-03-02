@@ -2,8 +2,8 @@
 layout: page
 title: common/dig (日本語)
 description: "DNS 情報を調べるユーティリティーです。"
-content_hash: 620c1b6fc44b6733eeabd061c010f715d38d455a
-last_modified_at: 2024-02-12
+content_hash: b349d0ab78253f8a41caf0e583298954660fceba
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/dig.html
@@ -31,7 +31,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># dig
 
 DNS 情報を調べるユーティリティーです。
-詳しくはこちら: <https://manned.org/dig>
+もっと詳しく: <https://manned.org/dig>。
 
 - ホスト名に関連する IP を検索（A レコード）:
 

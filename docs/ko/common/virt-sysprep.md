@@ -3,14 +3,17 @@ layout: page
 title: common/virt-sysprep (한국어)
 description: "가상 머신 이미지를 재설정, 비구성 또는 사용자 정의."
 content_hash: 829ae368f5db2a9c588d6314b33e3b85d962ea77
-last_modified_at: 2024-11-04
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/virt-sysprep.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# virt-sysprep
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># virt-sysprep
 
 가상 머신 이미지를 재설정, 비구성 또는 사용자 정의.
 더 많은 정보: <https://manned.org/virt-sysprep>.

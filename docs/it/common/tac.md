@@ -2,11 +2,14 @@
 layout: page
 title: common/tac (italiano)
 description: "Visualizza e concatena file con righe in ordine inverso."
-content_hash: 75fdc96cbb9c4164c31c488a2f62b26886a68d82
-last_modified_at: 2024-10-20
+content_hash: b9f370ff051e5e4aed342e6b0dea0c994f729a26
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/tac.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tac.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/tac.html
@@ -17,7 +20,7 @@ tldri18n_status: 2
 
 Visualizza e concatena file con righe in ordine inverso.
 Guarda anche: `cat`.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/tac>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html>.
 
 - Concatena file specifici in ordine inverso:
 

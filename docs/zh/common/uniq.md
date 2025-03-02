@@ -2,8 +2,8 @@
 layout: page
 title: common/uniq (中文)
 description: "输出输入或文件中的唯一行。"
-content_hash: 36cf734ca0b7a56b6480cc0bd7040606661009a4
-last_modified_at: 2024-11-20
+content_hash: c77339521466cf7bf9cedca0bff03ec42220f8c9
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/uniq.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 输出输入或文件中的唯一行。
 因为它只检测相邻的重复行，所以需要先对它们进行排序。
-更多信息：<https://www.gnu.org/software/coreutils/uniq>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/uniq-invocation.html>.
 
 - 仅显示每行一次：
 

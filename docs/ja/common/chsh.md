@@ -2,8 +2,8 @@
 layout: page
 title: common/chsh (日本語)
 description: "ユーザーのログインシェルを変更します。"
-content_hash: d2b0d9b0f23ad06d1fb996655033575bcc38ce85
-last_modified_at: 2024-02-05
+content_hash: acd4b20ac8e22c2948165421cba8b7616f4e41e7
+last_modified_at: 2025-03-02
 related_topics:
   - title: bosanski version
     url: /bs/common/chsh.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/chsh.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/chsh.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/chsh.html
@@ -49,7 +52,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># chsh
 
 ユーザーのログインシェルを変更します。
-詳しくはこちら: <https://manned.org/chsh>
+もっと詳しく: <https://manned.org/chsh>。
 
 - カレントユーザーのログインシェルを対話的に変更する:
 

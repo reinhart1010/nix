@@ -3,7 +3,7 @@ layout: page
 title: common/docker-image (português (Brasil))
 description: "Gerencia imagens do Docker."
 content_hash: f5b82cd045942c744ea9cf3df2185e9052c2d28c
-last_modified_at: 2024-09-23
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-image.html
@@ -20,9 +20,12 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/docker-image.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# docker image
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># docker image
 
 Gerencia imagens do Docker.
 Veja também `docker build`, `docker import` e `docker pull`.

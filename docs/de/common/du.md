@@ -2,8 +2,8 @@
 layout: page
 title: common/du (Deutsch)
 description: "Disk usage: Plattenplatzverbrauch von Dateien und Verzeichnissen ermitteln."
-content_hash: dfbd26058ad259248f70f825e33e661751ed77ba
-last_modified_at: 2024-04-29
+content_hash: 3f7a7eec4d3de12b05fcd7dd1076c8efb28b67c6
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/du.html
@@ -11,17 +11,26 @@ related_topics:
   - title: español version
     url: /es/common/du.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/du.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/du.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/du.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/du.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/du.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/du.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/du.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/du.html
@@ -34,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># du
 
 Disk usage: Plattenplatzverbrauch von Dateien und Verzeichnissen ermitteln.
-Weitere Informationen: <https://www.gnu.org/software/coreutils/du>.
+Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html>.
 
 - Liste die Größe von Verzeichnissen und Unterverzeichnissen in den gegebenen Einheiten (B/KiB/MiB) auf:
 

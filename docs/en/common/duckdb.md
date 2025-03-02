@@ -2,8 +2,12 @@
 layout: page
 title: common/duckdb (English)
 description: "Command-line client for DuckDB, an in-process analytical SQL engine."
-content_hash: f05fec9b8a4b23830bc14762551e1a2d57e304d7
-last_modified_at: 2024-07-21
+content_hash: 279227ffe7e738219b83a670d466c1f8e781eca8
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/duckdb.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # duckdb
@@ -25,7 +29,7 @@ More information: <https://duckdb.org>.
 
 - Run an SQL script:
 
-`duckdb -c ".read `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sql</span>`"`
+`duckdb -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sql</span>
 
 - Run query on database file and keep the interactive shell open:
 

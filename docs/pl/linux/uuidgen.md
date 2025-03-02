@@ -2,18 +2,21 @@
 layout: page
 title: linux/uuidgen (polski)
 description: "Stwórz unikalny identyfikator (UUIDs)."
-content_hash: 4e7413928794c5eee888bdebd65db6d4633a0b2c
-last_modified_at: 2023-11-12
+content_hash: 030f637b7dfd7dde808f6528c56d2554253dd723
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/uuidgen.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/uuidgen.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # uuidgen
 
 Stwórz unikalny identyfikator (UUIDs).
-Zobacz też `uuid`.
+Zobacz także `uuid`.
 Więcej informacji: <https://manned.org/uuidgen>.
 
 - Stwórz losowy UUIDv4:

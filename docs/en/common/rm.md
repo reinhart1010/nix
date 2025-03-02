@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (English)
 description: "Remove files or directories."
-content_hash: beff7426fb1335efd426a0146e3ce47d115029f1
-last_modified_at: 2023-12-28
+content_hash: 8c77a21f575102c1325c8bf46eaeeb43150d75c6
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -47,7 +47,7 @@ tldri18n_status: 2
 
 Remove files or directories.
 See also: `rmdir`.
-More information: <https://www.gnu.org/software/coreutils/rm>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - Remove specific files:
 

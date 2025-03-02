@@ -2,9 +2,12 @@
 layout: page
 title: common/id (português (Brasil))
 description: "Exibe o usuário atual e identidade do grupo."
-content_hash: 00169b93307d3760e8c070a3ee5bb4be4223d95e
-last_modified_at: 2024-11-17
+content_hash: ae03d24c4134f63b6d3a07172ebf3d419ea8617c
+last_modified_at: 2025-03-02
 related_topics:
+  - title: العربية version
+    url: /ar/common/id.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/id.html
     icon: bi bi-globe
@@ -28,7 +31,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># id
 
 Exibe o usuário atual e identidade do grupo.
-Mais informações: <https://www.gnu.org/software/coreutils/id>.
+Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/id-invocation.html>.
 
 - Exibe o ID do usuário atual (UID), ID do grupo (GID) e grupos aos quais eles pertencem:
 

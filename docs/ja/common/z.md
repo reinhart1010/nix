@@ -2,14 +2,17 @@
 layout: page
 title: common/z (日本語)
 description: "高頻度で利用されるディレクトリを把握し、文字列や正規表現をつかうことでスムーズに移動できるようにします。"
-content_hash: 84676953850c88a4a156d202041e481d7721b5db
-last_modified_at: 2023-11-12
+content_hash: b6f57907ab33fa2d8d840a9679e407181941522e
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/z.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/z.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/z.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/z.html
@@ -22,7 +25,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># z
 
 高頻度で利用されるディレクトリを把握し、文字列や正規表現をつかうことでスムーズに移動できるようにします。
-詳しくはこちら: <https://github.com/rupa/z>
+もっと詳しく: <https://github.com/rupa/z>。
 
 - "foo"が名前に含まれるディレクトリに移動する:
 

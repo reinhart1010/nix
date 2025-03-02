@@ -2,8 +2,8 @@
 layout: page
 title: common/pwd (français)
 description: "Affiche le nom du répertoire actuel."
-content_hash: b5d1ee57bbcd9c352c1c22917eef8959612d2833
-last_modified_at: 2024-12-10
+content_hash: e8082e4a2fab6f925566b7273325989abf59795e
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/common/pwd.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # pwd
 
 Affiche le nom du répertoire actuel.
-Plus d'informations : <https://www.gnu.org/software/coreutils/pwd>.
+Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html>.
 
 - Affiche le répertoire actuel :
 

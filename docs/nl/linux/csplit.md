@@ -2,11 +2,14 @@
 layout: page
 title: linux/csplit (Nederlands)
 description: "Splits een bestand in stukken."
-content_hash: 8563997e1c02838f6c633fed928381fde7a265a7
-last_modified_at: 2024-01-10
+content_hash: 0cd717e867ebb8e6bb1e2ec7054dde103f3c3f83
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/csplit.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/csplit.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/csplit.html
@@ -17,7 +20,7 @@ tldri18n_status: 2
 
 Splits een bestand in stukken.
 Dit genereert bestanden zoals "xx00", "xx01" etc.
-Meer informatie: <https://www.gnu.org/software/coreutils/csplit>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/csplit-invocation.html>.
 
 - Splits een bestand op regels 5 en 23:
 

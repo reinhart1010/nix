@@ -2,18 +2,24 @@
 layout: page
 title: linux/groupadd (polski)
 description: "Dodaje grupę użytkowników do systemu."
-content_hash: 954cf0ae80a02a26357c7d6f25b6afff0fc18272
-last_modified_at: 2023-11-12
+content_hash: 09f98de3537677a7b8058e9de4deaed44049be7c
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/groupadd.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/groupadd.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/groupadd.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # groupadd
 
 Dodaje grupę użytkowników do systemu.
-Zobacz też `groups`, `groupdel`, `groupmod`.
+Zobacz także `groups`, `groupdel`, `groupmod`.
 Więcej informacji: <https://manned.org/groupadd>.
 
 - Utwórz nową grupę:

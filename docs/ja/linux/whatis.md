@@ -2,8 +2,8 @@
 layout: page
 title: linux/whatis (日本語)
 description: "マニュアルページから、一行の説明文を表示します。"
-content_hash: 6218c6496ee1644e698e1f2e1154ef5ad3f76840
-last_modified_at: 2023-11-12
+content_hash: 6322f5f7a86bf6a12dfdbf06dad8b8b7e1d06203
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/whatis.html
@@ -11,12 +11,15 @@ related_topics:
   - title: فارسی version
     url: /fa/linux/whatis.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/whatis.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # whatis
 
 マニュアルページから、一行の説明文を表示します。
-詳しくはこちら: <https://manned.org/whatis>
+もっと詳しく: <https://manned.org/whatis>。
 
 - manページの説明文を表示する:
 

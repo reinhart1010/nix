@@ -2,8 +2,8 @@
 layout: page
 title: common/groups (한국어)
 description: "사용자의 그룹 멤버십을 출력."
-content_hash: 927d8978b332adc2fb410a5f6f492cc2cda184a6
-last_modified_at: 2024-10-31
+content_hash: a485a4cb6e3996bbddd25b2945cf97602b80137d
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/groups.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 사용자의 그룹 멤버십을 출력.
 참고: `groupadd`, `groupdel`, `groupmod`.
-더 많은 정보: <https://www.gnu.org/software/coreutils/groups>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/groups-invocation.html>.
 
 - 현재 사용자의 그룹 멤버십을 출력:
 

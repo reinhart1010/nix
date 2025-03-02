@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-system (日本語)
 description: "Dockerのデータ管理とシステム全体に関わる情報の表示をします。"
-content_hash: 7b88d3f7be2f888f7958c03bf9b787ad1eb65710
-last_modified_at: 2024-09-28
+content_hash: 576f6d34ad6c7f48bb13e407e56c1c05bb895864
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-system.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/docker-system.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/docker-system.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-system.html
@@ -25,7 +28,7 @@ tldri18n_status: 2
 # docker system
 
 Dockerのデータ管理とシステム全体に関わる情報の表示をします。
-詳しくはこちら: <https://docs.docker.com/reference/cli/docker/system/>
+もっと詳しく: <https://docs.docker.com/reference/cli/docker/system/>。
 
 - ヘルプの表示をする:
 

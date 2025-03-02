@@ -2,15 +2,19 @@
 layout: page
 title: common/pulumi (English)
 description: "Define infrastructure on any cloud using familiar programming languages."
-content_hash: 19667ed7b020b64eecb1c0581f4e7fb02a1b44a1
-last_modified_at: 2024-10-05
+content_hash: f79c5b08b698300b048e418350ce6265b4208c3a
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/pulumi.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # pulumi
 
 Define infrastructure on any cloud using familiar programming languages.
 Some subcommands such as `up` have their own usage documentation.
-More information: <https://www.pulumi.com/docs/cli>.
+More information: <https://www.pulumi.com/docs/iac/cli/>.
 
 - Create a new project using a template:
 

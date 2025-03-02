@@ -2,8 +2,8 @@
 layout: page
 title: common/test (polski)
 description: "Sprawdza typy plików i porównuje wartości."
-content_hash: 86182808ca07994657247b5279b18135028c08db
-last_modified_at: 2023-12-14
+content_hash: 48dc24c1d83dd7400242c69d963783b99c67ef0f
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/test.html
@@ -11,13 +11,19 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/test.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/test.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/test.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # test
 
 Sprawdza typy plików i porównuje wartości.
 Zwraca 0 gdy porównanie zwróciło wartość poprawną, 1 gdy fałszywą.
-Więcej informacji: <https://www.gnu.org/software/coreutils/test>.
+Więcej informacji: <https://www.gnu.org/software/coreutils/manual/html_node/test-invocation.html>.
 
 - Sprawdź czy podana zmienna jest równa łańcuchowi znaków:
 

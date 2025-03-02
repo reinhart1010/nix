@@ -2,8 +2,8 @@
 layout: page
 title: common/pwd (español)
 description: "Muestra el nombre del directorio actual."
-content_hash: e529d2c86c8e4daeac0064b842d32a19d30bb75f
-last_modified_at: 2024-12-20
+content_hash: 2ccbf7fc1ca173d1a8776cb16305d76cdde140c7
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/common/pwd.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # pwd
 
 Muestra el nombre del directorio actual.
-Más información: <https://www.gnu.org/software/coreutils/pwd>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html>.
 
 - Muestra el directorio actual:
 

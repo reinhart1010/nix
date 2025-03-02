@@ -2,8 +2,8 @@
 layout: page
 title: common/wc (polski)
 description: "Zlicza linie, słowa, i bajty."
-content_hash: 265669b482515e950a22cf43f7baec0e4d3a37a8
-last_modified_at: 2024-01-02
+content_hash: 478c436cfec751551b31831369b6a1f79cc0faa5
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/wc.html
@@ -17,6 +17,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/wc.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/wc.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/wc.html
     icon: bi bi-globe
@@ -25,7 +28,7 @@ tldri18n_status: 2
 # wc
 
 Zlicza linie, słowa, i bajty.
-Więcej informacji: <https://www.gnu.org/software/coreutils/wc>.
+Więcej informacji: <https://www.gnu.org/software/coreutils/manual/html_node/wc-invocation.html>.
 
 - Policz linie w pliku:
 

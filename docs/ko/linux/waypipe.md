@@ -3,7 +3,7 @@ layout: page
 title: linux/waypipe (한국어)
 description: "Wayland 컴포지터에서 그래픽 애플리케이션을 원격으로 실행."
 content_hash: 87a2e0a4c20e161845f00bc87f5271455850f343
-last_modified_at: 2024-11-10
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/waypipe.html
@@ -11,9 +11,12 @@ related_topics:
   - title: español version
     url: /es/linux/waypipe.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# waypipe
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># waypipe
 
 Wayland 컴포지터에서 그래픽 애플리케이션을 원격으로 실행.
 더 많은 정보: <https://gitlab.freedesktop.org/mstoeckl/waypipe>.

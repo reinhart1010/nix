@@ -3,7 +3,7 @@ layout: page
 title: common/rails (Deutsch)
 description: "Ein Server-seitiges MVC Webframework in Ruby."
 content_hash: e46d76f3ea139513e3da4cfe3e744879163a24bb
-last_modified_at: 2024-10-05
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/rails.html
@@ -11,12 +11,18 @@ related_topics:
   - title: Indonesia version
     url: /id/common/rails.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/rails.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/rails.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# rails
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># rails
 
 Ein Server-seitiges MVC Webframework in Ruby.
 Manche Unterbefehle wie `generate` sind separat dokumentiert.

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/alacritty (中文)
-description: "跨平台，GPU 加速的终端模拟器。"
-content_hash: 0b3256452e5d1512e1299eac894c78f5c29178dc
-last_modified_at: 2024-05-18
+description: "跨平台、GPU 加速的终端模拟器。"
+content_hash: db5bb2fdd6c51e1e97c74a56afdeceb586a7fff4
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -39,25 +39,33 @@ tldri18n_status: 2
 ---
 # alacritty
 
-跨平台，GPU 加速的终端模拟器。
+跨平台、GPU 加速的终端模拟器。
 更多信息：<https://github.com/alacritty/alacritty>.
 
-- 打开一个新的 Alacritty 窗口：
+- 启动新的 Alacritty 进程并创建窗口：
 
 `alacritty`
 
-- 运行在指定目录中：
+- 启动 Alacritty 守护进程（不创建窗口）：
 
-`alacritty --working-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径</span>
+`alacritty --daemon`
 
-- 在新的 Alacritty 窗口中运行命令：
+- 使用已运行的 Alacritty 进程创建新窗口：
+
+`alacritty msg create-window`
+
+- 在指定目录启动 shell（也可配合 `alacritty msg create-window` 使用）：
+
+`alacritty --working-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span>
+
+- 执行（[e]xecute）命令到新 Alacritty 窗口（也可配合 `alacritty msg create-window` 使用）：
 
 `alacritty -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span>
 
-- 指定备用配置文件（默认在 `$XDG_CONFIG_HOME/alacritty/alacritty.toml`）：
+- 使用替代配置文件（默认使用 `$XDG_CONFIG_HOME/alacritty/alacritty.toml`）：
 
-`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/config.toml</span>
+`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/配置.toml</span>
 
-- 在启用实时配置重新加载的情况下运行（默认情况下也可以在 `alacritty.toml` 中启用）：
+- 启用实时配置重载运行（也可在 `alacritty.toml` 中默认启用）：
 
-`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/config.toml</span>
+`alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/配置.toml</span>

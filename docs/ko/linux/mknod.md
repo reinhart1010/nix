@@ -2,8 +2,8 @@
 layout: page
 title: linux/mknod (한국어)
 description: "블록 또는 문자 장치 특수 파일 생성."
-content_hash: 318e0f38fd60dffd35f1e897e2802ddf6569443e
-last_modified_at: 2024-11-10
+content_hash: 6155b600d54916c0640f971c11352a556215a09e
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/mknod.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # mknod
 
 블록 또는 문자 장치 특수 파일 생성.
-더 많은 정보: <https://www.gnu.org/software/coreutils/mknod>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/mknod-invocation.html>.
 
 - 블록 장치 생성:
 

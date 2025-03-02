@@ -2,14 +2,21 @@
 layout: page
 title: common/printf (English)
 description: "Format and print text."
-content_hash: ce823fdfeafde894fca676d59130c6505583ac1c
-last_modified_at: 2024-03-10
+content_hash: 887e16e2e754ed39a384333b8ec4c9e07ec5b9b3
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/printf.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/printf.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # printf
 
 Format and print text.
-More information: <https://www.gnu.org/software/coreutils/printf>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/printf-invocation.html>.
 
 - Print a text message:
 

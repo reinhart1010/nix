@@ -2,14 +2,17 @@
 layout: page
 title: common/ln (한국어)
 description: "파일 및 디렉터리에 대한 링크를 생성합니다."
-content_hash: 5a5e795b74cb2a32ec9a87b4a7e7395aae53d5a7
-last_modified_at: 2023-11-12
+content_hash: ee3bb1e66a9542475fcccab453978f58364d6d63
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/ln.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/ln.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/ln.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ln.html
@@ -31,7 +34,7 @@ tldri18n_status: 2
 # ln
 
 파일 및 디렉터리에 대한 링크를 생성합니다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/ln>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/ln-invocation.html>.
 
 - 파일이나 디렉터리에 대한 심볼릭 링크 생성:
 

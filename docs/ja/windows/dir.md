@@ -2,8 +2,8 @@
 layout: page
 title: windows/dir (日本語)
 description: "ディレクトリの内容を一覧表示します。"
-content_hash: 8c4d2176d507bd3a2894074f5b27e716029a3d84
-last_modified_at: 2023-11-12
+content_hash: 94d1d2cd6692e0c06b7edce9238dfaae4bec4a82
+last_modified_at: 2025-03-02
 related_topics:
   - title: català version
     url: /ca/windows/dir.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/windows/dir.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/dir.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/windows/dir.html
@@ -52,7 +55,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># dir
 
 ディレクトリの内容を一覧表示します。
-詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>
+もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>。
 
 - 現在のディレクトリの内容を表示します:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/expand (Nederlands)
 description: "Vervang tabs met spaties."
-content_hash: 5319dde4e6820e8108ae95dc616816972d3ece20
-last_modified_at: 2024-06-19
+content_hash: d9457aaff1b08a4dd60e7295842470780177d121
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/expand.html
@@ -11,12 +11,15 @@ related_topics:
   - title: italiano version
     url: /it/common/expand.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/expand.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # expand
 
 Vervang tabs met spaties.
-Meer informatie: <https://www.gnu.org/software/coreutils/expand>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/expand-invocation.html>.
 
 - Vervang tabs in ieder bestand met spaties en schrijf het naar `stdout`:
 

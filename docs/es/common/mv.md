@@ -2,8 +2,8 @@
 layout: page
 title: common/mv (español)
 description: "Mueve o renombra archivos y directorios."
-content_hash: c1d0698c9a6d9ba87f38b61dc4416efa3745da83
-last_modified_at: 2024-09-01
+content_hash: 0725444176a138458a34dcf88b69c0ca4132bf54
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -43,7 +43,7 @@ tldri18n_status: 2
 # mv
 
 Mueve o renombra archivos y directorios.
-Más información: <https://www.gnu.org/software/coreutils/mv>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
 - Cambia el nombre de un archivo o directorio cuando el destino no es un directorio existente:
 

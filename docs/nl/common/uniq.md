@@ -2,11 +2,17 @@
 layout: page
 title: common/uniq (Nederlands)
 description: "Geef de unieke regels uit een invoer of bestand weer."
-content_hash: 9c0b19a25781f9c6fc535d5524598f3cb200756e
-last_modified_at: 2024-06-27
+content_hash: 455de52974a8bd70272af942c9a4935e67dfc027
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/uniq.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/uniq.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/uniq.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -14,7 +20,7 @@ tldri18n_status: 2
 
 Geef de unieke regels uit een invoer of bestand weer.
 Omdat het geen herhaalde regels detecteert tenzij ze naast elkaar staan, moeten we ze eerst sorteren.
-Meer informatie: <https://www.gnu.org/software/coreutils/uniq>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/uniq-invocation.html>.
 
 - Toon elke regel één keer:
 

@@ -3,7 +3,7 @@ layout: page
 title: common/git-blame (Indonesia)
 description: "Tampilkan informasi kode hash dan pelaku komit terakhir pada setiap baris dalam suatu berkas teks."
 content_hash: 217d014015db9387693b84fa078ebc86e75abd2e
-last_modified_at: 2024-11-16
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/git-blame.html
@@ -32,9 +32,12 @@ related_topics:
   - title: українська version
     url: /uk/common/git-blame.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git blame
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git blame
 
 Tampilkan informasi kode hash dan pelaku komit terakhir pada setiap baris dalam suatu berkas teks.
 Informasi lebih lanjut: <https://git-scm.com/docs/git-blame>.

@@ -3,7 +3,7 @@ layout: page
 title: common/protoc (한국어)
 description: "Google Protobuf `.proto` 파일을 파싱하고 지정된 언어로 출력을 생성."
 content_hash: 13b199727223ec17c5cdb628470119377e91a3bb
-last_modified_at: 2024-11-08
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/protoc.html
@@ -11,9 +11,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/protoc.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# protoc
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># protoc
 
 Google Protobuf `.proto` 파일을 파싱하고 지정된 언어로 출력을 생성.
 더 많은 정보: <https://developers.google.com/protocol-buffers>.

@@ -2,14 +2,24 @@
 layout: page
 title: linux/mknod (English)
 description: "Create block or character device special files."
-content_hash: 3701bce486606a1d7079a65389f109edc65a9196
-last_modified_at: 2023-11-12
+content_hash: 7ce1ed7daa412516286bb093350e49aa261a0bd3
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/linux/mknod.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/mknod.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/mknod.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # mknod
 
 Create block or character device special files.
-More information: <https://www.gnu.org/software/coreutils/mknod>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/mknod-invocation.html>.
 
 - Create a block device:
 

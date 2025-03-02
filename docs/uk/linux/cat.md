@@ -2,27 +2,39 @@
 layout: page
 title: linux/cat (українська)
 description: "Зчитування та об'єднання файлів."
-content_hash: 942f4791ae2280553f70bc0805ab38d07d2f88c2
-last_modified_at: 2024-04-21
+content_hash: 84a9cd445d973a0e8db8910ac8c2d2bb22366bbd
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/cat.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/linux/cat.html
+    icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/linux/cat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/cat.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/cat.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/cat.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/cat.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/cat.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # cat
 
 Зчитування та об'єднання файлів.
-Більше інформації: <https://www.gnu.org/software/coreutils/cat>.
+Більше інформації: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - Вивести вміст файлу в `stdout`:
 

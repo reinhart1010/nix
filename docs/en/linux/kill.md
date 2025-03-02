@@ -2,9 +2,18 @@
 layout: page
 title: linux/kill (English)
 description: "Sends a signal to a process, usually related to stopping the process."
-content_hash: 6bdde21fce7444c6549fed3b1186a24c576a01ea
-last_modified_at: 2024-08-11
+content_hash: 064e75a9b73fdbf7ad07047dedecddde6ca5828c
+last_modified_at: 2025-03-02
 related_topics:
+  - title: español version
+    url: /es/linux/kill.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/kill.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/kill.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/kill.html
     icon: bi bi-globe
@@ -20,9 +29,9 @@ More information: <https://manned.org/kill>.
 
 `kill `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_id</span>
 
-- List signal values and their corresponding names (to be used without the `SIG` prefix):
+- List signal values and their corresponding names (to be used without the `SIG` prefix). The available options may depend on the `kill` implementation:
 
-`kill -L`
+`kill `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|-L|--table</span>
 
 - Terminate a background job:
 

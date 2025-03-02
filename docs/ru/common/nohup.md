@@ -2,14 +2,20 @@
 layout: page
 title: common/nohup (русский)
 description: "Позволяет процессу продолжать работу после закрытия терминала."
-content_hash: 354b9e9fcf1f78d638933cf83d5f387ad265877e
-last_modified_at: 2023-11-12
+content_hash: 631996e461d0d6a32c58457ea29373d1a76a7011
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/nohup.html
     icon: bi bi-globe
   - title: فارسی version
     url: /fa/common/nohup.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/nohup.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/nohup.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/nohup.html
@@ -22,7 +28,7 @@ tldri18n_status: 2
 # nohup
 
 Позволяет процессу продолжать работу после закрытия терминала.
-Больше информации: <https://www.gnu.org/software/coreutils/nohup>.
+Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/nohup-invocation.html>.
 
 - Запустить процесс, который может выполняться в отвязке от терминала:
 

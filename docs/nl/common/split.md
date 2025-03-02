@@ -2,8 +2,8 @@
 layout: page
 title: common/split (Nederlands)
 description: "Split een bestand in stukken."
-content_hash: 6204dce4709e1ebcffb783829eabe6ee832c11a2
-last_modified_at: 2024-06-19
+content_hash: f9507c9c7fa9077b1b1f2b540c814664adf7ad65
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/split.html
@@ -11,12 +11,15 @@ related_topics:
   - title: Indonesia version
     url: /id/common/split.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/split.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # split
 
 Split een bestand in stukken.
-Meer informatie: <https://www.gnu.org/software/coreutils/split>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/split-invocation.html>.
 
 - Split een bestand, elk deel heeft 10 regels (behalve het laatste deel):
 

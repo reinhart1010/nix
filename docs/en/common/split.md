@@ -2,18 +2,24 @@
 layout: page
 title: common/split (English)
 description: "Split a file into pieces."
-content_hash: 767b9526644a3715cba81378a2fff94339069522
-last_modified_at: 2024-06-18
+content_hash: d1f9ea626f111973d97db7ed7a71141f3c81aa0b
+last_modified_at: 2025-03-02
 related_topics:
   - title: Indonesia version
     url: /id/common/split.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/split.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/split.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # split
 
 Split a file into pieces.
-More information: <https://www.gnu.org/software/coreutils/split>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/split-invocation.html>.
 
 - Split a file, each split having 10 lines (except the last split):
 

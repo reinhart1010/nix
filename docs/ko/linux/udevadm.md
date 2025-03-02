@@ -2,8 +2,8 @@
 layout: page
 title: linux/udevadm (한국어)
 description: "Linux `udev` 관리 도구."
-content_hash: fb64045b5dee755f87f1721b8a817168532ed576
-last_modified_at: 2024-11-10
+content_hash: 689fc153ba3d3da876dd2c7d1b76b14cbe902fcb
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/udevadm.html
@@ -33,7 +33,7 @@ Linux `udev` 관리 도구.
 
 - 모든 `udev` 규칙 다시 로드:
 
-`sudo udevadm control --reload-rules`
+`sudo udevadm control --reload`
 
 - 모든 `udev` 규칙 실행 트리거:
 

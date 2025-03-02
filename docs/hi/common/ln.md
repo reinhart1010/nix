@@ -2,14 +2,17 @@
 layout: page
 title: common/ln (हिन्दी)
 description: "फाइलों और निर्देशिकाओं के लिंक बनाता है।"
-content_hash: aa554167f9195d8f87d5ab8ce45397b28f5cccfe
-last_modified_at: 2023-11-12
+content_hash: b0ac224408ef5598209a6df7ee1bef09ebe25cf2
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/ln.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/ln.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/ln.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ln.html
@@ -31,7 +34,7 @@ tldri18n_status: 2
 # ln
 
 फाइलों और निर्देशिकाओं के लिंक बनाता है।
-अधिक जानकारी: <https://www.gnu.org/software/coreutils/ln>।
+अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/ln-invocation.html>।
 
 - किसी फ़ाइल या निर्देशिका के लिए एक प्रतीकात्मक लिंक बनाएँ:
 

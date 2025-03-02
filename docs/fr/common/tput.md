@@ -3,17 +3,23 @@ layout: page
 title: common/tput (français)
 description: "Accède et modifie les paramètres du terminal."
 content_hash: 04c0a0d9abe670648b47f9f5ffeb92765eed4c3c
-last_modified_at: 2023-11-12
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/tput.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tput.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/tput.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# tput
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># tput
 
 Accède et modifie les paramètres du terminal.
 Plus d'informations : <https://manned.org/tput>.

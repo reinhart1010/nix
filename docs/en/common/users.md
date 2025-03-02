@@ -2,14 +2,23 @@
 layout: page
 title: common/users (English)
 description: "Display a list of logged in users."
-content_hash: 17c758e3e823a4766ad4411af1e6c916933ff41f
-last_modified_at: 2023-11-12
+content_hash: e6f750e31f2037f02a1543117642e62b38b6d240
+last_modified_at: 2025-03-02
 related_topics:
   - title: فارسی version
     url: /fa/common/users.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/users.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/users.html
+    icon: bi bi-globe
   - title: svenska version
     url: /sv/common/users.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/users.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -17,7 +26,7 @@ tldri18n_status: 2
 
 Display a list of logged in users.
 See also: `useradd`, `userdel`, `usermod`.
-More information: <https://www.gnu.org/software/coreutils/users>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/users-invocation.html>.
 
 - Print logged in usernames:
 

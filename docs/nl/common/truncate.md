@@ -2,18 +2,21 @@
 layout: page
 title: common/truncate (Nederlands)
 description: "Verkort of verleng de grootte van een bestand naar de opgegeven grootte."
-content_hash: 44475cfb38c2cc0dc60a3dfca91f17622b559712
-last_modified_at: 2024-06-29
+content_hash: 6901343ccc27be73252fa5f4ba5b2151ae4122dc
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/truncate.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/truncate.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # truncate
 
 Verkort of verleng de grootte van een bestand naar de opgegeven grootte.
-Meer informatie: <https://www.gnu.org/software/coreutils/truncate>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/truncate-invocation.html>.
 
 - Stel een grootte van 10 GB in voor een bestaand bestand, of maak een nieuw bestand met de opgegeven grootte:
 

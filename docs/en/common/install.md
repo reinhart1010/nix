@@ -2,11 +2,20 @@
 layout: page
 title: common/install (English)
 description: "Copy files and set attributes."
-content_hash: 7a1314def30e5b76489fd0705f34bcb5b3e1d65b
-last_modified_at: 2023-11-12
+content_hash: e5ce7231463e6d5b1722dba814022c5cef0da8cf
+last_modified_at: 2025-03-02
 related_topics:
   - title: français version
     url: /fr/common/install.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/install.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/install.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/install.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -14,7 +23,7 @@ tldri18n_status: 2
 
 Copy files and set attributes.
 Copy files (often executable) to a system location like `/usr/local/bin`, give them the appropriate permissions/ownership.
-More information: <https://www.gnu.org/software/coreutils/install>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/install-invocation.html>.
 
 - Copy files to the destination:
 

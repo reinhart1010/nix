@@ -2,11 +2,14 @@
 layout: page
 title: linux/dd (한국어)
 description: "파일 변환 및 복사."
-content_hash: 94b6784362f938a44e47a664ba0d720d535fb253
-last_modified_at: 2024-06-17
+content_hash: 619578f69d5e9b188d69df0612a739a43e15105e
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/dd.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/dd.html
     icon: bi bi-globe
   - title: فارسی version
     url: /fa/linux/dd.html
@@ -14,12 +17,15 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/dd.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/dd.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # dd
 
 파일 변환 및 복사.
-더 많은 정보: <https://www.gnu.org/software/coreutils/dd>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html>.
 
 - isohybrid 파일(예: `archlinux-xxx.iso`)에서 부팅 가능한 USB 드라이브를 만들고 진행 상황 표시:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/wc (français)
 description: "Compte les lignes, les mots ou les octets."
-content_hash: 4f9b8572ca38aa5cbb3d9cdcf91b334694164176
-last_modified_at: 2023-11-12
+content_hash: ca8fb1809e94167d0c5fadfa3642141071a9b65c
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/wc.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/wc.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/wc.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/wc.html
@@ -25,7 +28,7 @@ tldri18n_status: 2
 # wc
 
 Compte les lignes, les mots ou les octets.
-Plus d'informations : <https://www.gnu.org/software/coreutils/wc>.
+Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/wc-invocation.html>.
 
 - Compte les lignes d'un fichier :
 

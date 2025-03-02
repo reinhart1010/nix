@@ -2,8 +2,8 @@
 layout: page
 title: common/sum (한국어)
 description: "파일의 체크섬과 블록 수를 계산."
-content_hash: dfeced22756441af1132a99702e537e503748e8e
-last_modified_at: 2024-11-10
+content_hash: 59d0acbb428f8b55da9ad364705edf74a91d33d8
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/sum.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 파일의 체크섬과 블록 수를 계산.
 더 현대적인 `cksum`의 전신.
-더 많은 정보: <https://www.gnu.org/software/coreutils/sum>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/sum-invocation.html>.
 
 - BSD 호환 알고리즘과 1024바이트 블록으로 체크섬 계산:
 

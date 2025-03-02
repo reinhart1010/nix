@@ -2,8 +2,8 @@
 layout: page
 title: common/expand (한국어)
 description: "탭을 공백으로 변환."
-content_hash: 0173b8918d20fec49305c55e2687be1c8ae82c78
-last_modified_at: 2024-10-17
+content_hash: 6766b2972aaf7352b2e179c5dbafd0da66d0f30a
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/expand.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # expand
 
 탭을 공백으로 변환.
-더 많은 정보: <https://www.gnu.org/software/coreutils/expand>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/expand-invocation.html>.
 
 - 각 파일의 탭을 공백으로 변환하여 `stdout`에 작성:
 

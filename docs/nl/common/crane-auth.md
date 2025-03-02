@@ -2,8 +2,8 @@
 layout: page
 title: common/crane-auth (Nederlands)
 description: "Log in of verkrijg inloggegevens."
-content_hash: 0c41cdcaa7cf3dc4365c41fd464b504878de6592
-last_modified_at: 2024-10-27
+content_hash: 03a492503edc9c462d1dbc4a4e2c9fe82b671473
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/crane-auth.html
@@ -38,6 +38,6 @@ Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/c
 
 `crane auth token `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry_adres</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-H|--header</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|--mount</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scope1 scope2 ...</span>` --push`
 
-- Toon help:
+- Toon de help:
 
 `crane auth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

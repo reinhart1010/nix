@@ -2,8 +2,8 @@
 layout: page
 title: common/gcrane-ls (Nederlands)
 description: "Toon de tags in een repository."
-content_hash: e8ec9f66c0b995b4e50d317af490546188dd50d2
-last_modified_at: 2024-10-27
+content_hash: 95edbda6abd2d7466673972508d017fde7b88f0d
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/gcrane-ls.html
@@ -31,6 +31,6 @@ Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/g
 
 `gcrane ls `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recursive</span>
 
-- Toon help:
+- Toon de help:
 
 `gcrane ls `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

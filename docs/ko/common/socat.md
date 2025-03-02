@@ -3,14 +3,20 @@ layout: page
 title: common/socat (한국어)
 description: "다목적 릴레이(SOcket CAT)."
 content_hash: 4deafd27a05e8661c656f5b395d8507b4dc0a1a2
-last_modified_at: 2024-11-10
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/socat.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: español version
+    url: /es/common/socat.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# socat
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># socat
 
 다목적 릴레이(SOcket CAT).
 더 많은 정보: <http://www.dest-unreach.org/socat/>.

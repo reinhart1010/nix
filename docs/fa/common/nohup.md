@@ -2,11 +2,17 @@
 layout: page
 title: common/nohup (فارسی)
 description: "اجرای یک پردازش در پس زمینه حتی زمانی که ترمینال بسته شود."
-content_hash: 6696b82309eb52facf44e6ebe1b2bb1ad46b42f6
-last_modified_at: 2023-11-12
+content_hash: afa6dda469856995df3b5f057a481e10f0fcd843
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/nohup.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/nohup.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/nohup.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/nohup.html
@@ -25,7 +31,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># nohup
 
 اجرای یک پردازش در پس زمینه حتی زمانی که ترمینال بسته شود.
-اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/nohup>.
+اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/nohup-invocation.html>.
 
 - اجرای پردازش در پس زمینه فارغ از اجرا بودن ترمینال:
 

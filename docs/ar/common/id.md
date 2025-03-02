@@ -2,8 +2,8 @@
 layout: page
 title: common/id (العربية)
 description: "يعرض معرف المستخدم الحالي ومعرف المجموعة."
-content_hash: 9e36ca54395dfa8e1f4c86f02784f0fbf19cd334
-last_modified_at: 2025-01-05
+content_hash: c37924c97a13ae10f34ef5897e26a96cef45fae1
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/id.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # id
 
 يعرض معرف المستخدم الحالي ومعرف المجموعة.
-لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/id>.
+لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/manual/html_node/id-invocation.html>.
 
 - عرض معرف المستخدم الحالي (UID) ومعرف المجموعة (GID) والمجموعات التي ينتمي إليها:
 
@@ -52,4 +52,4 @@ tldri18n_status: 2
 
 - عرض معرف مستخدم آخر (UID) ومعرف المجموعة (GID) والمجموعات التي ينتمي إليها:
 
-`id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">اسم المستخدم</span>
+`id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>

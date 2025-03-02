@@ -2,8 +2,8 @@
 layout: page
 title: common/wc (Nederlands)
 description: "Tel regels, woorden en bytes."
-content_hash: f4f3369cd737e2178c09f5c6e4fc79ba733d0b5c
-last_modified_at: 2024-06-19
+content_hash: 6022741394bed2865d1cce4f81994aec1a263047
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/wc.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # wc
 
 Tel regels, woorden en bytes.
-Meer informatie: <https://www.gnu.org/software/coreutils/wc>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/wc-invocation.html>.
 
 - Tel alle regels in een bestand:
 

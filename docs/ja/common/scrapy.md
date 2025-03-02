@@ -2,18 +2,24 @@
 layout: page
 title: common/scrapy (日本語)
 description: "ウェブクローリングのフレームワークです。"
-content_hash: b7c085234b9086d00412d9f2fea89189fb7c92c1
-last_modified_at: 2023-11-12
+content_hash: a1ac3f34ef801ba7ea0a6d56a91b3d3445a30bc6
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/scrapy.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/scrapy.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/scrapy.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # scrapy
 
 ウェブクローリングのフレームワークです。
-詳しくはこちら: <https://scrapy.org>
+もっと詳しく: <https://scrapy.org>。
 
 - プロジェクトを作成する:
 

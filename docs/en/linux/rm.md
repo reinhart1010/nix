@@ -2,11 +2,17 @@
 layout: page
 title: linux/rm (English)
 description: "Remove files or directories."
-content_hash: 9c5ec0925430f765d7c7a21e329a3bacc8d1b446
-last_modified_at: 2024-09-04
+content_hash: f3e9cbdf5289a44243dffd457571ae1bd7903155
+last_modified_at: 2025-03-02
 related_topics:
+  - title: العربية version
+    url: /ar/linux/rm.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/rm.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/rm.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/rm.html
@@ -20,7 +26,7 @@ tldri18n_status: 2
 
 Remove files or directories.
 See also: `rmdir`.
-More information: <https://www.gnu.org/software/coreutils/rm>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - Remove specific files:
 

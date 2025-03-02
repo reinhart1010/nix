@@ -2,14 +2,24 @@
 layout: page
 title: common/seq (English)
 description: "Output a sequence of numbers to `stdout`."
-content_hash: dd3f62cff22f29c55dcd16785285d0dce00fb56b
-last_modified_at: 2023-11-12
+content_hash: 175951a2631ba2d45d845b81860019218e647e12
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/seq.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/seq.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/seq.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # seq
 
 Output a sequence of numbers to `stdout`.
-More information: <https://www.gnu.org/software/coreutils/seq>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/seq-invocation.html>.
 
 - Sequence from 1 to 10:
 

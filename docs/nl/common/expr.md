@@ -2,18 +2,24 @@
 layout: page
 title: common/expr (Nederlands)
 description: "Evalueer expressies en manipuleer string."
-content_hash: 970d77d91dde0c110ad352c3d669d55f2f00945e
-last_modified_at: 2024-06-19
+content_hash: 87a96fbdc1d77951d81d9aea6a686b9e0967ceae
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/expr.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/expr.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/expr.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # expr
 
 Evalueer expressies en manipuleer string.
-Meer informatie: <https://www.gnu.org/software/coreutils/expr>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/expr-invocation.html>.
 
 - Krijg de lengte van een specifieke string:
 

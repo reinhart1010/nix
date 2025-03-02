@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (日本語)
 description: "コマンドラインのテキストエディタである Vim（Vi IMproved）には、さまざまな種類のテキスト操作のためのモードが用意されています。"
-content_hash: d0711a5e10b2f4bd4057af762e0465c12369bff9
-last_modified_at: 2024-10-21
+content_hash: 05a1d0acc645ce7920022d60f6776e01840a0555
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/vim.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/vim.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/vim.html
@@ -47,7 +50,7 @@ tldri18n_status: 2
 
 コマンドラインのテキストエディタである Vim（Vi IMproved）には、さまざまな種類のテキスト操作のためのモードが用意されています。
 `i` を押すと編集モードになります。`<Esc>` を押すと通常モードに戻り、通常のテキスト挿入はできません。
-詳しくはこちら: <https://www.vim.org>
+もっと詳しく: <https://www.vim.org>。
 
 - ファイルを開く:
 

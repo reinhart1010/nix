@@ -2,11 +2,20 @@
 layout: page
 title: common/join (português (Brasil))
 description: "Junta linhas de dois arquivos ordenados em um campo comum."
-content_hash: fa2cf973cfa485f0af009bb5fa1577c14c8e8cff
-last_modified_at: 2023-11-12
+content_hash: 1f3fedfb101c5f454690e2a06b9f89dde1814c8b
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/join.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/join.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/join.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/join.html
     icon: bi bi-globe
 tldri18n_status: 1
 ---
@@ -16,7 +25,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># join
 
 Junta linhas de dois arquivos ordenados em um campo comum.
-Mais informações: <https://www.gnu.org/software/coreutils/join>.
+Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/join-invocation.html>.
 
 - Junta dois arquivos no primeiro campo (padrão):
 

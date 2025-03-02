@@ -2,11 +2,14 @@
 layout: page
 title: linux/df (Nederlands)
 description: "Toon een overzicht van het gebruik van het bestandssysteem op het gebied van schijfruimte."
-content_hash: 2f336aa72913a6e4cd11a056cc13a07bb44a217b
-last_modified_at: 2024-11-16
+content_hash: dc5f41d6749630f3ec7c31ec87ee4b1c7b194dd4
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/df.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/linux/df.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/df.html
@@ -14,12 +17,15 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/df.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/df.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # df
 
 Toon een overzicht van het gebruik van het bestandssysteem op het gebied van schijfruimte.
-Meer informatie: <https://www.gnu.org/software/coreutils/df>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/df-invocation.html>.
 
 - Toon alle bestandssystemen en hun schijfgebruik:
 

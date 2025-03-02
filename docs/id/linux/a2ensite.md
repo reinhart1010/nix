@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/a2ensite (Indonesia)
-description: "Izinkan sebuah host maya (virtual host) Apache pada OS berbasis Debian."
-content_hash: a2566c624a57a7b0041d156fa9a697434c685f0b
-last_modified_at: 2024-09-18
+description: "Nyalakan fungsi peladenan suatu host maya (virtual host) pada piranti peladen Apache dalam sistem operasi berbasis Debian."
+content_hash: 80b93db13ab5cd6704e085a8a6d9e15964633532
+last_modified_at: 2025-03-02
 related_topics:
   - title: català version
     url: /ca/linux/a2ensite.html
@@ -23,6 +23,9 @@ related_topics:
   - title: italiano version
     url: /it/linux/a2ensite.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/a2ensite.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/a2ensite.html
     icon: bi bi-globe
@@ -39,13 +42,13 @@ tldri18n_status: 2
 ---
 # a2ensite
 
-Izinkan sebuah host maya (virtual host) Apache pada OS berbasis Debian.
+Nyalakan fungsi peladenan suatu host maya (virtual host) pada piranti peladen Apache dalam sistem operasi berbasis Debian.
 Informasi lebih lanjut: <https://manned.org/a2ensite.8>.
 
-- Izinkan sebuah host maya:
+- Nyalakan suatu host maya:
 
 `sudo a2ensite `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_maya</span>
 
-- Jangan tampilkan pesan informatif:
+- Jangan menampilkan pesan-pesan informatif selama melakukan operasi:
 
 `sudo a2ensite --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_maya</span>

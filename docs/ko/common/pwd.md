@@ -2,8 +2,8 @@
 layout: page
 title: common/pwd (한국어)
 description: "현재 작업 디렉토리의 이름을 출력."
-content_hash: 3d2061cf4000a49d0e30e94c45212a08bcb2c100
-last_modified_at: 2024-12-10
+content_hash: ee81c9bd6a445725ab41a8d34b4f93fe15e1d43f
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/common/pwd.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # pwd
 
 현재 작업 디렉토리의 이름을 출력.
-더 많은 정보: <https://www.gnu.org/software/coreutils/pwd>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html>.
 
 - 현재 디렉토리 출력:
 

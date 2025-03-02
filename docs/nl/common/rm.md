@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (Nederlands)
 description: "Verwijder bestanden of mappen."
-content_hash: 91453ba78ad0498fab59bad56adfb5c808ec5a32
-last_modified_at: 2024-06-19
+content_hash: 8eb46f9c5d8eec1f7b59401942d4c31cebe8c223
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -47,7 +47,7 @@ tldri18n_status: 2
 
 Verwijder bestanden of mappen.
 Bekijk ook: `rmdir`.
-Meer informatie: <https://www.gnu.org/software/coreutils/rm>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - Verwijder specifieke bestanden:
 

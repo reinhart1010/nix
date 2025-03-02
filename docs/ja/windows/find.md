@@ -2,8 +2,8 @@
 layout: page
 title: windows/find (日本語)
 description: "1つ以上のファイルで指定された文字列を検索します。"
-content_hash: 0fdac5218c34e3c0c164a9bd8e9342e2f71ec42d
-last_modified_at: 2023-12-29
+content_hash: 635c2774335ed69e612cc9cc34832bf7b106f058
+last_modified_at: 2025-03-02
 related_topics:
   - title: বাংলা version
     url: /bn/windows/find.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/find.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/find.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/windows/find.html
@@ -34,7 +37,7 @@ tldri18n_status: 2
 # find
 
 1つ以上のファイルで指定された文字列を検索します。
-詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>
+もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>。
 
 - 指定された文字列を含む行を検索します:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/lpr (한국어)
 description: "파일을 인쇄합니다."
-content_hash: 8ecc15fa7e27ae1db2975865cf1eb839c516eccf
-last_modified_at: 2024-11-08
+content_hash: 73fca586f37df4f754f0a8cf748e6f71a41aefcd
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/lpr.html
@@ -34,7 +34,7 @@ tldri18n_status: 2
 
 `lpr -P `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프린터</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span>
 
-- 특정 페이지(예: 2) 또는 페이지 범위(예: 2–16) 인쇄:
+- 특정 페이지(예: 2) 또는 페이지 범위(예: 2-16) 인쇄:
 
 `lpr -o page-ranges=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2|2-16</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span>
 

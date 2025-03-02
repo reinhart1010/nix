@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (italiano)
 description: "Crea directory."
-content_hash: def6d8f023f240a70d8dd1d7a31db56cbb12137d
-last_modified_at: 2024-09-07
+content_hash: a9a0ed5c24480ee9e10ab479f12664d1d807a5e8
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -52,7 +52,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># mkdir
 
 Crea directory.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/mkdir>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - Crea una directory nella directory corrente o in un dato percorso:
 

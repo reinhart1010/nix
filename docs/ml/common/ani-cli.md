@@ -3,7 +3,7 @@ layout: page
 title: common/ani-cli (മലയാളം)
 description: "അനിമേ തിരയുവാനും കാണുവാനുമുള്ള കമാൻഡ് ലൈൻ യൂട്ടിലിറ്റി."
 content_hash: d3f683a7883f2e2e3409298890827ba9858688e9
-last_modified_at: 2023-11-23
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/ani-cli.html
@@ -14,15 +14,30 @@ related_topics:
   - title: español version
     url: /es/common/ani-cli.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/ani-cli.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/ani-cli.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ani-cli.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/ani-cli.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ani-cli.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/ani-cli.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# ani-cli
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># ani-cli
 
 അനിമേ തിരയുവാനും കാണുവാനുമുള്ള കമാൻഡ് ലൈൻ യൂട്ടിലിറ്റി.
 കൂടുതൽ വിവരങ്ങൾ: <https://github.com/pystardust/ani-cli>.

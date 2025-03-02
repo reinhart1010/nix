@@ -1,12 +1,18 @@
 ---
 layout: page
 title: common/egrep (English)
-description: "Find patterns in files using extended regular expression (supports `?`, `+`, `{}`, `()` and `|`)."
-content_hash: fbfa13406dfe7980ab7846f89152b499ec7e6c01
-last_modified_at: 2024-01-31
+description: "Find patterns in files using extended regular expression (supports `?`, `+`, `{}`, `()`, and `|`)."
+content_hash: 7c57512b27635fca22144202b875226038c4bc9b
+last_modified_at: 2025-03-02
 related_topics:
   - title: français version
     url: /fr/common/egrep.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/egrep.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/egrep.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/egrep.html
@@ -15,7 +21,7 @@ tldri18n_status: 2
 ---
 # egrep
 
-Find patterns in files using extended regular expression (supports `?`, `+`, `{}`, `()` and `|`).
+Find patterns in files using extended regular expression (supports `?`, `+`, `{}`, `()`, and `|`).
 More information: <https://manned.org/egrep>.
 
 - Search for a pattern within a file:

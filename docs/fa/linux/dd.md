@@ -2,11 +2,14 @@
 layout: page
 title: linux/dd (فارسی)
 description: "تبدیل و کپی یک فایل."
-content_hash: 67e34809ebe61b6b6bfbcdb64b3bfcef9b7d5f9f
-last_modified_at: 2024-06-17
+content_hash: fbe878f20a02cb3638dc852dd7f4addc7e3ace32
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/dd.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/dd.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/dd.html
@@ -14,12 +17,15 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/dd.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/dd.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # dd
 
 تبدیل و کپی یک فایل.
-اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/dd>.
+اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html>.
 
 - ساخت یک درایو USB قابل بوت از یک فایل iso (مثل `archlinux-xxx.iso`) و نمایش پیشرفت:
 

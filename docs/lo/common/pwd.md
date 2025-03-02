@@ -2,8 +2,8 @@
 layout: page
 title: common/pwd (ລາວ)
 description: "ສະແດງຊື່ directory ທີ່ເຮັດວຽກຢູ່"
-content_hash: b521a46801e47efc232e6c089c8b060794edc4b4
-last_modified_at: 2024-12-10
+content_hash: 8b81b2673de2c26085b19bda4ee9235ab0b16369
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/common/pwd.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # pwd
 
 ສະແດງຊື່ directory ທີ່ເຮັດວຽກຢູ່
-ຂໍ້ມູນເພີ່ມເຕີມ: <https://www.gnu.org/software/coreutils/pwd>.
+ຂໍ້ມູນເພີ່ມເຕີມ: <https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html>.
 
 - ສະແດງຊື່ directory ທີ່ເຮັດວຽກຢູ່:
 

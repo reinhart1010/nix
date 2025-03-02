@@ -2,18 +2,21 @@
 layout: page
 title: common/nproc (Nederlands)
 description: "Toon het aantal beschikbare verwerkingsunits (meestal CPU's)."
-content_hash: c59a9af79a38f3f6a69f583fc8c289ba7b36140f
-last_modified_at: 2024-06-28
+content_hash: 2c9691d0e02abc2b534904f80c492bb2077d1b1e
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/nproc.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/nproc.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # nproc
 
 Toon het aantal beschikbare verwerkingsunits (meestal CPU's).
-Meer informatie: <https://www.gnu.org/software/coreutils/nproc>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/nproc-invocation.html>.
 
 - Toon het aantal beschikbare verwerkingsunits:
 

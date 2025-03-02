@@ -2,8 +2,18 @@
 layout: page
 title: common/uv (English)
 description: "A fast Python package and project manager."
-content_hash: 624f5817fcd85b284a86bcd11199e0f94c4fb7a0
-last_modified_at: 2024-10-05
+content_hash: 256bcee86c5d87d0c764bf7a42d5015019f98fc2
+last_modified_at: 2025-03-02
+related_topics:
+  - title: español version
+    url: /es/common/uv.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/uv.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/uv.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # uv
@@ -16,15 +26,15 @@ More information: <https://docs.astral.sh/uv/reference/cli>.
 
 `uv init`
 
-- Create a new Python project in a directory with the given name:
+- Create a new Python project at the specified path:
 
-`uv init `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span>
+`uv init `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- Add a new package to the project:
+- Add a new dependency to the project:
 
 `uv add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Remove a package from the project:
+- Remove a dependency from the project:
 
 `uv remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 

@@ -2,9 +2,12 @@
 layout: page
 title: linux/systemd-analyze (English)
 description: "Analyze and debug system manager."
-content_hash: 7edce1d5550b695f1a508546c27793d2e8361858
-last_modified_at: 2023-11-12
+content_hash: 80d89aa20bcd3a3d142379d38b614f18ac009c02
+last_modified_at: 2025-03-02
 related_topics:
+  - title: 한국어 version
+    url: /ko/linux/systemd-analyze.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/linux/systemd-analyze.html
     icon: bi bi-globe
@@ -15,6 +18,10 @@ tldri18n_status: 2
 Analyze and debug system manager.
 Show timing details about the boot process of units (services, mount points, devices, sockets).
 More information: <https://www.freedesktop.org/software/systemd/man/systemd-analyze.html>.
+
+- Print the last system startup time:
+
+`systemd-analyze`
 
 - List all running units, ordered by the time they took to initialize:
 

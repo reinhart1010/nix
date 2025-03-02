@@ -2,11 +2,14 @@
 layout: page
 title: common/env (한국어)
 description: "환경을 보여주거나 수정된 환경에서 프로그램을 실행."
-content_hash: 7dbd8fd941f41dddfb3184eafe3c6c39727b08b9
-last_modified_at: 2024-10-17
+content_hash: b61e7f01bf78376aadf736a1506716dd0519c76f
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/env.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/env.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/env.html
@@ -25,7 +28,7 @@ tldri18n_status: 2
 # env
 
 환경을 보여주거나 수정된 환경에서 프로그램을 실행.
-더 많은 정보: <https://www.gnu.org/software/coreutils/env>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/env-invocation.html>.
 
 - 환경 표시:
 

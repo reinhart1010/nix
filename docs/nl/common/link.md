@@ -2,11 +2,14 @@
 layout: page
 title: common/link (Nederlands)
 description: "Maak een harde koppeling naar een bestaand bestand."
-content_hash: ca91b99d8502567ea3bbde8e90f0f92626e4ae7a
-last_modified_at: 2024-06-19
+content_hash: 98b36f9e8dc629c6d79f9e6e9d121175fcac0ab2
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/link.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/link.html
     icon: bi bi-globe
   - title: српски version
     url: /sr/common/link.html
@@ -17,7 +20,7 @@ tldri18n_status: 2
 
 Maak een harde koppeling naar een bestaand bestand.
 Voor meer opties, zie het `ln` commando.
-Meer informatie: <https://www.gnu.org/software/coreutils/link>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/link-invocation.html>.
 
 - Maak een harde koppeling van een nieuw bestand naar een bestaand bestand:
 

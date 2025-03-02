@@ -2,8 +2,8 @@
 layout: page
 title: common/exa (한국어)
 description: "`ls`의 현대적인 대체품 (디렉토리 내용 나열)."
-content_hash: 8a0a80822a66001f04d7b01e939466022d70773b
-last_modified_at: 2024-06-10
+content_hash: 45b994a8f6cd5acb3a897bb7b4e76dffe9a1714f
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/exa.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # exa
 
 `ls`의 현대적인 대체품 (디렉토리 내용 나열).
-더 많은 정보: <https://the.exa.website>.
+더 많은 정보: <https://github.com/ogham/exa>.
 
 - 파일을 한 줄에 하나씩 나열:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/stdbuf (हिन्दी)
 description: "एक कमांड को उसके मानक स्ट्रीम के लिए संशोधित बफरिंग ऑपरेशनों के साथ चलाएं।"
-content_hash: 2f7413f2e97eefb84a561051fc2673c07c8cec23
-last_modified_at: 2024-11-10
+content_hash: d289086de0d5627d6fae4fe0593bc0325434c3c9
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/stdbuf.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # stdbuf
 
 एक कमांड को उसके मानक स्ट्रीम के लिए संशोधित बफरिंग ऑपरेशनों के साथ चलाएं।
-अधिक जानकारी: <https://www.gnu.org/software/coreutils/stdbuf>।
+अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/stdbuf-invocation.html>।
 
 - `stdin` बफर का आकार 512 KiB में बदलें:
 

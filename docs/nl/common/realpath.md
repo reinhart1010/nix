@@ -2,18 +2,21 @@
 layout: page
 title: common/realpath (Nederlands)
 description: "Toon het opgeloste absolute pad voor een bestand of map."
-content_hash: 5e20407dd3c59586352c9436256e6b80da92085c
-last_modified_at: 2024-06-27
+content_hash: 3e817152920c6aadad2f53d594f87082384d842a
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/realpath.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/realpath.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # realpath
 
 Toon het opgeloste absolute pad voor een bestand of map.
-Meer informatie: <https://www.gnu.org/software/coreutils/realpath>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/realpath-invocation.html>.
 
 - Toon het absolute pad voor een bestand of map:
 

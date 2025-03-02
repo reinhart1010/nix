@@ -2,8 +2,8 @@
 layout: page
 title: common/crane-config (Nederlands)
 description: "Verkrijg de configuratie van een image."
-content_hash: 368dd61210560bddabac77b20c38edbb6c309d03
-last_modified_at: 2024-10-27
+content_hash: 6f57b2249ae5ae829ba027009322ed1aa8117061
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/crane-config.html
@@ -22,6 +22,6 @@ Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/c
 
 `crane config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_naam</span>
 
-- Toon help:
+- Toon de help:
 
 `crane config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

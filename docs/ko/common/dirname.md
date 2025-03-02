@@ -2,14 +2,17 @@
 layout: page
 title: common/dirname (한국어)
 description: "주어진 파일 혹은 디렉토리 경로의 부모 디렉토리를 계산한다."
-content_hash: 3b533258c90827700add1cdbd6fe7f87c4391a20
-last_modified_at: 2023-11-12
+content_hash: b9b0dd1057c53bd459780856c32b889e74984d27
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/dirname.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/dirname.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/dirname.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/dirname.html
@@ -19,7 +22,7 @@ tldri18n_status: 2
 # dirname
 
 주어진 파일 혹은 디렉토리 경로의 부모 디렉토리를 계산한다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/dirname>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/dirname-invocation.html>.
 
 - 주어진 경로의 부모 디렉토리 계산:
 

@@ -2,18 +2,24 @@
 layout: page
 title: common/expand (italiano)
 description: "Converti caratteri tab in spazi."
-content_hash: b25bd0757279cba7d8d96eb832d96a3f822c03bc
-last_modified_at: 2024-03-12
+content_hash: 418c83c61964fca40d81e39e405503714f195b25
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/expand.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/expand.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/expand.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # expand
 
 Converti caratteri tab in spazi.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/expand>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/expand-invocation.html>.
 
 - Converti tab in un file in spazi, scrivendo su standard output:
 

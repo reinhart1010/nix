@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (中文)
 description: "使用正则表达式查找文件中的模式。"
-content_hash: 923277649c02188e3c374ba669ef9c844791ff58
-last_modified_at: 2024-10-13
+content_hash: 89a7a1022c07f3831408bb412d1aef706248094f
+last_modified_at: 2025-03-02
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -22,6 +22,12 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/grep.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/grep.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/grep.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/grep.html
@@ -44,6 +50,9 @@ related_topics:
   - title: українська version
     url: /uk/common/grep.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/grep.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # grep
@@ -63,7 +72,7 @@ tldri18n_status: 2
 
 `grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recursive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--line-number</span>` --binary-files `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">模式字符串</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span>
 
-- 使用大小写不敏感的扩展正则表达式（支持 `?`、`+`、`{}`、`()` 和 `|`）：
+- 使用大小写不敏感的扩展正则表达式（支持 `?`、`+`、`{}`、`()`, 和 `|`）：
 
 `grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-E|--extended-regexp</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--ignore-case</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">模式字符串</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span>
 

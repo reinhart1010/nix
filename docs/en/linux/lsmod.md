@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/lsmod (English)
-description: "Shows the status of Linux kernel modules."
-content_hash: c839a5b725aaac8cd81659e699719c8161a2e107
-last_modified_at: 2023-11-12
+description: "Show the status of Linux kernel modules."
+content_hash: 068350d4d01a3af4c0903ae19e1c0c18fdfe90ba
+last_modified_at: 2025-03-02
 related_topics:
   - title: català version
     url: /ca/linux/lsmod.html
@@ -27,8 +27,8 @@ tldri18n_status: 2
 ---
 # lsmod
 
-Shows the status of Linux kernel modules.
-See also `modprobe`, which loads kernel modules.
+Show the status of Linux kernel modules.
+See also: `kmod`, for other module management commands.
 More information: <https://manned.org/lsmod>.
 
 - List all currently loaded kernel modules:

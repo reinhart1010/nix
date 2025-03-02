@@ -2,8 +2,8 @@
 layout: page
 title: linux/chcon (français)
 description: "Change le contexte de sécurité de SELinux d'un ou plusieurs fichiers/dossiers."
-content_hash: 650571c506a8bcb4f2e95c2348e0abaead46ea1b
-last_modified_at: 2023-11-12
+content_hash: 7300b0839627602cda9f180a80564eac46534a3c
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/chcon.html
@@ -14,12 +14,15 @@ related_topics:
   - title: 한국어 version
     url: /ko/linux/chcon.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/chcon.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # chcon
 
 Change le contexte de sécurité de SELinux d'un ou plusieurs fichiers/dossiers.
-Plus d'informations : <https://www.gnu.org/software/coreutils/chcon>.
+Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/chcon-invocation.html>.
 
 - Affiche le contexte de sécurité d'un fichier :
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/rmdir (中文 (繁體, 台灣))
 description: "移除目錄。"
-content_hash: 832d0eb75e9e26fc815c1e086b284318a406e03b
-last_modified_at: 2023-11-12
+content_hash: 560228e897205d2b2d3eee330e89a1be0c1483ec
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/common/rmdir.html
@@ -13,6 +13,12 @@ related_topics:
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/rmdir.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/rmdir.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/rmdir.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/rmdir.html
@@ -25,7 +31,7 @@ tldri18n_status: 2
 # rmdir
 
 移除目錄。
-更多資訊：<https://www.gnu.org/software/coreutils/rmdir>.
+更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/rmdir-invocation.html>.
 
 - 若為空目錄則移除目錄（如果目錄非空，可用 `rm -r` 移除目錄及其所包含的檔案）：
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/git (日本語)
 description: "分散型バージョン管理システム"
-content_hash: 8ac6dd3cc79d2c6edbdf918eda54b9c5dd705d1a
-last_modified_at: 2024-10-13
+content_hash: 6c68a981c18169674d73c750188c5536e8e3afeb
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -32,6 +32,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/git.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/git.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git.html
     icon: bi bi-globe
@@ -56,7 +59,7 @@ tldri18n_status: 2
 
 分散型バージョン管理システム
 いくつかのサブコマンドがあります。例えば `commit`, `add`, `branch`, `checkout`, `push`, などです。 これらには使用方法についての独自のドキュメントがあり、 `tldr git subcommand` で見ることができます。
-詳しくはこちら: <https://git-scm.com/>
+もっと詳しく: <https://git-scm.com/>。
 
 - Gitのサブコマンドを実行する:
 

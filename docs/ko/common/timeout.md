@@ -2,8 +2,8 @@
 layout: page
 title: common/timeout (한국어)
 description: "명령을 일정 시간 제한 내에서 실행."
-content_hash: ca61dbdf532d4a518fd1745a18c678af60cc6867
-last_modified_at: 2024-11-10
+content_hash: ebd34a1ce2ff3ac6bca70b4f26c597d42771778c
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/timeout.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # timeout
 
 명령을 일정 시간 제한 내에서 실행.
-더 많은 정보: <https://www.gnu.org/software/coreutils/timeout>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/timeout-invocation.html>.
 
 - `sleep 10`을 실행하고 3초 후 종료:
 

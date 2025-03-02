@@ -1,10 +1,16 @@
 ---
 layout: page
 title: linux/pw-play (English)
-description: "Play audio files through PipeWire."
-content_hash: 5931ba44fae6f960f4598a237396aa9155aa9f3d
-last_modified_at: 2024-04-04
+description: "This command is an alias of `pw-cat --playback`."
+content_hash: 2f7c418b1ac04f68fb50359a4089e01784ffe834
+last_modified_at: 2025-03-02
 related_topics:
+  - title: 한국어 version
+    url: /ko/linux/pw-play.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/pw-play.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/pw-play.html
     icon: bi bi-globe
@@ -15,15 +21,8 @@ tldri18n_status: 2
 ---
 # pw-play
 
-Play audio files through PipeWire.
-Shorthand for `pw-cat --playback`.
-See also: `play`.
-More information: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
+This command is an alias of `pw-cat --playback`.
 
-- Play a WAV sound file over the default target:
+- View documentation for the original command:
 
-`pw-play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.wav</span>
-
-- Play a WAV sound file at a different volume level:
-
-`pw-play --volume=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.wav</span>
+`tldr pw-cat`

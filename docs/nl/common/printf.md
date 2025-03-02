@@ -2,18 +2,21 @@
 layout: page
 title: common/printf (Nederlands)
 description: "Formatteer en toon tekst."
-content_hash: 1c4baa9e1297b40a6fcd7c5a2d9eb03dc8357c75
-last_modified_at: 2024-06-27
+content_hash: 9d700daa7cbed0834988e174b65d7bd95a75a072
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/printf.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/printf.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # printf
 
 Formatteer en toon tekst.
-Meer informatie: <https://www.gnu.org/software/coreutils/printf>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/printf-invocation.html>.
 
 - Toon een tekstbericht:
 

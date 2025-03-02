@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (українська)
 description: "Пошук шаблонів у файлах за допомогою регулярних виразів."
-content_hash: dc17a5384273493fe21646be8fe1990cac247bcf
-last_modified_at: 2024-10-12
+content_hash: b2814f70ff7431fbc80187cd6fdc32b632e59b5c
+last_modified_at: 2025-03-02
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -22,6 +22,12 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/grep.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/grep.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/grep.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/grep.html
@@ -44,6 +50,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/grep.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/grep.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # grep
@@ -63,7 +72,7 @@ tldri18n_status: 2
 
 `grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recursive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--line-number</span>` --binary-files `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон_пошуку</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/каталогу</span>
 
-- Використовувати розширені регулярні вирази (підтримує `?`, `+`, `{}`, `()` та `|`), у режимі без урахування регістру:
+- Використовувати розширені регулярні вирази (підтримує `?`, `+`, `{}`, `()`, та `|`), у режимі без урахування регістру:
 
 `grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-E|--extended-regexp</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--ignore-case</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон_пошуку</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span>
 

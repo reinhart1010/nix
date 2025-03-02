@@ -2,11 +2,14 @@
 layout: page
 title: linux/sleep (中文)
 description: "延迟指定的一段时间。"
-content_hash: a1a6a0ab9b7211f1d74e646ff9d0fb4ec145bfdb
-last_modified_at: 2024-06-21
+content_hash: 8b23cc6ea93ba3e0fa51aba78f73c21ec6753c17
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/sleep.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/sleep.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/sleep.html
@@ -19,7 +22,7 @@ tldri18n_status: 2
 # sleep
 
 延迟指定的一段时间。
-更多信息：<https://www.gnu.org/software/coreutils/sleep>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/sleep-invocation.html>.
 
 - 按秒数延迟：
 

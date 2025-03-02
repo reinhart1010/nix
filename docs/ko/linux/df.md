@@ -2,11 +2,14 @@
 layout: page
 title: linux/df (한국어)
 description: "파일 시스템 디스크 공간 사용 개요를 표시합니다."
-content_hash: 11c8dd45a49caaf7ad11121aac8ea8f75901a0c0
-last_modified_at: 2024-11-09
+content_hash: 31e5a82261402b1220e4dafafc8fdac364975340
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/df.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/linux/df.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/df.html
@@ -14,12 +17,15 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/df.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/df.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # df
 
 파일 시스템 디스크 공간 사용 개요를 표시합니다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/df>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/df-invocation.html>.
 
 - 모든 파일 시스템과 디스크 사용량 표시:
 

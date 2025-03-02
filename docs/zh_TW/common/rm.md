@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (中文 (繁體, 台灣))
 description: "移除檔案或目錄。"
-content_hash: 5bb6614cdd810d9212f8985e0820acf7fd977895
-last_modified_at: 2023-12-29
+content_hash: 0f606701b75adb1d8329b5f70c7b43a54c595ccd
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># rm
 
 移除檔案或目錄。
-更多資訊：<https://www.gnu.org/software/coreutils/rm>.
+更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - 移除位於指定路徑的檔案：
 

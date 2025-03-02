@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (தமிழ்)
 description: "கோப்புகளையோ அடைவுகளையோ அழி."
-content_hash: f8d56f54b4544ef800a6bf6a20174d748b1284aa
-last_modified_at: 2023-11-13
+content_hash: c4602cc7952f9d2a4a30b59e848a2eed8ba7676c
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/rm.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/rm.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/rm.html
@@ -44,7 +47,7 @@ tldri18n_status: 2
 
 கோப்புகளையோ அடைவுகளையோ அழி.
 மேலும் பார்க்கவும்: `rmdir`.
-மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/rm>.
+மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - குறிப்பிட்ட கோப்புகளை அகற்றவும்:
 

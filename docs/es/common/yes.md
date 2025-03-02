@@ -2,14 +2,17 @@
 layout: page
 title: common/yes (español)
 description: "Retorna algo repetidamente."
-content_hash: b53b003489577c4780ef90cce33d0fee0e08aaf9
-last_modified_at: 2024-10-26
+content_hash: 97ca780828d1a46948e7cd62b2b931bb014e0c4d
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/yes.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/yes.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/yes.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/yes.html
@@ -23,13 +26,16 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/yes.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/yes.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # yes
 
 Retorna algo repetidamente.
 Este comando es frecuentemente utilizado para aceptar todas las confirmaciones en comandos de instalación (como apt-get).
-Más información: <https://www.gnu.org/software/coreutils/yes>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/yes-invocation.html>.
 
 - Retorna repetidamente "mensaje":
 

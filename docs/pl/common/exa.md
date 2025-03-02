@@ -2,8 +2,8 @@
 layout: page
 title: common/exa (polski)
 description: "Nowoczesny odpowiednik `ls` (wyświetla zawartość katalogu)."
-content_hash: 602afede9822f0825e4d06d32ed9ba29fd00d0db
-last_modified_at: 2023-11-12
+content_hash: 6844a4020207a067860a1020a7670e637063e68f
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/exa.html
@@ -11,15 +11,21 @@ related_topics:
   - title: English version
     url: /en/common/exa.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/exa.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/exa.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/exa.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # exa
 
 Nowoczesny odpowiednik `ls` (wyświetla zawartość katalogu).
-Więcej informacji: <https://the.exa.website>.
+Więcej informacji: <https://github.com/ogham/exa>.
 
 - Wyświetl listę plików, po jednym w linii:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-run (日本語)
 description: "新しいDockerコンテナでコマンドを実行します。"
-content_hash: b169fa52b9a629349aa683c87e0bc17b154e0940
-last_modified_at: 2024-09-26
+content_hash: d45bb2f0315a26af9302c4459e8dce4ecccff9e9
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-run.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/docker-run.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/docker-run.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-run.html
@@ -28,7 +31,7 @@ tldri18n_status: 2
 # docker run
 
 新しいDockerコンテナでコマンドを実行します。
-詳しくはこちら: <https://docs.docker.com/reference/cli/docker/container/run/>
+もっと詳しく: <https://docs.docker.com/reference/cli/docker/container/run/>。
 
 - タグ付けイメージから作成した新しいコンテナでコマンドを実行する:
 

@@ -2,14 +2,21 @@
 layout: page
 title: common/pr (English)
 description: "Paginate or columnate files for printing."
-content_hash: 5bf5de8eabe71af62d5db942e66303df11f943a3
-last_modified_at: 2024-06-26
+content_hash: c232a31fd815911969147f9abb45ffe25f13a5c7
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/pr.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/pr.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # pr
 
 Paginate or columnate files for printing.
-More information: <https://www.gnu.org/software/coreutils/pr>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/pr-invocation.html>.
 
 - Print multiple files with a default header and footer:
 

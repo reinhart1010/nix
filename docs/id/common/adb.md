@@ -2,8 +2,8 @@
 layout: page
 title: common/adb (Indonesia)
 description: "Android Debug Bridge: berkomunikasi dengan emulator Android atau perangkat Android terhubung."
-content_hash: edcb6bec62354fc4f315b8f7229e50f4a0016668
-last_modified_at: 2024-12-27
+content_hash: a8da8e9b40efd1198cecb6d32183a8f8de71e430
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -35,15 +35,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># adb
+# adb
 
 Android Debug Bridge: berkomunikasi dengan emulator Android atau perangkat Android terhubung.
-Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `shell`.
+Beberapa subperintah seperti `shell` mempunyai dokumentasi terpisah.
 Informasi lebih lanjut: <https://developer.android.com/tools/adb>.
 
 - Periksa apakah proses server adb telah dimulai dan memulainya:
@@ -73,3 +70,7 @@ Informasi lebih lanjut: <https://developer.android.com/tools/adb>.
 - Tampilkan daftar perangkat yang terhubung:
 
 `adb devices`
+
+- Tentukan perangkat yang diinstruksikan (berdasarkan nomor induk / Device ID) jika terdapat lebih dari satu perangkat yang terhubung secara bersamaan:
+
+`adb -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_ID</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell</span>

@@ -2,14 +2,23 @@
 layout: page
 title: common/id (Nederlands)
 description: "Toon de huidige gebruikers- en groepsidentiteit."
-content_hash: 8de3c0316ceaeed30bbc59f06f1d1c7cadc007fb
-last_modified_at: 2024-07-11
+content_hash: 4c05ac2d9fda7f17cdea4ae5369c5eeaae31b5e7
+last_modified_at: 2025-03-02
 related_topics:
+  - title: العربية version
+    url: /ar/common/id.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/id.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/id.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/id.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/id.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/id.html
@@ -19,7 +28,7 @@ tldri18n_status: 2
 # id
 
 Toon de huidige gebruikers- en groepsidentiteit.
-Meer informatie: <https://www.gnu.org/software/coreutils/id>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/id-invocation.html>.
 
 - Toon de ID (UID), groep-ID (GID) en groepen waartoe de huidige gebruiker behoort:
 

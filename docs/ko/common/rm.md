@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (한국어)
 description: "파일 혹은 폴더를 삭제."
-content_hash: 65b4f1a1cbb49d1614e2c41233927b3eb0bdf6bc
-last_modified_at: 2024-11-13
+content_hash: 938287dbe99cf1068f9fb8fabfbae9a9690c56e8
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -47,7 +47,7 @@ tldri18n_status: 2
 
 파일 혹은 폴더를 삭제.
 참고: `rmdir`.
-더 많은 정보: <https://www.gnu.org/software/coreutils/rm>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - 특정 파일 삭제:
 

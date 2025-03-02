@@ -2,17 +2,23 @@
 layout: page
 title: common/env (Nederlands)
 description: "Toon de omgeving of voer een programma uit in een aangepaste omgeving."
-content_hash: 9a2feb72b0464db078564b09f8ff0d518d741276
-last_modified_at: 2023-12-04
+content_hash: 321bf2da101bd925d31e6c58c285878de4d49007
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/env.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/env.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/env.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/env.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/env.html
     icon: bi bi-globe
   - title: norsk version
     url: /no/common/env.html
@@ -22,7 +28,7 @@ tldri18n_status: 2
 # env
 
 Toon de omgeving of voer een programma uit in een aangepaste omgeving.
-Meer informatie: <https://www.gnu.org/software/coreutils/env>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/env-invocation.html>.
 
 - Toon de environment:
 

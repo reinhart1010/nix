@@ -2,14 +2,20 @@
 layout: page
 title: common/rmdir (English)
 description: "Remove directories without files."
-content_hash: 991683253e98b3dc5b57fddf76fa6ff37bea9963
-last_modified_at: 2023-11-12
+content_hash: f58bdf8e8465c0c5e7f6599323d031511f96857b
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/common/rmdir.html
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/rmdir.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/rmdir.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/rmdir.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/rmdir.html
@@ -26,7 +32,7 @@ tldri18n_status: 2
 
 Remove directories without files.
 See also: `rm`.
-More information: <https://www.gnu.org/software/coreutils/rmdir>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/rmdir-invocation.html>.
 
 - Remove specific directories:
 

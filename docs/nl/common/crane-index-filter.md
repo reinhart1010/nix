@@ -2,8 +2,8 @@
 layout: page
 title: common/crane-index-filter (Nederlands)
 description: "Wijzigt een remote index door te filteren op basis van platform."
-content_hash: c44e10cb9fba469c3c803cbb0d4e3c40b1a0a603
-last_modified_at: 2024-10-27
+content_hash: 41d30c26076bf76fc22633e8db38e3030268b078
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/crane-index-filter.html
@@ -30,6 +30,6 @@ Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/c
 
 `crane index filter `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|--tags</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_naam</span>
 
-- Toon help:
+- Toon de help:
 
 `crane index filter `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

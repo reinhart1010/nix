@@ -2,11 +2,14 @@
 layout: page
 title: linux/mknod (中文)
 description: "创建块或字符设备特殊文件。"
-content_hash: f5e7531a37520d1fb6046ad0eb71564936ba4917
-last_modified_at: 2024-09-23
+content_hash: 5cd0b97992f041578f767af83fb1bd742fbc1139
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/mknod.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/mknod.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/mknod.html
@@ -16,7 +19,7 @@ tldri18n_status: 2
 # mknod
 
 创建块或字符设备特殊文件。
-更多信息：<https://www.gnu.org/software/coreutils/mknod>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/mknod-invocation.html>.
 
 - 创建块设备：
 

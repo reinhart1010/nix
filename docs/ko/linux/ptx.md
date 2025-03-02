@@ -2,8 +2,8 @@
 layout: page
 title: linux/ptx (한국어)
 description: "텍스트 파일에서 단어의 순열 색인을 생성합니다."
-content_hash: 1284af2d0e0ee01d1f8b16531f0de42292ab5e9a
-last_modified_at: 2024-11-10
+content_hash: 408613cd1f8f414c2310bbaa3fe3e8d0b6b3f589
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/ptx.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # ptx
 
 텍스트 파일에서 단어의 순열 색인을 생성합니다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/ptx>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/ptx-invocation.html>.
 
 - 각 줄의 첫 번째 필드가 색인 참조인 순열 색인 생성:
 

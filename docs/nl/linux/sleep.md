@@ -2,21 +2,27 @@
 layout: page
 title: linux/sleep (Nederlands)
 description: "Wacht voor een gespecificeerde hoeveelheid tijd."
-content_hash: 6fca9ad90431b581ed3285b172e4513c5bc82c81
-last_modified_at: 2024-06-20
+content_hash: 9d6ab91030ebf0904f34cb61eaa2434f85123c0b
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/sleep.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/sleep.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/linux/sleep.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/sleep.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # sleep
 
 Wacht voor een gespecificeerde hoeveelheid tijd.
-Meer informatie: <https://www.gnu.org/software/coreutils/sleep>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/sleep-invocation.html>.
 
 - Wacht in seconden:
 

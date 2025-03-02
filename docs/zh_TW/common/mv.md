@@ -2,8 +2,8 @@
 layout: page
 title: common/mv (中文 (繁體, 台灣))
 description: "移動或重命名文件或目錄。"
-content_hash: 79783edbfd0015824aac77305d60b5162e021b0a
-last_modified_at: 2023-11-26
+content_hash: 7b8cf7f362ea47e9d2638d506c5385997e510670
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -23,6 +23,12 @@ related_topics:
   - title: italiano version
     url: /it/common/mv.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mv.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/mv.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/mv.html
     icon: bi bi-globe
@@ -40,7 +46,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># mv
 
 移動或重命名文件或目錄。
-更多資訊：<https://www.gnu.org/software/coreutils/mv>.
+更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
 - 移動文件到任意位置：
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/pr (한국어)
 description: "파일을 인쇄용으로 페이지화하거나 열로 정렬."
-content_hash: adcb35d7219a7ee686a2efc52864793ee1cb5035
-last_modified_at: 2024-11-08
+content_hash: 10a4c99150bade47c05ff0d1a405a4ac77c1311b
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/pr.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # pr
 
 파일을 인쇄용으로 페이지화하거나 열로 정렬.
-더 많은 정보: <https://www.gnu.org/software/coreutils/pr>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/pr-invocation.html>.
 
 - 기본 헤더와 푸터로 여러 파일 인쇄:
 

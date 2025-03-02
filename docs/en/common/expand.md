@@ -2,18 +2,24 @@
 layout: page
 title: common/expand (English)
 description: "Convert tabs to spaces."
-content_hash: 22ced7b34001716ef3c83538ecbe69fe19025282
-last_modified_at: 2024-03-12
+content_hash: f02b6a8fdf63d8fc4adef59ec883f3ec424b2b6c
+last_modified_at: 2025-03-02
 related_topics:
   - title: italiano version
     url: /it/common/expand.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/expand.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/expand.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # expand
 
 Convert tabs to spaces.
-More information: <https://www.gnu.org/software/coreutils/expand>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/expand-invocation.html>.
 
 - Convert tabs in each file to spaces, writing to `stdout`:
 

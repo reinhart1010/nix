@@ -2,8 +2,8 @@
 layout: page
 title: linux/sleep (한국어)
 description: "지정된 시간만큼 지연합니다."
-content_hash: 9feb6dec8b8bd6ae067c01561ff592db45463ad4
-last_modified_at: 2024-11-12
+content_hash: bcad5b999598273648fb5b946b6a0935f9091a6e
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/sleep.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # sleep
 
 지정된 시간만큼 지연합니다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/sleep>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/sleep-invocation.html>.
 
 - 초 단위로 지연:
 

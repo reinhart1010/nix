@@ -2,8 +2,8 @@
 layout: page
 title: linux/mktemp (한국어)
 description: "임시 파일 또는 디렉토리 생성."
-content_hash: 347193aa0bd145edcaaa52d14b56f90205b80af1
-last_modified_at: 2024-11-10
+content_hash: 52944090bc60a1a0aee0986a60d93f24f9fa1da1
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/mktemp.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # mktemp
 
 임시 파일 또는 디렉토리 생성.
-더 많은 정보: <https://www.gnu.org/software/coreutils/mktemp>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/mktemp-invocation.html>.
 
 - 빈 임시 파일을 생성하고 절대 경로 출력:
 

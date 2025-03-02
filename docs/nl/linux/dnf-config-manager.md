@@ -2,11 +2,17 @@
 layout: page
 title: linux/dnf-config-manager (Nederlands)
 description: "Beheer DNF-configuratie-opties en repositories op Fedora-gebaseerde systemen."
-content_hash: 78c3d09a3d8d5114cd3f512f82e92090ad3ea21c
-last_modified_at: 2024-10-20
+content_hash: 63bb98f8f9a44ad2e364b23437050aa69e2d9cc8
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/dnf-config-manager.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/dnf-config-manager.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/dnf-config-manager.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -35,6 +41,6 @@ Meer informatie: <https://manned.org/dnf-config-manager>.
 
 `dnf config-manager --setopt=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">option</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>
 
-- Toon help:
+- Toon de help:
 
 `dnf config-manager --help-cmd`

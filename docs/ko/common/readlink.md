@@ -2,8 +2,8 @@
 layout: page
 title: common/readlink (한국어)
 description: "심볼릭 링크를 따라가고 심볼릭 링크 정보를 가져옵니다."
-content_hash: 4311a0bbbccecdfe8d04396fcc54c3d9f4a1992b
-last_modified_at: 2024-11-08
+content_hash: dcb55c3ab4b7794709e5bb54caee0bd75a14829b
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/readlink.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # readlink
 
 심볼릭 링크를 따라가고 심볼릭 링크 정보를 가져옵니다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/readlink>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/readlink-invocation.html>.
 
 - 심볼릭 링크가 가리키는 실제 파일을 가져오기:
 

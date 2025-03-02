@@ -2,8 +2,8 @@
 layout: page
 title: common/du (italiano)
 description: "Utilizzo del disco: stima e riassumi lo spazio utilizzato da file e directory."
-content_hash: 2ae205729f32a3cc6b821635002a7f189913ce65
-last_modified_at: 2024-04-29
+content_hash: b2cdd12b6d9c8fcb1fab311bc3533e6a1551a9f4
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/du.html
@@ -14,14 +14,23 @@ related_topics:
   - title: español version
     url: /es/common/du.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/du.html
+    icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/du.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/du.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/du.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/du.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/du.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/du.html
@@ -34,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># du
 
 Utilizzo del disco: stima e riassumi lo spazio utilizzato da file e directory.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/du>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html>.
 
 - Elenca le dimensioni di una directory ed ogni sotto-directory, nell'unità specificata (B/KiB/MiB):
 

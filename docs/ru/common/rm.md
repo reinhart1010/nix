@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (русский)
 description: "Удалить файлы или каталоги."
-content_hash: ad35353b37be4634b064069fd6f77fcb5d206fa3
-last_modified_at: 2023-12-29
+content_hash: d60565f53290e4385d89db3e4641962f83c0cc2f
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># rm
 
 Удалить файлы или каталоги.
-Больше информации: <https://www.gnu.org/software/coreutils/rm>.
+Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - Удалить файлы из определённых мест:
 

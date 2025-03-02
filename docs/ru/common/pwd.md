@@ -2,8 +2,8 @@
 layout: page
 title: common/pwd (русский)
 description: "Отобразить абсолютной путь до текущей/рабочей директории."
-content_hash: afe801efe2bd854ac5fc9a1306842d88c5ce1eed
-last_modified_at: 2024-12-10
+content_hash: 01340a5a381e17a925dfb10a8b99b527e8aa3439
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/common/pwd.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # pwd
 
 Отобразить абсолютной путь до текущей/рабочей директории.
-Больше информации: <https://www.gnu.org/software/coreutils/pwd>.
+Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html>.
 
 - Отобразить абсолютной путь до текущей директории:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/history (日本語)
 description: "コマンドラインの履歴です。"
-content_hash: f5557d190942a15ca1010a045effd6fe728eb149
-last_modified_at: 2024-04-11
+content_hash: 998063a09d683fb71d9250320aa6754aa0582bde
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/history.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/history.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/history.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/history.html
@@ -31,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># history
 
 コマンドラインの履歴です。
-詳しくはこちら: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>
+もっと詳しく: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>。
 
 - コマンドの履歴一覧を行番号付きで表示する:
 

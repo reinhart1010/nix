@@ -2,8 +2,8 @@
 layout: page
 title: common/tmux (日本語)
 description: "端末のマルチプレクサ。"
-content_hash: 7d33ed8deb19c6c7a964a10237dd4de2acfd5026
-last_modified_at: 2023-12-29
+content_hash: e54cebf9f01e4f13ae528d6b11d07795258431c6
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/tmux.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 端末のマルチプレクサ。
 ウィンドウやペインなどによる複数セッションを可能にします。
 も参照してください: `zellij`, `screen` 。
-詳しくはこちら: <https://github.com/tmux/tmux>
+もっと詳しく: <https://github.com/tmux/tmux>。
 
 - 新規セッションの開始:
 

@@ -2,14 +2,27 @@
 layout: page
 title: linux/head (English)
 description: "Output the first part of files."
-content_hash: 2b8962bfc67d7b0fd2981485e52aee29f0d1913d
-last_modified_at: 2023-11-12
+content_hash: 3ef6589252d0bfbf2b48cf638b7c2b0d3849c3a7
+last_modified_at: 2025-03-02
+related_topics:
+  - title: español version
+    url: /es/linux/head.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/head.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/head.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/head.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # head
 
 Output the first part of files.
-More information: <https://www.gnu.org/software/coreutils/head>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/head-invocation.html>.
 
 - Output the first few lines of a file:
 

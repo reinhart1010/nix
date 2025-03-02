@@ -2,11 +2,14 @@
 layout: page
 title: linux/pacman-sync (English)
 description: "Arch Linux package manager utility."
-content_hash: 55fef90d68aae8a9394ae7a3f15421d28168eb37
-last_modified_at: 2024-11-19
+content_hash: 12edb943b5d85ac652bd89de36e5a18220215972
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-sync.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/pacman-sync.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman-sync.html
@@ -16,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/pacman-sync.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/pacman-sync.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/pacman-sync.html
@@ -46,7 +52,7 @@ More information: <https://manned.org/pacman.8>.
 
 `sudo pacman -Syu --noconfirm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Search ([s]) the package database for a regular expression or keyword:
+- [s]earch the package database for a regular expression or keyword:
 
 `pacman -Ss "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`"`
 
@@ -58,10 +64,10 @@ More information: <https://manned.org/pacman.8>.
 
 `sudo pacman -Syu --overwrite `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- [S]ynchronize and [u]pdate all packages, but ignore a specific package (can be used more than once):
-
-`sudo pacman -Syu --ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
-
 - Remove not installed packages and unused repositories from the cache (use the flags `Sc` to [c]lean all packages):
 
 `sudo pacman -Sc`
+
+- Specify the package version that should be installed:
+
+`sudo pacman -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>

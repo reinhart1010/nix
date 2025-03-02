@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-s3 (Indonesia)
 description: "Alat baris perintah (CLI) untuk AWS S3 - jasa penyimpanan berkas bagi layanan web."
-content_hash: 63ba2a5dbb722717952d171c691e13fe9d063ffa
-last_modified_at: 2024-10-25
+content_hash: 55db28f4489ecb042b306a870b8478417c343604
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-s3.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # aws s3
 
 Alat baris perintah (CLI) untuk AWS S3 - jasa penyimpanan berkas bagi layanan web.
-Beberapa subperintah seperti `cp` memiliki dokumentasi terpisah.
+Beberapa subperintah seperti `cp` mempunyai dokumentasi terpisah.
 Informasi lebih lanjut: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/index.html>.
 
 - Tampilkan daftar seluruh berkas dalam suatu bucket:

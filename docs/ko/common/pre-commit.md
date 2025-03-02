@@ -3,14 +3,20 @@ layout: page
 title: common/pre-commit (한국어)
 description: "커밋 전에 실행되는 Git 훅을 생성."
 content_hash: bcd009299589b401927fad1a75b2c1f103833186
-last_modified_at: 2024-11-08
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/pre-commit.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: español version
+    url: /es/common/pre-commit.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# pre-commit
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># pre-commit
 
 커밋 전에 실행되는 Git 훅을 생성.
 더 많은 정보: <https://pre-commit.com>.

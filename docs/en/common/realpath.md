@@ -2,14 +2,21 @@
 layout: page
 title: common/realpath (English)
 description: "Display the resolved absolute path for a file or directory."
-content_hash: a18268623c052c653aba39095be4714ca2f39792
-last_modified_at: 2023-11-12
+content_hash: f4883e0ab211f54dcb473cbf08f50ea10252c958
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/realpath.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/realpath.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # realpath
 
 Display the resolved absolute path for a file or directory.
-More information: <https://www.gnu.org/software/coreutils/realpath>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/realpath-invocation.html>.
 
 - Display the absolute path for a file or directory:
 

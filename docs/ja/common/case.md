@@ -2,11 +2,14 @@
 layout: page
 title: common/case (日本語)
 description: "複数の選択肢がある条件文を作成するための Bash 組み込み構文。"
-content_hash: 85a87830bcd7e36307ef5b9cf432db2a3d9b3db1
-last_modified_at: 2025-01-05
+content_hash: b294866ec9b7170c5c0aa5424c0f06f9d1899a3d
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/case.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/case.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/case.html
@@ -25,7 +28,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># case
 
 複数の選択肢がある条件文を作成するための Bash 組み込み構文。
-詳しくはこちら: <https://www.gnu.org/software/bash/manual/bash.html#index-case>
+もっと詳しく: <https://www.gnu.org/software/bash/manual/bash.html#index-case>。
 
 - 変数を文字列リテラルとマッチさせ、実行するコマンドを決める:
 

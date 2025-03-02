@@ -2,9 +2,12 @@
 layout: page
 title: common/id (español)
 description: "Muestra la identidad actual del usuario y del grupo."
-content_hash: bdec68bafbb987f4f8aa20d98c7f112101d563d3
-last_modified_at: 2024-11-16
+content_hash: 9f26357e74faad9344510da3bb722370bcfa2213
+last_modified_at: 2025-03-02
 related_topics:
+  - title: العربية version
+    url: /ar/common/id.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/id.html
     icon: bi bi-globe
@@ -25,7 +28,7 @@ tldri18n_status: 2
 # id
 
 Muestra la identidad actual del usuario y del grupo.
-Más información: <https://www.gnu.org/software/coreutils/id>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/id-invocation.html>.
 
 - Muestra la ID del usuario actual (UID), la ID del grupo (GID) y los grupos a los que pertenece:
 

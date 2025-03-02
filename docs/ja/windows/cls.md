@@ -2,8 +2,8 @@
 layout: page
 title: windows/cls (日本語)
 description: "画面をクリアします。"
-content_hash: dcb4e09a449793572c21ac02ee33d2428ee86a9b
-last_modified_at: 2023-11-12
+content_hash: 68d1d1fd363784eec9b1d6d3fc5b7d3a3f89640b
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/windows/cls.html
@@ -14,11 +14,17 @@ related_topics:
   - title: فارسی version
     url: /fa/windows/cls.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/cls.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/cls.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/windows/cls.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/cls.html
     icon: bi bi-globe
   - title: ລາວ version
     url: /lo/windows/cls.html
@@ -49,7 +55,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cls
 
 画面をクリアします。
-詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>
+もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>。
 
 - 画面をクリアします:
 

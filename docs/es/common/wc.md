@@ -2,8 +2,8 @@
 layout: page
 title: common/wc (español)
 description: "Cuenta líneas, palabras, y bytes."
-content_hash: e424ee026834ad427cc34e7fe3329cd9614fb020
-last_modified_at: 2023-11-12
+content_hash: 02ff8ba4fe19c6b3c1e294f5b8f746ecdfb3f8d7
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/wc.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/wc.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/wc.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/wc.html
@@ -25,7 +28,7 @@ tldri18n_status: 2
 # wc
 
 Cuenta líneas, palabras, y bytes.
-Más información: <https://www.gnu.org/software/coreutils/wc>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/wc-invocation.html>.
 
 - Cuenta todas las líneas en un archivo:
 

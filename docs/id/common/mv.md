@@ -2,8 +2,8 @@
 layout: page
 title: common/mv (Indonesia)
 description: "Pindahkan atau namai-ulang berkas dan direktori."
-content_hash: 4b19c230d9b50d2834f9a3a3182e8e3d1fff760b
-last_modified_at: 2024-08-05
+content_hash: d98fed3c51bb2d4aad612ce3ee43102b6fbaef81
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -23,6 +23,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/mv.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/mv.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/mv.html
     icon: bi bi-globe
@@ -35,15 +38,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mv.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mv
+# mv
 
 Pindahkan atau namai-ulang berkas dan direktori.
-Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/mv>.
+Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
 - Pindahkan berkas ke lokasi yang baru:
 
@@ -59,16 +59,20 @@ Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/mv>.
 
 - Pindahkan tanpa meminta konfirmasi sebelum menimpa file yang sudah ada:
 
-`mv -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span>
+`mv --force `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span>
 
 - Minta konfirmasi sebelum menimpa berkas yang sudah ada, tanpa memerhatikan hak akses hedua file tersebut:
 
-`mv -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span>
+`mv --interactive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span>
 
 - Jangan menimpa file yang sudah ada di direktori tujuan:
 
-`mv -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span>
+`mv --no-clobber `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span>
 
 - Pindahkan berkas dalam mode [v]erbose, tampilkan berkas-berkas yang dipindahkan:
 
-`mv -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span>
+`mv --verbose `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span>
+
+- Tetapkan direktori tujuan ([t]arget) agar Anda dapat menggunakan alat atau perintah eksternal untuk mengelola kumpulan berkas yang dapat dipindahkan:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find /var/log -type f -name '*.log' -print0</span>` | `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xargs -0</span>` mv --target-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_tujuan</span>

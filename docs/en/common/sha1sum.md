@@ -2,8 +2,8 @@
 layout: page
 title: common/sha1sum (English)
 description: "Calculate SHA1 cryptographic checksums."
-content_hash: bd11ea6bb25a23db50392f26f5c80d969ea8e0fb
-last_modified_at: 2024-11-24
+content_hash: 2426f0f3dcf9bcfb8832d64aa6491c14834911ca
+last_modified_at: 2025-03-02
 related_topics:
   - title: 한국어 version
     url: /ko/common/sha1sum.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # sha1sum
 
 Calculate SHA1 cryptographic checksums.
-More information: <https://www.gnu.org/software/coreutils/sha1sum>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha1sum-invocation.html>.
 
 - Calculate the SHA1 checksum for one or more files:
 

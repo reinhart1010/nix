@@ -2,14 +2,20 @@
 layout: page
 title: common/aws-configure (日本語)
 description: "AWS CLI の設定を管理します。"
-content_hash: 6b6c0243072bf4a3e592c388ffffb52f906100ef
-last_modified_at: 2023-11-12
+content_hash: 21efa870a6482c082cb10af1586d09859092565d
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/aws-configure.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/aws-configure.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/aws-configure.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/aws-configure.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/aws-configure.html
@@ -19,7 +25,7 @@ tldri18n_status: 2
 # aws configure
 
 AWS CLI の設定を管理します。
-詳しくはこちら: <https://docs.aws.amazon.com/cli/latest/reference/configure/>
+もっと詳しく: <https://docs.aws.amazon.com/cli/latest/reference/configure/>。
 
 - 対話形式で AWS CLI を設定する（新しい設定の作成、または既定の更新）:
 

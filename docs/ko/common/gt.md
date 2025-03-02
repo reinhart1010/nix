@@ -3,14 +3,20 @@ layout: page
 title: common/gt (한국어)
 description: "Git 및 GitHub에 대한 종속 코드 변경(스택) 시퀀스를 생성하고 관리."
 content_hash: be5a1bcb99277d4cf1431f1b80c88652709ee188
-last_modified_at: 2024-10-31
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/gt.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: español version
+    url: /es/common/gt.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# gt
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># gt
 
 Git 및 GitHub에 대한 종속 코드 변경(스택) 시퀀스를 생성하고 관리.
 더 많은 정보: <https://docs.graphite.dev>.

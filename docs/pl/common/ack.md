@@ -2,8 +2,8 @@
 layout: page
 title: common/ack (polski)
 description: "Narzędzie wyszukiwania, podobne do `grep`, zoptymalizowane dla programistów."
-content_hash: 37d570d2111fad53ab118bd742f78f4f56e3aa71
-last_modified_at: 2024-09-03
+content_hash: a31b8953ddcff7ad3631bb0a06fe875ac26123c0
+last_modified_at: 2025-03-02
 related_topics:
   - title: বাংলা version
     url: /bn/common/ack.html
@@ -49,7 +49,7 @@ tldri18n_status: 2
 # ack
 
 Narzędzie wyszukiwania, podobne do `grep`, zoptymalizowane dla programistów.
-Zobacz też: `rg`, który jest znacznie szybszy.
+Zobacz także: `rg`, który jest znacznie szybszy.
 Więcej informacji: <https://beyondgrep.com/documentation>.
 
 - Szukaj rekurencyjnie plików zawierających ciąg znaków lub wyrażenie regularne w bieżącym katalogu:

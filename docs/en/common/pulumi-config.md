@@ -2,8 +2,12 @@
 layout: page
 title: common/pulumi-config (English)
 description: "Manage configuration of a Pulumi stack."
-content_hash: 5b5e72b160434f32a459cef48669898dd0a4124b
-last_modified_at: 2024-11-28
+content_hash: e76b1b4c6f4ac21b428eb92738bc0a40e7220b2d
+last_modified_at: 2025-03-02
+related_topics:
+  - title: español version
+    url: /es/common/pulumi-config.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # pulumi config
@@ -14,6 +18,10 @@ More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_config/>.
 - View current configuration in JSON format:
 
 `pulumi config --json`
+
+- View configuration for a specified stack:
+
+`pulumi config --stack `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stack_name</span>
 
 - Get the value of a configuration key:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (தமிழ்)
 description: "அடைவை உருவாக்கு."
-content_hash: ea25e61fdb4c4d3fda9d920e85f33928c83d3d17
-last_modified_at: 2024-09-07
+content_hash: 3c9ba41b4a5dd5a9bc4ca1c9687fef72e3176b0f
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -49,7 +49,7 @@ tldri18n_status: 2
 # mkdir
 
 அடைவை உருவாக்கு.
-மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/mkdir>.
+மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - குறிப்பிட்ட கோப்பகங்களை உருவாக்கவும்:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/htop (日本語)
 description: "実行中のプロセスに関する動的なリアルタイム情報を表示する。 `top` の拡張版。"
-content_hash: fe401e953c39d9fd3df04017da0a9c3729b2e4b7
-last_modified_at: 2023-11-12
+content_hash: ef51389f062eb47fff6e56d43df420084f14137e
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/htop.html
@@ -23,6 +23,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/htop.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/htop.html
+    icon: bi bi-globe
 tldri18n_status: 1
 ---
 
@@ -31,7 +34,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># htop
 
 実行中のプロセスに関する動的なリアルタイム情報を表示する。 `top` の拡張版。
-詳しくはこちら: <https://htop.dev/>
+もっと詳しく: <https://htop.dev/>。
 
 - htop を起動:
 

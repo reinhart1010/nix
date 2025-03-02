@@ -2,8 +2,8 @@
 layout: page
 title: common/expr (español)
 description: "Evalúa expresiones y manipula cadenas."
-content_hash: b952fea6bef7d71aee7aeda5cee49fd1d552d92b
-last_modified_at: 2024-12-20
+content_hash: 22426ea696337d99ee0c13e5d5d3ea568ba740d5
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/expr.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # expr
 
 Evalúa expresiones y manipula cadenas.
-Más información: <https://www.gnu.org/software/coreutils/expr>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/expr-invocation.html>.
 
 - Obtiene la longitud de una cadena específica:
 

@@ -2,9 +2,18 @@
 layout: page
 title: linux/rmdir (English)
 description: "Remove directories without files."
-content_hash: cfa157289587f8ccc207df0f2842c885fe2fc59a
-last_modified_at: 2023-11-12
+content_hash: cb693df1fb9ef4c038962de555a4b1d1dbae4ca3
+last_modified_at: 2025-03-02
 related_topics:
+  - title: español version
+    url: /es/linux/rmdir.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/rmdir.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/rmdir.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/rmdir.html
     icon: bi bi-globe
@@ -14,7 +23,7 @@ tldri18n_status: 2
 
 Remove directories without files.
 See also: `rm`.
-More information: <https://www.gnu.org/software/coreutils/rmdir>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/rmdir-invocation.html>.
 
 - Remove specific directories:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (français)
 description: "Crée un répertoire."
-content_hash: 5f04f42980ab9b158a8e96d425a92f895496fffd
-last_modified_at: 2024-09-07
+content_hash: a56938c030c48ac5a6b5418dd41ffbd9bdcb6a58
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -52,7 +52,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># mkdir
 
 Crée un répertoire.
-Plus d'informations : <https://www.gnu.org/software/coreutils/mkdir>.
+Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - Crée plusieurs répertoires dans le répertoire actuel :
 

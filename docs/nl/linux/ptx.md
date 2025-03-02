@@ -2,18 +2,21 @@
 layout: page
 title: linux/ptx (Nederlands)
 description: "Genereer een permutatie-index van woorden uit tekstbestanden."
-content_hash: 345415dc67b6488d02627e474785b630bf74032c
-last_modified_at: 2024-06-26
+content_hash: ee3f67b9bb3c9c2c3f692cc94745bfc5e2429ba7
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/ptx.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/ptx.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # ptx
 
 Genereer een permutatie-index van woorden uit tekstbestanden.
-Meer informatie: <https://www.gnu.org/software/coreutils/ptx>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/ptx-invocation.html>.
 
 - Genereer een permutatie-index waarbij het eerste veld van elke regel een indexreferentie is:
 

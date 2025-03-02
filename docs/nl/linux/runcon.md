@@ -2,11 +2,14 @@
 layout: page
 title: linux/runcon (Nederlands)
 description: "Voer een programma uit in een andere SELinux-beveiligingscontext."
-content_hash: bd7b3baf744934ca8968c845ade018370a3898f5
-last_modified_at: 2024-06-26
+content_hash: 6f7b550bc0c61c38b95daa038a41bc1964c1f843
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/runcon.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/runcon.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -14,7 +17,7 @@ tldri18n_status: 2
 
 Voer een programma uit in een andere SELinux-beveiligingscontext.
 Bekijk ook: `secon`.
-Meer informatie: <https://www.gnu.org/software/coreutils/runcon>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/runcon-invocation.html>.
 
 - Toon de beveiligingscontext van de huidige uitvoeringscontext:
 

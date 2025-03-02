@@ -2,8 +2,8 @@
 layout: page
 title: common/du (한국어)
 description: "디스크 사용량: 파일 및 디렉터리 공간 사용량을 추정하고 요약."
-content_hash: 85660be8c722428ce5978b1dd4e27704a6e2c5bd
-last_modified_at: 2024-10-17
+content_hash: 2c52a16e018a21b4765ac691d73943d5de580983
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/du.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/du.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/du.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/du.html
@@ -26,6 +29,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/du.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/du.html
+    icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/du.html
     icon: bi bi-globe
@@ -34,7 +40,7 @@ tldri18n_status: 2
 # du
 
 디스크 사용량: 파일 및 디렉터리 공간 사용량을 추정하고 요약.
-더 많은 정보: <https://www.gnu.org/software/coreutils/du>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html>.
 
 - 지정된 단위(B/KiB/MiB)로 디렉터리 및 하위 디렉터리의 크기를 나열:
 

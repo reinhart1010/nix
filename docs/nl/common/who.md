@@ -2,11 +2,14 @@
 layout: page
 title: common/who (Nederlands)
 description: "Toon wie er is ingelogd en gerelateerde gegevens (processen, opstarttijd)."
-content_hash: 437e602a0f1e9ddf72405195c40a073e30c76fb1
-last_modified_at: 2024-07-07
+content_hash: 5e9473218aa9eabdabece329e45f5e3d2e04b35e
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/who.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/who.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/who.html
@@ -17,7 +20,7 @@ tldri18n_status: 2
 
 Toon wie er is ingelogd en gerelateerde gegevens (processen, opstarttijd).
 Bekijk ook: `whoami`.
-Meer informatie: <https://www.gnu.org/software/coreutils/who>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/who-invocation.html>.
 
 - Toon de gebruikersnaam, line en tijd van alle huidige ingelogde sessies:
 

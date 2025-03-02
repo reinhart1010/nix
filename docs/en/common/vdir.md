@@ -2,15 +2,22 @@
 layout: page
 title: common/vdir (English)
 description: "List directory contents."
-content_hash: 54ea4ae4aac636b93ed127f9a06bc2b6efe6ebb9
-last_modified_at: 2023-11-12
+content_hash: f306aaddcf87005caaf95562df9585d437986f68
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/vdir.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/vdir.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # vdir
 
 List directory contents.
 Drop-in replacement for `ls -l`.
-More information: <https://www.gnu.org/software/coreutils/vdir>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/vdir-invocation.html>.
 
 - List files and directories in the current directory, one per line, with details:
 

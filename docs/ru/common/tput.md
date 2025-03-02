@@ -3,7 +3,7 @@ layout: page
 title: common/tput (русский)
 description: "Просмотр и изменение настроек и возможностей терминала."
 content_hash: 001fce0413bf237bdfc97a47f18a0b23b5a2047b
-last_modified_at: 2023-11-12
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/tput.html
@@ -11,9 +11,15 @@ related_topics:
   - title: français version
     url: /fr/common/tput.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: 한국어 version
+    url: /ko/common/tput.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# tput
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># tput
 
 Просмотр и изменение настроек и возможностей терминала.
 Больше информации: <https://manned.org/tput>.

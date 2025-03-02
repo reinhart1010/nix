@@ -2,9 +2,12 @@
 layout: page
 title: common/cat (日本語)
 description: "ファイルの出力と連結を行います。"
-content_hash: fa9b8f499645aa1b8887d3b661b0d79f4d5739f2
-last_modified_at: 2024-05-06
+content_hash: 29953f6b5de07be02843d5d022d9381ee90260c4
+last_modified_at: 2025-03-02
 related_topics:
+  - title: العربية version
+    url: /ar/common/cat.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/cat.html
     icon: bi bi-globe
@@ -61,7 +64,7 @@ tldri18n_status: 2
 # cat
 
 ファイルの出力と連結を行います。
-詳しくはこちら: <https://manned.org/cat.1posix>
+もっと詳しく: <https://manned.org/cat.1posix>。
 
 - ファイルの内容を標準出力に出力する:
 

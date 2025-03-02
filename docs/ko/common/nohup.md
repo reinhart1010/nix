@@ -2,8 +2,8 @@
 layout: page
 title: common/nohup (한국어)
 description: "터미널이 종료되어도 프로세스가 계속 실행되도록 허용."
-content_hash: 440daaed2481b08c66ca3d2c0b004d19946ad5b7
-last_modified_at: 2024-11-06
+content_hash: 1531eccff628d19540e762aa90039d3ddcfec7b5
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/nohup.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # nohup
 
 터미널이 종료되어도 프로세스가 계속 실행되도록 허용.
-더 많은 정보: <https://www.gnu.org/software/coreutils/nohup>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/nohup-invocation.html>.
 
 - 터미널 종료 후에도 계속 실행되는 프로세스 시작:
 

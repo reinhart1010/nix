@@ -2,8 +2,8 @@
 layout: page
 title: common/ln (فارسی)
 description: "این دستور برای ایجاد ارتباط(link) به فایل ها و پوشه ها(Directories) استفاده می شود."
-content_hash: 9131272ba9569c85a71bc7937384ba731333dbd0
-last_modified_at: 2024-03-16
+content_hash: d2d3aefcd235a0e54522c708527cde4b095a61fb
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/ln.html
@@ -34,7 +34,7 @@ tldri18n_status: 2
 # ln
 
 این دستور برای ایجاد ارتباط(link) به فایل ها و پوشه ها(Directories) استفاده می شود.
-اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/ln>.
+اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/ln-invocation.html>.
 
 - ایجاد یک ارتباط نمادین (symbolic link) به یک فایل یا پوشه:
 

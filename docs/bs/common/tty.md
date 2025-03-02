@@ -2,14 +2,17 @@
 layout: page
 title: common/tty (bosanski)
 description: "Vraća ime terminala."
-content_hash: 21efe3dda868470ebd8670d1df0733c68a5d8ba9
-last_modified_at: 2023-11-12
+content_hash: dc8a9c389068c24564cb718bb6feb28389b101cc
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/tty.html
     icon: bi bi-globe
   - title: فارسی version
     url: /fa/common/tty.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tty.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/tty.html
@@ -28,7 +31,7 @@ tldri18n_status: 2
 # tty
 
 Vraća ime terminala.
-Više informacija: <https://www.gnu.org/software/coreutils/tty>.
+Više informacija: <https://www.gnu.org/software/coreutils/manual/html_node/tty-invocation.html>.
 
 - Ispiši ime fajla ovog terminala:
 

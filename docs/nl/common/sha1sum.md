@@ -2,8 +2,8 @@
 layout: page
 title: common/sha1sum (Nederlands)
 description: "Bereken SHA1 cryptografische checksums."
-content_hash: f038d696d0acce32139161fd6661e3267f37f4cf
-last_modified_at: 2024-12-10
+content_hash: 14e40818b94e5a5c7d059b289aa75cff5bbebbbe
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/sha1sum.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # sha1sum
 
 Bereken SHA1 cryptografische checksums.
-Meer informatie: <https://www.gnu.org/software/coreutils/sha1sum>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/sha1sum-invocation.html>.
 
 - Bereken de SHA1 checksum voor één of meer bestanden:
 

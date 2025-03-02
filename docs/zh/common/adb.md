@@ -2,8 +2,8 @@
 layout: page
 title: common/adb (中文)
 description: "安卓调试桥：与 Android 模拟器或已连接的 Android 设备通信。"
-content_hash: 5a27ad009e3f53e8c8882cc205301b22770434ae
-last_modified_at: 2024-12-27
+content_hash: 936471292a17ecb0e04d1f235957a9b4ffd8046a
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -35,12 +35,9 @@ related_topics:
   - title: русский version
     url: /ru/common/adb.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># adb
+# adb
 
 安卓调试桥：与 Android 模拟器或已连接的 Android 设备通信。
 此命令也有关于其子命令的文件，例如：`shell`.
@@ -64,12 +61,16 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - 从目标设备上拷贝一个文件 / 目录到本地：
 
-`adb pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/设备的文件或目录</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/本地上的目录</span>
+`adb pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/设备的文件或目录</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/本地目录</span>
 
 - 从本地拷贝一个文件 / 目录到目标设备：
 
-`adb push `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/本地文件或目录</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/设备上的目录</span>
+`adb push `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/本地文件或目录</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/设备目录</span>
 
 - 列出已连接的设备：
 
 `adb devices`
+
+- 当有多个设备连接时，指定目标设备执行命令：
+
+`adb -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">设备_ID</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell</span>

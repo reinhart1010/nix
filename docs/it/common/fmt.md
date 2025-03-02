@@ -2,11 +2,17 @@
 layout: page
 title: common/fmt (italiano)
 description: "Riformatta i paragrafi di un file di testo unendoli e limitando la larghezza delle righe a un dato numero di caratteri (di default 75)."
-content_hash: 9655416c7c85282da37845442bb55117e567103b
-last_modified_at: 2023-11-12
+content_hash: dbdcb310c99a7d6993c02c850c00f8036a5334fd
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/fmt.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/fmt.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/fmt.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/fmt.html
@@ -16,7 +22,7 @@ tldri18n_status: 2
 # fmt
 
 Riformatta i paragrafi di un file di testo unendoli e limitando la larghezza delle righe a un dato numero di caratteri (di default 75).
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/fmt>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/fmt-invocation.html>.
 
 - Riformatta un file:
 

@@ -1,15 +1,18 @@
 ---
 layout: page
 title: common/egrep (한국어)
-description: "확장 정규식을 사용하여 파일에서 패턴을 찾음 (`?`, `+`, `{}`, `()` 및 `|` 지원)."
-content_hash: 470875b003da909ce00d9e96ed5fe7d0d31a5a55
-last_modified_at: 2024-10-17
+description: "확장 정규식을 사용하여 파일에서 패턴을 찾음 (`?`, `+`, `{}`, `()`, 및 `|` 지원)."
+content_hash: 717fc00eb8f15702aaddc044d781a0f27910b78e
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/egrep.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/egrep.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/egrep.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/egrep.html
@@ -18,7 +21,7 @@ tldri18n_status: 2
 ---
 # egrep
 
-확장 정규식을 사용하여 파일에서 패턴을 찾음 (`?`, `+`, `{}`, `()` 및 `|` 지원).
+확장 정규식을 사용하여 파일에서 패턴을 찾음 (`?`, `+`, `{}`, `()`, 및 `|` 지원).
 더 많은 정보: <https://manned.org/egrep>.
 
 - 파일 내에서 패턴 검색:

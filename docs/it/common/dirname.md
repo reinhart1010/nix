@@ -2,8 +2,8 @@
 layout: page
 title: common/dirname (italiano)
 description: "Determina la directory genitore di un determinato file o percorso."
-content_hash: 0854be39443d925f18e71bf1b330d441c8c4f508
-last_modified_at: 2024-10-20
+content_hash: 19fc3d66ef797a3a972edeedeb0cf41e967e2345
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/dirname.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # dirname
 
 Determina la directory genitore di un determinato file o percorso.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/dirname>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/dirname-invocation.html>.
 
 - Calcola la directory genitore di un dato percorso:
 

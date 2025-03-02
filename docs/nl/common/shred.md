@@ -2,18 +2,21 @@
 layout: page
 title: common/shred (Nederlands)
 description: "Overschrijf bestanden om gegevens veilig te verwijderen."
-content_hash: 69db6ac94cc49463493f3c5fb86ad5d7ef24f2bf
-last_modified_at: 2024-06-29
+content_hash: f2bb2b81bf0d062aeb356cfbf28b8e36cd7d24f6
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/shred.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/shred.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # shred
 
 Overschrijf bestanden om gegevens veilig te verwijderen.
-Meer informatie: <https://www.gnu.org/software/coreutils/shred>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html>.
 
 - Overschrijf een bestand:
 

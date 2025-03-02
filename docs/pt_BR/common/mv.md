@@ -2,8 +2,8 @@
 layout: page
 title: common/mv (português (Brasil))
 description: "Movimentação de arquivos entre diretórios, ou renomeá-los."
-content_hash: 594177a2b2a111a6dc8a5d701c4a32742169b588
-last_modified_at: 2023-12-28
+content_hash: fe5d47a30f9d29ceabf199c1ff3873f8fe1b8124
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -23,6 +23,12 @@ related_topics:
   - title: italiano version
     url: /it/common/mv.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mv.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/mv.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/mv.html
     icon: bi bi-globe
@@ -40,7 +46,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># mv
 
 Movimentação de arquivos entre diretórios, ou renomeá-los.
-Mais informações: <https://www.gnu.org/software/coreutils/mv>.
+Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
 - Move um arquivo para um diretório arbitrário:
 

@@ -2,11 +2,14 @@
 layout: page
 title: linux/lspci (русский)
 description: "Отобразить список всех подключенных PCI-устройств."
-content_hash: c94b9c5dcee4d818aaf14484516c6a58337d5af5
-last_modified_at: 2023-11-12
+content_hash: 2bd54ab486109969163ee2cd484fe0eb70bdb538
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/lspci.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/lspci.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/lspci.html
@@ -30,7 +33,7 @@ tldri18n_status: 2
 
 `lspci -k`
 
-- Отобрзить определённое устройство:
+- Отобразить определённое устройство:
 
 `lspci -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">00:18.3</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/pwd (ไทย)
 description: "แสดงชื่อของไดเรกทอรีที่ทำงานอยู่"
-content_hash: 29ae99b3a2e9678601ef8cc8e4bdf9d3bb74fd6e
-last_modified_at: 2024-12-10
+content_hash: 72126b8643f0aa0338296bdb85050f28d87efe27
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/common/pwd.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # pwd
 
 แสดงชื่อของไดเรกทอรีที่ทำงานอยู่
-ข้อมูลเพิ่มเติม: <https://www.gnu.org/software/coreutils/pwd>
+ข้อมูลเพิ่มเติม: <https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html>
 
 - แสดงชื่อของไดเรกทอรีที่ทำงานอยู่:
 

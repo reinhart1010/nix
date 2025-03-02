@@ -2,14 +2,21 @@
 layout: page
 title: common/pulumi-login (English)
 description: "Log in to the Pulumi cloud."
-content_hash: 95eb85e573b1272e8ea6c9b4be20213a2105ccf5
-last_modified_at: 2024-09-07
+content_hash: 3ef486dee35993b2c7482ba2cbc09e12869d7eff
+last_modified_at: 2025-03-02
+related_topics:
+  - title: español version
+    url: /es/common/pulumi-login.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/pulumi-login.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # pulumi login
 
 Log in to the Pulumi cloud.
-More information: <https://www.pulumi.com/docs/cli/commands/pulumi_login/>.
+More information: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_login/>.
 
 - Log in to the managed Pulumi Cloud backend, defaults to `app.pulumi.cloud`:
 

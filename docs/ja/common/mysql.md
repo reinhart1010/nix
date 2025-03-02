@@ -2,8 +2,8 @@
 layout: page
 title: common/mysql (日本語)
 description: "MySQL のコマンドラインツールです。"
-content_hash: 78582cf341c8ab477a1f2134c6b95c1b80ec59c9
-last_modified_at: 2023-11-12
+content_hash: 4814aa53783331897783f1f156fa7f4cc9639a2f
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/mysql.html
@@ -11,11 +11,17 @@ related_topics:
   - title: español version
     url: /es/common/mysql.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mysql.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/mysql.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/mysql.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/mysql.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mysql.html
@@ -25,7 +31,7 @@ tldri18n_status: 2
 # mysql
 
 MySQL のコマンドラインツールです。
-詳しくはこちら: <https://www.mysql.com/>
+もっと詳しく: <https://www.mysql.com/>。
 
 - データベースへの接続:
 

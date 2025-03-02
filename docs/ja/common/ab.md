@@ -2,8 +2,8 @@
 layout: page
 title: common/ab (日本語)
 description: "Apache HTTP server のベンチマーク用ツールです。"
-content_hash: f4069c421614420e5283a368a0e789ab643d0065
-last_modified_at: 2024-01-01
+content_hash: 205f10287a5fd3351101016987f8b2f55ecb7c59
+last_modified_at: 2025-03-02
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -55,7 +55,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># ab
 
 Apache HTTP server のベンチマーク用ツールです。
-詳しくはこちら: <https://httpd.apache.org/docs/current/programs/ab.html>
+もっと詳しく: <https://httpd.apache.org/docs/current/programs/ab.html>。
 
 - 指定された URL に 100 個の GET リクエストを送信する:
 

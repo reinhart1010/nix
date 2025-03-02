@@ -2,14 +2,17 @@
 layout: page
 title: common/ln (中文)
 description: "创建指向文件和目录的链接。"
-content_hash: 74694dd0cf2f845e1580dd0718314fdb9a5c14b9
-last_modified_at: 2023-11-12
+content_hash: a2e38a1bca2ce71be3efbbbcfeee9c94d11a6f56
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/ln.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/ln.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/ln.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ln.html
@@ -31,7 +34,7 @@ tldri18n_status: 2
 # ln
 
 创建指向文件和目录的链接。
-更多信息：<https://www.gnu.org/software/coreutils/ln>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/ln-invocation.html>.
 
 - 创建指向文件或目录的符号链接：
 

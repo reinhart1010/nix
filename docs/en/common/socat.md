@@ -2,8 +2,15 @@
 layout: page
 title: common/socat (English)
 description: "Multipurpose relay (SOcket CAT)."
-content_hash: 9a693948e3dc44c27709f1db24170ed231352832
-last_modified_at: 2024-10-07
+content_hash: bc9c2db878a8e6197fa68ae2e13f0f4704431957
+last_modified_at: 2025-03-02
+related_topics:
+  - title: español version
+    url: /es/common/socat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/socat.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # socat
@@ -26,3 +33,11 @@ More information: <http://www.dest-unreach.org/socat/>.
 - Forward incoming data of a local port to another host and port:
 
 `sudo socat TCP-LISTEN:80,fork TCP4:www.example.com:80`
+
+- Send data with multicast routing scheme:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "Hello Multicast"</span>` | socat - UDP4-DATAGRAM:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">224.0.0.1</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5000</span>
+
+- Receive data from a multicast:
+
+`socat - UDP4-RECVFROM:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5000</span>

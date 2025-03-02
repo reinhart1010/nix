@@ -3,17 +3,23 @@ layout: page
 title: linux/parted (हिन्दी)
 description: "एक पार्टीशन मैनिपुलेशन प्रोग्राम।"
 content_hash: 396830ef68e842d47aaf26ee72d6a15e1f553a30
-last_modified_at: 2023-11-12
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/parted.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/parted.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/linux/parted.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# parted
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># parted
 
 एक पार्टीशन मैनिपुलेशन प्रोग्राम।
 देखें भी: `partprobe`.

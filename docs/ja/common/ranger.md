@@ -2,18 +2,24 @@
 layout: page
 title: common/ranger (日本語)
 description: "VI キーバインドのコンソールファイルマネージャー。"
-content_hash: ac7e5678590b5c502e27ffaad68ca65462b6537c
-last_modified_at: 2023-11-12
+content_hash: 3a2aba982bbd970c80bd39d8bf7959ba6a02064f
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/ranger.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/ranger.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/ranger.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # ranger
 
 VI キーバインドのコンソールファイルマネージャー。
-詳しくはこちら: <https://github.com/ranger/ranger>
+もっと詳しく: <https://github.com/ranger/ranger>。
 
 - ranger を起動する:
 

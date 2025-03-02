@@ -2,8 +2,8 @@
 layout: page
 title: common/crane-version (Nederlands)
 description: "Print de versie van een binary."
-content_hash: e297e3cdcdd961b1f708f97c903e153fb2a66556
-last_modified_at: 2024-10-27
+content_hash: a553080dd619e5257417faa17f2066084a763fc4
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/crane-version.html
@@ -23,6 +23,6 @@ Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/c
 
 `crane version`
 
-- Toon help:
+- Toon de help:
 
 `crane version `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/tail (español)
 description: "Muestra las últimas líneas de un archivo de texto determinado."
-content_hash: de5165677c23f27f54836c61a24c1b52b89c51ff
-last_modified_at: 2024-01-07
+content_hash: 3dfa9d66c704e300e62d588771511e225e4d543e
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/tail.html
@@ -11,8 +11,17 @@ related_topics:
   - title: English version
     url: /en/common/tail.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tail.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/tail.html
+    icon: bi bi-globe
   - title: sh version
     url: /sh/common/tail.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/tail.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -20,7 +29,7 @@ tldri18n_status: 2
 
 Muestra las últimas líneas de un archivo de texto determinado.
 Vea también: `head`.
-Más información: <https://www.gnu.org/software/coreutils/tail>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html>.
 
 - Imprime las últimas líneas de 'recuento' de un archivo:
 

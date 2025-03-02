@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (English)
 description: "Manage Docker containers and images."
-content_hash: 9acfb7ff7d9f62f5965fbfbe6112871614054d4a
-last_modified_at: 2024-10-05
+content_hash: 8f874a396987db3656b8fff97646c82e8909edd4
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/docker.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker.html
@@ -73,9 +76,9 @@ More information: <https://docs.docker.com/reference/cli/docker/>.
 
 `docker exec -it `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span>
 
-- Remove a stopped container:
+- Remove stopped containers:
 
-`docker rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>
+`docker rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container1 container2 ...</span>
 
 - Fetch and follow the logs of a container:
 

@@ -3,7 +3,7 @@ layout: page
 title: common/gdb (Indonesia)
 description: "GNU Debugger, alat pengawakutu program komputer."
 content_hash: 24a6e03e1871458a1b71d560042ae6a82b9bb274
-last_modified_at: 2024-09-15
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/gdb.html
@@ -20,9 +20,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/gdb.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# gdb
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># gdb
 
 GNU Debugger, alat pengawakutu program komputer.
 Informasi lebih lanjut: <https://www.gnu.org/software/gdb>.

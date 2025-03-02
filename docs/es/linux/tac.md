@@ -2,8 +2,8 @@
 layout: page
 title: linux/tac (español)
 description: "Muestra y concatena archivos con las líneas en orden inverso."
-content_hash: ff51023d9d3b7d631ac0ac9cc58bf0390f229372
-last_modified_at: 2024-12-21
+content_hash: eb5712b8ecd6a8f8e19b14a889bc39abc3203b8c
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/tac.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 Muestra y concatena archivos con las líneas en orden inverso.
 Vea también: `cat`.
-Más información: <https://www.gnu.org/software/coreutils/tac>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html>.
 
 - Concatena archivos específicos en orden inverso:
 

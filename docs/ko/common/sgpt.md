@@ -2,8 +2,8 @@
 layout: page
 title: common/sgpt (한국어)
 description: "OpenAI의 GPT 모델로 구동되는 명령줄 생산성 도구."
-content_hash: de4ba2f06f38caa0f979780b7096d59fa31df382
-last_modified_at: 2024-11-10
+content_hash: 6532798fca91a1a2804b61bd2ea32afe637cdb9c
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/sgpt.html
@@ -31,7 +31,7 @@ OpenAI의 GPT 모델로 구동되는 명령줄 생산성 도구.
 
 `sgpt --chat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">세션_이름</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">내가 좋아하는 숫자를 기억해 주세요: 4</span>`"`
 
-- `REPL` (Read–eval–print loop) 세션 시작:
+- `REPL` (Read-eval-print loop) 세션 시작:
 
 `sgpt --repl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span>
 

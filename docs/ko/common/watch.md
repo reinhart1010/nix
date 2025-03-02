@@ -3,14 +3,17 @@ layout: page
 title: common/watch (한국어)
 description: "프로그램을 주기적으로 실행하여 전체 화면에 출력."
 content_hash: e1e5ff8b0854b60afd26b9bfcf8397af18c5a27a
-last_modified_at: 2024-11-03
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/watch.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# watch
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># watch
 
 프로그램을 주기적으로 실행하여 전체 화면에 출력.
 더 많은 정보: <https://manned.org/watch>.

@@ -2,8 +2,8 @@
 layout: page
 title: common/compgen (中文)
 description: "用于在 bash 中自动完成的内置命令，按两次 tab 键即可调用该命令。"
-content_hash: df3be191a7ee39420c6de2ae937c1864d09cf5a5
-last_modified_at: 2024-12-27
+content_hash: 05cacbb56bb0ea79aefea91c5160f1bb9069c702
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/compgen.html
@@ -17,12 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/compgen.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># compgen
+# compgen
 
 用于在 bash 中自动完成的内置命令，按两次 tab 键即可调用该命令。
 更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-compgen>.
@@ -30,6 +27,10 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 - 显示所有可以执行的命令：
 
 `compgen -c`
+
+- 列出所有以指定字符串开头的可执行命令：
+
+`compgen -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串</span>
 
 - 列出所有别名：
 

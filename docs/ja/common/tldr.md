@@ -2,8 +2,8 @@
 layout: page
 title: common/tldr (日本語)
 description: "コマンドの簡単なマニュアル。"
-content_hash: c080e939aa136fb96e9b9b367b0d341ab99ef421
-last_modified_at: 2023-11-22
+content_hash: 3eee39d179df227762f24f70ab752328e9d61c18
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -11,11 +11,17 @@ related_topics:
   - title: English version
     url: /en/common/tldr.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/tldr.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/tldr.html
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/tldr.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/tldr.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/tldr.html
@@ -34,6 +40,9 @@ related_topics:
     icon: bi bi-globe
   - title: sh version
     url: /sh/common/tldr.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/tldr.html
     icon: bi bi-globe
   - title: ไทย version
     url: /th/common/tldr.html
@@ -58,7 +67,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># tldr
 
 コマンドの簡単なマニュアル。
-詳しくはこちら: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>
+もっと詳しく: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>。
 
 - コマンドのよくある使用例を見られます (ヒント: このページにたどり着いた方法です！):
 

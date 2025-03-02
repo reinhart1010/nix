@@ -2,8 +2,12 @@
 layout: page
 title: common/fswatch (English)
 description: "A cross-platform file change monitor."
-content_hash: e14a6ea8d8fcd815dabee69efedfa3e0c56bde0d
-last_modified_at: 2023-11-12
+content_hash: ed349743f72fb72915f47f14106a09b9b2e3b622
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/fswatch.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # fswatch
@@ -25,4 +29,4 @@ More information: <https://emcrisostomo.github.io/fswatch>.
 
 - Filter by event type:
 
-`fswatch --event `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Updated|Deleted|Created</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` | xargs -n 1 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash_command</span>
+`fswatch --event `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Updated|Removed|Created|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` | xargs -n 1 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash_command</span>

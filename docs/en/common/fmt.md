@@ -2,11 +2,17 @@
 layout: page
 title: common/fmt (English)
 description: "Reformat a text file by joining its paragraphs and limiting the line width to a number of characters (75 by default)."
-content_hash: 6bc37b9279cece967d4b2f64d2f71efb0e152687
-last_modified_at: 2024-02-15
+content_hash: 6b135427027eab3c8843c014b2207d8954ae27ee
+last_modified_at: 2025-03-02
 related_topics:
   - title: italiano version
     url: /it/common/fmt.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/fmt.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/fmt.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/fmt.html
@@ -16,7 +22,7 @@ tldri18n_status: 2
 # fmt
 
 Reformat a text file by joining its paragraphs and limiting the line width to a number of characters (75 by default).
-More information: <https://www.gnu.org/software/coreutils/fmt>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/fmt-invocation.html>.
 
 - Reformat a file:
 

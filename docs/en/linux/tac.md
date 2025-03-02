@@ -2,15 +2,25 @@
 layout: page
 title: linux/tac (English)
 description: "Display and concatenate files with lines in reversed order."
-content_hash: c460eed15d5039af22344f9d85ccd78c686693e2
-last_modified_at: 2023-11-12
+content_hash: 9b4ac81b4c5c0095e797e19edfb60a66b03e94ae
+last_modified_at: 2025-03-02
+related_topics:
+  - title: español version
+    url: /es/linux/tac.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/tac.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/tac.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # tac
 
 Display and concatenate files with lines in reversed order.
 See also: `cat`.
-More information: <https://www.gnu.org/software/coreutils/tac>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html>.
 
 - Concatenate specific files in reversed order:
 

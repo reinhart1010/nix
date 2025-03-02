@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-start (日本語)
 description: "1つまたは複数の停止中コンテナを起動します。"
-content_hash: fcfbab6f168f38216d3b610ddf42ca6df901158b
-last_modified_at: 2024-09-28
+content_hash: 450a10663cc3206646a02ee7cfb8464f82d14dd0
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-start.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/docker-start.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/docker-start.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-start.html
@@ -25,7 +28,7 @@ tldri18n_status: 2
 # docker start
 
 1つまたは複数の停止中コンテナを起動します。
-詳しくはこちら: <https://docs.docker.com/reference/cli/docker/container/start/>
+もっと詳しく: <https://docs.docker.com/reference/cli/docker/container/start/>。
 
 - ヘルプを表示する:
 

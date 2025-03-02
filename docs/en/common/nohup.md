@@ -2,11 +2,17 @@
 layout: page
 title: common/nohup (English)
 description: "Allows for a process to live when the terminal gets killed."
-content_hash: 4af6cb649c9983d28becd8df3832cc1976754570
-last_modified_at: 2023-11-12
+content_hash: 182e76d000fc73101dc2411cd90d8c0e8ac53c9d
+last_modified_at: 2025-03-02
 related_topics:
   - title: فارسی version
     url: /fa/common/nohup.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/nohup.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/nohup.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/nohup.html
@@ -22,7 +28,7 @@ tldri18n_status: 2
 # nohup
 
 Allows for a process to live when the terminal gets killed.
-More information: <https://www.gnu.org/software/coreutils/nohup>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/nohup-invocation.html>.
 
 - Run a process that can live beyond the terminal:
 

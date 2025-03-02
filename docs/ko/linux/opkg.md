@@ -3,14 +3,20 @@ layout: page
 title: linux/opkg (한국어)
 description: "OpenWrt 패키지를 설치하는 데 사용되는 경량 패키지 관리자."
 content_hash: 5051d86d9212b279c51fda5c7033ff2aa82db7da
-last_modified_at: 2024-11-10
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/opkg.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: español version
+    url: /es/linux/opkg.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# opkg
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># opkg
 
 OpenWrt 패키지를 설치하는 데 사용되는 경량 패키지 관리자.
 더 많은 정보: <https://openwrt.org/docs/guide-user/additional-software/opkg>.

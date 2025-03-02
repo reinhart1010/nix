@@ -2,11 +2,14 @@
 layout: page
 title: linux/csplit (português (Brasil))
 description: "Divide um arquivo em várias partes."
-content_hash: 7d8f7b3428123f0f8957bf29472e05116a8898c9
-last_modified_at: 2024-01-10
+content_hash: c8b33ddab5cfc960daca0c91ef9f91404967f0a5
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/csplit.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/csplit.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/csplit.html
@@ -17,7 +20,7 @@ tldri18n_status: 2
 
 Divide um arquivo em várias partes.
 O padrão de nomenclatura dos arquivos será "xx00", "xx01" e assim por diante.
-Mais informações: <https://www.gnu.org/software/coreutils/csplit>.
+Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/csplit-invocation.html>.
 
 - Divide um arquivo nas linhas 5 e 23:
 

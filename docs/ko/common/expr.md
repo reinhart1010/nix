@@ -2,11 +2,14 @@
 layout: page
 title: common/expr (한국어)
 description: "표현식을 평가하고 문자열을 조작."
-content_hash: 12632abbb0eecb82c51c3b95ad428a67557032ea
-last_modified_at: 2024-10-17
+content_hash: c89ad526f02dd0f4017416abe5a4b62a645675eb
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/expr.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/expr.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/expr.html
@@ -16,7 +19,7 @@ tldri18n_status: 2
 # expr
 
 표현식을 평가하고 문자열을 조작.
-더 많은 정보: <https://www.gnu.org/software/coreutils/expr>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/expr-invocation.html>.
 
 - 특정 문자열의 길이를 가져옴:
 

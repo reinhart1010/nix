@@ -2,8 +2,8 @@
 layout: page
 title: common/mkfifo (Nederlands)
 description: "Maak FIFOs (benoemde pipes)."
-content_hash: ab2cec156a480da02f8e0f9884683388faf03e19
-last_modified_at: 2024-12-05
+content_hash: ae003ef51650230a0947b59f49fcd75ce1dd1a2f
+last_modified_at: 2025-03-02
 related_topics:
   - title: bosanski version
     url: /bs/common/mkfifo.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # mkfifo
 
 Maak FIFOs (benoemde pipes).
-Meer informatie: <https://www.gnu.org/software/coreutils/mkfifo>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/mkfifo-invocation.html>.
 
 - Maak een benoemde pipe op een opgegeven pad:
 

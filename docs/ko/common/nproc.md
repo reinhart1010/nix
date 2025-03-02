@@ -2,8 +2,8 @@
 layout: page
 title: common/nproc (한국어)
 description: "사용 가능한 처리 장치 수(일반적으로 CPU)를 출력합니다."
-content_hash: ea6165a35225b8591fdaa5895b359a80556aa109
-last_modified_at: 2024-11-06
+content_hash: 6e6aa71e619a9f0ca33d8131aaa747309f760a6c
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/nproc.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # nproc
 
 사용 가능한 처리 장치 수(일반적으로 CPU)를 출력합니다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/nproc>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/nproc-invocation.html>.
 
 - 사용 가능한 처리 장치 수 표시:
 

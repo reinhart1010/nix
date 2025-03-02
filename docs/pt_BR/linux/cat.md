@@ -2,24 +2,39 @@
 layout: page
 title: linux/cat (português (Brasil))
 description: "Imprime e concatena arquivos."
-content_hash: 12c63a844e72e62fd3b502973ef6830d15a09bf2
-last_modified_at: 2024-01-03
+content_hash: a7747f68c517caf8c985a6a1c8c4a4dfad599510
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/cat.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/linux/cat.html
+    icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/linux/cat.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/cat.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/cat.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/cat.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/cat.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/cat.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # cat
 
 Imprime e concatena arquivos.
-Mais informações: <https://www.gnu.org/software/coreutils/cat>.
+Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - Imprime o conteúdo de um arquivo na `stdout`:
 

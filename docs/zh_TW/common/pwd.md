@@ -2,8 +2,8 @@
 layout: page
 title: common/pwd (中文 (繁體, 台灣))
 description: "印出目前目錄的名稱。"
-content_hash: 111038d1e04d8c8cbec663c32176acb45d4b7055
-last_modified_at: 2024-12-10
+content_hash: ce5077847b7c832b47f4f9e72fc6e4301ebe622b
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/common/pwd.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # pwd
 
 印出目前目錄的名稱。
-更多資訊：<https://www.gnu.org/software/coreutils/pwd>.
+更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html>.
 
 - 印出目前所在的目錄名稱：
 

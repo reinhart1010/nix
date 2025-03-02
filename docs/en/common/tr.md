@@ -2,18 +2,27 @@
 layout: page
 title: common/tr (English)
 description: "Translate characters: run replacements based on single characters and character sets."
-content_hash: c96f21b1428ab62eed26a5ce34775910c9050def
-last_modified_at: 2023-11-12
+content_hash: 7878fd42e88e1ecf156f93e1f08329103e68716a
+last_modified_at: 2025-03-02
 related_topics:
+  - title: العربية version
+    url: /ar/common/tr.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/tr.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tr.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/tr.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # tr
 
 Translate characters: run replacements based on single characters and character sets.
-More information: <https://www.gnu.org/software/coreutils/tr>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/tr-invocation.html>.
 
 - Replace all occurrences of a character in a file, and print the result:
 

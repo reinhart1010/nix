@@ -2,8 +2,8 @@
 layout: page
 title: common/users (Nederlands)
 description: "Toon een lijst van ingelogde gebruikers."
-content_hash: b5f56620fe9bffbbd8d723eae41450f4eb271c8e
-last_modified_at: 2024-06-27
+content_hash: 5d5b0caeefc137333233c6552afa931c765d7e00
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/users.html
@@ -11,8 +11,14 @@ related_topics:
   - title: فارسی version
     url: /fa/common/users.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/users.html
+    icon: bi bi-globe
   - title: svenska version
     url: /sv/common/users.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/users.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -20,7 +26,7 @@ tldri18n_status: 2
 
 Toon een lijst van ingelogde gebruikers.
 Bekijk ook: `useradd`, `userdel`, `usermod`.
-Meer informatie: <https://www.gnu.org/software/coreutils/users>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/users-invocation.html>.
 
 - Toon ingelogde gebruikersnamen:
 

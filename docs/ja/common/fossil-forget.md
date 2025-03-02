@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (日本語)
 description: "このコマンドは `fossil rm` のエイリアスです。"
-content_hash: 7f93483f866d03ef663f65de2da3944a524845c5
-last_modified_at: 2024-05-09
+content_hash: d700eeb0aaedcccf22d01f1e7caa45c8d491fff6
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -94,7 +94,7 @@ tldri18n_status: 2
 # fossil forget
 
 このコマンドは `fossil rm` のエイリアスです。
-詳しくはこちら: <https://fossil-scm.org/home/help/forget>
+もっと詳しく: <https://fossil-scm.org/home/help/forget>。
 
 - オリジナルのコマンドのドキュメントを表示する:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/gdb (English)
 description: "The GNU Debugger."
-content_hash: 9932d18cc2864ac39bf316517875f95d5048fa80
-last_modified_at: 2023-11-12
+content_hash: 15822b329b63feb3e334617f86d19cffe51b64fd
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/gdb.html
@@ -46,3 +46,7 @@ More information: <https://www.gnu.org/software/gdb>.
 - Start `gdb` and pass arguments to the executable:
 
 `gdb --args `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument2</span>
+
+- Skip debuginfod and pagination prompts and then print the backtrace:
+
+`gdb -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">core</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span>` -iex 'set debuginfod enabled on' -iex 'set pagination off' -ex bt`

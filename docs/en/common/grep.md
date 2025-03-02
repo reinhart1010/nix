@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (English)
 description: "Find patterns in files using regular expressions."
-content_hash: 9ab98cbad93bad4c9f067bc93b3e9ef2d2b741c9
-last_modified_at: 2024-06-19
+content_hash: e229efb6cb4d2612e88592bdf8e160e33d3540e9
+last_modified_at: 2025-03-02
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -20,8 +20,17 @@ related_topics:
   - title: français version
     url: /fr/common/grep.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/grep.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/grep.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/grep.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/grep.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/grep.html
@@ -35,8 +44,14 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/grep.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/grep.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/grep.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/grep.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -57,7 +72,7 @@ More information: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 `grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recursive</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|--line-number</span>` --binary-files `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- Use extended regular expressions (supports `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode:
+- Use extended regular expressions (supports `?`, `+`, `{}`, `()`, and `|`), in case-insensitive mode:
 
 `grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-E|--extended-regexp</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|--ignore-case</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 

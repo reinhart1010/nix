@@ -2,8 +2,8 @@
 layout: page
 title: common/install (Nederlands)
 description: "Kopieer bestanden en stel attributen in."
-content_hash: 3737e1124f475760735c514ff61fc2d651e0945a
-last_modified_at: 2024-06-19
+content_hash: e9701dd9b45cfa6670f90efb3dfc01ebb5aaab11
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/install.html
@@ -11,13 +11,19 @@ related_topics:
   - title: français version
     url: /fr/common/install.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/install.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/install.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # install
 
 Kopieer bestanden en stel attributen in.
 Kopieer bestanden (vaak uitvoerbare) naar een systeemlocatie zoals `/usr/local/bin` en geef ze de juiste permissies/eigendom.
-Meer informatie: <https://www.gnu.org/software/coreutils/install>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/install-invocation.html>.
 
 - Kopieer bestanden naar de bestemming:
 

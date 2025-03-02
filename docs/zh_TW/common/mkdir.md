@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (中文 (繁體, 台灣))
 description: "建立目錄。"
-content_hash: 17172d7bdab08f43913047c720f117ee322bfb77
-last_modified_at: 2024-09-23
+content_hash: 3118bc0a0e4562b37d8a94f14b3192c36c5abe40
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -49,7 +49,7 @@ tldri18n_status: 2
 # mkdir
 
 建立目錄。
-更多資訊：<https://www.gnu.org/software/coreutils/mkdir>.
+更多資訊：<https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - 在目前所在目錄或指定路徑中建立新目錄：
 

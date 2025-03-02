@@ -3,7 +3,7 @@ layout: page
 title: common/rails (português (Brasil))
 description: "Framework MVC para o desenvolvimento de aplicações web, desenvolvido em Ruby."
 content_hash: 3c94516c8d8e05bc6c5af838cf5b1f66d155dc45
-last_modified_at: 2023-12-28
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/rails.html
@@ -14,9 +14,15 @@ related_topics:
   - title: Indonesia version
     url: /id/common/rails.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: 한국어 version
+    url: /ko/common/rails.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# rails
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># rails
 
 Framework MVC para o desenvolvimento de aplicações web, desenvolvido em Ruby.
 Mais informações: <https://guides.rubyonrails.org/command_line.html>.

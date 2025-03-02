@@ -3,7 +3,7 @@ layout: page
 title: common/rails (한국어)
 description: "서버 측 MVC 프레임워크로, Ruby로 작성되었습니다."
 content_hash: d70e21c4b01b4a60b3dab9a44244226a75844401
-last_modified_at: 2024-11-08
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/rails.html
@@ -17,9 +17,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/rails.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# rails
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># rails
 
 서버 측 MVC 프레임워크로, Ruby로 작성되었습니다.
 `generate`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.

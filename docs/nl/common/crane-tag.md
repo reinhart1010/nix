@@ -2,8 +2,8 @@
 layout: page
 title: common/crane-tag (Nederlands)
 description: "Efficiënt taggen van een remote image zonder het te downloaden, wat verschilt van het `copy` commando."
-content_hash: 6ed345935e2a9c51c6236d8ca514fd86d0047aad
-last_modified_at: 2024-10-27
+content_hash: 56c55e230392ef1a4eba7faf89c39e1a1c520340
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/crane-tag.html
@@ -23,6 +23,6 @@ Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/c
 
 `crane tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_naam</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_naam</span>
 
-- Toon help:
+- Toon de help:
 
 `crane tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

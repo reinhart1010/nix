@@ -2,8 +2,8 @@
 layout: page
 title: common/echo (日本語)
 description: "与えられた引数を表示します。"
-content_hash: e499d989cc6854305f759cc77041bd06383b4fa9
-last_modified_at: 2024-12-18
+content_hash: 47a9209e7782a80433776b375c0a2cfebc6624c8
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
@@ -11,11 +11,17 @@ related_topics:
   - title: English version
     url: /en/common/echo.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/echo.html
+    icon: bi bi-globe
   - title: فارسی version
     url: /fa/common/echo.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/echo.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/echo.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/echo.html
@@ -49,7 +55,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># echo
 
 与えられた引数を表示します。
-詳しくはこちら: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>
+もっと詳しく: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>。
 
 - テキストメッセージを印刷する。備考: 引用符は任意:
 

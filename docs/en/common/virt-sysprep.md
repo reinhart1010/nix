@@ -2,8 +2,12 @@
 layout: page
 title: common/virt-sysprep (English)
 description: "Reset, unconfigure, or customize a virtual machine image."
-content_hash: a6d2a1de3ae481a2f3c0c121790c1592e00df977
-last_modified_at: 2023-11-12
+content_hash: cf9ef70ae2545077156aab495a9437308829fb36
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/virt-sysprep.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # virt-sysprep
@@ -15,14 +19,18 @@ More information: <https://manned.org/virt-sysprep>.
 
 `virt-sysprep --list-operations`
 
-- Run all enabled operations but don't actually apply the changes:
+- Remove sensitive system data from a virtual machine image:
 
-`virt-sysprep --domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span>` --dry-run`
+`sudo virt-sysprep --add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.qcow2</span>
+
+- Specify a virtual machine by its name and run all enabled operations but don't actually apply the changes:
+
+`sudo virt-sysprep --domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span>` --dry-run`
 
 - Run only the specified operations:
 
-`virt-sysprep --domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span>` --operations `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">operation1,operation2,...</span>
+`sudo virt-sysprep --domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span>` --operations `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">operation1,operation2,...</span>
 
 - Generate a new `/etc/machine-id` file and enable customizations to be able to change the host name to avoid network conflicts:
 
-`virt-sysprep --domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span>` --enable `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">customizations</span>` --hostname `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_name</span>` --operation `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">machine-id</span>
+`sudo virt-sysprep --domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span>` --enable `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">customizations</span>` --hostname `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_name</span>` --operation `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">machine-id</span>

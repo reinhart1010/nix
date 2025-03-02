@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (한국어)
 description: "디렉토리를 생성하고 해당 권한을 설정합니다."
-content_hash: 66abb3a40ee43c46d0708b61de00989d5a511891
-last_modified_at: 2024-09-07
+content_hash: 6affe9bc08f73050fec1964656385a3f27282b57
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -49,7 +49,7 @@ tldri18n_status: 2
 # mkdir
 
 디렉토리를 생성하고 해당 권한을 설정합니다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/mkdir>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - 특정 디렉토리 생성:
 

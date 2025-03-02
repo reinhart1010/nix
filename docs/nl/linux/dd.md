@@ -2,11 +2,14 @@
 layout: page
 title: linux/dd (Nederlands)
 description: "Converteer en kopieer een bestand."
-content_hash: 98b27b06aa360396a4be69219ba79d7b905513f1
-last_modified_at: 2024-06-17
+content_hash: 268578172701f590ecd9c0f226e8f81bffbd760b
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/dd.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/dd.html
     icon: bi bi-globe
   - title: فارسی version
     url: /fa/linux/dd.html
@@ -14,12 +17,15 @@ related_topics:
   - title: 한국어 version
     url: /ko/linux/dd.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/dd.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # dd
 
 Converteer en kopieer een bestand.
-Meer informatie: <https://www.gnu.org/software/coreutils/dd>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html>.
 
 - Maak een opstartbare USB-schijf van een isohybrid-bestand (zoals `archlinux-xxx.iso`) en toon de voortgang:
 

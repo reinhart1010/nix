@@ -2,9 +2,12 @@
 layout: page
 title: linux/dd (English)
 description: "Convert and copy a file."
-content_hash: 042cff69be2edeed57bf307bb4d2f239fba71707
-last_modified_at: 2024-06-17
+content_hash: 3a9f0fd32eca72d4000fc10576cea7b7ce3f77ea
+last_modified_at: 2025-03-02
 related_topics:
+  - title: español version
+    url: /es/linux/dd.html
+    icon: bi bi-globe
   - title: فارسی version
     url: /fa/linux/dd.html
     icon: bi bi-globe
@@ -14,12 +17,15 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/dd.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/dd.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # dd
 
 Convert and copy a file.
-More information: <https://www.gnu.org/software/coreutils/dd>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html>.
 
 - Make a bootable USB drive from an isohybrid file (such as `archlinux-xxx.iso`) and show the progress:
 

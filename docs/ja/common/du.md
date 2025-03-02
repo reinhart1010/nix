@@ -2,8 +2,8 @@
 layout: page
 title: common/du (日本語)
 description: "ディスク使用状況: ファイルとディレクトリの使用量の概算を表示します。"
-content_hash: e07f716cc1f84da631147fe16adb4562b65e14ab
-last_modified_at: 2024-04-29
+content_hash: ecc2a0834bc52dd5f3e9e13e37f4bb7d12f3996e
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/du.html
@@ -14,14 +14,23 @@ related_topics:
   - title: español version
     url: /es/common/du.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/du.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/du.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/du.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/du.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/du.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/du.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/du.html
@@ -34,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># du
 
 ディスク使用状況: ファイルとディレクトリの使用量の概算を表示します。
-詳しくはこちら: <https://www.gnu.org/software/coreutils/du>
+もっと詳しく: <https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html>。
 
 - 指定した単位 (B/KiB/MiB) でディレクトリおよびサブディレクトリのサイズを表示します:
 

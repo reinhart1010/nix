@@ -2,8 +2,8 @@
 layout: page
 title: linux/pw-loopback (한국어)
 description: "PipeWire에서 루프백 장치를 생성."
-content_hash: 17b354aafc069b78827e2e342abdf083e2affe03
-last_modified_at: 2024-10-30
+content_hash: 25da8ac617598eb4805a0238326dc22d9e23afcf
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/pw-loopback.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # pw-loopback
 
 PipeWire에서 루프백 장치를 생성.
-더 많은 정보: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.
+더 많은 정보: <https://docs.pipewire.org/page_man_pw-loopback_1.html>.
 
 - 기본 루프백 동작으로 루프백 장치 생성:
 

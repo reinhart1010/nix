@@ -2,8 +2,8 @@
 layout: page
 title: common/mv (English)
 description: "Move or rename files and directories."
-content_hash: de080ba6620d52e86cbf574ff21eb466056007d2
-last_modified_at: 2024-08-22
+content_hash: 502e3a9e21ccc3ccdd2d04d9b1c25484eb1a9aff
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -43,7 +43,7 @@ tldri18n_status: 2
 # mv
 
 Move or rename files and directories.
-More information: <https://www.gnu.org/software/coreutils/mv>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
 - Rename a file or directory when the target is not an existing directory:
 

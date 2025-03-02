@@ -2,18 +2,24 @@
 layout: page
 title: common/split (Indonesia)
 description: "Memisahkan sebuah file menjadi beberapa bagian."
-content_hash: 8ddbb5700fb385375d35e3bfc8ae5e70f8bcd980
-last_modified_at: 2024-06-18
+content_hash: fd5b0a5c0e324085db7ee0fdb069453456fb2d1a
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/split.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/split.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/split.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # split
 
 Memisahkan sebuah file menjadi beberapa bagian.
-Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/split>.
+Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/split-invocation.html>.
 
 - Memisahkan sebuah file, tiap bagian memiliki 10 baris (kecuali di bagian terakhir):
 

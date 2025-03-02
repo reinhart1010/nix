@@ -2,9 +2,12 @@
 layout: page
 title: common/nice (English)
 description: "Execute a program with a custom scheduling priority (niceness)."
-content_hash: 76e6d516daa63d5c01765716c2273945d391fb92
-last_modified_at: 2024-10-11
+content_hash: fc6c85716333739c188469ceace65ac5a5bf127f
+last_modified_at: 2025-03-02
 related_topics:
+  - title: 한국어 version
+    url: /ko/common/nice.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/nice.html
     icon: bi bi-globe
@@ -14,7 +17,7 @@ tldri18n_status: 2
 
 Execute a program with a custom scheduling priority (niceness).
 Niceness values range from -20 (the highest priority) to 19 (the lowest).
-More information: <https://www.gnu.org/software/coreutils/nice>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/nice-invocation.html>.
 
 - Launch a program with altered priority:
 

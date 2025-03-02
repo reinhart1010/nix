@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (español)
 description: "Crea directorios y establece sus permisos."
-content_hash: c8160385c2f7fd950a88b1a73c9fef83c1845799
-last_modified_at: 2024-11-03
+content_hash: d3675f0a268861ce04514e046b6e799dd613fda2
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -50,7 +50,7 @@ tldri18n_status: 2
 
 Crea directorios y establece sus permisos.
 Vea también: `rmdir`, `ls`.
-Más información: <https://www.gnu.org/software/coreutils/mkdir>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - Crea los directorios especificados:
 

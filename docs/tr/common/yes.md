@@ -2,8 +2,8 @@
 layout: page
 title: common/yes (Türkçe)
 description: "Bir şeyi tekrar tekrar yazdır."
-content_hash: 7bd7f5929491c2b46149be1f301e1869da52925e
-last_modified_at: 2024-02-13
+content_hash: ab1faee9565ed6e612cf268cdbf26fee3fe4f0ba
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/yes.html
@@ -14,6 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/yes.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/yes.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/yes.html
     icon: bi bi-globe
@@ -22,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/yes.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/yes.html
     icon: bi bi-globe
 tldri18n_status: 1
 ---
@@ -32,7 +38,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 Bir şeyi tekrar tekrar yazdır.
 Bu komut genelde yükleme işlemleri sırasında onay için yes yazmak için kullanılır (apt-get gibi).
-Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/yes>.
+Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/manual/html_node/yes-invocation.html>.
 
 - Tekrar tekrar "mesaj" yazdır:
 

@@ -3,7 +3,7 @@ layout: page
 title: common/git-revert (한국어)
 description: "이전 커밋의 영향을 되돌리는 새로운 커밋을 생성합니다."
 content_hash: 414dbe68c82882347cfd5c8e833a3f14d637f4b6
-last_modified_at: 2024-10-08
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/git-revert.html
@@ -20,9 +20,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-revert.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git revert
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git revert
 
 이전 커밋의 영향을 되돌리는 새로운 커밋을 생성합니다.
 더 많은 정보: <https://git-scm.com/docs/git-revert>.

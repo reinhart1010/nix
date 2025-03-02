@@ -2,21 +2,27 @@
 layout: page
 title: common/join (Nederlands)
 description: "Voeg regels van twee gesorteerde bestanden samen op een gemeenschappelijk veld."
-content_hash: b68df629f1b8cf8e714f268a4a19dd3bc08cd05d
-last_modified_at: 2024-06-19
+content_hash: 84fe24a71e4378e616737b10958f82356868f8cf
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/join.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/join.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/join.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/join.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # join
 
 Voeg regels van twee gesorteerde bestanden samen op een gemeenschappelijk veld.
-Meer informatie: <https://www.gnu.org/software/coreutils/join>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/join-invocation.html>.
 
 - Voeg twee bestanden samen op het eerste (standaard) veld:
 

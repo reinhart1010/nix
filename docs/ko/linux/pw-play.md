@@ -3,10 +3,13 @@ layout: page
 title: linux/pw-play (한국어)
 description: "PipeWire를 통해 오디오 파일 재생."
 content_hash: 4a37c5eefbcdad9039624f32c332b5d3bc9f2a2e
-last_modified_at: 2024-10-30
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/pw-play.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/pw-play.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/pw-play.html
@@ -14,9 +17,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/pw-play.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# pw-play
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># pw-play
 
 PipeWire를 통해 오디오 파일 재생.
 `pw-cat --playback`의 약어.

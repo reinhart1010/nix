@@ -2,11 +2,14 @@
 layout: page
 title: common/vdir (Nederlands)
 description: "Toon de inhoud van een map."
-content_hash: 4aa5fd2659cc32412dbd7f68648ce0163c375fae
-last_modified_at: 2024-06-27
+content_hash: 151e2b0d4bea83617e2fa171ba71a909f8616fb2
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/vdir.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/vdir.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -14,7 +17,7 @@ tldri18n_status: 2
 
 Toon de inhoud van een map.
 Vervanger voor `ls -l`.
-Meer informatie: <https://www.gnu.org/software/coreutils/vdir>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/vdir-invocation.html>.
 
 - Toon bestanden en mappen in de huidige map, één per regel, met details:
 

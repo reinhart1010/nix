@@ -2,8 +2,8 @@
 layout: page
 title: common/tac (한국어)
 description: "파일을 역순으로 표시하고 연결."
-content_hash: 115e6f73172ba577f9236dceb771eed79e195f89
-last_modified_at: 2024-11-10
+content_hash: bc6f5243f50f466239fdfc79de5a2c19f6eb4675
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/tac.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 파일을 역순으로 표시하고 연결.
 같이 보기: `cat`.
-더 많은 정보: <https://www.gnu.org/software/coreutils/tac>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html>.
 
 - 특정 파일들을 역순으로 연결:
 

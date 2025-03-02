@@ -2,8 +2,8 @@
 layout: page
 title: common/bat (日本語)
 description: "ファイルの内容を表示したり、連結したりします。"
-content_hash: dfd64d1ed1586d62179a9cec81e4595a8b364468
-last_modified_at: 2024-03-07
+content_hash: c59bd2a78f88aefe30d593b0732a6f1f093ee4ae
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -50,7 +50,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 ファイルの内容を表示したり、連結したりします。
 シンタックスハイライトと Git 統合を備えた `cat`クローンです。
-詳しくはこちら: <https://github.com/sharkdp/bat>
+もっと詳しく: <https://github.com/sharkdp/bat>。
 
 - ファイルの内容を、標準出力に出力する:
 

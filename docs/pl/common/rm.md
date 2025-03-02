@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (polski)
 description: "Usuwa pliki lub foldery."
-content_hash: 7996978d20fe7afe937ef4134660f4b46f19c017
-last_modified_at: 2023-12-29
+content_hash: 5e7d775baff07aee7bff0ffd368ab33d5e6f9417
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># rm
 
 Usuwa pliki lub foldery.
-Więcej informacji: <https://www.gnu.org/software/coreutils/rm>.
+Więcej informacji: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - Usuń pliki z dowolnej lokalizacji:
 

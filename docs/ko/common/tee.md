@@ -2,14 +2,17 @@
 layout: page
 title: common/tee (한국어)
 description: "`stdin`에서 읽고 `stdout` 및 파일(또는 명령어)로 쓰기."
-content_hash: b440b62c7cc6a1c5eda52558282def4586cf393b
-last_modified_at: 2024-11-10
+content_hash: 159cd7eb91e7815061430131e34f62b998bbd25d
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/tee.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/tee.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/tee.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/tee.html
@@ -19,7 +22,7 @@ tldri18n_status: 2
 # tee
 
 `stdin`에서 읽고 `stdout` 및 파일(또는 명령어)로 쓰기.
-더 많은 정보: <https://www.gnu.org/software/coreutils/tee>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/tee-invocation.html>.
 
 - `stdin`을 각 파일과 `stdout`으로 복사:
 

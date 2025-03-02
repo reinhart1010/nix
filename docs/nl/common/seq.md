@@ -2,18 +2,24 @@
 layout: page
 title: common/seq (Nederlands)
 description: "Toon een reeks getallen naar `stdout`."
-content_hash: 4147824bab1d4f38939d11f42392a388538eb943
-last_modified_at: 2024-06-29
+content_hash: a8dae383c43e64f9caba36daa0234d7cd481e3a7
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/seq.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/seq.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/seq.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # seq
 
 Toon een reeks getallen naar `stdout`.
-Meer informatie: <https://www.gnu.org/software/coreutils/seq>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/seq-invocation.html>.
 
 - Reeks van 1 tot 10:
 

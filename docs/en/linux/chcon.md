@@ -2,8 +2,8 @@
 layout: page
 title: linux/chcon (English)
 description: "Change SELinux security context of a file or files/directories."
-content_hash: fee700edc582c576750b982f5c4bdb7b3e177707
-last_modified_at: 2024-05-27
+content_hash: 50da81fba6b3491e7fcded1e3721095896d4609a
+last_modified_at: 2025-03-02
 related_topics:
   - title: français version
     url: /fr/linux/chcon.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Change SELinux security context of a file or files/directories.
 See also: `secon`, `restorecon`, `semanage-fcontext`.
-More information: <https://www.gnu.org/software/coreutils/chcon>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/chcon-invocation.html>.
 
 - View security context of a file:
 

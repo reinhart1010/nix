@@ -2,8 +2,8 @@
 layout: page
 title: common/ani-cli (English)
 description: "A cli to browse and watch anime."
-content_hash: 6b043ce81535401f92c5f0ea823da9c187ebbd7e
-last_modified_at: 2024-02-09
+content_hash: 71db3630cf0a4fa6b7433e391128b298f8587d64
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/ani-cli.html
@@ -16,6 +16,12 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ani-cli.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ani-cli.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/ani-cli.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/ani-cli.html
@@ -40,6 +46,14 @@ More information: <https://github.com/pystardust/ani-cli>.
 - [d]ownload episode:
 
 `ani-cli -d "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anime_name</span>`"`
+
+- [d]ownload a [r]ange of episodes:
+
+`ani-cli -d -r "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1 6</span>`" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anime_name</span>`"`
+
+- [d]ownload the entire series (a range of all episodes):
+
+`ani-cli -d -r "1 -1" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anime_name</span>`"`
 
 - Use [v]LC as the media player:
 

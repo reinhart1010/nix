@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (日本語)
 description: "ファイルやディレクトリをコピーします。"
-content_hash: cf765938d0f69da62df26c9785056b8315f33349
-last_modified_at: 2024-12-13
+content_hash: d7aa2b369c0439a7ca49e4e18ee8bf66d92c98f5
+last_modified_at: 2025-03-02
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -67,7 +67,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cp
 
 ファイルやディレクトリをコピーします。
-詳しくはこちら: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>
+もっと詳しく: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>。
 
 - ファイルを別の場所にコピー:
 

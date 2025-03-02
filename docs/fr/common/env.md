@@ -2,14 +2,23 @@
 layout: page
 title: common/env (français)
 description: "Affiche l'environnement ou exécute un programme dans un environnement modifié."
-content_hash: b5d48b2587e03d522d1ebe49a5842946fa55040e
-last_modified_at: 2023-11-12
+content_hash: 2bdd5aaef4214a7c4978f777dc930772f974eb97
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/env.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/env.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/env.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/env.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/env.html
     icon: bi bi-globe
   - title: norsk version
     url: /no/common/env.html
@@ -19,7 +28,7 @@ tldri18n_status: 2
 # env
 
 Affiche l'environnement ou exécute un programme dans un environnement modifié.
-Plus d'informations : <https://www.gnu.org/software/coreutils/env>.
+Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/env-invocation.html>.
 
 - Affiche l'environnement :
 

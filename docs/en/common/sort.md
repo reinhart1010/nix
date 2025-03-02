@@ -2,9 +2,15 @@
 layout: page
 title: common/sort (English)
 description: "Sort lines of text files."
-content_hash: d1e76faa4b66a18187f2bf37c3570ab0a37b4a69
-last_modified_at: 2024-06-25
+content_hash: 092e6c1c5d75935b4a169b7cf340c4aff4554068
+last_modified_at: 2025-03-02
 related_topics:
+  - title: 한국어 version
+    url: /ko/common/sort.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/sort.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/sort.html
     icon: bi bi-globe
@@ -13,7 +19,7 @@ tldri18n_status: 2
 # sort
 
 Sort lines of text files.
-More information: <https://www.gnu.org/software/coreutils/sort>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html>.
 
 - Sort a file in ascending order:
 

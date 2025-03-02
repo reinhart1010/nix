@@ -2,8 +2,8 @@
 layout: page
 title: common/pwd (Nederlands)
 description: "Print de naam van de huidige/werkdirectory."
-content_hash: a5c05ee1e03784fa73c46611e2b3eabc95b525b0
-last_modified_at: 2024-12-10
+content_hash: 382e30c23fb58b12c099f1beb62023a73138f03b
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/common/pwd.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # pwd
 
 Print de naam van de huidige/werkdirectory.
-Meer informatie: <https://www.gnu.org/software/coreutils/pwd>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html>.
 
 - Print de huidige directory:
 

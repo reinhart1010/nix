@@ -2,8 +2,8 @@
 layout: page
 title: windows/cmd (日本語)
 description: "Windowsコマンドインタープリター。"
-content_hash: bfda67fa6a9d44f5aa6a212a060b0976f5e9da8e
-last_modified_at: 2023-12-30
+content_hash: 66e589c5d8b20b4f14c76adbc43a59bc938c5b39
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/windows/cmd.html
@@ -17,8 +17,17 @@ related_topics:
   - title: हिन्दी version
     url: /hi/windows/cmd.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/windows/cmd.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/windows/cmd.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/cmd.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/cmd.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/cmd.html
@@ -43,7 +52,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cmd
 
 Windowsコマンドインタープリター。
-詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>
+もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>。
 
 - コマンドインタープリターの新しいインスタンスを開始します:
 

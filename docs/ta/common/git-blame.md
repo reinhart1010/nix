@@ -3,7 +3,7 @@ layout: page
 title: common/git-blame (தமிழ்)
 description: "ஒரு கோப்பின் ஒவ்வொரு வரியிலும் கமிட் ஹாஷ் மற்றும் கடைசி எழுத்தாளரைக் காட்டு."
 content_hash: 11e1aa9154837a418254e037aecf6a93e41f2bb2
-last_modified_at: 2024-09-30
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/git-blame.html
@@ -29,9 +29,15 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-blame.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: українська version
+    url: /uk/common/git-blame.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# git blame
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git blame
 
 ஒரு கோப்பின் ஒவ்வொரு வரியிலும் கமிட் ஹாஷ் மற்றும் கடைசி எழுத்தாளரைக் காட்டு.
 மேலும் விவரத்திற்கு: <https://git-scm.com/docs/git-blame>.

@@ -2,11 +2,14 @@
 layout: page
 title: common/if (Nederlands)
 description: "Voert voorwaardelijke verwerking uit in shell-scripts."
-content_hash: a2c8335222f723ac158cddf2ec512ca6800a875c
-last_modified_at: 2024-08-13
+content_hash: 5300dabe828a2def81f3d61124dd6a989e280b30
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/if.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/if.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -46,4 +49,4 @@ Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#Conditional
 
 - Toon alle mogelijke voorwaarden (`test` is een alias voor `[`; beide worden vaak gebruikt met `if`):
 
-`man [`
+`man test`

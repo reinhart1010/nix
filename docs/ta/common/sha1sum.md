@@ -2,8 +2,8 @@
 layout: page
 title: common/sha1sum (தமிழ்)
 description: "SHA1 மறையீட்டு சரிகாண்தொகையைக் கணி."
-content_hash: f22880903a26093aa16989cac7df8ce3126b3352
-last_modified_at: 2024-11-24
+content_hash: d91f0cb0d8f28d3c2262bb118ce3ac12f91d1d92
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/sha1sum.html
@@ -25,7 +25,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># sha1sum
 
 SHA1 மறையீட்டு சரிகாண்தொகையைக் கணி.
-மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/sha1sum>.
+மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/sha1sum-invocation.html>.
 
 - ஒன்று அல்லது அதற்கு மேற்பட்ட கோப்புகளுக்கான SHA1 சரிகாண்தொகையைக் கணி:
 

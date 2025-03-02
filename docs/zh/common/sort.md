@@ -2,18 +2,24 @@
 layout: page
 title: common/sort (中文)
 description: "对文本文件的行进行排序。"
-content_hash: 4c623ec328f23e0b6acdad8b45ab0f46df0077b8
-last_modified_at: 2024-01-01
+content_hash: b09359dabdee5cdeca4048d85ed140f8f4cecc7e
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/sort.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/sort.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/sort.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # sort
 
 对文本文件的行进行排序。
-更多信息：<https://www.gnu.org/software/coreutils/sort>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html>.
 
 - 以升序对文件进行排序：
 

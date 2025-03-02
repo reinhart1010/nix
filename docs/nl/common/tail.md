@@ -2,8 +2,8 @@
 layout: page
 title: common/tail (Nederlands)
 description: "Toon het laatste deel van een bestand."
-content_hash: 405cc61ffdebe05cfc0d74723ebf32795f3dc908
-last_modified_at: 2024-01-26
+content_hash: 1a28a83e151f69b5eecad373830dfe23983304c4
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/tail.html
@@ -14,8 +14,14 @@ related_topics:
   - title: español version
     url: /es/common/tail.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tail.html
+    icon: bi bi-globe
   - title: sh version
     url: /sh/common/tail.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/tail.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -23,7 +29,7 @@ tldri18n_status: 2
 
 Toon het laatste deel van een bestand.
 Bekijk ook: `head`.
-Meer informatie: <https://www.gnu.org/software/coreutils/tail>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html>.
 
 - Toon laatste aantal regels in een bestand:
 

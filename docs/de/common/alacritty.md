@@ -3,7 +3,7 @@ layout: page
 title: common/alacritty (Deutsch)
 description: "Plattformübergreifender, GPU-beschleunigter Terminalemulator."
 content_hash: 0c753d483b70c313b7235074076edbb9fe109ecc
-last_modified_at: 2024-05-18
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/alacritty.html
@@ -35,9 +35,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/alacritty.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# alacritty
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># alacritty
 
 Plattformübergreifender, GPU-beschleunigter Terminalemulator.
 Weitere Informationen: <https://github.com/alacritty/alacritty>.

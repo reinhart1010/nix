@@ -2,18 +2,21 @@
 layout: page
 title: linux/uuid (polski)
 description: "Twórz i dekoduj uniwersalne identyfikatory (UUID)."
-content_hash: 3851f37e916b30e578dc78879e616ca6784be27b
-last_modified_at: 2023-11-12
+content_hash: f76dd8dda74f897cdcd96da7c4142778a90e0769
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/uuid.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/uuid.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # uuid
 
 Twórz i dekoduj uniwersalne identyfikatory (UUID).
-Zobacz też `uuidgen`.
+Zobacz także `uuidgen`.
 Więcej informacji: <https://manned.org/uuid>.
 
 - Stwórz UUIDv1 (oparte o zegar systemowy i - jeśli dostępne - adres sprzętowy):

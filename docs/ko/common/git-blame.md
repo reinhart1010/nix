@@ -3,7 +3,7 @@ layout: page
 title: common/git-blame (한국어)
 description: "파일의 각 줄에 커밋 해시와 마지막 작성자를 표시."
 content_hash: e3e3fb98d1793d1431495fe03b06d1fb9fd734f6
-last_modified_at: 2024-10-08
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/git-blame.html
@@ -32,9 +32,12 @@ related_topics:
   - title: українська version
     url: /uk/common/git-blame.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git blame
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git blame
 
 파일의 각 줄에 커밋 해시와 마지막 작성자를 표시.
 더 많은 정보: <https://git-scm.com/docs/git-blame>.

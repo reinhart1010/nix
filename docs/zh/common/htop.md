@@ -2,8 +2,8 @@
 layout: page
 title: common/htop (中文)
 description: "显示正在运行的进程的动态实时信息。`top` 的增强版。"
-content_hash: e22ac4dc030b7e50646789a43ab9bcf4345013e9
-last_modified_at: 2024-07-26
+content_hash: c61f5af7938fa30cf814ea0691fe560ebea91980
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/htop.html
@@ -26,12 +26,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/htop.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># htop
+# htop
 
 显示正在运行的进程的动态实时信息。`top` 的增强版。
 更多信息：<https://htop.dev/>.
@@ -43,6 +40,10 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 - 启动 `htop`, 显示指定用户拥有的进程：
 
 `htop --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span>
+
+- 以树形视图显示进程的层级关系，展示父子进程之间的关系：
+
+`htop --tree`
 
 - 使用指定的 `sort_item` 对进程排序（使用 `htop --sort help` 获取可用选项）：
 

@@ -3,14 +3,17 @@ layout: page
 title: linux/trap (한국어)
 description: "이벤트 발생 시 명령을 실행합니다."
 content_hash: dde0d9cf75a720cdd6428fa838b27ee9b787c343
-last_modified_at: 2024-11-10
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/trap.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# trap
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># trap
 
 이벤트 발생 시 명령을 실행합니다.
 더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-trap>.

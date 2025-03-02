@@ -2,8 +2,8 @@
 layout: page
 title: linux/dd (português (Brasil))
 description: "Converte e copia um arquivo."
-content_hash: 1fdee7aec767a7353318bea84f0c3ae30b15828e
-last_modified_at: 2024-09-24
+content_hash: ec4647d780847ac3664faf7ee0a18790c7580da3
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/dd.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # dd
 
 Converte e copia um arquivo.
-Mais informações: <https://www.gnu.org/software/coreutils/dd>.
+Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html>.
 
 - Cria um dispositivo USB inicializável a partir de um arquivo isohybrid (como `archlinux-xxx.iso`), e mostra o progresso:
 

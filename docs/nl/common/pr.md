@@ -2,18 +2,21 @@
 layout: page
 title: common/pr (Nederlands)
 description: "Pagineer of kolomeer bestanden voor afdrukken."
-content_hash: e09697686b0a8f9c44b783c339ffb7e2f5351467
-last_modified_at: 2024-06-27
+content_hash: 589682e96f1182fb864c3fbb776e48df22dde4d1
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/pr.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/pr.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # pr
 
 Pagineer of kolomeer bestanden voor afdrukken.
-Meer informatie: <https://www.gnu.org/software/coreutils/pr>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/pr-invocation.html>.
 
 - Toon meerdere bestanden met een standaardkop- en voettekst:
 

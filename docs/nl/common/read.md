@@ -2,8 +2,8 @@
 layout: page
 title: common/read (Nederlands)
 description: "Shell builtin voor het ophalen van data van `stdin`."
-content_hash: 70e9cc8baa1fe2cf10146282b6c9ce4031b2562b
-last_modified_at: 2024-12-05
+content_hash: 3c321751ad188c98650e71f103e761fee9e0070b
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/read.html
@@ -14,12 +14,15 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/read.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/read.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # read
 
 Shell builtin voor het ophalen van data van `stdin`.
-Meer informatie: <https://manned.org/read.1p>.
+Meer informatie: <https://www.gnu.org/software/bash/manual/bash.html#index-read>.
 
 - Sla gegevens op die je van het toetsenbord typt:
 

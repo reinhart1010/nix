@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco (日本語)
 description: "Chocolateyパッケージマネージャーのコマンドラインインターフェイスです。"
-content_hash: 6d9fad48989a80662715ec4e6a3f95bac4f4ad7c
-last_modified_at: 2024-10-05
+content_hash: aacf6c1425e44426a10b634322d24b9911bf7553
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco.html
@@ -17,8 +17,14 @@ related_topics:
   - title: हिन्दी version
     url: /hi/windows/choco.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/windows/choco.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/windows/choco.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/choco.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/windows/choco.html
@@ -44,7 +50,7 @@ tldri18n_status: 2
 
 Chocolateyパッケージマネージャーのコマンドラインインターフェイスです。
 `install` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
-詳しくはこちら: <https://chocolatey.org>
+もっと詳しく: <https://chocolatey.org>。
 
 - Chocolateyコマンドを実行します:
 

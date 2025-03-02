@@ -2,8 +2,8 @@
 layout: page
 title: common/crane-flatten (Nederlands)
 description: "Flatten de lagen van een image tot een enkele laag."
-content_hash: b2c67041bdc53f3d9a6823a26dae2b4dcc7567c9
-last_modified_at: 2024-10-27
+content_hash: 73bf5fccf664b5d037d859f018a1fceaed0f4a5f
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/crane-flatten.html
@@ -27,6 +27,6 @@ Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/c
 
 `crane flatten `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|--tag</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_naam</span>
 
-- Toon help:
+- Toon de help:
 
 `crane flatten `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

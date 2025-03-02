@@ -3,7 +3,7 @@ layout: page
 title: common/docker-image (한국어)
 description: "도커 이미지 관리."
 content_hash: 7f6d10da5e1a61be8ad6f2caec6412338fbf8fe8
-last_modified_at: 2024-09-23
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-image.html
@@ -20,9 +20,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/docker-image.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# docker image
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># docker image
 
 도커 이미지 관리.
 `docker build`, `docker import`, `docker pull` 도 확인하세요.

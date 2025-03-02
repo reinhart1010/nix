@@ -2,14 +2,17 @@
 layout: page
 title: common/ln (italiano)
 description: "Crea un collegamento a un file o a una directory."
-content_hash: 5b46d7d62da98ab38e20c69452dd1aa82e20140e
-last_modified_at: 2023-11-12
+content_hash: 4f3bdaa163f9aac242046d22e0ff2086f666ed5f
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/ln.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/ln.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/ln.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ln.html
@@ -31,7 +34,7 @@ tldri18n_status: 2
 # ln
 
 Crea un collegamento a un file o a una directory.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/ln>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/ln-invocation.html>.
 
 - Crea un collegamento simbolico a un file (o directory):
 

@@ -2,9 +2,12 @@
 layout: page
 title: common/tr (한국어)
 description: "문자를 변환합니다: 단일 문자 및 문자 집합을 기반으로 대체를 수행합니다."
-content_hash: accac7b707424b954b2e91d0580c340367cfc6f2
-last_modified_at: 2024-11-10
+content_hash: 3eb66e1edd7ec54889d415e1f491369cc98eed83
+last_modified_at: 2025-03-02
 related_topics:
+  - title: العربية version
+    url: /ar/common/tr.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/tr.html
     icon: bi bi-globe
@@ -19,7 +22,7 @@ tldri18n_status: 2
 # tr
 
 문자를 변환합니다: 단일 문자 및 문자 집합을 기반으로 대체를 수행합니다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/tr>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/tr-invocation.html>.
 
 - 파일에서 특정 문자의 모든 발생을 대체하고 결과를 출력:
 

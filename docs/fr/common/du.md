@@ -2,8 +2,8 @@
 layout: page
 title: common/du (français)
 description: "Utilisation de disque : estime et résume l'utilisation de l'espace occupé par les fichiers et les répertoires."
-content_hash: 6af2ab780b4cfcd44802498cf8d35d6432111b33
-last_modified_at: 2024-11-23
+content_hash: dd15e6466742e61af9d3ae6b3bd7f200de37ee4b
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/du.html
@@ -29,6 +29,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/du.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/du.html
+    icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/du.html
     icon: bi bi-globe
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # du
 
 Utilisation de disque : estime et résume l'utilisation de l'espace occupé par les fichiers et les répertoires.
-Plus d'informations : <https://www.gnu.org/software/coreutils/du>.
+Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html>.
 
 - Liste les tailles d'un répertoire et de ses sous-répertoires, dans l'unité donnée (o/Kio/Mio) :
 

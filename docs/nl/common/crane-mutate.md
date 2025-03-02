@@ -2,8 +2,8 @@
 layout: page
 title: common/crane-mutate (Nederlands)
 description: "Wijzig image-labels en annotaties."
-content_hash: b3e18b80233726d770f4b1f18d1ab29c5b3fa837
-last_modified_at: 2024-10-27
+content_hash: 8f9cea34c593142d620d2bcf4c0db7985f2890f9
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/crane-mutate.html
@@ -47,6 +47,6 @@ Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/c
 
 `crane mutate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-w|--workdir</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/werk-map</span>
 
-- Toon help:
+- Toon de help:
 
 `crane mutate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

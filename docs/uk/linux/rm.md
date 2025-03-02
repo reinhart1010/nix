@@ -2,14 +2,20 @@
 layout: page
 title: linux/rm (українська)
 description: "Видалити файли або директорії."
-content_hash: 4b98d554ce28ac0286cce84f499ee59fdd570ebd
-last_modified_at: 2024-09-05
+content_hash: ea506df0ef241aea2e8b3a3baeba8f5b480eb749
+last_modified_at: 2025-03-02
 related_topics:
+  - title: العربية version
+    url: /ar/linux/rm.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/rm.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/rm.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/rm.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/rm.html
@@ -23,7 +29,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 Видалити файли або директорії.
 Дивіться також: `rmdir`.
-Більше інформації: <https://www.gnu.org/software/coreutils/rm>.
+Більше інформації: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - Видалити певні файли:
 

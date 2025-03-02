@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-info (日本語)
 description: "Chocolateyのパッケージに関する詳細情報を表示します。"
-content_hash: f32e71a4e0642c02fd96ce3434df787fa8506b30
-last_modified_at: 2023-11-12
+content_hash: 4cafa47901f31f77168adf254c2e6a1702a6fd32
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-info.html
@@ -13,6 +13,15 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/choco-info.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/choco-info.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/windows/choco-info.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/choco-info.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/windows/choco-info.html
@@ -31,7 +40,7 @@ tldri18n_status: 2
 # choco info
 
 Chocolateyのパッケージに関する詳細情報を表示します。
-詳しくはこちら: <https://chocolatey.org/docs/commands-info>
+もっと詳しく: <https://chocolatey.org/docs/commands-info>。
 
 - 特定のパッケージに関する情報を表示します:
 

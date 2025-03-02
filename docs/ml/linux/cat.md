@@ -2,24 +2,39 @@
 layout: page
 title: linux/cat (മലയാളം)
 description: "ഫയലുകൾ പ്രിന്റ് ചെയ്യുവാനും സംയോജിപ്പിക്കുവാനുമുള്ള കമാൻഡ്."
-content_hash: 098af62f3b485a1e5ece9f247a9344809eacc3a3
-last_modified_at: 2024-01-03
+content_hash: daa8328ba609ec52419a52dbede522852df36f4c
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/cat.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/linux/cat.html
+    icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/linux/cat.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/cat.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/cat.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/cat.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/cat.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/cat.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # cat
 
 ഫയലുകൾ പ്രിന്റ് ചെയ്യുവാനും സംയോജിപ്പിക്കുവാനുമുള്ള കമാൻഡ്.
-കൂടുതൽ വിവരങ്ങൾ: <https://www.gnu.org/software/coreutils/cat>.
+കൂടുതൽ വിവരങ്ങൾ: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - ഫയലിന്റെ ഉള്ളടക്കം സ്റ്റാൻഡേർഡ് ഔട്പുട്ടിലേക്ക് പ്രിന്റ് ചെയ്യുവാൻ:
 

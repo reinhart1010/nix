@@ -2,8 +2,8 @@
 layout: page
 title: linux/chcon (Nederlands)
 description: "Verander SELinux beveiligingscontext van een bestand of bestanden/mappen."
-content_hash: c276265d217ea2a4ff21725a8dca0a7cc6c65289
-last_modified_at: 2024-01-10
+content_hash: 243e7e24e9e01f9b1cd310b06f55f1061bd25ef1
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/chcon.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # chcon
 
 Verander SELinux beveiligingscontext van een bestand of bestanden/mappen.
-Meer informatie: <https://www.gnu.org/software/coreutils/chcon>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/chcon-invocation.html>.
 
 - Toon beveiligingscontext van een bestand:
 

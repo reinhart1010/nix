@@ -2,8 +2,8 @@
 layout: page
 title: common/alacritty (Nederlands)
 description: "Cross-platform, GPU-versnelde terminalemulator."
-content_hash: b3def790de296a3b7b864587b7fa8902e6482078
-last_modified_at: 2024-05-18
+content_hash: d57148006399a9f5684b5fafc64424ffa52505a3
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -46,13 +46,21 @@ Meer informatie: <https://github.com/alacritty/alacritty>.
 
 `alacritty`
 
+- Start de Alacritty daemon (zonder een venster te maken):
+
+`alacritty --daemon`
+
+- Maak een nieuw venster met behulp van het reeds lopende Alacritty proces:
+
+`alacritty msg create-window`
+
 - Uitvoeren in een specifieke map:
 
 `alacritty --working-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span>
 
-- Voer een opdracht uit in een nieuw Alacritty-venster:
+- Vo[e]r een commando uit in een nieuw Alacritty-venster:
 
-`alacritty -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bevel</span>
+`alacritty -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span>
 
 - Geef een alternatief configuratiebestand op (standaard ingesteld op `$XDG_CONFIG_HOME/alacritty/alacritty.toml`):
 

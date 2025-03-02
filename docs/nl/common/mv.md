@@ -2,8 +2,8 @@
 layout: page
 title: common/mv (Nederlands)
 description: "Verplaats of hernoem bestanden en mappen."
-content_hash: 75d2647104b7662e5e24a17ddfc31d9fffc51af4
-last_modified_at: 2024-08-22
+content_hash: d75488c7b3dc234b600ed96cf982a732f7af8d13
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -43,7 +43,7 @@ tldri18n_status: 2
 # mv
 
 Verplaats of hernoem bestanden en mappen.
-Meer informatie: <https://www.gnu.org/software/coreutils/mv>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
 - Hernoem een bestand of map als het doel geen bestaande map is:
 

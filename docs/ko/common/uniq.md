@@ -2,8 +2,8 @@
 layout: page
 title: common/uniq (한국어)
 description: "입력 또는 파일에서 고유한 줄을 출력합니다."
-content_hash: 9f8a9e1ab8f1fb3d46b0e7a5cd26b5d90c0a94be
-last_modified_at: 2024-11-02
+content_hash: 27acaf3f153dc4f31ca910a93bae69bdc175dc05
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/uniq.html
@@ -11,13 +11,16 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/uniq.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/uniq.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # uniq
 
 입력 또는 파일에서 고유한 줄을 출력합니다.
 인접하지 않은 반복 줄을 감지하지 않으므로 먼저 정렬해야 합니다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/uniq>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/uniq-invocation.html>.
 
 - 각 줄을 한 번씩만 표시:
 

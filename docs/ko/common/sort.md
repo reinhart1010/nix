@@ -2,8 +2,8 @@
 layout: page
 title: common/sort (한국어)
 description: "텍스트 파일의 줄을 정렬합니다."
-content_hash: 41003fe486236c538928e28c8c5a906c938a6fc8
-last_modified_at: 2024-11-10
+content_hash: 7ea74621902dec13451c83a3fd1a3b34e2db4a12
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/sort.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # sort
 
 텍스트 파일의 줄을 정렬합니다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/sort>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html>.
 
 - 파일을 오름차순으로 정렬:
 

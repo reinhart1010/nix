@@ -2,21 +2,30 @@
 layout: page
 title: common/users (فارسی)
 description: "نمایش لیست کاربران لاگین شده."
-content_hash: 5e2ed1c018e02b3abb841b6d3612f47936ddd82a
-last_modified_at: 2023-11-12
+content_hash: a06f6c4940d8d7bdc29814fe2a6d20bf054393f9
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/users.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/users.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/users.html
+    icon: bi bi-globe
   - title: svenska version
     url: /sv/common/users.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/users.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # users
 
 نمایش لیست کاربران لاگین شده.
-اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/users>.
+اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/users-invocation.html>.
 
 - نمایش لیست کاربران لاگین شده:
 

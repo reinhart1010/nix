@@ -2,11 +2,14 @@
 layout: page
 title: common/ln (español)
 description: "Crea enlaces a archivos y directorios."
-content_hash: 3bc7b355dc2099586e55fa03d7c70a32374eab75
-last_modified_at: 2023-11-12
+content_hash: f1604279c506aec789f92da2ca715623505e83e8
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/ln.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/ln.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ln.html
@@ -31,7 +34,7 @@ tldri18n_status: 2
 # ln
 
 Crea enlaces a archivos y directorios.
-Más información: <https://www.gnu.org/software/coreutils/ln>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/ln-invocation.html>.
 
 - Crea un enlace simbólico a un archivo o directorio:
 

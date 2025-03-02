@@ -2,14 +2,17 @@
 layout: page
 title: common/du (español)
 description: "Uso del disco: estima y resume el uso del espacio de archivos y directorios."
-content_hash: 87c0612630977074fe3669b93828be54dcec7a6e
-last_modified_at: 2024-11-04
+content_hash: ac99a66a38848b104031124b05f09026d077560f
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/du.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/du.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/du.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/du.html
@@ -26,6 +29,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/du.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/du.html
+    icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/du.html
     icon: bi bi-globe
@@ -34,7 +40,7 @@ tldri18n_status: 2
 # du
 
 Uso del disco: estima y resume el uso del espacio de archivos y directorios.
-Más información: <https://www.gnu.org/software/coreutils/du>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html>.
 
 - Lista los tamaños de un directorio y sus subdirectorios, en la unidad dada (B/KiB/MiB):
 

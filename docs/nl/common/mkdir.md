@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (Nederlands)
 description: "Maak mappen aan en stel hun permissies in."
-content_hash: 037aaf4861cccad2d2a40a3e2f26b4501a67a7ca
-last_modified_at: 2024-11-16
+content_hash: 64f48dd12e3e5ba2476d55397b14bc9eabbc1b9c
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -49,7 +49,7 @@ tldri18n_status: 2
 # mkdir
 
 Maak mappen aan en stel hun permissies in.
-Meer informatie: <https://www.gnu.org/software/coreutils/mkdir>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - Maak specifieke mappen aan:
 

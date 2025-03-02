@@ -2,8 +2,12 @@
 layout: page
 title: common/sgpt (English)
 description: "Command-line productivity tool powered by OpenAI's GPT models."
-content_hash: 2989e5ec151e2edb497015f381a1c1191482606e
-last_modified_at: 2023-11-12
+content_hash: 1f24c7b02c4a9122a71549efbd859aceb9409022
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/sgpt.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # sgpt
@@ -27,7 +31,7 @@ More information: <https://github.com/TheR1D/shell_gpt#readme>.
 
 `sgpt --chat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">session_name</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">please remember my favorite number: 4</span>`"`
 
-- Start a `REPL` (Read–eval–print loop) session:
+- Start a `REPL` (Read-eval-print loop) session:
 
 `sgpt --repl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 

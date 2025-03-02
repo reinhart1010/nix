@@ -2,8 +2,8 @@
 layout: page
 title: common/pulumi-up (한국어)
 description: "스택의 리소스를 생성하거나 업데이트."
-content_hash: 6a1830c4d0db8850e61c1a2574fef649c9e6b5fe
-last_modified_at: 2024-11-08
+content_hash: 1e84b38762381a913ea1fa09db03d2b6744d92f4
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/pulumi-up.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # pulumi up
 
 스택의 리소스를 생성하거나 업데이트.
-더 많은 정보: <https://www.pulumi.com/docs/cli/commands/pulumi_up/>.
+더 많은 정보: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_up/>.
 
 - 프로그램 및/또는 인프라에 대한 변경 사항 미리보기 및 배포:
 

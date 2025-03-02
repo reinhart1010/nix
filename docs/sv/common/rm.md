@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (svenska)
 description: "Ta bort filer eller mappar."
-content_hash: 86ee543e2e54eed29de73321f7f85bebf86d995c
-last_modified_at: 2023-12-29
+content_hash: 746259a246072ed64673fe2c510cc63134047fc6
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -49,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># rm
 
 Ta bort filer eller mappar.
-Mer information: <https://www.gnu.org/software/coreutils/rm>.
+Mer information: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - Ta bort filer från godtyckliga ställen:
 

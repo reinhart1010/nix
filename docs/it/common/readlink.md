@@ -2,18 +2,24 @@
 layout: page
 title: common/readlink (italiano)
 description: "Segue un collegamento simbolico e ne recupera le informazioni."
-content_hash: 59ddcb5eab1604d517814b5b5d4481ab3afc70e3
-last_modified_at: 2023-11-12
+content_hash: 4f831d60336dddcf36731a958cfa506382b95c36
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/readlink.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/readlink.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/readlink.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # readlink
 
 Segue un collegamento simbolico e ne recupera le informazioni.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/readlink>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/readlink-invocation.html>.
 
 - Restituisce il percorso originale a cui il collegamento simbolico fa riferimento:
 

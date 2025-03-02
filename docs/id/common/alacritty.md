@@ -3,7 +3,7 @@ layout: page
 title: common/alacritty (Indonesia)
 description: "Lintas platform, terakselerasi GPU terminal emulator."
 content_hash: 2ed5e7d40fc10479b32afc69500fe529d6161fde
-last_modified_at: 2024-09-15
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -35,9 +35,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/alacritty.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# alacritty
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># alacritty
 
 Lintas platform, terakselerasi GPU terminal emulator.
 Informasi lebih lanjut: <https://github.com/alacritty/alacritty>.

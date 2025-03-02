@@ -2,8 +2,8 @@
 layout: page
 title: common/shred (한국어)
 description: "파일을 덮어써서 데이터를 안전하게 삭제."
-content_hash: 582aac220d319d42ab0ca983eef21d1dabaa30e5
-last_modified_at: 2024-11-10
+content_hash: 43adec1596ab0fd5d9b454a1c246f31f147cf2c4
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/shred.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # shred
 
 파일을 덮어써서 데이터를 안전하게 삭제.
-더 많은 정보: <https://www.gnu.org/software/coreutils/shred>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html>.
 
 - 파일 덮어쓰기:
 

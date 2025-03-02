@@ -2,8 +2,8 @@
 layout: page
 title: common/du (Nederlands)
 description: "Disk gebruik: schat en groepeer bestand en map ruimte gebruik."
-content_hash: b05e91a65f04c18443a2f734d3ac5171d3252243
-last_modified_at: 2024-05-10
+content_hash: 106ccfc42428c856044c7d5c01c023a51714ea7b
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/du.html
@@ -14,14 +14,23 @@ related_topics:
   - title: español version
     url: /es/common/du.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/du.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/du.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/du.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/du.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/du.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/du.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/du.html
@@ -31,7 +40,7 @@ tldri18n_status: 2
 # du
 
 Disk gebruik: schat en groepeer bestand en map ruimte gebruik.
-Meer informatie: <https://www.gnu.org/software/coreutils/du>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html>.
 
 - Toont de grootte van een map en mogelijke sub-mappen, met een gegeven eenheid (B/KiB/MiB):
 

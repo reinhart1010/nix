@@ -2,8 +2,8 @@
 layout: page
 title: common/wc (한국어)
 description: "줄 단어 및 바이트 수 계산."
-content_hash: 149fc64647ffa43f7bc5370214891292d31e3f5a
-last_modified_at: 2023-11-12
+content_hash: 53e4c18f90bfc5fccdfb510a4191400d4c69531f
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/wc.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/wc.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/wc.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/wc.html
@@ -25,7 +28,7 @@ tldri18n_status: 2
 # wc
 
 줄 단어 및 바이트 수 계산.
-더 많은 정보: <https://www.gnu.org/software/coreutils/wc>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/wc-invocation.html>.
 
 - 파일의 모든 줄 수 계산:
 

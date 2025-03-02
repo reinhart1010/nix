@@ -2,8 +2,8 @@
 layout: page
 title: common/less (日本語)
 description: "ファイルを開いて、スクロールや検索などのインタラクティブな読み方ができます。"
-content_hash: 35b198f335afda0d97437947f8c534c641cf1d41
-last_modified_at: 2023-11-12
+content_hash: 3263783a236d9ecc3f2e66cf05e09911997eaf9e
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/less.html
@@ -14,12 +14,18 @@ related_topics:
   - title: italiano version
     url: /it/common/less.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/less.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/less.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # less
 
 ファイルを開いて、スクロールや検索などのインタラクティブな読み方ができます。
-詳しくはこちら: <https://greenwoodsoftware.com/less/>
+もっと詳しく: <https://greenwoodsoftware.com/less/>。
 
 - ファイルを開く:
 

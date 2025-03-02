@@ -2,9 +2,12 @@
 layout: page
 title: linux/csplit (English)
 description: "Split a file into pieces."
-content_hash: 49240da1bb14753bf08bab6fd50527a21d19342d
-last_modified_at: 2024-01-10
+content_hash: 436dc59203fcc56f89991a22c9b1644983bdf92e
+last_modified_at: 2025-03-02
 related_topics:
+  - title: 한국어 version
+    url: /ko/linux/csplit.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/csplit.html
     icon: bi bi-globe
@@ -17,7 +20,7 @@ tldri18n_status: 2
 
 Split a file into pieces.
 This generates files named "xx00", "xx01", and so on.
-More information: <https://www.gnu.org/software/coreutils/csplit>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/csplit-invocation.html>.
 
 - Split a file at lines 5 and 23:
 

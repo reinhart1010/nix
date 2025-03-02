@@ -2,14 +2,20 @@
 layout: page
 title: common/env (English)
 description: "Show the environment or run a program in a modified environment."
-content_hash: 754f1a401d47bc5f910ebecbc5ab64437d750b39
-last_modified_at: 2024-01-31
+content_hash: 403b19e511899e8d2b23b6585c467857e321d336
+last_modified_at: 2025-03-02
 related_topics:
+  - title: español version
+    url: /es/common/env.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/env.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/env.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/env.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/env.html
@@ -22,7 +28,7 @@ tldri18n_status: 2
 # env
 
 Show the environment or run a program in a modified environment.
-More information: <https://www.gnu.org/software/coreutils/env>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/env-invocation.html>.
 
 - Show the environment:
 

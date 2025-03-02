@@ -2,21 +2,27 @@
 layout: page
 title: common/tr (Nederlands)
 description: "Vertaal tekens: voer vervangingen uit op basis van enkele tekens en tekensets."
-content_hash: 33db2d8565438533a128e7ab316a0b732cc1e769
-last_modified_at: 2024-06-29
+content_hash: a3e4fe947e355f410247419a631b35f093e6ee30
+last_modified_at: 2025-03-02
 related_topics:
+  - title: العربية version
+    url: /ar/common/tr.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/tr.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/tr.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tr.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # tr
 
 Vertaal tekens: voer vervangingen uit op basis van enkele tekens en tekensets.
-Meer informatie: <https://www.gnu.org/software/coreutils/tr>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/tr-invocation.html>.
 
 - Vervang alle voorkomens van een teken in een bestand en toon het resultaat:
 

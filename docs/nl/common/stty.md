@@ -2,11 +2,17 @@
 layout: page
 title: common/stty (Nederlands)
 description: "Stel opties in voor een terminalapparaatinterface."
-content_hash: 1825ee2105b4ee7f87a49786ac490948e871ca1e
-last_modified_at: 2024-06-29
+content_hash: 23e6204f2a916087ee614ca474e32dbd29efd20c
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/stty.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/stty.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/stty.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/stty.html
@@ -19,7 +25,7 @@ tldri18n_status: 2
 # stty
 
 Stel opties in voor een terminalapparaatinterface.
-Meer informatie: <https://www.gnu.org/software/coreutils/stty>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html>.
 
 - Toon alle instellingen voor de huidige terminal:
 
@@ -36,3 +42,11 @@ Meer informatie: <https://www.gnu.org/software/coreutils/stty>.
 - Reset alle modi naar redelijke waarden voor de huidige terminal:
 
 `stty sane`
+
+- Wissel tussen rauwe en normale modus:
+
+`stty `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raw|cooked</span>
+
+- Zet karakter echoing uit of aan:
+
+`stty `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-echo|echo</span>

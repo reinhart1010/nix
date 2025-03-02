@@ -3,14 +3,17 @@ layout: page
 title: linux/reflector (한국어)
 description: "Arch 스크립트로 미러리스트를 가져오고 정렬합니다."
 content_hash: 87ee16abbc13e2387039bf8f88f28c103c5feb87
-last_modified_at: 2024-11-10
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/reflector.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# reflector
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># reflector
 
 Arch 스크립트로 미러리스트를 가져오고 정렬합니다.
 더 많은 정보: <https://manned.org/reflector>.

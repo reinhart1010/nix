@@ -3,14 +3,20 @@ layout: page
 title: linux/pw-dump (português (Brasil))
 description: "Exibe o estado atual do PipeWire como JSON, incluindo as informações sobre nós, dispositivos, módulos, portas e outros objetos."
 content_hash: 9ceddc4f2bbaaa3630f7a83f8fee6e3f11f53793
-last_modified_at: 2023-12-28
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/pw-dump.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: 한국어 version
+    url: /ko/linux/pw-dump.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# pw-dump
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># pw-dump
 
 Exibe o estado atual do PipeWire como JSON, incluindo as informações sobre nós, dispositivos, módulos, portas e outros objetos.
 Veja também: `pw-mon`.

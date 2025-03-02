@@ -2,14 +2,21 @@
 layout: page
 title: linux/mktemp (English)
 description: "Create a temporary file or directory."
-content_hash: 50d8699894af766f11cd9847b7d8768c84dee097
-last_modified_at: 2023-11-12
+content_hash: cc133be5dad25f9fb46829e07a877a206f1e774a
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/linux/mktemp.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/mktemp.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # mktemp
 
 Create a temporary file or directory.
-More information: <https://www.gnu.org/software/coreutils/mktemp>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/mktemp-invocation.html>.
 
 - Create an empty temporary file and print its absolute path:
 

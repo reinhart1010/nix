@@ -2,14 +2,17 @@
 layout: page
 title: common/uname (English)
 description: "Print details about the current machine and the operating system running on it."
-content_hash: b238cdaad0bf4c1eef0bfd6841ef75a70d62a4b9
-last_modified_at: 2023-11-12
+content_hash: ee1d3b2939eaa753b54ac54fccd4944960c36114
+last_modified_at: 2025-03-02
 related_topics:
   - title: فارسی version
     url: /fa/common/uname.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/uname.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/uname.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/uname.html
@@ -26,7 +29,7 @@ tldri18n_status: 2
 
 Print details about the current machine and the operating system running on it.
 See also `lsb_release`.
-More information: <https://www.gnu.org/software/coreutils/uname>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
 - Print kernel name:
 

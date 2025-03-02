@@ -2,8 +2,8 @@
 layout: page
 title: common/crane-ls (Nederlands)
 description: "Toon de tags in een repository."
-content_hash: 2c1e03e013888aa72b645974c4713d26f4935444
-last_modified_at: 2024-10-27
+content_hash: db0a6880ad1bf0be9f0b62c4f589569f9a55ef47
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/crane-ls.html
@@ -30,6 +30,6 @@ Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/c
 
 `crane ls `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|--omit-digest-tags</span>
 
-- Toon help:
+- Toon de help:
 
 `crane ls `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

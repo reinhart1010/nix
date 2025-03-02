@@ -2,8 +2,8 @@
 layout: page
 title: common/read (English)
 description: "Shell builtin for retrieving data from `stdin`."
-content_hash: 8da93b6007acefccdf1971649f03454aaac1b134
-last_modified_at: 2024-12-05
+content_hash: 8f6175bbe800dff04d40a33b2a15e359f52ca75a
+last_modified_at: 2025-03-02
 related_topics:
   - title: español version
     url: /es/common/read.html
@@ -14,12 +14,15 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/read.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/read.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # read
 
 Shell builtin for retrieving data from `stdin`.
-More information: <https://manned.org/read.1p>.
+More information: <https://www.gnu.org/software/bash/manual/bash.html#index-read>.
 
 - Store data that you type from the keyboard:
 

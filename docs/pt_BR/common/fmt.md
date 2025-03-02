@@ -2,8 +2,8 @@
 layout: page
 title: common/fmt (português (Brasil))
 description: "Reformata um arquivo de texto juntando seus parágrafos e limitando a largura da linha a um determinado número de caracteres (75 por padrão)."
-content_hash: 8f87923f51aafc1143bd5325436d37aa58a8c94d
-last_modified_at: 2023-11-12
+content_hash: cbf4bc87bf32849da3ab4bd3891ea98d47ab55be
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/fmt.html
@@ -11,12 +11,18 @@ related_topics:
   - title: italiano version
     url: /it/common/fmt.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/fmt.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/fmt.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # fmt
 
 Reformata um arquivo de texto juntando seus parágrafos e limitando a largura da linha a um determinado número de caracteres (75 por padrão).
-Mais informações: <https://www.gnu.org/software/coreutils/fmt>.
+Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/fmt-invocation.html>.
 
 - Reformata um arquivo:
 

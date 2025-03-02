@@ -2,8 +2,8 @@
 layout: page
 title: common/tty (svenska)
 description: "Returnerar terminalnamn."
-content_hash: 96c79dea04327786cad56985c1dc1a46a298ee54
-last_modified_at: 2023-11-12
+content_hash: d190305cba81fc0f50d03aaf7c742d9de4128c8d
+last_modified_at: 2025-03-02
 related_topics:
   - title: bosanski version
     url: /bs/common/tty.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: فارسی version
     url: /fa/common/tty.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tty.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/tty.html
@@ -28,7 +31,7 @@ tldri18n_status: 2
 # tty
 
 Returnerar terminalnamn.
-Mer information: <https://www.gnu.org/software/coreutils/tty>.
+Mer information: <https://www.gnu.org/software/coreutils/manual/html_node/tty-invocation.html>.
 
 - Skriv ut filnamnet på denna terminal:
 

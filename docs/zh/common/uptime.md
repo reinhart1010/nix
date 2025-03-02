@@ -2,8 +2,8 @@
 layout: page
 title: common/uptime (中文)
 description: "告知当前系统运行多长时间和其他信息。"
-content_hash: 637c4ab403ce58ee9baa8564ae1d81971b1966c2
-last_modified_at: 2024-06-21
+content_hash: 02f0f92ff981e2f8c5b97fe38e41f231e8b8f1d3
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/uptime.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # uptime
 
 告知当前系统运行多长时间和其他信息。
-更多信息：<https://www.gnu.org/software/coreutils/uptime>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/uptime-invocation.html>.
 
 - 打印当前时间，运行时间，登录用户数量和其他信息：
 

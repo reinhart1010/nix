@@ -2,11 +2,17 @@
 layout: page
 title: windows/more (Nederlands)
 description: "Toon gepagineerde uitvoer van `stdin` of een bestand."
-content_hash: da7ec2cf1e1b2f0f73af4beb9b69388fc01baba2
-last_modified_at: 2024-08-21
+content_hash: 4a2abf3ff51997713cd2615dc00c05c5e6683c37
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/windows/more.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/windows/more.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/more.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/more.html
@@ -45,6 +51,6 @@ Meer informatie: <https://learn.microsoft.com/windows-server/administration/wind
 
 `more `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestand</span>` /e`
 
-- Toon help:
+- Toon de help:
 
 `more /?`

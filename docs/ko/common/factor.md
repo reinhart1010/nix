@@ -2,8 +2,8 @@
 layout: page
 title: common/factor (한국어)
 description: "숫자의 소인수분해를 출력."
-content_hash: 86617ad275d9ee4044e801f2f3a781be86e90b18
-last_modified_at: 2024-10-17
+content_hash: 9346167c5bcf6ee082c5c48dc8b09d9d3c9b10f0
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/factor.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # factor
 
 숫자의 소인수분해를 출력.
-더 많은 정보: <https://www.gnu.org/software/coreutils/factor>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/factor-invocation.html>.
 
 - 숫자의 소인수분해를 표시:
 

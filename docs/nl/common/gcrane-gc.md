@@ -2,8 +2,8 @@
 layout: page
 title: common/gcrane-gc (Nederlands)
 description: "Toon images die niet getagged zijn."
-content_hash: a74dece0e71c7516276b974691909145bb1d66f2
-last_modified_at: 2024-10-27
+content_hash: 99d0b5ea04d6cf4ba50aeb1ae51526a691feef54
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/gcrane-gc.html
@@ -28,6 +28,6 @@ Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/g
 
 `gcrane gc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|--recursive</span>
 
-- Toon help:
+- Toon de help:
 
 `gcrane gc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

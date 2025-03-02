@@ -2,11 +2,17 @@
 layout: page
 title: common/test (English)
 description: "Check file types and compare values."
-content_hash: e2aabf253867d5e88fbf653fe875af40e8fa518f
-last_modified_at: 2023-12-14
+content_hash: 27338450b425a84354881c6e87b46efe64115fa3
+last_modified_at: 2025-03-02
 related_topics:
   - title: 日本語 version
     url: /ja/common/test.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/test.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/test.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/test.html
@@ -17,7 +23,7 @@ tldri18n_status: 2
 
 Check file types and compare values.
 Returns 0 if the condition evaluates to true, 1 if it evaluates to false.
-More information: <https://www.gnu.org/software/coreutils/test>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/test-invocation.html>.
 
 - Test if a given variable is equal to a given string:
 

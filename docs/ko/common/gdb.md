@@ -3,7 +3,7 @@ layout: page
 title: common/gdb (한국어)
 description: "GNU 디버거."
 content_hash: 5f3eb462f4879164c52890d3abf700dd01e03ab0
-last_modified_at: 2023-11-12
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/gdb.html
@@ -20,9 +20,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/gdb.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# gdb
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># gdb
 
 GNU 디버거.
 더 많은 정보: <https://www.gnu.org/software/gdb>.

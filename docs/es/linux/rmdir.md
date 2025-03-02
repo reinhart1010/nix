@@ -2,8 +2,8 @@
 layout: page
 title: linux/rmdir (español)
 description: "Elimina directorios sin archivos."
-content_hash: 7bbda1f563d8834d5af067c073c15c61b841d183
-last_modified_at: 2024-12-20
+content_hash: a19eb033924d01a1e0f47e65f86f2164fdaeec5d
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/rmdir.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Elimina directorios sin archivos.
 Vea también: `rm`.
-Más información: <https://www.gnu.org/software/coreutils/rmdir>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/rmdir-invocation.html>.
 
 - Elimina directorios específicos:
 

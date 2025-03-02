@@ -2,9 +2,12 @@
 layout: page
 title: linux/rm (한국어)
 description: "파일 또는 디렉터리 삭제."
-content_hash: 37b6313ab78f0a43f2e0465bec85f95ee8388891
-last_modified_at: 2024-11-10
+content_hash: d261200c0963a21feebc6121600c679b3b71a6db
+last_modified_at: 2025-03-02
 related_topics:
+  - title: العربية version
+    url: /ar/linux/rm.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/rm.html
     icon: bi bi-globe
@@ -23,7 +26,7 @@ tldri18n_status: 2
 
 파일 또는 디렉터리 삭제.
 같이 보기: `rmdir`.
-더 많은 정보: <https://www.gnu.org/software/coreutils/rm>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - 특정 파일 삭제:
 

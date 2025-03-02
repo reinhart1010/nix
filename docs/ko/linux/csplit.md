@@ -2,8 +2,8 @@
 layout: page
 title: linux/csplit (한국어)
 description: "파일을 여러 조각으로 분할합니다."
-content_hash: 3b2e6dde6fc79aba1122596fc7b5b9edc02515d4
-last_modified_at: 2024-11-09
+content_hash: c7ee7d48a5c96d1d63d66c35489adeb34142d16c
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/csplit.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 파일을 여러 조각으로 분할합니다.
 "xx00", "xx01" 등의 이름으로 파일을 생성합니다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/csplit>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/csplit-invocation.html>.
 
 - 파일을 5번째 및 23번째 줄에서 분할:
 

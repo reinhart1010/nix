@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (English)
 description: "Create directories and set their permissions."
-content_hash: 2fe5759ba7e6418862f27027e963edab42d4d4a1
-last_modified_at: 2024-09-07
+content_hash: c921458f880085d8a23bed9ce3d3249eafc8cb76
+last_modified_at: 2025-03-02
 related_topics:
   - title: español version
     url: /es/common/mkdir.html
@@ -49,7 +49,7 @@ tldri18n_status: 2
 # mkdir
 
 Create directories and set their permissions.
-More information: <https://www.gnu.org/software/coreutils/mkdir>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - Create specific directories:
 

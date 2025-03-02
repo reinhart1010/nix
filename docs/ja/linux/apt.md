@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (日本語)
 description: "Debian系ディストリビューションで使われるパッケージ管理システムです。"
-content_hash: b3ade9a664d757cec9d58de81efdc3db7d403c52
-last_modified_at: 2024-09-18
+content_hash: 3367cb643eb83545d9d5629267d1f40f89a44f12
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -34,6 +34,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/apt.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/apt.html
@@ -68,7 +71,7 @@ tldri18n_status: 2
 
 Debian系ディストリビューションで使われるパッケージ管理システムです。
 Ubuntuのバージョンが16.04か、それ以降で対話モードを使う場合`apt-get`の代わりとして使用します。
-詳しくはこちら: <https://manned.org/apt.8>
+もっと詳しく: <https://manned.org/apt.8>。
 
 - 利用可能なパーケージとバージョンのリストの更新（他の`apt`コマンドの前での実行を推奨）:
 

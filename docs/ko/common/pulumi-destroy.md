@@ -2,8 +2,8 @@
 layout: page
 title: common/pulumi-destroy (한국어)
 description: "스택 내의 모든 기존 리소스를 제거합니다."
-content_hash: bafcda0e4f5bc66d7940f50ed43716fd9c1dd4be
-last_modified_at: 2024-11-08
+content_hash: 54a5835daf7be7dde43beba586456d301aad38bc
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/pulumi-destroy.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # pulumi destroy
 
 스택 내의 모든 기존 리소스를 제거합니다.
-더 많은 정보: <https://www.pulumi.com/docs/cli/commands/pulumi_destroy/>.
+더 많은 정보: <https://www.pulumi.com/docs/iac/cli/commands/pulumi_destroy/>.
 
 - 현재 스택의 모든 리소스를 제거:
 

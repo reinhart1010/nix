@@ -2,11 +2,17 @@
 layout: page
 title: common/test (日本語)
 description: "条件を評価します。"
-content_hash: bebdd69047d90d91ba1fac41d59802c6658eb4fd
-last_modified_at: 2023-12-14
+content_hash: d0259d4ef47c096ba48cb2e5582a936a3dc88ea7
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/test.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/test.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/test.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/test.html
@@ -17,7 +23,7 @@ tldri18n_status: 2
 
 条件を評価します。
 条件が真と評価された場合は 0 を、偽と評価された場合は 1 を返します。
-詳しくはこちら: <https://www.gnu.org/software/coreutils/test>
+もっと詳しく: <https://www.gnu.org/software/coreutils/manual/html_node/test-invocation.html>。
 
 - 与えられた変数が与えられた文字列と等しいかどうかをテスト:
 

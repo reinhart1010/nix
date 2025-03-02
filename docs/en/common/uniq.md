@@ -2,15 +2,25 @@
 layout: page
 title: common/uniq (English)
 description: "Output the unique lines from a input or file."
-content_hash: ad58f549452e3dc89a082784ce493fbcb50d9099
-last_modified_at: 2024-02-15
+content_hash: daab1b9c2c8009121dcb9bf7328010495d29542f
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/uniq.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/uniq.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/uniq.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # uniq
 
 Output the unique lines from a input or file.
 Since it does not detect repeated lines unless they are adjacent, we need to sort them first.
-More information: <https://www.gnu.org/software/coreutils/uniq>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/uniq-invocation.html>.
 
 - Display each line once:
 

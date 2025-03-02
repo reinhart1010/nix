@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (Indonesia)
 description: "Hapus berkas atau direktori."
-content_hash: c32fef7b54022aad2592142636525c3cbcea396f
-last_modified_at: 2024-01-31
+content_hash: ce50eeeee948c914ad313974f82cfecafc7d26af
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -47,7 +47,7 @@ tldri18n_status: 2
 
 Hapus berkas atau direktori.
 Lihat juga: `rmdir`.
-Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/rm>.
+Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - Hapus berkas dari lokasi manapun:
 

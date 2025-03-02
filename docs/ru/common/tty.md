@@ -2,8 +2,8 @@
 layout: page
 title: common/tty (русский)
 description: "Выводит название терминала."
-content_hash: abf0e2d36b88403f8e7dfa7282a759a261d8b096
-last_modified_at: 2023-11-12
+content_hash: d99dfe6667d96bc6c5b6fabb74053248713d5e21
+last_modified_at: 2025-03-02
 related_topics:
   - title: bosanski version
     url: /bs/common/tty.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: فارسی version
     url: /fa/common/tty.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tty.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/tty.html
@@ -28,7 +31,7 @@ tldri18n_status: 2
 # tty
 
 Выводит название терминала.
-Больше информации: <https://www.gnu.org/software/coreutils/tty>.
+Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/tty-invocation.html>.
 
 - Вывести имя файла, соответствующее текущему терминалу:
 

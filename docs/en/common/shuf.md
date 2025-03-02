@@ -2,9 +2,12 @@
 layout: page
 title: common/shuf (English)
 description: "Generate random permutations."
-content_hash: cc7f60992e94c2829974cc9ba17c42952e2685e8
-last_modified_at: 2024-06-19
+content_hash: 605498d37eb43060ca71bc8e46f19ac55edf824f
+last_modified_at: 2025-03-02
 related_topics:
+  - title: 한국어 version
+    url: /ko/common/shuf.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/shuf.html
     icon: bi bi-globe
@@ -13,7 +16,7 @@ tldri18n_status: 2
 # shuf
 
 Generate random permutations.
-More information: <https://www.gnu.org/software/coreutils/shuf>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/shuf-invocation.html>.
 
 - Randomize the order of lines in a file and output the result:
 

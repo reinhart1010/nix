@@ -2,18 +2,21 @@
 layout: page
 title: common/timeout (Nederlands)
 description: "Voer een commando uit met een tijdslimiet."
-content_hash: 7a9d39f2e7d0ed64564b72eee47c0ed8d61526a1
-last_modified_at: 2024-08-13
+content_hash: bf11ad4ec2cde0ef567ba63d2a19954d9e50bfce
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/timeout.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/timeout.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # timeout
 
 Voer een commando uit met een tijdslimiet.
-Meer informatie: <https://www.gnu.org/software/coreutils/timeout>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/timeout-invocation.html>.
 
 - Voer `sleep 10` uit en beëindig het na 3 seconden:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-blame (English)
 description: "Show commit hash and last author on each line of a file."
-content_hash: 12aacb0de1533eff1f000f8c6153a059436f329a
-last_modified_at: 2024-09-03
+content_hash: a6a51a8d2dd02800b2d572798486554c0cf1e839
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/git-blame.html
@@ -29,6 +29,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-blame.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-blame.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # git blame
@@ -51,3 +54,11 @@ More information: <https://git-scm.com/docs/git-blame>.
 - Print file with author name and commit hash on each line before a specific commit:
 
 `git blame `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>`~ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Print author name and commit hash information for a specific line range:
+
+`git blame -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start_line</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">end_line</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Ignore whitespaces and line moves:
+
+`git blame -w -C -C -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>

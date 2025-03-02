@@ -2,14 +2,17 @@
 layout: page
 title: common/ln (Nederlands)
 description: "Maakt een verwijzing naar bestanden en mappen."
-content_hash: d35a62b386906db84e93812b4d0fc683b5ff763e
-last_modified_at: 2023-11-12
+content_hash: 81f3551e34afd67b4a949dbced3a1d31ef5ebded
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/ln.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/ln.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/ln.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ln.html
@@ -31,7 +34,7 @@ tldri18n_status: 2
 # ln
 
 Maakt een verwijzing naar bestanden en mappen.
-Meer informatie: <https://www.gnu.org/software/coreutils/ln>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/ln-invocation.html>.
 
 - Maak een symbolische verwijzing naar een bestand of map:
 

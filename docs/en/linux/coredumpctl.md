@@ -2,8 +2,8 @@
 layout: page
 title: linux/coredumpctl (English)
 description: "Retrieve and process saved core dumps and metadata."
-content_hash: 54d7a4e32aa46f17dc70343d65feaf06b924a444
-last_modified_at: 2024-12-31
+content_hash: 34dee07763de31420d51798f32d406bc29c62fa5
+last_modified_at: 2025-03-02
 related_topics:
   - title: català version
     url: /ca/linux/coredumpctl.html
@@ -47,3 +47,7 @@ More information: <https://www.freedesktop.org/software/systemd/man/coredumpctl.
 - Extract the last core dump of a program to a file:
 
 `coredumpctl --output=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` dump `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span>
+
+- Skip debuginfod and pagination prompts and then print the backtrace when using `gdb`:
+
+`coredumpctl debug --debugger-arguments="-iex 'set debuginfod enabled on' -iex 'set pagination off' -ex bt"`

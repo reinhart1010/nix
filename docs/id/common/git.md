@@ -2,8 +2,8 @@
 layout: page
 title: common/git (Indonesia)
 description: "Sistem kontrol versi terdistribusi."
-content_hash: 2a2fe9dde872ae18c2dea747d60e970f917c5a25
-last_modified_at: 2024-09-15
+content_hash: 3a814708a69cd880226677bed9c36bb6d291f122
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -32,6 +32,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/git.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/git.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git.html
     icon: bi bi-globe
@@ -55,7 +58,7 @@ tldri18n_status: 2
 # git
 
 Sistem kontrol versi terdistribusi.
-Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `commit`, `add`, `branch`, `checkout`, `push`, dsb.
+Beberapa subperintah seperti `commit`, `add`, `branch`, `checkout`, `push`, dsb. mempunyai dokumentasi terpisah.
 Informasi lebih lanjut: <https://git-scm.com/>.
 
 - Jalankan suatu subperintah Git:

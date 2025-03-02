@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-sync (Nederlands)
 description: "Hulpprogramma voor het beheren van pakketten op Arch Linux."
-content_hash: 8746aa70dcfc5fc4f08188733bdb5e078eb358a9
-last_modified_at: 2025-01-03
+content_hash: 71a67468a552a0ed0d94d968cf4be82f5ade6f24
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-sync.html
@@ -64,10 +64,10 @@ Meer informatie: <https://manned.org/pacman.8>.
 
 `sudo pacman -Syu --overwrite `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
-- [S]ynchroniseer en [u]pdate alle pakketten, maar negeer een specifiek pakket (kan meerdere keren gebruikt worden):
-
-`sudo pacman -Syu --ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket1 pakket2 ...</span>
-
 - Verwijder niet-geïnstalleerde pakketten en ongebruikte repositories uit de cache (gebruik de vlag `Sc` om [c]ache volledig schoon te maken):
 
 `sudo pacman -Sc`
+
+- Specificeer de pakketversie die geïnstalleerd dient te worden:
+
+`sudo pacman -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versie</span>

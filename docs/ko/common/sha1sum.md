@@ -2,8 +2,8 @@
 layout: page
 title: common/sha1sum (한국어)
 description: "SHA1 암호화 체크섬 계산."
-content_hash: b76b580455157a25a10dde3cd351dfa80083af98
-last_modified_at: 2024-11-24
+content_hash: 234dcefe7c273a40b82ca773f24848fe722afe77
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/sha1sum.html
@@ -25,7 +25,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># sha1sum
 
 SHA1 암호화 체크섬 계산.
-더 많은 정보: <https://www.gnu.org/software/coreutils/sha1sum>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/sha1sum-invocation.html>.
 
 - 하나 이상의 파일에 대한 SHA1 체크섬 계산:
 

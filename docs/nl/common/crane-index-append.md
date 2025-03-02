@@ -2,8 +2,8 @@
 layout: page
 title: common/crane-index-append (Nederlands)
 description: "Voeg een manifest toe aan een remote index."
-content_hash: 7fa1699af76aa2180a6aed2ca37f8d6751ed3e36
-last_modified_at: 2024-10-27
+content_hash: f27785abca71d24cd558c3cf1969893a45e583bc
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/crane-index-append.html
@@ -40,6 +40,6 @@ Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/c
 
 `crane index append --flatten`
 
-- Toon help:
+- Toon de help:
 
 `crane index append `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

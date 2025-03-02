@@ -2,14 +2,17 @@
 layout: page
 title: common/yes (English)
 description: "Output something repeatedly."
-content_hash: 8c112262abd1585f7493277de771cc3195a8527d
-last_modified_at: 2024-02-12
+content_hash: 54a77cc63a271116169e827cdc6dce15dc37fbc7
+last_modified_at: 2025-03-02
 related_topics:
   - title: español version
     url: /es/common/yes.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/yes.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/yes.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/yes.html
@@ -23,13 +26,16 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/yes.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/yes.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # yes
 
 Output something repeatedly.
 This command is commonly used to answer yes to every prompt by install commands (such as apt-get).
-More information: <https://www.gnu.org/software/coreutils/yes>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/yes-invocation.html>.
 
 - Repeatedly output "message":
 

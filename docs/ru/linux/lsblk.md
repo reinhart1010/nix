@@ -2,8 +2,8 @@
 layout: page
 title: linux/lsblk (русский)
 description: "Отобразить информацию об устройствах."
-content_hash: 21919bc9a381f463a0c3527f2e84c5195655593a
-last_modified_at: 2024-10-13
+content_hash: 9793a893673be3f853fb93c12da5cb8e11083f78
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/lsblk.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 Отобразить информацию об устройствах.
 Больше информации: <https://manned.org/lsblk>.
 
-- Отобразить список всех накопителей в древовидноv виде:
+- Отобразить список всех накопителей в древовидном виде:
 
 `lsblk`
 
@@ -35,7 +35,7 @@ tldri18n_status: 2
 
 `lsblk -a`
 
-- Отобразить столбец SIZE в байтах, а не в удобночитаемом формате:
+- Отобразить столбец SIZE в байтах, а не в удобочитаемом формате:
 
 `lsblk -b`
 

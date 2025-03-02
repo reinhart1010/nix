@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (中文)
 description: "创建目录并设置其权限。"
-content_hash: 09a5053c3bfa68cffbe1457e566af7ce4585504f
-last_modified_at: 2024-09-12
+content_hash: 33b29cd2ae25a158bd999a59ebe36e3136bfce22
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -49,7 +49,7 @@ tldri18n_status: 2
 # mkdir
 
 创建目录并设置其权限。
-更多信息：<https://www.gnu.org/software/coreutils/mkdir>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - 创建特定目录：
 

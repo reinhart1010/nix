@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (日本語)
 description: "圧縮率の高いファイルアーカイバです。"
-content_hash: 7ecc9102c5f9295c89c05b06db9654abb5ed6765
-last_modified_at: 2023-11-30
+content_hash: 97fc8b9cbba87923a6781c188ff571ff31934925
+last_modified_at: 2025-03-02
 related_topics:
   - title: বাংলা version
     url: /bn/common/7za.html
@@ -50,6 +50,9 @@ related_topics:
   - title: русский version
     url: /ru/common/7za.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/7za.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/7za.html
     icon: bi bi-globe
@@ -62,7 +65,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 圧縮率の高いファイルアーカイバです。
 `7z` よりも対応しているファイル形式は少ないですが、複数のプラットフォームに対応しています。
-詳しくはこちら: <https://manned.org/7za>
+もっと詳しく: <https://manned.org/7za>。
 
 - ファイルまたはディレクトリを圧縮する:
 

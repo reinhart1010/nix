@@ -2,14 +2,17 @@
 layout: page
 title: common/test (Nederlands)
 description: "Controleer bestandstypen en vergelijk waarden."
-content_hash: b03e8edc0e157a90ef9b733f32e7f415bdfe11b0
-last_modified_at: 2024-06-29
+content_hash: 5634df13c03f7fb42d9a4f7a74f02251c86bc437
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/test.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/test.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/test.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/test.html
@@ -20,7 +23,7 @@ tldri18n_status: 2
 
 Controleer bestandstypen en vergelijk waarden.
 Retourneert 0 als de voorwaarde waar is, 1 als de voorwaarde onwaar is.
-Meer informatie: <https://www.gnu.org/software/coreutils/test>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/test-invocation.html>.
 
 - Test of een gegeven variabele gelijk is aan een gegeven string:
 

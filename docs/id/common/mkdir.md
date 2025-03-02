@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/mkdir (Indonesia)
-description: "Membuat sebuah direktori."
-content_hash: 1142ebfcdb1ffef6e1f5d5f50f79479f811c21de
-last_modified_at: 2024-09-07
+description: "Buat dan atur hak akses atas sejumlah direktori."
+content_hash: 2fa1a6e8342e731754261ecda5c35bf7769fda80
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -44,20 +44,21 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mkdir.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
+# mkdir
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+Buat dan atur hak akses atas sejumlah direktori.
+Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
-<hr># mkdir
+- Buat sejumlah direktori baru secara spesifik:
 
-Membuat sebuah direktori.
-Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/mkdir>.
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori1 jalan/menuju/direktori2 ...</span>
 
-- Membuat sebuah direktori di dalam direktori saat ini atau dalam jalan (path) yang diberikan:
+- Buat sejumlah direktori baru secara spesifik beserta induk-induknya, bila dibutuhkan:
 
-`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">direktori</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--parents</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori1 jalan/menuju/direktori2 ...</span>
 
-- Membuat sejumlah direktori secara rekursif (berguna untuk membuat direktori bersarang):
+- Buat sejumlah direktori baru dengan konfigurasi hak akses tertentu:
 
-`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|--parents</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|--mode</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rwxrw-r--</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori1 jalan/menuju/direktori2 ...</span>

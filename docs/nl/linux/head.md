@@ -2,18 +2,27 @@
 layout: page
 title: linux/head (Nederlands)
 description: "Geef het eerste deel van bestanden weer."
-content_hash: 9551ccf99f5d41b74e9584c9a9542cd6aa102590
-last_modified_at: 2024-08-14
+content_hash: 1b5a09aeb4d53bbcf854126206e45939deead96b
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/head.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/head.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/head.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/head.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # head
 
 Geef het eerste deel van bestanden weer.
-Meer informatie: <https://www.gnu.org/software/coreutils/head>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/head-invocation.html>.
 
 - Geef de eerste paar regels van een bestand weer:
 

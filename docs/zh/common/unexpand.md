@@ -2,8 +2,8 @@
 layout: page
 title: common/unexpand (中文)
 description: "将空格转换为制表符。"
-content_hash: 3c4ebeac12ed049f1f264e161376c2a5ea1f92b6
-last_modified_at: 2024-11-20
+content_hash: 29d1d9b7da1fda1b62b03beadc21df4f02ff1c30
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/unexpand.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # unexpand
 
 将空格转换为制表符。
-更多信息：<https://www.gnu.org/software/coreutils/unexpand>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/unexpand-invocation.html>.
 
 - 将每个文件中的空格转换为制表符，并写入到 `stdout`：
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/mv (한국어)
 description: "파일 및 디렉토리를 이동하거나 이름을 변경합니다."
-content_hash: 95463d1fc36589c2760472eac19e6309e8aa61b7
-last_modified_at: 2024-11-08
+content_hash: 38310e6c8b5e2fb028980efdfd90de8297747a21
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -43,7 +43,7 @@ tldri18n_status: 2
 # mv
 
 파일 및 디렉토리를 이동하거나 이름을 변경합니다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/mv>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
 - 대상이 기존 디렉토리가 아닌 경우 파일 또는 디렉토리 이름 변경:
 

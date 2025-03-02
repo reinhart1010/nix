@@ -2,8 +2,8 @@
 layout: page
 title: common/numfmt (한국어)
 description: "숫자를 사람이 읽기 쉬운 문자열로 변환하거나 그 반대로 변환."
-content_hash: 55f9dac1cd3322f7ede0f5b305674a7d053fbe6a
-last_modified_at: 2024-11-06
+content_hash: 05929b7c5a64b7393e46b978a94a7ddedc019e01
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/numfmt.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # numfmt
 
 숫자를 사람이 읽기 쉬운 문자열로 변환하거나 그 반대로 변환.
-더 많은 정보: <https://www.gnu.org/software/coreutils/numfmt>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/numfmt-invocation.html>.
 
 - 1.5K(SI 단위)를 1500으로 변환:
 

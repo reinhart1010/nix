@@ -2,8 +2,8 @@
 layout: page
 title: common/mv (italiano)
 description: "Sposta o rinomina file e directory."
-content_hash: 16a56dd57e437eec6ee93be30d31e7fbd3b21900
-last_modified_at: 2024-08-05
+content_hash: bfc6618e8ba7aaa9501a618f95e077f73eafdef6
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/mv.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/mv.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/mv.html
@@ -43,7 +46,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># mv
 
 Sposta o rinomina file e directory.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/mv>.
+Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
 - Rinomina un file o una directory quando la destinazione non è una directory esistente:
 

@@ -1,12 +1,18 @@
 ---
 layout: page
 title: common/egrep (français)
-description: "Recherche de motifs dans un texte. Supporte la version étendues des expressions regulieres (`?`, `+`, `{}`, `()`, et `|`)."
-content_hash: 0a9c260f7ab458edff3dd7f0857f8da060f32524
-last_modified_at: 2024-10-13
+description: "Recherche de motifs dans un texte. Supporte la version étendues des expressions regulieres (`?`, `+`, `{}`, `()` et `|`)."
+content_hash: 26addbc0164d0fe0625d877d4e736207ed1de160
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/egrep.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/egrep.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/egrep.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/egrep.html
@@ -15,7 +21,7 @@ tldri18n_status: 2
 ---
 # egrep
 
-Recherche de motifs dans un texte. Supporte la version étendues des expressions regulieres (`?`, `+`, `{}`, `()`, et `|`).
+Recherche de motifs dans un texte. Supporte la version étendues des expressions regulieres (`?`, `+`, `{}`, `()` et `|`).
 Plus d'informations : <https://manned.org/egrep>.
 
 - Recherche une chaîne de caractères précise :

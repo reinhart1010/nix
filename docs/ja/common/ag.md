@@ -2,8 +2,8 @@
 layout: page
 title: common/ag (日本語)
 description: "Silver Searcher と呼ばれます。`ack` コマンドに似ていますが、より高速化を目指したコマンドです。"
-content_hash: 2b347c2a400b03591897531af1aa694c4521536e
-last_modified_at: 2023-12-03
+content_hash: 9ac62601bf9156034403afe49680d9bcf117615f
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/ag.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ag.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ag.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ag.html
@@ -40,7 +43,7 @@ tldri18n_status: 2
 # ag
 
 Silver Searcher と呼ばれます。`ack` コマンドに似ていますが、より高速化を目指したコマンドです。
-詳しくはこちら: <https://github.com/ggreer/the_silver_searcher>
+もっと詳しく: <https://github.com/ggreer/the_silver_searcher>。
 
 - "foo"という文字列が含まれるファイルを検索し、コンテキスト内でマッチした行を出力する:
 

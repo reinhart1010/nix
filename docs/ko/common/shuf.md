@@ -2,8 +2,8 @@
 layout: page
 title: common/shuf (한국어)
 description: "무작위 순열 생성."
-content_hash: c094a441eeeb1b4536f557f434f516a0eeb80d21
-last_modified_at: 2024-11-10
+content_hash: 5df38aacd6ad54e4cdbfd0341124859d2ea04c78
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/shuf.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # shuf
 
 무작위 순열 생성.
-더 많은 정보: <https://www.gnu.org/software/coreutils/shuf>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/shuf-invocation.html>.
 
 - 파일의 줄 순서를 무작위로 섞고 결과 출력:
 

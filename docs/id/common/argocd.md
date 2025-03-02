@@ -2,8 +2,8 @@
 layout: page
 title: common/argocd (Indonesia)
 description: "Program baris perintah untuk mengatur suatu peladen (server) Argo CD."
-content_hash: 34bcd5fa788249a6a34ce5d3058e3ac36d96112f
-last_modified_at: 2024-06-19
+content_hash: 1c4b175b6918ff3560668719eb8ac6f44da29f6c
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/argocd.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # argocd
 
 Program baris perintah untuk mengatur suatu peladen (server) Argo CD.
-Beberapa subperintah seperti `argocd app` memiliki dokumentasi terpisah.
+Beberapa subperintah seperti `argocd app` mempunyai dokumentasi terpisah.
 Informasi lebih lanjut: <https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd/>.
 
 - Masuk (login) ke dalam suatu peladen Argo CD:

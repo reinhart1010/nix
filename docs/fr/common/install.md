@@ -2,11 +2,20 @@
 layout: page
 title: common/install (français)
 description: "Copie des fichiers et met à jour leurs attributs."
-content_hash: b79d09be625d1fb1d82b20aeb2b658e7feb76dcc
-last_modified_at: 2023-11-12
+content_hash: 507a246b57dcfa02764e612d6aa98b5937bf0aa2
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/install.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/install.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/install.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/install.html
     icon: bi bi-globe
 tldri18n_status: 1
 ---
@@ -17,7 +26,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 Copie des fichiers et met à jour leurs attributs.
 Copie des fichiers (souvent des exécutables) dans un répertoire système comme `/usr/local/bin` et leur donne les permissions et propriétaires appropriés.
-Plus d'informations : <https://www.gnu.org/software/coreutils/install>.
+Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/install-invocation.html>.
 
 - Copie des fichiers vers une destination :
 

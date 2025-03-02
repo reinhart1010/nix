@@ -2,8 +2,8 @@
 layout: page
 title: common/mkfifo (한국어)
 description: "FIFO(이름 있는 파이프) 생성."
-content_hash: 29f988ca9d609b6374aa19ae715b9261c29503f8
-last_modified_at: 2024-12-05
+content_hash: 522c6df497d1e0ee6b3d3533f57baa1b5ed3a393
+last_modified_at: 2025-03-02
 related_topics:
   - title: bosanski version
     url: /bs/common/mkfifo.html
@@ -22,7 +22,7 @@ tldri18n_status: 2
 # mkfifo
 
 FIFO(이름 있는 파이프) 생성.
-더 많은 정보: <https://www.gnu.org/software/coreutils/mkfifo>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/mkfifo-invocation.html>.
 
 - 지정된 경로에 이름 있는 파이프 생성:
 

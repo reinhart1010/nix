@@ -2,8 +2,8 @@
 layout: page
 title: common/mv (Deutsch)
 description: "Verschiebe Dateien oder Verzeichnisse oder benenne diese um."
-content_hash: 9568f8561f9d46ec0f6102ea327d58eb15ea8a94
-last_modified_at: 2023-11-12
+content_hash: 7a843aa7aa4f155ef91dae05441e4298efc3f9e8
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/mv.html
@@ -20,6 +20,12 @@ related_topics:
   - title: italiano version
     url: /it/common/mv.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mv.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/mv.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/mv.html
     icon: bi bi-globe
@@ -29,6 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/mv.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/mv.html
+    icon: bi bi-globe
 tldri18n_status: 1
 ---
 
@@ -37,7 +46,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># mv
 
 Verschiebe Dateien oder Verzeichnisse oder benenne diese um.
-Weitere Informationen: <https://www.gnu.org/software/coreutils/mv>.
+Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
 - Verschiebe eine Datei an einen beliebigen Ort:
 

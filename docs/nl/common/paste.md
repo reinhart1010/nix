@@ -2,18 +2,24 @@
 layout: page
 title: common/paste (Nederlands)
 description: "Voeg regels van bestanden samen."
-content_hash: 701a63bdb5cfb19193b8af46234552ed2ba4473d
-last_modified_at: 2024-06-27
+content_hash: 7e30d5e02d6dd5b6f1ef8cb7babf4d5052f7e2a8
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/paste.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/paste.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/paste.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # paste
 
 Voeg regels van bestanden samen.
-Meer informatie: <https://www.gnu.org/software/coreutils/paste>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/paste-invocation.html>.
 
 - Voeg alle regels samen tot één enkele regel, met TAB als scheidingsteken:
 

@@ -2,11 +2,14 @@
 layout: page
 title: windows/cd (日本語)
 description: "現在の作業ディレクトリの名前を表示するか、現在の作業ディレクトリを変更します。"
-content_hash: 1ffc522864d37f554f643861cfbbf4c45971ee4a
-last_modified_at: 2023-11-12
+content_hash: aa1d64ced7f94d90beed288c65fb5e82e89d925f
+last_modified_at: 2025-03-02
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/windows/cd.html
     icon: bi bi-globe
   - title: čeština version
     url: /cs/windows/cd.html
@@ -28,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/windows/cd.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/cd.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/windows/cd.html
@@ -52,7 +58,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cd
 
 現在の作業ディレクトリの名前を表示するか、現在の作業ディレクトリを変更します。
-詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>
+もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>。
 
 - 同じドライブ内のディレクトリに移動します:
 

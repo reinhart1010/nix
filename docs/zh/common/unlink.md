@@ -2,8 +2,8 @@
 layout: page
 title: common/unlink (中文)
 description: "从文件系统中删除对文件的链接。"
-content_hash: a5ffaa38d7a02f46a6283a7c938dc6ae26cfac85
-last_modified_at: 2024-11-20
+content_hash: 555b893ac6f866b2c562e89b641f31fb084a3390
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/unlink.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 从文件系统中删除对文件的链接。
 如果链接是文件的最后一个，文件内容将丢失。
-更多信息：<https://www.gnu.org/software/coreutils/unlink>.
+更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/unlink-invocation.html>.
 
 - 如果是最后一个链接，则删除指定的文件：
 

@@ -2,11 +2,14 @@
 layout: page
 title: common/od (Nederlands)
 description: "Toon bestandsinhoud in octale, decimale of hexadecimale notatie."
-content_hash: 8b6cd71478f48f9e7a5ecd9eb24d1a2400bb8d10
-last_modified_at: 2024-06-27
+content_hash: ab982c829015e988a3db6e544471257438895e87
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/od.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/od.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -14,7 +17,7 @@ tldri18n_status: 2
 
 Toon bestandsinhoud in octale, decimale of hexadecimale notatie.
 Toon optioneel de byte-offsets en/of de afdrukbare weergave voor elke regel.
-Meer informatie: <https://www.gnu.org/software/coreutils/od>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/od-invocation.html>.
 
 - Toon bestand met de standaardinstellingen: octale notatie, 8 bytes per regel, byte-offsets in octale notatie en dubbele regels vervangen door `*`:
 

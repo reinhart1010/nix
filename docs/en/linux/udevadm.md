@@ -2,8 +2,12 @@
 layout: page
 title: linux/udevadm (English)
 description: "Linux `udev` management tool."
-content_hash: 381ac2afa6208a3e10250d6f0b95ccbe807ebaf7
-last_modified_at: 2023-11-12
+content_hash: b275ecdf3096822511ccb72abaf05a7aafe18ade
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/linux/udevadm.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # udevadm
@@ -29,7 +33,7 @@ More information: <https://www.freedesktop.org/software/systemd/man/udevadm>.
 
 - Reload all `udev` rules:
 
-`sudo udevadm control --reload-rules`
+`sudo udevadm control --reload`
 
 - Trigger all `udev` rules to run:
 

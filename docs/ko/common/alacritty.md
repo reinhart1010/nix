@@ -3,7 +3,7 @@ layout: page
 title: common/alacritty (한국어)
 description: "교차 플랫폼으로, GPU-가속 터미널 에뮬레이터."
 content_hash: 59689ee3008f5d1331024ad3ffc8ef3b5629eadd
-last_modified_at: 2024-05-18
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -35,9 +35,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/alacritty.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# alacritty
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># alacritty
 
 교차 플랫폼으로, GPU-가속 터미널 에뮬레이터.
 더 많은 정보: <https://github.com/alacritty/alacritty>.

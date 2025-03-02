@@ -3,10 +3,13 @@ layout: page
 title: linux/pw-record (한국어)
 description: "PipeWire를 통해 오디오 파일을 녹음."
 content_hash: 04a8eb08847dca550eed7763bcc5c9580081c5fb
-last_modified_at: 2024-10-30
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/pw-record.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/pw-record.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/pw-record.html
@@ -14,9 +17,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/pw-record.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# pw-record
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># pw-record
 
 PipeWire를 통해 오디오 파일을 녹음.
 `pw-cat --record`의 축약형.

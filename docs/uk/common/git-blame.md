@@ -3,7 +3,7 @@ layout: page
 title: common/git-blame (українська)
 description: "Показує хеш коміту та останнього автора на кожному рядку у файлі."
 content_hash: 8ff1c208912280d106c7ddfcadf0942475f580c1
-last_modified_at: 2024-10-08
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/git-blame.html
@@ -32,9 +32,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-blame.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git blame
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git blame
 
 Показує хеш коміту та останнього автора на кожному рядку у файлі.
 Більше інформації: <https://git-scm.com/docs/git-blame>.

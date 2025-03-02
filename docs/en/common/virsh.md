@@ -2,8 +2,8 @@
 layout: page
 title: common/virsh (English)
 description: "Manage `virsh` guest domains. (Note: `guest_id` can be the ID, name or UUID of the guest)."
-content_hash: bbbb0f18f8d84d4d18ca99b4c19aed1ebcad9e71
-last_modified_at: 2024-12-25
+content_hash: db442ef8027d721e2a3f8136fad7f7b59a2a2b2f
+last_modified_at: 2025-03-02
 related_topics:
   - title: 한국어 version
     url: /ko/common/virsh.html
@@ -25,7 +25,7 @@ More information: <https://libvirt.org/manpages/virsh.html>.
 
 - Activate a network named `default`:
 
-`virsh net-start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">default</span>
+`sudo virsh net-start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">default</span>
 
 - List all domains:
 

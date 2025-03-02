@@ -2,8 +2,8 @@
 layout: page
 title: common/crane-index (Nederlands)
 description: "Wijzig een image-index."
-content_hash: 884dd88f860dee10e78c8728125e4aba9f20bb97
-last_modified_at: 2024-10-27
+content_hash: 2a6260d32bf4f8d93ae91d4f9a0073ee34b0abee
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/crane-index.html
@@ -27,6 +27,6 @@ Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/c
 
 `crane index `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 
-- Toon help:
+- Toon de help:
 
 `crane index `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

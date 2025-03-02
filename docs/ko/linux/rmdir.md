@@ -2,11 +2,14 @@
 layout: page
 title: linux/rmdir (한국어)
 description: "파일이 없는 디렉토리를 제거합니다."
-content_hash: 3373b5f4f8309712f043d32137106f67af2f7be8
-last_modified_at: 2024-11-10
+content_hash: d03e1230fa2c245684672be98fdc6228c0e8ce1a
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/rmdir.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/rmdir.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/rmdir.html
@@ -20,7 +23,7 @@ tldri18n_status: 2
 
 파일이 없는 디렉토리를 제거합니다.
 같이 보기: `rm`.
-더 많은 정보: <https://www.gnu.org/software/coreutils/rmdir>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/rmdir-invocation.html>.
 
 - 특정 디렉토리 제거:
 

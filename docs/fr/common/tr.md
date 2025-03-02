@@ -2,18 +2,27 @@
 layout: page
 title: common/tr (français)
 description: "Convertisseur de caractères : exécute des remplacements basés sur des caractères uniques et des jeux de caractères."
-content_hash: 80ac798bea4cf17f87084f84ae901400ec4ca7bc
-last_modified_at: 2023-11-12
+content_hash: 8503bd28f531e27808bc6e07e2e5edb36a3f0fe1
+last_modified_at: 2025-03-02
 related_topics:
+  - title: العربية version
+    url: /ar/common/tr.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/tr.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tr.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/tr.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # tr
 
 Convertisseur de caractères : exécute des remplacements basés sur des caractères uniques et des jeux de caractères.
-Plus d'informations : <https://www.gnu.org/software/coreutils/tr>.
+Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/tr-invocation.html>.
 
 - Remplace toutes les occurrences d'un caractère dans un fichier, et affiche le résultat :
 

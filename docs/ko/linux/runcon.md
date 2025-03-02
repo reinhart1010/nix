@@ -2,8 +2,8 @@
 layout: page
 title: linux/runcon (한국어)
 description: "프로그램을 다른 SELinux 보안 컨텍스트에서 실행."
-content_hash: 9c4f1b611b4c7deadca714ffb35f1dde21286469
-last_modified_at: 2024-11-10
+content_hash: 6b7fb171ba2d6579880a279b2dd2c3e8b4a5bd1f
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/runcon.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 프로그램을 다른 SELinux 보안 컨텍스트에서 실행.
 같이 보기: `secon`.
-더 많은 정보: <https://www.gnu.org/software/coreutils/runcon>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/runcon-invocation.html>.
 
 - 현재 실행 컨텍스트의 보안 컨텍스트를 출력:
 

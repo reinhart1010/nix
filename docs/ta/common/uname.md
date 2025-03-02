@@ -2,8 +2,8 @@
 layout: page
 title: common/uname (தமிழ்)
 description: "தற்போதைய இயந்திரம் மற்றும் அதில் இயங்கும் இயக்க முறைமை பற்றிய விவரங்களை அச்சிடவும்."
-content_hash: cbee7927a7ab391850c243c3ce8f531c26b2f7ad
-last_modified_at: 2023-11-12
+content_hash: 571393f34753e401dd415b28ad3cd980ad295de2
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/uname.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/uname.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/uname.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/uname.html
@@ -26,7 +29,7 @@ tldri18n_status: 2
 
 தற்போதைய இயந்திரம் மற்றும் அதில் இயங்கும் இயக்க முறைமை பற்றிய விவரங்களை அச்சிடவும்.
 `lsb_release` ஐயும் பார்க்கவும்.
-மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/uname>.
+மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
 - கர்னல் பெயரை அச்சிடவும்:
 

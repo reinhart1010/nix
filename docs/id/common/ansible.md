@@ -2,8 +2,8 @@
 layout: page
 title: common/ansible (Indonesia)
 description: "Atur grup perangkat komputer yang secara jarak jauh melalui SSH. (Gunakan berkas `/etc/ansible/hosts` untuk menambahkan grup atau host baru)."
-content_hash: 73840b7a345b44f65df9496e58e5d75698fc36c9
-last_modified_at: 2024-06-13
+content_hash: e8de872651fbadd3a5de206f2d778c3aeeecdbfb
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 # ansible
 
 Atur grup perangkat komputer yang secara jarak jauh melalui SSH. (Gunakan berkas `/etc/ansible/hosts` untuk menambahkan grup atau host baru).
-Beberapa subperintah seperti `ansible galaxy` memiliki dokumentasi terpisah.
+Beberapa subperintah seperti `ansible galaxy` mempunyai dokumentasi terpisah.
 Informasi lebih lanjut: <https://www.ansible.com/>.
 
 - Tampilkan daftar host yang tergabung dalam suatu grup:

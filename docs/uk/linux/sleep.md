@@ -2,18 +2,27 @@
 layout: page
 title: linux/sleep (українська)
 description: "Затримка на певний час."
-content_hash: ea54b7c75e32350d8fac9ad365a6cdb184239eb0
-last_modified_at: 2024-04-21
+content_hash: 05990cc7d9ee5908e244070cfdd234161ccb9331
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/sleep.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/sleep.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/sleep.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/sleep.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # sleep
 
 Затримка на певний час.
-Більше інформації: <https://www.gnu.org/software/coreutils/sleep>.
+Більше інформації: <https://www.gnu.org/software/coreutils/manual/html_node/sleep-invocation.html>.
 
 - Затримка в секундах:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (español)
 description: "Elimina archivos o directorios."
-content_hash: c458a881ca16762589d3d86f9b20067e1e398fdc
-last_modified_at: 2024-11-01
+content_hash: 8c041f0c4a660599a7aeb565cdf2c9873410f5fa
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -47,7 +47,7 @@ tldri18n_status: 2
 
 Elimina archivos o directorios.
 Vea también: `rmdir`.
-Más información: <https://www.gnu.org/software/coreutils/rm>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - Elimina archivos específicos:
 

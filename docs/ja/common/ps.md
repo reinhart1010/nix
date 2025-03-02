@@ -2,8 +2,8 @@
 layout: page
 title: common/ps (日本語)
 description: "実行中のプロセスに関する情報。"
-content_hash: 0338f1dfb00cb8049ff7c1f223b555dece279b3e
-last_modified_at: 2023-11-12
+content_hash: 71d11e90bb7295a43d186d80364d87feacfb35bb
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/ps.html
@@ -17,12 +17,18 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/ps.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ps.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/ps.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # ps
 
 実行中のプロセスに関する情報。
-詳しくはこちら: <https://manned.org/ps>
+もっと詳しく: <https://manned.org/ps>。
 
 - 実行中のプロセスをすべてリストアップ:
 

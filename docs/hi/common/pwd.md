@@ -2,8 +2,8 @@
 layout: page
 title: common/pwd (हिन्दी)
 description: "वर्तमान/कार्यशील निर्देशिका का नाम देखें।"
-content_hash: 731d2457ea9ee9bfcf460270d5d9bcc9c3f15a74
-last_modified_at: 2024-12-10
+content_hash: 71907a8580ede453a712a1ffc7c92ac9d74cc195
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/common/pwd.html
@@ -46,7 +46,7 @@ tldri18n_status: 2
 # pwd
 
 वर्तमान/कार्यशील निर्देशिका का नाम देखें।
-अधिक जानकारी: <https://www.gnu.org/software/coreutils/pwd>।
+अधिक जानकारी: <https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html>।
 
 - वर्तमान निर्देशिका का नाम देखें:
 

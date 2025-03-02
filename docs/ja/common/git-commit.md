@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (日本語)
 description: "リポジトリにファイルをコミットします。"
-content_hash: b8ad2ded49086d617b7b768cfdb0cb8df9dc4bae
-last_modified_at: 2024-10-13
+content_hash: 2b81c1565acb4dd4e76fe4979aa5801cb5c0b32f
+last_modified_at: 2025-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -46,7 +46,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># git commit
 
 リポジトリにファイルをコミットします。
-詳しくはこちら: <https://git-scm.com/docs/git-commit>
+もっと詳しく: <https://git-scm.com/docs/git-commit>。
 
 - メッセージと共に、ステージ済のファイルをリポジトリにコミットする:
 

@@ -2,8 +2,12 @@
 layout: page
 title: common/git-maintenance (English)
 description: "Run tasks to optimize Git repository data."
-content_hash: 5a5a5b7f1d0744275db6f1e74aa121503ba69ef6
-last_modified_at: 2023-11-12
+content_hash: 7acf00a14840ec27f7fbf6b0949015f2e01e0ca7
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/git-maintenance.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # git-maintenance
@@ -15,7 +19,7 @@ More information: <https://git-scm.com/docs/git-maintenance>.
 
 `git maintenance register`
 
-- Start running maintenance on the current repository:
+- Schedule maintenance tasks on the current repository every hour:
 
 `git maintenance start`
 

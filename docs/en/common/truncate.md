@@ -2,14 +2,21 @@
 layout: page
 title: common/truncate (English)
 description: "Shrink or extend the size of a file to the specified size."
-content_hash: 9491aa602590c0e59d22a91ab75f1cd62ad4e49a
-last_modified_at: 2024-06-28
+content_hash: 89bb2512eb0791744a9780d1a2cd6bd1b274f3aa
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/truncate.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/truncate.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # truncate
 
 Shrink or extend the size of a file to the specified size.
-More information: <https://www.gnu.org/software/coreutils/truncate>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/truncate-invocation.html>.
 
 - Set a size of 10 GB to an existing file, or create a new file with the specified size:
 

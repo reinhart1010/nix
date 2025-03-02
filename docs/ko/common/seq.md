@@ -2,8 +2,8 @@
 layout: page
 title: common/seq (한국어)
 description: "숫자 시퀀스를 `stdout`에 출력."
-content_hash: 62bf135f4f192c5c0e157fd78d8135e665e8e491
-last_modified_at: 2024-11-10
+content_hash: 39a188011beda6ec93da38ff82987dd3443826ad
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/seq.html
@@ -11,12 +11,15 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/seq.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/seq.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # seq
 
 숫자 시퀀스를 `stdout`에 출력.
-더 많은 정보: <https://www.gnu.org/software/coreutils/seq>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/seq-invocation.html>.
 
 - 1부터 10까지의 시퀀스:
 

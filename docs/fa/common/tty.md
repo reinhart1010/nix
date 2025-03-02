@@ -2,14 +2,17 @@
 layout: page
 title: common/tty (فارسی)
 description: "نمایش نام ترمینال."
-content_hash: f74b04c767acdee72aee4df91b36dd7125e30f70
-last_modified_at: 2023-11-12
+content_hash: 9c4dda104c1e13c7ba0b2ccd4a34040c290b3907
+last_modified_at: 2025-03-02
 related_topics:
   - title: bosanski version
     url: /bs/common/tty.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/tty.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tty.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/tty.html
@@ -28,7 +31,7 @@ tldri18n_status: 2
 # tty
 
 نمایش نام ترمینال.
-اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/tty>.
+اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/tty-invocation.html>.
 
 - نمایش نام فایل ترمینال جاری:
 

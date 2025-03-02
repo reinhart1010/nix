@@ -2,9 +2,12 @@
 layout: page
 title: windows/ipconfig (日本語)
 description: "Windowsのネットワーク構成を表示および管理します。"
-content_hash: ad5ac3079732714814beb0d1d8f38efa5b9f876b
-last_modified_at: 2023-11-12
+content_hash: 6c017d9cbc69dbc3e919f129e993bb3104bb4d19
+last_modified_at: 2025-03-02
 related_topics:
+  - title: Deutsch version
+    url: /de/windows/ipconfig.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/ipconfig.html
     icon: bi bi-globe
@@ -16,6 +19,12 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/windows/ipconfig.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/ipconfig.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/ipconfig.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/windows/ipconfig.html
@@ -34,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># ipconfig
 
 Windowsのネットワーク構成を表示および管理します。
-詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>
+もっと詳しく: <https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>。
 
 - ネットワークアダプタのリストを表示します:
 

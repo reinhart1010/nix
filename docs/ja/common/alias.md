@@ -2,8 +2,8 @@
 layout: page
 title: common/alias (日本語)
 description: "alias （コマンド文字列を置き換える別名）を作成します。"
-content_hash: 3d4c6e7a51768756320eebea329173c27415e10e
-last_modified_at: 2023-11-12
+content_hash: aa01ec280d1f95a69a9f4dcadf69592b3f64c6da
+last_modified_at: 2025-03-02
 related_topics:
   - title: বাংলা version
     url: /bn/common/alias.html
@@ -65,7 +65,7 @@ tldri18n_status: 2
 
 alias （コマンド文字列を置き換える別名）を作成します。
 alias は `~/.bashrc` などの shell の設定ファイルで定義されない限り、現在のセッションで失効します。
-詳しくはこちら: <https://tldp.org/LDP/abs/html/aliases.html>
+もっと詳しく: <https://tldp.org/LDP/abs/html/aliases.html>。
 
 - alias の一覧表示:
 

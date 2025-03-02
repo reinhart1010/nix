@@ -2,11 +2,17 @@
 layout: page
 title: linux/tac (Nederlands)
 description: "Toon en voeg bestanden samen met regels in omgekeerde volgorde."
-content_hash: 64b3cd9ddd22c1f5db55272bd5b723c42cc440b6
-last_modified_at: 2024-06-20
+content_hash: f8a47d20c311223e071a27cdcb4119dce78b798f
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/tac.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/tac.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/tac.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -14,7 +20,7 @@ tldri18n_status: 2
 
 Toon en voeg bestanden samen met regels in omgekeerde volgorde.
 Bekijk ook: `cat`.
-Meer informatie: <https://www.gnu.org/software/coreutils/tac>.
+Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html>.
 
 - Voeg specifieke bestanden samen in omgekeerde volgorde:
 

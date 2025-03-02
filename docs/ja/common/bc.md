@@ -2,8 +2,8 @@
 layout: page
 title: common/bc (日本語)
 description: "任意の精度で計算を行える言語です。"
-content_hash: 683dff4b2bff5c777cce81c7016df455c3a8f69d
-last_modified_at: 2024-09-09
+content_hash: 677a57fb4baae244f2dd3ab83b7b46e199b1335c
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -38,7 +38,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 任意の精度で計算を行える言語です。
 `dc`も参照してください。
-詳しくはこちら: <https://manned.org/bc>
+もっと詳しく: <https://manned.org/bc>。
 
 - 対話モードのセッションを開始する:
 

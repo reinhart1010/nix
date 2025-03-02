@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (српски)
 description: "Kreira direktorijum."
-content_hash: 73281cc33b53f1b4bdfb776c0273b7865c01c11e
-last_modified_at: 2024-09-07
+content_hash: 53d34a4d1fa81d1f8b9f79aa5acd7cc92b116aac
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -52,7 +52,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># mkdir
 
 Kreira direktorijum.
-Više informacija na: <https://www.gnu.org/software/coreutils/mkdir>.
+Više informacija na: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - Kreira direktorijum u trenutnom direktorijumu ili zadatoj lokaciji:
 

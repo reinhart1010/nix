@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (日本語)
 description: "ディレクトリの内容を一覧表示します。"
-content_hash: f37797b33e35415ed5a6ad6de05d08487c6960c9
-last_modified_at: 2024-12-16
+content_hash: c0115abdd0c877973582b674fc2d235b75a19512
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/common/ls.html
@@ -73,7 +73,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># ls
 
 ディレクトリの内容を一覧表示します。
-詳しくはこちら: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>
+もっと詳しく: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>。
 
 - ファイルを1行ごとに一覧表示:
 

@@ -1,28 +1,22 @@
 ---
 layout: page
 title: linux/lookandfeeltool (English)
-description: "Switch Plasma global themes."
-content_hash: c8b0cd324fee93c6e5c17ce710f42e6b28e354f4
-last_modified_at: 2025-01-02
+description: "This command is an alias of `plasma-apply-lookandfeel`."
+content_hash: 7a062e25f1c7f979930e56bf92925fd229ff1266
+last_modified_at: 2025-03-02
+related_topics:
+  - title: español version
+    url: /es/linux/lookandfeeltool.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/lookandfeeltool.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # lookandfeeltool
 
-Switch Plasma global themes.
-More information: <https://userbase.kde.org/System_Settings/Look_And_Feel>.
+This command is an alias of `plasma-apply-lookandfeel`.
 
-- List available global themes:
+- View documentation for the original command:
 
-`lookandfeeltool --list`
-
-- Apply a global theme:
-
-`lookandfeeltool --apply `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.example.theme.desktop</span>
-
-- Operate `lookandfeeltool` without a display server:
-
-`lookandfeeltool --platform offscreen`
-
-- Display help:
-
-`lookandfeeltool --help`
+`tldr plasma-apply-lookandfeel`

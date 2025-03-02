@@ -2,8 +2,8 @@
 layout: page
 title: common/split (한국어)
 description: "파일을 여러 조각으로 분할."
-content_hash: 68950a95f63104d0d87dd005266bb4e2b330df17
-last_modified_at: 2024-11-10
+content_hash: bb9c9cc19f727d81717d70d4b724402a624ff0b7
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/split.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # split
 
 파일을 여러 조각으로 분할.
-더 많은 정보: <https://www.gnu.org/software/coreutils/split>.
+더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/split-invocation.html>.
 
 - 파일을 10줄씩 분할 (마지막 조각 제외):
 

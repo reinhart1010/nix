@@ -2,15 +2,22 @@
 layout: page
 title: common/od (English)
 description: "Display file contents in octal, decimal or hexadecimal format."
-content_hash: 258593c58b14f02369a2da38dffa9b5e9d2c7562
-last_modified_at: 2024-06-26
+content_hash: b3bb52336a3f7fc8efb57d7a755bc25278abc3eb
+last_modified_at: 2025-03-02
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/od.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/od.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # od
 
 Display file contents in octal, decimal or hexadecimal format.
 Optionally display the byte offsets and/or printable representation for each line.
-More information: <https://www.gnu.org/software/coreutils/od>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/od-invocation.html>.
 
 - Display file using default settings: octal format, 8 bytes per line, byte offsets in octal, and duplicate lines replaced with `*`:
 

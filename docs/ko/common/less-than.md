@@ -3,14 +3,17 @@ layout: page
 title: common/less-than (한국어)
 description: "데이터를 `stdin`으로 리다이렉트."
 content_hash: 95a0cc81a85e48b38acdfc306462517902b1ec6a
-last_modified_at: 2024-11-08
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/less-than.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# Less than
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># Less than
 
 데이터를 `stdin`으로 리다이렉트.
 더 많은 정보: <https://gnu.org/software/bash/manual/bash.html#Redirecting-Input>.

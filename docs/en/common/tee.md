@@ -2,18 +2,27 @@
 layout: page
 title: common/tee (English)
 description: "Read from `stdin` and write to `stdout` and files (or commands)."
-content_hash: 43af1dfbd8295afdfe4bd84b00decff87832ed54
-last_modified_at: 2023-11-12
+content_hash: b37d62c01aa951fdbd3ffb8acfd3016f1269a127
+last_modified_at: 2025-03-02
 related_topics:
   - title: español version
     url: /es/common/tee.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/tee.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tee.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/tee.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # tee
 
 Read from `stdin` and write to `stdout` and files (or commands).
-More information: <https://www.gnu.org/software/coreutils/tee>.
+More information: <https://www.gnu.org/software/coreutils/manual/html_node/tee-invocation.html>.
 
 - Copy `stdin` to each file, and also to `stdout`:
 

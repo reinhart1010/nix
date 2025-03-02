@@ -2,8 +2,8 @@
 layout: page
 title: common/crane-blob (Nederlands)
 description: "Lees een blob uit een registry."
-content_hash: c6d9cb97d4388815bb5f1d2351fd6605faad3b65
-last_modified_at: 2024-10-27
+content_hash: 7ccf7c7dd96dab773bc18d86fe6b9103232d18f4
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/crane-blob.html
@@ -22,6 +22,6 @@ Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/c
 
 `crane blob `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blob_identifier</span>
 
-- Toon help:
+- Toon de help:
 
 `crane blob `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

@@ -2,11 +2,14 @@
 layout: page
 title: linux/gcrane-completion (Nederlands)
 description: "Genereer het autocompletion script voor gcrane voor de opgegeven shell."
-content_hash: 80ea65c1a3f7d62736cffcdf8fb39e232441dd6d
-last_modified_at: 2024-10-27
+content_hash: 8e8454b7bf84d5c5cb9d316fe05f5702bb5144d5
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/linux/gcrane-completion.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/gcrane-completion.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -44,6 +47,6 @@ Meer informatie: <https://github.com/google/go-containerregistry/blob/main/cmd/g
 
 `gcrane completion fish > ~/.config/fish/completions/gcrane.fish`
 
-- Toon help:
+- Toon de help:
 
 `gcrane completion `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell_naam</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|--help</span>

@@ -2,11 +2,14 @@
 layout: page
 title: common/env (norsk)
 description: "Vis miljøet eller kjør et program i et modifisert miljø."
-content_hash: b09b0541d3a3a48a80fda8316da633f36f6ba497
-last_modified_at: 2023-11-12
+content_hash: 7deca8d3c1f710f0950274ef2e578cabd9aee624
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/env.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/env.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/env.html
@@ -14,12 +17,18 @@ related_topics:
   - title: italiano version
     url: /it/common/env.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/env.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/env.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # env
 
 Vis miljøet eller kjør et program i et modifisert miljø.
-Mer informasjon: <https://www.gnu.org/software/coreutils/env>.
+Mer informasjon: <https://www.gnu.org/software/coreutils/manual/html_node/env-invocation.html>.
 
 - Vis miljøet:
 

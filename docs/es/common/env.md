@@ -2,8 +2,8 @@
 layout: page
 title: common/env (español)
 description: "Muestra el entorno o ejecuta un programa en un entorno modificado."
-content_hash: c6ce1ad22c65d97f0d3b0302070cf3aacc25a3af
-last_modified_at: 2024-12-29
+content_hash: da67c039077976fd29b79b77cde218fa62e081b4
+last_modified_at: 2025-03-02
 related_topics:
   - title: English version
     url: /en/common/env.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # env
 
 Muestra el entorno o ejecuta un programa en un entorno modificado.
-Más información: <https://www.gnu.org/software/coreutils/env>.
+Más información: <https://www.gnu.org/software/coreutils/manual/html_node/env-invocation.html>.
 
 - Muestra el entorno:
 

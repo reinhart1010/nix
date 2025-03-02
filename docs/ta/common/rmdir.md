@@ -2,8 +2,8 @@
 layout: page
 title: common/rmdir (தமிழ்)
 description: "கோப்புகள் இல்லாத கோப்பகங்களை அகற்று."
-content_hash: 29ca1383f7f2e776cd806318a71c9a60291c6f6b
-last_modified_at: 2023-11-13
+content_hash: c4985491299ad7a950d1ea2c6ce21683bb3df5f2
+last_modified_at: 2025-03-02
 related_topics:
   - title: العربية version
     url: /ar/common/rmdir.html
@@ -13,6 +13,12 @@ related_topics:
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/rmdir.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/rmdir.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/rmdir.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/rmdir.html
@@ -26,7 +32,7 @@ tldri18n_status: 2
 
 கோப்புகள் இல்லாத கோப்பகங்களை அகற்று.
 மேலும் பார்க்கவும்: `rm`.
-மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/rmdir>.
+மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/rmdir-invocation.html>.
 
 - குறிப்பிட்ட கோப்பகங்களை அகற்றவும்:
 
