@@ -1,0 +1,28 @@
+<h1 id="hexyl">hexyl</h1>
+
+<p>터미널용 간단한 16진수 뷰어. 다양한 카테고리의 바이트를 구별하기 위해 컬러 출력을 사용.
+더 많은 정보: <a href="https://github.com/sharkdp/hexyl">https://github.com/sharkdp/hexyl</a>.</p>
+
+<ul>
+  <li>파일의 16진수 표현을 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexyl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일의 처음 n 바이트의 16진수 표현을 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexyl -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일의 바이트 512부터 1024를 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexyl -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">512</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>1024번째 바이트부터 512 바이트를 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexyl -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span><code class="language-plaintext highlighter-rouge">:+</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">512</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

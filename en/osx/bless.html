@@ -1,0 +1,28 @@
+<h1 id="bless">bless</h1>
+
+<p>Set volume boot capability and startup disk options.
+More information: <a href="https://keith.github.io/xcode-man-pages/bless.8.html">https://keith.github.io/xcode-man-pages/bless.8.html</a>.</p>
+
+<ul>
+  <li>Bless a volume with only Mac OS X or Darwin, and create the BootX and <code class="language-plaintext highlighter-rouge">boot.efi</code> files as needed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bless --folder </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/Volumes/Mac OS X/System/Library/CoreServices</span><code class="language-plaintext highlighter-rouge"> --bootinfo --bootefi</code></p>
+
+<ul>
+  <li>Set a volume containing either Mac OS 9 and Mac OS X to be the active volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bless --mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/Volumes/Mac OS</span><code class="language-plaintext highlighter-rouge"> --setBoot</code></p>
+
+<ul>
+  <li>Set the system to NetBoot and broadcast for an available server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bless --netboot --server </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bsdp://255.255.255.255</span></p>
+
+<ul>
+  <li>Gather information about the currently selected volume (as determined by the firmware), suitable for piping to a program capable of parsing Property Lists:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bless --info --plist</code></p>

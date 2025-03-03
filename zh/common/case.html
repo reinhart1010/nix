@@ -1,0 +1,37 @@
+<h1 id="case">case</h1>
+
+<p>case … esac 与其他语言中的 switch … case 语句类似，是一种多分枝选择结构。
+更多信息：<a href="https://www.gnu.org/software/bash/manual/bash.html#index-case">https://www.gnu.org/software/bash/manual/bash.html#index-case</a>.</p>
+
+<ul>
+  <li>通过字符串字面量判断执行分支：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$计数规则</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字数</span><code class="language-plaintext highlighter-rouge">) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -w README</span><code class="language-plaintext highlighter-rouge"> ;; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">行数</span><code class="language-plaintext highlighter-rouge">) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -l README</span><code class="language-plaintext highlighter-rouge"> ;; esac</code></p>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>使用</td>
+          <td>组合匹配模式，使用 * 作为默认匹配：</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$计数规则</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[wW]|字数</span><code class="language-plaintext highlighter-rouge">) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -w README</span><code class="language-plaintext highlighter-rouge"> ;; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[lL]|行数</span><code class="language-plaintext highlighter-rouge">) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -l README</span><code class="language-plaintext highlighter-rouge"> ;; *) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "无效输入"</span><code class="language-plaintext highlighter-rouge"> ;; esac</code></p>
+
+<ul>
+  <li>允许匹配多个模式：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$动物</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">猫</span><code class="language-plaintext highlighter-rouge">) echo "这是一只猫" ;;&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">猫|狗</span><code class="language-plaintext highlighter-rouge">) echo "这是一只猫或狗" ;;&amp; *) echo "其他动物" ;; esac</code></p>
+
+<ul>
+  <li>继续执行下一个模式的命令而不检查模式：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$动物</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">猫</span><code class="language-plaintext highlighter-rouge">) echo "这是一只猫" ;&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">狗</span><code class="language-plaintext highlighter-rouge">) echo "这是一只狗或猫的匹配结果" ;&amp; *) echo "其他动物" ;; esac</code></p>

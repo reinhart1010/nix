@@ -1,0 +1,34 @@
+<h1 id="weasyprint">weasyprint</h1>
+
+<p>HTML을 PDF 또는 PNG로 렌더링.
+더 많은 정보: <a href="https://weasyprint.org/">https://weasyprint.org/</a>.</p>
+
+<ul>
+  <li>HTML 파일을 PDF로 렌더링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">weasyprint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pdf</span></p>
+
+<ul>
+  <li>추가 사용자 스타일시트를 포함하여 HTML 파일을 PNG로 렌더링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">weasyprint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.png</span><code class="language-plaintext highlighter-rouge"> --stylesheet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스타일시트.css</span></p>
+
+<ul>
+  <li>렌더링 시 추가 디버깅 정보 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">weasyprint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pdf</span><code class="language-plaintext highlighter-rouge"> --verbose</code></p>
+
+<ul>
+  <li>PNG로 출력할 때 사용자 지정 해상도 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">weasyprint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.png</span><code class="language-plaintext highlighter-rouge"> --resolution </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300</span></p>
+
+<ul>
+  <li>입력 HTML 파일의 상대 URL에 대한 기본 URL 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">weasyprint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.png</span><code class="language-plaintext highlighter-rouge"> --base-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_또는_파일_이름</span></p>

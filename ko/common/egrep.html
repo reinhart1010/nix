@@ -1,0 +1,40 @@
+<h1 id="egrep">egrep</h1>
+
+<p>확장 정규식을 사용하여 파일에서 패턴을 찾음 (<code class="language-plaintext highlighter-rouge">?</code>, <code class="language-plaintext highlighter-rouge">+</code>, <code class="language-plaintext highlighter-rouge">{}</code>, <code class="language-plaintext highlighter-rouge">()</code>, 및 <code class="language-plaintext highlighter-rouge">|</code> 지원).
+더 많은 정보: <a href="https://manned.org/egrep">https://manned.org/egrep</a>.</p>
+
+<ul>
+  <li>파일 내에서 패턴 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">egrep "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>여러 파일 내에서 패턴 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">egrep "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>패턴에 대한 <code class="language-plaintext highlighter-rouge">stdin</code> 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> | egrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span></p>
+
+<ul>
+  <li>각 일치 항목의 파일 이름과 줄 번호를 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">egrep --with-filename --line-number "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>바이너리 파일을 무시하고 디렉터리에서 반복적으로 모든 파일의 패턴을 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">egrep --recursive --binary-files=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리</span></p>
+
+<ul>
+  <li>패턴과 일치하지 않는 라인 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">egrep --invert-match "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

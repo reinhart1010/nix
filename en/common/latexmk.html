@@ -1,0 +1,47 @@
+<h1 id="latexmk">latexmk</h1>
+
+<p>Compile LaTeX source files into finished documents.
+Automatically does multiple runs when needed.
+More information: <a href="https://mg.readthedocs.io/latexmk.html">https://mg.readthedocs.io/latexmk.html</a>.</p>
+
+<ul>
+  <li>Compile a DVI (Device Independent file) document from every source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexmk</code></p>
+
+<ul>
+  <li>Compile a DVI document from a specific source file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexmk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.tex</span></p>
+
+<ul>
+  <li>Compile a PDF document:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexmk -pdf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.tex</span></p>
+
+<ul>
+  <li>Open the document in a viewer and continuously update it whenever source files change:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexmk -pvc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.tex</span></p>
+
+<ul>
+  <li>Force the generation of a document even if there are errors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexmk -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.tex</span></p>
+
+<ul>
+  <li>Clean up temporary TEX files created for a specific TEX file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexmk -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.tex</span></p>
+
+<ul>
+  <li>Clean up all temporary TEX files in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexmk -c</code></p>

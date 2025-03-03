@@ -1,0 +1,22 @@
+<h1 id="sc_wartsfilter">sc_wartsfilter</h1>
+
+<p><code class="language-plaintext highlighter-rouge">warts</code> 파일에서 특정 레코드를 선택.
+더 많은 정보: <a href="https://www.caida.org/catalog/software/scamper/">https://www.caida.org/catalog/software/scamper/</a>.</p>
+
+<ul>
+  <li>특정 목적지를 가진 모든 데이터 레코드를 필터링하여 별도의 파일로 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc_wartsfilter -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.warts</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.warts</span><code class="language-plaintext highlighter-rouge"> -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.5</span><code class="language-plaintext highlighter-rouge"> -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.0.2.6</span></p>
+
+<ul>
+  <li>특정 접두사를 가진 목적지의 모든 레코드를 필터링하여 별도의 파일로 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc_wartsfilter -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.warts</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.warts</span><code class="language-plaintext highlighter-rouge"> -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2001:db8::/32</span></p>
+
+<ul>
+  <li>특정 작업을 사용한 모든 레코드를 필터링하여 JSON으로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc_wartsfilter -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.warts</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ping</span><code class="language-plaintext highlighter-rouge"> | sc_warts2json</code></p>

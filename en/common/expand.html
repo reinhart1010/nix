@@ -1,0 +1,34 @@
+<h1 id="expand">expand</h1>
+
+<p>Convert tabs to spaces.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/expand-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/expand-invocation.html</a>.</p>
+
+<ul>
+  <li>Convert tabs in each file to spaces, writing to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expand </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Convert tabs to spaces, reading from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expand</code></p>
+
+<ul>
+  <li>Do not convert tabs after non blanks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expand -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Have tabs a certain number of characters apart, not 8:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expand -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Use a comma separated list of explicit tab positions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expand -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,4,6</span></p>

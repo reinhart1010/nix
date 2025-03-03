@@ -1,0 +1,29 @@
+<h1 id="runcon">runcon</h1>
+
+<p>Run a program in a different SELinux security context.
+See also: <code class="language-plaintext highlighter-rouge">secon</code>.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/runcon-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/runcon-invocation.html</a>.</p>
+
+<ul>
+  <li>Print the security context of the current execution context:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">runcon</code></p>
+
+<ul>
+  <li>Specify the domain to run a command in:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">runcon -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span><code class="language-plaintext highlighter-rouge">_t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Specify the context role to run a command with:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">runcon -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role</span><code class="language-plaintext highlighter-rouge">_r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Specify the full context to run a command with:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">runcon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge">_u:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role</span><code class="language-plaintext highlighter-rouge">_r:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span><code class="language-plaintext highlighter-rouge">_t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>

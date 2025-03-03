@@ -1,0 +1,40 @@
+<h1 id="ip-route-get">ip route get</h1>
+
+<p>목적지로 가는 단일 경로를 가져와 커널이 인식하는 그대로 내용을 출력합니다.
+더 많은 정보: <a href="https://manned.org/ip-route">https://manned.org/ip-route</a>.</p>
+
+<ul>
+  <li>목적지로 가는 경로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.1.1.1</span></p>
+
+<ul>
+  <li>특정 소스 주소에서 목적지로 가는 경로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">목적지</span><code class="language-plaintext highlighter-rouge"> from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소스</span></p>
+
+<ul>
+  <li>특정 인터페이스를 통해 도착하는 패킷의 목적지로 가는 경로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">목적지</span><code class="language-plaintext highlighter-rouge"> iif </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>특정 인터페이스를 통해 강제로 출력하는 목적지로 가는 경로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">목적지</span><code class="language-plaintext highlighter-rouge"> oif </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth1</span></p>
+
+<ul>
+  <li>지정된 서비스 유형(ToS)으로 목적지로 가는 경로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">목적지</span><code class="language-plaintext highlighter-rouge"> tos </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0x10</span></p>
+
+<ul>
+  <li>특정 VRF(가상 라우팅 및 전달) 인스턴스를 사용하여 목적지로 가는 경로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">목적지</span><code class="language-plaintext highlighter-rouge"> vrf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">myvrf</span></p>

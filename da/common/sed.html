@@ -1,0 +1,55 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="sed">sed</h1>
+
+<p>Rediger tekst, programmatisk.
+Mere information: <a href="https://manned.org/sed.1posix">https://manned.org/sed.1posix</a>.</p>
+
+<ul>
+  <li>Erstat den første forekomst af et regulært udtryk (regular expression) i hver linje af en fil, og print resultatet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">erstat</span><code class="language-plaintext highlighter-rouge">/' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filnavn</span></p>
+
+<ul>
+  <li>Erstat alle forekomster af et regulært udtryk in en fil, og print resultatet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed -r 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">erstat</span><code class="language-plaintext highlighter-rouge">/g' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filnavn</span></p>
+
+<ul>
+  <li>Erstat alle forekomster af en streng i en fil, og overskriv filen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed -i 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">erstat</span><code class="language-plaintext highlighter-rouge">/g' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filnavn</span></p>
+
+<ul>
+  <li>Erstat forekomster på linjer der matcher mønstret:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed '/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linje_mønster</span><code class="language-plaintext highlighter-rouge">/s/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">erstat</span><code class="language-plaintext highlighter-rouge">/' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filnavn</span></p>
+
+<ul>
+  <li>Fjern linjer der matcher mønstret:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed '/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linje_mønster</span><code class="language-plaintext highlighter-rouge">/d' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filnavn</span></p>
+
+<ul>
+  <li>Print de første 11 linjer af en fil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed 11q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filnavn</span></p>
+
+<ul>
+  <li>Udfør flere find-og-erstat udtryk i en fil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed -e 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">erstat</span><code class="language-plaintext highlighter-rouge">/' -e 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">erstat</span><code class="language-plaintext highlighter-rouge">/' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filnavn</span></p>
+
+<ul>
+  <li>Erstat separator <code class="language-plaintext highlighter-rouge">/</code> med en hvilken som helst anden karakter ikke brugt i find- eller erstat-mønstrene, f.eks. <code class="language-plaintext highlighter-rouge">#</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed 's#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find</span><code class="language-plaintext highlighter-rouge">#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">erstat</span><code class="language-plaintext highlighter-rouge">#' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filnavn</span></p>

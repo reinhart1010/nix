@@ -1,0 +1,47 @@
+<h1 id="zip">zip</h1>
+
+<p>Упаковывает и сжимает (архивирует) файлы в файл zip.
+Смотрите также: <code class="language-plaintext highlighter-rouge">unzip</code>.
+Больше информации: <a href="https://manned.org/zip">https://manned.org/zip</a>.</p>
+
+<ul>
+  <li>Добавить файлы/папки в указанный архив ([r]ecursively):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла_или_папки1 путь/до/файла_или_папки2 …</span></p>
+
+<ul>
+  <li>Удалить файлы/папки из указанного архива ([d]elete):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла_или_папки1 путь/до/файла_или_папки2 …</span></p>
+
+<ul>
+  <li>Заархивировать файлы/папки, исключая некоторые (e[x]clude):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла_или_папки1 путь/до/файла_или_папки2 …</span><code class="language-plaintext highlighter-rouge"> -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/исключаемых_файлов_или_папок</span></p>
+
+<ul>
+  <li>Заархивировать файлы/папки с заданной степенью сжатия (<code class="language-plaintext highlighter-rouge">0</code> — без сжатия, <code class="language-plaintext highlighter-rouge">9</code> — максимальная):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0-9</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла_или_папки1 путь/до/файла_или_папки2 …</span></p>
+
+<ul>
+  <li>Создать зашифрованный паролем архив ([e]ncrypted):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла_или_папки1 путь/до/файла_или_папки2 …</span></p>
+
+<ul>
+  <li>Заархивировать файлы/папки в многотомный архив ([s]plit), например, частями по 3 Гб:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3g</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла_или_папки1 путь/до/файла_или_папки2 …</span></p>
+
+<ul>
+  <li>Вывести содержимое указанного архива ([s]how [f]iles):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -sf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива.zip</span></p>

@@ -1,0 +1,40 @@
+<h1 id="blastn">blastn</h1>
+
+<p>뉴클레오타이드-뉴클레오타이드 BLAST.
+더 많은 정보: <a href="https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastn_application_options/">https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastn_application_options/</a>.</p>
+
+<ul>
+  <li>메가블라스트(기본값)를 사용하여 두 개 이상의 서열 정렬, e-value 임계값 1e-9, 쌍별 출력 형식(기본값):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastn -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query.fa</span><code class="language-plaintext highlighter-rouge"> -subject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject.fa</span><code class="language-plaintext highlighter-rouge"> -evalue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1e-9</span></p>
+
+<ul>
+  <li>blastn을 사용하여 두 개 이상의 서열 정렬:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastn -task blastn -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query.fa</span><code class="language-plaintext highlighter-rouge"> -subject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject.fa</span></p>
+
+<ul>
+  <li>사용자 정의 표형식 출력, 파일로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastn -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query.fa</span><code class="language-plaintext highlighter-rouge"> -subject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject.fa</span><code class="language-plaintext highlighter-rouge"> -outfmt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'6 qseqid qlen qstart qend sseqid slen sstart send bitscore evalue pident'</span><code class="language-plaintext highlighter-rouge"> -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.tsv</span></p>
+
+<ul>
+  <li>뉴클레오타이드 쿼리를 사용하여 뉴클레오타이드 데이터베이스 검색, BLAST 검색에 사용할 스레드(CPU) 16개, 최대 10개의 정렬된 서열 유지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastn -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query.fa</span><code class="language-plaintext highlighter-rouge"> -db </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/blast_db</span><code class="language-plaintext highlighter-rouge"> -num_threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span><code class="language-plaintext highlighter-rouge"> -max_target_seqs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>원격 비중복 뉴클레오타이드 데이터베이스를 뉴클레오타이드 쿼리로 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastn -query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query.fa</span><code class="language-plaintext highlighter-rouge"> -db </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nt</span><code class="language-plaintext highlighter-rouge"> -remote</code></p>
+
+<ul>
+  <li>도움말 표시 (<code class="language-plaintext highlighter-rouge">-help</code>로 자세한 도움말 사용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blastn -h</code></p>

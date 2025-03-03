@@ -1,0 +1,40 @@
+<h1 id="osv-scanner">osv-scanner</h1>
+
+<p>Scan various mediums for dependencies and matches them against the OSV database.
+More information: <a href="https://osv.dev/about">https://osv.dev/about</a>.</p>
+
+<ul>
+  <li>Scan a Docker image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osv-scanner -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">docker_image_name</span></p>
+
+<ul>
+  <li>Scan a package lockfile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osv-scanner -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/lockfile</span></p>
+
+<ul>
+  <li>Scan an SBOM file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osv-scanner -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/sbom_file</span></p>
+
+<ul>
+  <li>Scan multiple directories recursively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osv-scanner -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory1 directory2 …</span></p>
+
+<ul>
+  <li>Skip scanning Git repositories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osv-scanner --skip-git </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|-D</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target</span></p>
+
+<ul>
+  <li>Output result in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osv-scanner --json </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-D|-L|-S|-r</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target</span></p>

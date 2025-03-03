@@ -1,0 +1,28 @@
+<h1 id="e2fsck">e2fsck</h1>
+
+<p>Check a Linux ext2/ext3/ext4 filesystem. The partition should be unmounted.
+More information: <a href="https://manned.org/e2fsck">https://manned.org/e2fsck</a>.</p>
+
+<ul>
+  <li>Check filesystem, reporting any damaged blocks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo e2fsck </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Check filesystem and automatically repair any damaged blocks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo e2fsck -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Check filesystem in read only mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo e2fsck -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Perform an exhaustive, non-destructive read-write test for bad blocks and blacklist them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo e2fsck -fccky </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>

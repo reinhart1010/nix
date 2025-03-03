@@ -1,0 +1,46 @@
+<h1 id="ern">ern</h1>
+
+<p>전극 네이티브 플랫폼 명령줄 클라이언트.
+더 많은 정보: <a href="https://native.electrode.io/reference/index-6">https://native.electrode.io/reference/index-6</a>.</p>
+
+<ul>
+  <li>새로운 <code class="language-plaintext highlighter-rouge">ern</code> 애플리케이션(<code class="language-plaintext highlighter-rouge">MiniApp</code>)을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ern create-miniapp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">애플리케이션_이름</span></p>
+
+<ul>
+  <li>iOS/Android 러너 애플리케이션에서 하나 이상의 <code class="language-plaintext highlighter-rouge">MiniApps</code>를 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ern run-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ios|android</span></p>
+
+<ul>
+  <li>전극 네이티브 컨테이너 만들기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ern create-container --miniapps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/miniapp_디렉토리</span><code class="language-plaintext highlighter-rouge"> --platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ios|android</span></p>
+
+<ul>
+  <li>전극 네이티브 컨테이너를 로컬 Maven 저장소에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ern publish-container --publisher </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">maven</span><code class="language-plaintext highlighter-rouge"> --platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android</span><code class="language-plaintext highlighter-rouge"> --extra </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{"groupId":"com.walmart.ern","artifactId":"quickstart"}'</span></p>
+
+<ul>
+  <li>iOS 컨테이너를 사전 컴파일된 바이너리 프레임워크로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ern transform-container --platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ios</span><code class="language-plaintext highlighter-rouge"> --transformer </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xcframework</span></p>
+
+<ul>
+  <li>설치된 모든 전극 Native 버전을 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ern platform versions</code></p>
+
+<ul>
+  <li>로깅 수준을 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ern platform config set logLevel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">trace|debug</span></p>

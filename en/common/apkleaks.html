@@ -1,0 +1,23 @@
+<h1 id="apkleaks">apkleaks</h1>
+
+<p>Expose URIs, endpoints, and secrets from APK files.
+Note: APKLeaks utilizes the <code class="language-plaintext highlighter-rouge">jadx</code> disassembler to decompile APK files.
+More information: <a href="https://github.com/dwisiswant0/apkleaks">https://github.com/dwisiswant0/apkleaks</a>.</p>
+
+<ul>
+  <li>Scan an APK [f]ile for URIs, endpoints, and secrets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apkleaks --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span></p>
+
+<ul>
+  <li>Scan and save the [o]utput to a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apkleaks --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.txt</span></p>
+
+<ul>
+  <li>Pass <code class="language-plaintext highlighter-rouge">jadx</code> disassembler [a]rguments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apkleaks --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span><code class="language-plaintext highlighter-rouge"> --args "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–threads-count 5 –deobf</span><code class="language-plaintext highlighter-rouge">"</code></p>

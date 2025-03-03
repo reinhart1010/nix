@@ -1,0 +1,46 @@
+<h1 id="hledger-print">hledger print</h1>
+
+<p>전체 저널 항목을 표시하여 거래를 나타냅니다.
+더 많은 정보: <a href="https://hledger.org/hledger.html#print">https://hledger.org/hledger.html#print</a>.</p>
+
+<ul>
+  <li>기본 저널 파일의 모든 거래 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger print</code></p>
+
+<ul>
+  <li>암시된 금액이나 비용을 명시적으로 하여 거래 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger print --explicit --infer-costs</code></p>
+
+<ul>
+  <li>두 개의 지정된 파일에서 거래를 표시하고, 금액을 비용으로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger print --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/2023.journal</span><code class="language-plaintext highlighter-rouge"> --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/2024.journal</span><code class="language-plaintext highlighter-rouge"> --cost</code></p>
+
+<ul>
+  <li>이번 달 <code class="language-plaintext highlighter-rouge">*food*</code> 계좌의 <code class="language-plaintext highlighter-rouge">$</code> 거래를 표시하되, <code class="language-plaintext highlighter-rouge">*groceries*</code> 계좌는 제외:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger print cur:\\$ food not:groceries date:thismonth</code></p>
+
+<ul>
+  <li>설명에 <code class="language-plaintext highlighter-rouge">whole foods</code>가 포함된 50 이상의 금액 거래 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger print amt:'&gt;50' desc:'whole foods'</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">EUR</code> 금액을 소수점 콤마로 반올림하여 입금된 거래 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger print --cleared --commodity '1000, EUR' --round hard</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">foo.journal</code>의 거래를 CSV 파일로 작성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger print --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/foo.journal</span><code class="language-plaintext highlighter-rouge"> --output-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/output_file.csv</span></p>

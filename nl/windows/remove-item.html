@@ -1,0 +1,41 @@
+<h1 id="remove-item">Remove-Item</h1>
+
+<p>Verwijder bestanden, mappen, evenals registersleutels en subkeys.
+Deze opdracht kan alleen door PowerShell worden uitgevoerd.
+Meer informatie: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.management/remove-item">https://learn.microsoft.com/powershell/module/microsoft.powershell.management/remove-item</a>.</p>
+
+<ul>
+  <li>Verwijder specifieke bestanden of registersleutels (zonder subkeys):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-Item </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestand_of_key1 , pad\naar\bestand_of_key2 …</span></p>
+
+<ul>
+  <li>Verwijder verborgen of alleen-lezen bestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-Item -Force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestand1 , pad\naar\bestand2 …</span></p>
+
+<ul>
+  <li>Verwijder specifieke bestanden of registersleutels interactief gevraagd vóór elke verwijdering:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-Item -Confirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestand_of_key1 , pad\naar\bestand_of_key2 …</span></p>
+
+<ul>
+  <li>Verwijder specifieke bestanden en mappen recursief (Windows 10 versie 1909 of hoger):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-Item -Recurse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestand_of_map1 , pad\naar\bestand_of_map2 …</span></p>
+
+<ul>
+  <li>Verwijder specifieke Windows-registersleutels en al zijn subkeys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-Item -Recurse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\key1 , pad\naar\key2 …</span></p>
+
+<ul>
+  <li>Voer een dry-run van het verwijderproces uit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-Item -WhatIf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestand1 , pad\naar\bestand2 …</span></p>

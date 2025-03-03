@@ -1,0 +1,34 @@
+<h1 id="apt-key">apt-key</h1>
+
+<p>Servizio di gestione delle chiavi per il gestore di pacchetti APT su Debian ed Ubuntu.
+Maggiori informazioni: <a href="https://manned.org/apt-key.8">https://manned.org/apt-key.8</a>.</p>
+
+<ul>
+  <li>Elenca le chiavi fidate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key list</code></p>
+
+<ul>
+  <li>Aggiunge una chiave al portachiavi delle chiavi fidate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_chiave_pubblica.asc</span></p>
+
+<ul>
+  <li>Elimina una chiave dal portachiavi delle chiavi fidate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_chiave</span></p>
+
+<ul>
+  <li>Aggiunge una chiave remota al portachiavi delle chiavi fidate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget -qO - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://indirizzo.tld/filename.key</span><code class="language-plaintext highlighter-rouge"> | apt-key add -</code></p>
+
+<ul>
+  <li>Aggiunge una chiave da un server di chiavi con il solo ID della chiave:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key adv --keyserver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pgp.mit.edu</span><code class="language-plaintext highlighter-rouge"> --recv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ID_DELLA_CHIAVE</span></p>

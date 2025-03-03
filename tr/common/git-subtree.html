@@ -1,0 +1,34 @@
+<h1 id="git-subtree">git subtree</h1>
+
+<p>Proje bağımlılıklarını alt proje olarak yönetmeye yarayan bir araç.
+Daha fazla bilgi için: <a href="https://manpages.debian.org/latest/git-man/git-subtree.1.html">https://manpages.debian.org/latest/git-man/git-subtree.1.html</a>.</p>
+
+<ul>
+  <li>Bir Git deposunu alt ağaç olarak ekle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git subtree add --prefix=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dizin/konumu</span><code class="language-plaintext highlighter-rouge"> --squash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">depo_url'si</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_ismi</span></p>
+
+<ul>
+  <li>Alt ağaç deposunu son commit'ine güncelle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git subtree pull --prefix=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dizin/konumu</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">depo_url'si</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_ismi</span></p>
+
+<ul>
+  <li>Son alt ağaca kadar olan değişiklikleri alt ağaca commit'le:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git subtree merge --prefix=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dizin/konumu</span><code class="language-plaintext highlighter-rouge"> --squash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">depo_url'si</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_ismi</span></p>
+
+<ul>
+  <li>Commit'leri bir alt ağaç deposuna yolla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git subtree push --prefix=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dizin/konumu</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">depo_url'si</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_ismi</span></p>
+
+<ul>
+  <li>Bir alt ağacın geçmişinden yeni bir proje geçmişi dışa aktar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git subtree split --prefix=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dizin/konumu</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">depo_url'si</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_ismi</span></p>

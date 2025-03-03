@@ -1,0 +1,29 @@
+<h1 id="debtap">debtap</h1>
+
+<p>Convierte paquetes Debian en paquetes de Arch Linux.
+Vea también: <code class="language-plaintext highlighter-rouge">pacman-upgrade</code>.
+Más información: <a href="https://github.com/helixarch/debtap">https://github.com/helixarch/debtap</a>.</p>
+
+<ul>
+  <li>Actualiza la base de datos de debtap (antes de la primera ejecución):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo debtap --update</code></p>
+
+<ul>
+  <li>Convierte el paquete especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debtap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/paquete.deb</span></p>
+
+<ul>
+  <li>Convierte el paquete especificado obviando todas las preguntas, excepto para editar archivos de metadatos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debtap --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/paquete.deb</span></p>
+
+<ul>
+  <li>Genera un archivo PKGBUILD:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debtap --pkgbuild </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/paquete.deb</span></p>

@@ -1,0 +1,46 @@
+<h1 id="systemd-mount">systemd-mount</h1>
+
+<p>일시적인 마운트 또는 자동 마운트 포인트를 설정하고 제거.
+더 많은 정보: <a href="https://www.freedesktop.org/software/systemd/man/systemd-mount.html">https://www.freedesktop.org/software/systemd/man/systemd-mount.html</a>.</p>
+
+<ul>
+  <li>파일 시스템(이미지 또는 블록 장치)을 <code class="language-plaintext highlighter-rouge">/run/media/system/LABEL</code>에 마운트. LABEL은 파일 시스템 레이블이거나 레이블이 없는 경우 장치 이름:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_장치</span></p>
+
+<ul>
+  <li>파일 시스템(이미지 또는 블록 장치)을 특정 위치에 마운트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_장치</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/마운트_포인트</span></p>
+
+<ul>
+  <li>마운트할 수 있는 파일 시스템을 가진 모든 로컬, 알려진 블록 장치 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount --list</code></p>
+
+<ul>
+  <li>첫 번째 접근 시 실제 파일 시스템을 마운트하는 자동 마운트 포인트 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount --automount=yes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_장치</span></p>
+
+<ul>
+  <li>하나 이상의 장치 언마운트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount --umount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/마운트_포인트_또는_장치1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/마운트_포인트_또는_장치2</span></p>
+
+<ul>
+  <li>특정 파일 시스템 유형으로 파일 시스템(이미지 또는 블록 장치) 마운트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount --type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_시스템_유형</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_장치</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/마운트_포인트</span></p>
+
+<ul>
+  <li>추가 마운트 옵션으로 파일 시스템(이미지 또는 블록 장치) 마운트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount --options=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">마운트_옵션</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_장치</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/마운트_포인트</span></p>

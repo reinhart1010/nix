@@ -1,0 +1,52 @@
+<h1 id="pihole">pihole</h1>
+
+<p>Interfaz de terminal para el servidor DNS de bloqueo de anuncios Pi-hole.
+Más información: <a href="https://docs.pi-hole.net/core/pihole-command/">https://docs.pi-hole.net/core/pihole-command/</a>.</p>
+
+<ul>
+  <li>Verifica el estado del daemon de Pi-hole:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pihole status</code></p>
+
+<ul>
+  <li>Actualiza Pi-hole y Gravity:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pihole -up</code></p>
+
+<ul>
+  <li>Monitorea el estado detallado del sistema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pihole chronometer</code></p>
+
+<ul>
+  <li>Inicia o detiene el daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pihole </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enable|disable</span></p>
+
+<ul>
+  <li>Reinicia el daemon (no el servidor en sí):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pihole restartdns</code></p>
+
+<ul>
+  <li>Incluye en lista blanca o negra un dominio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pihole </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">whitelist|blacklist</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo.com</span></p>
+
+<ul>
+  <li>Busca en las listas un dominio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pihole query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo.com</span></p>
+
+<ul>
+  <li>Abre un registro de conexiones en tiempo real:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pihole tail</code></p>

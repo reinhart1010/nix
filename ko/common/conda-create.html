@@ -1,0 +1,22 @@
+<h1 id="conda-create">conda create</h1>
+
+<p>새로운 conda 환경을 생성.
+더 많은 정보: <a href="https://docs.conda.io/projects/conda/en/latest/commands/create.html">https://docs.conda.io/projects/conda/en/latest/commands/create.html</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">py39</code>라는 새로운 환경을 만들고, 여기에 Python 3.9 및 NumPy v1.11 이상을 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda create --yes --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">py39</span><code class="language-plaintext highlighter-rouge"> python=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3.9</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numpy&gt;=1.11</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>환경의 완벽한 복사본 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda create --clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">py39</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">py39-copy</span></p>
+
+<ul>
+  <li>지정된 이름으로 새 환경을 만들고 지정된 패키지를 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">환경_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>

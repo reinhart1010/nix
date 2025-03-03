@@ -1,0 +1,34 @@
+<h1 id="lsusb">lsusb</h1>
+
+<p>Display information about USB buses and devices connected to them.
+More information: <a href="https://manned.org/lsusb">https://manned.org/lsusb</a>.</p>
+
+<ul>
+  <li>List all the USB devices available:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsusb</code></p>
+
+<ul>
+  <li>List the USB hierarchy as a tree:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsusb -t</code></p>
+
+<ul>
+  <li>List verbose information about USB devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsusb --verbose</code></p>
+
+<ul>
+  <li>List detailed information about a USB device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsusb --verbose -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bus</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device number</span></p>
+
+<ul>
+  <li>List devices with a specified vendor and product ID only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsusb -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vendor</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">product</span></p>

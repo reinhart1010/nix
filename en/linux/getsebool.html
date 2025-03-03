@@ -1,0 +1,23 @@
+<h1 id="getsebool">getsebool</h1>
+
+<p>Get SELinux boolean value.
+See also: <code class="language-plaintext highlighter-rouge">semanage-boolean</code>, <code class="language-plaintext highlighter-rouge">setsebool</code>.
+More information: <a href="https://manned.org/getsebool">https://manned.org/getsebool</a>.</p>
+
+<ul>
+  <li>Show the current setting of a boolean:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">getsebool </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpd_can_connect_ftp</span></p>
+
+<ul>
+  <li>Show the current setting of [a]ll booleans:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">getsebool -a</code></p>
+
+<ul>
+  <li>Show the current setting of all booleans with explanations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage boolean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–list</span></p>

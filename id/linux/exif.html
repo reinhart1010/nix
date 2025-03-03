@@ -1,0 +1,34 @@
+<h1 id="exif">exif</h1>
+
+<p>Lihat dan ubah informasi metadata EXIF pada berkas-berkas JPEG.
+Informasi lebih lanjut: <a href="https://github.com/libexif/exif/">https://github.com/libexif/exif/</a>.</p>
+
+<ul>
+  <li>Tampilkan daftar informasi EXIF yang terdapat pada suatu berkas gambar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exif </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/gambar.jpg</span></p>
+
+<ul>
+  <li>Tampilkan daftar jenis tag informasi EXIF dalam format tabel, termasuk apakah tag tersebut terdapat dalam suatu gambar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exif --list-tags --no-fixup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gambar.jpg</span></p>
+
+<ul>
+  <li>Ekstrak gambar pratinjau (thumbnail) dari suatu gambar menuju <code class="language-plaintext highlighter-rouge">thumbnail.jpg</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exif --extract-thumbnail --output=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">thumbnail.jpg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gambar.jpg</span></p>
+
+<ul>
+  <li>Tampilkan isi mentahan terhadap tag metadata "Model" dalam suatu gambar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exif --ifd=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> --tag=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Model</span><code class="language-plaintext highlighter-rouge"> --machine-readable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gambar.jpg</span></p>
+
+<ul>
+  <li>Ganti nilai tag metadata "Artist" menjadi John Smith, dan simpan perubahan menuju berkas baru di <code class="language-plaintext highlighter-rouge">new.jpg</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exif --output=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new.jpg</span><code class="language-plaintext highlighter-rouge"> --ifd=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> --tag="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Artist</span><code class="language-plaintext highlighter-rouge">" --set-value="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">John Smith</span><code class="language-plaintext highlighter-rouge">" --no-fixup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gambar.jpg</span></p>

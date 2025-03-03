@@ -1,0 +1,47 @@
+<h1 id="inkscape">inkscape</h1>
+
+<p>An SVG (Scalable Vector Graphics) editing program.
+For Inkscape versions up to 0.92.x, use -e instead of -o.
+More information: <a href="https://inkscape.org">https://inkscape.org</a>.</p>
+
+<ul>
+  <li>Open an SVG file in the Inkscape GUI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inkscape </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.svg</span></p>
+
+<ul>
+  <li>Export an SVG file into a bitmap with the default format (PNG) and the default resolution (96 DPI):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inkscape </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.svg</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.png</span></p>
+
+<ul>
+  <li>Export an SVG file into a bitmap of 600x400 pixels (aspect ratio distortion may occur):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inkscape </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.svg</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.png</span><code class="language-plaintext highlighter-rouge"> -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">600</span><code class="language-plaintext highlighter-rouge"> -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">400</span></p>
+
+<ul>
+  <li>Export the drawing (bounding box of all objects) of an SVG file into a bitmap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inkscape </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.svg</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.png</span><code class="language-plaintext highlighter-rouge"> -D</code></p>
+
+<ul>
+  <li>Export a single object, given its ID, into a bitmap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inkscape </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.svg</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">object.png</span></p>
+
+<ul>
+  <li>Export an SVG document to PDF, converting all texts to paths:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inkscape </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.svg</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.pdf</span><code class="language-plaintext highlighter-rouge"> --export-text-to-path</code></p>
+
+<ul>
+  <li>Duplicate the object with id="path123", rotate the duplicate 90 degrees, save the file, and quit Inkscape:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inkscape </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.svg</span><code class="language-plaintext highlighter-rouge"> --select=path123 --verb="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">EditDuplicate;ObjectRotate90;FileSave;FileQuit</span><code class="language-plaintext highlighter-rouge">"</code></p>

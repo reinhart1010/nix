@@ -1,0 +1,40 @@
+<h1 id="grub-file">grub-file</h1>
+
+<p>Check if a file is of a bootable image type.
+More information: <a href="https://manned.org/grub-file">https://manned.org/grub-file</a>.</p>
+
+<ul>
+  <li>Check if a file is an ARM EFI image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-file --is-arm-efi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Check if a file is an i386 EFI image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-file --is-i386-efi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Check if a file is an x86_64 EFI image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-file --is-x86_64-efi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Check if a file is an ARM image (Linux kernel):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-file --is-arm-linux </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Check if a file is an x86 image (Linux kernel):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-file --is-x86-linux </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Check if a file is an x86_64 XNU image (macOS kernel):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-file --is-x86_64-xnu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

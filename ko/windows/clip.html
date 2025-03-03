@@ -1,0 +1,28 @@
+<h1 id="clip">clip</h1>
+
+<p>입력 내용을 Windows 클립보드에 복사.
+더 많은 정보: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/clip">https://learn.microsoft.com/windows-server/administration/windows-commands/clip</a>.</p>
+
+<ul>
+  <li>명령줄 출력 결과를 Windows 클립보드로 파이프:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dir</span><code class="language-plaintext highlighter-rouge"> | clip</code></p>
+
+<ul>
+  <li>파일의 내용을 Windows 클립보드에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clip &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\파일.ext</span></p>
+
+<ul>
+  <li>끝에 줄 바꿈이 있는 텍스트를 Windows 클립보드에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">일부 텍스트</span><code class="language-plaintext highlighter-rouge"> | clip</code></p>
+
+<ul>
+  <li>끝에 줄 바꿈이 없는 텍스트를 Windows 클립보드에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo | set /p="some text" | clip</code></p>

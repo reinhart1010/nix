@@ -1,0 +1,22 @@
+<h1 id="rsh">rsh</h1>
+
+<p>Execute commands on a remote host.
+More information: <a href="https://www.gnu.org/software/inetutils/manual/html_node/rsh-invocation.html">https://www.gnu.org/software/inetutils/manual/html_node/rsh-invocation.html</a>.</p>
+
+<ul>
+  <li>Execute a command on a remote host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -l</span></p>
+
+<ul>
+  <li>Execute a command on a remote host with a specific username:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -l</span></p>
+
+<ul>
+  <li>Redirect <code class="language-plaintext highlighter-rouge">stdin</code> to <code class="language-plaintext highlighter-rouge">/dev/null</code> when executing a command on a remote host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge"> --no-err </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -l</span></p>

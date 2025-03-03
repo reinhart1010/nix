@@ -1,0 +1,47 @@
+<h1 id="wpctl">wpctl</h1>
+
+<p>Manage WirePlumber, a session and policy manager for PipeWire.
+Note: you can use the special name <code class="language-plaintext highlighter-rouge">@DEFAULT_SINK@</code> in place of <code class="language-plaintext highlighter-rouge">id</code> to operate on the default sink.
+More information: <a href="https://pipewire.pages.freedesktop.org/wireplumber/">https://pipewire.pages.freedesktop.org/wireplumber/</a>.</p>
+
+<ul>
+  <li>List all objects managed by WirePlumber:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpctl status</code></p>
+
+<ul>
+  <li>Print all properties of an object:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpctl inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span></p>
+
+<ul>
+  <li>Set an object to be the default in its group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpctl set-default </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span></p>
+
+<ul>
+  <li>Get the volume of a sink:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpctl get-volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span></p>
+
+<ul>
+  <li>Set the volume of a sink to <code class="language-plaintext highlighter-rouge">n</code> percent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpctl set-volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge">%</code></p>
+
+<ul>
+  <li>Increase/Decrease the volume of a sink by <code class="language-plaintext highlighter-rouge">n</code> percent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpctl set-volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge">%</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+|-</span></p>
+
+<ul>
+  <li>Mute/Unmute a sink (1 is mute, 0 is unmute):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpctl set-mute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|0|toggle</span></p>

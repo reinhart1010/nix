@@ -1,0 +1,29 @@
+<h1 id="rcp">rcp</h1>
+
+<p>Kopieer bestanden tussen lokale en externe systemen.
+Het imiteert het gedrag van het <code class="language-plaintext highlighter-rouge">cp</code>-commando, maar werkt tussen verschillende machines.
+Meer informatie: <a href="https://www.gnu.org/software/inetutils/manual/html_node/rcp-invocation.html">https://www.gnu.org/software/inetutils/manual/html_node/rcp-invocation.html</a>.</p>
+
+<ul>
+  <li>Kopieer een bestand naar een externe host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rcp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/local_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/pad/naar/bestemming/</span></p>
+
+<ul>
+  <li>Kopieer een directory recursief:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rcp -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/local_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/pad/naar/bestemming/</span></p>
+
+<ul>
+  <li>Behoud de bestandseigenschappen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rcp -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/local_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/pad/naar/bestemming/</span></p>
+
+<ul>
+  <li>Forceer kopiëren zonder bevestiging:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rcp -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/local_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/pad/naar/bestemming/</span></p>

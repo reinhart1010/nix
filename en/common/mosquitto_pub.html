@@ -1,0 +1,40 @@
+<h1 id="mosquitto_pub">mosquitto_pub</h1>
+
+<p>A simple MQTT version 3.1.1 client that will publish a single message on a topic and exit.
+More information: <a href="https://mosquitto.org/man/mosquitto_pub-1.html">https://mosquitto.org/man/mosquitto_pub-1.html</a>.</p>
+
+<ul>
+  <li>Publish a temperature value of 32 on the topic <code class="language-plaintext highlighter-rouge">sensors/temperature</code> to 192.168.1.1 (defaults to <code class="language-plaintext highlighter-rouge">localhost</code>) with Quality of Service (<code class="language-plaintext highlighter-rouge">QoS</code>) set to 1:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosquitto_pub -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.1</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sensors/temperature</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">32</span><code class="language-plaintext highlighter-rouge"> -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Publish timestamp and temperature data on the topic <code class="language-plaintext highlighter-rouge">sensors/temperature</code> to a remote host on a non-standard port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosquitto_pub -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.1</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1885</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sensors/temperature</span><code class="language-plaintext highlighter-rouge"> -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1266193804 32</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Publish light switch status and retain the message on the topic <code class="language-plaintext highlighter-rouge">switches/kitchen_lights/status</code> to a remote host because there may be a long period of time between light switch events:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosquitto_pub -r -h "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">iot.eclipse.org</span><code class="language-plaintext highlighter-rouge">" -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">switches/kitchen_lights/status</span><code class="language-plaintext highlighter-rouge"> -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Send the contents of a file (<code class="language-plaintext highlighter-rouge">data.txt</code>) as a message and publish it to <code class="language-plaintext highlighter-rouge">sensors/temperature</code> topic:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosquitto_pub -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sensors/temperature</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.txt</span></p>
+
+<ul>
+  <li>Send the contents of a file (<code class="language-plaintext highlighter-rouge">data.txt</code>), by reading from <code class="language-plaintext highlighter-rouge">stdin</code> and send the entire input as a message and publish it to <code class="language-plaintext highlighter-rouge">sensors/temperature</code> topic:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosquitto_pub -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sensors/temperature</span><code class="language-plaintext highlighter-rouge"> -s &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.txt</span></p>
+
+<ul>
+  <li>Read newline delimited data from <code class="language-plaintext highlighter-rouge">stdin</code> as a message and publish it to <code class="language-plaintext highlighter-rouge">sensors/temperature</code> topic:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo data.txt</span><code class="language-plaintext highlighter-rouge"> | mosquitto_pub -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sensors/temperature</span><code class="language-plaintext highlighter-rouge"> -l</code></p>

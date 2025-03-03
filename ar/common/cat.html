@@ -1,0 +1,34 @@
+<h1 id="cat">cat</h1>
+
+<p>طباعة وسلسلة الملفات.
+لمزيد من التفاصيل: <a href="https://manned.org/cat.1posix">https://manned.org/cat.1posix</a>.</p>
+
+<ul>
+  <li>طباعة محتوي ملف إلى <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>دمج عدة ملفات في ملف إخراج:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span></p>
+
+<ul>
+  <li>إلحاق عدة ملفات بملف إخراج:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span><code class="language-plaintext highlighter-rouge"> &gt;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span></p>
+
+<ul>
+  <li>نسخ محتويات ملف إلى ملف إخراج دون استخدام الذاكرة المؤقتة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty12</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty13</span></p>
+
+<ul>
+  <li>كتابة <code class="language-plaintext highlighter-rouge">stdin</code> إلى ملف:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat - &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

@@ -1,0 +1,55 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="sed">sed</h1>
+
+<p>スクリプトによるテキスト編集。
+もっと詳しく: <a href="https://manned.org/sed.1posix">https://manned.org/sed.1posix</a>。</p>
+
+<ul>
+  <li>ファイルの各行で正規表現の最初の出現箇所を置換し、その結果を表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">正規表現</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">置き換え後</span><code class="language-plaintext highlighter-rouge">/' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル名</span></p>
+
+<ul>
+  <li>ファイル内の拡張正規表現のすべての出現箇所を置換し、その結果を表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed -r 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">正規表現</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">置き換え後</span><code class="language-plaintext highlighter-rouge">/g' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル名</span></p>
+
+<ul>
+  <li>ファイル内のすべての文字列を置き換え、ファイルを上書きする(すなわち インプレイス):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed -i 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">置き換え前</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">置き換え後</span><code class="language-plaintext highlighter-rouge">/g' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル名}</span></p>
+
+<ul>
+  <li>ラインパターンに一致する行のみを置換:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed '/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ラインパターン</span><code class="language-plaintext highlighter-rouge">/s/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">置き換え前</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">置き換え後</span><code class="language-plaintext highlighter-rouge">/' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル名</span></p>
+
+<ul>
+  <li>ラインパターンに一致する行を削除する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed '/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ラインパターン</span><code class="language-plaintext highlighter-rouge">/d' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル名}</span></p>
+
+<ul>
+  <li>ファイルの最初の 11 行を表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed 11q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル名</span></p>
+
+<ul>
+  <li>複数の検索・置換式をファイルに適用:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed -e 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">置き換え名</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">置き換え後</span><code class="language-plaintext highlighter-rouge">/' -e 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">置き換え前</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">置き換え後</span><code class="language-plaintext highlighter-rouge">/' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル名</span></p>
+
+<ul>
+  <li>区切り文字 <code class="language-plaintext highlighter-rouge">/</code> を、検索や置換のパターンで使われていない他の文字（例：<code class="language-plaintext highlighter-rouge">#</code>）で置き換える:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed 's#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">置き換え前</span><code class="language-plaintext highlighter-rouge">#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">置き換え後</span><code class="language-plaintext highlighter-rouge">#' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル名</span></p>

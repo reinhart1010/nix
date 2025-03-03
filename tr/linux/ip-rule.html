@@ -1,0 +1,52 @@
+<h1 id="ip-rule">ip rule</h1>
+
+<p>IP yönlendirme politikası veri tabanı yönetimi.
+Daha fazla bilgi için: <a href="https://manned.org/ip-rule">https://manned.org/ip-rule</a>.</p>
+
+<ul>
+  <li>Yönlendirme politikasını göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip rule </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">show|list</span></p>
+
+<ul>
+  <li>Paket kaynak adreslerine dayalı yeni bir kural ekle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip rule add from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2/32</span></p>
+
+<ul>
+  <li>Paket hedef adreslerine dayalı yeni bir kural ekle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip rule add to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2/32</span></p>
+
+<ul>
+  <li>Paket kaynak adreslerine dayalı bir kuralı sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip rule delete from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2/32</span></p>
+
+<ul>
+  <li>Paket hedef adreslerine dayalı bir kuralı sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip rule delete to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2/32</span></p>
+
+<ul>
+  <li>Silinen tüm kuralları temizle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip rule flush</code></p>
+
+<ul>
+  <li>Tüm kuralları bir dosyaya kaydet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip rule save &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_kuralları.dat/dosyasının/yolu</span></p>
+
+<ul>
+  <li>Tüm kuralları bir dosyadan geri yükle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip rule restore &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_kuralları.dat/dosyasının/yolu</span></p>

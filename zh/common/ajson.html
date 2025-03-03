@@ -1,0 +1,28 @@
+<h1 id="ajson">ajson</h1>
+
+<p>对 JSON 对象执行 JSONPath 操作。
+更多信息：<a href="https://github.com/spyzhov/ajson">https://github.com/spyzhov/ajson</a>.</p>
+
+<ul>
+  <li>从文件中读取 JSON 并执行指定的 JSONPath 表达式：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ajson '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$..json[?(@.path)]</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.json</span></p>
+
+<ul>
+  <li>从标准输入中读取 JSON 并执行指定的 JSONPath 表达式：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.json</span><code class="language-plaintext highlighter-rouge"> | ajson '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$..json[?(@.path)]</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>从 URL 中获取 JSON 并计算指定的 JSONPath 表达式：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ajson '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">avg($..price)</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/api/</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>读取一些简单的 JSON 并计算一个值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge">' | ajson '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2 * pi * $</span><code class="language-plaintext highlighter-rouge">'</code></p>

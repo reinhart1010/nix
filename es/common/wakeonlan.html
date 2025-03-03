@@ -1,0 +1,28 @@
+<h1 id="wakeonlan">wakeonlan</h1>
+
+<p>Envía paquetes a los PCs habilitados para wake-on-LAN (WOL).
+Más información: <a href="https://github.com/jpoliv/wakeonlan">https://github.com/jpoliv/wakeonlan</a>.</p>
+
+<ul>
+  <li>Envía paquetes a todos los dispositivos de la red local (255.255.255.255) especificando una dirección MAC:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wakeonlan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">01:02:03:04:05:06</span></p>
+
+<ul>
+  <li>Envía paquete a un dispositivo específico a través de una dirección IP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wakeonlan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">01:02:03:04:05:06</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span></p>
+
+<ul>
+  <li>Imprime los comandos, pero no los ejecutes (dry-run):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wakeonlan -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">01:02:03:04:05:06</span></p>
+
+<ul>
+  <li>Ejecuta en modo silencioso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wakeonlan -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">01:02:03:04:05:06</span></p>

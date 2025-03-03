@@ -1,0 +1,35 @@
+<h1 id="input">input</h1>
+
+<p>একটি Android ডিভাইসে ইভেন্ট কোড বা টাচস্ক্রিন অঙ্গভঙ্গি পাঠান।
+এই কমান্ডটি শুধুমাত্র <code class="language-plaintext highlighter-rouge">adb shell</code> এর মাধ্যমে ব্যবহার করা যেতে পারে।
+আরও তথ্য পাবেন: <a href="https://developer.android.com/reference/android/view/KeyEvent.html#constants_1">https://developer.android.com/reference/android/view/KeyEvent.html#constants_1</a>।</p>
+
+<ul>
+  <li>একটি Android ডিভাইসে একটি একক অক্ষরের জন্য একটি ইভেন্ট কোড পাঠান:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input keyevent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ইভেন্ট_কোড</span></p>
+
+<ul>
+  <li>একটি অ্যান্ড্রয়েড ডিভাইসে একটি পাঠ্য পাঠান (<code class="language-plaintext highlighter-rouge">%s</code> স্পেস প্রতিনিধিত্ব করে):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input text "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">স্ট্রিং</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>একটি Android ডিভাইসে একটি একক ট্যাপ পাঠান:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input tap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_অবস্থান</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_অবস্থান</span></p>
+
+<ul>
+  <li>একটি Android ডিভাইসে একটি সোয়াইপ অঙ্গভঙ্গি পাঠান:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input swipe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_শুরু</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_শুরু</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_শেষ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_শেষ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1..অসীম</span></p>
+
+<ul>
+  <li>একটি সোয়াইপ অঙ্গভঙ্গি ব্যবহার করে একটি Android ডিভাইসে একটি দীর্ঘ প্রেস পাঠান:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input swipe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_অবস্থান</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_অবস্থান</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_অবস্থান</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_অবস্থান</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1..অসীম</span></p>

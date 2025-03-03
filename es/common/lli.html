@@ -1,0 +1,28 @@
+<h1 id="lli">lli</h1>
+
+<p>Ejecuta directamente programas desde el código de bits LLVM (bitcode).
+Más información: <a href="https://www.llvm.org/docs/CommandGuide/lli.html">https://www.llvm.org/docs/CommandGuide/lli.html</a>.</p>
+
+<ul>
+  <li>Ejecuta un código de bits o un archivo IR:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lli </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.ll</span></p>
+
+<ul>
+  <li>Ejecuta con argumentos de línea de comandos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lli </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.ll</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">primer_argumento segundo_argumento …</span></p>
+
+<ul>
+  <li>Habilita todas las optimizaciones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lli -O3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.ll</span></p>
+
+<ul>
+  <li>Carga una biblioteca dinámica antes de vincular:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lli --dlopen=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/biblioteca.dll</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.ll</span></p>

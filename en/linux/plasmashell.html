@@ -1,0 +1,28 @@
+<h1 id="plasmashell">plasmashell</h1>
+
+<p>Start and restart Plasma Desktop.
+More information: <a href="https://invent.kde.org/plasma/plasma-desktop">https://invent.kde.org/plasma/plasma-desktop</a>.</p>
+
+<ul>
+  <li>Restart <code class="language-plaintext highlighter-rouge">plasmashell</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl restart --user plasma-plasmashell</code></p>
+
+<ul>
+  <li>Restart <code class="language-plaintext highlighter-rouge">plasmashell</code> without systemd:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plasmashell --replace &amp; disown</code></p>
+
+<ul>
+  <li>Display [h]elp on command-line options:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plasmashell --help</code></p>
+
+<ul>
+  <li>Display help, including Qt options:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plasmashell --help-all</code></p>

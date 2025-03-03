@@ -1,0 +1,41 @@
+<h1 id="alias">alias</h1>
+
+<p>Crea alias – palabras que son reemplazadas por una cadena de comando(s).
+Los alias son temporales en la sesión de shell actual, a no ser que estén definidos en el archivo de configuración de la shell, ej. <code class="language-plaintext highlighter-rouge">~/.bashrc</code>.
+Más información: <a href="https://tldp.org/LDP/abs/html/aliases.html">https://tldp.org/LDP/abs/html/aliases.html</a>.</p>
+
+<ul>
+  <li>Lista todos los aliases:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alias</code></p>
+
+<ul>
+  <li>Crea un alias genérico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge">="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Muestra el comando asociado a un alias:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>
+
+<ul>
+  <li>Elimina un alias (con el comando asociado):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unalias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>
+
+<ul>
+  <li>Convierte <code class="language-plaintext highlighter-rouge">rm</code> en un comando interactivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm</span><code class="language-plaintext highlighter-rouge">="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm -i</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Define <code class="language-plaintext highlighter-rouge">la</code> como un atajo para <code class="language-plaintext highlighter-rouge">ls -a</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">la</span><code class="language-plaintext highlighter-rouge">="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -a</span><code class="language-plaintext highlighter-rouge">"</code></p>

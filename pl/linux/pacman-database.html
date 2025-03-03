@@ -1,0 +1,42 @@
+<h1 id="pacman-database">pacman –database</h1>
+
+<p>Operuj na bazie danych pakietów Arch Linuksa.
+Modyfikuj niektóre atrybuty zainstalowanych pakietów.
+Zobacz także: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Więcej informacji: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Oznacz pakiet jako pośrednio zainstalowany (zależność):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --database --asdeps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_pakietu</span></p>
+
+<ul>
+  <li>Oznacz pakiet jako bezpośrednio zainstalowany:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --database --asexplicit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_pakietu</span></p>
+
+<ul>
+  <li>Sprawdź, czy wszystkie zależności pakietów są zainstalowane:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --database --check</code></p>
+
+<ul>
+  <li>Sprawdź repozytoria, aby zapewnić, że wszystkie podane zależności są dostępne:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --database --check --check</code></p>
+
+<ul>
+  <li>Wyświetlaj tylko komunikaty o błędach:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --database --check --quiet</code></p>
+
+<ul>
+  <li>Wyświetl pomoc:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --database --help</code></p>

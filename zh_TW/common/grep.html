@@ -1,0 +1,52 @@
+<h1 id="grep">grep</h1>
+
+<p>使用正則表達式在文件中查找字符串。
+更多資訊：<a href="https://www.gnu.org/software/grep/manual/grep.html">https://www.gnu.org/software/grep/manual/grep.html</a>.</p>
+
+<ul>
+  <li>在檔案中尋找字符：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/路徑</span></p>
+
+<ul>
+  <li>搜索確切的字符串(禁用正則表達式)：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-F|–fixed-strings</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">精確字符串</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/路徑</span></p>
+
+<ul>
+  <li>在目錄中遞歸搜索模式，顯示匹配行的行號並忽略二進制文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–recursive</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–line-number</span><code class="language-plaintext highlighter-rouge"> --binary-files </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/路徑</span></p>
+
+<ul>
+  <li>使用擴展正則表達式(支持 <code class="language-plaintext highlighter-rouge">?</code>, <code class="language-plaintext highlighter-rouge">+</code>, <code class="language-plaintext highlighter-rouge">{}</code>, <code class="language-plaintext highlighter-rouge">()</code>, 和 <code class="language-plaintext highlighter-rouge">|</code>)，並啟用不區分大小寫的模式：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-E|–extended-regexp</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–ignore-case</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/路徑</span></p>
+
+<ul>
+  <li>打印每次匹配的上下文、之前或之後的 3 行：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span><code class="language-plaintext highlighter-rouge"> 3 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/路徑</span></p>
+
+<ul>
+  <li>打印包含匹配結果的文件名和行號，並啟用彩色輸出：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-H|–with-filename</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–line-number</span><code class="language-plaintext highlighter-rouge"> --color=always "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/路徑</span></p>
+
+<ul>
+  <li>搜索與模式匹配的行，僅打印匹配的文本：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–only-matching</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/路徑</span></p>
+
+<ul>
+  <li>在標準輸入中搜索不匹配模式的行：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/路徑</span><code class="language-plaintext highlighter-rouge"> | grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–invert-match</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符串</span><code class="language-plaintext highlighter-rouge">"</code></p>

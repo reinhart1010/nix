@@ -1,0 +1,46 @@
+<h1 id="transmission-remote">transmission-remote</h1>
+
+<p>Externe besturingshulpprogramma voor <code class="language-plaintext highlighter-rouge">transmission-daemon</code> en <code class="language-plaintext highlighter-rouge">transmission</code>.
+Meer informatie: <a href="https://transmissionbt.com">https://transmissionbt.com</a>.</p>
+
+<ul>
+  <li>Voeg een torrentbestand of magnet-link toe aan Transmission en download naar een opgegeven map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">torrent|url</span><code class="language-plaintext highlighter-rouge"> -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/pad/naar/download_map</span></p>
+
+<ul>
+  <li>Verander de standaard downloadmap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/pad/naar/download_map</span></p>
+
+<ul>
+  <li>Toon alle torrents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> --list</code></p>
+
+<ul>
+  <li>Start torrent 1 en 2, stop torrent 3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> -t "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,2</span><code class="language-plaintext highlighter-rouge">" --start -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> --stop</code></p>
+
+<ul>
+  <li>Verwijder torrent 1 en 2 en verwijder ook alle lokale gegevens voor torrent 2:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> --remove -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> --remove-and-delete</code></p>
+
+<ul>
+  <li>Stop alle torrents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">all</span><code class="language-plaintext highlighter-rouge"> --stop</code></p>
+
+<ul>
+  <li>Verplaats torrents 1-10 en 15-20 naar een nieuwe map (die wordt aangemaakt als deze nog niet bestaat):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> -t "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-10,15-20</span><code class="language-plaintext highlighter-rouge">" --move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/pad/naar/nieuwe_map</span></p>

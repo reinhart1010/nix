@@ -1,0 +1,41 @@
+<h1 id="bc">bc</h1>
+
+<p>Un lenguaje de calculadora de precisión arbitraria.
+Vea también: <code class="language-plaintext highlighter-rouge">dc</code>.
+Más información: <a href="https://keith.github.io/xcode-man-pages/bc.1.html">https://keith.github.io/xcode-man-pages/bc.1.html</a>.</p>
+
+<ul>
+  <li>Inicia una sesión interactiva:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc</code></p>
+
+<ul>
+  <li>Inicia una sesión interactiva con la biblioteca mathlib estándar activada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc --mathlib</code></p>
+
+<ul>
+  <li>Calcula una expresión:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc --expression='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Ejecuta un script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/script.bc</span></p>
+
+<ul>
+  <li>Calcula una expresión con la escala especificada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc --expression='scale = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge">; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Calcula una función seno/coseno/arctangente/logaritmo natural/exponencial utilizando <code class="language-plaintext highlighter-rouge">mathlib</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc --mathlib --expression='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s|c|a|l|e</span><code class="language-plaintext highlighter-rouge">(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge">)'</code></p>

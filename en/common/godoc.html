@@ -1,0 +1,34 @@
+<h1 id="godoc">godoc</h1>
+
+<p>View documentation for go packages.
+More information: <a href="https://godoc.org/">https://godoc.org/</a>.</p>
+
+<ul>
+  <li>Display help for a specific package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">godoc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fmt</span></p>
+
+<ul>
+  <li>Display help for the function "Printf" of "fmt" package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">godoc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fmt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Printf</span></p>
+
+<ul>
+  <li>Serve documentation as a web server on port 6060:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">godoc -http=:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">6060</span></p>
+
+<ul>
+  <li>Create an index file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">godoc -write_index -index_files=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Use the given index file to search the docs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">godoc -http=:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">6060</span><code class="language-plaintext highlighter-rouge"> -index -index_files=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

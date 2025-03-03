@@ -1,0 +1,28 @@
+<h1 id="chflags">chflags</h1>
+
+<p>파일 또는 디렉토리 플래그 변경.
+더 많은 정보: <a href="https://keith.github.io/xcode-man-pages/chflags.1.html">https://keith.github.io/xcode-man-pages/chflags.1.html</a>.</p>
+
+<ul>
+  <li>파일에 <code class="language-plaintext highlighter-rouge">hidden</code> 플래그 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chflags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hidden</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일에서 <code class="language-plaintext highlighter-rouge">hidden</code> 플래그 해제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chflags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nohidden</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>디렉토리에 대해 <code class="language-plaintext highlighter-rouge">uchg</code> 플래그를 재귀적으로 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chflags -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uchg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>디렉토리에 대해 <code class="language-plaintext highlighter-rouge">uchg</code> 플래그를 재귀적으로 해제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chflags -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nouchg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>

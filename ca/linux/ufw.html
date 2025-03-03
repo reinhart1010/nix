@@ -1,0 +1,53 @@
+<h1 id="ufw">ufw</h1>
+
+<p>Tallafocs sense complicacions (<em>Uncomplicated Firewall</em>).
+Interfície d'usuari de <code class="language-plaintext highlighter-rouge">iptables</code> per facilitar la configuració d'un firewall.
+Més informació: <a href="https://wiki.ubuntu.com/UncomplicatedFirewall">https://wiki.ubuntu.com/UncomplicatedFirewall</a>.</p>
+
+<ul>
+  <li>Activa ufw:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw enable</code></p>
+
+<ul>
+  <li>Desactiva ufw:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw disable</code></p>
+
+<ul>
+  <li>Mostra les regles del ufw, en conjunt amb els seus números:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw status numbered</code></p>
+
+<ul>
+  <li>Permet el tràfic entrant en el port 5432 en aquest host amb un comentari que indentifiqui el servei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw allow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5432</span><code class="language-plaintext highlighter-rouge"> comment "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servei</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Permet només el tràfic TCP desde 192.168.0.4 a qualsevol direcció d'aquest host, en el port 22:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw allow proto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp</span><code class="language-plaintext highlighter-rouge"> from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.4</span><code class="language-plaintext highlighter-rouge"> to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span><code class="language-plaintext highlighter-rouge"> port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22</span></p>
+
+<ul>
+  <li>Denega el tràfic en el port 80 en aquest host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw deny </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span></p>
+
+<ul>
+  <li>Denega tot el tràfic al port 22:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw deny proto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">udp</span><code class="language-plaintext highlighter-rouge"> from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span><code class="language-plaintext highlighter-rouge"> to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span><code class="language-plaintext highlighter-rouge"> port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22</span></p>
+
+<ul>
+  <li>Elimina una regla concreta. El número de la regla es pot obtenir del comanadament <code class="language-plaintext highlighter-rouge">ufw status numbered</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_de_regla</span></p>

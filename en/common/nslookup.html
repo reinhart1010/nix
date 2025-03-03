@@ -1,0 +1,46 @@
+<h1 id="nslookup">nslookup</h1>
+
+<p>Query name servers for various domain records.
+More information: <a href="https://manned.org/nslookup">https://manned.org/nslookup</a>.</p>
+
+<ul>
+  <li>Query your system's default name server for an IP address (A record) of the domain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nslookup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Query a given name server for a NS record of the domain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nslookup -type=NS </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span></p>
+
+<ul>
+  <li>Query for a reverse lookup (PTR record) of an IP address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nslookup -type=PTR </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">54.240.162.118</span></p>
+
+<ul>
+  <li>Query for ANY available records using TCP protocol:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nslookup -vc -type=ANY </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Query a given name server for the whole zone file (zone transfer) of the domain using TCP protocol:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nslookup -vc -type=AXFR </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name_server</span></p>
+
+<ul>
+  <li>Query for a mail server (MX record) of the domain, showing details of the transaction:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nslookup -type=MX -debug </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Query a given name server on a specific port number for a TXT record of the domain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nslookup -port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_number</span><code class="language-plaintext highlighter-rouge"> -type=TXT </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name_server</span></p>

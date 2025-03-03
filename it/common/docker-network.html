@@ -1,0 +1,46 @@
+<h1 id="docker-network">docker network</h1>
+
+<p>Crea e gestisci reti docker.
+Maggiori informazioni: <a href="https://docs.docker.com/reference/cli/docker/network/">https://docs.docker.com/reference/cli/docker/network/</a>.</p>
+
+<ul>
+  <li>Elenca le reti disponibili configurate sul Docker daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network ls</code></p>
+
+<ul>
+  <li>Crea una rete definita da un utente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network create --driver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_del_driver</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_rete</span></p>
+
+<ul>
+  <li>Mostra informazioni dettagliate su una lista di reti (separata da spazi):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_rete_1 nome_rete_2</span></p>
+
+<ul>
+  <li>Connetti un container ad una rete usando il suo nome o ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network connect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_rete</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container|ID</span></p>
+
+<ul>
+  <li>Disconnetti un container da una rete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network disconnect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_rete</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container|ID</span></p>
+
+<ul>
+  <li>Elimina le reti inutilizzate (non referenziate da alcun container):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network prune</code></p>
+
+<ul>
+  <li>Elimina una lista di reti (separata da spazi) inutilizzate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_rete_1 nome_rete_2</span></p>

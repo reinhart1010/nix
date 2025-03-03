@@ -1,0 +1,11 @@
+<h1 id="virsh-pool-define-as">virsh pool-define-as</h1>
+
+<p>제공된 인수를 사용하여 영구 가상 머신 스토리지 풀에 대한 <code class="language-plaintext highlighter-rouge">/etc/libvirt/storage</code>에 구성 파일을 생성합니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">virsh</code>, <code class="language-plaintext highlighter-rouge">virsh-pool-build</code>, <code class="language-plaintext highlighter-rouge">virsh-pool-start</code>.
+더 많은 정보: <a href="https://manned.org/virsh">https://manned.org/virsh</a>.</p>
+
+<ul>
+  <li>기본 스토리지 시스템으로 <code class="language-plaintext highlighter-rouge">/var/vms</code>를 사용하여 pool_name이라는 스토리지 풀에 대한 구성 파일을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh pool-define-as --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">풀_이름</span><code class="language-plaintext highlighter-rouge"> --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dir</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/var/vms</span></p>

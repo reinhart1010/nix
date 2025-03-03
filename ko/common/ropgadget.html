@@ -1,0 +1,34 @@
+<h1 id="ropgadget">ROPgadget</h1>
+
+<p>바이너리 파일에서 ROP 가젯을 찾습니다.
+더 많은 정보: <a href="https://github.com/JonathanSalwan/ROPgadget">https://github.com/JonathanSalwan/ROPgadget</a>.</p>
+
+<ul>
+  <li>바이너리 파일에서 가젯 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ROPgadget --binary </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/바이너리</span></p>
+
+<ul>
+  <li>정규 표현식으로 바이너리 파일의 가젯 필터링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ROPgadget --binary </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/바이너리</span><code class="language-plaintext highlighter-rouge"> --re </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">정규표현식</span></p>
+
+<ul>
+  <li>지정된 유형을 제외한 바이너리 파일의 가젯 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ROPgadget --binary </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/바이너리</span><code class="language-plaintext highlighter-rouge"> --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">norop|nojob|nosys</span></p>
+
+<ul>
+  <li>바이너리 파일에서 잘못된 바이트 가젯 제외:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ROPgadget --binary </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/바이너리</span><code class="language-plaintext highlighter-rouge"> --badbytes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">바이트_문자열</span></p>
+
+<ul>
+  <li>지정된 바이트 수까지의 바이너리 파일 가젯 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ROPgadget --binary </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/바이너리</span><code class="language-plaintext highlighter-rouge"> --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">바이트_수</span></p>

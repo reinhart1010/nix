@@ -1,0 +1,22 @@
+<h1 id="indent">indent</h1>
+
+<p>Wijzig het uiterlijk van een C/C++-programma door spaties in te voegen of te verwijderen.
+Meer informatie: <a href="https://www.gnu.org/software/indent/">https://www.gnu.org/software/indent/</a>.</p>
+
+<ul>
+  <li>Formatteer C/C++-broncode volgens de Linux style guide, maak automatisch een back-up van de originele bestanden en vervang deze door de ingesprongen versies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">indent --linux-style </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron.c</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/andere_bron.c</span></p>
+
+<ul>
+  <li>Formatteer C/C++-broncode volgens de GNU-stijl en sla de ingesprongen versie op in een ander bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">indent --gnu-style </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron.c</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/indented_source.c</span></p>
+
+<ul>
+  <li>Formatteer C/C++-broncode volgens de stijl van Kernighan &amp; Ritchie (K&amp;R), geen tabs, 3 spaties per inspringing en breek regels af op 120 tekens:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">indent --k-and-r-style --indent-level3 --no-tabs --line-length120 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron.c</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/indented_source.c</span></p>

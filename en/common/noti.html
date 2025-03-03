@@ -1,0 +1,22 @@
+<h1 id="noti">noti</h1>
+
+<p>Monitor a process and trigger a banner notification.
+More information: <a href="https://github.com/variadico/noti">https://github.com/variadico/noti</a>.</p>
+
+<ul>
+  <li>Display a notification when tar finishes compressing files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">noti </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tar -cjf example.tar.bz2 example/</span></p>
+
+<ul>
+  <li>Display a notification even when you put it after the command to watch:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_to_watch</span><code class="language-plaintext highlighter-rouge">; noti</code></p>
+
+<ul>
+  <li>Monitor a process by PID and trigger a notification when the PID disappears:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">noti -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_id</span></p>

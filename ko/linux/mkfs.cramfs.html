@@ -1,0 +1,16 @@
+<h1 id="mkfscramfs">mkfs.cramfs</h1>
+
+<p>파티션 내에 ROM 파일 시스템 생성.
+더 많은 정보: <a href="https://manned.org/mkfs.cramfs">https://manned.org/mkfs.cramfs</a>.</p>
+
+<ul>
+  <li>장치 b의 파티션 1 (<code class="language-plaintext highlighter-rouge">sdb1</code>) 에 ROM 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.cramfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>볼륨 이름을 지정하여 ROM 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.cramfs -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">볼륨_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>

@@ -1,0 +1,22 @@
+<h1 id="pkg-config">pkg-config</h1>
+
+<p>Provide the details of installed libraries for compiling applications.
+More information: <a href="https://www.freedesktop.org/wiki/Software/pkg-config/">https://www.freedesktop.org/wiki/Software/pkg-config/</a>.</p>
+
+<ul>
+  <li>Get the list of libraries and their dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkg-config --libs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">library1 library2 …</span></p>
+
+<ul>
+  <li>Get the list of libraries, their dependencies, and proper cflags for gcc:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkg-config --cflags --libs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">library1 library2 …</span></p>
+
+<ul>
+  <li>Compile your code with libgtk-3, libwebkit2gtk-4.0 and all their dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">c++ example.cpp $(pkg-config --cflags --libs gtk+-3.0 webkit2gtk-4.0) -o example</code></p>

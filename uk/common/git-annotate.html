@@ -1,0 +1,24 @@
+<h1 id="git-annotate">git annotate</h1>
+
+<p>Показує хеш коміту і останнього автора на кожному рядку у файлі.
+Дивіться <code class="language-plaintext highlighter-rouge">git blame</code>, якій варто віддати перевагу над <code class="language-plaintext highlighter-rouge">git annotate</code>.
+<code class="language-plaintext highlighter-rouge">git annotate</code> призначена для тих, хто знайомий із іншими системами контролю версій.
+Більше інформації: <a href="https://git-scm.com/docs/git-annotate">https://git-scm.com/docs/git-annotate</a>.</p>
+
+<ul>
+  <li>Виводить файл з ім'ям автора та хешем коміту доданими поперед кожного рядку:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annotate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span></p>
+
+<ul>
+  <li>Виводить файл з електронною поштою автора та хешем коміту доданими поперед кожного рядку:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annotate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|–show-email</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span></p>
+
+<ul>
+  <li>Виводить лише рядки, які відповідають регулярному виразу:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annotate -L :</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">регулярний_вираз</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span></p>

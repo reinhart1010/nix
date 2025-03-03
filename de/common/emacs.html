@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="emacs">emacs</h1>
+
+<p>Der erweiterbare, veränderbare und selbst-dokumentierende Echtzeit Text Editor.
+Siehe auch <code class="language-plaintext highlighter-rouge">emacsclient</code>.
+Weitere Informationen: <a href="https://www.gnu.org/software/emacs">https://www.gnu.org/software/emacs</a>.</p>
+
+<ul>
+  <li>Öffne eine Datei in Emacs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Öffne eine Datei in einer bestimmten Zeile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacs +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zeilennummer</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Starte Emacs in der Konsole (ohne X-Fenster):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacs --no-window-system</code></p>
+
+<ul>
+  <li>Starte einen Emacs-Server im Hintergrund (aufrufbar mit <code class="language-plaintext highlighter-rouge">emacsclient</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacs --daemon</code></p>
+
+<ul>
+  <li>Beende einen laufenden Emacs-Server und alle Instanzen und frage nach Bestätigung für ungespeicherte Dateien:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --eval '(save-buffers-kill-emacs)'</code></p>
+
+<ul>
+  <li>Tastenkombination zum Speichern einer Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt; + X, &lt;Ctrl&gt; + S</code></p>
+
+<ul>
+  <li>Tastenkombination zum Beenden von Emacs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt; + X, &lt;Ctrl&gt; + C</code></p>

@@ -1,0 +1,53 @@
+<h1 id="lsof">lsof</h1>
+
+<p>列出打开的文件和相应的进程。
+注意：列出其他人打开的文件需要 root 权限（或 sudo）。
+更多信息：<a href="https://manned.org/lsof">https://manned.org/lsof</a>.</p>
+
+<ul>
+  <li>查找打开了给定文件的进程：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsof </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>查找打开了本地互联网端口的进程：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsof -i :</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">端口</span></p>
+
+<ul>
+  <li>仅输出进程 ID (PID)：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsof -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>列出给定用户打开的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsof -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span></p>
+
+<ul>
+  <li>列出给定命令或进程打开的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsof -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">进程或命令的名称</span></p>
+
+<ul>
+  <li>列出特定进程打开的文件（给定其 PID）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsof -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>
+
+<ul>
+  <li>列出目录中打开的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsof +D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span></p>
+
+<ul>
+  <li>查找正在监听本地 IPv6 TCP 端口的进程，不转换网络或端口号：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsof -i6TCP:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">端口</span><code class="language-plaintext highlighter-rouge"> -sTCP:LISTEN -n -P</code></p>

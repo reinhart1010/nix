@@ -1,0 +1,40 @@
+<h1 id="stegsnow">stegsnow</h1>
+
+<p>Steganography tool for concealing and extracting messages in text files encoded as tabs and spaces.
+More information: <a href="https://darkside.com.au/snow/manual.html">https://darkside.com.au/snow/manual.html</a>.</p>
+
+<ul>
+  <li>Extract [m]essage from file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stegsnow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>
+
+<ul>
+  <li>Extract [C]ompressed and [p]assword protected [m]essage from file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stegsnow -C -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>
+
+<ul>
+  <li>Determine approximate [S]torage capacity with line [l]ength less than 72 for file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stegsnow -S -l 72 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>
+
+<ul>
+  <li>Conceal [m]essage in text from file and save to result:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stegsnow -m '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/result.txt</span></p>
+
+<ul>
+  <li>Conceal message [f]ile content [C]ompressed in text from file and save to result:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stegsnow -C -f '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/message.txt</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/result.txt</span></p>
+
+<ul>
+  <li>Conceal [m]essage [C]ompressed and [p]assword protected in text from file and save to result:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stegsnow -C -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> -m '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/result.txt</span></p>

@@ -1,0 +1,35 @@
+<h1 id="semanage-fcontext">semanage fcontext</h1>
+
+<p>Manage persistent SELinux security context rules on files/directories.
+See also: <code class="language-plaintext highlighter-rouge">semanage</code>, <code class="language-plaintext highlighter-rouge">matchpathcon</code>, <code class="language-plaintext highlighter-rouge">secon</code>, <code class="language-plaintext highlighter-rouge">chcon</code>, <code class="language-plaintext highlighter-rouge">restorecon</code>.
+More information: <a href="https://manned.org/semanage-fcontext">https://manned.org/semanage-fcontext</a>.</p>
+
+<ul>
+  <li>List all file labelling rules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage fcontext --list</code></p>
+
+<ul>
+  <li>List all user-defined file labelling rules without headings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage fcontext --list --locallist --noheading</code></p>
+
+<ul>
+  <li>Add a user-defined rule that labels any path which matches a PCRE regex:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage fcontext --add --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">samba_share_t</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'/mnt/share(/.*)?'</span></p>
+
+<ul>
+  <li>Delete a user-defined rule using its PCRE regex:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage fcontext --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'/mnt/share(/.*)?'</span></p>
+
+<ul>
+  <li>Relabel a directory recursively by applying the new rules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">restorecon -R -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

@@ -1,0 +1,35 @@
+<h1 id="gprof">gprof</h1>
+
+<p>Performance analysis tool for many programming languages.
+It profiles the function executions of a program.
+More information: <a href="https://ftp.gnu.org/old-gnu/Manuals/gprof-2.9.1/html_mono/gprof.html">https://ftp.gnu.org/old-gnu/Manuals/gprof-2.9.1/html_mono/gprof.html</a>.</p>
+
+<ul>
+  <li>Compile binary to default <code class="language-plaintext highlighter-rouge">a.out</code> with gprof information and run it to get <code class="language-plaintext highlighter-rouge">gmon.out</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc -pg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program.c</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; ./a.out</code></p>
+
+<ul>
+  <li>Run gprof on default <code class="language-plaintext highlighter-rouge">a.out</code> and <code class="language-plaintext highlighter-rouge">gmon.out</code> to obtain profile output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gprof</code></p>
+
+<ul>
+  <li>Run gprof on a named binary:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gprof </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/gmon.out</span></p>
+
+<ul>
+  <li>Suppress profile field's description:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gprof -b</code></p>
+
+<ul>
+  <li>Display routines that have zero usage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gprof -bz</code></p>

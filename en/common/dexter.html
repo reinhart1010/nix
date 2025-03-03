@@ -1,0 +1,16 @@
+<h1 id="dexter">dexter</h1>
+
+<p>Authenticate the <code class="language-plaintext highlighter-rouge">kubectl</code> users with OpenId Connect.
+More information: <a href="https://github.com/gini/dexter">https://github.com/gini/dexter</a>.</p>
+
+<ul>
+  <li>Create and authenticate a user with Google OIDC:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dexter auth -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">client_id</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">client_secret</span></p>
+
+<ul>
+  <li>Override the default kube configuration file location:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dexter auth -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">client_id</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">client_secret</span><code class="language-plaintext highlighter-rouge"> --kube-config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sample/config</span></p>

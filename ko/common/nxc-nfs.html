@@ -1,0 +1,34 @@
+<h1 id="nxc-nfs">nxc nfs</h1>
+
+<p>NFS 서버에 대한 펜테스트 및 익스플로잇 도구. 현재는 익명 모드만 지원.
+더 많은 정보: <a href="https://www.netexec.wiki/nfs-protocol">https://www.netexec.wiki/nfs-protocol</a>.</p>
+
+<ul>
+  <li>원격 NFS 서버의 버전 감지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc nfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.0/24</span></p>
+
+<ul>
+  <li>사용 가능한 NFS 공유 목록 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc nfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> --shares</code></p>
+
+<ul>
+  <li>노출된 공유를 지정된 깊이까지 재귀적으로 열거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc nfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> --enum-shares </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>지정된 원격 파일 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc nfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> --get-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/원격_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/로컬_파일</span></p>
+
+<ul>
+  <li>지정된 로컬 파일을 원격 공유에 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc nfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> --put-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/로컬_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/원격_파일</span></p>

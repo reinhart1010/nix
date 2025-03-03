@@ -1,0 +1,28 @@
+<h1 id="chflags">chflags</h1>
+
+<p>Altera flags de arquivo ou diretório.
+Mais informações: <a href="https://keith.github.io/xcode-man-pages/chflags.1.html">https://keith.github.io/xcode-man-pages/chflags.1.html</a>.</p>
+
+<ul>
+  <li>Define a flag <code class="language-plaintext highlighter-rouge">hidden</code> para um arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chflags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hidden</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Remove a flag <code class="language-plaintext highlighter-rouge">hidden</code> de um arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chflags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nohidden</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Define recursivamente a flag <code class="language-plaintext highlighter-rouge">uchg</code> para um diretório:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chflags -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uchg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Remove recursivamente a flag <code class="language-plaintext highlighter-rouge">uchg</code> de um diretório:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chflags -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nouchg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>

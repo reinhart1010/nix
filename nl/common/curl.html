@@ -1,0 +1,53 @@
+<h1 id="curl">curl</h1>
+
+<p>Zet gegevens over van of naar een server.
+Ondersteunt de meeste protocollen, waaronder HTTP, HTTPS, FTP, SCP, enz.
+Meer informatie: <a href="https://curl.se/docs/manpage.html">https://curl.se/docs/manpage.html</a>.</p>
+
+<ul>
+  <li>Maak een HTTP GET-verzoek en dump de inhoud naar <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Maak een HTTP GET-verzoek, vo[L]g eventuele <code class="language-plaintext highlighter-rouge">3xx</code> redirects, en [D]ump de antwoordheaders en inhoud naar <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --location --dump-header - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Download een bestand en sla de [U]itvoer op onder de bestandsnaam zoals aangegeven door de URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --remote-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/filename.zip</span></p>
+
+<ul>
+  <li>Stuur form-encoded [g]egevens (POST-verzoek van het type <code class="language-plaintext highlighter-rouge">application/x-www-form-urlencoded</code>). Gebruik <code class="language-plaintext highlighter-rouge">--data @file_name</code> of <code class="language-plaintext highlighter-rouge">--data @'-'</code> om van <code class="language-plaintext highlighter-rouge">stdin</code> te lezen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl -X POST --data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'name=bob'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/form</span></p>
+
+<ul>
+  <li>Stuur een verzoek met een extra header, met behulp van een aangepaste HTTP-methode en via een pro[x]y (zoals BurpSuite), waarbij onveilige zelfondertekende certificaten worden genegeerd:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl -k --proxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://127.0.0.1:8080</span><code class="language-plaintext highlighter-rouge"> --header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'Authorization: Bearer token'</span><code class="language-plaintext highlighter-rouge"> --request </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET|PUT|POST|DELETE|PATCH|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Verstuur gegevens in JSON-formaat, met de juiste Content-Type [H]eader:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{"name":"bob"}'</span><code class="language-plaintext highlighter-rouge"> --header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'Content-Type: application/json'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/users/1234</span></p>
+
+<ul>
+  <li>Verstrek een clientcertificaat en sleutel voor een bron, en sla de certificaatvalidatie over:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --cert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">client.pem</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key.pem</span><code class="language-plaintext highlighter-rouge"> --insecure </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Los een hostnaam op naar een aangepast IP-adres, met [v]erbose uitvoer (vergelijkbaar met het bewerken van het <code class="language-plaintext highlighter-rouge">/etc/hosts</code>-bestand voor aangepaste DNS-resolutie):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --verbose --resolve </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span></p>

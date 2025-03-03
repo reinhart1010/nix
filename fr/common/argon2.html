@@ -1,0 +1,28 @@
+<h1 id="argon2">argon2</h1>
+
+<p>Calcule les hachés cryptographiques d'Argon2.
+Plus d'informations : <a href="https://github.com/P-H-C/phc-winner-argon2#command-line-utility">https://github.com/P-H-C/phc-winner-argon2#command-line-utility</a>.</p>
+
+<ul>
+  <li>Calcule un haché avec un mot de passe et un sel avec les paramètres par défaut :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mot_de_passe</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sel</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Calcule un haché avec l'algorithme spécifié :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mot_de_passe</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sel</span><code class="language-plaintext highlighter-rouge">" -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">d|i|id</span></p>
+
+<ul>
+  <li>Affiche le haché de sortie sans informations supplémentaires :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mot_de_passe</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sel</span><code class="language-plaintext highlighter-rouge">" -e</code></p>
+
+<ul>
+  <li>Calcule un haché avec des [t]emps d'itération, l'utilisation de la [m]émoire et des paramètres de [p]arallélisme donnés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mot_de_passe</span><code class="language-plaintext highlighter-rouge">" | argon2 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sel</span><code class="language-plaintext highlighter-rouge">" -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7</span></p>

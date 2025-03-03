@@ -1,0 +1,52 @@
+<h1 id="zpool">zpool</h1>
+
+<p>Manage ZFS pools.
+More information: <a href="https://manned.org/zpool">https://manned.org/zpool</a>.</p>
+
+<ul>
+  <li>Show the configuration and status of all ZFS zpools:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zpool status</code></p>
+
+<ul>
+  <li>Check a ZFS pool for errors (verifies the checksum of EVERY block). Very CPU and disk intensive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zpool scrub </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pool_name</span></p>
+
+<ul>
+  <li>List zpools available for import:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zpool import</code></p>
+
+<ul>
+  <li>Import a zpool:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zpool import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pool_name</span></p>
+
+<ul>
+  <li>Export a zpool (unmount all filesystems):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zpool export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pool_name</span></p>
+
+<ul>
+  <li>Show the history of all pool operations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zpool history </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pool_name</span></p>
+
+<ul>
+  <li>Create a mirrored pool:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zpool create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pool_name</span><code class="language-plaintext highlighter-rouge"> mirror </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">disk1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">disk2</span><code class="language-plaintext highlighter-rouge"> mirror </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">disk3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">disk4</span></p>
+
+<ul>
+  <li>Add a cache (L2ARC) device to a zpool:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zpool add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pool_name</span><code class="language-plaintext highlighter-rouge"> cache </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cache_disk</span></p>

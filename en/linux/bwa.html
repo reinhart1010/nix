@@ -1,0 +1,35 @@
+<h1 id="bwa">bwa</h1>
+
+<p>Burrows-Wheeler Alignment tool.
+Short, low-divergent DNA sequences mapper against a large reference genome, such as the human genome.
+More information: <a href="https://github.com/lh3/bwa">https://github.com/lh3/bwa</a>.</p>
+
+<ul>
+  <li>Index the reference genome:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bwa index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/reference.fa</span></p>
+
+<ul>
+  <li>Map single-end reads (sequences) to indexed genome using 32 [t]hreads and compress the result to save space:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bwa mem -t 32 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/reference.fa</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/read_single_end.fq.gz</span><code class="language-plaintext highlighter-rouge"> | gzip &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/alignment_single_end.sam.gz</span></p>
+
+<ul>
+  <li>Map pair-end reads (sequences) to the indexed genome using 32 [t]hreads and compress the result to save space:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bwa mem -t 32 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/reference.fa</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/read_pair_end_1.fq.gz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/read_pair_end_2.fq.gz</span><code class="language-plaintext highlighter-rouge"> | gzip &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/alignment_pair_end.sam.gz</span></p>
+
+<ul>
+  <li>Map pair-end reads (sequences) to the indexed genome using 32 [t]hreads with [M]arking shorter split hits as secondary for output SAM file compatibility in Picard software and compress the result:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bwa mem -M -t 32 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/reference.fa</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/read_pair_end_1.fq.gz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/read_pair_end_2.fq.gz</span><code class="language-plaintext highlighter-rouge"> | gzip &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/alignment_pair_end.sam.gz</span></p>
+
+<ul>
+  <li>Map pair-end reads (sequences) to indexed genome using 32 [t]hreads with FASTA/Q [C]omments (e.g. BC:Z:CGTAC) appending to a compressed result:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bwa mem -C -t 32 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/reference.fa</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/read_pair_end_1.fq.gz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/read_pair_end_2.fq.gz</span><code class="language-plaintext highlighter-rouge"> | gzip &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/alignment_pair_end.sam.gz</span></p>

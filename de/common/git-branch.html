@@ -1,0 +1,52 @@
+<h1 id="git-branch">git branch</h1>
+
+<p>Verwalte und Arbeite mit Git Branches.
+Weitere Informationen: <a href="https://git-scm.com/docs/git-branch">https://git-scm.com/docs/git-branch</a>.</p>
+
+<ul>
+  <li>Liste alle Branches auf (Lokal und Remote). Der momentan aktive (ausgecheckte) Branch wird mit <code class="language-plaintext highlighter-rouge">*</code> markiert:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch --all</code></p>
+
+<ul>
+  <li>Liste alle Branches auf, welche einen spezifischen Git-Commit in ihrer Historie enthalten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch --all --contains </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_hash</span></p>
+
+<ul>
+  <li>Zeige den Namen des aktuellen Branches:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch --show-current</code></p>
+
+<ul>
+  <li>Erstelle einen neuen Branch auf Basis des letzten Commits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Erstelle einen neuen Branch auf Basis eines bestimmten Commits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_hash</span></p>
+
+<ul>
+  <li>Benenne einen Branches um (der Branch muss nicht ausgecheckt sein):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–move</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alter_branch_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">neuer_branch_name</span></p>
+
+<ul>
+  <li>Lösche einen lokalen Branch (der Branch muss nicht ausgecheckt sein):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–delete</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Lösche einen remote-Branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge"> --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_branch_name</span></p>

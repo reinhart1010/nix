@@ -1,0 +1,52 @@
+<h1 id="systemd-firstboot">systemd-firstboot</h1>
+
+<p>Initialize basic system settings on or before the first boot-up of a system.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/systemd-firstboot.html">https://www.freedesktop.org/software/systemd/man/systemd-firstboot.html</a>.</p>
+
+<ul>
+  <li>Operate on the specified directory instead of the root directory of the host system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo systemd-firstboot --root=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/root_directory</span></p>
+
+<ul>
+  <li>Set the system keyboard layout:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo systemd-firstboot --keymap=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keymap</span></p>
+
+<ul>
+  <li>Set the system hostname:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo systemd-firstboot --hostname=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span></p>
+
+<ul>
+  <li>Set the root user's password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo systemd-firstboot --root-password=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Prompt the user interactively for a specific basic setting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo systemd-firstboot --prompt=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">setting</span></p>
+
+<ul>
+  <li>Force writing configuration even if the relevant files already exist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo systemd-firstboot --force</code></p>
+
+<ul>
+  <li>Remove all existing files that are configured by <code class="language-plaintext highlighter-rouge">systemd-firstboot</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo systemd-firstboot --reset</code></p>
+
+<ul>
+  <li>Remove the password of the system's root user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo systemd-firstboot --delete-root-password</code></p>

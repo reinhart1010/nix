@@ -1,0 +1,41 @@
+<h1 id="kinit">kinit</h1>
+
+<p>Kerberos 서버와 주체를 인증하여 티켓을 얻고 캐시.
+참고: Kerberos 주체는 사용자, 서비스 또는 애플리케이션일 수 있습니다.
+더 많은 정보: <a href="https://web.mit.edu/kerberos/krb5-1.12/doc/user/user_commands/kinit.html">https://web.mit.edu/kerberos/krb5-1.12/doc/user/user_commands/kinit.html</a>.</p>
+
+<ul>
+  <li>사용자를 인증하고 티켓 발급 티켓 획득:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kinit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>티켓 발급 티켓 갱신:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kinit -R</code></p>
+
+<ul>
+  <li>티켓의 유효 기간 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kinit -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5시간</span></p>
+
+<ul>
+  <li>티켓의 총 갱신 가능 기간 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kinit -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1주</span></p>
+
+<ul>
+  <li>다른 주체 이름으로 인증 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kinit -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주체@REALM</span></p>
+
+<ul>
+  <li>다른 키탭 파일로 인증 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kinit -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/keytab</span></p>

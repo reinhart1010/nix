@@ -1,0 +1,53 @@
+<h1 id="pacman-query">pacman –query</h1>
+
+<p>Arch Linux package manager utility.
+See also: <code class="language-plaintext highlighter-rouge">pacman</code>.
+More information: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>[Q]uery the local package database and list installed packages and versions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Q</code></p>
+
+<ul>
+  <li>List only packages and versions that were [e]xplicitly installed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qe</code></p>
+
+<ul>
+  <li>Find which package [o]wns a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Display information about an [i]nstalled package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Display the [l]ist of files owned by a specific package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Ql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>List orphan packages (installed as [d]ependencies but unrequired ([t]) by any package and print in [q]uiet mode (only package name is displayed)):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qdtq</code></p>
+
+<ul>
+  <li>List installed packages foreign ([m]) to the repository database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qm</code></p>
+
+<ul>
+  <li>List packages that can be [u]pgraded:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qu</code></p>

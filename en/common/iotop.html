@@ -1,0 +1,46 @@
+<h1 id="iotop">iotop</h1>
+
+<p>Display a table of current I/O usage by processes or threads.
+More information: <a href="https://manned.org/iotop">https://manned.org/iotop</a>.</p>
+
+<ul>
+  <li>Start top-like I/O monitor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iotop</code></p>
+
+<ul>
+  <li>Show only processes or threads actually doing I/O:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iotop --only</code></p>
+
+<ul>
+  <li>Show I/O usage in non-interactive mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iotop --batch</code></p>
+
+<ul>
+  <li>Show only I/O usage of processes (default is to show all threads):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iotop --processes</code></p>
+
+<ul>
+  <li>Show I/O usage of given PID(s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iotop --pid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>
+
+<ul>
+  <li>Show I/O usage of a given user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iotop --user=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span></p>
+
+<ul>
+  <li>Show accumulated I/O instead of bandwidth:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iotop --accumulated</code></p>

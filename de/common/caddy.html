@@ -1,0 +1,40 @@
+<h1 id="caddy">caddy</h1>
+
+<p>Ein unternehmenstauglicher Open-Source-Webserver mit automatischem HTTPS, geschrieben in Go.
+Weitere Informationen: <a href="https://caddyserver.com">https://caddyserver.com</a>.</p>
+
+<ul>
+  <li>Starte Caddy im Vordergrund:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">caddy run</code></p>
+
+<ul>
+  <li>Starte Caddy mit dem angegebenen Caddyfile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">caddy run --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/Caddyfile</span></p>
+
+<ul>
+  <li>Starte Caddy im Hintergrund:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">caddy start</code></p>
+
+<ul>
+  <li>Stoppe einen im Hintergrund laufenden Caddy-Prozess:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">caddy stop</code></p>
+
+<ul>
+  <li>Führe einen einfachen Dateiserver auf dem angegebenen Port mit einer durchsuchbaren Oberfläche aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">caddy file-server --listen :</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8000</span><code class="language-plaintext highlighter-rouge"> --browse</code></p>
+
+<ul>
+  <li>Führe einen Reverse-Proxy-Server aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">caddy reverse-proxy --from :</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> --to localhost:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8000</span></p>

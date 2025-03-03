@@ -1,0 +1,29 @@
+<h1 id="disown">disown</h1>
+
+<p>Allow sub-processes to live beyond the shell that they are attached to.
+See also the <code class="language-plaintext highlighter-rouge">jobs</code> command.
+More information: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-disown">https://www.gnu.org/software/bash/manual/bash.html#index-disown</a>.</p>
+
+<ul>
+  <li>Disown the current job:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">disown</code></p>
+
+<ul>
+  <li>Disown a specific job:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">disown %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_number</span></p>
+
+<ul>
+  <li>Disown all jobs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">disown -a</code></p>
+
+<ul>
+  <li>Keep job (do not disown it), but mark it so that no future SIGHUP is received on shell exit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">disown -h %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_number</span></p>

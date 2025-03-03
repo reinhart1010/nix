@@ -1,0 +1,52 @@
+<h1 id="minifab">minifab</h1>
+
+<p>Automate the setup and deployment of Hyperledger Fabric networks.
+More information: <a href="https://github.com/hyperledger-labs/minifabric">https://github.com/hyperledger-labs/minifabric</a>.</p>
+
+<ul>
+  <li>Bring up the default Hyperledger Fabric network:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab up -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">minifab_version</span></p>
+
+<ul>
+  <li>Bring down the Hyperledger Fabric network:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab down</code></p>
+
+<ul>
+  <li>Install chaincode onto a specified channel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab install -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chaincode_name</span></p>
+
+<ul>
+  <li>Install a specific chaincode version onto a channel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab install -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chaincode_name</span><code class="language-plaintext highlighter-rouge"> -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chaincode_version</span></p>
+
+<ul>
+  <li>Initialize the chaincode after installation/upgrade:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab approve,commit,initialize,discover</code></p>
+
+<ul>
+  <li>Invoke a chaincode method with the specified arguments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab invoke -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chaincode_name</span><code class="language-plaintext highlighter-rouge"> -p '"</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">method_name</span><code class="language-plaintext highlighter-rouge">", "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1</span><code class="language-plaintext highlighter-rouge">", "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument2</span><code class="language-plaintext highlighter-rouge">", ...'</code></p>
+
+<ul>
+  <li>Make a query on the ledger:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab blockquery </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">block_number</span></p>
+
+<ul>
+  <li>Quickly run an application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab apprun -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_programming_language</span></p>

@@ -1,0 +1,53 @@
+<h1 id="tar">tar</h1>
+
+<p>アーカイブ(複数のファイルやフォルダを 1 つのファイルに纏める)の為のユーティリティー。
+gzip や bzip2 などの圧縮方法と組み合わせることが多いです。
+もっと詳しく: <a href="https://www.gnu.org/software/tar">https://www.gnu.org/software/tar</a>。</p>
+
+<ul>
+  <li>アーカイブを作成し、それをファイルに書き込む:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar cf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">出力ファイル名.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル1 ファイル2 …</span></p>
+
+<ul>
+  <li>gzip 形式で圧縮されたアーカイブを作成し、それをファイルに書き込む:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar czf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">出力ファイル名.tar.gz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル1 ファイル2 …</span></p>
+
+<ul>
+  <li>相対パスを用いてディレクトリから gzip 形式のアーカイブを作成する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar czf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">出力ファイル名.tar.gz</span><code class="language-plaintext highlighter-rouge"> --directory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ディレクトリへの相対パス</span><code class="language-plaintext highlighter-rouge"> .</code></p>
+
+<ul>
+  <li>(圧縮された)アーカイブファイルを、カレントディレクトリに過程を詳細表示しながら展開する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar xvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">入力ファイル名.tar[.gz|.bz2|.xz]</span></p>
+
+<ul>
+  <li>(圧縮された)アーカイブファイルを、指定のディレクトリに展開する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar xf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">入力ファイル名.tar[.gz|.bz2|.xz]</span><code class="language-plaintext highlighter-rouge"> --directory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ディレクトリ</span></p>
+
+<ul>
+  <li>圧縮されたアーカイブを作成し、それにファイルを書き込む。なお、接尾辞で圧縮プログラムを指定する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar caf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">出力ファイル名.tar.xz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル1 ファイル2 …</span></p>
+
+<ul>
+  <li>tar ファイルの内容を詳細に表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar tvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">入力ファイル名.tar</span></p>
+
+<ul>
+  <li>アーカイブファイルからパターンに合致するファイルを抽出する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar xf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">入力ファイル名.tar</span><code class="language-plaintext highlighter-rouge"> --wildcards "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.html</span><code class="language-plaintext highlighter-rouge">"</code></p>

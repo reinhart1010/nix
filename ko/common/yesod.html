@@ -1,0 +1,35 @@
+<h1 id="yesod">yesod</h1>
+
+<p>Haskell 기반 웹 프레임워크 Yesod의 도우미 도구.
+모든 Yesod 명령은 <code class="language-plaintext highlighter-rouge">stack</code> 프로젝트 관리자를 통해 실행됩니다.
+더 많은 정보: <a href="https://github.com/yesodweb/yesod">https://github.com/yesodweb/yesod</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">my-project</code> 디렉토리에 SQLite를 백엔드로 하는 새로운 스캐폴딩 사이트 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my-project</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yesod-sqlite</span></p>
+
+<ul>
+  <li>Yesod 스캐폴딩 사이트 내에서 Yesod CLI 도구 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack build yesod-bin cabal-install --install-ghc</code></p>
+
+<ul>
+  <li>개발 서버 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack exec -- yesod devel</code></p>
+
+<ul>
+  <li>변경된 템플릿 Haskell 의존성을 가진 파일 터치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack exec -- yesod touch</code></p>
+
+<ul>
+  <li>Keter(Yesod의 배포 관리자)를 사용하여 애플리케이션 배포:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack exec -- yesod keter</code></p>

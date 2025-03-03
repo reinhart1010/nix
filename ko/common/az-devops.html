@@ -1,0 +1,35 @@
+<h1 id="az-devops">az devops</h1>
+
+<p>Azure DevOps 조직을 관리.
+<code class="language-plaintext highlighter-rouge">azure-cli</code>의 일부 (<code class="language-plaintext highlighter-rouge">az</code>라고도 함).
+더 많은 정보: <a href="https://learn.microsoft.com/cli/azure/devops">https://learn.microsoft.com/cli/azure/devops</a>.</p>
+
+<ul>
+  <li>특정 조직에 로그인하려면 개인 액세스 토큰(PAT)을 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az devops login --organization </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조직_url</span></p>
+
+<ul>
+  <li>브라우저에서 프로젝트를 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az devops project show --project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span><code class="language-plaintext highlighter-rouge"> --open</code></p>
+
+<ul>
+  <li>특정 프로젝트에 참여하는 특정 팀의 구성원을 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az devops team list-member --project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span><code class="language-plaintext highlighter-rouge"> --team </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">팀_이름</span></p>
+
+<ul>
+  <li>Azure DevOps CLI 현재 구성을 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az devops configure --list</code></p>
+
+<ul>
+  <li>기본 프로젝트와 기본 조직을 설정하여 Azure DevOps CLI 동작을 구성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az devops configure --defaults project=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span><code class="language-plaintext highlighter-rouge"> organization=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조직_url</span></p>

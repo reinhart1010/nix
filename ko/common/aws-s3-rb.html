@@ -1,0 +1,16 @@
+<h1 id="aws-s3-rb">aws s3 rb</h1>
+
+<p>비어있는 S3 버킷 삭제.
+더 많은 정보: <a href="https://docs.aws.amazon.com/cli/latest/reference/s3/rb.html">https://docs.aws.amazon.com/cli/latest/reference/s3/rb.html</a>.</p>
+
+<ul>
+  <li>비어있는 S3 버킷 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 rb s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span></p>
+
+<ul>
+  <li>S3 버킷 및 버전이 지정되지 않은 객체를 강제 삭제 (버전이 명시된 객체가 있는 경우 충돌 발생):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 rb s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span><code class="language-plaintext highlighter-rouge"> --force</code></p>

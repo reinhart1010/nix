@@ -1,0 +1,34 @@
+<h1 id="khal">khal</h1>
+
+<p>Eine textbasierte Kalender- und Planungsanwendung für die Kommandozeile.
+Weitere Informationen: <a href="https://lostpackets.de/khal">https://lostpackets.de/khal</a>.</p>
+
+<ul>
+  <li>Starte khal im interaktiven Modus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ikhal</code></p>
+
+<ul>
+  <li>Gib alle Termine aus, die im Kalender "privat" in den nächsten sieben Tagen geplant sind:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">khal list -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">privat</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">today</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7d</span></p>
+
+<ul>
+  <li>Gib alle Termine aus, die in Kalendern außer "privat" für morgen um 10 Uhr geplant sind:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">khal at -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">privat</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tomorrow</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10:00</span></p>
+
+<ul>
+  <li>Gib einen Kalender mit einer Liste an Terminen für die nächsten drei Monate aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">khal calendar</code></p>
+
+<ul>
+  <li>Füge dem Kalender "privat" einen neuen Termin hinzu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">khal new -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">privat</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2020-09-08</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">18:00</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">18:30</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Zahnarzttermin</span><code class="language-plaintext highlighter-rouge">"</code></p>

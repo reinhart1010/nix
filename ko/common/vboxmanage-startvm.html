@@ -1,0 +1,34 @@
+<h1 id="vboxmanage-startvm">vboxmanage-startvm</h1>
+
+<p>가상 머신 시작.
+더 많은 정보: <a href="https://www.virtualbox.org/manual/ch08.html#vboxmanage-startvm">https://www.virtualbox.org/manual/ch08.html#vboxmanage-startvm</a>.</p>
+
+<ul>
+  <li>가상 머신 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage startvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_이름|uuid</span></p>
+
+<ul>
+  <li>지정된 UI 모드로 가상 머신 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage startvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_이름|uuid</span><code class="language-plaintext highlighter-rouge"> --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">headless|gui|sdl|separate</span></p>
+
+<ul>
+  <li>암호화된 가상 머신을 시작하기 위해 암호 파일 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage startvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_이름|uuid</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/암호_파일</span></p>
+
+<ul>
+  <li>암호화된 가상 머신을 시작하기 위해 암호 ID 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage startvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_이름|uuid</span><code class="language-plaintext highlighter-rouge"> --password-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">암호_id</span></p>
+
+<ul>
+  <li>환경 변수 쌍 이름 값을 사용하여 가상 머신 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage startvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_이름|uuid</span><code class="language-plaintext highlighter-rouge"> --put-env=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span></p>

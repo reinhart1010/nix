@@ -1,0 +1,40 @@
+<h1 id="todosh">todo.sh</h1>
+
+<p>Simple and extensible shell script for managing your <code class="language-plaintext highlighter-rouge">todo.txt</code> file.
+More information: <a href="https://github.com/todotxt/todo.txt-cli">https://github.com/todotxt/todo.txt-cli</a>.</p>
+
+<ul>
+  <li>List every item:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo.sh ls</code></p>
+
+<ul>
+  <li>Add an item with project and context tags:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo.sh add '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">description</span><code class="language-plaintext highlighter-rouge"> +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project</span><code class="language-plaintext highlighter-rouge"> @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Mark an item as [do]ne:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo.sh do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">item_no</span></p>
+
+<ul>
+  <li>Remove an item:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo.sh rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">item_no</span></p>
+
+<ul>
+  <li>Set an item's [pri]ority (A-Z):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo.sh pri </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">item_no</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">priority</span></p>
+
+<ul>
+  <li>Replace an item:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo.sh replace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">item_no</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_description</span><code class="language-plaintext highlighter-rouge">'</code></p>

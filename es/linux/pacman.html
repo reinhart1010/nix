@@ -1,0 +1,55 @@
+<h1 id="pacman">pacman</h1>
+
+<p>Arch Linux paquete manager utility.
+Utilidad del administrador de paquetes de Arch Linux.
+Vea también: <code class="language-plaintext highlighter-rouge">pacman-sync</code>, <code class="language-plaintext highlighter-rouge">pacman-remove</code>, <code class="language-plaintext highlighter-rouge">pacman-query</code>, <code class="language-plaintext highlighter-rouge">pacman-upgrade</code>, <code class="language-plaintext highlighter-rouge">pacman-files</code>, <code class="language-plaintext highlighter-rouge">pacman-database</code>, <code class="language-plaintext highlighter-rouge">pacman-deptest</code>, <code class="language-plaintext highlighter-rouge">pacman-key</code>, <code class="language-plaintext highlighter-rouge">pacman-mirrors</code>.
+Para comandos equivalentes en otros administradores de paquetes, vea <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a>.
+Más información: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Sincroniza y actualiza todos los paquetes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Syu</code></p>
+
+<ul>
+  <li>Instala un nuevo paquete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Elimina un paquete y sus dependencias:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Rs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Busca en la base de datos paquetes que contengan un archivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -F "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_archivo</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Lista los paquetes y versiones instalados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Q</code></p>
+
+<ul>
+  <li>Lista solo los paquetes y versiones instalados explícitamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qe</code></p>
+
+<ul>
+  <li>Lista los paquetes huérfanos (instalados como dependencias pero que en realidad no son necesarios para ningún paquete):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qtdq</code></p>
+
+<ul>
+  <li>Vacía toda la caché de <code class="language-plaintext highlighter-rouge">pacman</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Scc</code></p>

@@ -1,0 +1,22 @@
+<h1 id="trap">trap</h1>
+
+<p>Execute a command upon an event.
+More information: <a href="https://manned.org/trap.1posix">https://manned.org/trap.1posix</a>.</p>
+
+<ul>
+  <li>List the commands and the names of the expected events:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trap</code></p>
+
+<ul>
+  <li>Execute a command when a signal is received:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trap 'echo "Caught signal </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span><code class="language-plaintext highlighter-rouge">"' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HUP</span></p>
+
+<ul>
+  <li>Remove commands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trap - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HUP</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">INT</span></p>

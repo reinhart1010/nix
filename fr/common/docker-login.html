@@ -1,0 +1,28 @@
+<h1 id="docker-login">docker login</h1>
+
+<p>Se connecter à un registre Docker.
+Plus d'informations : <a href="https://docs.docker.com/reference/cli/docker/login/">https://docs.docker.com/reference/cli/docker/login/</a>.</p>
+
+<ul>
+  <li>Se connecter de manière interactive à un registre :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker login</code></p>
+
+<ul>
+  <li>Se connecter à un registre avec un nom d'utilisateur spécifique (l'utilisateur sera invité à saisir un mot de passe) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker login --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_d_utilisateur</span></p>
+
+<ul>
+  <li>Se connecter à un registre avec un nom d'utilisateur et un mot de passe spécifiques :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker login --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_d_utilisateur</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mot_de_passe</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">serveur</span></p>
+
+<ul>
+  <li>Se connecter à un registre avec un mot de passe depuis l'entrée standard :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mot_de_passe</span><code class="language-plaintext highlighter-rouge">" | docker login --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_d_utilisateur</span><code class="language-plaintext highlighter-rouge"> --password-stdin</code></p>

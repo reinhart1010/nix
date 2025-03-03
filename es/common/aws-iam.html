@@ -1,0 +1,52 @@
+<h1 id="aws-iam">aws iam</h1>
+
+<p>Interactúa con el Manejo de Identidad y Acceso (o "IAM" en inglés), un servicio web para controlar seguramente el acceso a servicios de AWS.
+Más información: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html</a>.</p>
+
+<ul>
+  <li>Lista usuarios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-users</code></p>
+
+<ul>
+  <li>Lista políticas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-policies</code></p>
+
+<ul>
+  <li>Lista grupos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-groups</code></p>
+
+<ul>
+  <li>Obtén los usuarios en un grupo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam get-group --group-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_grupo</span></p>
+
+<ul>
+  <li>Describe una política IAM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam get-policy --policy-arn arn:aws:iam::aws:policy/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_política</span></p>
+
+<ul>
+  <li>Lista claves de acceso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-access-keys</code></p>
+
+<ul>
+  <li>Lista claves de acceso para un usuario específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-access-keys --user-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span></p>
+
+<ul>
+  <li>Muestra ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam help</code></p>

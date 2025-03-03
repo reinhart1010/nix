@@ -1,0 +1,40 @@
+<h1 id="todoist">todoist</h1>
+
+<p>Access <a href="https://todoist.com">https://todoist.com</a> from the command-line.
+More information: <a href="https://github.com/sachaos/todoist">https://github.com/sachaos/todoist</a>.</p>
+
+<ul>
+  <li>Add a task:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Add a high priority task with a label, project, and due date:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span><code class="language-plaintext highlighter-rouge">" --priority </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> --label-ids "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">label_id</span><code class="language-plaintext highlighter-rouge">" --project-name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span><code class="language-plaintext highlighter-rouge">" --date "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmr 9am</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Add a high priority task with a label, project, and due date in quick mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist quick '#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmr 9am</span><code class="language-plaintext highlighter-rouge">" p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span><code class="language-plaintext highlighter-rouge"> @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">label_name</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>List all tasks with a header and color:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist --header --color list</code></p>
+
+<ul>
+  <li>List all high priority tasks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist list --filter p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>List today's tasks with high priority that have the specified label:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist list --filter '(@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">label_name</span><code class="language-plaintext highlighter-rouge"> | </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">today</span><code class="language-plaintext highlighter-rouge">) &amp; p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge">'</code></p>

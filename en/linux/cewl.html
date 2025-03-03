@@ -1,0 +1,34 @@
+<h1 id="cewl">cewl</h1>
+
+<p>URL spidering tool for making a cracking wordlist from web content.
+More information: <a href="https://digi.ninja/projects/cewl.php">https://digi.ninja/projects/cewl.php</a>.</p>
+
+<ul>
+  <li>Create a wordlist file from the given URL up to 2 links depth:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cewl --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/wordlist.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Output an alphanumeric wordlist from the given URL with words of minimum 5 characters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cewl --with-numbers --min_word_length </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Output a wordlist from the given URL in debug mode including email addresses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cewl --debug --email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Output a wordlist from the given URL using HTTP Basic or Digest authentication:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cewl --auth_type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">basic|digest</span><code class="language-plaintext highlighter-rouge"> --auth_user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --auth_pass </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Output a wordlist from the given URL through a proxy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cewl --proxy_host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> --proxy_port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>

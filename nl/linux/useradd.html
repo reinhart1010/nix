@@ -1,0 +1,47 @@
+<h1 id="useradd">useradd</h1>
+
+<p>Maak een nieuwe gebruiker aan.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">users</code>, <code class="language-plaintext highlighter-rouge">userdel</code>, <code class="language-plaintext highlighter-rouge">usermod</code>.
+Meer informatie: <a href="https://manned.org/useradd">https://manned.org/useradd</a>.</p>
+
+<ul>
+  <li>Maak een nieuwe gebruiker aan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>
+
+<ul>
+  <li>Maak een nieuwe gebruiker aan met de opgegeven gebruikers-ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-u|–uid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>
+
+<ul>
+  <li>Maak een nieuwe gebruiker aan met de opgegeven shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-s|–shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>
+
+<ul>
+  <li>Maak een nieuwe gebruiker aan die behoort tot extra groepen (let op het ontbreken van spaties):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-G|–groups</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groep1,groep2,…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>
+
+<ul>
+  <li>Maak een nieuwe gebruiker aan met de standaard thuismap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–create-home</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>
+
+<ul>
+  <li>Maak een nieuwe gebruiker aan met de thuismap gevuld met bestanden uit een sjabloonmap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-k|–skel</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/sjabloonmap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–create-home</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>
+
+<ul>
+  <li>Maak een nieuwe systeemgebruiker aan zonder thuismap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–system</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>

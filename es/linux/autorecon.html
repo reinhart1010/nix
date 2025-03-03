@@ -1,0 +1,28 @@
+<h1 id="autorecon">autorecon</h1>
+
+<p>Herramienta de reconocimiento de red multihilo que realiza una enumeración automatizada de servicios.
+Más información: <a href="https://github.com/Tib3rius/AutoRecon">https://github.com/Tib3rius/AutoRecon</a>.</p>
+
+<ul>
+  <li>Realiza reconocimiento sobre el(los) host(s) objetivo(s) (los resultados del escaneo detallado se guardarán en <code class="language-plaintext highlighter-rouge">./results</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo autorecon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_o_ip1,host_o_ip2,…</span></p>
+
+<ul>
+  <li>Realiza reconocimiento sobre el(los) objetivo(s) desde un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo autorecon --target-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Guarda los resultados en un directorio diferente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo autorecon --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/resultados</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_o_ip1,host_o_ip2,…</span></p>
+
+<ul>
+  <li>Limita el escaneo a [p]uertos y protocolos específicos (<code class="language-plaintext highlighter-rouge">T</code> para TCP, <code class="language-plaintext highlighter-rouge">U</code> para UDP, <code class="language-plaintext highlighter-rouge">B</code> para ambos):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo autorecon --ports </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">T:21-25,80,443,U:53,B:123</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_o_ip1,host_o_ip2,…</span></p>

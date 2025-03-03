@@ -1,0 +1,52 @@
+<h1 id="twine">twine</h1>
+
+<p>Utility for publishing Python packages on PyPI.
+More information: <a href="https://twine.readthedocs.io/en/stable/#commands">https://twine.readthedocs.io/en/stable/#commands</a>.</p>
+
+<ul>
+  <li>Upload to PyPI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twine upload dist/*</code></p>
+
+<ul>
+  <li>Upload to the Test PyPI [r]epository to verify things look right:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twine upload -r testpypi dist/*</code></p>
+
+<ul>
+  <li>Upload to PyPI with a specified [u]sername and [p]assword:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twine upload -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> dist/*</code></p>
+
+<ul>
+  <li>Upload to an alternative repository URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twine upload --repository-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span><code class="language-plaintext highlighter-rouge"> dist/*</code></p>
+
+<ul>
+  <li>Check that your distribution's long description should render correctly on PyPI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twine check dist/*</code></p>
+
+<ul>
+  <li>Upload using a specific pypirc configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twine upload --config-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">configuration_file</span><code class="language-plaintext highlighter-rouge"> dist/*</code></p>
+
+<ul>
+  <li>Continue uploading files if one already exists (only valid when uploading to PyPI):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twine upload --skip-existing dist/*</code></p>
+
+<ul>
+  <li>Upload to PyPI showing detailed information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">twine upload --verbose dist/*</code></p>

@@ -1,0 +1,28 @@
+<h1 id="gst-launch-10">gst-launch-1.0</h1>
+
+<p>Build and run a GStreamer pipeline.
+More information: <a href="https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html?gi-language=c">https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html?gi-language=c</a>.</p>
+
+<ul>
+  <li>Play test video in a window:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gst-launch-1.0 videotestsrc ! xvimagesink</code></p>
+
+<ul>
+  <li>Play a media file in a window:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gst-launch-1.0 playbin uri=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protocol</span><code class="language-plaintext highlighter-rouge">://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Re-encode a media file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gst-launch-1.0 filesrc location=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> ! </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_type</span><code class="language-plaintext highlighter-rouge">demux ! </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">codec_type</span><code class="language-plaintext highlighter-rouge">dec ! </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">codec_type</span><code class="language-plaintext highlighter-rouge">enc ! </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_type</span><code class="language-plaintext highlighter-rouge">mux ! filesink location=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Stream a file to an RTSP server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gst-launch-1.0 filesrc location=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> ! rtspclientsink location=rtsp://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_IP</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

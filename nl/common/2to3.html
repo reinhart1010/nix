@@ -1,0 +1,48 @@
+<h1 id="2to3">2to3</h1>
+
+<p>Geautomatiseerde conversie van Python 2 naar 3-code.
+Deze module is sinds 3.11 verouderd en is sinds 3.13 verwijderd.
+Ter referentie: <a href="https://github.com/python/cpython/blob/8d42e2d915c3096e7e7ac1c649751d1da567bb7c3/doc/whatsnew/3.13.rst?plain=188">https://github.com/python/cpython/blob/8d42e2d915c3096e7e7ac1c649751d1da567bb7c3/doc/whatsnew/3.13.rst?plain=188</a>.
+Meer informatie: <a href="https://manned.org/2to3">https://manned.org/2to3</a>.</p>
+
+<ul>
+  <li>Geef de wijzigingen weer die zouden worden uitgevoerd zonder ze uit te voeren (simulatie):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.py</span></p>
+
+<ul>
+  <li>Converteer een Python 2-bestand naar Python 3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.py</span></p>
+
+<ul>
+  <li>Converteer specifieke Python 2-taalfuncties naar Python 3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.py</span><code class="language-plaintext highlighter-rouge"> --fix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raw_input</span><code class="language-plaintext highlighter-rouge"> --fix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">print</span></p>
+
+<ul>
+  <li>Converteer alle Python 2-taalfuncties behalve de gespecificeerde naar Python 3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.py</span><code class="language-plaintext highlighter-rouge"> --nofix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">has_key</span><code class="language-plaintext highlighter-rouge"> --nofix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">isinstance</span></p>
+
+<ul>
+  <li>Geef een lijst weer met alle beschikbare taalfuncties die kunnen worden geconverteerd van Python 2 naar Python 3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --list-fixes</code></p>
+
+<ul>
+  <li>Converteer alle Python 2-bestanden in een map naar Python 3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --output-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/python3_map</span><code class="language-plaintext highlighter-rouge"> --write-unchanged-files --nobackups </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/python2_map</span></p>
+
+<ul>
+  <li>Voer 2to3 uit met meerdere threads:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --processes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> --output-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/python3_map</span><code class="language-plaintext highlighter-rouge"> --write --nobackups --no-diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/python2_map</span></p>

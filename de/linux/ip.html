@@ -1,0 +1,52 @@
+<h1 id="ip">ip</h1>
+
+<p>Zeige und manipuliere routing, Geräte, Policy routing und Tunnel.
+Weitere Informationen: <a href="https://www.manned.org/ip.8">https://www.manned.org/ip.8</a>.</p>
+
+<ul>
+  <li>Zeige Interfaces mit detaillierten Informationen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address</code></p>
+
+<ul>
+  <li>Zeige Interfaces mit kurzen Netzwerkinformationen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip -brief address</code></p>
+
+<ul>
+  <li>Zeige Interfaces mit kurzen link layer Informationen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip -brief link</code></p>
+
+<ul>
+  <li>Zeige die Routing Tabelle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route</code></p>
+
+<ul>
+  <li>Zeige Nachbarn (ARP Tabelle):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip neighbour</code></p>
+
+<ul>
+  <li>Schalte ein bestimmtes Interface ein oder aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">up|down</span></p>
+
+<ul>
+  <li>Entferne oder füge eine IP zu einem Interface hinzu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip addr add/del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mask</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>
+
+<ul>
+  <li>Füge eine Standard Route hinzu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route add default via </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>

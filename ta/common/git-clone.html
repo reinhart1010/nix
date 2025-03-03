@@ -1,0 +1,52 @@
+<h1 id="git-clone">git clone</h1>
+
+<p>ஏற்கனவே உள்ள ஒரு களஞ்சியத்தை குளோன் செய்யுங்கள்.
+மேலும் விவரத்திற்கு: <a href="https://git-scm.com/docs/git-clone">https://git-scm.com/docs/git-clone</a>.</p>
+
+<ul>
+  <li>ஏற்கனவே உள்ள களஞ்சியத்தை ஒரு குறிப்பிட்ட கோப்பகத்தில் குளோன் செய்யுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொலை_களஞ்சிய_இடம்</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை</span></p>
+
+<ul>
+  <li>இருக்கும் களஞ்சியத்தையும் அதன் துணை தொகுதிகளையும் குளோன் செய்யுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொலை_களஞ்சிய_இடம்</span></p>
+
+<ul>
+  <li>ஏற்கனவே உள்ள களஞ்சியத்தின் <code class="language-plaintext highlighter-rouge">.git</code> கோப்பகத்தை மட்டும் குளோன் செய்யவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --no-checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொலை_களஞ்சிய_இடம்</span></p>
+
+<ul>
+  <li>கணினியில் உள்ள ஒரு களஞ்சியத்தை குளோன் செய்யுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --local </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கணினியில்/உள்ள/களஞ்சியத்தின்/பாதை</span></p>
+
+<ul>
+  <li>அமைதியாக குளோன்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொலை_களஞ்சிய_இடம்</span></p>
+
+<ul>
+  <li>இயல்புநிலை கிளையில் மிகச் சமீபத்திய 10 கமிட்டுகளை மட்டுமே பெறும் களஞ்சியத்தை குளோன் செய்யுங்கள் (நேரத்தைச் சேமிக்க பயனுள்ளதாக இருக்கும்):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொலை_களஞ்சிய_இடம்</span></p>
+
+<ul>
+  <li>ஏற்கனவே உள்ள களஞ்சியத்தை குளோன் செய்து ஒரு குறிப்பிட்ட கிளையை மட்டும் பெறுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பெயர்</span><code class="language-plaintext highlighter-rouge"> --single-branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொலை_களஞ்சிய_இடம்</span></p>
+
+<ul>
+  <li>ஒரு குறிப்பிட்ட SSH கட்டளையைப் பயன்படுத்தி ஏற்கனவே உள்ள களஞ்சியத்தை குளோன் செய்யவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --config core.sshCommand="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh -i தனியார்_ssh_key/பாதை</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொலை_களஞ்சிய_இடம்</span></p>

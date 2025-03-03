@@ -1,0 +1,40 @@
+<h1 id="xsv">xsv</h1>
+
+<p>Rust로 작성된 CSV 명령줄 도구 모음.
+더 많은 정보: <a href="https://github.com/BurntSushi/xsv">https://github.com/BurntSushi/xsv</a>.</p>
+
+<ul>
+  <li>파일의 헤더 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsv headers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.csv</span></p>
+
+<ul>
+  <li>항목 수 세기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsv count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.csv</span></p>
+
+<ul>
+  <li>항목 형식 개요 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsv stats </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.csv</span><code class="language-plaintext highlighter-rouge"> | xsv table</code></p>
+
+<ul>
+  <li>몇몇 열 선택:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsv select </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">열1,열2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.csv</span></p>
+
+<ul>
+  <li>10개의 무작위 항목 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsv sample </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.csv</span></p>
+
+<ul>
+  <li>한 파일의 열을 다른 파일에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsv join --no-case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">열1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.csv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">열2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2.csv</span><code class="language-plaintext highlighter-rouge"> | xsv table</code></p>

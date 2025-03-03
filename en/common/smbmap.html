@@ -1,0 +1,34 @@
+<h1 id="smbmap">smbmap</h1>
+
+<p>Allow users to enumerate samba share drives across an entire domain.
+More information: <a href="https://github.com/ShawnDEvans/smbmap">https://github.com/ShawnDEvans/smbmap</a>.</p>
+
+<ul>
+  <li>Enumerate hosts with NULL sessions enabled and open shares:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbmap --host-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Enumerate hosts and check SMB file permissions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbmap --host-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> -q</code></p>
+
+<ul>
+  <li>Connect to an ip or hostname through smb using a username and password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbmap -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span><code class="language-plaintext highlighter-rouge"> -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname</span></p>
+
+<ul>
+  <li>Locate and download files [R]ecursively up to N levels depth, searching for filename pattern (regex), and excluding certain shares:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbmap --host-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> -q -R --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span><code class="language-plaintext highlighter-rouge"> --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sharename</span><code class="language-plaintext highlighter-rouge"> -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filepattern</span></p>
+
+<ul>
+  <li>Upload file through smb using username and password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbmap -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span><code class="language-plaintext highlighter-rouge"> -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname</span><code class="language-plaintext highlighter-rouge"> --upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/share_name/remote_filename</span><code class="language-plaintext highlighter-rouge">'</code></p>

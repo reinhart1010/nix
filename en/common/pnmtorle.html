@@ -1,0 +1,22 @@
+<h1 id="pnmtorle">pnmtorle</h1>
+
+<p>Convert a PNM file to an Utah Raster Tools RLE image file.
+More information: <a href="https://netpbm.sourceforge.net/doc/pnmtorle.html">https://netpbm.sourceforge.net/doc/pnmtorle.html</a>.</p>
+
+<ul>
+  <li>Convert a PNM image to an RLE image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtorle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.rle</span></p>
+
+<ul>
+  <li>Print PNM header information to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtorle -verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.rle</span></p>
+
+<ul>
+  <li>Include a transparency channel in the output image in which every black pixel is set to fully transparent and every other pixel is set to fully opaque:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtorle -alpha </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.rle</span></p>

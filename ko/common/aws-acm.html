@@ -1,0 +1,52 @@
+<h1 id="aws-acm">aws acm</h1>
+
+<p>AWS 인증서 관리자.
+더 많은 정보: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/acm/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/acm/index.html</a>.</p>
+
+<ul>
+  <li>인증서 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm import-certificate --certificate-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">certificate_arn</span><code class="language-plaintext highlighter-rouge"> --certificate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인증서</span><code class="language-plaintext highlighter-rouge"> --private-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">개인_키</span><code class="language-plaintext highlighter-rouge"> --certificate-chain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인증서_체인</span></p>
+
+<ul>
+  <li>인증서 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm list-certificates</code></p>
+
+<ul>
+  <li>인증서 설명 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm describe-certificate --certificate-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">certificate_arn</span></p>
+
+<ul>
+  <li>인증서 요청:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm request-certificate --domain-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인_이름</span><code class="language-plaintext highlighter-rouge"> --validation-method </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검증_방법</span></p>
+
+<ul>
+  <li>인증서 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm delete-certificate --certificate-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">certificate_arn</span></p>
+
+<ul>
+  <li>인증서 검증 방법 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm list-certificates --certificate-statuses </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">status</span></p>
+
+<ul>
+  <li>인증서 세부 정보 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm get-certificate --certificate-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">certificate_arn</span></p>
+
+<ul>
+  <li>인증서 옵션 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm update-certificate-options --certificate-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">certificate_arn</span><code class="language-plaintext highlighter-rouge"> --options </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">옵션</span></p>

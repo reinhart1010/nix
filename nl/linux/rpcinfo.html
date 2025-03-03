@@ -1,0 +1,34 @@
+<h1 id="rpcinfo">rpcinfo</h1>
+
+<p>Maak een RPC-oproep naar een RPC-server en rapporteert wat het vindt.
+Meer informatie: <a href="https://manned.org/rpcinfo">https://manned.org/rpcinfo</a>.</p>
+
+<ul>
+  <li>Toon volledige tabel van alle RPC-diensten geregistreerd op localhost:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo</code></p>
+
+<ul>
+  <li>Toon beknopte tabel van alle RPC-diensten geregistreerd op localhost:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">localhost</span></p>
+
+<ul>
+  <li>Toon tabel met statistieken van rpcbind-operaties op localhost:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo -m</code></p>
+
+<ul>
+  <li>Toon lijst van items van een bepaalde service naam (mountd) en versienummer (2) op een remote nfs-share:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_nfs_server_ip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountd</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span></p>
+
+<ul>
+  <li>Verwijder de registratie voor versie 1 van de mountd-service voor alle transporten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcinfo -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountd</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>

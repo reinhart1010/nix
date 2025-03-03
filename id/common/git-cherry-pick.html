@@ -1,0 +1,29 @@
+<h1 id="git-cherry-pick">git cherry-pick</h1>
+
+<p>Lakukan perubahan yang tercatat pada komit-komit saat ini menuju cabang saat ini.
+Gunakan <code class="language-plaintext highlighter-rouge">git checkout</code> terlebih dahulu jika hendak melakukan perubahan pada cabang lainnya.
+Informasi lebih lanjut: <a href="https://git-scm.com/docs/git-cherry-pick">https://git-scm.com/docs/git-cherry-pick</a>.</p>
+
+<ul>
+  <li>Lakukan perubahan menurut suatu komit terhadap cabang saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komit</span></p>
+
+<ul>
+  <li>Lakukan perubahan berdasarkan urutan komit terhadap cabang saat ini (lihat juga <code class="language-plaintext highlighter-rouge">git rebase --onto</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komit_awal</span><code class="language-plaintext highlighter-rouge">~..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komit_akhir</span></p>
+
+<ul>
+  <li>Lakukan perubahan berdasarkan kumpulan komit (tak berurut) terhadap cabang saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komit1 komit2 …</span></p>
+
+<ul>
+  <li>Lakukan perubahan pada direktori kerja saat ini tanpa mencatat komit baru:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick --no-commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komit</span></p>

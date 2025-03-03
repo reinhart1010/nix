@@ -1,0 +1,35 @@
+<h1 id="filecheck">FileCheck</h1>
+
+<p>Flexible pattern matching file verifier.
+It is typically used from LLVM regression tests and forms a part of a <code class="language-plaintext highlighter-rouge">lit</code> test.
+More information: <a href="https://llvm.org/docs/CommandGuide/FileCheck.html">https://llvm.org/docs/CommandGuide/FileCheck.html</a>.</p>
+
+<ul>
+  <li>Match <code class="language-plaintext highlighter-rouge">input_file</code> content with pattern file <code class="language-plaintext highlighter-rouge">check_file</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">FileCheck --input-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/check_file</span></p>
+
+<ul>
+  <li>Match input from the <code class="language-plaintext highlighter-rouge">stdin</code> with pattern file <code class="language-plaintext highlighter-rouge">check_file</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_text</span><code class="language-plaintext highlighter-rouge">" | FileCheck </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/check_file</span></p>
+
+<ul>
+  <li>Match with the specified custom check <code class="language-plaintext highlighter-rouge">prefix</code> (Note: the default prefix is <code class="language-plaintext highlighter-rouge">CHECK</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_text</span><code class="language-plaintext highlighter-rouge">" | FileCheck --check-prefix=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/check_file</span></p>
+
+<ul>
+  <li>Print good directive pattern matches:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_text</span><code class="language-plaintext highlighter-rouge">" | FileCheck -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/check_file</span></p>
+
+<ul>
+  <li>Input <code class="language-plaintext highlighter-rouge">llvm_code.ll</code> into llvm-as, then pipe the output into FileCheck to match:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/llvm_code.ll</span><code class="language-plaintext highlighter-rouge"> | FileCheck </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/check_file</span></p>

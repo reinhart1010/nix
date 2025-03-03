@@ -1,0 +1,53 @@
+<h1 id="ip">ip</h1>
+
+<p>Affiche / manipule l'adressage, le routage, les interfaces et périphériques réseau, les règles de routage et les tunnels.
+Certaines commandes comme <code class="language-plaintext highlighter-rouge">ip address</code> ont leur propre documentation.
+Plus d'informations : <a href="https://www.manned.org/ip.8">https://www.manned.org/ip.8</a>.</p>
+
+<ul>
+  <li>Liste les interfaces avec des infos détaillées :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address</code></p>
+
+<ul>
+  <li>Liste les interfaces sur la couche réseau de façon synthétique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip -brief address</code></p>
+
+<ul>
+  <li>Liste les interfaces sur la couche liaison de façon synthétique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip -brief link</code></p>
+
+<ul>
+  <li>Affiche la table de routage :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route</code></p>
+
+<ul>
+  <li>Affiche les voisins (table ARP) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip neighbour</code></p>
+
+<ul>
+  <li>Active/Désactive une interface :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">up|down</span></p>
+
+<ul>
+  <li>Ajoute/Supprime une adresse ip à une interface :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip addr add/del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mask</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>
+
+<ul>
+  <li>Ajoute une route par défaut :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route add default via </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>

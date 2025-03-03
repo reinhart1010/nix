@@ -1,0 +1,46 @@
+<h1 id="smbclient">smbclient</h1>
+
+<p>FTP-like client to access SMB/CIFS resources on servers.
+More information: <a href="https://manned.org/smbclient">https://manned.org/smbclient</a>.</p>
+
+<ul>
+  <li>Connect to a share (user will be prompted for password; <code class="language-plaintext highlighter-rouge">exit</code> to quit the session):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbclient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">//server/share</span></p>
+
+<ul>
+  <li>Connect with a different username:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbclient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">//server/share</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Connect with a different workgroup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbclient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">//server/share</span><code class="language-plaintext highlighter-rouge"> --workgroup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Connect with a username and password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbclient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">//server/share</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username%password</span></p>
+
+<ul>
+  <li>Download a file from the server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbclient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">//server/share</span><code class="language-plaintext highlighter-rouge"> --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --command "get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.txt</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Upload a file to the server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbclient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">//server/share</span><code class="language-plaintext highlighter-rouge"> --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --command "put </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.txt</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>List the shares from a server anonymously:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbclient --list=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server</span><code class="language-plaintext highlighter-rouge"> --no-pass</code></p>

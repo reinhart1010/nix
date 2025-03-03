@@ -1,0 +1,29 @@
+<h1 id="airodump-ng">airodump-ng</h1>
+
+<p>Tangkap para paket dan tampilkan informasi mengenai jaringan nirkabel/wireless.
+Bagian dari paket perangkat lunak jaringan Aircrack-ng.
+Informasi lebih lanjut: <a href="https://www.aircrack-ng.org/doku.php?id=airodump-ng">https://www.aircrack-ng.org/doku.php?id=airodump-ng</a>.</p>
+
+<ul>
+  <li>Tangkap para paket dan tampilkan daftar jaringan nirkabel dalam frekuensi 2.4GHz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airodump-ng </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>
+
+<ul>
+  <li>Tangkap para paket dan tampilkan daftar jaringan nirkabel dalam frekuensi 5GHz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airodump-ng </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span><code class="language-plaintext highlighter-rouge"> --band a</code></p>
+
+<ul>
+  <li>Tangkap para paket dan tampilkan daftar jaringan nirkabel, baik dalam frekuensi 2.4GHz maupun 5GHz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airodump-ng </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span><code class="language-plaintext highlighter-rouge"> --band abg</code></p>
+
+<ul>
+  <li>Tangkap para paket dan tampilkan informasi jaringan nirkabel berdasarkan alamat MAC dan kanal jaringan, kemudian simpan hasil ke dalam suatu file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airodump-ng --channel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">channel</span><code class="language-plaintext highlighter-rouge"> --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span><code class="language-plaintext highlighter-rouge"> --bssid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat_mac</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>

@@ -1,0 +1,41 @@
+<h1 id="aws-s3">aws s3</h1>
+
+<p>Alat baris perintah (CLI) untuk AWS S3 - jasa penyimpanan berkas bagi layanan web.
+Beberapa subperintah seperti <code class="language-plaintext highlighter-rouge">cp</code> mempunyai dokumentasi terpisah.
+Informasi lebih lanjut: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/index.html</a>.</p>
+
+<ul>
+  <li>Tampilkan daftar seluruh berkas dalam suatu bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 ls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_bucket</span></p>
+
+<ul>
+  <li>Lakukan sinkronisasi isi berkas dan direktori dari sumber penyimpanan lokal menuju suatu bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 …</span><code class="language-plaintext highlighter-rouge"> s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_bucket</span></p>
+
+<ul>
+  <li>Lakukan sinkronisasi isi berkas dan direktori dari suatu bucket menuju sumber penyimpanan lokal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 sync s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_bucket</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span></p>
+
+<ul>
+  <li>Lakukan sinkronisasi dengan pengecualian:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 …</span><code class="language-plaintext highlighter-rouge"> s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge"> --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span><code class="language-plaintext highlighter-rouge"> --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span><code class="language-plaintext highlighter-rouge">/*</code></p>
+
+<ul>
+  <li>Hapus suatu berkas dari suatu bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 rm s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span></p>
+
+<ul>
+  <li>Hanya tampilkan daftar berkas yang dirubah tanpa melakukan perubahan tersebut (mode dry-run):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span><code class="language-plaintext highlighter-rouge"> --dryrun</code></p>

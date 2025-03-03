@@ -1,0 +1,46 @@
+<h1 id="html5validator">html5validator</h1>
+
+<p>HTML5 유효성 검증.
+더 많은 정보: <a href="https://github.com/svenkreiss/html5validator">https://github.com/svenkreiss/html5validator</a>.</p>
+
+<ul>
+  <li>특정 파일 유효성 검증:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">html5validator </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>특정 디렉토리에 있는 모든 HTML 파일의 유효성을 검사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">html5validator --root </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리</span></p>
+
+<ul>
+  <li>경고와 오류 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">html5validator --show-warnings </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>glob 패턴을 사용하여 여러 파일을 일치시킴:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">html5validator --root </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리</span><code class="language-plaintext highlighter-rouge"> --match "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.html *.php</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 디렉터리 이름 무시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">html5validator --root </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리</span><code class="language-plaintext highlighter-rouge"> --blacklist "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_modules vendor</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 형식으로 결과를 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">html5validator --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gnu|xml|json|text</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>특정 상세 수준으로 로그를 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">html5validator --root </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리</span><code class="language-plaintext highlighter-rouge"> --log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">debug|info|warning</span></p>

@@ -1,0 +1,52 @@
+<h1 id="bfs">bfs</h1>
+
+<p>Búsqueda exhaustiva de tus archivos.
+Más información: <a href="https://manned.org/bfs">https://manned.org/bfs</a>.</p>
+
+<ul>
+  <li>Busca archivos por extensión:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta_raíz</span><code class="language-plaintext highlighter-rouge"> -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Busca archivos que coincidan con varios patrones de ruta/nombre:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta_raíz</span><code class="language-plaintext highlighter-rouge"> -path '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><strong>/ruta/</strong>/*.ext</span><code class="language-plaintext highlighter-rouge">' -or -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>patrón</em></span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Busca directorios que coincidan con un nombre dado, sin distinguir mayúsculas de minúsculas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta_raíz</span><code class="language-plaintext highlighter-rouge"> -type d -iname '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>lib</em></span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Busca archivos que coincidan con un patrón dado, excluyendo rutas específicas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta_raíz</span><code class="language-plaintext highlighter-rouge"> -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.py</span><code class="language-plaintext highlighter-rouge">' -not -path '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>/paquetes/</em></span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Busca archivos que coincidan con un rango de tamaño dado, limitando la profundidad recursiva a "1":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta_raíz</span><code class="language-plaintext highlighter-rouge"> -maxdepth 1 -size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+500k</span><code class="language-plaintext highlighter-rouge"> -size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-10M</span></p>
+
+<ul>
+  <li>Ejecuta un comando para cada archivo (utiliza <code class="language-plaintext highlighter-rouge">{}</code> dentro del comando para acceder al nombre del archivo):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta_root</span><code class="language-plaintext highlighter-rouge"> -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span><code class="language-plaintext highlighter-rouge">' -exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -l</span><code class="language-plaintext highlighter-rouge"> {} \;</code></p>
+
+<ul>
+  <li>Busca todos los archivos modificados hoy y pasa los resultados a un único comando como argumentos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta_raíz</span><code class="language-plaintext highlighter-rouge"> -daystart -mtime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1</span><code class="language-plaintext highlighter-rouge"> -exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tar -cvf archivo.tar</span><code class="language-plaintext highlighter-rouge"> {} \+</code></p>
+
+<ul>
+  <li>Encuentra archivos vacíos (0 bytes) o directorios y los elimina de forma detallada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta_raíz</span><code class="language-plaintext highlighter-rouge"> -type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f|d</span><code class="language-plaintext highlighter-rouge"> -empty -delete -print</code></p>

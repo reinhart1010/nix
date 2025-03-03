@@ -1,0 +1,34 @@
+<h1 id="reg-add">reg add</h1>
+
+<p>레지스트리에 새 키와 값을 추가.
+더 많은 정보: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/reg-add">https://learn.microsoft.com/windows-server/administration/windows-commands/reg-add</a>.</p>
+
+<ul>
+  <li>새 레지스트리 키 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span></p>
+
+<ul>
+  <li>특정 키 아래에 새 [v]alue 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> /v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span></p>
+
+<ul>
+  <li>특정 [d]ata로 새 값 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> /d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터</span></p>
+
+<ul>
+  <li>특정 데이터 [t]ype으로 키에 새 값 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> /t REG_</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SZ|MULTI_SZ|DWORD_BIG_ENDIAN|DWORD|BINARY|DWORD_LITTLE_ENDIAN|LINK|FULL_RESOURCE_DESCRIPTOR|EXPAND_SZ</span></p>
+
+<ul>
+  <li>[f]orcefully (프롬프트 없이) 기존 레지스트리 값 덮어쓰기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> /f</code></p>

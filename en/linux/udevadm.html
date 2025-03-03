@@ -1,0 +1,46 @@
+<h1 id="udevadm">udevadm</h1>
+
+<p>Linux <code class="language-plaintext highlighter-rouge">udev</code> management tool.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/udevadm">https://www.freedesktop.org/software/systemd/man/udevadm</a>.</p>
+
+<ul>
+  <li>Monitor all device events:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo udevadm monitor</code></p>
+
+<ul>
+  <li>Print <code class="language-plaintext highlighter-rouge">uevents</code> sent out by the kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo udevadm monitor --kernel</code></p>
+
+<ul>
+  <li>Print device events after being processed by <code class="language-plaintext highlighter-rouge">udev</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo udevadm monitor --udev</code></p>
+
+<ul>
+  <li>List attributes of device <code class="language-plaintext highlighter-rouge">/dev/sda</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo udevadm info --attribute-walk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda</span></p>
+
+<ul>
+  <li>Reload all <code class="language-plaintext highlighter-rouge">udev</code> rules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo udevadm control --reload</code></p>
+
+<ul>
+  <li>Trigger all <code class="language-plaintext highlighter-rouge">udev</code> rules to run:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo udevadm trigger</code></p>
+
+<ul>
+  <li>Test an event run by simulating loading of <code class="language-plaintext highlighter-rouge">/dev/sda</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo udevadm test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda</span></p>

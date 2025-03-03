@@ -1,0 +1,23 @@
+<h1 id="podman-login">podman login</h1>
+
+<p>Log in to a container registry.
+Note: the default authfile path on Linux is <code class="language-plaintext highlighter-rouge">$XDG_RUNTIME_DIR/containers/auth.json</code>, which is usually stored in a <code class="language-plaintext highlighter-rouge">tmpfs</code> (in RAM).
+More information: <a href="https://docs.podman.io/en/latest/markdown/podman-login.1.html">https://docs.podman.io/en/latest/markdown/podman-login.1.html</a>.</p>
+
+<ul>
+  <li>Log in to a registry (non-persistent on Linux; persistent on Windows/macOS):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman login </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry.example.org</span></p>
+
+<ul>
+  <li>Log in to a registry persistently on Linux:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman login --authfile $HOME/.config/containers/auth.json </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry.example.org</span></p>
+
+<ul>
+  <li>Log in to an insecure (HTTP) registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman login --tls-verify=false </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry.example.org</span></p>

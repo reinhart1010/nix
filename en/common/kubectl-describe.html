@@ -1,0 +1,34 @@
+<h1 id="kubectl-describe">kubectl describe</h1>
+
+<p>Show details of Kubernetes objects and resources.
+More information: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#describe">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#describe</a>.</p>
+
+<ul>
+  <li>Show details of pods in a [n]amespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl describe pods --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Show details of nodes in a [n]amespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl describe nodes --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Show the details of a specific pod in a [n]amespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl describe pods </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span><code class="language-plaintext highlighter-rouge"> --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Show the details of a specific node in a [n]amespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl describe nodes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_name</span><code class="language-plaintext highlighter-rouge"> --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Show details of Kubernetes objects defined in a YAML manifest [f]ile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl describe --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manifest.yaml</span></p>

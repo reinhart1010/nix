@@ -1,0 +1,40 @@
+<h1 id="tcptraceroute">tcptraceroute</h1>
+
+<p>TCP 패킷을 사용하는 traceroute 구현.
+더 많은 정보: <a href="https://github.com/mct/tcptraceroute">https://github.com/mct/tcptraceroute</a>.</p>
+
+<ul>
+  <li>호스트까지의 경로 추적:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcptraceroute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span></p>
+
+<ul>
+  <li>목적지 포트와 패킷 길이(바이트 단위) 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcptraceroute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">목적지_포트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패킷_길이</span></p>
+
+<ul>
+  <li>로컬 소스 포트와 소스 주소 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcptraceroute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소스_포트</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소스_주소</span></p>
+
+<ul>
+  <li>첫 번째 및 최대 TTL 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcptraceroute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">첫번째_ttl</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">최대_ttl</span></p>
+
+<ul>
+  <li>대기 시간과 홉당 쿼리 수 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcptraceroute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span><code class="language-plaintext highlighter-rouge"> -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대기_시간</span><code class="language-plaintext highlighter-rouge"> -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">쿼리_수</span></p>
+
+<ul>
+  <li>인터페이스 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcptraceroute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인터페이스</span></p>

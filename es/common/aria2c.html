@@ -1,0 +1,53 @@
+<h1 id="aria2c">aria2c</h1>
+
+<p>Utilidad de descarga rápida.
+Soporta HTTP(S), FTP, SFTP, BitTorrent y Metalink.
+Más información: <a href="https://aria2.github.io">https://aria2.github.io</a>.</p>
+
+<ul>
+  <li>Descarga un URI específico a un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Descarga un archivo de una URI con un nombre de salida específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Descarga varios archivos diferentes en paralelo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --force-sequential </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">false</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url1 url2 …</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Descarga el mismo archivo desde diferentes espejos y verifica la suma de comprobación del archivo descargado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --checksum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sha-256</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suma_de_comprobación</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url1</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url2</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">urlN</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Descarga las URI enumeradas en un archivo con un número determinado de descargas paralelas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --input-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span><code class="language-plaintext highlighter-rouge"> --max-concurrent-downloads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_de_descargas</span></p>
+
+<ul>
+  <li>Descarga con varias conexiones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --split </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_de_conexiones</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Descarga a través de FTP con un nombre de usuario y contraseña:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --ftp-user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> --ftp-passwd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Limita la velocidad de descarga en bytes por segundo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --max-download-limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">velocidad</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>

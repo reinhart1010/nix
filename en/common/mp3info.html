@@ -1,0 +1,40 @@
+<h1 id="mp3info">mp3info</h1>
+
+<p>Viewer/editor for ID3v1 (but not ID3v2) tags of MP3 files.
+More information: <a href="https://www.ibiblio.org/mp3info">https://www.ibiblio.org/mp3info</a>.</p>
+
+<ul>
+  <li>Show all ID3v1 tags of a specific MP3 file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mp3info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mp3</span></p>
+
+<ul>
+  <li>Edit ID3v1 tags interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mp3info -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mp3</span></p>
+
+<ul>
+  <li>Set values for ID3v1 tags in a specific MP3 file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mp3info -a "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">artist_name</span><code class="language-plaintext highlighter-rouge">" -t "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">song_title</span><code class="language-plaintext highlighter-rouge">" -l "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">album_title</span><code class="language-plaintext highlighter-rouge">" -y </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">year</span><code class="language-plaintext highlighter-rouge"> -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comment_text</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mp3</span></p>
+
+<ul>
+  <li>Set the number of the track in the album for a specific MP3 file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mp3info -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">track_number</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mp3</span></p>
+
+<ul>
+  <li>Print a list of valid genres and their numeric codes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mp3info -G</code></p>
+
+<ul>
+  <li>Set the music genre for a specific MP3 file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mp3info -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">genre_number</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mp3</span></p>

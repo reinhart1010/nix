@@ -1,0 +1,46 @@
+<h1 id="tr">tr</h1>
+
+<p>Vertaal tekens: voer vervangingen uit op basis van enkele tekens en tekensets.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/tr-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/tr-invocation.html</a>.</p>
+
+<ul>
+  <li>Vervang alle voorkomens van een teken in een bestand en toon het resultaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vind_karakter</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vervang_karakter</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Vervang alle voorkomens van een teken uit de uitvoer van een ander commando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tekst</span><code class="language-plaintext highlighter-rouge"> | tr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vind_karakter</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vervang_karakter</span></p>
+
+<ul>
+  <li>Map elk teken van de eerste set naar het overeenkomstige teken van de tweede set:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tr '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">abcd</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jkmn</span><code class="language-plaintext highlighter-rouge">' &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Verwijder alle voorkomens van de opgegeven set tekens uit de invoer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tr -d '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">invoer_karakters</span><code class="language-plaintext highlighter-rouge">' &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Comprimeer een reeks identieke tekens tot een enkel teken:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tr -s '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">invoer_karakters</span><code class="language-plaintext highlighter-rouge">' &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Vertaal de inhoud van een bestand naar hoofdletters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tr "[:lower:]" "[:upper:]" &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Verwijder niet-afdrukbare tekens uit een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tr -cd "[:print:]" &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>

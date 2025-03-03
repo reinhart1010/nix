@@ -1,0 +1,35 @@
+<h1 id="pdfdetach">pdfdetach</h1>
+
+<p>List or extract attachments (embedded files) from a PDF file.
+See also: <code class="language-plaintext highlighter-rouge">pdfattach</code>, <code class="language-plaintext highlighter-rouge">pdfimages</code>, <code class="language-plaintext highlighter-rouge">pdfinfo</code>.
+More information: <a href="https://manned.org/pdfdetach">https://manned.org/pdfdetach</a>.</p>
+
+<ul>
+  <li>List all attachments in a file with a specific text encoding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfdetach list -enc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UTF-8</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pdf</span></p>
+
+<ul>
+  <li>Save specific embedded file by specifying its number:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfdetach -save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pdf</span></p>
+
+<ul>
+  <li>Save specific embedded file by specifying its name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfdetach -savefile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pdf</span></p>
+
+<ul>
+  <li>Save the embedded file with a custom output filename:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfdetach -save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pdf</span></p>
+
+<ul>
+  <li>Save the attachment from a file secured by owner/user password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfdetach -save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-opw|-upw</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pdf</span></p>

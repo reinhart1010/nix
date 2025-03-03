@@ -1,0 +1,34 @@
+<h1 id="jdeps">jdeps</h1>
+
+<p>Java 类依赖分析器。
+更多信息：<a href="https://docs.oracle.com/en/java/javase/20/docs/specs/man/jdeps.html">https://docs.oracle.com/en/java/javase/20/docs/specs/man/jdeps.html</a>.</p>
+
+<ul>
+  <li>分析 <code class="language-plaintext highlighter-rouge">.jar</code> 或 <code class="language-plaintext highlighter-rouge">.class</code> 文件的依赖关系：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jdeps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件名.class</span></p>
+
+<ul>
+  <li>打印特定 <code class="language-plaintext highlighter-rouge">.jar</code> 文件的所有依赖关系摘要：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jdeps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件名.jar</span><code class="language-plaintext highlighter-rouge"> -summary</code></p>
+
+<ul>
+  <li>打印 <code class="language-plaintext highlighter-rouge">.jar</code> 文件的所有类级依赖关系：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jdeps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件名.jar</span><code class="language-plaintext highlighter-rouge"> -verbose</code></p>
+
+<ul>
+  <li>将分析结果输出为 DOT 文件到指定目录：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jdeps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件名.jar</span><code class="language-plaintext highlighter-rouge"> -dotoutput </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span></p>
+
+<ul>
+  <li>显示帮助信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jdeps --help</code></p>

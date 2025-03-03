@@ -1,0 +1,22 @@
+<h1 id="fsck">fsck</h1>
+
+<p>Controlla l'integrità di un filesystem o lo ripara. Il filesystem non dev'essere montato al momento in cui il comando viene eseguito.
+Maggiori informazioni: <a href="https://manned.org/fsck">https://manned.org/fsck</a>.</p>
+
+<ul>
+  <li>Controlla il filesystem <code class="language-plaintext highlighter-rouge">/dev/sdX</code>, riportando eventuali blocchi danneggiati:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo fsck </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Controlla il filesystem <code class="language-plaintext highlighter-rouge">/dev/sdX</code>, riportando eventuali blocchi danneggiati e per ognuno consente all'utente di scegliere interattivamente se ripararlo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo fsck -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Controlla il filesystem <code class="language-plaintext highlighter-rouge">/dev/sdX</code>, riportando eventuali blocchi danneggiati e riparandoli automaticamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo fsck -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>

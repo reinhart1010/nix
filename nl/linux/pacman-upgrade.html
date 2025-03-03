@@ -1,0 +1,41 @@
+<h1 id="pacman-upgrade">pacman –upgrade</h1>
+
+<p>Arch Linux pakketbeheer hulpprogramma.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Meer informatie: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Installeer een of meerdere pakketten vanuit bestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pakket1.pkg.tar.zst</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pakket2.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Installeer een pakket zonder vragen te stellen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -U --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pakket.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Overschrijf conflicterende bestanden tijdens het installeren van een pakket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -U --overwrite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pakket.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Installeer een pakket en sla de controles van afhankelijkhei[d]sversie over:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Ud </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pakket.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Haal pakketten op en toon ([p]) welke beïnvloed worden door een upgrade (installeert geen pakketten):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Up </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pakket.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Toon de [h]elp:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Uh</code></p>

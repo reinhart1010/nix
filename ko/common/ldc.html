@@ -1,0 +1,34 @@
+<h1 id="ldc">ldc</h1>
+
+<p>LLVM을 백엔드로 사용하는 D 컴파일러.
+더 많은 정보: <a href="https://wiki.dlang.org/Using_LDC">https://wiki.dlang.org/Using_LDC</a>.</p>
+
+<ul>
+  <li>소스 코드 파일을 실행 가능한 바이너리로 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldc2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스.d</span><code class="language-plaintext highlighter-rouge"> -of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_실행파일</span></p>
+
+<ul>
+  <li>소스 코드 파일을 링크하지 않고 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldc2 -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스.d</span></p>
+
+<ul>
+  <li>대상 아키텍처와 OS 선택:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldc -mtriple=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아키텍처_OS</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스.d</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldc2 -h</code></p>
+
+<ul>
+  <li>전체 도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldc2 -help-hidden</code></p>

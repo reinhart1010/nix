@@ -1,0 +1,53 @@
+<h1 id="ssh">ssh</h1>
+
+<p>安全 Shell 是一种用于安全登录远程系统的协议。
+它可用于在远程服务器上记录或执行命令。
+更多信息：<a href="https://man.openbsd.org/ssh">https://man.openbsd.org/ssh</a>.</p>
+
+<ul>
+  <li>连接到远程服务器：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">远程主机地址</span></p>
+
+<ul>
+  <li>使用特定身份（私钥）连接到远程服务器：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/私钥文件</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">远程主机地址</span></p>
+
+<ul>
+  <li>使用指定端口号连接到远程服务器：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">远程主机地址</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">端口号</span></p>
+
+<ul>
+  <li>在具有伪终端分配的远程服务器上运行命令，允许与远程命令进行交互：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">远程主机地址</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令参数</span></p>
+
+<ul>
+  <li>SSH 隧道：动态端口转发（<code class="language-plaintext highlighter-rouge">localhost:1080</code> 上的 SOCKS 代理）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1080</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">远程主机地址</span></p>
+
+<ul>
+  <li>SSH 隧道：转发特定端口（<code class="language-plaintext highlighter-rouge">localhost:9999</code> 到 <code class="language-plaintext highlighter-rouge">example.org:80</code>）以及禁用伪终端分配和远程命令的执行：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9999</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.org</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> -N -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">远程主机地址</span></p>
+
+<ul>
+  <li>SSH 转发：通过跳转主机连接到远程服务器（可以指定多个跳转，以逗号分隔）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh -J </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">跳转主机地址</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">远程主机地址</span></p>
+
+<ul>
+  <li>关闭挂起的会话：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;回车键&gt; ~ .</code></p>

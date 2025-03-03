@@ -1,0 +1,29 @@
+<h1 id="as">as</h1>
+
+<p>Assembler GNU portabile.
+Progettato principalmente per assemblare l'output di <code class="language-plaintext highlighter-rouge">gcc</code> ed utilizzarlo con <code class="language-plaintext highlighter-rouge">ld</code>.
+Maggiori informazioni: <a href="https://keith.github.io/xcode-man-pages/as.1.html">https://keith.github.io/xcode-man-pages/as.1.html</a>.</p>
+
+<ul>
+  <li>Assembla un file, scrivendo l'output su a.out:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.s</span></p>
+
+<ul>
+  <li>Assembla l'output nel file dato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.s</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/out.o</span></p>
+
+<ul>
+  <li>Genera l'output più velocemente saltando gli spazi e senza preprocessare i commenti. (Questo comando dovrebbe essere utilizzato solo con compilatori fidati):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.s</span></p>
+
+<ul>
+  <li>Includi un percorso dato alla lista delle directory in cui cercare i file specificati nelle direttive <code class="language-plaintext highlighter-rouge">.include</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.s</span></p>

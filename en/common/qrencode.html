@@ -1,0 +1,28 @@
+<h1 id="qrencode">qrencode</h1>
+
+<p>QR Code generator. Supports PNG and EPS.
+More information: <a href="https://fukuchi.org/works/qrencode">https://fukuchi.org/works/qrencode</a>.</p>
+
+<ul>
+  <li>Convert a string to a QR code and save to an output file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qrencode -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span></p>
+
+<ul>
+  <li>Convert an input file to a QR code and save to an output file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qrencode -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.png</span><code class="language-plaintext highlighter-rouge"> -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span></p>
+
+<ul>
+  <li>Convert a string to a QR code and print it in terminal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qrencode -t ansiutf8 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span></p>
+
+<ul>
+  <li>Convert input from pipe to a QR code and print it in terminal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge"> | qrencode -t ansiutf8</code></p>

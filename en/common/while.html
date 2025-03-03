@@ -1,0 +1,22 @@
+<h1 id="while">while</h1>
+
+<p>Simple shell loop that repeats while the return value remains zero.
+More information: <a href="https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_09_04_09">https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_09_04_09</a>.</p>
+
+<ul>
+  <li>Read <code class="language-plaintext highlighter-rouge">stdin</code> and perform an action on every line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while read line; do echo "$line"; done</code></p>
+
+<ul>
+  <li>Execute a command forever once every second:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while :; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">; sleep 1; done</code></p>
+
+<ul>
+  <li>Execute a command until it fails:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">; do :; done</code></p>

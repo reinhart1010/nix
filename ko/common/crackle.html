@@ -1,0 +1,22 @@
+<h1 id="crackle">crackle</h1>
+
+<p>BLE(Bluetooth Low Energy) 암호화를 크랙하고 해독.
+더 많은 정보: <a href="https://github.com/mikeryan/crackle">https://github.com/mikeryan/crackle</a>.</p>
+
+<ul>
+  <li>녹음된 BLE 통신에 임시 키(TK)를 복구하는 데 필요한 패킷이 포함되어 있는지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crackle -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.pcap</span></p>
+
+<ul>
+  <li>무차별 대입을 사용해 기록된 페어링 이벤트의 TK를 복구하고 이를 사용하여 모든 후속 통신을 해독:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crackle -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.pcap</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/복호화데이터.pcap</span></p>
+
+<ul>
+  <li>지정된 장기 키 (LTK)를 사용하여 녹음된 통신을 해독:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crackle -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.pcap</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/복호화데이터.pcap</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">81b06facd90fe7a6e9bbd9cee59736a7</span></p>

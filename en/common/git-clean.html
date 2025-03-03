@@ -1,0 +1,40 @@
+<h1 id="git-clean">git clean</h1>
+
+<p>Remove files not tracked by Git from the working tree.
+More information: <a href="https://git-scm.com/docs/git-clean">https://git-scm.com/docs/git-clean</a>.</p>
+
+<ul>
+  <li>Delete untracked files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean</code></p>
+
+<ul>
+  <li>Interactively delete untracked files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–interactive</span></p>
+
+<ul>
+  <li>Show which files would be deleted without actually deleting them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean --dry-run</code></p>
+
+<ul>
+  <li>Forcefully delete untracked files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–force</span></p>
+
+<ul>
+  <li>Forcefully delete untracked [d]irectories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–force</span><code class="language-plaintext highlighter-rouge"> -d</code></p>
+
+<ul>
+  <li>Delete untracked files, including e[x]cluded files (files ignored in <code class="language-plaintext highlighter-rouge">.gitignore</code> and <code class="language-plaintext highlighter-rouge">.git/info/exclude</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean -x</code></p>

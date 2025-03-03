@@ -1,0 +1,40 @@
+<h1 id="dotnet-publish">dotnet publish</h1>
+
+<p>Публикует .NET-приложение и его зависимости в папку для развёртываения на целевой системе.
+Больше информации: <a href="https://learn.microsoft.com/dotnet/core/tools/dotnet-publish">https://learn.microsoft.com/dotnet/core/tools/dotnet-publish</a>.</p>
+
+<ul>
+  <li>Скомпилировать проект .NET в режиме release:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet publish --configuration Release </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла_проекта</span></p>
+
+<ul>
+  <li>Опубликовать ваше приложение с заданной средой исполнения .NET Core:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet publish --self-contained true --runtime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">идентификатор_среды_исполения</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла_проекта</span></p>
+
+<ul>
+  <li>Упаковать приложение в один исполняемый файл для заданной платформы:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet publish --runtime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">идентификатор_среды_исполения</span><code class="language-plaintext highlighter-rouge"> -p:PublishSingleFile=true </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла_проекта</span></p>
+
+<ul>
+  <li>Обрезать неиспользуемые библиотеки чтобы уменьшить размер развёртывания приложения:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet publish --self-contained true --runtime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">идентификатор_среды_исполения</span><code class="language-plaintext highlighter-rouge"> -p:PublishTrimmed=true </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла_проекта</span></p>
+
+<ul>
+  <li>Скомпилировать проект .NET без восстановления зависимостей:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet publish --no-restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла_проекта</span></p>
+
+<ul>
+  <li>Указать целевую папку:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet publish --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/папки</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла_проекта</span></p>

@@ -1,0 +1,53 @@
+<h1 id="pacman-key">pacman-key</h1>
+
+<p>Script enrobeur pour GnuPG utilisé pour gérer le trousseau de clés de pacman.
+Voir aussi: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Plus d'informations : <a href="https://manned.org/pacman-key">https://manned.org/pacman-key</a>.</p>
+
+<ul>
+  <li>Initialise le trousseau de clés de pacman :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-key --init</code></p>
+
+<ul>
+  <li>Ajoute les clés par défaut pour Arch Linux :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-key --populate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archlinux</span></p>
+
+<ul>
+  <li>Liste les clés publiques du trousseau de clés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman-key --list-keys</code></p>
+
+<ul>
+  <li>Ajoute les clés contenues dans le fichier spécifié :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-key --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Reçois une clé depuis un serveur de clés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-key --recv-keys "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uid|nom|email</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Affiche l'empreinte d'une clé du trousseau de clés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman-key --finger "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uid|nom|email</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Signe, localement, une clé du trousseau de clés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-key --lsign-key "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uid|nom|email</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Supprime une clé :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-key --delete "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uid|nom|email</span><code class="language-plaintext highlighter-rouge">"</code></p>

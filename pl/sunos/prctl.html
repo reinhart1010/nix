@@ -1,0 +1,22 @@
+<h1 id="prctl">prctl</h1>
+
+<p>Pobieraj lub ustawiaj kontrolę zasobów uruchomionych procesów, zadań i projektów.
+Więcej informacji: <a href="https://www.unix.com/man-page/sunos/1/prctl">https://www.unix.com/man-page/sunos/1/prctl</a>.</p>
+
+<ul>
+  <li>Sprawdź limity procesów i uprawnienia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Sprawdź limity procesów i uprawnienia w formacie przetwarzalnym przez maszynę:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prctl -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Uzyskaj określony limit dla uruchomionego procesu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prctl -n process.max-file-descriptor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>

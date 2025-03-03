@@ -1,0 +1,34 @@
+<h1 id="adig">adig</h1>
+
+<p>Print information received from Domain Name System (DNS) servers.
+More information: <a href="https://manned.org/adig">https://manned.org/adig</a>.</p>
+
+<ul>
+  <li>Display A (default) record from DNS for hostname(s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Display extra [d]ebugging output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adig -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Connect to a specific DNS [s]erver:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adig -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.2.3.4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Use a specific TCP port to connect to a DNS server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adig -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Use a specific UDP port to connect to a DNS server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adig -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>

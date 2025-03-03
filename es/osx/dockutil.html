@@ -1,0 +1,46 @@
+<h1 id="dockutil">dockutil</h1>
+
+<p>Gestiona los elementos del dock de macOS.
+Más información: <a href="https://github.com/kcrawford/dockutil">https://github.com/kcrawford/dockutil</a>.</p>
+
+<ul>
+  <li>Añade una aplicación al final del dock del usuario actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/aplicación</span></p>
+
+<ul>
+  <li>Reemplaza una aplicación por otra en el dock del usuario actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/aplicación</span><code class="language-plaintext highlighter-rouge"> --replacing '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiqueta_de_elemento_del_dock</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Añade un directorio con opciones de visualización y lo muestra como un icono de carpeta o pila:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/al/directorio</span><code class="language-plaintext highlighter-rouge"> --view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grill|fan|list|auto</span><code class="language-plaintext highlighter-rouge"> --display </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">folder|stack</span></p>
+
+<ul>
+  <li>Añade la URL de un elemento del dock después de otro elemento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vnc://ejemplo_servidor.local</span><code class="language-plaintext highlighter-rouge"> --label '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VNC de ejemplo</span><code class="language-plaintext highlighter-rouge">' --after </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiqueta_de_elemento_del_dock</span></p>
+
+<ul>
+  <li>Elimina una aplicación del dock dado su nombre de etiqueta en el dock:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --remove '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiqueta_de_elemento_del_dock</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Añade un espaciador en una sección después de una aplicación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --add '' --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">spacer|small-spacer|flex-spacer</span><code class="language-plaintext highlighter-rouge"> --section </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apps</span><code class="language-plaintext highlighter-rouge"> --after </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiqueta_de_elemento_del_dock</span></p>
+
+<ul>
+  <li>Elimina todos los elementos espaciadores:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --remove spacer-tiles</code></p>

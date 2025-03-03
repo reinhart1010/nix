@@ -1,0 +1,28 @@
+<h1 id="phpquery">phpquery</h1>
+
+<p>PHP extension manager for Debian-based OSes.
+More information: <a href="https://helpmanual.io/help/phpquery/">https://helpmanual.io/help/phpquery/</a>.</p>
+
+<ul>
+  <li>List available PHP versions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo phpquery -V</code></p>
+
+<ul>
+  <li>List available SAPIs for PHP 7.3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo phpquery -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7.3</span><code class="language-plaintext highlighter-rouge"> -S</code></p>
+
+<ul>
+  <li>List enabled extensions for PHP 7.3 with the cli SAPI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo phpquery -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7.3</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cli</span><code class="language-plaintext highlighter-rouge"> -M</code></p>
+
+<ul>
+  <li>Check if the JSON extension is enabled for PHP 7.3 with the apache2 SAPI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo phpquery -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7.3</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apache2</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json</span></p>

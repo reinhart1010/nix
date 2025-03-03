@@ -1,0 +1,35 @@
+<h1 id="mkosi">mkosi</h1>
+
+<p>Build modern, legacy-free Linux images.
+Part of <code class="language-plaintext highlighter-rouge">systemd</code>.
+More information: <a href="https://manned.org/mkosi">https://manned.org/mkosi</a>.</p>
+
+<ul>
+  <li>Show current build configuration to verify what would be built:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkosi summary</code></p>
+
+<ul>
+  <li>Build an image with default settings (if no distribution is selected, the distribution of the host system is used):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkosi build --distribution </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora|debian|ubuntu|arch|opensuse|…</span></p>
+
+<ul>
+  <li>Build an image and run an interactive shell in a systemd-nspawn container of the image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkosi shell</code></p>
+
+<ul>
+  <li>Boot an image in a virtual machine using QEMU (only supported for disk images or CPIO images when a kernel is provided):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkosi qemu</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkosi help</code></p>

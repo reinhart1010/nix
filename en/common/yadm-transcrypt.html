@@ -1,0 +1,36 @@
+<h1 id="yadm-transcrypt">yadm-transcrypt</h1>
+
+<p>If <code class="language-plaintext highlighter-rouge">transcrypt</code> is installed, this command allows you to pass options directly to <code class="language-plaintext highlighter-rouge">transcrypt</code>.
+With the environment configured to use the yadm repository.
+Transcrypt enables transparent encryption and decryption of files in a Git repository.
+More information: <a href="https://github.com/elasticdog/transcrypt">https://github.com/elasticdog/transcrypt</a>.</p>
+
+<ul>
+  <li>Set the symmetric cipher to utilize for encryption:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yadm transcrypt --cipher=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cipher</span></p>
+
+<ul>
+  <li>Pass the password to derive the key from:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yadm transcrypt --password=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Assume yes and accept defaults for non-specified options:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yadm transcrypt --yes</code></p>
+
+<ul>
+  <li>Display the current repository's cipher and password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yadm transcrypt --display</code></p>
+
+<ul>
+  <li>Re -encrypt all encrypted files using new credentials:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yadm transcrypt --rekey</code></p>

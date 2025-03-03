@@ -1,0 +1,35 @@
+<h1 id="onionsearch">onionsearch</h1>
+
+<p>다양한 <code class="language-plaintext highlighter-rouge">.onion</code> 검색 엔진에서 URL을 스크랩.
+참고: <code class="language-plaintext highlighter-rouge">onionsearch</code>는 <code class="language-plaintext highlighter-rouge">localhost:9050</code>에서 실행되는 Tor 프록시가 필요하며, <code class="language-plaintext highlighter-rouge">.onion</code> 웹사이트를 방문하려면 Tor 지원 브라우저가 필요합니다.
+더 많은 정보: <a href="https://github.com/megadose/OnionSearch">https://github.com/megadose/OnionSearch</a>.</p>
+
+<ul>
+  <li>모든 검색 엔진에서 결과 요청:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">onionsearch "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 검색 엔진에서 검색 결과 요청:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">onionsearch "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge">" --engines </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tor66 deeplink phobos …</span></p>
+
+<ul>
+  <li>검색 시 특정 검색 엔진 제외:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">onionsearch "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge">" --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">candle ahmia …</span></p>
+
+<ul>
+  <li>엔진당 로드할 페이지 수 제한:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">onionsearch "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stuxnet</span><code class="language-plaintext highlighter-rouge">" --engines </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tor66 deeplink phobos …</span><code class="language-plaintext highlighter-rouge"> --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>지원되는 모든 검색 엔진 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">onionsearch --help | grep -A1 -i "supported engines"</code></p>

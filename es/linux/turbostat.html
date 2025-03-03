@@ -1,0 +1,34 @@
+<h1 id="turbostat">turbostat</h1>
+
+<p>Informa de la topología del procesador, frecuencia, temperatura, potencia y estadísticas de inactividad.
+Más información: <a href="https://manned.org/turbostat.8">https://manned.org/turbostat.8</a>.</p>
+
+<ul>
+  <li>Muestra las estadísticas cada cinco segundos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo turbostat</code></p>
+
+<ul>
+  <li>Muestra las estadísticas cada cierto número de segundos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo turbostat -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n_segundos</span></p>
+
+<ul>
+  <li>Muestra información sin decodificar ni imprimir la cabecera de configuración del sistema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo turbostat --quiet</code></p>
+
+<ul>
+  <li>Muestra información útil sobre el CPU cada segundo, sin información de cabecera:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo turbostat --quiet --interval 1 --cpu 0-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cuenta_hilos_CPU</span><code class="language-plaintext highlighter-rouge"> --show "PkgWatt","Busy%","Core","CoreTmp","Thermal"</code></p>
+
+<ul>
+  <li>Muestra ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">turbostat --help</code></p>

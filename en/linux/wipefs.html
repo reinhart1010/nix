@@ -1,0 +1,34 @@
+<h1 id="wipefs">wipefs</h1>
+
+<p>Wipe filesystem, raid, or partition-table signatures from a device.
+More information: <a href="https://manned.org/wipefs">https://manned.org/wipefs</a>.</p>
+
+<ul>
+  <li>Display signatures for specified device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo wipefs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Wipe all available signature types for a specific device with no recursion into partitions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo wipefs --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Wipe all available signature types for the device and partitions using a glob pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo wipefs --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span><code class="language-plaintext highlighter-rouge">*</code></p>
+
+<ul>
+  <li>Perform dry run:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo wipefs --all --no-act </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Force wipe, even if the filesystem is mounted:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo wipefs --all --force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>

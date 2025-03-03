@@ -1,0 +1,28 @@
+<h1 id="lshw">lshw</h1>
+
+<p>List detailed information about hardware configurations as root user.
+More information: <a href="https://manned.org/lshw">https://manned.org/lshw</a>.</p>
+
+<ul>
+  <li>Launch the GUI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lshw -X</code></p>
+
+<ul>
+  <li>List all hardware in tabular format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lshw -short</code></p>
+
+<ul>
+  <li>List all disks and storage controllers in tabular format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lshw -class disk -class storage -short</code></p>
+
+<ul>
+  <li>Save all network interfaces to an HTML file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lshw -class network -html &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interfaces.html</span></p>

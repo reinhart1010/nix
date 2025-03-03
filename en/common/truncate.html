@@ -1,0 +1,34 @@
+<h1 id="truncate">truncate</h1>
+
+<p>Shrink or extend the size of a file to the specified size.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/truncate-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/truncate-invocation.html</a>.</p>
+
+<ul>
+  <li>Set a size of 10 GB to an existing file, or create a new file with the specified size:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truncate --size 10G </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Extend the file size by 50 MiB, fill with holes (which reads as zero bytes):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truncate --size +50M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Shrink the file by 2 GiB, by removing data from the end of file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truncate --size -2G </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Empty the file's content:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truncate --size 0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Empty the file's content, but do not create the file if it does not exist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truncate --no-create --size 0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

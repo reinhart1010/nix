@@ -1,0 +1,34 @@
+<h1 id="semver">semver</h1>
+
+<p>Semantic version string parser.
+More information: <a href="https://github.com/npm/node-semver">https://github.com/npm/node-semver</a>.</p>
+
+<ul>
+  <li>Check if a version string respects the semantic versioning format (prints an empty string if it does not match):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">semver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.2</span></p>
+
+<ul>
+  <li>Convert a version string to the semantic versioning format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">semver --coerce </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.2</span></p>
+
+<ul>
+  <li>Test if <code class="language-plaintext highlighter-rouge">1.2.3</code> matches the <code class="language-plaintext highlighter-rouge">^1.0</code> range (prints an empty string if it does not match):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">semver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.2.3</span><code class="language-plaintext highlighter-rouge"> --range "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^1.0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Test with multiple ranges:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">semver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.2.3</span><code class="language-plaintext highlighter-rouge"> --range "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">&gt;=1.0</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">&lt;2.0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Test multiple version strings and return only the ones that match:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">semver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.2.3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2.0.0</span><code class="language-plaintext highlighter-rouge"> --range "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^1.0</span><code class="language-plaintext highlighter-rouge">"</code></p>

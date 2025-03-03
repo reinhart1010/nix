@@ -1,0 +1,35 @@
+<h1 id="az-tag">az tag</h1>
+
+<p>Administra etiquetas en un recurso de Azure.
+Parte de <code class="language-plaintext highlighter-rouge">azure-cli</code> (también conocido como <code class="language-plaintext highlighter-rouge">az</code>).
+Más información: <a href="https://learn.microsoft.com/cli/azure/tag">https://learn.microsoft.com/cli/azure/tag</a>.</p>
+
+<ul>
+  <li>Crea un valor de etiqueta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az tag add-value --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_etiqueta</span><code class="language-plaintext highlighter-rouge"> --value </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor_de_etiqueta</span></p>
+
+<ul>
+  <li>Crea una etiqueta en la suscripción:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az tag create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_etiqueta</span></p>
+
+<ul>
+  <li>Elimina una etiqueta de la suscripción:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az tag delete --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_etiqueta</span></p>
+
+<ul>
+  <li>Enumera todas las etiquetas de una suscripción:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az tag list --resource-id /subscriptions/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_subscripción</span></p>
+
+<ul>
+  <li>Elimina un valor de etiqueta para un nombre de etiqueta específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az tag remove-value --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_etiqueta</span><code class="language-plaintext highlighter-rouge"> --value </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor_de_etiqueta</span></p>

@@ -1,0 +1,40 @@
+<h1 id="uv-tree">uv tree</h1>
+
+<p>Display project dependencies in a tree format.
+More information: <a href="https://docs.astral.sh/uv/reference/cli/#uv-tree">https://docs.astral.sh/uv/reference/cli/#uv-tree</a>.</p>
+
+<ul>
+  <li>Show dependency tree for current environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uv tree</code></p>
+
+<ul>
+  <li>Show dependency tree for all environments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uv tree --universal</code></p>
+
+<ul>
+  <li>Show dependency tree up to a certain depth:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uv tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–depth</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span></p>
+
+<ul>
+  <li>Show the latest available version for all outdated packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uv tree --outdated</code></p>
+
+<ul>
+  <li>Exclude dependencies from the dev group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uv tree --no-dev</code></p>
+
+<ul>
+  <li>Show the inverted tree, so children are dependents instead of dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uv tree --invert</code></p>

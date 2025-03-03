@@ -1,0 +1,35 @@
+<h1 id="sed">sed</h1>
+
+<p>Edit text in a scriptable manner.
+See also: <code class="language-plaintext highlighter-rouge">awk</code>, <code class="language-plaintext highlighter-rouge">ed</code>.
+More information: <a href="https://keith.github.io/xcode-man-pages/sed.1.html">https://keith.github.io/xcode-man-pages/sed.1.html</a>.</p>
+
+<ul>
+  <li>Replace all <code class="language-plaintext highlighter-rouge">apple</code> (basic regex) occurrences with <code class="language-plaintext highlighter-rouge">mango</code> (basic regex) in all input lines and print the result to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | sed 's/apple/mango/g'</code></p>
+
+<ul>
+  <li>Execute a specific script [f]ile and print the result to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | sed -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script_file.sed</span></p>
+
+<ul>
+  <li>Replace all <code class="language-plaintext highlighter-rouge">apple</code> (extended regex) occurrences with <code class="language-plaintext highlighter-rouge">APPLE</code> (extended regex) in all input lines and print the result to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | sed -E 's/(apple)/\U\1/g'</code></p>
+
+<ul>
+  <li>Print just a first line to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | sed -n '1p'</code></p>
+
+<ul>
+  <li>Replace all <code class="language-plaintext highlighter-rouge">apple</code> (basic regex) occurrences with <code class="language-plaintext highlighter-rouge">mango</code> (basic regex) in a <code class="language-plaintext highlighter-rouge">file</code> and save a backup of the original to <code class="language-plaintext highlighter-rouge">file.bak</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed -i bak 's/apple/mango/g' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

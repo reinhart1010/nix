@@ -1,0 +1,41 @@
+<h1 id="linode-cli-volumes">linode-cli volumes</h1>
+
+<p>Linode 볼륨 관리.
+같이 보기: <code class="language-plaintext highlighter-rouge">linode-cli</code>.
+더 많은 정보: <a href="https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-block-storage-volumes">https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-block-storage-volumes</a>.</p>
+
+<ul>
+  <li>현재 볼륨 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli volumes list</code></p>
+
+<ul>
+  <li>새 볼륨 생성 및 특정 Linode에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli volumes create --label </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">볼륨_레이블</span><code class="language-plaintext highlighter-rouge"> --size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">크기_GB</span><code class="language-plaintext highlighter-rouge"> --linode-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linode_id</span></p>
+
+<ul>
+  <li>특정 Linode에 볼륨 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli volumes attach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">볼륨_id</span><code class="language-plaintext highlighter-rouge"> --linode-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linode_id</span></p>
+
+<ul>
+  <li>Linode에서 볼륨 분리:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli volumes detach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">볼륨_id</span></p>
+
+<ul>
+  <li>볼륨 크기 조정 (참고: 크기만 증가 가능):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli volumes resize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">볼륨_id</span><code class="language-plaintext highlighter-rouge"> --size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_크기_GB</span></p>
+
+<ul>
+  <li>볼륨 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli volumes delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">볼륨_id</span></p>

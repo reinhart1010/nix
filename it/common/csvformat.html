@@ -1,0 +1,35 @@
+<h1 id="csvformat">csvformat</h1>
+
+<p>Converti un file CSV in un formato di output personalizzato.
+Incluso in csvkit.
+Maggiori informazioni: <a href="https://csvkit.readthedocs.io/en/latest/scripts/csvformat.html">https://csvkit.readthedocs.io/en/latest/scripts/csvformat.html</a>.</p>
+
+<ul>
+  <li>Converti in un file delimitato da tab (TSV):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvformat -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dati.csv</span></p>
+
+<ul>
+  <li>Converti i delimitatori in un carattere personalizzato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvformat -D "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">carattere_personalizzato</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dati.csv</span></p>
+
+<ul>
+  <li>Converti caratteri newline a carriage return (^M) + newline:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvformat -M "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\r\n</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dati.csv</span></p>
+
+<ul>
+  <li>Minimizza l'utilizzo delle virgolette:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvformat -U 0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dati.csv</span></p>
+
+<ul>
+  <li>Massimizza l'utilizzo delle virgolette:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvformat -U 1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dati.csv</span></p>

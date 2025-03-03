@@ -1,0 +1,28 @@
+<h1 id="chgrp">chgrp</h1>
+
+<p>Cambia il gruppo proprietario di file e directory.
+Maggiori informazioni: <a href="https://www.gnu.org/software/coreutils/manual/html_node/chgrp-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/chgrp-invocation.html</a>.</p>
+
+<ul>
+  <li>Cambia il gruppo proprietario di un file/directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chgrp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gruppo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>
+
+<ul>
+  <li>Cambia ricorsivamente il gruppo proprietario di una directory e dei suoi contenuti:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chgrp -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gruppo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span></p>
+
+<ul>
+  <li>Cambia il gruppo proprietario di un link simbolico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chgrp -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gruppo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/symlink</span></p>
+
+<ul>
+  <li>Cambia il gruppo proprietario di un file/directory rendendolo uguale a quello di un altro file di riferimento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chgrp --reference </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_riferimento</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>

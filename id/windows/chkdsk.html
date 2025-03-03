@@ -1,0 +1,28 @@
+<h1 id="chkdsk">chkdsk</h1>
+
+<p>Periksa kesalahan dalam sistem file dan metadata volume penyimpanan.
+Informasi lebih lanjut: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/chkdsk">https://learn.microsoft.com/windows-server/administration/windows-commands/chkdsk</a>.</p>
+
+<ul>
+  <li>Periksa sebuah ruang penyimpanan berdasarkan huruf drive (diakhiri dengan titik dua), lokasi pemasangan, atau nama ruang:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkdsk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruang_penyimpanan</span></p>
+
+<ul>
+  <li>Perbaiki kesalahan pada ruang penyimpanan yang ditentukan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkdsk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruang_penyimpanan</span><code class="language-plaintext highlighter-rouge"> /f</code></p>
+
+<ul>
+  <li>Lepaskan ruang penyimpanan tertentu untuk pemeriksaan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkdsk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruang_penyimpanan</span><code class="language-plaintext highlighter-rouge"> /x</code></p>
+
+<ul>
+  <li>Ubah ukuran file log dalam sebuah ruang penyimpanan dengan sistem file NTFS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkdsk /l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ukuran</span></p>

@@ -1,0 +1,28 @@
+<h1 id="pnmcrop">pnmcrop</h1>
+
+<p>PNM 이미지 자르기.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/pnmcrop.html">https://netpbm.sourceforge.net/doc/pnmcrop.html</a>.</p>
+
+<ul>
+  <li>PNM 이미지의 흰색 테두리 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmcrop -white </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pnm</span></p>
+
+<ul>
+  <li>지정한 색상의 상단 및 왼쪽 테두리 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmcrop -bg-color </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">색상</span><code class="language-plaintext highlighter-rouge"> -top -left </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pnm</span></p>
+
+<ul>
+  <li>지정한 코너의 픽셀 색상으로 제거할 테두리 색상 결정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmcrop -bg-corner </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topleft|topright|bottomleft|bottomright</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pnm</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">n</code> 픽셀 너비의 테두리를 남김. 또한, 이미지가 배경으로만 이루어진 경우의 동작 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmcrop -margins </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> -blank-image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pass|minimize|maxcrop</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pnm</span></p>

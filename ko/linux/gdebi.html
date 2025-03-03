@@ -1,0 +1,34 @@
+<h1 id="gdebi">gdebi</h1>
+
+<p><code class="language-plaintext highlighter-rouge">.deb</code> 파일을 쉽게 설치합니다.
+더 많은 정보: <a href="https://www.commandlinux.com/man-page/man1/gdebi.1.html">https://www.commandlinux.com/man-page/man1/gdebi.1.html</a>.</p>
+
+<ul>
+  <li>로컬 <code class="language-plaintext highlighter-rouge">.deb</code> 패키지를 설치하고 의존성을 해결하여 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdebi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/패키지.deb</span></p>
+
+<ul>
+  <li>진행 정보를 표시하지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdebi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/패키지.deb</span><code class="language-plaintext highlighter-rouge"> --quiet</code></p>
+
+<ul>
+  <li>APT 구성 옵션 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdebi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/패키지.deb</span><code class="language-plaintext highlighter-rouge"> --option=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">APT_옵션</span></p>
+
+<ul>
+  <li>대체 루트 디렉토리 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdebi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/패키지.deb</span><code class="language-plaintext highlighter-rouge"> --root=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/루트_폴더</span></p>
+
+<ul>
+  <li>버전 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdebi --version</code></p>

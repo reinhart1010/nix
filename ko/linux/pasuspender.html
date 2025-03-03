@@ -1,0 +1,10 @@
+<h1 id="pasuspender">pasuspender</h1>
+
+<p>다른 명령이 실행되는 동안 <code class="language-plaintext highlighter-rouge">pulseaudio</code>를 일시 중지하여 alsa에 접근할 수 있도록 합니다.
+더 많은 정보: <a href="https://manned.org/pasuspender">https://manned.org/pasuspender</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">jackd</code>를 실행하는 동안 PulseAudio 일시 중지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pasuspender -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jackd -d alsa –device hw:0</span></p>

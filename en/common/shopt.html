@@ -1,0 +1,35 @@
+<h1 id="shopt">shopt</h1>
+
+<p>Manage Bash shell options: variables (stored in <code class="language-plaintext highlighter-rouge">$BASHOPTS</code>) that control behavior specific to the Bash shell.
+Generic POSIX shell variables (stored in <code class="language-plaintext highlighter-rouge">$SHELLOPTS</code>) are managed with the <code class="language-plaintext highlighter-rouge">set</code> command instead.
+More information: <a href="https://www.gnu.org/software/bash/manual/html_node/The-Shopt-Builtin.html">https://www.gnu.org/software/bash/manual/html_node/The-Shopt-Builtin.html</a>.</p>
+
+<ul>
+  <li>List of all settable options and whether they are set:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shopt</code></p>
+
+<ul>
+  <li>Set an option:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shopt -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">option_name</span></p>
+
+<ul>
+  <li>Unset an option:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shopt -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">option_name</span></p>
+
+<ul>
+  <li>Print a list of all options and their status formatted as runnable <code class="language-plaintext highlighter-rouge">shopt</code> commands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shopt -p</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">help shopt</code></p>

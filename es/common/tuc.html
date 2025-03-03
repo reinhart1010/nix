@@ -1,0 +1,35 @@
+<h1 id="tuc">tuc</h1>
+
+<p>Corta texto (o bytes) donde coincida un delimitador, luego conserva las partes deseadas.
+Una versión más fácil de usar y potente de <code class="language-plaintext highlighter-rouge">cut</code> con valores por defecto sensibles.
+Más información: <a href="https://github.com/riquito/tuc">https://github.com/riquito/tuc</a>.</p>
+
+<ul>
+  <li>Corta y reorganiza campos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "foo bar baz" | tuc -d '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"> </span><code class="language-plaintext highlighter-rouge">' -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3,2,1</span></p>
+
+<ul>
+  <li>Sustituye el delimitador <code class="language-plaintext highlighter-rouge">space</code> por una flecha:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "foo bar baz" | tuc -d ' ' -r ' ➡ '</code></p>
+
+<ul>
+  <li>Mantiene un rango de campos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "foo bar baz" | tuc -d ' ' -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2:</span></p>
+
+<ul>
+  <li>Corta usando expresiones regulares:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "a,b, c" | tuc -e '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[, ]+</span><code class="language-plaintext highlighter-rouge">' -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,3</span></p>
+
+<ul>
+  <li>Genera salida JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "foo bar baz" | tuc -d '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"> </span><code class="language-plaintext highlighter-rouge">' --json</code></p>

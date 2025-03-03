@@ -1,0 +1,29 @@
+<h1 id="az-storage-container">az storage container</h1>
+
+<p>Manage blob storage containers in Azure.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/storage/container">https://learn.microsoft.com/cli/azure/storage/container</a>.</p>
+
+<ul>
+  <li>Create a container in a storage account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage container create --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> --public-access </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">access_level</span><code class="language-plaintext highlighter-rouge"> --fail-on-exist</code></p>
+
+<ul>
+  <li>Generate a shared access signature for the container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage container generate-sas --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> --permissions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sas_permissions</span><code class="language-plaintext highlighter-rouge"> --expiry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expiry_date</span><code class="language-plaintext highlighter-rouge"> --https-only</code></p>
+
+<ul>
+  <li>List containers in a storage account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage container list --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge"> --prefix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filter_prefix</span></p>
+
+<ul>
+  <li>Mark the specified container for deletion:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage container delete --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> --fail-not-exist</code></p>

@@ -1,0 +1,40 @@
+<h1 id="xsv">xsv</h1>
+
+<p>A CSV command-line toolkit written in Rust.
+More information: <a href="https://github.com/BurntSushi/xsv">https://github.com/BurntSushi/xsv</a>.</p>
+
+<ul>
+  <li>Inspect the headers of a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsv headers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csv</span></p>
+
+<ul>
+  <li>Count the number of entries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsv count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csv</span></p>
+
+<ul>
+  <li>Get an overview of the shape of entries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsv stats </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csv</span><code class="language-plaintext highlighter-rouge"> | xsv table</code></p>
+
+<ul>
+  <li>Select a few columns:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsv select </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column1,column2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csv</span></p>
+
+<ul>
+  <li>Show 10 random entries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsv sample </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csv</span></p>
+
+<ul>
+  <li>Join a column from one file to another:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsv join --no-case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.csv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.csv</span><code class="language-plaintext highlighter-rouge"> | xsv table</code></p>

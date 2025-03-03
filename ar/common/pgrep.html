@@ -1,0 +1,22 @@
+<h1 id="pgrep">pgrep</h1>
+
+<p>البحث عن العمليات أو إرسال إشارات إليها باستخدام الاسم.
+لمزيد من التفاصيل: <a href="https://www.manned.org/pgrep">https://www.manned.org/pgrep</a>.</p>
+
+<ul>
+  <li>عرض معرّفات العمليات (PIDs) لأي عمليات جارية تتطابق مع اسم العملية:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pgrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span></p>
+
+<ul>
+  <li>البحث عن العمليات مع الخيارات المستخدمة في سطر الأوامر:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pgrep --full "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parameter</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>البحث عن العمليات التي يتم تشغيلها بواسطة مستخدم معين:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pgrep --euid root </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span></p>

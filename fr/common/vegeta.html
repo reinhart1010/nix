@@ -1,0 +1,41 @@
+<h1 id="vegeta">vegeta</h1>
+
+<p>Un utilitaire de ligne de commande et une bibliothèque pour les tests de charge HTTP.
+Voir aussi <code class="language-plaintext highlighter-rouge">ab</code>.
+Plus d'informations : <a href="https://github.com/tsenart/vegeta">https://github.com/tsenart/vegeta</a>.</p>
+
+<ul>
+  <li>Lancer une attaque d'une durée de 30 secondes :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET https://exemple.com</span><code class="language-plaintext highlighter-rouge">" | vegeta attack -duration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30s</span></p>
+
+<ul>
+  <li>Lancez une attaque sur un serveur avec un certificat HTTPS auto-signé :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET https://exemple.com</span><code class="language-plaintext highlighter-rouge">" | vegeta attack -insecure -duration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30s</span></p>
+
+<ul>
+  <li>Lancer une attaque avec un taux de 10 demandes par seconde :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET https://exemple.com</span><code class="language-plaintext highlighter-rouge">" | vegeta attack -duration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30s</span><code class="language-plaintext highlighter-rouge"> -rate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Lancer une attaque et afficher un rapport :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET https://exemple.com</span><code class="language-plaintext highlighter-rouge">" | vegeta attack -duration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30s</span><code class="language-plaintext highlighter-rouge"> | vegeta report</code></p>
+
+<ul>
+  <li>Lancer une attaque et reporter les résultats sur un graphique (latence en fonction du temps) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET https://exemple.com</span><code class="language-plaintext highlighter-rouge">" | vegeta attack -duration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30s</span><code class="language-plaintext highlighter-rouge"> | vegeta plot &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/au/results.html</span></p>
+
+<ul>
+  <li>Lancer une attaque contre plusieurs URL à partir d'un fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vegeta attack -duration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30s</span><code class="language-plaintext highlighter-rouge"> -targets=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">requetes.txt</span><code class="language-plaintext highlighter-rouge"> | vegeta report</code></p>

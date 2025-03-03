@@ -1,0 +1,40 @@
+<h1 id="pdfcrop">pdfcrop</h1>
+
+<p>PDF 파일의 각 페이지에서 여백을 감지하고 제거.
+더 많은 정보: <a href="https://github.com/ho-tex/pdfcrop">https://github.com/ho-tex/pdfcrop</a>.</p>
+
+<ul>
+  <li>PDF 파일의 각 페이지에서 여백을 자동으로 감지하고 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfcrop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.pdf</span></p>
+
+<ul>
+  <li>각 페이지의 여백을 특정 값으로 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfcrop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.pdf</span><code class="language-plaintext highlighter-rouge"> --margins '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">왼쪽</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">위쪽</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">오른쪽</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아래쪽</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.pdf</span></p>
+
+<ul>
+  <li>각 페이지의 여백을 동일한 값으로 설정 (왼쪽, 위쪽, 오른쪽, 아래쪽 모두 동일):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfcrop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.pdf</span><code class="language-plaintext highlighter-rouge"> --margins </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.pdf</span></p>
+
+<ul>
+  <li>자동 감지 대신 사용자 정의 경계 상자를 사용하여 자르기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfcrop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.pdf</span><code class="language-plaintext highlighter-rouge"> --bbox '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">왼쪽</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">위쪽</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">오른쪽</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아래쪽</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.pdf</span></p>
+
+<ul>
+  <li>홀수 및 짝수 페이지에 대해 다른 사용자 정의 경계 상자 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfcrop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.pdf</span><code class="language-plaintext highlighter-rouge"> --bbox-odd '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">왼쪽</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">위쪽</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">오른쪽</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아래쪽</span><code class="language-plaintext highlighter-rouge">' --bbox-even '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">왼쪽</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">위쪽</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">오른쪽</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아래쪽</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.pdf</span></p>
+
+<ul>
+  <li>성능 향상을 위해 낮은 해상도로 여백 자동 감지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfcrop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.pdf</span><code class="language-plaintext highlighter-rouge"> --resolution </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">72</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.pdf</span></p>

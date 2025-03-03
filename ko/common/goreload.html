@@ -1,0 +1,22 @@
+<h1 id="goreload">goreload</h1>
+
+<p>Go 프로그램용 라이브 리로드 유틸리티.
+더 많은 정보: <a href="https://github.com/acoshift/goreload">https://github.com/acoshift/goreload</a>.</p>
+
+<ul>
+  <li>바이너리 파일 보기 (기본값은 <code class="language-plaintext highlighter-rouge">.goreload</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">goreload -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/바이너리</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.go</span></p>
+
+<ul>
+  <li>사용자 정의 로그 접두사를 설정 (기본값은 <code class="language-plaintext highlighter-rouge">goreload</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">goreload --logPrefix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.go</span></p>
+
+<ul>
+  <li>파일이 변경될 때마다 다시 로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">goreload --all</code></p>

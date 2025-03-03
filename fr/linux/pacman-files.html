@@ -1,0 +1,41 @@
+<h1 id="pacman-files">pacman –files</h1>
+
+<p>Interagis avec les bases de données de fichiers.
+Voir aussi: <code class="language-plaintext highlighter-rouge">pacman</code>, <code class="language-plaintext highlighter-rouge">pkgfile</code>.
+Plus d'informations : <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Mets à jour les bases de données des fichiers :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --files --refresh</code></p>
+
+<ul>
+  <li>Trouve les paquets contenant un fichier spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>
+
+<ul>
+  <li>Trouve les paquets contenant un fichier spécifique en utilisant une expression régulière :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files --regex '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expression_reguliere</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Liste uniquement les noms de paquets :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>
+
+<ul>
+  <li>Liste les fichiers contenus dans un paquet :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span></p>
+
+<ul>
+  <li>Affiche l'aide :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files --help</code></p>

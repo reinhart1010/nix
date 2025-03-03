@@ -1,0 +1,40 @@
+<h1 id="cs-fetch">cs fetch</h1>
+
+<p>Fetch fetches the JARs of dependencies.
+More information: <a href="https://get-coursier.io/docs/cli-fetch">https://get-coursier.io/docs/cli-fetch</a>.</p>
+
+<ul>
+  <li>Fetch a specific version of a jar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs fetch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_id</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">artifact_id</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">artifact_version</span></p>
+
+<ul>
+  <li>Fetch a package and evaluate the classpath corresponding to the selected package in an env var:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">CP="$(cs fetch --classpath org.scalameta::scalafmt-cli:latest.release)"</code></p>
+
+<ul>
+  <li>Fetch a source of a specific jar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs fetch --sources </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_id</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">artifact_id</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">artifact_version</span></p>
+
+<ul>
+  <li>Fetch the javadoc jars:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs fetch --javadoc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_id</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">artifact_id</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">artifact_version</span></p>
+
+<ul>
+  <li>Fetch dependency with javadoc jars and source jars:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs fetch --default=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span><code class="language-plaintext highlighter-rouge"> --sources --javadoc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_id</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">artifact_id</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">artifact_version</span></p>
+
+<ul>
+  <li>Fetch jars coming from dependency files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs fetch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–dependency-file path/to/file1 –dependency-file path/to/file2 …</span></p>

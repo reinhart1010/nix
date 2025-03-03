@@ -1,0 +1,46 @@
+<h1 id="xxd">xxd</h1>
+
+<p>Create a hexadecimal representation (hexdump) from a binary file, or vice-versa.
+More information: <a href="https://manned.org/xxd">https://manned.org/xxd</a>.</p>
+
+<ul>
+  <li>Generate a hexdump from a binary file and display the output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file</span></p>
+
+<ul>
+  <li>Generate a hexdump from a binary file and save it as a text file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file</span></p>
+
+<ul>
+  <li>Display a more compact output, replacing consecutive zeros (if any) with a star:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxd -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file</span></p>
+
+<ul>
+  <li>Display the output with 10 columns of one octet (byte) each:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxd -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file</span></p>
+
+<ul>
+  <li>Display output only up to a length of 32 bytes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxd -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">32</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file</span></p>
+
+<ul>
+  <li>Display the output in plain mode, without any gaps between the columns:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxd -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file</span></p>
+
+<ul>
+  <li>Revert a plaintext hexdump back into binary, and save it as a binary file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxd -r -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file</span></p>

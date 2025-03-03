@@ -1,0 +1,22 @@
+<h1 id="flatpak-remote-info">flatpak remote-info</h1>
+
+<p>Show information about an application or runtime in a remote.
+More information: <a href="https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-remote-info">https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-remote-info</a>.</p>
+
+<ul>
+  <li>Show information about a flatpak:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak remote-info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.example.app</span></p>
+
+<ul>
+  <li>Show a log of previous versions in a remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak remote-info --log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.example.app</span></p>
+
+<ul>
+  <li>Show information about the specific commit, rather than the latest version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak remote-info --commit=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">COMMIT</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.example.app</span></p>

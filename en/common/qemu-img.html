@@ -1,0 +1,34 @@
+<h1 id="qemu-img">qemu-img</h1>
+
+<p>Create and manipulate Quick Emulator Virtual HDD images.
+More information: <a href="https://qemu.readthedocs.io/en/master/tools/qemu-img.html">https://qemu.readthedocs.io/en/master/tools/qemu-img.html</a>.</p>
+
+<ul>
+  <li>Create disk image with a specific size (in gigabytes):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qemu-img create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name.img</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gigabytes</span><code class="language-plaintext highlighter-rouge">G</code></p>
+
+<ul>
+  <li>Show information about a disk image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qemu-img info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name.img</span></p>
+
+<ul>
+  <li>Increase or decrease image size:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qemu-img resize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name.img</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gigabytes</span><code class="language-plaintext highlighter-rouge">G</code></p>
+
+<ul>
+  <li>Dump the allocation state of every sector of the specified disk image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qemu-img map </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name.img</span></p>
+
+<ul>
+  <li>Convert a VMware .vmdk disk image to a KVM .qcow2 disk image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qemu-img convert -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vmdk</span><code class="language-plaintext highlighter-rouge"> -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">qcow2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file/foo.vmdk</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file/foo.qcow2</span></p>

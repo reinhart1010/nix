@@ -1,0 +1,47 @@
+<h1 id="acmesh">acme.sh</h1>
+
+<p>ACME ক্লায়েন্ট প্রোটোকল প্রয়োজনীয় স্ক্রিপ্ট, <code class="language-plaintext highlighter-rouge">certbot</code> এর একটি বিকল্প।
+<code class="language-plaintext highlighter-rouge">acme.sh dns</code> দেখুন।
+আরও তথ্য পাবেন: <a href="https://github.com/acmesh-official/acme.sh">https://github.com/acmesh-official/acme.sh</a>।</p>
+
+<ul>
+  <li>ওয়েবরুট মোড ব্যবহার করে একটি সার্টিফিকেট ইস্যু করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --webroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/পাথ/টু/ওয়েবরুট</span></p>
+
+<ul>
+  <li>পোর্ট ৮০ ব্যবহার করে স্ট্যান্ডঅলোন মোড ব্যবহার করে একটি মাল্টিপল ডোমেনের জন্য একটি সার্টিফিকেট ইস্যু করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --standalone --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">www.example.com</span></p>
+
+<ul>
+  <li>পোর্ট ৪৪৩ ব্যবহার করে স্ট্যান্ডঅলোন TLS মোড ব্যবহার করে একটি সার্টিফিকেট ইস্যু করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --alpn --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>কাজকর্ম Nginx কনফিগারেশন ব্যবহার করে একটি সার্টিফিকেট ইস্যু করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --nginx --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>কাজকর্ম অ্যাপাচি কনফিগারেশন ব্যবহার করে একটি সার্টিফিকেট ইস্যু করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --apache --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>স্বয়ংক্রিয় DNS API মোড ব্যবহার করে একটি উইল্ডকার্ড (*) সার্টিফিকেট ইস্যু করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --dns </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dns_cf</span><code class="language-plaintext highlighter-rouge"> --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.example.com</span></p>
+
+<ul>
+  <li>নির্দিষ্ট অবস্থানে সার্টিফিকেট ফাইল ইনস্টল করুন (স্বয়ংক্রিয় সার্টিফিকেট পুনরারম্ভের জন্য উপযুক্ত):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --install-cert -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --key-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/পথ/থেকে/উদাহরণ.কম.কি</span><code class="language-plaintext highlighter-rouge"> --fullchain-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/পথ/থেকে/উদাহরণ.কম.সিআর</span><code class="language-plaintext highlighter-rouge"> --reloadcmd "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemctl force-reload nginx</span><code class="language-plaintext highlighter-rouge">"</code></p>

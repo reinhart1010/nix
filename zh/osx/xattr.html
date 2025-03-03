@@ -1,0 +1,34 @@
+<h1 id="xattr">xattr</h1>
+
+<p>用于扩展文件系统属性的实用程序。
+更多信息：<a href="https://keith.github.io/xcode-man-pages/xattr.1.html">https://keith.github.io/xcode-man-pages/xattr.1.html</a>.</p>
+
+<ul>
+  <li>列出 键：值 列表，显示指定文件的值扩展属性：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span></p>
+
+<ul>
+  <li>为给定文件写入属性：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">属性键名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">属性值</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span></p>
+
+<ul>
+  <li>从给定文件中删除属性：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.apple.quarantine</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span></p>
+
+<ul>
+  <li>从给定文件中删除所有扩展属性：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span></p>
+
+<ul>
+  <li>递归删除给定目录中文件的属性：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xattr -rd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">属性键名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录</span></p>

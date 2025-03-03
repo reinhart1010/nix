@@ -1,0 +1,23 @@
+<h1 id="magick-import">magick import</h1>
+
+<p>X 서버 화면의 일부 또는 전체를 캡처하여 파일로 저장.
+같이 보기: <code class="language-plaintext highlighter-rouge">magick</code>.
+더 많은 정보: <a href="https://imagemagick.org/script/import.php">https://imagemagick.org/script/import.php</a>.</p>
+
+<ul>
+  <li>전체 X 서버 화면을 PostScript 파일로 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick import -window root </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/output.ps</span></p>
+
+<ul>
+  <li>원격 X 서버 화면의 내용을 PNG 이미지로 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick import -window root -display </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">화면</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디스플레이</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/output.png</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">xwininfo</code>로 표시된 ID를 가진 특정 창을 JPEG 이미지로 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick import -window </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">window_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/output.jpg</span></p>

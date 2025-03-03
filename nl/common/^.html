@@ -1,0 +1,29 @@
+<h1 id="caret">Caret</h1>
+
+<p>Bash ingebouwd commando om snel een string in het vorige commando te vervangen en het resultaat uit te voeren.
+Equivalent aan <code class="language-plaintext highlighter-rouge">!!:s^string1^string2</code>.
+Meer informatie: <a href="https://gnu.org/software/bash/manual/bash.html#Event-Designators">https://gnu.org/software/bash/manual/bash.html#Event-Designators</a>.</p>
+
+<ul>
+  <li>Voer het vorige commando uit waarbij <code class="language-plaintext highlighter-rouge">string1</code> wordt vervangen door <code class="language-plaintext highlighter-rouge">string2</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string2</span></p>
+
+<ul>
+  <li>Verwijder <code class="language-plaintext highlighter-rouge">string1</code> uit het vorige commando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1</span><code class="language-plaintext highlighter-rouge">^</code></p>
+
+<ul>
+  <li>Vervang <code class="language-plaintext highlighter-rouge">string1</code> door <code class="language-plaintext highlighter-rouge">string2</code> in het vorige commando en voeg <code class="language-plaintext highlighter-rouge">string3</code> toe aan het einde ervan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string2</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string3</span></p>
+
+<ul>
+  <li>Vervang alle <code class="language-plaintext highlighter-rouge">string1</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string2</span><code class="language-plaintext highlighter-rouge">^:&amp;</code></p>

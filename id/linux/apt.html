@@ -1,0 +1,54 @@
+<h1 id="apt">apt</h1>
+
+<p>Manajer paket untuk distribusi Linux berbasis Debian.
+Pengganti <code class="language-plaintext highlighter-rouge">apt-get</code> yang direkomendasikan ketika digunakan secara interaktif di Ubuntu versi 16.04 atau yang lebih baru.
+Lihat <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a> untuk daftar perintah dalam manajer paket lain yang menyerupai perintah <code class="language-plaintext highlighter-rouge">apt</code>.
+Informasi lebih lanjut: <a href="https://manned.org/apt.8">https://manned.org/apt.8</a>.</p>
+
+<ul>
+  <li>Perbarui daftar paket yang tersedia dan versinya (direkomendasikan untuk menggunakan perintah ini sebelum perintah <code class="language-plaintext highlighter-rouge">apt</code> lainnya.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>Cari paket yang tersedia dengan nama atau deskripsi tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_atau_deskripsi_paket</span></p>
+
+<ul>
+  <li>Tampilkan informasi tentang suatu paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Pasang atau perbarui sebuah paket menuju versi terbaru:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Hapus paket yang terpasang sebelumnya (gunakan <code class="language-plaintext highlighter-rouge">sudo apt purge</code> untuk sekaligus menghapus file konfigurasi yang dibuat oleh paket tersebut):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Perbarui seluruh paket yang terpasang ke versi terbaru:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt upgrade</code></p>
+
+<ul>
+  <li>Tampilkan daftar semua paket yang tersedia di dalam repositori:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list</code></p>
+
+<ul>
+  <li>Tampilkan daftar paket yang telah terpasang:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list --installed</code></p>

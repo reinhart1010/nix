@@ -1,0 +1,28 @@
+<h1 id="adscript">adscript</h1>
+
+<p>Compilateur pour fichiers Adscript.
+Plus d'informations : <a href="https://github.com/Amplus2/Adscript">https://github.com/Amplus2/Adscript</a>.</p>
+
+<ul>
+  <li>Compile un fichier vers un fichier objet :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.o</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_source.adscript</span></p>
+
+<ul>
+  <li>Compile et lie un fichier vers un exécutable autonome :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --executable --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_source.adscript</span></p>
+
+<ul>
+  <li>Compile un fichier vers LLVM IR à la place du code machine natif :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --llvm-ir --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.ll</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_source.adscript</span></p>
+
+<ul>
+  <li>Fait une compilation croisée d'un fichier vers un fichier objet pour une architecture CPU ou un système d'exploitation distant :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --target-triple </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">i386-linux-elf</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.o</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_source.adscript</span></p>

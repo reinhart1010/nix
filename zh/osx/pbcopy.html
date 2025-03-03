@@ -1,0 +1,17 @@
+<h1 id="pbcopy">pbcopy</h1>
+
+<p>将来自标准输入的数据放入剪贴板。
+相当于在键盘上按下 Cmd + C.
+更多信息：<a href="https://keith.github.io/xcode-man-pages/pbcopy.1.html">https://keith.github.io/xcode-man-pages/pbcopy.1.html</a>.</p>
+
+<ul>
+  <li>将文件的内容放入剪贴板：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbcopy &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>将命令的执行结果放入剪贴板：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find . -type t -name "*.png" | pbcopy</code></p>

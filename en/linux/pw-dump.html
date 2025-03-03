@@ -1,0 +1,41 @@
+<h1 id="pw-dump">pw-dump</h1>
+
+<p>Dump PipeWire's current state as JSON, including the information on nodes, devices, modules, ports, and other objects.
+See also: <code class="language-plaintext highlighter-rouge">pw-mon</code>.
+More information: <a href="https://docs.pipewire.org/page_man_pw-dump_1.html">https://docs.pipewire.org/page_man_pw-dump_1.html</a>.</p>
+
+<ul>
+  <li>Print a JSON representation of the default PipeWire instance's current state:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-dump</code></p>
+
+<ul>
+  <li>Print a JSON representation of an object:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-dump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">object_id</span></p>
+
+<ul>
+  <li>Dump the current state [m]onitoring changes, printing it again:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-dump --monitor</code></p>
+
+<ul>
+  <li>Dump the current state of a [r]emote instance to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-dump --remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/dump_file.json</span></p>
+
+<ul>
+  <li>Set a [C]olor configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-dump --color </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">never|always|auto</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-dump --help</code></p>

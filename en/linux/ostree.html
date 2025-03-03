@@ -1,0 +1,47 @@
+<h1 id="ostree">ostree</h1>
+
+<p>Version control for binary files similar to <code class="language-plaintext highlighter-rouge">git</code> but optimized for operating system root filesystems.
+OSTree is the foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT or Fedora CoreOS.
+More information: <a href="https://ostreedev.github.io/ostree">https://ostreedev.github.io/ostree</a>.</p>
+
+<ul>
+  <li>Initialize a repository of the files in <code class="language-plaintext highlighter-rouge">$PWD</code> with metadata in <code class="language-plaintext highlighter-rouge">$PWD/path/to/repo</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ostree init --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repo</span></p>
+
+<ul>
+  <li>Create a commit (snapshot) of the files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ostree commit --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repo</span><code class="language-plaintext highlighter-rouge"> --branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Show files in commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ostree ls --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_id</span></p>
+
+<ul>
+  <li>Show metadata of commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ostree show --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_id</span></p>
+
+<ul>
+  <li>Show list of commits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ostree log --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Show repo summary:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ostree summary --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repo</span><code class="language-plaintext highlighter-rouge"> --view</code></p>
+
+<ul>
+  <li>Show available refs (branches):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ostree refs --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repo</span></p>

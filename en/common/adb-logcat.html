@@ -1,0 +1,52 @@
+<h1 id="adb-logcat">adb logcat</h1>
+
+<p>Dump a log of system messages.
+More information: <a href="https://developer.android.com/tools/logcat">https://developer.android.com/tools/logcat</a>.</p>
+
+<ul>
+  <li>Display system logs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat</code></p>
+
+<ul>
+  <li>Display lines that match a regular [e]xpression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span></p>
+
+<ul>
+  <li>Display logs for a tag in a specific mode ([V]erbose, [D]ebug, [I]nfo, [W]arning, [E]rror, [F]atal, [S]ilent), filtering other tags:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mode</span><code class="language-plaintext highlighter-rouge"> *:S</code></p>
+
+<ul>
+  <li>Display logs for React Native applications in [V]erbose mode [S]ilencing other tags:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat ReactNative:V ReactNativeJS:V *:S</code></p>
+
+<ul>
+  <li>Display logs for all tags with priority level [W]arning and higher:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat *:W</code></p>
+
+<ul>
+  <li>Display logs for a specific PID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Display logs for the process of a specific package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat --pid $(adb shell pidof -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Color the log (usually use with filters):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb logcat -v color</code></p>

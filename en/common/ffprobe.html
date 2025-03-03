@@ -1,0 +1,34 @@
+<h1 id="ffprobe">ffprobe</h1>
+
+<p>Multimedia stream analyzer.
+More information: <a href="https://ffmpeg.org/ffprobe.html">https://ffmpeg.org/ffprobe.html</a>.</p>
+
+<ul>
+  <li>Display all available stream info for a media file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffprobe -v error -show_streams </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.mp4</span></p>
+
+<ul>
+  <li>Display media duration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.mp4</span></p>
+
+<ul>
+  <li>Display the frame rate of a video:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffprobe -v error -select_streams v:0 -show_entries stream=avg_frame_rate -of default=noprint_wrappers=1:nokey=1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.mp4</span></p>
+
+<ul>
+  <li>Display the width or height of a video:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffprobe -v error -select_streams v:0 -show_entries stream=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width|height</span><code class="language-plaintext highlighter-rouge"> -of default=noprint_wrappers=1:nokey=1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.mp4</span></p>
+
+<ul>
+  <li>Display the average bit rate of a video:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffprobe -v error -select_streams v:0 -show_entries stream=bit_rate -of default=noprint_wrappers=1:nokey=1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.mp4</span></p>

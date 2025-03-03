@@ -1,0 +1,34 @@
+<h1 id="svcs">svcs</h1>
+
+<p>Wyświetl informację o uruchomionych usługach.
+Więcej informacji: <a href="https://www.unix.com/man-page/linux/1/svcs">https://www.unix.com/man-page/linux/1/svcs</a>.</p>
+
+<ul>
+  <li>Wypisz wszystkie uruchomione usługi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs</code></p>
+
+<ul>
+  <li>Wypisz wszystkie usługi, które nie są uruchomione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs -vx</code></p>
+
+<ul>
+  <li>Wypisz informacje o usłudze:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs apache</code></p>
+
+<ul>
+  <li>Pokaż lokalizację pliku dziennika usługi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svcs -L apache</code></p>
+
+<ul>
+  <li>Wyświetl koniec pliku dziennika usługi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail $(svcs -L apache)</code></p>

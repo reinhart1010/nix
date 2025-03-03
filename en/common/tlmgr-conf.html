@@ -1,0 +1,46 @@
+<h1 id="tlmgr-conf">tlmgr conf</h1>
+
+<p>Manage the TeX Live configuration.
+More information: <a href="https://www.tug.org/texlive/tlmgr.html">https://www.tug.org/texlive/tlmgr.html</a>.</p>
+
+<ul>
+  <li>Show the current TeX Live configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr conf</code></p>
+
+<ul>
+  <li>Show the current <code class="language-plaintext highlighter-rouge">texmf</code>, <code class="language-plaintext highlighter-rouge">tlmgr</code>, or <code class="language-plaintext highlighter-rouge">updmap</code> configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr conf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texmf|tlmgr|updmap</span></p>
+
+<ul>
+  <li>Show only a specific configuration option:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr conf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texmf|tlmgr|updmap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">configuration_key</span></p>
+
+<ul>
+  <li>Set a specific configuration option:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr conf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texmf|tlmgr|updmap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">configuration_key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Delete a specific configuration option:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr conf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texmf|tlmgr|updmap</span><code class="language-plaintext highlighter-rouge"> --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">configuration_key</span></p>
+
+<ul>
+  <li>Disable the execution of system calls via <code class="language-plaintext highlighter-rouge">\write18</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr conf texmf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell_escape</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span></p>
+
+<ul>
+  <li>Show all additional <code class="language-plaintext highlighter-rouge">texmf</code> trees:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr conf auxtrees show</code></p>

@@ -1,0 +1,34 @@
+<h1 id="prstat">prstat</h1>
+
+<p>Rapportering van de statistieken van actieve processen.
+Meer informatie: <a href="https://www.unix.com/man-page/sunos/1m/prstat">https://www.unix.com/man-page/sunos/1m/prstat</a>.</p>
+
+<ul>
+  <li>Bekijken alle processen en rapporteer de statieken gestoord op basis van CPU gebruik:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat</code></p>
+
+<ul>
+  <li>Bekijken alle processen en rapporteer de statieken gestoord op basis van geheugen gebruik:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat -s rss</code></p>
+
+<ul>
+  <li>Bekijk het totaal gebruik voor elke gebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat -t</code></p>
+
+<ul>
+  <li>Bekijk de microstate process accounting informatie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat -m</code></p>
+
+<ul>
+  <li>Toon de 5 meest CPU intensieve processen elke seconde:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat -c -n 5 -s cpu 1</code></p>

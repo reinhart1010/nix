@@ -1,0 +1,47 @@
+<h1 id="nix-run">nix run</h1>
+
+<p>Nix 플레이크에서 애플리케이션 실행.
+같이 보기: 플레이크에 대한 정보는 <code class="language-plaintext highlighter-rouge">nix3 flake</code>.
+더 많은 정보: <a href="https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-run.html">https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-run.html</a>.</p>
+
+<ul>
+  <li>현재 디렉토리의 플레이크에서 기본 애플리케이션 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix run</code></p>
+
+<ul>
+  <li>nixpkgs에서 패키지 이름과 일치하는 명령 실행 (해당 패키지의 다른 명령을 원하면 <code class="language-plaintext highlighter-rouge">tldr nix3 shell</code> 참조):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix run nixpkgs#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>제공된 인수와 함께 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix run nixpkgs#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vim</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>원격 저장소에서 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_이름</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소유자</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레포</span></p>
+
+<ul>
+  <li>특정 태그, 리비전 또는 브랜치를 사용하여 원격 저장소에서 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_이름</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소유자</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레포</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">참조</span></p>
+
+<ul>
+  <li>하위 디렉토리와 프로그램을 지정하여 원격 저장소에서 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix run "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_이름</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소유자</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레포</span><code class="language-plaintext highlighter-rouge">?dir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디렉토리_이름</span><code class="language-plaintext highlighter-rouge">#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">앱</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>GitHub 풀 리퀘스트의 플레이크 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix run github:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소유자</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레포</span><code class="language-plaintext highlighter-rouge">/pull/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">번호</span><code class="language-plaintext highlighter-rouge">/head</code></p>

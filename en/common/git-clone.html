@@ -1,0 +1,52 @@
+<h1 id="git-clone">git clone</h1>
+
+<p>Clone an existing repository.
+More information: <a href="https://git-scm.com/docs/git-clone">https://git-scm.com/docs/git-clone</a>.</p>
+
+<ul>
+  <li>Clone an existing repository into a new directory (the default directory is the repository name):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_location</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Clone an existing repository and its submodules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_location</span></p>
+
+<ul>
+  <li>Clone only the <code class="language-plaintext highlighter-rouge">.git</code> directory of an existing repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --no-checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_location</span></p>
+
+<ul>
+  <li>Clone a local repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --local </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local/repository</span></p>
+
+<ul>
+  <li>Clone quietly:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_location</span></p>
+
+<ul>
+  <li>Clone an existing repository only fetching the 10 most recent commits on the default branch (useful to save time):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_location</span></p>
+
+<ul>
+  <li>Clone an existing repository only fetching a specific branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --single-branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_location</span></p>
+
+<ul>
+  <li>Clone an existing repository using a specific SSH command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --config core.sshCommand="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh -i path/to/private_ssh_key</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_location</span></p>

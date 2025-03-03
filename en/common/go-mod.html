@@ -1,0 +1,34 @@
+<h1 id="go-mod">go mod</h1>
+
+<p>Module maintenance.
+More information: <a href="https://golang.org/cmd/go/#hdr-Module_maintenance">https://golang.org/cmd/go/#hdr-Module_maintenance</a>.</p>
+
+<ul>
+  <li>Initialize new module in current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go mod init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">moduleName</span></p>
+
+<ul>
+  <li>Download modules to local cache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go mod download</code></p>
+
+<ul>
+  <li>Add missing and remove unused modules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go mod tidy</code></p>
+
+<ul>
+  <li>Verify dependencies have expected content:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go mod verify</code></p>
+
+<ul>
+  <li>Copy sources of all dependencies into the vendor directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go mod vendor</code></p>

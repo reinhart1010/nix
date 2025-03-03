@@ -1,0 +1,28 @@
+<h1 id="apt-file">apt-file</h1>
+
+<p>Пошук файлів в пакетах <code class="language-plaintext highlighter-rouge">apt</code>, включно з тими, що ще не встановлені.
+Більше інформації: <a href="https://manned.org/apt-file.1">https://manned.org/apt-file.1</a>.</p>
+
+<ul>
+  <li>Оновити базу метаданих:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>Пошук пакетів, які містять вказаний файл або шлях:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search|find</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">частковий_шлях/до/файлу</span></p>
+
+<ul>
+  <li>Список вмісту конкретного пакета:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">show|list</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">пакет</span></p>
+
+<ul>
+  <li>Пошук пакетів, які відповідають <code class="language-plaintext highlighter-rouge">регулярному_виразу</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search|find</span><code class="language-plaintext highlighter-rouge"> --regexp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">регулярний_вираз</span></p>

@@ -1,0 +1,40 @@
+<h1 id="xdotool">xdotool</h1>
+
+<p>Command-line automation for X11.
+More information: <a href="https://manned.org/xdotool">https://manned.org/xdotool</a>.</p>
+
+<ul>
+  <li>Retrieve the X-Windows window ID of the running Firefox window(s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdotool search --onlyvisible --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">firefox</span></p>
+
+<ul>
+  <li>Click the right mouse button:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdotool click </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>Get the ID of the currently active window:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdotool getactivewindow</code></p>
+
+<ul>
+  <li>Focus on the window with ID of 12345:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdotool windowfocus --sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">12345</span></p>
+
+<ul>
+  <li>Type a message, with a 500ms delay for each letter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdotool type --delay </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">500</span><code class="language-plaintext highlighter-rouge"> "Hello world"</code></p>
+
+<ul>
+  <li>Press the enter key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdotool key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">KP_Enter</span></p>

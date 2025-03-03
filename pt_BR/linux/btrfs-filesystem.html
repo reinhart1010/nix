@@ -1,0 +1,40 @@
+<h1 id="btrfs-filesystem">btrfs filesystem</h1>
+
+<p>Gerencia sistemas de arquivos btrfs.
+Mais informações: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-filesystem.html">https://btrfs.readthedocs.io/en/latest/btrfs-filesystem.html</a>.</p>
+
+<ul>
+  <li>Mostra uso do sistema de arquivos (opcionalmente execute como root para mostrar informações detalhadas):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">btrfs filesystem usage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/montagem_btrfs</span></p>
+
+<ul>
+  <li>Mostra uso por dispositivos individuais:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs filesystem show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/montagem_btrfs</span></p>
+
+<ul>
+  <li>Desfragmenta um único arquivo em um sistema de arquivos btrfs (evite enquanto um agente de desduplicação estiver em execução):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs filesystem defragment -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Desfragmenta um diretório recursivamente (não cruza os limites do subvolume):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs filesystem defragment -v -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Força a sincronização de blocos de dados não gravados com o(s) disco(s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs filesystem sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/montagem_btrfs</span></p>
+
+<ul>
+  <li>Resume o uso do disco para os arquivos em um diretório recursivamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs filesystem du --summarize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>

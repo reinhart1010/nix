@@ -1,0 +1,29 @@
+<h1 id="pnmnorm">pnmnorm</h1>
+
+<p>Normaliza el contraste en una imagen PNM.
+Vea también: <code class="language-plaintext highlighter-rouge">pnmhisteq</code>.
+Más información: <a href="https://netpbm.sourceforge.net/doc/pnmnorm.html">https://netpbm.sourceforge.net/doc/pnmnorm.html</a>.</p>
+
+<ul>
+  <li>Fuerza los píxeles más brillantes a ser blancos, los más oscuros hacia negro y disemina los demás linealmente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmnorm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/imagen.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/resultado.pnm</span></p>
+
+<ul>
+  <li>Fuerza los píxeles más brillantes a ser blancos, los más oscuros hacia negro y disemina los demás cuadráticamente, de tal forma que los píxeles con un brillo de 'n' tienen un 50 % del brillo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmnorm -midvalue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/imagen.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/resultado.pnm</span></p>
+
+<ul>
+  <li>Mantiene el tono (hue) de los píxeles, solo modifica el brillo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmnorm -keephues </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/imagen.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/resultado.pnm</span></p>
+
+<ul>
+  <li>Especifica un método para calcular el brillo de un píxel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmnorm -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">luminosity|colorvalue|saturation</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/imagen.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/resultado.pnm</span></p>

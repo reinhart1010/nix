@@ -1,0 +1,40 @@
+<h1 id="pio-test">pio test</h1>
+
+<p>PlatformIO 프로젝트에서 로컬 테스트 실행.
+더 많은 정보: <a href="https://docs.platformio.org/en/latest/core/userguide/cmd_test.html">https://docs.platformio.org/en/latest/core/userguide/cmd_test.html</a>.</p>
+
+<ul>
+  <li>현재 PlatformIO 프로젝트의 모든 환경에서 모든 테스트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio test</code></p>
+
+<ul>
+  <li>특정 환경에서만 테스트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio test --environment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">환경1</span><code class="language-plaintext highlighter-rouge"> --environment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">환경2</span></p>
+
+<ul>
+  <li>이름이 특정 글로브 패턴과 일치하는 테스트만 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio test --filter "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패턴</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>이름이 특정 글로브 패턴과 일치하는 테스트를 무시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio test --ignore "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패턴</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>펌웨어 업로드를 위한 포트 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio test --upload-port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">업로드_포트</span></p>
+
+<ul>
+  <li>테스트 실행을 위한 사용자 정의 설정 파일 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio test --project-conf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/platformio.ini</span></p>

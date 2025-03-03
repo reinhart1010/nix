@@ -1,0 +1,40 @@
+<h1 id="waitress-serve">waitress-serve</h1>
+
+<p>순수 Python WSGI HTTP 서버.
+더 많은 정보: <a href="https://docs.pylonsproject.org/projects/waitress/en/latest/runner.html">https://docs.pylonsproject.org/projects/waitress/en/latest/runner.html</a>.</p>
+
+<ul>
+  <li>Python 웹 앱 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waitress-serve </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">임포트.경로:wsgi_함수</span></p>
+
+<ul>
+  <li>localhost의 포트 8080에서 수신 대기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waitress-serve --listen=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">localhost</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8080</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">임포트.경로:wsgi_함수</span></p>
+
+<ul>
+  <li>Unix 소켓에서 waitress 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waitress-serve --unix-socket=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소켓</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">임포트.경로:wsgi_함수</span></p>
+
+<ul>
+  <li>4개의 스레드를 사용하여 요청 처리:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waitress-serve --threads=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">임포트.경로:wsgi_함수</span></p>
+
+<ul>
+  <li>WSGI 객체를 반환하는 팩토리 메서드 호출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waitress-serve --call </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">임포트.경로.wsgi_팩토리</span></p>
+
+<ul>
+  <li>HTTPS URL 스킴 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waitress-serve --url-scheme=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">임포트.경로:wsgi_함수</span></p>

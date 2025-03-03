@@ -1,0 +1,29 @@
+<h1 id="podman-image">podman image</h1>
+
+<p>Gestiona imágenes Docker.
+Vea también: <code class="language-plaintext highlighter-rouge">podman build</code>, <code class="language-plaintext highlighter-rouge">podman import</code> y <code class="language-plaintext highlighter-rouge">podman pull</code>.
+Más información: <a href="https://docs.podman.io/en/latest/markdown/podman-image.1.html">https://docs.podman.io/en/latest/markdown/podman-image.1.html</a>.</p>
+
+<ul>
+  <li>Lista imágenes locales de Docker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman image ls</code></p>
+
+<ul>
+  <li>Elimina imágenes locales de Docker no utilizadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman image prune</code></p>
+
+<ul>
+  <li>Elimina todas las imágenes no utilizadas (no sólo aquellas sin una etiqueta):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman image prune --all</code></p>
+
+<ul>
+  <li>Muestra la historia de una imagen Docker local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman image history </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagen</span></p>

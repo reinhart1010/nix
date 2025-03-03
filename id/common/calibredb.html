@@ -1,0 +1,41 @@
+<h1 id="calibredb">calibredb</h1>
+
+<p>Kelola suatu pangkalan data perpustakaan buku digital.
+Bagian dari aplikasi perpustakaan buku digital Calibre.
+Informasi lebih lanjut: <a href="https://manual.calibre-ebook.com/generated/en/calibredb.html">https://manual.calibre-ebook.com/generated/en/calibredb.html</a>.</p>
+
+<ul>
+  <li>Tampilkan daftar judul dan informasi tambahan terkait buku-buku digital yang telah terdaftar dalam perpustakaan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">calibredb list</code></p>
+
+<ul>
+  <li>Cari kumpulan buku dengan informasi tambahan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">calibredb list --search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_kunci</span></p>
+
+<ul>
+  <li>Hanya tampilkan nomor induk (id) dari hasil pustaka pencarian:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">calibredb search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_kunci</span></p>
+
+<ul>
+  <li>Masukkan satu atau beberapa buku baru ke dalam perpustakaan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">calibredb add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 …</span></p>
+
+<ul>
+  <li>Masukkan seluruh buku dalam suatu direktori secara rekursif:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">calibredb add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–recurse</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span></p>
+
+<ul>
+  <li>Hapus satu atau beberapa buku dari perpustakaan. Anda perlu memasukkan nomor-nomor induk (lihat keterangan di atas):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">calibredb remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id1 id2 …</span></p>

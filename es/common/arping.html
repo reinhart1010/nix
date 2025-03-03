@@ -1,0 +1,41 @@
+<h1 id="arping">arping</h1>
+
+<p>Descubre y sondea hosts en una red utilizando el protocolo ARP.
+Útil para el descubrimiento de direcciones MAC.
+Más información: <a href="https://github.com/ThomasHabets/arping">https://github.com/ThomasHabets/arping</a>.</p>
+
+<ul>
+  <li>Haz ping a un host mediante paquetes de petición ARP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_ip</span></p>
+
+<ul>
+  <li>Haz ping a un host en una interfaz específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interfaz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_ip</span></p>
+
+<ul>
+  <li>Haz ping a un host y detenerse en la primera respuesta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_ip</span></p>
+
+<ul>
+  <li>Haz ping a un host un determinado número de veces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cuenta</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_ip</span></p>
+
+<ul>
+  <li>Emite paquetes de solicitud ARP para actualizar las cachés ARP de los vecinos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_a_retransmitir</span></p>
+
+<ul>
+  <li>Detecta direcciones IP duplicadas en la red enviando peticiones ARP con un tiempo de espera de 3 segundos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -D -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_a_verificar</span></p>

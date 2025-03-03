@@ -1,0 +1,34 @@
+<h1 id="kubectl-edit">kubectl edit</h1>
+
+<p>Edit Kubernetes resources.
+More information: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#edit">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#edit</a>.</p>
+
+<ul>
+  <li>Edit a pod:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl edit pod/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span></p>
+
+<ul>
+  <li>Edit a deployment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl edit deployment/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deployment_name</span></p>
+
+<ul>
+  <li>Edit a service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl edit svc/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span></p>
+
+<ul>
+  <li>Edit a resource using a specific editor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">KUBE_EDITOR=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nano</span><code class="language-plaintext highlighter-rouge"> kubectl edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_name</span></p>
+
+<ul>
+  <li>Edit a resource in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_name</span><code class="language-plaintext highlighter-rouge"> --output json</code></p>

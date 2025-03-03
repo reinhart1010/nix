@@ -1,0 +1,17 @@
+<h1 id="pkg_info">pkg_info</h1>
+
+<p>Lihat dokumentasi mengenai paket yang tersedia baik dalam repositori atau pemasangan OpenBSD.
+Lihat juga: <code class="language-plaintext highlighter-rouge">pkg_add</code>, <code class="language-plaintext highlighter-rouge">pkg_delete</code>.
+Informasi lebih lanjut: <a href="https://man.openbsd.org/pkg_info">https://man.openbsd.org/pkg_info</a>.</p>
+
+<ul>
+  <li>Cari detail paket yang tersedia dalam repositori menurut namanya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkg_info -Q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Tampilkan dan simpan daftar paket yang telah terpasang, untuk digunakan dalam <code class="language-plaintext highlighter-rouge">pkg_add -l</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkg_info -mz</code></p>

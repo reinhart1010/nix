@@ -1,0 +1,40 @@
+<h1 id="devcontainer">devcontainer</h1>
+
+<p>Use a Docker container as a development environment.
+More information: <a href="https://containers.dev/">https://containers.dev/</a>.</p>
+
+<ul>
+  <li>Create and run a Dev Container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devcontainer up</code></p>
+
+<ul>
+  <li>Apply a Dev Container Template to a workspace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devcontainer templates apply --template-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">template_id</span><code class="language-plaintext highlighter-rouge"> --template-args </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">template_args</span><code class="language-plaintext highlighter-rouge"> --workspace-folder </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/workspace</span></p>
+
+<ul>
+  <li>Execute a command on a running Dev Container in the current workspace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devcontainer exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Build a Dev Container image from <code class="language-plaintext highlighter-rouge">devcontainer.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devcontainer build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/workspace</span></p>
+
+<ul>
+  <li>Open a Dev Container in VS Code (the path is optional):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devcontainer open </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/workspace</span></p>
+
+<ul>
+  <li>Read and print the configuration of a Dev Container from <code class="language-plaintext highlighter-rouge">devcontainer.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devcontainer read-configuration</code></p>

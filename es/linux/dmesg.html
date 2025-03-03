@@ -1,0 +1,52 @@
+<h1 id="dmesg">dmesg</h1>
+
+<p>Escribe los mensajes del núcleo a la salida estándar.
+Más información: <a href="https://manned.org/dmesg">https://manned.org/dmesg</a>.</p>
+
+<ul>
+  <li>Muestra los mensajes del núcleo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmesg</code></p>
+
+<ul>
+  <li>Muestra los mensajes de error del núcleo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmesg --level err</code></p>
+
+<ul>
+  <li>Muestra los mensajes del núcleo y sigue leyendo los nuevos, similar a <code class="language-plaintext highlighter-rouge">tail -f</code> (disponible en los núcleos 3.5.0 y posteriores):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmesg -w</code></p>
+
+<ul>
+  <li>Muestra cuanta memoria física hay disponible en este sistema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmesg | grep -i memory</code></p>
+
+<ul>
+  <li>Muestra los mensajes del núcleo, página a página:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmesg | less</code></p>
+
+<ul>
+  <li>Muestra los mensajes del núcleo con una estampilla temporal (disponible en los núcleos 3.5.0 y posteriores):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmesg -T</code></p>
+
+<ul>
+  <li>Muestra los mensajes del núcleo de forma legible para humanos (disponible en los núcleos 3.5.0 y posteriores):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmesg -H</code></p>
+
+<ul>
+  <li>Colorea la salida (disponible en los núcleos 3.5.0 y posteriores):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmesg -L</code></p>

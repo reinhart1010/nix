@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-branch">git branch</h1>
+
+<p>Dallar ile çalışmak için kullanılan ana Git komutu.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-branch">https://git-scm.com/docs/git-branch</a>.</p>
+
+<ul>
+  <li>Tüm dalları (yerel ve uzak bağlantıda olan) göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch --all</code></p>
+
+<ul>
+  <li>Mevcut dalın ismini göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch --show-current</code></p>
+
+<ul>
+  <li>Mevcut commit'e dayanarak yeni bir dal oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_ismi</span></p>
+
+<ul>
+  <li>Belirtilen commit'e dayanarak yeni bir dal oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_ismi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_değeri</span></p>
+
+<ul>
+  <li>Bir dalı yeniden adlandır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–move</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eski_dal_ismi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yeni_dal_ismi</span></p>
+
+<ul>
+  <li>Yerel bir dalı sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–delete</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_ismi</span></p>
+
+<ul>
+  <li>Uzaktaki bir dalı sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uzak_bağlantı</span><code class="language-plaintext highlighter-rouge"> --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uzak_dal_ismi</span></p>

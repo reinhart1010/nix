@@ -1,0 +1,35 @@
+<h1 id="git-grep">git-grep</h1>
+
+<p>Encuentra dentro de archivos en cualquier parte del historial del repositorio.
+Acepta una gran cantidad de opciones, de la misma manera que el comando <code class="language-plaintext highlighter-rouge">grep</code>.
+Más información: <a href="https://git-scm.com/docs/git-grep">https://git-scm.com/docs/git-grep</a>.</p>
+
+<ul>
+  <li>Busca una cadena en los archivos rastreados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena_a_buscar</span></p>
+
+<ul>
+  <li>Busca una cadena en archivos que coincidan con un patrón entre los archivos rastreados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena_a_buscar</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patrón_de_archivos</span></p>
+
+<ul>
+  <li>Busca una cadena en los archivos rastreados, incluyendo submódulos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep --recurse-submodules </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena_a_buscar</span></p>
+
+<ul>
+  <li>Busca una cadena en un punto específico del historial:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena_a_buscar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~2</span></p>
+
+<ul>
+  <li>Busca una cadena a través de todas las ramas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena_a_buscar</span><code class="language-plaintext highlighter-rouge"> $(git rev-list --all)</code></p>

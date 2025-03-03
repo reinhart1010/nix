@@ -1,0 +1,52 @@
+<h1 id="parallel">parallel</h1>
+
+<p>여러 CPU 코어에서 명령 실행.
+더 많은 정보: <a href="https://www.gnu.org/software/parallel">https://www.gnu.org/software/parallel</a>.</p>
+
+<ul>
+  <li>모든 코어를 사용하여 여러 파일을 동시에 gzip 압축:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parallel gzip ::: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 인수를 읽어, 동시에 4개의 작업 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls *.txt | parallel -j4 gzip</code></p>
+
+<ul>
+  <li>JPEG 이미지를 PNG로 변환, 치환 문자열 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parallel convert {} {.}.png ::: *.jpg</code></p>
+
+<ul>
+  <li>평행 xargs, 가능한 많은 인수를 하나의 명령에 cram:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수들</span><code class="language-plaintext highlighter-rouge"> | parallel -X </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>을 약 1M 블록으로 나누고, 각 블록을 새 명령의 <code class="language-plaintext highlighter-rouge">stdin</code>으로 전달:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">큰_파일.txt</span><code class="language-plaintext highlighter-rouge"> | parallel --pipe --block 1M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>SSH를 통해 여러 머신에서 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parallel -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">머신1</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">머신2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> ::: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수2</span></p>
+
+<ul>
+  <li>텍스트 파일에 있는 링크로부터 4개의 파일을 동시에 다운로드, 진행 상황 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parallel -j4 --bar --eta wget -q {} :::: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/링크.txt</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">parallel</code>이 실행 중인 작업을 <code class="language-plaintext highlighter-rouge">stderr</code>에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parallel -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> ::: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수들</span></p>

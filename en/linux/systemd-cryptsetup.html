@@ -1,0 +1,30 @@
+<h1 id="systemd-cryptsetup">systemd-cryptsetup</h1>
+
+<p>Create or remove decrypted mappings of encrypted volumes. Equivalent of <code class="language-plaintext highlighter-rouge">cryptsetup open</code> and <code class="language-plaintext highlighter-rouge">cryptsetup close</code>.
+Arguments to this command are written exactly like a line in <code class="language-plaintext highlighter-rouge">/etc/crypttab</code>. It's used by systemd to unlock devices on boot.
+See also: <code class="language-plaintext highlighter-rouge">cryptsetup</code>.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/latest/systemd-cryptsetup.html">https://www.freedesktop.org/software/systemd/man/latest/systemd-cryptsetup.html</a>.</p>
+
+<ul>
+  <li>Open a LUKS volume and create a decrypted mapping at <code class="language-plaintext highlighter-rouge">/dev/mapper/mapping_name</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cryptsetup attach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mapping_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span></p>
+
+<ul>
+  <li>Open a LUKS volume with additional options and create a decrypted mapping at <code class="language-plaintext highlighter-rouge">/dev/mapper/mapping_name</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cryptsetup attach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mapping_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span><code class="language-plaintext highlighter-rouge"> none </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">crypttab_options</span></p>
+
+<ul>
+  <li>Open a LUKS volume with a keyfile and create a decrypted mapping at <code class="language-plaintext highlighter-rouge">/dev/mapper/mapping_name</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cryptsetup attach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mapping_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/keyfile</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">crypttab_options</span></p>
+
+<ul>
+  <li>Remove an existing mapping:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cryptsetup detach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mapping_name</span></p>

@@ -1,0 +1,47 @@
+<h1 id="go">go</h1>
+
+<p>管理 Go 源代码的工具。
+此命令也有关于其子命令的文件，例如：<code class="language-plaintext highlighter-rouge">build</code>.
+更多信息：<a href="https://golang.org">https://golang.org</a>.</p>
+
+<ul>
+  <li>下载并安装由其路径指定的包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/包</span></p>
+
+<ul>
+  <li>编译并运行一个源文件（它必须包含一个 <code class="language-plaintext highlighter-rouge">main</code> 包）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span><code class="language-plaintext highlighter-rouge">.go</code></p>
+
+<ul>
+  <li>将源文件编译为当前命名的可执行文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go build -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">可执行文件</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span><code class="language-plaintext highlighter-rouge">.go</code></p>
+
+<ul>
+  <li>编译当前目录中的包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go build</code></p>
+
+<ul>
+  <li>执行当前包中的所有测试用例（文件必须以 <code class="language-plaintext highlighter-rouge">_test.go</code> 结尾）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test</code></p>
+
+<ul>
+  <li>编译并安装当前包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go install</code></p>
+
+<ul>
+  <li>在当前目录下初始化一个新模块：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go mod init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">模块</span></p>

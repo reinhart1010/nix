@@ -1,0 +1,28 @@
+<h1 id="sacctmgr">sacctmgr</h1>
+
+<p>查看、配置、管理 Slurm 账户。
+更多信息：<a href="https://slurm.schedmd.com/sacctmgr.html">https://slurm.schedmd.com/sacctmgr.html</a>.</p>
+
+<ul>
+  <li>显示现有配置：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sacctmgr show configuration</code></p>
+
+<ul>
+  <li>向 Slurm 数据库添加集群：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sacctmgr add cluster </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">集群名</span></p>
+
+<ul>
+  <li>向 Slurm 数据库添加账户：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sacctmgr add account </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">账户名</span><code class="language-plaintext highlighter-rouge"> cluster=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">账户所在集群</span></p>
+
+<ul>
+  <li>以指定格式显示用户、账户资源关联、集群、账户的详细信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sacctmgr show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user|association|cluster|account</span><code class="language-plaintext highlighter-rouge"> format="Account%10" format="GrpTRES%30"</code></p>

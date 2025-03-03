@@ -1,0 +1,22 @@
+<h1 id="lnav">lnav</h1>
+
+<p>Инструмент для просмотра и анализа файлов журналов (логов).
+Больше информации: <a href="https://docs.lnav.org/en/latest/cli.html">https://docs.lnav.org/en/latest/cli.html</a>.</p>
+
+<ul>
+  <li>Просмотреть логи, в качестве аргумента можно указать файл лога, каталог или URL-адрес:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lnav </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла_или_директории|url-адрес</span></p>
+
+<ul>
+  <li>Просмотреть логи удаленного хоста (требуется аутентификация SSH без пароля):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lnav </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">пользователь</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host1.example.com</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/var/log/syslog.log</span></p>
+
+<ul>
+  <li>Проверить файлы на соответствие корректности формату логов:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lnav -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/директории_с_логами</span></p>

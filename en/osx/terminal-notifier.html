@@ -1,0 +1,28 @@
+<h1 id="terminal-notifier">terminal-notifier</h1>
+
+<p>Send macOS User Notifications.
+More information: <a href="https://github.com/julienXX/terminal-notifier">https://github.com/julienXX/terminal-notifier</a>.</p>
+
+<ul>
+  <li>Send a notification (only the message is required):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terminal-notifier -group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tldr-info</span><code class="language-plaintext highlighter-rouge"> -title </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">TLDR</span><code class="language-plaintext highlighter-rouge"> -message '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">TLDR rocks</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Display piped data with a sound:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Piped Message Data!</span><code class="language-plaintext highlighter-rouge">' | terminal-notifier -sound </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">default</span></p>
+
+<ul>
+  <li>Open a URL when the notification is clicked:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terminal-notifier -message '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Check your Apple stock!</span><code class="language-plaintext highlighter-rouge">' -open '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://finance.yahoo.com/q?s=AAPL</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Open an app when the notification is clicked:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terminal-notifier -message '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Imported 42 contacts.</span><code class="language-plaintext highlighter-rouge">' -activate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.apple.AddressBook</span></p>

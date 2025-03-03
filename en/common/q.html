@@ -1,0 +1,40 @@
+<h1 id="q">q</h1>
+
+<p>Execute SQL-like queries on CSV and TSV files.
+More information: <a href="https://harelba.github.io/q">https://harelba.github.io/q</a>.</p>
+
+<ul>
+  <li>Query a CSV file by specifying the delimiter as ',':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">q -d',' "SELECT * from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Query a TSV file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">q -t "SELECT * from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Query file with header row:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">q -d</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delimiter</span><code class="language-plaintext highlighter-rouge"> -H "SELECT * from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Read data from <code class="language-plaintext highlighter-rouge">stdin</code>; '-' in the query represents the data from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output</span><code class="language-plaintext highlighter-rouge"> | q "select * from -"</code></p>
+
+<ul>
+  <li>Join two files (aliased as <code class="language-plaintext highlighter-rouge">f1</code> and <code class="language-plaintext highlighter-rouge">f2</code> in the example) on column <code class="language-plaintext highlighter-rouge">c1</code>, a common column:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">q "SELECT * FROM </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> f1 JOIN </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/other_file</span><code class="language-plaintext highlighter-rouge"> f2 ON (f1.c1 = f2.c1)"</code></p>
+
+<ul>
+  <li>Format output using an output delimiter with an output header line (Note: command will output column names based on the input file header or the column aliases overridden in the query):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">q -D</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delimiter</span><code class="language-plaintext highlighter-rouge"> -O "SELECT </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column</span><code class="language-plaintext highlighter-rouge"> as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alias</span><code class="language-plaintext highlighter-rouge"> from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">"</code></p>

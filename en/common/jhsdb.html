@@ -1,0 +1,28 @@
+<h1 id="jhsdb">jhsdb</h1>
+
+<p>Attach to a Java process or launch a postmortem debugger to analyze the core dump from a crashed Java Virtual Machine.
+More information: <a href="https://manned.org/jhsdb">https://manned.org/jhsdb</a>.</p>
+
+<ul>
+  <li>Print stack and locks information of a Java process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhsdb jstack --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Open a core dump in interactive debug mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhsdb clhsdb --core </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/core_dump</span><code class="language-plaintext highlighter-rouge"> --exe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/jdk/bin/java</span></p>
+
+<ul>
+  <li>Start a remote debug server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhsdb debugd --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> --serverid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_unique_id</span></p>
+
+<ul>
+  <li>Connect to a process in interactive debug mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhsdb clhsdb --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>

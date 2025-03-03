@@ -1,0 +1,35 @@
+<h1 id="nix-repl">nix repl</h1>
+
+<p>Start an interactive environment for evaluating Nix expressions.
+See <a href="https://nixos.org/manual/nix/stable/language/index.html">https://nixos.org/manual/nix/stable/language/index.html</a> for a description of the Nix expression language.
+More information: <a href="https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-repl.html">https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-repl.html</a>.</p>
+
+<ul>
+  <li>Start an interactive environment for evaluating Nix expressions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix repl</code></p>
+
+<ul>
+  <li>Load all packages from a flake (e.g. <code class="language-plaintext highlighter-rouge">nixpkgs</code>) into scope:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:lf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs</span></p>
+
+<ul>
+  <li>Build a package from an expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expression</span></p>
+
+<ul>
+  <li>Start a shell with package from the expression available:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expression</span></p>
+
+<ul>
+  <li>Start a shell with dependencies of the package from the expression available:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expression</span></p>

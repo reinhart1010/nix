@@ -1,0 +1,23 @@
+<h1 id="cryptsetup-luksformat">cryptsetup luksFormat</h1>
+
+<p>LUKS 파티션과 초기 키 슬롯(0)을 암호 또는 키파일로 초기화합니다.
+참고: 이 작업은 파티션의 모든 데이터를 덮어씁니다.
+더 많은 정보: <a href="https://manned.org/cryptsetup-luksFormat">https://manned.org/cryptsetup-luksFormat</a>.</p>
+
+<ul>
+  <li>암호로 LUKS 볼륨 초기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup luksFormat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span></p>
+
+<ul>
+  <li>키파일로 LUKS 볼륨 초기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup luksFormat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/키파일</span></p>
+
+<ul>
+  <li>암호로 LUKS 볼륨 초기화하고 라벨 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup luksFormat --label </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">라벨</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span></p>

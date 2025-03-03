@@ -1,0 +1,35 @@
+<h1 id="aws-codeartifact">aws codeartifact</h1>
+
+<p>Manage CodeArtifact repositories, domains, packages, package versions and assets.
+CodeArtifact is an artifact repository compatible with popular package managers and build tools like Maven, Gradle, npm, Yarn, Twine, pip, NuGet, and SwiftPM.
+More information: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/codeartifact/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/codeartifact/index.html</a>.</p>
+
+<ul>
+  <li>List available domains for your AWS account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws codeartifact list-domains</code></p>
+
+<ul>
+  <li>Generate credentials for a specific package manager:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws codeartifact login --tool </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">npm|pip|twine</span><code class="language-plaintext highlighter-rouge"> --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">your_domain</span><code class="language-plaintext highlighter-rouge"> --repository </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span></p>
+
+<ul>
+  <li>Get the endpoint URL of a CodeArtifact repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws codeartifact get-repository-endpoint --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">your_domain</span><code class="language-plaintext highlighter-rouge"> --repository </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span><code class="language-plaintext highlighter-rouge"> --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">npm|pypi|maven|nuget|generic</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws codeartifact help</code></p>
+
+<ul>
+  <li>Display help for a specific subcommand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws codeartifact </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span><code class="language-plaintext highlighter-rouge"> help</code></p>

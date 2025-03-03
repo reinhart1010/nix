@@ -1,0 +1,47 @@
+<h1 id="acmesh">acme.sh</h1>
+
+<p>Shell script implementing ACME client protocol, an alternative to <code class="language-plaintext highlighter-rouge">certbot</code>.
+See also <code class="language-plaintext highlighter-rouge">acme.sh dns</code>.
+More information: <a href="https://github.com/acmesh-official/acme.sh">https://github.com/acmesh-official/acme.sh</a>.</p>
+
+<ul>
+  <li>Issue a certificate using webroot mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --webroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/webroot</span></p>
+
+<ul>
+  <li>Issue a certificate for multiple domains using standalone mode using port 80:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --standalone --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">www.example.com</span></p>
+
+<ul>
+  <li>Issue a certificate using standalone TLS mode using port 443:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --alpn --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Issue a certificate using a working Nginx configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --nginx --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Issue a certificate using a working Apache configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --apache --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Issue a wildcard (*) certificate using an automatic DNS API mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --dns </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dns_cf</span><code class="language-plaintext highlighter-rouge"> --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.example.com</span></p>
+
+<ul>
+  <li>Install certificate files into the specified locations (useful for automatic certificate renewal):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --install-cert -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --key-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/example.com.key</span><code class="language-plaintext highlighter-rouge"> --fullchain-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/example.com.cer</span><code class="language-plaintext highlighter-rouge"> --reloadcmd "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemctl force-reload nginx</span><code class="language-plaintext highlighter-rouge">"</code></p>

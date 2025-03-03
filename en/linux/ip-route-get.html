@@ -1,0 +1,40 @@
+<h1 id="ip-route-get">ip route get</h1>
+
+<p>Get a single route to a destination and print its contents exactly as the kernel sees it.
+More information: <a href="https://manned.org/ip-route">https://manned.org/ip-route</a>.</p>
+
+<ul>
+  <li>Print route to a destination:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.1.1.1</span></p>
+
+<ul>
+  <li>Print route to a destination from a specific source address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination</span><code class="language-plaintext highlighter-rouge"> from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source</span></p>
+
+<ul>
+  <li>Print route to a destination for packets arriving on a specific interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination</span><code class="language-plaintext highlighter-rouge"> iif </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Print route to a destination, forcing output through a specific interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination</span><code class="language-plaintext highlighter-rouge"> oif </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth1</span></p>
+
+<ul>
+  <li>Print route to a destination with a specified Type of Service (ToS):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination</span><code class="language-plaintext highlighter-rouge"> tos </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0x10</span></p>
+
+<ul>
+  <li>Print route to a destination using a specific VRF (Virtual Routing and Forwarding) instance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination</span><code class="language-plaintext highlighter-rouge"> vrf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">myvrf</span></p>

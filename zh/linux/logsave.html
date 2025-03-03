@@ -1,0 +1,28 @@
+<h1 id="logsave">logsave</h1>
+
+<p>将一个命令的输出保存在日志文件中。
+更多信息：<a href="https://manned.org/logsave">https://manned.org/logsave</a>.</p>
+
+<ul>
+  <li>使用指定的参数执行命令并将其输出保存到日志文件中：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logsave </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/logfile</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>从标准输入中获取输入并将其保存在日志文件中：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logsave </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">logfile</span><code class="language-plaintext highlighter-rouge"> -</code></p>
+
+<ul>
+  <li>将输出追加到日志文件，而不是替换其当前内容：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logsave -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">logfile</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>显示详细输出：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logsave -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">logfile</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>

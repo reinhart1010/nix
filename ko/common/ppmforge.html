@@ -1,0 +1,28 @@
+<h1 id="ppmforge">ppmforge</h1>
+
+<p>구름, 행성 및 별이 빛나는 하늘과 같은 프랙탈을 생성합니다.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/ppmforge.html">https://netpbm.sourceforge.net/doc/ppmforge.html</a>.</p>
+
+<ul>
+  <li>행성 이미지를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmforge &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.ppm</span></p>
+
+<ul>
+  <li>구름이나 밤하늘 이미지를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmforge -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">night|clouds</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.ppm</span></p>
+
+<ul>
+  <li>프랙탈 생성에 사용자 정의 메쉬 크기와 차원을 사용하고 출력의 크기를 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmforge -mesh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">512</span><code class="language-plaintext highlighter-rouge"> -dimension </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2.5</span><code class="language-plaintext highlighter-rouge"> -xsize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000</span><code class="language-plaintext highlighter-rouge"> -ysize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.ppm</span></p>
+
+<ul>
+  <li>생성된 행성의 기울기 및 조명 각도 조절:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmforge -tilt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-15</span><code class="language-plaintext highlighter-rouge"> -hour </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">12</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.ppm</span></p>

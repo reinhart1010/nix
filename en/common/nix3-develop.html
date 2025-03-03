@@ -1,0 +1,22 @@
+<h1 id="nix-develop">nix develop</h1>
+
+<p>Run a Bash shell that provides the build environment of a derivation.
+More information: <a href="https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-develop.html">https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-develop.html</a>.</p>
+
+<ul>
+  <li>Start a shell with all dependencies of a package from nixpkgs available:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix develop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs#pkg</span></p>
+
+<ul>
+  <li>Start a development shell for the default package in a flake in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix develop</code></p>
+
+<ul>
+  <li>In that shell, configure and build the sources:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">configurePhase; buildPhase</code></p>

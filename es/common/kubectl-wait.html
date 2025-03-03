@@ -1,0 +1,28 @@
+<h1 id="kubectl-wait">kubectl wait</h1>
+
+<p>Espera a que los recursos alcancen un estado determinado.
+Más información: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#wait">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#wait</a>.</p>
+
+<ul>
+  <li>Espera a que un despliegue esté disponible:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl wait --for=condition=available deployment/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_despliegue</span></p>
+
+<ul>
+  <li>Espera a que todos los pods con una determinada etiqueta ([l]) estén listos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl wait --for=condition=ready pod -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiqueta_clave</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiqueta_valor</span></p>
+
+<ul>
+  <li>Espera a que se elimine un pod:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl wait --for=delete pod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_pod</span></p>
+
+<ul>
+  <li>Espera a que se complete un trabajo, en un plazo de 120 segundos (si la condición no se cumple a tiempo, el estado de salida será fallido):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl wait --for=condition=complete job/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_trabajo</span><code class="language-plaintext highlighter-rouge"> --timeout 120s</code></p>

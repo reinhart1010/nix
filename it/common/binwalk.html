@@ -1,0 +1,40 @@
+<h1 id="binwalk">binwalk</h1>
+
+<p>Strumento per l'analisi di file binari.
+Maggiori informazioni: <a href="https://github.com/ReFirmLabs/binwalk">https://github.com/ReFirmLabs/binwalk</a>.</p>
+
+<ul>
+  <li>Scansiona un file binario:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binwalk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>
+
+<ul>
+  <li>Estrae file da un binario, specificando la directory di output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binwalk --extract --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory_di_output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>
+
+<ul>
+  <li>Estrae file in maniera ricorsiva a partire da un binario, limitando la profondità di ricorsione a 2 livelli:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binwalk --extract --matryoshka --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>
+
+<ul>
+  <li>Estrae file da un binario utilizzando una particolare firma (ad esempio il MIME Type):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binwalk --dd '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">png image:png</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>
+
+<ul>
+  <li>Analizza l'entropia di un binario e salva il grafico con lo stesso filename del binario, con l'estensione <code class="language-plaintext highlighter-rouge">.png</code> in fondo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binwalk --entropy --save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>
+
+<ul>
+  <li>Combina analisi di entropia, firme e opcode in un unico comando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binwalk --entropy --signature --opcodes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>

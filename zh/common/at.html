@@ -1,0 +1,35 @@
+<h1 id="at">at</h1>
+
+<p>在稍后时间执行命令。
+结果将被发送到用户的邮箱。
+更多信息：<a href="https://manned.org/at">https://manned.org/at</a>.</p>
+
+<ul>
+  <li>启动 <code class="language-plaintext highlighter-rouge">atd</code> 守护进程：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl start atd</code></p>
+
+<ul>
+  <li>交互式创建命令并在 5 分钟后执行（完成后按 <code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt; + D</code>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at now + 5 minutes</code></p>
+
+<ul>
+  <li>交互式创建命令并在特定时间执行：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">小时:分钟</span></p>
+
+<ul>
+  <li>在今天 10:00 AM 从标准输入执行一个命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span><code class="language-plaintext highlighter-rouge">" | at 1000</code></p>
+
+<ul>
+  <li>在下周二晚上 9:30 从指定文件执行命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span><code class="language-plaintext highlighter-rouge"> 9:30 PM Tue</code></p>

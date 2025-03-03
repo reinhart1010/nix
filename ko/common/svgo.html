@@ -1,0 +1,47 @@
+<h1 id="svgo">svgo</h1>
+
+<p>SVG Optimizer: Scalable Vector Graphics 파일 최적화 도구. Node.js 기반.
+개별적으로 토글할 수 있는 일련의 변환 규칙(플러그인)을 적용합니다.
+더 많은 정보: <a href="https://github.com/svg/svgo">https://github.com/svg/svgo</a>.</p>
+
+<ul>
+  <li>기본 플러그인을 사용하여 파일 최적화 (원본 파일을 덮어씁니다):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테스트.svg</span></p>
+
+<ul>
+  <li>파일을 최적화하고 결과를 다른 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테스트.svg</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테스트.min.svg</span></p>
+
+<ul>
+  <li>디렉토리 내 모든 SVG 파일 최적화 (원본 파일을 덮어씁니다):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgo -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더/안의/svg/파일들</span></p>
+
+<ul>
+  <li>디렉토리 내 모든 SVG 파일을 최적화하고 결과 파일을 다른 디렉토리에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgo -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력/디렉토리/경로</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력/디렉토리/경로</span></p>
+
+<ul>
+  <li>다른 명령에서 전달된 SVG 콘텐츠를 최적화하고 결과를 파일에 저장:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat 테스트.svg</span><code class="language-plaintext highlighter-rouge"> | svgo -i - -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테스트.min.svg</span></p>
+
+<ul>
+  <li>파일을 최적화하고 결과를 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테스트.svg</span><code class="language-plaintext highlighter-rouge"> -o -</code></p>
+
+<ul>
+  <li>사용 가능한 플러그인 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgo --show-plugins</code></p>

@@ -1,0 +1,28 @@
+<h1 id="autoflake">autoflake</h1>
+
+<p>Remove unused imports and variables from Python code.
+More information: <a href="https://github.com/myint/autoflake">https://github.com/myint/autoflake</a>.</p>
+
+<ul>
+  <li>Remove unused variables from a single file and display the diff:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autoflake --remove-unused-variables </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span></p>
+
+<ul>
+  <li>Remove unused imports from multiple files and display the diffs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autoflake --remove-all-unused-imports </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.py path/to/file2.py …</span></p>
+
+<ul>
+  <li>Remove unused variables from a file, overwriting the file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autoflake --remove-unused-variables --in-place </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span></p>
+
+<ul>
+  <li>Remove unused variables recursively from all files in a directory, overwriting each file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autoflake --remove-unused-variables --in-place --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

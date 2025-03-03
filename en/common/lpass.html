@@ -1,0 +1,34 @@
+<h1 id="lpass">lpass</h1>
+
+<p>Command-line interface for the LastPass password manager.
+More information: <a href="https://github.com/lastpass/lastpass-cli">https://github.com/lastpass/lastpass-cli</a>.</p>
+
+<ul>
+  <li>Log in to your LastPass account, by entering your master password when prompted:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpass login </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Show login status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpass status</code></p>
+
+<ul>
+  <li>List all sites grouped by category:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpass ls</code></p>
+
+<ul>
+  <li>Generate a new password for gmail.com with the identifier <code class="language-plaintext highlighter-rouge">myinbox</code> and add to LastPass:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpass generate --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gmail.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">myinbox</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password_length</span></p>
+
+<ul>
+  <li>Show password for a specified entry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpass show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">myinbox</span><code class="language-plaintext highlighter-rouge"> --password</code></p>

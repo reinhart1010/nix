@@ -1,0 +1,22 @@
+<h1 id="st-util">st-util</h1>
+
+<p>Run GDB (GNU Debugger) server to interact with STM32 ARM Cortex microcontoller.
+More information: <a href="https://github.com/texane/stlink">https://github.com/texane/stlink</a>.</p>
+
+<ul>
+  <li>Run GDB server on port 4500:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">st-util -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4500</span></p>
+
+<ul>
+  <li>Connect to GDB server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">(gdb) target extended-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">localhost</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4500</span></p>
+
+<ul>
+  <li>Write firmware to device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">(gdb) load </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">firmware.elf</span></p>

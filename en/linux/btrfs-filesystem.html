@@ -1,0 +1,40 @@
+<h1 id="btrfs-filesystem">btrfs filesystem</h1>
+
+<p>Manage btrfs filesystems.
+More information: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-filesystem.html">https://btrfs.readthedocs.io/en/latest/btrfs-filesystem.html</a>.</p>
+
+<ul>
+  <li>Show filesystem usage (optionally run as root to show detailed information):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">btrfs filesystem usage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/btrfs_mount</span></p>
+
+<ul>
+  <li>Show usage by individual devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs filesystem show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/btrfs_mount</span></p>
+
+<ul>
+  <li>Defragment a single file on a btrfs filesystem (avoid while a deduplication agent is running):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs filesystem defragment -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Defragment a directory recursively (does not cross subvolume boundaries):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs filesystem defragment -v -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Force syncing unwritten data blocks to disk(s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs filesystem sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/btrfs_mount</span></p>
+
+<ul>
+  <li>Summarize disk usage for the files in a directory recursively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs filesystem du --summarize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

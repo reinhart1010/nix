@@ -1,0 +1,22 @@
+<h1 id="ld">ld</h1>
+
+<p>오브젝트 파일을 함께 링크.
+더 많은 정보: <a href="https://sourceware.org/binutils/docs-2.38/ld.html">https://sourceware.org/binutils/docs-2.38/ld.html</a>.</p>
+
+<ul>
+  <li>특정 오브젝트 파일을 의존성 없이 실행 파일로 링크:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ld </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.o</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_실행파일</span></p>
+
+<ul>
+  <li>두 오브젝트 파일을 함께 링크:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ld </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.o</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2.o</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_실행파일</span></p>
+
+<ul>
+  <li>x86_64 프로그램을 glibc에 동적으로 링크 (파일 경로는 시스템에 따라 달라짐):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ld --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_실행파일</span><code class="language-plaintext highlighter-rouge"> --dynamic-linker /lib/ld-linux-x86-64.so.2 /lib/crt1.o /lib/crti.o -lc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.o</span><code class="language-plaintext highlighter-rouge"> /lib/crtn.o</code></p>

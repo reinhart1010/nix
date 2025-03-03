@@ -1,0 +1,29 @@
+<h1 id="disown">disown</h1>
+
+<p>उप-प्रक्रियाओं को उस शेल से परे रहने की अनुमति दें जिससे वे जुड़े हुए हैं।
+<code class="language-plaintext highlighter-rouge">jobs</code> कमांड भी देखें।
+अधिक जानकारी: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-disown">https://www.gnu.org/software/bash/manual/bash.html#index-disown</a>।</p>
+
+<ul>
+  <li>वर्तमान कार्य को अस्वीकार करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">disown</code></p>
+
+<ul>
+  <li>किसी विशिष्ट कार्य को अस्वीकार करे:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">disown %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">कार्य_की_संख्या</span></p>
+
+<ul>
+  <li>सभी कार्य को अस्वीकार करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">disown -a</code></p>
+
+<ul>
+  <li>कार्य को रखें (इसे अस्वीकार न करें), लेकिन इसे चिह्नित करें ताकि भविष्य में शेल निकास पर कोई SIGHUP प्राप्त न हो।:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">disown -h %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">कार्य_की_संख्या</span></p>

@@ -1,0 +1,40 @@
+<h1 id="gitlab-ctl">gitlab-ctl</h1>
+
+<p>Çok amaçlı GitLab yönetim CLI aracı.
+Daha fazla bilgi için: <a href="https://docs.gitlab.com/omnibus/maintenance/">https://docs.gitlab.com/omnibus/maintenance/</a>.</p>
+
+<ul>
+  <li>Tüm servislerin durumunu görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo gitlab-ctl status</code></p>
+
+<ul>
+  <li>Belirtilen servisin durumunu görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo gitlab-ctl status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nginx</span></p>
+
+<ul>
+  <li>Tüm servisleri yeniden başlat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo gitlab-ctl restart</code></p>
+
+<ul>
+  <li>Belirtilen servisi yeniden başlat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo gitlab-ctl restart </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nginx</span></p>
+
+<ul>
+  <li>Tüm servislerin kaydını görüntüle ve <code class="language-plaintext highlighter-rouge">Ctrl + C</code> basılana kadar okumaya devam et:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo gitlab-ctl tail</code></p>
+
+<ul>
+  <li>Belirtilen servisin kaydını görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo gitlab-ctl tail </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nginx</span></p>

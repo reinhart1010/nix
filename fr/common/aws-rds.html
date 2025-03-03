@@ -1,0 +1,53 @@
+<h1 id="aws-rds">aws rds</h1>
+
+<p>CLI AWS pour Relational Database Service.
+Crée et gère des bases de données relationnelles.
+Plus d'informations : <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/rds/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/rds/index.html</a>.</p>
+
+<ul>
+  <li>Affiche l'aide pour une sous-commande RDS donnée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws rds </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sous_commande</span><code class="language-plaintext highlighter-rouge"> help</code></p>
+
+<ul>
+  <li>Stoppe une instance :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws rds stop-db-instance --db-instance-identifier </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identifiant_de_l_instance</span></p>
+
+<ul>
+  <li>Démarre une nouvelle instance :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws rds start-db-instance --db-instance-identifier </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identifiant_de_l_instance</span></p>
+
+<ul>
+  <li>Modifie une instance RDS :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws rds modify-db-instance --db-instance-identifier </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identifiant_de_l_instance</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paramètres</span><code class="language-plaintext highlighter-rouge"> --apply-immediately</code></p>
+
+<ul>
+  <li>Applique les mises à jour à une instance RDS :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws rds apply-pending-maintenance-action --resource-identifier </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arn_de_la_base_de_données</span><code class="language-plaintext highlighter-rouge"> --apply-action </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mise_à_jour_du_système</span><code class="language-plaintext highlighter-rouge"> --opt-in-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">immediate</span></p>
+
+<ul>
+  <li>Change l'identifiant d'une instance :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws rds modify-db-instance --db-instance-identifier </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ancien_identifiant_de_l_instance</span><code class="language-plaintext highlighter-rouge"> --new-db-instance-identifier </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nouvel_identifiant_de_l_instance</span></p>
+
+<ul>
+  <li>Redémarre une instance :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws rds reboot-db-instance --db-instance-identifier </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identifiant_de_l_instance</span></p>
+
+<ul>
+  <li>Supprime une instance :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws rds delete-db-instance --db-instance-identifier </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identifiant_de_l_instance</span><code class="language-plaintext highlighter-rouge"> --final-db-snapshot-identifier </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identifiant_de_l_image</span><code class="language-plaintext highlighter-rouge"> --delete-automated-backups</code></p>

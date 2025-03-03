@@ -1,0 +1,29 @@
+<h1 id="chpass">chpass</h1>
+
+<p>Gebruikersdatabase informatie toevoegen of wijzigen, inclusief login shell en wachtwoord.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">passwd</code>.
+Meer informatie: <a href="https://man.openbsd.org/chsh">https://man.openbsd.org/chsh</a>.</p>
+
+<ul>
+  <li>Stel interactief een specifieke login shell in voor de huidige gebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas chsh</code></p>
+
+<ul>
+  <li>Stel een specifieke login [s]hell in voor de huidige gebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas chsh -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/shell</span></p>
+
+<ul>
+  <li>Stel een login [s]hell in voor een specifieke gebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas chsh -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>
+
+<ul>
+  <li>Specificeer een gebruikersdatabase entry in het <code class="language-plaintext highlighter-rouge">passwd</code> bestandsformaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas chsh -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam:gecodeerd_wachtwoord:uid:gid:…</span></p>

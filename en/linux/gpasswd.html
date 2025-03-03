@@ -1,0 +1,34 @@
+<h1 id="gpasswd">gpasswd</h1>
+
+<p>Administer <code class="language-plaintext highlighter-rouge">/etc/group</code> and <code class="language-plaintext highlighter-rouge">/etc/gshadow</code>.
+More information: <a href="https://manned.org/gpasswd">https://manned.org/gpasswd</a>.</p>
+
+<ul>
+  <li>Define group administrators:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo gpasswd -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user1,user2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span></p>
+
+<ul>
+  <li>Set the list of group members:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo gpasswd -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user1,user2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span></p>
+
+<ul>
+  <li>Create a password for the named group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpasswd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span></p>
+
+<ul>
+  <li>Add a user to the named group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpasswd -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span></p>
+
+<ul>
+  <li>Remove a user from the named group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpasswd -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span></p>

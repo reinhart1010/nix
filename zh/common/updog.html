@@ -1,0 +1,35 @@
+<h1 id="updog">updog</h1>
+
+<p>Python <code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;SimpleHTTPServer&lt;/span&gt;</code> 的替代方案。
+它允许通过 HTTP/S 上传和下载，可以设置临时 SSL 证书，并使用 HTTP 基本认证。
+更多信息：<a href="https://github.com/sc0tfree/updog">https://github.com/sc0tfree/updog</a>.</p>
+
+<ul>
+  <li>为当前目录启动 HTTP 服务器：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">updog</code></p>
+
+<ul>
+  <li>为指定目录启动 HTTP 服务器：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">updog --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/路径/到/目录</span></p>
+
+<ul>
+  <li>在指定端口上启动 HTTP 服务器：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">updog --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">端口</span></p>
+
+<ul>
+  <li>使用密码启动 HTTP 服务器（要登录，请将用户名留空，并在密码字段中输入密码）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">updog --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span></p>
+
+<ul>
+  <li>通过 SSL 启用传输加密：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">updog --ssl</code></p>

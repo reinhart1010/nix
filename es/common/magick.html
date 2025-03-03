@@ -1,0 +1,36 @@
+<h1 id="magick">magick</h1>
+
+<p>Crea, edita, compone o convierte entre formatos de imagen.
+Esta herramienta reemplaza a <code class="language-plaintext highlighter-rouge">convert</code> en ImageMagick 7+. Usa <code class="language-plaintext highlighter-rouge">magick convert</code> para utilizar la herramienta antigua en versiones 7+.
+Algunos subcomandos, como <code class="language-plaintext highlighter-rouge">mogrify</code>, tienen su propia documentación de uso.
+Más información: <a href="https://imagemagick.org">https://imagemagick.org</a>.</p>
+
+<ul>
+  <li>Convierte entre formatos de imagen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/imagen_entrada.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/imagen_salida.jpg</span></p>
+
+<ul>
+  <li>Redimensiona una imagen, creando una nueva copia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/imagen_entrada.jpg</span><code class="language-plaintext highlighter-rouge"> -resize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100x100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/imagen_salida.jpg</span></p>
+
+<ul>
+  <li>Crea un GIF a partir de todas las imágenes JPEG en el directorio actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/imagenes.gif</span></p>
+
+<ul>
+  <li>Crea un patrón de tablero de ajedrez:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick -size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640x480</span><code class="language-plaintext highlighter-rouge"> pattern:checkerboard </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/tablero.png</span></p>
+
+<ul>
+  <li>Crea un archivo PDF a partir de todas las imágenes JPEG en el directorio actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpg</span><code class="language-plaintext highlighter-rouge"> -adjoin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo.pdf</span></p>

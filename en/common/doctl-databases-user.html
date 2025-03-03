@@ -1,0 +1,46 @@
+<h1 id="doctl-databases-user">doctl databases user</h1>
+
+<p>View details for, and create, database users.
+More information: <a href="https://docs.digitalocean.com/reference/doctl/reference/databases/user">https://docs.digitalocean.com/reference/doctl/reference/databases/user</a>.</p>
+
+<ul>
+  <li>Run a <code class="language-plaintext highlighter-rouge">doctl databases user</code> command with an access token:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> --access-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">access_token</span></p>
+
+<ul>
+  <li>Retrieve details about a database user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases user get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_name</span></p>
+
+<ul>
+  <li>Retrieve a list of database users for a given database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases user list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_id</span></p>
+
+<ul>
+  <li>Reset the auth password for a given user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases user reset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_name</span></p>
+
+<ul>
+  <li>Reset the MySQL auth plugn for a given user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases user reset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caching_sha2_password|mysql_native_password</span></p>
+
+<ul>
+  <li>Create a user in the given database with a given username:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases user create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_name</span></p>
+
+<ul>
+  <li>Delete a user from the given database with the given username:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases user delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_name</span></p>

@@ -1,0 +1,28 @@
+<h1 id="repo-add">repo-add</h1>
+
+<p>Package database maintenance utility which enables installation of said package via Pacman.
+More information: <a href="https://manned.org/repo-add">https://manned.org/repo-add</a>.</p>
+
+<ul>
+  <li>Create an empty repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repo-add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database.db.tar.gz</span></p>
+
+<ul>
+  <li>Add all package binaries in the current directory and remove the old database file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repo-add --remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database.db.tar.gz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Add all package binaries in the current directory in silent mode except for warning and error messages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repo-add --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database.db.tar.gz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Add all package binaries in the current directory without showing color:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repo-add --nocolor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database.db.tar.gz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.pkg.tar.zst</span></p>

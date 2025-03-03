@@ -1,0 +1,40 @@
+<h1 id="xdotool">xdotool</h1>
+
+<p>X11을 위한 명령줄 자동화 도구.
+더 많은 정보: <a href="https://manned.org/xdotool">https://manned.org/xdotool</a>.</p>
+
+<ul>
+  <li>실행 중인 Firefox 창의 X-Windows 창 ID 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdotool search --onlyvisible --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">firefox</span></p>
+
+<ul>
+  <li>오른쪽 마우스 버튼 클릭:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdotool click </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>현재 활성 창의 ID 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdotool getactivewindow</code></p>
+
+<ul>
+  <li>ID가 12345인 창에 포커스 맞추기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdotool windowfocus --sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">12345</span></p>
+
+<ul>
+  <li>각 글자마다 500ms 지연을 두고 메시지 입력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdotool type --delay </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">500</span><code class="language-plaintext highlighter-rouge"> "Hello world"</code></p>
+
+<ul>
+  <li>Enter 키 누르기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdotool key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">KP_Enter</span></p>

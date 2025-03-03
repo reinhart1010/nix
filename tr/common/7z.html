@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="7z">7z</h1>
+
+<p>Yüksek sıkıştırma oranına sahip dosya sıkıştırıcısı.
+Daha fazla bilgi için: <a href="https://manned.org/7z">https://manned.org/7z</a>.</p>
+
+<ul>
+  <li>Dosya veya dizin arşivle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sikistirilmis_dosya.7z</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yoldan/dosya_veya_dizine</span></p>
+
+<ul>
+  <li>Varolan bir arşivi çözümle (headerlar dahil):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sifrelenmiş_dosya.7z</span><code class="language-plaintext highlighter-rouge"> -p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parola</span><code class="language-plaintext highlighter-rouge"> -mhe=on </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sikistirilmis_dosya.7z</span></p>
+
+<ul>
+  <li>Varolan 7z dosyasını orijinal dizin yapısıyla dışa aktar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sikistirilmis_dosya.7z</span></p>
+
+<ul>
+  <li>Arşivi kullanıcı tarafından belirtilmiş çıkış noktasına aktar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sikistirilmis_dosya.7z</span><code class="language-plaintext highlighter-rouge"> -o</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yoldan/çıktıya</span></p>
+
+<ul>
+  <li>Arşivi <code class="language-plaintext highlighter-rouge">stdout</code>'a aktar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sikistirilmis_dosya.7z</span><code class="language-plaintext highlighter-rouge"> -so</code></p>
+
+<ul>
+  <li>Spesifik bir arşivleme türüyle arşivle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z a -t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7z|bzip2|gzip|lzip|tar|zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sikistirilmis_dosya</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yoldan/dosya_veya_dizine</span></p>
+
+<ul>
+  <li>Arşiv dosyasının içeriğini listele:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sikistirilmis_dosya.7z</span></p>

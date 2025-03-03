@@ -1,0 +1,34 @@
+<h1 id="awslogs">awslogs</h1>
+
+<p>Queries groups, streams and events from Amazon CloudWatch logs.
+More information: <a href="https://github.com/jorgebastida/awslogs">https://github.com/jorgebastida/awslogs</a>.</p>
+
+<ul>
+  <li>List log groups:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awslogs groups</code></p>
+
+<ul>
+  <li>List existing streams for the specified group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awslogs streams </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/var/log/syslog</span></p>
+
+<ul>
+  <li>Get logs for any streams in the specified group between 1 and 2 hours ago:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awslogs get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/var/log/syslog</span><code class="language-plaintext highlighter-rouge"> --start='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2h ago</span><code class="language-plaintext highlighter-rouge">' --end='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1h ago</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Get logs that match a specific CloudWatch Logs Filter pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awslogs get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/aws/lambda/my_lambda_group</span><code class="language-plaintext highlighter-rouge"> --filter-pattern='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ERROR</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Watch logs for any streams in the specified group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awslogs get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/var/log/syslog</span><code class="language-plaintext highlighter-rouge"> ALL --watch</code></p>

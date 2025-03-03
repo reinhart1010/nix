@@ -1,0 +1,29 @@
+<h1 id="pacman-deptest">pacman –deptest</h1>
+
+<p>குறிப்பிடப்பட்ட ஒவ்வொரு சார்புநிலையையும் சரிபார்த்து, கணினியில் தற்போது திருப்தி அடையாத சார்புகளின் பட்டியலைத் திருப்பி அனுப்பவும்.
+இதையும் பார்க்கவும்: <code class="language-plaintext highlighter-rouge">pacman</code>.
+மேலும் விவரத்திற்கு: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>நிறுவப்படாத சார்புகளின் தொகுப்பு பெயர்களை அச்சிடவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --deptest </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு1 நிரல்தொகுப்பு2 …</span></p>
+
+<ul>
+  <li>நிறுவப்பட்ட தொகுப்பு கொடுக்கப்பட்ட குறைந்தபட்ச பதிப்பை பூர்த்திசெய்கிறதா என சரிபார்க்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --deptest "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash&gt;=5</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>தொகுப்பின் பிந்தைய பதிப்பு நிறுவப்பட்டுள்ளதா எனச் சரிபார்க்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --deptest "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash&gt;5</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>உதவியைக் காட்டு:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --deptest --help</code></p>

@@ -1,0 +1,29 @@
+<h1 id="tune2fs">tune2fs</h1>
+
+<p>Adjust parameters of an ext2, ext3 or ext4 filesystem.
+May be used on mounted filesystems.
+More information: <a href="https://manned.org/tune2fs">https://manned.org/tune2fs</a>.</p>
+
+<ul>
+  <li>Set the max number of counts before a filesystem is checked to 2:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tune2fs -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Set the filesystem label to MY_LABEL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tune2fs -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'MY_LABEL'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Enable discard and user-specified extended attributes for a filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tune2fs -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">discard,user_xattr</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Enable journaling for a filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tune2fs -o^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nobarrier</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>

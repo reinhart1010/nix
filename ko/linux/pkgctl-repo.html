@@ -1,0 +1,35 @@
+<h1 id="pkgctl-repo">pkgctl repo</h1>
+
+<p>Arch Linux용 Git 패키징 저장소 및 구성 관리.
+같이 보기: <code class="language-plaintext highlighter-rouge">pkgctl</code>.
+더 많은 정보: <a href="https://manned.org/pkgctl-repo.1">https://manned.org/pkgctl-repo.1</a>.</p>
+
+<ul>
+  <li>패키지 저장소를 클론(Arch Linux GitLab 계정에 SSH 키 설정 필요):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgctl repo clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지명</span></p>
+
+<ul>
+  <li>HTTPS를 통해 패키지 저장소를 클론:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgctl repo clone --protocol=https </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지명</span></p>
+
+<ul>
+  <li>새로운 GitLab 패키지 저장소 생성 후 클론(GitLab API 인증 필요):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgctl repo create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지_기본명</span></p>
+
+<ul>
+  <li>특정 버전으로 패키지 저장소 전환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgctl repo switch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버전</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지_기본명</span></p>
+
+<ul>
+  <li>패키지 저장소의 웹사이트 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgctl repo web </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지_기본명</span></p>

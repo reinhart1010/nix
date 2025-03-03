@@ -1,0 +1,40 @@
+<h1 id="glab-issue">glab issue</h1>
+
+<p>GitLab 이슈 관리.
+더 많은 정보: <a href="https://glab.readthedocs.io/en/latest/issue">https://glab.readthedocs.io/en/latest/issue</a>.</p>
+
+<ul>
+  <li>특정 이슈 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab issue view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이슈_번호</span></p>
+
+<ul>
+  <li>기본 웹 브라우저에 특정 문제를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab issue view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이슈_번호</span><code class="language-plaintext highlighter-rouge"> --web</code></p>
+
+<ul>
+  <li>기본 웹 브라우저에 새로운 이슈를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab issue create --web</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">bug</code> 라벨이 있는 최근 10개 문제를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab issue list --per-page </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> --label "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bug</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 사용자가 작성한 닫힌 이슈를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab issue list --closed --author </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>특정 이슈 다시 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glab issue reopen </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이슈_번호</span></p>

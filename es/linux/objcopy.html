@@ -1,0 +1,34 @@
+<h1 id="objcopy">objcopy</h1>
+
+<p>Copia el contenido de un archivo de objetos a otro archivo.
+Más información: <a href="https://manned.org/objcopy">https://manned.org/objcopy</a>.</p>
+
+<ul>
+  <li>Copia datos a otro archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">objcopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_origen</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_destino</span></p>
+
+<ul>
+  <li>Traduce ficheros de un formato a otro:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">objcopy --input-target=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">formato_de_entrada</span><code class="language-plaintext highlighter-rouge"> --output-target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">formato_de_salida</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_origen</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_destino</span></p>
+
+<ul>
+  <li>Elimina toda la información de símbolos del archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">objcopy --strip-all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_origen</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_destino</span></p>
+
+<ul>
+  <li>Elimina la información de depuración del archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">objcopy --strip-debug </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_origen</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_destino</span></p>
+
+<ul>
+  <li>Copia una sección específica del archivo de origen al archivo de destino:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">objcopy --only-section </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">section</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_origen</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_destino</span></p>

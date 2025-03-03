@@ -1,0 +1,47 @@
+<h1 id="xzgrep">xzgrep</h1>
+
+<p>Zoek bestanden die mogelijk worden gecomprimeerd met <code class="language-plaintext highlighter-rouge">xz</code>, <code class="language-plaintext highlighter-rouge">lzma</code>, <code class="language-plaintext highlighter-rouge">gzip</code>, <code class="language-plaintext highlighter-rouge">bzip2</code>, <code class="language-plaintext highlighter-rouge">lzop</code>, of <code class="language-plaintext highlighter-rouge">zstd</code> met behulp van reguliere expressies.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">grep</code>.
+Meer informatie: <a href="https://manned.org/xzgrep">https://manned.org/xzgrep</a>.</p>
+
+<ul>
+  <li>Zoek naar een patroon in een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xzgrep "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Zoek naar een exacte tekenreeks (schakelt reguliere expressies uit):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xzgrep --fixed-strings "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exact_string</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Zoek naar een patroon in alle bestanden en geef de regelnummers weer van de overeenkomsten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xzgrep --line-number "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Gebruik uitgebreidere reguliere expressies (ondersteund <code class="language-plaintext highlighter-rouge">?</code>, <code class="language-plaintext highlighter-rouge">+</code>, <code class="language-plaintext highlighter-rouge">{}</code>, <code class="language-plaintext highlighter-rouge">()</code> en <code class="language-plaintext highlighter-rouge">|</code>), in case-ongevoelige modus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xzgrep --extended-regexp --ignore-case "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon 3 regels met context rond, voor of na elke overeenkomst:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xzgrep --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon bestandsnaam en regelnummer voor elke overeenkomst met kleuren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xzgrep --with-filename --line-number --color=always "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Zoek naar regels die overeenkomen met een patroon en toon alleen de gematchte tekst:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xzgrep --only-matching "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>

@@ -1,0 +1,35 @@
+<h1 id="input">input</h1>
+
+<p>Android 기기에 이벤트 코드 또는 터치스크린 동작 보내기.
+이 명령은 <code class="language-plaintext highlighter-rouge">adb shell</code>을 통해서만 사용할 수 있습니다.
+더 많은 정보: <a href="https://developer.android.com/reference/android/view/KeyEvent.html#constants_1">https://developer.android.com/reference/android/view/KeyEvent.html#constants_1</a>.</p>
+
+<ul>
+  <li>단일 문자의 이벤트 코드를 Android 기기로 보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input keyevent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이벤트_코드</span></p>
+
+<ul>
+  <li>Android 기기로 문자 보내기 (<code class="language-plaintext highlighter-rouge">%s</code>는 공백을 나타냅니다):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input text "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">텍스트</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Android 기기에 탭 한 번 보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input tap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x축_위치</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y축_위치</span></p>
+
+<ul>
+  <li>Android 기기에 스와이프 동작 보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input swipe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x축_시작</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y축_시작</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x축_끝</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y축_끝</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">지속 시간(밀리초)</span></p>
+
+<ul>
+  <li>스와이프 동작을 사용하여 Android 기기에 길게 누르기 보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input swipe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x축_위치</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y축_위치</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x축_위치</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y축_위치</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">지속 시간(밀리초)</span></p>

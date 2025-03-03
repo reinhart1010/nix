@@ -1,0 +1,46 @@
+<h1 id="scrapy">scrapy</h1>
+
+<p>Web-crawling framework.
+More information: <a href="https://scrapy.org">https://scrapy.org</a>.</p>
+
+<ul>
+  <li>Create a project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy startproject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span></p>
+
+<ul>
+  <li>Create a spider (in project directory):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy genspider </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">spider_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">website_domain</span></p>
+
+<ul>
+  <li>Edit spider (in project directory):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">spider_name</span></p>
+
+<ul>
+  <li>Run spider (in project directory):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy crawl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">spider_name</span></p>
+
+<ul>
+  <li>Fetch a webpage as Scrapy sees it and print the source to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy fetch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Open a webpage in the default browser as Scrapy sees it (disable JavaScript for extra fidelity):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Open Scrapy shell for URL, which allows interaction with the page source in a Python shell (or IPython if available):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>

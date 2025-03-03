@@ -1,0 +1,35 @@
+<h1 id="at">at</h1>
+
+<p>Ferramenta para o agendamento de comandos.
+Resultados serão enviados para o e-mail dos usuários.
+Mais informações: <a href="https://manned.org/at">https://manned.org/at</a>.</p>
+
+<ul>
+  <li>Inicia o daemon <code class="language-plaintext highlighter-rouge">atd</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl start atd</code></p>
+
+<ul>
+  <li>Cria comandos interativamente e executa-os em 5 minutos (pressione <code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt; + D</code> quando acabar):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at now + 5 minutes</code></p>
+
+<ul>
+  <li>Cria comandos interativamente e executa-os no horário específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hh:mm</span></p>
+
+<ul>
+  <li>Executa um comando da <code class="language-plaintext highlighter-rouge">stdin</code> (standard input) às 10:00 da manhã de hoje:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge">" | at 1000</code></p>
+
+<ul>
+  <li>Executa comandos de um dado arquivo na próxima terça:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span><code class="language-plaintext highlighter-rouge"> 9:30 PM Tue</code></p>

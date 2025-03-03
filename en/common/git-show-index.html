@@ -1,0 +1,16 @@
+<h1 id="git-show-index">git show-index</h1>
+
+<p>Show the packed archive index of a Git repository.
+More information: <a href="https://git-scm.com/docs/git-show-index">https://git-scm.com/docs/git-show-index</a>.</p>
+
+<ul>
+  <li>Read an IDX file for a Git packfile and dump its contents to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show-index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.idx</span></p>
+
+<ul>
+  <li>Specify the hash algorithm for the index file (experimental):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show-index --object-format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sha1|sha256</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

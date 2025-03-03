@@ -1,0 +1,40 @@
+<h1 id="gdb">gdb</h1>
+
+<p>The GNU Debugger.
+More information: <a href="https://www.gnu.org/software/gdb">https://www.gnu.org/software/gdb</a>.</p>
+
+<ul>
+  <li>Debug an executable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span></p>
+
+<ul>
+  <li>Attach a process to gdb:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdb -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">procID</span></p>
+
+<ul>
+  <li>Debug with a core file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdb -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">core</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span></p>
+
+<ul>
+  <li>Execute given GDB commands upon start:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdb -ex "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commands</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span></p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">gdb</code> and pass arguments to the executable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdb --args </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument2</span></p>
+
+<ul>
+  <li>Skip debuginfod and pagination prompts and then print the backtrace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdb -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">core</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span><code class="language-plaintext highlighter-rouge"> -iex 'set debuginfod enabled on' -iex 'set pagination off' -ex bt</code></p>

@@ -1,0 +1,23 @@
+<h1 id="logstash">logstash</h1>
+
+<p>An Elasticsearch ETL (extract, transform and load) tool.
+Commonly used to load data from various sources (such as databases and log files) into Elasticsearch.
+More information: <a href="https://www.elastic.co/products/logstash">https://www.elastic.co/products/logstash</a>.</p>
+
+<ul>
+  <li>Check validity of a Logstash configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logstash --configtest --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">logstash_config.conf</span></p>
+
+<ul>
+  <li>Run Logstash using configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo logstash --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">logstash_config.conf</span></p>
+
+<ul>
+  <li>Run Logstash with the most basic inline configuration string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo logstash -e 'input {} filter {} output {}'</code></p>

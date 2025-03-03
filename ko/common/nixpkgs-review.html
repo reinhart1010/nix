@@ -1,0 +1,41 @@
+<h1 id="nixpkgs-review">nixpkgs-review</h1>
+
+<p>NixOS 패키지 저장소(nixpkgs)에서 풀 리퀘스트를 검토.
+빌드가 성공하면, 모든 빌드된 패키지를 포함한 <code class="language-plaintext highlighter-rouge">nix-shell</code>이 시작됩니다.
+더 많은 정보: <a href="https://github.com/Mic92/nixpkgs-review#usage">https://github.com/Mic92/nixpkgs-review#usage</a>.</p>
+
+<ul>
+  <li>지정된 풀 리퀘스트에서 변경된 패키지 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nixpkgs-review pr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pr_번호|pr_url</span></p>
+
+<ul>
+  <li>변경된 패키지를 빌드하고 보고서와 함께 댓글 게시 (<code class="language-plaintext highlighter-rouge">hub</code>, <code class="language-plaintext highlighter-rouge">gh</code> 또는 <code class="language-plaintext highlighter-rouge">GITHUB_TOKEN</code> 환경 변수를 설정해야 함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nixpkgs-review pr --post-result </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pr_번호|pr_url</span></p>
+
+<ul>
+  <li>변경된 패키지를 빌드하고 보고서 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nixpkgs-review pr --print-result </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pr_번호|pr_url</span></p>
+
+<ul>
+  <li>로컬 커밋에서 변경된 패키지 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nixpkgs-review rev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>아직 커밋되지 않은 변경된 패키지 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nixpkgs-review wip</code></p>
+
+<ul>
+  <li>스테이징된 변경된 패키지 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nixpkgs-review wip --staged</code></p>

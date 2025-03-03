@@ -1,0 +1,46 @@
+<h1 id="kate">kate</h1>
+
+<p>KDE의 고급 텍스트 편집기.
+더 많은 정보: <a href="https://kate-editor.org/">https://kate-editor.org/</a>.</p>
+
+<ul>
+  <li>특정 파일 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>특정 원격 파일 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/경로/대상/파일1 https://example.com/경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>이미 열려 있는 경우에도 새 편집기 인스턴스 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kate --new</code></p>
+
+<ul>
+  <li>특정 줄에 커서를 놓고 파일 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kate --line </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">줄_번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>특정 줄과 열에 커서를 놓고 파일 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kate --line </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">줄_번호</span><code class="language-plaintext highlighter-rouge"> --column </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">열_번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> | kate --stdin</code></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kate --help</code></p>

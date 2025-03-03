@@ -1,0 +1,22 @@
+<h1 id="gpgv">gpgv</h1>
+
+<p>Verify OpenPGP signatures.
+More information: <a href="https://www.gnupg.org/documentation/manuals/gnupg/gpgv.html">https://www.gnupg.org/documentation/manuals/gnupg/gpgv.html</a>.</p>
+
+<ul>
+  <li>Verify a signed file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpgv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Verify a signed file using a detached signature:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpgv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/signature</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Add a file to the list of keyrings (a single exported key also counts as a keyring):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpgv --keyring </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./alice.keyring</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/signature</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

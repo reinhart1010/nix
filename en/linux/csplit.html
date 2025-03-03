@@ -1,0 +1,35 @@
+<h1 id="csplit">csplit</h1>
+
+<p>Split a file into pieces.
+This generates files named "xx00", "xx01", and so on.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/csplit-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/csplit-invocation.html</a>.</p>
+
+<ul>
+  <li>Split a file at lines 5 and 23:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csplit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> 5 23</code></p>
+
+<ul>
+  <li>Split a file every 5 lines (this will fail if the total number of lines is not divisible by 5):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csplit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> 5 {*}</code></p>
+
+<ul>
+  <li>Split a file every 5 lines, ignoring exact-division error:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csplit -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> 5 {*}</code></p>
+
+<ul>
+  <li>Split a file at line 5 and use a custom prefix for the output files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csplit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> 5 -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span></p>
+
+<ul>
+  <li>Split a file at a line matching a regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csplit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> /</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">/</code></p>

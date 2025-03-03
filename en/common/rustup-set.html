@@ -1,0 +1,22 @@
+<h1 id="rustup-set">rustup set</h1>
+
+<p>Alter <code class="language-plaintext highlighter-rouge">rustup</code> settings.
+More information: <a href="https://rust-lang.github.io/rustup">https://rust-lang.github.io/rustup</a>.</p>
+
+<ul>
+  <li>Set the default host triple:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup set default-host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_triple</span></p>
+
+<ul>
+  <li>Set the default profile (<code class="language-plaintext highlighter-rouge">minimal</code> includes only <code class="language-plaintext highlighter-rouge">rustc</code>, <code class="language-plaintext highlighter-rouge">rust-std</code> and <code class="language-plaintext highlighter-rouge">cargo</code>, whereas <code class="language-plaintext highlighter-rouge">default</code> adds <code class="language-plaintext highlighter-rouge">rust-docs</code>, <code class="language-plaintext highlighter-rouge">rustfmt</code> and <code class="language-plaintext highlighter-rouge">clippy</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup set profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">minimal|default</span></p>
+
+<ul>
+  <li>Set whether <code class="language-plaintext highlighter-rouge">rustup</code> should update itself when running <code class="language-plaintext highlighter-rouge">rustup update</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup set auto-self-update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enable|disable|check-only</span></p>

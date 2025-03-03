@@ -1,0 +1,29 @@
+<h1 id="asr">asr</h1>
+
+<p>Restore (copy) a disk image onto a volume.
+The command name stands for Apple Software Restore.
+More information: <a href="https://keith.github.io/xcode-man-pages/asr.8.html">https://keith.github.io/xcode-man-pages/asr.8.html</a>.</p>
+
+<ul>
+  <li>Restore a disk image to a target volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_file.dmg</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/volume_file</span></p>
+
+<ul>
+  <li>Erase the target volume before restoring:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_file.dmg</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/volume_file</span><code class="language-plaintext highlighter-rouge"> --erase</code></p>
+
+<ul>
+  <li>Skip verification after restoring:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_file.dmg</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/volume_file</span><code class="language-plaintext highlighter-rouge"> --noverify</code></p>
+
+<ul>
+  <li>Clone volumes without using an intermediate disk image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/volume_file</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/volume_file</span></p>

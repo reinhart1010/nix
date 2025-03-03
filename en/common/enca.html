@@ -1,0 +1,28 @@
+<h1 id="enca">enca</h1>
+
+<p>Detect and convert the encoding of text files.
+More information: <a href="https://github.com/nijel/enca">https://github.com/nijel/enca</a>.</p>
+
+<ul>
+  <li>Detect file(s) encoding according to the system's locale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">enca </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Detect file(s) encoding specifying a language in the POSIX/C locale format (e.g. zh_CN, en_US):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">enca -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">language</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Convert file(s) to a specific encoding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">enca -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">language</span><code class="language-plaintext highlighter-rouge"> -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to_encoding</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Create a copy of an existing file using a different encoding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">enca -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">language</span><code class="language-plaintext highlighter-rouge"> -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to_encoding</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">original_file</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_file</span></p>

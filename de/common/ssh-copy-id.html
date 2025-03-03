@@ -1,0 +1,22 @@
+<h1 id="ssh-copy-id">ssh-copy-id</h1>
+
+<p>Installiere den öffentlichen Teil eines SSH Schlüssels in der <code class="language-plaintext highlighter-rouge">authorized_keys</code> Datei auf einem externen Server.
+Weitere Informationen: <a href="https://manned.org/ssh-copy-id">https://manned.org/ssh-copy-id</a>.</p>
+
+<ul>
+  <li>Kopiere den eigenen öffentlichen SSH Schlüssels zu einem externen Server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-copy-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externer_server</span></p>
+
+<ul>
+  <li>Kopiere den angegebenen öffentlichen SSH Schlüssels zu einem externen Server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-copy-id -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/öffentlichem_schlüssel</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externer_server</span></p>
+
+<ul>
+  <li>Kopiere den angegeben öffentlichen SSH Schlüssels zu einem externen Server unter Angabe eines bestimmten SSH Ports:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-copy-id -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/öffentlichem_schlüssel</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externer_server</span></p>

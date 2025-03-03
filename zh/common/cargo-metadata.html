@@ -1,0 +1,29 @@
+<h1 id="cargo-metadata">cargo metadata</h1>
+
+<p>以 JSON 格式输出当前包的工作空间成员和已解析的依赖关系。
+注意：输出格式可能在未来的 Cargo 版本中发生变化。
+更多信息：<a href="https://doc.rust-lang.org/cargo/commands/cargo-metadata.html">https://doc.rust-lang.org/cargo/commands/cargo-metadata.html</a>.</p>
+
+<ul>
+  <li>打印当前包的工作空间成员和已解析的依赖关系：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo metadata</code></p>
+
+<ul>
+  <li>仅打印工作空间成员，不获取依赖项：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo metadata --no-deps</code></p>
+
+<ul>
+  <li>根据指定版本打印特定格式的元数据：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo metadata --format-version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">版本号</span></p>
+
+<ul>
+  <li>打印带有 <code class="language-plaintext highlighter-rouge">resolve</code> 字段的元数据，仅包括给定目标三元组的依赖关系 (注意：<code class="language-plaintext highlighter-rouge">packages</code> 数组仍将包括所有目标的依赖关系)：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo metadata --filter-platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标三元组</span></p>

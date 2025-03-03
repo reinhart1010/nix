@@ -1,0 +1,34 @@
+<h1 id="bup">bup</h1>
+
+<p>Backup system based on the Git packfile format, providing incremental saves and global deduplication.
+More information: <a href="https://github.com/bup/bup">https://github.com/bup/bup</a>.</p>
+
+<ul>
+  <li>Initialize a backup repository in a given local [d]irectory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bup -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span><code class="language-plaintext highlighter-rouge"> init</code></p>
+
+<ul>
+  <li>Prepare a given [d]irectory before taking a backup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bup -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span><code class="language-plaintext highlighter-rouge"> index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Backup a [d]irectory to the repository specifying its [n]ame:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bup -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span><code class="language-plaintext highlighter-rouge"> save -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">backup_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Show the backup snapshots currently stored in the repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bup -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span><code class="language-plaintext highlighter-rouge"> ls</code></p>
+
+<ul>
+  <li>Restore a specific backup snapshot to a target dire[C]tory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bup -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span><code class="language-plaintext highlighter-rouge"> restore -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">backup_name</span></p>

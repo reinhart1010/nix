@@ -1,0 +1,25 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="split">split</h1>
+
+<p>把一个文件拆分成几块。
+更多信息：<a href="https://keith.github.io/xcode-man-pages/split.1.html">https://keith.github.io/xcode-man-pages/split.1.html</a>.</p>
+
+<ul>
+  <li>分割一个文件，每个分割部分有 10 行（除了最后一个）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">split -l 10 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>用正则表达式拆分文件。匹配行将是下一个输出文件的第一行：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">split -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat|^[dh]og</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>拆分一个文件，每个拆分中有 512 个字节（除了最后一个文件，使用 512K 表示 Kb，512M 表示 Mb）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">split -b 512 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>

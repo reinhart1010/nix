@@ -1,0 +1,23 @@
+<h1 id="ykman-config">ykman config</h1>
+
+<p>YubiKey 애플리케이션 활성화 또는 비활성화.
+참고: 현재 활성화된 애플리케이션을 보려면 <code class="language-plaintext highlighter-rouge">ykman info</code>를 사용할 수 있습니다.
+더 많은 정보: <a href="https://docs.yubico.com/software/yubikey/tools/ykman/Base_Commands.html#ykman-config-options-command-args">https://docs.yubico.com/software/yubikey/tools/ykman/Base_Commands.html#ykman-config-options-command-args</a>.</p>
+
+<ul>
+  <li>USB 또는 NFC를 통해 애플리케이션 활성화 (<code class="language-plaintext highlighter-rouge">--enable</code>을 여러 번 사용하여 더 많은 애플리케이션을 지정할 수 있음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usb|nfc</span><code class="language-plaintext highlighter-rouge"> --enable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">otp|u2f|fido2|oath|piv|openpgp|hsmauth</span></p>
+
+<ul>
+  <li>USB 또는 NFC를 통해 애플리케이션 비활성화 (<code class="language-plaintext highlighter-rouge">--disable</code>을 여러 번 사용하여 더 많은 애플리케이션을 지정할 수 있음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usb|nfc</span><code class="language-plaintext highlighter-rouge"> --disable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">otp|u2f|fido2|oath|piv|openpgp|hsmauth</span></p>
+
+<ul>
+  <li>NFC를 통해 모든 애플리케이션 비활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman config nfc --disable-all</code></p>

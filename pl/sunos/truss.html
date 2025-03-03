@@ -1,0 +1,35 @@
+<h1 id="truss">truss</h1>
+
+<p>Narzędzie do rozwiązywania problemów poprzez śledzenie wywołań systemowych.
+Odpowiednik strace w SunOS.
+Więcej informacji: <a href="https://www.unix.com/man-page/linux/1/truss">https://www.unix.com/man-page/linux/1/truss</a>.</p>
+
+<ul>
+  <li>Rozpocznij śledzenie programu, wykonując go i śledząc wszystkie procesy potomne:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Rozpocznij śledzenie określonego procesu według jego PID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Rozpocznij śledzenie programu, wykonując go, pokazując argumenty i zmienne środowiskowe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -a -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Zlicz czas, wywołania i błędy dla każdego wywołania systemowego i raportuj podsumowanie po zakończeniu programu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -c -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Śledź proces filtrując dane wyjściowe według wywołania systemowego:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truss -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_wywołania_systemowego</span></p>

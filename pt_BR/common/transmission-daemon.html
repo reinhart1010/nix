@@ -1,0 +1,29 @@
+<h1 id="transmission-daemon">transmission-daemon</h1>
+
+<p>Daemon controlado com <code class="language-plaintext highlighter-rouge">transmission-remote</code> ou sua interface web.
+Veja também: <code class="language-plaintext highlighter-rouge">transmission</code>.
+Mais informações: <a href="https://manned.org/transmission-daemon">https://manned.org/transmission-daemon</a>.</p>
+
+<ul>
+  <li>Inicia uma sessão headless <code class="language-plaintext highlighter-rouge">transmission</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-daemon</code></p>
+
+<ul>
+  <li>Inicia e acompanha um diretório específico por novos torrents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-daemon --watch-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretorio</span></p>
+
+<ul>
+  <li>Despeja configurações do daemon em formato JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-daemon --dump-settings &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.json</span></p>
+
+<ul>
+  <li>Inicia com configurações específicas para a interface web:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-daemon --auth --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">senha</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9091</span><code class="language-plaintext highlighter-rouge"> --allowed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1</span></p>

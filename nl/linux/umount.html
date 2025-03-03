@@ -1,0 +1,35 @@
+<h1 id="umount">umount</h1>
+
+<p>Koppel een bestandssysteem los vanuit het mount-punt, waardoor het niet langer toegankelijk is.
+Een bestandssysteem kan niet losgekoppeld worden als het bezig is.
+Meer informatie: <a href="https://manned.org/umount.8">https://manned.org/umount.8</a>.</p>
+
+<ul>
+  <li>Koppel een bestandssysteem los door het pad op te geven van de bron waarop het gemount is:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">umount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/apparaat_bestand</span></p>
+
+<ul>
+  <li>Koppel een bestandssysteem los door het pad op te geven waarop het gemount is:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">umount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/gemounte_map</span></p>
+
+<ul>
+  <li>Als het loskoppelen faalt, probeer het bestandssysteem dan opnieuw te koppelen in leesmodus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">umount --read-only </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/gemounte_map</span></p>
+
+<ul>
+  <li>Koppel ieder gespecificeerde map recursief los:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">umount --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/gemounte_map</span></p>
+
+<ul>
+  <li>Koppel alle gemounte bestandssystemen los (behalve het <code class="language-plaintext highlighter-rouge">proc</code> bestandssysteem):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">umount -a</code></p>

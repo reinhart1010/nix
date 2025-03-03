@@ -1,0 +1,46 @@
+<h1 id="alacritty">alacritty</h1>
+
+<p>Emulador de terminal multiplataforma acelerado por GPU.
+Más información: <a href="https://github.com/alacritty/alacritty">https://github.com/alacritty/alacritty</a>.</p>
+
+<ul>
+  <li>Inicia un nuevo proceso Alacritty y crea una ventana:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alacritty</code></p>
+
+<ul>
+  <li>Inicia el programa residente de Alacritty (sin crear una ventana):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alacritty --daemon</code></p>
+
+<ul>
+  <li>Crea una nueva ventana utilizando el proceso Alacritty que ya está en marcha:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alacritty msg create-window</code></p>
+
+<ul>
+  <li>Inicia el intérprete de comandos en un directorio específico (también funciona con <code class="language-plaintext highlighter-rouge">alacritty msg create-window</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alacritty --working-directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio</span></p>
+
+<ul>
+  <li>[e]jecuta un comando en una nueva ventana de Alacritty (también funciona con <code class="language-plaintext highlighter-rouge">alacritty msg create-window</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alacritty -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Utiliza un archivo de configuración alternativo (por defecto es <code class="language-plaintext highlighter-rouge">$XDG_CONFIG_HOME/alacritty/alacritty.toml</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alacritty --config-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/config.toml</span></p>
+
+<ul>
+  <li>Ejecuta con la recarga de la configuración activa (también puede activarse por defecto en <code class="language-plaintext highlighter-rouge">alacritty.toml</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alacritty --live-config-reload --config-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/config.toml</span></p>

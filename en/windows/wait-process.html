@@ -1,0 +1,17 @@
+<h1 id="wait-process">Wait-Process</h1>
+
+<p>Waits for the processes to be stopped before accepting more input.
+Note: This command can only be used through PowerShell.
+More information: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.management/wait-process">https://learn.microsoft.com/powershell/module/microsoft.powershell.management/wait-process</a>.</p>
+
+<ul>
+  <li>Stop a process and wait:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Stop-Process -Id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_id</span><code class="language-plaintext highlighter-rouge">; Wait-Process -Id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_id</span></p>
+
+<ul>
+  <li>Wait for processes for a specified time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Wait-Process -Name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span><code class="language-plaintext highlighter-rouge"> -Timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span></p>

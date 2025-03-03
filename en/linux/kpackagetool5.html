@@ -1,0 +1,34 @@
+<h1 id="kpackagetool5">kpackagetool5</h1>
+
+<p>KPackage Manager: install, list, remove Plasma packages.
+More information: <a href="https://manned.org/kpackagetool5">https://manned.org/kpackagetool5</a>.</p>
+
+<ul>
+  <li>List all known package types that can be installed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kpackagetool5 --list-types</code></p>
+
+<ul>
+  <li>Install the package from a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kpackagetool5 --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_type</span><code class="language-plaintext highlighter-rouge"> --install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Update installed package from a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kpackagetool5 --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_type</span><code class="language-plaintext highlighter-rouge"> --upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>List installed plasmoids (<code class="language-plaintext highlighter-rouge">--global</code> for all users):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kpackagetool5 --type Plasma/Applet --list --global</code></p>
+
+<ul>
+  <li>Remove a plasmoid by name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kpackagetool5 --type Plasma/Applet --remove "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge">"</code></p>

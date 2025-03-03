@@ -1,0 +1,47 @@
+<h1 id="acmesh">acme.sh</h1>
+
+<p>Shell-script dat het ACME-clientprotocol implementeert, een alternatief voor <code class="language-plaintext highlighter-rouge">certbot</code>.
+Bekijk ook <code class="language-plaintext highlighter-rouge">acme.sh dns</code>.
+Meer informatie: <a href="https://github.com/acmesh-official/acme.sh">https://github.com/acmesh-official/acme.sh</a>.</p>
+
+<ul>
+  <li>Geef een certificaat uit met behulp van de webroot-modus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">voorbeeld.com</span><code class="language-plaintext highlighter-rouge"> --webroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/pad/naar/webroot</span></p>
+
+<ul>
+  <li>Geef een certificaat uit voor meerdere domeinen in de zelfstandige modus met poort 80:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --standalone --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">voorbeeld.com</span><code class="language-plaintext highlighter-rouge"> --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">www.voorbeeld.com</span></p>
+
+<ul>
+  <li>Geef een certificaat uit met behulp van de zelfstandige TLS-modus met behulp van poort 443:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --alpn --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">voorbeeld.com</span></p>
+
+<ul>
+  <li>Geef een certificaat uit met een werkende Nginx-configuratie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --nginx --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">voorbeeld.com</span></p>
+
+<ul>
+  <li>Geef een certificaat uit met een werkende Apache-configuratie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --apache --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">voorbeeld.com</span></p>
+
+<ul>
+  <li>Geef een wildcardcertificaat (*) uit met behulp van een automatische DNS API-modus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --dns </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dns_cf</span><code class="language-plaintext highlighter-rouge"> --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.voorbeeld.com</span></p>
+
+<ul>
+  <li>Installeer certificaatbestanden op de opgegeven locaties (handig voor automatische certificaatvernieuwing):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --install-cert -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">voorbeeld.com</span><code class="language-plaintext highlighter-rouge"> --key-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/pad/naar/voorbeeld.com.key</span><code class="language-plaintext highlighter-rouge"> --fullchain-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/pad/naar/voorbeeld.com.cer</span><code class="language-plaintext highlighter-rouge"> --reloadcmd "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemctl force-reload nginx</span><code class="language-plaintext highlighter-rouge">"</code></p>

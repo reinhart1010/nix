@@ -1,0 +1,28 @@
+<h1 id="go-build">go build</h1>
+
+<p>Go 소스 컴파일.
+더 많은 정보: <a href="https://golang.org/cmd/go/#hdr-Compile_packages_and_dependencies">https://golang.org/cmd/go/#hdr-Compile_packages_and_dependencies</a>.</p>
+
+<ul>
+  <li>'package main' 파일 컴파일 (출력은 확장자가 없는 파일 이름):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/main.go</span></p>
+
+<ul>
+  <li>출력 파일 이름을 지정하여 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go build -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/바이너리</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스.go</span></p>
+
+<ul>
+  <li>패키지 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go build -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/바이너리</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/패키지</span></p>
+
+<ul>
+  <li>데이터 경쟁 감지를 활성화하여 메인 패키지를 실행 파일로 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go build -race -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/실행_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/메인/패키지</span></p>

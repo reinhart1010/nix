@@ -1,0 +1,52 @@
+<h1 id="xz">xz</h1>
+
+<p>Comprime o descomprime archivos XZ y LZMA.
+Más información: <a href="https://manned.org/xz">https://manned.org/xz</a>.</p>
+
+<ul>
+  <li>Comprime un archivo usando xz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Descomprime un archivo XZ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --decompress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.xz</span></p>
+
+<ul>
+  <li>Comprime un archivo usando LZMA:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --format=lzma </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Descomprime un archivo LZMA:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --decompress --format=lzma </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.lzma</span></p>
+
+<ul>
+  <li>Descomprime un archivo y escribe a <code class="language-plaintext highlighter-rouge">stdout</code> (implica <code class="language-plaintext highlighter-rouge">--keep</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --decompress --stdout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.xz</span></p>
+
+<ul>
+  <li>Comprime un archivo, pero no borra el original:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz --keep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Comprime un archivo con la compresión más rápida:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz -0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Comprime un archivo con la mejor compresión:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xz -9 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>

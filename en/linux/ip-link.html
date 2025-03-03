@@ -1,0 +1,40 @@
+<h1 id="ip-link">ip link</h1>
+
+<p>Manage network interfaces.
+More information: <a href="https://manned.org/ip-link">https://manned.org/ip-link</a>.</p>
+
+<ul>
+  <li>Show information about all network interfaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link</code></p>
+
+<ul>
+  <li>Show information about a specific network interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span></p>
+
+<ul>
+  <li>Bring a network interface up or down:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">up|down</span></p>
+
+<ul>
+  <li>Give a meaningful name to a network interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span><code class="language-plaintext highlighter-rouge"> alias "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LAN Interface</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Change the MAC address of a network interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span><code class="language-plaintext highlighter-rouge"> address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ff:ff:ff:ff:ff:ff</span></p>
+
+<ul>
+  <li>Change the MTU size for a network interface to use jumbo frames:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span><code class="language-plaintext highlighter-rouge"> mtu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9000</span></p>

@@ -1,0 +1,34 @@
+<h1 id="gocryptfs">gocryptfs</h1>
+
+<p>Encrypted overlay filesystem written in Go.
+More information: <a href="https://github.com/rfjakob/gocryptfs">https://github.com/rfjakob/gocryptfs</a>.</p>
+
+<ul>
+  <li>Initialize an encrypted filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gocryptfs -init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cipher_dir</span></p>
+
+<ul>
+  <li>Mount an encrypted filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gocryptfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cipher_dir</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mount_point</span></p>
+
+<ul>
+  <li>Mount with the explicit master key instead of password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gocryptfs --masterkey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cipher_dir</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mount_point</span></p>
+
+<ul>
+  <li>Change the password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gocryptfs --passwd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cipher_dir</span></p>
+
+<ul>
+  <li>Make an encrypted snapshot of a plain directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gocryptfs --reverse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/plain_dir</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cipher_dir</span></p>

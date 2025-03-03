@@ -1,0 +1,22 @@
+<h1 id="ptargrep">ptargrep</h1>
+
+<p>tar 아카이브 파일에서 정규 표현식 패턴 찾기.
+더 많은 정보: <a href="https://manned.org/ptargrep">https://manned.org/ptargrep</a>.</p>
+
+<ul>
+  <li>하나 이상의 tar 아카이브 내에서 패턴 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ptargrep "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>파일의 기본 이름을 사용하여 현재 디렉토리에 추출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ptargrep --basename "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>tar 아카이브 내에서 대소문자를 구분하지 않고 패턴 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ptargrep --ignore-case "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

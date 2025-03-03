@@ -1,0 +1,28 @@
+<h1 id="tlmgr-key">tlmgr key</h1>
+
+<p>TeX Live 데이터베이스를 검증하는 데 사용되는 GPG 키 관리.
+더 많은 정보: <a href="https://www.tug.org/texlive/tlmgr.html">https://www.tug.org/texlive/tlmgr.html</a>.</p>
+
+<ul>
+  <li>TeX Live의 모든 키 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr key list</code></p>
+
+<ul>
+  <li>특정 파일에서 키 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr key add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/키.gpg</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 키 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/키.gpg</span><code class="language-plaintext highlighter-rouge"> | sudo tlmgr key add -</code></p>
+
+<ul>
+  <li>ID로 특정 키 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr key remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_ID</span></p>

@@ -1,0 +1,52 @@
+<h1 id="aws-acm">aws acm</h1>
+
+<p>AWS Certificate Manager, manajer sertifikat digital untuk AWS.
+Informasi lebih lanjut: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/acm/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/acm/index.html</a>.</p>
+
+<ul>
+  <li>Impor suatu sertifikat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm import-certificate --certificate-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arn_sertifikat</span><code class="language-plaintext highlighter-rouge"> --certificate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sertifikat</span><code class="language-plaintext highlighter-rouge"> --private-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kunci_privat</span><code class="language-plaintext highlighter-rouge"> --certificate-chain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rantai_sertifikat</span></p>
+
+<ul>
+  <li>Tampilkan daftar sertifikat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm list-certificates</code></p>
+
+<ul>
+  <li>Tampilkan deskripsi suatu sertifikat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm describe-certificate --certificate-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arn_sertifikat</span></p>
+
+<ul>
+  <li>Minta sertifikat baru bagi suatu domain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm request-certificate --domain-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_domain</span><code class="language-plaintext highlighter-rouge"> --validation-method </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">metode_validasi</span></p>
+
+<ul>
+  <li>Hapus suatu sertifikat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm delete-certificate --certificate-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arn_sertifikat</span></p>
+
+<ul>
+  <li>Tampilkan daftar status pengajuan validasi sertifikat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm list-certificates --certificate-statuses </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">status</span></p>
+
+<ul>
+  <li>Dapatkan informasi rincian suatu sertifikat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm get-certificate --certificate-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arn_sertifikat</span></p>
+
+<ul>
+  <li>Mutakhirkan pengaturan terhadap suatu sertifikat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws acm update-certificate-options --certificate-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arn_sertifikat</span><code class="language-plaintext highlighter-rouge"> --options </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pengaturan</span></p>

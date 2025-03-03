@@ -1,0 +1,34 @@
+<h1 id="git-svn">git svn</h1>
+
+<p>Operazioni bidirezionali tra repository Subversion e Git.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-svn">https://git-scm.com/docs/git-svn</a>.</p>
+
+<ul>
+  <li>Clona un repository SVN:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git svn clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://esempio.com/repo_subversion</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory_locale</span></p>
+
+<ul>
+  <li>Clona un repository SVN a partire da uno specifico numero di revisione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git svn clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–revision</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span><code class="language-plaintext highlighter-rouge">:HEAD </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://svn.esempio.net/subversion/repo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory_locale</span></p>
+
+<ul>
+  <li>Aggiorna una copia locale da un repository SVN remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git svn rebase</code></p>
+
+<ul>
+  <li>Scarica aggiornamenti da un repository SVN remoto senza spostare l'HEAD Git:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git svn fetch</code></p>
+
+<ul>
+  <li>Invia un commit a un repository SVN:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git svn commit</code></p>

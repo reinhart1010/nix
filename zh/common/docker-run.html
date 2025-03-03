@@ -1,0 +1,52 @@
+<h1 id="docker-run">docker run</h1>
+
+<p>创建一个新的容器并运行命令。
+更多信息：<a href="https://docs.docker.com/reference/cli/docker/container/run/">https://docs.docker.com/reference/cli/docker/container/run/</a>.</p>
+
+<ul>
+  <li>使用打上标签的 Docker 镜像的新容器中执行命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">镜像:标签</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span></p>
+
+<ul>
+  <li>在后台运行新容器中的命令，并输出其容器ID：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --detach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">镜像</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span></p>
+
+<ul>
+  <li>以交互模式和伪终端启动一个容器，并执行指定的命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --rm --interactive --tty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">镜像</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span></p>
+
+<ul>
+  <li>在新容器中传入环境变量并运行指定命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --env '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">变量名</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">变量值</span><code class="language-plaintext highlighter-rouge">' --env </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">变量名=变量值</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">镜像</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span></p>
+
+<ul>
+  <li>在新容器中挂载目录卷并运行指定命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">宿主机路径</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">容器内路径</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">镜像</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span></p>
+
+<ul>
+  <li>在新容器中开放映射端口并运行指定命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --publish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">宿主机端口</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">容器内端口</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">镜像</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span></p>
+
+<ul>
+  <li>在新容器中覆盖镜像中 ENTRYPOINT 并运行指定命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --entrypoint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">镜像</span></p>
+
+<ul>
+  <li>在新容器中设定使用需使用的网络并运行指定命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --network </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">网络</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">镜像</span></p>

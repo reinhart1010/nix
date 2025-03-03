@@ -1,0 +1,28 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="case">case</h1>
+
+<p>複数の選択肢がある条件文を作成するための Bash 組み込み構文。
+もっと詳しく: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-case">https://www.gnu.org/software/bash/manual/bash.html#index-case</a>。</p>
+
+<ul>
+  <li>変数を文字列リテラルとマッチさせ、実行するコマンドを決める:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$tocount</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">words</span><code class="language-plaintext highlighter-rouge">) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -w README</span><code class="language-plaintext highlighter-rouge">; ;; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lines</span><code class="language-plaintext highlighter-rouge">) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -l README</span><code class="language-plaintext highlighter-rouge">; ;; esac</code></p>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>パターンは</td>
+          <td>で結合し、どれにも該当しないパターンには * を使う:</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$tocount</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[wW]|words</span><code class="language-plaintext highlighter-rouge">) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -w README</span><code class="language-plaintext highlighter-rouge">; ;; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[lL]|lines</span><code class="language-plaintext highlighter-rouge">) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -l README</span><code class="language-plaintext highlighter-rouge">; ;; *) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "what?"</span><code class="language-plaintext highlighter-rouge">; ;; esac</code></p>

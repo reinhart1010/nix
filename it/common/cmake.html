@@ -1,0 +1,26 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="cmake">cmake</h1>
+
+<p>Generatore di ambienti di compilazione multipiattaforma.
+Genera Makefile, progetti Visual Studio o altro, in base al sistema operativo.
+Maggiori informazioni: <a href="https://cmake.org/cmake/help/latest/manual/cmake.1.html">https://cmake.org/cmake/help/latest/manual/cmake.1.html</a>.</p>
+
+<ul>
+  <li>Genera un Makefile ed usalo per compilare un progetto nella stessa directory dei sorgenti:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake &amp;&amp; make</code></p>
+
+<ul>
+  <li>Genera un makefile ed usalo per compilare un progetto in una directory "build" separata (out-of-source build):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake -H. -B</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">build</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; make -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">build</span></p>
+
+<ul>
+  <li>Esegui cmake in modalità interattiva (chiederà i valori di ogni variabile invece di usare i predefiniti):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake -i</code></p>

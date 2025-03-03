@@ -1,0 +1,41 @@
+<h1 id="aws-glue">aws glue</h1>
+
+<p>Linha de comando CLI para o AWS Glue.
+Define o endpoint público para o servico AWS Glue.
+Mais informações: <a href="https://docs.aws.amazon.com/cli/latest/reference/glue/">https://docs.aws.amazon.com/cli/latest/reference/glue/</a>.</p>
+
+<ul>
+  <li>Lista trabalhos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws glue list-jobs</code></p>
+
+<ul>
+  <li>Inicia um trabalho:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws glue start-job-run --job-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_trabalho</span></p>
+
+<ul>
+  <li>Inicia um fluxo de trabalho:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws glue start-workflow-run --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_fluxo_de_trabalho</span></p>
+
+<ul>
+  <li>Lista os gatilhos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws glue list-triggers</code></p>
+
+<ul>
+  <li>Inicia um gatilho:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws glue start-trigger --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_gatilho</span></p>
+
+<ul>
+  <li>Cria um endpoint de desenvolvimento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws glue create-dev-endpoint --endpoint-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span><code class="language-plaintext highlighter-rouge"> --role-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">papel_arn_usado_pelo_endpoint</span></p>

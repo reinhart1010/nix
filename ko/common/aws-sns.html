@@ -1,0 +1,52 @@
+<h1 id="aws-sns">aws sns</h1>
+
+<p>주제 및 구독을 만들고, 메시지를 보내고 받고, Amazon Simple Notification Service에 대한 이벤트 및 로그를 모니터링.
+더 많은 정보: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sns/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sns/index.html</a>.</p>
+
+<ul>
+  <li>특정 유형의 모든 객체를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sns list-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">origination-numbers|phone-numbers-opted-out|platform-applications|sms-sandbox-phone-numbers|subscriptions|topics</span></p>
+
+<ul>
+  <li>특정 이름의 주제를 만들고 Amazon Resource Name (ARN)을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sns create-topic --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>특정 ARN을 사용하여 주제에 대한 이메일 주소를 구독하고 구독 정보를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sns subscribe --topic-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic_ARN</span><code class="language-plaintext highlighter-rouge"> --protocol email --notification-endpoint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이메일</span></p>
+
+<ul>
+  <li>특정 주제 또는 전화번호에 대한 메시지를 게시하고, 메시지 ID를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sns publish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–topic-arn "arn:aws:sns:us-west-2:123456789012:topic-name"||–phone-number +1-555-555-0100</span><code class="language-plaintext highlighter-rouge"> --message file://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>해당 주제에서 특정 ARN이 있는 구독을 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sns unsubscribe --subscription-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subscription_ARN</span></p>
+
+<ul>
+  <li>플랫폼 엔드포인트를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sns create-platform-endpoint --platform-application-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">platform_application_ARN</span><code class="language-plaintext highlighter-rouge"> --token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">token</span></p>
+
+<ul>
+  <li>주제의 액세스 제어 정책에 설명 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sns add-permission --topic-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic_ARN</span><code class="language-plaintext highlighter-rouge"> --label </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic_label</span><code class="language-plaintext highlighter-rouge"> --aws-account-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">account_id</span><code class="language-plaintext highlighter-rouge"> --action-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AddPermission|CreatePlatformApplication|DeleteEndpoint|GetDataProtectionPolicy|GetEndpointAttributes|Subscribe|…</span></p>
+
+<ul>
+  <li>특정 ARN을 사용하여 주제에 태그를 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sns tag-resource --resource-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic_ARN</span><code class="language-plaintext highlighter-rouge"> --tags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Key=tag1_key Key=tag2_key,Value=tag2_value …</span></p>

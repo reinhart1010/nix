@@ -1,0 +1,29 @@
+<h1 id="pnmpad">pnmpad</h1>
+
+<p>PNM 이미지에 테두리를 추가.
+같이 보기: <code class="language-plaintext highlighter-rouge">pnmmargin</code>, <code class="language-plaintext highlighter-rouge">pamcut</code>, <code class="language-plaintext highlighter-rouge">pamcomp</code>.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/pnmpad.html">https://netpbm.sourceforge.net/doc/pnmpad.html</a>.</p>
+
+<ul>
+  <li>이미지에 지정된 크기의 테두리 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmpad -left </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> -right </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">150</span><code class="language-plaintext highlighter-rouge"> -top </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">123</span><code class="language-plaintext highlighter-rouge"> -bottom </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">456</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pnm</span></p>
+
+<ul>
+  <li>이미지를 지정된 크기로 패딩:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmpad -width </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000</span><code class="language-plaintext highlighter-rouge"> -height </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">500</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pnm</span></p>
+
+<ul>
+  <li>이미지의 너비를 지정된 크기로 패딩하고, 좌우 패딩 비율 조정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmpad -width </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000</span><code class="language-plaintext highlighter-rouge"> -halign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.7</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pnm</span></p>
+
+<ul>
+  <li>지정된 색상을 사용하여 이미지의 너비를 패딩:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmpad -width </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000</span><code class="language-plaintext highlighter-rouge"> -color </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">red</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pnm</span></p>

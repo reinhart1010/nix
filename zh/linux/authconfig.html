@@ -1,0 +1,52 @@
+<h1 id="authconfig">authconfig</h1>
+
+<p>用于设置系统认证资源的命令行界面。
+更多信息：<a href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system-level_authentication_guide/authconfig-install">https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system-level_authentication_guide/authconfig-install</a>.</p>
+
+<ul>
+  <li>显示当前的配置（或空运行）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">authconfig --test</code></p>
+
+<ul>
+  <li>设置服务器使用另一种不同的密码散列算法：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">authconfig --update --passalgo=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">算法名</span></p>
+
+<ul>
+  <li>启用 LDAP 认证：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">authconfig --update --enableldapauth</code></p>
+
+<ul>
+  <li>关闭 LDAP 认证：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">authconfig --update --disableldapauth</code></p>
+
+<ul>
+  <li>开启网络信息服务（NIS）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">authconfig --update --enablenis</code></p>
+
+<ul>
+  <li>开启 Kerberos：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">authconfig --update --enablekrb5</code></p>
+
+<ul>
+  <li>开启 Winbind（活动目录）认证：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">authconfig --update --enablewinbindauth</code></p>
+
+<ul>
+  <li>开启本地认证：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">authconfig --update --enablelocauthorize</code></p>

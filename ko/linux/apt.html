@@ -1,0 +1,54 @@
+<h1 id="apt">apt</h1>
+
+<p>Debian 기반 배포판을 위한 패키지 관리 도구.
+Ubuntu 16.04 이후 버전에서 대화형 사용 시 <code class="language-plaintext highlighter-rouge">apt-get</code>의 권장 대체 도구.
+다른 패키지 관리자의 동등한 명령을 보려면 <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a>.
+더 많은 정보: <a href="https://manned.org/apt.8">https://manned.org/apt.8</a>.</p>
+
+<ul>
+  <li>사용 가능한 패키지 및 버전 목록 업데이트 (다른 <code class="language-plaintext highlighter-rouge">apt</code> 명령어 실행 전 권장):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>주어진 패키지 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>패키지 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>패키지 설치 또는 최신 버전으로 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>패키지 제거 (<code class="language-plaintext highlighter-rouge">purge</code>를 사용하면 설정 파일도 함께 제거):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>모든 설치된 패키지를 최신 버전으로 업그레이드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt upgrade</code></p>
+
+<ul>
+  <li>모든 패키지 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list</code></p>
+
+<ul>
+  <li>설치된 패키지 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list --installed</code></p>

@@ -1,0 +1,28 @@
+<h1 id="dumpcap">dumpcap</h1>
+
+<p>A network traffic dump tool.
+More information: <a href="https://www.wireshark.org/docs/man-pages/dumpcap.html">https://www.wireshark.org/docs/man-pages/dumpcap.html</a>.</p>
+
+<ul>
+  <li>Display available interfaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpcap --list-interfaces</code></p>
+
+<ul>
+  <li>Capture packets on a specific interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpcap --interface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Capture packets to a specific location:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpcap --interface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.pcapng</span></p>
+
+<ul>
+  <li>Write to a ring buffer with a specific max file limit of a specific size:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpcap --interface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.pcapng</span><code class="language-plaintext highlighter-rouge"> --ring-buffer filesize:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">500000</span><code class="language-plaintext highlighter-rouge"> --ring-buffer files:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>

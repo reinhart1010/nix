@@ -1,0 +1,40 @@
+<h1 id="last">last</h1>
+
+<p>View the last logged in users.
+More information: <a href="https://manned.org/last">https://manned.org/last</a>.</p>
+
+<ul>
+  <li>View last logins, their duration and other information as read from <code class="language-plaintext highlighter-rouge">/var/log/wtmp</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">last</code></p>
+
+<ul>
+  <li>Specify how many of the last logins to show:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">last -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">login_count</span></p>
+
+<ul>
+  <li>Print the full date and time for entries and then display the hostname column last to prevent truncation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">last -F -a</code></p>
+
+<ul>
+  <li>View all logins by a specific user and show the IP address instead of the hostname:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">last </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -i</code></p>
+
+<ul>
+  <li>View all recorded reboots (i.e., the last logins of the pseudo user "reboot"):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">last reboot</code></p>
+
+<ul>
+  <li>View all recorded shutdowns (i.e., the last logins of the pseudo user "shutdown"):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">last shutdown</code></p>

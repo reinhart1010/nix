@@ -1,0 +1,40 @@
+<h1 id="base64">base64</h1>
+
+<p>Codeer of decodeer een bestand of <code class="language-plaintext highlighter-rouge">stdin</code> naar/van base64, naar <code class="language-plaintext highlighter-rouge">stdout</code> of een ander bestand.
+Meer informatie: <a href="https://man.freebsd.org/cgi/man.cgi?query=base64">https://man.freebsd.org/cgi/man.cgi?query=base64</a>.</p>
+
+<ul>
+  <li>Codeer een bestand naar <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–input</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Codeer een bestand naar het opgegeven uitvoerbestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–input</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/invoerbestand</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoerbestand</span></p>
+
+<ul>
+  <li>Zet de breedte van de gecodeerde uitvoer op een specifieke waarde (<code class="language-plaintext highlighter-rouge">0</code> schakelt afbreken uit):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-b|–break</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Decodeer een bestand naar <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decode</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–input</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Codeer van <code class="language-plaintext highlighter-rouge">stdin</code> naar <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span><code class="language-plaintext highlighter-rouge"> | base64</code></p>
+
+<ul>
+  <li>Decodeer van <code class="language-plaintext highlighter-rouge">stdin</code> naar <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span><code class="language-plaintext highlighter-rouge"> | base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decode</span></p>

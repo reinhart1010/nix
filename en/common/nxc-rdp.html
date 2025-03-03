@@ -1,0 +1,28 @@
+<h1 id="nxc-rdp">nxc rdp</h1>
+
+<p>Pentest and exploit RDP servers.
+More information: <a href="https://www.netexec.wiki/rdp-protocol">https://www.netexec.wiki/rdp-protocol</a>.</p>
+
+<ul>
+  <li>Search for valid credentials by trying out every combination in the specified lists of [u]sernames and [p]asswords:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc rdp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/usernames.txt</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/passwords.txt</span></p>
+
+<ul>
+  <li>Take a screenshot after waiting the for specified number of seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc rdp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> --screenshot --screentime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Take a screenshot in the specified resolution:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc rdp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> --screenshot --res </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024x768</span></p>
+
+<ul>
+  <li>Take a screenshot of the RDP login prompt if Network Level Authentication is disabled:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc rdp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> --nla-screenshot</code></p>

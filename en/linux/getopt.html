@@ -1,0 +1,28 @@
+<h1 id="getopt">getopt</h1>
+
+<p>Parse command-line arguments.
+More information: <a href="https://www.gnu.org/software/libc/manual/html_node/Getopt.html">https://www.gnu.org/software/libc/manual/html_node/Getopt.html</a>.</p>
+
+<ul>
+  <li>Parse optional <code class="language-plaintext highlighter-rouge">verbose</code>/<code class="language-plaintext highlighter-rouge">version</code> flags with shorthands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">getopt --options vV --longoptions verbose,version -- --version --verbose</code></p>
+
+<ul>
+  <li>Add a <code class="language-plaintext highlighter-rouge">--file</code> option with a required argument with shorthand <code class="language-plaintext highlighter-rouge">-f</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">getopt --options f: --longoptions file: -- --file=somefile</code></p>
+
+<ul>
+  <li>Add a <code class="language-plaintext highlighter-rouge">--verbose</code> option with an optional argument with shorthand <code class="language-plaintext highlighter-rouge">-v</code>, and pass a non-option parameter <code class="language-plaintext highlighter-rouge">arg</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">getopt --options v:: --longoptions verbose:: -- --verbose arg</code></p>
+
+<ul>
+  <li>Accept a <code class="language-plaintext highlighter-rouge">-r</code> and <code class="language-plaintext highlighter-rouge">--verbose</code> flag, a <code class="language-plaintext highlighter-rouge">--accept</code> option with an optional argument and add a <code class="language-plaintext highlighter-rouge">--target</code> with a required argument option with shorthands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">getopt --options rv::s::t: --longoptions verbose,source::,target: -- -v --target target</code></p>

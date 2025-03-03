@@ -1,0 +1,52 @@
+<h1 id="adb-shell">adb shell</h1>
+
+<p>Android Debug Bridge Shell: Запуск удалённой командной оболочки на эмуляторе Android или подключенном устройстве Android.
+Больше информации: <a href="https://developer.android.com/tools/adb">https://developer.android.com/tools/adb</a>.</p>
+
+<ul>
+  <li>Запустить удалённую интерактивную оболочку на эмуляторе или устройстве:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell</code></p>
+
+<ul>
+  <li>Получить все свойства от эмулятора или устройства:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell getprop</code></p>
+
+<ul>
+  <li>Вернуть всем разрешениям значение по умолчанию:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell pm reset-permissions</code></p>
+
+<ul>
+  <li>Отозвать опасные разрешения для приложения:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell pm revoke </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">пакет</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">разрешения</span></p>
+
+<ul>
+  <li>Вызвать событие клавиши:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell input keyevent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">код_клавиши</span></p>
+
+<ul>
+  <li>Очистить данные приложения на эмуляторе или устройстве:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell pm clear </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">пакет</span></p>
+
+<ul>
+  <li>Запустить activity на эмуляторе или устройстве:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell am start -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">пакет</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">активность</span></p>
+
+<ul>
+  <li>Запустить базовый activity на эмуляторе или устройстве:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell am start -W -c android.intent.category.HOME -a android.intent.action.MAIN</code></p>

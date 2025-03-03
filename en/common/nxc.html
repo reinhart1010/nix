@@ -1,0 +1,29 @@
+<h1 id="nxc">nxc</h1>
+
+<p>Network service enumeration and exploitation tool.
+Some subcommands such as <code class="language-plaintext highlighter-rouge">smb</code> have their own usage documentation.
+More information: <a href="https://www.netexec.wiki/">https://www.netexec.wiki/</a>.</p>
+
+<ul>
+  <li>[L]ist available modules for the specified protocol:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql</span><code class="language-plaintext highlighter-rouge"> -L</code></p>
+
+<ul>
+  <li>List the options available for the specified module:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql</span><code class="language-plaintext highlighter-rouge"> -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span><code class="language-plaintext highlighter-rouge"> --options</code></p>
+
+<ul>
+  <li>Specify an option for a module:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql</span><code class="language-plaintext highlighter-rouge"> -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">OPTION_NAME</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">option_value</span></p>
+
+<ul>
+  <li>View the options available for the specified protocol:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql</span><code class="language-plaintext highlighter-rouge"> --help</code></p>

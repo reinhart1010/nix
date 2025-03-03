@@ -1,0 +1,34 @@
+<h1 id="vgremove">vgremove</h1>
+
+<p>Remove volume group(s) in LVM.
+More information: <a href="https://manned.org/vgremove">https://manned.org/vgremove</a>.</p>
+
+<ul>
+  <li>Remove a volume group with confirmation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgremove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_group</span></p>
+
+<ul>
+  <li>Forcefully remove a volume group without confirmation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgremove --force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_group</span></p>
+
+<ul>
+  <li>Set the debug level for detailed logging to level 2, (repeat <code class="language-plaintext highlighter-rouge">--debug</code> up to 6 times to increase the level):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgremove --debug --debug </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_group</span></p>
+
+<ul>
+  <li>Use a specific config setting to override defaults:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgremove --config '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global/locking_type=1</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_group</span></p>
+
+<ul>
+  <li>Display help text for usage information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgremove --help</code></p>

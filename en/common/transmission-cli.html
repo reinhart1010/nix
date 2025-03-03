@@ -1,0 +1,53 @@
+<h1 id="transmission-cli">transmission-cli</h1>
+
+<p>A lightweight, command-line BitTorrent client.
+This tool has been deprecated, please see <code class="language-plaintext highlighter-rouge">transmission-remote</code>.
+More information: <a href="https://transmissionbt.com">https://transmissionbt.com</a>.</p>
+
+<ul>
+  <li>Download a specific torrent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|path/to/file</span></p>
+
+<ul>
+  <li>Download a torrent to a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --download-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/download_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|path/to/file</span></p>
+
+<ul>
+  <li>Create a torrent file from a specific file or directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_file_or_directory</span></p>
+
+<ul>
+  <li>Specify the download speed limit (in KB/s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --downlimit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|path/to/file</span></p>
+
+<ul>
+  <li>Specify the upload speed limit (in KB/s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --uplimit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|path/to/file</span></p>
+
+<ul>
+  <li>Use a specific port for connections:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_number</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|path/to/file</span></p>
+
+<ul>
+  <li>Force encryption for peer connections:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --encryption-required </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|path/to/file</span></p>
+
+<ul>
+  <li>Use a Bluetack-formatted peer blocklist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --blocklist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blocklist_url|path/to/blocklist</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|path/to/file</span></p>

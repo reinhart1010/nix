@@ -1,0 +1,42 @@
+<h1 id="yadm-clone">yadm-clone</h1>
+
+<p>Works just like <code class="language-plaintext highlighter-rouge">git clone</code>. In addition you can pass extra flags to configure your repository.
+If there is a bootstrap file in the repository, you will be prompted to execute it.
+See also: <code class="language-plaintext highlighter-rouge">git clone</code>.
+More information: <a href="https://yadm.io/docs/common_commands">https://yadm.io/docs/common_commands</a>.</p>
+
+<ul>
+  <li>Clone an existing repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yadm clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_location</span></p>
+
+<ul>
+  <li>Clone an existing repository, then execute the bootstrap file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yadm clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_location</span><code class="language-plaintext highlighter-rouge"> --bootstrap</code></p>
+
+<ul>
+  <li>Clone an existing repository and after cloning, do not execute the bootstrap file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yadm clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_location</span><code class="language-plaintext highlighter-rouge"> --no-bootstrap</code></p>
+
+<ul>
+  <li>Change the worktree that <code class="language-plaintext highlighter-rouge">yadm</code> will use during cloning:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yadm clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_location</span><code class="language-plaintext highlighter-rouge"> --w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">worktree_file</span></p>
+
+<ul>
+  <li>Change the branch that <code class="language-plaintext highlighter-rouge">yadm</code> gets files from:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yadm clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_location</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch</span></p>
+
+<ul>
+  <li>Override an existing repository local branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yadm clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_location</span><code class="language-plaintext highlighter-rouge"> -f</code></p>

@@ -1,0 +1,52 @@
+<h1 id="sqlite-utils">sqlite-utils</h1>
+
+<p>Command-line tool used to manipulate SQLite databases in a number of different ways.
+More information: <a href="https://sqlite-utils.datasette.io/en/stable/cli.html">https://sqlite-utils.datasette.io/en/stable/cli.html</a>.</p>
+
+<ul>
+  <li>Create a database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqlite-utils create-database </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database.db</span></p>
+
+<ul>
+  <li>Create a table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqlite-utils create-table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database.db</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id integer name text height float photo blob –pk id</span></p>
+
+<ul>
+  <li>List tables:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqlite-utils tables </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database.db</span></p>
+
+<ul>
+  <li>Upsert a record:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo '[ {"id": 1, "name": "Linus Torvalds"}, {"id": 2, "name": "Steve Wozniak"}, {"id": 3, "name": "Tony Hoare"} ]'</span><code class="language-plaintext highlighter-rouge"> | sqlite-utils upsert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database.db</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–pk id</span></p>
+
+<ul>
+  <li>Select records:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqlite-utils rows </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database.db</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span></p>
+
+<ul>
+  <li>Delete a record:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqlite-utils query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database.db</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delete from table_name where name = 'Tony Hoare'</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Drop a table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqlite-utils drop-table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database.db</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqlite-utils -h</code></p>

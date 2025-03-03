@@ -1,0 +1,46 @@
+<h1 id="expr">expr</h1>
+
+<p>표현식을 평가하고 문자열을 조작.
+더 많은 정보: <a href="https://www.gnu.org/software/coreutils/manual/html_node/expr-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/expr-invocation.html</a>.</p>
+
+<ul>
+  <li>특정 문자열의 길이를 가져옴:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr length "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 길이의 문자열의 하위 문자열을 가져옴:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr substr "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">시작</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">길이</span></p>
+
+<ul>
+  <li>고정된 패턴과 특정 하위 문자열을 일치시킴:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr match "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge">" '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패턴</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>문자열의 특정 세트에서 첫 번째 문자 위치를 가져옴:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr index "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 수학적 표현을 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">표현식1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+|-|*|/|%</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">표현식2</span></p>
+
+<ul>
+  <li>값이 0이 아니며 null이 아닌 경우, 첫 번째 표현식을 가져오고, 그렇지 않으면 두 번째 표현식을 가져옴:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">표현식1</span><code class="language-plaintext highlighter-rouge"> \| </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">표현식2</span></p>
+
+<ul>
+  <li>두 표현식이 모두 0이 아니고 null이 아닌 경우, 첫 번째 표현식을 가져오고 그렇지 않으면 0을 얻음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">표현식1</span><code class="language-plaintext highlighter-rouge"> \&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">표현식2</span></p>

@@ -1,0 +1,53 @@
+<h1 id="ssh">ssh</h1>
+
+<p>O Secure Shell é um protocolo usado para fazer login de forma segura em sistemas remotos.
+Ele pode ser usado para fazer login ou executar comandos em um servidor remoto.
+Mais informações: <a href="https://man.openbsd.org/ssh">https://man.openbsd.org/ssh</a>.</p>
+
+<ul>
+  <li>Conecta a um servidor remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_usuário</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor_remoto</span></p>
+
+<ul>
+  <li>Conecta a um servidor remoto com uma identidade específica (chave privada):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_chave</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_usuário</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor_remoto</span></p>
+
+<ul>
+  <li>Conecta a um servidor remoto usando uma porta específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_usuário</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor_remoto</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2222</span></p>
+
+<ul>
+  <li>Executa um comando em um servidor remoto com uma alocação de [t]ty permitindo interação com o comando remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_usuário</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor_remoto</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumentos_do_comando</span></p>
+
+<ul>
+  <li>Tunelamento SSH: Encaminhamento dinâmico de porta (proxy SOCKS em <code class="language-plaintext highlighter-rouge">localhost:1080</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1080</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_usuário</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor_remoto</span></p>
+
+<ul>
+  <li>Tunelamento SSH: Encaminha uma porta específica (<code class="language-plaintext highlighter-rouge">localhost:9999</code> para <code class="language-plaintext highlighter-rouge">example.org:80</code>), desativa a alocação de pseudo-[t]ty e execução de comandos remotos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9999</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.org</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> -N -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_usuário</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor_remoto</span></p>
+
+<ul>
+  <li>Salta com SSH: Conecta a um servidor remoto através de um servidor intermediário (vários saltos intermediários podem ser especificados separados por vírgula):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh -J </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_usuário</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor_intermediário</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_usuário</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor_remoto</span></p>
+
+<ul>
+  <li>Fecha uma sessão travada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Enter&gt; ~ .</code></p>

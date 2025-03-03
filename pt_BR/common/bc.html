@@ -1,0 +1,47 @@
+<h1 id="bc">bc</h1>
+
+<p>Uma linguagem de calculadora de precisão arbitrária.
+Veja também: <code class="language-plaintext highlighter-rouge">dc</code>, <code class="language-plaintext highlighter-rouge">qalc</code>.
+Mais informações: <a href="https://manned.org/bc">https://manned.org/bc</a>.</p>
+
+<ul>
+  <li>Inicia uma sessão interativa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc</code></p>
+
+<ul>
+  <li>Inicia uma sessão [i]nterativa com a biblioteca padrão habilitada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc --interactive --mathlib</code></p>
+
+<ul>
+  <li>Calcula uma expressão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span><code class="language-plaintext highlighter-rouge">' | bc</code></p>
+
+<ul>
+  <li>Executa um script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.bc</span></p>
+
+<ul>
+  <li>Calcula uma expressão com a escala especificada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo 'scale = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge">; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span><code class="language-plaintext highlighter-rouge">' | bc</code></p>
+
+<ul>
+  <li>Calcula uma função seno/cosseno/arco tangente/logaritmo natural/função exponencial usando <code class="language-plaintext highlighter-rouge">mathlib</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s|c|a|l|e</span><code class="language-plaintext highlighter-rouge">(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge">)' | bc --mathlib</code></p>
+
+<ul>
+  <li>Executa um script fatorial a partir da linha de comando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "define factorial(n) { if (n &lt;= 1) return 1; return n*factorial(n-1); }; factorial(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge">)" | bc</code></p>

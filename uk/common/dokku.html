@@ -1,0 +1,35 @@
+<h1 id="dokku">dokku</h1>
+
+<p>Міні-Heroku на основі Docker (PaaS).
+Легко розгортає кілька програм на власному сервері різними мовами за допомогою однієї команди <code class="language-plaintext highlighter-rouge">git-push</code>.
+Більше інформації: <a href="https://github.com/dokku/dokku">https://github.com/dokku/dokku</a>.</p>
+
+<ul>
+  <li>Показати запущені програми:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dokku apps</code></p>
+
+<ul>
+  <li>Створити програму:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dokku apps:create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ім'я_програми</span></p>
+
+<ul>
+  <li>Видалити програму:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dokku apps:destroy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ім'я_програми</span></p>
+
+<ul>
+  <li>Встановити плагін:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dokku plugin:install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">повний_url_на_репозиторій</span></p>
+
+<ul>
+  <li>Зв'язати базу даних із програмою:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dokku </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db</span><code class="language-plaintext highlighter-rouge">:link </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ім'я_бази_даних</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ім'я_програми</span></p>

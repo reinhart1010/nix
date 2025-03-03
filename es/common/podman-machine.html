@@ -1,0 +1,47 @@
+<h1 id="podman-machine">podman machine</h1>
+
+<p>Crea y gestiona máquinas virtuales ejecutando Podman.
+Desde la versión 4 o superior de Podman.
+Más información: <a href="https://docs.podman.io/en/latest/markdown/podman-machine.1.html">https://docs.podman.io/en/latest/markdown/podman-machine.1.html</a>.</p>
+
+<ul>
+  <li>Lista máquinas existentes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine ls</code></p>
+
+<ul>
+  <li>Crea una nueva máquina predeterminada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine init</code></p>
+
+<ul>
+  <li>Crea una nueva máquina con un nombre específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>
+
+<ul>
+  <li>Crea una nueva máquina con diferentes recursos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine init --cpus=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> --memory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4096</span><code class="language-plaintext highlighter-rouge"> --disk-size=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span></p>
+
+<ul>
+  <li>Inicia o detiene una máquina:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>
+
+<ul>
+  <li>Conecta a una máquina en ejecución a través de SSH:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>
+
+<ul>
+  <li>Inspecciona información sobre una máquina:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>

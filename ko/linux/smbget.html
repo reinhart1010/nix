@@ -1,0 +1,28 @@
+<h1 id="smbget">smbget</h1>
+
+<p>SMB 서버에서 파일을 다운로드하기 위한 <code class="language-plaintext highlighter-rouge">wget</code> 유사 도구.
+더 많은 정보: <a href="https://www.samba.org/samba/docs/current/man-html/smbget.1.html">https://www.samba.org/samba/docs/current/man-html/smbget.1.html</a>.</p>
+
+<ul>
+  <li>서버에서 파일 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smb://server/share/file</span></p>
+
+<ul>
+  <li>공유 또는 폴더를 재귀적으로 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbget --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smb://server/share</span></p>
+
+<ul>
+  <li>사용자명과 비밀번호로 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smb://server/share/file</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명%비밀번호</span></p>
+
+<ul>
+  <li>암호화된 전송 요구:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smb://server/share/file</span><code class="language-plaintext highlighter-rouge"> --encrypt</code></p>

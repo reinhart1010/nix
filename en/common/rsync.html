@@ -1,0 +1,53 @@
+<h1 id="rsync">rsync</h1>
+
+<p>Transfer files either to or from a remote host (but not between two remote hosts), by default using SSH.
+To specify a remote path, use <code class="language-plaintext highlighter-rouge">user@host:path/to/file_or_directory</code>.
+More information: <a href="https://download.samba.org/pub/rsync/rsync.1">https://download.samba.org/pub/rsync/rsync.1</a>.</p>
+
+<ul>
+  <li>Transfer a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination</span></p>
+
+<ul>
+  <li>Use archive mode (recursively copy directories, copy symlinks without resolving, and preserve permissions, ownership and modification times):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–archive</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination</span></p>
+
+<ul>
+  <li>Compress the data as it is sent to the destination, display verbose and human-readable progress, and keep partially transferred files if interrupted:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-zvhP|–compress –verbose –human-readable –partial –progress</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination</span></p>
+
+<ul>
+  <li>Recursively copy directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–recursive</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination</span></p>
+
+<ul>
+  <li>Transfer directory contents, but not the directory itself:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–recursive</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span><code class="language-plaintext highlighter-rouge">/ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination</span></p>
+
+<ul>
+  <li>Use archive mode, resolve symlinks, and skip files that are newer on the destination:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-auL|–archive –update –copy-links</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination</span></p>
+
+<ul>
+  <li>Transfer a directory from a remote host running <code class="language-plaintext highlighter-rouge">rsyncd</code> and delete files on the destination that do not exist on the source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–recursive</span><code class="language-plaintext highlighter-rouge"> --delete rsync://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination</span></p>
+
+<ul>
+  <li>Transfer a file over SSH using a different port than the default (22) and show global progress:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|–rsh</span><code class="language-plaintext highlighter-rouge"> 'ssh -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge">' --info=progress2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination</span></p>

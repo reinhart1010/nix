@@ -1,0 +1,34 @@
+<h1 id="procs">procs</h1>
+
+<p>Display information about the active processes.
+More information: <a href="https://github.com/dalance/procs">https://github.com/dalance/procs</a>.</p>
+
+<ul>
+  <li>List all processes showing the PID, user, CPU usage, memory usage, and the command which started them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">procs</code></p>
+
+<ul>
+  <li>List information about processes, if the commands which started them contain <code class="language-plaintext highlighter-rouge">zsh</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">procs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zsh</span></p>
+
+<ul>
+  <li>List information about all processes sorted by CPU time in [a]scending or [d]escending order:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">procs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–sorta|–sortd</span><code class="language-plaintext highlighter-rouge"> cpu</code></p>
+
+<ul>
+  <li>List information about processes with either a PID, command, or user containing <code class="language-plaintext highlighter-rouge">41</code> or <code class="language-plaintext highlighter-rouge">firefox</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">procs --or </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID|command|user</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">41</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">firefox</span></p>
+
+<ul>
+  <li>List information about processes with both PID <code class="language-plaintext highlighter-rouge">41</code> and a command or user containing <code class="language-plaintext highlighter-rouge">zsh</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">procs --and </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">41</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zsh</span></p>

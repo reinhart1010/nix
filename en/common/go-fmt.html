@@ -1,0 +1,34 @@
+<h1 id="go-fmt">go fmt</h1>
+
+<p>Format Go source files, printing the changed filenames.
+More information: <a href="https://pkg.go.dev/cmd/go#hdr-Gofmt__reformat__package_sources">https://pkg.go.dev/cmd/go#hdr-Gofmt__reformat__package_sources</a>.</p>
+
+<ul>
+  <li>Format Go source files in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go fmt</code></p>
+
+<ul>
+  <li>Format a specific Go package in your import path (<code class="language-plaintext highlighter-rouge">$GOPATH/src</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go fmt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package</span></p>
+
+<ul>
+  <li>Format the package in the current directory and all subdirectories (note the <code class="language-plaintext highlighter-rouge">...</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go fmt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./…</span></p>
+
+<ul>
+  <li>Print what format commands would've been run, without modifying anything:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go fmt -n</code></p>
+
+<ul>
+  <li>Print which format commands are run as they are run:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go fmt -x</code></p>

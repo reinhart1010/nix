@@ -1,0 +1,22 @@
+<h1 id="setfattr">setfattr</h1>
+
+<p>확장 파일 속성 설정.
+더 많은 정보: <a href="https://manned.org/setfattr">https://manned.org/setfattr</a>.</p>
+
+<ul>
+  <li>파일의 속성 이름 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setfattr -n user.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">속성_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일의 사용자 정의 확장 속성 값 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setfattr -n user.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">속성_이름</span><code class="language-plaintext highlighter-rouge"> -v "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일의 특정 속성 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setfattr -x user.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">속성_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

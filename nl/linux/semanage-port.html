@@ -1,0 +1,35 @@
+<h1 id="semanage-port">semanage port</h1>
+
+<p>Beheer persistente SELinux-poortdefinities.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">semanage</code>.
+Meer informatie: <a href="https://manned.org/semanage-port">https://manned.org/semanage-port</a>.</p>
+
+<ul>
+  <li>Toon alle poortlabelregels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–list</span></p>
+
+<ul>
+  <li>Toon alle door de gebruiker gedefinieerde poortlabelregels zonder koppen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–list</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-C|–locallist</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–noheading</span></p>
+
+<ul>
+  <li>Voeg een door de gebruiker gedefinieerde regel toe die een label toekent aan een protocol-poortpaar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–add</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh_port_t</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|–proto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22000</span></p>
+
+<ul>
+  <li>Voeg een door de gebruiker gedefinieerde regel toe die een label toekent aan een protocol-poort-bereikpaar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–add</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http_port_t</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|–proto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80-88</span></p>
+
+<ul>
+  <li>Verwijder een door de gebruiker gedefinieerde regel met behulp van zijn protocol-poortpaar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–delete</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|–proto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">udp</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">11940</span></p>

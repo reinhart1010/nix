@@ -1,0 +1,22 @@
+<h1 id="choom">choom</h1>
+
+<p>OOM(Out-Of-Memory) 킬러 점수를 표시하고 변경.
+더 많은 정보: <a href="https://manned.org/choom">https://manned.org/choom</a>.</p>
+
+<ul>
+  <li>특정 프로세스 ID의 OOM-킬러 점수 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choom -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로세스_ID</span></p>
+
+<ul>
+  <li>특정 프로세스의 OOM-킬러 점수 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choom -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로세스_ID</span><code class="language-plaintext highlighter-rouge"> -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1000..+1000</span></p>
+
+<ul>
+  <li>특정 OOM-킬러 점수로 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choom -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1000..+1000</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수1 인수2 …</span></p>

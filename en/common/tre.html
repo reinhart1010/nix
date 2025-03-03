@@ -1,0 +1,53 @@
+<h1 id="tre">tre</h1>
+
+<p>Show the contents of the current directory as a tree.
+Respects the <code class="language-plaintext highlighter-rouge">.gitignore</code> settings by default.
+More information: <a href="https://github.com/dduan/tre">https://github.com/dduan/tre</a>.</p>
+
+<ul>
+  <li>Print directories only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tre --directories</code></p>
+
+<ul>
+  <li>Print JSON containing files in the tree hierarchy instead of the normal tree diagram:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tre --json</code></p>
+
+<ul>
+  <li>Print files and directories up to the specified depth limit (where 1 means the current directory):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tre --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">depth</span></p>
+
+<ul>
+  <li>Print all hidden files and directories using the specified colorization mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tre --all --color </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">automatic|always|never</span></p>
+
+<ul>
+  <li>Print files within the tree hierarchy, assigning a shell alias to each file that, when called, will open the associated file using the provided <code class="language-plaintext highlighter-rouge">command</code> (or in <code class="language-plaintext highlighter-rouge">$EDITOR</code> by default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tre --editor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Print files within the tree hierarchy, excluding all paths that match the provided regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tre --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span></p>
+
+<ul>
+  <li>Display version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tre --version</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tre --help</code></p>

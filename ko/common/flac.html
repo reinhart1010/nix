@@ -1,0 +1,28 @@
+<h1 id="flac">flac</h1>
+
+<p>FLAC 파일을 인코딩, 디코딩 및 테스트.
+더 많은 정보: <a href="https://xiph.org/flac">https://xiph.org/flac</a>.</p>
+
+<ul>
+  <li>WAV 파일을 FLAC로 인코딩 (WAV 파일과 동일한 FLAC 파일이 생성됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flac </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.wav</span></p>
+
+<ul>
+  <li>출력 파일을 지정하여 WAV 파일을 FLAC로 인코딩:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flac -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력파일.flac</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.wav</span></p>
+
+<ul>
+  <li>출력 파일을 지정하여 FLAC 파일을 WAV로 인코딩:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flac -d -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력파일.wav</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.flac</span></p>
+
+<ul>
+  <li>올바른 인코딩을 위해 FLAC 파일을 테스트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flac -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.flac</span></p>

@@ -1,0 +1,53 @@
+<h1 id="chezmoi">Chezmoi</h1>
+
+<p>Go로 작성된, 다중 머신 도트파일 관리자.
+참고: <code class="language-plaintext highlighter-rouge">stow</code>, <code class="language-plaintext highlighter-rouge">tuckr</code>, <code class="language-plaintext highlighter-rouge">vcsh</code>, <code class="language-plaintext highlighter-rouge">homeshick</code>.
+더 많은 정보: <a href="https://chezmoi.io">https://chezmoi.io</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">chezmoi</code>를 설정하고, <code class="language-plaintext highlighter-rouge">~/.local/share/chezmoi</code>에 Git 저장소를 만듬:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chezmoi init</code></p>
+
+<ul>
+  <li>Git 저장소의 기존 도트 파일에서 <code class="language-plaintext highlighter-rouge">chezmoi</code>를 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chezmoi init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레포지토리_주소</span></p>
+
+<ul>
+  <li>하나 이상의 도트 파일 추적을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chezmoi add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/도트파일1 경로/대상/도트파일2 …</span></p>
+
+<ul>
+  <li>로컬 변경 사항으로 저장소 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chezmoi re-add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/도트파일1 경로/대상/도트파일2 …</span></p>
+
+<ul>
+  <li>추적된 도트파일의 소스 상태를 편집:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chezmoi edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/도트파일_또는_심볼릭링크</span></p>
+
+<ul>
+  <li>대기 중인 변경사항 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chezmoi diff</code></p>
+
+<ul>
+  <li>변경 사항을 적용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chezmoi -v apply</code></p>
+
+<ul>
+  <li>원격 저장소에서 변경 사항을 가져와 적용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chezmoi update</code></p>

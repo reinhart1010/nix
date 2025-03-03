@@ -1,0 +1,40 @@
+<h1 id="ibmcloud-login">ibmcloud login</h1>
+
+<p>IBM Cloud에 로그인하심.
+더 많은 정보: <a href="https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli#ibmcloud_login">https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli#ibmcloud_login</a>.</p>
+
+<ul>
+  <li>대화형 프롬프트를 사용하여 로그인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ibmcloud login</code></p>
+
+<ul>
+  <li>특정 API 엔드포인트에 로그인 (기본값은 <code class="language-plaintext highlighter-rouge">cloud.ibm.com</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ibmcloud login -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">api_엔드포인트</span></p>
+
+<ul>
+  <li>사용자명, 비밀번호 및 대상 지역을 매개변수로 제공하여 로그인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ibmcloud login -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us-south</span></p>
+
+<ul>
+  <li>API 키로 로그인하고, 이를 인수로 전달:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ibmcloud login --apikey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">api_키_문자열</span></p>
+
+<ul>
+  <li>API 키로 로그인하여, 파일로 전달:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ibmcloud login --apikey @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/api_키_파일</span></p>
+
+<ul>
+  <li>연합 ID로 로그인 (single sign-on):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ibmcloud login --sso</code></p>

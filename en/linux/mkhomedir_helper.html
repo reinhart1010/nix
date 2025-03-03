@@ -1,0 +1,22 @@
+<h1 id="mkhomedir_helper">mkhomedir_helper</h1>
+
+<p>Create the user's home directory after creating the user.
+More information: <a href="https://manned.org/mkhomedir_helper">https://manned.org/mkhomedir_helper</a>.</p>
+
+<ul>
+  <li>Create a home directory for a user based on <code class="language-plaintext highlighter-rouge">/etc/skel</code> with umask 022:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkhomedir_helper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Create a home directory for a user based on <code class="language-plaintext highlighter-rouge">/etc/skel</code> with all permissions for owner (0) and read permission for group (3):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkhomedir_helper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">037</span></p>
+
+<ul>
+  <li>Create a home directory for a user based on a custom skeleton:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkhomedir_helper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">umask</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/skeleton_directory</span></p>

@@ -1,0 +1,35 @@
+<h1 id="immich-go">immich-go</h1>
+
+<p>Immich-Go es una herramienta abierta diseñada para subir grandes colecciones de fotos a tu servidor Immich autoalojado.
+Véase también: <code class="language-plaintext highlighter-rouge">immich-cli</code>.
+Más información: <a href="https://github.com/simulot/immich-go">https://github.com/simulot/immich-go</a>.</p>
+
+<ul>
+  <li>Sube un archivo takeout de Google al servidor Immich:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">immich-go -server=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_del_servidor</span><code class="language-plaintext highlighter-rouge"> -key=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave_de_servidor</span><code class="language-plaintext highlighter-rouge"> upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo_takeout.zip</span></p>
+
+<ul>
+  <li>Importa fotos capturadas en junio del 2019, mientras se generan los álbumes automáticamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">immich-go -server=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_del_servidor</span><code class="language-plaintext highlighter-rouge"> -key=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave_del_servidor</span><code class="language-plaintext highlighter-rouge"> upload -create-albums -google-photos -date=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2019-06</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo_takeout.zip</span></p>
+
+<ul>
+  <li>Sube un archivo usando servidor y clave de un archivo de configuración:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">immich-go -use-configuration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.immich-go/immich-go.json</span><code class="language-plaintext highlighter-rouge"> upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo_takeout.zip</span></p>
+
+<ul>
+  <li>Examina el contenido del servidor Immich, elimina las imágenes de menor calidad y preserva álbumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">immich-go -server=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_del_servidor</span><code class="language-plaintext highlighter-rouge"> -key=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave_del_servidor</span><code class="language-plaintext highlighter-rouge"> duplicate -yes</code></p>
+
+<ul>
+  <li>Elimina todos los álbumes creados con el patrón "YYYY-MM-DD":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">immich-go -server=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_del_servidor</span><code class="language-plaintext highlighter-rouge"> -key=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave_del_servidor</span><code class="language-plaintext highlighter-rouge"> tool album delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\d{4}-\d{2}-\d{2}</span></p>

@@ -1,0 +1,46 @@
+<h1 id="xxd">xxd</h1>
+
+<p>Mostra la rappresentazione esadecimale (hexdump) di un file binario e viceversa.
+Maggiori informazioni: <a href="https://manned.org/xxd">https://manned.org/xxd</a>.</p>
+
+<ul>
+  <li>Creare l'hexdump di un file binario e mostrare l'output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_di_input</span></p>
+
+<ul>
+  <li>Creare l'hexdump di un file binario e salvare il risultato in un file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_di_input</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_di_output</span></p>
+
+<ul>
+  <li>Mostrare un output in una versione un po' più compatta, dove gli zero consegutivi vengono sostituiti da un asterisco:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxd -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_di_input</span></p>
+
+<ul>
+  <li>Mostrare l'output in 10 colonne di un ottetto (byte) ciascuna:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxd -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_di_input</span></p>
+
+<ul>
+  <li>Mostrare l'output solo fino ad una lunghezza massima di 32 bytes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxd -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">32</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_di_input</span></p>
+
+<ul>
+  <li>Mostrare l'output in modalità normale, senza spazi tra le colonne:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxd -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_di_input</span></p>
+
+<ul>
+  <li>Eseguire l'operazione inversa, ovvero da un hexdump creare il binario e salvarlo in un file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxd -r -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_di_input</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_di_output</span></p>

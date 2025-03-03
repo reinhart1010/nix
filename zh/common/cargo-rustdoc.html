@@ -1,0 +1,47 @@
+<h1 id="cargo-rustdoc">cargo rustdoc</h1>
+
+<p>构建 Rust 包的文档。
+类似于 <code class="language-plaintext highlighter-rouge">cargo doc</code>，但您可以向 <code class="language-plaintext highlighter-rouge">rustdoc</code> 传递选项。查看 <code class="language-plaintext highlighter-rouge">rustdoc --help</code> 获取所有可用选项。
+更多信息：<a href="https://doc.rust-lang.org/cargo/commands/cargo-rustdoc.html">https://doc.rust-lang.org/cargo/commands/cargo-rustdoc.html</a>.</p>
+
+<ul>
+  <li>向 <code class="language-plaintext highlighter-rouge">rustdoc</code> 传递选项：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rustdoc_options</span></p>
+
+<ul>
+  <li>关于文档 lint 发出警告：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc -- --warn rustdoc::</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lint_name</span></p>
+
+<ul>
+  <li>忽略文档 lint:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc -- --allow rustdoc::</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lint_name</span></p>
+
+<ul>
+  <li>为包的库生成文档：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc --lib</code></p>
+
+<ul>
+  <li>为指定的二进制文件生成文档：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc --bin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">名称</span></p>
+
+<ul>
+  <li>为指定的示例生成文档：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc --example </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">名称</span></p>
+
+<ul>
+  <li>为指定的集成测试生成文档：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc --test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">名称</span></p>

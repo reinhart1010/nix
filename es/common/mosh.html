@@ -1,0 +1,41 @@
+<h1 id="mosh">mosh</h1>
+
+<p>Mobile Shell (<code class="language-plaintext highlighter-rouge">mosh</code>) es un reemplazo robusto y receptivo para SSH.
+<code class="language-plaintext highlighter-rouge">mosh</code> persiste las conexiones con servidores remotos mientras deambula en las redes.
+Más información: <a href="https://mosh.org">https://mosh.org</a>.</p>
+
+<ul>
+  <li>Conecta a un servidor remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">equipo_remoto</span></p>
+
+<ul>
+  <li>Conecta a un servidor remoto con una identidad específica (clave privada):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosh --ssh="ssh -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo_de_clave</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">equipo_remoto</span></p>
+
+<ul>
+  <li>Conecta a un servidor remoto usando un puerto específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosh --ssh="ssh -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2222</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">equipo_remoto</span></p>
+
+<ul>
+  <li>Ejecuta un comando en un servidor remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">equipo_remoto</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando -con –opciones</span></p>
+
+<ul>
+  <li>Selecciona un puerto UDP Mosh (útil cuando el <code class="language-plaintext highlighter-rouge">equipo_remoto</code> está tras un NAT):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosh -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">124</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">equipo_remoto</span></p>
+
+<ul>
+  <li>Se lo usa cuando el binario <code class="language-plaintext highlighter-rouge">mosh-server</code> no se encuentra en la ruta estándar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosh --server=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/bin/</span><code class="language-plaintext highlighter-rouge">mosh-server </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">equipo_remoto</span></p>

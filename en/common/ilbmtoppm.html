@@ -1,0 +1,28 @@
+<h1 id="ilbmtoppm">ilbmtoppm</h1>
+
+<p>Convert an ILBM file to a PPM image.
+More information: <a href="https://netpbm.sourceforge.net/doc/ilbmtoppm.html">https://netpbm.sourceforge.net/doc/ilbmtoppm.html</a>.</p>
+
+<ul>
+  <li>Convert an ILBM file to a PPM image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ilbmtoppm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ilbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span></p>
+
+<ul>
+  <li>Use the specified color to "show through" where the image is transparent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ilbmtoppm -transparent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">color</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ilbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span></p>
+
+<ul>
+  <li>Ignore the chunk with the specified chunk ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ilbmtoppm -ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chunkID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ilbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span></p>
+
+<ul>
+  <li>Store the input's transparency information to the specified PBM file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ilbmtoppm -maskfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/maskfile.pbm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ilbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span></p>

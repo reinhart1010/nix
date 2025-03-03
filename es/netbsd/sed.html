@@ -1,0 +1,47 @@
+<h1 id="sed">sed</h1>
+
+<p>Edita texto de manera programable.
+Vea también: <code class="language-plaintext highlighter-rouge">awk</code>, <code class="language-plaintext highlighter-rouge">ed</code>.
+Más información: <a href="https://man.netbsd.org/sed.1">https://man.netbsd.org/sed.1</a>.</p>
+
+<ul>
+  <li>Reemplaza todas las ocurrencias de <code class="language-plaintext highlighter-rouge">apple</code> (expresión regular básica) por <code class="language-plaintext highlighter-rouge">mango</code> (expresión regular básica) en todas las líneas de entrada e imprime el resultado en <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | sed 's/apple/mango/g'</code></p>
+
+<ul>
+  <li>Ejecuta un [f]ichero con un script e imprime el resultado en <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | sed -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/script.sed</span></p>
+
+<ul>
+  <li>Retrasa abrir cada archivo hasta que se aplique a una línea de entrada un comando que contenga la función <code class="language-plaintext highlighter-rouge">w</code> u otra similar:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | sed -fa </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/script.sed</span></p>
+
+<ul>
+  <li>Activa la extensión de GNU de expresiones re[g]ulares:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | sed -fg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/script.sed</span></p>
+
+<ul>
+  <li>Sustituye todas las ocurrencias de <code class="language-plaintext highlighter-rouge">apple</code> (expresión regular extendida) por <code class="language-plaintext highlighter-rouge">APPLE</code> (expresión regular extendida) en todas las líneas de entrada e imprime el resultado en <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | sed -E 's/(apple)/\U\1/g'</code></p>
+
+<ul>
+  <li>Imprime solo la primera línea en <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | sed -n '1p'</code></p>
+
+<ul>
+  <li>Sustituye todas las apariciones de <code class="language-plaintext highlighter-rouge">apple</code> (expresión regular básica) por <code class="language-plaintext highlighter-rouge">mango</code> (expresión regular básica) en un archivo específico y sobrescribe el archivo original en su lugar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed -i 's/apple/mango/g' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>

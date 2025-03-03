@@ -1,0 +1,52 @@
+<h1 id="nl">nl</h1>
+
+<p>Number lines from a file or from <code class="language-plaintext highlighter-rouge">stdin</code>.
+More information: <a href="https://manned.org/nl.1p">https://manned.org/nl.1p</a>.</p>
+
+<ul>
+  <li>Number non-blank lines in a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Read from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | nl -</code></p>
+
+<ul>
+  <li>Number [a]ll [b]ody lines including blank lines or do [n]ot number [b]ody lines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a|n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Number only the [b]ody lines that match a basic regular expression (BRE) [p]attern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl -b p'FooBar[0-9]' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Use a specific [i]ncrement for line numbering:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">increment</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Specify the line numbering format to [r]ight or [l]eft justified, keeping leading [z]eros or [n]ot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rz|ln|rn</span></p>
+
+<ul>
+  <li>Specify the line numbering's [w]idth (6 by default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">col_width</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Use a specific string to [s]eparate the line numbers from the lines (TAB by default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">separator</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

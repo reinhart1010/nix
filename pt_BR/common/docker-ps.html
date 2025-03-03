@@ -1,0 +1,52 @@
+<h1 id="docker-ps">docker ps</h1>
+
+<p>Lista os contêineres Docker.
+Mais informações: <a href="https://docs.docker.com/reference/cli/docker/container/ls/">https://docs.docker.com/reference/cli/docker/container/ls/</a>.</p>
+
+<ul>
+  <li>Lista contêineres Docker em execução:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker ps</code></p>
+
+<ul>
+  <li>Lista todos contêineres Docker (em execução e parados):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker ps --all</code></p>
+
+<ul>
+  <li>Lista os últimos contêineres criados (inclui todos os estados):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker ps --latest</code></p>
+
+<ul>
+  <li>Filtra os contêineres que contêm uma substring no seu nome:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker ps --filter "name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Filtra todos os contêineres que compartilham uma determinada imagem com um antepassado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker ps --filter "ancestor=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Filtra contêineres que tenham o código de saída:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker ps --all --filter "exited=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">código</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Filtra contêineres por estado (created, running, removing, paused, exited e dead):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker ps --filter "status=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">estado</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Filtra contêineres que montem um volume específico ou tenham um volume montado em um caminho específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker ps --filter "volume=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span><code class="language-plaintext highlighter-rouge">" --format "table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.ID</span><code class="language-plaintext highlighter-rouge">\t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.Image</span><code class="language-plaintext highlighter-rouge">\t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.Names</span><code class="language-plaintext highlighter-rouge">\t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.Mounts</span><code class="language-plaintext highlighter-rouge">"</code></p>

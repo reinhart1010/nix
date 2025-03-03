@@ -1,0 +1,52 @@
+<h1 id="arduino">arduino</h1>
+
+<p>Arduino Studio - Sebuah alat pengembangan piranti lunak (IDE) bagi platform Arduino.
+Informasi lebih lanjut: <a href="https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc">https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc</a>.</p>
+
+<ul>
+  <li>Bangun piranti lunak dari suatu berkas (sketsa) kode sumber:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.ino</span></p>
+
+<ul>
+  <li>Bangun dan pasang piranti lunak menuju perangkat Arduino:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.ino</span></p>
+
+<ul>
+  <li>Bangun dan pasang piranti lunak menuju suatu perangkat Arduino Nano dengan prosesor Atmega328p yang terhubung dalam port <code class="language-plaintext highlighter-rouge">/dev/ttyACM0</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --board </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arduino:avr:nano:cpu=atmega328p</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyACM0</span><code class="language-plaintext highlighter-rouge"> --upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.ino</span></p>
+
+<ul>
+  <li>Atur <code class="language-plaintext highlighter-rouge">nilai</code> untuk suatu jenis preferensi/konfigurasi berdasarkan <code class="language-plaintext highlighter-rouge">nama</code> atau kata kunci:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --pref </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nilai</span></p>
+
+<ul>
+  <li>Bangun piranti lunak, kemudian simpan menuju suatu direktori hasil pembangunan, dan gunakan kembali hasil-hasil sebelumnya di dalam direktori tersebut:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --pref build.path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_hasil_pembangunan</span><code class="language-plaintext highlighter-rouge"> --verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/bekas.ino</span></p>
+
+<ul>
+  <li>Simpan segala perubahan pada preferensi/konfigurasi menuju berkas <code class="language-plaintext highlighter-rouge">preferences.txt</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --save-prefs</code></p>
+
+<ul>
+  <li>Pasang piranti pendukung pengembangan untuk perangkat Arduino berbasis SAM (seperti Arduino Due):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --install-boards "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arduino:sam</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Pasang pustaka piranti lunak (library) untuk Bridge dan Servo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --install-library "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Bridge:1.0.0,Servo:1.2.0</span><code class="language-plaintext highlighter-rouge">"</code></p>

@@ -1,0 +1,23 @@
+<h1 id="pkg_add">pkg_add</h1>
+
+<p>Installeer/update pakketten in OpenBSD.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">pkg_info</code>, <code class="language-plaintext highlighter-rouge">pkg_delete</code>.
+Meer informatie: <a href="https://man.openbsd.org/pkg_add">https://man.openbsd.org/pkg_add</a>.</p>
+
+<ul>
+  <li>Werk alle pakketten bij, inclusief afhankelijkheden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkg_add -u</code></p>
+
+<ul>
+  <li>Installeer een nieuw pakket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkg_add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span></p>
+
+<ul>
+  <li>Installeer pakketten van de onbewerkte uitvoer van <code class="language-plaintext highlighter-rouge">pkg_info</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkg_add -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>

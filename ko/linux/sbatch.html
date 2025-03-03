@@ -1,0 +1,28 @@
+<h1 id="sbatch">sbatch</h1>
+
+<p>SLURM 스케줄러에 배치 작업 제출.
+더 많은 정보: <a href="https://manned.org/sbatch">https://manned.org/sbatch</a>.</p>
+
+<ul>
+  <li>배치 작업 제출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbatch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/작업.sh</span></p>
+
+<ul>
+  <li>사용자 지정 이름으로 배치 작업 제출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbatch --job-name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">myjob</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/작업.sh</span></p>
+
+<ul>
+  <li>30분의 시간 제한으로 배치 작업 제출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbatch --time=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">00:30:00</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/작업.sh</span></p>
+
+<ul>
+  <li>여러 노드를 요청하여 작업 제출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbatch --nodes=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/작업.sh</span></p>

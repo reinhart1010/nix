@@ -1,0 +1,23 @@
+<h1 id="pbmreduce">pbmreduce</h1>
+
+<p>Proportionally reduce a PBM image.
+See also: <code class="language-plaintext highlighter-rouge">pamenlarge</code>, <code class="language-plaintext highlighter-rouge">pamditherbw</code>.
+More information: <a href="https://netpbm.sourceforge.net/doc/pbmreduce.html">https://netpbm.sourceforge.net/doc/pbmreduce.html</a>.</p>
+
+<ul>
+  <li>Reduce the specified image by the specified factor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmreduce </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbm</span></p>
+
+<ul>
+  <li>Use simple thresholding when reducing:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmreduce -threshold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbm</span></p>
+
+<ul>
+  <li>Use the specified threshold for all quantizations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmreduce -value </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.6</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pbm</span></p>

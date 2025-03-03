@@ -1,0 +1,29 @@
+<h1 id="git-commit-tree">git commit-tree</h1>
+
+<p>Низькорівнева утиліта для створення об'єктів комітів.
+Дивись також: <code class="language-plaintext highlighter-rouge">git commit</code>.
+Більше інформації: <a href="https://git-scm.com/docs/git-commit-tree">https://git-scm.com/docs/git-commit-tree</a>.</p>
+
+<ul>
+  <li>Створює об'єкт коміту із певним повідомленням:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree</span><code class="language-plaintext highlighter-rouge"> -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">повідомлення</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Створює об'єкт коміту читаючи повідомлення з файлу (використовуй <code class="language-plaintext highlighter-rouge">-</code> для читання зі стандартного введення):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree</span><code class="language-plaintext highlighter-rouge"> -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span></p>
+
+<ul>
+  <li>Створює GPG-підписаний об'єкт коміту:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree</span><code class="language-plaintext highlighter-rouge"> -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">повідомлення</span><code class="language-plaintext highlighter-rouge">" --gpg-sign</code></p>
+
+<ul>
+  <li>Створює об'єкт коміту із певним батьківським об'єктом коміту:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree</span><code class="language-plaintext highlighter-rouge"> -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">повідомлення</span><code class="language-plaintext highlighter-rouge">" -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sha_батьківського_коміту</span></p>

@@ -1,0 +1,53 @@
+<h1 id="ip">ip</h1>
+
+<p>Show/manipulate routing, devices, policy routing and tunnels.
+Some subcommands such as <code class="language-plaintext highlighter-rouge">address</code> have their own usage documentation.
+More information: <a href="https://www.manned.org/ip.8">https://www.manned.org/ip.8</a>.</p>
+
+<ul>
+  <li>List interfaces with detailed info:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address</code></p>
+
+<ul>
+  <li>List interfaces with brief network layer info:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip -brief address</code></p>
+
+<ul>
+  <li>List interfaces with brief link layer info:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip -brief link</code></p>
+
+<ul>
+  <li>Display the routing table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route</code></p>
+
+<ul>
+  <li>Show neighbors (ARP table):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip neighbour</code></p>
+
+<ul>
+  <li>Make an interface up/down:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">up|down</span></p>
+
+<ul>
+  <li>Add/Delete an IP address to an interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip addr add/del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mask</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>
+
+<ul>
+  <li>Add a default route:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route add default via </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>

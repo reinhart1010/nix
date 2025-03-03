@@ -1,0 +1,34 @@
+<h1 id="openvpn3">openvpn3</h1>
+
+<p>OpenVPN 3 Linux client.
+More information: <a href="https://community.openvpn.net/openvpn/wiki/OpenVPN3Linux">https://community.openvpn.net/openvpn/wiki/OpenVPN3Linux</a>.</p>
+
+<ul>
+  <li>Start a new VPN session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openvpn3 session-start --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.conf</span></p>
+
+<ul>
+  <li>List established sessions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openvpn3 sessions-list</code></p>
+
+<ul>
+  <li>Disconnect the currently established session started with given configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openvpn3 session-manage --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.conf</span><code class="language-plaintext highlighter-rouge"> --disconnect</code></p>
+
+<ul>
+  <li>Import VPN configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openvpn3 config-import --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.conf</span></p>
+
+<ul>
+  <li>List imported configurations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openvpn3 configs-list</code></p>

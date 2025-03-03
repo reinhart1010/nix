@@ -1,0 +1,28 @@
+<h1 id="remove-appxpackage">Remove-AppxPackage</h1>
+
+<p>A PowerShell utility to remove an app package from user accounts.
+More information: <a href="https://learn.microsoft.com/powershell/module/appx/Remove-AppxPackage">https://learn.microsoft.com/powershell/module/appx/Remove-AppxPackage</a>.</p>
+
+<ul>
+  <li>Remove an app package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-AppxPackage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Remove an app package for a specific user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-AppxPackage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> -User </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Remove an app package for all users:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-AppxPackage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> -AllUsers</code></p>
+
+<ul>
+  <li>Remove an app package but preserve it's app data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Remove-AppxPackage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> -PreserveApplicationData</code></p>

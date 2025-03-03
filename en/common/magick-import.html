@@ -1,0 +1,23 @@
+<h1 id="magick-import">magick import</h1>
+
+<p>Capture some or all of an X server screen and save the image to a file.
+See also: <code class="language-plaintext highlighter-rouge">magick</code>.
+More information: <a href="https://imagemagick.org/script/import.php">https://imagemagick.org/script/import.php</a>.</p>
+
+<ul>
+  <li>Capture the entire X server screen into a PostScript file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick import -window root </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ps</span></p>
+
+<ul>
+  <li>Capture contents of a remote X server screen into a PNG image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick import -window root -display </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">screen</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">display</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span></p>
+
+<ul>
+  <li>Capture a specific window given its ID as displayed by <code class="language-plaintext highlighter-rouge">xwininfo</code> into a JPEG image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick import -window </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">window_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.jpg</span></p>

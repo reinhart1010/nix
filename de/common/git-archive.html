@@ -1,0 +1,40 @@
+<h1 id="git-archive">git archive</h1>
+
+<p>Erstelle ein Archiv von Dateien.
+Weitere Informationen: <a href="https://git-scm.com/docs/git-archive">https://git-scm.com/docs/git-archive</a>.</p>
+
+<ul>
+  <li>Erstelle ein tar-Archiv aus dem Inhalt des aktuellen HEAD und gib dieses aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span><code class="language-plaintext highlighter-rouge"> HEAD</code></p>
+
+<ul>
+  <li>Erstelle ein zip-Archiv aus dem Inhalt des aktuellen HEAD und gib dieses aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span><code class="language-plaintext highlighter-rouge"> --format zip HEAD</code></p>
+
+<ul>
+  <li>Erstelle ein zip-Archiv aus dem Inhalt des aktuellen HEAD und speichere dieses in eine Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.zip</span><code class="language-plaintext highlighter-rouge"> HEAD</code></p>
+
+<ul>
+  <li>Erstelle ein tar-Archiv aus dem Inhalt des letzten Commits eines bestimmten Branches:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Erstelle ein tar-Archiv aus dem Inhalt eines bestimmten Verzeichnisses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.tar</span><code class="language-plaintext highlighter-rouge"> HEAD:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis</span></p>
+
+<ul>
+  <li>Stelle jeder Datei einen Pfad voran, um sie in einem bestimmten Verzeichnis zu archivieren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.tar</span><code class="language-plaintext highlighter-rouge"> --prefix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis</span><code class="language-plaintext highlighter-rouge">/ HEAD</code></p>

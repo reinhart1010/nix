@@ -1,0 +1,40 @@
+<h1 id="nxc-smb">nxc smb</h1>
+
+<p>Pentest and exploit SMB servers.
+More information: <a href="https://www.netexec.wiki/smb-protocol">https://www.netexec.wiki/smb-protocol</a>.</p>
+
+<ul>
+  <li>Search for valid domain credentials by trying out every combination in the specified lists of [u]sernames and [p]asswords:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc smb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/usernames.txt</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/passwords.txt</span></p>
+
+<ul>
+  <li>Search for valid credentials for local accounts instead of domain accounts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc smb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/usernames.txt</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/passwords.txt</span><code class="language-plaintext highlighter-rouge"> --local-auth</code></p>
+
+<ul>
+  <li>Enumerate SMB shares and the specified users' access rights to them on the target hosts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc smb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.0/24</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> --shares</code></p>
+
+<ul>
+  <li>Enumerate network interfaces on the target hosts, performing authentication via pass-the-hash:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc smb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.30-45</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">NTLM_hash</span><code class="language-plaintext highlighter-rouge"> --interfaces</code></p>
+
+<ul>
+  <li>Scan the target hosts for common vulnerabilities:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc smb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_list.txt</span><code class="language-plaintext highlighter-rouge"> -u '' -p '' -M zerologon -M petitpotam</code></p>
+
+<ul>
+  <li>Attempt to execute a command on the target hosts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc smb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>

@@ -1,0 +1,21 @@
+<h1 id="oathtool">oathtool</h1>
+
+<p>OATH 一次性密码工具。</p>
+
+<ul>
+  <li>生成 TOTP 令牌（行为类似于 Google Authenticator）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">oathtool --totp --base32 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span></p>
+
+<ul>
+  <li>根据给定时间产生特定的 TOTP 令牌：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">oathtool --totp --now </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2004-02-29 16:21:42</span><code class="language-plaintext highlighter-rouge"> --base32 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span></p>
+
+<ul>
+  <li>验证 TOTP 令牌：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">oathtool --totp --base32 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">令牌</span></p>

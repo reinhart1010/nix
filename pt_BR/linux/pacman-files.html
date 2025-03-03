@@ -1,0 +1,41 @@
+<h1 id="pacman-files">pacman –files</h1>
+
+<p>Utilitário de Arch Linux para gerenciamento de pacotes.
+Veja também: <code class="language-plaintext highlighter-rouge">pacman</code>, <code class="language-plaintext highlighter-rouge">pkgfile</code>.
+Mais informações: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Atualiza o banco de dados de pacotes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --files --refresh</code></p>
+
+<ul>
+  <li>Procura o pacote que possui um arquivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_arquivo</span></p>
+
+<ul>
+  <li>Encontra o pacote que possui um arquivo específico, usando uma expressão regular:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files --regex '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expressao_regular</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Lista apenas os nomes de pacotes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_arquivo</span></p>
+
+<ul>
+  <li>Lista os arquivos de um pacote específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Exibe ajuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --files --help</code></p>

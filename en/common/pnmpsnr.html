@@ -1,0 +1,40 @@
+<h1 id="pnmpsnr">pnmpsnr</h1>
+
+<p>Compute the difference between two images.
+More information: <a href="https://netpbm.sourceforge.net/doc/pnmpsnr.html">https://netpbm.sourceforge.net/doc/pnmpsnr.html</a>.</p>
+
+<ul>
+  <li>Compute the difference, i.e. the peak signal-to-noise ratio (PSNR) between two images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmpsnr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.pnm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.pnm</span></p>
+
+<ul>
+  <li>Compare the color components rather than the luminance and chrominance components of the images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmpsnr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.pnm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.pnm</span><code class="language-plaintext highlighter-rouge"> -rgb</code></p>
+
+<ul>
+  <li>Run in comparison mode, i.e. only output <code class="language-plaintext highlighter-rouge">nomatch</code> or <code class="language-plaintext highlighter-rouge">match</code> depending on whether the computing PSNR exceeds <code class="language-plaintext highlighter-rouge">n</code> or not:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmpsnr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.pnm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.pnm</span><code class="language-plaintext highlighter-rouge"> -target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span></p>
+
+<ul>
+  <li>Run in comparison mode and compare the individual image components, i.e. Y, Cb, and Cr, to the corresponding thresholds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmpsnr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.pnm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.pnm</span><code class="language-plaintext highlighter-rouge"> -target1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">threshold_Y</span><code class="language-plaintext highlighter-rouge"> -target2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">threshold_Cb</span><code class="language-plaintext highlighter-rouge"> -target3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">threshold_Cr</span></p>
+
+<ul>
+  <li>Run in comparison mode and compare the individual image components, i.e. red, green, and blue to the corresponding thresholds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmpsnr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.pnm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.pnm</span><code class="language-plaintext highlighter-rouge"> -rgb -target1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">threshold_red</span><code class="language-plaintext highlighter-rouge"> -target2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">threshold_green</span><code class="language-plaintext highlighter-rouge"> -target3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">threshold_blue</span></p>
+
+<ul>
+  <li>Produce machine-readable output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmpsnr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.pnm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.pnm</span><code class="language-plaintext highlighter-rouge"> -machine</code></p>

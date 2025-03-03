@@ -1,0 +1,28 @@
+<h1 id="airmon-ng">airmon-ng</h1>
+
+<p>Active le mode surveillance sur les appareils sans fils.
+Plus d'informations : <a href="https://www.aircrack-ng.org/doku.php?id=airmon-ng">https://www.aircrack-ng.org/doku.php?id=airmon-ng</a>.</p>
+
+<ul>
+  <li>Liste les appareils sans fils et leurs statuts :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng</code></p>
+
+<ul>
+  <li>Allume le mode surveillance sur un appareil spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span></p>
+
+<ul>
+  <li>Tue les processus nuisibles qui utilisent les appareils sans fils :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng check kill</code></p>
+
+<ul>
+  <li>Éteint le mode surveillance pour une interface réseau spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airmon-ng stop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0mon</span></p>

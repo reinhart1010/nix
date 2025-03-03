@@ -1,0 +1,35 @@
+<h1 id="rargs">rargs</h1>
+
+<p>Execute a command for each line of standard input.
+Like <code class="language-plaintext highlighter-rouge">xargs</code>, but with pattern matching support.
+More information: <a href="https://github.com/lotabout/rargs">https://github.com/lotabout/rargs</a>.</p>
+
+<ul>
+  <li>Execute a command for every line of input, just like <code class="language-plaintext highlighter-rouge">xargs</code> (<code class="language-plaintext highlighter-rouge">{0}</code> indicates where to substitute in the text):</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | rargs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> {0}</code></p>
+
+<ul>
+  <li>Do a dry run, which prints the commands that would be run instead of executing them:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | rargs -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> {0}</code></p>
+
+<ul>
+  <li>Remove the <code class="language-plaintext highlighter-rouge">.bak</code> extension from every file in a list:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | rargs -p '(.*).bak mv {0} {1}</code></p>
+
+<ul>
+  <li>Execute commands in parallel:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | rargs -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max-procs</span></p>
+
+<ul>
+  <li>Consider each line of input to be separated by a NUL character (<code class="language-plaintext highlighter-rouge">\0</code>) instead of a newline (<code class="language-plaintext highlighter-rouge">\n</code>):</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | rargs -0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> {0}</code></p>

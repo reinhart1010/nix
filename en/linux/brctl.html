@@ -1,0 +1,34 @@
+<h1 id="brctl">brctl</h1>
+
+<p>Ethernet bridge administration.
+More information: <a href="https://manned.org/brctl">https://manned.org/brctl</a>.</p>
+
+<ul>
+  <li>Show a list with information about currently existing Ethernet bridges:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo brctl show</code></p>
+
+<ul>
+  <li>Create a new Ethernet bridge interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo brctl add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bridge_name</span></p>
+
+<ul>
+  <li>Delete an existing Ethernet bridge interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo brctl del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bridge_name</span></p>
+
+<ul>
+  <li>Add an interface to an existing bridge:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo brctl addif </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bridge_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface_name</span></p>
+
+<ul>
+  <li>Remove an interface from an existing bridge:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo brctl delif </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bridge_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface_name</span></p>

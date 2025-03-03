@@ -1,0 +1,28 @@
+<h1 id="touch">touch</h1>
+
+<p>Create files and set access/modification times.
+More information: <a href="https://manned.org/touch">https://manned.org/touch</a>.</p>
+
+<ul>
+  <li>Create specific files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">touch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Set the file [a]ccess or [m]odification times to the current one and don't [c]reate file if it doesn't exist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">touch -c -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a|m</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Set the file [t]ime to a specific value and don't [c]reate file if it doesn't exist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">touch -c -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Set the files' timestamp to the [r]eference file's timestamp, and do not [c]reate the file if it does not exist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">touch -c -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/reference_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>

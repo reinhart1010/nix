@@ -1,0 +1,35 @@
+<h1 id="test">test</h1>
+
+<p>Check file types and compare values.
+Returns 0 if the condition evaluates to true, 1 if it evaluates to false.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/test-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/test-invocation.html</a>.</p>
+
+<ul>
+  <li>Test if a given variable is equal to a given string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">test "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$MY_VAR</span><code class="language-plaintext highlighter-rouge">" = "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/bin/zsh</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Test if a given variable is empty:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">test -z "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$GIT_BRANCH</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Test if a file exists:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">test -f "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Test if a directory does not exist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">test ! -d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>If A is true, then do B, or C in the case of an error (notice that C may run even if A fails):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">condition</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "true"</span><code class="language-plaintext highlighter-rouge"> || </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "false"</span></p>

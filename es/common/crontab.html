@@ -1,0 +1,52 @@
+<h1 id="crontab">crontab</h1>
+
+<p>Programa trabajos recurrentes (cron jobs) para ejecutarse a intervalos de tiempo para el usuario actual.
+Más información: <a href="https://crontab.guru/">https://crontab.guru/</a>.</p>
+
+<ul>
+  <li>Edita el archivo crontab para el usuario actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crontab -e</code></p>
+
+<ul>
+  <li>Edita el archivo crontab para un usuario específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo crontab -e -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span></p>
+
+<ul>
+  <li>Reemplaza el crontab actual con el contenido del archivo dado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crontab </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Ver una lista de cron jobs existentes para el usuario actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crontab -l</code></p>
+
+<ul>
+  <li>Elimina todos los cron jobs para el usuario actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crontab -r</code></p>
+
+<ul>
+  <li>Ejemplo de entrada contrab que ejecuta un comando a las 10:00 cada día (* significa cualquier valor):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">0 10 * * * </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Ejemplo de entrada crontab, que ejecuta un comando cada 10 minutos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">*/10 * * * * </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Ejemplo de entrada crontab, que ejecuta un script a las 02:30 cada viernes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">30 2 * * Fri </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/absoluta/a/script.sh</span></p>

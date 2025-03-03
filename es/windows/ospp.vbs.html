@@ -1,0 +1,41 @@
+<h1 id="osppvbs">ospp.vbs</h1>
+
+<p>Instala, activa y administra versiones con licencia por volumen de productos Microsoft Office.
+Nota: este comando puede anular, desactivar y/o eliminar tu volumen actual de versiones de productos Office con licencia, así que procede con cautela.
+Más información: <a href="https://learn.microsoft.com/deployoffice/vlactivation/tools-to-manage-volume-activation-of-office">https://learn.microsoft.com/deployoffice/vlactivation/tools-to-manage-volume-activation-of-office</a>.</p>
+
+<ul>
+  <li>Instala una clave de producto (Nota: sustituye a la clave existente):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cscript ospp.vbs /inpkey:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave_producto</span></p>
+
+<ul>
+  <li>Desinstala una clave de producto instalada con los cinco últimos dígitos de la clave de producto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cscript ospp.vbs /unpkey:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave_producto</span></p>
+
+<ul>
+  <li>Establece un nombre de host KMS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cscript ospp.vbs /sethst:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip|nombre_host</span></p>
+
+<ul>
+  <li>Establece un puerto KMS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cscript ospp.vbs /setprt:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto</span></p>
+
+<ul>
+  <li>Activa las claves de producto de Office instaladas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cscript ospp.vbs /act</code></p>
+
+<ul>
+  <li>Muestra la información de licencia de las claves de producto instaladas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cscript ospp.vbs /dstatus</code></p>

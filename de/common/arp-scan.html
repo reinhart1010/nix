@@ -1,0 +1,28 @@
+<h1 id="arp-scan">arp-scan</h1>
+
+<p>ARP Pakete an Host (spezifiert mit IP Adresse oder Hostname) senden um das lokale Netzwerk zu scannen.
+Weitere Informationen: <a href="https://github.com/royhills/arp-scan">https://github.com/royhills/arp-scan</a>.</p>
+
+<ul>
+  <li>Scanne das lokale Netzwerk:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arp-scan --localnet</code></p>
+
+<ul>
+  <li>Scanne ein IP Netzwerk mit einer benutzerdefinierten Bitmaske:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arp-scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">netzwerk_adresse</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">netzwerk_subnet</span></p>
+
+<ul>
+  <li>Scanne ein IP Netzwerk innerhalb einer benutzerdefinierten Range:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arp-scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adresse_a</span><code class="language-plaintext highlighter-rouge">-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adresse_b</span></p>
+
+<ul>
+  <li>Scanne ein IP Netzwerk mit einer benutzerdefinierten Netzmaske:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arp-scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adresse</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">netzwerkmaske</span></p>

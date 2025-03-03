@@ -1,0 +1,52 @@
+<h1 id="op">op</h1>
+
+<p>1Password의 데스크탑 앱을 위한 공식 CLI.
+더 많은 정보: <a href="https://developer.1password.com/docs/cli/reference">https://developer.1password.com/docs/cli/reference</a>.</p>
+
+<ul>
+  <li>1Password 계정에 로그인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">op signin</code></p>
+
+<ul>
+  <li>모든 금고 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">op vault list</code></p>
+
+<ul>
+  <li>항목 세부 정보를 JSON 형식으로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">op item get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">항목_이름</span><code class="language-plaintext highlighter-rouge"> --format json</code></p>
+
+<ul>
+  <li>기본 금고에 카테고리를 지정하여 새 항목 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">op item create --category </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">카테고리_이름</span></p>
+
+<ul>
+  <li>참조된 비밀을 <code class="language-plaintext highlighter-rouge">stdout</code>에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">op read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀_참조</span></p>
+
+<ul>
+  <li>내보낸 환경 변수에서 비밀 참조를 명령에 전달:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">op run -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span></p>
+
+<ul>
+  <li>환경 파일에서 비밀 참조를 명령에 전달:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">op run --env-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/환경_파일.env</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span></p>
+
+<ul>
+  <li>파일에서 비밀 참조를 읽어 일반 텍스트 비밀을 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">op inject --in-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일</span><code class="language-plaintext highlighter-rouge"> --out-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일</span></p>

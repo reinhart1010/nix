@@ -1,0 +1,35 @@
+<h1 id="airdecap-ng">airdecap-ng</h1>
+
+<p>Decodeer een WEP-, WPA- of WPA2-gecodeerd opnamebestand.
+Onderdeel van Aircrack-ng netwerksoftwaresuite.
+Meer informatie: <a href="https://www.aircrack-ng.org/doku.php?id=airdecap-ng">https://www.aircrack-ng.org/doku.php?id=airdecap-ng</a>.</p>
+
+<ul>
+  <li>Verwijder draadloze headers uit een open netwerkopnamebestand en gebruik het MAC-adres van het toegangspunt om te filteren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ap_mac</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pakketbestand.cap</span></p>
+
+<ul>
+  <li>Decodeer een met WEP gecodeerd opnamebestand met de sleutel in hex-indeling:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hex_key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pakketbestand.cap</span></p>
+
+<ul>
+  <li>Decodeer een met WPA/WPA2 gecodeerd opnamebestand met behulp van de essid en het wachtwoord van het toegangspunt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">essid</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wachtwoord</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pakketbestand.cap</span></p>
+
+<ul>
+  <li>Decodeer een met WPA/WPA2 gecodeerd opnamebestand met behoud van de headers met behulp van de essid en het wachtwoord van het toegangspunt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -l -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">essid</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wachtwoord</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pakketbestand.cap</span></p>
+
+<ul>
+  <li>Decodeer een met WPA/WPA2 gecodeerd opnamebestand met behulp van de essid en het wachtwoord van het toegangspunt en gebruik het MAC-adres om te filteren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ap_mac</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">essid</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wachtwoord</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pakketbestand.cap</span></p>

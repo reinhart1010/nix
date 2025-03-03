@@ -1,0 +1,52 @@
+<h1 id="dnf">dnf</h1>
+
+<p>RHEL, Fedora மற்றும் CentOS க்கான தொகுப்பு மேலாண்மை பயன்பாடு (yum ஐ மாற்றுகிறது).
+மேலும் விவரத்திற்கு: <a href="https://dnf.readthedocs.io">https://dnf.readthedocs.io</a>.</p>
+
+<ul>
+  <li>நிறுவப்பட்ட தொகுப்புகளை புதிய கிடைக்கக்கூடிய பதிப்புகளுக்கு மேம்படுத்தவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf upgrade</code></p>
+
+<ul>
+  <li>முக்கிய வார்த்தைகள் மூலம் தொகுப்புகளைத் தேடுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முக்கிய வார்த்தைகள்</span></p>
+
+<ul>
+  <li>தொகுப்பு பற்றிய விவரங்களைக் காண்பி:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span></p>
+
+<ul>
+  <li>புதிய தொகுப்பை நிறுவவும் (அனைத்து அறிவுறுத்தல்களையும் தானாக உறுதிப்படுத்த <code class="language-plaintext highlighter-rouge">-y</code> ஐப் பயன்படுத்தவும்):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span></p>
+
+<ul>
+  <li>ஒரு தொகுப்பை அகற்று:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span></p>
+
+<ul>
+  <li>நிறுவப்பட்ட தொகுப்புகளை பட்டியலிடுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf list --installed</code></p>
+
+<ul>
+  <li>கொடுக்கப்பட்ட கோப்பை எந்த தொகுப்புகள் வழங்குகின்றன என்பதைக் கண்டறியவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf provides </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு</span></p>
+
+<ul>
+  <li>அனைத்து கடந்த செயல்பாடுகளையும் காண்க:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf history</code></p>

@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="reg-compare">reg compare</h1>
+
+<p>比较注册表中的键和值。
+更多信息：<a href="https://learn.microsoft.com/windows-server/administration/windows-commands/reg-compare">https://learn.microsoft.com/windows-server/administration/windows-commands/reg-compare</a>.</p>
+
+<ul>
+  <li>比较两个键中的所有值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg compare </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">第一个键名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">第二个键名</span></p>
+
+<ul>
+  <li>比较两个键中指定的值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg compare </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">第一个键名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">第二个键名</span><code class="language-plaintext highlighter-rouge"> /v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">值</span></p>
+
+<ul>
+  <li>比较两个键中的所有子键和值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg compare </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">第一个键名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">第二个键名</span><code class="language-plaintext highlighter-rouge"> /s</code></p>
+
+<ul>
+  <li>仅输出指定键之间匹配的结果：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg compare </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">第一个键名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">第二个键名</span><code class="language-plaintext highlighter-rouge"> /os</code></p>
+
+<ul>
+  <li>输出两个键之间的匹配和差异：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg compare </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">第一个键名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">第二个键名</span><code class="language-plaintext highlighter-rouge"> /oa</code></p>

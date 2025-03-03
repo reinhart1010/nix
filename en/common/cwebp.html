@@ -1,0 +1,34 @@
+<h1 id="cwebp">cwebp</h1>
+
+<p>Compress an image file to a WebP file.
+More information: <a href="https://developers.google.com/speed/webp/docs/cwebp">https://developers.google.com/speed/webp/docs/cwebp</a>.</p>
+
+<ul>
+  <li>Compress a WebP file with default settings (q = 75) to the [o]utput file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cwebp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image_file</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.webp</span></p>
+
+<ul>
+  <li>Compress a WebP file with the best [q]uality and largest file size:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cwebp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image_file</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.webp</span><code class="language-plaintext highlighter-rouge"> -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span></p>
+
+<ul>
+  <li>Compress a WebP file with the worst [q]uality and smallest file size:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cwebp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image_file</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.webp</span><code class="language-plaintext highlighter-rouge"> -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span></p>
+
+<ul>
+  <li>Compress a WebP file and apply resize to image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cwebp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image_file</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.webp</span><code class="language-plaintext highlighter-rouge"> -resize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">height</span></p>
+
+<ul>
+  <li>Compress a WebP file and drop alpha channel information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cwebp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image_file</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.webp</span><code class="language-plaintext highlighter-rouge"> -noalpha</code></p>

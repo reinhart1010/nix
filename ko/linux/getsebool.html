@@ -1,0 +1,23 @@
+<h1 id="getsebool">getsebool</h1>
+
+<p>SELinux 부울 값 가져오기.
+같이 보기: <code class="language-plaintext highlighter-rouge">semanage-boolean</code>, <code class="language-plaintext highlighter-rouge">setsebool</code>.
+더 많은 정보: <a href="https://manned.org/getsebool">https://manned.org/getsebool</a>.</p>
+
+<ul>
+  <li>특정 부울의 현재 설정 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">getsebool </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpd_can_connect_ftp</span></p>
+
+<ul>
+  <li>모든 부울의 현재 설정 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">getsebool -a</code></p>
+
+<ul>
+  <li>설명과 함께 모든 부울의 현재 설정 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage boolean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–list</span></p>

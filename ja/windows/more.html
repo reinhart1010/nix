@@ -1,0 +1,46 @@
+<h1 id="more">more</h1>
+
+<p><code class="language-plaintext highlighter-rouge">stdin</code> またはファイルからのページ分割された出力を表示します。
+もっと詳しく: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/more">https://learn.microsoft.com/windows-server/administration/windows-commands/more</a>。</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>の出力をページ分割して表示する:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo test</span><code class="language-plaintext highlighter-rouge"> | more</code></p>
+
+<ul>
+  <li>1つ以上のファイルからページ分割された出力を表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">more </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span></p>
+
+<ul>
+  <li>タブを指定した数のスペースに変換する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">more </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span><code class="language-plaintext highlighter-rouge"> /t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">スペース数</span></p>
+
+<ul>
+  <li>ページを表示する前に画面をクリアする:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">more </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span><code class="language-plaintext highlighter-rouge"> /c</code></p>
+
+<ul>
+  <li>5行目からの出力を表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">more </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span><code class="language-plaintext highlighter-rouge"> +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>拡張インタラクティブモードを有効にする(使い方はヘルプを参照):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">more </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span><code class="language-plaintext highlighter-rouge"> /e</code></p>
+
+<ul>
+  <li>ヘルプを表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">more /?</code></p>

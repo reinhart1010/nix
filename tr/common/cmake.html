@@ -1,0 +1,20 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="cmake">cmake</h1>
+
+<p>Çok platformlu yapım sistem oluşturucusu.
+Hedeflenen sisteme göre Makefile, Visual Studio projeleri ve benzerlerini oluşturur.
+Daha fazla bilgi için: <a href="https://cmake.org/cmake/help/latest/manual/cmake.1.html">https://cmake.org/cmake/help/latest/manual/cmake.1.html</a>.</p>
+
+<ul>
+  <li>Bir Makefile oluştur ve onu aynı dizindeki bir projeyi derlemek için kullan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake &amp;&amp; make</code></p>
+
+<ul>
+  <li>Bir Makefile oluştur ve onu farklı bir "yapim" dizinindeki projeyi derlemek için kullan (kaynak-dışı yapım):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake -H. -B </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">build</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; make -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yapim</span></p>

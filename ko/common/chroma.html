@@ -1,0 +1,29 @@
+<h1 id="chroma">chroma</h1>
+
+<p>범용 구문 강조 표시기.
+<code class="language-plaintext highlighter-rouge">--lexer</code> 옵션은 파일 확장자에 따라 자동으로 결정되므로, 일반적으로 필요하지 않음.
+더 많은 정보: <a href="https://github.com/alecthomas/chroma">https://github.com/alecthomas/chroma</a>.</p>
+
+<ul>
+  <li>Python 어희 분석기를 사용해 파일에서 소스 코드를 강조 표시하고 <code class="language-plaintext highlighter-rouge">stdout</code>으로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chroma --lexer </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">python</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스_파일.py</span></p>
+
+<ul>
+  <li>Go 어휘 분석기를 사용하여 파일의 소스코드를 강조 표시하고 HTML 파일로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chroma --lexer </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">go</span><code class="language-plaintext highlighter-rouge"> --formatter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스_파일.go</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/대상_파일.html</span></p>
+
+<ul>
+  <li>C++ 어휘 분석기를 사용하여 <code class="language-plaintext highlighter-rouge">stdin</code>의 소스코드를 강조표시하고, Monokai 스타일을 사용하여 SVG 파일로 출력:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> | chroma --lexer </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">c++</span><code class="language-plaintext highlighter-rouge"> --formatter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">svg</span><code class="language-plaintext highlighter-rouge"> --style </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">monokai</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/대상_파일.svg</span></p>
+
+<ul>
+  <li>사용 가능한 어휘 분석기, 스타일 및 포맷터 목록 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chroma --list</code></p>

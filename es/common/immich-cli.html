@@ -1,0 +1,41 @@
+<h1 id="immich-cli">immich-cli</h1>
+
+<p>Immich tiene una interfaz de línea de comandos (CLI) que le permite realizar ciertas acciones desde la línea de comandos.
+Vea también: <code class="language-plaintext highlighter-rouge">immich-go</code>.
+Más información: <a href="https://immich.app/docs/features/command-line-interface/">https://immich.app/docs/features/command-line-interface/</a>.</p>
+
+<ul>
+  <li>Autentica en el servidor de Immich:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">immich login </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_del_servidor/api</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave_del_servidor</span></p>
+
+<ul>
+  <li>Sube unas imágenes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">immich upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo1.jpg archivo2.jpg</span></p>
+
+<ul>
+  <li>Sube un directorio y sus subdirectorios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">immich upload --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Crea un álbum basado en un directorio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">immich upload --album-name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Vacaciones de verano</span><code class="language-plaintext highlighter-rouge">" --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Omite recursos que coincidan con un patrón global:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">immich upload --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><strong>/Raw/</strong> <em>*/</em>.tif</span><code class="language-plaintext highlighter-rouge"> --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directorio/</span></p>
+
+<ul>
+  <li>Incluye archivos ocultos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">immich upload --include-hidden --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>

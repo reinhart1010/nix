@@ -1,0 +1,22 @@
+<h1 id="gpg-zip">gpg-zip</h1>
+
+<p>Encrypt files and directories in an archive using GPG.
+More information: <a href="https://www.gnupg.org/documentation/manuals/gnupg/gpg_002dzip.html">https://www.gnupg.org/documentation/manuals/gnupg/gpg_002dzip.html</a>.</p>
+
+<ul>
+  <li>Encrypt a directory into <code class="language-plaintext highlighter-rouge">archive.gpg</code> using a passphrase:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg-zip --symmetric --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.gpg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Decrypt <code class="language-plaintext highlighter-rouge">archive.gpg</code> into a directory of the same name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg-zip --decrypt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.gpg</span></p>
+
+<ul>
+  <li>List the contents of the encrypted <code class="language-plaintext highlighter-rouge">archive.gpg</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg-zip --list-archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.gpg</span></p>

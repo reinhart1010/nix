@@ -1,0 +1,28 @@
+<h1 id="live-server">live-server</h1>
+
+<p>실시간 리로드 기능을 갖춘 간단한 개발 HTTP 서버.
+더 많은 정보: <a href="https://github.com/tapio/live-server">https://github.com/tapio/live-server</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">index.html</code> 파일을 제공하고 변경 시 리로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">live-server</code></p>
+
+<ul>
+  <li>파일을 제공할 포트 지정 (기본값은 8080):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">live-server --port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8081</span></p>
+
+<ul>
+  <li>특정 파일을 제공:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">live-server --open=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">about.html</span></p>
+
+<ul>
+  <li>ROUTE에 대한 모든 요청을 URL로 프록시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">live-server --proxy=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://localhost:3000</span></p>

@@ -1,0 +1,22 @@
+<h1 id="ssh-copy-id">ssh-copy-id</h1>
+
+<p>원격 시스템의 authorized_keys에 공개 키 설치.
+더 많은 정보: <a href="https://manned.org/ssh-copy-id">https://manned.org/ssh-copy-id</a>.</p>
+
+<ul>
+  <li>키를 원격 시스템에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-copy-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_명</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_호스트</span></p>
+
+<ul>
+  <li>지정된 공개 키를 원격 시스템에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-copy-id -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/인증서</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_명</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_호스트</span></p>
+
+<ul>
+  <li>특정 포트로 지정된 공개 키를 원격 시스템에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-copy-id -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/인증서</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_명</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_호스트</span></p>

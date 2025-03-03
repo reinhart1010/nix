@@ -1,0 +1,47 @@
+<h1 id="lpr">lpr</h1>
+
+<p>CUPS-Programm zum Drucken von Dateien.
+Siehe auch: <code class="language-plaintext highlighter-rouge">lpstat</code> und <code class="language-plaintext highlighter-rouge">lpadmin</code>.
+Weitere Informationen: <a href="https://openprinting.github.io/cups/doc/man-lpr.html">https://openprinting.github.io/cups/doc/man-lpr.html</a>.</p>
+
+<ul>
+  <li>Drucke eine Datei mit dem Standarddrucker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Drucke 2 Kopien einer Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -# </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Drucke eine Datei mit einem bestimmten Drucker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">druckername</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Drucke entweder eine einzelne Seite (z. B. 2) oder mehrere Seiten (z. B. 2-16):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -o page-ranges=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2|2-16</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Drucke doppelseitig entweder gespiegelt an der langen oder an der kurzen Seite:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -o sides=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">two-sided-long-edge|two-sided-short-edge</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Drucke mit festgelegter Papiergröße (je nach Drucker-Konfiguration gibt es mehr Optionen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -o media=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a4|letter|legal</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Drucke mehrere Seiten pro Blatt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -o number-up=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2|4|6|9|16</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>

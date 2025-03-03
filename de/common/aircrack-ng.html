@@ -1,0 +1,23 @@
+<h1 id="aircrack-ng">aircrack-ng</h1>
+
+<p>WEP und WPA/WPA2 Schlüssel im Kommunikationsaufbau knacken.
+Teil des Aircrack-ng Softwarepakets.
+Weitere Informationen: <a href="https://www.aircrack-ng.org/doku.php?id=aircrack-ng">https://www.aircrack-ng.org/doku.php?id=aircrack-ng</a>.</p>
+
+<ul>
+  <li>Knacke Schlüssel von abgefangenen Paketen mithilfe von Wortlisten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aircrack-ng -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/wortliste.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/packetdatei.cap</span></p>
+
+<ul>
+  <li>Knacke Schlüssel von abgefangenen Paketen mithilfe einer Wortliste und der (E)SSID des Access Points:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aircrack-ng -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/wortliste.txt</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">essid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/packetdatei.cap</span></p>
+
+<ul>
+  <li>Knacke Schlüssel von abgefangenen Paketen mithilfe einer Wortliste und der MAC-Adresse des Access Points:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aircrack-ng -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/wortliste.txt</span><code class="language-plaintext highlighter-rouge"> --bssid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/packetdatei.cap</span></p>

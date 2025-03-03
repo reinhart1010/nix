@@ -1,0 +1,36 @@
+<h1 id="cryptsetup-open">cryptsetup open</h1>
+
+<p>Create a decrypted mapping of an encrypted volume.
+Note: with TRIM enabled, minimal data leakage in form of freed block information, perhaps sufficient to determine the filesystem in use may occur.
+However, you still most likely want to enable it, because the data inside is still safe and SSDs without TRIM will wear out faster.
+More information: <a href="https://manned.org/cryptsetup-open">https://manned.org/cryptsetup-open</a>.</p>
+
+<ul>
+  <li>Open a LUKS volume and create a decrypted mapping at <code class="language-plaintext highlighter-rouge">/dev/mapper/mapping_name</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup open </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mapping_name</span></p>
+
+<ul>
+  <li>Use a keyfile instead of a passphrase:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup open --key-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mapping_name</span></p>
+
+<ul>
+  <li>Allow the use of TRIM on the device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup open --allow-discards </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mapping_name</span></p>
+
+<ul>
+  <li>Write the <code class="language-plaintext highlighter-rouge">--allow-discards</code> option into the LUKS header (the option will then always be used when you open the device):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup open --allow-discards --persistent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mapping_name</span></p>
+
+<ul>
+  <li>Open a LUKS volume and make the decrypted mapping read-only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup open --readonly </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mapping_name</span></p>

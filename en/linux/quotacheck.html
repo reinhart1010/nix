@@ -1,0 +1,41 @@
+<h1 id="quotacheck">quotacheck</h1>
+
+<p>Scan a filesystem for disk usage; create, check and repair quota files.
+It is best to run quota check with quotas turned off to prevent damage or loss to quota files.
+More information: <a href="https://manned.org/quotacheck">https://manned.org/quotacheck</a>.</p>
+
+<ul>
+  <li>Check quotas on all mounted non-NFS filesystems:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo quotacheck --all</code></p>
+
+<ul>
+  <li>Force check even if quotas are enabled (this can cause damage or loss to quota files):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo quotacheck --force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountpoint</span></p>
+
+<ul>
+  <li>Check quotas on a given filesystem in debug mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo quotacheck --debug </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountpoint</span></p>
+
+<ul>
+  <li>Check quotas on a given filesystem, displaying the progress:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo quotacheck --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountpoint</span></p>
+
+<ul>
+  <li>Check user quotas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo quotacheck --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountpoint</span></p>
+
+<ul>
+  <li>Check group quotas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo quotacheck --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountpoint</span></p>

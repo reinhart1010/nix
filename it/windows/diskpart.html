@@ -1,0 +1,46 @@
+<h1 id="diskpart">diskpart</h1>
+
+<p>Gestore di dischi, volumi e partizioni.
+Maggiori informazioni: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart">https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart</a>.</p>
+
+<ul>
+  <li>Esegui diskpart da solo in un prompt dei comandi da amministratore per inserire la sua riga di comando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskpart</code></p>
+
+<ul>
+  <li>Elenca tutti i dischi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">list disk</code></p>
+
+<ul>
+  <li>Seleziona un volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">select volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume</span></p>
+
+<ul>
+  <li>Assegna una lettera di unità al volume selezionato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">assign letter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lettera</span></p>
+
+<ul>
+  <li>Crea una nuova partizione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">create partition primary</code></p>
+
+<ul>
+  <li>Attiva il volume selezionato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">active</code></p>
+
+<ul>
+  <li>Esci da diskpart:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exit</code></p>

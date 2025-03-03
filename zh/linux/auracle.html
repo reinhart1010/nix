@@ -1,0 +1,28 @@
+<h1 id="auracle">auracle</h1>
+
+<p>用来和 Arch Linux 用户仓库交互的命令行工具，这个仓库通常被称作 AUR.
+更多信息：<a href="https://github.com/falconindy/auracle">https://github.com/falconindy/auracle</a>.</p>
+
+<ul>
+  <li>显示符合一个正则表达式的 AUR 包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">auracle search '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>显示 AUR 包列表的包信息，包名以一个单独的空格分隔：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">auracle info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 …</span></p>
+
+<ul>
+  <li>显示 AUR 包列表的 <code class="language-plaintext highlighter-rouge">PKGBUILD</code> 文件（编译信息），包名以一个单独的空格分隔：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">auracle show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 …</span></p>
+
+<ul>
+  <li>显示已安装 AUR 包的更新：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">auracle outdated</code></p>

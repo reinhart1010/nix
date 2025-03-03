@@ -1,0 +1,52 @@
+<h1 id="qdbus">qdbus</h1>
+
+<p>进程间通信 (IPC) 和远程过程调用 (RPC) 机制，最初在 Linux 上开发。
+更多信息：<a href="https://doc.qt.io/qt-5/qtdbus-index.html">https://doc.qt.io/qt-5/qtdbus-index.html</a>.</p>
+
+<ul>
+  <li>列出可用的服务名称：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qdbus</code></p>
+
+<ul>
+  <li>列出指定服务的对象路径：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qdbus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">服务名</span></p>
+
+<ul>
+  <li>列出指定对象可用的方法、信号和属性：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qdbus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">服务名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/对象</span></p>
+
+<ul>
+  <li>执行指定方法，传递参数并显示返回值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qdbus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">服务名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/对象</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">方法名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">参数1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">参数2</span></p>
+
+<ul>
+  <li>显示在 KDE Plasma 会话中的当前亮度值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qdbus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.kde.Solid.PowerManagement</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/org/kde/Solid/PowerManagement/Actions/BrightnessControl</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.kde.Solid.PowerManagement.Actions.BrightnessControl.brightness</span></p>
+
+<ul>
+  <li>设置 KDE Plasma 会话中的特定亮度：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qdbus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.kde.Solid.PowerManagement</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/org/kde/Solid/PowerManagement/Actions/BrightnessControl</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.kde.Solid.PowerManagement.Actions.BrightnessControl.setBrightness</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5000</span></p>
+
+<ul>
+  <li>在 KDE Plasma 会话中调用音量增大快捷键：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qdbus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.kde.kglobalaccel</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/component/kmix</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">invokeShortcut</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">increase_volume</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>优雅地注销并然后选择不执行任何操作、重启或关机：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qdbus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.kde.Shutdown</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/Shutdown</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">logout|logoutAndReboot|logoutAndShutdown</span></p>

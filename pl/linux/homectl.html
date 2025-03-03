@@ -1,0 +1,52 @@
+<h1 id="homectl">homectl</h1>
+
+<p>Twórz, usuwaj, zmieniaj lub sprawdzaj katalogi domowe używając usługi systemd-homed.
+Więcej informacji: <a href="https://manned.org/homectl">https://manned.org/homectl</a>.</p>
+
+<ul>
+  <li>Wyświetl konta użytkowników i ich powiązane katalogi domowe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">homectl list</code></p>
+
+<ul>
+  <li>Utwórz konto użytkownika i jego powiązany katalog domowy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo homectl create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span></p>
+
+<ul>
+  <li>Usuń podanego użytkownika i jego powiązany katalog domowy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo homectl remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span></p>
+
+<ul>
+  <li>Zmień hasło podanego użytkownika:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo homectl passwd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span></p>
+
+<ul>
+  <li>Uruchom powłokę lub komendę z dostępem do podanego katalogu domowego:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo homectl with </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komenda</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumenty_dla_komendy</span></p>
+
+<ul>
+  <li>Zablokuj lub odblokuj podany katalog domowy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo homectl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lock|unlock</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span></p>
+
+<ul>
+  <li>Zmień miejsce na dysku przydzielone dla podanego katalogu domowego na 100 GiB:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo homectl resize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100G</span></p>
+
+<ul>
+  <li>Wyświetl pomoc:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">homectl --help</code></p>

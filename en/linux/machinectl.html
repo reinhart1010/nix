@@ -1,0 +1,29 @@
+<h1 id="machinectl">machinectl</h1>
+
+<p>Control the systemd machine manager.
+Execute operations on virtual machines, containers and images.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/machinectl.html">https://www.freedesktop.org/software/systemd/man/machinectl.html</a>.</p>
+
+<ul>
+  <li>Start a machine as a service using <code class="language-plaintext highlighter-rouge">systemd-nspawn</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo machinectl start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">machine_name</span></p>
+
+<ul>
+  <li>Stop a running machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo machinectl stop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">machine_name</span></p>
+
+<ul>
+  <li>Display a list of running machines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">machinectl list</code></p>
+
+<ul>
+  <li>Open an interactive shell inside the machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo machinectl shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">machine_name</span></p>

@@ -1,0 +1,53 @@
+<h1 id="tar">tar</h1>
+
+<p>归档实用程序。
+通常与压缩方法结合使用，例如 <code class="language-plaintext highlighter-rouge">gzip</code> 或 <code class="language-plaintext highlighter-rouge">bzip2</code>.
+更多信息：<a href="https://www.gnu.org/software/tar">https://www.gnu.org/software/tar</a>.</p>
+
+<ul>
+  <li>创建存档并将其写入文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar cf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标文件.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件1 路径/到/文件2 …</span></p>
+
+<ul>
+  <li>创建一个 gzip 压缩文件并将其写入文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar czf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标文件.tar.gz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件1 路径/到/文件2 …</span></p>
+
+<ul>
+  <li>使用相对路径从目录创建一个 gzip 压缩文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar czf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标文件.tar.gz</span><code class="language-plaintext highlighter-rouge"> --directory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span><code class="language-plaintext highlighter-rouge"> .</code></p>
+
+<ul>
+  <li>详细地将（压缩的）存档文件提取到当前目录中：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar xvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">源文件.tar[.gz|.bz2|.xz]</span></p>
+
+<ul>
+  <li>将（压缩的）存档文件解压缩到目标目录中：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar xf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">源文件.tar[.gz|.bz2|.xz]</span><code class="language-plaintext highlighter-rouge"> --directory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标目录</span></p>
+
+<ul>
+  <li>创建压缩存档并将其写入文件，使用文件扩展名自动确定压缩程序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar caf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标文件.tar.xz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件1 路径/到/文件2 …</span></p>
+
+<ul>
+  <li>详细列出 tar 文件的内容：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar tvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">源文件.tar</span></p>
+
+<ul>
+  <li>从存档文件中提取与模式匹配的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar xf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">源文件.tar</span><code class="language-plaintext highlighter-rouge"> --wildcards "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.html</span><code class="language-plaintext highlighter-rouge">"</code></p>

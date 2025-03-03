@@ -1,0 +1,53 @@
+<h1 id="ykman-oath">ykman oath</h1>
+
+<p>Manage the OATH YubiKey application.
+A <code class="language-plaintext highlighter-rouge">keyword</code> can be a part of the name or the issuer.
+More information: <a href="https://docs.yubico.com/software/yubikey/tools/ykman/OATH_Commands.html">https://docs.yubico.com/software/yubikey/tools/ykman/OATH_Commands.html</a>.</p>
+
+<ul>
+  <li>Display general information about the OATH application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman oath info</code></p>
+
+<ul>
+  <li>Change the password used to protect OATH accounts (add <code class="language-plaintext highlighter-rouge">--clear</code> to remove it):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman oath access change</code></p>
+
+<ul>
+  <li>Add a new account (<code class="language-plaintext highlighter-rouge">--issuer</code> is optional):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman oath accounts add --issuer </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">issuer</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>List all accounts (with their issuers):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman oath accounts list</code></p>
+
+<ul>
+  <li>List all accounts with their current TOTP/HOTP codes (optionally filtering the list with a keyword):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman oath accounts code </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span></p>
+
+<ul>
+  <li>Rename an account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman oath accounts rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">issuer:name|name</span></p>
+
+<ul>
+  <li>Delete an account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman oath accounts delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span></p>
+
+<ul>
+  <li>Delete all accounts and restore factory settings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman oath reset</code></p>

@@ -1,0 +1,53 @@
+<h1 id="wget">wget</h1>
+
+<p>Webからファイルをダウンロードします。
+HTTP, HTTPS, そして FTP をサポートします。
+もっと詳しく: <a href="https://www.gnu.org/software/wget">https://www.gnu.org/software/wget</a>。</p>
+
+<ul>
+  <li>URLの内容を、ファイルにダウンロードする (この場合 "foo" と言う名前で):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/foo</span></p>
+
+<ul>
+  <li>URLの内容を、ファイルにダウンロードする (この場合 "bar" と言う名前で):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --output-document </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/foo</span></p>
+
+<ul>
+  <li>1つのウェブページと、その全てのリソースを、リクエスト間隔を3秒にしてダウンロードする (スクリプト、スタイルシート、画像など):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --page-requisites --convert-links --wait=3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/somepage.html</span></p>
+
+<ul>
+  <li>ディレクトリと、そのサブディレクトリ内のリストされたファイルを、全てダウンロードする (埋め込まれたページ要素はダウンロードしない):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --mirror --no-parent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/somepath/</span></p>
+
+<ul>
+  <li>ダウンロード速度と接続再試行回数を制限する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --limit-rate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300k</span><code class="language-plaintext highlighter-rouge"> --tries=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/somepath/</span></p>
+
+<ul>
+  <li>HTTPサーバーからBasic認証を使って、ファイルをダウンロードする (FTPも機能する):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --user=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユーザ名</span><code class="language-plaintext highlighter-rouge"> --password=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">パスワード</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>未完了のダウンロードを続行する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --continue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>テキストファイルに格納されている全てのURLを、特定のディレクトリにダウンロードする:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --directory-prefix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --input-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">URLs.txt</span></p>

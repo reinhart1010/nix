@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="ping">ping</h1>
+
+<p>Sendet ICMP ECHO_REQUEST Pakete an andere Geräte im Netzwerk.
+Weitere Informationen: <a href="https://manned.org/ping">https://manned.org/ping</a>.</p>
+
+<ul>
+  <li>Sende Pings an ein Gerät im Netzwerk:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ziel</span></p>
+
+<ul>
+  <li>Sende nur eine bestimmte Anzahl an Pings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anzahl</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ziel</span></p>
+
+<ul>
+  <li>Sende Pings und bestimme das Interval in Sekunden zwischen diesen (standardmäßig ist es eine Sekunde):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sekunden</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ziel</span></p>
+
+<ul>
+  <li>Sende Pings ohne symbolische Namen nach Adressen aufzulösen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ziel</span></p>
+
+<ul>
+  <li>Sende Pings und signalisiere eine erfolgreiche Antwort durch ein Bell Signal (wenn das Terminal es unterstützt):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ziel</span></p>
+
+<ul>
+  <li>Zeige auch eine Nachricht, wenn keine Antwort empfangen wurde:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ziel</span></p>

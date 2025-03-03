@@ -1,0 +1,46 @@
+<h1 id="jpegtran">jpegtran</h1>
+
+<p>JPEG 파일의 무손실 변환 수행.
+더 많은 정보: <a href="https://manned.org/jpegtran">https://manned.org/jpegtran</a>.</p>
+
+<ul>
+  <li>이미지를 수평 또는 수직으로 반전:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jpegtran -flip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">horizontal|vertical</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.jpg</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.jpg</span></p>
+
+<ul>
+  <li>이미지를 시계 방향으로 90, 180 또는 270도 회전:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jpegtran -rotate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">90|180|270</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.jpg</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.jpg</span></p>
+
+<ul>
+  <li>이미지의 좌상단에서 우하단 축으로 대칭 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jpegtran -transpose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.jpg</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.jpg</span></p>
+
+<ul>
+  <li>이미지의 우상단에서 좌하단 축으로 대칭 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jpegtran -transverse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.jpg</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.jpg</span></p>
+
+<ul>
+  <li>이미지를 그레이스케일로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jpegtran -grayscale </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.jpg</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.jpg</span></p>
+
+<ul>
+  <li>이미지의 좌상단에서 너비 <code class="language-plaintext highlighter-rouge">W</code>와 높이 <code class="language-plaintext highlighter-rouge">H</code>의 직사각형 영역으로 자르고, 특정 파일에 출력 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jpegtran -crop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">W</span><code class="language-plaintext highlighter-rouge">x</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">H</span><code class="language-plaintext highlighter-rouge"> -outfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.jpg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.jpg</span></p>
+
+<ul>
+  <li>이미지의 좌상단에서 시작점 <code class="language-plaintext highlighter-rouge">X</code>와 <code class="language-plaintext highlighter-rouge">Y</code>로부터 너비 <code class="language-plaintext highlighter-rouge">W</code>와 높이 <code class="language-plaintext highlighter-rouge">H</code>의 직사각형 영역으로 자르기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jpegtran -crop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">W</span><code class="language-plaintext highlighter-rouge">x</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">H</span><code class="language-plaintext highlighter-rouge">+</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">X</span><code class="language-plaintext highlighter-rouge">+</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Y</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.jpg</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.jpg</span></p>

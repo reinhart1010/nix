@@ -1,0 +1,34 @@
+<h1 id="cat">cat</h1>
+
+<p>Cetak dan menggabungkan berkas.
+Informasi lebih lanjut: <a href="https://manned.org/cat.1posix">https://manned.org/cat.1posix</a>.</p>
+
+<ul>
+  <li>Cetak konten berkas menuju <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span></p>
+
+<ul>
+  <li>Gabungkan konten beberapa berkas ke berkas tujuan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_tujuan</span></p>
+
+<ul>
+  <li>Tambahkan konten beberapa berkas ke berkas tujuan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 …</span><code class="language-plaintext highlighter-rouge"> &gt;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_tujuan</span></p>
+
+<ul>
+  <li>Salin isi suatu file menuju file tujuan tanpa proses buffering:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty12</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty13</span></p>
+
+<ul>
+  <li>Tulis isi <code class="language-plaintext highlighter-rouge">stdin</code> menuju suatu file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat - &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span></p>

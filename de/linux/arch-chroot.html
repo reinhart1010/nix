@@ -1,0 +1,28 @@
+<h1 id="arch-chroot">arch-chroot</h1>
+
+<p>Erweiterter <code class="language-plaintext highlighter-rouge">chroot</code>-Befehl zur Unterstützung des Arch-Linux-Installationsprozesses.
+Weitere Informationen: <a href="https://manned.org/arch-chroot.8">https://manned.org/arch-chroot.8</a>.</p>
+
+<ul>
+  <li>Starte eine interaktive Shell (Standardmäßig Bash) in einem neuen Root-Verzeichnis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arch-chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/neuem/root</span></p>
+
+<ul>
+  <li>Spezifiziere den Benutzer (nicht der jetzige Benutzer) der die Shell ausführt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arch-chroot -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anderer_benutzer</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/neuem/root</span></p>
+
+<ul>
+  <li>Führe einen benutzerdefinierten Befehl (anstelle des Standardbefehls Bash) im neuen Root-Verzeichnis aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arch-chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/neuem/root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehlsparameter</span></p>
+
+<ul>
+  <li>Gib die Shell an, die nicht die Standard-Shell Bash ist (in diesem Fall sollte das Paket <code class="language-plaintext highlighter-rouge">zsh</code> auf dem Zielsystem installiert worden sein):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arch-chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/neuem/root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zsh</span></p>

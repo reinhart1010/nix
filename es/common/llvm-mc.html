@@ -1,0 +1,35 @@
+<h1 id="llvm-mc">llvm-mc</h1>
+
+<p>LLVM Machine Code Playground. Proporciona un conjunto de herramientas para trabajar con código de máquina LLVM.
+Forma parte de LLVM.
+Más información: <a href="https://llvm.org/docs/CommandGuide/llvm-mc.html">https://llvm.org/docs/CommandGuide/llvm-mc.html</a>.</p>
+
+<ul>
+  <li>Ensambla un archivo de código ensamblador en un archivo con código de máquina:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-mc --filetype=obj -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/salida.o</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/entrada.s</span></p>
+
+<ul>
+  <li>Desensambla un archivo con código de máquina en un archivo de código ensamblador:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-mc --disassemble -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/salida.s</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/entrada.o</span></p>
+
+<ul>
+  <li>Compila el archivo de código de bits LLVM en código ensamblador:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-mc -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/salida.s</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/entrada.bc</span></p>
+
+<ul>
+  <li>Ensambla el código ensamblador desde el flujo de entrada estándar y muestra la codificación en el flujo de salida estándar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">addl %eax, %ebx</span><code class="language-plaintext highlighter-rouge">" | llvm-mc -show-encoding -show-inst</code></p>
+
+<ul>
+  <li>Desensambla el código de máquina del flujo de entrada estándar para la tripleta especificada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0xCD 0x21</span><code class="language-plaintext highlighter-rouge">" | llvm-mc --disassemble -triple=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_objetivo</span></p>

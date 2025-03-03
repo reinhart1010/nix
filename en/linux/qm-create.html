@@ -1,0 +1,34 @@
+<h1 id="qm-create">qm create</h1>
+
+<p>Create or restore a virtual machine on QEMU/KVM Virtual Machine Manager.
+More information: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>Create a virtual machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span></p>
+
+<ul>
+  <li>Automatically start the machine after creation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --start 1</code></p>
+
+<ul>
+  <li>Specify the type of operating system on the machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --ostype </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">win10</span></p>
+
+<ul>
+  <li>Replace an existing machine (requires archiving it):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/backup_file.tar</span><code class="language-plaintext highlighter-rouge"> --force 1</code></p>
+
+<ul>
+  <li>Specify a script that is executed automatically depending on the state of the virtual machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --hookscript </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.pl</span></p>

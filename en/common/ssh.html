@@ -1,0 +1,53 @@
+<h1 id="ssh">ssh</h1>
+
+<p>Secure Shell is a protocol used to securely log onto remote systems.
+It can be used for logging or executing commands on a remote server.
+More information: <a href="https://man.openbsd.org/ssh">https://man.openbsd.org/ssh</a>.</p>
+
+<ul>
+  <li>Connect to a remote server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>
+
+<ul>
+  <li>Connect to a remote server with a specific identity (private key):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>
+
+<ul>
+  <li>Connect to a remote server using a specific [p]ort:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2222</span></p>
+
+<ul>
+  <li>Run a command on a remote server with a [t]ty allocation allowing interaction with the remote command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>
+
+<ul>
+  <li>SSH tunneling: [D]ynamic port forwarding (SOCKS proxy on <code class="language-plaintext highlighter-rouge">localhost:1080</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1080</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>
+
+<ul>
+  <li>SSH tunneling: Forward a specific port (<code class="language-plaintext highlighter-rouge">localhost:9999</code> to <code class="language-plaintext highlighter-rouge">example.org:80</code>) along with disabling pseudo-[T]ty allocation and executio[N] of remote commands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9999</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.org</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> -N -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>
+
+<ul>
+  <li>SSH [J]umping: Connect through a jumphost to a remote server (Multiple jump hops may be specified separated by comma characters):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh -J </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jump_host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>
+
+<ul>
+  <li>Close a hanged session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Enter&gt; ~ .</code></p>

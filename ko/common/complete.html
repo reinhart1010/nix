@@ -1,0 +1,22 @@
+<h1 id="complete">complete</h1>
+
+<p>쉘 명령어에 자동 완성 인자를 제공합니다.
+더 많은 정보: <a href="https://www.gnu.org/software/bash/manual/html_node/Programmable-Completion-Builtins.html">https://www.gnu.org/software/bash/manual/html_node/Programmable-Completion-Builtins.html</a>.</p>
+
+<ul>
+  <li>함수에 명령어 자동 완성 기능을 적용합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">complete -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">함수</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>다른 명령어에 명령어 자동 완성 기능을 적용합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">complete -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">자동완성_명령어</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>작성 완료된 단어에 공백을 추가하지 않고 자동 완성 기능을 적용합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">complete -o nospace -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">함수</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>

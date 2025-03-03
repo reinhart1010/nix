@@ -1,0 +1,29 @@
+<h1 id="valgrind">valgrind</h1>
+
+<p>프로그램의 프로파일링, 최적화 및 디버깅을 위한 전문가용 도구 세트의 래퍼.
+일반적으로 사용되는 도구로는 <code class="language-plaintext highlighter-rouge">memcheck</code>, <code class="language-plaintext highlighter-rouge">cachegrind</code>, <code class="language-plaintext highlighter-rouge">callgrind</code>, <code class="language-plaintext highlighter-rouge">massif</code>, <code class="language-plaintext highlighter-rouge">helgrind</code>, <code class="language-plaintext highlighter-rouge">drd</code>가 있습니다.
+더 많은 정보: <a href="https://www.valgrind.org">https://www.valgrind.org</a>.</p>
+
+<ul>
+  <li>(기본) Memcheck 도구를 사용하여 <code class="language-plaintext highlighter-rouge">program</code>의 메모리 사용 진단 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">valgrind </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로그램</span></p>
+
+<ul>
+  <li>Memcheck를 사용하여 <code class="language-plaintext highlighter-rouge">program</code>의 모든 가능한 메모리 누수를 자세히 보고:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">valgrind --leak-check=full --show-leak-kinds=all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로그램</span></p>
+
+<ul>
+  <li>Cachegrind 도구를 사용하여 <code class="language-plaintext highlighter-rouge">program</code>의 CPU 캐시 작업을 프로파일링하고 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">valgrind --tool=cachegrind </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로그램</span></p>
+
+<ul>
+  <li>Massif 도구를 사용하여 <code class="language-plaintext highlighter-rouge">program</code>의 힙 메모리 및 스택 사용을 프로파일링하고 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">valgrind --tool=massif --stacks=yes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로그램</span></p>

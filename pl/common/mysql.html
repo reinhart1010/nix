@@ -1,0 +1,46 @@
+<h1 id="mysql">mysql</h1>
+
+<p>Narzędzie wiersza polecenia MySQL.
+Więcej informacji: <a href="https://www.mysql.com/">https://www.mysql.com/</a>.</p>
+
+<ul>
+  <li>Połącz się z bazą danych:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_bazy_danych</span></p>
+
+<ul>
+  <li>Połącz się z bazą danych, użytkownik zostanie poproszony o podanie hasła:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">użytkownik</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_bazy_danych</span></p>
+
+<ul>
+  <li>Połącz się z bazą danych na innym hoście:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_bazy_danych</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_bazy_danych</span></p>
+
+<ul>
+  <li>Połącz się z bazą danych przez gniazdo Unix:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql --socket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/gniazda.sock</span></p>
+
+<ul>
+  <li>Wykonuj instrukcje SQL w pliku skryptu (plik wsadowy):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql -e "source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_pliku.sql</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_bazy_danych</span></p>
+
+<ul>
+  <li>Przywróć bazę danych z kopii zapasowej (użytkownik zostanie poproszony o podanie hasła):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">użytkownik</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_bazy_danych</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/kopii_zapasowej.sql</span></p>
+
+<ul>
+  <li>Przywróć wszystkie bazy danych z kopii zapasowej (użytkownik zostanie poproszony o podanie hasła):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">użytkownik</span><code class="language-plaintext highlighter-rouge"> --password &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/kopii_zapasowej.sql</span></p>

@@ -1,0 +1,53 @@
+<h1 id="tar">tar</h1>
+
+<p>Arşivleme aracı.
+Dosyalar genellikle gzip veya bzip2 gibi bir sıkıştırma yöntemiyle birleştirilir.
+Daha fazla bilgi için: <a href="https://www.gnu.org/software/tar">https://www.gnu.org/software/tar</a>.</p>
+
+<ul>
+  <li>Bir arşiv oluştur ve dosyaya yaz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar cf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hedef.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya1 dosya2 …</span></p>
+
+<ul>
+  <li>Bir gzip arşivi oluştur ve dosyaya yaz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar czf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hedef.tar.gz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya1 dosya2 …</span></p>
+
+<ul>
+  <li>Göreceli yolları kullanarak bir gzip arşivi oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar czf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hedef.tar.gz</span><code class="language-plaintext highlighter-rouge"> --directory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dizin/yolu</span><code class="language-plaintext highlighter-rouge"> .</code></p>
+
+<ul>
+  <li>Sıkıştırılmış bir arşiv dosyasını geçerli dizine ayrıntılı şekilde çıkar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar xvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kaynak.tar[.gz|.bz2|.xz]</span></p>
+
+<ul>
+  <li>Sıkıştırılmış bir arşiv dosyasını hedef dizine çıkar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar xf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kaynak.tar[.gz|.bz2|.xz]</span><code class="language-plaintext highlighter-rouge"> --directory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dizin</span></p>
+
+<ul>
+  <li>Sıkıştırılmış bir arşiv oluştur ve sıkıştırma yöntemini seçmek için arşiv sonekini kullan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar caf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hedef.tar.xz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya1 dosya2 …</span></p>
+
+<ul>
+  <li>Bir tar arşivinin içeriğini ayrıntılı olarak listele:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar tvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kaynak.tar</span></p>
+
+<ul>
+  <li>Şablonla eşleşen dosyaları arşivden çıkar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar xf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kaynak.tar</span><code class="language-plaintext highlighter-rouge"> --wildcards "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.html</span><code class="language-plaintext highlighter-rouge">"</code></p>

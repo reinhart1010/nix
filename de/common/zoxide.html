@@ -1,0 +1,41 @@
+<h1 id="zoxide">zoxide</h1>
+
+<p>Behält den Überblick über die am häufigsten verwendeten Verzeichnisse.
+Verwendet einen Ranking-Algorithmus, um zum besten Treffer zu navigieren.
+Weitere Informationen: <a href="https://github.com/ajeetdsouza/zoxide">https://github.com/ajeetdsouza/zoxide</a>.</p>
+
+<ul>
+  <li>Wechsel zu dem Verzeichnis mit dem höchsten Rang, das "foo" im Namen enthält:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>Wechsel in das höchstrangige Verzeichnis, das "foo" und danach "bar" enthält:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span></p>
+
+<ul>
+  <li>Starte eine interaktive Verzeichnissuche (erfordert <code class="language-plaintext highlighter-rouge">fzf</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide query --interactive</code></p>
+
+<ul>
+  <li>Füge ein Verzeichnis hinzu oder erhöhe seinen Rang:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Entferne interaktiv ein Verzeichnis aus der Datenbank von <code class="language-plaintext highlighter-rouge">zoxide</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --interactive</code></p>
+
+<ul>
+  <li>Generiere Shell-Konfigurationen für Befehls-Aliase (<code class="language-plaintext highlighter-rouge">z</code>, <code class="language-plaintext highlighter-rouge">za</code>, <code class="language-plaintext highlighter-rouge">zi</code>, <code class="language-plaintext highlighter-rouge">zq</code>, <code class="language-plaintext highlighter-rouge">zr</code>) für die angegebene Shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zoxide init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash|fish|zsh</span></p>

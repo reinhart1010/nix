@@ -1,0 +1,41 @@
+<h1 id="nmcli-general">nmcli general</h1>
+
+<p>Beheer algemene instellingen van NetworkManager.
+Dit subcommando kan ook aangeroepen worden met <code class="language-plaintext highlighter-rouge">nmcli g</code>.
+Meer informatie: <a href="https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html">https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html</a>.</p>
+
+<ul>
+  <li>Toon de algemene status van NetworkManager:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli general</code></p>
+
+<ul>
+  <li>Toon de hostname van het huidige apparaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli general hostname</code></p>
+
+<ul>
+  <li>Verander de hostname van het huidige apparaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nmcli general hostname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_hostname</span></p>
+
+<ul>
+  <li>Toon de permissies van NetworkManager:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli general permissions</code></p>
+
+<ul>
+  <li>Toon het huidige logging level en domeinen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli general logging</code></p>
+
+<ul>
+  <li>Zet het logging level en/of domainen (zie <code class="language-plaintext highlighter-rouge">man NetworkManager.conf</code> voor alle beschikbare domeinen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli general logging level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">INFO|OFF|ERR|WARN|DEBUG|TRACE</span><code class="language-plaintext highlighter-rouge"> domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domein_1,domein_2,…</span></p>

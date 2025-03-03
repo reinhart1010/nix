@@ -1,0 +1,53 @@
+<h1 id="tre">tre</h1>
+
+<p>현재 디렉토리의 내용을 트리 형태로 표시.
+기본적으로 <code class="language-plaintext highlighter-rouge">.gitignore</code> 설정을 존중합니다.
+더 많은 정보: <a href="https://github.com/dduan/tre">https://github.com/dduan/tre</a>.</p>
+
+<ul>
+  <li>디렉토리만 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tre --directories</code></p>
+
+<ul>
+  <li>트리 구조 대신 파일을 포함한 JSON 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tre --json</code></p>
+
+<ul>
+  <li>지정된 깊이 제한까지 파일 및 디렉토리 출력 (1은 현재 디렉토리를 의미):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tre --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">깊이</span></p>
+
+<ul>
+  <li>지정된 색상 모드를 사용하여 모든 숨김 파일 및 디렉토리 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tre --all --color </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">automatic|always|never</span></p>
+
+<ul>
+  <li>트리 구조 내 파일들을 출력하고, 각 파일을 연관된 <code class="language-plaintext highlighter-rouge">command</code>(기본값은 <code class="language-plaintext highlighter-rouge">$EDITOR</code>)로 열 수 있는 셸 별칭 할당:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tre --editor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>제공된 정규 표현식과 일치하는 모든 경로를 제외하고 트리 구조 내 파일 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tre --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">정규_표현식</span></p>
+
+<ul>
+  <li>버전 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tre --version</code></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tre --help</code></p>

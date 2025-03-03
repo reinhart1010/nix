@@ -1,0 +1,16 @@
+<h1 id="bwrap">bwrap</h1>
+
+<p>Run programs in a lightweight sandbox.
+More information: <a href="https://manned.org/bwrap">https://manned.org/bwrap</a>.</p>
+
+<ul>
+  <li>Run a program in a read-only environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bwrap --ro-bind / / </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/bin/bash</span></p>
+
+<ul>
+  <li>Give the environment access to devices, process information and create a <code class="language-plaintext highlighter-rouge">tmpfs</code> for it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bwrap --dev-bind /dev /dev --proc /proc --ro-bind / / --tmpfs /tmp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/bin/bash</span></p>

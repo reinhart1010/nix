@@ -1,0 +1,54 @@
+<h1 id="dnf">dnf</h1>
+
+<p>Package management utility for RHEL, Fedora, and CentOS (replaces yum).
+Some subcommands such as <code class="language-plaintext highlighter-rouge">group</code> and <code class="language-plaintext highlighter-rouge">config-manager</code> have their own usage documentation.
+For equivalent commands in other package managers, see <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a>.
+More information: <a href="https://dnf.readthedocs.io">https://dnf.readthedocs.io</a>.</p>
+
+<ul>
+  <li>Upgrade installed packages to the newest available versions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf upgrade</code></p>
+
+<ul>
+  <li>Search packages via keywords:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword1 keyword2 …</span></p>
+
+<ul>
+  <li>Display details about a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Install a new package (use <code class="language-plaintext highlighter-rouge">-y</code> to confirm all prompts automatically):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 …</span></p>
+
+<ul>
+  <li>Remove a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 …</span></p>
+
+<ul>
+  <li>List installed packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf list --installed</code></p>
+
+<ul>
+  <li>Find which packages provide a given command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf provides </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>View all past operations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf history</code></p>

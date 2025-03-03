@@ -1,0 +1,28 @@
+<h1 id="jmeter">jmeter</h1>
+
+<p>기능적 동작의 부하 테스트 및 성능 측정을 위해 설계된 오픈 소스 Java 애플리케이션.
+더 많은 정보: <a href="https://jmeter.apache.org">https://jmeter.apache.org</a>.</p>
+
+<ul>
+  <li>GUI 없이 특정 테스트 플랜 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmeter --nongui --testfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.jmx</span></p>
+
+<ul>
+  <li>특정 로그 파일을 사용하여 GUI 없이 테스트 플랜 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmeter --nogui --testfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.jmx</span><code class="language-plaintext highlighter-rouge"> --logfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/로그파일.jtl</span></p>
+
+<ul>
+  <li>특정 프록시를 사용하여 GUI 없이 테스트 플랜 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmeter --nongui --testfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.jmx</span><code class="language-plaintext highlighter-rouge"> --proxyHost </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1</span><code class="language-plaintext highlighter-rouge"> --proxyPort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8888</span></p>
+
+<ul>
+  <li>특정 JMeter 속성을 사용하여 GUI 없이 테스트 플랜 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmeter --jmeterproperty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키</span><code class="language-plaintext highlighter-rouge">='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge">' --nongui --testfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.jmx</span></p>

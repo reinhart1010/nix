@@ -1,0 +1,28 @@
+<h1 id="avrdude">avrdude</h1>
+
+<p>Driver per il programmatore di microcontrollori Atmel AVR.
+Maggiori informazioni: <a href="https://www.nongnu.org/avrdude/">https://www.nongnu.org/avrdude/</a>.</p>
+
+<ul>
+  <li>Leggi dal microcontrollore AVR:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dispositivo_AVR</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_programmatore</span><code class="language-plaintext highlighter-rouge"> -U flash:r:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.hex</span><code class="language-plaintext highlighter-rouge">:i</code></p>
+
+<ul>
+  <li>Scrivi sul microcontrollore AVR:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dispositivo_AVR</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_programmatore</span><code class="language-plaintext highlighter-rouge"> -U flash:w:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.hex</span></p>
+
+<ul>
+  <li>Elenca dispositivi AVR disponibili:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -p \?</code></p>
+
+<ul>
+  <li>Elenca programmatori AVR disponibili:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -c \?</code></p>

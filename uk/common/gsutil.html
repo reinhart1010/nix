@@ -1,0 +1,47 @@
+<h1 id="gsutil">gsutil</h1>
+
+<p>Доступ до Google Cloud Storage.
+Ви можете використовувати <code class="language-plaintext highlighter-rouge">gsutil</code> для виконання широкого діапазону завдань із керування контейнерами (buckets) та об’єктами.
+Більше інформації: <a href="https://cloud.google.com/storage/docs/gsutil">https://cloud.google.com/storage/docs/gsutil</a>.</p>
+
+<ul>
+  <li>Вивести всі контейнери (buckets) в проекті, до якого ви ввійшли:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsutil ls</code></p>
+
+<ul>
+  <li>Вивести об’єкти у контейнері (bucket):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsutil ls -r 'gs://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span><code class="language-plaintext highlighter-rouge">**'</code></p>
+
+<ul>
+  <li>Завантажити об'єкт із контейнера (bucket):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsutil cp gs://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ім'я_об'єкта</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/де/зберегти_розташування</span></p>
+
+<ul>
+  <li>Завантажити об’єкт у контейнер (bucket):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsutil cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">місцезнаходження_об'єкта</span><code class="language-plaintext highlighter-rouge"> gs://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination_bucket_name</span><code class="language-plaintext highlighter-rouge">/</code></p>
+
+<ul>
+  <li>Перейменувати або перемістіти об’єкти у контейнері (bucket):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsutil mv gs://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">старе_ім'я_об'єкта</span><code class="language-plaintext highlighter-rouge"> gs://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">нове_ім'я_об'єкта</span></p>
+
+<ul>
+  <li>Створити новий контейнер (bucket) в проекті, у який ви ввійшли:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsutil mb gs://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span></p>
+
+<ul>
+  <li>Видалити контейнер (bucket) та видалити всі об’єкти в ньому:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsutil rm -r gs://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span></p>

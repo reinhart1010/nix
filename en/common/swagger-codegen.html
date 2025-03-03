@@ -1,0 +1,28 @@
+<h1 id="swagger-codegen">swagger-codegen</h1>
+
+<p>Generate code and documentation for your REST api from a OpenAPI/swagger definition.
+More information: <a href="https://github.com/swagger-api/swagger-codegen">https://github.com/swagger-api/swagger-codegen</a>.</p>
+
+<ul>
+  <li>Generate documentation and code from an OpenAPI/swagger file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swagger-codegen generate -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">swagger_file</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">language</span></p>
+
+<ul>
+  <li>Generate Java code using the library retrofit2 and the option useRxJava2:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swagger-codegen generate -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://petstore.swagger.io/v2/swagger.json</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">java</span><code class="language-plaintext highlighter-rouge"> --library </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">retrofit2</span><code class="language-plaintext highlighter-rouge"> -D</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">useRxJava2</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span></p>
+
+<ul>
+  <li>List available languages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swagger-codegen langs</code></p>
+
+<ul>
+  <li>Display help for a specific command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swagger-codegen </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">generate|config-help|meta|langs|version</span><code class="language-plaintext highlighter-rouge"> --help</code></p>

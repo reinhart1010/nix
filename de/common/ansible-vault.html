@@ -1,0 +1,40 @@
+<h1 id="ansible-vault">ansible-vault</h1>
+
+<p>Verschlüsselt und entschlüsselt Werte, Datenstrukturen und Dateien innerhalb von Ansible-Projekten.
+Weitere Informationen: <a href="https://docs.ansible.com/ansible/latest/user_guide/vault.html#id17">https://docs.ansible.com/ansible/latest/user_guide/vault.html#id17</a>.</p>
+
+<ul>
+  <li>Erstelle eine neue verschlüsselte Vault-Datei mit einer Eingabeaufforderung für ein Passwort:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-vault create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vault_datei</span></p>
+
+<ul>
+  <li>Erstelle eine neue verschlüsselte Vault-Datei mit einer Vault-Schlüsseldatei, um sie zu verschlüsseln:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-vault create --vault-password-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">schlüsseldatei</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vault_datei</span></p>
+
+<ul>
+  <li>Verschlüssle eine vorhandene Datei mit einer optionalen Schlüsseldatei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-vault encrypt --vault-password-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">schlüsseldatei</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vault_file</span></p>
+
+<ul>
+  <li>Verschlüssle eine Zeichenfolge mit dem verschlüsselten Zeichenfolgenformat von Ansible, wobei interaktive Eingabeaufforderungen angezeigt werden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-vault encrypt_string</code></p>
+
+<ul>
+  <li>Zeige eine verschlüsselte Datei an, wobei eine Kennwortdatei zum Entschlüsseln verwendet wird:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-vault view --vault-password-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">schlüsseldatei</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vault_datei</span></p>
+
+<ul>
+  <li>Verschlüssle eine bereits verschlüsselte Vault Datei mit einer neuen Kennwortdatei neu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-vault rekey --vault-password-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alte_schlüsseldatei</span><code class="language-plaintext highlighter-rouge"> --new-vault-password-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">neue_schlüsseldatei</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vault_datei</span></p>

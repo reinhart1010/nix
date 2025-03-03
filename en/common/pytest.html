@@ -1,0 +1,40 @@
+<h1 id="pytest">pytest</h1>
+
+<p>Run Python tests.
+More information: <a href="https://docs.pytest.org/">https://docs.pytest.org/</a>.</p>
+
+<ul>
+  <li>Run tests from specific files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pytest </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/test_file1.py path/to/test_file2.py …</span></p>
+
+<ul>
+  <li>Run tests with names matching a specific [k]eyword expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pytest -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expression</span></p>
+
+<ul>
+  <li>Exit as soon as a test fails or encounters an error:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pytest --exitfirst</code></p>
+
+<ul>
+  <li>Run tests matching or excluding markers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pytest -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">marker_name1 and not marker_name2</span></p>
+
+<ul>
+  <li>Run until a test failure, continuing from the last failing test:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pytest --stepwise</code></p>
+
+<ul>
+  <li>Run tests without capturing output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pytest --capture=no</code></p>

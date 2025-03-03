@@ -1,0 +1,40 @@
+<h1 id="carp">carp</h1>
+
+<p>REPL and build tool for Carp.
+More information: <a href="https://carp-lang.github.io/carp-docs/Manual.html">https://carp-lang.github.io/carp-docs/Manual.html</a>.</p>
+
+<ul>
+  <li>Start a REPL (interactive shell):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">carp</code></p>
+
+<ul>
+  <li>Start a REPL with a custom prompt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">carp --prompt "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">&gt; </span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Build a <code class="language-plaintext highlighter-rouge">carp</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">carp -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.carp</span></p>
+
+<ul>
+  <li>Build and run a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">carp -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.carp</span></p>
+
+<ul>
+  <li>Build a file with optimizations enabled:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">carp -b --optimize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.carp</span></p>
+
+<ul>
+  <li>Transpile a file to C code:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">carp --generate-only </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.carp</span></p>

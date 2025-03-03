@@ -1,0 +1,52 @@
+<h1 id="nettop">nettop</h1>
+
+<p>Muestra información actualizada sobre la red.
+Más información: <a href="https://keith.github.io/xcode-man-pages/nettop.1.html">https://keith.github.io/xcode-man-pages/nettop.1.html</a>.</p>
+
+<ul>
+  <li>Monitoriza los sockets TCP y UDP de todas las interfaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettop</code></p>
+
+<ul>
+  <li>Monitoriza sockets TCP desde interfaces Loopback:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettop -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">loopback</span></p>
+
+<ul>
+  <li>Supervisa un proceso específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettop -p "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_id|process_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Muestra un resumen por proceso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettop -P</code></p>
+
+<ul>
+  <li>Imprime 10 muestras de información de red:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettop -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Monitoriza los cambios cada 5 segundos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettop -d -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>Mientras se ejecuta nettop, lista los comandos interactivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">h</code></p>
+
+<ul>
+  <li>Muestra ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettop -h</code></p>

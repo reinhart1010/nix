@@ -1,0 +1,53 @@
+<h1 id="mpv">mpv</h1>
+
+<p>MPlayer 기반의 오디오/비디오 플레이어.
+같이 보기: <code class="language-plaintext highlighter-rouge">mplayer</code>, <code class="language-plaintext highlighter-rouge">vlc</code>.
+더 많은 정보: <a href="https://mpv.io">https://mpv.io</a>.</p>
+
+<ul>
+  <li>URL 또는 파일에서 비디오나 오디오 재생:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|경로/대상/파일</span></p>
+
+<ul>
+  <li>5초 뒤로/앞으로 이동:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">LEFT &lt;or&gt; RIGHT</code></p>
+
+<ul>
+  <li>1분 뒤로/앞으로 이동:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">DOWN &lt;or&gt; UP</code></p>
+
+<ul>
+  <li>재생 속도를 10% 감소/증가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ &lt;or&gt; ]</code></p>
+
+<ul>
+  <li>현재 프레임의 스크린샷 찍기 (기본적으로 <code class="language-plaintext highlighter-rouge">./mpv-shotNNNN.jpg</code>에 저장됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">s</code></p>
+
+<ul>
+  <li>지정된 속도로 파일 재생 (기본값은 1):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpv --speed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.01..100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">mpv.conf</code> 파일에 정의된 프로필을 사용하여 파일 재생:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpv --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로필_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>웹캠 또는 다른 비디오 입력 장치의 출력 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/video0</span></p>

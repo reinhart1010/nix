@@ -1,0 +1,46 @@
+<h1 id="if">if</h1>
+
+<p>배치 스크립트에서 조건부 처리를 수행합니다.
+더 많은 정보: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/if">https://learn.microsoft.com/windows-server/administration/windows-commands/if</a>.</p>
+
+<ul>
+  <li>조건이 참이면 지정된 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">if </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조건</span><code class="language-plaintext highlighter-rouge"> (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 조건 is true</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>조건이 거짓이면 지정된 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">if not </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조건</span><code class="language-plaintext highlighter-rouge"> (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 조건 is true</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>조건이 참이면 첫 번째 지정된 명령을 실행하고, 거짓이면 두 번째 지정된 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">if </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조건</span><code class="language-plaintext highlighter-rouge"> (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 조건 is true</span><code class="language-plaintext highlighter-rouge">) else (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 조건 is false</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">%errorlevel%</code>이 지정된 종료 코드보다 크거나 같은지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">if errorlevel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 조건 is true</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>두 문자열이 같은지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">if %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변수</span><code class="language-plaintext highlighter-rouge">% == </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge"> (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 조건 is true</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>대소문자를 구분하지 않고 두 문자열이 같은지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">if /i %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변수</span><code class="language-plaintext highlighter-rouge">% == </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge"> (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 조건 is true</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>파일이 존재하는지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">if exist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\파일</span><code class="language-plaintext highlighter-rouge"> (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 조건 is true</span><code class="language-plaintext highlighter-rouge">)</code></p>

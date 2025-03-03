@@ -1,0 +1,40 @@
+<h1 id="bpkg">bpkg</h1>
+
+<p>A package manager for Bash scripts.
+More information: <a href="https://github.com/bpkg/bpkg">https://github.com/bpkg/bpkg</a>.</p>
+
+<ul>
+  <li>Update the local index:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bpkg update</code></p>
+
+<ul>
+  <li>Install a package globally:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bpkg install --global </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Install a package in a subdirectory of the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bpkg install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Install a specific version of a package globally:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bpkg install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span><code class="language-plaintext highlighter-rouge"> -g</code></p>
+
+<ul>
+  <li>Show details about a specific package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bpkg show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Run a command, optionally specifying its arguments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bpkg run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 …</span></p>

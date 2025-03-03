@@ -1,0 +1,52 @@
+<h1 id="asciinema">asciinema</h1>
+
+<p>Graba y reproduce sesiones de terminal, y opcionalmente compártelas en asciinema.org.
+Más información: <a href="https://docs.asciinema.org/manual/cli/usage">https://docs.asciinema.org/manual/cli/usage</a>.</p>
+
+<ul>
+  <li>Asocia el programa local de <code class="language-plaintext highlighter-rouge">asciinema</code> con una cuenta de asciinema.org:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema auth</code></p>
+
+<ul>
+  <li>Crea una nueva grabación (una vez acabada, se preguntará al usuario si la quiere guardar en local, o subirla):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema rec</code></p>
+
+<ul>
+  <li>Crea una nueva grabación y la guarda en un archivo local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema rec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/grabación.cast</span></p>
+
+<ul>
+  <li>Reproduce una grabación desde un archivo local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema play </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/grabación.cast</span></p>
+
+<ul>
+  <li>Reproduce una grabación desde asciinema.org:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema play https://asciinema.org/a/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_grabación</span></p>
+
+<ul>
+  <li>Crea una nueva grabación, limitando el tiempo de espera máximo a 2.5 segundos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema rec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–idle-time-limit</span><code class="language-plaintext highlighter-rouge"> 2.5</code></p>
+
+<ul>
+  <li>Imprime la salida completa de un archivo local de grabación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/grabación.cast</span></p>
+
+<ul>
+  <li>Sube un archivo local de grabación a asciinema.org:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/grabación.cast</span></p>

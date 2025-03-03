@@ -1,0 +1,46 @@
+<h1 id="mdadm">mdadm</h1>
+
+<p>RAID 관리 도구.
+더 많은 정보: <a href="https://manned.org/mdadm">https://manned.org/mdadm</a>.</p>
+
+<ul>
+  <li>배열 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mdadm --create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/md/MyRAID</span><code class="language-plaintext highlighter-rouge"> --level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raid_레벨</span><code class="language-plaintext highlighter-rouge"> --raid-devices </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디스크_개수</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>배열 중지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mdadm --stop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/md0</span></p>
+
+<ul>
+  <li>디스크를 실패로 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mdadm --fail </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/md0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>디스크 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mdadm --remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/md0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>배열에 디스크 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mdadm --assemble </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/md0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>RAID 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mdadm --detail </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/md0</span></p>
+
+<ul>
+  <li>디스크의 RAID 메타데이터 삭제하여 초기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mdadm --zero-superblock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>

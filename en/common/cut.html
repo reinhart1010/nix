@@ -1,0 +1,28 @@
+<h1 id="cut">cut</h1>
+
+<p>Cut out fields from <code class="language-plaintext highlighter-rouge">stdin</code> or files.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html</a>.</p>
+
+<ul>
+  <li>Print a specific [c]haracter/[f]ield range of each line:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | cut --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">characters|fields</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|1,10|1-10|1-|-10</span></p>
+
+<ul>
+  <li>Print a [f]ield range of each line with a specific [d]elimiter:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | cut --delimiter "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delimiter</span><code class="language-plaintext highlighter-rouge">" --fields </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|1,10|1-10|1-|-10</span></p>
+
+<ul>
+  <li>Print a [c]haracter range of each line of the specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut --characters </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print specific [f]ields of <code class="language-plaintext highlighter-rouge">NUL</code> terminated lines (e.g. as in <code class="language-plaintext highlighter-rouge">find . -print0</code>) instead of newlines:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | cut --zero-terminated --fields </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>

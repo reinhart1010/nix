@@ -1,0 +1,23 @@
+<h1 id="mkfsbtrfs">mkfs.btrfs</h1>
+
+<p>BTRFS 파일 시스템 생성.
+기본값은 <code class="language-plaintext highlighter-rouge">raid1</code>로, 데이터 블록의 두 복사본이 두 개의 다른 장치에 분산됩니다.
+더 많은 정보: <a href="https://btrfs.readthedocs.io/en/latest/mkfs.btrfs.html">https://btrfs.readthedocs.io/en/latest/mkfs.btrfs.html</a>.</p>
+
+<ul>
+  <li>단일 장치에 btrfs 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.btrfs --metadata single --data single </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda</span></p>
+
+<ul>
+  <li>여러 장치에 raid1으로 btrfs 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.btrfs --metadata raid1 --data raid1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdN</span></p>
+
+<ul>
+  <li>파일 시스템에 레이블 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.btrfs --label "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레이블</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda</span><code class="language-plaintext highlighter-rouge"> [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdN</span><code class="language-plaintext highlighter-rouge">]</code></p>

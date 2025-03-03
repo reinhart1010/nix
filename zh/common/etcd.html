@@ -1,0 +1,28 @@
+<h1 id="etcd">etcd</h1>
+
+<p>分布式，可靠的键值存储，用于分布式系统中存储最关键的数据。
+更多信息：<a href="https://etcd.io">https://etcd.io</a>.</p>
+
+<ul>
+  <li>启动单节点 etcd 集群：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcd</code></p>
+
+<ul>
+  <li>启动一个单节点 etcd 集群，在自定义 URL 上侦听客户端请求：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcd --advertise-client-urls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://127.0.0.1:1234</span><code class="language-plaintext highlighter-rouge"> --listen-client-urls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://127.0.0.1:1234</span></p>
+
+<ul>
+  <li>使用自定义名称启动单节点 etcd 集群：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcd --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_etcd_cluster</span></p>
+
+<ul>
+  <li>启动单节点 etcd 集群，同时可以在这里看到大量监控指标 <a href="http://localhost:2379/debug/pprof/">http://localhost:2379/debug/pprof/</a>：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcd --enable-pprof --metrics extensive</code></p>

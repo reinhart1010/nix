@@ -1,0 +1,29 @@
+<h1 id="runcon">runcon</h1>
+
+<p>프로그램을 다른 SELinux 보안 컨텍스트에서 실행.
+같이 보기: <code class="language-plaintext highlighter-rouge">secon</code>.
+더 많은 정보: <a href="https://www.gnu.org/software/coreutils/manual/html_node/runcon-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/runcon-invocation.html</a>.</p>
+
+<ul>
+  <li>현재 실행 컨텍스트의 보안 컨텍스트를 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">runcon</code></p>
+
+<ul>
+  <li>명령을 실행할 도메인 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">runcon -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인</span><code class="language-plaintext highlighter-rouge">_t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>명령을 실행할 컨텍스트 역할 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">runcon -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">역할</span><code class="language-plaintext highlighter-rouge">_r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>명령을 실행할 전체 컨텍스트 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">runcon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge">_u:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">역할</span><code class="language-plaintext highlighter-rouge">_r:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인</span><code class="language-plaintext highlighter-rouge">_t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>

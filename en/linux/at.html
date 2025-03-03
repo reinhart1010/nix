@@ -1,0 +1,28 @@
+<h1 id="at">at</h1>
+
+<p>Executes commands at a specified time.
+More information: <a href="https://manned.org/at.1">https://manned.org/at.1</a>.</p>
+
+<ul>
+  <li>Open an <code class="language-plaintext highlighter-rouge">at</code> prompt to create a new set of scheduled commands, press <code class="language-plaintext highlighter-rouge">Ctrl + D</code> to save and exit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hh:mm</span></p>
+
+<ul>
+  <li>Execute the commands and email the result using a local mailing program such as Sendmail:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hh:mm</span><code class="language-plaintext highlighter-rouge"> -m</code></p>
+
+<ul>
+  <li>Execute a script at the given time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hh:mm</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Display a system notification at 11pm on February 18th:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "notify-send '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Wake up!</span><code class="language-plaintext highlighter-rouge">'" | at </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">11pm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Feb 18</span></p>

@@ -1,0 +1,34 @@
+<h1 id="prstat">prstat</h1>
+
+<p>Aktif işlem istatistiklerini bildir.
+Daha fazla bilgi için: <a href="https://www.unix.com/man-page/sunos/1m/prstat">https://www.unix.com/man-page/sunos/1m/prstat</a>.</p>
+
+<ul>
+  <li>CPU kullanımına ayrılan tüm işlem ve raporların istatiğini incele:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat</code></p>
+
+<ul>
+  <li>Hafıza kullanımına ayrılan tüm işlem ve raporların istatistiğini incele:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat -s rss</code></p>
+
+<ul>
+  <li>Her bir kullanıcı için toplam kullanım özetini bildir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat -t</code></p>
+
+<ul>
+  <li>Mikrodurum işlem hesap açıklama bilgisini bildir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat -m</code></p>
+
+<ul>
+  <li>Saniye başı en çok CPU kullanan 5 işlemin listesini yazdır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat -c -n 5 -s cpu 1</code></p>

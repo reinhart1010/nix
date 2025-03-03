@@ -1,0 +1,22 @@
+<h1 id="fail2ban-client">fail2ban-client</h1>
+
+<p>Configure and control fail2ban server.
+More information: <a href="https://github.com/fail2ban/fail2ban">https://github.com/fail2ban/fail2ban</a>.</p>
+
+<ul>
+  <li>Retrieve current status of the jail service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fail2ban-client status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jail</span></p>
+
+<ul>
+  <li>Remove the specified IP from the jail service's ban list:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fail2ban-client set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jail</span><code class="language-plaintext highlighter-rouge"> unbanip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span></p>
+
+<ul>
+  <li>Verify fail2ban server is alive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fail2ban-client ping</code></p>

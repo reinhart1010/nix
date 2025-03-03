@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="mysql">mysql</h1>
+
+<p>A ferramenta de linha de comando do MySQL.
+Mais informações: <a href="https://www.mysql.com/">https://www.mysql.com/</a>.</p>
+
+<ul>
+  <li>Conecta a um banco de dados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_banco_de_dados</span></p>
+
+<ul>
+  <li>Conecta a um banco de dados (será solicitada a senha de acesso do usuário):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuário</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_banco_de_dados</span></p>
+
+<ul>
+  <li>Conecta a um banco de dados disponível em um endereço específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">endereco_do_banco_de_dados</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_banco_de_dados</span></p>
+
+<ul>
+  <li>Conecta a um banco de dados utilizando um socket Unix:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql --socket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/socket.sock</span></p>
+
+<ul>
+  <li>Executa todos os comandos de um arquivo SQL em um banco de dados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql -e "source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo.sql</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_banco_de_dados</span></p>

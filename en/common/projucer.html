@@ -1,0 +1,40 @@
+<h1 id="projucer">Projucer</h1>
+
+<p>A project manager for JUCE framework applications.
+More information: <a href="https://juce.com/discover/stories/projucer-manual#10.4-command-line-tools">https://juce.com/discover/stories/projucer-manual#10.4-command-line-tools</a>.</p>
+
+<ul>
+  <li>Display information about a project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Projucer --status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project_file</span></p>
+
+<ul>
+  <li>Resave all files and resources in a project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Projucer --resave </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project_file</span></p>
+
+<ul>
+  <li>Update the version number in a project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Projucer --set-version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version_number</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project_file</span></p>
+
+<ul>
+  <li>Generate a JUCE project from a PIP file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Projucer --create-project-from-pip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/PIP</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output</span></p>
+
+<ul>
+  <li>Remove all JUCE-style comments (<code class="language-plaintext highlighter-rouge">//=====</code>, <code class="language-plaintext highlighter-rouge">//-----</code> or <code class="language-plaintext highlighter-rouge">///////</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Projucer --tidy-divider-comments </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_folder</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Projucer --help</code></p>

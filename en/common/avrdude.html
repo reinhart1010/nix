@@ -1,0 +1,28 @@
+<h1 id="avrdude">avrdude</h1>
+
+<p>Driver program for Atmel AVR microcontrollers programming.
+More information: <a href="https://www.nongnu.org/avrdude/">https://www.nongnu.org/avrdude/</a>.</p>
+
+<ul>
+  <li>[r]ead the flash ROM of a AVR microcontroller with a specific [p]art ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">part_no</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programmer_id</span><code class="language-plaintext highlighter-rouge"> -U flash:r:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.hex</span><code class="language-plaintext highlighter-rouge">:i</code></p>
+
+<ul>
+  <li>[w]rite to the flash ROM AVR microcontroller:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">part_no</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programmer</span><code class="language-plaintext highlighter-rouge"> -U flash:w:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.hex</span></p>
+
+<ul>
+  <li>List available AVR devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -p \?</code></p>
+
+<ul>
+  <li>List available AVR programmers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -c \?</code></p>

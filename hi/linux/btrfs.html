@@ -1,0 +1,35 @@
+<h1 id="btrfs">btrfs</h1>
+
+<p>लिनक्स के लिए कॉपी-ऑन-राइट (COW) सिद्धांत पर आधारित एक फ़ाइल सिस्टम।
+कुछ सब-कमांड जैसे <code class="language-plaintext highlighter-rouge">btrfs device</code>, उनका खुद का उपयोग दस्तावेज़न है।
+अधिक जानकारी: <a href="https://btrfs.readthedocs.io/en/latest/btrfs.html">https://btrfs.readthedocs.io/en/latest/btrfs.html</a>।</p>
+
+<ul>
+  <li>उप-वॉल्यूम बनाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उप-वॉल्यूम/का/पथ</span></p>
+
+<ul>
+  <li>उप-वॉल्यूमों की सूची दिखाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">माउंट_बिंदु/का/पथ</span></p>
+
+<ul>
+  <li>स्थान उपयोग सूचना दिखाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs filesystem df </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">माउंट_बिंदु/का/पथ</span></p>
+
+<ul>
+  <li>कोटा सक्षम करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs quota enable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उप-वॉल्यूम/का/पथ</span></p>
+
+<ul>
+  <li>कोटा दिखाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs qgroup show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उप-वॉल्यूम/का/पथ</span></p>

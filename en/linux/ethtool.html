@@ -1,0 +1,40 @@
+<h1 id="ethtool">ethtool</h1>
+
+<p>Display and modify Network Interface Controller (NIC) parameters.
+More information: <a href="https://manned.org/ethtool">https://manned.org/ethtool</a>.</p>
+
+<ul>
+  <li>Display the current settings for an interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ethtool </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Display the driver information for an interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ethtool --driver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Display all supported features for an interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ethtool --show-features </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Display the network usage statistics for an interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ethtool --statistics </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Blink one or more LEDs on an interface for 10 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ethtool --identify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Set the link speed, duplex mode, and parameter auto-negotiation for a given interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ethtool -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> speed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10|100|1000</span><code class="language-plaintext highlighter-rouge"> duplex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">half|full</span><code class="language-plaintext highlighter-rouge"> autoneg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span></p>

@@ -1,0 +1,34 @@
+<h1 id="cargo-check">cargo check</h1>
+
+<p>로컬 패키지와 모든 종속 항목에 오류가 있는지 확인.
+더 많은 정보: <a href="https://doc.rust-lang.org/cargo/commands/cargo-check.html">https://doc.rust-lang.org/cargo/commands/cargo-check.html</a>.</p>
+
+<ul>
+  <li>현재 패키지 검사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo check</code></p>
+
+<ul>
+  <li>모든 테스트 검사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo check --tests</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">tests/integration_test1.rs</code>에서 통합 테스트를 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo check --test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">통합_테스트1</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">feature1</code> 및 <code class="language-plaintext highlighter-rouge">feature2</code> 기능이 포함된 현재 패키지를 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo check --features </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">기능1,기능2</span></p>
+
+<ul>
+  <li>기본 기능이 비활성화된 현재 패키지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo check --no-default-features</code></p>

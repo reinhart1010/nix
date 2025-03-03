@@ -1,0 +1,35 @@
+<h1 id="nxc-ssh">nxc ssh</h1>
+
+<p>Pentest and exploit SSH servers.
+See also: <code class="language-plaintext highlighter-rouge">hydra</code>.
+More information: <a href="https://www.netexec.wiki/ssh-protocol">https://www.netexec.wiki/ssh-protocol</a>.</p>
+
+<ul>
+  <li>Spray the specified [p]assword against a list of [u]sernames on the specified target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/usernames.txt</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Search for valid credentials by trying out every combination in the specified lists of [u]sernames and [p]asswords:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/usernames.txt</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/passwords.txt</span></p>
+
+<ul>
+  <li>Use the specified private key for authentication, using the supplied [p]assword as the key's passphrase:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.186.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/usernames.txt</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> --key-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/id_rsa</span></p>
+
+<ul>
+  <li>Try a combination of [u]sername and [p]assword on a number of targets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.0/24</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Check for <code class="language-plaintext highlighter-rouge">sudo</code> privileges on a successful login:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/passwords.txt</span><code class="language-plaintext highlighter-rouge"> --sudo-check</code></p>

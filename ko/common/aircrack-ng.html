@@ -1,0 +1,23 @@
+<h1 id="aircrack-ng">aircrack-ng</h1>
+
+<p>수집된 패킷의 핸드셰이크 과정 중, WEP 및 WPA/WPA2 키를 크랙.
+Aircrack-ng 네트워크 소프트웨어 제품군의 일부.
+더 많은 정보: <a href="https://www.aircrack-ng.org/doku.php?id=aircrack-ng">https://www.aircrack-ng.org/doku.php?id=aircrack-ng</a>.</p>
+
+<ul>
+  <li>[w]ordlist를 사용해 캡처 파일에서 크랙 키를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aircrack-ng -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/wordlist.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/capture.cap</span></p>
+
+<ul>
+  <li>[w]ordlist와 액세스 포인트의 [e]ssid를 사용하여 캡처 파일에서 키를 크랙:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aircrack-ng -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/wordlist.txt</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">essid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/capture.cap</span></p>
+
+<ul>
+  <li>[w]ordlist와 액세스 포인트의 MAC 주소를 사용하여 캡처 파일에서 키를 크랙:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aircrack-ng -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/wordlist.txt</span><code class="language-plaintext highlighter-rouge"> --bssid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/capture.cap</span></p>

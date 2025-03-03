@@ -1,0 +1,47 @@
+<h1 id="git-reset">git reset</h1>
+
+<p>Undo commits or unstage changes, by resetting the current Git HEAD to the specified state.
+If a path is passed, it works as "unstage"; if a commit hash or branch is passed, it works as "uncommit".
+More information: <a href="https://git-scm.com/docs/git-reset">https://git-scm.com/docs/git-reset</a>.</p>
+
+<ul>
+  <li>Unstage everything:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reset</code></p>
+
+<ul>
+  <li>Unstage specific file(s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Interactively unstage portions of a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reset --patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Undo the last commit, keeping its changes (and any further uncommitted changes) in the filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reset HEAD~</code></p>
+
+<ul>
+  <li>Undo the last two commits, adding their changes to the index, i.e. staged for commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reset --soft HEAD~2</code></p>
+
+<ul>
+  <li>Discard any uncommitted changes, staged or not (for only unstaged changes, use <code class="language-plaintext highlighter-rouge">git checkout</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reset --hard</code></p>
+
+<ul>
+  <li>Reset the repository to a given commit, discarding committed, staged and uncommitted changes since then:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reset --hard </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>

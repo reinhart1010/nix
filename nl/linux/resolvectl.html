@@ -1,0 +1,53 @@
+<h1 id="resolvectl">resolvectl</h1>
+
+<p>Resolve domeinnamen, IPv4 en IPv6 adressen, DNS resource records en services.
+Bekijk en herconfigureer de DNS resolver.
+Meer informatie: <a href="https://www.freedesktop.org/software/systemd/man/resolvectl.html">https://www.freedesktop.org/software/systemd/man/resolvectl.html</a>.</p>
+
+<ul>
+  <li>Toon DNS instellingen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl status</code></p>
+
+<ul>
+  <li>Resolve de IPv4 en IPv6 adressen voor een of meerdere domeinen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domein1 domein2 …</span></p>
+
+<ul>
+  <li>Verkrijg het domein van een gespecificeerd IP adres:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_adres</span></p>
+
+<ul>
+  <li>Flush alle lokale DNS caches:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl flush-caches</code></p>
+
+<ul>
+  <li>Toon DNS statistieken (transacties, cache en DNSSEC oordelen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl statistics</code></p>
+
+<ul>
+  <li>Verkrijg een MX record van een domein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl --legend=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">no</span><code class="language-plaintext highlighter-rouge"> --type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MX</span><code class="language-plaintext highlighter-rouge"> query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domein</span></p>
+
+<ul>
+  <li>Resolve een SRV record, bijvoorbeeld _xmpp-server._tcp gmail.com:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl service _</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span><code class="language-plaintext highlighter-rouge">._</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protocol</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">naam</span></p>
+
+<ul>
+  <li>Verkrijg een TLS sleutel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl tlsa tcp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domein</span><code class="language-plaintext highlighter-rouge">:443</code></p>

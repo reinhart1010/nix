@@ -1,0 +1,40 @@
+<h1 id="mosquitto_pub">mosquitto_pub</h1>
+
+<p>단일 메시지를 주제에 게시하고 종료하는 간단한 MQTT 버전 3.1.1 클라이언트.
+더 많은 정보: <a href="https://mosquitto.org/man/mosquitto_pub-1.html">https://mosquitto.org/man/mosquitto_pub-1.html</a>.</p>
+
+<ul>
+  <li>Quality of Service(QoS)를 1로 설정하고, 192.168.1.1(기본값은 <code class="language-plaintext highlighter-rouge">localhost</code>)에 <code class="language-plaintext highlighter-rouge">sensors/temperature</code> 주제로 온도 값 32 게시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosquitto_pub -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.1</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sensors/temperature</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">32</span><code class="language-plaintext highlighter-rouge"> -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>비표준 포트로 원격 호스트에 <code class="language-plaintext highlighter-rouge">sensors/temperature</code> 주제로 타임스탬프와 온도 데이터 게시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosquitto_pub -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.1</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1885</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sensors/temperature</span><code class="language-plaintext highlighter-rouge"> -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1266193804 32</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>스위치 이벤트 사이에 긴 시간이 있을 수 있으므로, 원격 호스트에 <code class="language-plaintext highlighter-rouge">switches/kitchen_lights/status</code> 주제로 스위치 상태 게시 및 메시지 유지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosquitto_pub -r -h "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">iot.eclipse.org</span><code class="language-plaintext highlighter-rouge">" -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">switches/kitchen_lights/status</span><code class="language-plaintext highlighter-rouge"> -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>파일(<code class="language-plaintext highlighter-rouge">data.txt</code>)의 내용을 메시지로 전송하고 <code class="language-plaintext highlighter-rouge">sensors/temperature</code> 주제로 게시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosquitto_pub -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sensors/temperature</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.txt</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 읽어들인 파일(<code class="language-plaintext highlighter-rouge">data.txt</code>)의 전체 입력 내용을 메시지로 전송하고 <code class="language-plaintext highlighter-rouge">sensors/temperature</code> 주제로 게시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosquitto_pub -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sensors/temperature</span><code class="language-plaintext highlighter-rouge"> -s &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.txt</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 줄바꿈된 데이터를 메시지로 읽어들여 <code class="language-plaintext highlighter-rouge">sensors/temperature</code> 주제로 게시:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo data.txt</span><code class="language-plaintext highlighter-rouge"> | mosquitto_pub -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sensors/temperature</span><code class="language-plaintext highlighter-rouge"> -l</code></p>

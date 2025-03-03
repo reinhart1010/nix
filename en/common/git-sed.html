@@ -1,0 +1,29 @@
+<h1 id="git-sed">git sed</h1>
+
+<p>Replace patterns in git-controlled files using sed.
+Part of <code class="language-plaintext highlighter-rouge">git-extras</code>.
+More information: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-sed">https://github.com/tj/git-extras/blob/master/Commands.md#git-sed</a>.</p>
+
+<ul>
+  <li>Replace the specified text in the current repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git sed '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find_text</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replace_text</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Replace the specified text and then commit the resulting changes with a standard commit message:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git sed -c '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find_text</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replace_text</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Replace the specified text, using regular expressions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git sed -f g '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find_text</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replace_text</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Replace a specific text in all files under a given directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git sed '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find_text</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replace_text</span><code class="language-plaintext highlighter-rouge">' -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

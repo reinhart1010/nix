@@ -1,0 +1,34 @@
+<h1 id="sshfs">sshfs</h1>
+
+<p>Dateisystem Client für SSH.
+Weitere Informationen: <a href="https://github.com/libfuse/sshfs">https://github.com/libfuse/sshfs</a>.</p>
+
+<ul>
+  <li>Hänge ein externes Verzeichnis ein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sshfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externer_server</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externes_verzeichnis</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokales_einhänge_verzeichnis</span></p>
+
+<ul>
+  <li>Hänge ein externes Verzeichnis aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">umount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokaler_einhänge_verzeichnis</span></p>
+
+<ul>
+  <li>Hänge ein externes Verzeichnis unter einem bestimmten Port ein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sshfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externer_server</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externes_verzeichnis</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2222</span></p>
+
+<ul>
+  <li>Verwende Komprimierung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sshfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externer_server</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externes_verzeichnis</span><code class="language-plaintext highlighter-rouge"> -C</code></p>
+
+<ul>
+  <li>Folge symbolischen Links:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sshfs -o follow_symlinks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externer_server</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externes_verzeichnis</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokaler_einhänge_verzeichnis</span></p>

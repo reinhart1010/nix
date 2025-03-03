@@ -1,0 +1,23 @@
+<h1 id="pamcut">pamcut</h1>
+
+<p>Netpbm 이미지에서 직사각형 영역을 잘라내기.
+같이 보기: <code class="language-plaintext highlighter-rouge">pamcrop</code>, <code class="language-plaintext highlighter-rouge">pamdice</code>, <code class="language-plaintext highlighter-rouge">pamcomp</code>.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/pamcut.html">https://netpbm.sourceforge.net/doc/pamcut.html</a>.</p>
+
+<ul>
+  <li>이미지의 양쪽에서 지정된 열/행 수만큼 잘라내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamcut -cropleft </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge"> -cropright </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge"> -croptop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge"> -cropbottom </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.ppm</span></p>
+
+<ul>
+  <li>지정된 열 사이의 열만 유지하기 (포함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamcut -left </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge"> -right </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.ppm</span></p>
+
+<ul>
+  <li>지정된 직사각형이 입력 이미지 내에 완전히 포함되지 않을 경우, 누락된 영역을 검은색 픽셀로 채우기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamcut -top </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge"> -bottom </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge"> -pad </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.ppm</span></p>

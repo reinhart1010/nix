@@ -1,0 +1,28 @@
+<h1 id="deluser">deluser</h1>
+
+<p>Delete a user from the system.
+More information: <a href="https://manned.org/deluser">https://manned.org/deluser</a>.</p>
+
+<ul>
+  <li>Remove a user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo deluser </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Remove a user and their home directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo deluser --remove-home </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Remove a user and their home, but backup their files into a <code class="language-plaintext highlighter-rouge">.tar.gz</code> file in the specified directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo deluser --backup-to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/backup_directory</span><code class="language-plaintext highlighter-rouge"> --remove-home </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Remove a user, and all files owned by them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo deluser --remove-all-files </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>

@@ -1,0 +1,41 @@
+<h1 id="tail">tail</h1>
+
+<p>Display the last part of a file.
+See also: <code class="language-plaintext highlighter-rouge">head</code>.
+More information: <a href="https://keith.github.io/xcode-man-pages/tail.1.html">https://keith.github.io/xcode-man-pages/tail.1.html</a>.</p>
+
+<ul>
+  <li>Show last 'count' lines in file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print a file from a specific line number:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -n +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print a specific count of bytes from the end of a given file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print the last lines of a given file and keep reading it until <code class="language-plaintext highlighter-rouge">Ctrl + C</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Keep reading file until <code class="language-plaintext highlighter-rouge">Ctrl + C</code>, even if the file is inaccessible:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Show last 'count' lines in 'file' and refresh every 'seconds' seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

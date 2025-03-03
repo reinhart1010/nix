@@ -1,0 +1,46 @@
+<h1 id="particle">particle</h1>
+
+<p>Interact with Particle devices.
+More information: <a href="https://docs.particle.io/tutorials/developer-tools/cli">https://docs.particle.io/tutorials/developer-tools/cli</a>.</p>
+
+<ul>
+  <li>Log in or create an account for the Particle CLI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">particle setup</code></p>
+
+<ul>
+  <li>Display a list of devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">particle list</code></p>
+
+<ul>
+  <li>Create a new Particle project interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">particle project create</code></p>
+
+<ul>
+  <li>Compile a Particle project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">particle compile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_code.ino</span></p>
+
+<ul>
+  <li>Update a device to use a specific app remotely:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">particle flash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/program.bin</span></p>
+
+<ul>
+  <li>Update a device to use the latest firmware via serial:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">particle flash --serial </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/firmware.bin</span></p>
+
+<ul>
+  <li>Execute a function on a device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">particle call </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">function_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">function_arguments</span></p>

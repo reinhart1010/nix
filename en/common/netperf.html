@@ -1,0 +1,29 @@
+<h1 id="netperf">netperf</h1>
+
+<p>Client-side command for <code class="language-plaintext highlighter-rouge">netperf</code>, the benchmarking application that measures network throughput. Similar to <code class="language-plaintext highlighter-rouge">iperf</code>.
+See also: <code class="language-plaintext highlighter-rouge">netserver</code>, for the server-side command.
+More information: <a href="https://hewlettpackard.github.io/netperf/doc/netperf.html#Global-Command_002dline-Options">https://hewlettpackard.github.io/netperf/doc/netperf.html#Global-Command_002dline-Options</a>.</p>
+
+<ul>
+  <li>Connect to server on a specific IP address via default port (12865):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netperf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address</span></p>
+
+<ul>
+  <li>Specify [p]ort:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netperf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Specify the sampling [l]ength in seconds (default is 10):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netperf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconds</span></p>
+
+<ul>
+  <li>Force IPv[4] or IPv[6]:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netperf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address</span><code class="language-plaintext highlighter-rouge"> -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4|6</span></p>

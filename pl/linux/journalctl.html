@@ -1,0 +1,52 @@
+<h1 id="journalctl">journalctl</h1>
+
+<p>Przeszukaj dziennik systemd.
+Więcej informacji: <a href="https://manned.org/journalctl">https://manned.org/journalctl</a>.</p>
+
+<ul>
+  <li>Wyświetl wszystkie wiadomości o priorytecie 3 (błędy) z tego rozruchu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl -b --priority=3</code></p>
+
+<ul>
+  <li>Usuń dzienniki starsze niż 2 dni:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl --vacuum-time=2d</code></p>
+
+<ul>
+  <li>Wyświetlaj nowe wiadomości (jak <code class="language-plaintext highlighter-rouge">tail -f</code> dla tradycyjnego sysloga):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl --follow</code></p>
+
+<ul>
+  <li>Wyświetl wszystkie wiadomości podanej jednostki:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl --unit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jednostka</span></p>
+
+<ul>
+  <li>Wyświetl wiadomości podanej jednostki od czasu jej ostatniego uruchomienia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl _SYSTEMD_INVOCATION_ID=$(systemctl show --value --property=InvocationID </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jednostka</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Filtruj wiadomości w zakresie czasu (znacznik czasu lub symbol zastępczy, np. "yesterday"):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl --since </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">now|today|yesterday|tomorrow</span><code class="language-plaintext highlighter-rouge"> --until "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD HH:MM:SS</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Wyświetl wszystkie wiadomości podanego procesu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl _PID=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Wyświetl wszystkie wiadomości podanego pliku wykonywalnego:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span></p>

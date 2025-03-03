@@ -1,0 +1,28 @@
+<h1 id="rails-routes">rails routes</h1>
+
+<p>Menampilkan daftar <em>routes</em> di aplikasi Rails.
+Informasi lebih lanjut: <a href="https://guides.rubyonrails.org/routing.html">https://guides.rubyonrails.org/routing.html</a>.</p>
+
+<ul>
+  <li>Menampilkan semua <em>routes</em>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rails routes</code></p>
+
+<ul>
+  <li>Menampilkan semua <em>routes</em> dengan format yang lebih panjang:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rails routes --expanded</code></p>
+
+<ul>
+  <li>Menampilkan <em>routes</em> yang sebagian cocok dengan nama helper method URL, HTTP verb, atau path URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rails routes -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">posts_path|GET|/posts</span></p>
+
+<ul>
+  <li>Menampilkan <em>routes</em> yang memetakan ke controller tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rails routes -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">posts|Posts|Blogs::PostsController</span></p>

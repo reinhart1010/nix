@@ -1,0 +1,16 @@
+<h1 id="dexter">dexter</h1>
+
+<p>Strumento per autenticare utenti kubectl con OpenId Connect.
+Maggiori informazioni: <a href="https://github.com/gini/dexter">https://github.com/gini/dexter</a>.</p>
+
+<ul>
+  <li>Crea ed autentica un utente con Google OIDC:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dexter auth -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id-client</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">segreto-client</span></p>
+
+<ul>
+  <li>Sovrascrivi la posizione predefinita della configurazione di kube:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dexter auth -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id-client</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">segreto-client</span><code class="language-plaintext highlighter-rouge"> --kube-config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/configurazione</span></p>

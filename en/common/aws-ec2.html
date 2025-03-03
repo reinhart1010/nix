@@ -1,0 +1,53 @@
+<h1 id="aws-ec2">aws ec2</h1>
+
+<p>Manage AWS EC2 instances and volumes.
+AWS EC2 provides secure and resizable computing capacity in the AWS cloud for faster development and deployment of applications.
+More information: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/index.html</a>.</p>
+
+<ul>
+  <li>Display information about a specific instance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ec2 describe-instances --instance-ids </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instance_id</span></p>
+
+<ul>
+  <li>Display information about all instances:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ec2 describe-instances</code></p>
+
+<ul>
+  <li>Display information about all EC2 volumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ec2 describe-volumes</code></p>
+
+<ul>
+  <li>Delete an EC2 volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ec2 delete-volume --volume-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_id</span></p>
+
+<ul>
+  <li>Create a snapshot from an EC2 volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ec2 create-snapshot --volume-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_id</span></p>
+
+<ul>
+  <li>List available AMIs (Amazon Machine Images):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ec2 describe-images</code></p>
+
+<ul>
+  <li>Show list of all available EC2 commands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ec2 help</code></p>
+
+<ul>
+  <li>Display help for specific EC2 subcommand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ec2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span><code class="language-plaintext highlighter-rouge"> help</code></p>

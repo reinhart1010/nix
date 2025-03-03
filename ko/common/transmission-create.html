@@ -1,0 +1,35 @@
+<h1 id="transmission-create">transmission-create</h1>
+
+<p>BitTorrent <code class="language-plaintext highlighter-rouge">.torrent</code> 파일 만들기.
+같이 보기: <code class="language-plaintext highlighter-rouge">transmission</code>.
+더 많은 정보: <a href="https://manned.org/transmission-create">https://manned.org/transmission-create</a>.</p>
+
+<ul>
+  <li>2048 KB를 조각 크기로 하여 토렌트 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/example.torrent</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">트래커_발표_URL</span><code class="language-plaintext highlighter-rouge"> --piecesize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2048</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>
+
+<ul>
+  <li>2048 KB 조각 크기로 개인 토렌트 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create -p -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/example.torrent</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">트래커_발표_URL</span><code class="language-plaintext highlighter-rouge"> --piecesize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2048</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>
+
+<ul>
+  <li>코멘트를 포함하여 토렌트 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/example.torrent</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">트래커_URL1</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">코멘트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>
+
+<ul>
+  <li>여러 트래커를 포함하여 토렌트 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/example.torrent</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">트래커_URL1</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">트래커_URL2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>
+
+<ul>
+  <li>도움말 페이지 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create --help</code></p>

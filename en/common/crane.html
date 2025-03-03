@@ -1,0 +1,41 @@
+<h1 id="crane">crane</h1>
+
+<p>Container images managing tool.
+Some subcommands such as <code class="language-plaintext highlighter-rouge">pull</code>, <code class="language-plaintext highlighter-rouge">push</code>, <code class="language-plaintext highlighter-rouge">copy</code>, etc. have their own usage documentation.
+More information: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane.md/">https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane.md/</a>.</p>
+
+<ul>
+  <li>Execute a <code class="language-plaintext highlighter-rouge">crane</code> subcommand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>
+
+<ul>
+  <li>Allow pushing non-distributable (foreign) layers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane --allow-nondistributable-artifacts </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>
+
+<ul>
+  <li>Allow image references to be fetched without TLS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane --insecure </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>
+
+<ul>
+  <li>Specify the platform in the form os/arch<code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;/variant&lt;/span&gt;&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;:osversion&lt;/span&gt;</code> (e.g. linux/amd64). (default all):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane --platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">platform</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>
+
+<ul>
+  <li>Enable debug logs for a subcommand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>
+
+<ul>
+  <li>Display help for a subcommand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>

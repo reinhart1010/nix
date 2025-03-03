@@ -1,0 +1,28 @@
+<h1 id="qm-stop">qm stop</h1>
+
+<p>Detiene una máquina virtual.
+Más información: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>Detiene una máquina virtual inmediatamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm stop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VM_ID</span></p>
+
+<ul>
+  <li>Detiene una máquina virtual y espera por lo menos 10 segundos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm stop --timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VM_ID</span></p>
+
+<ul>
+  <li>Detiene una máquina virtual y omite cualquier bloqueo (solo el root puede usar esta opción):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm stop --skiplock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VM_ID</span></p>
+
+<ul>
+  <li>Detiene una máquina virtual y no desactive los volúmenes de almacenamiento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm stop --keepActive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VM_ID</span></p>

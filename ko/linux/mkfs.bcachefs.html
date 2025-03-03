@@ -1,0 +1,16 @@
+<h1 id="mkfsbcachefs">mkfs.bcachefs</h1>
+
+<p>파티션 내에 <code class="language-plaintext highlighter-rouge">bcachefs</code> 파일 시스템 생성.
+더 많은 정보: <a href="https://bcachefs-docs.readthedocs.io/en/latest/mgmt-formatting.html">https://bcachefs-docs.readthedocs.io/en/latest/mgmt-formatting.html</a>.</p>
+
+<ul>
+  <li>장치 (<code class="language-plaintext highlighter-rouge">X</code>) 의 파티션 1에 <code class="language-plaintext highlighter-rouge">bcachefs</code> 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.bcachefs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX1</span></p>
+
+<ul>
+  <li>볼륨 레이블을 사용하여 <code class="language-plaintext highlighter-rouge">bcachefs</code> 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.bcachefs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-L|–fs_label</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">볼륨_레이블</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX1</span></p>

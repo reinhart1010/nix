@@ -1,0 +1,47 @@
+<h1 id="podman-machine">podman machine</h1>
+
+<p>Podman을 실행하는 가상 머신을 생성하고 관리.
+Podman 버전 4 이상에 포함되어 있습니다.
+더 많은 정보: <a href="https://docs.podman.io/en/latest/markdown/podman-machine.1.html">https://docs.podman.io/en/latest/markdown/podman-machine.1.html</a>.</p>
+
+<ul>
+  <li>기존 머신 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine ls</code></p>
+
+<ul>
+  <li>기본 머신 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine init</code></p>
+
+<ul>
+  <li>특정 이름의 새 머신 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>다른 리소스로 새 머신 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine init --cpus=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> --memory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4096</span><code class="language-plaintext highlighter-rouge"> --disk-size=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span></p>
+
+<ul>
+  <li>머신 시작 또는 중지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>SSH를 통해 실행 중인 머신에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>머신 정보 검사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>

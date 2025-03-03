@@ -1,0 +1,29 @@
+<h1 id="jwt">jwt</h1>
+
+<p>Uma ferramenta de linha de comando (command-line tool) para trabalhar com JSON Web Tokens (JWTs).
+Algoritmos de encriptação disponíveis são HS256, HS384, HS512, RS256, RS384, RS512, ES256, ES384.
+Mais informações: <a href="https://github.com/mike-engel/jwt-cli">https://github.com/mike-engel/jwt-cli</a>.</p>
+
+<ul>
+  <li>Decodifica um JWT:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jwt decode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jwt_string</span></p>
+
+<ul>
+  <li>Decodifica um JWT em uma JSON string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jwt decode -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jwt_string</span></p>
+
+<ul>
+  <li>Codifica uma JSON string em um JWT:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jwt encode --alg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HS256</span><code class="language-plaintext highlighter-rouge"> --secret </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234567890</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json_string</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Codifica dados (payload) de um par de chaves (key pair) em um JWT:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jwt encode --alg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HS256</span><code class="language-plaintext highlighter-rouge"> --secret </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234567890</span><code class="language-plaintext highlighter-rouge"> -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chave=valor</span></p>

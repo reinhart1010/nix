@@ -1,0 +1,34 @@
+<h1 id="mmcli">mmcli</h1>
+
+<p>Control and monitor the ModemManager.
+More information: <a href="https://www.freedesktop.org/software/ModemManager/man/latest/mmcli.1.html">https://www.freedesktop.org/software/ModemManager/man/latest/mmcli.1.html</a>.</p>
+
+<ul>
+  <li>List available modems:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmcli --list-modems</code></p>
+
+<ul>
+  <li>Print information about a modem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmcli --modem=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modem</span></p>
+
+<ul>
+  <li>Enable a modem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmcli --modem=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modem</span><code class="language-plaintext highlighter-rouge"> --enable</code></p>
+
+<ul>
+  <li>List SMS messages available on the modem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mmcli --modem=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modem</span><code class="language-plaintext highlighter-rouge"> --messaging-list-sms</code></p>
+
+<ul>
+  <li>Delete a message from the modem, specifying its path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mmcli --modem=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modem</span><code class="language-plaintext highlighter-rouge"> --messaging-delete-sms=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/message_file</span></p>

@@ -1,0 +1,52 @@
+<h1 id="sui-client">sui client</h1>
+
+<p>Publish smart contracts, get object information, execute transactions, and more.
+More information: <a href="https://docs.sui.io/references/cli/client">https://docs.sui.io/references/cli/client</a>.</p>
+
+<ul>
+  <li>Create a new address with the ED25519 scheme:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sui client new-address ed25519 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address-alias</span></p>
+
+<ul>
+  <li>Create a new testnet environment with an RPC URL and alias:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sui client new-env --rpc https://fullnode.testnet.sui.io:443 --alias testnet</code></p>
+
+<ul>
+  <li>Switch to the address of your choice (accepts also an alias):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sui client switch --address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address-alias</span></p>
+
+<ul>
+  <li>Switch to the given environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sui client switch --env </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">env-alias</span></p>
+
+<ul>
+  <li>Publish a smart contract:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sui client publish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package-path</span></p>
+
+<ul>
+  <li>Interact with the Sui faucet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sui client faucet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>
+
+<ul>
+  <li>List the gas coins for the given address (accepts also an alias):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sui client gas </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address</span></p>
+
+<ul>
+  <li>Create, sign, and execute programmable transaction blocks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sui client ptb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">options</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>

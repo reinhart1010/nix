@@ -1,0 +1,30 @@
+<h1 id="dos2unix">dos2unix</h1>
+
+<p>Cambia saltos de línea con formato DOS a saltos de línea con formato Unix.
+Reemplaza CRLF con LF.
+Vea también <code class="language-plaintext highlighter-rouge">unix2dos</code>, <code class="language-plaintext highlighter-rouge">unix2mac</code>, y <code class="language-plaintext highlighter-rouge">mac2unix</code>.
+Más información: <a href="https://manned.org/dos2unix">https://manned.org/dos2unix</a>.</p>
+
+<ul>
+  <li>Cambia los saltos de línea de un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dos2unix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Crea una copia con saltos de línea en formato Unix:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dos2unix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–newfile</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/nuevo</span></p>
+
+<ul>
+  <li>Muestra información de un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dos2unix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–info</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Mantiene/añade/elimina Marca de Orden de Byte (Byte Order Mark):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dos2unix --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keep-bom|add-bom|remove-bom</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>

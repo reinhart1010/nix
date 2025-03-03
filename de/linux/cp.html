@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="cp">cp</h1>
+
+<p>Kopiere Dateien und Verzeichnisse.
+Weitere Informationen: <a href="https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html</a>.</p>
+
+<ul>
+  <li>Kopiere eine Datei an einen anderen Ort:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ausgangs_datei.ext</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel_datei.ext</span></p>
+
+<ul>
+  <li>Kopiere eine Datei in ein anderes Verzeichnis und behalte den Dateinamen bei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ausgang_datei.ext</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel_verzeichnis</span></p>
+
+<ul>
+  <li>Kopiere die Inhalte eines Verzeichnisses rekursiv zu einem neuen Ort (wenn das Ziel existiert, wird das Verzeichnis ins bestehende Ziel Verzeichnis kopiert):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ausgangs_verzeichnis</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel_verzeichnis</span></p>
+
+<ul>
+  <li>Kopiere ein Verzeichnis rekursiv im ausführlichen Modus (zeigt die Dateien die kopiert werden):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -vr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ausgangs_verzeichnis</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel_verzeichnis</span></p>
+
+<ul>
+  <li>Kopiere text Dateien zu einem anderen Ort im interaktiven Modus (fragt die Nutzer:in bevor eine Datei überschrieben wird):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel_verzeichnis</span></p>
+
+<ul>
+  <li>Folge symbolischen Verzeichnislinks vorm Kopieren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">link</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel_verzeichnis</span></p>
+
+<ul>
+  <li>Benutze den vollen Pfad der Ausgangsdateien und erstelle alle fehlenden Verzeichnisse beim Kopieren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp --parents </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quelle/pfad/zu/datei</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel_datei</span></p>

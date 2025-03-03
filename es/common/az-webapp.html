@@ -1,0 +1,29 @@
+<h1 id="az-webapp">az webapp</h1>
+
+<p>Administra aplicaciones web alojadas en Azure Cloud Services.
+Parte de <code class="language-plaintext highlighter-rouge">azure-cli</code> (también conocido como <code class="language-plaintext highlighter-rouge">az</code>)..
+Más información: <a href="https://learn.microsoft.com/cli/azure/webapp">https://learn.microsoft.com/cli/azure/webapp</a>.</p>
+
+<ul>
+  <li>Lista los entornos de ejecución disponibles para una aplicación web:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az webapp list-runtimes --os-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">windows|linux</span></p>
+
+<ul>
+  <li>Crea una aplicación web:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az webapp up --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge"> --location </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ubicación</span><code class="language-plaintext highlighter-rouge"> --runtime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">entorno_de_ejecución</span></p>
+
+<ul>
+  <li>Lista todas las aplicaciones web:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az webapp list</code></p>
+
+<ul>
+  <li>Elimina una aplicación web específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az webapp delete --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo_de_recursos</span></p>

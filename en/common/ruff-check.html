@@ -1,0 +1,47 @@
+<h1 id="ruff-check">ruff check</h1>
+
+<p>An extremely fast Python linter. <code class="language-plaintext highlighter-rouge">check</code> is the default command - it can be omitted everywhere.
+If no files or directories are specified, the current working directory is used by default.
+More information: <a href="https://docs.astral.sh/ruff/linter">https://docs.astral.sh/ruff/linter</a>.</p>
+
+<ul>
+  <li>Run the linter on the given files or directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ruff check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 …</span></p>
+
+<ul>
+  <li>Apply the suggested fixes, modifying the files in-place:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ruff check --fix</code></p>
+
+<ul>
+  <li>Run the linter and re-lint on change:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ruff check --watch</code></p>
+
+<ul>
+  <li>Only enable the specified rules (or all rules), ignoring the configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ruff check --select </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ALL|rule_code1,rule_code2,…</span></p>
+
+<ul>
+  <li>Additionally enable the specified rules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ruff check --extend-select </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_code1,rule_code2,…</span></p>
+
+<ul>
+  <li>Disable the specified rules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ruff check --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_code1,rule_code2,…</span></p>
+
+<ul>
+  <li>Ignore all existing violations of a rule by adding <code class="language-plaintext highlighter-rouge"># noqa</code> directives to all lines that violate it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ruff check --select </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_code</span><code class="language-plaintext highlighter-rouge"> --add-noqa</code></p>

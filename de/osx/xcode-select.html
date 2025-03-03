@@ -1,0 +1,35 @@
+<h1 id="xcode-select">xcode-select</h1>
+
+<p>Wechsel zwischen verschiedenen Xcode Versionen und den enthaltenen Entwicklertools.
+Wird auch verwendet, um den Pfad zu Xcode zu aktualisieren, wenn dieser sich nach einer Installation geändert hat.
+Weitere Informationen: <a href="https://developer.apple.com/library/archive/technotes/tn2339/_index.html">https://developer.apple.com/library/archive/technotes/tn2339/_index.html</a>.</p>
+
+<ul>
+  <li>Installiere die Xcode Entwicklertools:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcode-select --install</code></p>
+
+<ul>
+  <li>Wähle einen bestimmten Pfad als aktives Entwicklerverzeichnis aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcode-select --switch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/Xcode.app/Contents/Developer</span></p>
+
+<ul>
+  <li>Wähle eine Xcode Version aus und ändere das aktive Entwicklerverzeichnis dahin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcode-select --switch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/Xcode.app</span></p>
+
+<ul>
+  <li>Gib das derzeit aktive Entwicklerverzeichnis aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcode-select --print-path</code></p>
+
+<ul>
+  <li>Verwerfe alle vom Benutzer angegebenen Entwicklerverzeichnisse (fortan wird der Standardsuchmechanismus verwendet, um diese zu finden):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo xcode-select --reset</code></p>

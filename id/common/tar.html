@@ -1,0 +1,53 @@
+<h1 id="tar">tar</h1>
+
+<p>Alat pengarsip berkas.
+Sering digunakan bersamaan dengan alat kompresi tertentu, seperti <code class="language-plaintext highlighter-rouge">gzip</code> atau <code class="language-plaintext highlighter-rouge">bzip2</code>.
+Informasi lebih lanjut: <a href="https://www.gnu.org/software/tar">https://www.gnu.org/software/tar</a>.</p>
+
+<ul>
+  <li>Buat ([c]reate) suatu arsip dan simpan ke dalam suatu berkas ([f]ile):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar cf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/target.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 …</span></p>
+
+<ul>
+  <li>Buat ([c]reate) suatu arsip dengan tambahan kompresi g[z]ip dan simpan ke dalam suatu berkas ([f]ile):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar czf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/target.tar.gz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 …</span></p>
+
+<ul>
+  <li>Buat ([c]reate) suatu arsip dengan tambahan kompresi g[z]ip dari suatu direktori mengunakan alamat berkas relatif:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar czf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/target.tar.gz</span><code class="language-plaintext highlighter-rouge"> --directory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span><code class="language-plaintext highlighter-rouge"> .</code></p>
+
+<ul>
+  <li>E[x]trak suatu berkas ([f]ile) arsip (biasa atau terkompres) menuju direktori saat ini dengan menampilkan rincian operasi (mode [v]erbose):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar xvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber.tar[.gz|.bz2|.xz]</span></p>
+
+<ul>
+  <li>E[x]trak suatu berkas ([f]ile) arsip (biasa atau terkompres) menuju direktori target yang ditentukan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar xf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber.tar[.gz|.bz2|.xz]</span><code class="language-plaintext highlighter-rouge"> --directory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span></p>
+
+<ul>
+  <li>Buat ([c]reate) suatu arsip  terkompres dan simpan di dalam suatu berkas ([f]ile), menggunakan metode kompresi yang ditentukan secara otom[a]tis berdasarkan nama ekstensi berkas tujuan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar caf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/target.tar.xz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 …</span></p>
+
+<ul>
+  <li>[t]ampilkan isi suatu berkas ([f]ile) tar secara rinci (mode [v]erbose):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar tvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber.tar</span></p>
+
+<ul>
+  <li>E[x]trak kumpulan berkas yang namanya memenuhi pola kriteria yang ditentukan dari suatu berkas ([f]ile) arsip:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar xf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber.tar</span><code class="language-plaintext highlighter-rouge"> --wildcards "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.html</span><code class="language-plaintext highlighter-rouge">"</code></p>

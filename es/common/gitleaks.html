@@ -1,0 +1,46 @@
+<h1 id="gitleaks">gitleaks</h1>
+
+<p>Detecta secretos y claves API filtradas en repositorios Git.
+Más información: <a href="https://github.com/gitleaks/gitleaks">https://github.com/gitleaks/gitleaks</a>.</p>
+
+<ul>
+  <li>Escanea un repositorio remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks detect --repo-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://github.com/usuario/repositorio.git</span></p>
+
+<ul>
+  <li>Escanea un directorio local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks detect --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/repositorio</span></p>
+
+<ul>
+  <li>Crea un archivo JSON con los resultados del análisis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks detect --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/repositorio</span><code class="language-plaintext highlighter-rouge"> --report </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/informe.json</span></p>
+
+<ul>
+  <li>Utiliza un archivo de reglas personalizado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks detect --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/repositorio</span><code class="language-plaintext highlighter-rouge"> --config-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo_de_configuración.toml</span></p>
+
+<ul>
+  <li>Inicia la búsqueda a partir de una confirmación específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks detect --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/repositorio</span><code class="language-plaintext highlighter-rouge"> --log-opts </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–since=identificador_confirmación</span></p>
+
+<ul>
+  <li>Escanea cambios no confirmados antes de una confirmación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks protect --staged</code></p>
+
+<ul>
+  <li>Muestra información detallada que indica que partes se identificaron como fugas durante el análisis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks protect --staged --verbose</code></p>

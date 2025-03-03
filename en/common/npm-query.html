@@ -1,0 +1,46 @@
+<h1 id="npm-query">npm query</h1>
+
+<p>Print an array of dependency objects using CSS-like selectors.
+More information: <a href="https://docs.npmjs.com/cli/commands/npm-query">https://docs.npmjs.com/cli/commands/npm-query</a>.</p>
+
+<ul>
+  <li>Print direct dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm query ':root &gt; *'</code></p>
+
+<ul>
+  <li>Print all direct production/development dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm query ':root &gt; .</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prod|dev</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Print dependencies with a specific name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm query '#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Print dependencies with a specific name and within a semantic versioning range:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm query '#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">semantic_version</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Print dependencies which have no dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm query ':empty'</code></p>
+
+<ul>
+  <li>Find all dependencies with postinstall scripts and uninstall them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm query ":attr(scripts, [postinstall])" | jq 'map(.name) | join("\n")' -r | xargs -I {} npm uninstall {}</code></p>
+
+<ul>
+  <li>Find all Git dependencies and print which application requires them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm query ":type(git)" | jq 'map(.name)' | xargs -I {} npm why {}</code></p>

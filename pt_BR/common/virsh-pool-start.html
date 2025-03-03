@@ -1,0 +1,11 @@
+<h1 id="virsh-pool-start">virsh pool-start</h1>
+
+<p>Inicia um pool de armazenamento de máquina virtual previamente configurado, mas inativo.
+Veja também: <code class="language-plaintext highlighter-rouge">virsh</code>, <code class="language-plaintext highlighter-rouge">virsh-pool-define-as</code>, <code class="language-plaintext highlighter-rouge">virsh-pool-destroy</code>.
+Mais informações: <a href="https://manned.org/virsh">https://manned.org/virsh</a>.</p>
+
+<ul>
+  <li>Inicia o pool de armazenamento especificado pelo nome ou UUID (determinado usando <code class="language-plaintext highlighter-rouge">virsh pool-list</code>) e cria o sistema de armazenamento subjacente se ele não existir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh pool-start --pool </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome|uuid</span><code class="language-plaintext highlighter-rouge"> --build</code></p>

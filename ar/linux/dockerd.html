@@ -1,0 +1,34 @@
+<h1 id="dockerd">dockerd</h1>
+
+<p>هي عملية مستمرة تعمل في الخلفية تبدأها لتتحكم في حاويات الدوكر.
+لمزيد من التفاصيل: <a href="https://docs.docker.com/reference/cli/dockerd/">https://docs.docker.com/reference/cli/dockerd/</a>.</p>
+
+<ul>
+  <li>قم بتشغيل دوكر في الخلفية:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockerd</code></p>
+
+<ul>
+  <li>قم بتشغيل دوكر في الخلفية واجعله يستمع علي منفذ معين (يونكس وبروتوكول ضبط الإرسال):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockerd --host unix://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/tmp.sock</span><code class="language-plaintext highlighter-rouge"> --host tcp://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span></p>
+
+<ul>
+  <li>قم بتشغيل دوكر في الخلفية برقم عملية معين:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockerd --pidfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pid_file</span></p>
+
+<ul>
+  <li>قم بتشغيل دوكر في وضع التصحيح واكتشاف الأخطاء:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockerd --debug</code></p>
+
+<ul>
+  <li>قم بتشغيل دوكر وحدد له مستوي سجل معين:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockerd --log-level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">debug|info|warn|error|fatal</span></p>

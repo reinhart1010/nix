@@ -1,0 +1,44 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="g">g++</h1>
+
+<p>Kompiliere C++ Quelldateien.
+Teil der GCC (GNU Compiler Collection).
+Weitere Informationen: <a href="https://gcc.gnu.org">https://gcc.gnu.org</a>.</p>
+
+<ul>
+  <li>Kompiliere eine Quelldatei in eine ausführbare Binärdatei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">g++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.cpp</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/binärdatei</span></p>
+
+<ul>
+  <li>Zeige geläufige Fehler und Warnungen an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">g++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.cpp</span><code class="language-plaintext highlighter-rouge"> -Wall -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/binärdatei</span></p>
+
+<ul>
+  <li>Wähle einen Sprachstandard (C++98/C++11/C++14/C++17) für das Kompilieren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">g++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.cpp</span><code class="language-plaintext highlighter-rouge"> -std=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C++98|C++11|C++14|C++17</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/binärdatei</span></p>
+
+<ul>
+  <li>Binde Bibliotheken, die sich an einem anderen Pfad als die Quelldatei befinden, ein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">g++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.cpp</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/binärdatei</span><code class="language-plaintext highlighter-rouge"> -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/headerdatei</span><code class="language-plaintext highlighter-rouge"> -L</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bibliothek</span><code class="language-plaintext highlighter-rouge"> -l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bibliotheks_name</span></p>
+
+<ul>
+  <li>Kompiliere und linke mehrere Quelldateien in eine ausführbare Binärdatei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">g++ -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei_1.cpp pfad/zu/quelldatei_2.cpp …</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; g++ -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/binärdatei</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei_1.o pfad/zu/quelldatei_2.o …</span></p>
+
+<ul>
+  <li>Gib die Version von <code class="language-plaintext highlighter-rouge">g++</code> aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">g++ --version</code></p>

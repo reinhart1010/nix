@@ -1,0 +1,52 @@
+<h1 id="tart">tart</h1>
+
+<p>Apple Silicon에서 macOS 및 Linux 가상 머신(VM)을 빌드, 실행 및 관리.
+더 많은 정보: <a href="https://github.com/cirruslabs/tart">https://github.com/cirruslabs/tart</a>.</p>
+
+<ul>
+  <li>원격 VM 이미지 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">acme.io/org/name:tag</span></p>
+
+<ul>
+  <li>로컬 또는 원격 이미지 소스에서 VM 복제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소스-VM</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VM-이름</span></p>
+
+<ul>
+  <li>특정 ipsw 파일에서 새로운 Mac VM 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart create --from-ipsw=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">latest|경로/대상/파일.ipsw</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VM-이름</span></p>
+
+<ul>
+  <li>기존 VM 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VM-이름</span></p>
+
+<ul>
+  <li>특정 폴더를 마운트하여 기존 VM 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart run --dir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/로컬_폴더</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VM-이름</span></p>
+
+<ul>
+  <li>VM 목록 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart list</code></p>
+
+<ul>
+  <li>실행 중인 VM의 IP 주소 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart ip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VM-이름</span></p>
+
+<ul>
+  <li>VM의 디스플레이 해상도 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VM-이름</span><code class="language-plaintext highlighter-rouge"> --display </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640</span><code class="language-plaintext highlighter-rouge">x</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">400</span></p>

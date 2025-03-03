@@ -1,0 +1,53 @@
+<h1 id="pacman-sync">pacman –sync</h1>
+
+<p>Kegunaan manajer paket Arch Linux.
+Guarda anche: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Informasi lebih lanjut: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Instal paket baru:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Sinkronkan dan perbarui semua paket (tambahkan <code class="language-plaintext highlighter-rouge">--downloadonly</code> untuk unduh paket dan tidak memperbarui-nya):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade</code></p>
+
+<ul>
+  <li>Perbarui semua paket dan instal paket baru tanpa konfirmasi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Cari paket dalam database berdasarkan regular expression atau kata kunci:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --sync --search "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pola_pencarian</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Tampilkan informasi sebuah paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --sync --info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Timpa file yang bentrok selama pembaruan paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade --overwrite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span></p>
+
+<ul>
+  <li>Sinkronkan dan perbarui semua paket, namun abaikan paket tertentu (dapat digunakan lebih dari sekali):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Hapus paket yang tidak terpasang dan repositori yang tidak digunakan dari cache (gunakan dua tanda <code class="language-plaintext highlighter-rouge">--clean</code> untuk bersihkan semua paket):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --clean</code></p>

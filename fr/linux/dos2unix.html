@@ -1,0 +1,30 @@
+<h1 id="dos2unix">dos2unix</h1>
+
+<p>Remplace les fins de lignes de style DOS par des fins de lignes de style Unix.
+Remplace CRLF par LF.
+Voir également <code class="language-plaintext highlighter-rouge">unix2dos</code>, <code class="language-plaintext highlighter-rouge">unix2mac</code>, et <code class="language-plaintext highlighter-rouge">mac2unix</code>.
+Plus d'informations : <a href="https://manned.org/dos2unix">https://manned.org/dos2unix</a>.</p>
+
+<ul>
+  <li>Remplace les fins de lignes d'un fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dos2unix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Crée une copie avec des fins de lignes de type Unix :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dos2unix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–newfile</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/nouveau_fichier</span></p>
+
+<ul>
+  <li>Affiche les informations d'un fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dos2unix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–info</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Conserve/Ecrit/Supprime la marque d'ordre des octets (BOM) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dos2unix --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keep-bom|add-bom|remove-bom</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>

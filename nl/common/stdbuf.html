@@ -1,0 +1,22 @@
+<h1 id="stdbuf">stdbuf</h1>
+
+<p>Voer een commando uit met aangepaste buffering operaties voor de standaard streams.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/stdbuf-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/stdbuf-invocation.html</a>.</p>
+
+<ul>
+  <li>Verander de buffer grootte van <code class="language-plaintext highlighter-rouge">stdin</code> naar 512 KiB:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stdbuf --input=512K </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span></p>
+
+<ul>
+  <li>Verander de buffer van <code class="language-plaintext highlighter-rouge">stdout</code> naar lijn-buffering:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stdbuf --output=L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span></p>
+
+<ul>
+  <li>Verander de buffer van <code class="language-plaintext highlighter-rouge">stderr</code> naar ongebufferd:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stdbuf --error=0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span></p>

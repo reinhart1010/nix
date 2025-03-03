@@ -1,0 +1,46 @@
+<h1 id="ipcrm">ipcrm</h1>
+
+<p>IPC(프로세스 간 통신) 리소스를 삭제합니다.
+더 많은 정보: <a href="https://manned.org/ipcrm">https://manned.org/ipcrm</a>.</p>
+
+<ul>
+  <li>ID로 공유 메모리 세그먼트 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcrm --shmem-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">공유_메모리_ID</span></p>
+
+<ul>
+  <li>키로 공유 메모리 세그먼트 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcrm --shmem-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">공유_메모리_키</span></p>
+
+<ul>
+  <li>ID로 IPC 큐 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcrm --queue-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IPC_큐_ID</span></p>
+
+<ul>
+  <li>키로 IPC 큐 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcrm --queue-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IPC_큐_키</span></p>
+
+<ul>
+  <li>ID로 세마포어 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcrm --semaphore-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">세마포어_ID</span></p>
+
+<ul>
+  <li>키로 세마포어 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcrm --semaphore-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">세마포어_키</span></p>
+
+<ul>
+  <li>모든 IPC 리소스 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcrm --all</code></p>

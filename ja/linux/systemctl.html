@@ -1,0 +1,52 @@
+<h1 id="systemctl">systemctl</h1>
+
+<p>systemd システムとサービスマネージャーを制御します。
+もっと詳しく: <a href="https://www.freedesktop.org/software/systemd/man/systemctl.html">https://www.freedesktop.org/software/systemd/man/systemctl.html</a>。</p>
+
+<ul>
+  <li>実行中のサービスを全て表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl status</code></p>
+
+<ul>
+  <li>失敗状態のユニット一覧:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl --failed</code></p>
+
+<ul>
+  <li>サービスを Start/Stop/Restart/Reload/Show 状態にする:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop|restart|reload|status</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユニット</span></p>
+
+<ul>
+  <li>起動時に起動するユニットを Enable/Disable に設定する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enable|disable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユニット</span></p>
+
+<ul>
+  <li>systemdを再読み込みし、新規または変更されたユニットをスキャンする:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl daemon-reload</code></p>
+
+<ul>
+  <li>ユニットが active/enabled/failed かをチェックする:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">is-active|is-enabled|is-failed</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユニット</span></p>
+
+<ul>
+  <li>全ての service/socket/automount ユニットを running/failed 状態でフィルタリングして一覧表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl list-units --type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service|socket|automount</span><code class="language-plaintext highlighter-rouge"> --state=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">failed|running</span></p>
+
+<ul>
+  <li>ユニットファイルの内容と絶対パスを表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユニット</span></p>

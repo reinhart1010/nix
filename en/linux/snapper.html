@@ -1,0 +1,40 @@
+<h1 id="snapper">snapper</h1>
+
+<p>Filesystem snapshot management tool.
+More information: <a href="http://snapper.io/manpages/snapper.html">http://snapper.io/manpages/snapper.html</a>.</p>
+
+<ul>
+  <li>List snapshot configs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snapper list-configs</code></p>
+
+<ul>
+  <li>Create snapper config:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snapper -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config</span><code class="language-plaintext highlighter-rouge"> create-config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Create a snapshot with a description:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snapper -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config</span><code class="language-plaintext highlighter-rouge"> create -d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot_description</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>List snapshots for a config:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snapper -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config</span><code class="language-plaintext highlighter-rouge"> list</code></p>
+
+<ul>
+  <li>Delete a snapshot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snapper -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config</span><code class="language-plaintext highlighter-rouge"> delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot_number</span></p>
+
+<ul>
+  <li>Delete a range of snapshots:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snapper -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config</span><code class="language-plaintext highlighter-rouge"> delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot1</span><code class="language-plaintext highlighter-rouge">-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot2</span></p>

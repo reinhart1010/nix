@@ -1,0 +1,52 @@
+<h1 id="aws-ecr">aws ecr</h1>
+
+<p>Push, pull, and manage container images.
+More information: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecr/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecr/index.html</a>.</p>
+
+<ul>
+  <li>Authenticate Docker with the default registry (username is AWS):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ecr get-login-password --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span><code class="language-plaintext highlighter-rouge"> | </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">docker login</span><code class="language-plaintext highlighter-rouge"> --username AWS --password-stdin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aws_account_id</span><code class="language-plaintext highlighter-rouge">.dkr.ecr.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span><code class="language-plaintext highlighter-rouge">.amazonaws.com</code></p>
+
+<ul>
+  <li>Create a repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ecr create-repository --repository-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span><code class="language-plaintext highlighter-rouge"> --image-scanning-configuration scanOnPush=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true|false</span><code class="language-plaintext highlighter-rouge"> --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span></p>
+
+<ul>
+  <li>Tag a local image for ECR:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aws_account_id</span><code class="language-plaintext highlighter-rouge">.dkr.ecr.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span><code class="language-plaintext highlighter-rouge">.amazonaws.com/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span></p>
+
+<ul>
+  <li>Push an image to a repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aws_account_id</span><code class="language-plaintext highlighter-rouge">.dkr.ecr.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span><code class="language-plaintext highlighter-rouge">.amazonaws.com/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span></p>
+
+<ul>
+  <li>Pull an image from a repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aws_account_id</span><code class="language-plaintext highlighter-rouge">.dkr.ecr.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span><code class="language-plaintext highlighter-rouge">.amazonaws.com/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span></p>
+
+<ul>
+  <li>Delete an image from a repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ecr batch-delete-image --repository-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span><code class="language-plaintext highlighter-rouge"> --image-ids imageTag=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">latest</span></p>
+
+<ul>
+  <li>Delete a repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ecr delete-repository --repository-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span><code class="language-plaintext highlighter-rouge"> --force</code></p>
+
+<ul>
+  <li>List images within a repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ecr list-images --repository-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span></p>

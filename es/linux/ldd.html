@@ -1,0 +1,35 @@
+<h1 id="ldd">ldd</h1>
+
+<p>Muestra dependencias de bibliotecas compartidas de un binario.
+No use en un binario no confiable, use <code class="language-plaintext highlighter-rouge">objdump</code> para esto en su lugar.
+Más información: <a href="https://manned.org/ldd">https://manned.org/ldd</a>.</p>
+
+<ul>
+  <li>Muestra dependencias de biblioteca compartidas de un binario:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/binario</span></p>
+
+<ul>
+  <li>Muestra toda la información sobre las dependencias:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldd --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/binario</span></p>
+
+<ul>
+  <li>Muestra dependencias directas no utilizadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldd --unused </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/binario</span></p>
+
+<ul>
+  <li>Reporta objetos de datos perdidos y realiza reubicaciones de datos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldd --data-relocs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/binario</span></p>
+
+<ul>
+  <li>Reporta objetos y funciones de datos ausentes y los reubica a ambos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldd --function-relocs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/binario</span></p>

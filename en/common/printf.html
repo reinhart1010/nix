@@ -1,0 +1,40 @@
+<h1 id="printf">printf</h1>
+
+<p>Format and print text.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/printf-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/printf-invocation.html</a>.</p>
+
+<ul>
+  <li>Print a text message:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%s\n</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello world</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Print an integer in bold blue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\e[1;34m%.3d\e[0m\n</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">42</span></p>
+
+<ul>
+  <li>Print a float number with the Unicode Euro sign:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\u20AC %.2f\n</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">123.4</span></p>
+
+<ul>
+  <li>Print a text message composed with environment variables:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">var1: %s\tvar2: %s\n</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$VAR1</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$VAR2</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Store a formatted message in a variable (does not work on Zsh):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">myvar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"This is %s = %d\n" "a year" 2016</span></p>
+
+<ul>
+  <li>Print a hexadecimal, octal and scientific number:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hex=%x octal=%o scientific=%e</span><code class="language-plaintext highlighter-rouge">" 0x</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">FF</span><code class="language-plaintext highlighter-rouge"> 0</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">377</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100000</span></p>

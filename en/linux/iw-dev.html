@@ -1,0 +1,47 @@
+<h1 id="iw-dev">iw dev</h1>
+
+<p>Show and manipulate wireless devices.
+For a list of channels, frequencies and reg information: <a href="https://wireless.docs.kernel.org/en/latest/en/developers/documentation/channellist.html">https://wireless.docs.kernel.org/en/latest/en/developers/documentation/channellist.html</a>.
+More information: <a href="https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html">https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html</a>.</p>
+
+<ul>
+  <li>Set device to monitor mode (interface must be down first. See also <code class="language-plaintext highlighter-rouge">ip link</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iw dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlp</span><code class="language-plaintext highlighter-rouge"> set type monitor</code></p>
+
+<ul>
+  <li>Set device to managed mode (interface must be down first):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iw dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlp</span><code class="language-plaintext highlighter-rouge"> set type managed</code></p>
+
+<ul>
+  <li>Set device WiFi channel (device must first be in monitor mode with the interface up):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iw dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlp</span><code class="language-plaintext highlighter-rouge"> set channel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">channel_number</span></p>
+
+<ul>
+  <li>Set device WiFi frequency in Mhz (device must first be in monitor mode with the interface up):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iw dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlp</span><code class="language-plaintext highlighter-rouge"> set freq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">freq_in_mhz</span></p>
+
+<ul>
+  <li>Show all known station info:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iw dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlp</span><code class="language-plaintext highlighter-rouge"> station dump</code></p>
+
+<ul>
+  <li>Create a virtual interface in monitor mode with a specific MAC address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iw dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlp</span><code class="language-plaintext highlighter-rouge"> interface add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vif_name</span><code class="language-plaintext highlighter-rouge">" type monitor addr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">12:34:56:aa:bb:cc</span></p>
+
+<ul>
+  <li>Delete virtual interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iw dev "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vif_name</span><code class="language-plaintext highlighter-rouge">" del</code></p>

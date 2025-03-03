@@ -1,0 +1,28 @@
+<h1 id="bmaptool">bmaptool</h1>
+
+<p>블록 맵을 지능적으로 생성 및 복사( <code class="language-plaintext highlighter-rouge">cp</code> 혹은 <code class="language-plaintext highlighter-rouge">dd</code>보다 빠른 속도).
+더 많은 정보: <a href="https://source.tizen.org/documentation/reference/bmaptool">https://source.tizen.org/documentation/reference/bmaptool</a>.</p>
+
+<ul>
+  <li>이미지 파일에서 블록 맵 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bmaptool create -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">블록맵.bmap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지 파일</span></p>
+
+<ul>
+  <li>이미지 파일을 sdb로 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bmaptool copy --bmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">블록맵.bmap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지 파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb</span></p>
+
+<ul>
+  <li>압축된 이미지 파일을 sdb로 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bmaptool copy --bmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">블록맵.bmap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">압축된 이미지 파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb</span></p>
+
+<ul>
+  <li>블록맵을 사용하지 않고 이미지 파일을 sdb로 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bmaptool copy --nobmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지 파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb</span></p>

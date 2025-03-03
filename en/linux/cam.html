@@ -1,0 +1,28 @@
+<h1 id="cam">cam</h1>
+
+<p>Frontend tool for <code class="language-plaintext highlighter-rouge">libcamera</code>.
+More information: <a href="https://libcamera.org/docs.html">https://libcamera.org/docs.html</a>.</p>
+
+<ul>
+  <li>List available cameras:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cam --list</code></p>
+
+<ul>
+  <li>List controls of a camera:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cam --camera </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">camera_index</span><code class="language-plaintext highlighter-rouge"> --list-controls</code></p>
+
+<ul>
+  <li>Write frames to a folder:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cam --camera </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">camera_index</span><code class="language-plaintext highlighter-rouge"> --capture=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">frames_to_capture</span><code class="language-plaintext highlighter-rouge"> --file</code></p>
+
+<ul>
+  <li>Display camera feed in a window:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cam --camera </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">camera_index</span><code class="language-plaintext highlighter-rouge"> --capture --sdl</code></p>

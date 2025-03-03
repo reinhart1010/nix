@@ -1,0 +1,28 @@
+<h1 id="makepasswd">makepasswd</h1>
+
+<p>비밀번호 생성 및 암호화.
+더 많은 정보: <a href="https://manpages.debian.org/latest/makepasswd/makepasswd.1.en.html">https://manpages.debian.org/latest/makepasswd/makepasswd.1.en.html</a>.</p>
+
+<ul>
+  <li>무작위 비밀번호 생성 (8~10자, 문자 및 숫자 포함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">makepasswd</code></p>
+
+<ul>
+  <li>10자 길이의 비밀번호 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">makepasswd --chars </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>5~10자 길이의 비밀번호 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">makepasswd --minchars </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> --maxchars </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>"b", "a", "r" 문자만 포함하는 비밀번호 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">makepasswd --string </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span></p>

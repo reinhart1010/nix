@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="jq">jq</h1>
+
+<p>Ein JSON-Verarbeiter für die Kommandozeile mit einer domänenspezifischen Sprache.
+Weitere Informationen: <a href="https://jqlang.github.io/jq/manual/">https://jqlang.github.io/jq/manual/</a>.</p>
+
+<ul>
+  <li>Führe den angegebenen Ausdruck aus (gib farbiges und formatiertes JSON aus):</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat pfad/zu/datei.json</span><code class="language-plaintext highlighter-rouge"> | jq '.'</code></p>
+
+<ul>
+  <li>Führe ein gegebenes Skript aus:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat pfad/zu/datei.json</span><code class="language-plaintext highlighter-rouge"> | jq --from-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/skript.jq</span></p>
+
+<ul>
+  <li>Übergib bestimmte Argumente:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat pfad/zu/datei.json</span><code class="language-plaintext highlighter-rouge"> | jq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–arg "name1" "wert1" –arg "name2" "wert2" …</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">. + $ARGS.named</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Gib bestimmte Schlüssel aus:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat pfad/zu/datei.json</span><code class="language-plaintext highlighter-rouge"> | jq '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.schlüssel1, .schlüssel2, …</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Gib bestimmte Listenelemente aus:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat pfad/zu/datei.json</span><code class="language-plaintext highlighter-rouge"> | jq '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.[index1], .[index2], …</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Gib alle Listenelemente/Objektschlüssel aus:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat pfad/zu/datei.json</span><code class="language-plaintext highlighter-rouge"> | jq '.[]'</code></p>
+
+<ul>
+  <li>Füge bestimmte Schlüssel hinzu/lösche bestimmte Schlüssel:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat pfad/zu/datei.json</span><code class="language-plaintext highlighter-rouge"> | jq '. </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+|-</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{"schlüssel1": "wert1", "schlüssel2": "wert2", …}</span><code class="language-plaintext highlighter-rouge">'</code></p>

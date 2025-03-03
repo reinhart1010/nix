@@ -1,0 +1,28 @@
+<h1 id="daemonize">daemonize</h1>
+
+<p>Lance une commande (qui ne se "démonise" pas elle-même) comme démon UNIX.
+Plus d'informations : <a href="https://software.clapper.org/daemonize/">https://software.clapper.org/daemonize/</a>.</p>
+
+<ul>
+  <li>Lance une commande comme démon :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemonize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments_de_commande</span></p>
+
+<ul>
+  <li>Écrit le PID dans le fichier spécifié :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemonize -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/fichier/pid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments_de_commande</span></p>
+
+<ul>
+  <li>Utilise un fichier verrou pour s'assurer que seulement une instance fonctionne à la fois :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemonize -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/fichier/verrou</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments_de_commande</span></p>
+
+<ul>
+  <li>Utilise le compte utilisateur spécifié :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo daemonize -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utilisateur</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments_de_commande</span></p>

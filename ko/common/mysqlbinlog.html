@@ -1,0 +1,34 @@
+<h1 id="mysqlbinlog">mysqlbinlog</h1>
+
+<p>MySQL 바이너리 로그 파일을 처리하는 도구.
+더 많은 정보: <a href="https://dev.mysql.com/doc/refman/8.0/en/mysqlbinlog.html">https://dev.mysql.com/doc/refman/8.0/en/mysqlbinlog.html</a>.</p>
+
+<ul>
+  <li>특정 바이너리 로그 파일에서 이벤트 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlbinlog </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/바인로그</span></p>
+
+<ul>
+  <li>특정 데이터베이스에 대한 바이너리 로그의 항목 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlbinlog --database </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/바인로그</span></p>
+
+<ul>
+  <li>특정 날짜 사이의 바이너리 로그에서 이벤트 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlbinlog --start-datetime='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2022-01-01 01:00:00</span><code class="language-plaintext highlighter-rouge">' --stop-datetime='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2022-02-01 01:00:00</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/바인로그</span></p>
+
+<ul>
+  <li>특정 위치 사이의 바이너리 로그에서 이벤트 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlbinlog --start-position=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --stop-position=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">200</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/바인로그</span></p>
+
+<ul>
+  <li>지정된 호스트의 MySQL 서버에서 바이너리 로그 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlbinlog --host=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/바인로그</span></p>

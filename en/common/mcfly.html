@@ -1,0 +1,41 @@
+<h1 id="mcfly">mcfly</h1>
+
+<p>A smart command history search and management tool.
+Replaces your default shell history search (ctrl-r) with an intelligent search engine providing context and relevance to the commands.
+More information: <a href="https://github.com/cantino/mcfly">https://github.com/cantino/mcfly</a>.</p>
+
+<ul>
+  <li>Print the mcfly integration code for the specified shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mcfly init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash|fish|zsh</span></p>
+
+<ul>
+  <li>Search the history for a command, with 20 results:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mcfly search --results </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_terms</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Add a new command to the history:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mcfly add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Record that a directory has moved and transfer the historical records from the old path to the new one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mcfly move "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/old_directory</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new_directory</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Train the suggestion engine (developer tool):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mcfly train</code></p>
+
+<ul>
+  <li>Display help for a specific subcommand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mcfly help </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>

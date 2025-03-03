@@ -1,0 +1,35 @@
+<h1 id="nix-registry">nix registry</h1>
+
+<p>Manage a Nix flake registry.
+See also: <code class="language-plaintext highlighter-rouge">nix3 flake</code> for information about flakes.
+More information: <a href="https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-registry.html">https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-registry.html</a>.</p>
+
+<ul>
+  <li>Pin the <code class="language-plaintext highlighter-rouge">nixpkgs</code> revision to the current version of the upstream repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix registry pin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs</span></p>
+
+<ul>
+  <li>Pin an entry to the latest version of the branch, or a particular reivision of a GitHub repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix registry pin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">entry</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github:owner/repo/branch_or_revision</span></p>
+
+<ul>
+  <li>Add a new entry that always points to the latest version of a GitHub repository, updating automatically:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix registry add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">entry</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github:owner/repo</span></p>
+
+<ul>
+  <li>Remove a registry entry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix registry remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">entry</span></p>
+
+<ul>
+  <li>See documentation about what Nix flake registries are:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix registry --help</code></p>

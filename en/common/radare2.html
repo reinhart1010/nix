@@ -1,0 +1,40 @@
+<h1 id="radare2">radare2</h1>
+
+<p>A set of reverse engineering tools.
+More information: <a href="https://www.radare.org/r/docs.html">https://www.radare.org/r/docs.html</a>.</p>
+
+<ul>
+  <li>Open a file in write mode without parsing the file format headers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">radare2 -nw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>Debug a program:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">radare2 -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>Run a script before entering the interactive CLI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">radare2 -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.r2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>Display help text for any command in the interactive CLI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">radare2_command</span><code class="language-plaintext highlighter-rouge">?</code></p>
+
+<ul>
+  <li>Run a shell command from the interactive CLI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&gt; !</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell_command</span></p>
+
+<ul>
+  <li>Dump raw bytes of current block to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&gt; pr &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.bin</span></p>

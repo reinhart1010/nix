@@ -1,0 +1,34 @@
+<h1 id="pandoc">pandoc</h1>
+
+<p>Convert documents between various formats.
+More information: <a href="https://pandoc.org/MANUAL.html">https://pandoc.org/MANUAL.html</a>.</p>
+
+<ul>
+  <li>Convert file to PDF (the output format is determined by file extension):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pandoc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.md</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pdf</span></p>
+
+<ul>
+  <li>Convert to a standalone file with the appropriate headers/footers (for LaTeX, HTML, etc.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pandoc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.md</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-s|–standalone</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.html</span></p>
+
+<ul>
+  <li>Manually specify format detection and conversion (overriding automatic format detection using filename extension or when filename extension is missing altogether):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pandoc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|-r|–from|–read</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">docx|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|-w|–to|–write</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output</span></p>
+
+<ul>
+  <li>List all supported input formats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pandoc --list-input-formats</code></p>
+
+<ul>
+  <li>List all supported output formats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pandoc --list-output-formats</code></p>

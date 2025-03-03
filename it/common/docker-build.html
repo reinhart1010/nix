@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="docker-build">docker build</h1>
+
+<p>Crea un'immagine a partire da un Dockerfile. La creazione di un'immagine Docker è chiamata build.
+Maggiori informazioni: <a href="https://docs.docker.com/reference/cli/docker/buildx/build/">https://docs.docker.com/reference/cli/docker/buildx/build/</a>.</p>
+
+<ul>
+  <li>Crea un'immagine Docker usando il Dockerfile nella directory corrente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker build .</code></p>
+
+<ul>
+  <li>Crea un'immagine Docker usando il Dockerfile disponibile a un dato URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github.com/creack/docker-firefox</span></p>
+
+<ul>
+  <li>Crea e tagga un'immagine Docker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker build --tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome:tag</span><code class="language-plaintext highlighter-rouge"> .</code></p>
+
+<ul>
+  <li>Non usare la cache per la creazione di un'immagine Docker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker build --no-cache --tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome:tag</span><code class="language-plaintext highlighter-rouge"> .</code></p>
+
+<ul>
+  <li>Crea un'immagine Docker usando un dato Dockerfile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker build --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Dockerfile</span><code class="language-plaintext highlighter-rouge"> .</code></p>
+
+<ul>
+  <li>Crea un'immagine Docker usando variabili fornite in fase di build:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker build --build-arg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HTTP_PROXY=http://10.20.30.2:1234</span><code class="language-plaintext highlighter-rouge"> --build-arg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">FTP_PROXY=http://40.50.60.5:4567</span><code class="language-plaintext highlighter-rouge"> .</code></p>

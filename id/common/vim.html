@@ -1,0 +1,54 @@
+<h1 id="vim">vim</h1>
+
+<p>Vim (Vi IMproved), suatu aplikasi pengolah teks berbasis baris perintah, yang menyediakan beberapa mode untuk berbagai jenis proses manipulasi teks.
+Menekan <code class="language-plaintext highlighter-rouge">i</code> dalam mode normal akan memasuki mode penyisipan (insert). Menekan <code class="language-plaintext highlighter-rouge">&lt;Esc&gt;</code> akan kembali ke mode normal, yang memungkinkan penggunaan perintah Vim.
+Lihat juga: <code class="language-plaintext highlighter-rouge">vimdiff</code>, <code class="language-plaintext highlighter-rouge">vimtutor</code>, <code class="language-plaintext highlighter-rouge">nvim</code>.
+Informasi lebih lanjut: <a href="https://www.vim.org">https://www.vim.org</a>.</p>
+
+<ul>
+  <li>Buka suatu berkas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vim </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span></p>
+
+<ul>
+  <li>Buka suatu berkas pada nomor baris teks tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vim +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nomor_baris</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span></p>
+
+<ul>
+  <li>Lihat manual bantuan untuk Vim:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:help&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>Simpan dan keluar dari sesi pengolahan teks saat ini:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>&lt;/span&gt;</Enter></Esc></Enter></Esc></Esc></span></p>
+
+<ul>
+  <li>Masuk ke mode normal dan batalkan operasi terakhir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;u</code></p>
+
+<ul>
+  <li>Cari pola dalam berkas (tekan <code class="language-plaintext highlighter-rouge">n</code>/<code class="language-plaintext highlighter-rouge">N</code> untuk menuju ke kecocokan berikutnya/sebelumnya):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pola_pencarian</span><code class="language-plaintext highlighter-rouge">&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>Lakukan substitusi ekspresi reguler di seluruh berkas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:%s/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ekspresi_reguler</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">teks_pengganti</span><code class="language-plaintext highlighter-rouge">/g&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>Tampilkan nomor baris:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:set nu&lt;Enter&gt;</code></p>

@@ -1,0 +1,47 @@
+<h1 id="gpg2">gpg2</h1>
+
+<p>GNU Privacy Guard 2.
+See <code class="language-plaintext highlighter-rouge">gpg</code> for GNU Privacy Guard 1.
+More information: <a href="https://docs.releng.linuxfoundation.org/en/latest/gpg.html">https://docs.releng.linuxfoundation.org/en/latest/gpg.html</a>.</p>
+
+<ul>
+  <li>List imported keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg2 --list-keys</code></p>
+
+<ul>
+  <li>Encrypt a specified file for a specified recipient, writing the output to a new file with <code class="language-plaintext highlighter-rouge">.gpg</code> appended:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg2 --encrypt --recipient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/doc.txt</span></p>
+
+<ul>
+  <li>Encrypt a specified file with only a passphrase, writing the output to a new file with <code class="language-plaintext highlighter-rouge">.gpg</code> appended:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg2 --symmetric </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/doc.txt</span></p>
+
+<ul>
+  <li>Decrypt a specified file, writing the result to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg2 --decrypt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/doc.txt.gpg</span></p>
+
+<ul>
+  <li>Import a public key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg2 --import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/public_key.gpg</span></p>
+
+<ul>
+  <li>Export the public key of a specified email address to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg2 --export --armor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span></p>
+
+<ul>
+  <li>Export the private key with a specified email address to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg2 --export-secret-keys --armor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span></p>

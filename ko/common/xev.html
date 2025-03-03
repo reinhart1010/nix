@@ -1,0 +1,28 @@
+<h1 id="xev">xev</h1>
+
+<p>X 이벤트의 내용을 출력.
+더 많은 정보: <a href="https://gitlab.freedesktop.org/xorg/app/xev">https://gitlab.freedesktop.org/xorg/app/xev</a>.</p>
+
+<ul>
+  <li>발생하는 모든 X 이벤트 모니터링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xev</code></p>
+
+<ul>
+  <li>새 창을 생성하지 않고 루트 창의 모든 X 이벤트 모니터링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xev -root</code></p>
+
+<ul>
+  <li>특정 창의 모든 X 이벤트 모니터링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xev -id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">창_ID</span></p>
+
+<ul>
+  <li>주어진 카테고리의 X 이벤트 모니터링 (여러 번 지정 가능):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xev -event </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이벤트_카테고리</span></p>

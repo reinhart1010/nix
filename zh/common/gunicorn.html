@@ -1,0 +1,40 @@
+<h1 id="gunicorn">gunicorn</h1>
+
+<p>Python 的 WSGI HTTP 服务器。
+更多信息：<a href="https://gunicorn.org/">https://gunicorn.org/</a>.</p>
+
+<ul>
+  <li>运行 Python web 应用程序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gunicorn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">导入路径：应用程序</span></p>
+
+<ul>
+  <li>在 localhost 上监听 8080 端口：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gunicorn --bind </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">localhost</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8080</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">导入路径：应用程序</span></p>
+
+<ul>
+  <li>启用实时自动加载：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gunicorn --reload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">导入路径：应用程序</span></p>
+
+<ul>
+  <li>使用 4 个工作进程处理请求：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gunicorn --workers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">导入路径：应用程序</span></p>
+
+<ul>
+  <li>使用 4 个工作线程处理请求：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gunicorn --threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">导入路径：应用程序</span></p>
+
+<ul>
+  <li>通过 HTTPS 运行应用程序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gunicorn --certfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cert.pem</span><code class="language-plaintext highlighter-rouge"> --keyfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key.pem</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">导入路径：应用程序</span></p>

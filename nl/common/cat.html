@@ -1,0 +1,34 @@
+<h1 id="cat">cat</h1>
+
+<p>Toon en voeg bestanden samen.
+Meer informatie: <a href="https://manned.org/cat.1posix">https://manned.org/cat.1posix</a>.</p>
+
+<ul>
+  <li>Toon de inhoud van een bestand in <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Voeg verschillende bestanden samen in een uitvoerbestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoerbestand</span></p>
+
+<ul>
+  <li>Voeg verschillende bestanden toe aan een uitvoerbestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 …</span><code class="language-plaintext highlighter-rouge"> &gt;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoerbestand</span></p>
+
+<ul>
+  <li>Kopieer de inhoud van een bestand in een uitvoerbestand zonder te bufferen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty12</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty13</span></p>
+
+<ul>
+  <li>Schrijf <code class="language-plaintext highlighter-rouge">stdin</code> naar een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat - &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>

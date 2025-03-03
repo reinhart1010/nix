@@ -1,0 +1,40 @@
+<h1 id="btrfs-inspect-internal">btrfs inspect-internal</h1>
+
+<p>Recherche des informations internes concernant un système de fichier btrfs.
+Plus d'informations : <a href="https://btrfs.readthedocs.io/en/latest/btrfs-inspect-internal.html">https://btrfs.readthedocs.io/en/latest/btrfs-inspect-internal.html</a>.</p>
+
+<ul>
+  <li>Afficher les informations du superbloc :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs inspect-internal dump-super </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/partition</span></p>
+
+<ul>
+  <li>Afficher les informations sur les superblocs et toutes ses copies :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs inspect-internal dump-super --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/partition</span></p>
+
+<ul>
+  <li>Afficher les meta-informations du système de fichiers :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs inspect-internal dump-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/partition</span></p>
+
+<ul>
+  <li>Afficher la liste des fichiers dans le <code class="language-plaintext highlighter-rouge">n</code>-ième inode :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs inspect-internal inode-resolve </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/point_de_montage_btrfs</span></p>
+
+<ul>
+  <li>Afficher la liste des fichiers à une adresse logique donnée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs inspect-internal logical-resolve </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">addresse_logique</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/point_de_montage_btrfs</span></p>
+
+<ul>
+  <li>Afficher les statistiques concernant les arbres de racines, de domaines (extent), de sommes de contrôle (csum) et de système de fichiers :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs inspect-internal tree-stats </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/partition</span></p>

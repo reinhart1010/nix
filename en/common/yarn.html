@@ -1,0 +1,40 @@
+<h1 id="yarn">yarn</h1>
+
+<p>JavaScript and Node.js package manager alternative.
+More information: <a href="https://yarnpkg.com">https://yarnpkg.com</a>.</p>
+
+<ul>
+  <li>Install a module globally:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn global add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span></p>
+
+<ul>
+  <li>Install all dependencies referenced in the <code class="language-plaintext highlighter-rouge">package.json</code> file (the <code class="language-plaintext highlighter-rouge">install</code> is optional):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn install</code></p>
+
+<ul>
+  <li>Install a module and save it as a dependency to the <code class="language-plaintext highlighter-rouge">package.json</code> file (add <code class="language-plaintext highlighter-rouge">--dev</code> to save as a dev dependency):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Uninstall a module and remove it from the <code class="language-plaintext highlighter-rouge">package.json</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span></p>
+
+<ul>
+  <li>Interactively create a <code class="language-plaintext highlighter-rouge">package.json</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn init</code></p>
+
+<ul>
+  <li>Identify whether a module is a dependency and list other modules that depend upon it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn why </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span></p>

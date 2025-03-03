@@ -1,0 +1,40 @@
+<h1 id="aws-s3-ls">aws s3 ls</h1>
+
+<p>AWS S3 버킷, 폴더 (접두사) 및 파일 (객체) 나열.
+더 많은 정보: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/ls.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/ls.html</a>.</p>
+
+<ul>
+  <li>모든 버킷 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 ls</code></p>
+
+<ul>
+  <li>버킷 루트 파일 및 폴더 나열 (<code class="language-plaintext highlighter-rouge">s3://</code>는 선택 사항):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 ls s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span></p>
+
+<ul>
+  <li>디렉터리 내부에 있는 파일과 폴더를 직접 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 ls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리/</span><code class="language-plaintext highlighter-rouge">/</code></p>
+
+<ul>
+  <li>버킷의 모든 파일 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 ls --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span></p>
+
+<ul>
+  <li>주어진 접두사가 있는 경로의 모든 파일 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 ls --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버킷_이름</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리/</span><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">접두사</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 ls help</code></p>

@@ -1,0 +1,28 @@
+<h1 id="touch">touch</h1>
+
+<p>Crea archivos y establece los tiempos de acceso y modificación.
+Más información: <a href="https://manned.org/touch">https://manned.org/touch</a>.</p>
+
+<ul>
+  <li>Crea los archivos especificados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">touch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 …</span></p>
+
+<ul>
+  <li>Establece los tiempos de [a]cceso o [m]odificación al momento actual y no [c]rea un archivo si este no existe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">touch -c -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a|m</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 …</span></p>
+
+<ul>
+  <li>Establece los [t]iempos de un archivo a un valor específico y no [c]rea el archivo si no existe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">touch -c -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 …</span></p>
+
+<ul>
+  <li>Usa los tiempos de un archivo de [r]eferencia para establecer los tiempos en otro archivo y no [c]rea el archivo si no existe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">touch -c -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo/de/referencia</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 …</span></p>

@@ -1,0 +1,28 @@
+<h1 id="kosmorro">kosmorro</h1>
+
+<p>Compute the ephemerides and the events for a date at a position on Earth.
+More information: <a href="https://kosmorro.space">https://kosmorro.space</a>.</p>
+
+<ul>
+  <li>Get ephemerides for Paris, France:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kosmorro --latitude=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">48.7996</span><code class="language-plaintext highlighter-rouge"> --longitude=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2.3511</span></p>
+
+<ul>
+  <li>Get ephemerides for Paris, France, in the UTC+2 timezone:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kosmorro --latitude=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">48.7996</span><code class="language-plaintext highlighter-rouge"> --longitude=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2.3511</span><code class="language-plaintext highlighter-rouge"> --timezone=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span></p>
+
+<ul>
+  <li>Get ephemerides for Paris, France, on June 9th, 2020:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kosmorro --latitude=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">48.7996</span><code class="language-plaintext highlighter-rouge"> --longitude=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2.3511</span><code class="language-plaintext highlighter-rouge"> --date=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2020-06-09</span></p>
+
+<ul>
+  <li>Generate a PDF (Note: TeXLive must be installed):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kosmorro --format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span><code class="language-plaintext highlighter-rouge"> --output=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span></p>

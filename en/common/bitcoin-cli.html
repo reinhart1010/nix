@@ -1,0 +1,53 @@
+<h1 id="bitcoin-cli">bitcoin-cli</h1>
+
+<p>Command-line client to interact with the Bitcoin Core daemon via RPC calls.
+Uses the configuration defined in <code class="language-plaintext highlighter-rouge">bitcoin.conf</code>.
+More information: <a href="https://en.bitcoin.it/wiki/Running_Bitcoin#Command-line_arguments">https://en.bitcoin.it/wiki/Running_Bitcoin#Command-line_arguments</a>.</p>
+
+<ul>
+  <li>Send a transaction to a given address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli sendtoaddress "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">amount</span></p>
+
+<ul>
+  <li>Generate one or more blocks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli generate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">num_blocks</span></p>
+
+<ul>
+  <li>Print high-level information about the wallet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli getwalletinfo</code></p>
+
+<ul>
+  <li>List all outputs from previous transactions available to fund outgoing transactions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli listunspent</code></p>
+
+<ul>
+  <li>Export the wallet information to a text file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli dumpwallet "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Get blockchain information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli getblockchaininfo</code></p>
+
+<ul>
+  <li>Get network information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli getnetworkinfo</code></p>
+
+<ul>
+  <li>Stop the Bitcoin Core daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli stop</code></p>

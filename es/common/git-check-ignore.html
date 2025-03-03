@@ -1,0 +1,34 @@
+<h1 id="git-check-ignore">git check-ignore</h1>
+
+<p>Analiza y depura los archivos que Git debe ignorar / excluir (.gitignore).
+Más información: <a href="https://git-scm.com/docs/git-check-ignore">https://git-scm.com/docs/git-check-ignore</a>.</p>
+
+<ul>
+  <li>Comprueba si un archivo o directorio es ignorado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio</span></p>
+
+<ul>
+  <li>Comprueba si varios archivos o directorios son ignorados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 …</span></p>
+
+<ul>
+  <li>Usa nombres de rutas, uno por línea, a partir de la entrada estandar (<code class="language-plaintext highlighter-rouge">stdin</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore --stdin &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_lista</span></p>
+
+<ul>
+  <li>Comprueba sin leer el índice (se utiliza para depurar por qué las rutas fueron rastreadas y no ignoradas):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore --no-index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 …</span></p>
+
+<ul>
+  <li>Incluye detalles sobre el patrón de coincidencia para cada ruta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 …</span></p>

@@ -1,0 +1,23 @@
+<h1 id="netstat">netstat</h1>
+
+<p>Toon netwerkgerelateerde informatie zoals open verbindingen, open socketpoorten, enz.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">lsof</code> voor het weergeven van netwerkverbindingen, inclusief luisterpoorten.
+Meer informatie: <a href="https://keith.github.io/xcode-man-pages/netstat.1.html">https://keith.github.io/xcode-man-pages/netstat.1.html</a>.</p>
+
+<ul>
+  <li>Toon de PID en programmanaam die luistert op een specifiek protocol:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protocol</span></p>
+
+<ul>
+  <li>Toon de routeringstabel en los IP-adressen niet op naar hostnamen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat -nr</code></p>
+
+<ul>
+  <li>Toon de routeringstabel van IPv4-adressen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat -nr -f inet</code></p>

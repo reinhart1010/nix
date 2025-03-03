@@ -1,0 +1,35 @@
+<h1 id="arduino-builder">arduino-builder</h1>
+
+<p>Un outil en ligne de commande pour compiler des croquis arduino.
+AVERTISSEMENT DE DÉPRÉCIATION: Cet outil a été retiré au profit de <code class="language-plaintext highlighter-rouge">arduino</code>.
+Plus d'informations : <a href="https://github.com/arduino/arduino-builder">https://github.com/arduino/arduino-builder</a>.</p>
+
+<ul>
+  <li>Construis un croquis :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -compile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/croquis.ino</span></p>
+
+<ul>
+  <li>Spécifie the niveau de débogage (1 à 10, 5 par défaut) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -debug-level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">niveau</span></p>
+
+<ul>
+  <li>Spécifie un dossier de construction :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -build-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier/de/construction</span></p>
+
+<ul>
+  <li>Utilise un fichier d'option de construction, au lieu de spécifier <code class="language-plaintext highlighter-rouge">-hardware</code>, <code class="language-plaintext highlighter-rouge">-tools</code>, etc. Manuellement à chaque fois :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -build-options-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/construction.options.json</span></p>
+
+<ul>
+  <li>Active le mode verbeux :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span></p>

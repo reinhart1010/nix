@@ -1,0 +1,34 @@
+<h1 id="ninja">ninja</h1>
+
+<p>A Build system designed to be fast.
+More information: <a href="https://ninja-build.org/manual.html">https://ninja-build.org/manual.html</a>.</p>
+
+<ul>
+  <li>Build in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ninja</code></p>
+
+<ul>
+  <li>Build in the current directory, executing 4 jobs at a time in parallel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ninja -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span></p>
+
+<ul>
+  <li>Build a program in a given directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ninja -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Show targets (e.g. <code class="language-plaintext highlighter-rouge">install</code> and <code class="language-plaintext highlighter-rouge">uninstall</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ninja -t targets</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ninja -h</code></p>

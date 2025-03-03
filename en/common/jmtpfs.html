@@ -1,0 +1,34 @@
+<h1 id="jmtpfs">jmtpfs</h1>
+
+<p>FUSE-based filesystem for accessing MTP devices.
+More information: <a href="https://manned.org/jmtpfs">https://manned.org/jmtpfs</a>.</p>
+
+<ul>
+  <li>Mount an MTP device to a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmtpfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Set mount options:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmtpfs -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">allow_other,auto_unmount</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>List available MTP devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmtpfs --listDevices</code></p>
+
+<ul>
+  <li>If multiple devices are present, mount a specific device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmtpfs -device=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bus_id</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Unmount MTP device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fusermount -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

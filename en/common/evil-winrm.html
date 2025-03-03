@@ -1,0 +1,53 @@
+<h1 id="evil-winrm">evil-winrm</h1>
+
+<p>Windows Remote Management (WinRM) shell for pentesting.
+Once connected, we get a PowerShell prompt on the target host.
+More information: <a href="https://github.com/Hackplayers/evil-winrm">https://github.com/Hackplayers/evil-winrm</a>.</p>
+
+<ul>
+  <li>Connect to a host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">evil-winrm --ip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Connect to a host, passing the password hash:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">evil-winrm --ip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> --hash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nt_hash</span></p>
+
+<ul>
+  <li>Connect to a host, specifying directories for scripts and executables:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">evil-winrm --ip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> --scripts </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/scripts</span><code class="language-plaintext highlighter-rouge"> --executables </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executables</span></p>
+
+<ul>
+  <li>Connect to a host, using SSL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">evil-winrm --ip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> --ssl --pub-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pubkey</span><code class="language-plaintext highlighter-rouge"> --priv-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/privkey</span></p>
+
+<ul>
+  <li>Upload a file to the host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">PS &gt; upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote/file</span></p>
+
+<ul>
+  <li>List all loaded PowerShell functions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">PS &gt; menu</code></p>
+
+<ul>
+  <li>Load a PowerShell script from the <code class="language-plaintext highlighter-rouge">--scripts</code> directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">PS &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script.ps1</span></p>
+
+<ul>
+  <li>Invoke a binary on the host from the <code class="language-plaintext highlighter-rouge">--executables</code> directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">PS &gt; Invoke-Binary </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">binary.exe</span></p>

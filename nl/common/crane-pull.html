@@ -1,0 +1,34 @@
+<h1 id="crane-pull">crane pull</h1>
+
+<p>Haal externe images op via referentie en sla hun inhoud lokaal op.
+Meer informatie: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_pull.md">https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_pull.md</a>.</p>
+
+<ul>
+  <li>Haal externe image op:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_naam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/tarball</span></p>
+
+<ul>
+  <li>Bewaar de image-referentie die is gebruikt om op te halen als een annotatie wanneer gebruikt met –format=oci:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_naam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/tarball</span><code class="language-plaintext highlighter-rouge"> --annotate-ref</code></p>
+
+<ul>
+  <li>Pad naar cache-image-lagen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_naam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/tarball</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–cache_path</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/cache</span></p>
+
+<ul>
+  <li>Formaat waarin images moeten worden opgeslagen (standaard 'tarball'):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_naam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/tarball</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-format</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">format_naam</span></p>
+
+<ul>
+  <li>Toon de help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span></p>

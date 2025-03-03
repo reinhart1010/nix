@@ -1,0 +1,52 @@
+<h1 id="rmlint">rmlint</h1>
+
+<p>Encuentra desperdicio de espacio y otras cosas rotas en tu sistema de archivos.
+Más información: <a href="https://rmlint.readthedocs.io/en/latest/rmlint.1.html">https://rmlint.readthedocs.io/en/latest/rmlint.1.html</a>.</p>
+
+<ul>
+  <li>Comprueba los directorios en busca de archivos duplicados, vacíos y rotos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rmlint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio1 ruta/a/directorio2 …</span></p>
+
+<ul>
+  <li>Comprueba si hay duplicados mayores a un tamaño determinado, preferiblemente manteniendo los archivos en directorios etiquetados (después de la doble barra):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rmlint -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1MB</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio</span><code class="language-plaintext highlighter-rouge"> // </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio_original</span></p>
+
+<ul>
+  <li>Comprueba que no se desperdicia espacio, manteniendo todo en los directorios no etiquetados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rmlint --keep-all-untagged </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio</span><code class="language-plaintext highlighter-rouge"> // </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio_original</span></p>
+
+<ul>
+  <li>Elimina archivos duplicados encontrados tras una ejecución de <code class="language-plaintext highlighter-rouge">rmlint</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">./rmlint.sh</code></p>
+
+<ul>
+  <li>Encuentra árboles de directorios duplicados basándose en los datos, ignorando los nombres:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rmlint --merge-directories </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio</span></p>
+
+<ul>
+  <li>Marca archivos en la profundida[d] de la ruta inferior como originales, en caso de igualdad elegir uno más corto [l]:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rmlint --rank-by=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dl</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio</span></p>
+
+<ul>
+  <li>Encuentra archivos con idéntico nombre de archivo y contenido, y vincula en lugar de eliminar los duplicados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rmlint -c sh:link --match-basename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio</span></p>
+
+<ul>
+  <li>Utiliza <code class="language-plaintext highlighter-rouge">data</code> como directorio maestro. Busca solo los duplicados de la copia de seguridad que también estén en <code class="language-plaintext highlighter-rouge">datos</code>. No elimina ningún archivo de "datos":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rmlint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/copia</span><code class="language-plaintext highlighter-rouge"> // </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/datos</span><code class="language-plaintext highlighter-rouge"> --keep-all-tagged --must-match-tagged</code></p>

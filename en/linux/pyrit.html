@@ -1,0 +1,52 @@
+<h1 id="pyrit">pyrit</h1>
+
+<p>WPA/WPA2 cracking tool using computational power.
+More information: <a href="https://github.com/JPaulMora/Pyrit">https://github.com/JPaulMora/Pyrit</a>.</p>
+
+<ul>
+  <li>Display system cracking speed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pyrit benchmark</code></p>
+
+<ul>
+  <li>List available cores:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pyrit list_cores</code></p>
+
+<ul>
+  <li>Set [e]SSID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pyrit -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ESSID</span><code class="language-plaintext highlighter-rouge">" create_essid</code></p>
+
+<ul>
+  <li>[r]ead and analyze a specific packet capture file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pyrit -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cap|path/to/file.pcap</span><code class="language-plaintext highlighter-rouge"> analyze</code></p>
+
+<ul>
+  <li>Read and [i]mport passwords to the current database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pyrit -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import_unique_passwords|unique_passwords|import_passwords</span></p>
+
+<ul>
+  <li>Exp[o]rt passwords from database to a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pyrit -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> export_passwords</code></p>
+
+<ul>
+  <li>Translate passwords with Pired Master Keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pyrit batch</code></p>
+
+<ul>
+  <li>[r]ead the capture file and crack the password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pyrit -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> attack_db</code></p>

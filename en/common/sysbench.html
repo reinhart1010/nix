@@ -1,0 +1,34 @@
+<h1 id="sysbench">sysbench</h1>
+
+<p>Benchmark a System's CPU, IO and memory.
+More information: <a href="https://github.com/akopytov/sysbench/">https://github.com/akopytov/sysbench/</a>.</p>
+
+<ul>
+  <li>Run a CPU benchmark with 1 thread for 10 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysbench cpu run</code></p>
+
+<ul>
+  <li>Run a CPU benchmark with multiple threads for a specified time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysbench --threads=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_threads</span><code class="language-plaintext highlighter-rouge"> --time=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconds</span></p>
+
+<ul>
+  <li>Run a memory benchmark with 1 thread for 10 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysbench memory run</code></p>
+
+<ul>
+  <li>Prepare a filesystem-level read benchmark:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysbench fileio prepare</code></p>
+
+<ul>
+  <li>Run a filesystem-level benchmark:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sysbench --file-test-mode=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rndrd|rndrw|rndwr|seqrd|seqrewr|seqwr</span><code class="language-plaintext highlighter-rouge"> fileio run</code></p>

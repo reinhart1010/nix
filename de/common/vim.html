@@ -1,0 +1,53 @@
+<h1 id="vim">vim</h1>
+
+<p>Vim (Vi IMproved), ein Befehlszeilen-Texteditor, bietet mehrere Modi für verschiedene Arten der Textmanipulation an.
+Das Drücken von <code class="language-plaintext highlighter-rouge">i</code> schaltet den Editier-Modus ein. <code class="language-plaintext highlighter-rouge">&lt;Esc&gt;</code> wechselt in den Befehls-Modus, der die Verwendung von Vim-Befehlen ermöglicht.
+Weitere Informationen: <a href="https://www.vim.org">https://www.vim.org</a>.</p>
+
+<ul>
+  <li>Öffne eine Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vim </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Öffne eine Datei an einer bestimmten Zeilennummer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vim +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zeilennummer</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Zeige Vim's Benutzeranleitung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:help&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>Speichere und schließe die aktuelle Datei:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>&lt;/span&gt;</Enter></Esc></Enter></Esc></Esc></span></p>
+
+<ul>
+  <li>Mache die letzte Aktion rückgängig:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;u</code></p>
+
+<ul>
+  <li>Suche nach einem Muster in der Datei (mit <code class="language-plaintext highlighter-rouge">n</code>/<code class="language-plaintext highlighter-rouge">N</code> zum nächsten/vorherigen Treffer gehen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suchmuster</span><code class="language-plaintext highlighter-rouge">&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>Ersetze einen regulären Ausdruck alle Treffer in einer Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:%s/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regulärer_ausdruck</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">neuer_text</span><code class="language-plaintext highlighter-rouge">/g&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>Zeige Zeilennummern an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:set nu&lt;Enter&gt;</code></p>

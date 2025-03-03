@@ -1,0 +1,22 @@
+<h1 id="locate">locate</h1>
+
+<p>Vind snel bestandsnamen.
+Meer informatie: <a href="https://manned.org/locate">https://manned.org/locate</a>.</p>
+
+<ul>
+  <li>Zoek naar een patroon in de database. Opmerking: de database wordt periodiek herberekend (meestal wekelijks of dagelijks):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">locate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patroon</span></p>
+
+<ul>
+  <li>Zoek naar een bestand op basis van de exacte bestandsnaam (een patroon zonder glob-tekens wordt geïnterpreteerd als <code class="language-plaintext highlighter-rouge">*patroon*</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">locate '*/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestandsnaam</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Herbereken de database. Dit moet je doen als je recent toegevoegde bestanden wilt vinden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo updatedb</code></p>

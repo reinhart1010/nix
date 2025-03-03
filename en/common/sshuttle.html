@@ -1,0 +1,29 @@
+<h1 id="sshuttle">sshuttle</h1>
+
+<p>Transparent proxy server that tunnels traffic over an SSH connection.
+Doesn't require root or any special setup on the remote SSH server, though root access on the local machine is prompted for.
+More information: <a href="https://manned.org/sshuttle">https://manned.org/sshuttle</a>.</p>
+
+<ul>
+  <li>Forward all IPv4 TCP traffic via a remote SSH server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sshuttle --remote=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sshserver</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.0.0.0/0</span></p>
+
+<ul>
+  <li>Also forward all DNS traffic to the server's default DNS resolver:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sshuttle --dns --remote=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sshserver</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.0.0.0/0</span></p>
+
+<ul>
+  <li>Forward all traffic except that which is bound for a specific subnet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sshuttle --remote=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sshserver</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.0.0.0/0</span><code class="language-plaintext highlighter-rouge"> --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1/24</span></p>
+
+<ul>
+  <li>Use the tproxy method to forward all IPv4 and IPv6 traffic:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sshuttle --method=tproxy --remote=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sshserver</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.0.0.0/0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">::/0</span><code class="language-plaintext highlighter-rouge"> --exclude=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">your_local_ip_address</span><code class="language-plaintext highlighter-rouge"> --exclude=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh_server_ip_address</span></p>

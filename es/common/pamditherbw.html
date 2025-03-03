@@ -1,0 +1,29 @@
+<h1 id="pamditherbw">pamditherbw</h1>
+
+<p>Aplica dithering a una imagen en escala de grises, es decir, la convierte en un patrón de píxeles blancos y negros que parecen iguales a la escala de grises original.
+Vea también: <code class="language-plaintext highlighter-rouge">pbmreduce</code>.
+Más información: <a href="https://netpbm.sourceforge.net/doc/pamditherbw.html">https://netpbm.sourceforge.net/doc/pamditherbw.html</a>.</p>
+
+<ul>
+  <li>Lee una imagen PGM, aplica la separación y la guarda en un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmditherbw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/imagen.pgm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.pgm</span></p>
+
+<ul>
+  <li>Utiliza el método de cuantización especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmditherbw -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">floyd|fs|atkinson|threshold|hilbert|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/imagen.pgm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.pgm</span></p>
+
+<ul>
+  <li>Utiliza el método de cuantización de atkinson y la semilla especificada para un generador de número pseudo-aleatorio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmditherbw -atkinson -randomseed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1337</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/imagen.pgm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.pgm</span></p>
+
+<ul>
+  <li>Especifica el valor de umbralización (thresholding) para los métodos de cuantización que realizan algún tipo de umbralización:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmditherbw -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fs|atkinson|thresholding</span><code class="language-plaintext highlighter-rouge"> -value </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/imagen.pgm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.pgm</span></p>

@@ -1,0 +1,29 @@
+<h1 id="mysqldump">mysqldump</h1>
+
+<p>MySQL 데이터베이스 백업.
+데이터베이스 복원에 대해서는 <code class="language-plaintext highlighter-rouge">mysql</code>을 참조하세요.
+더 많은 정보: <a href="https://dev.mysql.com/doc/refman/en/mysqldump.html">https://dev.mysql.com/doc/refman/en/mysqldump.html</a>.</p>
+
+<ul>
+  <li>백업 생성 (사용자에게 비밀번호가 요청됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqldump --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_명</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span><code class="language-plaintext highlighter-rouge"> --result-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.sql</span></p>
+
+<ul>
+  <li>특정 테이블을 백업하여 파일로 출력 (사용자에게 비밀번호가 요청됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqldump --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_명</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.sql</span></p>
+
+<ul>
+  <li>모든 데이터베이스를 백업하여 파일로 출력 (사용자에게 비밀번호가 요청됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqldump --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_명</span><code class="language-plaintext highlighter-rouge"> --password --all-databases &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.sql</span></p>
+
+<ul>
+  <li>원격 호스트의 모든 데이터베이스를 백업하여 파일로 출력 (사용자에게 비밀번호가 요청됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqldump --host=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP_또는_호스트이름</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_명</span><code class="language-plaintext highlighter-rouge"> --password --all-databases &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.sql</span></p>

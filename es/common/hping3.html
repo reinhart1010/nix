@@ -1,0 +1,47 @@
+<h1 id="hping3">hping3</h1>
+
+<p>Utilidad de ping avanzada que soporta protocolos TCP, UDP y raw IP.
+Mejor correrla con privilegios elevados.
+Más información: <a href="https://github.com/antirez/hping">https://github.com/antirez/hping</a>.</p>
+
+<ul>
+  <li>Ping a un destino con 4 solicitudes ping ICMP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --icmp --count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_nombre_de_servidor</span></p>
+
+<ul>
+  <li>Ping a una dirección IP sobre UDP en el puerto 80:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --udp --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> --syn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_nombre_de_servidor</span></p>
+
+<ul>
+  <li>Escanea el puerto TCP 80, haciéndolo desde el puerto de origen local 5090:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --verbose --syn --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> --baseport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5090</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_nombre_de_servidor</span></p>
+
+<ul>
+  <li>Traceroute utilizando un escaneado TCP a un puerto de destino específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --traceroute --verbose --syn --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_nombre_de_servidor</span></p>
+
+<ul>
+  <li>Escanea un conjunto de puertos TCP en una dirección IP específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80,3000,9000</span><code class="language-plaintext highlighter-rouge"> --syn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_nombre_de_servidor</span></p>
+
+<ul>
+  <li>Realiza un escaneado TCP ACK para comprobar si un equipo dado está vivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> --verbose --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> --ack </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_nombre_de_servidor</span></p>
+
+<ul>
+  <li>Realiza una prueba de carga en el puerto 80:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --flood --destport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> --syn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_nombre_de_servidor</span></p>

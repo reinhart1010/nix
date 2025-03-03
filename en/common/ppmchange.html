@@ -1,0 +1,22 @@
+<h1 id="ppmchange">ppmchange</h1>
+
+<p>Change all pixels of one color in a PPM image to another color.
+More information: <a href="https://netpbm.sourceforge.net/doc/ppmchange.html">https://netpbm.sourceforge.net/doc/ppmchange.html</a>.</p>
+
+<ul>
+  <li>Exchange the first color in each <code class="language-plaintext highlighter-rouge">oldcolor</code> - <code class="language-plaintext highlighter-rouge">newcolor</code> pair with the second color:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmchange </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">oldcolor1 newcolor1 oldcolor2 newcolor2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Specify how similar colors must be in order to be considered the same:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmchange -closeness </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percentage</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">oldcolor1 newcolor1 oldcolor2 newcolor2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Replace all pixels not specified in the arguments by a color:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmchange -remainder </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">color</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">oldcolor1 newcolor1 oldcolor2 newcolor2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>

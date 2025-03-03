@@ -1,0 +1,46 @@
+<h1 id="ganache-cli">ganache-cli</h1>
+
+<p>Command-line version of Ganache, your personal blockchain for Ethereum development.
+More information: <a href="https://www.trufflesuite.com/ganache">https://www.trufflesuite.com/ganache</a>.</p>
+
+<ul>
+  <li>Run Ganache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ganache-cli</code></p>
+
+<ul>
+  <li>Run Ganache with a specific number of accounts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ganache-cli --accounts=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_accounts</span></p>
+
+<ul>
+  <li>Run Ganache and lock available accounts by default:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ganache-cli --secure</code></p>
+
+<ul>
+  <li>Run Ganache server and unlock specific accounts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ganache-cli --secure --unlock "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">account_private_key1</span><code class="language-plaintext highlighter-rouge">" --unlock "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">account_private_key2</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run Ganache with a specific account and balance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ganache-cli --account="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">account_private_key</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">account_balance</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run Ganache with accounts with a default balance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ganache-cli --defaultBalanceEther=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">default_balance</span></p>
+
+<ul>
+  <li>Run Ganache and log all requests to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ganache-cli --verbose</code></p>

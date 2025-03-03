@@ -1,0 +1,40 @@
+<h1 id="ping">ping</h1>
+
+<p>Envía paquetes ICMP ECHO_REQUEST a hosts de la red.
+Más información: <a href="https://keith.github.io/xcode-man-pages/ping.8.html">https://keith.github.io/xcode-man-pages/ping.8.html</a>.</p>
+
+<ul>
+  <li>Ping al host especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ping a un host un número determinado de veces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cuenta</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ping al host, especificando el intervalo en segundos entre peticiones (por defecto es 1 segundo):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">segundos</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ping al host sin intentar buscar nombres simbólicos para las direcciones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ping al host y hace sonar la campana cuando se recibe un paquete (si tu terminal lo soporta):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -a "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ping al host y muestra la hora en la que se ha recibido un paquete (esta opción es un añadido de Apple):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping --apple-time "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">"</code></p>

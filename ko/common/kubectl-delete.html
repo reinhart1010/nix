@@ -1,0 +1,46 @@
+<h1 id="kubectl-delete">kubectl delete</h1>
+
+<p>Kubernetes 리소스 삭제.
+더 많은 정보: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#delete">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#delete</a>.</p>
+
+<ul>
+  <li>특정 포드 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl delete pod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포드_이름</span></p>
+
+<ul>
+  <li>특정 배포 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl delete deployment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">배포_이름</span></p>
+
+<ul>
+  <li>특정 노드 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl delete node </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">노드_이름</span></p>
+
+<ul>
+  <li>지정된 네임스페이스의 모든 포드 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl delete pods --all --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">네임스페이스</span></p>
+
+<ul>
+  <li>지정된 네임스페이스의 모든 배포 및 서비스 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl delete deployments,services --all --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">네임스페이스</span></p>
+
+<ul>
+  <li>모든 노드 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl delete nodes --all</code></p>
+
+<ul>
+  <li>YAML 매니페스트에 정의된 리소스 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl delete --filename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/매니페스트.yaml</span></p>

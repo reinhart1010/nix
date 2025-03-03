@@ -1,0 +1,28 @@
+<h1 id="pw-cat">pw-cat</h1>
+
+<p>Play and record audio files through PipeWire.
+More information: <a href="https://docs.pipewire.org/page_man_pw-cat_1.html">https://docs.pipewire.org/page_man_pw-cat_1.html</a>.</p>
+
+<ul>
+  <li>Play a WAV file over the default target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-cat --playback </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.wav</span></p>
+
+<ul>
+  <li>Play a WAV file with a specified resampler quality (4 by default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-cat --quality </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0..15</span><code class="language-plaintext highlighter-rouge"> --playback </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.wav</span></p>
+
+<ul>
+  <li>Record a sample recording at a volume level of 125%:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-cat --record --volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.25</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.wav</span></p>
+
+<ul>
+  <li>Record a sample recording using a different sample rate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-cat --record --rate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">6000</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.wav</span></p>

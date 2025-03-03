@@ -1,0 +1,53 @@
+<h1 id="bundletool">bundletool</h1>
+
+<p>Manipulate Android Application Bundles.
+Some subcommands such as <code class="language-plaintext highlighter-rouge">validate</code> have their own usage documentation.
+More information: <a href="https://developer.android.com/tools/bundletool">https://developer.android.com/tools/bundletool</a>.</p>
+
+<ul>
+  <li>Display help for a subcommand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool help </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>
+
+<ul>
+  <li>Generate APKs from an application bundle (prompts for keystore password):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool build-apks --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bundle.aab</span><code class="language-plaintext highlighter-rouge"> --ks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key.keystore</span><code class="language-plaintext highlighter-rouge"> --ks-key-alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_alias</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apks</span></p>
+
+<ul>
+  <li>Generate APKs from an application bundle giving the keystore password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool build-apks --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bundle.aab</span><code class="language-plaintext highlighter-rouge"> --ks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key.keystore</span><code class="language-plaintext highlighter-rouge"> --ks-key-alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_alias</span><code class="language-plaintext highlighter-rouge"> --ks-pass </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pass:the_password</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apks</span></p>
+
+<ul>
+  <li>Generate APKs including only one single APK for universal usage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool build-apks --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bundle.aab</span><code class="language-plaintext highlighter-rouge"> --mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">universal</span><code class="language-plaintext highlighter-rouge"> --ks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key.keystore</span><code class="language-plaintext highlighter-rouge"> --ks-key-alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_alias</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apks</span></p>
+
+<ul>
+  <li>Install the right combination of APKs to an emulator or device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool install-apks --apks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apks</span></p>
+
+<ul>
+  <li>Estimate the download size of an application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool get-size total --apks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apks</span></p>
+
+<ul>
+  <li>Generate a device specification JSON file for an emulator or device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool get-device-spec --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span></p>
+
+<ul>
+  <li>Verify a bundle and display detailed information about it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool validate --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bundle.aab</span></p>

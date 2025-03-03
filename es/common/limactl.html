@@ -1,0 +1,47 @@
+<h1 id="limactl">limactl</h1>
+
+<p>Administrador de máquinas virtuales para huéspedes Linux, con múltiples plantillas para MV (Máquinas virtuales) disponibles.
+Se puede utilizar para ejecutar contenedores en macOS, pero también para casos de uso genéricos de máquinas virtuales en anfitriones macOS y Linux.
+Más información: <a href="https://github.com/lima-vm/lima">https://github.com/lima-vm/lima</a>.</p>
+
+<ul>
+  <li>Lista MVs (Máquinas virtuales):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl list</code></p>
+
+<ul>
+  <li>Crea una MV usando la configuración predeterminada y opcionalmente proporciona un nombre y/o una plantilla (vea <code class="language-plaintext highlighter-rouge">limactl create --list-templates</code> para plantillas disponibles):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_mv</span><code class="language-plaintext highlighter-rouge"> template://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">debian|fedora|ubuntu|…</span></p>
+
+<ul>
+  <li>Inicia una MV (esto puede instalar algunas dependencias en la misma y tomar unos minutos):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_mv</span></p>
+
+<ul>
+  <li>Abre un intérprete de comandos dentro de una MV:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_mv</span></p>
+
+<ul>
+  <li>Ejecuta un comando dentro de una MV:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_mv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Detiene/apaga una MV:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl stop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_mv</span></p>
+
+<ul>
+  <li>Suprime una MV:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_mv</span></p>

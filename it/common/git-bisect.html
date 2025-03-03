@@ -1,0 +1,32 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-bisect">git bisect</h1>
+
+<p>Usa la ricerca binaria per trovare il commit che ha introdotto un bug.
+Git salta automaticamente avanti ed indietro nell'albero dei commit per restringere progressivamente il campo fino al commit colpevole.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-bisect">https://git-scm.com/docs/git-bisect</a>.</p>
+
+<ul>
+  <li>Avvia una ricerca su un intervallo di commit definito dal commit "cattivo" contenente il bug ed un altro commit "buono" privo del bug (solitamente più vecchio):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_cattivo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_buono</span></p>
+
+<ul>
+  <li>Contrassegna ogni commit selezionato da <code class="language-plaintext highlighter-rouge">git bisect</code> come "bad" (cattivo) o "good" (buono) dopo averlo testato per verificare la presenza del bug:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">good|bad</span></p>
+
+<ul>
+  <li>Una volta che <code class="language-plaintext highlighter-rouge">git bisect</code> ha individuato il commit che ha introdotto il bug, termina la sessione di ricerca e torna al ramo precedente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect reset</code></p>
+
+<ul>
+  <li>Ignora un commit durante la ricerca (ad esempio uno che fallisce i test per un motivo diverso dal bug ricercato):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect skip</code></p>

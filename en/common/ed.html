@@ -1,0 +1,47 @@
+<h1 id="ed">ed</h1>
+
+<p>The original Unix text editor.
+See also: <code class="language-plaintext highlighter-rouge">awk</code>, <code class="language-plaintext highlighter-rouge">sed</code>.
+More information: <a href="https://www.gnu.org/software/ed/manual/ed_manual.html">https://www.gnu.org/software/ed/manual/ed_manual.html</a>.</p>
+
+<ul>
+  <li>Start an interactive editor session with an empty document:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed</code></p>
+
+<ul>
+  <li>Start an interactive editor session with an empty document and a specific prompt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed --prompt='&gt; '</code></p>
+
+<ul>
+  <li>Start an interactive editor session with user-friendly errors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed --verbose</code></p>
+
+<ul>
+  <li>Start an interactive editor session with an empty document and without diagnostics, byte counts and '!' prompt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed --quiet</code></p>
+
+<ul>
+  <li>Start an interactive editor session without exit status change when command fails:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed --loose-exit-status</code></p>
+
+<ul>
+  <li>Edit a specific file (this shows the byte count of the loaded file):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Replace a string with a specific replacement for all lines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">,s/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replacement</span><code class="language-plaintext highlighter-rouge">/g</code></p>

@@ -1,0 +1,40 @@
+<h1 id="smalltalkci">smalltalkci</h1>
+
+<p>GitHub Actions, Travis CI, AppVeyor, GitLab CI 등과 함께 Smalltalk 프로젝트를 테스트하기 위한 프레임워크.
+더 많은 정보: <a href="https://github.com/hpi-swa/smalltalkCI">https://github.com/hpi-swa/smalltalkCI</a>.</p>
+
+<ul>
+  <li>구성 파일에 대한 테스트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smalltalkci </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/.smalltalk.ston</span></p>
+
+<ul>
+  <li>현재 디렉토리의 <code class="language-plaintext highlighter-rouge">.smalltalk.ston</code> 구성에 대한 테스트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smalltalkci</code></p>
+
+<ul>
+  <li>GUI 모드에서 테스트 디버그 (VM 창 표시):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smalltalkci --headful</code></p>
+
+<ul>
+  <li>테스트를 위한 잘 알려진 Smalltalk 이미지 다운로드 및 준비:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smalltalkci --smalltalk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Squeak64-Trunk</span></p>
+
+<ul>
+  <li>사용자 지정 Smalltalk 이미지 및 VM 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smalltalkci --image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/Smalltalk.image</span><code class="language-plaintext highlighter-rouge"> --vm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/vm</span></p>
+
+<ul>
+  <li>캐시 정리 및 빌드 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smalltalkci --clean</code></p>

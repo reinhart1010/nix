@@ -1,0 +1,41 @@
+<h1 id="chpass">chpass</h1>
+
+<p>Gebruikersdatabase informatie toevoegen of wijzigen, inclusief login shell en wachtwoord.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">passwd</code>.
+Meer informatie: <a href="https://man.netbsd.org/chsh">https://man.netbsd.org/chsh</a>.</p>
+
+<ul>
+  <li>Stel interactief een specifieke login shell in voor de huidige gebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c chpass</code></p>
+
+<ul>
+  <li>Stel een specifieke login [s]hell in voor de huidige gebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/shell</span></p>
+
+<ul>
+  <li>Stel een login [s]hell in voor een specifieke gebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass chsh -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>
+
+<ul>
+  <li>Specificeer een gebruikersdatabase entry in het <code class="language-plaintext highlighter-rouge">passwd</code> bestandsformaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam:gecodeerd_wachtwoord:uid:gid:…</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>
+
+<ul>
+  <li>Pas alleen het lokale wachtwoord bestand aan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -l -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/shell</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>
+
+<ul>
+  <li>Pas geforceerd een database [y]P wachtwoord database entry aan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -y -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/shell</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>

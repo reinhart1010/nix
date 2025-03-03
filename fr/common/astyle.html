@@ -1,0 +1,35 @@
+<h1 id="astyle">astyle</h1>
+
+<p>Indente, formate, et embelli du code source pour des languages de programmation comme C, C++, C# et Java.
+Pendant l'exécution, une copie du fichier original est créé avec un ".orig" suffixé au nom de fichier original.
+Plus d'informations : <a href="https://astyle.sourceforge.net">https://astyle.sourceforge.net</a>.</p>
+
+<ul>
+  <li>Applique le style par défaut de 4 espaces pour l'indentation et pas de changement de formatage :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_source</span></p>
+
+<ul>
+  <li>Applique le style Java avec le style <code class="language-plaintext highlighter-rouge">attached</code> :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle --style=java </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Applique le style <code class="language-plaintext highlighter-rouge">allman</code> :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle --style=allman </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Applique une indentation personnalisé avec des espaces. Choisi entre 2 et 20 espaces :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle --indent=spaces=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_d_espaces</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Applique une indentation personnalisé avec des tabulations. Choisi entre 2 et 20 tabulations :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">astyle --indent=tab=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_tabulations</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>

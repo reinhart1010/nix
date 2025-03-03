@@ -1,0 +1,41 @@
+<h1 id="chpass">chpass</h1>
+
+<p>Dodaj lub zmień informacje w bazie danych użytkowników, w tym powłokę logowania i hasło.
+Zobacz także: <code class="language-plaintext highlighter-rouge">passwd</code>.
+Więcej informacji: <a href="https://man.netbsd.org/chsh">https://man.netbsd.org/chsh</a>.</p>
+
+<ul>
+  <li>Ustaw określoną powłokę logowania dla bieżącego użytkownika w sposób interaktywny:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c chpass</code></p>
+
+<ul>
+  <li>Ustaw określoną powłokę (z ang. [s]hell) logowania dla bieżącego użytkownika:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/powłoki</span></p>
+
+<ul>
+  <li>Ustaw powłokę (z ang. [s]hell) logowania dla określonego użytkownika:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass chsh -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/powłoki</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span></p>
+
+<ul>
+  <li>Określ wpis bazy danych użytkownika w formacie pliku <code class="language-plaintext highlighter-rouge">passwd</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika:zaszyfrowane_hasło:uid:gid:…</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span></p>
+
+<ul>
+  <li>Aktualizuj tylko [l]okalny plik haseł:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -l -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/powłoki</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span></p>
+
+<ul>
+  <li>Wymuś zmianę wpisu w bazie danych [y]P haseł:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -y -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/powłoki</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span></p>

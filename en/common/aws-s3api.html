@@ -1,0 +1,52 @@
+<h1 id="aws-s3api">aws s3api</h1>
+
+<p>Create and delete Amazon S3 buckets and edit bucket properties.
+More information: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3api/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3api/index.html</a>.</p>
+
+<ul>
+  <li>Create bucket in a specific region:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3api create-bucket --bucket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge"> --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span><code class="language-plaintext highlighter-rouge"> --create-bucket-configuration LocationConstraint=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span></p>
+
+<ul>
+  <li>Delete a bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3api delete-bucket --bucket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span></p>
+
+<ul>
+  <li>List buckets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3api list-buckets</code></p>
+
+<ul>
+  <li>List the objects inside of a bucket and only show each object's key and size:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3api list-objects --bucket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge"> --query '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Contents[].{Key: Key, Size: Size}</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Add an object to a bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3api put-object --bucket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">object_key</span><code class="language-plaintext highlighter-rouge"> --body </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Download object from a bucket (The output file is always the last argument):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3api get-object --bucket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">object_key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span></p>
+
+<ul>
+  <li>Apply an Amazon S3 bucket policy to a specified bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3api put-bucket-policy --bucket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge"> --policy file://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bucket_policy.json</span></p>
+
+<ul>
+  <li>Download the Amazon S3 bucket policy from a specified bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3api get-bucket-policy --bucket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge"> --query Policy --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|table|text|yaml|yaml-stream</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bucket_policy</span></p>

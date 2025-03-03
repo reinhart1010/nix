@@ -1,0 +1,54 @@
+<h1 id="pacman">pacman</h1>
+
+<p>Kegunaan manajer paket Arch Linux.
+Guarda anche: <code class="language-plaintext highlighter-rouge">pacman-database</code>, <code class="language-plaintext highlighter-rouge">pacman-deptest</code>, <code class="language-plaintext highlighter-rouge">pacman-files</code>, <code class="language-plaintext highlighter-rouge">pacman-key</code>, <code class="language-plaintext highlighter-rouge">pacman-mirrors</code>, <code class="language-plaintext highlighter-rouge">pacman-query</code>, <code class="language-plaintext highlighter-rouge">pacman-remove</code>, <code class="language-plaintext highlighter-rouge">pacman-sync</code>, <code class="language-plaintext highlighter-rouge">pacman-upgrade</code>.
+Lihat <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a> untuk daftar perintah dalam manajer paket lain yang menyerupai perintah <code class="language-plaintext highlighter-rouge">pacman</code>.
+Informasi lebih lanjut: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Sinkronkan dan perbarui semua paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Syu</code></p>
+
+<ul>
+  <li>Pasang suatu paket baru:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>Hapus paket beserta dependensinya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Rs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>Cari pangkalan data untuk nama-nama paket yang mengandung suatu berkas secara spesifik:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -F "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_berkas</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Tampilkan daftar paket dan versi yang diinstal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Q</code></p>
+
+<ul>
+  <li>Tampilkan daftar paket dan versi yang diinstal secara eksplisit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qe</code></p>
+
+<ul>
+  <li>Tampilkan daftar paket yatim piatu (diinstal sebagai dependensi namun tidak dibutuhkan oleh paket apa pun):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qtdq</code></p>
+
+<ul>
+  <li>Kosongkan seluruh cache pacman:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Scc</code></p>

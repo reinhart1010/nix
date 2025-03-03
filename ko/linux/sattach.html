@@ -1,0 +1,22 @@
+<h1 id="sattach">sattach</h1>
+
+<p>Slurm 작업 단계에 연결.
+더 많은 정보: <a href="https://slurm.schedmd.com/sattach.html">https://slurm.schedmd.com/sattach.html</a>.</p>
+
+<ul>
+  <li>Slurm 작업 단계의 IO 스트림(<code class="language-plaintext highlighter-rouge">stdout</code>, <code class="language-plaintext highlighter-rouge">stderr</code>, <code class="language-plaintext highlighter-rouge">stdin</code>)을 현재 터미널로 리디렉션:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sattach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_ID</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">단계_ID</span></p>
+
+<ul>
+  <li>현재 콘솔의 입력을 지정된 작업의 <code class="language-plaintext highlighter-rouge">stdin</code>으로 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sattach --input-filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_번호</span></p>
+
+<ul>
+  <li>지정된 작업의 <code class="language-plaintext highlighter-rouge">stdin</code>/<code class="language-plaintext highlighter-rouge">stderr</code>만 리디렉션:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sattach --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력|오류</span><code class="language-plaintext highlighter-rouge">-filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_번호</span></p>

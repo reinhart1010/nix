@@ -1,0 +1,34 @@
+<h1 id="mksquashfs">mksquashfs</h1>
+
+<p>squashfs 파일 시스템에 파일 및 디렉터리를 생성하거나 추가합니다.
+더 많은 정보: <a href="https://manned.org/mksquashfs">https://manned.org/mksquashfs</a>.</p>
+
+<ul>
+  <li>squashfs 파일 시스템에 파일 및 디렉터리를 생성하거나 추가 (<code class="language-plaintext highlighter-rouge">gzip</code>으로 기본 압축):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mksquashfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더1 경로/대상/파일_또는_폴더2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일시스템.squashfs</span></p>
+
+<ul>
+  <li>특정 [comp]압축 알고리즘을 사용하여 squashfs 파일 시스템에 파일 및 디렉터리를 생성하거나 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mksquashfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더1 경로/대상/파일_또는_폴더2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일시스템.squashfs</span><code class="language-plaintext highlighter-rouge"> -comp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gzip|lzo|lz4|xz|zstd|lzma</span></p>
+
+<ul>
+  <li>squashfs 파일 시스템에 파일 및 디렉터리를 생성하거나 추가하면서 일부 제외:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mksquashfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더1 경로/대상/파일_또는_폴더2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일시스템.squashfs</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_또는_폴더1 파일_또는_폴더2 …</span></p>
+
+<ul>
+  <li>gzip으로 끝나는 파일을 제외하고 squashfs 파일 시스템에 파일 및 디렉터리를 생성하거나 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mksquashfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더1 경로/대상/파일_또는_폴더2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일시스템.squashfs</span><code class="language-plaintext highlighter-rouge"> -wildcards -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.gz</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>정규 표현식과 일치하는 파일을 제외하고 squashfs 파일 시스템에 파일 및 디렉터리를 생성하거나 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mksquashfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더1 경로/대상/파일_또는_폴더2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일시스템.squashfs</span><code class="language-plaintext highlighter-rouge"> -regex -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">정규_표현식</span><code class="language-plaintext highlighter-rouge">"</code></p>

@@ -1,0 +1,46 @@
+<h1 id="redis-benchmark">redis-benchmark</h1>
+
+<p>Redis 서버의 성능을 테스트.
+더 많은 정보: <a href="https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/benchmarks/">https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/benchmarks/</a>.</p>
+
+<ul>
+  <li>전체 벤치마크 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">redis-benchmark</code></p>
+
+<ul>
+  <li>특정 Redis 서버에서 벤치마크 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">redis-benchmark -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span><code class="language-plaintext highlighter-rouge"> -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span></p>
+
+<ul>
+  <li>기본 100000 요청으로 테스트의 일부 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">redis-benchmark -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">set,lpush</span><code class="language-plaintext highlighter-rouge"> -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100000</span></p>
+
+<ul>
+  <li>특정 스크립트로 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">redis-benchmark -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100000</span><code class="language-plaintext highlighter-rouge"> script load "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">redis.call('set', 'foo', 'bar')</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>100000개의 [r]andom 키를 사용하여 벤치마크 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">redis-benchmark -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">set</span><code class="language-plaintext highlighter-rouge"> -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100000</span></p>
+
+<ul>
+  <li>16개의 명령으로 [P]ipelining하여 벤치마크 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">redis-benchmark -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000000</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">set,get</span><code class="language-plaintext highlighter-rouge"> -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span></p>
+
+<ul>
+  <li>[q]uietly 실행하여 초당 쿼리 결과만 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">redis-benchmark -q</code></p>

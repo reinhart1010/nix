@@ -1,0 +1,35 @@
+<h1 id="pkill">pkill</h1>
+
+<p>프로세스 이름에 따라 시그널을 전송합니다.
+주로 프로세스를 종료하는데 사용합니다.
+더 많은 정보: <a href="https://www.manned.org/pkill">https://www.manned.org/pkill</a>.</p>
+
+<ul>
+  <li>일치하는 모든 프로세스 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkill "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로세스_이름</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>프로세스 이름 대신 전체 명령어와 일치하는 모든 프로세스 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkill -f "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어_이름</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>강제로 일치하는 프로세스 종료 (차단 불가능):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkill -9 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로세스_이름</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>일치하는 프로세스에게 SIGUSR1 시그널 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkill -USR1 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로세스_이름</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>브라우저를 닫기 위해 주요 <code class="language-plaintext highlighter-rouge">firefox</code> 프로세스를 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkill --oldest "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">firefox</span><code class="language-plaintext highlighter-rouge">"</code></p>

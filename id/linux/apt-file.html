@@ -1,0 +1,28 @@
+<h1 id="apt-file">apt-file</h1>
+
+<p>Cari kumpulan berkas di dalam paket <code class="language-plaintext highlighter-rouge">apt</code>, termasuk yang belum dipasang.
+Informasi lebih lanjut: <a href="https://manned.org/apt-file.1">https://manned.org/apt-file.1</a>.</p>
+
+<ul>
+  <li>Perbarui basis data metadata:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>Cari paket yang berisi nama atau lokasi berkas tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search|find</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sebagian_nama_jalan/menuju/berkas</span></p>
+
+<ul>
+  <li>Tampilkan daftar konten dari sebuah paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">show|list</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>Cari paket yang sesuai dengan <code class="language-plaintext highlighter-rouge">ekspresi_reguler</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search|find</span><code class="language-plaintext highlighter-rouge"> --regexp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ekspresi_reguler</span></p>

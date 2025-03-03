@@ -1,0 +1,41 @@
+<h1 id="linode-cli-volumes">linode-cli volumes</h1>
+
+<p>Beheer Linode Volumes.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">linode-cli</code>.
+Meer informatie: <a href="https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-block-storage-volumes">https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-block-storage-volumes</a>.</p>
+
+<ul>
+  <li>Toon alle huidige Volumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli volumes list</code></p>
+
+<ul>
+  <li>Maak een nieuw Volume en koppel het aan een specifieke Linode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli volumes create --label </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_label</span><code class="language-plaintext highlighter-rouge"> --size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size_in_GB</span><code class="language-plaintext highlighter-rouge"> --linode-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linode_id</span></p>
+
+<ul>
+  <li>Koppel een Volume aan een specifieke Linode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli volumes attach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_id</span><code class="language-plaintext highlighter-rouge"> --linode-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linode_id</span></p>
+
+<ul>
+  <li>Koppel een Volume los van een Linode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli volumes detach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_id</span></p>
+
+<ul>
+  <li>Vergroot een Volume (Let op: de grootte kan alleen toenemen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli volumes resize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_id</span><code class="language-plaintext highlighter-rouge"> --size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_size_in_GB</span></p>
+
+<ul>
+  <li>Verwijder een Volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli volumes delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_id</span></p>

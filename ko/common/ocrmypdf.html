@@ -1,0 +1,40 @@
+<h1 id="ocrmypdf">ocrmypdf</h1>
+
+<p>스캔한 PDF나 텍스트 이미지에서 검색 가능한 PDF 또는 PDF/A를 생성.
+더 많은 정보: <a href="https://ocrmypdf.readthedocs.io/en/latest/cookbook.html">https://ocrmypdf.readthedocs.io/en/latest/cookbook.html</a>.</p>
+
+<ul>
+  <li>스캔한 PDF 또는 이미지 파일에서 새로운 검색 가능한 PDF/A 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ocrmypdf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pdf</span></p>
+
+<ul>
+  <li>스캔한 PDF 파일을 검색 가능한 PDF 파일로 교체:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ocrmypdf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pdf</span></p>
+
+<ul>
+  <li>텍스트가 이미 포함된 혼합 형식 입력 PDF 파일의 페이지 건너뛰기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ocrmypdf --skip-text </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pdf</span></p>
+
+<ul>
+  <li>불량 스캔의 페이지를 정리하고, 기울임 보정하고, 회전:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ocrmypdf --clean --deskew --rotate-pages </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pdf</span></p>
+
+<ul>
+  <li>검색 가능한 PDF 파일의 메타데이터 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ocrmypdf --title "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">제목</span><code class="language-plaintext highlighter-rouge">" --author "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">저자</span><code class="language-plaintext highlighter-rouge">" --subject "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주제</span><code class="language-plaintext highlighter-rouge">" --keywords "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키워드; 키 구문; …</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pdf</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ocrmypdf --help</code></p>

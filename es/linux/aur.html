@@ -1,0 +1,35 @@
+<h1 id="aur">aur</h1>
+
+<p>Construye paquetes desde el AUR y gestiona repositorios locales.
+Nota: Es necesario establecer un repositorio local en <code class="language-plaintext highlighter-rouge">/etc/pacman.conf</code> e instalar <code class="language-plaintext highlighter-rouge">vifm</code> para que funcione completamente.
+Más información: <a href="https://github.com/aurutils/aurutils">https://github.com/aurutils/aurutils</a>.</p>
+
+<ul>
+  <li>Busca un paquete en la base de datos del AUR:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aur search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">palabra_clave</span></p>
+
+<ul>
+  <li>Descarga un paquete y sus dependencias desde el AUR, los compila y añade a un repositorio local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aur sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>[l]ista paquetes disponibles en tu repositorio local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aur repo --list</code></p>
+
+<ul>
+  <li>Act[u]aliza los paquetes del repositorio local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aur sync --upgrades</code></p>
+
+<ul>
+  <li>Instala un paquete sin ver los cambios en Vim y sin confirmar la instalación de dependencias:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aur sync --noview --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>

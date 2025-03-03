@@ -1,0 +1,35 @@
+<h1 id="dumpe2fs">dumpe2fs</h1>
+
+<p>Print the super block and blocks group information for ext2/ext3/ext4 filesystems.
+Unmount the partition before running this command using <code class="language-plaintext highlighter-rouge">umount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device</span>.
+More information: <a href="https://manned.org/dumpe2fs">https://manned.org/dumpe2fs</a>.</p>
+
+<ul>
+  <li>Display ext2, ext3 and ext4 filesystem information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpe2fs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Display the blocks which are reserved as bad in the filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpe2fs -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Force display filesystem information even with unrecognizable feature flags:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpe2fs -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Only display the superblock information and not any of the block group descriptor detail information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpe2fs -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Print the detailed group information block numbers in hexadecimal format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpe2fs -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>

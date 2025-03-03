@@ -1,0 +1,41 @@
+<h1 id="bspc">bspc</h1>
+
+<p>Configure and control <code class="language-plaintext highlighter-rouge">bspwm</code>, managing nodes, desktops, monitors, and more.
+See also: <code class="language-plaintext highlighter-rouge">bspwm</code>.
+More information: <a href="https://github.com/baskerville/bspwm">https://github.com/baskerville/bspwm</a>.</p>
+
+<ul>
+  <li>Define two virtual desktops:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc monitor --reset-desktops </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">desktop_name1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">desktop_name2</span></p>
+
+<ul>
+  <li>Focus the given desktop:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc desktop --focus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span></p>
+
+<ul>
+  <li>Close the windows rooted at the selected node:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc node --close</code></p>
+
+<ul>
+  <li>Send the selected node to the given desktop:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc node --to-desktop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span></p>
+
+<ul>
+  <li>Toggle full screen mode for the selected node:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc node --state ~fullscreen</code></p>
+
+<ul>
+  <li>Set the value of a specific setting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">setting_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>

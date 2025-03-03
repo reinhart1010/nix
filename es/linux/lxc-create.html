@@ -1,0 +1,22 @@
+<h1 id="lxc-create">lxc-create</h1>
+
+<p>Crea contenedores linux.
+Más información: <a href="https://linuxcontainers.org/lxc/getting-started">https://linuxcontainers.org/lxc/getting-started</a>.</p>
+
+<ul>
+  <li>Crea un contenedor interactivamente en <code class="language-plaintext highlighter-rouge">/var/lib/lxc/</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxc-create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contenedor</span><code class="language-plaintext highlighter-rouge"> --template download</code></p>
+
+<ul>
+  <li>Crea un contenedor en un directorio de destino:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxc-create --lxcpath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/a/directorio/</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contenedor</span><code class="language-plaintext highlighter-rouge"> --template download</code></p>
+
+<ul>
+  <li>Crea un contenedor pasando opciones a una plantilla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxc-create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge"> --template download -- --dist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre-distro</span><code class="language-plaintext highlighter-rouge"> --release </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versión-de-lanzamiento</span><code class="language-plaintext highlighter-rouge"> --arch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arch</span></p>

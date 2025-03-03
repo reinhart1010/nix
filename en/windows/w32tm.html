@@ -1,0 +1,46 @@
+<h1 id="w32tm">w32tm</h1>
+
+<p>Query and control the w32time time synchronization service.
+More information: <a href="https://learn.microsoft.com/windows-server/networking/windows-time-service/windows-time-service-tools-and-settings">https://learn.microsoft.com/windows-server/networking/windows-time-service/windows-time-service-tools-and-settings</a>.</p>
+
+<ul>
+  <li>Show the current status of time synchronization:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">w32tm /query /status /verbose</code></p>
+
+<ul>
+  <li>Show a time offset graph against a time server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">w32tm /stripchart /computer:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">time_server</span></p>
+
+<ul>
+  <li>Show an NTP reply from a time server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">w32tm /stripchart /packetinfo /samples:1 /computer:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">time_server</span></p>
+
+<ul>
+  <li>Show the state of the currently used time servers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">w32tm /query /peers</code></p>
+
+<ul>
+  <li>Show configuration of the w32time service (run in elevated console):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">w32tm /query /configuration</code></p>
+
+<ul>
+  <li>Force time resynchronization immediately (run in elevated console):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">w32tm /resync /force</code></p>
+
+<ul>
+  <li>Write w32time debug logs into a file (run in elevated console):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">w32tm /debug /enable /file:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\debug.log</span><code class="language-plaintext highlighter-rouge"> /size:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10000000</span><code class="language-plaintext highlighter-rouge"> /entries:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0-300</span></p>

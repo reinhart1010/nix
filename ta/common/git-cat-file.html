@@ -1,0 +1,22 @@
+<h1 id="git-cat-file">git cat-file</h1>
+
+<p>கிட் களஞ்சிய பொருள்களுக்கான உள்ளடக்கம் அல்லது வகை மற்றும் அளவு தகவல்களை வழங்கவும்.
+மேலும் விவரத்திற்கு: <a href="https://git-scm.com/docs/git-cat-file">https://git-scm.com/docs/git-cat-file</a>.</p>
+
+<ul>
+  <li>HEAD கமிட்டின் அளவை பைட்டுகளில் பெறுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cat-file -s HEAD</code></p>
+
+<ul>
+  <li>கொடுக்கப்பட்ட கிட் பொருளின் வகையை (குமிழ், மரம், கமிட், டேக்) பெறுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cat-file -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8c442dc3</span></p>
+
+<ul>
+  <li>கொடுக்கப்பட்ட கிட் பொருளின் உள்ளடக்கத்தை அதன் வகையின் அடிப்படையில் அழகாக அச்சிடுக:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cat-file -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~2</span></p>

@@ -1,0 +1,52 @@
+<h1 id="crictl">crictl</h1>
+
+<p>Command-line for CRI-compatible container runtimes.
+More information: <a href="https://github.com/kubernetes-sigs/cri-tools/blob/master/docs/crictl.md">https://github.com/kubernetes-sigs/cri-tools/blob/master/docs/crictl.md</a>.</p>
+
+<ul>
+  <li>List all kubernetes pods (Ready and NotReady):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crictl pods</code></p>
+
+<ul>
+  <li>List all containers (Running and Exited):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crictl ps --all</code></p>
+
+<ul>
+  <li>List all images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crictl images</code></p>
+
+<ul>
+  <li>Print information about specific containers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crictl inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_id1 container_id2 …</span></p>
+
+<ul>
+  <li>Open a specific shell inside a running container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crictl exec -it </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span></p>
+
+<ul>
+  <li>Pull a specific image from a registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crictl pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image:tag</span></p>
+
+<ul>
+  <li>Print and [f]ollow logs of a specific container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crictl logs -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_id</span></p>
+
+<ul>
+  <li>Remove one or more images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crictl rmi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_id1 image_id2 …</span></p>

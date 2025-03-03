@@ -1,0 +1,40 @@
+<h1 id="grub-file">grub-file</h1>
+
+<p>파일이 부팅 가능한 이미지 유형인지 확인.
+더 많은 정보: <a href="https://manned.org/grub-file">https://manned.org/grub-file</a>.</p>
+
+<ul>
+  <li>파일이 ARM EFI 이미지인지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-file --is-arm-efi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일이 i386 EFI 이미지인지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-file --is-i386-efi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일이 x86_64 EFI 이미지인지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-file --is-x86_64-efi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일이 ARM 이미지(Linux 커널)인지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-file --is-arm-linux </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일이 x86 이미지(Linux 커널)인지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-file --is-x86-linux </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일이 x86_64 XNU 이미지(macOS 커널)인지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-file --is-x86_64-xnu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

@@ -1,0 +1,53 @@
+<h1 id="webtorrent">webtorrent</h1>
+
+<p>WebTorrent의 명령줄 인터페이스.
+마그넷, URL, 정보 해시 및 <code class="language-plaintext highlighter-rouge">.torrent</code> 파일을 지원.
+더 많은 정보: <a href="https://github.com/webtorrent/webtorrent-cli">https://github.com/webtorrent/webtorrent-cli</a>.</p>
+
+<ul>
+  <li>토렌트 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">webtorrent download "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">토렌트_id</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>VLC 미디어 플레이어로 토렌트 스트리밍:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">webtorrent download "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">토렌트_id</span><code class="language-plaintext highlighter-rouge">" --vlc</code></p>
+
+<ul>
+  <li>DLNA (Digital Living Network Alliance) 장치로 토렌트 스트리밍:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">webtorrent download "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">토렌트_id</span><code class="language-plaintext highlighter-rouge">" --dlna</code></p>
+
+<ul>
+  <li>특정 토렌트의 파일 목록 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">webtorrent download "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">토렌트_id</span><code class="language-plaintext highlighter-rouge">" --select</code></p>
+
+<ul>
+  <li>다운로드할 토렌트에서 파일 색인 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">webtorrent download "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">토렌트_id</span><code class="language-plaintext highlighter-rouge">" --select </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">색인</span></p>
+
+<ul>
+  <li>특정 파일 또는 폴더 시드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">webtorrent seed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>
+
+<ul>
+  <li>지정된 파일 경로에 대한 새 토렌트 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">webtorrent create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>마그넷 URI 또는 <code class="language-plaintext highlighter-rouge">.torrent</code> 파일에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">webtorrent info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_마그넷</span></p>

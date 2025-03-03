@@ -1,0 +1,29 @@
+<h1 id="extundelete">extundelete</h1>
+
+<p>Recover deleted files from ext3 or ext4 partitions by parsing the journal.
+See also <code class="language-plaintext highlighter-rouge">date</code> for Unix time information and <code class="language-plaintext highlighter-rouge">umount</code> for unmounting partitions.
+More information: <a href="https://extundelete.sourceforge.net">https://extundelete.sourceforge.net</a>.</p>
+
+<ul>
+  <li>Restore all deleted files inside partition N on device X:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo extundelete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span><code class="language-plaintext highlighter-rouge"> --restore-all</code></p>
+
+<ul>
+  <li>Restore a file from a path relative to root (Do not start the path with <code class="language-plaintext highlighter-rouge">/</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">extundelete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span><code class="language-plaintext highlighter-rouge"> --restore-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Restore a directory from a path relative to root (Do not start the path with <code class="language-plaintext highlighter-rouge">/</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">extundelete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span><code class="language-plaintext highlighter-rouge"> --restore-directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Restore all files deleted after January 1st, 2020 (in Unix time):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">extundelete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span><code class="language-plaintext highlighter-rouge"> --restore-all --after </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1577840400</span></p>

@@ -1,0 +1,46 @@
+<h1 id="libtool">libtool</h1>
+
+<p>Een generiek script voor bibliotheekondersteuning dat de complexiteit van het gebruik van gedeelde bibliotheken verbergt achter een consistente, draagbare interface.
+Meer informatie: <a href="https://www.gnu.org/software/libtool/manual/libtool.html#Invoking-libtool">https://www.gnu.org/software/libtool/manual/libtool.html#Invoking-libtool</a>.</p>
+
+<ul>
+  <li>Compileer een bronbestand naar een <code class="language-plaintext highlighter-rouge">libtool</code>-object:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">libtool --mode=compile gcc -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron.c</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron.lo</span></p>
+
+<ul>
+  <li>Maak een bibliotheek of een uitvoerbaar bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">libtool --mode=link gcc -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bibliotheek.lo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron.lo</span></p>
+
+<ul>
+  <li>Stel automatisch het bibliotheekpad in zodat een ander programma niet-geïnstalleerde door <code class="language-plaintext highlighter-rouge">libtool</code> gegenereerde programma's of bibliotheken kan gebruiken:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">libtool --mode=execute gdb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/programma</span></p>
+
+<ul>
+  <li>Installeer een gedeelde bibliotheek:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">libtool --mode=install cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bibliotheek.la</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/installatiemap</span></p>
+
+<ul>
+  <li>Voltooi de installatie van <code class="language-plaintext highlighter-rouge">libtool</code>-bibliotheken op het systeem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">libtool --mode=finish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/installatiemap</span></p>
+
+<ul>
+  <li>Verwijder geïnstalleerde bibliotheken of uitvoerbare bestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">libtool --mode=uninstall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/geïnstalleerde_bibliotheek.la</span></p>
+
+<ul>
+  <li>Verwijder niet-geïnstalleerde bibliotheken of uitvoerbare bestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">libtool --mode=clean rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron.lo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bibliotheek.la</span></p>

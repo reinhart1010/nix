@@ -1,0 +1,46 @@
+<h1 id="gh-repo">gh repo</h1>
+
+<p>在命令行上操作 GitHub 仓库。
+更多信息：<a href="https://cli.github.com/manual/gh_repo">https://cli.github.com/manual/gh_repo</a>.</p>
+
+<ul>
+  <li>创建一个新的仓库（如果没有设置仓库名称，默认将为当前目录的名称）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh repo create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">名称</span></p>
+
+<ul>
+  <li>克隆一个仓库：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh repo clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">拥有者</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">仓库</span></p>
+
+<ul>
+  <li>复刻并克隆一个仓库：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh repo fork </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">拥有者</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">仓库</span><code class="language-plaintext highlighter-rouge"> --clone</code></p>
+
+<ul>
+  <li>在默认的网络浏览器中查看一个仓库：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh repo view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">仓库</span><code class="language-plaintext highlighter-rouge"> --web</code></p>
+
+<ul>
+  <li>列出特定用户或组织拥有的仓库（如果未设置拥有者，默认拥有者将是当前登录用户）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh repo list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">拥有者</span></p>
+
+<ul>
+  <li>仅列出非派生的仓库，并限制列出的仓库数量（默认：30）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh repo list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">拥有者</span><code class="language-plaintext highlighter-rouge"> --source -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">限制数量</span></p>
+
+<ul>
+  <li>列出具有特定主要编程语言的仓库：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh repo list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">拥有者</span><code class="language-plaintext highlighter-rouge"> --language </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">语言名称</span></p>

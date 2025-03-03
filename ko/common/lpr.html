@@ -1,0 +1,47 @@
+<h1 id="lpr">lpr</h1>
+
+<p>파일을 인쇄합니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">lpstat</code> 및 <code class="language-plaintext highlighter-rouge">lpadmin</code>.
+더 많은 정보: <a href="https://openprinting.github.io/cups/doc/man-lpr.html">https://openprinting.github.io/cups/doc/man-lpr.html</a>.</p>
+
+<ul>
+  <li>기본 프린터로 파일 인쇄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>2부 인쇄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -# </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>지정된 프린터로 인쇄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프린터</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>특정 페이지(예: 2) 또는 페이지 범위(예: 2-16) 인쇄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -o page-ranges=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2|2-16</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>세로(긴) 또는 가로(짧은) 양면 인쇄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -o sides=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">two-sided-long-edge|two-sided-short-edge</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>페이지 크기 설정 (설정에 따라 더 많은 옵션 사용 가능):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -o media=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a4|letter|legal</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>한 장에 여러 페이지 인쇄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -o number-up=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2|4|6|9|16</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

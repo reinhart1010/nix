@@ -1,0 +1,53 @@
+<h1 id="xxh">xxh</h1>
+
+<p>Bring your shell with all of your customizations through SSH sessions.
+Note: xxh does not install anything into system directories on the target machine; removing <code class="language-plaintext highlighter-rouge">~/.xxh</code> will clear all traces of xxh on the target machine.
+More information: <a href="https://github.com/xxh/xxh">https://github.com/xxh/xxh</a>.</p>
+
+<ul>
+  <li>Connect to a host and run the current shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxh "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Install the current shell into the target machine without prompting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxh "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">" ++install</code></p>
+
+<ul>
+  <li>Run the specified shell on the target machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxh "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">" ++shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xonsh|zsh|fish|bash|osquery</span></p>
+
+<ul>
+  <li>Use a specific xxh configuration directory on the target machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxh "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">" ++host-xxh-home </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.xxh</span></p>
+
+<ul>
+  <li>Use the specified configuration file on the host machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxh "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">" ++xxh-config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.config/xxh/config.xxhc</span></p>
+
+<ul>
+  <li>Specify a password to use for the SSH connection:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxh "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">" ++password "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Install an xxh package on the target machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxh "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">" ++install-xxh-packages </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Set an environment variable for the shell process on the target machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xxh "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">" ++env </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>

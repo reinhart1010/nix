@@ -1,0 +1,23 @@
+<h1 id="mkfs">mkfs</h1>
+
+<p>Costruisce un filesystem Linux su una partizione del disco rigido.
+Questo comando è deprecato in favore degli strumenti specifici per filesystem: mkfs.tipo.
+Maggiori informazioni: <a href="https://manned.org/mkfs">https://manned.org/mkfs</a>.</p>
+
+<ul>
+  <li>Costruisce un filesystem Linux ext2 su una partizione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/partizione</span></p>
+
+<ul>
+  <li>Costruisce un filesystem del tipo specificato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ext4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/partizione</span></p>
+
+<ul>
+  <li>Costruisce un filesystem del specificato e controlla la presenza di settori danneggiati:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs -c -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ntfs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/partizione</span></p>

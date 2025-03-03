@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="debootstrap">debootstrap</h1>
+
+<p>创建一个基本的 <code class="language-plaintext highlighter-rouge">Debian</code> 系统。
+更多信息：<a href="https://wiki.debian.org/Debootstrap">https://wiki.debian.org/Debootstrap</a>.</p>
+
+<ul>
+  <li>在 <code class="language-plaintext highlighter-rouge">debian-root</code> 目录中创建一个 <code class="language-plaintext highlighter-rouge">Debian</code> 稳定分支系统：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo debootstrap stable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/debian-root/</span><code class="language-plaintext highlighter-rouge"> http://deb.debian.org/debian</code></p>
+
+<ul>
+  <li>使用本地镜像在 <code class="language-plaintext highlighter-rouge">focal-root</code> 目录中创建一个 <code class="language-plaintext highlighter-rouge">Ubuntu 20.04</code> 系统：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo debootstrap focal </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/focal-root/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file:///path/to/mirror/</span></p>
+
+<ul>
+  <li>切换到可引导系统：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/root</span></p>
+
+<ul>
+  <li>列出可用的版本：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls /usr/share/debootstrap/scripts/</code></p>

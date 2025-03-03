@@ -1,0 +1,11 @@
+<h1 id="virsh-pool-build">virsh pool-build</h1>
+
+<p>Build the underlying storage system for a virtual machine storage pool as defined in it's configuration file in <code class="language-plaintext highlighter-rouge">/etc/libvirt/storage</code>.
+See also: <code class="language-plaintext highlighter-rouge">virsh</code>, <code class="language-plaintext highlighter-rouge">virsh-pool-define-as</code>, <code class="language-plaintext highlighter-rouge">virsh-pool-start</code>.
+More information: <a href="https://manned.org/virsh">https://manned.org/virsh</a>.</p>
+
+<ul>
+  <li>Build the storage pool specified by name or UUID (determine using <code class="language-plaintext highlighter-rouge">virsh pool-list</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh pool-build --pool </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|uuid</span></p>

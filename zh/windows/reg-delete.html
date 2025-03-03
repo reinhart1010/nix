@@ -1,0 +1,28 @@
+<h1 id="reg-delete">reg delete</h1>
+
+<p>从注册表中删除键和值。
+更多信息：<a href="https://learn.microsoft.com/windows-server/administration/windows-commands/reg-delete">https://learn.microsoft.com/windows-server/administration/windows-commands/reg-delete</a>.</p>
+
+<ul>
+  <li>删除一个指定的键：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">键名</span></p>
+
+<ul>
+  <li>删除键中指定的值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">键名</span><code class="language-plaintext highlighter-rouge"> /v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">值</span></p>
+
+<ul>
+  <li>递归删除指定键下所有的值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">键名</span><code class="language-plaintext highlighter-rouge"> /va</code></p>
+
+<ul>
+  <li>在没有提示的情况下递归删除键中所有的值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">键名</span><code class="language-plaintext highlighter-rouge"> /f /va</code></p>

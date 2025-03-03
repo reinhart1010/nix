@@ -1,0 +1,40 @@
+<h1 id="pg_restore">pg_restore</h1>
+
+<p>Restore a PostgreSQL database from an archive file created by pg_dump.
+More information: <a href="https://www.postgresql.org/docs/current/app-pgrestore.html">https://www.postgresql.org/docs/current/app-pgrestore.html</a>.</p>
+
+<ul>
+  <li>Restore an archive into an existing database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_restore -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive_file.dump</span></p>
+
+<ul>
+  <li>Same as above, customize username:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_restore -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive_file.dump</span></p>
+
+<ul>
+  <li>Same as above, customize host and port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_restore -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive_file.dump</span></p>
+
+<ul>
+  <li>List database objects included in the archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_restore --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive_file.dump</span></p>
+
+<ul>
+  <li>Clean database objects before creating them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_restore --clean -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive_file.dump</span></p>
+
+<ul>
+  <li>Use multiple jobs to do the restoring:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_restore -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive_file.dump</span></p>

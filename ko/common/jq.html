@@ -1,0 +1,52 @@
+<h1 id="jq">jq</h1>
+
+<p>도메인 특화 언어(DSL)를 사용하는 JSON 처리기.
+더 많은 정보: <a href="https://jqlang.github.io/jq/manual/">https://jqlang.github.io/jq/manual/</a>.</p>
+
+<ul>
+  <li>특정 표현식을 실행하여 JSON을 색상 및 포맷된 출력으로 표시:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat 경로/대상/파일.json</span><code class="language-plaintext highlighter-rouge"> | jq '.'</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">jq</code> 바이너리를 사용하여 특정 표현식을 실행하고 JSON을 색상 및 포맷된 출력으로 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jq '.' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/파일.json</span></p>
+
+<ul>
+  <li>특정 스크립트를 실행:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat 경로/대상/파일.json</span><code class="language-plaintext highlighter-rouge"> | jq --from-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트.jq</span></p>
+
+<ul>
+  <li>특정 인수 전달:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat 경로/대상/파일.json</span><code class="language-plaintext highlighter-rouge"> | jq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–arg "name1" "value1" –arg "name2" "value2" …</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">. + $ARGS.named</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>특정 키 출력:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat 경로/대상/파일.json</span><code class="language-plaintext highlighter-rouge"> | jq '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.key1, .key2, …</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>특정 배열 항목 출력:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat 경로/대상/파일.json</span><code class="language-plaintext highlighter-rouge"> | jq '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.[index1], .[index2], …</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>모든 배열/객체 값 출력:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat 경로/대상/파일.json</span><code class="language-plaintext highlighter-rouge"> | jq '.[]'</code></p>
+
+<ul>
+  <li>특정 키 추가/제거:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat 경로/대상/파일.json</span><code class="language-plaintext highlighter-rouge"> | jq '. </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+|-</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{"key1": "value1", "key2": "value2", …}</span><code class="language-plaintext highlighter-rouge">'</code></p>

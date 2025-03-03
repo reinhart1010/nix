@@ -1,0 +1,52 @@
+<h1 id="git-branch">git branch</h1>
+
+<p>Git 브랜치 작업을 위한 주요 명령어.
+더 많은 정보: <a href="https://git-scm.com/docs/git-branch">https://git-scm.com/docs/git-branch</a>.</p>
+
+<ul>
+  <li>모든 브랜치 나열 (로컬 및 원격; 현재 브랜치는 <code class="language-plaintext highlighter-rouge">*</code>로 강조):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch --all</code></p>
+
+<ul>
+  <li>특정 Git 커밋을 포함한 브랜치 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch --all --contains </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋_해시</span></p>
+
+<ul>
+  <li>현재 브랜치 이름 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch --show-current</code></p>
+
+<ul>
+  <li>현재 커밋을 기준으로 새 브랜치 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브랜치_이름</span></p>
+
+<ul>
+  <li>특정 커밋을 기준으로 새 브랜치 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브랜치_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋_해시</span></p>
+
+<ul>
+  <li>브랜치 이름 변경 (현재 체크아웃된 브랜치가 아니어야 함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–move</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이전_브랜치_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_브랜치_이름</span></p>
+
+<ul>
+  <li>로컬 브랜치 삭제 (현재 체크아웃된 브랜치가 아니어야 함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–delete</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브랜치_이름</span></p>
+
+<ul>
+  <li>원격 브랜치 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_이름</span><code class="language-plaintext highlighter-rouge"> --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_브랜치_이름</span></p>

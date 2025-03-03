@@ -1,0 +1,40 @@
+<h1 id="slurp">slurp</h1>
+
+<p>Selecciona una región en un compositor Wayland.
+Más información: <a href="https://github.com/emersion/slurp">https://github.com/emersion/slurp</a>.</p>
+
+<ul>
+  <li>Selecciona una región y la imprime en <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slurp</code></p>
+
+<ul>
+  <li>Selecciona una región e imprímela en <code class="language-plaintext highlighter-rouge">stdout</code>, mientras muestras las dimensiones de la selección:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slurp -d</code></p>
+
+<ul>
+  <li>Selecciona un único punto en lugar de una región:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slurp -p</code></p>
+
+<ul>
+  <li>Selecciona una salida e imprime su nombre:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slurp -o -f '%o'</code></p>
+
+<ul>
+  <li>Selecciona una región determinada y hace una captura de pantalla sin bordes utilizando <code class="language-plaintext highlighter-rouge">grim</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grim -g "$(slurp -w 0)"</code></p>
+
+<ul>
+  <li>Selecciona una región determinada y graba un vídeo sin bordes utilizando <code class="language-plaintext highlighter-rouge">wf-recorder</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wf-recorder --geometry "$(slurp -w 0)"</code></p>

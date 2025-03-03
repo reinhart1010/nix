@@ -1,0 +1,34 @@
+<h1 id="rfkill">rfkill</h1>
+
+<p>무선 장치를 활성화하거나 비활성화합니다.
+더 많은 정보: <a href="https://manned.org/rfkill">https://manned.org/rfkill</a>.</p>
+
+<ul>
+  <li>장치 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rfkill</code></p>
+
+<ul>
+  <li>열로 필터링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rfkill -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ID,TYPE,DEVICE</span></p>
+
+<ul>
+  <li>유형별로 장치 차단 (예: bluetooth, wlan):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rfkill block </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bluetooth</span></p>
+
+<ul>
+  <li>유형별로 장치 차단 해제 (예: bluetooth, wlan):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rfkill unblock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan</span></p>
+
+<ul>
+  <li>JSON 형식으로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rfkill -J</code></p>

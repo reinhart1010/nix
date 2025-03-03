@@ -1,0 +1,28 @@
+<h1 id="nettacker">nettacker</h1>
+
+<p>Automate information gathering, vulnerability scanning and eventually generate a report.
+More information: <a href="https://nettacker.readthedocs.io/en/latest/Home/">https://nettacker.readthedocs.io/en/latest/Home/</a>.</p>
+
+<ul>
+  <li>List all available modules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettacker --show-all-modules</code></p>
+
+<ul>
+  <li>Run a port scan on targets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettacker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–modules</span><code class="language-plaintext highlighter-rouge"> port_scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–targets</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1/24,owasp.org,scanme.org,…</span></p>
+
+<ul>
+  <li>Run a port scan on specific ports and targets listed in a file (newline separated):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettacker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–modules</span><code class="language-plaintext highlighter-rouge"> port_scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–ports</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22,80,443,…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–targets-list</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/targets.txt</span></p>
+
+<ul>
+  <li>Run ping test before scan and then run multiple scan types on target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettacker --ping-before-scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–modules</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_scan,subdomain_scan,waf_scan,…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–ports</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80,443</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–targets</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">owasp.org</span></p>

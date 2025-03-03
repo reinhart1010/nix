@@ -1,0 +1,28 @@
+<h1 id="gnmic-set">gnmic set</h1>
+
+<p>Modify gnmi network device configuration.
+More information: <a href="https://gnmic.kmrd.dev/cmd/set">https://gnmic.kmrd.dev/cmd/set</a>.</p>
+
+<ul>
+  <li>Update the value of a path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic --address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:port</span><code class="language-plaintext highlighter-rouge"> set --update-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path</span><code class="language-plaintext highlighter-rouge"> --update-value </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Update the value of a path to match the contents of a JSON file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:port</span><code class="language-plaintext highlighter-rouge"> set --update-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path</span><code class="language-plaintext highlighter-rouge"> --update-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filepath</span></p>
+
+<ul>
+  <li>Replace the value of a path to match the contents of a JSON file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:port</span><code class="language-plaintext highlighter-rouge"> set --replace-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path</span><code class="language-plaintext highlighter-rouge"> --replace-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filepath</span></p>
+
+<ul>
+  <li>Delete the node at a given path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:port</span><code class="language-plaintext highlighter-rouge"> set --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path</span></p>

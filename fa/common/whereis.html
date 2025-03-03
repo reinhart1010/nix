@@ -1,0 +1,40 @@
+<h1 id="whereis">whereis</h1>
+
+<p>پیداکردن فایل اجرایی، سورس، صفحه راهنما برای یک دستور.
+اطلاعات بیشتر: <a href="https://manned.org/whereis">https://manned.org/whereis</a>.</p>
+
+<ul>
+  <li>پیداکردن فایل اجرایی، سورس و صفحه راهنما برای SSH:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whereis </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh</span></p>
+
+<ul>
+  <li>پیداکردن فایل اجرایی و صفحه راهنما برای ls:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whereis -bm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls</span></p>
+
+<ul>
+  <li>پیداکردن سورس برای gcc و صفحه راهنما برای git:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whereis -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gcc</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git</span></p>
+
+<ul>
+  <li>پیداکردن فایل اجرایی برای gcc در مسیر <code class="language-plaintext highlighter-rouge">/usr/bin/</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whereis -b -B </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/bin/</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gcc</span></p>
+
+<ul>
+  <li>پیدا کردن فایل های اجرایی غیر عادی(برای آنهایی که بیشتر از یک فایل اجرایی در سیستم دارند):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whereis -u *</code></p>
+
+<ul>
+  <li>پیدا کردن صفحات راهنمای غیر عادی(برای آنهایی که بیشتر از یک فایل اجرایی در سیستم دارند):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whereis -u -m *</code></p>

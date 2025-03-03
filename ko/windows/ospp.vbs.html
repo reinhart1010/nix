@@ -1,0 +1,41 @@
+<h1 id="osppvbs">ospp.vbs</h1>
+
+<p>Microsoft Office 제품의 볼륨 라이선스 버전을 설치, 활성화 및 관리합니다.
+참고: 이 명령어는 현재 볼륨 라이선스가 있는 Office 제품 버전을 덮어쓰거나 비활성화하거나 제거할 수 있으므로 주의하여 진행하세요.
+더 많은 정보: <a href="https://learn.microsoft.com/deployoffice/vlactivation/tools-to-manage-volume-activation-of-office">https://learn.microsoft.com/deployoffice/vlactivation/tools-to-manage-volume-activation-of-office</a>.</p>
+
+<ul>
+  <li>제품 키 설치 (참고: 기존 키를 덮어씀):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cscript ospp.vbs /inpkey:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">제품_키</span></p>
+
+<ul>
+  <li>설치된 제품 키 제거 (제품 키의 마지막 다섯 자리 숫자 사용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cscript ospp.vbs /unpkey:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">제품_키_숫자</span></p>
+
+<ul>
+  <li>KMS 호스트 이름 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cscript ospp.vbs /sethst:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아이피|호스트명</span></p>
+
+<ul>
+  <li>KMS 포트 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cscript ospp.vbs /setprt:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span></p>
+
+<ul>
+  <li>설치된 Office 제품 키 활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cscript ospp.vbs /act</code></p>
+
+<ul>
+  <li>설치된 제품 키에 대한 라이선스 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cscript ospp.vbs /dstatus</code></p>

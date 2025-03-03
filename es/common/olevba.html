@@ -1,0 +1,41 @@
+<h1 id="olevba">olevba</h1>
+
+<p>Analiza archivos OLE y OpenXML (p. ej., DOC, XLS, PPT, etc.) para extraer macros VBA, desofuscar y analizar código malicioso.
+Parte de la suite <code class="language-plaintext highlighter-rouge">python-oletools</code>.
+Más información: <a href="https://github.com/decalage2/oletools">https://github.com/decalage2/oletools</a>.</p>
+
+<ul>
+  <li>Analiza un archivo, mostrando tanto el código de la macro como los resultados del análisis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">olevba </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Analiza recursivamente todos los archivos compatibles de un directorio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">olevba -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Proporciona una contraseña para los archivos cifrados de Microsoft Office (puede repetirse):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">olevba --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_encriptado</span></p>
+
+<ul>
+  <li>Muestra solo los resultados del análisis, sin mostrar el código fuente de la macro:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">olevba -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Muestra solo el código fuente de la macro:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">olevba -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Muestra cadenas ofuscadas y su contenido decodificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">olevba --decode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>

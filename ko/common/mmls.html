@@ -1,0 +1,28 @@
+<h1 id="mmls">mmls</h1>
+
+<p>볼륨 시스템의 파티션 레이아웃을 표시.
+더 많은 정보: <a href="https://wiki.sleuthkit.org/index.php?title=Mmls">https://wiki.sleuthkit.org/index.php?title=Mmls</a>.</p>
+
+<ul>
+  <li>이미지 파일에 저장된 파티션 테이블 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지_파일</span></p>
+
+<ul>
+  <li>파티션 크기를 포함한 추가 열과 함께 파티션 테이블 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmls -B -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지_파일</span></p>
+
+<ul>
+  <li>분할된 EWF 이미지에서 파티션 테이블 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmls -i ewf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지.e01</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지.e02</span></p>
+
+<ul>
+  <li>중첩된 파티션 테이블 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmls -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">중첩_테이블_유형</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">오프셋</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지_파일</span></p>

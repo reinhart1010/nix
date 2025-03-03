@@ -1,0 +1,22 @@
+<h1 id="git-range-diff">git range-diff</h1>
+
+<p>Compare two commit ranges (e.g. two versions of a branch).
+More information: <a href="https://git-scm.com/docs/git-range-diff">https://git-scm.com/docs/git-range-diff</a>.</p>
+
+<ul>
+  <li>Diff the changes of two individual commits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git range-diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_1</span><code class="language-plaintext highlighter-rouge">^! </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_2</span><code class="language-plaintext highlighter-rouge">^!</code></p>
+
+<ul>
+  <li>Diff the changes of ours and theirs from their common ancestor, e.g. after an interactive rebase:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git range-diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">theirs</span><code class="language-plaintext highlighter-rouge">...</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ours</span></p>
+
+<ul>
+  <li>Diff the changes of two commit ranges, e.g. to check whether conflicts have been resolved appropriately when rebasing commits from <code class="language-plaintext highlighter-rouge">base1</code> to <code class="language-plaintext highlighter-rouge">base2</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git range-diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base1</span><code class="language-plaintext highlighter-rouge">..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rev1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base2</span><code class="language-plaintext highlighter-rouge">..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rev2</span></p>

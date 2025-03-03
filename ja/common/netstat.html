@@ -1,0 +1,47 @@
+<h1 id="netstat">netstat</h1>
+
+<p>開いている接続、開いているソケットポートなどのネットワーク関連情報を表示します。
+<code class="language-plaintext highlighter-rouge">ss</code> も参照してください。
+もっと詳しく: <a href="https://manned.org/netstat">https://manned.org/netstat</a>。</p>
+
+<ul>
+  <li>全てのポートを一覧表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --all</code></p>
+
+<ul>
+  <li>全てのリスニングポートを一覧表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --listening</code></p>
+
+<ul>
+  <li>リッスン中のTCPポートを一覧表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --tcp</code></p>
+
+<ul>
+  <li>PIDとプログラム名を表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --program</code></p>
+
+<ul>
+  <li>情報を連続的に一覧表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --continuous</code></p>
+
+<ul>
+  <li>ルートを一覧表示し、IPアドレスをホスト名に解決しない:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --route --numeric</code></p>
+
+<ul>
+  <li>リッスンしているTCPポートとUDPポートを一覧表示する (+ rootの場合はユーザーとプロセス):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netstat --listening --program --numeric --tcp --udp --extend</code></p>

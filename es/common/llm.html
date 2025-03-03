@@ -1,0 +1,46 @@
+<h1 id="llm">llm</h1>
+
+<p>Interactúa con modelos grandes de lenguaje (LLMs) a través de APIs y modelos remotos que pueden instalarse y ejecutarse en su máquina.
+Más información: <a href="https://llm.datasette.io/en/stable/help.html">https://llm.datasette.io/en/stable/help.html</a>.</p>
+
+<ul>
+  <li>Configura una clave API de OpenAI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llm keys set openai</code></p>
+
+<ul>
+  <li>Ejecuta un prompt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llm "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Diez nombres divertidos para un pelícano</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ejecuta un prompt de [s]istema contra un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.py</span><code class="language-plaintext highlighter-rouge"> | llm --system "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Explica este código</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Instala paquetes de PyPI en el mismo entorno que LLM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete1 paquete2 …</span></p>
+
+<ul>
+  <li>Descarga y ejecuta un prompt frente a un [m]odelo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llm --model </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">orca-mini-3b-gguf2-q4_0</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">¿Cuál es la capital de Francia?</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Crea un prompt de [s]istema y lo [s]alva como una plantilla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llm --system '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Eres una torta de queso sensible</span><code class="language-plaintext highlighter-rouge">' --save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">torta_de_queso_sensible</span></p>
+
+<ul>
+  <li>Establece un chat interactivo con un [m]odelo específico utilizando una plan[t]illa específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llm chat --model </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chatgpt</span><code class="language-plaintext highlighter-rouge"> --template </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">torta_de_queso_sensible</span></p>

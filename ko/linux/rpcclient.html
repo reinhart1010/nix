@@ -1,0 +1,52 @@
+<h1 id="rpcclient">rpcclient</h1>
+
+<p>MS-RPC 클라이언트 도구 (samba 모음의 일부).
+더 많은 정보: <a href="https://www.samba.org/samba/docs/current/man-html/rpcclient.1.html">https://www.samba.org/samba/docs/current/man-html/rpcclient.1.html</a>.</p>
+
+<ul>
+  <li>원격 호스트에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcclient --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인</span><code class="language-plaintext highlighter-rouge">\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge">%</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP</span></p>
+
+<ul>
+  <li>비밀번호 없이 도메인에 있는 원격 호스트에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcclient --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> --workgroup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인</span><code class="language-plaintext highlighter-rouge"> --no-pass </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP</span></p>
+
+<ul>
+  <li>비밀번호 해시를 전달하여 원격 호스트에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcclient --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인</span><code class="language-plaintext highlighter-rouge">\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> --pw-nt-hash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP</span></p>
+
+<ul>
+  <li>원격 호스트에서 셸 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcclient --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인</span><code class="language-plaintext highlighter-rouge">\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge">%</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> --command </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">세미콜론_구분_명령들</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP</span></p>
+
+<ul>
+  <li>도메인 사용자 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcclient $&gt; enumdomusers</code></p>
+
+<ul>
+  <li>권한 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcclient $&gt; enumprivs</code></p>
+
+<ul>
+  <li>특정 사용자에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcclient $&gt; queryuser </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명|RID</span></p>
+
+<ul>
+  <li>도메인에 새 사용자 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpcclient $&gt; createdomuser </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>

@@ -1,0 +1,40 @@
+<h1 id="setxkbmap">setxkbmap</h1>
+
+<p>Set the keyboard using the X Keyboard Extension.
+More information: <a href="https://manned.org/setxkbmap">https://manned.org/setxkbmap</a>.</p>
+
+<ul>
+  <li>Set the keyboard in French AZERTY:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setxkbmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fr</span></p>
+
+<ul>
+  <li>Set multiple keyboard layouts, their variants and switching option:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setxkbmap -layout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us,de</span><code class="language-plaintext highlighter-rouge"> -variant </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,qwerty</span><code class="language-plaintext highlighter-rouge"> -option </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'grp:alt_caps_toggle'</span></p>
+
+<ul>
+  <li>Get help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setxkbmap -help</code></p>
+
+<ul>
+  <li>List all layouts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">localectl list-x11-keymap-layouts</code></p>
+
+<ul>
+  <li>List variants for the layout:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">localectl list-x11-keymap-variants </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">de</span></p>
+
+<ul>
+  <li>List available switching options:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">localectl list-x11-keymap-options | grep grp:</code></p>

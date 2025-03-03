@@ -1,0 +1,46 @@
+<h1 id="dash">dash</h1>
+
+<p>Debian Almquist Shell, a modern, POSIX-compliant implementation of <code class="language-plaintext highlighter-rouge">sh</code> (not Bash-compatible).
+More information: <a href="https://manned.org/dash">https://manned.org/dash</a>.</p>
+
+<ul>
+  <li>Start an interactive shell session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dash</code></p>
+
+<ul>
+  <li>Execute specific [c]ommands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dash -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'dash is executed'</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Execute a specific script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span></p>
+
+<ul>
+  <li>Check a specific script for syntax errors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dash -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span></p>
+
+<ul>
+  <li>Execute a specific script while printing each command before executing it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dash -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span></p>
+
+<ul>
+  <li>Execute a specific script and stop at the first [e]rror:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dash -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span></p>
+
+<ul>
+  <li>Execute specific commands from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'dash is executed'"</span><code class="language-plaintext highlighter-rouge"> | dash</code></p>

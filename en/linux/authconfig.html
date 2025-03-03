@@ -1,0 +1,52 @@
+<h1 id="authconfig">authconfig</h1>
+
+<p>Configure system authentication resources.
+More information: <a href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system-level_authentication_guide/authconfig-install">https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system-level_authentication_guide/authconfig-install</a>.</p>
+
+<ul>
+  <li>Display the current configuration (or dry run):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">authconfig --test</code></p>
+
+<ul>
+  <li>Configure the server to use a different password hashing algorithm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">authconfig --update --passalgo=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algorithm</span></p>
+
+<ul>
+  <li>Enable LDAP authentication:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">authconfig --update --enableldapauth</code></p>
+
+<ul>
+  <li>Disable LDAP authentication:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">authconfig --update --disableldapauth</code></p>
+
+<ul>
+  <li>Enable Network Information Service (NIS):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">authconfig --update --enablenis</code></p>
+
+<ul>
+  <li>Enable Kerberos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">authconfig --update --enablekrb5</code></p>
+
+<ul>
+  <li>Enable Winbind (Active Directory) authentication:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">authconfig --update --enablewinbindauth</code></p>
+
+<ul>
+  <li>Enable local authorization:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">authconfig --update --enablelocauthorize</code></p>

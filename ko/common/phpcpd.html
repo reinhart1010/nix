@@ -1,0 +1,40 @@
+<h1 id="phpcpd">phpcpd</h1>
+
+<p>PHP 코드의 복사 및 붙여넣기 감지기.
+더 많은 정보: <a href="https://github.com/sebastianbergmann/phpcpd">https://github.com/sebastianbergmann/phpcpd</a>.</p>
+
+<ul>
+  <li>특정 파일이나 디렉터리에 대해 중복된 코드 분석:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcpd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉터리</span></p>
+
+<ul>
+  <li>변수 이름에 대한 퍼지 매칭을 사용하여 분석:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcpd --fuzzy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉터리</span></p>
+
+<ul>
+  <li>최소 동일한 라인 수 지정 (기본값은 5):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcpd --min-lines </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">라인_수</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉터리</span></p>
+
+<ul>
+  <li>최소 동일한 토큰 수 지정 (기본값은 70):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcpd --min-tokens </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">토큰_수</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉터리</span></p>
+
+<ul>
+  <li>분석에서 디렉터리 제외 (소스에 상대적이어야 함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcpd --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/제외_디렉터리</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉터리</span></p>
+
+<ul>
+  <li>결과를 PHP-CPD XML 파일로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpcpd --log-pmd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/로그_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉터리</span></p>

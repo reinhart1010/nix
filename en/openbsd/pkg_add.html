@@ -1,0 +1,23 @@
+<h1 id="pkg_add">pkg_add</h1>
+
+<p>Install/update packages in OpenBSD.
+See also: <code class="language-plaintext highlighter-rouge">pkg_info</code>, <code class="language-plaintext highlighter-rouge">pkg_delete</code>.
+More information: <a href="https://man.openbsd.org/pkg_add">https://man.openbsd.org/pkg_add</a>.</p>
+
+<ul>
+  <li>Update all packages, including dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkg_add -u</code></p>
+
+<ul>
+  <li>Install a new package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkg_add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Install packages from the raw output of <code class="language-plaintext highlighter-rouge">pkg_info</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkg_add -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

@@ -1,0 +1,34 @@
+<h1 id="pdftoppm">pdftoppm</h1>
+
+<p>Convert PDF document pages to portable Pixmap (image formats).
+More information: <a href="https://manned.org/pdftoppm">https://manned.org/pdftoppm</a>.</p>
+
+<ul>
+  <li>Specify the range of pages to convert (N-first page, M-last page):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftoppm -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">M</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name_prefix</span></p>
+
+<ul>
+  <li>Convert only the first page of a PDF:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftoppm -singlefile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name_prefix</span></p>
+
+<ul>
+  <li>Generate a monochrome PBM file (instead of a color PPM file):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftoppm -mono </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name_prefix</span></p>
+
+<ul>
+  <li>Generate a grayscale PGM file (instead of a color PPM file):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftoppm -gray </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name_prefix</span></p>
+
+<ul>
+  <li>Generate a PNG file instead a PPM file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftoppm -png </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name_prefix</span></p>

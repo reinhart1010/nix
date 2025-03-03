@@ -1,0 +1,47 @@
+<h1 id="sed">sed</h1>
+
+<p>以脚本方式编辑文本。
+参见：<code class="language-plaintext highlighter-rouge">awk</code>, <code class="language-plaintext highlighter-rouge">ed</code>.
+更多信息：<a href="https://www.gnu.org/software/sed/manual/sed.html">https://www.gnu.org/software/sed/manual/sed.html</a>.</p>
+
+<ul>
+  <li>将所有输入行中出现的 <code class="language-plaintext highlighter-rouge">apple</code>（基本正则语法）替换为 <code class="language-plaintext highlighter-rouge">mango</code>（基本正则语法），并将结果打印到 <code class="language-plaintext highlighter-rouge">stdout</code>：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span><code class="language-plaintext highlighter-rouge"> | sed 's/apple/mango/g'</code></p>
+
+<ul>
+  <li>将所有输入行中出现的 <code class="language-plaintext highlighter-rouge">apple</code>（扩展正则语法）替换为 <code class="language-plaintext highlighter-rouge">APPLE</code> （扩展正则语法），并将结果打印到 <code class="language-plaintext highlighter-rouge">stdout</code>：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span><code class="language-plaintext highlighter-rouge"> | sed -E 's/(apple)/\U\1/g'</code></p>
+
+<ul>
+  <li>用 <code class="language-plaintext highlighter-rouge">mango</code>（基本正则语法）替换特定文件中出现的所有 <code class="language-plaintext highlighter-rouge">apple</code>（基本正则语法），并覆盖原文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed -i 's/apple/mango/g' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>执行特定的脚本，并将结果打印到 <code class="language-plaintext highlighter-rouge">stdout</code>：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span><code class="language-plaintext highlighter-rouge"> | sed -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/脚本.sed</span></p>
+
+<ul>
+  <li>打印第一行到 <code class="language-plaintext highlighter-rouge">stdout</code>：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span><code class="language-plaintext highlighter-rouge"> | sed -n '1p'</code></p>
+
+<ul>
+  <li>删除文件第一行：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed -i 1d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>插入新行到文件的第一行：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed -i '1i\your new line text\' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>

@@ -1,0 +1,34 @@
+<h1 id="inkmake">inkmake</h1>
+
+<p>GNU Makefile-style SVG exporting using Inkscape's backend.
+More information: <a href="https://github.com/wader/inkmake">https://github.com/wader/inkmake</a>.</p>
+
+<ul>
+  <li>Export an SVG file executing the specified Inkfile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inkmake </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Inkfile</span></p>
+
+<ul>
+  <li>Execute an Inkfile and show detailed information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inkmake --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Inkfile</span></p>
+
+<ul>
+  <li>Execute an Inkfile, specifying SVG input file(s) and an output file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inkmake --svg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.svg</span><code class="language-plaintext highlighter-rouge"> --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_image</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Inkfile</span></p>
+
+<ul>
+  <li>Use a custom Inkscape binary as the backend:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inkmake --inkscape </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/Applications/Inkscape.app/Contents/Resources/bin/inkscape</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Inkfile</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inkmake --help</code></p>

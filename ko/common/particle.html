@@ -1,0 +1,46 @@
+<h1 id="particle">particle</h1>
+
+<p>Particle 장치를 조작.
+더 많은 정보: <a href="https://docs.particle.io/tutorials/developer-tools/cli">https://docs.particle.io/tutorials/developer-tools/cli</a>.</p>
+
+<ul>
+  <li>Particle CLI에 로그인하거나 계정 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">particle setup</code></p>
+
+<ul>
+  <li>장치 목록 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">particle list</code></p>
+
+<ul>
+  <li>대화형으로 새 Particle 프로젝트 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">particle project create</code></p>
+
+<ul>
+  <li>Particle 프로젝트 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">particle compile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">장치_유형</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스_코드.ino</span></p>
+
+<ul>
+  <li>특정 앱을 원격으로 사용하도록 장치 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">particle flash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">장치_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/프로그램.bin</span></p>
+
+<ul>
+  <li>최신 펌웨어로 장치를 시리얼로 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">particle flash --serial </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/방화벽.bin</span></p>
+
+<ul>
+  <li>장치에서 함수 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">particle call </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">장치_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">함수_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">함수_인자</span></p>

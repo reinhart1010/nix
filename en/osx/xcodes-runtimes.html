@@ -1,0 +1,40 @@
+<h1 id="xcodes-runtimes">xcodes runtimes</h1>
+
+<p>Manage Xcode Simulator runtimes.
+More information: <a href="https://github.com/xcodesorg/xcodes">https://github.com/xcodesorg/xcodes</a>.</p>
+
+<ul>
+  <li>Display all available Simulator runtimes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes --include-betas</code></p>
+
+<ul>
+  <li>Download a Simulator runtime:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes download </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">runtime_name</span></p>
+
+<ul>
+  <li>Download and install a Simulator runtime:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">runtime_name</span></p>
+
+<ul>
+  <li>Download/install a Simulator runtime for specific iOS/watchOS/tvOS/visionOS version (must be written as case-sensitive):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">download|install</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">iOS|watchOS|tvOS|visionOS</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">runtime_version</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Set a specific location where the runtime archive will be first downloaded (defaults to <code class="language-plaintext highlighter-rouge">~/Downloads</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">download|install</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">runtime_name</span><code class="language-plaintext highlighter-rouge"> --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Do not delete the downloaded archive when the Simulator is successfully installed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">runtime_name</span><code class="language-plaintext highlighter-rouge"> --keep-archive</code></p>

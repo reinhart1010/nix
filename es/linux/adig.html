@@ -1,0 +1,34 @@
+<h1 id="adig">adig</h1>
+
+<p>Muestra la información recibida de los servidores del Sistema de Nombres de Dominio (DNS).
+Más información: <a href="https://manned.org/adig">https://manned.org/adig</a>.</p>
+
+<ul>
+  <li>Muestra el registro A (predeterminado) desde DNS para el(los) nombre(s) de host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Muestra salida adicional de [d]epuración:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adig -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Conecta a un [s]ervidor DNS especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adig -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.2.3.4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Usa un puerto TCP específico para conectarse a un servidor DNS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adig -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Usa un puerto UDP específico para conectarse a un servidor DNS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adig -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>

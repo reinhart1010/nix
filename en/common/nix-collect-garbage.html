@@ -1,0 +1,23 @@
+<h1 id="nix-collect-garbage">nix-collect-garbage</h1>
+
+<p>Delete unused and unreachable nix store paths.
+Generations can be listed using <code class="language-plaintext highlighter-rouge">nix-env --list-generations</code>.
+More information: <a href="https://nixos.org/manual/nix/stable/command-ref/nix-collect-garbage.html">https://nixos.org/manual/nix/stable/command-ref/nix-collect-garbage.html</a>.</p>
+
+<ul>
+  <li>Delete all store paths unused by current generations of each profile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nix-collect-garbage --delete-old</code></p>
+
+<ul>
+  <li>Simulate the deletion of old store paths:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nix-collect-garbage --delete-old --dry-run</code></p>
+
+<ul>
+  <li>Delete all store paths older than 30 days:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nix-collect-garbage --delete-older-than 30d</code></p>

@@ -1,0 +1,47 @@
+<h1 id="zip">zip</h1>
+
+<p>أداة لضغط وحزم الملفات في أرشيف Zip.
+انظر أيضًا: <code class="language-plaintext highlighter-rouge">unzip</code>.
+لمزيد من التفاصيل: <a href="https://manned.org/zip">https://manned.org/zip</a>.</p>
+
+<ul>
+  <li>إضافة ملفات/مجلدات إلى أرشيف محدد ([r]بشكل متكرر):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 …</span></p>
+
+<ul>
+  <li>إزالة ملفات/مجلدات من أرشيف محدد ([d]حذف):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 …</span></p>
+
+<ul>
+  <li>أرشفة ملفات/مجلدات مع [x]استثناء عناصر معينة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 …</span><code class="language-plaintext highlighter-rouge"> -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/excluded_files_or_directories</span></p>
+
+<ul>
+  <li>أرشفة ملفات/مجلدات مع مستوى ضغط محدد (<code class="language-plaintext highlighter-rouge">0</code> - الأقل، <code class="language-plaintext highlighter-rouge">9</code> - الأعلى):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0..9</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 …</span></p>
+
+<ul>
+  <li>إنشاء أرشيف [e]مشفر باستخدام كلمة مرور محددة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 …</span></p>
+
+<ul>
+  <li>أرشفة ملفات/مجلدات في أرشيف Zip مقسم[s] إلى أجزاء متعددة (مثل أجزاء بحجم 3 جيجابايت):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3g</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 …</span></p>
+
+<ul>
+  <li>طباعة محتويات أرشيف محدد:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -sf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zip</span></p>

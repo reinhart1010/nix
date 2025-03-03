@@ -1,0 +1,40 @@
+<h1 id="jdupes">jdupes</h1>
+
+<p>A powerful duplicate file finder and an enhanced fork of fdupes.
+More information: <a href="https://codeberg.org/jbruchon/jdupes">https://codeberg.org/jbruchon/jdupes</a>.</p>
+
+<ul>
+  <li>Search a single directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jdupes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Search multiple directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jdupes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory2</span></p>
+
+<ul>
+  <li>Search all directories recursively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jdupes --recurse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Search directory recursively and let user choose files to preserve:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jdupes --delete --recurse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Search multiple directories and follow subdirectores under directory2, not directory1:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jdupes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory1</span><code class="language-plaintext highlighter-rouge"> --recurse: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory2</span></p>
+
+<ul>
+  <li>Search multiple directories and keep the directory order in result:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jdupes -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory3</span></p>

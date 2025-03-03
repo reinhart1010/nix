@@ -1,0 +1,22 @@
+<h1 id="ssh-copy-id">ssh-copy-id</h1>
+
+<p>Dépose une clé publique sur une machine distante, dans les clés autorisées <code class="language-plaintext highlighter-rouge">authorized_keys</code>.
+Plus d'informations : <a href="https://manned.org/ssh-copy-id">https://manned.org/ssh-copy-id</a>.</p>
+
+<ul>
+  <li>Dépose toutes les clés publiques sur la machine distante :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-copy-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote_distant</span></p>
+
+<ul>
+  <li>Dépose une clé publique spécifique sur la machine distante :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-copy-id -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/certificat</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote_distant</span></p>
+
+<ul>
+  <li>Dépose une clé publique spécifique sur la machine distante en utilisant un port particulier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-copy-id -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/certificat</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote_distant</span></p>

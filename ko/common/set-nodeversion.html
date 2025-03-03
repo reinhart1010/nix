@@ -1,0 +1,29 @@
+<h1 id="set-nodeversion">Set-NodeVersion</h1>
+
+<p><code class="language-plaintext highlighter-rouge">ps-nvm</code>에서 기본 Node.js 버전을 설정.
+<code class="language-plaintext highlighter-rouge">ps-nvm</code>의 일부이며 PowerShell에서만 실행 가능.
+더 많은 정보: <a href="https://github.com/aaronpowell/ps-nvm">https://github.com/aaronpowell/ps-nvm</a>.</p>
+
+<ul>
+  <li>현재 PowerShell 세션에서 특정 버전의 Node.js 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-NodeVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_버전</span></p>
+
+<ul>
+  <li>최신 설치된 Node.js 버전 20.x 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-NodeVersion ^20</code></p>
+
+<ul>
+  <li>현재 사용자에 대해 기본 Node.js 버전 설정 (향후 PowerShell 세션에만 적용됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-NodeVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_버전</span><code class="language-plaintext highlighter-rouge"> -Persist User</code></p>
+
+<ul>
+  <li>모든 사용자를 위해 기본 Node.js 버전 설정 (관리자/루트 권한으로 실행해야 하며 향후 PowerShell 세션에만 적용됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-NodeVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_버전</span><code class="language-plaintext highlighter-rouge"> -Persist Machine</code></p>

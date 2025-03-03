@@ -1,0 +1,40 @@
+<h1 id="pass-otp">pass otp</h1>
+
+<p>A pass extension for managing one-time-password (OTP) tokens.
+More information: <a href="https://github.com/tadfisher/pass-otp#readme">https://github.com/tadfisher/pass-otp#readme</a>.</p>
+
+<ul>
+  <li>Prompt for an otpauth URI token and create a new pass file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pass otp insert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pass</span></p>
+
+<ul>
+  <li>Prompt for an otpauth URI token and append to an existing pass file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pass otp append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pass</span></p>
+
+<ul>
+  <li>Print a 2FA code using the OTP token in a pass file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pass otp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pass</span></p>
+
+<ul>
+  <li>Copy and don't print a 2FA code using the OTP token in a pass file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pass otp --clip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pass</span></p>
+
+<ul>
+  <li>Display a QR code using the OTP token stored in a pass file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pass otp uri --qrcode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pass</span></p>
+
+<ul>
+  <li>Prompt for an OTP secret value specifying issuer and account (at least one must be specified) and append to existing pass file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pass otp append --secret --issuer </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">issuer_name</span><code class="language-plaintext highlighter-rouge"> --account </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">account_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pass</span></p>

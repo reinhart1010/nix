@@ -1,0 +1,52 @@
+<h1 id="read">read</h1>
+
+<p>Shell builtin voor het ophalen van data van <code class="language-plaintext highlighter-rouge">stdin</code>.
+Meer informatie: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-read">https://www.gnu.org/software/bash/manual/bash.html#index-read</a>.</p>
+
+<ul>
+  <li>Sla gegevens op die je van het toetsenbord typt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span></p>
+
+<ul>
+  <li>Sla elke van de volgende regels die je invoert op als waarden van een array:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">array</span></p>
+
+<ul>
+  <li>Specificeer het maximale aantal karakters dat gelezen moet worden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">character_count</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span></p>
+
+<ul>
+  <li>Wijs meerdere waarden toe aan meerdere variabelen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">_ variable1 _ variable2</span><code class="language-plaintext highlighter-rouge"> &lt;&lt;&lt; "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">De achternaam is Bond</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Laat backslash (\) niet optreden als een escape-teken:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span></p>
+
+<ul>
+  <li>Toon een prompt vóór de invoer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read -p "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Voer je invoer hier in: </span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span></p>
+
+<ul>
+  <li>Echo de ingetikte tekens niet (stille modus):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span></p>
+
+<ul>
+  <li>Lees <code class="language-plaintext highlighter-rouge">stdin</code> en voer een actie uit op elke regel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while read line; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo|ls|rm|…</span><code class="language-plaintext highlighter-rouge"> "$line"; done &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/stdin|pad/naar/bestand|…</span></p>

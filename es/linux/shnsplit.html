@@ -1,0 +1,28 @@
+<h1 id="shnsplit">shnsplit</h1>
+
+<p>Divide archivos de audio según un archivo <code class="language-plaintext highlighter-rouge">.cue</code>.
+Más información: <a href="http://shnutils.freeshell.org/shntool/">http://shnutils.freeshell.org/shntool/</a>.</p>
+
+<ul>
+  <li>Divide un archivo <code class="language-plaintext highlighter-rouge">.wav</code> + <code class="language-plaintext highlighter-rouge">.cue</code> en múltiples archivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shnsplit -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.cue</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.wav</span></p>
+
+<ul>
+  <li>Muestra formatos compatibles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shnsplit -a</code></p>
+
+<ul>
+  <li>Divide un archivo <code class="language-plaintext highlighter-rouge">.flac</code> en varios archivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shnsplit -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.cue</span><code class="language-plaintext highlighter-rouge"> -o flac </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.flac</span></p>
+
+<ul>
+  <li>Divide un archivo <code class="language-plaintext highlighter-rouge">.wav</code> en archivos de la forma "número-de-pista - álbum - título":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shnsplit -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.cue</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.wav</span><code class="language-plaintext highlighter-rouge"> -t "%n - %a - %t"</code></p>

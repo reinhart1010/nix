@@ -1,0 +1,40 @@
+<h1 id="todoist">todoist</h1>
+
+<p>명령줄에서 <a href="https://todoist.com">https://todoist.com</a>에 접근하세요.
+더 많은 정보: <a href="https://github.com/sachaos/todoist">https://github.com/sachaos/todoist</a>.</p>
+
+<ul>
+  <li>작업 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_이름</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>라벨, 프로젝트 및 기한이 있는 높은 우선순위 작업 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_이름</span><code class="language-plaintext highlighter-rouge">" --priority </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> --label-ids "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">라벨_ID</span><code class="language-plaintext highlighter-rouge">" --project-name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span><code class="language-plaintext highlighter-rouge">" --date "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmr 9am</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>빠른 모드로 라벨, 프로젝트 및 기한이 있는 높은 우선순위 작업 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist quick '#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmr 9am</span><code class="language-plaintext highlighter-rouge">" p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업_이름</span><code class="language-plaintext highlighter-rouge"> @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">라벨_이름</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>헤더 및 색상이 있는 모든 작업 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist --header --color list</code></p>
+
+<ul>
+  <li>높은 우선순위의 모든 작업 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist list --filter p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>지정된 라벨이 있는 오늘의 높은 우선순위 작업 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist list --filter '(@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">라벨_이름</span><code class="language-plaintext highlighter-rouge"> | </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">today</span><code class="language-plaintext highlighter-rouge">) &amp; p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge">'</code></p>

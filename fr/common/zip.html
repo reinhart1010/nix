@@ -1,0 +1,55 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="zip">zip</h1>
+
+<p>Empaquette et compresse (archive) les fichiers en un fichier zip.
+Plus d'informations : <a href="https://manned.org/zip">https://manned.org/zip</a>.</p>
+
+<ul>
+  <li>Empaquette et compresse [r]écursivement un répertoire et son contenu :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/du/répertoire</span></p>
+
+<ul>
+  <li>E[x]clure des fichiers de l'archive :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/répertoire</span><code class="language-plaintext highlighter-rouge"> -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/des/fichiers/exclus</span></p>
+
+<ul>
+  <li>Archive un répertoire et son contenu avec le plus haut niveau [9] de compression :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/du/répertoire</span></p>
+
+<ul>
+  <li>Empaquette et compresse plusieurs répertoires et fichiers :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/du/répertoire1 chemin/du/répertoire2 chemin/du/fichier</span></p>
+
+<ul>
+  <li>Crée une archive chiffrée (l'utilisateur sera sollicité pour saisir le mot de passe) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -e -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/du/répertoire</span></p>
+
+<ul>
+  <li>Ajoute des fichiers à une archive existante :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/du/fichier</span></p>
+
+<ul>
+  <li>Supprime des fichiers d'une archive existante :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.zip</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo/*.tmp</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Archive un répertoire et son contenu en plusieurs fichiers zip [s]cindés (ex : des fichiers de 3 Go) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3g</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/du/répertoire</span></p>

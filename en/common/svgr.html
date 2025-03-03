@@ -1,0 +1,46 @@
+<h1 id="svgr">svgr</h1>
+
+<p>Transform SVGs into React components.
+More information: <a href="https://react-svgr.com">https://react-svgr.com</a>.</p>
+
+<ul>
+  <li>Transform a SVG file into a React component to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgr -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.svg</span></p>
+
+<ul>
+  <li>Transform a SVG file into a React component using TypeScript to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgr --typescript -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.svg</span></p>
+
+<ul>
+  <li>Transform a SVG file into a React component using JSX transform to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgr --jsx-runtime automatic -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.svg</span></p>
+
+<ul>
+  <li>Transform all SVG files from a directory to React components into a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgr --out-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_directory</span></p>
+
+<ul>
+  <li>Transform all SVG files from a directory to React components into a specific directory skipping already transformed files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgr --out-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_directory</span><code class="language-plaintext highlighter-rouge"> --ignore-existing </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_directory</span></p>
+
+<ul>
+  <li>Transform all SVG files from a directory to React components into a specific directory using a specific case for filenames:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgr --out-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_directory</span><code class="language-plaintext highlighter-rouge"> --filename-case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">camel|kebab|pascal</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_directory</span></p>
+
+<ul>
+  <li>Transform all SVG files from a directory to React components into a specific directory without generating an index file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgr --out-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_directory</span><code class="language-plaintext highlighter-rouge"> --no-index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_directory</span></p>

@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="dd">dd</h1>
+
+<p>Konvertiere und kopiere eine Datei.
+Weitere Informationen: <a href="https://manned.org/dd.1p">https://manned.org/dd.1p</a>.</p>
+
+<ul>
+  <li>Erstelle ein bootbares USB-Laufwerk von einer isohybriden Datei (wie <code class="language-plaintext highlighter-rouge">archlinux-xxxx.iso</code>) und zeige den Fortschritt an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.iso</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/laufwerk</span><code class="language-plaintext highlighter-rouge"> status=progress</code></p>
+
+<ul>
+  <li>Klone ein USB-Laufwerk in ein anderes in 4MiB Blöcken, ignoriere Fehler und zeige den Fortschritt an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/quell_laufwerk</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ziel_laufwerk</span><code class="language-plaintext highlighter-rouge"> bs=4M conv=noerror status=progress</code></p>
+
+<ul>
+  <li>Erstelle eine Datei mit spezifizierte zufälligen Bytes mithilfe des Zufall-Treibers des Kernels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> count=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> if=/dev/urandom of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Teste die Schreibgeschwindigkeit eines Laufwerks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span><code class="language-plaintext highlighter-rouge"> count=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000000</span><code class="language-plaintext highlighter-rouge"> if=/dev/zero of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/1GB_datei</span></p>
+
+<ul>
+  <li>Erstelle ein System-Backup als IMG Datei und zeige den Fortschritt an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/laufwerk</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.img</span><code class="language-plaintext highlighter-rouge"> status=progress</code></p>
+
+<ul>
+  <li>Stelle ein Laufwerk aus einer IMG Datei wieder her und zeige den Fortschritt an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.img</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/laufwerk</span><code class="language-plaintext highlighter-rouge"> status=progress</code></p>

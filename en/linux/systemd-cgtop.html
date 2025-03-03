@@ -1,0 +1,35 @@
+<h1 id="systemd-cgtop">systemd-cgtop</h1>
+
+<p>Show the top control groups of the local Linux control group hierarchy, ordered by their CPU, memory, or disk I/O load.
+See also: <code class="language-plaintext highlighter-rouge">top</code>.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/systemd-cgtop.html">https://www.freedesktop.org/software/systemd/man/systemd-cgtop.html</a>.</p>
+
+<ul>
+  <li>Start an interactive view:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cgtop</code></p>
+
+<ul>
+  <li>Change the sort order:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cgtop --order=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu|memory|path|tasks|io</span></p>
+
+<ul>
+  <li>Show the CPU usage by time instead of percentage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cgtop --cpu=percentage</code></p>
+
+<ul>
+  <li>Change the update interval in seconds (or one of these time units: <code class="language-plaintext highlighter-rouge">ms</code>, <code class="language-plaintext highlighter-rouge">us</code>, <code class="language-plaintext highlighter-rouge">min</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cgtop --delay=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interval</span></p>
+
+<ul>
+  <li>Only count userspace processes (without kernel threads):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-cgtop -P</code></p>

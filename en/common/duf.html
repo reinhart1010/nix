@@ -1,0 +1,46 @@
+<h1 id="duf">duf</h1>
+
+<p>Disk Usage/Free Utility.
+More information: <a href="https://github.com/muesli/duf">https://github.com/muesli/duf</a>.</p>
+
+<ul>
+  <li>List accessible devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duf</code></p>
+
+<ul>
+  <li>List everything (such as pseudo, duplicate or inaccessible file systems):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duf --all</code></p>
+
+<ul>
+  <li>Only show specified devices or mount points:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 …</span></p>
+
+<ul>
+  <li>Sort the output by a specified criteria:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duf --sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size|used|avail|usage</span></p>
+
+<ul>
+  <li>Show or hide specific filesystems:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duf --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">only-fs|hide-fs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmpfs|vfat|ext4|xfs</span></p>
+
+<ul>
+  <li>Sort the output by key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duf --sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountpoint|size|used|avail|usage|inodes|inodes_used|inodes_avail|inodes_usage|type|filesystem</span></p>
+
+<ul>
+  <li>Change the theme (if <code class="language-plaintext highlighter-rouge">duf</code> fails to use the right theme):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duf --theme </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dark|light</span></p>

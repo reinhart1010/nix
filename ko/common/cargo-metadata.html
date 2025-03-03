@@ -1,0 +1,29 @@
+<h1 id="cargo-metadata">cargo metadata</h1>
+
+<p>현재 패키지의 작업공간 멤버와 해결된 종속성을 JSON으로 출력.
+참고: 출력 형식은 Cargo의 향후 버전에서 변경될 수 있음.
+더 많은 정보: <a href="https://doc.rust-lang.org/cargo/commands/cargo-metadata.html">https://doc.rust-lang.org/cargo/commands/cargo-metadata.html</a>.</p>
+
+<ul>
+  <li>현재 패키지의 작업공간 멤버 및 해결된 종속성을 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo metadata</code></p>
+
+<ul>
+  <li>작업공간 멤버만 출력하고 종속성을 가져오지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo metadata --no-deps</code></p>
+
+<ul>
+  <li>지정된 버전에 따라 특정 형식으로 메타데이터를 인쇄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo metadata --format-version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버전</span></p>
+
+<ul>
+  <li>주어진 타겟 트리플에 대한 종속성만 포함하는 <code class="language-plaintext highlighter-rouge">resolve</code> 필드로 메타데이터를 출력 (참고: <code class="language-plaintext highlighter-rouge">packages</code> 배열에는 여전히 모든 대상에 대한 종속성이 포함됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo metadata --filter-platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">타겟_아키텍처_정보</span></p>

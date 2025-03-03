@@ -1,0 +1,28 @@
+<h1 id="as">as</h1>
+
+<p>Assembleur GNU portable. Principalement destiné pour assembler la sortie de <code class="language-plaintext highlighter-rouge">gcc</code> pour être utilisé par <code class="language-plaintext highlighter-rouge">ld</code>.
+Plus d'informations : <a href="https://manned.org/as">https://manned.org/as</a>.</p>
+
+<ul>
+  <li>Assemble un fichier, en écrivant la sortie dans le fichier <code class="language-plaintext highlighter-rouge">a.out</code> :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.s</span></p>
+
+<ul>
+  <li>Assemble la sortie vers un fichier donné :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.s</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/sortie.o</span></p>
+
+<ul>
+  <li>Génère la sortie plus vite en évitant le preprocess des espaces et des commentaires (doit seulement être utilisé sur des compilateurs sûrs) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.s</span></p>
+
+<ul>
+  <li>Inclut un chemin donné à la liste des répertoires dans lesquels chercher les fichiers spécifiés dans les directives <code class="language-plaintext highlighter-rouge">.include</code> :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/répertoire</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.s</span></p>

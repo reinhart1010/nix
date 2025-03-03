@@ -1,0 +1,28 @@
+<h1 id="git-diff-tree">git diff-tree</h1>
+
+<p>Compares the content and mode of blobs found via two tree objects.
+More information: <a href="https://git-scm.com/docs/git-diff-tree">https://git-scm.com/docs/git-diff-tree</a>.</p>
+
+<ul>
+  <li>Compare two tree objects:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree-ish1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree-ish2</span></p>
+
+<ul>
+  <li>Show changes between two specific commits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff-tree -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit2</span></p>
+
+<ul>
+  <li>Display changes in patch format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|–patch</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree-ish1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree-ish2</span></p>
+
+<ul>
+  <li>Filter changes by a specific path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree-ish1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree-ish2</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>

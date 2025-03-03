@@ -1,0 +1,40 @@
+<h1 id="chown">chown</h1>
+
+<p>Muda o usuário e grupo donos de arquivos e diretórios.
+Mais informações: <a href="https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html</a>.</p>
+
+<ul>
+  <li>Muda o usuário que é dono de um arquivo ou diretório:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretório</span></p>
+
+<ul>
+  <li>Muda o usuário e grupo que são donos de um arquivo/diretório:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretório</span></p>
+
+<ul>
+  <li>Muda o usuário dono e o grupo para que ambos tenha o nome <code class="language-plaintext highlighter-rouge">usuario</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge">: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretorio</span></p>
+
+<ul>
+  <li>Recursivamente muda o dono de um diretório e seu conteúdo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Muda o dono de um link simbólico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/symlink</span></p>
+
+<ul>
+  <li>Muda o dono de um arquivo/diretório para ficar igual a um arquivo de referência:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown --reference </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_referência</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretório</span></p>

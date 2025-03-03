@@ -1,0 +1,28 @@
+<h1 id="cut">cut</h1>
+
+<p>Recorta campos do <code class="language-plaintext highlighter-rouge">stdin</code> ou de arquivos.
+Mais informações: <a href="https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html</a>.</p>
+
+<ul>
+  <li>Imprime um intervalo específico de caracteres/campos de cada linha:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | cut --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">characters|fields</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|1,10|1-10|1-|-10</span></p>
+
+<ul>
+  <li>Imprime um intervalo de campos de cada linha com um delimitador específico:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | cut --delimiter "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span><code class="language-plaintext highlighter-rouge">" --fields </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Imprime um intervalo de caracteres de cada linha de um arquivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut --characters </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Imprime campos específicos de linhas terminadas em <code class="language-plaintext highlighter-rouge">NUL</code> (ex.: assim como em <code class="language-plaintext highlighter-rouge">find . -print0</code>) ao invés de novas linhas:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | cut --zero-terminated --fields </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>

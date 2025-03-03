@@ -1,0 +1,22 @@
+<h1 id="aws-cur">aws cur</h1>
+
+<p>Crée, requête et supprime des rapports de définition d'utilisation AWS.
+Plus d'informations : <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cur/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cur/index.html</a>.</p>
+
+<ul>
+  <li>Créé un rapport de définition de coût et d'utilisation AWS depuis un fichier JSON :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cur put-report-definition --report-definition file://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/rapport_de_définition.json</span></p>
+
+<ul>
+  <li>Liste les rapports de définition définis pour le compte connecté :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cur describe-report-definitions</code></p>
+
+<ul>
+  <li>Supprime un rapport de définition d'utilisation :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cur --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region_aws</span><code class="language-plaintext highlighter-rouge"> delete-report-definition --report-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rapport</span></p>

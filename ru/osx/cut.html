@@ -1,0 +1,22 @@
+<h1 id="cut">cut</h1>
+
+<p>Вырезать поля из стандартного ввода или файлов.
+Больше информации: <a href="https://keith.github.io/xcode-man-pages/cut.1.html">https://keith.github.io/xcode-man-pages/cut.1.html</a>.</p>
+
+<ul>
+  <li>Вывести указанный диапазон символов/полей каждой строки (<code class="language-plaintext highlighter-rouge">-c|f 1|1,10|1-10|1-|-10</code> далее обозначается как <code class="language-plaintext highlighter-rouge">диапазон</code>):</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">команда</span><code class="language-plaintext highlighter-rouge"> | cut -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">c|f</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|1,10|1-10|1-|-10</span></p>
+
+<ul>
+  <li>Вывести диапазон полей каждой строки с указанным разделителем:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">команда</span><code class="language-plaintext highlighter-rouge"> | cut -d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span><code class="language-plaintext highlighter-rouge">" -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">диапазон</span></p>
+
+<ul>
+  <li>Вывести диапазон символов каждой строки указанного файла:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

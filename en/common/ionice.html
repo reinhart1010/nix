@@ -1,0 +1,24 @@
+<h1 id="ionice">ionice</h1>
+
+<p>Get or set program I/O scheduling class and priority.
+Scheduling classes: 1 (realtime), 2 (best-effort), 3 (idle).
+Priority levels: 0 (the highest) - 7 (the lowest).
+More information: <a href="https://manned.org/ionice">https://manned.org/ionice</a>.</p>
+
+<ul>
+  <li>Set I/O scheduling class of a running process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ionice -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scheduling_class</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Run a command with custom I/O scheduling class and priority:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ionice -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scheduling_class</span><code class="language-plaintext highlighter-rouge"> -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">priority</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Print the I/O scheduling class and priority of a running process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ionice -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>

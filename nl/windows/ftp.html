@@ -1,0 +1,52 @@
+<h1 id="ftp">ftp</h1>
+
+<p>Interactief bestanden overzetten tussen een lokale en een externe FTP-server.
+Meer informatie: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/ftp">https://learn.microsoft.com/windows-server/administration/windows-commands/ftp</a>.</p>
+
+<ul>
+  <li>Verbind interactief met een externe FTP-server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Log in als een anonieme gebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Schakel automatisch inloggen uit bij de eerste verbinding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Voer een bestand uit met een lijst van FTP-opdrachten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp -s:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestand</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Download meerdere bestanden (glob-expressie):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.png</span></p>
+
+<ul>
+  <li>Upload meerdere bestanden (glob-expressie):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mput </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.zip</span></p>
+
+<ul>
+  <li>Verwijder meerdere bestanden op de externe server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mdelete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span></p>
+
+<ul>
+  <li>Toon de help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp --help</code></p>

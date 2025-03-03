@@ -1,0 +1,16 @@
+<h1 id="nix-edit">nix edit</h1>
+
+<p>Nix 패키지의 Nix 표현을 $EDITOR에서 엽니다.
+더 많은 정보: <a href="https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-edit.html">https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-edit.html</a>.</p>
+
+<ul>
+  <li>nixpkgs에서 패키지의 Nix 표현 소스를 <code class="language-plaintext highlighter-rouge">$EDITOR</code>에서 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs#패키지</span></p>
+
+<ul>
+  <li>패키지의 소스를 <code class="language-plaintext highlighter-rouge">stdout</code>으로 덤프:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">EDITOR=cat nix edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs#패키지</span></p>

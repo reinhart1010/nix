@@ -1,0 +1,46 @@
+<h1 id="b2sum">b2sum</h1>
+
+<p>Bereken BLAKE2 cryptografische checksums.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/b2sum-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/b2sum-invocation.html</a>.</p>
+
+<ul>
+  <li>Bereken de BLAKE2 checksum voor een of meerdere bestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2sum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 …</span></p>
+
+<ul>
+  <li>Bereken en sla de lijst van BLAKE2 checksums op in een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2sum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.b2</span></p>
+
+<ul>
+  <li>Bereken de BLAKE2 checksum voor <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | b2sum</code></p>
+
+<ul>
+  <li>Lees een bestand van BLAKE2 sums en bestandsnamen en verifieer dat alle bestanden overeenkomende checksums hebben:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2sum --check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.b2</span></p>
+
+<ul>
+  <li>Toon alleen een melding voor missende bestanden of als verificatie faalt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2sum --check --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.b2</span></p>
+
+<ul>
+  <li>Toon alleen een melding als een verificatie faalt en negeer missende bestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2sum --ignore-missing --check --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.b2</span></p>
+
+<ul>
+  <li>Controleer een bekende BLAKE2 checksum van een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bekende_blake2_checksum_van_het_bestand</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span><code class="language-plaintext highlighter-rouge"> | b2sum --check</code></p>

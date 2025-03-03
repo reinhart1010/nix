@@ -1,0 +1,28 @@
+<h1 id="sngrep">sngrep</h1>
+
+<p>터미널에서 SIP 호출 메시지 흐름을 표시.
+더 많은 정보: <a href="https://github.com/irontec/sngrep">https://github.com/irontec/sngrep</a>.</p>
+
+<ul>
+  <li>PCAP 파일에서 SIP 패킷 시각화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sngrep -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pcap</span></p>
+
+<ul>
+  <li>PCAP 파일에서 RTP 패킷이 포함된 INVITE 패킷으로 시작하는 대화만 시각화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sngrep -crI </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pcap</span></p>
+
+<ul>
+  <li>RTP 패킷이 포함된 INVITE 패킷으로 시작하는 대화만 실시간 인터페이스로 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sngrep -cr</code></p>
+
+<ul>
+  <li>인터페이스 없이 패킷을 파일로만 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sngrep -NO </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pcap</span></p>

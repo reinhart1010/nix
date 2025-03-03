@@ -1,0 +1,54 @@
+<h1 id="tmux">tmux</h1>
+
+<p>Multiplexor de terminal.
+Permite múltiples sesiones con ventanas, paneles y más.
+Vea también: <code class="language-plaintext highlighter-rouge">zellij</code>, <code class="language-plaintext highlighter-rouge">screen</code>.
+Más información: <a href="https://github.com/tmux/tmux">https://github.com/tmux/tmux</a>.</p>
+
+<ul>
+  <li>Inicia una nueva sesión:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux</code></p>
+
+<ul>
+  <li>Inicia una nueva sesión con nombre:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux new -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>
+
+<ul>
+  <li>Lista las sesiones existentes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux ls</code></p>
+
+<ul>
+  <li>Adjunta a la última sesión utilizada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux attach</code></p>
+
+<ul>
+  <li>Separa la sesión actual (dentro de una sesión tmux):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt;-B d</code></p>
+
+<ul>
+  <li>Crea una nueva ventana (dentro de una sesión tmux):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt;-B c</code></p>
+
+<ul>
+  <li>Cambia entre sesiones y ventanas (dentro de una sesión tmux):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt;-B w</code></p>
+
+<ul>
+  <li>Da de baja una sesión por su nombre:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux kill-session -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>

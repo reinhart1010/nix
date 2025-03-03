@@ -1,0 +1,53 @@
+<h1 id="kubectl">kubectl</h1>
+
+<p>Kubernetes 클러스터에서 명령을 실행하기 위한 명령줄 인터페이스.
+<code class="language-plaintext highlighter-rouge">run</code>과 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+더 많은 정보: <a href="https://kubernetes.io/docs/reference/kubectl/">https://kubernetes.io/docs/reference/kubectl/</a>.</p>
+
+<ul>
+  <li>리소스에 대한 정보를 자세히 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod|service|deployment|ingress|…</span><code class="language-plaintext highlighter-rouge"> -o wide</code></p>
+
+<ul>
+  <li>지정된 포드에 'unhealthy' 레이블과 'true' 값을 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl label pods </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> unhealthy=true</code></p>
+
+<ul>
+  <li>다양한 유형의 모든 리소스 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get all</code></p>
+
+<ul>
+  <li>노드 또는 포드의 리소스(CPU/메모리/스토리지) 사용량 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl top </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod|node</span></p>
+
+<ul>
+  <li>마스터 및 클러스터 서비스의 주소 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl cluster-info</code></p>
+
+<ul>
+  <li>특정 필드에 대한 설명 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl explain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pods.spec.containers</span></p>
+
+<ul>
+  <li>포드 또는 지정된 리소스의 컨테이너 로그 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl logs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포드_이름</span></p>
+
+<ul>
+  <li>기존 포드에서 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포드_이름</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls /</span></p>

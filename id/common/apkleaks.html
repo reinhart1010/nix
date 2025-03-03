@@ -1,0 +1,23 @@
+<h1 id="apkleaks">apkleaks</h1>
+
+<p>Pindai berkas APK (aplikasi Android) untuk mencari URI, alur pemanggilan (endpoint), dan konfigurasi rahasia.
+Catatan: APKLeaks menggunakan <code class="language-plaintext highlighter-rouge">jadx</code> untuk membongkar kode aplikasi Android.
+Informasi lebih lanjut: <a href="https://github.com/dwisiswant0/apkleaks">https://github.com/dwisiswant0/apkleaks</a>.</p>
+
+<ul>
+  <li>Pindai berkas ([f]ile) APK untuk mencari daftar endpoint dan kode konfigurasi rahasia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apkleaks --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.apk</span></p>
+
+<ul>
+  <li>Pindai dan simpan luaran ([o]utput) ke dalam suatu berkas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apkleaks --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.apk</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_output.txt</span></p>
+
+<ul>
+  <li>Berikan [a]rgumen perintah tambahan untuk <code class="language-plaintext highlighter-rouge">jadx</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apkleaks --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.apk</span><code class="language-plaintext highlighter-rouge"> --args "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–threads-count 5 –deobf</span><code class="language-plaintext highlighter-rouge">"</code></p>

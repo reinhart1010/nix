@@ -1,0 +1,29 @@
+<h1 id="choco-pin">choco pin</h1>
+
+<p>Przypięcie obecnej bądź podanej wersji dla danego pakietu zarządzanego przez Chocolatey.
+Przypięte pakiety są automatycznie pomijane podczas aktualizacji pakietów.
+Więcej informacji: <a href="https://chocolatey.org/docs/commands-pin">https://chocolatey.org/docs/commands-pin</a>.</p>
+
+<ul>
+  <li>Wyświetlanie listy obecnie przypiętych pakietów wraz z wersjami:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco pin list</code></p>
+
+<ul>
+  <li>Przypnij pakiet w jego obecnej wersji:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco pin add --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span></p>
+
+<ul>
+  <li>Przypnij pakiet w podanej wersji:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco pin add --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span><code class="language-plaintext highlighter-rouge"> --version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wersja</span></p>
+
+<ul>
+  <li>Odepnij dany pakiet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco pin remove --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span></p>

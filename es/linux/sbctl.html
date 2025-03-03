@@ -1,0 +1,47 @@
+<h1 id="sbctl">sbctl</h1>
+
+<p>Un gestor de claves de arranque seguro fácil de usar.
+Nota: no registrar los certificados de Microsoft puede bloquear su sistema. Vea <a href="https://github.com/Foxboron/sbctl/wiki/FAQ#option-rom">https://github.com/Foxboron/sbctl/wiki/FAQ#option-rom</a>.
+Más información: <a href="https://github.com/Foxboron/sbctl#usage">https://github.com/Foxboron/sbctl#usage</a>.</p>
+
+<ul>
+  <li>Muestra el estado actual del arranque seguro:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbctl status</code></p>
+
+<ul>
+  <li>Crea claves de arranque seguro personalizadas (todo se almacena en <code class="language-plaintext highlighter-rouge">/var/lib/sbctl</code> de forma predeterminada):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbctl create-keys</code></p>
+
+<ul>
+  <li>Inscribe las claves de arranque seguro personalizadas y los certificados de proveedor UEFI de Microsoft:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbctl enroll-keys --microsoft</code></p>
+
+<ul>
+  <li>Ejecuta automáticamente <code class="language-plaintext highlighter-rouge">create-keys</code> y <code class="language-plaintext highlighter-rouge">enroll-keys</code> basado en los parámetros de <code class="language-plaintext highlighter-rouge">/etc/sbctl/sbctl.conf</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbctl setup --setup</code></p>
+
+<ul>
+  <li>Firma un binario EFI con la clave creada y guarda el archivo en la base de datos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbctl sign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-s|–save</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/binario_efi</span></p>
+
+<ul>
+  <li>Vuelve a firmar todos los archivos guardados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbctl sign-all</code></p>
+
+<ul>
+  <li>Comprueba que se han firmado todos los ejecutables EFI de la partición EFI del sistema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbctl verify</code></p>

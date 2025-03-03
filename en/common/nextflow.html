@@ -1,0 +1,52 @@
+<h1 id="nextflow">nextflow</h1>
+
+<p>Run computational pipelines. Mostly used for bioinformatics workflows.
+More information: <a href="https://www.nextflow.io">https://www.nextflow.io</a>.</p>
+
+<ul>
+  <li>Run a pipeline, use cached results from previous runs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nextflow run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">main.nf</span><code class="language-plaintext highlighter-rouge"> -resume</code></p>
+
+<ul>
+  <li>Run a specific release of a remote workflow from GitHub:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nextflow run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/repo</span><code class="language-plaintext highlighter-rouge"> -revision </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">release_tag</span></p>
+
+<ul>
+  <li>Run with a given work directory for intermediate files, save execution report:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nextflow run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workflow</span><code class="language-plaintext highlighter-rouge"> -work-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> -with-report </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">report.html</span></p>
+
+<ul>
+  <li>Show details of previous runs in current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nextflow log</code></p>
+
+<ul>
+  <li>Remove cache and intermediate files for a specific run:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nextflow clean -force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">run_name</span></p>
+
+<ul>
+  <li>List all downloaded projects:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nextflow list</code></p>
+
+<ul>
+  <li>Pull the latest version of a remote workflow from Bitbucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nextflow pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/repo</span><code class="language-plaintext highlighter-rouge"> -hub bitbucket</code></p>
+
+<ul>
+  <li>Update Nextflow:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nextflow self-update</code></p>

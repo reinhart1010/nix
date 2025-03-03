@@ -1,0 +1,40 @@
+<h1 id="xml-edit">xml edit</h1>
+
+<p>XML 문서 편집.
+더 많은 정보: <a href="https://xmlstar.sourceforge.net/docs.php">https://xmlstar.sourceforge.net/docs.php</a>.</p>
+
+<ul>
+  <li>XML 문서에서 XPATH와 일치하는 요소 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml edit --delete "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">XPATH1</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.xml|URI</span></p>
+
+<ul>
+  <li>XML 문서의 요소 노드를 XPATH1에서 XPATH2로 이동:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml edit --move "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">XPATH1</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">XPATH2</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.xml|URI</span></p>
+
+<ul>
+  <li>이름이 "id"인 모든 속성을 "ID"로 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml edit --rename "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">//*/@id</span><code class="language-plaintext highlighter-rouge">" -v "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ID</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.xml|URI</span></p>
+
+<ul>
+  <li>"table" 요소의 하위 요소 중 "rec"으로 명명된 요소를 "record"로 이름 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml edit --rename "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/xml/table/rec</span><code class="language-plaintext highlighter-rouge">" -v "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">record</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.xml|URI</span></p>
+
+<ul>
+  <li>"id=3"인 XML 테이블 레코드를 "id=5" 값으로 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml edit --update "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml/table/rec[@id=3]/@id</span><code class="language-plaintext highlighter-rouge">" -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.xml|URI</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml edit --help</code></p>

@@ -1,0 +1,35 @@
+<h1 id="az-login">az login</h1>
+
+<p>Azure에 로그인.
+<code class="language-plaintext highlighter-rouge">azure-cli</code>의 일부 (<code class="language-plaintext highlighter-rouge">az</code>라고도 함).
+더 많은 정보: <a href="https://learn.microsoft.com/cli/azure/reference-index#az-login">https://learn.microsoft.com/cli/azure/reference-index#az-login</a>.</p>
+
+<ul>
+  <li>대화형으로 로그인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az login</code></p>
+
+<ul>
+  <li>클라이언트 암호를 사용하여 서비스 주체로 로그인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az login --service-principal --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://azure-cli-service-principal</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀</span><code class="language-plaintext highlighter-rouge"> --tenant </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">someone.onmicrosoft.com</span></p>
+
+<ul>
+  <li>클라이언트 인증서를 사용하여 서비스 주체로 로그인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az login --service-principal --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://azure-cli-service-principal</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/cert.pem</span><code class="language-plaintext highlighter-rouge"> --tenant </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">someone.onmicrosoft.com</span></p>
+
+<ul>
+  <li>VM의 시스템 할당 ID를 사용하여 로그인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az login --identity</code></p>
+
+<ul>
+  <li>VM의 사용자 할당 ID를 사용하여 로그인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az login --identity --username /subscriptions/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구독_아이디</span><code class="language-plaintext highlighter-rouge">/resourcegroups/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">나의_리소스그룹</span><code class="language-plaintext highlighter-rouge">/providers/Microsoft.ManagedIdentity/userAssignedIdentities/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">나의_아이디</span></p>

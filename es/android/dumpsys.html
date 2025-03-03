@@ -1,0 +1,41 @@
+<h1 id="dumpsys">dumpsys</h1>
+
+<p>Suministra información sobre los servicios del sistema Android.
+Este comando solo se puede usar a través de <code class="language-plaintext highlighter-rouge">adb shell</code>.
+Más información: <a href="https://developer.android.com/tools/dumpsys">https://developer.android.com/tools/dumpsys</a>.</p>
+
+<ul>
+  <li>Obtén los resultados de diagnóstico para todos los servicios del sistema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys</code></p>
+
+<ul>
+  <li>Obtén los resultados de diagnóstico para un servicio de sistema específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span></p>
+
+<ul>
+  <li>Enumera todos los servicios que <code class="language-plaintext highlighter-rouge">dumpsys</code> sobre los que puede proporcionar información:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys -l</code></p>
+
+<ul>
+  <li>Enumera los argumentos específicos del servicio para un servicio determinado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span><code class="language-plaintext highlighter-rouge"> -h</code></p>
+
+<ul>
+  <li>Excluye un servicio específico de la salida de diagnóstico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys --skip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span></p>
+
+<ul>
+  <li>Especifica un período de tiempo de espera en segundos (predeterminado en 10 segundos):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconds</span></p>

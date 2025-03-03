@@ -1,0 +1,40 @@
+<h1 id="arecord">arecord</h1>
+
+<p>Grabadora de sonido para el controlador de tarjeta de sonido ALSA.
+Más información: <a href="https://manned.org/arecord">https://manned.org/arecord</a>.</p>
+
+<ul>
+  <li>Graba un fragmento en calidad "CD" (finaliza con Ctrl-C cuando termines):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arecord -vv --format=cd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.wav</span></p>
+
+<ul>
+  <li>Graba un fragmento en calidad "CD", con una duración fija de 10 segundos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arecord -vv --format=cd --duration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.wav</span></p>
+
+<ul>
+  <li>Graba un fragmento y lo guarda como MP3 (finaliza con Ctrl-C cuando termines):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arecord -vv --format=cd --file-type raw | lame -r - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.mp3</span></p>
+
+<ul>
+  <li>Muestra todas las tarjetas de sonido y dispositivos de audio digital:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arecord --list-devices</code></p>
+
+<ul>
+  <li>Permite una interfaz interactiva (por ejemplo, usa la barra espaciadora o tecla Entrar para reproducir o pausar):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arecord --interactive</code></p>
+
+<ul>
+  <li>Prueba tu micrófono grabando una muestra de 5 segundos y reproduciéndola:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arecord -d 5 test-mic.wav &amp;&amp; aplay test-mic.wav &amp;&amp; rm test-mic.wav</code></p>

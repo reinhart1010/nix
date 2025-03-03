@@ -1,0 +1,34 @@
+<h1 id="rpmspec">rpmspec</h1>
+
+<p>Query a RPM spec file.
+More information: <a href="https://manned.org/rpmspec">https://manned.org/rpmspec</a>.</p>
+
+<ul>
+  <li>List binary packages which would be generated from a RPM spec file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpmspec --query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/rpm.spec</span></p>
+
+<ul>
+  <li>List all options for <code class="language-plaintext highlighter-rouge">--queryformat</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpmspec --querytags</code></p>
+
+<ul>
+  <li>Get summary information for single binary packages generated from a RPM spec file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpmspec --query --queryformat "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%{name}: %{summary}\n</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/rpm.spec</span></p>
+
+<ul>
+  <li>Get the source package which would be generated from a RPM spec file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpmspec --query --srpm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/rpm.spec</span></p>
+
+<ul>
+  <li>Parse a RPM spec file to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpmspec --parse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/rpm.spec</span></p>

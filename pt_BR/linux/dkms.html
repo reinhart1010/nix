@@ -1,0 +1,28 @@
+<h1 id="dkms">dkms</h1>
+
+<p>Um framework que permite recompilação dinâmica de modulos do kernel.
+Mais informações: <a href="https://github.com/dell/dkms">https://github.com/dell/dkms</a>.</p>
+
+<ul>
+  <li>Lista os módulos instalados atualmente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dkms status</code></p>
+
+<ul>
+  <li>Recompila todos os módulos para o kernel que está rodando atualmente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dkms autoinstall</code></p>
+
+<ul>
+  <li>Instala a versão 1.2.1 do módulo acpi_call para o kernel que está rodando atualmente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dkms install -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">acpi_call</span><code class="language-plaintext highlighter-rouge"> -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.2.1</span></p>
+
+<ul>
+  <li>Remove a versão 1.2.1 do módulo acpi_call de todos os kernels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dkms remove -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">acpi_call</span><code class="language-plaintext highlighter-rouge"> -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.2.1</span><code class="language-plaintext highlighter-rouge"> --all</code></p>

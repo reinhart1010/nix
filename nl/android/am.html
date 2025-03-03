@@ -1,0 +1,28 @@
+<h1 id="am">am</h1>
+
+<p>Android-activiteitenmanager.
+Meer informatie: <a href="https://developer.android.com/tools/adb#am">https://developer.android.com/tools/adb#am</a>.</p>
+
+<ul>
+  <li>Start een specifieke activiteit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am start -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.android.settings/.Settings</span></p>
+
+<ul>
+  <li>Start een activiteit en geef er gegevens aan door:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am start -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span></p>
+
+<ul>
+  <li>Start een activiteit die overeenkomt met een specifieke actie en categorie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am start -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.MAIN</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.category.HOME</span></p>
+
+<ul>
+  <li>Converteer een intentie naar een URI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am to-uri -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span></p>

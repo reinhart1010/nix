@@ -1,0 +1,22 @@
+<h1 id="iconv">iconv</h1>
+
+<p>Convert text from one encoding to another.
+More information: <a href="https://manned.org/iconv">https://manned.org/iconv</a>.</p>
+
+<ul>
+  <li>Convert file to a specific encoding, and print to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iconv -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">from_encoding</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to_encoding</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file</span></p>
+
+<ul>
+  <li>Convert file to the current locale's encoding, and output to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iconv -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">from_encoding</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file</span></p>
+
+<ul>
+  <li>List supported encodings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iconv -l</code></p>

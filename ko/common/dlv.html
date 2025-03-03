@@ -1,0 +1,40 @@
+<h1 id="dlv">dlv</h1>
+
+<p>Go 프로그래밍 언어용 디버거.
+더 많은 정보: <a href="https://github.com/go-delve/delve/blob/master/Documentation/usage/dlv.md">https://github.com/go-delve/delve/blob/master/Documentation/usage/dlv.md</a>.</p>
+
+<ul>
+  <li>현재 디렉터리에서 기본 패키지를 컴파일하고, 디버깅을 시작 (기본으로 인수가 없음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dlv debug</code></p>
+
+<ul>
+  <li>특정 패키지를 컴파일하고 디버깅을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dlv debug </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수</span></p>
+
+<ul>
+  <li>테스트 바이너리를 컴파일하고 컴파일된 프로그램 디버깅을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dlv test</code></p>
+
+<ul>
+  <li>헤드리스 디버그 서버에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dlv connect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_주소</span></p>
+
+<ul>
+  <li>실행 중인 프로세스에 연결하고 디버깅을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">div attach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>프로그램 컴파일 및 추적 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dlv trace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span><code class="language-plaintext highlighter-rouge"> --regexp '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">정규_표현식</span><code class="language-plaintext highlighter-rouge">'</code></p>

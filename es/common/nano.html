@@ -1,0 +1,47 @@
+<h1 id="nano">nano</h1>
+
+<p>Editor sencillo y fácil de usar. Un clon libre y mejorado de <code class="language-plaintext highlighter-rouge">Pico</code>.
+Vea también: <code class="language-plaintext highlighter-rouge">emacs</code>, <code class="language-plaintext highlighter-rouge">helix</code>, <code class="language-plaintext highlighter-rouge">vim</code>.
+Más información: <a href="https://nano-editor.org">https://nano-editor.org</a>.</p>
+
+<ul>
+  <li>Inicia el editor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nano</code></p>
+
+<ul>
+  <li>Inicia el editor sin usar archivos de configuración:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nano --ignorercfiles</code></p>
+
+<ul>
+  <li>Abre archivos específicos, moviéndose al siguiente archivo cuando se cierra el anterior:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nano </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 …</span></p>
+
+<ul>
+  <li>Abre un archivo específico, posicionando el cursor en la línea y columna específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nano +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">línea</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">columna</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Abre un archivo específico y activa el ajuste de línea suave (wrapping):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nano --softwrap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Abre un archivo específico y sangra nuevas líneas al nivel de las líneas anteriores:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nano --autoindent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Abre nano y crea un archivo de respaldo (<code class="language-plaintext highlighter-rouge">ruta/al/archivo~</code>) cuando se guardan las ediciones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nano --backup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>

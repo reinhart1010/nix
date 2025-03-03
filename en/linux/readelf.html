@@ -1,0 +1,34 @@
+<h1 id="readelf">readelf</h1>
+
+<p>Display information about ELF files.
+More information: <a href="https://manned.org/readelf.1">https://manned.org/readelf.1</a>.</p>
+
+<ul>
+  <li>Display all information about the ELF file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readelf -all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>Display all the headers present in the ELF file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readelf --headers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>Display the entries in symbol table section of the ELF file, if it has one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readelf --symbols </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>Display ELF header information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readelf --file-header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>Display ELF section header information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readelf --section-headers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>

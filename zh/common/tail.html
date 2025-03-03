@@ -1,0 +1,41 @@
+<h1 id="tail">tail</h1>
+
+<p>显示文件的最后一部分。
+另请参阅：<code class="language-plaintext highlighter-rouge">head</code>。
+更多信息：<a href="https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html</a>.</p>
+
+<ul>
+  <li>显示文件中最后 n 行：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --lines </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>从特定行号开始打印文件后续内容：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --lines +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">行号</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>从给定文件末尾打印特定字节数量的内容：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --bytes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字节数</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>打印给定文件的最后几行并保持读取直到 “Ctrl + C”：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>保持读取文件直到 “Ctrl + C”，即使文件无法访问：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --retry --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>显示文件中最后 n 行并每 t 秒刷新一次：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --lines </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> --sleep-interval </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">t</span><code class="language-plaintext highlighter-rouge"> --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>

@@ -1,0 +1,34 @@
+<h1 id="cat">cat</h1>
+
+<p>파일 출력 및 연결.
+더 많은 정보: <a href="https://manned.org/cat.1posix">https://manned.org/cat.1posix</a>.</p>
+
+<ul>
+  <li>파일 내용을 <code class="language-plaintext highlighter-rouge">stdout</code>으로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>여러 파일을 출력 파일로 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일</span></p>
+
+<ul>
+  <li>여러 파일을 출력 파일에 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span><code class="language-plaintext highlighter-rouge"> &gt;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일</span></p>
+
+<ul>
+  <li>버퍼링 없이 파일 내용을 출력 파일로 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty12</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty13</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>을 파일로 쓰기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat - &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

@@ -1,0 +1,17 @@
+<h1 id="f3write">f3write</h1>
+
+<p>실제 용량을 테스트하려면, 드라이브를 .h2w 파일로 채우기.
+참고: <code class="language-plaintext highlighter-rouge">f3read</code>, <code class="language-plaintext highlighter-rouge">f3probe</code>, <code class="language-plaintext highlighter-rouge">f3fix</code>.
+더 많은 정보: <a href="https://oss.digirati.com.br/f3/">https://oss.digirati.com.br/f3/</a>.</p>
+
+<ul>
+  <li>지정된 디렉터리에 테스트 파일을 작성하여 드라이브를 채움:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">f3write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/마운트_포인트</span></p>
+
+<ul>
+  <li>쓰기 속도 제한을 둠:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">f3write --max-write-rate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">초당_kb</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/마운트_포인트</span></p>

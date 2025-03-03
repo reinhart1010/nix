@@ -1,0 +1,29 @@
+<h1 id="csvcut">csvcut</h1>
+
+<p>Filter and truncate CSV files. Like Unix's <code class="language-plaintext highlighter-rouge">cut</code> command, but for tabular data.
+Included in csvkit.
+More information: <a href="https://csvkit.readthedocs.io/en/latest/scripts/csvcut.html">https://csvkit.readthedocs.io/en/latest/scripts/csvcut.html</a>.</p>
+
+<ul>
+  <li>Print indices and names of all columns:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvcut -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>
+
+<ul>
+  <li>Extract the first and third columns:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvcut -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>
+
+<ul>
+  <li>Extract all columns except the fourth one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvcut -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>
+
+<ul>
+  <li>Extract the columns named "id" and "first name" (in that order):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvcut -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id,"first name"</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>

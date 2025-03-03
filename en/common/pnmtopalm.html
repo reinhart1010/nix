@@ -1,0 +1,34 @@
+<h1 id="pnmtopalm">pnmtopalm</h1>
+
+<p>Convert a PNM image to a Palm bitmap.
+More information: <a href="https://netpbm.sourceforge.net/doc/pnmtopalm.html">https://netpbm.sourceforge.net/doc/pnmtopalm.html</a>.</p>
+
+<ul>
+  <li>Convert a PNM image to a Palm bitmap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtopalm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.palm</span></p>
+
+<ul>
+  <li>Specify the color depth of the resulting bitmap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtopalm -depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|4|8|16</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.palm</span></p>
+
+<ul>
+  <li>Choose a compression method for the resulting bitmap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtopalm -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scanline_compression|rle_compression|packbits_compression</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.palm</span></p>
+
+<ul>
+  <li>Build a custom colormap and include it in the resulting bitmap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtopalm -colormap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.palm</span></p>
+
+<ul>
+  <li>Specify the bitmap's density:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtopalm -density </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">72|108|144|216|288</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.palm</span></p>

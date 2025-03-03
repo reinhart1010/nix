@@ -1,0 +1,53 @@
+<h1 id="apt-get">apt-get</h1>
+
+<p>Gerenciador de pacotes das distribuições baseadas em Debian.
+Procure por pacotes utilizando o <code class="language-plaintext highlighter-rouge">apt-cache</code>.
+Mais informações: <a href="https://manned.org/apt-get.8">https://manned.org/apt-get.8</a>.</p>
+
+<ul>
+  <li>Atualiza a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos <code class="language-plaintext highlighter-rouge">apt-get</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get update</code></p>
+
+<ul>
+  <li>Instala um pacote ou atualizá-lo para a versão mais recente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span></p>
+
+<ul>
+  <li>Remove um pacote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span></p>
+
+<ul>
+  <li>Remove um pacote e os seus arquivos de configuração:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get purge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span></p>
+
+<ul>
+  <li>Atualiza todos os pacotes instalados para as versões mais recentes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get upgrade</code></p>
+
+<ul>
+  <li>Limpa o repositório local — removendo os arquivos de pacotes (<code class="language-plaintext highlighter-rouge">.deb</code>) de downloads interrompidos que não podem mais ser baixados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get autoclean</code></p>
+
+<ul>
+  <li>Remove todos os pacotes obsoletos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get autoremove</code></p>
+
+<ul>
+  <li>Atualiza os pacotes instalados (semelhante ao <code class="language-plaintext highlighter-rouge">upgrade</code>), porém removendo os obsoletos e instalando pacotes solicitados por novas dependências:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get dist-upgrade</code></p>

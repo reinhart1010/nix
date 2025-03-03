@@ -1,0 +1,28 @@
+<h1 id="pamcomp">pamcomp</h1>
+
+<p>Leg twee PAM afbeeldingen over elkaar.
+Meer informatie: <a href="https://netpbm.sourceforge.net/doc/pamcomp.html">https://netpbm.sourceforge.net/doc/pamcomp.html</a>.</p>
+
+<ul>
+  <li>Leg twee afbeeldingen over elkaar zodat de bovenlaag delen van de onderlaag blokeert:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamcomp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bovenlaag.pam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/onderlaag.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pam</span></p>
+
+<ul>
+  <li>Zet de horizontale uitlijning van de bovenlaag:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamcomp -align </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">left|center|right|beyondleft|beyondright</span><code class="language-plaintext highlighter-rouge"> -xoff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_offset</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bovenlaag.pam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/onderlaag.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pam</span></p>
+
+<ul>
+  <li>Zet de verticale uitlijning van de bovenlaag:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamcomp -valign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">top|middle|bottom|above|below</span><code class="language-plaintext highlighter-rouge"> -yoff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_offset</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bovenlaag.pam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/onderlaag.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pam</span></p>
+
+<ul>
+  <li>Zet de dekking van de bovenlaag:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamcomp -opacity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.7</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bovenlaag.pam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/onderlaag.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pam</span></p>

@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="tar">tar</h1>
+
+<p>Утилита архивирования.
+Обычно используется в сочетании с методом сжатия, такими как gzip или bzip2.
+Больше информации: <a href="https://www.gnu.org/software/tar">https://www.gnu.org/software/tar</a>.</p>
+
+<ul>
+  <li>Создать архив из файлов:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar cf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">целевой.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">файл1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">файл2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">файл3</span></p>
+
+<ul>
+  <li>Создать gzip архив:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar czf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">целевой.tar.gz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">файл1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">файл2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">файл3</span></p>
+
+<ul>
+  <li>Создать gzip-архив из директории, используя относительные пути:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar czf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">целевой.tar.gz</span><code class="language-plaintext highlighter-rouge"> -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/папки</span><code class="language-plaintext highlighter-rouge"> .</code></p>
+
+<ul>
+  <li>Извлечь (сжатый) архив в указанную папку:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar xf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">исходный.tar[.gz|.bz2|.xz]</span><code class="language-plaintext highlighter-rouge"> --directory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">папка</span></p>
+
+<ul>
+  <li>Создать сжатый архив, используя суффикс архива для определения программы сжатия:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar caf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">целевой.tar.xz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">файл1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">файл2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">файл3</span></p>
+
+<ul>
+  <li>Вывести список содержимого tar-файла:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar tvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">исходный.tar</span></p>
+
+<ul>
+  <li>Извлечь файлы, соответствующие шаблону:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar xf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">исходный.tar</span><code class="language-plaintext highlighter-rouge"> --wildcards "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.html</span><code class="language-plaintext highlighter-rouge">"</code></p>

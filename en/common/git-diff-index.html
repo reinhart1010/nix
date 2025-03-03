@@ -1,0 +1,28 @@
+<h1 id="git-diff-index">git diff-index</h1>
+
+<p>Compare the working directory with a commit or tree object.
+More information: <a href="https://git-scm.com/docs/git-diff-index">https://git-scm.com/docs/git-diff-index</a>.</p>
+
+<ul>
+  <li>Compare the working directory with a specific commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff-index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Compare a specific file or directory in working directory with a commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff-index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Compare the working directory with the index (staging area) to check for staged changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff-index --cached </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Suppress output and return an exit status to check for differences:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff-index --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>

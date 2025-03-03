@@ -1,0 +1,34 @@
+<h1 id="git-describe">git describe</h1>
+
+<p>Rendi il nome di un oggetto Git più leggibile usando i riferimenti disponibili.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-describe">https://git-scm.com/docs/git-describe</a>.</p>
+
+<ul>
+  <li>Crea un nome univoco per il commit corrente (il nome contiene i tag più recenti, il numero di commit aggiuntivi, e l'hash breve del commit):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git describe</code></p>
+
+<ul>
+  <li>Crea un nome di 4 cifre per l'hash breve del commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git describe --abbrev=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span></p>
+
+<ul>
+  <li>Genera un nome che includa anche il percorso di riferimento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git describe --all</code></p>
+
+<ul>
+  <li>Descrivi un tag Git:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git describe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">v1.0.0</span></p>
+
+<ul>
+  <li>Crea un nome per l'ultimo commit di un dato ramo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git describe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span></p>

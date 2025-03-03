@@ -1,0 +1,23 @@
+<h1 id="git-prune">git prune</h1>
+
+<p>Elimina dal database degli oggetti quelli non più raggiungibili.
+Questo comando è usato più spesso internamente da Git gc piuttosto che in modo diretto.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-prune">https://git-scm.com/docs/git-prune</a>.</p>
+
+<ul>
+  <li>Elenca quali oggetti saranno eliminati da Git prune senza eliminarli definitivamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git prune --dry-run</code></p>
+
+<ul>
+  <li>Elimina gli oggetti non raggiungibili e stampane un elenco su <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git prune --verbose</code></p>
+
+<ul>
+  <li>Elimina gli oggetti non raggiungibili, mostrando lo stato di avanzamento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git prune --progress</code></p>

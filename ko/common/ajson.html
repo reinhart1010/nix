@@ -1,0 +1,28 @@
+<h1 id="ajson">ajson</h1>
+
+<p>JSON 객체에서 JSONPath를 실행합니다.
+더 많은 정보: <a href="https://github.com/spyzhov/ajson">https://github.com/spyzhov/ajson</a>.</p>
+
+<ul>
+  <li>파일에서 JSON을 읽고 지정된 JSONPath 표현식을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ajson '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$..json[?(@.path)]</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.json</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 JSON을 읽고 지정된 JSONPath 표현식을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.json</span><code class="language-plaintext highlighter-rouge"> | ajson '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$..json[?(@.path)]</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>URL에서 JSON을 읽고 지정된 JSONPath 표현식을 평가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ajson '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">avg($..price)</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/api/</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>간단한 JSON을 읽고 값을 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge">' | ajson '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2 * pi * $</span><code class="language-plaintext highlighter-rouge">'</code></p>

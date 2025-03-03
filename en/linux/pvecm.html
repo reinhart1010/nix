@@ -1,0 +1,46 @@
+<h1 id="pvecm">pvecm</h1>
+
+<p>Proxmox VE Cluster Manager.
+More information: <a href="https://pve.proxmox.com/pve-docs/pvecm.1.html">https://pve.proxmox.com/pve-docs/pvecm.1.html</a>.</p>
+
+<ul>
+  <li>Add the current node to an existing cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvecm add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname_or_ip</span></p>
+
+<ul>
+  <li>Add a node to the cluster configuration (internal use):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvecm addnode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node</span></p>
+
+<ul>
+  <li>Display the version of the cluster join API available on this node:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvecm apiver</code></p>
+
+<ul>
+  <li>Generate new cluster configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvecm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clustername</span></p>
+
+<ul>
+  <li>Remove a node from the cluster configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvecm delnode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node</span></p>
+
+<ul>
+  <li>Display the local view of the cluster nodes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvecm nodes</code></p>
+
+<ul>
+  <li>Display the local view of the cluster status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvecm status</code></p>

@@ -1,0 +1,53 @@
+<h1 id="ip">ip</h1>
+
+<p>显示/操作路由、设备、策略路由和隧道。
+一些子命令（例如 <code class="language-plaintext highlighter-rouge">address</code>）有自己的使用文档。
+更多信息：<a href="https://www.manned.org/ip.8">https://www.manned.org/ip.8</a>.</p>
+
+<ul>
+  <li>列出带有详细信息的接口：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address</code></p>
+
+<ul>
+  <li>列出带有简要网络层信息的接口：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip -brief address</code></p>
+
+<ul>
+  <li>列出带有简要链路层信息的接口：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip -brief link</code></p>
+
+<ul>
+  <li>显示路由表：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route</code></p>
+
+<ul>
+  <li>显示邻居（ARP 表）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip neighbour</code></p>
+
+<ul>
+  <li>使接口启动/关闭：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">up|down</span></p>
+
+<ul>
+  <li>向接口添加/删除 IP 地址：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip addr add/del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mask</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>
+
+<ul>
+  <li>添加默认路由：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route add default via </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>

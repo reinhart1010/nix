@@ -1,0 +1,22 @@
+<h1 id="csvgrep">csvgrep</h1>
+
+<p>csvkit에 포함된 CSV행의 문자열 및 패턴 매칭 필터링.
+더 많은 정보: <a href="https://csvkit.readthedocs.io/en/latest/scripts/csvgrep.html">https://csvkit.readthedocs.io/en/latest/scripts/csvgrep.html</a>.</p>
+
+<ul>
+  <li>1 열에 특정 문자열이 있는 행 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvgrep -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">찾을_문자열</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터.csv</span></p>
+
+<ul>
+  <li>3열 또는 4열에서 특정 정규식 패턴과 일치하는 행 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvgrep -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3,4</span><code class="language-plaintext highlighter-rouge"> -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">정규식_패턴</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터.csv</span></p>
+
+<ul>
+  <li>"이름" 열에서 "John Doe"가 포함되지 않는 행 찾기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvgrep -i -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">John Doe</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터.csv</span></p>

@@ -1,0 +1,46 @@
+<h1 id="systemd-mount">systemd-mount</h1>
+
+<p>Establish and destroy transient mount or auto-mount points.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/systemd-mount.html">https://www.freedesktop.org/software/systemd/man/systemd-mount.html</a>.</p>
+
+<ul>
+  <li>Mount a file system (image or block device) at <code class="language-plaintext highlighter-rouge">/run/media/system/LABEL</code> where LABEL is the filesystem label or the device name if there is no label:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_device</span></p>
+
+<ul>
+  <li>Mount a file system (image or block device) at a specific location:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_device</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mount_point</span></p>
+
+<ul>
+  <li>List all local, known block devices with file systems that may be mounted:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount --list</code></p>
+
+<ul>
+  <li>Create an automount point that mounts the actual file system at the time of first access:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount --automount=yes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_device</span></p>
+
+<ul>
+  <li>Unmount one or more devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount --umount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mount_point_or_device1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mount_point_or_device2</span></p>
+
+<ul>
+  <li>Mount a file system (image or block device) with a specific file system type:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount --type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_system_type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_device</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mount_point</span></p>
+
+<ul>
+  <li>Mount a file system (image or block device) with additional mount options:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount --options=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mount_options</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_device</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mount_point</span></p>

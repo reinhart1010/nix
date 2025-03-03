@@ -1,0 +1,40 @@
+<h1 id="base64">base64</h1>
+
+<p>फ़ाइल या <code class="language-plaintext highlighter-rouge">stdin</code> को base64 में एन्कोड या डिकोड करें, <code class="language-plaintext highlighter-rouge">stdout</code> या किसी अन्य फ़ाइल में।
+अधिक जानकारी: <a href="https://man.freebsd.org/cgi/man.cgi?query=base64">https://man.freebsd.org/cgi/man.cgi?query=base64</a>।</p>
+
+<ul>
+  <li>फ़ाइल को <code class="language-plaintext highlighter-rouge">stdout</code> में एन्कोड करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–input</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल/का/पथ</span></p>
+
+<ul>
+  <li>फ़ाइल को निर्दिष्ट आउटपुट फ़ाइल में एन्कोड करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–input</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">इनपुट_फाइल/का/पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट_फाइल/का/पथ</span></p>
+
+<ul>
+  <li>एन्कोडेड आउटपुट को एक विशेष चौड़ाई पर लपेटें (<code class="language-plaintext highlighter-rouge">0</code> लपेटने को अक्षम करता है):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-b|–break</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल/का/पथ</span></p>
+
+<ul>
+  <li>फ़ाइल को <code class="language-plaintext highlighter-rouge">stdout</code> में डिकोड करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decode</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–input</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल/का/पथ</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code> से <code class="language-plaintext highlighter-rouge">stdout</code> में एन्कोड करें:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | base64</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code> से <code class="language-plaintext highlighter-rouge">stdout</code> में डिकोड करें:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decode</span></p>

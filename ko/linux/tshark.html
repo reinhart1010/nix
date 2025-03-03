@@ -1,0 +1,52 @@
+<h1 id="tshark">tshark</h1>
+
+<p>패킷 분석 도구, Wireshark의 CLI 버전.
+더 많은 정보: <a href="https://tshark.dev/">https://tshark.dev/</a>.</p>
+
+<ul>
+  <li>로컬호스트에서 모든 것 모니터링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tshark</code></p>
+
+<ul>
+  <li>특정 캡처 필터와 일치하는 패킷만 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tshark -f '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">udp port 53</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>특정 출력 필터와 일치하는 패킷만 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tshark -Y '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http.request.method == "GET"</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>특정 프로토콜(예: HTTP)로 TCP 포트 디코딩:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tshark -d tcp.port==</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8888</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http</span></p>
+
+<ul>
+  <li>캡처된 출력의 형식 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tshark -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|text|ps|…</span></p>
+
+<ul>
+  <li>출력할 특정 필드 선택:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tshark -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fields|ek|json|pdml</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http.request.method</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip.src</span></p>
+
+<ul>
+  <li>캡처된 패킷을 [f]파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tshark -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>[f]파일에서 패킷 분석:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tshark -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pcap</span></p>

@@ -1,0 +1,28 @@
+<h1 id="mcookie">mcookie</h1>
+
+<p>Generates random 128-bit hexadecimal numbers.
+More information: <a href="https://manned.org/mcookie">https://manned.org/mcookie</a>.</p>
+
+<ul>
+  <li>Generate a random number:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mcookie</code></p>
+
+<ul>
+  <li>Generate a random number, using the contents of a file as a seed for the randomness:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mcookie --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Generate a random number, using a specific number of bytes from a file as a seed for the randomness:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mcookie --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --max-size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_bytes</span></p>
+
+<ul>
+  <li>Print the details of the randomness used, such as the origin and seed for each source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mcookie --verbose</code></p>

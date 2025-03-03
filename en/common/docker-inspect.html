@@ -1,0 +1,46 @@
+<h1 id="docker-inspect">docker inspect</h1>
+
+<p>Return low-level information on Docker objects.
+More information: <a href="https://docs.docker.com/reference/cli/docker/inspect/">https://docs.docker.com/reference/cli/docker/inspect/</a>.</p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect</code></p>
+
+<ul>
+  <li>Display information about a container, image, or volume using a name or ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container|image|ID</span></p>
+
+<ul>
+  <li>Display a container's IP address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect --format '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{\{end\}\}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container</span></p>
+
+<ul>
+  <li>Display the path to the container's log file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect --format='\{\{.LogPath\}\}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container</span></p>
+
+<ul>
+  <li>Display the image name of the container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect --format='\{\{.Config.Image\}\}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container</span></p>
+
+<ul>
+  <li>Display the configuration information as JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect --format='\{\{json .Config\}\}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container</span></p>
+
+<ul>
+  <li>Display all port bindings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect --format='\{\{range $p, $conf := .NetworkSettings.Ports\}\} \{\{$p\}\} -&gt; \{\{(index $conf 0).HostPort\}\} \{\{end\}\}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container</span></p>

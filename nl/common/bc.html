@@ -1,0 +1,47 @@
+<h1 id="bc">bc</h1>
+
+<p>Een rekenmachinetaal met willekeurige precisie.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">dc</code>, <code class="language-plaintext highlighter-rouge">qalc</code>.
+Meer informatie: <a href="https://manned.org/bc">https://manned.org/bc</a>.</p>
+
+<ul>
+  <li>Start een interactieve sessie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc</code></p>
+
+<ul>
+  <li>Start een [i]nteractieve sessie met de standaard wiskundige [b]ibliotheek ingeschakeld:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc --interactive --mathlib</code></p>
+
+<ul>
+  <li>Bereken een uitdrukking:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span><code class="language-plaintext highlighter-rouge">' | bc</code></p>
+
+<ul>
+  <li>Voer een script uit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/script.bc</span></p>
+
+<ul>
+  <li>Bereken een uitdrukking met de gespecificeerde schaal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo 'scale = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge">; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span><code class="language-plaintext highlighter-rouge">' | bc</code></p>
+
+<ul>
+  <li>Bereken een sinus/cosinus/arctangens/natuurlijke logaritme/exponentiële functie met behulp van <code class="language-plaintext highlighter-rouge">mathlib</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s|c|a|l|e</span><code class="language-plaintext highlighter-rouge">(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge">)' | bc --mathlib</code></p>
+
+<ul>
+  <li>Voer een inline faculteitsscript uit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "define factorial(n) { if (n &lt;= 1) return 1; return n*factorial(n-1); }; factorial(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge">)" | bc</code></p>

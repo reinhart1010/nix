@@ -1,0 +1,23 @@
+<h1 id="cargo-publish">cargo publish</h1>
+
+<p>将包上传到注册表。
+注意：在发布包之前，您必须使用 <code class="language-plaintext highlighter-rouge">cargo login</code> 添加身份验证令牌。
+更多信息：<a href="https://doc.rust-lang.org/cargo/commands/cargo-publish.html">https://doc.rust-lang.org/cargo/commands/cargo-publish.html</a>.</p>
+
+<ul>
+  <li>执行检查，创建一个 <code class="language-plaintext highlighter-rouge">.crate</code> 文件并将其上传到注册表：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo publish</code></p>
+
+<ul>
+  <li>执行检查，创建一个 <code class="language-plaintext highlighter-rouge">.crate</code> 文件，但不上传它 (相当于 <code class="language-plaintext highlighter-rouge">cargo package</code>)：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo publish --dry-run</code></p>
+
+<ul>
+  <li>使用指定的注册表 (注册表名称可以在配置中定义，默认为 <a href="https://crates.io">https://crates.io</a>)：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo publish --registry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">名称</span></p>

@@ -1,0 +1,53 @@
+<h1 id="birdc">birdc</h1>
+
+<p>Bird remote control.
+Kommandozeilenwerkzeug zum Abrufen von Informationen wie Routen von bird und zur Durchführung von Konfigurationen während der Laufzeit.
+Weitere Informationen: <a href="https://bird.network.cz/">https://bird.network.cz/</a>.</p>
+
+<ul>
+  <li>Öffne die remote control Konsole:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc</code></p>
+
+<ul>
+  <li>Lade die Konfiguration neu, ohne Bird neu zu starten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc configure</code></p>
+
+<ul>
+  <li>Zeige den aktuellen Status von Bird an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc show status</code></p>
+
+<ul>
+  <li>Zeige alle konfigurierten Protokolle an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc show protocols</code></p>
+
+<ul>
+  <li>Zeige alle Details zu einem Protokoll an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc show protocols </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">upstream1</span><code class="language-plaintext highlighter-rouge"> all</code></p>
+
+<ul>
+  <li>Zeige alle Routen an, die eine bestimmte AS-Nummer enthalten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc "show route where bgp_path ~ [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4242120045</span><code class="language-plaintext highlighter-rouge">]"</code></p>
+
+<ul>
+  <li>Zeige alle besten Routen an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc show route primary</code></p>
+
+<ul>
+  <li>Zeige alle Details zu allen Routen von einem bestimmten Präfix an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc show route for </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fd00:/8</span><code class="language-plaintext highlighter-rouge"> all</code></p>

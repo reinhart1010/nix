@@ -1,0 +1,34 @@
+<h1 id="systemd-escape">systemd-escape</h1>
+
+<p>Escape strings for usage in systemd unit names.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/systemd-escape.html">https://www.freedesktop.org/software/systemd/man/systemd-escape.html</a>.</p>
+
+<ul>
+  <li>Escape the given text:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-escape </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text</span></p>
+
+<ul>
+  <li>Reverse the escaping process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-escape --unescape </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text</span></p>
+
+<ul>
+  <li>Treat the given text as a path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-escape --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text</span></p>
+
+<ul>
+  <li>Append the given suffix to the escaped text:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-escape --suffix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suffix</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text</span></p>
+
+<ul>
+  <li>Use a template and inject the escaped text:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-escape --template </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">template</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text</span></p>

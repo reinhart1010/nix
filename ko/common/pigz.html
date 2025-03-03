@@ -1,0 +1,40 @@
+<h1 id="pigz">pigz</h1>
+
+<p>멀티스레드 zlib 압축 유틸리티.
+더 많은 정보: <a href="https://github.com/madler/pigz">https://github.com/madler/pigz</a>.</p>
+
+<ul>
+  <li>파일을 기본 옵션으로 압축:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pigz </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>최상의 압축 방법으로 파일 압축:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pigz -9 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>압축 없이 4개의 프로세서를 사용하여 파일 압축:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pigz -0 -p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>디렉터리를 tar로 압축:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar cf - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> | pigz &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.tar.gz</span></p>
+
+<ul>
+  <li>파일 압축 해제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pigz -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아카이브.gz</span></p>
+
+<ul>
+  <li>아카이브의 내용 목록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pigz -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아카이브.tar.gz</span></p>

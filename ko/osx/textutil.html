@@ -1,0 +1,34 @@
+<h1 id="textutil">textutil</h1>
+
+<p>다양한 형식의 텍스트 파일을 조작.
+더 많은 정보: <a href="https://keith.github.io/xcode-man-pages/textutil.1.html">https://keith.github.io/xcode-man-pages/textutil.1.html</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">foo.rtf</code> 파일에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">textutil -info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/foo.rtf</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">foo.rtf</code>를 <code class="language-plaintext highlighter-rouge">foo.html</code>로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">textutil -convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/foo.rtf</span></p>
+
+<ul>
+  <li>서식 있는 텍스트를 일반 텍스트로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">textutil </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/foo.rtf</span><code class="language-plaintext highlighter-rouge"> -convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txt</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">foo.txt</code>를 <code class="language-plaintext highlighter-rouge">foo.rtf</code>로 변환, Times 10 폰트 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">textutil -convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rtf</span><code class="language-plaintext highlighter-rouge"> -font </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Times</span><code class="language-plaintext highlighter-rouge"> -fontsize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/foo.txt</span></p>
+
+<ul>
+  <li>현재 디렉터리의 모든 RTF 파일을 불러와 내용을 연결하고, 결과를 <code class="language-plaintext highlighter-rouge">index.html</code>로 작성하며 HTML 제목을 "Several Files"로 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">textutil -cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">html</span><code class="language-plaintext highlighter-rouge"> -title "Several Files" -output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/index.html</span><code class="language-plaintext highlighter-rouge"> *.rtf</code></p>

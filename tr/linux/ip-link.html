@@ -1,0 +1,40 @@
+<h1 id="ip-link">ip link</h1>
+
+<p>Ağ arayüzlerini yönet.
+Daha fazla bilgi için: <a href="https://manned.org/ip-link">https://manned.org/ip-link</a>.</p>
+
+<ul>
+  <li>Tüm ağ arayüzleriyle ilgili bilgileri göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link</code></p>
+
+<ul>
+  <li>Belirli bir ağ arayüzüyle ilgili bilgileri göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span></p>
+
+<ul>
+  <li>Bir ağ arayüzünü etkinleştir veya devre dışı bırak:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">up|down</span></p>
+
+<ul>
+  <li>Bir ağ arayüzüne anlamlı bir ad ver:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span><code class="language-plaintext highlighter-rouge"> alias "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LAN Arayüzü</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Bir ağ arayüzünün MAC adresini değiştir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span><code class="language-plaintext highlighter-rouge"> address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ff:ff:ff:ff:ff:ff</span></p>
+
+<ul>
+  <li>Jumbo çerçeveleri kullanması için bir ağ arayüzünün MTU boyutunu değiştir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span><code class="language-plaintext highlighter-rouge"> mtu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9000</span></p>

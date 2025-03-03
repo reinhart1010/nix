@@ -1,0 +1,34 @@
+<h1 id="bcdboot">bcdboot</h1>
+
+<p>Configure or repair boot files.
+More information: <a href="https://learn.microsoft.com/windows-hardware/manufacture/desktop/bcdboot-command-line-options-techref-di">https://learn.microsoft.com/windows-hardware/manufacture/desktop/bcdboot-command-line-options-techref-di</a>.</p>
+
+<ul>
+  <li>Initialize the system partition by using BCD files from the source Windows folder:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bcdboot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:\Windows</span></p>
+
+<ul>
+  <li>Enable [v]erbose mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bcdboot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:\Windows</span><code class="language-plaintext highlighter-rouge"> /v</code></p>
+
+<ul>
+  <li>Specify the volume letter of the [s]ystem partition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bcdboot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:\Windows</span><code class="language-plaintext highlighter-rouge"> /s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">S:</span></p>
+
+<ul>
+  <li>Specify a [l]ocale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bcdboot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:\Windows</span><code class="language-plaintext highlighter-rouge"> /l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">en-us</span></p>
+
+<ul>
+  <li>Specify a [f]irmware type while copying the boot files to a specified volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bcdboot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:\Windows</span><code class="language-plaintext highlighter-rouge"> /s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">S:</span><code class="language-plaintext highlighter-rouge"> /f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UEFI|BIOS|ALL</span></p>

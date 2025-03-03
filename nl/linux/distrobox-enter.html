@@ -1,0 +1,23 @@
+<h1 id="distrobox-enter">distrobox-enter</h1>
+
+<p>Betreed een Distrobox container. Bekijk ook: <code class="language-plaintext highlighter-rouge">tldr distrobox</code>.
+Standaard commando dat wordt uitgevoerd is je SHELL, maar je kan verschillende shells of hele commando's specificeren. Indien gebruikt in een script/applicatie/service, kunt u de <code class="language-plaintext highlighter-rouge">--headless</code>-modus gebruiken om de tty en interactiviteit uit te schakelen.
+Meer informatie: <a href="https://distrobox.it/usage/distrobox-enter">https://distrobox.it/usage/distrobox-enter</a>.</p>
+
+<ul>
+  <li>Betreed een Distrobox container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-enter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Betreed een Distrobox container en voer een commando uit bij het inloggen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-enter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh -l</span></p>
+
+<ul>
+  <li>Betreed een Distrobox container zonder een tty the instanteren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-enter --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uptime -p</span></p>

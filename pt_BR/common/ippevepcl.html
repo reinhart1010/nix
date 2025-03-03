@@ -1,0 +1,18 @@
+<h1 id="ippevepcl">ippevepcl</h1>
+
+<p>Imprime em impressoras laser HP PCL a preto e branco.
+Suporta arquivos HP PCL, PWG Raster and Apple Raster.
+Veja também: <code class="language-plaintext highlighter-rouge">ippevepcl</code>, <code class="language-plaintext highlighter-rouge">ippeveprinter</code>.
+Mais informações: <a href="https://openprinting.github.io/cups/doc/man-ippevepcl.html">https://openprinting.github.io/cups/doc/man-ippevepcl.html</a>.</p>
+
+<ul>
+  <li>Imprime um arquivo para <code class="language-plaintext highlighter-rouge">stdout</code> (mensagens de estado e progresso são enviadas para <code class="language-plaintext highlighter-rouge">stderr</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ippeveps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Imprime um arquivo de <code class="language-plaintext highlighter-rouge">stdin</code> para <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wget -O - https://examplewebsite.com/file</span><code class="language-plaintext highlighter-rouge"> | ippeveps</code></p>

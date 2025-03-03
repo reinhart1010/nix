@@ -1,0 +1,16 @@
+<h1 id="nix-edit">nix edit</h1>
+
+<p>Open the Nix expression of a Nix package in $EDITOR.
+More information: <a href="https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-edit.html">https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-edit.html</a>.</p>
+
+<ul>
+  <li>Open the source of the Nix expression of a package from nixpkgs in your <code class="language-plaintext highlighter-rouge">$EDITOR</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs#pkg</span></p>
+
+<ul>
+  <li>Dump the source of a package to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">EDITOR=cat nix edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs#pkg</span></p>

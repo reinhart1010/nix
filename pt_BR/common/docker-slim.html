@@ -1,0 +1,34 @@
+<h1 id="docker-slim">docker-slim</h1>
+
+<p>Analisar e otimizar imagens Docker.
+Mais informações: <a href="https://github.com/slimtoolkit/slim">https://github.com/slimtoolkit/slim</a>.</p>
+
+<ul>
+  <li>Inicia o DockerSlim no modo interativo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-slim</code></p>
+
+<ul>
+  <li>Analisa as camadas do Docker a partir de uma imagem específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-slim xray --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem:tag</span></p>
+
+<ul>
+  <li>Verifica um Dockerfile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-slim lint --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/Dockerfile</span></p>
+
+<ul>
+  <li>Analisa e gera uma imagem Docker otimizada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-slim build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem:tag</span></p>
+
+<ul>
+  <li>Exibe ajuda para um subcomando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-slim </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span><code class="language-plaintext highlighter-rouge"> --help</code></p>

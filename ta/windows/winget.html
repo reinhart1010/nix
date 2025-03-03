@@ -1,0 +1,52 @@
+<h1 id="winget">winget</h1>
+
+<p>விண்டோஸ் தொகுப்பு மேலாளர் CLI.
+மேலும் விவரத்திற்கு: <a href="https://learn.microsoft.com/windows/package-manager/winget">https://learn.microsoft.com/windows/package-manager/winget</a>.</p>
+
+<ul>
+  <li>ஒரு தொகுப்பை நிறுவவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொகுப்பு</span></p>
+
+<ul>
+  <li>தொகுப்பை அகற்று (குறிப்பு: <code class="language-plaintext highlighter-rouge">uninstall</code> என்பதற்குப் பதிலாக <code class="language-plaintext highlighter-rouge">remove</code> என்பதும் பயன்படுத்தப்படலாம்):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget uninstall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொகுப்பு</span></p>
+
+<ul>
+  <li>ஒரு தொகுப்பு பற்றிய தகவலை காட்டு:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொகுப்பு</span></p>
+
+<ul>
+  <li>ஒரு தொகுப்பை தேடுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொகுப்பு</span></p>
+
+<ul>
+  <li>அனைத்து தொகுப்புகளையும் சமீபத்திய பதிப்புகளுக்கு மேம்படுத்தவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget upgrade --all</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">winget</code> மூலம் நிர்வகிக்கக்கூடிய நிறுவப்பட்ட அனைத்து தொகுப்புகளையும் பட்டியலிடுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget list --source winget</code></p>
+
+<ul>
+  <li>ஒரு கோப்பிலிருந்து தொகுப்புகளை இறக்குமதி செய்யவும் அல்லது நிறுவப்பட்ட தொகுப்புகளை ஒரு கோப்பிற்கு ஏற்றுமதி செய்யவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import|export</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–import-file|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு\பாதை</span></p>
+
+<ul>
+  <li>winget-pkgs களஞ்சியத்தில் PR ஐச் சமர்ப்பிக்கும் முன் மேனிஃபெஸ்ட்டைச் சரிபார்க்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget validate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மேனிஃபெஸ்ட்\பாதை</span></p>

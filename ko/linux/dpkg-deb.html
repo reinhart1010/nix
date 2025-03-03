@@ -1,0 +1,34 @@
+<h1 id="dpkg-deb">dpkg-deb</h1>
+
+<p>Debian 아카이브를 패키징, 압축 해제 및 정보 제공.
+더 많은 정보: <a href="https://manned.org/dpkg-deb">https://manned.org/dpkg-deb</a>.</p>
+
+<ul>
+  <li>패키지 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-deb --info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.deb</span></p>
+
+<ul>
+  <li>패키지의 이름과 버전을 한 줄로 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-deb --show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.deb</span></p>
+
+<ul>
+  <li>패키지의 내용 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-deb --contents </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.deb</span></p>
+
+<ul>
+  <li>패키지의 내용을 디렉토리에 추출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-deb --extract </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.deb</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>지정된 디렉토리에서 패키지 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-deb --build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>

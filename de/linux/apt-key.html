@@ -1,0 +1,35 @@
+<h1 id="apt-key">apt-key</h1>
+
+<p>Schlüssel-Management-Tool für den APT-Paket-Manager auf Debian und Ubuntu.
+Notiz: <code class="language-plaintext highlighter-rouge">apt-key</code> ist veraltet (außer für <code class="language-plaintext highlighter-rouge">apt-key del</code> in Maintainerskripten).
+Weitere Informationen: <a href="https://manned.org/apt-key.8">https://manned.org/apt-key.8</a>.</p>
+
+<ul>
+  <li>Liste alle vertrauten Schlüssel auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key list</code></p>
+
+<ul>
+  <li>Füge einen Schlüssel hinzu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public_key_file.asc</span></p>
+
+<ul>
+  <li>Lösche einen Schlüssel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_id</span></p>
+
+<ul>
+  <li>Füge einen Remote-Schlüssel hinzu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget -qO - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://host.tld/filename.key</span><code class="language-plaintext highlighter-rouge"> | apt-key add -</code></p>
+
+<ul>
+  <li>Füge einen Schlüssel von einem Schlüsselserver hinzu nur mit der Schlüssel-ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key adv --keyserver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pgp.mit.edu</span><code class="language-plaintext highlighter-rouge"> --recv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">KEYID</span></p>

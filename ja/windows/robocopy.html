@@ -1,0 +1,47 @@
+<h1 id="robocopy">robocopy</h1>
+
+<p>堅牢なファイルとフォルダのコピー。
+デフォルトでは、コピー元とコピー先でタイムスタンプが異なるか、ファイルサイズが異なる場合のみ、ファイルがコピーされます。
+もっと詳しく: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/robocopy">https://learn.microsoft.com/windows-server/administration/windows-commands/robocopy</a>。</p>
+
+<ul>
+  <li>すべての <code class="language-plaintext highlighter-rouge">.jpg</code> と <code class="language-plaintext highlighter-rouge">.bmp</code> ファイルをあるディレクトリから、別のディレクトリにコピーする:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">robocopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\source_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\destination_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.bmp</span></p>
+
+<ul>
+  <li>空のファイルも含めて、すべてのファイルとサブディレクトリをコピーする:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">robocopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\source_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\destination_directory</span><code class="language-plaintext highlighter-rouge"> /E</code></p>
+
+<ul>
+  <li>ディレクトリをミラー/同期し、ソースにないものを削除し、すべての属性とパーミッションを含める:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">robocopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\source_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\destination_directory</span><code class="language-plaintext highlighter-rouge"> /MIR /COPYALL</code></p>
+
+<ul>
+  <li>コピー先のファイルより古いソースファイルを除いて、すべてのファイルとサブディレクトリをコピーする:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">robocopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\source_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\destination_directory</span><code class="language-plaintext highlighter-rouge"> /E /XO</code></p>
+
+<ul>
+  <li>50MB以上のファイルをコピーする代わりに一覧表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">robocopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\source_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\destination_directory</span><code class="language-plaintext highlighter-rouge"> /MIN:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">52428800</span><code class="language-plaintext highlighter-rouge"> /L</code></p>
+
+<ul>
+  <li>ネットワーク接続が失われた場合の再開を許可し、再試行を5回、待機時間を15秒に制限する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">robocopy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\source_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\destination_directory</span><code class="language-plaintext highlighter-rouge"> /Z /R:5 /W:15</code></p>
+
+<ul>
+  <li>ヘルプを表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">robocopy /?</code></p>

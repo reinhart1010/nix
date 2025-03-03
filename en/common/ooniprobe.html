@@ -1,0 +1,47 @@
+<h1 id="ooniprobe">ooniprobe</h1>
+
+<p>Open Observatory of Network Interference (OONI).
+Test the blocking of websites and apps. Measure the speed and performance of your network.
+More information: <a href="https://ooni.org/support/ooni-probe-cli/">https://ooni.org/support/ooni-probe-cli/</a>.</p>
+
+<ul>
+  <li>List all tests performed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ooniprobe list</code></p>
+
+<ul>
+  <li>Show information about a specific test:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ooniprobe list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7</span></p>
+
+<ul>
+  <li>Run all available tests:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ooniprobe run all</code></p>
+
+<ul>
+  <li>Perform a specific test:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ooniprobe run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">performance</span></p>
+
+<ul>
+  <li>Check the availability of a specific website:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ooniprobe run websites --input </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://ooni.org/</span></p>
+
+<ul>
+  <li>Check the availability of all websites listed in a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ooniprobe run websites --input-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/my-websites.txt</span></p>
+
+<ul>
+  <li>Display detailed information about a test in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ooniprobe show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9</span></p>

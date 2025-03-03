@@ -1,0 +1,28 @@
+<h1 id="xml-canonic">xml canonic</h1>
+
+<p>XML 문서를 정규화.
+더 많은 정보: <a href="https://xmlstar.sourceforge.net/docs.php">https://xmlstar.sourceforge.net/docs.php</a>.</p>
+
+<ul>
+  <li>XML 문서를 정규화하여 주석을 보존:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml canonic </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.xml|URI</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.xml</span></p>
+
+<ul>
+  <li>XML 문서를 정규화하여 주석 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml canonic --without-comments </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.xml|URI</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.xml</span></p>
+
+<ul>
+  <li>파일의 XPATH를 사용하여 XML을 독점적으로 정규화하고, 주석을 보존:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml canonic --exc-with-comments </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.xml|URI</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/c14n.xpath</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml canonic --help</code></p>

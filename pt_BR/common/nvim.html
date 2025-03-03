@@ -1,0 +1,54 @@
+<h1 id="nvim">nvim</h1>
+
+<p>Neovim, um editor de texto para programadores baseado no Vim, oferece vários modos para diferentes tipos de manipulação de texto.
+Pressionar<code class="language-plaintext highlighter-rouge">i</code> no modo normal entra no modo de inserção. <code class="language-plaintext highlighter-rouge">&lt;Esc&gt;</code> retorna ao modo normal, que não permite a inserção regular de texto.
+Veja também <code class="language-plaintext highlighter-rouge">vim</code>, <code class="language-plaintext highlighter-rouge">vimtutor</code>, <code class="language-plaintext highlighter-rouge">vimdiff</code>.
+Mais informações: <a href="https://neovim.io">https://neovim.io</a>.</p>
+
+<ul>
+  <li>Abre um arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nvim </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Entra no modo de edição de texto (mode de inserção):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;i</code></p>
+
+<ul>
+  <li>Copia ("yank") ou recorta ("delete") a linha atual (cole-a com <code class="language-plaintext highlighter-rouge">P</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yy|dd</span></p>
+
+<ul>
+  <li>Entra no modo normal e desfaz a última operação:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;u</code></p>
+
+<ul>
+  <li>Procura por um padrão em um arquivo (pressione <code class="language-plaintext highlighter-rouge">n</code>/ <code class="language-plaintext highlighter-rouge">N</code> para ir para a próxima/prévia correspondência):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão_procurado</span><code class="language-plaintext highlighter-rouge">&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>Executa uma substituição de expressão regular em todo o arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;:%s/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expressão_regular</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">substituição</span><code class="language-plaintext highlighter-rouge">/g&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>Entra no modo normal, salva (grava) o arquivo e sai:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>&lt;/span&gt;</Enter></Esc></Enter></Esc></Esc></span></p>
+
+<ul>
+  <li>Sai sem salvar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;:q!&lt;Enter&gt;</code></p>

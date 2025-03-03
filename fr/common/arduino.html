@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="arduino">arduino</h1>
+
+<p>Arduino Studio - Environnement de Développement Intégré pour la plateforme Arduino.
+Plus d'informations : <a href="https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc">https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc</a>.</p>
+
+<ul>
+  <li>Construis un croquis :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/croquis.ino</span></p>
+
+<ul>
+  <li>Construis et téléverse un croquis :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/croquis.ino</span></p>
+
+<ul>
+  <li>Construis et téléverse un croquis vers un Arduino Nano avec un CPU Atmega328p, connecté sur le port <code class="language-plaintext highlighter-rouge">/dev/ttyACM0</code> :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --board </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arduino:avr:nano:cpu=atmega328p</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyACM0</span><code class="language-plaintext highlighter-rouge"> --upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/croquis.ino</span></p>
+
+<ul>
+  <li>Configure la préférence <code class="language-plaintext highlighter-rouge">nom</code> à une valeur <code class="language-plaintext highlighter-rouge">valeur</code> :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --pref </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valeur</span></p>
+
+<ul>
+  <li>Construis un croquis, mets le résultat de ce dernier dans un dossier, et réutilise n'importe quelles versions précédentes dans ce dossier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --pref build.path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier/de/construction</span><code class="language-plaintext highlighter-rouge"> --verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/croquis.ino</span></p>
+
+<ul>
+  <li>Sauvegarde toutes préférences (modifiées) dans un fichier <code class="language-plaintext highlighter-rouge">preferences.txt</code> :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino --save-prefs</code></p>

@@ -1,0 +1,48 @@
+<h1 id="2to3">2to3</h1>
+
+<p>自动将 Python 2 代码转换成 Python 3.
+自 3.11 起，该模块已被弃用，并自 3.13 起被移除。
+参考请见：<a href="https://github.com/python/cpython/blob/8d42e2d915c3096e7eac1c649751d1da567bb7c3/Doc/whatsnew/3.13.rst?plain=1#L188">https://github.com/python/cpython/blob/8d42e2d915c3096e7eac1c649751d1da567bb7c3/Doc/whatsnew/3.13.rst?plain=1#L188</a>.
+更多信息：<a href="https://manned.org/2to3">https://manned.org/2to3</a>.</p>
+
+<ul>
+  <li>显示将执行的变动但不执行（dry-run）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.py</span></p>
+
+<ul>
+  <li>将 Python 2 文件转化为 Python 3：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.py</span></p>
+
+<ul>
+  <li>将 Python 2 语言特性转化为 Python 3：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.py</span><code class="language-plaintext highlighter-rouge"> --fix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raw_input</span><code class="language-plaintext highlighter-rouge"> --fix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">print</span></p>
+
+<ul>
+  <li>除了某个语言特性外将所有其他的 Python 2 语言特性转化为 Python 3：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.py</span><code class="language-plaintext highlighter-rouge"> --nofix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">has_key</span><code class="language-plaintext highlighter-rouge"> --nofix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">isinstance</span></p>
+
+<ul>
+  <li>列出 Python 2 所有可转化为 Python 3 的语言特性：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --list-fixes</code></p>
+
+<ul>
+  <li>将某一文件夹的所有 Python 2 文件转化为 Python 3：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --output-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/Python 3 目录</span><code class="language-plaintext highlighter-rouge"> --write-unchanged-files --nobackups </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/Python 2 目录</span></p>
+
+<ul>
+  <li>使用多线程运行 2to3：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --processes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> --output-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/Python 3 目录</span><code class="language-plaintext highlighter-rouge"> --write --nobackups --no-diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/Python 2 目录</span></p>

@@ -1,0 +1,22 @@
+<h1 id="cmdkey">cmdkey</h1>
+
+<p>Create, show, and delete stored user names and passwords.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/cmdkey">https://learn.microsoft.com/windows-server/administration/windows-commands/cmdkey</a>.</p>
+
+<ul>
+  <li>List all user credentials:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmdkey /list</code></p>
+
+<ul>
+  <li>Store credentials for a user that accesses a server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmdkey /add:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_name</span><code class="language-plaintext highlighter-rouge"> /user:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_name</span></p>
+
+<ul>
+  <li>Delete credentials for a specific target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmdkey /delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_name</span></p>

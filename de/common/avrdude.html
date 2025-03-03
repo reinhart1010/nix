@@ -1,0 +1,28 @@
+<h1 id="avrdude">avrdude</h1>
+
+<p>Treiberprogramm für Atmel AVR Mikrocontroller-Programmierung.
+Weitere Informationen: <a href="https://www.nongnu.org/avrdude/">https://www.nongnu.org/avrdude/</a>.</p>
+
+<ul>
+  <li>Schreibt den Speicherinhalt eines AVR-Mikrocontrollers in eine Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">avr_gerät</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programmer</span><code class="language-plaintext highlighter-rouge"> -U flash:r:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.hex</span><code class="language-plaintext highlighter-rouge">:i</code></p>
+
+<ul>
+  <li>Schreibt den Inhalt einer Datei in einen AVR-Mikrocontroller:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">avr_gerät</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programmer</span><code class="language-plaintext highlighter-rouge"> -U flash:w:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.hex</span></p>
+
+<ul>
+  <li>Liste alle verfügbaren AVR-Geräte auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -p \?</code></p>
+
+<ul>
+  <li>Liste alle verfügbaren AVR-Programmer auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -c \?</code></p>

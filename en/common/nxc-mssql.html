@@ -1,0 +1,40 @@
+<h1 id="nxc-mssql">nxc mssql</h1>
+
+<p>Pentest and exploit Microsoft SQL servers.
+More information: <a href="https://www.netexec.wiki/mssql-protocol">https://www.netexec.wiki/mssql-protocol</a>.</p>
+
+<ul>
+  <li>Search for valid credentials by trying out every combination in the specified lists of [u]sernames and [p]asswords:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc mssql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/usernames.txt</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/passwords.txt</span></p>
+
+<ul>
+  <li>Execute the specified SQL [q]uery on the target server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc mssql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> --query '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SELECT * FROM sys.databases;</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Execute the specified shell command on the target server through MSSQL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc mssql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">whoami</span></p>
+
+<ul>
+  <li>Execute the specified PowerShell command on the target server through MSSQL without retrieving output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc mssql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> -X </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">whoami</span><code class="language-plaintext highlighter-rouge"> --no-output</code></p>
+
+<ul>
+  <li>Download a remote file from the target server and store it in the specified location:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc mssql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> --get-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:\path\to\remote_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_file</span></p>
+
+<ul>
+  <li>Upload a local file to the specified location on the target server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc mssql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> --put-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:\path\to\remote_file</span></p>

@@ -1,0 +1,40 @@
+<h1 id="wpa_cli">wpa_cli</h1>
+
+<p>Kablosuz LAN arayüzleri ekleyin ve yapılandırın.
+Daha fazla bilgi için: <a href="https://manned.org/wpa_cli">https://manned.org/wpa_cli</a>.</p>
+
+<ul>
+  <li>Kullanılabilir ağları tara:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpa_cli scan</code></p>
+
+<ul>
+  <li>Tarama sonuçlarını göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpa_cli scan_results</code></p>
+
+<ul>
+  <li>Ağ ekle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpa_cli add_network </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numara</span></p>
+
+<ul>
+  <li>Bir ağın SSID değerini ayarla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpa_cli set_network </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numara</span><code class="language-plaintext highlighter-rouge"> ssid "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SSID</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ağı etkinleştir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpa_cli enable_network </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numara</span></p>
+
+<ul>
+  <li>Yapılandırmayı kaydet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wpa_cli save_config</code></p>

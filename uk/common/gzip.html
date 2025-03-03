@@ -1,0 +1,46 @@
+<h1 id="gzip">gzip</h1>
+
+<p>Утиліта архівування/розпакування файлів за допомогою стиснення <code class="language-plaintext highlighter-rouge">gzip</code> (LZ77).
+Більше інформації: <a href="https://www.gnu.org/software/gzip/manual/gzip.html">https://www.gnu.org/software/gzip/manual/gzip.html</a>.</p>
+
+<ul>
+  <li>Архівувати файл, замінивши його архівом <code class="language-plaintext highlighter-rouge">gzip</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span></p>
+
+<ul>
+  <li>Розпакувати файл, замінивши його оригінальною нестисненою версією:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decompress шлях/до/файлу.gz</span></p>
+
+<ul>
+  <li>Архівувати файл, зберігаючи оригінальний файл:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-k|–keep шлях/до/файлу</span></p>
+
+<ul>
+  <li>Архівувати файл із зазначенням імені вихідного файлу:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–stdout шлях/до/файлу</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/архіву.gz</span></p>
+
+<ul>
+  <li>Розпакувати архів <code class="language-plaintext highlighter-rouge">gzip</code> із зазначенням назви вихідного файлу:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–stdout</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decompress</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу.gz</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/розпакованого_файлу</span></p>
+
+<ul>
+  <li>Встановити рівень стиснення. 1 — найшвидший (низьке стиснення), 9 — найповільніше (високе стиснення), 6 — за умовчанням:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1..9</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–stdout</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/архіву.gz</span></p>
+
+<ul>
+  <li>Вивести назву та відсоток зменшення для кожного стисненого або розпакованого файлу:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decompress</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу.gz</span></p>

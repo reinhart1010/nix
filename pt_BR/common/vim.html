@@ -1,0 +1,53 @@
+<h1 id="vim">vim</h1>
+
+<p>Vim (Vi IMproved), é um editor de texto em linha de comando, que fornece muitos modos para diferentes tipos de manipulação de texto.
+Apertando <code class="language-plaintext highlighter-rouge">i</code> no modo normal entra em modo insert (inserir). Apertando <code class="language-plaintext highlighter-rouge">&lt;Esc&gt;</code> volta para o modo normal, que permite o uso dos comandos do Vim.
+Mais informações: <a href="https://www.vim.org">https://www.vim.org</a>.</p>
+
+<ul>
+  <li>Abre um arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vim </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Abre um arquivo em um número da linha específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vim +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_da_linha</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Abre o manual do Vim em visualização:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:help&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>Salva e sai do arquivo atual:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ZZ|:wq<Enter>&lt;/span&gt;</Enter></span></p>
+
+<ul>
+  <li>Entra em modo normal e desfaz a última operação:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;u</code></p>
+
+<ul>
+  <li>Procura por um sequência padrão dentro de um arquivo (aperte <code class="language-plaintext highlighter-rouge">n</code>/<code class="language-plaintext highlighter-rouge">N</code> para ir para próxima/anterior sequência padrão):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sequência_padrão_procurada</span><code class="language-plaintext highlighter-rouge">&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>Executa uma substituição por expressão regular no arquivo todo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:%s/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expressão_regular</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">substituição</span><code class="language-plaintext highlighter-rouge">/g&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>Mostra os números das linhas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:set nu&lt;Enter&gt;</code></p>

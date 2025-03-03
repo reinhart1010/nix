@@ -1,0 +1,52 @@
+<h1 id="git-fame">git fame</h1>
+
+<p>Git 저장소 기여도를 예쁘게 출력.
+더 많은 정보: <a href="https://github.com/casperdcl/git-fame">https://github.com/casperdcl/git-fame</a>.</p>
+
+<ul>
+  <li>현재 Git 저장소의 기여도 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git fame</code></p>
+
+<ul>
+  <li>지정된 정규 표현식과 일치하는 파일/디렉토리 제외:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git fame --excl "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">정규_표현식</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>지정된 날짜 이후의 기여도 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git fame --since "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3주_전|2021-05-13</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>지정된 형식으로 기여도 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git fame --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pipe|yaml|json|csv|tsv</span></p>
+
+<ul>
+  <li>파일 확장자별 기여도 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git fame --bytype</code></p>
+
+<ul>
+  <li>공백 변화 무시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git fame --ignore-whitespace</code></p>
+
+<ul>
+  <li>파일 간의 줄 이동 및 복사 감지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git fame -C</code></p>
+
+<ul>
+  <li>파일 내의 줄 이동 및 복사 감지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git fame -M</code></p>

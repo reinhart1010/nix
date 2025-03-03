@@ -1,0 +1,34 @@
+<h1 id="debootstrap">debootstrap</h1>
+
+<p>Membuat sistem Debian dasar.
+Informasi lebih lanjut: <a href="https://wiki.debian.org/Debootstrap">https://wiki.debian.org/Debootstrap</a>.</p>
+
+<ul>
+  <li>Membuat sistem Debian stable didalam direktori <code class="language-plaintext highlighter-rouge">debian-root</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo debootstrap stable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/ke/debian-root/</span><code class="language-plaintext highlighter-rouge"> http://deb.debian.org/debian</code></p>
+
+<ul>
+  <li>Membuat sistem minimal termasuk hanya paket yang diperlukan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo debootstrap --variant=minbase stable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/ke/debian-root/</span></p>
+
+<ul>
+  <li>Membuat sistem Ubuntu 20.04 didalam direktori <code class="language-plaintext highlighter-rouge">focal-root</code> dengan mirror lokal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo debootstrap focal </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/ke/focal-root/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file:///jalan/ke/mirror/</span></p>
+
+<ul>
+  <li>Berpindah ke sistem yang telah di bootstrap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/ke/root</span></p>
+
+<ul>
+  <li>Memperlihatkan rilis Debian atau Ubuntu yang tersedia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls /usr/share/debootstrap/scripts/</code></p>

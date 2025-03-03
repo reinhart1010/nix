@@ -1,0 +1,46 @@
+<h1 id="trdsql">trdsql</h1>
+
+<p>Execute SQL on CSV, LTSV, JSON, YAML, and TBLN files.
+More information: <a href="https://noborus.github.io/trdsql/">https://noborus.github.io/trdsql/</a>.</p>
+
+<ul>
+  <li>Convert object data from multiple JSON files to a CSV file with header (<code class="language-plaintext highlighter-rouge">-oh</code>) and double quote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trdsql -ocsv -oh "SELECT * FROM </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file/*.json</span><code class="language-plaintext highlighter-rouge">" | sed 's/\([^,]*\)/"&amp;"/g' &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csv</span></p>
+
+<ul>
+  <li>Interpret JSON list as a table and put objects inside as columns (path/to/file.json: <code class="language-plaintext highlighter-rouge">{"list":[{"age":"26","name":"Tanaka"}]}</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trdsql "SELECT * FROM </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span><code class="language-plaintext highlighter-rouge">::.list</code></p>
+
+<ul>
+  <li>Manipulate complex SQL query with data from multiple CSV files with first line is header (<code class="language-plaintext highlighter-rouge">-ih</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trdsql -icsv -ih "SELECT </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column1,column2</span><code class="language-plaintext highlighter-rouge"> FROM </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file*.csv</span><code class="language-plaintext highlighter-rouge"> WHERE column2 != '' ORDER BY column1 GROUP BY column1"</code></p>
+
+<ul>
+  <li>Merge content of 2 CSV files to one CSV file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trdsql "SELECT </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column1,colum2</span><code class="language-plaintext highlighter-rouge"> FROM </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.csv</span><code class="language-plaintext highlighter-rouge"> UNION SELECT </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column1,column2</span><code class="language-plaintext highlighter-rouge"> FROM </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.csv</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Connect to PostgreSQL database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trdsql -driver postgres -dsn "host=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5433</span><code class="language-plaintext highlighter-rouge"> dbname=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_name</span><code class="language-plaintext highlighter-rouge">" "SELECT 1"</code></p>
+
+<ul>
+  <li>Create table data to MySQL database from CSV file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trdsql -driver mysql -dsn "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database</span><code class="language-plaintext highlighter-rouge">" -ih "CREATE TABLE </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table</span><code class="language-plaintext highlighter-rouge"> (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column1</span><code class="language-plaintext highlighter-rouge"> int, </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">colum2</span><code class="language-plaintext highlighter-rouge"> varchar(20)) AS SELECT </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column3</span><code class="language-plaintext highlighter-rouge"> AS </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column1</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column2</span><code class="language-plaintext highlighter-rouge"> FROM </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/header_file.csv</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Show data from compress log files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trdsql -iltsv "SELECT * FROM </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/access.log.gz</span><code class="language-plaintext highlighter-rouge">"</code></p>

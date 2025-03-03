@@ -1,0 +1,23 @@
+<h1 id="wf-recorder">wf-recorder</h1>
+
+<p>Screencast para Wayland opcionalmente con audio.
+Por defecto necesita terminar el proceso con Ctrl-C.
+Más información: <a href="https://github.com/ammen99/wf-recorder">https://github.com/ammen99/wf-recorder</a>.</p>
+
+<ul>
+  <li>Grabación de un archivo MP4:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wf-recorder --file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">salida.mp4</span></p>
+
+<ul>
+  <li>Graba video incluyendo audio; y esto incluye acceso al micrófono y los sonidos del sistema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wf-recorder --audio --file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/ruta/al/archivo_con_audio.webm</span></p>
+
+<ul>
+  <li>Selecciona y graba una porción de la pantalla utilizando <code class="language-plaintext highlighter-rouge">slurp</code>, guardando en <code class="language-plaintext highlighter-rouge">recording.mp4</code> de forma predeterminada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wf-recorder -g "$(slurp)"</code></p>

@@ -1,0 +1,46 @@
+<h1 id="sqsc">sqsc</h1>
+
+<p>A command-line AWS Simple Queue Service client.
+More information: <a href="https://github.com/yongfei25/sqsc">https://github.com/yongfei25/sqsc</a>.</p>
+
+<ul>
+  <li>List all queues:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqsc lq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_prefix</span></p>
+
+<ul>
+  <li>List all messages in a queue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqsc ls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_name</span></p>
+
+<ul>
+  <li>Copy all messages from one queue to another:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqsc cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_queue</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination_queue</span></p>
+
+<ul>
+  <li>Move all messages from one queue to another:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqsc mv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_queue</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination_queue</span></p>
+
+<ul>
+  <li>Describe a queue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqsc describe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_name</span></p>
+
+<ul>
+  <li>Query a queue with SQL syntax:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqsc query "SELECT body FROM </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_name</span><code class="language-plaintext highlighter-rouge"> WHERE body LIKE '%user%'"</code></p>
+
+<ul>
+  <li>Pull all messages from a queue into a local SQLite database in your present working directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqsc pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_name</span></p>

@@ -1,0 +1,29 @@
+<h1 id="az-group">az group</h1>
+
+<p>Manage resource groups and template deployments.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/group">https://learn.microsoft.com/cli/azure/group</a>.</p>
+
+<ul>
+  <li>Create a new resource group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az group create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --location </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">location</span></p>
+
+<ul>
+  <li>Check if a resource group exists:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az group exists --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Delete a resource group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az group delete --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Wait until a condition of the resource group is met:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az group wait --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">created|deleted|exists|updated</span></p>

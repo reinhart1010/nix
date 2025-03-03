@@ -1,0 +1,52 @@
+<h1 id="git-diff">git diff</h1>
+
+<p>Mostra alterações nos arquivos rastreados.
+Mais informações: <a href="https://git-scm.com/docs/git-diff">https://git-scm.com/docs/git-diff</a>.</p>
+
+<ul>
+  <li>Mostra as alterações não preparadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff</code></p>
+
+<ul>
+  <li>Mostra todas as alterações sem commit (incluindo as preparadas):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff HEAD</code></p>
+
+<ul>
+  <li>Mostra apenas as alterações preparadas (adicionadas, mas ainda sem commit):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff --staged</code></p>
+
+<ul>
+  <li>Mostra as alterações de todos os commits desde uma determinada data/hora (uma expressão de data, por exemplo, "1 week 2 days" ou uma data ISO):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'</code></p>
+
+<ul>
+  <li>Mostra estatísticas de comparação, como arquivos alterados, histogramas e número total de inserções/exclusões de linha:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff --stat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Emite um resumo das criações de arquivos, renomeações e alterações de modo desde um determinado commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff --summary </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Compara um único arquivo entre duas branches ou commits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_1</span><code class="language-plaintext highlighter-rouge">..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_2</span><code class="language-plaintext highlighter-rouge"> [--] </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Compara diferentes arquivos da branch atual com outra branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>

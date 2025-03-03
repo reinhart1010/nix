@@ -1,0 +1,22 @@
+<h1 id="conda-create">conda create</h1>
+
+<p>Create new conda environments.
+More information: <a href="https://docs.conda.io/projects/conda/en/latest/commands/create.html">https://docs.conda.io/projects/conda/en/latest/commands/create.html</a>.</p>
+
+<ul>
+  <li>Create a new environment named <code class="language-plaintext highlighter-rouge">py39</code>, and install Python 3.9 and NumPy v1.11 or above in it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda create --yes --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">py39</span><code class="language-plaintext highlighter-rouge"> python=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3.9</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numpy&gt;=1.11</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Make exact copy of an environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda create --clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">py39</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">py39-copy</span></p>
+
+<ul>
+  <li>Create a new environment with a specified name and install a given package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">env_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>

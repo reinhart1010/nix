@@ -1,0 +1,46 @@
+<h1 id="aws-lambda">aws lambda</h1>
+
+<p>CLI pour AWS lambda.
+Plus d'informations : <a href="https://docs.aws.amazon.com/cli/latest/reference/lambda/">https://docs.aws.amazon.com/cli/latest/reference/lambda/</a>.</p>
+
+<ul>
+  <li>Lance une fonction :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda invoke --function-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/la/réponse.json</span></p>
+
+<ul>
+  <li>Lance une fonction avec pour donnée d'entrée, un document JSON :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda invoke --function-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom</span><code class="language-plaintext highlighter-rouge"> --payload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/la/réponse.json</span></p>
+
+<ul>
+  <li>Liste les fonctions :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda list-functions</code></p>
+
+<ul>
+  <li>Affiche la configuration d'une fonction :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda get-function-configuration --function-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom</span></p>
+
+<ul>
+  <li>Affiche les alias d'une fonction :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda list-aliases --function-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom</span></p>
+
+<ul>
+  <li>Affiche la configuration de concurrence pour une fonction :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda get-function-concurrency --function-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom</span></p>
+
+<ul>
+  <li>Affiche quel service AWS peut appeler une fonction :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws lambda get-policy --function-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom</span></p>

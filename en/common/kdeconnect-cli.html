@@ -1,0 +1,52 @@
+<h1 id="kdeconnect-cli">kdeconnect-cli</h1>
+
+<p>Use KDE Connect for sharing files or text to a device, ringing it, unlocking it, and much more.
+More information: <a href="https://kdeconnect.kde.org">https://kdeconnect.kde.org</a>.</p>
+
+<ul>
+  <li>List all devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kdeconnect-cli --list-devices</code></p>
+
+<ul>
+  <li>List available (paired and reachable) devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kdeconnect-cli --list-available</code></p>
+
+<ul>
+  <li>Request pairing with a specific device, specifying its ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kdeconnect-cli --pair --device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_id</span></p>
+
+<ul>
+  <li>Ring a device, specifying its name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kdeconnect-cli --ring --name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Share an URL or file with a paired device, specifying its ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kdeconnect-cli --share </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|path/to/file</span><code class="language-plaintext highlighter-rouge"> --device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_id</span></p>
+
+<ul>
+  <li>Send an SMS with an optional attachment to a specific number:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kdeconnect-cli --name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span><code class="language-plaintext highlighter-rouge">" --send-sms "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span><code class="language-plaintext highlighter-rouge">" --destination </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">phone_number</span><code class="language-plaintext highlighter-rouge"> --attachment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Unlock a specific device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kdeconnect-cli --name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span><code class="language-plaintext highlighter-rouge">" --unlock</code></p>
+
+<ul>
+  <li>Simulate a key press on a specific device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kdeconnect-cli --name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span><code class="language-plaintext highlighter-rouge">" --send-keys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span></p>

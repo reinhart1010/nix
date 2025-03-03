@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="gdb">gdb</h1>
+
+<p>GNU 디버거.
+더 많은 정보: <a href="https://www.gnu.org/software/gdb">https://www.gnu.org/software/gdb</a>.</p>
+
+<ul>
+  <li>실행파일을 디버깅합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">실행파일</span></p>
+
+<ul>
+  <li>프로세스를 gdb에 연결합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdb -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로세스ID</span></p>
+
+<ul>
+  <li>코어 파일과 함께 디버깅합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdb -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">코어</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">실행파일</span></p>
+
+<ul>
+  <li>디버깅을 시작하면서 주어진 GDB 명령들을 수행합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdb -ex "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령들</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">실행파일</span></p>
+
+<ul>
+  <li>디버깅을 시작하면서 실행파일에 인자들을 넘겨줍니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdb --args </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">실행파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인자1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인자2</span></p>

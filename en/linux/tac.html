@@ -1,0 +1,35 @@
+<h1 id="tac">tac</h1>
+
+<p>Display and concatenate files with lines in reversed order.
+See also: <code class="language-plaintext highlighter-rouge">cat</code>.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html</a>.</p>
+
+<ul>
+  <li>Concatenate specific files in reversed order:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tac </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Display <code class="language-plaintext highlighter-rouge">stdin</code> in reversed order:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat path/to/file</span><code class="language-plaintext highlighter-rouge"> | tac</code></p>
+
+<ul>
+  <li>Use a specific separator:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tac --separator </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Use a specific regex as a separator:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tac --regex --separator </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[,;]</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Use a separator before each file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tac --before </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>

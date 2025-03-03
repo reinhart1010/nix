@@ -1,0 +1,52 @@
+<h1 id="ssh-keygen">ssh-keygen</h1>
+
+<p>認証やパスワード不要のログインなどに使われるSSHキーを生成します。
+もっと詳しく: <a href="https://man.openbsd.org/ssh-keygen">https://man.openbsd.org/ssh-keygen</a>。</p>
+
+<ul>
+  <li>対話的にキーを生成します:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen</code></p>
+
+<ul>
+  <li>32ラウンド回数の鍵導出関数でed25519鍵を生成し、特定のファイルに保存する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ed25519</span><code class="language-plaintext highlighter-rouge"> -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">32</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/filename</span></p>
+
+<ul>
+  <li>Eメールをコメントとして、RSA 4096ビット鍵を生成する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rsa</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4096</span><code class="language-plaintext highlighter-rouge"> -C "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comment|email</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>known_hostsファイルからホストの鍵を削除する (既知のホストが新しい鍵を持つ場合に便利):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span></p>
+
+<ul>
+  <li>鍵のフィンガープリントをMD5 Hexで取得する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -l -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">md5</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/filename</span></p>
+
+<ul>
+  <li>鍵のパスワードを変更する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -p -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/filename</span></p>
+
+<ul>
+  <li>鍵の形式を変更する (たとえば OPENSSH 形式から PEM 形式へ):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -p -N "" -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PEM</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/OpenSSH_private_key</span></p>
+
+<ul>
+  <li>秘密鍵から公開鍵を取得する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -y -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/OpenSSH_private_key</span></p>

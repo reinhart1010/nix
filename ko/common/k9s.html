@@ -1,0 +1,28 @@
+<h1 id="k9s">k9s</h1>
+
+<p>Kubernetes 클러스터를 보고 관리.
+더 많은 정보: <a href="https://k9scli.io/topics/commands/">https://k9scli.io/topics/commands/</a>.</p>
+
+<ul>
+  <li>kubeconfig 컨텍스트를 사용하여 클러스터 관리:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k9s --context </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kubeconfig_컨텍스트_이름</span></p>
+
+<ul>
+  <li>읽기 전용 모드로 클러스터 관리 (수정을 초래할 수 있는 모든 명령 비활성화):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k9s --readonly --cluster </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span></p>
+
+<ul>
+  <li>주어진 Kubernetes 네임스페이스를 사용하여 클러스터 관리:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k9s --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Kubernetes_네임스페이스</span><code class="language-plaintext highlighter-rouge"> --cluster </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span></p>
+
+<ul>
+  <li>pod 보기로 k9s를 실행하고 디버그 로깅을 활성화하여 클러스터 관리:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k9s --command </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod</span><code class="language-plaintext highlighter-rouge"> --logLevel debug --cluster </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span></p>

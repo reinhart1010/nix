@@ -1,0 +1,41 @@
+<h1 id="virsh-pool-list">virsh pool-list</h1>
+
+<p>Lista informações sobre pools de armazenamento de máquinas virtuais.
+Veja também: <code class="language-plaintext highlighter-rouge">virsh</code>, <code class="language-plaintext highlighter-rouge">virsh-pool-autostart</code>, <code class="language-plaintext highlighter-rouge">virsh-pool-define-as</code>.
+Mais informações: <a href="https://manned.org/virsh">https://manned.org/virsh</a>.</p>
+
+<ul>
+  <li>Lista o nome, estado e se a inicialização automática está habilitada ou desabilitada para pools de armazenamento ativos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh pool-list</code></p>
+
+<ul>
+  <li>Lista informações para pools de armazenamento ativos e inativos ou apenas inativos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh pool-list --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">all|inactive</span></p>
+
+<ul>
+  <li>Lista informações estendidas sobre persistência, capacidade, alocação e espaço disponível para pools de armazenamento ativos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh pool-list --details</code></p>
+
+<ul>
+  <li>Lista informações para pools de armazenamento ativos com inicialização automática habilitada ou desabilitada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh pool-list --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">autostart|no-autostart</span></p>
+
+<ul>
+  <li>Lista informações para pools de armazenamento ativos que são persistentes ou transitórios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh pool-list --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">persistent|transient</span></p>
+
+<ul>
+  <li>Lista o nome e UUID dos pools de armazenamento ativos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh pool-list --name --uuid</code></p>

@@ -1,0 +1,52 @@
+<h1 id="rmlint">rmlint</h1>
+
+<p>Find space waste and other broken things on your filesystem.
+More information: <a href="https://rmlint.readthedocs.io/en/latest/rmlint.1.html">https://rmlint.readthedocs.io/en/latest/rmlint.1.html</a>.</p>
+
+<ul>
+  <li>Check directories for duplicated, empty and broken files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rmlint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 …</span></p>
+
+<ul>
+  <li>Check for duplicates bigger than a specific size, preferably keeping files in tagged directories (after the double slash):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rmlint -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1MB</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> // </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/original_directory</span></p>
+
+<ul>
+  <li>Check for space wasters, keeping everything in the untagged directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rmlint --keep-all-untagged </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> // </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/original_directory</span></p>
+
+<ul>
+  <li>Delete duplicate files found by an execution of <code class="language-plaintext highlighter-rouge">rmlint</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">./rmlint.sh</code></p>
+
+<ul>
+  <li>Find duplicate directory trees based on data, ignoring names:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rmlint --merge-directories </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Mark files at lower path [d]epth as originals, on tie choose shorter [l]ength:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rmlint --rank-by=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dl</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Find files with identical filename and contents, and link rather than delete the duplicates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rmlint -c sh:link --match-basename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Use <code class="language-plaintext highlighter-rouge">data</code> as master directory. Find only duplicates in backup that are also in <code class="language-plaintext highlighter-rouge">data</code>. Do not delete any files in <code class="language-plaintext highlighter-rouge">data</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rmlint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/backup</span><code class="language-plaintext highlighter-rouge"> // </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/data</span><code class="language-plaintext highlighter-rouge"> --keep-all-tagged --must-match-tagged</code></p>

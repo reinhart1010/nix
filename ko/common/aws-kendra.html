@@ -1,0 +1,40 @@
+<h1 id="aws-kendra">aws kendra</h1>
+
+<p>AWS Kendra의 CLI.
+더 많은 정보: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/kendra/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/kendra/index.html</a>.</p>
+
+<ul>
+  <li>인덱스 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kendra create-index --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --role-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role_arn</span></p>
+
+<ul>
+  <li>인덱스 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kendra list-indexes</code></p>
+
+<ul>
+  <li>인덱스 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kendra describe-index --id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">index_id</span></p>
+
+<ul>
+  <li>데이터 소스 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kendra list-data-sources</code></p>
+
+<ul>
+  <li>데이터 소스 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kendra describe-data-source --id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터_소스_아이디</span></p>
+
+<ul>
+  <li>검색 쿼리 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kendra list-query-suggestions --index-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인덱스_아이디</span><code class="language-plaintext highlighter-rouge"> --query-text </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">쿼리_문자열</span></p>

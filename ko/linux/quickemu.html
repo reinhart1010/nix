@@ -1,0 +1,47 @@
+<h1 id="quickemu">quickemu</h1>
+
+<p>고도로 최적화된 데스크탑 가상 머신을 빠르게 구축하고 관리합니다.
+같이 보기: VM 설정 준비를 위한 <code class="language-plaintext highlighter-rouge">quickget</code>.
+더 많은 정보: <a href="https://github.com/quickemu-project/quickemu">https://github.com/quickemu-project/quickemu</a>.</p>
+
+<ul>
+  <li>구성 파일에서 가상 머신 생성 및 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quickemu --vm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.conf</span></p>
+
+<ul>
+  <li>디스크/스냅샷에 변경 사항을 저장하지 않고 임시 파일에 변경 사항 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quickemu --status-quo --vm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.conf</span></p>
+
+<ul>
+  <li>전체 화면 모드로 가상 머신 시작 (<Ctrl> + <Alt> + f로 종료) 및 디스플레이 백엔드 선택 (기본값은 `sdl`):</Alt></Ctrl></li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quickemu --fullscreen --display </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sdl|gtk|spice|spice-app|none</span><code class="language-plaintext highlighter-rouge"> --vm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.conf</span></p>
+
+<ul>
+  <li>가상 오디오 장치를 에뮬레이트하고 데스크탑 바로 가기 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quickemu --sound-card </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">intel-hda|ac97|es1370|sb16|none</span><code class="language-plaintext highlighter-rouge"> --shortcut --vm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.conf</span></p>
+
+<ul>
+  <li>스냅샷 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quickemu --snapshot create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그</span><code class="language-plaintext highlighter-rouge"> --vm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.conf</span></p>
+
+<ul>
+  <li>스냅샷 복원:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quickemu --snapshot apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그</span><code class="language-plaintext highlighter-rouge"> --vm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.conf</span></p>
+
+<ul>
+  <li>스냅샷 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quickemu --snapshot delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그</span><code class="language-plaintext highlighter-rouge"> --vm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.conf</span></p>

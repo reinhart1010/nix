@@ -1,0 +1,22 @@
+<h1 id="route">route</h1>
+
+<p>Use route cmd to set the route table.
+More information: <a href="https://manned.org/route">https://manned.org/route</a>.</p>
+
+<ul>
+  <li>Display the information of route table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">route -n</code></p>
+
+<ul>
+  <li>Add route rule:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route add -net </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span><code class="language-plaintext highlighter-rouge"> netmask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">netmask_address</span><code class="language-plaintext highlighter-rouge"> gw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gw_address</span></p>
+
+<ul>
+  <li>Delete route rule:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route del -net </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span><code class="language-plaintext highlighter-rouge"> netmask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">netmask_address</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gw_address</span></p>

@@ -1,0 +1,22 @@
+<h1 id="pueue-edit">pueue edit</h1>
+
+<p>Edit the command or path of a stashed or queued task.
+More information: <a href="https://github.com/Nukesor/pueue">https://github.com/Nukesor/pueue</a>.</p>
+
+<ul>
+  <li>Edit a task, see <code class="language-plaintext highlighter-rouge">pueue status</code> to get the task ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Edit the path from which a task is executed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span><code class="language-plaintext highlighter-rouge"> --path</code></p>
+
+<ul>
+  <li>Edit a command with the specified editor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">EDITOR=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nano</span><code class="language-plaintext highlighter-rouge"> pueue edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>

@@ -1,0 +1,50 @@
+<h1 id="du">du</h1>
+
+<p>磁盘使用率：估计和汇总文件和目录空间使用率。
+更多信息：<a href="https://keith.github.io/xcode-man-pages/du.1.html">https://keith.github.io/xcode-man-pages/du.1.html</a>.</p>
+
+<ul>
+  <li>以给定单位（KiB/MiB/GiB）列出目录和所有子目录的大小：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">k|m|g</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标文件夹</span></p>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>以可读形式列出目录和任何子目录的大小（即自动为转换为选择的适当单位 kb</td>
+          <td>mb</td>
+          <td>gb）：</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标文件夹</span></p>
+
+<ul>
+  <li>以可读单位显示目录大小：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -sh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标文件夹</span></p>
+
+<ul>
+  <li>列出目录以及其中所有文件和目录的可读大小：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -ah </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标文件夹</span></p>
+
+<ul>
+  <li>列出一个目录和任何子目录的可读大小，最深可达 n 级：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -h -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标文件夹</span></p>
+
+<ul>
+  <li>列出当前目录子目录中所有.jpg 文件的可读大小，并在末尾显示累计总数：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -ch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>/</em>.jpg</span></p>

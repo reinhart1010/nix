@@ -1,0 +1,53 @@
+<h1 id="git-config">git config</h1>
+
+<p>Gerencia configurações personalizadas para repositórios Git.
+Estas configurações podem ser locais (para o repositório atual) ou globais (para o usuário atual).
+Mais informações: <a href="https://git-scm.com/docs/git-config">https://git-scm.com/docs/git-config</a>.</p>
+
+<ul>
+  <li>Define globalmente seu nome ou e-mail (essas informações são necessárias para fazer commit em um repositório e serão incluídas em todos os commits):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user.name|user.email</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Seu nome|e-mail@example.com</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Lista configurações locais ou globais:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --list --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local|global</span></p>
+
+<ul>
+  <li>Lista somente configurações do sistema (armazenadas no <code class="language-plaintext highlighter-rouge">/etc/gitconfig</code>), e exibe o local do arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --list --system --show-origin</code></p>
+
+<ul>
+  <li>Obtém o valor de uma dada configuração:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config alias.unstage</code></p>
+
+<ul>
+  <li>Define o valor global de uma dada configuração:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global alias.unstage "reset HEAD --"</code></p>
+
+<ul>
+  <li>Reverte a configuração global para seu valor padrão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global --unset alias.unstage</code></p>
+
+<ul>
+  <li>Edita a configuração local do Git (<code class="language-plaintext highlighter-rouge">.git/config</code>) no editor padrão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --edit</code></p>
+
+<ul>
+  <li>Edita a configuração global do Git (<code class="language-plaintext highlighter-rouge">~/.gitconfig</code> por padrão ou <code class="language-plaintext highlighter-rouge">$XDG_CONFIG_HOME/git/config</code> se tal arquivo existir) no editor padrão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global --edit</code></p>

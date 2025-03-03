@@ -1,0 +1,52 @@
+<h1 id="cal">cal</h1>
+
+<p>Wyświetl kalendarz.
+Więcej informacji: <a href="https://man.netbsd.org/cal.1">https://man.netbsd.org/cal.1</a>.</p>
+
+<ul>
+  <li>Wyświetl kalendarz na bieżący miesiąc:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cal</code></p>
+
+<ul>
+  <li>Wyświetl kalendarz na określony rok:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cal </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rok</span></p>
+
+<ul>
+  <li>Wyświetl kalendarz dla określonego miesiąca i roku:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cal </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">miesiąc</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rok</span></p>
+
+<ul>
+  <li>Wyświetl cały kalendarz na bieżący rok z użyciem dni [j]uliańskich (dni liczone od 1, począwszy od 1 stycznia):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cal -y -j</code></p>
+
+<ul>
+  <li>Wyróżnij (z ang. [h]ighlight) dzisiejszą datę i wyświetl [3] miesiące ją obejmujące:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cal -h -3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">miesiąc</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rok</span></p>
+
+<ul>
+  <li>Wyświetl 2 miesiące przed (z ang. [B]efore) i 3 po (z ang. [A]fter) określonym [m]iesiącu bieżącego roku:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cal -A 3 -B 2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">miesiąc</span></p>
+
+<ul>
+  <li>Wyświetl określoną liczbę miesięcy przed i po ([C]ontext) określonym miesiącu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cal -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">miesiące</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">miesiąc</span></p>
+
+<ul>
+  <li>Określ początkowy [d]zień tygodnia (0: niedziela, 1: poniedziałek, …, 6: sobota):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cal -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0..6</span></p>

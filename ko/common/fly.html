@@ -1,0 +1,52 @@
+<h1 id="fly">fly</h1>
+
+<p>concourse-ci용 명령줄 도구.
+더 많은 정보: <a href="https://concourse-ci.org/fly.html">https://concourse-ci.org/fly.html</a>.</p>
+
+<ul>
+  <li>concourse 대상으로 인증 및 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fly --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">타겟_이름</span><code class="language-plaintext highlighter-rouge"> login --team-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">팀_이름</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://ci.example.com</span></p>
+
+<ul>
+  <li>타겟 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fly targets</code></p>
+
+<ul>
+  <li>파이프라인 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fly -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">타겟_이름</span><code class="language-plaintext highlighter-rouge"> pipelines</code></p>
+
+<ul>
+  <li>파이프라인 업로드 또는 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fly -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">타겟_이름</span><code class="language-plaintext highlighter-rouge"> set-pipeline --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pipeline.yml</span><code class="language-plaintext highlighter-rouge"> --pipeline </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파이프라인_이름</span></p>
+
+<ul>
+  <li>파이프라인 일시중지 해제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fly -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">타겟_이름</span><code class="language-plaintext highlighter-rouge"> unpause-pipeline --pipeline </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파이프라인_이름</span></p>
+
+<ul>
+  <li>파이프라인 구성 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fly -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">타겟_이름</span><code class="language-plaintext highlighter-rouge"> get-pipeline --pipeline </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파이프라인_이름</span></p>
+
+<ul>
+  <li>fly의 로컬 사본 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fly -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">타겟_이름</span><code class="language-plaintext highlighter-rouge"> sync</code></p>
+
+<ul>
+  <li>파이프라인 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fly -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">타겟_이름</span><code class="language-plaintext highlighter-rouge"> destroy-pipeline --pipeline </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파이프라인_이름</span></p>

@@ -1,0 +1,41 @@
+<h1 id="btrfs-scrub">btrfs scrub</h1>
+
+<p>Scrub btrfs filesystems to verify data integrity.
+It is recommended to run a scrub once a month.
+More information: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-scrub.html">https://btrfs.readthedocs.io/en/latest/btrfs-scrub.html</a>.</p>
+
+<ul>
+  <li>Start a scrub:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs scrub start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/btrfs_mount</span></p>
+
+<ul>
+  <li>Show the status of an ongoing or last completed scrub:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs scrub status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/btrfs_mount</span></p>
+
+<ul>
+  <li>Cancel an ongoing scrub:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs scrub cancel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/btrfs_mount</span></p>
+
+<ul>
+  <li>Resume a previously cancelled scrub:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs scrub resume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/btrfs_mount</span></p>
+
+<ul>
+  <li>Start a scrub, but wait until the scrub finishes before exiting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs scrub start -B </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/btrfs_mount</span></p>
+
+<ul>
+  <li>Start a scrub in quiet mode (does not print errors or statistics):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs scrub start -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/btrfs_mount</span></p>

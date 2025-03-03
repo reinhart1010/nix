@@ -1,0 +1,35 @@
+<h1 id="pdfdetach">pdfdetach</h1>
+
+<p>Lista o extrae archivos adjuntos (archivos embebidos) de un archivo PDF.
+Vea también: <code class="language-plaintext highlighter-rouge">pdfattach</code>, <code class="language-plaintext highlighter-rouge">pdfimages</code>, <code class="language-plaintext highlighter-rouge">pdfinfo</code>.
+Más información: <a href="https://manned.org/pdfdetach">https://manned.org/pdfdetach</a>.</p>
+
+<ul>
+  <li>Lista todos los archivos adjuntos en un archivo con una codificación de texto específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfdetach list -enc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UTF-8</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.pdf</span></p>
+
+<ul>
+  <li>Guarda un archivo embebido especificado por su número:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfdetach -save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/entrada.pdf</span></p>
+
+<ul>
+  <li>Guarda un archivo embebido especificando su nombre:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfdetach -savefile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.pdf</span></p>
+
+<ul>
+  <li>Guarda el archivo embebido con un nombre de archivo de salida personalizado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfdetach -save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/resultado</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/entrada.pdf</span></p>
+
+<ul>
+  <li>Guarda el adjunto desde un archivo protegido por contraseña del propietario/usuario:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfdetach -save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-opw|-upw</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/entrada.pdf</span></p>

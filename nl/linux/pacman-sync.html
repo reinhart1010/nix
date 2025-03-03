@@ -1,0 +1,53 @@
+<h1 id="pacman-sync">pacman –sync</h1>
+
+<p>Hulpprogramma voor het beheren van pakketten op Arch Linux.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Meer informatie: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Installeer een nieuw pakket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span></p>
+
+<ul>
+  <li>[S]ynchroniseer en ververs ([y]) de pakketdatabase en voer een sys[u]pgrade uit (voeg <code class="language-plaintext highlighter-rouge">--downloadonly</code> toe om alleen de pakketten te downloaden en niet te upgraden):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Syu</code></p>
+
+<ul>
+  <li>Update en [u]pgrade alle pakketten en installeer een nieuw pakket zonder bevestiging:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Syu --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span></p>
+
+<ul>
+  <li>Doorzoek ([s]) de pakketdatabase met een reguliere expressie of zoekwoord:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Ss "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekterm</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Toon [i]nformatie over een pakket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Si </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span></p>
+
+<ul>
+  <li>Overschrijf conflicterende bestanden tijdens een pakketupdate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Syu --overwrite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Verwijder niet-geïnstalleerde pakketten en ongebruikte repositories uit de cache (gebruik de vlag <code class="language-plaintext highlighter-rouge">Sc</code> om [c]ache volledig schoon te maken):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Sc</code></p>
+
+<ul>
+  <li>Specificeer de pakketversie die geïnstalleerd dient te worden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versie</span></p>

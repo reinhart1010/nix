@@ -1,0 +1,28 @@
+<h1 id="pw-cat">pw-cat</h1>
+
+<p>PipeWire를 통해 오디오 파일을 재생하고 녹음.
+더 많은 정보: <a href="https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI">https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI</a>.</p>
+
+<ul>
+  <li>기본 대상으로 WAV 파일 재생:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-cat --playback </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.wav</span></p>
+
+<ul>
+  <li>지정된 리샘플러 품질(기본값 4)로 WAV 파일 재생:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-cat --quality </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0..15</span><code class="language-plaintext highlighter-rouge"> --playback </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.wav</span></p>
+
+<ul>
+  <li>125% 볼륨 수준으로 샘플 녹음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-cat --record --volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.25</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.wav</span></p>
+
+<ul>
+  <li>다른 샘플 레이트를 사용하여 샘플 녹음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-cat --record --rate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">6000</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.wav</span></p>

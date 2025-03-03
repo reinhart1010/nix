@@ -1,0 +1,28 @@
+<h1 id="autoflake">autoflake</h1>
+
+<p>Usuń nieużywane importy i zmienne z kodu Python.
+Więcej informacji: <a href="https://github.com/myint/autoflake">https://github.com/myint/autoflake</a>.</p>
+
+<ul>
+  <li>Usuń nieużywane zmienne z jednego pliku i wyświetl różnicę:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autoflake --remove-unused-variables </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.py</span></p>
+
+<ul>
+  <li>Usuń nieużywane importy z wielu plików i wyświetl różnice:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autoflake --remove-all-unused-imports </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku1.py ścieżka/do/pliku2.py …</span></p>
+
+<ul>
+  <li>Usuń nieużywane zmienne z pliku, nadpisując plik:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autoflake --remove-unused-variables --in-place </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.py</span></p>
+
+<ul>
+  <li>Usuń nieużywane zmienne rekurencyjnie ze wszystkich plików w katalogu, nadpisując każdy plik:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autoflake --remove-unused-variables --in-place --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/katalogu</span></p>

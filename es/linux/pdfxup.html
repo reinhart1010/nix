@@ -1,0 +1,23 @@
+<h1 id="pdfxup">pdfxup</h1>
+
+<p>N-up páginas PDF.
+N-upping significa poner múltiples páginas en una página escalando y rotándolas en una cuadrícula.
+Más información: <a href="https://ctan.org/pkg/pdfxup">https://ctan.org/pkg/pdfxup</a>.</p>
+
+<ul>
+  <li>Crea un 2-up PDF:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfxup -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/resultado.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/entrada.pdf</span></p>
+
+<ul>
+  <li>Crea un PDF con 3 columnas y 2 líneas por página:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfxup -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> -y </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/resultado.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/entrada.pdf</span></p>
+
+<ul>
+  <li>Crea un PDF en modo cuadernillo (2-up, y las páginas se ordenan para formar un libro cuando se doblan):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfxup -b -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/resultado.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/entrada.pdf</span></p>

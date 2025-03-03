@@ -1,0 +1,34 @@
+<h1 id="minisign">minisign</h1>
+
+<p>A dead simple tool to sign files and verify signatures.
+More information: <a href="https://jedisct1.github.io/minisign/">https://jedisct1.github.io/minisign/</a>.</p>
+
+<ul>
+  <li>Generate a new keypair at the default location:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minisign -G</code></p>
+
+<ul>
+  <li>Sign a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minisign -Sm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Sign a file, adding a trusted (signed) and an untrusted (unsigned) comment in the signature:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minisign -Sm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Untrusted comment</span><code class="language-plaintext highlighter-rouge">" -t "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Trusted comment</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Verify a file and the trusted comments in its signature using the specified public key file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minisign -Vm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/publickey.pub</span></p>
+
+<ul>
+  <li>Verify a file and the trusted comments in its signature, specifying a public key as a Base64 encoded literal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minisign -Vm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> -P "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public_key_base64</span><code class="language-plaintext highlighter-rouge">"</code></p>

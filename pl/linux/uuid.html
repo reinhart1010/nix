@@ -1,0 +1,47 @@
+<h1 id="uuid">uuid</h1>
+
+<p>Twórz i dekoduj uniwersalne identyfikatory (UUID).
+Zobacz także <code class="language-plaintext highlighter-rouge">uuidgen</code>.
+Więcej informacji: <a href="https://manned.org/uuid">https://manned.org/uuid</a>.</p>
+
+<ul>
+  <li>Stwórz UUIDv1 (oparte o zegar systemowy i - jeśli dostępne - adres sprzętowy):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuid</code></p>
+
+<ul>
+  <li>Stwórz UUIDv4 (losowy):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuid -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span></p>
+
+<ul>
+  <li>Stwórz wiele UUIDv4 na raz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuid -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ilość_uuid</span></p>
+
+<ul>
+  <li>Stwórz UUIDv4 w konkretnym formacie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuid -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">BIN|STR|SIV</span></p>
+
+<ul>
+  <li>Stwórz UUIDv4 i zapisz do pliku:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuid -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span></p>
+
+<ul>
+  <li>Stwórz UUIDv5 (oparty o podaną nazwę obiektu) w przestrzeni nazw:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuid -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> ns:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">DNS|URL|OID|X500</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_obiektu</span></p>
+
+<ul>
+  <li>Dekoduj podany UUID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuid -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uuid</span></p>

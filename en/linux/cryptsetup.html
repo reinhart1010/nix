@@ -1,0 +1,35 @@
+<h1 id="cryptsetup">cryptsetup</h1>
+
+<p>Manage plain <code class="language-plaintext highlighter-rouge">dm-crypt</code> and LUKS (Linux Unified Key Setup) encrypted volumes.
+Some subcommands such as <code class="language-plaintext highlighter-rouge">luksFormat</code> have their own usage documentation.
+More information: <a href="https://manned.org/cryptsetup">https://manned.org/cryptsetup</a>.</p>
+
+<ul>
+  <li>Initialize a LUKS volume with a passphrase (overwrites all data on the partition):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup luksFormat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span></p>
+
+<ul>
+  <li>Open a LUKS volume and create a decrypted mapping at <code class="language-plaintext highlighter-rouge">/dev/mapper/mapping_name</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup open </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mapping_name</span></p>
+
+<ul>
+  <li>Display information about a mapping:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mapping_name</span></p>
+
+<ul>
+  <li>Remove an existing mapping:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup close </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mapping_name</span></p>
+
+<ul>
+  <li>Change a LUKS volume's passphrase:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup luksChangeKey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span></p>

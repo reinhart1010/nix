@@ -1,0 +1,28 @@
+<h1 id="xmlto">xmlto</h1>
+
+<p>XML 문서에 XSL 스타일시트를 적용.
+더 많은 정보: <a href="https://pagure.io/xmlto">https://pagure.io/xmlto</a>.</p>
+
+<ul>
+  <li>DocBook XML 문서를 PDF 형식으로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmlto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문서.xml</span></p>
+
+<ul>
+  <li>DocBook XML 문서를 HTML 형식으로 변환하고 결과 파일을 별도의 디렉토리에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmlto -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/html_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문서.xml</span></p>
+
+<ul>
+  <li>DocBook XML 문서를 단일 HTML 파일로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmlto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">html-nochunks</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문서.xml</span></p>
+
+<ul>
+  <li>DocBook XML 문서를 변환할 때 사용할 스타일시트 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmlto -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스타일시트.xsl</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력_포맷</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문서.xml</span></p>

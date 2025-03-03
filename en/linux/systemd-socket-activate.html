@@ -1,0 +1,34 @@
+<h1 id="systemd-socket-activate">systemd-socket-activate</h1>
+
+<p>Socket activation for systemd services.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/latest/systemd-socket-activate.html">https://www.freedesktop.org/software/systemd/man/latest/systemd-socket-activate.html</a>.</p>
+
+<ul>
+  <li>Activate a service when a specific socket is connected:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-socket-activate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/socket.service</span></p>
+
+<ul>
+  <li>Activate multiple sockets for a service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-socket-activate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/socket1.service</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/socket2.service</span></p>
+
+<ul>
+  <li>Pass environment variables to the service being activated:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SYSTEMD_SOCKET_ACTIVATION=1</span><code class="language-plaintext highlighter-rouge"> systemd-socket-activate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/socket.service</span></p>
+
+<ul>
+  <li>Activate a service along with a notification socket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-socket-activate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/socket.socket</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/service.service</span></p>
+
+<ul>
+  <li>Activate a service with a specified port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-socket-activate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/socket.service</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8080</span></p>

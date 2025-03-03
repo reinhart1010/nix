@@ -1,0 +1,40 @@
+<h1 id="osascript">osascript</h1>
+
+<p>Jalankan AppleScript atau JavaScript for Automation (JXA) dari command-line.
+Informasi lebih lanjut: <a href="https://keith.github.io/xcode-man-pages/osascript.1.html">https://keith.github.io/xcode-man-pages/osascript.1.html</a>.</p>
+
+<ul>
+  <li>Jalankan sebuah perintah AppleScript:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osascript -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say 'Halo dunia'</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Jalankan beberapa perintah AppleScript:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osascript -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say 'Halo'</span><code class="language-plaintext highlighter-rouge">" -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say 'dunia'</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Mengeksekusi perintah dari file AppleScript yang telah terkompilasi (<code class="language-plaintext highlighter-rouge">*.scpt</code>), terbundel (<code class="language-plaintext highlighter-rouge">*.scptd</code>), atau secara plaintext (<code class="language-plaintext highlighter-rouge">*.applescript</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osascript </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/apple.scpt</span></p>
+
+<ul>
+  <li>Mendapatkan ID pengenal (bundle identifier) dari sebuah aplikasi (dapat digunakan untuk perintah <code class="language-plaintext highlighter-rouge">open -b</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osascript -e 'id of app "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Aplikasi</span><code class="language-plaintext highlighter-rouge">"'</code></p>
+
+<ul>
+  <li>Jalankan sebuah perintah JavaScript:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osascript -l JavaScript -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">console.log('Halo dunia');</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Mengeksekusi perintah dari file JavaScript:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osascript -l JavaScript </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/javascript.js</span></p>

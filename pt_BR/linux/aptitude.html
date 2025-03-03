@@ -1,0 +1,52 @@
+<h1 id="aptitude">aptitude</h1>
+
+<p>Utilitário de gerenciamento de pacotes de Debian e Ubuntu.
+Mais informações: <a href="https://manned.org/aptitude.8">https://manned.org/aptitude.8</a>.</p>
+
+<ul>
+  <li>Sincroniza a lista de pacotes e versões disponíveis. Deve ser executado antes de outros comandos <code class="language-plaintext highlighter-rouge">aptitude</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude update</code></p>
+
+<ul>
+  <li>Instala um novo pacote e suas dependências:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Busca por um determinado pacote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Busca por uma determinado pacote instalado (<code class="language-plaintext highlighter-rouge">?installed</code> é um termo de busca <code class="language-plaintext highlighter-rouge">aptitude</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude search '?installed(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span><code class="language-plaintext highlighter-rouge">)'</code></p>
+
+<ul>
+  <li>Remove um pacote e todos que dependam dele:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Atualiza os pacotes instalados para suas versões mais recentes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude upgrade</code></p>
+
+<ul>
+  <li>Atualiza os pacotes instalados (semelhante ao <code class="language-plaintext highlighter-rouge">upgrade</code>), porém removendo os obsoletos e instalando pacotes solicitados por novas dependências:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude full-upgrade</code></p>
+
+<ul>
+  <li>Coloca um pacote instalado em espera para prevenir atualizações automáticas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude hold '?installed(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span><code class="language-plaintext highlighter-rouge">)'</code></p>

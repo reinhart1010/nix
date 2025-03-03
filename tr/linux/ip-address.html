@@ -1,0 +1,40 @@
+<h1 id="ip-address">ip address</h1>
+
+<p>IP adresi yönetimi alt komutu.
+Daha fazla bilgi için: <a href="https://manned.org/ip-address">https://manned.org/ip-address</a>.</p>
+
+<ul>
+  <li>Ağ arayüzlerini ve ilişkili IP adreslerini listele:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address</code></p>
+
+<ul>
+  <li>Yalnızca etkin ağ arayüzlerini gösterecek şekilde filtrele:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address show up</code></p>
+
+<ul>
+  <li>Belirli bir ağ arayüzü hakkındaki bilgileri görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address show dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Bir ağ arayüzüne bir IP adresi ekle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_adresi</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Bir ağ arayüzünden bir IP adresini kaldır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_adresi</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Belirli bir kapsamdaki tüm IP adreslerini bir ağ arayüzünden sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip address flush dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> scope </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global|host|link</span></p>

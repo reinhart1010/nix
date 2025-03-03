@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="tree">tree</h1>
+
+<p>以树的形式显示当前目录的内容。
+更多信息：<a href="https://manned.org/tree">https://manned.org/tree</a>.</p>
+
+<ul>
+  <li>显示深度达到 “级数” 级的文件和目录（其中 1 表示当前目录）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">级数</span></p>
+
+<ul>
+  <li>只显示目录：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -d</code></p>
+
+<ul>
+  <li>同时显示隐藏文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -a</code></p>
+
+<ul>
+  <li>打印没有缩进行的树，显示完整路径（使用<code class="language-plaintext highlighter-rouge">-N</code>不转义空格和特殊字符）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -i -f</code></p>
+
+<ul>
+  <li>以可读格式打印每个文件节点的大小，目录显示其累积大小（类似在<code class="language-plaintext highlighter-rouge">du</code>命令中所示）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -s -h --du</code></p>
+
+<ul>
+  <li>使用通配符（glob）模式在树层次结构中查找文件，并删除不包含匹配文件的目录：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -P '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span><code class="language-plaintext highlighter-rouge">' --prune</code></p>
+
+<ul>
+  <li>在树层次结构中查找目录，删除不属于所需目录的目录：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tree -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件夹名</span><code class="language-plaintext highlighter-rouge"> --matchdirs --prune</code></p>

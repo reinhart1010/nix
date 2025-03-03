@@ -1,0 +1,28 @@
+<h1 id="hexdump">hexdump</h1>
+
+<p>Un visor ASCII, decimal, hexadecimal, octal.
+Más información: <a href="https://manned.org/hexdump">https://manned.org/hexdump</a>.</p>
+
+<ul>
+  <li>Imprime la representación hexadecimal de un archivo, reemplazando líneas duplicadas con '*':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Muestra el desplazamiento de entrada (input offset) en hexadecimal y su representación ASCII en dos columnas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Muestra la representación hexadecimal de un archivo, pero interpreta solo n bytes de la entrada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump -C -n</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_de_bytes</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>No reemplaza las líneas duplicadas con '*':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump --no-squeezing </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>

@@ -1,0 +1,40 @@
+<h1 id="dd">dd</h1>
+
+<p>Converte e copia um arquivo.
+Mais informações: <a href="https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html</a>.</p>
+
+<ul>
+  <li>Cria um dispositivo USB inicializável a partir de um arquivo isohybrid (como <code class="language-plaintext highlighter-rouge">archlinux-xxx.iso</code>), e mostra o progresso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.iso</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dispositivo_usb</span><code class="language-plaintext highlighter-rouge"> status=progress</code></p>
+
+<ul>
+  <li>Clona um dispositivo para outro dispositivo com blocos de 4MiB e salva em disco antes de o comando finalizar a execução:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=4M conv=fsync if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dispositivo_de_origem</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dispositivo_de_destino</span></p>
+
+<ul>
+  <li>Gera uma arquivo com um número específico de bytes aleatórios, usando o dispositivo aleatório do kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> count=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> if=/dev/urandom of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_aleatorio</span></p>
+
+<ul>
+  <li>Cria um benchmark do desempenho de escrita de um disco:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1M</span><code class="language-plaintext highlighter-rouge"> count=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span><code class="language-plaintext highlighter-rouge"> if=/dev/zero of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_1GB</span></p>
+
+<ul>
+  <li>Cria uma cópia de segurança do sistema, salva em um arquivo IMG (pode ser restaurado depois trocando o valor de <code class="language-plaintext highlighter-rouge">if</code> com o de <code class="language-plaintext highlighter-rouge">of</code>), e mostra o progresso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dispositivo_de_origem</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.img</span><code class="language-plaintext highlighter-rouge"> status=progress</code></p>
+
+<ul>
+  <li>Verifica o progresso de uma operação <code class="language-plaintext highlighter-rouge">dd</code> que está acontecendo (execute esse comando em outro terminal):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -USR1 $(pgrep -x dd)</code></p>

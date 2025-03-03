@@ -1,0 +1,52 @@
+<h1 id="chmod">chmod</h1>
+
+<p>Cambia los permisos de acceso de un archivo o directorio.
+Más información: <a href="https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html</a>.</p>
+
+<ul>
+  <li>Otorga al [u]suario que es propietario del archivo permiso para [x] ejecutarlo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod u+x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Otorga al [u]suario derechos para leer (r) y escribir (w) un archivo o directorio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod u+rw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio</span></p>
+
+<ul>
+  <li>Elimina los derechos de ejecución del [g]rupo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod g-x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Otorga a todos los usuarios (a) derechos para leer y ejecutar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod a+rx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Otorga a [o]tros (que no están en el grupo del propietario) los mismos derechos que los del [g]rupo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod o=g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Quita todos los derechos a [o]tros:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod o= </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Otorga al [g]rupo y a [o]tros el derecho para escribir (w) un directorio y su contenido:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod -R g+w,o+w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Concede de forma recursiva [a] todos los usuarios permisos de lectu[r]a a los archivos y permisos de e[X]ecución a los subdirectorios dentro de un directorio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod -R a+rX </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>

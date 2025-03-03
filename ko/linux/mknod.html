@@ -1,0 +1,28 @@
+<h1 id="mknod">mknod</h1>
+
+<p>블록 또는 문자 장치 특수 파일 생성.
+더 많은 정보: <a href="https://www.gnu.org/software/coreutils/manual/html_node/mknod-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/mknod-invocation.html</a>.</p>
+
+<ul>
+  <li>블록 장치 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mknod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/장치_파일</span><code class="language-plaintext highlighter-rouge"> b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주_장치_번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">부_장치_번호</span></p>
+
+<ul>
+  <li>문자 장치 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mknod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/장치_파일</span><code class="language-plaintext highlighter-rouge"> c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주_장치_번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">부_장치_번호</span></p>
+
+<ul>
+  <li>FIFO(큐) 장치 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mknod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/장치_파일</span><code class="language-plaintext highlighter-rouge"> p</code></p>
+
+<ul>
+  <li>기본 SELinux 보안 컨텍스트로 장치 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mknod -Z </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/장치_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">유형</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주_장치_번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">부_장치_번호</span></p>

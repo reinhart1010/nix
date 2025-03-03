@@ -1,0 +1,53 @@
+<h1 id="gpg-card">gpg-card</h1>
+
+<p>Administrate OpenPGP and PIV smart cards.
+Similar to <code class="language-plaintext highlighter-rouge">gpg --card-edit</code>.
+More information: <a href="https://manned.org/gpg-card">https://manned.org/gpg-card</a>.</p>
+
+<ul>
+  <li>Start in interactive mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg-card</code></p>
+
+<ul>
+  <li>Invoke one or more commands non-interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg-card </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command1</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command2</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command3</span></p>
+
+<ul>
+  <li>Show information about a smart card:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg-card list</code></p>
+
+<ul>
+  <li>Retrieve the public key using the URL stored on an OpenPGP card:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg-card fetch</code></p>
+
+<ul>
+  <li>Set the URL used by the <code class="language-plaintext highlighter-rouge">fetch</code> command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg-card url</code></p>
+
+<ul>
+  <li>Change or unblock PINs (uses the default action for the card in non-interactive mode):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg-card passwd</code></p>
+
+<ul>
+  <li>Toggle the forcesig flag of an OpenPGP card (i.e. require entering the user PIN for signing):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg-card forcesig</code></p>
+
+<ul>
+  <li>Factory reset a smart card (i.e. delete all data and reset PINs):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg-card factory-reset</code></p>

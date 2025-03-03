@@ -1,0 +1,28 @@
+<h1 id="am">am</h1>
+
+<p>एंड्रॉइड गतिविधि प्रबंधक।
+अधिक जानकारी: <a href="https://developer.android.com/tools/adb#am">https://developer.android.com/tools/adb#am</a>।</p>
+
+<ul>
+  <li>एक विशिष्ट गतिविधि प्रारंभ करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am start -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.android.settings/.Settings</span></p>
+
+<ul>
+  <li>एक गतिविधि शुरू करें और उसमें डेटा[d] पास करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am start -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span></p>
+
+<ul>
+  <li>किसी विशिष्ट क्रिया और श्रेणी[c] से मेल खाती गतिविधि प्रारंभ करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am start -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.MAIN</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.category.HOME</span></p>
+
+<ul>
+  <li>एक उद्देश्य को यूआरआई में बदलें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am to-uri -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span></p>

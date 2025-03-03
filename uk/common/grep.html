@@ -1,0 +1,52 @@
+<h1 id="grep">grep</h1>
+
+<p>Пошук шаблонів у файлах за допомогою регулярних виразів.
+Більше інформації: <a href="https://www.gnu.org/software/grep/manual/grep.html">https://www.gnu.org/software/grep/manual/grep.html</a>.</p>
+
+<ul>
+  <li>Знайти шаблон у файлі:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон_пошуку</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span></p>
+
+<ul>
+  <li>Знайти точний рядок (відключає регулярні вирази):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-F|–fixed-strings</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">точний_рядок</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span></p>
+
+<ul>
+  <li>Знайти шаблон у всіх файлах рекурсивно в каталозі, виводячи номери рядків збігів, ігноруючи бінарні файли:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–recursive</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–line-number</span><code class="language-plaintext highlighter-rouge"> --binary-files </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон_пошуку</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/каталогу</span></p>
+
+<ul>
+  <li>Використовувати розширені регулярні вирази (підтримує <code class="language-plaintext highlighter-rouge">?</code>, <code class="language-plaintext highlighter-rouge">+</code>, <code class="language-plaintext highlighter-rouge">{}</code>, <code class="language-plaintext highlighter-rouge">()</code>, та <code class="language-plaintext highlighter-rouge">|</code>), у режимі без урахування регістру:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-E|–extended-regexp</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–ignore-case</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон_пошуку</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span></p>
+
+<ul>
+  <li>Вивести 3 рядки контексту навколо, до, або після кожного збігу:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span><code class="language-plaintext highlighter-rouge"> 3 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон_пошуку</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span></p>
+
+<ul>
+  <li>Вивести назву файлу та номер рядка для кожного збігу з кольоровим виводом:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-H|–with-filename</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–line-number</span><code class="language-plaintext highlighter-rouge"> --color=always "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон_пошуку</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span></p>
+
+<ul>
+  <li>Шукати рядкі, що відповідають шаблону, виводячи лише відповідний текст:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–only-matching</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон_пошуку</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span></p>
+
+<ul>
+  <li>Знайти в <code class="language-plaintext highlighter-rouge">stdin</code> рядки, які не відповідають шаблону:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span><code class="language-plaintext highlighter-rouge"> | grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–invert-match</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон_пошуку</span><code class="language-plaintext highlighter-rouge">"</code></p>

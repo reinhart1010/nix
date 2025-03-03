@@ -1,0 +1,52 @@
+<h1 id="shutdown">shutdown</h1>
+
+<p>Een tool om een machine af te sluiten, her op te starten of af te melden.
+Meer informatie: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/shutdown">https://learn.microsoft.com/windows-server/administration/windows-commands/shutdown</a>.</p>
+
+<ul>
+  <li>Sluit de huidige machine af:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /s</code></p>
+
+<ul>
+  <li>Sluit de huidige machine af en sluit alle applicaties:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /s /f</code></p>
+
+<ul>
+  <li>Herstart de huidige machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /r /t 0</code></p>
+
+<ul>
+  <li>Zet de huidige machine in slaapstand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /h</code></p>
+
+<ul>
+  <li>Log uit van de huidige machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /l</code></p>
+
+<ul>
+  <li>Zet een timer in aantal seconden voor het afsluiten van de huidige machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /s /t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconden</span></p>
+
+<ul>
+  <li>Breek een afsluit sequentie af vooraleer de timer was afgelopen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /a</code></p>
+
+<ul>
+  <li>Sluit een machine af op afstand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown /m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\hostnaam</span></p>

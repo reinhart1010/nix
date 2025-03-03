@@ -1,0 +1,40 @@
+<h1 id="vale">vale</h1>
+
+<p>Extensible style checker that supports multiple markup formats, such as Markdown and AsciiDoc.
+More information: <a href="https://vale.sh">https://vale.sh</a>.</p>
+
+<ul>
+  <li>Check the style of a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vale </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Check the style of a file with a specified configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vale --config='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/.vale.ini</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Output the results in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vale --output=JSON </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Check style issues at the specific severity and higher:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vale --minAlertLevel=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suggestion|warning|error</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Check the style from <code class="language-plaintext highlighter-rouge">stdin</code>, specifying markup format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.md</span><code class="language-plaintext highlighter-rouge"> | vale --ext=.md</code></p>
+
+<ul>
+  <li>List the current configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vale ls-config</code></p>

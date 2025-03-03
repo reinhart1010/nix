@@ -1,0 +1,35 @@
+<h1 id="scoop-bucket">scoop bucket</h1>
+
+<p>Verwalte "Eimer": Git-Repositories, welche Dateien enthalten, die beschreiben, wie Scoop Programme installiert werden.
+Kennt Scoop nicht die URL eines Eimers, so muss diese angegeben werden.
+Weitere Informationen: <a href="https://github.com/lukesampson/scoop/wiki/Buckets">https://github.com/lukesampson/scoop/wiki/Buckets</a>.</p>
+
+<ul>
+  <li>Liste alle Eimer auf, die gerade aktiv sind:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scoop bucket list</code></p>
+
+<ul>
+  <li>Liste alle bekannten Eimer auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scoop bucket known</code></p>
+
+<ul>
+  <li>Aktiviere einen bekannten Eimer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scoop bucket add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Aktiviere einen unbekannten Eimer durch die Angabe eines Namens und einer Git-Repository-URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scoop bucket add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://beispiel.de/repository.git</span></p>
+
+<ul>
+  <li>Deaktiviere einen Eimer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scoop bucket rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>

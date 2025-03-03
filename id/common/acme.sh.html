@@ -1,0 +1,47 @@
+<h1 id="acmesh">acme.sh</h1>
+
+<p>Sebuah shell script yang mengimplementasikan ACME client protocol (pembuat sertifikat HTTPS), alternatif dari <code class="language-plaintext highlighter-rouge">certbot</code>.
+Lihat juga: <code class="language-plaintext highlighter-rouge">acme.sh dns</code>.
+Informasi lebih lanjut: <a href="https://github.com/acmesh-official/acme.sh">https://github.com/acmesh-official/acme.sh</a>.</p>
+
+<ul>
+  <li>Terbitkan sertifikat baru dan pasang pada webroot secara langsung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --webroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/jalan/menuju/webroot</span></p>
+
+<ul>
+  <li>Terbitkan sertifikat untuk domain majemuk, menggunakan mode verifikasi mandiri (standalone) pada port 80:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --standalone --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">www.example.com</span></p>
+
+<ul>
+  <li>Terbitkan sertifikat menggunakan mode verifikasi mandiri berbasis TLS pada port 443:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --alpn --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Terbitkan sertifikat dengan konfigurasi server Nginx untuk memasangnya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --nginx --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Terbitkan sertifikat dengan konfigurasi server Apache untuk memasangnya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --apache --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Terbitkan sertifikat wildcard (*) menggunakan verifikasi DNS via API (daftar jenis <code class="language-plaintext highlighter-rouge">api_dns</code> yang didukung tersedia dalam <a href="https://github.com/acmesh-official/acme.sh/wiki/How-to-use-lexicon-DNS-API">https://github.com/acmesh-official/acme.sh/wiki/How-to-use-lexicon-DNS-API</a>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --dns </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">api_dns</span><code class="language-plaintext highlighter-rouge"> --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.example.com</span></p>
+
+<ul>
+  <li>Pasang sertifikat ke dalam direktori tertentu (dapat berguna untuk proses pemutakhiran otomatis):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --install-cert -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --key-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/jalan/menuju/example.com.key</span><code class="language-plaintext highlighter-rouge"> --fullchain-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/jalan/menuju/example.com.cer</span><code class="language-plaintext highlighter-rouge"> --reloadcmd "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemctl force-reload nginx</span><code class="language-plaintext highlighter-rouge">"</code></p>

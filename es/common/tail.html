@@ -1,0 +1,41 @@
+<h1 id="tail">tail</h1>
+
+<p>Muestra las últimas líneas de un archivo de texto determinado.
+Vea también: <code class="language-plaintext highlighter-rouge">head</code>.
+Más información: <a href="https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html</a>.</p>
+
+<ul>
+  <li>Imprime las últimas líneas de 'recuento' de un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --lines </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recuento</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Imprime un archivo desde una línea específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --lines +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recuento</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Imprime un número específico de bytes desde el final de algún archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --bytes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recuento</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Imprime las últimas líneas de un archivo en tiempo real hasta presionar <code class="language-plaintext highlighter-rouge">Ctrl + C</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Mantiene leyendo las últimas líneas de un archivo hasta presionar <code class="language-plaintext highlighter-rouge">Ctrl + C</code>, aunque el archivo sea inaccesible:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --retry --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Imprime las últimas líneas de 'recuento' en 'archivo' y se actualiza cada 'n' segundos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --lines </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recuento</span><code class="language-plaintext highlighter-rouge"> --sleep-interval </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">segundos</span><code class="language-plaintext highlighter-rouge"> --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>

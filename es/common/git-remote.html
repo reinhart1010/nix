@@ -1,0 +1,46 @@
+<h1 id="git-remote">git remote</h1>
+
+<p>Gestiona el conjunto de repositorios rastreados ("remotos").
+Más información: <a href="https://git-scm.com/docs/git-remote">https://git-scm.com/docs/git-remote</a>.</p>
+
+<ul>
+  <li>Muestra una lista de los remotos existentes, sus nombres y URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span></p>
+
+<ul>
+  <li>Muestra información de un remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span></p>
+
+<ul>
+  <li>Añade un remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_remoto</span></p>
+
+<ul>
+  <li>Cambia la URL de un remoto (utiliza <code class="language-plaintext highlighter-rouge">--add</code> para mantener la URL existente):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote set-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nueva_url</span></p>
+
+<ul>
+  <li>Muestra la URL de un remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote get-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_remoto</span></p>
+
+<ul>
+  <li>Elimina un remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span></p>
+
+<ul>
+  <li>Renombra un remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_antiguo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_nuevo</span></p>

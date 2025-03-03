@@ -1,0 +1,34 @@
+<h1 id="git-flow">git flow</h1>
+
+<p>고수준 저장소 작업을 제공하는 Git 확장 모음.
+더 많은 정보: <a href="https://github.com/nvie/gitflow">https://github.com/nvie/gitflow</a>.</p>
+
+<ul>
+  <li>기존 Git 저장소에서 초기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git flow init</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">develop</code> 브랜치를 기반으로 기능 브랜치에서 개발 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git flow feature start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">기능</span></p>
+
+<ul>
+  <li>기능 브랜치에서의 개발을 완료하고, 이를 <code class="language-plaintext highlighter-rouge">develop</code> 브랜치에 병합한 후 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git flow feature finish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">기능</span></p>
+
+<ul>
+  <li>기능을 원격 서버에 게시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git flow feature publish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">기능</span></p>
+
+<ul>
+  <li>다른 사용자가 게시한 기능 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git flow feature pull origin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">기능</span></p>

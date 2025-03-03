@@ -1,0 +1,34 @@
+<h1 id="fc-list">fc-list</h1>
+
+<p>List available fonts installed on the system.
+More information: <a href="https://manned.org/fc-list">https://manned.org/fc-list</a>.</p>
+
+<ul>
+  <li>Return a list of installed fonts in your system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fc-list</code></p>
+
+<ul>
+  <li>Return a list of installed fonts with given name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fc-list | grep '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">DejaVu Serif</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Return the number of installed fonts in your system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fc-list | wc -l</code></p>
+
+<ul>
+  <li>Return a list of installed fonts that support the language based on its locale code:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fc-list :lang=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jp</span></p>
+
+<ul>
+  <li>Return a list of installed fonts that contain the glyph specified by its Unicode code-point:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fc-list :charset=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f303</span></p>

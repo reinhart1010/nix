@@ -1,0 +1,52 @@
+<h1 id="keepassxc-cli">keepassxc-cli</h1>
+
+<p>Command-line interface for KeepassXC.
+More information: <a href="https://manned.org/keepassxc-cli">https://manned.org/keepassxc-cli</a>.</p>
+
+<ul>
+  <li>Search entries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keepassxc-cli search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>List the contents of a folder:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keepassxc-cli ls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/directory</span></p>
+
+<ul>
+  <li>Add an entry with an auto-generated password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keepassxc-cli add --generate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">entry_name</span></p>
+
+<ul>
+  <li>Delete an entry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keepassxc-cli rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">entry_name</span></p>
+
+<ul>
+  <li>Copy an entry's password to the clipboard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keepassxc-cli clip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">entry_name</span></p>
+
+<ul>
+  <li>Copy a TOTP code to the clipboard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keepassxc-cli clip --totp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">entry_name</span></p>
+
+<ul>
+  <li>Generate a passphrase with 7 words:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keepassxc-cli diceware --words </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7</span></p>
+
+<ul>
+  <li>Generate a password with 16 printable ASCII characters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keepassxc-cli generate --lower --upper --numeric --special --length </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span></p>

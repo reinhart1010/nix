@@ -1,0 +1,52 @@
+<h1 id="ssh-keygen">ssh-keygen</h1>
+
+<p>Gera chaves SSH usadas para autenticação, logins sem senha e outras finalidades.
+Mais informações: <a href="https://man.openbsd.org/ssh-keygen">https://man.openbsd.org/ssh-keygen</a>.</p>
+
+<ul>
+  <li>Gera uma chave interativamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen</code></p>
+
+<ul>
+  <li>Gera uma chave ed25519 com 32 rounds de função de derivação de chave e salva a chave em um arquivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ed25519</span><code class="language-plaintext highlighter-rouge"> -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">32</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/nome_do_arquivo</span></p>
+
+<ul>
+  <li>Gera uma chave RSA de 4096 bits com um comentário de email:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rsa</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4096</span><code class="language-plaintext highlighter-rouge"> -C "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comentário|email</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Remove as chaves de um servidor do arquivo known_hosts (útil quando um servidor conhecido tem uma nova chave):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor_remoto</span></p>
+
+<ul>
+  <li>Obtém a impressão digital de uma chave em MD5 Hex:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -l -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">md5</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/nome_do_arquivo</span></p>
+
+<ul>
+  <li>Altera a senha de uma chave:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -p -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/nome_do_arquivo</span></p>
+
+<ul>
+  <li>Altera o tipo de formato da chave (por exemplo, de formato OPENSSH para PEM), o arquivo será reescrito no local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -p -N "" -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PEM</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/chave_privada_OpenSSH</span></p>
+
+<ul>
+  <li>Obtém a chave pública a partir da chave secreta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-keygen -y -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/chave_privada_OpenSSH</span></p>

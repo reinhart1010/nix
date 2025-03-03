@@ -1,0 +1,16 @@
+<h1 id="nologin">nologin</h1>
+
+<p>उपयोक्ता को लॉग इन करने से रोकने वाला वैकल्पिक शैल.
+अधिक जानकारी: <a href="https://manned.org/nologin.5">https://manned.org/nologin.5</a>।</p>
+
+<ul>
+  <li>उपयोक्ता को लॉग इन करने से रोकने के लिए उपयोक्ता की लॉगिन शैल को 'नोलॉगिन' पर सेट करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chsh -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता</span><code class="language-plaintext highlighter-rouge"> nologin</code></p>
+
+<ul>
+  <li>नोलॉगिन लॉगिन शैल वाले उपयोक्ताओं के लिए संविभिन्न संदेश का अनुकूलन करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">अस्वीकृत_लॉगिन_संदेश</span><code class="language-plaintext highlighter-rouge">" &gt; /etc/nologin.txt</code></p>

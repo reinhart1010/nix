@@ -1,0 +1,40 @@
+<h1 id="dotnet-restore">dotnet restore</h1>
+
+<p>Восстанавливает зависимости и утилиты для проекта .NET.
+Больше информации: <a href="https://learn.microsoft.com/dotnet/core/tools/dotnet-restore">https://learn.microsoft.com/dotnet/core/tools/dotnet-restore</a>.</p>
+
+<ul>
+  <li>Восстановить зависимости для проекта или решения .NET в текущей директории:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet restore</code></p>
+
+<ul>
+  <li>Восстановить зависимости для проекта или решенияs .NET по заданному пути:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/проекта_или_решения</span></p>
+
+<ul>
+  <li>Восстановить зависимости без кеширования HTTP-запросов:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet restore --no-cache</code></p>
+
+<ul>
+  <li>Принудительно восстановить все зависимости, даже если предыдущее восстановление было успешным:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet restore --force</code></p>
+
+<ul>
+  <li>Восстановить зависимости, считая что ошибки источника пакетов это предупреждения:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet restore --ignore-failed-sources</code></p>
+
+<ul>
+  <li>Восстановить зависимости, используя заданный уровень детализации выводимой информации:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet restore --verbosity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quiet|minimal|normal|detailed|diagnostic</span></p>

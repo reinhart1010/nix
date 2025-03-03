@@ -1,0 +1,41 @@
+<h1 id="emacsclient">emacsclient</h1>
+
+<p>Öffnet Dateien in einem laufenden Emacs-Server.
+Siehe auch <code class="language-plaintext highlighter-rouge">emacs</code>.
+Weitere Informationen: <a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html">https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html</a>.</p>
+
+<ul>
+  <li>Öffne eine Datei in einem laufenden Emacs-Server (mit GUI wenn möglich):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Öffne eine Datei in der Konsole (ohne X-Fenster):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --no-window-system </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Öffne eine Datei in einem neuen Emacs Fenster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --create-frame </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Führe einen Befehl aus und schreibe das Ergebnis in <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --eval '(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span><code class="language-plaintext highlighter-rouge">)'</code></p>
+
+<ul>
+  <li>Gib einen alternativen Editor an für den Fall, dass kein Emacs-Server läuft:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --alternate-editor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">editor</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Beende einen laufenden Emacs-Server und alle Instanzen und frage nach Bestätigung für ungespeicherte Dateien:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --eval '(save-buffers-kill-emacs)'</code></p>

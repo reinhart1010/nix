@@ -1,0 +1,44 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="g">g++</h1>
+
+<p>C++ 소스 파일을 컴파일합니다.
+GCC (GNU 컴파일로 모음)의 일부입니다.
+더 많은 정보: <a href="https://gcc.gnu.org">https://gcc.gnu.org</a>.</p>
+
+<ul>
+  <li>소스 코드 파일을 실행 가능한 바이너리로 컴파일합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">g++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소스/파일/경로.cpp</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력/실행파일/경로</span></p>
+
+<ul>
+  <li>일반적인 경고를 표시합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">g++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소스/파일/경로.cpp</span><code class="language-plaintext highlighter-rouge"> -Wall -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력/실행파일/경로</span></p>
+
+<ul>
+  <li>컴파일할 때 사용할 언어 표준을 선택합니다 (C++98/C++11/C++14/C++17):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">g++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소스/파일/경로.cpp</span><code class="language-plaintext highlighter-rouge"> -std=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">c++98|c++11|c++14|c++17</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력/실행파일/경로</span></p>
+
+<ul>
+  <li>소스 파일과 다른 경로에 위치한 라이브러리들을 포함합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">g++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소스/파일/경로.cpp</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력/실행파일/경로</span><code class="language-plaintext highlighter-rouge"> -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">헤더/경로</span><code class="language-plaintext highlighter-rouge"> -L</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">라이브러리/경로</span><code class="language-plaintext highlighter-rouge"> -l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">라이브러리명</span></p>
+
+<ul>
+  <li>다수의 소스 코드 파일을 실행 가능한 바이너리로 컴파일하고 링킹합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">g++ -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소스/파일/경로1.cpp 소스/파일/경로2.cpp …</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; g++ -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력/실행파일/경로</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소스/파일/경로1.o 소스/파일/경로2.o …</span></p>
+
+<ul>
+  <li>버전을 표시합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">g++ --version</code></p>

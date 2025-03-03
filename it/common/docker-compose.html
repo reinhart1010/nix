@@ -1,0 +1,52 @@
+<h1 id="docker-compose">docker compose</h1>
+
+<p>Esegui e gestisci applicazioni Docker composte da più container.
+Maggiori informazioni: <a href="https://docs.docker.com/reference/cli/docker/compose/">https://docs.docker.com/reference/cli/docker/compose/</a>.</p>
+
+<ul>
+  <li>Elenca i container in esecuzione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose ps</code></p>
+
+<ul>
+  <li>Crea ed avvia tutti i container in background utilizzando il file <code class="language-plaintext highlighter-rouge">docker-compose.yml</code> nella directory corrente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose up --detach</code></p>
+
+<ul>
+  <li>Avvia tutti i container, buildandoli di nuovo se necessario:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose up --build</code></p>
+
+<ul>
+  <li>Avvia tutti i contenitori specificando un nome di progetto e utilizzando un file compose alternativo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_di_progetto</span><code class="language-plaintext highlighter-rouge"> --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span><code class="language-plaintext highlighter-rouge"> up</code></p>
+
+<ul>
+  <li>Ferma tutti i container in esecuzione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose stop</code></p>
+
+<ul>
+  <li>Ferma e rimuovi tutti i container, reti, immagini e volumi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose down --rmi all --volumes</code></p>
+
+<ul>
+  <li>Segui i log di tutti i container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose logs --follow</code></p>
+
+<ul>
+  <li>Segui i log di un container specifico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose logs --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span></p>

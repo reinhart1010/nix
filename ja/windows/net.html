@@ -1,0 +1,52 @@
+<h1 id="net">net</h1>
+
+<p>ネットワーク関連の設定を表示、変更するためのシステムユーティリティ。
+もっと詳しく: <a href="https://learn.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/gg651155(v=ws.11)">https://learn.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/gg651155(v=ws.11)</a>。</p>
+
+<ul>
+  <li>Windowsサービスを同期的に開始または停止する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">net </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">サービス</span></p>
+
+<ul>
+  <li>現在のコンソールでSMB共有が利用可能であることを確認する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">net use </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\smb共有フォルダ</span><code class="language-plaintext highlighter-rouge"> /USER:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユーザ名</span></p>
+
+<ul>
+  <li>現在SMBで共有されているフォルダを表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">net share</code></p>
+
+<ul>
+  <li>SMB共有の使用者を表示する(管理者特権コンソールで実行):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">net session</code></p>
+
+<ul>
+  <li>ローカルセキュリティグループ内のユーザーを表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">net localgroup "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Administrators</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>ローカルセキュリティグループにユーザーを追加する(管理者特権コンソールで実行):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">net localgroup "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Administrators</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユーザ名</span><code class="language-plaintext highlighter-rouge"> /add</code></p>
+
+<ul>
+  <li>サブコマンドのヘルプを表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">net help </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">サブコマンド</span></p>
+
+<ul>
+  <li>ヘルプを表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">net help</code></p>

@@ -1,0 +1,41 @@
+<h1 id="systemd-analyze">systemd-analyze</h1>
+
+<p>Analyze and debug system manager.
+Show timing details about the boot process of units (services, mount points, devices, sockets).
+More information: <a href="https://www.freedesktop.org/software/systemd/man/systemd-analyze.html">https://www.freedesktop.org/software/systemd/man/systemd-analyze.html</a>.</p>
+
+<ul>
+  <li>Print the last system startup time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-analyze</code></p>
+
+<ul>
+  <li>List all running units, ordered by the time they took to initialize:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-analyze blame</code></p>
+
+<ul>
+  <li>Print a tree of the time-critical chain of units:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-analyze critical-chain</code></p>
+
+<ul>
+  <li>Create an SVG file showing when each system service started, highlighting the time that they spent on initialization:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-analyze plot &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.svg</span></p>
+
+<ul>
+  <li>Plot a dependency graph and convert it to an SVG file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-analyze dot | dot -T</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">svg</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.svg</span></p>
+
+<ul>
+  <li>Show security scores of running units:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-analyze security</code></p>

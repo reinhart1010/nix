@@ -1,0 +1,53 @@
+<h1 id="adb">adb</h1>
+
+<p>Android Debug Bridge: berkomunikasi dengan emulator Android atau perangkat Android terhubung.
+Beberapa subperintah seperti <code class="language-plaintext highlighter-rouge">shell</code> mempunyai dokumentasi terpisah.
+Informasi lebih lanjut: <a href="https://developer.android.com/tools/adb">https://developer.android.com/tools/adb</a>.</p>
+
+<ul>
+  <li>Periksa apakah proses server adb telah dimulai dan memulainya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb start-server</code></p>
+
+<ul>
+  <li>Hentikan proses server adb:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb kill-server</code></p>
+
+<ul>
+  <li>Mulai shell jarak jauh pada emulator/perangkat tujuan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell</code></p>
+
+<ul>
+  <li>Pasang suatu aplikasi Android menuju emulator/perangkat tujuan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.apk</span></p>
+
+<ul>
+  <li>Salin berkas/direktori dari perangkat tujuan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori_perangkat</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_lokal_tujuan</span></p>
+
+<ul>
+  <li>Salin berkas/direktori menuju perangkat tujuan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori_lokal</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_perangkat_tujuan</span></p>
+
+<ul>
+  <li>Tampilkan daftar perangkat yang terhubung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb devices</code></p>
+
+<ul>
+  <li>Tentukan perangkat yang diinstruksikan (berdasarkan nomor induk / Device ID) jika terdapat lebih dari satu perangkat yang terhubung secara bersamaan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_ID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell</span></p>

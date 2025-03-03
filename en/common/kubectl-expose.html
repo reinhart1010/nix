@@ -1,0 +1,22 @@
+<h1 id="kubectl-expose">kubectl expose</h1>
+
+<p>Expose a resource as a new Kubernetes service.
+More information: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#expose">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#expose</a>.</p>
+
+<ul>
+  <li>Create a service for a resource, which will be served from container port to node port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl expose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_name</span><code class="language-plaintext highlighter-rouge"> --port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_port</span><code class="language-plaintext highlighter-rouge"> --target-port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_port</span></p>
+
+<ul>
+  <li>Create a service for a resource identified by a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl expose -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.yml</span><code class="language-plaintext highlighter-rouge"> --port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_port</span><code class="language-plaintext highlighter-rouge"> --target-port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_port</span></p>
+
+<ul>
+  <li>Create a service with a name, to serve to a node port which will be same for container port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl expose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_name</span><code class="language-plaintext highlighter-rouge"> --port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_port</span><code class="language-plaintext highlighter-rouge"> --name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span></p>

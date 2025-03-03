@@ -1,0 +1,40 @@
+<h1 id="dd">dd</h1>
+
+<p>تبدیل و کپی یک فایل.
+اطلاعات بیشتر: <a href="https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html</a>.</p>
+
+<ul>
+  <li>ساخت یک درایو USB قابل بوت از یک فایل iso (مثل <code class="language-plaintext highlighter-rouge">archlinux-xxx.iso</code>) و نمایش پیشرفت:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.iso</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/usb_drive</span><code class="language-plaintext highlighter-rouge"> status=progress</code></p>
+
+<ul>
+  <li>کلون کردن یک درایو به یک درایو دیگر با اندازهٔ بلوک ۴ مگابایت و اعمال چیزهای نوشته شده پیش از خاتمهٔ دستور:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=4M conv=fsync if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/source_drive</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/dest_drive</span></p>
+
+<ul>
+  <li>ایجاد یک فایل با تعداد مشخصی بایت تصادفی با استفاده از درایور random کرنل:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> count=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> if=/dev/urandom of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/random_file</span></p>
+
+<ul>
+  <li>ارزیابی عملکرد نوشتن روی یک دیسک:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1M</span><code class="language-plaintext highlighter-rouge"> count=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span><code class="language-plaintext highlighter-rouge"> if=/dev/zero of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_1GB</span></p>
+
+<ul>
+  <li>ساخت یک پشتیبان از سامانه و ذخیرهٔ آن در یک فایل IMG (می‌توان بعداً با تغییر <code class="language-plaintext highlighter-rouge">if</code> به <code class="language-plaintext highlighter-rouge">of</code> آن را بازسازی کرد):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/drive_device</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.img</span><code class="language-plaintext highlighter-rouge"> status=progress</code></p>
+
+<ul>
+  <li>بررسی پیشرفت یک عملکرد در حال اجرای <code class="language-plaintext highlighter-rouge">dd</code> (این دستور را از یک پوستهٔ دیگر اجرا کنید):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -USR1 $(pgrep -x dd)</code></p>

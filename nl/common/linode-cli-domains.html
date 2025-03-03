@@ -1,0 +1,53 @@
+<h1 id="linode-cli-domains">linode-cli domains</h1>
+
+<p>Beheer Linode Domains en DNS configuratie.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">linode-cli</code>.
+Meer informatie: <a href="https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-the-dns-manager">https://techdocs.akamai.com/cloud-computing/docs/cli-commands-for-the-dns-manager</a>.</p>
+
+<ul>
+  <li>Toon alle beheerde domeinen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli domains list</code></p>
+
+<ul>
+  <li>Maak een nieuw beheerd domein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli domains create --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domein_naam</span><code class="language-plaintext highlighter-rouge"> --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">master|slave</span><code class="language-plaintext highlighter-rouge"> --soa-email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email</span></p>
+
+<ul>
+  <li>Bekijk details van een specifiek domein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli domains view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domein_id</span></p>
+
+<ul>
+  <li>Verwijder een beheerd domein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli domains delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domein_id</span></p>
+
+<ul>
+  <li>Toon records voor een specifiek domein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli domains records-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domein_id</span></p>
+
+<ul>
+  <li>Voeg een DNS record toe aan een domein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli domains records-create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domein_id</span><code class="language-plaintext highlighter-rouge"> --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A|AAAA|CNAME|MX|…</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subdomein</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_value</span></p>
+
+<ul>
+  <li>Update een DNS record voor een domein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli domains records-update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domein_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">record_id</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_target_value</span></p>
+
+<ul>
+  <li>Verwijder een DNS record van een domein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">linode-cli domains records-delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domein_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">record_id</span></p>

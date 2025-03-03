@@ -1,0 +1,34 @@
+<h1 id="prstat">prstat</h1>
+
+<p>Report active process statistics.
+More information: <a href="https://www.unix.com/man-page/sunos/1m/prstat">https://www.unix.com/man-page/sunos/1m/prstat</a>.</p>
+
+<ul>
+  <li>Examine all processes and reports statistics sorted by CPU usage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat</code></p>
+
+<ul>
+  <li>Examine all processes and reports statistics sorted by memory usage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat -s rss</code></p>
+
+<ul>
+  <li>Report total usage summary for each user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat -t</code></p>
+
+<ul>
+  <li>Report microstate process accounting information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat -m</code></p>
+
+<ul>
+  <li>Print out a list of top 5 CPU using processes every second:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat -c -n 5 -s cpu 1</code></p>

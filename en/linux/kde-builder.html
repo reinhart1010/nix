@@ -1,0 +1,53 @@
+<h1 id="kde-builder">kde-builder</h1>
+
+<p>Easily build KDE components from its source repositories.
+Drop-in replacement for <code class="language-plaintext highlighter-rouge">kdesrc-build</code>.
+More information: <a href="https://kde-builder.kde.org/en/cmdline/cmdline-usage.html">https://kde-builder.kde.org/en/cmdline/cmdline-usage.html</a>.</p>
+
+<ul>
+  <li>Initialize <code class="language-plaintext highlighter-rouge">kde-builder</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kde-builder --generate-config &amp;&amp; kde-builder --install-distro-packages</code></p>
+
+<ul>
+  <li>Compile a KDE component and its dependencies from the source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kde-builder </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">component_name</span></p>
+
+<ul>
+  <li>Compile a component without updating its local code and without compiling its [D]ependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kde-builder --no-src --no-include-dependencies </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">component_name</span></p>
+
+<ul>
+  <li>[r]efresh the build directories before compiling:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kde-builder --refresh-build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">component_name</span></p>
+
+<ul>
+  <li>Resume compilation from a specific dependency:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kde-builder --resume-from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dependency_component</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">component_name</span></p>
+
+<ul>
+  <li>Run a component with a specified executable name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kde-builder --run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable_name</span></p>
+
+<ul>
+  <li>Build all configured components:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kde-builder</code></p>
+
+<ul>
+  <li>Use system libraries in place of a component if it fails to build:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kde-builder --no-stop-on-failure </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">component_name</span></p>

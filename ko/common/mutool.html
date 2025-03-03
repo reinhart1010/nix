@@ -1,0 +1,40 @@
+<h1 id="mutool">mutool</h1>
+
+<p>PDF 파일에서 데이터를 변환, 정보 조회 및 추출.
+더 많은 정보: <a href="https://mupdf.readthedocs.io/en/latest/mupdf-command-line.html">https://mupdf.readthedocs.io/en/latest/mupdf-command-line.html</a>.</p>
+
+<ul>
+  <li>페이지 범위를 PNG로 변환 (참고: 출력 자리 표시자에서 <code class="language-plaintext highlighter-rouge">%nd</code>는 <code class="language-plaintext highlighter-rouge">%d</code> 또는 <code class="language-plaintext highlighter-rouge">%2d</code>와 같은 인쇄 수정자로 대체해야 함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutool convert -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력%nd.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-10</span></p>
+
+<ul>
+  <li>PDF의 한 개 이상의 페이지를 <code class="language-plaintext highlighter-rouge">stdout</code>에 텍스트로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutool draw -F txt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2,3,5,…</span></p>
+
+<ul>
+  <li>여러 PDF 파일을 병합:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutool merge -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력1.pdf 경로/대상/입력2.pdf …</span></p>
+
+<ul>
+  <li>PDF에 포함된 모든 콘텐츠에 대한 정보 조회:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutool info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.pdf</span></p>
+
+<ul>
+  <li>PDF에 포함된 모든 이미지, 글꼴 및 리소스를 현재 디렉터리에 추출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutool extract </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.pdf</span></p>
+
+<ul>
+  <li>PDF의 목차 (책갈피) 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutool show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.pdf</span><code class="language-plaintext highlighter-rouge"> outline</code></p>

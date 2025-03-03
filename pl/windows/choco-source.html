@@ -1,0 +1,46 @@
+<h1 id="choco-source">choco source</h1>
+
+<p>Zarządzaj źródłami/repozytoriami pakietów Chocolatey.
+Więcej informacji: <a href="https://chocolatey.org/docs/commands-source">https://chocolatey.org/docs/commands-source</a>.</p>
+
+<ul>
+  <li>Wyświetl aktualnie dostępne źródła:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source list</code></p>
+
+<ul>
+  <li>Dodaj nowe źródło:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source add --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_url</span></p>
+
+<ul>
+  <li>Dodaj nowe źródło z użyciem poświadczeń:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source add --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_url</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hasło</span></p>
+
+<ul>
+  <li>Dodaj nowe źródło z użyciem certyfikatu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source add --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_url</span><code class="language-plaintext highlighter-rouge"> --cert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/certyfikatu</span></p>
+
+<ul>
+  <li>Włącz dane źródło/repozytorium pakietów:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source enable --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa</span></p>
+
+<ul>
+  <li>Wyłącz dane źródło/repozytorium pakietów:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source disable --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa</span></p>
+
+<ul>
+  <li>Usuń dane źródło/repozytorium:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source remove --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa</span></p>

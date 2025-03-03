@@ -1,0 +1,53 @@
+<h1 id="git-rebase">git rebase</h1>
+
+<p>将 commits 从一个分支合并到另一个分支上。
+常用于跨分支的 commits 合并，在被合并分支的最头部构建新的 <code class="language-plaintext highlighter-rouge">commit</code>，表示合并完成。
+更多信息：<a href="https://git-scm.com/docs/git-rebase">https://git-scm.com/docs/git-rebase</a>.</p>
+
+<ul>
+  <li>在另一个分支的头节点合并当前分支：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标分支</span></p>
+
+<ul>
+  <li>启动交互式的合并任务，允许对提交的内容进行重新排序、省略、合并或修改：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–interactive</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标分支或 commit 的 hash</span></p>
+
+<ul>
+  <li>处理完冲突文件后，继续执行合并任务：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase --continue</code></p>
+
+<ul>
+  <li>跳过冲突文件，继续执行合并任务：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase --skip</code></p>
+
+<ul>
+  <li>终止正在执行中的合并任务（例如：对于正处于解决冲突中的任务，将其打断，恢复到合并前的状态）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase --abort</code></p>
+
+<ul>
+  <li>将分支的部分 commits 生成新的 <code class="language-plaintext highlighter-rouge">commit</code>，移动到新分支的头节点：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase --onto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标分支</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">当前分支</span></p>
+
+<ul>
+  <li>启动交互式的合并任务，对最近提交的 5 个 commits 进行重新排序、省略、合并或修改：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–interactive</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~5</span></p>
+
+<ul>
+  <li>以当前分支优先的策略，自动处理分支间的冲突，执行合并：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-X|–strategy-option</span><code class="language-plaintext highlighter-rouge"> theirs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">分支名称</span></p>

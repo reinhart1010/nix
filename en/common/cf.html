@@ -1,0 +1,52 @@
+<h1 id="cf">cf</h1>
+
+<p>Manage apps and services on Cloud Foundry.
+More information: <a href="https://docs.cloudfoundry.org">https://docs.cloudfoundry.org</a>.</p>
+
+<ul>
+  <li>Log in to the Cloud Foundry API:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cf login -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">api_url</span></p>
+
+<ul>
+  <li>Push an app using the default settings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cf push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span></p>
+
+<ul>
+  <li>View the services available from your organization:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cf marketplace</code></p>
+
+<ul>
+  <li>Create a service instance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cf create-service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plan</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span></p>
+
+<ul>
+  <li>Connect an application to a service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cf bind-service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span></p>
+
+<ul>
+  <li>Run a script whose code is included in the app, but runs independently:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cf run-task </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script_command</span><code class="language-plaintext highlighter-rouge">" --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span></p>
+
+<ul>
+  <li>Start an interactive SSH session with a VM hosting an app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cf ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span></p>
+
+<ul>
+  <li>View a dump of recent app logs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cf logs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span><code class="language-plaintext highlighter-rouge"> --recent</code></p>

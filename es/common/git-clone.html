@@ -1,0 +1,52 @@
+<h1 id="git-clone">git clone</h1>
+
+<p>Clona un repositorio existente.
+Más información: <a href="https://git-scm.com/docs/git-clone">https://git-scm.com/docs/git-clone</a>.</p>
+
+<ul>
+  <li>Clona un repositorio existente en un directorio nuevo (el directorio por defecto es el nombre del repositorio):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ubicación_repositorio_remoto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Clona un repositorio existente y sus submódulos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ubicación_repositorio_remoto</span></p>
+
+<ul>
+  <li>Clona sólo el directorio <code class="language-plaintext highlighter-rouge">.git</code> de un repositorio existente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --no-checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ubicación_repositorio_remoto</span></p>
+
+<ul>
+  <li>Clona un repositorio local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --local </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/repositorio/local</span></p>
+
+<ul>
+  <li>Clona en silencio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ubicación_repositorio_remoto</span></p>
+
+<ul>
+  <li>Clona un repositorio existente obteniendo sólo los 10 commits más recientes de la rama por defecto (útil para ahorrar tiempo):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ubicación_repositorio_remoto</span></p>
+
+<ul>
+  <li>Clona un repositorio existente buscando sólo una rama específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge"> --single-branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ubicación_repositorio_remoto</span></p>
+
+<ul>
+  <li>Clona un repositorio existente usando un comando SSH específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --config core.sshCommand="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh -i ruta/a/clave_privada_ssh</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ubicación_repositorio_remoto</span></p>

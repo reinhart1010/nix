@@ -1,0 +1,34 @@
+<h1 id="powerstat">powerstat</h1>
+
+<p>Measures the power consumption of a computer that has a battery power source or supports the RAPL interface.
+More information: <a href="http://manpages.ubuntu.com/manpages/bionic/man8/powerstat.8.html">http://manpages.ubuntu.com/manpages/bionic/man8/powerstat.8.html</a>.</p>
+
+<ul>
+  <li>Measure power with the default of 10 samples with an interval of 10 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">powerstat</code></p>
+
+<ul>
+  <li>Measure power with custom number of samples and interval duration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">powerstat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interval</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_samples</span></p>
+
+<ul>
+  <li>Measure power using Intel's RAPL interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">powerstat -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interval</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_samples</span></p>
+
+<ul>
+  <li>Show a histogram of the power measurements:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">powerstat -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interval</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_samples</span></p>
+
+<ul>
+  <li>Enable all statistics gathering options:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">powerstat -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interval</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_samples</span></p>

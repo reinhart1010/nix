@@ -1,0 +1,40 @@
+<h1 id="waitress-serve">waitress-serve</h1>
+
+<p>Pure Python WSGI HTTP Server.
+More information: <a href="https://docs.pylonsproject.org/projects/waitress/en/latest/runner.html">https://docs.pylonsproject.org/projects/waitress/en/latest/runner.html</a>.</p>
+
+<ul>
+  <li>Run a Python web app:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waitress-serve </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import.path:wsgi_func</span></p>
+
+<ul>
+  <li>Listen on port 8080 on localhost:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waitress-serve --listen=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">localhost</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8080</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import.path:wsgi_func</span></p>
+
+<ul>
+  <li>Start waitress on a Unix socket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waitress-serve --unix-socket=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/socket</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import.path:wsgi_func</span></p>
+
+<ul>
+  <li>Use 4 threads to process requests:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waitress-serve --threads=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import.path:wsgifunc</span></p>
+
+<ul>
+  <li>Call a factory method that returns a WSGI object:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waitress-serve --call </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import.path.wsgi_factory</span></p>
+
+<ul>
+  <li>Use the HTTPS URL scheme:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waitress-serve --url-scheme=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import.path:wsgi_func</span></p>

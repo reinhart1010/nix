@@ -1,0 +1,23 @@
+<h1 id="pamfix">pamfix</h1>
+
+<p>Fix errors in PAM, PBM, PGM and PPM files.
+See also: <code class="language-plaintext highlighter-rouge">pamfile</code>, <code class="language-plaintext highlighter-rouge">pamvalidate</code>.
+More information: <a href="https://netpbm.sourceforge.net/doc/pamfix.html">https://netpbm.sourceforge.net/doc/pamfix.html</a>.</p>
+
+<ul>
+  <li>Fix a Netpbm file that is missing its last part:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamfix -truncate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/corrupted.ext</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ext</span></p>
+
+<ul>
+  <li>Fix a Netpbm file where pixel values exceed the image's <code class="language-plaintext highlighter-rouge">maxval</code> by lowering the offending pixels' values:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamfix -clip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/corrupted.ext</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ext</span></p>
+
+<ul>
+  <li>Fix a Netpbm file where pixel values exceed the image's <code class="language-plaintext highlighter-rouge">maxval</code> by increasing it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamfix -changemaxval </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/corrupted.pam|pbm|pgm|ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pam|pbm|pgm|ppm</span></p>

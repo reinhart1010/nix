@@ -1,0 +1,40 @@
+<h1 id="hut">hut</h1>
+
+<p>A CLI tool for sourcehut.
+More information: <a href="https://manned.org/hut">https://manned.org/hut</a>.</p>
+
+<ul>
+  <li>Initialize <code class="language-plaintext highlighter-rouge">hut</code>'s configuration file (this will prompt for an OAuth2 access token, which is required to use <code class="language-plaintext highlighter-rouge">hut</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hut init</code></p>
+
+<ul>
+  <li>List Git/Mercurial repositories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hut </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git|hg</span><code class="language-plaintext highlighter-rouge"> list</code></p>
+
+<ul>
+  <li>Create a public Git/Mercurial repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hut </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git|hg</span><code class="language-plaintext highlighter-rouge"> create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>List jobs on <a href="https://builds.sr.ht">https://builds.sr.ht</a>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hut builds list</code></p>
+
+<ul>
+  <li>Show the status of a job:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hut builds show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span></p>
+
+<ul>
+  <li>SSH into a job container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hut ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span></p>

@@ -1,0 +1,28 @@
+<h1 id="rtmpdump">rtmpdump</h1>
+
+<p>RTMP 프로토콜을 통해 스트리밍되는 미디어 콘텐츠 덤프.
+더 많은 정보: <a href="https://rtmpdump.mplayerhq.hu/">https://rtmpdump.mplayerhq.hu/</a>.</p>
+
+<ul>
+  <li>파일 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rtmpdump --rtmp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rtmp://example.com/path/to/video</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.ext</span></p>
+
+<ul>
+  <li>Flash 플레이어에서 파일 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rtmpdump --rtmp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rtmp://example.com/path/to/video</span><code class="language-plaintext highlighter-rouge"> --swfVfy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/player</span><code class="language-plaintext highlighter-rouge"> --flashVer "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LNX 10,0,32,18</span><code class="language-plaintext highlighter-rouge">" -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.ext</span></p>
+
+<ul>
+  <li>연결 매개변수가 올바르게 감지되지 않는 경우 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rtmpdump --rtmp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rtmp://example.com/path/to/video</span><code class="language-plaintext highlighter-rouge"> --app </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">앱_이름</span><code class="language-plaintext highlighter-rouge"> --playpath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/비디오</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.ext</span></p>
+
+<ul>
+  <li>참조자를 요구하는 서버에서 파일 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rtmpdump --rtmp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rtmp://example.com/path/to/video</span><code class="language-plaintext highlighter-rouge"> --pageUrl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/webpage</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.ext</span></p>

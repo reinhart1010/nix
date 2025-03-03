@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="adb">adb</h1>
+
+<p>Android Debug Bridge: comunica con un'instanza di un emulatore Android o con un dispositivo android connesso.
+Alcuni comandi aggiuntivi, come <code class="language-plaintext highlighter-rouge">shell</code>, hanno la propria documentazione.
+Maggiori informazioni: <a href="https://developer.android.com/tools/adb">https://developer.android.com/tools/adb</a>.</p>
+
+<ul>
+  <li>Controlla se il processo server adb è attivo ed avvialo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb start-server</code></p>
+
+<ul>
+  <li>Termina il processo server adb:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb kill-server</code></p>
+
+<ul>
+  <li>Avvia una shell remota nell'emulatore o dispositivo target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell</code></p>
+
+<ul>
+  <li>Installa un'applicazione Android nell'emulatore o dispositivo target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.apk</span></p>
+
+<ul>
+  <li>Copia file o directory dal dispositivo target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory_dispositivo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory_locale</span></p>
+
+<ul>
+  <li>Copia file/directory sul dispositivo target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory_locale</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory_destinazione_dispositivo</span></p>
+
+<ul>
+  <li>Mostra una lista dei dispositivi connessi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb devices</code></p>

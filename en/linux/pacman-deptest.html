@@ -1,0 +1,29 @@
+<h1 id="pacman-deptest">pacman –deptest</h1>
+
+<p>Check each dependency specified and return a list of dependencies that are not currently satisfied on the system.
+See also: <code class="language-plaintext highlighter-rouge">pacman</code>.
+More information: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Print the package names of the dependencies that are not installed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 …</span></p>
+
+<ul>
+  <li>Check if the installed package satisfies the given minimum version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -T "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash&gt;=5</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Check if a later version of a package is installed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -T "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash&gt;5</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Display [h]elp:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Th</code></p>

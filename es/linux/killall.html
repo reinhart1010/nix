@@ -1,0 +1,35 @@
+<h1 id="killall">killall</h1>
+
+<p>Envía señal de finalización a todas las instancias de un proceso por nombre (debe ser el nombre exacto).
+Todas las señales excepto SIGKILL y SIGSTOP pueden ser interceptadas por el proceso, permitiendo una salida limpia.
+Más información: <a href="https://manned.org/killall">https://manned.org/killall</a>.</p>
+
+<ul>
+  <li>Termina un proceso utilizando la señal SIGTERM (terminar), predeterminada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_proceso</span></p>
+
+<ul>
+  <li>Lista los nombres de señal disponibles (para ser utilizados sin el prefijo 'SIG'):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall --list</code></p>
+
+<ul>
+  <li>Interactivamente pide confirmación antes de la terminación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_proceso</span></p>
+
+<ul>
+  <li>Termina un proceso utilizando la señal SIGINT (interrupción), que es la misma señal enviada pulsando <code class="language-plaintext highlighter-rouge">Ctrl + C</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall -INT </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_proceso</span></p>
+
+<ul>
+  <li>Finaliza -a la fuerza- un proceso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall -KILL </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_proceso</span></p>

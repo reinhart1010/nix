@@ -1,0 +1,22 @@
+<h1 id="csshx">csshX</h1>
+
+<p>Cluster SSH tool for macOS.
+More information: <a href="https://github.com/brockgr/csshx">https://github.com/brockgr/csshx</a>.</p>
+
+<ul>
+  <li>Connect to multiple hosts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csshX </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname2</span></p>
+
+<ul>
+  <li>Connect to multiple hosts with a given SSH key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csshX </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@hostname1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@hostname2</span><code class="language-plaintext highlighter-rouge"> --ssh_args "-i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key_file.pem</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Connect to a pre-defined cluster from <code class="language-plaintext highlighter-rouge">/etc/clusters</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csshX cluster1</code></p>

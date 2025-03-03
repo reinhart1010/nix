@@ -1,0 +1,28 @@
+<h1 id="adb-reverse">adb reverse</h1>
+
+<p>Reverse socket connections from a connected Android device or emulator.
+More information: <a href="https://developer.android.com/tools/adb">https://developer.android.com/tools/adb</a>.</p>
+
+<ul>
+  <li>List all reverse socket connections from emulators and devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse --list</code></p>
+
+<ul>
+  <li>Reverse a TCP port from an emulator or device to localhost:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse tcp:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_port</span><code class="language-plaintext highlighter-rouge"> tcp:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span></p>
+
+<ul>
+  <li>Remove a reverse socket connections from an emulator or device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse --remove tcp:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_port</span></p>
+
+<ul>
+  <li>Remove all reverse socket connections from all emulators and devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse --remove-all</code></p>

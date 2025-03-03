@@ -1,0 +1,41 @@
+<h1 id="gcov">gcov</h1>
+
+<p>Code coverage analysis and profiling tool that discovers untested parts of a program.
+Also displays a copy of source code annotated with execution frequencies of code segments.
+More information: <a href="https://gcc.gnu.org/onlinedocs/gcc/Invoking-Gcov.html">https://gcc.gnu.org/onlinedocs/gcc/Invoking-Gcov.html</a>.</p>
+
+<ul>
+  <li>Generate a coverage report named <code class="language-plaintext highlighter-rouge">file.cpp.gcov</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcov </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cpp</span></p>
+
+<ul>
+  <li>Write individual execution counts for every basic block:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcov --all-blocks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cpp</span></p>
+
+<ul>
+  <li>Write branch frequencies to the output file and print summary information to <code class="language-plaintext highlighter-rouge">stdout</code> as a percentage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcov --branch-probabilities </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cpp</span></p>
+
+<ul>
+  <li>Write branch frequencies as the number of branches taken, rather than the percentage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcov --branch-counts </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cpp</span></p>
+
+<ul>
+  <li>Do not create a <code class="language-plaintext highlighter-rouge">gcov</code> output file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcov --no-output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cpp</span></p>
+
+<ul>
+  <li>Write file level as well as function level summaries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcov --function-summaries </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cpp</span></p>

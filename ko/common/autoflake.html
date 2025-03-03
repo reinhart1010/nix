@@ -1,0 +1,28 @@
+<h1 id="autoflake">autoflake</h1>
+
+<p>Python 코드에서 사용하지 않는 가져오기 및 변수를 제거하는 도구.
+더 많은 정보: <a href="https://github.com/myint/autoflake">https://github.com/myint/autoflake</a>.</p>
+
+<ul>
+  <li>단일 파일에서 사용되지 않는 변수를 제거하고 차이점을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autoflake --remove-unused-variables </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.py</span></p>
+
+<ul>
+  <li>여러 파일에서 사용되지 않은 가져오기를 제거하고 차이점을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autoflake --remove-all-unused-imports </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.py 경로/대상/파일2.py …</span></p>
+
+<ul>
+  <li>파일에서 사용되지 않는 변수를 제거하고 파일을 덮어씀:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autoflake --remove-unused-variables --in-place </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.py</span></p>
+
+<ul>
+  <li>디렉터리의 모든 파일에서 사용되지 않는 변수를 반복적으로 제거하여 각 파일을 덮어씀:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autoflake --remove-unused-variables --in-place --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리</span></p>

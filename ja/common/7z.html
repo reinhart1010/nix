@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="7z">7z</h1>
+
+<p>圧縮率の高いファイルアーカイバです。
+もっと詳しく: <a href="https://manned.org/7z">https://manned.org/7z</a>。</p>
+
+<ul>
+  <li>ファイルまたはディレクトリを圧縮する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">アーカイブ.7z</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイルまたはディレクトリへのパス</span></p>
+
+<ul>
+  <li>既存のアーカイブを暗号化する (ファイル名も含め):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">暗号化済み.7z</span><code class="language-plaintext highlighter-rouge"> -p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">パスワード</span><code class="language-plaintext highlighter-rouge"> -mhe=on </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">アーカイブ.7z</span></p>
+
+<ul>
+  <li>元のディレクトリ構造を保持したまま展開する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">アーカイブ.7z</span></p>
+
+<ul>
+  <li>展開先のディレクトリを指定して展開する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">アーカイブ.7z</span><code class="language-plaintext highlighter-rouge"> -o</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">出力先のパス</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdout</code>に対してファイルを出力する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">アーカイブ.7z</span><code class="language-plaintext highlighter-rouge"> -so</code></p>
+
+<ul>
+  <li>特定のアーカイブ形式を使用した圧縮を行う:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z a -t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7z|bzip2|gzip|lzip|tar|zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">アーカイブ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイルまたはディレクトリへのパス</span></p>
+
+<ul>
+  <li>アーカイブの内容を表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">アーカイブ.7z</span></p>

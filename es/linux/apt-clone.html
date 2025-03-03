@@ -1,0 +1,34 @@
+<h1 id="apt-clone">apt-clone</h1>
+
+<p>Clona/hace copia de seguridad/restaura el estado de un paquete de un sistema basado en Debian.
+Más información: <a href="https://github.com/mvo5/apt-clone">https://github.com/mvo5/apt-clone</a>.</p>
+
+<ul>
+  <li>Clona el estado del paquete del sistema actual en un directorio especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-clone clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Crea un archivo clon (<code class="language-plaintext highlighter-rouge">tar.gz</code>) con fines de copia de seguridad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-clone clone --destination </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/backup.tar.gz</span></p>
+
+<ul>
+  <li>Restaura el estado del paquete desde un archivo clon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-clone restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/backup.tar.gz</span></p>
+
+<ul>
+  <li>Muestra información sobre un archivo clon (por ejemplo, la versión, la arquitectura):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-clone info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/backup.tar.gz</span></p>
+
+<ul>
+  <li>Comprueba si el archivo clon se puede restaurar en el sistema actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-clone restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/backup.tar.gz</span><code class="language-plaintext highlighter-rouge"> --destination </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/restaurar</span></p>

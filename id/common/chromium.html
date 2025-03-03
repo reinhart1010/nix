@@ -1,0 +1,53 @@
+<h1 id="chromium">chromium</h1>
+
+<p>Aplikasi peramban web (web browser) bersumber terbuka yang terutama dikembangkan dan dikelola oleh Google.
+Catatan: Anda mungkin perlu menggantikan perintah <code class="language-plaintext highlighter-rouge">chromium</code> dengan peramban tujuan Anda, seperti <code class="language-plaintext highlighter-rouge">brave</code>, <code class="language-plaintext highlighter-rouge">google-chrome</code>, <code class="language-plaintext highlighter-rouge">opera</code>, atau <code class="language-plaintext highlighter-rouge">vivaldi</code>.
+Informasi lebih lanjut: <a href="https://www.chromium.org/developers/how-tos/run-chromium-with-flags/">https://www.chromium.org/developers/how-tos/run-chromium-with-flags/</a>.</p>
+
+<ul>
+  <li>Buka suatu URL atau berkas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com|jalan/menuju/berkas.html</span></p>
+
+<ul>
+  <li>Buka dalam mode peramban privat (incognito):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --incognito </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Buka dalam jendela aplikasi baru:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --new-window </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Buka dalam mode aplikasi web (tanpa bilah toolbar, URL bar, tombol navigasi, dsb.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --app=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Hubungkan peramban dengan suatu peladen proksi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --proxy-server="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">socks5://hostname:66</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Buka dengan direktori profil pengguna tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --user-data-dir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span></p>
+
+<ul>
+  <li>Buka dengan menonaktifkan validasi CORS (berguna untuk menguji akses suatu API):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --user-data-dir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span><code class="language-plaintext highlighter-rouge"> --disable-web-security</code></p>
+
+<ul>
+  <li>Selalu buka jendela alat DevTools (pembantu pengembang web) setiap kali membuka tab baru:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --auto-open-devtools-for-tabs</code></p>

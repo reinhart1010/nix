@@ -1,0 +1,34 @@
+<h1 id="timidity">timidity</h1>
+
+<p>MIDI 파일을 재생하고 변환합니다.
+더 많은 정보: <a href="https://timidity.sourceforge.net">https://timidity.sourceforge.net</a>.</p>
+
+<ul>
+  <li>MIDI 파일 재생:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timidity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.mid</span></p>
+
+<ul>
+  <li>MIDI 파일을 반복 재생:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timidity --loop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.mid</span></p>
+
+<ul>
+  <li>특정 조로 MIDI 파일 재생 (0 = 다장조/가단조, -1 = 바장조/라단조, +1 = 사장조/마단조 등):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timidity --force-keysig=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-플랫|+샤프</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.mid</span></p>
+
+<ul>
+  <li>MIDI 파일을 PCM (WAV) 오디오로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timidity --output-mode=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">w</span><code class="language-plaintext highlighter-rouge"> --output-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.wav</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.mid</span></p>
+
+<ul>
+  <li>MIDI 파일을 FLAC 오디오로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timidity --output-mode=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">F</span><code class="language-plaintext highlighter-rouge"> --output-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.flac</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.mid</span></p>

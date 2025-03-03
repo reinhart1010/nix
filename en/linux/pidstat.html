@@ -1,0 +1,34 @@
+<h1 id="pidstat">pidstat</h1>
+
+<p>Show system resource usage, including CPU, memory, IO etc.
+More information: <a href="https://manned.org/pidstat">https://manned.org/pidstat</a>.</p>
+
+<ul>
+  <li>Show CPU statistics at a 2 second interval for 10 times:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pidstat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Show page faults and memory utilization:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pidstat -r</code></p>
+
+<ul>
+  <li>Show input/output usage per process ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pidstat -d</code></p>
+
+<ul>
+  <li>Show information on a specific PID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pidstat -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>
+
+<ul>
+  <li>Show memory statistics for all processes whose command name include "fox" or "bird":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pidstat -C "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fox|bird</span><code class="language-plaintext highlighter-rouge">" -r -p ALL</code></p>

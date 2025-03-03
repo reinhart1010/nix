@@ -1,0 +1,52 @@
+<h1 id="findstr">findstr</h1>
+
+<p>Find specified text within one or more files.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/findstr">https://learn.microsoft.com/windows-server/administration/windows-commands/findstr</a>.</p>
+
+<ul>
+  <li>Find one or more strings in all files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1 string2 …</span><code class="language-plaintext highlighter-rouge">" *</code></p>
+
+<ul>
+  <li>Find one or more strings in a piped command's output:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dir</span><code class="language-plaintext highlighter-rouge"> | findstr "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1 string2 …</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Find one or more strings in all files recur[s]ively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr /s "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1 string2 …</span><code class="language-plaintext highlighter-rouge">" *</code></p>
+
+<ul>
+  <li>Find strings using a case-insensitive search:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr /i "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1 string2 …</span><code class="language-plaintext highlighter-rouge">" *</code></p>
+
+<ul>
+  <li>Find strings in all files using regular expressions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr /r "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expression</span><code class="language-plaintext highlighter-rouge">" *</code></p>
+
+<ul>
+  <li>Find a literal string (containing spaces) in all text files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr /c:"</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1 string2 …</span><code class="language-plaintext highlighter-rouge">" *.txt</code></p>
+
+<ul>
+  <li>Display the line number before each matching line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr /n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1 string2 …</span><code class="language-plaintext highlighter-rouge">" *</code></p>
+
+<ul>
+  <li>Display only the filenames that contain a match:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findstr /m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1 string2 …</span><code class="language-plaintext highlighter-rouge">" *</code></p>

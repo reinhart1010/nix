@@ -1,0 +1,17 @@
+<h1 id="pbcopy">pbcopy</h1>
+
+<p>Copia datos de <code class="language-plaintext highlighter-rouge">stdin</code> al portapapeles.
+Comparable a pulsar Cmd + C en el teclado.
+Más información: <a href="https://keith.github.io/xcode-man-pages/pbcopy.1.html">https://keith.github.io/xcode-man-pages/pbcopy.1.html</a>.</p>
+
+<ul>
+  <li>Coloca el contenido de un archivo específico en el portapapeles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbcopy &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Coloca los resultados de un comando específico en el portapapeles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find . -type t -name "*.png" | pbcopy</code></p>

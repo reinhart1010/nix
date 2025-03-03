@@ -1,0 +1,35 @@
+<h1 id="rargs">rargs</h1>
+
+<p>각 표준 입력 줄에 대해 명령을 실행합니다.
+패턴 매칭 지원이 있는 <code class="language-plaintext highlighter-rouge">xargs</code>와 유사합니다.
+더 많은 정보: <a href="https://github.com/lotabout/rargs">https://github.com/lotabout/rargs</a>.</p>
+
+<ul>
+  <li>입력의 각 줄에 대해 명령을 실행 (<code class="language-plaintext highlighter-rouge">{0}</code>은 텍스트에 대체할 위치를 나타냄):</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> | rargs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> {0}</code></p>
+
+<ul>
+  <li>실제로 실행하지 않고 실행할 명령을 출력하는 드라이 런 수행:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> | rargs -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> {0}</code></p>
+
+<ul>
+  <li>목록의 모든 파일에서 <code class="language-plaintext highlighter-rouge">.bak</code> [x]확장자 제거:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> | rargs -p '(.*).bak mv {0} {1}</code></p>
+
+<ul>
+  <li>병렬로 명령 실행:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> | rargs -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">최대_프로세스_수</span></p>
+
+<ul>
+  <li>입력의 각 줄이 줄바꿈(<code class="language-plaintext highlighter-rouge">\n</code>) 대신 NUL 문자(<code class="language-plaintext highlighter-rouge">\0</code>)로 구분된 것으로 간주:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> | rargs -0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> {0}</code></p>

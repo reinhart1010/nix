@@ -1,0 +1,28 @@
+<h1 id="stormlock">Stormlock</h1>
+
+<p>Centralized locking system.
+More information: <a href="https://github.com/tmccombs/stormlock">https://github.com/tmccombs/stormlock</a>.</p>
+
+<ul>
+  <li>Acquire a lease for resource:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stormlock acquire </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource</span></p>
+
+<ul>
+  <li>Release the given lease for the given resource:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stormlock release </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lease_id</span></p>
+
+<ul>
+  <li>Show information on the current lease for a resource, if any:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stormlock current </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource</span></p>
+
+<ul>
+  <li>Test if a lease for given resource is currently active:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stormlock is-held </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lease_id</span></p>

@@ -1,0 +1,23 @@
+<h1 id="yacc">yacc</h1>
+
+<p>Genera un analizador sintáctico LALR (en C) con un archivo de especificación de gramática formal.
+Vea también: <code class="language-plaintext highlighter-rouge">bison</code>.
+Más información: <a href="https://manned.org/yacc.1p">https://manned.org/yacc.1p</a>.</p>
+
+<ul>
+  <li>Crea un fichero <code class="language-plaintext highlighter-rouge">y.tab.c</code> con el código del analizador en C y compila el fichero de gramática con todas las declaraciones constantes necesarias para los valores. El fichero <code class="language-plaintext highlighter-rouge">y.tab.h</code> con las declaraciones se crea exclusivamente con la opción <code class="language-plaintext highlighter-rouge">-d</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yacc -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_gramática.y</span></p>
+
+<ul>
+  <li>Compila un fichero de gramática con la descripción del analizador sintáctico y un informe de conflictos generados por ambigüedades en la gramática:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yacc -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_gramática.y</span><code class="language-plaintext highlighter-rouge"> -v</code></p>
+
+<ul>
+  <li>Compila un archivo de gramática, y prefija los nombres de los archivos de salida con un prefijo personalizado en lugar de <code class="language-plaintext highlighter-rouge">y</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yacc -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_gramática.y</span><code class="language-plaintext highlighter-rouge"> -v -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefijo</span></p>

@@ -1,0 +1,52 @@
+<h1 id="cp">cp</h1>
+
+<p>Copia archivos y directorios.
+Más información: <a href="https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html</a>.</p>
+
+<ul>
+  <li>Copia un archivo a otro directorio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_origen.ext</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_destino.ext</span></p>
+
+<ul>
+  <li>Copia un archivo en otro directorio, conservando el nombre del archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archivo_origen.ext</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_principal</span></p>
+
+<ul>
+  <li>Copia de forma recursiva el contenido de un directorio a otra ubicación (si el destino existe, el directorio es copiado en esa ubicación):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_origen</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_destino</span></p>
+
+<ul>
+  <li>Copia un directorio de forma recursiva en modo verbose (muestra los archivos a medida que se copian):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -vr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_origen</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_destino</span></p>
+
+<ul>
+  <li>Copia varios archivos de inmediato a un directorio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_destino</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 …</span></p>
+
+<ul>
+  <li>Copia todos los archivos con una extensión específica a otra ubicación en modo interactivo (pregunta al usuario antes de sobreescribir):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_destino</span></p>
+
+<ul>
+  <li>Sigue los enlaces simbólicos antes de copiar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">link</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_destino</span></p>
+
+<ul>
+  <li>Usa la ruta completa de los archivos de origen, creando los directorios intermedios faltantes al copiar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp --parents </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta_de_origen/al/archivo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_destino</span></p>

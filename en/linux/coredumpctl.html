@@ -1,0 +1,46 @@
+<h1 id="coredumpctl">coredumpctl</h1>
+
+<p>Retrieve and process saved core dumps and metadata.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/coredumpctl.html">https://www.freedesktop.org/software/systemd/man/coredumpctl.html</a>.</p>
+
+<ul>
+  <li>List all captured core dumps:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">coredumpctl</code></p>
+
+<ul>
+  <li>List captured core dumps for a program:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">coredumpctl list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Show information about the core dumps matching a program with <code class="language-plaintext highlighter-rouge">PID</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">coredumpctl info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>
+
+<ul>
+  <li>Invoke debugger using the last core dump:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">coredumpctl debug</code></p>
+
+<ul>
+  <li>Invoke debugger using the last core dump of a program:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">coredumpctl debug </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Extract the last core dump of a program to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">coredumpctl --output=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> dump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Skip debuginfod and pagination prompts and then print the backtrace when using <code class="language-plaintext highlighter-rouge">gdb</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">coredumpctl debug --debugger-arguments="-iex 'set debuginfod enabled on' -iex 'set pagination off' -ex bt"</code></p>

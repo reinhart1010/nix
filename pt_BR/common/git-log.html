@@ -1,0 +1,52 @@
+<h1 id="git-log">git log</h1>
+
+<p>Mostra um histórico de commits.
+Mais informações: <a href="https://git-scm.com/docs/git-log">https://git-scm.com/docs/git-log</a>.</p>
+
+<ul>
+  <li>Mostra a sequência de commits a partir do atual, em ordem cronológica reverse do repositório Git no diretório de trabalho atual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git log</code></p>
+
+<ul>
+  <li>Mostra o histórico de um arquivo ou diretório determinado, incluindo diferenças:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|-u|–patch</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretório</span></p>
+
+<ul>
+  <li>Mostra uma visão geral do(s) arquivo(s) alterado(s) em cada commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git log --stat</code></p>
+
+<ul>
+  <li>Mostra um grafo dos commits no branch atual usando apenas a primera linha de cada mensagem de commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git log --oneline --graph</code></p>
+
+<ul>
+  <li>Mostra um grafo de todos os commits, etiquetas e branches em todo o repositório:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git log --oneline --decorate --all --graph</code></p>
+
+<ul>
+  <li>Mostra apenas os commits cujas mensagem incluem uma determinada cadeia de caracteres (sem distinção entre maiúsculas e minúsculas):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–regexp-ignore-case</span><code class="language-plaintext highlighter-rouge"> --grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadeia_de_caracteres_para_pesquisa</span></p>
+
+<ul>
+  <li>Mostra os últimos N commits de um determinado autor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–max-count</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span><code class="language-plaintext highlighter-rouge"> --author "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">autor</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Mostra os commits entre duas datas(aaaa-mm-dd):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git log --before "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2017-01-29</span><code class="language-plaintext highlighter-rouge">" --after "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2017-01-17</span><code class="language-plaintext highlighter-rouge">"</code></p>

@@ -1,0 +1,52 @@
+<h1 id="firejail">firejail</h1>
+
+<p>Securely sandboxes processes to containers using built-in Linux capabilities.
+More information: <a href="https://manned.org/firejail">https://manned.org/firejail</a>.</p>
+
+<ul>
+  <li>Integrate firejail with your desktop environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo firecfg</code></p>
+
+<ul>
+  <li>Open a restricted Mozilla Firefox:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firejail </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">firefox</span></p>
+
+<ul>
+  <li>Start a restricted Apache server on a known interface and address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firejail --net=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> --ip=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.244</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/etc/init.d/apache2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start</span></p>
+
+<ul>
+  <li>List running sandboxes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firejail --list</code></p>
+
+<ul>
+  <li>List network activity from running sandboxes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firejail --netstats</code></p>
+
+<ul>
+  <li>Shutdown a running sandbox:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firejail --shutdown=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7777</span></p>
+
+<ul>
+  <li>Run a restricted Firefox session to browse the internet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firejail --seccomp --private --private-dev --private-tmp --protocol=inet firefox --new-instance --no-remote --safe-mode --private-window</code></p>
+
+<ul>
+  <li>Use custom hosts file (overriding <code class="language-plaintext highlighter-rouge">/etc/hosts</code> file):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firejail --hosts-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/myhosts</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">curl http://mysite.arpa</span></p>

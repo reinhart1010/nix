@@ -1,0 +1,35 @@
+<h1 id="pueue-start">pueue start</h1>
+
+<p>Resume operation of tasks or groups of tasks.
+See also: <code class="language-plaintext highlighter-rouge">pueue pause</code>.
+More information: <a href="https://github.com/Nukesor/pueue">https://github.com/Nukesor/pueue</a>.</p>
+
+<ul>
+  <li>Resume all tasks in the default group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue start</code></p>
+
+<ul>
+  <li>Resume a specific task:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Resume multiple tasks at once:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Resume all tasks and start their children:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue start --all --children</code></p>
+
+<ul>
+  <li>Resume all tasks in a specific group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue start group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span></p>

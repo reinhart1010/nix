@@ -1,0 +1,35 @@
+<h1 id="tac">tac</h1>
+
+<p>Visualizza e concatena file con righe in ordine inverso.
+Guarda anche: <code class="language-plaintext highlighter-rouge">cat</code>.
+Maggiori informazioni: <a href="https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html</a>.</p>
+
+<ul>
+  <li>Concatena file specifici in ordine inverso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tac </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file1 percorso/del/file2 …</span></p>
+
+<ul>
+  <li>Visualizza <code class="language-plaintext highlighter-rouge">stdin</code> in ordine inverso:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat percorso/del/file</span><code class="language-plaintext highlighter-rouge"> | tac</code></p>
+
+<ul>
+  <li>Usa un [s]riparatore specifico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tac -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">separatore</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file1 percorso/del/file2 …</span></p>
+
+<ul>
+  <li>Usa un [r]egex specifico come [s]eparatore:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tac -r -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">separatore</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file1 percorso/del/file2 …</span></p>
+
+<ul>
+  <li>Utilizzare un separatore [b]prima di ciascun file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tac -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file1 percorso/del/file2 …</span></p>

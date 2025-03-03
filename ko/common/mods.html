@@ -1,0 +1,46 @@
+<h1 id="mods">mods</h1>
+
+<p>파이프라인을 위해 설계된 커맨드라인 AI.
+더 많은 정보: <a href="https://github.com/charmbracelet/mods">https://github.com/charmbracelet/mods</a>.</p>
+
+<ul>
+  <li>일반적인 질문하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mods "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">오리너구리에 대한 시를 써 줘</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">$EDITOR</code>에서 설정 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mods --settings</code></p>
+
+<ul>
+  <li>코드에 대한 의견을 마크다운 형식으로 요청하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mods --format "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이 코드를 개선하기 위한 의견은?</span><code class="language-plaintext highlighter-rouge">" &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>문서화 도움을 마크다운 형식으로 요청하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mods --format "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">r을 누르면 무료 토끼를 보내주는 기능에 대한 새로운 섹션을 이 README에 작성해 줘</span><code class="language-plaintext highlighter-rouge">" &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">README.md</span></p>
+
+<ul>
+  <li>비디오를 마크다운 형식으로 정리하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/비디오</span><code class="language-plaintext highlighter-rouge"> | mods --format "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이를 시대별로 정리하고 요약해 줘</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>원시 HTML을 읽고 내용을 마크다운 형식으로 요약하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://api.open-meteo.com/v1/forecast?latitude=29.00&amp;longitude=-90.00&amp;current_weather=true&amp;hourly=temperature_2m,relativehumidity_2m,windspeed_10m</span><code class="language-plaintext highlighter-rouge">" | mods --format "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이 날씨 데이터를 사람을 위해 요약해 줘</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mods --help</code></p>

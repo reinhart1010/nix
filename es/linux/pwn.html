@@ -1,0 +1,52 @@
+<h1 id="pwn">pwn</h1>
+
+<p>Biblioteca de desarrollo de exploits diseñada para la creación rápida de prototipos.
+Más información: <a href="https://docs.pwntools.com/en/stable/commandline.html">https://docs.pwntools.com/en/stable/commandline.html</a>.</p>
+
+<ul>
+  <li>Convierte código ensamblador a <code class="language-plaintext highlighter-rouge">bytes</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn asm "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xor edi, edi</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Crea un patrón cíclico con un número específico de caracteres:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn cyclic </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span></p>
+
+<ul>
+  <li>Codifica datos en el sistema hexadecimal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn hex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deafbeef</span></p>
+
+<ul>
+  <li>Decodifica datos en hexadecimal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn unhex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">6c4f7645</span></p>
+
+<ul>
+  <li>Imprime código de intérprete de Linux x64 para ejecutar en un intérprete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn shellcraft </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">amd64.linux.sh</span></p>
+
+<ul>
+  <li>Comprueba la configuración de seguridad binaria del archivo ELF dado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn checksec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Busca actualizaciones de Pwntools:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn update</code></p>
+
+<ul>
+  <li>Muestra la versión:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn version</code></p>

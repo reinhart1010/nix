@@ -1,0 +1,28 @@
+<h1 id="hexyl">hexyl</h1>
+
+<p>Un simple visualiseur hexadécimal pour le terminal. Il utilise des couleurs pour distinguer les différentes catégories d'octets.
+Plus d'informations : <a href="https://github.com/sharkdp/hexyl">https://github.com/sharkdp/hexyl</a>.</p>
+
+<ul>
+  <li>Affiche la représentation hexadécimale d'un fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexyl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Affiche la représentation hexadécimale des n premiers octets d'un fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexyl -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Affiche les octets 512 à 1024 d'un fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexyl -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">512</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Affiche 512 octets en commençant par le 1024e octet :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexyl -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span><code class="language-plaintext highlighter-rouge">:+</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">512</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>

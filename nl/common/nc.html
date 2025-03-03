@@ -1,0 +1,46 @@
+<h1 id="nc">nc</h1>
+
+<p>Netcat is een veelzijdig hulpprogramma voor het omleiden van IO naar een netwerkstream.
+Meer informatie: <a href="https://manned.org/nc">https://manned.org/nc</a>.</p>
+
+<ul>
+  <li>Start een luisteraar op de opgegeven TCP poort en stuur er een bestand in:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -l -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">poort</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestandsnaam</span></p>
+
+<ul>
+  <li>Maak verbinding met een doelluisteraar op de opgegeven poort en ontvang er een bestand uit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">poort</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ontvangen_bestandsnaam</span></p>
+
+<ul>
+  <li>Scan de open TCP poorten van een opgegeven host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -v -z -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">timeout_in_seconden</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start_port</span><code class="language-plaintext highlighter-rouge">-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">end_port</span></p>
+
+<ul>
+  <li>Start een luisteraar op de opgegeven TCP poort en geef uw lokale shell toegang tot de verbonden partij (dit is gevaarlijk en kan worden misbruikt):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -l -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">poort</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell_executable</span></p>
+
+<ul>
+  <li>Maak verbinding met een doelluisteraar en geef uw lokale shell toegang tot de externe partij (dit is gevaarlijk en kan worden misbruikt):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">poort</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell_executable</span></p>
+
+<ul>
+  <li>Fungeer als een proxy en stuur gegevens door van een lokale TCP poort naar de opgegeven externe host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -l -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span><code class="language-plaintext highlighter-rouge"> | nc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_port</span></p>
+
+<ul>
+  <li>Stuur een HTTP GET verzoek:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -e "GET / HTTP/1.1\nHost: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">\n\n" | nc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> 80</code></p>

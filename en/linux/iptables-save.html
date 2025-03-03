@@ -1,0 +1,23 @@
+<h1 id="iptables-save">iptables-save</h1>
+
+<p>Save the <code class="language-plaintext highlighter-rouge">iptables</code> IPv4 configuration.
+Use <code class="language-plaintext highlighter-rouge">ip6tables-save</code> to do the same for IPv6.
+More information: <a href="https://manned.org/iptables-save">https://manned.org/iptables-save</a>.</p>
+
+<ul>
+  <li>Print the <code class="language-plaintext highlighter-rouge">iptables</code> configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables-save</code></p>
+
+<ul>
+  <li>Print the <code class="language-plaintext highlighter-rouge">iptables</code> configuration of a specific [t]able:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables-save --table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table</span></p>
+
+<ul>
+  <li>Save the <code class="language-plaintext highlighter-rouge">iptables</code> configuration to a [f]ile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables-save --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

@@ -1,0 +1,46 @@
+<h1 id="gsettings">gsettings</h1>
+
+<p>Query and modify dconf settings with schema validation.
+More information: <a href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/using_the_desktop_environment_in_rhel_8/configuring-gnome-at-low-level_using-the-desktop-environment-in-rhel-8#using-gsettings-command_configuring-gnome-at-low-level">https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/using_the_desktop_environment_in_rhel_8/configuring-gnome-at-low-level_using-the-desktop-environment-in-rhel-8#using-gsettings-command_configuring-gnome-at-low-level</a>.</p>
+
+<ul>
+  <li>Set the value of a key. Fails if the key doesn't exist or the value is out of range:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsettings set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.example.schema</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example-key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Print the value of a key or the schema-provided default if the key has not been set in <code class="language-plaintext highlighter-rouge">dconf</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsettings get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.example.schema</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example-key</span></p>
+
+<ul>
+  <li>Unset a key, so that its schema default value will be used:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsettings reset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.example.schema</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example-key</span></p>
+
+<ul>
+  <li>Display all (non-relocatable) schemas, keys, and values:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsettings list-recursively</code></p>
+
+<ul>
+  <li>Display all keys and values (default if not set) from one schema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsettings list-recursively </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.example.schema</span></p>
+
+<ul>
+  <li>Display schema-allowed values for a key (helpful with enum keys):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsettings range </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.example.schema</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example-key</span></p>
+
+<ul>
+  <li>Display the human-readable description of a key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsettings describe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.example.schema</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example-key</span></p>

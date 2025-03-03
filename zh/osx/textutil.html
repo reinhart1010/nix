@@ -1,0 +1,34 @@
+<h1 id="textutil">textutil</h1>
+
+<p>用于操作各种格式的文本文件。
+更多信息：<a href="https://keith.github.io/xcode-man-pages/textutil.1.html">https://keith.github.io/xcode-man-pages/textutil.1.html</a>.</p>
+
+<ul>
+  <li>显示有关 <code class="language-plaintext highlighter-rouge">foo.rtf</code> 的信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">textutil -info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo.rtf</span></p>
+
+<ul>
+  <li>将 <code class="language-plaintext highlighter-rouge">foo.rtf</code> 转换为 <code class="language-plaintext highlighter-rouge">foo.html</code>：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">textutil -convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo.rtf</span></p>
+
+<ul>
+  <li>将带格式的 rtf 文本转换为普通 txt 文本：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">textutil </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo.rtf</span><code class="language-plaintext highlighter-rouge"> -convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txt</span></p>
+
+<ul>
+  <li>将 <code class="language-plaintext highlighter-rouge">foo.txt</code> 转换为 <code class="language-plaintext highlighter-rouge">foo.rtf</code>, 字体使用 Times 字号 10：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">textutil -convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rtf</span><code class="language-plaintext highlighter-rouge"> -font </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Times</span><code class="language-plaintext highlighter-rouge"> -fontsize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo.txt</span></p>
+
+<ul>
+  <li>加载当前目录中的所有 RTF 文件，连接其内容，并将结果作为 <code class="language-plaintext highlighter-rouge">index.html</code> 写入，HTML 标题设置为"多个文件"：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">textutil -cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">html</span><code class="language-plaintext highlighter-rouge"> -title "多个文件" -output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">index.html</span><code class="language-plaintext highlighter-rouge"> *.rtf</code></p>

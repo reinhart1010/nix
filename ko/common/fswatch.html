@@ -1,0 +1,28 @@
+<h1 id="fswatch">fswatch</h1>
+
+<p>크로스 플랫폼 파일 변경 모니터.
+더 많은 정보: <a href="https://emcrisostomo.github.io/fswatch">https://emcrisostomo.github.io/fswatch</a>.</p>
+
+<ul>
+  <li>파일 생성, 업데이트 또는 삭제 시 Bash 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fswatch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> | xargs -n 1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash_명령어</span></p>
+
+<ul>
+  <li>하나 이상의 파일 또는 디렉터리를 감시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fswatch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉토리</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/another_directory/<em>*/</em>.js</span><code class="language-plaintext highlighter-rouge"> | xargs -n 1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash_명령어</span></p>
+
+<ul>
+  <li>변경된 파일의 절대 경로를 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fswatch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉토리</span><code class="language-plaintext highlighter-rouge"> | xargs -n 1 -I {} echo {}</code></p>
+
+<ul>
+  <li>이벤트 유형 별로 필터링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fswatch --event </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Updated|Deleted|Created</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉토리</span><code class="language-plaintext highlighter-rouge"> | xargs -n 1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash_명령어</span></p>

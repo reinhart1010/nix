@@ -1,0 +1,41 @@
+<h1 id="git-switch">git switch</h1>
+
+<p>Switch between Git branches. Requires Git version 2.23+.
+See also <code class="language-plaintext highlighter-rouge">git checkout</code>.
+More information: <a href="https://git-scm.com/docs/git-switch">https://git-scm.com/docs/git-switch</a>.</p>
+
+<ul>
+  <li>Switch to an existing branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Create a new branch and switch to it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Create a new branch based on an existing commit and switch to it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Switch to the previous branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch -</code></p>
+
+<ul>
+  <li>Switch to a branch and update all submodules to match:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --recurse-submodules </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Switch to a branch and automatically merge the current branch and any uncommitted changes into it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git switch --merge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>

@@ -1,0 +1,34 @@
+<h1 id="redis-server">redis-server</h1>
+
+<p>Persistent key-value database.
+More information: <a href="https://redis.io">https://redis.io</a>.</p>
+
+<ul>
+  <li>Start Redis server, using the default port (6379), and write logs to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">redis-server</code></p>
+
+<ul>
+  <li>Start Redis server, using the default port, as a background process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">redis-server --daemonize yes</code></p>
+
+<ul>
+  <li>Start Redis server, using the specified port, as a background process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">redis-server --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> --daemonize yes</code></p>
+
+<ul>
+  <li>Start Redis server with a custom configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">redis-server </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/redis.conf</span></p>
+
+<ul>
+  <li>Start Redis server with verbose logging:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">redis-server --loglevel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">warning|notice|verbose|debug</span></p>

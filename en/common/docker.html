@@ -1,0 +1,53 @@
+<h1 id="docker">docker</h1>
+
+<p>Manage Docker containers and images.
+Some subcommands such as <code class="language-plaintext highlighter-rouge">run</code> have their own usage documentation.
+More information: <a href="https://docs.docker.com/reference/cli/docker/">https://docs.docker.com/reference/cli/docker/</a>.</p>
+
+<ul>
+  <li>List all Docker containers (running and stopped):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker ps --all</code></p>
+
+<ul>
+  <li>Start a container from an image, with a custom name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span></p>
+
+<ul>
+  <li>Start or stop an existing container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Pull an image from a Docker registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span></p>
+
+<ul>
+  <li>Display the list of already downloaded images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images</code></p>
+
+<ul>
+  <li>Open an [i]nteractive [t]ty with Bourne shell (<code class="language-plaintext highlighter-rouge">sh</code>) inside a running container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker exec -it </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span></p>
+
+<ul>
+  <li>Remove stopped containers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container1 container2 …</span></p>
+
+<ul>
+  <li>Fetch and follow the logs of a container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker logs -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>

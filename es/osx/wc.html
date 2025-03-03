@@ -1,0 +1,34 @@
+<h1 id="wc">wc</h1>
+
+<p>Cuenta líneas, palabras o bytes.
+Más información: <a href="https://keith.github.io/xcode-man-pages/wc.1.html">https://keith.github.io/xcode-man-pages/wc.1.html</a>.</p>
+
+<ul>
+  <li>Cuenta líneas en un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wc -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Cuenta palabras en el archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wc -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Cuenta caracteres (bytes) en el archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wc -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Cuenta caracteres en el archivo (teniendo en cuenta los conjuntos de caracteres multibyte):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wc -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Usa <code class="language-plaintext highlighter-rouge">stdin</code> para contar líneas, palabras y caracteres (bytes) en ese orden:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find .</span><code class="language-plaintext highlighter-rouge"> | wc</code></p>

@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-tag">git tag</h1>
+
+<p>Etiketleri oluştur, sırala, sil veya doğrula.
+Bir etiket, belirtilmiş bir commit'e bağlı statik bir referanstır.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-tag">https://git-scm.com/docs/git-tag</a>.</p>
+
+<ul>
+  <li>Tüm etiketleri sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag</code></p>
+
+<ul>
+  <li>Belirtilen isim ile mevcut commit'e bağlı bir etiket yarat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiket_ismi</span></p>
+
+<ul>
+  <li>Belirtilen isim ile belirtilen commit'e bağlı bir etiket yarat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiket_ismi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Belirtilen mesaja sahip açıklamalı bir etiket yarat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiket_ismi</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiket_mesajı</span></p>
+
+<ul>
+  <li>Belirtilen isimdeki etiketi sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiket_ismi</span></p>
+
+<ul>
+  <li>Ana projeden güncellenmiş etiketleri al:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git fetch --tags</code></p>
+
+<ul>
+  <li>Belirtilen commit'i içeren/içermiş tüm etiketleri sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag --contains </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>

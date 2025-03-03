@@ -1,0 +1,53 @@
+<h1 id="aurman">aurman</h1>
+
+<p>Una utilidad de Arch Linux para construir e instalar paquetes desde el repositorio de usuarios de Arch (AUR).
+Vea también: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Más información: <a href="https://github.com/polygamma/aurman">https://github.com/polygamma/aurman</a>.</p>
+
+<ul>
+  <li>Sincroniza y actualiza todos los paquetes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aurman --sync --refresh --sysupgrade</code></p>
+
+<ul>
+  <li>Sincroniza y actualiza todos los paquetes sin mostrar los cambios en los archivos <code class="language-plaintext highlighter-rouge">PKGBUILD</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aurman --sync --refresh --sysupgrade --noedit</code></p>
+
+<ul>
+  <li>Instala un nuevo paquete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aurman --sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Instala un nuevo paquete sin mostrar los cambios en los archivos <code class="language-plaintext highlighter-rouge">PKGBUILD</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aurman --sync --noedit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Instala un nuevo paquete sin pedir confirmación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aurman --sync --noedit --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Busca en la base de datos de paquetes una palabra clave en los repositorios oficiales y AUR:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aurman --sync --search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">palabra_clave</span></p>
+
+<ul>
+  <li>Elimina un paquete y sus dependencias:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aurman --remove --recursive --nosave </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Limpia la caché de paquetes (usa dos banderas <code class="language-plaintext highlighter-rouge">--clean</code> para limpiar todos los paquetes):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aurman --sync --clean</code></p>

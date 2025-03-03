@@ -1,0 +1,52 @@
+<h1 id="loadkeys">loadkeys</h1>
+
+<p>Load the kernel keymap for the console.
+More information: <a href="https://manned.org/loadkeys">https://manned.org/loadkeys</a>.</p>
+
+<ul>
+  <li>Load a default keymap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loadkeys --default</code></p>
+
+<ul>
+  <li>Load default keymap when an unusual keymap is loaded and <code class="language-plaintext highlighter-rouge">-</code> sign cannot be found:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loadkeys defmap</code></p>
+
+<ul>
+  <li>Create a kernel source table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loadkeys --mktable</code></p>
+
+<ul>
+  <li>Create a binary keymap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loadkeys --bkeymap</code></p>
+
+<ul>
+  <li>Search and parse keymap without action:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loadkeys --parse</code></p>
+
+<ul>
+  <li>Load the keymap suppressing all output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loadkeys --quiet</code></p>
+
+<ul>
+  <li>Load a keymap from the specified file for the console:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loadkeys --console </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyN</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/file</span></p>
+
+<ul>
+  <li>Use standard names for keymaps of different locales:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">loadkeys --console </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyN</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uk</span></p>

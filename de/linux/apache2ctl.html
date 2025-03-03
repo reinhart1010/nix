@@ -1,0 +1,35 @@
+<h1 id="apache2ctl">apache2ctl</h1>
+
+<p>Das CLI Tool um den Apache HTTP Web Server zu administrieren.
+Dieser Befehl wird mit Debian-basierten Betriebssystemen geliefert, für RHEL siehe <code class="language-plaintext highlighter-rouge">httpd</code>.
+Weitere Informationen: <a href="https://manned.org/apache2ctl.8">https://manned.org/apache2ctl.8</a>.</p>
+
+<ul>
+  <li>Starte den Apache daemon. Gibt einen Fehler aus, wenn er bereits läuft:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apache2ctl start</code></p>
+
+<ul>
+  <li>Stoppe den Apache Daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apache2ctl stop</code></p>
+
+<ul>
+  <li>Starte den Apache Daemon neu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apache2ctl restart</code></p>
+
+<ul>
+  <li>Überprüfe die Syntax einer Konfigurationsdatei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apache2ctl -t</code></p>
+
+<ul>
+  <li>Liste alle geladenen Module auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apache2ctl -M</code></p>

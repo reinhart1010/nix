@@ -1,0 +1,46 @@
+<h1 id="hdparm">hdparm</h1>
+
+<p>Get and set SATA and IDE hard drive parameters.
+More information: <a href="https://manned.org/hdparm">https://manned.org/hdparm</a>.</p>
+
+<ul>
+  <li>Request the identification info of a given device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo hdparm -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/device</span></p>
+
+<ul>
+  <li>Get the Advanced Power Management level:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo hdparm -B </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/device</span></p>
+
+<ul>
+  <li>Set the Advanced Power Management value (values 1-127 permit spin-down, and values 128-254 do not):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo hdparm -B </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/device</span></p>
+
+<ul>
+  <li>Display the device's current power mode status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo hdparm -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/device</span></p>
+
+<ul>
+  <li>Force a drive to immediately enter standby mode (usually causes a drive to spin down):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo hdparm -y </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/device</span></p>
+
+<ul>
+  <li>Put the drive into idle (low-power) mode, also setting its standby timeout:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo hdparm -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">standby_timeout</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device</span></p>
+
+<ul>
+  <li>Test the read speed of a specific device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo hdparm -tT </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device</span></p>

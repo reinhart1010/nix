@@ -1,0 +1,40 @@
+<h1 id="adb-install">adb install</h1>
+
+<p>Android Debug Bridge Install: Установка пакетов на эмулятор Android или подключённое устройство Android.
+Больше информации: <a href="https://developer.android.com/tools/adb">https://developer.android.com/tools/adb</a>.</p>
+
+<ul>
+  <li>Установить приложение Android на эмулятор/устройство:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла.apk</span></p>
+
+<ul>
+  <li>Установить приложение Android на конкретный эмулятор/устройство (отменяет использование <code class="language-plaintext highlighter-rouge">$ANDROID_SERIAL</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">серийный_номер</span><code class="language-plaintext highlighter-rouge"> install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла.apk</span></p>
+
+<ul>
+  <li>Переустановить существующее приложение, оставив его данные:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла.apk</span></p>
+
+<ul>
+  <li>Установить приложение Android, разрешив понижение версии (только для отлаживаемых пакетов):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла.apk</span></p>
+
+<ul>
+  <li>Дать все разрешения, перечисленные в манифесте приложения:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла.apk</span></p>
+
+<ul>
+  <li>Быстрое обновление установленного пакета путём обновления только тех частей APK, которые изменились:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install --fastdeploy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла.apk</span></p>

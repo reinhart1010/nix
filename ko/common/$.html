@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="dollar-sign">Dollar sign</h1>
+
+<p>bash 변수를 확장.
+더 많은 정보: <a href="https://gnu.org/software/bash/manual/bash.html#Shell-Variables">https://gnu.org/software/bash/manual/bash.html#Shell-Variables</a>.</p>
+
+<ul>
+  <li>변수 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변수</span></p>
+
+<ul>
+  <li>이전 명령의 종료 상태를 인쇄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $?</code></p>
+
+<ul>
+  <li>0에서 32767 사이의 임의의 숫자를 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $RANDOM</code></p>
+
+<ul>
+  <li>프롬프트 문자열 중 하나를 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PS1|PS2|PS3|PS4</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">command</code> 출력으로 확장하여 실행. 백틱을 통해 <code class="language-plaintext highlighter-rouge">command</code>를 묶는 것과 같음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">$(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge">)</code></p>

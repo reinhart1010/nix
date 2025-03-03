@@ -1,0 +1,29 @@
+<h1 id="kind">kind</h1>
+
+<p>Docker 컨테이너 "노드"를 사용하여 로컬 Kubernetes 클러스터를 실행.
+Kubernetes 자체 테스트를 위해 설계되었으나, 로컬 개발이나 지속적 통합에도 사용 가능.
+더 많은 정보: <a href="https://github.com/kubernetes-sigs/kind">https://github.com/kubernetes-sigs/kind</a>.</p>
+
+<ul>
+  <li>로컬 Kubernetes 클러스터 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kind create cluster --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span></p>
+
+<ul>
+  <li>하나 이상의 클러스터 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kind delete clusters </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클러스터_이름</span></p>
+
+<ul>
+  <li>클러스터, 노드 또는 kubeconfig에 대한 세부 정보 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kind get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clusters|nodes|kubeconfig</span></p>
+
+<ul>
+  <li>kubeconfig 또는 로그 내보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kind export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kubeconfig|logs</span></p>

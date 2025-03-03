@@ -1,0 +1,53 @@
+<h1 id="nvim">nvim</h1>
+
+<p>Neovim, un editor di testo basato su Vim che offre molti diversi modi di manipolare e navigare il testo.
+Premere <code class="language-plaintext highlighter-rouge">i</code> per entrare in modalità inserimento (insert mode), <code class="language-plaintext highlighter-rouge">&lt;Esc&gt;</code> per uscire e tornare alla modalità normale (normal mode).
+Maggiori informazioni: <a href="https://neovim.io">https://neovim.io</a>.</p>
+
+<ul>
+  <li>Aprire un file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nvim </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Entrare nella modalità per scrivere testo (insert mode):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;i</code></p>
+
+<ul>
+  <li>Copiare ("yank") o cancellare ("delete") la linea corrente (può poi essere copiata con <code class="language-plaintext highlighter-rouge">p</code> o <code class="language-plaintext highlighter-rouge">P</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yy|dd</span></p>
+
+<ul>
+  <li>Annullare l'ultima operazione fatta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;u</code></p>
+
+<ul>
+  <li>Cercare uno specifico pattern nel file (premere <code class="language-plaintext highlighter-rouge">n</code>/<code class="language-plaintext highlighter-rouge">N</code> per navigare tra le occorrenze successive/precedenti):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patter_da_cercare</span><code class="language-plaintext highlighter-rouge">&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>Eseguire una sostituzione tramite espressione regolare nell'intero file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;:%s/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">espressione_regolare</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sostituzione</span><code class="language-plaintext highlighter-rouge">/g&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>Salvare (scrivere) il file per poi uscire:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>&lt;/span&gt;</Enter></Esc></Enter></Esc></Esc></span></p>
+
+<ul>
+  <li>Uscire senza salvare:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;:q!&lt;Enter&gt;</code></p>

@@ -1,0 +1,46 @@
+<h1 id="monop">monop</h1>
+
+<p>Finds and displays signatures of Types and methods inside .NET assemblies.
+More information: <a href="https://manned.org/monop">https://manned.org/monop</a>.</p>
+
+<ul>
+  <li>Show the structure of a Type built-in of the .NET Framework:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">monop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">System.String</span></p>
+
+<ul>
+  <li>List the types in an assembly:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">monop -r:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/assembly.exe</span></p>
+
+<ul>
+  <li>Show the structure of a Type in a specific assembly:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">monop -r:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/assembly.dll</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Namespace.Path.To.Type</span></p>
+
+<ul>
+  <li>Only show members defined in the specified Type:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">monop -r:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/assembly.dll</span><code class="language-plaintext highlighter-rouge"> --only-declared </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Namespace.Path.To.Type</span></p>
+
+<ul>
+  <li>Show private members:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">monop -r:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/assembly.dll</span><code class="language-plaintext highlighter-rouge"> --private </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Namespace.Path.To.Type</span></p>
+
+<ul>
+  <li>Hide obsolete members:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">monop -r:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/assembly.dll</span><code class="language-plaintext highlighter-rouge"> --filter-obsolete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Namespace.Path.To.Type</span></p>
+
+<ul>
+  <li>List the other assemblies that a specified assembly references:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">monop -r:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/assembly.dll</span><code class="language-plaintext highlighter-rouge"> --refs</code></p>

@@ -1,0 +1,25 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="system_profiler">system_profiler</h1>
+
+<p>报告系统硬件和软件配置。
+更多信息：<a href="https://keith.github.io/xcode-man-pages/system_profiler.8.html">https://keith.github.io/xcode-man-pages/system_profiler.8.html</a>.</p>
+
+<ul>
+  <li>显示可由 System Profiler.app 打开的完整系统资源报告：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">system_profiler -xml &gt; MyReport.spx</code></p>
+
+<ul>
+  <li>显示硬件概述（型号、CPU、内存、串行等）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">system_profiler SPHardwareDataType</code></p>
+
+<ul>
+  <li>打印系统序列号：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">system_profiler SPHardwareDataType|grep "Serial Number (system)" |awk '{print $4}'</code></p>

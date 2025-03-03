@@ -1,0 +1,34 @@
+<h1 id="crane-copy">crane copy</h1>
+
+<p>Kopieer efficiënt een remote image van bron naar doel terwijl de digest-waarde behouden blijft.
+Meer informatie: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_copy.md">https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_copy.md</a>.</p>
+
+<ul>
+  <li>Kopieer een image van bron naar doel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bron</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doel</span></p>
+
+<ul>
+  <li>Kopieer alle tags:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bron</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doel</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–all-tags</span></p>
+
+<ul>
+  <li>Stel het maximum aantal gelijktijdige kopieën in, standaard is GOMAXPROCS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bron</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doel</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-j|–jobs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">int</span></p>
+
+<ul>
+  <li>Voorkom het overschrijven van bestaande tags in het doel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bron</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doel</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–no-clobber</span></p>
+
+<ul>
+  <li>Toon de help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span></p>

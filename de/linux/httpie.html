@@ -1,0 +1,52 @@
+<h1 id="httpie">httpie</h1>
+
+<p>Ein benutzerfreundliches HTTP-Tool.
+Weitere Informationen: <a href="https://github.com/httpie/httpie">https://github.com/httpie/httpie</a>.</p>
+
+<ul>
+  <li>Sende eine GET-Anfrage (Standardmethode ohne Anfragedaten):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Sende eine POST-Anfrage (Standardmethode mit Anfragedaten):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hello=World</span></p>
+
+<ul>
+  <li>Sende eine POST-Anfrage mit einer Datei als Eingabe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.json</span></p>
+
+<ul>
+  <li>Sende eine PUT-Anfrage mit einem bestimmten JSON-Body:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http PUT </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/todos/7</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hello=world</span></p>
+
+<ul>
+  <li>Sende eine DELETE-Anfrage mit einem bestimmten Anfrage-Header:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http DELETE </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/todos/7</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">API-Key:foo</span></p>
+
+<ul>
+  <li>Zeige den gesamten HTTP-Austausch (sowohl Anfrage als auch Antwort):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Lade eine Datei herunter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --download </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Folge Umleitungen und zeige Zwischenanfragen und -antworten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --follow --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>

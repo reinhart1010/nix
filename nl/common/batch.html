@@ -1,0 +1,24 @@
+<h1 id="batch">batch</h1>
+
+<p>Voer commando's uit op een later tijdstip wanneer de systeembelasting het toelaat.
+Resultaten worden verzonden naar de e-mail van de gebruiker.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">at</code>, <code class="language-plaintext highlighter-rouge">atq</code>, <code class="language-plaintext highlighter-rouge">atrm</code> <code class="language-plaintext highlighter-rouge">mail</code>.
+Meer informatie: <a href="https://manned.org/batch">https://manned.org/batch</a>.</p>
+
+<ul>
+  <li>Start de <code class="language-plaintext highlighter-rouge">atd</code> daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl start atd</code></p>
+
+<ul>
+  <li>Voer commando's uit vanaf <code class="language-plaintext highlighter-rouge">stdin</code> (druk op <code class="language-plaintext highlighter-rouge">Ctrl + D</code> om te stoppen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">batch</code></p>
+
+<ul>
+  <li>Voer een commando uit vanaf <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./make_db_backup.sh</span><code class="language-plaintext highlighter-rouge">" | batch</code></p>

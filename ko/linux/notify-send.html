@@ -1,0 +1,28 @@
+<h1 id="notify-send">notify-send</h1>
+
+<p>현재 데스크톱 환경의 알림 시스템을 사용하여 알림을 생성합니다.
+더 많은 정보: <a href="https://manned.org/notify-send">https://manned.org/notify-send</a>.</p>
+
+<ul>
+  <li>제목 "Test"와 내용 "This is a test"로 알림 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">notify-send "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Test</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">This is a test</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>사용자 지정 아이콘과 함께 알림 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">notify-send -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아이콘.png</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테스트</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이것은 테스트입니다</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>5초 동안 알림 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">notify-send -t 5000 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테스트</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이것은 테스트입니다</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>앱의 아이콘과 이름으로 알림 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">notify-send "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Test</span><code class="language-plaintext highlighter-rouge">" --icon=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">google-chrome</span><code class="language-plaintext highlighter-rouge"> --app-name="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Google Chrome</span><code class="language-plaintext highlighter-rouge">"</code></p>

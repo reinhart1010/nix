@@ -1,0 +1,53 @@
+<h1 id="brew-cask">brew –cask</h1>
+
+<p>CLI workflow for the administration of macOS applications distributed as binaries.
+This command was previously called <code class="language-plaintext highlighter-rouge">brew cask</code>, it has been deprecated in favor of the <code class="language-plaintext highlighter-rouge">brew --cask</code> flag.
+More information: <a href="https://github.com/Homebrew/homebrew-cask">https://github.com/Homebrew/homebrew-cask</a>.</p>
+
+<ul>
+  <li>Search for formulas and casks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brew search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text</span></p>
+
+<ul>
+  <li>Install a cask:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brew install --cask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cask_name</span></p>
+
+<ul>
+  <li>List all installed casks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brew list --cask</code></p>
+
+<ul>
+  <li>List installed casks that have newer versions available:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brew outdated --cask</code></p>
+
+<ul>
+  <li>Upgrade an installed cask (if no cask name is given, all installed casks are upgraded):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brew upgrade --cask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cask_name</span></p>
+
+<ul>
+  <li>Uninstall a cask:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brew uninstall --cask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cask_name</span></p>
+
+<ul>
+  <li>Uninstall a cask and remove related settings and files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brew zap --cask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cask_name</span></p>
+
+<ul>
+  <li>Display information about a given cask:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brew info --cask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cask_name</span></p>

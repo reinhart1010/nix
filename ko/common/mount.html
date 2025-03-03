@@ -1,0 +1,52 @@
+<h1 id="mount">mount</h1>
+
+<p>하나의 폴더에 있는 전체 파일 시스템에 대한 접근을 제공합니다.
+더 많은 정보: <a href="https://manned.org/mount.8">https://manned.org/mount.8</a>.</p>
+
+<ul>
+  <li>모든 마운트된 파일 시스템 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount</code></p>
+
+<ul>
+  <li>장치를 디렉토리에 마운트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일시스템_타입</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/장치_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉토리</span></p>
+
+<ul>
+  <li>존재하지 않을 때 특정 폴더를 생성하고, 해당 폴더에 장치를 마운트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount --mkdir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/장치_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/대상_폴더</span></p>
+
+<ul>
+  <li>특정 사용자로 장치를 디렉토리에 마운트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -o uid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_ID</span><code class="language-plaintext highlighter-rouge">,gid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹_ID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/장치_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉토리</span></p>
+
+<ul>
+  <li>CD-ROM 장치(파일 타입 ISO9660)를 <code class="language-plaintext highlighter-rouge">/cdrom</code>에 마운트 (읽기 전용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">iso9660</span><code class="language-plaintext highlighter-rouge"> -o ro </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/cdrom</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/cdrom</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">/etc/fstab</code>에 정의된 모든 파일 시스템을 마운트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -a</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">/etc/fstab</code>에 설정된 특정 파일 시스템을 마운트 (예, <code class="language-plaintext highlighter-rouge">/dev/sda1 /my_drive ext2 defaults 0 2</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/my_drive</span></p>
+
+<ul>
+  <li>디렉토리를 다른 디렉토리에 마운트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount --bind </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/기존_디렉토리</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/새로운_디렉토리</span></p>

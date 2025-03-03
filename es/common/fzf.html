@@ -1,0 +1,41 @@
+<h1 id="fzf">fzf</h1>
+
+<p>Buscador aproximado (fuzzy search) de la línea de comando.
+Parecido a <code class="language-plaintext highlighter-rouge">sk</code>.
+Más información: <a href="https://github.com/junegunn/fzf">https://github.com/junegunn/fzf</a>.</p>
+
+<ul>
+  <li>Aplica <code class="language-plaintext highlighter-rouge">fzf</code> a todos los archivos en el directorio especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span><code class="language-plaintext highlighter-rouge"> -type f | fzf</code></p>
+
+<ul>
+  <li>Aplica <code class="language-plaintext highlighter-rouge">fzf</code> a los procesos en ejecución:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps aux | fzf</code></p>
+
+<ul>
+  <li>Selecciona varios archivos con <code class="language-plaintext highlighter-rouge">Shift + Tab</code> y los escribe a un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span><code class="language-plaintext highlighter-rouge"> -type f | fzf --multi &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Aplica <code class="language-plaintext highlighter-rouge">fzf</code> con una consulta especificada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fzf --query "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">consulta</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Aplica <code class="language-plaintext highlighter-rouge">fzf</code> en las entradas que comienzan con <code class="language-plaintext highlighter-rouge">programa</code> y finalizan con <code class="language-plaintext highlighter-rouge">go</code>, <code class="language-plaintext highlighter-rouge">rb</code>, o <code class="language-plaintext highlighter-rouge">py</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fzf --query "^programa go$ | rb$ | py$"</code></p>
+
+<ul>
+  <li>Aplica <code class="language-plaintext highlighter-rouge">fzf</code> en entradas que no coinciden con <code class="language-plaintext highlighter-rouge">pyc</code> y coinciden exactamente con <code class="language-plaintext highlighter-rouge">travis</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fzf --query "!pyc 'travis"</code></p>

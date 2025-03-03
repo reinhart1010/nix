@@ -1,0 +1,28 @@
+<h1 id="flac">flac</h1>
+
+<p>Codifica, decodifica e controlla file flac.
+Maggiori informazioni: <a href="https://xiph.org/flac">https://xiph.org/flac</a>.</p>
+
+<ul>
+  <li>Converte un file wav in un file flac (questo creerà un file flac nella medesima posizione del file wav):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flac </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.wav</span></p>
+
+<ul>
+  <li>Codifica un file wav in flac, specificando il nome del risultato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flac -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_compresso.flac</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_originale.wav</span></p>
+
+<ul>
+  <li>Decodifica un file wav in flac, specificando il nome del risultato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flac -d -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_decompresso.wav</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_originale.flac</span></p>
+
+<ul>
+  <li>Controlla che un file flac sia codificato correttamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flac -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.flac</span></p>

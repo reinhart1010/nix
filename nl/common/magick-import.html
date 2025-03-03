@@ -1,0 +1,23 @@
+<h1 id="magick-import">magick import</h1>
+
+<p>Leg een deel of het geheel van een X server scherm vast en sla de afbeelding op in een bestand.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">magick</code>.
+Meer informatie: <a href="https://imagemagick.org/script/import.php">https://imagemagick.org/script/import.php</a>.</p>
+
+<ul>
+  <li>Leg het hele X server scherm vast in een PostScript bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick import -window root </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.ps</span></p>
+
+<ul>
+  <li>Leg de inhoud van een extern X server scherm vast in een PNG afbeelding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick import -window root -display </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externe_host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scherm</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">display</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.png</span></p>
+
+<ul>
+  <li>Leg een specifiek venster vast op basis van zijn ID zoals weergegeven door <code class="language-plaintext highlighter-rouge">xwininfo</code> in een JPEG-afbeelding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick import -window </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">window_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.jpg</span></p>

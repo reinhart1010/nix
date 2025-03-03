@@ -1,0 +1,52 @@
+<h1 id="flatpak">flatpak</h1>
+
+<p>Constrói, instala e executa aplicações e plataformas flatpak.
+Mais informações: <a href="https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak">https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak</a>.</p>
+
+<ul>
+  <li>Executa uma aplicação instalada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.exemplo.aplicacao</span></p>
+
+<ul>
+  <li>Instala uma aplicação de uma fonte remota:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_remoto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.exemplo.aplicacao</span></p>
+
+<ul>
+  <li>Lista aplicações instaladas, ignorando plataformas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak list --app</code></p>
+
+<ul>
+  <li>Atualiza todas as aplicações e plataformas instaladas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak update</code></p>
+
+<ul>
+  <li>Adiciona uma fonte remota:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak remote-add --if-not-exists </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_remoto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_remoto</span></p>
+
+<ul>
+  <li>Remove uma aplicação instalada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.exemplo.aplicacao</span></p>
+
+<ul>
+  <li>Remove todos as aplicações não usadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak remove --unused</code></p>
+
+<ul>
+  <li>Mostra informações sobre uma aplicação instalada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.exemplo.aplicacao</span></p>

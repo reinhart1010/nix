@@ -1,0 +1,40 @@
+<h1 id="mate-search-tool">mate-search-tool</h1>
+
+<p>MATE 데스크톱 환경에서 파일 검색.
+더 많은 정보: <a href="https://manned.org/mate-search-tool">https://manned.org/mate-search-tool</a>.</p>
+
+<ul>
+  <li>특정 디렉토리에서 이름에 특정 문자열이 포함된 파일 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mate-search-tool --named=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge"> --path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>사용자 확인을 기다리지 않고 파일 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mate-search-tool --start --named=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge"> --path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>특정 정규 표현식과 일치하는 이름의 파일 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mate-search-tool --start --regex=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge"> --path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>검색 결과 정렬 순서 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mate-search-tool --start --named=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge"> --path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> --sortby=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|folder|size|type|date</span></p>
+
+<ul>
+  <li>내림차순 정렬 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mate-search-tool --start --named=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge"> --path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> --descending</code></p>
+
+<ul>
+  <li>특정 사용자/그룹 소유의 파일 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mate-search-tool --start --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user|group</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge"> --path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>

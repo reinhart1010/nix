@@ -1,0 +1,47 @@
+<h1 id="bc">bc</h1>
+
+<p>임의의 정밀 계산기 언어.
+참조: <code class="language-plaintext highlighter-rouge">dc</code>, <code class="language-plaintext highlighter-rouge">qalc</code>.
+더 많은 정보: <a href="https://manned.org/bc">https://manned.org/bc</a>.</p>
+
+<ul>
+  <li>대화형 세션을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc</code></p>
+
+<ul>
+  <li>표준 수학 라이브러리([l]ibrary)가 활성화된 상태에서 대화형([i]nteractive) 세션을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc --interactive --mathlib</code></p>
+
+<ul>
+  <li>표현식을 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span><code class="language-plaintext highlighter-rouge">' | bc</code></p>
+
+<ul>
+  <li>스크립트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트.bc</span></p>
+
+<ul>
+  <li>지정된 척도를 사용해 표현식을 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo 'scale = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge">; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span><code class="language-plaintext highlighter-rouge">' | bc</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">mathlib</code>을 사용하여 사인/코사인/아크탄젠트/자연 로그/지수 함수를 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s|c|a|l|e</span><code class="language-plaintext highlighter-rouge">(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge">)' | bc --mathlib</code></p>
+
+<ul>
+  <li>인라인 계승 스크립트를 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "define factorial(n) { if (n &lt;= 1) return 1; return n*factorial(n-1); }; factorial(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge">)" | bc</code></p>

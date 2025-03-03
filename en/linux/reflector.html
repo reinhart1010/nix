@@ -1,0 +1,28 @@
+<h1 id="reflector">reflector</h1>
+
+<p>Arch script to fetch and sort mirrorlists.
+More information: <a href="https://manned.org/reflector">https://manned.org/reflector</a>.</p>
+
+<ul>
+  <li>Get all mirrors, sort for download speed and save them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo reflector --sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rate</span><code class="language-plaintext highlighter-rouge"> --save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/etc/pacman.d/mirrorlist</span></p>
+
+<ul>
+  <li>Only get German HTTPS mirrors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reflector --country </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Germany</span><code class="language-plaintext highlighter-rouge"> --protocol </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https</span></p>
+
+<ul>
+  <li>Only get the 10 recently sync'd mirrors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reflector --latest </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Use a configuration file to fetch mirrors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo reflector @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/etc/xdg/reflector/reflector.conf</span></p>

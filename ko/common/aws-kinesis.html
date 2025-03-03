@@ -1,0 +1,40 @@
+<h1 id="aws-kinesis">aws kinesis</h1>
+
+<p>빅데이터를 스트리밍하는 실시간 처리를 위해 탄력적으로 확장되는 서비스인, Amazon Kinesis Data Streams와 상호작용함.
+더 많은 정보: <a href="https://docs.aws.amazon.com/cli/latest/reference/kinesis/index.html#cli-aws-kinesis">https://docs.aws.amazon.com/cli/latest/reference/kinesis/index.html#cli-aws-kinesis</a>.</p>
+
+<ul>
+  <li>계정의 모든 스트림 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kinesis list-streams</code></p>
+
+<ul>
+  <li>Kinesis 스트림에 하나의 레코드 쓰기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kinesis put-record --stream-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --partition-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키</span><code class="language-plaintext highlighter-rouge"> --data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base64로_인코딩된_메시지</span></p>
+
+<ul>
+  <li>인라인 base64 인코딩을 사용하여 Kinesis 스트림에 레코드를 씀:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kinesis put-record --stream-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --partition-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키</span><code class="language-plaintext highlighter-rouge"> --data "$( echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my raw message</span><code class="language-plaintext highlighter-rouge">" | base64 )"</code></p>
+
+<ul>
+  <li>스트림에서 사용 가능한 shard를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kinesis list-shards --stream-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>스트림의 shard에서 가장 오래된 메시지를 읽기 위한 shard 반복자를 가져옴:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kinesis get-shard-iterator --shard-iterator-type TRIM_HORIZON --stream-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --shard-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아이디</span></p>
+
+<ul>
+  <li>shard 반복자를 사용하여, shard에서 레코드를 읽음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kinesis get-records --shard-iterator </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">반복자</span></p>

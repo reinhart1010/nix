@@ -1,0 +1,28 @@
+<h1 id="tspin">tspin</h1>
+
+<p>A log file highlighter based on the <code class="language-plaintext highlighter-rouge">less</code> pager and basically behaves like any pager.
+More information: <a href="https://github.com/bensadeh/tailspin">https://github.com/bensadeh/tailspin</a>.</p>
+
+<ul>
+  <li>Read from file and view in <code class="language-plaintext highlighter-rouge">less</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tspin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/application.log</span></p>
+
+<ul>
+  <li>Read from another command and print to stdout:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl -b --follow | tspin</code></p>
+
+<ul>
+  <li>Read from file and print to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tspin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/application.log</span><code class="language-plaintext highlighter-rouge"> --print</code></p>
+
+<ul>
+  <li>Read from <code class="language-plaintext highlighter-rouge">stdin</code> and print to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "2021-01-01 12:00:00 [INFO] This is a log message" | tspin</code></p>

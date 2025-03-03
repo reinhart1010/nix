@@ -1,0 +1,52 @@
+<h1 id="ftp">ftp</h1>
+
+<p>Trasferisci file in modo interattivo tra un server FTP locale e remoto.
+Maggiori informazioni: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/ftp">https://learn.microsoft.com/windows-server/administration/windows-commands/ftp</a>.</p>
+
+<ul>
+  <li>Connettiti a un server FTP remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Accedi come utente anonimo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Disabilita l'accesso automatico alla connessione iniziale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Esegui un file contenente una lista di comandi FTP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp -s:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso\to\file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Carica file (espressione glob):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.png</span></p>
+
+<ul>
+  <li>Carica file (espressione glob):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mput </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.zip</span></p>
+
+<ul>
+  <li>Cancella file sul server remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mdelete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span></p>
+
+<ul>
+  <li>Mostra la pagina di aiuto dettagliato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp --help</code></p>

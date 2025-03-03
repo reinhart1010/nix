@@ -1,0 +1,34 @@
+<h1 id="hledger-add">hledger add</h1>
+
+<p>Record new transactions with interactive prompting in the console.
+More information: <a href="https://hledger.org/hledger.html#add">https://hledger.org/hledger.html#add</a>.</p>
+
+<ul>
+  <li>Record new transactions, saving to the default journal file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger add</code></p>
+
+<ul>
+  <li>Add transactions to <code class="language-plaintext highlighter-rouge">2024.journal</code>, but also load <code class="language-plaintext highlighter-rouge">2023.journal</code> for completions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger add --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/2024.journal</span><code class="language-plaintext highlighter-rouge"> --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/2023.journal</span></p>
+
+<ul>
+  <li>Provide answers for the first four prompts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">today</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">best buy</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expenses:supplies</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$20</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Show <code class="language-plaintext highlighter-rouge">add</code>'s options and documentation with <code class="language-plaintext highlighter-rouge">$PAGER</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger add --help</code></p>
+
+<ul>
+  <li>Show <code class="language-plaintext highlighter-rouge">add</code>'s documentation with <code class="language-plaintext highlighter-rouge">info</code> or <code class="language-plaintext highlighter-rouge">man</code> if available:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger help add</code></p>

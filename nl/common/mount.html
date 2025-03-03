@@ -1,0 +1,52 @@
+<h1 id="mount">mount</h1>
+
+<p>Krijg toegang tot een volledig bestandssysteem in één directory.
+Meer informatie: <a href="https://manned.org/mount.8">https://manned.org/mount.8</a>.</p>
+
+<ul>
+  <li>Toon alle aangekoppelde bestandssystemen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount</code></p>
+
+<ul>
+  <li>Koppel een apparaat aan een directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestandssysteem_type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/apparaatbestand</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/doelmap</span></p>
+
+<ul>
+  <li>Maak een specifieke directory als deze niet bestaat en koppel een apparaat eraan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount --mkdir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/apparaatbestand</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/doelmap</span></p>
+
+<ul>
+  <li>Koppel een apparaat aan een directory voor een specifieke gebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -o uid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruiker_id</span><code class="language-plaintext highlighter-rouge">,gid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groep_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/apparaatbestand</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/doelmap</span></p>
+
+<ul>
+  <li>Koppel een CD-ROM-apparaat (met het bestandstype ISO9660) aan <code class="language-plaintext highlighter-rouge">/cdrom</code> (alleen-lezen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">iso9660</span><code class="language-plaintext highlighter-rouge"> -o ro </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/cdrom</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/cdrom</span></p>
+
+<ul>
+  <li>Koppel alle bestandssystemen die zijn gedefinieerd in <code class="language-plaintext highlighter-rouge">/etc/fstab</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -a</code></p>
+
+<ul>
+  <li>Koppel een specifiek bestandssysteem zoals beschreven in <code class="language-plaintext highlighter-rouge">/etc/fstab</code> (bijv. <code class="language-plaintext highlighter-rouge">/dev/sda1 /my_drive ext2 defaults 0 2</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/my_drive</span></p>
+
+<ul>
+  <li>Koppel een directory aan een andere directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount --bind </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/oude_map</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/nieuwe_map</span></p>

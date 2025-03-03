@@ -1,0 +1,40 @@
+<h1 id="foreman">foreman</h1>
+
+<p>Manage Procfile-based applications.
+More information: <a href="https://manned.org/foreman">https://manned.org/foreman</a>.</p>
+
+<ul>
+  <li>Start an application with the Procfile in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">foreman start</code></p>
+
+<ul>
+  <li>Start an application with a specified Procfile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">foreman start -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Procfile</span></p>
+
+<ul>
+  <li>Start a specific application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">foreman start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process</span></p>
+
+<ul>
+  <li>Validate Procfile format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">foreman check</code></p>
+
+<ul>
+  <li>Run one-off commands with the process's environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">foreman run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Start all processes except the one named "worker":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">foreman start -m all=1,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">worker</span><code class="language-plaintext highlighter-rouge">=0</code></p>

@@ -1,0 +1,34 @@
+<h1 id="for">for</h1>
+
+<p>조건에 따라 명령을 여러 번 실행.
+더 많은 정보: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/for">https://learn.microsoft.com/windows-server/administration/windows-commands/for</a>.</p>
+
+<ul>
+  <li>지정된 집합에 대해 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변수</span><code class="language-plaintext highlighter-rouge"> in (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">항목_a 항목_b 항목_c</span><code class="language-plaintext highlighter-rouge">) do (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 루프가 실행됩니다</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>주어진 숫자 범위를 반복:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for /l %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변수</span><code class="language-plaintext highlighter-rouge"> in (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">시작</span><code class="language-plaintext highlighter-rouge">, </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">단계</span><code class="language-plaintext highlighter-rouge">, </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">끝</span><code class="language-plaintext highlighter-rouge">) do (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 루프가 실행됩니다</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>주어진 파일 목록을 반복:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변수</span><code class="language-plaintext highlighter-rouge"> in (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\파일1.ext 경로\대상\파일2.ext …</span><code class="language-plaintext highlighter-rouge">) do (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 루프가 실행됩니다</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>주어진 디렉토리 목록을 반복:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for /d %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변수</span><code class="language-plaintext highlighter-rouge"> in (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\폴더1.ext 경로\대상\폴더2.ext …</span><code class="language-plaintext highlighter-rouge">) do (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 루프가 실행됩니다</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>모든 디렉토리에서 지정된 명령 수행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">for /d %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변수</span><code class="language-plaintext highlighter-rouge"> in (*) do (if exist %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변수</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 루프가 실행됩니다</span><code class="language-plaintext highlighter-rouge">)</code></p>

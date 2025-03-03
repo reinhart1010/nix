@@ -1,0 +1,35 @@
+<h1 id="lrztar">lrztar</h1>
+
+<p>A wrapper for <code class="language-plaintext highlighter-rouge">lrzip</code> to simplify compression of directories.
+See also: <code class="language-plaintext highlighter-rouge">tar</code>, <code class="language-plaintext highlighter-rouge">lrzuntar</code>, <code class="language-plaintext highlighter-rouge">lrunzip</code>.
+More information: <a href="https://manned.org/lrztar">https://manned.org/lrztar</a>.</p>
+
+<ul>
+  <li>Archive a directory with tar, then compress:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lrztar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Same as above, with ZPAQ - extreme compression, but very slow:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lrztar -z </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Specify the output file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lrztar -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Override the number of processor threads to use:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lrztar -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Force overwriting of existing files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lrztar -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

@@ -1,0 +1,52 @@
+<h1 id="tmt-run">tmt run</h1>
+
+<p>执行测试步骤。默认情况下，所有测试步骤都被执行。
+更多信息：<a href="https://tmt.readthedocs.io/en/stable/overview.html#run">https://tmt.readthedocs.io/en/stable/overview.html#run</a>.</p>
+
+<ul>
+  <li>在每一个计划中执行所有测试步骤：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt run</code></p>
+
+<ul>
+  <li>仅在发现步骤中显示将要执行的测试：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt run discover -v</code></p>
+
+<ul>
+  <li>运行所有测试步骤并调整测试环境配置步骤选项：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt run --all provision --how </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container</span><code class="language-plaintext highlighter-rouge"> --image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora:rawhide</span></p>
+
+<ul>
+  <li>仅执行选定的计划和测试：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt run plan --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/plan/name</span><code class="language-plaintext highlighter-rouge"> test --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/test/name</span></p>
+
+<ul>
+  <li>在网页浏览器中显示上次运行的结果：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt run --last report --how </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">html</span><code class="language-plaintext highlighter-rouge"> --open</code></p>
+
+<ul>
+  <li>在提供的上下文中运行测试：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt run --context </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key=value</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distro=fedora</span></p>
+
+<ul>
+  <li>以交互方式运行测试（在测试运行过程中调试测试代码）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt run --all execute --how </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmt</span><code class="language-plaintext highlighter-rouge"> --interactive</code></p>
+
+<ul>
+  <li>使用干模式查看接下来将发生的动作，并将输出详实度设置为最高级：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmt run --dry -vvv</code></p>

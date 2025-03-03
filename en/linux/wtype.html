@@ -1,0 +1,41 @@
+<h1 id="wtype">wtype</h1>
+
+<p>Simulate keyboard input on Wayland, similar to <code class="language-plaintext highlighter-rouge">xdotool type</code> for X11.
+See also: <code class="language-plaintext highlighter-rouge">ydotool</code>.
+More information: <a href="https://github.com/atx/wtype">https://github.com/atx/wtype</a>.</p>
+
+<ul>
+  <li>Simulate typing text:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wtype "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Type a specific key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wtype -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Left</span></p>
+
+<ul>
+  <li>Press a modifier:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wtype -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shift|ctrl|…</span></p>
+
+<ul>
+  <li>Release a modifier:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wtype -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ctrl</span></p>
+
+<ul>
+  <li>Wait between keystrokes (in milliseconds):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wtype -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">500</span><code class="language-plaintext highlighter-rouge"> -- "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Read text from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text</span><code class="language-plaintext highlighter-rouge">" | wtype -</code></p>

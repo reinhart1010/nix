@@ -1,0 +1,36 @@
+<h1 id="sockstat">sockstat</h1>
+
+<p>Toon open Internet- of UNIX-domeinsockets.
+Let op: dit programma is hergeschreven voor NetBSD 3.0 van FreeBSD's <code class="language-plaintext highlighter-rouge">sockstat</code>.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">netstat</code>.
+Meer informatie: <a href="https://man.netbsd.org/sockstat.1">https://man.netbsd.org/sockstat.1</a>.</p>
+
+<ul>
+  <li>Toon informatie voor IPv4- en IPv6-sockets voor zowel luister- als verbonden sockets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat</code></p>
+
+<ul>
+  <li>Toon informatie voor IPv[4]/IPv[6] sockets die [l]uisteren op specifieke [p]oorten met een specifiek [P]rotocol:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4|6</span><code class="language-plaintext highlighter-rouge"> -l -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp|udp|sctp|divert</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port1,port2…</span></p>
+
+<ul>
+  <li>Toon ook [c]onnected sockets en [u]nix-sockets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -cu</code></p>
+
+<ul>
+  <li>Toon alleen [n]umerieke output, zonder symbolische namen voor adressen en poorten te resolven:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -n</code></p>
+
+<ul>
+  <li>Toon alleen sockets van de opgegeven adres[f]amilie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inet|inet6|local|unix</span></p>

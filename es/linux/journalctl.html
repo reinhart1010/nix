@@ -1,0 +1,52 @@
+<h1 id="journalctl">journalctl</h1>
+
+<p>Consulta el registro systemd.
+Más información: <a href="https://manned.org/journalctl">https://manned.org/journalctl</a>.</p>
+
+<ul>
+  <li>Muestra todos los mensajes con nivel de prioridad 3 (errores) de este [b]oot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl -b --priority=3</code></p>
+
+<ul>
+  <li>Elimina los registros diarios con más de 2 días de antigüedad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl --vacuum-time=2d</code></p>
+
+<ul>
+  <li>Muestra solo las últimas N líneas y sigue los mensajes nuevos (como <code class="language-plaintext highlighter-rouge">tail -f</code> de un syslog tradicional):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl --lines </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span><code class="language-plaintext highlighter-rouge"> --follow</code></p>
+
+<ul>
+  <li>Muestra todos los mensajes de una [u]nidad específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl --unit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span></p>
+
+<ul>
+  <li>Muestra los registros de una unidad determinada desde la última vez que se inició:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl _SYSTEMD_INVOCATION_ID=$(systemctl show --value --property=InvocationID </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Filtra mensajes dentro de un intervalo de tiempo (marca de tiempo o marcadores de posición como "ayer"):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl --since </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">now|today|yesterday|tomorrow</span><code class="language-plaintext highlighter-rouge"> --until "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD HH:MM:SS</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Muestra todos los mensajes de un proceso específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl _PID=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Mostrar todos los mensajes de un ejecutable específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">journalctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/ejecutable</span></p>

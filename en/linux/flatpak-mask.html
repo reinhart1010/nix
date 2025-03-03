@@ -1,0 +1,22 @@
+<h1 id="flatpak-mask">flatpak mask</h1>
+
+<p>Mask out updates and automatic installation.
+More information: <a href="https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-mask">https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-mask</a>.</p>
+
+<ul>
+  <li>Ignore updates for a specific flatpak:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak mask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.example.app</span></p>
+
+<ul>
+  <li>Undo ignore updates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak mask --remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.example.app</span></p>
+
+<ul>
+  <li>List all currently masked patterns:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak mask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–system|–user</span></p>

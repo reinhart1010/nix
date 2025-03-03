@@ -1,0 +1,22 @@
+<h1 id="puppet-apply">puppet apply</h1>
+
+<p>Apply Puppet manifests locally.
+More information: <a href="https://puppet.com/docs/puppet/7/man/apply.html">https://puppet.com/docs/puppet/7/man/apply.html</a>.</p>
+
+<ul>
+  <li>Apply a manifest:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manifest</span></p>
+
+<ul>
+  <li>Execute puppet code:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet apply --execute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">code</span></p>
+
+<ul>
+  <li>Use a specific module and hiera configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet apply --modulepath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --hiera_config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manifest</span></p>

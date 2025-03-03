@@ -1,0 +1,53 @@
+<h1 id="cargo-rustc">cargo rustc</h1>
+
+<p>Compile a Rust package. Similar to <code class="language-plaintext highlighter-rouge">cargo build</code>, but you can pass extra options to the compiler.
+See <code class="language-plaintext highlighter-rouge">rustc --help</code> for all available options.
+More information: <a href="https://doc.rust-lang.org/cargo/commands/cargo-rustc.html">https://doc.rust-lang.org/cargo/commands/cargo-rustc.html</a>.</p>
+
+<ul>
+  <li>Build the package and pass options to <code class="language-plaintext highlighter-rouge">rustc</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rustc_options</span></p>
+
+<ul>
+  <li>Build artifacts in release mode, with optimizations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc --release</code></p>
+
+<ul>
+  <li>Compile with architecture-specific optimizations for the current CPU:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc --release -- -C target-cpu=native</code></p>
+
+<ul>
+  <li>Compile with speed optimizations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc -- -C opt-level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3</span></p>
+
+<ul>
+  <li>Compile with [s]ize optimizations (<code class="language-plaintext highlighter-rouge">z</code> also turns off loop vectorization):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc -- -C opt-level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s|z</span></p>
+
+<ul>
+  <li>Check if your package uses unsafe code:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc --lib -- -D unsafe-code</code></p>
+
+<ul>
+  <li>Build a specific package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Build only the specified binary:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo --bin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>

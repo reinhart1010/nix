@@ -1,0 +1,34 @@
+<h1 id="doctl-databases-pool">doctl databases pool</h1>
+
+<p>데이터베이스 클러스터의 연결 풀을 관리.
+더 많은 정보: <a href="https://docs.digitalocean.com/reference/doctl/reference/databases/pool/">https://docs.digitalocean.com/reference/doctl/reference/databases/pool/</a>.</p>
+
+<ul>
+  <li>액세스 토큰을 사용하여 <code class="language-plaintext highlighter-rouge">doctl databases pool</code> 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases pool </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> --access-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">액세스_토큰</span></p>
+
+<ul>
+  <li>데이터베이스 연결 풀에 대한 정보 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases pool get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">풀_이름</span></p>
+
+<ul>
+  <li>데이터베이스 클러스터에 대한 연결 풀을 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases pool list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span></p>
+
+<ul>
+  <li>데이터베이스에 대한 연결 풀을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases pool create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">풀_이름</span><code class="language-plaintext highlighter-rouge"> --db </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새로운_풀_이름</span><code class="language-plaintext highlighter-rouge"> --size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">풀_크기</span></p>
+
+<ul>
+  <li>데이터베이스에 대한 연결 풀을 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases pool create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">풀_이름</span></p>

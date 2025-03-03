@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="cp">cp</h1>
+
+<p>Còpia arxius i directoris.
+Més informació: <a href="https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html</a>.</p>
+
+<ul>
+  <li>Copia un arxiu a un altre directori:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/arxiu_origen.ext</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archiu_destí.ext</span></p>
+
+<ul>
+  <li>Copia un archivo en otro directorio, conservando el nombre del archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/arxiu_origen.ext</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directori_destinatari</span></p>
+
+<ul>
+  <li>Còpia de forma recursiva el contingut d'un directori a una altra ubicació (si el destí existeix, el directori és copiat en aquesta ubicació):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directori_origen</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directori_destinatari</span></p>
+
+<ul>
+  <li>Còpia un directori de forma recursiva en mode verbose (mostra els arxius a mesura que es copien):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -vr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directori_origen</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directori_destinatari</span></p>
+
+<ul>
+  <li>Còpia arxius de text en una altra ubicació en mode interactiu (pregunta al usuari abans de sobreescriure):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directori_destinatari</span></p>
+
+<ul>
+  <li>Segueix els enllaços simbòlics abans de copiar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">link</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directori_destinatari</span></p>
+
+<ul>
+  <li>Utilitza la ruta completa dels arxius d'origen, creant els directoris intermitjos faltants al copiar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp --parents </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta_de_origen/al/archiu</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archiu_destí</span></p>

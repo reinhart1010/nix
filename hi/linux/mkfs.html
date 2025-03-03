@@ -1,0 +1,23 @@
+<h1 id="mkfs">mkfs</h1>
+
+<p>एक हार्ड डिस्क पार्टीशन पर लिनक्स फाइल सिस्टम बनाएं।
+यह कमांड अब अप्रचलित है, और इसके स्थान पर फाइल सिस्टम विशेष mkfs.<type> यूटिलिटीज़ का उपयोग करें।
+अधिक जानकारी: &lt;https://manned.org/mkfs&gt;।</type></p>
+
+<ul>
+  <li>एक पार्टीशन पर लिनक्स ext2 फाइल सिस्टम बनाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पार्टीशन/का/पथ</span></p>
+
+<ul>
+  <li>निर्दिष्ट प्रकार का फाइल सिस्टम बनाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ext4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पार्टीशन/का/पथ</span></p>
+
+<ul>
+  <li>निर्दिष्ट प्रकार का फाइल सिस्टम बनाएं और खराब ब्लॉक्स के लिए जांच करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs -c -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ntfs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पार्टीशन/का/पथ</span></p>

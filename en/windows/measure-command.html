@@ -1,0 +1,17 @@
+<h1 id="measure-command">Measure-Command</h1>
+
+<p>Measures the time it takes to run script blocks and cmdlets.
+Note: This command can only be used through PowerShell.
+More information: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/measure-command">https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/measure-command</a>.</p>
+
+<ul>
+  <li>Measure the time it takes to run a command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Measure-Command { </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> }</code></p>
+
+<ul>
+  <li>Pipe input to Measure-Command (objects that are piped to <code class="language-plaintext highlighter-rouge">Measure-Command</code> are available to the script block that is passed to the Expression parameter):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">10, 20, 50 | Measure-Command -Expression { for ($i=0; $i -lt $_; $i++) {$i} }</code></p>

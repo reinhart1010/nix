@@ -1,0 +1,40 @@
+<h1 id="yacas">yacas</h1>
+
+<p>另一个计算机代数系统。
+更多信息：<a href="https://www.yacas.org">https://www.yacas.org</a>.</p>
+
+<ul>
+  <li>启动交互式的 <code class="language-plaintext highlighter-rouge">yacas</code> 会话：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yacas</code></p>
+
+<ul>
+  <li>在 <code class="language-plaintext highlighter-rouge">yacas</code> 会话中，执行一个语句：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Integrate(x)Cos(x)</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>在 <code class="language-plaintext highlighter-rouge">yacas</code> 会话中，显示一个示例：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Example()</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>从 <code class="language-plaintext highlighter-rouge">yacas</code> 会话中退出：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quit</span></p>
+
+<ul>
+  <li>执行一个或多个 <code class="language-plaintext highlighter-rouge">yacas</code> 脚本（没有终端或提示符），然后退出：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yacas -p -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/脚本1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/脚本2</span></p>
+
+<ul>
+  <li>执行并打印一个语句的结果，然后退出：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Echo( Deriv(x)Cos(1/x) );</span><code class="language-plaintext highlighter-rouge">" | yacas -p -c /dev/stdin</code></p>

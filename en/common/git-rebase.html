@@ -1,0 +1,53 @@
+<h1 id="git-rebase">git rebase</h1>
+
+<p>Reapply commits from one branch on top of another branch.
+Commonly used to "move" an entire branch to another base, creating copies of the commits in the new location.
+More information: <a href="https://git-scm.com/docs/git-rebase">https://git-scm.com/docs/git-rebase</a>.</p>
+
+<ul>
+  <li>Rebase the current branch on top of another specified branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_base_branch</span></p>
+
+<ul>
+  <li>Start an interactive rebase, which allows the commits to be reordered, omitted, combined or modified:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–interactive</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_base_branch_or_commit_hash</span></p>
+
+<ul>
+  <li>Continue a rebase that was interrupted by a merge failure, after editing conflicting files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase --continue</code></p>
+
+<ul>
+  <li>Continue a rebase that was paused due to merge conflicts, by skipping the conflicted commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase --skip</code></p>
+
+<ul>
+  <li>Abort a rebase in progress (e.g. if it is interrupted by a merge conflict):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase --abort</code></p>
+
+<ul>
+  <li>Move part of the current branch onto a new base, providing the old base to start from:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase --onto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_base</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_base</span></p>
+
+<ul>
+  <li>Reapply the last 5 commits in-place, stopping to allow them to be reordered, omitted, combined or modified:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–interactive</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~5</span></p>
+
+<ul>
+  <li>Auto-resolve any conflicts by favoring the working branch version (<code class="language-plaintext highlighter-rouge">theirs</code> keyword has reversed meaning in this case):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-X|–strategy-option</span><code class="language-plaintext highlighter-rouge"> theirs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>

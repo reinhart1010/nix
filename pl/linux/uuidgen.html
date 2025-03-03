@@ -1,0 +1,23 @@
+<h1 id="uuidgen">uuidgen</h1>
+
+<p>Stwórz unikalny identyfikator (UUIDs).
+Zobacz także <code class="language-plaintext highlighter-rouge">uuid</code>.
+Więcej informacji: <a href="https://manned.org/uuidgen">https://manned.org/uuidgen</a>.</p>
+
+<ul>
+  <li>Stwórz losowy UUIDv4:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuidgen --random</code></p>
+
+<ul>
+  <li>Stwórz UUIDv1 oparty o aktualny czas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuidgen --time</code></p>
+
+<ul>
+  <li>Stwórz UUIDv5 z nazwy i prefiksu przestrzeni nazw:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uuidgen --sha1 --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@dns|@url|@oid|@x500</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_obiektu</span></p>

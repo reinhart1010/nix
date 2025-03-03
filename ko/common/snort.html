@@ -1,0 +1,34 @@
+<h1 id="snort">snort</h1>
+
+<p>오픈 소스 네트워크 침입 탐지 시스템.
+더 많은 정보: <a href="https://www.snort.org/#documents">https://www.snort.org/#documents</a>.</p>
+
+<ul>
+  <li>자세한 출력으로 패킷 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo snort -v -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인터페이스</span></p>
+
+<ul>
+  <li>애플리케이션 계층 데이터를 덤프하여 자세한 출력으로 패킷 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo snort -vd -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인터페이스</span></p>
+
+<ul>
+  <li>링크 계층 패킷 헤더를 표시하며 자세한 출력으로 패킷 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo snort -ve -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인터페이스</span></p>
+
+<ul>
+  <li>지정한 디렉토리에 패킷 저장하며 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo snort -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인터페이스</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>규칙에 따라 패킷 캡처하고 경고와 함께 문제 패킷 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo snort -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인터페이스</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/규칙.conf</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>

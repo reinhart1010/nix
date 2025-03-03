@@ -1,0 +1,53 @@
+<h1 id="apt-get">apt-get</h1>
+
+<p>Hulpprogramma voor pakketbeheer van Debian en Ubuntu.
+Zoek naar pakketten met <code class="language-plaintext highlighter-rouge">apt-cache</code>.
+Meer informatie: <a href="https://manned.org/apt-get.8">https://manned.org/apt-get.8</a>.</p>
+
+<ul>
+  <li>Werk de lijst van beschikbare pakketten en versies bij (het wordt aanbevolen dit uit te voeren voor elk ander <code class="language-plaintext highlighter-rouge">apt-get</code> commando):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get update</code></p>
+
+<ul>
+  <li>Installeer specifieke pakketten of werk ze bij naar de nieuwste beschikbare versies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket1 pakket2 …</span></p>
+
+<ul>
+  <li>Verwijder specifieke pakketten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket1 pakket2 …</span></p>
+
+<ul>
+  <li>Verwijder specifieke pakketten en hun configuratiebestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get purge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket1 pakket2 …</span></p>
+
+<ul>
+  <li>Upgrade alle geïnstalleerde pakketten naar hun nieuwste beschikbare versies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get upgrade</code></p>
+
+<ul>
+  <li>Schoon de lokale repository op - verwijder pakketbestanden (<code class="language-plaintext highlighter-rouge">.deb</code>) van onderbroken downloads die niet langer kunnen worden gedownload:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get autoclean</code></p>
+
+<ul>
+  <li>Verwijder alle pakketten die niet meer nodig zijn:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get autoremove</code></p>
+
+<ul>
+  <li>Upgrade geïnstalleerde pakketten (zoals <code class="language-plaintext highlighter-rouge">upgrade</code>), maar verwijder verouderde pakketten en installeer aanvullende pakketten om aan nieuwe dependencies te voldoen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get dist-upgrade</code></p>

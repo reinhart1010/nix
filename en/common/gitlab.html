@@ -1,0 +1,29 @@
+<h1 id="gitlab">gitlab</h1>
+
+<p>Ruby wrapper for the GitLab API.
+Some subcommands such as <code class="language-plaintext highlighter-rouge">ctl</code> have their own usage documentation.
+More information: <a href="https://narkoz.github.io/gitlab/">https://narkoz.github.io/gitlab/</a>.</p>
+
+<ul>
+  <li>Create a new project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlab create_project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span></p>
+
+<ul>
+  <li>Get info about a specific commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlab commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_hash</span></p>
+
+<ul>
+  <li>Get info about jobs in a CI pipeline:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlab pipeline_jobs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pipeline_id</span></p>
+
+<ul>
+  <li>Start a specific CI job:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlab job_play </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span></p>

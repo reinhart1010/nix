@@ -1,0 +1,46 @@
+<h1 id="mongodump">mongodump</h1>
+
+<p>Utility to export the contents of a MongoDB instance.
+More information: <a href="https://docs.mongodb.com/database-tools/mongodump/">https://docs.mongodb.com/database-tools/mongodump/</a>.</p>
+
+<ul>
+  <li>Create a dump of all databases (this will place the files inside a directory called "dump"):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongodump</code></p>
+
+<ul>
+  <li>Specify an output location for the dump:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongodump --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Create a dump of a given database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongodump --db </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_name</span></p>
+
+<ul>
+  <li>Create a dump of a given collection within a given database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongodump --collection </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">collection_name</span><code class="language-plaintext highlighter-rouge"> --db </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_name</span></p>
+
+<ul>
+  <li>Connect to a given host running on a given port, and create a dump:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongodump --host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Create a dump of a given database with a given username; user will be prompted for password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongodump --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database</span><code class="language-plaintext highlighter-rouge"> --password</code></p>
+
+<ul>
+  <li>Create a dump from a specific instance; host, user, password and database will be defined in the connection string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongodump --uri </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">connection_string</span></p>

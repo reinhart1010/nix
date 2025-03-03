@@ -1,0 +1,34 @@
+<h1 id="stat">stat</h1>
+
+<p>파일 상태 표시.
+더 많은 정보: <a href="https://keith.github.io/xcode-man-pages/stat.1.html">https://keith.github.io/xcode-man-pages/stat.1.html</a>.</p>
+
+<ul>
+  <li>파일의 크기, 권한, 생성 및 접근 날짜 등의 속성 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>위와 동일하지만 자세히 표시 (Linux의 <code class="language-plaintext highlighter-rouge">stat</code>와 더 유사하게):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일의 8진수 권한만 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat -f %Mp%Lp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일의 소유자와 그룹 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat -f "%Su %Sg" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일의 크기를 바이트 단위로 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat -f "%z %N" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

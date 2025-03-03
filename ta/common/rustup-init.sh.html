@@ -1,0 +1,46 @@
+<h1 id="rustup-initsh">rustup-init.sh</h1>
+
+<p><code class="language-plaintext highlighter-rouge">rustup</code> மற்றும் ரஸ்ட் கருவித்தொகுப்பை நிறுவுவதற்கான ஸ்கிரிப்ட்.
+மேலும் விவரத்திற்கு: <a href="https://forge.rust-lang.org/infra/other-installation-methods.html#rustup">https://forge.rust-lang.org/infra/other-installation-methods.html#rustup</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">rustup</code> மற்றும் இயல்புநிலை ரஸ்ட் கருவித்தொகுப்பை நிறுவ, <code class="language-plaintext highlighter-rouge">rustup-init</code> ஐப் பதிவிறக்கி இயக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl https://sh.rustup.rs -sSf | sh -s</code></p>
+
+<ul>
+  <li>பதிவிறக்கி, <code class="language-plaintext highlighter-rouge">rustup-init</code> ஐ இயக்கி, அதற்கு வாதங்களை அனுப்பவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl https://sh.rustup.rs -sSf | sh -s -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">வாதங்கள்</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">rustup-init</code> ஐ இயக்கி, நிறுவுவதற்கான கூடுதல் கூறுகள் அல்லது இலக்குகளைக் குறிப்பிடவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup-init.sh --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">இலக்கு</span><code class="language-plaintext highlighter-rouge"> --component </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கூறு</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">rustup-init</code> ஐ இயக்கி, நிறுவ வேண்டிய இயல்புநிலை கருவித்தொகுப்பைக் குறிப்பிடவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup-init.sh --default-toolchain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கருவித்தொகுப்பு</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">rustup-init</code> ஐ இயக்கவும் மற்றும் எந்த கருவித்தொகுப்பையும் நிறுவ வேண்டாம்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup-init.sh --default-toolchain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">none</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">rustup-init</code> ஐ இயக்கி, நிறுவல் சுயவிவரத்தைக் குறிப்பிடவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup-init.sh --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">minimal|default|complete</span></p>
+
+<ul>
+  <li>உறுதிப்படுத்தலைக் கேட்காமல் <code class="language-plaintext highlighter-rouge">rustup-init</code> ஐ இயக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup-init.sh -y</code></p>

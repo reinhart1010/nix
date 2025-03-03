@@ -1,0 +1,35 @@
+<h1 id="shopt">shopt</h1>
+
+<p>Bash 셸 옵션 관리: Bash 셸에 특화된 동작을 제어하는 변수(<code class="language-plaintext highlighter-rouge">$BASHOPTS</code>에 저장).
+일반적인 POSIX 셸 변수는 <code class="language-plaintext highlighter-rouge">set</code> 명령으로 대신 관리 (<code class="language-plaintext highlighter-rouge">$SHELLOPTS</code>에 저장).
+더 많은 정보: <a href="https://www.gnu.org/software/bash/manual/html_node/The-Shopt-Builtin.html">https://www.gnu.org/software/bash/manual/html_node/The-Shopt-Builtin.html</a>.</p>
+
+<ul>
+  <li>설정 가능한 모든 옵션과 설정 여부 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shopt</code></p>
+
+<ul>
+  <li>옵션 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shopt -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">옵션_이름</span></p>
+
+<ul>
+  <li>옵션 해제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shopt -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">옵션_이름</span></p>
+
+<ul>
+  <li>실행 가능한 <code class="language-plaintext highlighter-rouge">shopt</code> 명령으로 형식화된 모든 옵션과 상태 목록 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shopt -p</code></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">help shopt</code></p>

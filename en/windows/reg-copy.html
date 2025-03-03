@@ -1,0 +1,22 @@
+<h1 id="reg-copy">reg copy</h1>
+
+<p>Copy keys and their values in the registry.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/reg-copy">https://learn.microsoft.com/windows-server/administration/windows-commands/reg-copy</a>.</p>
+
+<ul>
+  <li>Copy a registry key to a new registry location:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_key_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_key_name</span></p>
+
+<ul>
+  <li>Copy a registry key recursively (with all [s]ubkeys) to a new registry location:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_key_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_key_name</span><code class="language-plaintext highlighter-rouge"> /s</code></p>
+
+<ul>
+  <li>[f]orcefully (without a prompt) copy a registry key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_key_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_key_name</span><code class="language-plaintext highlighter-rouge"> /f</code></p>

@@ -1,0 +1,52 @@
+<h1 id="git-lfs">git lfs</h1>
+
+<p>Work with large files in Git repositories.
+More information: <a href="https://git-lfs.com">https://git-lfs.com</a>.</p>
+
+<ul>
+  <li>Initialize Git LFS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git lfs install</code></p>
+
+<ul>
+  <li>Track files that match a glob:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git lfs track '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.bin</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Change the Git LFS endpoint URL (useful if the LFS server is separate from the Git server):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–file</span><code class="language-plaintext highlighter-rouge"> .lfsconfig lfs.url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lfs_endpoint_url</span></p>
+
+<ul>
+  <li>List tracked patterns:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git lfs track</code></p>
+
+<ul>
+  <li>List tracked files that have been committed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git lfs ls-files</code></p>
+
+<ul>
+  <li>Push all Git LFS objects to the remote server (useful if errors are encountered):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git lfs push --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Fetch all Git LFS objects:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git lfs fetch</code></p>
+
+<ul>
+  <li>Checkout all Git LFS objects:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git lfs checkout</code></p>

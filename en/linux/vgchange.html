@@ -1,0 +1,17 @@
+<h1 id="vgchange">vgchange</h1>
+
+<p>Change the attributes of a Logical Volume Manager (LVM) volume group.
+See also: <code class="language-plaintext highlighter-rouge">lvm</code>.
+More information: <a href="https://manned.org/vgchange">https://manned.org/vgchange</a>.</p>
+
+<ul>
+  <li>Change the activation status of logical volumes in all volume groups:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo vgchange --activate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y|n</span></p>
+
+<ul>
+  <li>Change the activation status of logical volumes in the specified volume group (determine with <code class="language-plaintext highlighter-rouge">vgscan</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo vgchange --activate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y|n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_group</span></p>

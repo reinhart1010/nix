@@ -1,0 +1,47 @@
+<h1 id="nix-run">nix run</h1>
+
+<p>Run an application from a Nix flake.
+See also: <code class="language-plaintext highlighter-rouge">nix3 flake</code> for information about flakes.
+More information: <a href="https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-run.html">https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-run.html</a>.</p>
+
+<ul>
+  <li>Run the default application in the flake in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix run</code></p>
+
+<ul>
+  <li>Run a command whose name matches the package name from nixpkgs (if you want a different command from that package, see <code class="language-plaintext highlighter-rouge">tldr nix3 shell</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix run nixpkgs#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pkg</span></p>
+
+<ul>
+  <li>Run a command with provided arguments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix run nixpkgs#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vim</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Run from a remote repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">owner</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo</span></p>
+
+<ul>
+  <li>Run from a remote repository using a specific tag, revision or branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">owner</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reference</span></p>
+
+<ul>
+  <li>Run from a remote repository specifying a subdirectory and a program:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix run "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">owner</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo</span><code class="language-plaintext highlighter-rouge">?dir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dir_name</span><code class="language-plaintext highlighter-rouge">#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run the flake of a GitHub pull request:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix run github:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">owner</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo</span><code class="language-plaintext highlighter-rouge">/pull/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span><code class="language-plaintext highlighter-rouge">/head</code></p>

@@ -1,0 +1,23 @@
+<h1 id="show-markdown">Show-Markdown</h1>
+
+<p>Shows a Markdown file or string in the console in a friendly way using VT100 escape sequences or in a browser using HTML.
+Note: This command can only be used through PowerShell.
+More information: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/show-markdown">https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/show-markdown</a>.</p>
+
+<ul>
+  <li>Render markdown to console from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Show-Markdown -Path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span></p>
+
+<ul>
+  <li>Render markdown to console from string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">"</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"># Markdown content</span><code class="language-plaintext highlighter-rouge">" | Show-Markdown</code></p>
+
+<ul>
+  <li>Open Markdown file in a browser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Show-Markdown -Path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span><code class="language-plaintext highlighter-rouge"> -UseBrowser</code></p>

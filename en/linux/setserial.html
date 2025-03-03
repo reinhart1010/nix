@@ -1,0 +1,28 @@
+<h1 id="setserial">setserial</h1>
+
+<p>Read and modify serial port information.
+More information: <a href="https://manned.org/setserial">https://manned.org/setserial</a>.</p>
+
+<ul>
+  <li>Print all information about a specific serial device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setserial -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/cuaN</span></p>
+
+<ul>
+  <li>Print the configuration summary of a specific serial device (useful for printing during bootup process):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setserial -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device</span></p>
+
+<ul>
+  <li>Set a specific configuration parameter to a device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo setserial </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parameter</span></p>
+
+<ul>
+  <li>Print the configuration of a list of devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setserial -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device1 device2 …</span></p>

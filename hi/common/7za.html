@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="7za">7za</h1>
+
+<p>उच्च संपीड़न अनुपात के साथ फ़ाइल संग्रहकर्ता।
+<code class="language-plaintext highlighter-rouge">7z</code> के समान, सिवाय इसके कि यह कम फ़ाइल प्रकारों का समर्थन करता है लेकिन क्रॉस-प्लेटफ़ॉर्म है।
+अधिक जानकारी: <a href="https://manned.org/7za">https://manned.org/7za</a>।</p>
+
+<ul>
+  <li>किसी फ़ाइल या निर्देशिका को संग्रहित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">संग्रह.7z/का/पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल_या_निर्देशिका/का/पथ</span></p>
+
+<ul>
+  <li>किसी मौजूदा संग्रह को एन्क्रिप्ट करें (फ़ाइल नामों सहित):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">एन्क्रिप्टेड.7z/का/पथ</span><code class="language-plaintext highlighter-rouge"> -p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पासवर्ड</span><code class="language-plaintext highlighter-rouge"> -mhe=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">संग्रह.7z/का/पथ</span></p>
+
+<ul>
+  <li>मूल निर्देशिका संरचना को संरक्षित करते हुए एक संग्रह निकालें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">संग्रह.7z/का/पथ</span></p>
+
+<ul>
+  <li>किसी संग्रह को किसी विशिष्ट निर्देशिका में निकालें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">संग्रह.7z/का/पथ</span><code class="language-plaintext highlighter-rouge"> -o</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट/का/पथ</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdout</code> के लिए एक संग्रह निकालें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">संग्रह.7z/का/पथ</span><code class="language-plaintext highlighter-rouge"> -so</code></p>
+
+<ul>
+  <li>एक विशिष्ट संग्रह प्रकार का उपयोग करके संग्रह करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za a -t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7z|bzip2|gzip|lzip|tar|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">संग्रह.7z/का/पथ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल_या_निर्देशिका/का/पथ</span></p>
+
+<ul>
+  <li>किसी संग्रह की सामग्री को सूचीबद्ध करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7za l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">संग्रह.7z/का/पथ</span></p>

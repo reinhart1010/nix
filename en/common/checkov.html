@@ -1,0 +1,23 @@
+<h1 id="checkov">checkov</h1>
+
+<p>Checkov is a static code analysis tool for Infrastructure as Code (IaC).
+It is also a software composition analysis (SCA) tool for images and open source packages.
+More information: <a href="https://www.checkov.io/1.Welcome/Quick%20Start.html">https://www.checkov.io/1.Welcome/Quick%20Start.html</a>.</p>
+
+<ul>
+  <li>Scan a directory containing IaC (Terraform, Cloudformation, ARM, Ansible, Bicep, Dockerfile, etc):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">checkov --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Scan an IaC file, omitting code blocks in the output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">checkov --compact --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>List all checks for all IaC types:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">checkov --list</code></p>

@@ -1,0 +1,22 @@
+<h1 id="vboxmanage-registervm">vboxmanage-registervm</h1>
+
+<p>Register a virtual machine (VM).
+More information: <a href="https://www.virtualbox.org/manual/ch08.html#vboxmanage-registervm">https://www.virtualbox.org/manual/ch08.html#vboxmanage-registervm</a>.</p>
+
+<ul>
+  <li>Register an existing VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage registervm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.vbox</span></p>
+
+<ul>
+  <li>Supply the encryption password file of the VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage registervm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.vbox</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/password_file</span></p>
+
+<ul>
+  <li>Prompt for the encryption password on the command-line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage registervm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.vbox</span><code class="language-plaintext highlighter-rouge"> --password -</code></p>

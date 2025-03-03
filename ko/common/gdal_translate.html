@@ -1,0 +1,28 @@
+<h1 id="gdal_translate">gdal_translate</h1>
+
+<p>래스터 데이터를 다양한 형식으로 변환.
+더 많은 정보: <a href="https://gdal.org/programs/gdal_translate.html">https://gdal.org/programs/gdal_translate.html</a>.</p>
+
+<ul>
+  <li>래스터 데이터세트를 JPEG 형식으로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdal_translate -of </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">JPEG</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.tif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.jpeg</span></p>
+
+<ul>
+  <li>레스터 데이터세트에 투영을 할당:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdal_translate -a_srs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">EPSG:4326</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.tif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.tif</span></p>
+
+<ul>
+  <li>래스터 데이터세트의 크기를 특정 부분으로 줄임:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdal_translate -outsize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">40%</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">40%</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.tif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.tif</span></p>
+
+<ul>
+  <li>GeoTiff를 클라우드 최적화 GeoTiff로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdal_translate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.tif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.tif</span><code class="language-plaintext highlighter-rouge"> -of COG -co COMPRESS=LZW</code></p>

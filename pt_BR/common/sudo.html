@@ -1,0 +1,52 @@
+<h1 id="sudo">sudo</h1>
+
+<p>Executa um único comando como o Superuser, ou como outro usuário.
+Mais informações: <a href="https://www.sudo.ws/sudo.html">https://www.sudo.ws/sudo.html</a>.</p>
+
+<ul>
+  <li>Executa um comando como Superuser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">less /var/log/syslog</span></p>
+
+<ul>
+  <li>Edita um arquivo, como Superuser, com seu editor padrão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo --edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/etc/fstab</span></p>
+
+<ul>
+  <li>Executa um comando como outro usuário e/ou grupo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo --user=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuário</span><code class="language-plaintext highlighter-rouge"> --group=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id -a</span></p>
+
+<ul>
+  <li>Executa um comando anterior com o prefixo <code class="language-plaintext highlighter-rouge">sudo</code> (apenas em Bash, Zsh, etc.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo !!</code></p>
+
+<ul>
+  <li>Abre o shell padrão com privilégios de Superuser e executa arquivos de login (<code class="language-plaintext highlighter-rouge">.profile</code>, <code class="language-plaintext highlighter-rouge">.bash_profile</code>, etc.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo --login</code></p>
+
+<ul>
+  <li>Abre o shell padrão com privilégios de Superuser sem altera o ambiente de execução:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo --shell</code></p>
+
+<ul>
+  <li>Abre o shell padrão como dado usuário, carregando o ambiente de execução deste usuário e lendo arquivos de login (<code class="language-plaintext highlighter-rouge">.profile</code>, <code class="language-plaintext highlighter-rouge">.bash_profile</code>, etc.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo --login --user=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuário</span></p>
+
+<ul>
+  <li>Lista os comandos permitidos (e não permitidos) para o usuário atual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo --list</code></p>

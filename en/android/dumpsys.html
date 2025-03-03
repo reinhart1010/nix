@@ -1,0 +1,41 @@
+<h1 id="dumpsys">dumpsys</h1>
+
+<p>Get information about Android system services.
+This command can only be used through <code class="language-plaintext highlighter-rouge">adb shell</code>.
+More information: <a href="https://developer.android.com/tools/dumpsys">https://developer.android.com/tools/dumpsys</a>.</p>
+
+<ul>
+  <li>Get diagnostic output for all system services:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys</code></p>
+
+<ul>
+  <li>Get diagnostic output for a specific system service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span></p>
+
+<ul>
+  <li>List all services <code class="language-plaintext highlighter-rouge">dumpsys</code> can give information about:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys -l</code></p>
+
+<ul>
+  <li>List service-specific arguments for a service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span><code class="language-plaintext highlighter-rouge"> -h</code></p>
+
+<ul>
+  <li>Exclude a specific service from the diagnostic output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys --skip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span></p>
+
+<ul>
+  <li>Specify a [t]imeout period in seconds (defaults to 10s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span></p>

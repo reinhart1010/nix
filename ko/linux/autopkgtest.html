@@ -1,0 +1,34 @@
+<h1 id="autopkgtest">autopkgtest</h1>
+
+<p>Debian 패키지에 대한 테스트 실행.
+더 많은 정보: <a href="https://wiki.debian.org/ContinuousIntegration/autopkgtest">https://wiki.debian.org/ContinuousIntegration/autopkgtest</a>.</p>
+
+<ul>
+  <li>현재 디렉터리의 패키지를 빌드하고 모든 테스트를 시스템에서 직접 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autopkgtest -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">null</span></p>
+
+<ul>
+  <li>현재 디렉터리의 패키지에 대해 특정 테스트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autopkgtest --test-name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테스트_이름</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">null</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">apt-get</code>으로 특정 패키지를 다운로드 및 빌드한 후 모든 테스트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autopkgtest </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">null</span></p>
+
+<ul>
+  <li>새로운 루트 디렉터리를 사용하여 현재 디렉터리의 패키지 테스트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autopkgtest -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chroot</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/새로운/루트</span></p>
+
+<ul>
+  <li>현재 디렉터리의 패키지를 재빌드하지 않고 테스트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autopkgtest --no-built-binaries -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">null</span></p>

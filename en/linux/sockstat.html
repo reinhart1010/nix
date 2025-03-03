@@ -1,0 +1,41 @@
+<h1 id="sockstat">sockstat</h1>
+
+<p>List open Internet or UNIX domain sockets.
+See also: <code class="language-plaintext highlighter-rouge">netstat</code>.
+More information: <a href="https://manned.org/sockstat">https://manned.org/sockstat</a>.</p>
+
+<ul>
+  <li>Show information for IPv4 and IPv6 sockets for both listening and connected sockets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat</code></p>
+
+<ul>
+  <li>Show information for IPv[4]/IPv[6] sockets [l]istening on specific [p]orts using a specific p[R]otocol:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4|6</span><code class="language-plaintext highlighter-rouge"> -l -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp|udp|raw|unix</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port1,port2…</span></p>
+
+<ul>
+  <li>Also show [c]onnected sockets and [u]nix sockets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -cu</code></p>
+
+<ul>
+  <li>Only show sockets of the specified <code class="language-plaintext highlighter-rouge">pid</code> or process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid|process</span></p>
+
+<ul>
+  <li>Only show sockets of the specified <code class="language-plaintext highlighter-rouge">uid</code> or user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uid|user</span></p>
+
+<ul>
+  <li>Only show sockets of the specified <code class="language-plaintext highlighter-rouge">gid</code> or group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -G </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gid|group</span></p>

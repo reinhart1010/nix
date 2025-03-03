@@ -1,0 +1,28 @@
+<h1 id="exec">exec</h1>
+
+<p>Ejecuta un comando sin crear un proceso hijo.
+Más información: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-exec">https://www.gnu.org/software/bash/manual/bash.html#index-exec</a>.</p>
+
+<ul>
+  <li>Ejecuta un comando específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando -con -opciones</span></p>
+
+<ul>
+  <li>Ejecuta un comando con un entorno (en su mayoría) vacío:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exec -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando -con -opciones</span></p>
+
+<ul>
+  <li>Ejecuta un comando como un shell de inicio de sesión:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exec -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando -con -opciones</span></p>
+
+<ul>
+  <li>Ejecuta un comando con un nombre diferente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exec -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando -con -opciones</span></p>

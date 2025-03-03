@@ -1,0 +1,53 @@
+<h1 id="birdc">birdc</h1>
+
+<p>BIRD remote control.
+Retrieve information like routes from bird and perform configurations during runtime.
+More information: <a href="https://bird.network.cz/">https://bird.network.cz/</a>.</p>
+
+<ul>
+  <li>Open the remote control console:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc</code></p>
+
+<ul>
+  <li>Reload the configuration without restarting BIRD:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc configure</code></p>
+
+<ul>
+  <li>Show the current status of BIRD:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc show status</code></p>
+
+<ul>
+  <li>Show all configured protocols:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc show protocols</code></p>
+
+<ul>
+  <li>Show all details about a protocol:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc show protocols </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">upstream1</span><code class="language-plaintext highlighter-rouge"> all</code></p>
+
+<ul>
+  <li>Show all routes that contain a specific AS number:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc "show route where bgp_path ~ [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4242120045</span><code class="language-plaintext highlighter-rouge">]"</code></p>
+
+<ul>
+  <li>Show all best routes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc show route primary</code></p>
+
+<ul>
+  <li>Show all details of all routes from a given prefix:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc show route for </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fd00:/8</span><code class="language-plaintext highlighter-rouge"> all</code></p>

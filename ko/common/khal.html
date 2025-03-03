@@ -1,0 +1,34 @@
+<h1 id="khal">khal</h1>
+
+<p>명령줄에서 사용하는 텍스트 기반 캘린더 및 일정 관리 애플리케이션.
+더 많은 정보: <a href="https://lostpackets.de/khal">https://lostpackets.de/khal</a>.</p>
+
+<ul>
+  <li>상호작용 모드에서 Khal 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ikhal</code></p>
+
+<ul>
+  <li>개인 캘린더에 예정된 다음 7일 동안의 모든 이벤트 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">khal list -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">personal</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">today</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7d</span></p>
+
+<ul>
+  <li>개인 캘린더가 아닌 내일 10:00에 예정된 모든 이벤트 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">khal at -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">personal</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tomorrow</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10:00</span></p>
+
+<ul>
+  <li>다음 3개월 동안의 이벤트 목록이 포함된 캘린더 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">khal calendar</code></p>
+
+<ul>
+  <li>개인 캘린더에 새 이벤트 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">khal new -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">personal</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2020-09-08</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">18:00</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">18:30</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">치과 예약</span><code class="language-plaintext highlighter-rouge">"</code></p>

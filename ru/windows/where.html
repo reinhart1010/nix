@@ -1,0 +1,29 @@
+<h1 id="where">where</h1>
+
+<p>Показ расположения файлов, удовлетворяющих шаблону поиска.
+По умолчанию поиск производится в текущей папке и по путям в переменной окружения PATH.
+Больше информации: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/where">https://learn.microsoft.com/windows-server/administration/windows-commands/where</a>.</p>
+
+<ul>
+  <li>Отобразить расположение файлов, соответствующих шаблону:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">where </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон_файла</span></p>
+
+<ul>
+  <li>Отобразить расположение файлов, соответствующих шаблону, вместе с размером и датой:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">where /T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон_файла</span></p>
+
+<ul>
+  <li>Рекурсивно искать файлы, соответствующие шаблону, по указанному пути:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">where /R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон_файла</span></p>
+
+<ul>
+  <li>Только вернуть код возврата для результата поиска файла по шаблону:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">where /Q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон_файла</span></p>

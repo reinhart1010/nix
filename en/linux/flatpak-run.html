@@ -1,0 +1,34 @@
+<h1 id="flatpak-run">flatpak run</h1>
+
+<p>Run flatpak applications and runtimes.
+More information: <a href="https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-run">https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-run</a>.</p>
+
+<ul>
+  <li>Run an installed application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.example.app</span></p>
+
+<ul>
+  <li>Run an installed application from a specific branch e.g. stable, beta, master:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak run --branch=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stable|beta|master|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.example.app</span></p>
+
+<ul>
+  <li>Run an interactive shell inside a flatpak:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak run --command=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.example.app</span></p>
+
+<ul>
+  <li>Run an installed application with a specific runtime version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak run --runtime-version=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">24.08|master|stable|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.example.app</span></p>
+
+<ul>
+  <li>Run an installed application with a different runtime (but same version number):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak run --runtime=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.freedesktop.Sdk</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.example.app</span></p>

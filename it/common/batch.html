@@ -1,0 +1,23 @@
+<h1 id="batch">batch</h1>
+
+<p>Esegui comandi nel futuro quando il carico di lavoro del sistema lo permette.
+Il servizio atd (o atrun) deve essere attivo per eseguire i comandi.
+Maggiori informazioni: <a href="https://manned.org/batch">https://manned.org/batch</a>.</p>
+
+<ul>
+  <li>Esegui i comandi inseriti standard input (premere <code class="language-plaintext highlighter-rouge">Ctrl + D</code> dopo aver inserito i comandi):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">batch</code></p>
+
+<ul>
+  <li>Esegui un comando da standard input:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./mio_script.sh</span><code class="language-plaintext highlighter-rouge">" | batch</code></p>
+
+<ul>
+  <li>Esegui comandi contenuti in un dato file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">batch -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>

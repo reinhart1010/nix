@@ -1,0 +1,16 @@
+<h1 id="gdal_contour">gdal_contour</h1>
+
+<p>디지털 표고 모델에서 등고선과 다각형을 생성.
+더 많은 정보: <a href="https://gdal.org/programs/gdal_contour.html">https://gdal.org/programs/gdal_contour.html</a>.</p>
+
+<ul>
+  <li>고도 속성([a]ttributing)을 "ele"로 지정하면서 100미터 간격([i]nterval)에 걸쳐 등고선이 퍼져있는 벡터 데이터세트를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdal_contour -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ele</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100.0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.tif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.gpkg</span></p>
+
+<ul>
+  <li>100미터 간격([i]nterval)에 걸쳐 분산된 다각형([p]olygons)으로 벡터 데이터세트를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdal_contour -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100.0</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력.tif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.gpkg</span></p>

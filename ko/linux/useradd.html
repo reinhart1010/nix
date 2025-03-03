@@ -1,0 +1,47 @@
+<h1 id="useradd">useradd</h1>
+
+<p>새 사용자 생성.
+같이 보기: <code class="language-plaintext highlighter-rouge">users</code>, <code class="language-plaintext highlighter-rouge">userdel</code>, <code class="language-plaintext highlighter-rouge">usermod</code>.
+더 많은 정보: <a href="https://manned.org/useradd">https://manned.org/useradd</a>.</p>
+
+<ul>
+  <li>새 사용자 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>특정 사용자 ID로 새 사용자 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-u|–uid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>특정 셸로 새 사용자 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-s|–shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/셸</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>추가 그룹에 속하는 새 사용자 생성 (공백 없이 작성):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-G|–groups</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹1,그룹2,…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>기본 홈 디렉터리를 가진 새 사용자 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–create-home</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>템플릿 디렉터리 파일로 채워진 홈 디렉터리를 가진 새 사용자 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-k|–skel</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/템플릿_디렉터리</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–create-home</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>홈 디렉터리 없이 새 시스템 사용자 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo useradd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–system</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>

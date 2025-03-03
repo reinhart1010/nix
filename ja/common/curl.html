@@ -1,0 +1,53 @@
+<h1 id="curl">curl</h1>
+
+<p>データをサーバーから転送、もしくはサーバーへ転送します。
+HTTP、FTP、POP3を含むほとんどのプロトコルをサポートしています。
+もっと詳しく: <a href="https://curl.se/docs/manpage.html">https://curl.se/docs/manpage.html</a>。</p>
+
+<ul>
+  <li>URLのコンテンツをファイルにダウンロードする:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイルパス</span></p>
+
+<ul>
+  <li>ファイルをダウンロードし、URLにより指定されたファイル名で出力を保存する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --remote-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/filename</span></p>
+
+<ul>
+  <li>ファイルをダウンロードし、ロケーションレスポンスヘッダーのリダイレクトに追従しつつ自動的に以前のファイル転送を継続(再開)する。サーバーエラー時にはエラーを返す:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --fail --remote-name --location --continue-at - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/filename</span></p>
+
+<ul>
+  <li>フォームエンコードされたデータを送信する（<code class="language-plaintext highlighter-rouge">application/x-www-form-urlencoded</code>型のPOSTリクエスト）。<code class="language-plaintext highlighter-rouge">stdin</code>(標準入力) から読み込むには、<code class="language-plaintext highlighter-rouge">--data @file_name</code> または <code class="language-plaintext highlighter-rouge">--data @'-'</code> を使用する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'name=bob'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/form</span></p>
+
+<ul>
+  <li>カスタムHTTPメソッドを用いて追加のヘッダーを持つリクエストを送信する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'X-My-Header: 123'</span><code class="language-plaintext highlighter-rouge"> --request </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PUT</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span></p>
+
+<ul>
+  <li>適切なContent-Type 表現ヘッダーを指定することで、JSONフォーマットでデータを送信する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{"name":"bob"}'</span><code class="language-plaintext highlighter-rouge"> --header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'Content-Type: application/json'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/users/1234</span></p>
+
+<ul>
+  <li>サーバー認証のためユーザー名とパスワードを送る:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユーザー名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span></p>
+
+<ul>
+  <li>リソースのクライアント証明書とキーを送り、証明書の検証をスキップする:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --cert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">client.pem</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key.pem</span><code class="language-plaintext highlighter-rouge"> --insecure </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>

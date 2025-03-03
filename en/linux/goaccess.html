@@ -1,0 +1,28 @@
+<h1 id="goaccess">goaccess</h1>
+
+<p>An open source real-time web log analyzer.
+More information: <a href="https://goaccess.io">https://goaccess.io</a>.</p>
+
+<ul>
+  <li>Analyze one or more log files in interactive mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">goaccess </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/logfile1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Use a specific log-format (or pre-defined formats like "combined"):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">goaccess </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/logfile</span><code class="language-plaintext highlighter-rouge"> --log-format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">format</span></p>
+
+<ul>
+  <li>Analyze a log from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/logfile</span><code class="language-plaintext highlighter-rouge"> | goaccess -</code></p>
+
+<ul>
+  <li>Analyze a log and write it to an HTML file in real-time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">goaccess </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/logfile</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.html</span><code class="language-plaintext highlighter-rouge"> --real-time-html</code></p>

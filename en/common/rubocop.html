@@ -1,0 +1,46 @@
+<h1 id="rubocop">rubocop</h1>
+
+<p>Lint Ruby files.
+More information: <a href="https://docs.rubocop.org/rubocop/usage/basic_usage.html">https://docs.rubocop.org/rubocop/usage/basic_usage.html</a>.</p>
+
+<ul>
+  <li>Check all files in the current directory (including subdirectories):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop</code></p>
+
+<ul>
+  <li>Check one or more specific files or directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 …</span></p>
+
+<ul>
+  <li>Write output to file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>View list of cops (linter rules):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --show-cops</code></p>
+
+<ul>
+  <li>Exclude a cop:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --except </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop1 cop2 …</span></p>
+
+<ul>
+  <li>Run only specified cops:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --only </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop1 cop2 …</span></p>
+
+<ul>
+  <li>Auto-correct files (experimental):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --auto-correct</code></p>

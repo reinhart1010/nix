@@ -1,0 +1,41 @@
+<h1 id="go-vet">go vet</h1>
+
+<p>Check Go source code and report suspicious constructs (e.g. lint your Go source files).
+Go vet returns a non-zero exit code if problems are found; returns a zero exit code if no problems are found.
+More information: <a href="https://pkg.go.dev/cmd/vet">https://pkg.go.dev/cmd/vet</a>.</p>
+
+<ul>
+  <li>Check the Go package in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go vet</code></p>
+
+<ul>
+  <li>Check the Go package in the specified path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go vet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>List available checks that can be run with go vet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go tool vet help</code></p>
+
+<ul>
+  <li>View details and flags for a particular check:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go tool vet help </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">check_name</span></p>
+
+<ul>
+  <li>Display offending lines plus N lines of surrounding context:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go vet -c=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span></p>
+
+<ul>
+  <li>Output analysis and errors in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go vet -json</code></p>

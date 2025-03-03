@@ -1,0 +1,34 @@
+<h1 id="debsecan">debsecan</h1>
+
+<p>Analizador de seguridad de Debian, es una herramienta para enumerar vulnerabilidades en una instalación Debian en particular.
+Más información: <a href="https://gitlab.com/fweimer/debsecan">https://gitlab.com/fweimer/debsecan</a>.</p>
+
+<ul>
+  <li>Lista de paquetes instalados vulnerables en el host actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debsecan</code></p>
+
+<ul>
+  <li>Lista de paquetes instalados vulnerables de una versión específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debsecan --suite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_versión</span></p>
+
+<ul>
+  <li>Lista solo vulnerabilidades arregladas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debsecan --suite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_versión</span><code class="language-plaintext highlighter-rouge"> --only-fixed</code></p>
+
+<ul>
+  <li>Lista solo vulnerabilidades arregladas de inestable ("sid") y envía un correo a root:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debsecan --suite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sid</span><code class="language-plaintext highlighter-rouge"> --only-fixed --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">report</span><code class="language-plaintext highlighter-rouge"> --mailto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root</span><code class="language-plaintext highlighter-rouge"> --update-history</code></p>
+
+<ul>
+  <li>Actualiza paquetes vulnerables instalados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt upgrade $(debsecan --only-fixed --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquetes</span><code class="language-plaintext highlighter-rouge">)</code></p>

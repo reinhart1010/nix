@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="sudo">sudo</h1>
+
+<p>Wykonuje pojedyncze polecenie jako superuser lub inny użytkownik.
+Więcej informacji: <a href="https://www.sudo.ws/sudo.html">https://www.sudo.ws/sudo.html</a>.</p>
+
+<ul>
+  <li>Uruchom polecenie jako superuser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">less /var/log/syslog</span></p>
+
+<ul>
+  <li>Edytuj plik jako superuser w domyślnym edytorze:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/etc/fstab</span></p>
+
+<ul>
+  <li>Uruchom polecenie jako inny użytkownik i/lub grupa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uzytkownik</span><code class="language-plaintext highlighter-rouge"> -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupa</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id -a</span></p>
+
+<ul>
+  <li>Powtórz ostatnie polecenie poprzedzone <code class="language-plaintext highlighter-rouge">sudo</code> (tylko w Bash, Zsh, etc.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo !!</code></p>
+
+<ul>
+  <li>Uruchom domyślną powłokę z uprawnieniami superuser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo -i</code></p>

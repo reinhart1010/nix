@@ -1,0 +1,26 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="at">at</h1>
+
+<p>पछि एक पटक आदेशहरू कार्यान्वयन गर्छ।
+वास्तविक कार्यान्वयनको लागि service atd(अथवा atrun) चलिरहेको हुनुपर्छ।
+थप जानकारी: <a href="https://manned.org/at">https://manned.org/at</a>।</p>
+
+<ul>
+  <li>मानक इनपुट बाट आदेशहरू ५ मिनटमा कार्यान्वयन गर्नुहोस् (सकिएपछि <code class="language-plaintext highlighter-rouge">Ctrl +D</code> थिच्नुहोस्):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at now + 5 minutes</code></p>
+
+<ul>
+  <li>मानक इनपुट बाट आदेश आज के बिहान को १० बजे कार्यान्वयन गर्नुहोस्:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./make_db_backup.sh</span><code class="language-plaintext highlighter-rouge">" | at 1000</code></p>
+
+<ul>
+  <li>एउटा दिइएको फाइलबाट अर्को मङ्गलबार आदेशहरु कार्यान्वयन गर्नुहोस्:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल/को/पथ</span><code class="language-plaintext highlighter-rouge"> 9:30 PM Tue</code></p>

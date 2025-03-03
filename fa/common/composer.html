@@ -1,0 +1,52 @@
+<h1 id="composer">composer</h1>
+
+<p>ابزاری بسته محور برای مدیریت وابستگی های پروژه های PHP.
+اطلاعات بیشتر: <a href="https://getcomposer.org/">https://getcomposer.org/</a>.</p>
+
+<ul>
+  <li>ساخت یک فایل <code class="language-plaintext highlighter-rouge">composer.json</code> به صورت کنشگرا:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer init</code></p>
+
+<ul>
+  <li>اضافه کردن یک بسته به عنوان وابستگی به این پروژه، همچنین یک ورودی به <code class="language-plaintext highlighter-rouge">composer.json</code> وارد می کند:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer require </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/package</span></p>
+
+<ul>
+  <li>نصب تمام وابستگی های این پروژه که در <code class="language-plaintext highlighter-rouge">composer.json</code> هستند و <code class="language-plaintext highlighter-rouge">composer.lock</code> را ایجاد می کند:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer install</code></p>
+
+<ul>
+  <li>حذف یک بسته از این پروژه، وابستگی مربوط به آنرا از <code class="language-plaintext highlighter-rouge">composer.json</code> و <code class="language-plaintext highlighter-rouge">composer.lock</code> حذف می کند:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/package</span></p>
+
+<ul>
+  <li>بروزرسانی تمام وابستگی های این پروژه که در <code class="language-plaintext highlighter-rouge">composer.json</code> هستند و یادداشت کردن نسخه های جدید در فایل <code class="language-plaintext highlighter-rouge">composer.lock</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer update</code></p>
+
+<ul>
+  <li>فقط <code class="language-plaintext highlighter-rouge">composer.lock</code> را بروزرسانی می کند بعد از این که <code class="language-plaintext highlighter-rouge">composer.json</code> را به صورت دستی بروزرسانی کردید:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer update --lock</code></p>
+
+<ul>
+  <li>اطلاعات بیشتری درباره دلیل نصب نشدن یک وابستگی ارائه می دهد:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer why-not </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/package</span></p>
+
+<ul>
+  <li>بروزرسانی کامپوزر به آخرین نسخه اش:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer self-update</code></p>

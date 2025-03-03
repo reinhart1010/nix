@@ -1,0 +1,23 @@
+<h1 id="userdel">userdel</h1>
+
+<p>Elimina una cuenta de usuario o elimina un usuario de un grupo.
+Vea también: <code class="language-plaintext highlighter-rouge">users</code>, <code class="language-plaintext highlighter-rouge">useradd</code>, <code class="language-plaintext highlighter-rouge">usermod</code>.
+Más información: <a href="https://manned.org/userdel">https://manned.org/userdel</a>.</p>
+
+<ul>
+  <li>Elimina un usuario:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo userdel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span></p>
+
+<ul>
+  <li>Elimina un usuario en otro directorio raíz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo userdel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-R|–root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/otro/root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span></p>
+
+<ul>
+  <li>Elimina un usuario junto con su directorio home y correo (mail spool):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo userdel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–remove</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span></p>

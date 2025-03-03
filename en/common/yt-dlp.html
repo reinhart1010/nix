@@ -1,0 +1,54 @@
+<h1 id="yt-dlp">yt-dlp</h1>
+
+<p>A youtube-dl fork with additional features and fixes.
+Download videos from YouTube and other websites.
+See also: <code class="language-plaintext highlighter-rouge">yt-dlp</code>, <code class="language-plaintext highlighter-rouge">ytfzf</code>.
+More information: <a href="https://github.com/yt-dlp/yt-dlp">https://github.com/yt-dlp/yt-dlp</a>.</p>
+
+<ul>
+  <li>Download a video or playlist (with the default options from command below):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>List the available downloadable formats for a video:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp --list-formats "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Download a video or playlist using the best MP4 video available (default is "bv*+ba/b"):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp --format "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Extract audio from a video (requires ffmpeg or ffprobe):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp --extract-audio "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Specify audio format and audio quality of extracted audio (between 0 (best) and 10 (worst), default = 5):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp --extract-audio --audio-format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mp3</span><code class="language-plaintext highlighter-rouge"> --audio-quality </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Download only the second, fourth, fifth, sixth, and last items in a playlist (the first item is 1, not 0):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp --playlist-items 2,4:6,-1 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://youtube.com/playlist?list=PLbzoR-pLrL6pTJfLQ3UwtB-3V4fimdqnA</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Download all playlists of a YouTube channel/user keeping each playlist in a separate directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp -o "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/user/TheLinuxFoundation/playlists</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Download a Udemy course keeping each chapter in a separate directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> -P "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge">" -o "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.udemy.com/java-tutorial</span><code class="language-plaintext highlighter-rouge">"</code></p>

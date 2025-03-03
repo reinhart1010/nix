@@ -1,0 +1,17 @@
+<h1 id="virt-xml-validate">virt-xml-validate</h1>
+
+<p>Validate <code class="language-plaintext highlighter-rouge">libvirt</code> XML files against a schema.
+If a schema is not specified, the schema is determined by the root element in the XML file.
+More information: <a href="https://libvirt.org/manpages/virt-xml-validate.html">https://libvirt.org/manpages/virt-xml-validate.html</a>.</p>
+
+<ul>
+  <li>Validate an XML file against a specific schema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-xml-validate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.xml</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">schema</span></p>
+
+<ul>
+  <li>Validate the domain XML against the domain schema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-xml-validate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/domain.xml</span><code class="language-plaintext highlighter-rouge"> domain</code></p>

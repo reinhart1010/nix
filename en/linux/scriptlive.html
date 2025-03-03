@@ -1,0 +1,29 @@
+<h1 id="scriptlive">scriptlive</h1>
+
+<p>Execute a typescript created by the <code class="language-plaintext highlighter-rouge">script</code> command in real-time.
+See also: <code class="language-plaintext highlighter-rouge">script</code>.
+More information: <a href="https://manned.org/scriptlive">https://manned.org/scriptlive</a>.</p>
+
+<ul>
+  <li>Execute a typescript in real-time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scriptlive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/timing_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/typescript</span></p>
+
+<ul>
+  <li>Execute a typescript at double the original speed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scriptlive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/timing_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/typescript</span><code class="language-plaintext highlighter-rouge"> --divisor 2</code></p>
+
+<ul>
+  <li>Execute a typescript created using <code class="language-plaintext highlighter-rouge">--log-in</code> option of <code class="language-plaintext highlighter-rouge">script</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scriptlive --log-in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/stdin_log_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/typescript</span></p>
+
+<ul>
+  <li>Execute a typescript waiting at most 2 seconds between each command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scriptlive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/timing_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/typescript</span><code class="language-plaintext highlighter-rouge"> --maxdelay 2</code></p>

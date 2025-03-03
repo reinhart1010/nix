@@ -1,0 +1,47 @@
+<h1 id="pacman-remove">pacman –remove</h1>
+
+<p>Arch Linux Paketverwaltungs-Werkzeug.
+Siehe auch: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Weitere Informationen: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Entferne ein Paket und dessen Abhängigkeiten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span></p>
+
+<ul>
+  <li>Entferne ein Paket sowie alle Abhängigkeiten und Konfigurationsdateien:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --recursive --nosave </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span></p>
+
+<ul>
+  <li>Entferne ein Paket ohne Bestätigungsaufforderung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span></p>
+
+<ul>
+  <li>Entferne verwaiste Pakete (Pakete welche als Abhängigkeit installiert wurden, aber von keinem Paket benötigt werden):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --recursive --nosave $(pacman --query --unrequired --deps --quiet)</code></p>
+
+<ul>
+  <li>Entferne ein Paket und alle Pakete die davon abhängig sind:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --cascade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span></p>
+
+<ul>
+  <li>Liste Pakete auf, welche betroffen sein würden (entfernt keine Pakete):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --remove --print </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span></p>
+
+<ul>
+  <li>Zeige Hilfe für diesen Unterbefehl an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --remove --help</code></p>

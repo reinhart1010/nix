@@ -1,0 +1,34 @@
+<h1 id="npx">npx</h1>
+
+<p>Execute binaries from <code class="language-plaintext highlighter-rouge">npm</code> packages.
+More information: <a href="https://github.com/npm/npx">https://github.com/npm/npx</a>.</p>
+
+<ul>
+  <li>Execute the command from a local or remote <code class="language-plaintext highlighter-rouge">npm</code> package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 …</span></p>
+
+<ul>
+  <li>In case multiple commands with the same name exist, it is possible to explicitly specify the package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npx --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Run a command if it exists in the current path or in <code class="language-plaintext highlighter-rouge">node_modules/.bin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npx --no-install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 …</span></p>
+
+<ul>
+  <li>Execute a specific command suppressing any output from <code class="language-plaintext highlighter-rouge">npx</code> itself:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npx --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 …</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npx --help</code></p>

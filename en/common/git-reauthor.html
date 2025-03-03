@@ -1,0 +1,23 @@
+<h1 id="git-reauthor">git reauthor</h1>
+
+<p>Change details about an author identity. Since this command rewrites the Git history, <code class="language-plaintext highlighter-rouge">--force</code> will be needed when pushing next time.
+Part of <code class="language-plaintext highlighter-rouge">git-extras</code>.
+More information: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-reauthor">https://github.com/tj/git-extras/blob/master/Commands.md#git-reauthor</a>.</p>
+
+<ul>
+  <li>Change an author's email and name across the whole Git repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reauthor --old-email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old@example.com</span><code class="language-plaintext highlighter-rouge"> --correct-email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new@example.com</span><code class="language-plaintext highlighter-rouge"> --correct-name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Change the email and name to the ones defined in the Git config:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reauthor --old-email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old@example.com</span><code class="language-plaintext highlighter-rouge"> --use-config</code></p>
+
+<ul>
+  <li>Change the email and name of all commits, regardless of their original author:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git reauthor --all --correct-email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name@example.com</span><code class="language-plaintext highlighter-rouge"> --correct-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>

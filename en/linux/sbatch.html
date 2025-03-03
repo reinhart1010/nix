@@ -1,0 +1,28 @@
+<h1 id="sbatch">sbatch</h1>
+
+<p>Submit a batch job to the SLURM scheduler.
+More information: <a href="https://manned.org/sbatch">https://manned.org/sbatch</a>.</p>
+
+<ul>
+  <li>Submit a batch job:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbatch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/job.sh</span></p>
+
+<ul>
+  <li>Submit a batch job with a custom name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbatch --job-name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">myjob</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/job.sh</span></p>
+
+<ul>
+  <li>Submit a batch job with a time limit of 30 minutes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbatch --time=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">00:30:00</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/job.sh</span></p>
+
+<ul>
+  <li>Submit a job and request multiple nodes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbatch --nodes=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/job.sh</span></p>

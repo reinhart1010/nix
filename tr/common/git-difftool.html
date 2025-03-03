@@ -1,0 +1,28 @@
+<h1 id="git-difftool">git difftool</h1>
+
+<p>Harici diff araçları kullanarak dosya değişimlerini göster. <code class="language-plaintext highlighter-rouge">git diff</code> ile aynı ayar ve argümanları destekler.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-difftool">https://git-scm.com/docs/git-difftool</a>.</p>
+
+<ul>
+  <li>Müsait diff araçlarını göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git difftool --tool-help</code></p>
+
+<ul>
+  <li>Varsayılan diff aracını birleştirmeye ayarla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global diff.tool "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">meld</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Varsayılan diff aracını sahnelenmiş değişiklikleri göstermek için kullan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git difftool --staged</code></p>
+
+<ul>
+  <li>Verilen commit'den itibaren yapılmış değişiklikleri göstermek için (opendiff) kullan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git difftool --tool=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opendiff</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>

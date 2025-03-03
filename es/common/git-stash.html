@@ -1,0 +1,52 @@
+<h1 id="git-stash">git stash</h1>
+
+<p>Almacena los cambios locales de Git en un área temporal.
+Más información: <a href="https://git-scm.com/docs/git-stash">https://git-scm.com/docs/git-stash</a>.</p>
+
+<ul>
+  <li>Almacena los cambios actuales, excepto los archivos nuevos (sin seguimiento):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash push --message </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje_opcional_stash</span></p>
+
+<ul>
+  <li>Almacena los cambios actuales, incluyendo los archivos nuevos (sin seguimiento):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash --include-untracked</code></p>
+
+<ul>
+  <li>Selecciona interactivamente partes de los archivos modificados para almacenarlos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash --patch</code></p>
+
+<ul>
+  <li>Lista todos los stashes (muestra el nombre del stash, la rama relacionada y el mensaje):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash list</code></p>
+
+<ul>
+  <li>Muestra los cambios como un parche entre el stash (por defecto es <code class="language-plaintext highlighter-rouge">stash@{0}</code>) y la confirmación de cuando se creó la entrada stash por primera vez:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash show --patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stash@{0}</span></p>
+
+<ul>
+  <li>Aplica un stash (por defecto es el último, llamado <code class="language-plaintext highlighter-rouge">stash@{0}</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_opcional_del_stash_o_confirmación</span></p>
+
+<ul>
+  <li>Suelta o aplica un stash (por defecto es <code class="language-plaintext highlighter-rouge">stash@{0}</code>) y lo elimina de la lista de stash si su aplicación no causa conflictos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash pop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_opcional_stash</span></p>
+
+<ul>
+  <li>Elimina todos los stashes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash clear</code></p>

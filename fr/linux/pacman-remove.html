@@ -1,0 +1,47 @@
+<h1 id="pacman-remove">pacman –remove</h1>
+
+<p>Supprimes des paquets.
+Voir aussi: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Plus d'informations : <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Supprime un paquet et ses dépendances :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span></p>
+
+<ul>
+  <li>Supprime un paquet, ses dépendances et ses fichiers de configuration :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --recursive --nosave </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span></p>
+
+<ul>
+  <li>Supprime un paquet silencieusement :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span></p>
+
+<ul>
+  <li>Supprime les paquets orphelins (installés en tant que dépendance mais requis par aucun paquet installé) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --recursive --nosave $(pacman --query --unrequired --deps --quiet)</code></p>
+
+<ul>
+  <li>Supprime un paquet et les paquets qui en dépendent :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --cascade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span></p>
+
+<ul>
+  <li>Affiche les paquets qui seraient affectés par la commande sans agir :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --remove --print </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span></p>
+
+<ul>
+  <li>Affiche l'aide :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --remove --help</code></p>

@@ -1,0 +1,40 @@
+<h1 id="findmnt">findmnt</h1>
+
+<p>Find your filesystem.
+More information: <a href="https://manned.org/findmnt">https://manned.org/findmnt</a>.</p>
+
+<ul>
+  <li>List all mounted filesystems:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findmnt</code></p>
+
+<ul>
+  <li>Search for a device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findmnt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>Search for a mountpoint:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findmnt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/</span></p>
+
+<ul>
+  <li>Find filesystems in specific type:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findmnt -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ext4</span></p>
+
+<ul>
+  <li>Find filesystems with specific label:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findmnt LABEL=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">BigStorage</span></p>
+
+<ul>
+  <li>Check mount table content in detail and verify <code class="language-plaintext highlighter-rouge">/etc/fstab</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">findmnt --verify --verbose</code></p>

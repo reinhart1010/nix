@@ -1,0 +1,23 @@
+<h1 id="semanage-boolean">semanage boolean</h1>
+
+<p>SELinux 부울 설정을 영구적으로 관리합니다.
+같이 보기: SELinux 정책 관리를 위한 <code class="language-plaintext highlighter-rouge">semanage</code>, 부울 값을 확인하기 위한 <code class="language-plaintext highlighter-rouge">getsebool</code>, 비영구적 부울 설정 적용을 위한 <code class="language-plaintext highlighter-rouge">setsebool</code>.
+더 많은 정보: <a href="https://manned.org/semanage-boolean">https://manned.org/semanage-boolean</a>.</p>
+
+<ul>
+  <li>모든 부울 설정 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage boolean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–list</span></p>
+
+<ul>
+  <li>사용자 정의 부울 설정을 제목 없이 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage boolean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–list</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-C|–locallist</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–noheading</span></p>
+
+<ul>
+  <li>부울을 영구적으로 설정 또는 해제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage boolean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–modify</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1|–on|-0|–off</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">haproxy_connect_any</span></p>

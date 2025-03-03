@@ -1,0 +1,29 @@
+<h1 id="ykman-openpgp">ykman openpgp</h1>
+
+<p>Beheer de OpenPGP YubiKey applicatie.
+Let op: je dient <code class="language-plaintext highlighter-rouge">gpg --card-edit</code> te gebruiken voor sommige instellingen.
+Meer informatie: <a href="https://docs.yubico.com/software/yubikey/tools/ykman/OpenPGP_Commands.html">https://docs.yubico.com/software/yubikey/tools/ykman/OpenPGP_Commands.html</a>.</p>
+
+<ul>
+  <li>Toon algemene informatie over de OpenPGP applicatie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman openpgp info</code></p>
+
+<ul>
+  <li>Stel het aantal herstelpogingen in voor de gebruikers pin, herstelcode en admin pin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman openpgp access set-retries </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>Verander de gebruikers pin, herstelcode of admin pin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman openpgp access change-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pin|reset-code|admin-pin</span></p>
+
+<ul>
+  <li>Herstel de OpenPGP applicatie naar fabrieksinstellingen (je moet dit doen nadat je het aantal pogingen voor de Admin pin hebt overschreden):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman openpgp reset</code></p>

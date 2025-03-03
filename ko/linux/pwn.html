@@ -1,0 +1,52 @@
+<h1 id="pwn">pwn</h1>
+
+<p>신속한 프로토타이핑을 위한 Exploit 개발 라이브러리.
+더 많은 정보: <a href="https://docs.pwntools.com/en/stable/commandline.html">https://docs.pwntools.com/en/stable/commandline.html</a>.</p>
+
+<ul>
+  <li>주어진 어셈블리 코드를 <code class="language-plaintext highlighter-rouge">bytes</code>로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn asm "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xor edi, edi</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 문자 수의 순환 패턴 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn cyclic </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">숫자</span></p>
+
+<ul>
+  <li>주어진 데이터를 16진수로 인코딩:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn hex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deafbeef</span></p>
+
+<ul>
+  <li>주어진 데이터를 16진수에서 디코딩:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn unhex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">6c4f7645</span></p>
+
+<ul>
+  <li>셸 실행을 위한 x64 Linux 쉘코드 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn shellcraft </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">amd64.linux.sh</span></p>
+
+<ul>
+  <li>주어진 ELF 파일의 바이너리 보안 설정 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn checksec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>Pwntools 업데이트 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn update</code></p>
+
+<ul>
+  <li>버전 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pwn version</code></p>

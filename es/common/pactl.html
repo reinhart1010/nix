@@ -1,0 +1,40 @@
+<h1 id="pactl">pactl</h1>
+
+<p>Controla un servidor de sonido PulseAudio en ejecución.
+Más información: <a href="https://manned.org/pactl">https://manned.org/pactl</a>.</p>
+
+<ul>
+  <li>Muestra información sobre el servidor de sonido:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pactl info</code></p>
+
+<ul>
+  <li>Lista todos los sinks (u otros tipos - los sinks son salidas y los sink-inputs son flujos de audio activos):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pactl list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sinks</span><code class="language-plaintext highlighter-rouge"> short</code></p>
+
+<ul>
+  <li>Cambia el sink (salida) predeterminado a 1 (el número se puede obtener mediante el subcomando <code class="language-plaintext highlighter-rouge">list</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pactl set-default-sink </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Mueve el sink-input 627 al sink 1:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pactl move-sink-input </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">627</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Establece el volumen del sink 1 al 75%:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pactl set-sink-volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.75</span></p>
+
+<ul>
+  <li>Cambia el estado de silencio del sink predeterminado (usando el nombre especial <code class="language-plaintext highlighter-rouge">@DEFAULT_SINK@</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pactl set-sink-mute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@DEFAULT_SINK@</span><code class="language-plaintext highlighter-rouge"> toggle</code></p>

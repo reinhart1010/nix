@@ -1,0 +1,52 @@
+<h1 id="docker-volume">docker volume</h1>
+
+<p>Manage Docker volumes.
+More information: <a href="https://docs.docker.com/reference/cli/docker/volume/">https://docs.docker.com/reference/cli/docker/volume/</a>.</p>
+
+<ul>
+  <li>Create a volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker volume create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_name</span></p>
+
+<ul>
+  <li>Create a volume with a specific label:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker volume create --label </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">label</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_name</span></p>
+
+<ul>
+  <li>Create a <code class="language-plaintext highlighter-rouge">tmpfs</code> volume a size of 100 MiB and an uid of 1000:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker volume create --opt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmpfs</span><code class="language-plaintext highlighter-rouge"> --opt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmpfs</span><code class="language-plaintext highlighter-rouge"> --opt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">o</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size=100m,uid=1000</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_name</span></p>
+
+<ul>
+  <li>List all volumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker volume ls</code></p>
+
+<ul>
+  <li>Remove a volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker volume rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_name</span></p>
+
+<ul>
+  <li>Display information about a volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker volume inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_name</span></p>
+
+<ul>
+  <li>Remove all unused local volumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker volume prune</code></p>
+
+<ul>
+  <li>Display help for a subcommand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span><code class="language-plaintext highlighter-rouge"> --help</code></p>

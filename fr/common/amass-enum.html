@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="amass-enum">amass enum</h1>
+
+<p>Trouve les sous-domaines d'un domaine.
+Plus d'informations : <a href="https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-enum-subcommand">https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-enum-subcommand</a>.</p>
+
+<ul>
+  <li>Trouve les sous-domaines d'un domaine passivement :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass enum -passive -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_domaine</span></p>
+
+<ul>
+  <li>Trouve les sous-domaines d'un domaine et les verifie activement en essayant de résoudre les sous-domaines trouvés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass enum -active -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_domaine</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80,443,8080</span></p>
+
+<ul>
+  <li>Fait recherche par force brute pour les sous-domaines :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass enum -brute -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_domaine</span></p>
+
+<ul>
+  <li>Sauvegarde les résultats vers un fichier texte :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass enum -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_de_sortie</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_domaine</span></p>
+
+<ul>
+  <li>Sauvegarde les résultats dans une base de données :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass enum -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_de_sortie</span><code class="language-plaintext highlighter-rouge"> -dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/la_base_de_données</span></p>

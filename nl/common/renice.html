@@ -1,0 +1,24 @@
+<h1 id="renice">renice</h1>
+
+<p>Verander de scheduleringsprioriteit/niceness van lopende processen.
+Niceness waarden variëren van -20 (meest gunstig voor het proces) tot 19 (minst gunstig voor het proces).
+Bekijk ook: <code class="language-plaintext highlighter-rouge">nice</code>.
+Meer informatie: <a href="https://manned.org/renice">https://manned.org/renice</a>.</p>
+
+<ul>
+  <li>Verhoog/verlaag de prioriteit van een lopend [p]roces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">renice -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Verhoog/verlaag de prioriteit van alle processen die eigendom zijn van een [g]ebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">renice -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-4</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uid|user</span></p>
+
+<ul>
+  <li>Verhoog/verlaag de prioriteit van alle processen die behoren tot een proces[g]roep:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">renice -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">proces_groep</span></p>

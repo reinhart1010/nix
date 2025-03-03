@@ -1,0 +1,47 @@
+<h1 id="lpr">lpr</h1>
+
+<p>Ferramenta do CUPS para imprimir arquivos.
+Veja também: <code class="language-plaintext highlighter-rouge">lpstat</code>, <code class="language-plaintext highlighter-rouge">lpadmin</code>.
+Mais informações: <a href="https://openprinting.github.io/cups/doc/man-lpr.html">https://openprinting.github.io/cups/doc/man-lpr.html</a>.</p>
+
+<ul>
+  <li>Imprime um arquivo na impressora padrão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Imprime 2 cópias:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -# </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Imprime em uma impressora específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">impressora</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Imprime uma única página (p. ex., 2) ou uma faixa de páginas (p. ex., 2-16):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -o page-ranges=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2|2-16</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Imprime frente e verso em modo retrato (long) ou paisagem (short):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -o sides=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">two-sided-long-edge|two-sided-short-edge</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Define o tamanho da página (mais opções podem estar disponíveis dependendo da configuração):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -o media=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a4|letter|legal</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Imprime múltiplas páginas por folha:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -o number-up=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2|4|6|9|16</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>

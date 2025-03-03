@@ -1,0 +1,22 @@
+<h1 id="kubectl-taint">kubectl taint</h1>
+
+<p>노드에 taint 업데이트.
+더 많은 정보: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#taint">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#taint</a>.</p>
+
+<ul>
+  <li>노드에 taint 적용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl taint nodes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">노드_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">라벨_키</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">라벨_값</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">효과</span></p>
+
+<ul>
+  <li>노드에서 taint 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl taint nodes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">노드_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">라벨_키</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">효과</span><code class="language-plaintext highlighter-rouge">-</code></p>
+
+<ul>
+  <li>노드에서 모든 taint 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl taint nodes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">노드_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">라벨_키</span><code class="language-plaintext highlighter-rouge">-</code></p>

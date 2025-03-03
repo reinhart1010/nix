@@ -1,0 +1,28 @@
+<h1 id="pathchk">pathchk</h1>
+
+<p>Sprawdź poprawność oraz przenośność jednej lub większej ilości ścieżek.
+Więcej informacji: <a href="https://www.gnu.org/software/coreutils/manual/html_node/pathchk-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/pathchk-invocation.html</a>.</p>
+
+<ul>
+  <li>Sprawdź ścieżki pod kątem poprawności w obecnym systemie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pathchk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka1 ścieżka2 …</span></p>
+
+<ul>
+  <li>Sprawdź ścieżki pod kątem poprawności w szerszym zakresie systemów zgodnych z POSIX:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pathchk -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka1 ścieżka2 …</span></p>
+
+<ul>
+  <li>Sprawdź ścieżki pod kątem poprawności we wszystkich systemach zgodnych z POSIX:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pathchk --portability </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka1 ścieżka2 …</span></p>
+
+<ul>
+  <li>Sprawdź tylko pod kątem pustych ścieżek lub wiodących myślników (-):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pathchk -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka1 ścieżka2 …</span></p>

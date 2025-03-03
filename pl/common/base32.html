@@ -1,0 +1,34 @@
+<h1 id="base32">base32</h1>
+
+<p>Enkoduj lub dekoduj plik lub standardowe wejście do/z Base32, na standardowe wyjście.
+Więcej informacji: <a href="https://manned.org/base32">https://manned.org/base32</a>.</p>
+
+<ul>
+  <li>Enkoduj plik:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base32 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span></p>
+
+<ul>
+  <li>Zawijaj zakodowane wyjście do określonej szerokości (<code class="language-plaintext highlighter-rouge">0</code> wyłącza zawijanie):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base32 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-w|–wrap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span></p>
+
+<ul>
+  <li>Dekoduj plik:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base32 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decode</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span></p>
+
+<ul>
+  <li>Enkoduj z <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jakiespolecenie</span><code class="language-plaintext highlighter-rouge"> | base32</code></p>
+
+<ul>
+  <li>Dekoduj z <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jakiespolecenie</span><code class="language-plaintext highlighter-rouge"> | base32 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decode</span></p>

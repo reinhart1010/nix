@@ -1,0 +1,53 @@
+<h1 id="curl">curl</h1>
+
+<p>Mentransfer data dari atau menuju suatu server.
+Mendukung sebagian besar protokol, termasuk HTTP, FTP, dan POP3.
+Informasi lebih lanjut: <a href="https://curl.se/docs/manpage.html">https://curl.se/docs/manpage.html</a>.</p>
+
+<ul>
+  <li>Buat suatu permintaan HTTP GET dan tampilkan respons menuju <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Buat suatu permintaan HTTP GET, ikuti (fo[L]low) seluruh permintaan redirect <code class="language-plaintext highlighter-rouge">3xx</code>, dan tampilkan ([D]ump) seluruh data header beserta isi respons menuju <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --location --dump-header - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Unduh dan simpan suatu berkas dengan nama berkas yang ditentukan oleh URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --remote-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://contoh.com/nama_berkas.zip</span></p>
+
+<ul>
+  <li>Kirim suatu [d]ata dengan format form-encoded (permintaan POST dengan format data <code class="language-plaintext highlighter-rouge">application/x-www-form-urlencoded</code>). Gunakan <code class="language-plaintext highlighter-rouge">--data @file_name</code> atau <code class="language-plaintext highlighter-rouge">--data @'-'</code> untuk membaca dari <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl -X POST --data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'name=bob'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/form</span></p>
+
+<ul>
+  <li>Kirim sebuah permintaan dengan suatu informasi header ekstra, menggunakan metode HTTP kustom yang dikirimkan menggunakan suatu pro[x]i (seperti BurpSuite), mengabaikan peringatan sertifikat TLS yang ditandatangani secara mandiri (self-signed):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl -k --proxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://127.0.0.1:8080</span><code class="language-plaintext highlighter-rouge"> --header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'Authorization: Bearer token'</span><code class="language-plaintext highlighter-rouge"> --request </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET|PUT|POST|DELETE|PATCH|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Kirim data dalam format JSON, dengan menetapkan isi HTTP [H]eader Content-Type:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{"name":"bob"}'</span><code class="language-plaintext highlighter-rouge"> --header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'Content-Type: application/json'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/pengguna/1234</span></p>
+
+<ul>
+  <li>Gunakan suatu sertifikat klien dan berkas kunci dalam mengenkripsi permintaan HTTP, dengan mengabaikan proses validasi sertifikat TLS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --cert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sertifikat_klien.pem</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kunci.pem</span><code class="language-plaintext highlighter-rouge"> --insecure </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Ubah nama host menjadi alamat IP khusus, dengan keluaran [v]erbose (mirip dengan menyunting berkas <code class="language-plaintext highlighter-rouge">/etc/hosts</code> untuk resolusi DNS khusus):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --verbose --resolve </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span></p>

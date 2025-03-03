@@ -1,0 +1,35 @@
+<h1 id="r2e">r2e</h1>
+
+<p>Forwards RSS feeds to an email address.
+Requires a configured <code class="language-plaintext highlighter-rouge">sendmail</code> or smtp setup.
+More information: <a href="https://github.com/rss2email/rss2email">https://github.com/rss2email/rss2email</a>.</p>
+
+<ul>
+  <li>Create a new feed database that sends email to an email address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">r2e new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email_address</span></p>
+
+<ul>
+  <li>Subscribe to a feed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">r2e add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">feed_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">feed_URI</span></p>
+
+<ul>
+  <li>Send new stories to an email address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">r2e run</code></p>
+
+<ul>
+  <li>List all feeds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">r2e list</code></p>
+
+<ul>
+  <li>Delete a feed at a specified index:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">r2e delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">index</span></p>

@@ -1,0 +1,28 @@
+<h1 id="lipo">lipo</h1>
+
+<p>Tool voor het verwerken van Mach-O Universal Binaries.
+Meer informatie: <a href="https://keith.github.io/xcode-man-pages/lipo.1.html">https://keith.github.io/xcode-man-pages/lipo.1.html</a>.</p>
+
+<ul>
+  <li>Maak een universeel bestand uit twee bestanden met één architectuur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lipo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/binary_bestand.x86_64</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/binary_bestand.arm64e</span><code class="language-plaintext highlighter-rouge"> -create -output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/binary_bestand</span></p>
+
+<ul>
+  <li>Toon alle architecturen die een universeel bestand bevat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lipo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/binary_bestand</span><code class="language-plaintext highlighter-rouge"> -archs</code></p>
+
+<ul>
+  <li>Toon gedetailleerde informatie over een universeel bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lipo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/binary_bestand</span><code class="language-plaintext highlighter-rouge"> -detailed_info</code></p>
+
+<ul>
+  <li>Pak een bestand met één architectuur uit uit een universeel bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lipo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/binary_bestand</span><code class="language-plaintext highlighter-rouge"> -thin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arm64e</span><code class="language-plaintext highlighter-rouge"> -output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/binary_bestand.arm64e</span></p>

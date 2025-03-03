@@ -1,0 +1,40 @@
+<h1 id="vhs">vhs</h1>
+
+<p>Generate terminal gifs from a tape file.
+More information: <a href="https://github.com/charmbracelet/vhs">https://github.com/charmbracelet/vhs</a>.</p>
+
+<ul>
+  <li>Create a tape file (add commands to the tape file using an editor):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vhs new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tape</span></p>
+
+<ul>
+  <li>Record inputs to a tape file (once done, exit the shell to create the tape):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vhs record &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tape</span></p>
+
+<ul>
+  <li>Record inputs to a tape file using a specific shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vhs record --shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tape</span></p>
+
+<ul>
+  <li>Validate the syntax of a tape file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vhs validate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tape</span></p>
+
+<ul>
+  <li>Create a gif from a tape file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vhs &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tape</span></p>
+
+<ul>
+  <li>Publish a gif to <a href="https://vhs.charm.sh">https://vhs.charm.sh</a> and get a shareable URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vhs publish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.gif</span></p>

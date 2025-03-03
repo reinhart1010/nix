@@ -1,0 +1,34 @@
+<h1 id="sequelize">sequelize</h1>
+
+<p>Promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server.
+More information: <a href="https://sequelize.org/">https://sequelize.org/</a>.</p>
+
+<ul>
+  <li>Create a model with 3 fields and a migration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sequelize model:generate --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> --attributes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">field1:integer,field2:string,field3:boolean</span></p>
+
+<ul>
+  <li>Run the migration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sequelize db:migrate</code></p>
+
+<ul>
+  <li>Revert all migrations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sequelize db:migrate:undo:all</code></p>
+
+<ul>
+  <li>Create a seed file with the specified name to populate the database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sequelize seed:generate --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seed_filename</span></p>
+
+<ul>
+  <li>Populate database using all seed files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sequelize db:seed:all</code></p>

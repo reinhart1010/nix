@@ -1,0 +1,52 @@
+<h1 id="adb-shell">adb shell</h1>
+
+<p>Run shell commands on a connected Android device or emulator.
+More information: <a href="https://developer.android.com/tools/adb">https://developer.android.com/tools/adb</a>.</p>
+
+<ul>
+  <li>Start a remote interactive shell on the emulator or device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell</code></p>
+
+<ul>
+  <li>Get all the properties from emulator or device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell getprop</code></p>
+
+<ul>
+  <li>Revert all runtime permissions to their default:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell pm reset-permissions</code></p>
+
+<ul>
+  <li>Revoke a dangerous permission for an application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell pm revoke </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">permission</span></p>
+
+<ul>
+  <li>Trigger a key event:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell input keyevent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keycode</span></p>
+
+<ul>
+  <li>Clear the data of an application on an emulator or device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell pm clear </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Start an activity on emulator or device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell am start -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">activity</span></p>
+
+<ul>
+  <li>Start the home activity on an emulator or device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell am start -W -c android.intent.category.HOME -a android.intent.action.MAIN</code></p>

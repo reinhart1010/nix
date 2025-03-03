@@ -1,0 +1,40 @@
+<h1 id="bootctl">bootctl</h1>
+
+<p>Control EFI firmware boot settings and manage boot loader.
+More information: <a href="https://manned.org/bootctl">https://manned.org/bootctl</a>.</p>
+
+<ul>
+  <li>Show information about the system firmware and the bootloaders:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bootctl status</code></p>
+
+<ul>
+  <li>Show all available bootloader entries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bootctl list</code></p>
+
+<ul>
+  <li>Set a flag to boot into the system firmware on the next boot (similar to <code class="language-plaintext highlighter-rouge">sudo systemctl reboot --firmware-setup</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bootctl reboot-to-firmware true</code></p>
+
+<ul>
+  <li>Specify the path to the EFI system partition (defaults to <code class="language-plaintext highlighter-rouge">/efi/</code>, <code class="language-plaintext highlighter-rouge">/boot/</code> or <code class="language-plaintext highlighter-rouge">/boot/efi</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bootctl --esp-path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/efi_system_partition/</span></p>
+
+<ul>
+  <li>Install <code class="language-plaintext highlighter-rouge">systemd-boot</code> into the EFI system partition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bootctl install</code></p>
+
+<ul>
+  <li>Remove all installed versions of <code class="language-plaintext highlighter-rouge">systemd-boot</code> from the EFI system partition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bootctl remove</code></p>

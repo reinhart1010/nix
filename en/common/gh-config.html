@@ -1,0 +1,46 @@
+<h1 id="gh-config">gh config</h1>
+
+<p>Change configuration for GitHub cli.
+More information: <a href="https://cli.github.com/manual/gh_config">https://cli.github.com/manual/gh_config</a>.</p>
+
+<ul>
+  <li>Display what Git protocol is being used:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh config get git_protocol</code></p>
+
+<ul>
+  <li>Set protocol to SSH:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh config set git_protocol </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh</span></p>
+
+<ul>
+  <li>Use <code class="language-plaintext highlighter-rouge">delta</code> in side-by-side mode as the default pager for all <code class="language-plaintext highlighter-rouge">gh</code> commands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh config set pager '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delta –side-by-side</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Set text editor to Vim:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh config set editor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vim</span></p>
+
+<ul>
+  <li>Reset to default text editor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh config set editor ""</code></p>
+
+<ul>
+  <li>Disable interactive prompts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh config set prompt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">disabled</span></p>
+
+<ul>
+  <li>Set a specific configuration value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh config set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>

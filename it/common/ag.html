@@ -1,0 +1,46 @@
+<h1 id="ag">ag</h1>
+
+<p>The Silver Searcher. Come <code class="language-plaintext highlighter-rouge">ack</code>, ma più veloce.
+Maggiori informazioni: <a href="https://github.com/ggreer/the_silver_searcher">https://github.com/ggreer/the_silver_searcher</a>.</p>
+
+<ul>
+  <li>Trova file contenenti "foo" e mostra le corrisponenti linee contenenti il termine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>Trova file contenenti "foo" in una specifica directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span></p>
+
+<ul>
+  <li>Trova file contenenti "foo" elencandone solamente i nomi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>Trova file contenenti "FOO" senza distinguere tra maiuscole e minuscole, e stampa solo il termine trovato piuttosto che l'intera linea:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag -i -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">FOO</span></p>
+
+<ul>
+  <li>Trova "foo" in file il quale nome contiene "bar":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> -G </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span></p>
+
+<ul>
+  <li>Trova file il quale contenuto soddisfi una determinata espressione regolare:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">espressione_regolare</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Trova file il quale nome contiene "foo":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>

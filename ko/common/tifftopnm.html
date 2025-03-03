@@ -1,0 +1,28 @@
+<h1 id="tifftopnm">tifftopnm</h1>
+
+<p>TIFF 이미지를 PNM 이미지로 변환.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/tifftopnm.html">https://netpbm.sourceforge.net/doc/tifftopnm.html</a>.</p>
+
+<ul>
+  <li>TIFF를 PNM 파일로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tifftopnm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.tiff</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.pnm</span></p>
+
+<ul>
+  <li>입력 이미지의 알파 채널을 포함하는 PGM 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tifftopnm -alphaout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/알파_파일.pgm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.tiff</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.pnm</span></p>
+
+<ul>
+  <li>입력 TIFF 이미지의 <code class="language-plaintext highlighter-rouge">fillorder</code> 태그 고려:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tifftopnm -respectfillorder </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.tiff</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.pnm</span></p>
+
+<ul>
+  <li>TIFF 헤더 정보를 <code class="language-plaintext highlighter-rouge">stderr</code>에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tifftopnm -headerdump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_파일.tiff</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.pnm</span></p>

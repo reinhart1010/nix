@@ -1,0 +1,46 @@
+<h1 id="kubeadm">kubeadm</h1>
+
+<p>Kubernetes 클러스터를 생성하고 관리하기 위한 명령줄 인터페이스.
+더 많은 정보: <a href="https://kubernetes.io/docs/reference/setup-tools/kubeadm">https://kubernetes.io/docs/reference/setup-tools/kubeadm</a>.</p>
+
+<ul>
+  <li>Kubernetes 마스터 노드 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubeadm init</code></p>
+
+<ul>
+  <li>Kubernetes 워커 노드를 부트스트랩하고 클러스터에 가입:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubeadm join --token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">토큰</span></p>
+
+<ul>
+  <li>TTL이 12시간인 새로운 부트스트랩 토큰 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubeadm token create --ttl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">12h0m0s</span></p>
+
+<ul>
+  <li>Kubernetes 클러스터가 업그레이드 가능한지와 사용 가능한 버전 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubeadm upgrade plan</code></p>
+
+<ul>
+  <li>지정된 버전으로 Kubernetes 클러스터 업그레이드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubeadm upgrade apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버전</span></p>
+
+<ul>
+  <li>클러스터의 구성이 포함된 kubeadm ConfigMap 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubeadm config view</code></p>
+
+<ul>
+  <li>'kubeadm init' 또는 'kubeadm join'으로 호스트에 적용된 변경사항 되돌리기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubeadm reset</code></p>

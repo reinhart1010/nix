@@ -1,0 +1,28 @@
+<h1 id="seq">seq</h1>
+
+<p>Toon een reeks getallen naar <code class="language-plaintext highlighter-rouge">stdout</code>.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/seq-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/seq-invocation.html</a>.</p>
+
+<ul>
+  <li>Reeks van 1 tot 10:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">seq 10</code></p>
+
+<ul>
+  <li>Elk 3e nummer van 5 tot 20:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">seq 5 3 20</code></p>
+
+<ul>
+  <li>Scheid de uitvoer met een spatie in plaats van een nieuwe regel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">seq -s " " 5 3 20</code></p>
+
+<ul>
+  <li>Formatteer de uitvoerbreedte naar minimaal 4 cijfers, opgevuld met nullen indien nodig:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">seq -f "%04g" 5 3 20</code></p>

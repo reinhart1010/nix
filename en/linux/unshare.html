@@ -1,0 +1,16 @@
+<h1 id="unshare">unshare</h1>
+
+<p>Execute a command in new user-defined namespaces.
+More information: <a href="https://www.kernel.org/doc/html/latest/userspace-api/unshare.html">https://www.kernel.org/doc/html/latest/userspace-api/unshare.html</a>.</p>
+
+<ul>
+  <li>Execute a command without sharing access to connected networks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unshare --net </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>
+
+<ul>
+  <li>Execute a command as a child process without sharing mounts, processes, or networks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unshare --mount --pid --net --fork </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>

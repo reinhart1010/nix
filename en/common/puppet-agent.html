@@ -1,0 +1,46 @@
+<h1 id="puppet-agent">puppet agent</h1>
+
+<p>Retrieves the client configuration from a Puppet server and applies it to the local host.
+More information: <a href="https://puppet.com/docs/puppet/7/man/agent.html">https://puppet.com/docs/puppet/7/man/agent.html</a>.</p>
+
+<ul>
+  <li>Register a node at a Puppet server and apply the received catalog:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet agent --test --server </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puppetserver_fqdn</span><code class="language-plaintext highlighter-rouge"> --serverport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> --waitforcert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">poll_time</span></p>
+
+<ul>
+  <li>Run the agent in the background (uses settings from <code class="language-plaintext highlighter-rouge">puppet.conf</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet agent</code></p>
+
+<ul>
+  <li>Run the agent once in the foreground, then exit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet agent --test</code></p>
+
+<ul>
+  <li>Run the agent in dry-mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet agent --test --noop</code></p>
+
+<ul>
+  <li>Log every resource being evaluated (even if nothing is being changed):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet agent --test --evaltrace</code></p>
+
+<ul>
+  <li>Disable the agent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet agent --disable "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Enable the agent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet agent --enable</code></p>

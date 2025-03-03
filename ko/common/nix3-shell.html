@@ -1,0 +1,35 @@
+<h1 id="nix-shell">nix shell</h1>
+
+<p>지정된 패키지가 사용 가능한 셸 시작.
+같이 보기: 개발 환경 설정을 위한 <code class="language-plaintext highlighter-rouge">nix-shell</code>, 플레이크에 대한 정보를 위한 <code class="language-plaintext highlighter-rouge">nix3 flake</code>.
+더 많은 정보: <a href="https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-shell.html">https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-shell.html</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">nixpkgs</code>의 일부 패키지와 함께 대화형 셸 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs#pkg1 nixpkgs#packageSet.pkg2 …</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">nixpkgs</code>의 이전 버전(21.05)에서 제공하는 패키지로 셸 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs/nixos-21.05#pkg</span></p>
+
+<ul>
+  <li>현재 디렉터리의 플레이크에서 "기본 패키지"와 함께 셸 시작, 빌드가 발생하면 빌드 로그 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix shell -L</code></p>
+
+<ul>
+  <li>GitHub의 플레이크에서 패키지와 함께 셸 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github:소유자/레포#pkg</span></p>
+
+<ul>
+  <li>패키지와 함께 셸에서 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs#pkg</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아무개_셸 –아무개_플래그 '다른 아무개 인수들'</span></p>

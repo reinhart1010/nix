@@ -1,0 +1,44 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="bat">bat</h1>
+
+<p>Ausgabe und Verkettung von einzelnen Dateien.
+Ein <code class="language-plaintext highlighter-rouge">cat</code>-Ersatz mit Syntax-Hervorhebung und Git-Integration.
+Weitere Informationen: <a href="https://github.com/sharkdp/bat">https://github.com/sharkdp/bat</a>.</p>
+
+<ul>
+  <li>Gib den Inhalt einer Datei in <code class="language-plaintext highlighter-rouge">stdout</code> aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Verkette mehrere Dateien zu einer Zieldatei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei2</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel_datei</span></p>
+
+<ul>
+  <li>Hänge mehrere Dateien an eine Zieldatei an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei2</span><code class="language-plaintext highlighter-rouge"> &gt;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel_datei</span></p>
+
+<ul>
+  <li>Nummeriere alle ausgegebenen Zeilen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat --number </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Hebe die Syntax einer JSON-Datei hervor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat --language json </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.json</span></p>
+
+<ul>
+  <li>Zeige alle unterstützten Sprachen an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat --list-languages</code></p>

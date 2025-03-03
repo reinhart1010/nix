@@ -1,0 +1,34 @@
+<h1 id="keychain">keychain</h1>
+
+<p>Re-use ssh-agent and/or gpg-agent between logins.
+More information: <a href="https://funtoo.org/Keychain">https://funtoo.org/Keychain</a>.</p>
+
+<ul>
+  <li>Check for a running ssh-agent, and start one if needed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keychain</code></p>
+
+<ul>
+  <li>Also check for gpg-agent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keychain --agents "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gpg,ssh</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>List signatures of all active keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keychain --list</code></p>
+
+<ul>
+  <li>List fingerprints of all active keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keychain --list-fp</code></p>
+
+<ul>
+  <li>Add a timeout for identities added to the agent, in minutes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keychain --timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">minutes</span></p>

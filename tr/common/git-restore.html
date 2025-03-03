@@ -1,0 +1,47 @@
+<h1 id="git-restore">git restore</h1>
+
+<p>Çalışan ağaç dosyalarını onar. Git sürümü 2.23+ olmalıdır.
+<code class="language-plaintext highlighter-rouge">git checkout</code> ve <code class="language-plaintext highlighter-rouge">git reset</code> komutlarına da ayrıca bakılması tavsiye edilir.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-restore">https://git-scm.com/docs/git-restore</a>.</p>
+
+<ul>
+  <li>Sahnelenmemiş bir dosyayı mevcut commit'in sürümüne kavuştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/konumu</span></p>
+
+<ul>
+  <li>Sahnelenmemiş bir dosyayı belirtilen commit'in sürümüne kavuştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/konumu</span></p>
+
+<ul>
+  <li>İzlenen dosyalardaki sahnelenmemiş tüm değişiklikleri iptal et:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git restore :/</code></p>
+
+<ul>
+  <li>Bir dosyayı sahnelenmemiş hale getir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git restore --staged </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/konumu</span></p>
+
+<ul>
+  <li>Tüm dosyaları sahnelenmemiş hale getir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git restore --staged :/</code></p>
+
+<ul>
+  <li>Dosyalara yapılan sahnelenmiş veya sahnelenmemiş tüm değişiklikleri iptal et:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git restore --worktree --staged :/</code></p>
+
+<ul>
+  <li>Onarılacak dosya parçalarını etkileşimli olarak seç:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git restore --patch</code></p>

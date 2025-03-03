@@ -1,0 +1,28 @@
+<h1 id="arch-chroot">arch-chroot</h1>
+
+<p>Comando <code class="language-plaintext highlighter-rouge">chroot</code> mejorado para facilitar el proceso de instalación de Arch Linux.
+Más información: <a href="https://manned.org/arch-chroot.8">https://manned.org/arch-chroot.8</a>.</p>
+
+<ul>
+  <li>Inicia un intérprete de comandos interactivo (Bash por defecto) en un nuevo directorio raíz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arch-chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/nueva/raíz</span></p>
+
+<ul>
+  <li>Especifica el usuario (distinto del actual) para ejecutar el intérprete de comandos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arch-chroot -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/nueva/raíz</span></p>
+
+<ul>
+  <li>Ejecuta un comando personalizado (en lugar de Bash) en el nuevo directorio raíz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arch-chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/nueva/raíz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumentos_del_comando</span></p>
+
+<ul>
+  <li>Especifica un intérprete de comandos distinto de Bash (en este caso, el paquete <code class="language-plaintext highlighter-rouge">zsh</code> debe estar instalado en el sistema de destino):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arch-chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/nueva/raíz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zsh</span></p>

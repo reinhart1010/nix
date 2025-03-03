@@ -1,0 +1,22 @@
+<h1 id="mp4box">mp4box</h1>
+
+<p>MPEG-4 Systems Toolbox: muxe streams into MP4 container.
+More information: <a href="https://gpac.wp.imt.fr/mp4box">https://gpac.wp.imt.fr/mp4box</a>.</p>
+
+<ul>
+  <li>Display information about an existing MP4 file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mp4box -info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Add an SRT subtitle file into an MP4 file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mp4box -add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_subs.srt</span><code class="language-plaintext highlighter-rouge">:lang=eng -add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.mp4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.mp4</span></p>
+
+<ul>
+  <li>Combine audio from one file and video from another:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mp4box -add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input1.mp4</span><code class="language-plaintext highlighter-rouge">#audio -add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input2.mp4</span><code class="language-plaintext highlighter-rouge">#video </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.mp4</span></p>

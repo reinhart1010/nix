@@ -1,0 +1,36 @@
+<h1 id="look">look</h1>
+
+<p>Display lines beginning with a prefix in a file.
+Note: the lines in the file must be sorted.
+See also: <code class="language-plaintext highlighter-rouge">grep</code>, <code class="language-plaintext highlighter-rouge">sort</code>.
+More information: <a href="https://manned.org/look">https://manned.org/look</a>.</p>
+
+<ul>
+  <li>Search for lines beginning with a specific prefix in a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Case-insensitively search only on blank and alphanumeric characters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–ignore-case</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–alphanum</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Specify a string termination character (space by default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–terminate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span></p>
+
+<ul>
+  <li>Search in <code class="language-plaintext highlighter-rouge">/usr/share/dict/words</code> (<code class="language-plaintext highlighter-rouge">--ignore-case</code> and <code class="language-plaintext highlighter-rouge">--alphanum</code> are assumed):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span></p>
+
+<ul>
+  <li>Search in <code class="language-plaintext highlighter-rouge">/usr/share/dict/web2</code> (<code class="language-plaintext highlighter-rouge">--ignore-case</code> and <code class="language-plaintext highlighter-rouge">--alphanum</code> are assumed):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">look </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–alternative</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span></p>

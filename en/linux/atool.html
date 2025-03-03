@@ -1,0 +1,28 @@
+<h1 id="atool">atool</h1>
+
+<p>Manage archives of various formats.
+More information: <a href="https://www.nongnu.org/atool/">https://www.nongnu.org/atool/</a>.</p>
+
+<ul>
+  <li>List files in a Zip archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atool --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.zip</span></p>
+
+<ul>
+  <li>Unpack a tar.gz archive into a new subdirectory (or current directory if it contains only one file):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atool --extract </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.tar.gz</span></p>
+
+<ul>
+  <li>Create a new 7z archive with two files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atool --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.7z</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Extract all Zip and rar archives in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">atool --each --extract </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.zip *.rar</span></p>

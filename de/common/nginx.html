@@ -1,0 +1,34 @@
+<h1 id="nginx">nginx</h1>
+
+<p>Nginx Webserver.
+Weitere Informationen: <a href="https://nginx.org/en/">https://nginx.org/en/</a>.</p>
+
+<ul>
+  <li>Starte den Server mit der standardmäßigen Konfigurationsdatei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nginx</code></p>
+
+<ul>
+  <li>Starte den Server mit einer benutzerdefinierten Konfigurationsdatei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nginx -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konfigurationsdatei</span></p>
+
+<ul>
+  <li>Starte den Server mit einem Präfix für alle relativen Pfaden in der Konfigurationsdatei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nginx -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konfigurationsdatei</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">präfix/für/relative/pfade</span></p>
+
+<ul>
+  <li>Teste die Konfigurationsdatei ohne den laufenden Server zu beeinflussen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nginx -t</code></p>
+
+<ul>
+  <li>Lade die Konfigurationsdatei durch das Senden eines Signales ohne Pause neu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nginx -s reload</code></p>

@@ -1,0 +1,40 @@
+<h1 id="devcontainer">devcontainer</h1>
+
+<p>Docker 컨테이너를 개발 환경으로 사용.
+더 많은 정보: <a href="https://containers.dev/">https://containers.dev/</a>.</p>
+
+<ul>
+  <li>Dev Container 생성 및 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devcontainer up</code></p>
+
+<ul>
+  <li>작업 공간에 Dev Container 템플릿을 적용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devcontainer templates apply --template-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">템플릿_아이디</span><code class="language-plaintext highlighter-rouge"> --template-args </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">템플릿_매개변수</span><code class="language-plaintext highlighter-rouge"> --workspace-folder </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/작업공간</span></p>
+
+<ul>
+  <li>현재 작업공간에서 실행 중인 Dev Container에 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devcontainer exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">devcontainer.json</code>에서 Dev Container 이미지를 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devcontainer build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/작업공간</span></p>
+
+<ul>
+  <li>VS Code에서 Dev 컨테이너를 열기 (경로는 선택사항):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devcontainer open </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/작업공간</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">devcontainer.json</code>에서 Dev Container의 구성을 읽고 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">devcontainer read-configuration</code></p>

@@ -1,0 +1,28 @@
+<h1 id="flake8">flake8</h1>
+
+<p>Check the style and quality of Python code.
+More information: <a href="https://flake8.pycqa.org/">https://flake8.pycqa.org/</a>.</p>
+
+<ul>
+  <li>Lint a file or directory recursively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flake8 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Lint a file or directory recursively and show the line on which each error occurred:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flake8 --show-source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Lint a file or directory recursively and ignore a list of rules. (All available rules can be found at flake8rules.com):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flake8 --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule1,rule2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Lint a file or directory recursively but exclude files matching the given globs or substrings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flake8 --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">substring1,glob2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>

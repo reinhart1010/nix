@@ -1,0 +1,53 @@
+<h1 id="tar">tar</h1>
+
+<p>Ferramenta de compressão de arquivos.
+Utilizado com metodos de compressão como o de gzip ou bzip2.
+Mais informações: <a href="https://www.gnu.org/software/tar">https://www.gnu.org/software/tar</a>.</p>
+
+<ul>
+  <li>[C]ria um arquivo compactado e o escreve para um arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar cf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/alvo.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1 caminho/para/arquivo2 …</span></p>
+
+<ul>
+  <li>[C]ria um arquivo g[z]ip e o escreve para um arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar czf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alvo.tar.gz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1 caminho/para/arquivo2 …</span></p>
+
+<ul>
+  <li>[C]ria um arquivo g[z]ip a partir de um diretório usando caminhos relativos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar czf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/alvo.tar.xz</span><code class="language-plaintext highlighter-rouge"> --directory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span><code class="language-plaintext highlighter-rouge"> .</code></p>
+
+<ul>
+  <li>E[x]trai arquivos de um arquivo (compactado):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar xvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">origem.tar[.gz|.bz2|.xz]</span></p>
+
+<ul>
+  <li>E[x]trai um arquivo (compactado) para um diretório alvo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar xf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/origem.tar[.gz|.bz2|.xz]</span><code class="language-plaintext highlighter-rouge"> --directory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>[C]ria um arquivo compactado e o escreve para um arquivo, usando a extensão de arquivo para determinar automaticamente a compressão do programa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar caf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/alvo.tar.xz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1 caminho/para/arquivo2 …</span></p>
+
+<ul>
+  <li>Lista arquivos de um arquivo tar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar tvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.tar</span></p>
+
+<ul>
+  <li>Extrai arquivos que correspondam a um padrão de um arquivo compactado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar xf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/alvo.tar</span><code class="language-plaintext highlighter-rouge"> --wildcards "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.html</span><code class="language-plaintext highlighter-rouge">"</code></p>

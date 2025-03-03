@@ -1,0 +1,34 @@
+<h1 id="taskset">taskset</h1>
+
+<p>Get or set a process' CPU affinity or start a new process with a defined CPU affinity.
+More information: <a href="https://manned.org/taskset">https://manned.org/taskset</a>.</p>
+
+<ul>
+  <li>Get a running process' CPU affinity by PID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskset --pid --cpu-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Set a running process' CPU affinity by PID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskset --pid --cpu-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Start a new process with affinity for a single CPU:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskset --cpu-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Start a new process with affinity for multiple non-sequential CPUs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskset --cpu-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_1</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_2</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_3</span></p>
+
+<ul>
+  <li>Start a new process with affinity for CPUs 1 through 4:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">taskset --cpu-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_1</span><code class="language-plaintext highlighter-rouge">-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_4</span></p>

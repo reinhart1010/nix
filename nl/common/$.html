@@ -1,0 +1,46 @@
+<h1 id="dollar-sign">Dollar sign</h1>
+
+<p>Breid een Bash-variabele uit.
+Meer informatie: <a href="https://gnu.org/software/bash/manual/bash.html#Shell-Variables">https://gnu.org/software/bash/manual/bash.html#Shell-Variables</a>.</p>
+
+<ul>
+  <li>Toon een variabele:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VARIABLE</span></p>
+
+<ul>
+  <li>Toon de exitstatus van het vorige commando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $?</code></p>
+
+<ul>
+  <li>Toon een willekeurig getal tussen 0 en 32767:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $RANDOM</code></p>
+
+<ul>
+  <li>Toon een van de promptstrings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PS1|PS2|PS3|PS4</span></p>
+
+<ul>
+  <li>Breid uit met de uitvoer van <code class="language-plaintext highlighter-rouge">command</code> en voer het uit. Hetzelfde als het commando tussen backticks plaatsen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">$(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Toon hoeveel argumenten de huidige context heeft:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $#</code></p>
+
+<ul>
+  <li>Toon een Bash array:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo ${array[@]}</code></p>

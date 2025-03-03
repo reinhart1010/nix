@@ -1,0 +1,28 @@
+<h1 id="adscript">adscript</h1>
+
+<p>Compiler für Adscript Dateien.
+Weitere Informationen: <a href="https://github.com/Amplus2/Adscript">https://github.com/Amplus2/Adscript</a>.</p>
+
+<ul>
+  <li>Kompiliere eine Datei zu einer Objektdatei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.o</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.adscript</span></p>
+
+<ul>
+  <li>Kompiliere eine Datei zu einer ausführbaren Binärdatei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --executable --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.adscript</span></p>
+
+<ul>
+  <li>Kompiliere eine Datei zu LLVM IR anstelle von nativem Maschinencode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --llvm-ir --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.ll</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.adscript</span></p>
+
+<ul>
+  <li>Cross-kompiliere eine Datei zu einer Objektdatei für eine fremde CPU Architektur oder ein fremdes Betriebssystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adscript --target-triple </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">i386-linux-elf</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.o</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.adscript</span></p>

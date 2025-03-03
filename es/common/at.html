@@ -1,0 +1,35 @@
+<h1 id="at">at</h1>
+
+<p>Ejecuta los comandos una vez en otro momento.
+Los resultados se enviarán al correo del usuario.
+Más información: <a href="https://manned.org/at">https://manned.org/at</a>.</p>
+
+<ul>
+  <li>Inicia el servicio (daemon)<code class="language-plaintext highlighter-rouge">atd</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl start atd</code></p>
+
+<ul>
+  <li>Crea comandos interactivamente y los ejecuta en 5 minutos (pulsa <code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt; + D</code> cuando termines):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at now + 5 minutes</code></p>
+
+<ul>
+  <li>Crea comandos de forma interactiva y los ejecuta a una hora determinada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hh:mm</span></p>
+
+<ul>
+  <li>Ejecuta un comando de <code class="language-plaintext highlighter-rouge">stdin</code> a las 10:00 AM de hoy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge">" | at 1000</code></p>
+
+<ul>
+  <li>Ejecuta comandos desde un archivo determinado el próximo martes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span><code class="language-plaintext highlighter-rouge"> 9:30 PM Tue</code></p>

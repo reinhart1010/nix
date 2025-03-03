@@ -1,0 +1,22 @@
+<h1 id="git-stripspace">git stripspace</h1>
+
+<p>Read text (e.g. commit messages, notes, tags, and branch descriptions) from <code class="language-plaintext highlighter-rouge">stdin</code> and clean it into the manner used by Git.
+More information: <a href="https://git-scm.com/docs/git-stripspace">https://git-scm.com/docs/git-stripspace</a>.</p>
+
+<ul>
+  <li>Trim whitespace from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> | git stripspace</code></p>
+
+<ul>
+  <li>Trim whitespace and Git comments from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> | git stripspace --strip-comments</code></p>
+
+<ul>
+  <li>Convert all lines in a file into Git comments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stripspace --comment-lines &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

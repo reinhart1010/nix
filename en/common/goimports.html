@@ -1,0 +1,28 @@
+<h1 id="goimports">goimports</h1>
+
+<p>Updates Go import lines, adding missing ones and removing unreferenced ones.
+More information: <a href="https://godoc.org/golang.org/x/tools/cmd/goimports">https://godoc.org/golang.org/x/tools/cmd/goimports</a>.</p>
+
+<ul>
+  <li>Display the completed import source file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">goimports </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.go</span></p>
+
+<ul>
+  <li>Write the result back to the source file instead of <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">goimports -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.go</span></p>
+
+<ul>
+  <li>Display diffs and write the result back to the source file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">goimports -w -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.go</span></p>
+
+<ul>
+  <li>Set the import prefix string after 3rd-party packages (comma-separated list):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">goimports -local </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package1,path/to/package2,…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.go</span></p>

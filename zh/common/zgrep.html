@@ -1,0 +1,46 @@
+<h1 id="zgrep">zgrep</h1>
+
+<p>在压缩文件中从文件中 grep 文本模式（等价于 <code class="language-plaintext highlighter-rouge">grep -Z</code>）。
+更多信息：<a href="https://manned.org/zgrep">https://manned.org/zgrep</a>.</p>
+
+<ul>
+  <li>在压缩文件中 grep 一个模式（区分大小写）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">模式</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/压缩/文件</span></p>
+
+<ul>
+  <li>在压缩文件中 grep 一个模式（不区分大小写）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">模式</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/压缩/文件</span></p>
+
+<ul>
+  <li>输出包含匹配模式的行数：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">模式</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/压缩/文件</span></p>
+
+<ul>
+  <li>显示不包含该模式的行（反转搜索功能）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">模式</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/压缩/文件</span></p>
+
+<ul>
+  <li>在压缩文件中为多个模式执行 grep：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">模式_1</span><code class="language-plaintext highlighter-rouge">" -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">模式_2</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/压缩/文件</span></p>
+
+<ul>
+  <li>使用扩展的正则表达式（支持 <code class="language-plaintext highlighter-rouge">?</code>、<code class="language-plaintext highlighter-rouge">+</code>、<code class="language-plaintext highlighter-rouge">{}</code>、<code class="language-plaintext highlighter-rouge">()</code> 和 <code class="language-plaintext highlighter-rouge">|</code>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">正则表达式</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>打印每个匹配项前后各 3 行的上下文（[C]ontent）、[B]efore 或 [A]fter：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zgrep -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C|B|A</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">模式</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/压缩/文件</span></p>

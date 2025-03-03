@@ -1,0 +1,53 @@
+<h1 id="apt">apt</h1>
+
+<p>أداة إدارة الحزم للتوزيعات القائمة على ديبيان.
+بديل لـ <code class="language-plaintext highlighter-rouge">apt-get</code> عند الاستخدام الفعال في إصدارات أوبونتو 16.04 وما بعده.
+لمزيد من التفاصيل: <a href="https://manned.org/apt.8">https://manned.org/apt.8</a>.</p>
+
+<ul>
+  <li>تحديث قائمة الحزم الموجودة وإصداراتها (يوصى بتشغيله قبل أي أمر <code class="language-plaintext highlighter-rouge">apt</code> آخر):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>البحث عن حزمة معينة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>إظهار معلومات حول حزمة معينة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>تثبيت حزمة معينة، أو تحديثها إلى آخر إصدار متوفر:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>إزالة حزمة معينة (استخدام <code class="language-plaintext highlighter-rouge">purge</code> لحذف ملفات الإعدادات الخاصة بالحزمة):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>تطوير جميع الحزم المثبتة إلى أجدد الإصدارات المتوفرة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt upgrade</code></p>
+
+<ul>
+  <li>إظهار قائمة جميع الحزم:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list</code></p>
+
+<ul>
+  <li>إظهار قائمة جميع الحزم المثبتة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list --installed</code></p>

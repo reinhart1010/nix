@@ -1,0 +1,17 @@
+<h1 id="rage">rage</h1>
+
+<p>간단하고 안전하며 현대적인 파일 암호화 도구(Rust 라이브러리 포함)로, 작은 명시적 키, 설정 옵션 없음, UNIX 스타일의 구성 가능성을 제공합니다.
+<code class="language-plaintext highlighter-rouge">age</code>의 Rust 구현.
+더 많은 정보: <a href="https://github.com/str4d/rage">https://github.com/str4d/rage</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">user</code>를 위한 파일을 암호화하고 <code class="language-plaintext highlighter-rouge">message.age</code>로 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">당신의 비밀 메시지</span><code class="language-plaintext highlighter-rouge">" | rage --encrypt --recipient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/message.age</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">identity_file</code>로 파일을 복호화하고 <code class="language-plaintext highlighter-rouge">message</code>로 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rage --decrypt --identity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/identity_file</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span></p>

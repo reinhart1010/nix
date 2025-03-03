@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="yt-dlp">yt-dlp</h1>
+
+<p>Um fork do youtube-dl com funcionalidades e correções adicionais.
+Descarrega vídeos do YouTube e de outros websites.
+Mais informações: <a href="https://github.com/yt-dlp/yt-dlp">https://github.com/yt-dlp/yt-dlp</a>.</p>
+
+<ul>
+  <li>Descarrega um vídeo ou playlist (com as opções predefinidas):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Descarrega um vídeo num formato específico, neste caso o melhor vídeo mp4 disponível (a predefinição é "bv*+ba/b"):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp --format "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Extrai áudio de vídeos (requer o <code class="language-plaintext highlighter-rouge">ffmpeg</code> ou o <code class="language-plaintext highlighter-rouge">ffprobe</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp --extract-audio "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Especifica a qualidade do áudio extraído, entre 0 (melhor) e 10 (pior), sendo 5 a predefinição:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp --extract-audio --audio-format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mp3</span><code class="language-plaintext highlighter-rouge"> --audio-quality </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Descarrega todas as playlists de um canal ou utilizador do YouTube, mantendo cada playlist num diretório separado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp -o "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%(uploader)s/%(playlist)s/%(indice_playlist)s - %(titulo)s.%(ext)s</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/user/TheLinuxFoundation/playlists</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Descarrega um curso do Udemy, mantendo cada capítulo num diretório em separado, dentro do diretório "MyVideos" na home do utilizador:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">palavra_passe</span><code class="language-plaintext highlighter-rouge"> -P "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/MyVideos</span><code class="language-plaintext highlighter-rouge">" -o "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%(playlist)s/%(numero_capitulo)s - %(capitulo)s/%(titulo)s.%(ext)s</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.udemy.com/java-tutorial</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Descarrega temporadas completas de séries, mantendo cada série e cada temporada num diretório separado, em C:\MyVideos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp -P "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:/MyVideos</span><code class="language-plaintext highlighter-rouge">" -o "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%(serie)s/%(numero_temporada)s - %(temporada)s/%(numero_episodio)s - %(episodio)s.%(ext)s</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://videomore.ru/kino_v_detalayah/5_sezon/367617</span><code class="language-plaintext highlighter-rouge">"</code></p>

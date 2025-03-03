@@ -1,0 +1,42 @@
+<h1 id="agetty">agetty</h1>
+
+<p>대안 <code class="language-plaintext highlighter-rouge">getty</code>: <code class="language-plaintext highlighter-rouge">tty</code> 포트를 열고 로그인 이름을 요청한 후 <code class="language-plaintext highlighter-rouge">/bin/login</code> 명령을 호출합니다.
+일반적으로 <code class="language-plaintext highlighter-rouge">init</code>에 의해 호출됩니다.
+참고: 보드레이트는 터미널과 장치 간의 직렬 연결을 통한 데이터 전송 속도입니다.
+더 많은 정보: <a href="https://manned.org/agetty">https://manned.org/agetty</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>을 포트(<code class="language-plaintext highlighter-rouge">/dev</code> 상대 경로)에 연결하고 선택적으로 보드레이트를 지정(기본값: 9600):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">agetty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tty</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">115200</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>이 이미 <code class="language-plaintext highlighter-rouge">tty</code>에 연결되었다고 가정하고 로그인에 대한 타임아웃 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">agetty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–timeout</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">타임아웃_초</span><code class="language-plaintext highlighter-rouge"> -</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">tty</code>가 [8]비트라고 가정하고 <code class="language-plaintext highlighter-rouge">init</code>에 의해 설정된 <code class="language-plaintext highlighter-rouge">TERM</code> 환경 변수를 재정의:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">agetty -8 - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">term_var</span></p>
+
+<ul>
+  <li>로그인을 건너뛰고(로그인 없음) 루트 권한으로 다른 로그인 프로그램을 <code class="language-plaintext highlighter-rouge">/bin/login</code> 대신 호출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">agetty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–skip-login</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–login-program</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">로그인_프로그램</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tty</span></p>
+
+<ul>
+  <li>로그인 프롬프트를 작성하기 전에 사전 로그인(이슈) 파일(<code class="language-plaintext highlighter-rouge">/etc/issue</code> 기본값)을 표시하지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">agetty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–noissue</span><code class="language-plaintext highlighter-rouge"> -</code></p>
+
+<ul>
+  <li>루트 디렉터리를 변경하고 <code class="language-plaintext highlighter-rouge">utmp</code> 파일에 특정 가짜 호스트 작성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">agetty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–chroot</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/루트_디렉터리</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-H|–host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가짜_호스트</span><code class="language-plaintext highlighter-rouge"> -</code></p>

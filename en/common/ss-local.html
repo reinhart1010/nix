@@ -1,0 +1,28 @@
+<h1 id="ss-local">ss-local</h1>
+
+<p>Run a Shadowsocks client as a SOCKS5 proxy.
+More information: <a href="https://github.com/shadowsocks/shadowsocks-libev/blob/master/doc/ss-local.asciidoc">https://github.com/shadowsocks/shadowsocks-libev/blob/master/doc/ss-local.asciidoc</a>.</p>
+
+<ul>
+  <li>Run a Shadowsocks proxy by specifying the host, server port, local port, password, and encryption method:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ss-local -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_port</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local port</span><code class="language-plaintext highlighter-rouge"> -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">encrypt_method</span></p>
+
+<ul>
+  <li>Run a Shadowsocks proxy by specifying the configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ss-local -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config/file.json</span></p>
+
+<ul>
+  <li>Use a plugin to run the proxy client:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ss-local --plugin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plugin_name</span><code class="language-plaintext highlighter-rouge"> --plugin-opts </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plugin_options</span></p>
+
+<ul>
+  <li>Enable TCP fast open:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ss-local --fast-open</code></p>

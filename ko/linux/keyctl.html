@@ -1,0 +1,52 @@
+<h1 id="keyctl">keyctl</h1>
+
+<p>Linux 커널 키링을 조작합니다.
+더 많은 정보: <a href="https://manned.org/keyctl">https://manned.org/keyctl</a>.</p>
+
+<ul>
+  <li>특정 키링에 있는 키 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keyctl list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상_키링</span></p>
+
+<ul>
+  <li>사용자 기본 세션의 현재 키 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keyctl list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@us</span></p>
+
+<ul>
+  <li>특정 키링에 키 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keyctl add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">타입_키링</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_값</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상_키링</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 값을 받아 키 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_값</span><code class="language-plaintext highlighter-rouge"> | keyctl padd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">타입_키링</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상_키링</span></p>
+
+<ul>
+  <li>키에 시간 제한 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keyctl timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">초단위_시간_제한</span></p>
+
+<ul>
+  <li>키를 읽어 16진 덤프로 형식화 (출력 불가 시):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keyctl read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span></p>
+
+<ul>
+  <li>키를 읽어 그대로 형식화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keyctl pipe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span></p>
+
+<ul>
+  <li>키를 취소하고 추가 작업 방지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">keyctl revoke </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span></p>

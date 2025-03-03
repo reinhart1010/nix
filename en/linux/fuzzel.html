@@ -1,0 +1,52 @@
+<h1 id="fuzzel">fuzzel</h1>
+
+<p>A Wayland-native application launcher and fuzzy finder, inspired by <code class="language-plaintext highlighter-rouge">rofi</code> and <code class="language-plaintext highlighter-rouge">dmenu</code>.
+More information: <a href="https://codeberg.org/dnkl/fuzzel">https://codeberg.org/dnkl/fuzzel</a>.</p>
+
+<ul>
+  <li>Run applications:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fuzzel</code></p>
+
+<ul>
+  <li>Run <code class="language-plaintext highlighter-rouge">fuzzel</code> in dmenu mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fuzzel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–dmenu</span></p>
+
+<ul>
+  <li>Display a menu of the output of the <code class="language-plaintext highlighter-rouge">ls</code> command:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls</span><code class="language-plaintext highlighter-rouge"> | fuzzel -d</code></p>
+
+<ul>
+  <li>Display a menu with custom items separated by a new line (<code class="language-plaintext highlighter-rouge">\n</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">red</span><code class="language-plaintext highlighter-rouge">\n</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">green</span><code class="language-plaintext highlighter-rouge">\n</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blue</span><code class="language-plaintext highlighter-rouge">" | fuzzel -d</code></p>
+
+<ul>
+  <li>Let the user choose between multiple items and save the selected one to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">red</span><code class="language-plaintext highlighter-rouge">\n</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">green</span><code class="language-plaintext highlighter-rouge">\n</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blue</span><code class="language-plaintext highlighter-rouge">" | fuzzel -d &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">color.txt</span></p>
+
+<ul>
+  <li>Reset apps usage count (default cache directory: <code class="language-plaintext highlighter-rouge">$XDG_CACHE_HOME/fuzzel</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rm -v $HOME/.cache/fuzzel</code></p>
+
+<ul>
+  <li>Launch <code class="language-plaintext highlighter-rouge">fuzzel</code> on a specific monitor, see <code class="language-plaintext highlighter-rouge">wlr-randr</code> or <code class="language-plaintext highlighter-rouge">swaymsg -t get_outputs</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fuzzel -o "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">DP-1</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Use <code class="language-plaintext highlighter-rouge">fuzzel</code> to do an online search:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fuzzel -d -l 0 --placeholder "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Type your search</span><code class="language-plaintext highlighter-rouge">" | sed 's/^/\"/g;s/$/\"/g' | xargs firefox --search</code></p>

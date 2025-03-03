@@ -1,0 +1,46 @@
+<h1 id="dex">dex</h1>
+
+<p>DesktopEntry Execution est un programme servant à générer et à exécuter des fichiers DesktopEntry de type Application.
+Plus d'informations : <a href="https://github.com/jceb/dex">https://github.com/jceb/dex</a>.</p>
+
+<ul>
+  <li>Exécute tous les programmes dans les dossiers de démarrage automatique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dex --autostart</code></p>
+
+<ul>
+  <li>Exécute tous les programmes dans les dossiers spécifiés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dex --autostart --search-paths </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier1</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier2</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chermin/vers/dossier3</span><code class="language-plaintext highlighter-rouge">:</code></p>
+
+<ul>
+  <li>Prévisualise les programmes qui seraient exécutés lors d'un démarrage automatique spécifique à GNOME :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dex --autostart --environment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GNOME</span></p>
+
+<ul>
+  <li>Prévisualise les programmes qui seraient exécutés lors d'un démarrage automatique standard :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dex --autostart --dry-run</code></p>
+
+<ul>
+  <li>Prévisualise la valeur de la propriété <code class="language-plaintext highlighter-rouge">Name</code> de DesktopEntry :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dex --property </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.desktop</span></p>
+
+<ul>
+  <li>Crée une DesktopEntry pour un programme dans le dossier courant :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dex --create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.destkop</span></p>
+
+<ul>
+  <li>Exécute un programme (avec <code class="language-plaintext highlighter-rouge">Terminal=true</code> dans le fichier Desktop) dans le terminal donné :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dex --term </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">terminal</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.desktop</span></p>

@@ -1,0 +1,56 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="kill">kill</h1>
+
+<p>Envoie un signal à un processus, généralement pour l'interrompre.
+Tous les signaux sauf SIGKILL et SIGSTOP peuvent être interceptés par le processus pour pouvoir se terminer proprement.
+Plus d'informations : <a href="https://manned.org/kill.1posix">https://manned.org/kill.1posix</a>.</p>
+
+<ul>
+  <li>Termine un processus avec le signal SIGTERM (terminaison) par défaut :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">indentifiant_processus</span></p>
+
+<ul>
+  <li>Liste les noms des signaux disponibles (à utiliser sans leurs préfixes <code class="language-plaintext highlighter-rouge">SIG</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -l</code></p>
+
+<ul>
+  <li>Termine une tâche de fond :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identifiant_tâche</span></p>
+
+<ul>
+  <li>Termine un processus avec le signal SIGHUP ("raccrocher"). Beaucoup de daemons se rafraîchissent au lieu de terminer :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|HUP</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">indentifiant_processus</span></p>
+
+<ul>
+  <li>Termine un processus avec le signal SIGINT ("interruption"). Généralement initié par l'utilisateur appuyant sur <code class="language-plaintext highlighter-rouge">Ctrl + C</code> :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2|INT</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">indentifiant_processus</span></p>
+
+<ul>
+  <li>Demande au système d'exploitation de mettre fin à un processus immédiatement (sans possibilité d'intercepter le signal) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9|KILL</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">indentifiant_processus</span></p>
+
+<ul>
+  <li>Demande au système d'exploitation de suspendre un processus jusqu'à recevoir le signal SIGCONT ("continue") :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">17|STOP</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">indentifiant_processus</span></p>
+
+<ul>
+  <li>Envoie le signal SIGUSR1 à tous les processus dans le groupe avec l'identifiant indiqué :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGUSR1</span><code class="language-plaintext highlighter-rouge"> -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identifiant_groupe</span></p>

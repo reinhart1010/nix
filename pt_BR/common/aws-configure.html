@@ -1,0 +1,52 @@
+<h1 id="aws-configure">aws configure</h1>
+
+<p>Gerencia as configurações para o AWS CLI.
+Mais informações: <a href="https://docs.aws.amazon.com/cli/latest/reference/configure/">https://docs.aws.amazon.com/cli/latest/reference/configure/</a>.</p>
+
+<ul>
+  <li>Configura interativamente o AWS CLI (cria uma nova configuração ou atualiza a configuração default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure</code></p>
+
+<ul>
+  <li>Configura interativamente um profile para o AWS CLI (cria um novo profile ou atualiza um que já existae):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_profile</span></p>
+
+<ul>
+  <li>Exibe o valor de uma variável específica de configuração:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span></p>
+
+<ul>
+  <li>Exibe o valor de uma variável específica de configuração de um profile específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span><code class="language-plaintext highlighter-rouge"> --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_profile</span></p>
+
+<ul>
+  <li>Altera o valor de uma variável específica de configuração:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span></p>
+
+<ul>
+  <li>Altera o valor de uma variável específica de configuração de um profile específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span><code class="language-plaintext highlighter-rouge"> --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_profile</span></p>
+
+<ul>
+  <li>Lista os entradas da configuração:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure list</code></p>
+
+<ul>
+  <li>Lista os entradas da configuração de um profile específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure list --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span></p>

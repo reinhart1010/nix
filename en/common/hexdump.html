@@ -1,0 +1,28 @@
+<h1 id="hexdump">hexdump</h1>
+
+<p>An ASCII, decimal, hexadecimal, octal dump.
+More information: <a href="https://manned.org/hexdump">https://manned.org/hexdump</a>.</p>
+
+<ul>
+  <li>Print the hexadecimal representation of a file, replacing duplicate lines by '*':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Display the input offset in hexadecimal and its ASCII representation in two columns:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Display the hexadecimal representation of a file, but interpret only n bytes of the input:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump -C -n</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_bytes</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Don't replace duplicate lines with '*':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump --no-squeezing </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

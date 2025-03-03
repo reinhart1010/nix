@@ -1,0 +1,46 @@
+<h1 id="todo">todo</h1>
+
+<p>Een eenvoudige, op standaarden gebaseerde, opdrachtregel todo manager.
+Meer informatie: <a href="https://todoman.readthedocs.io">https://todoman.readthedocs.io</a>.</p>
+
+<ul>
+  <li>Toon startbare taken:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo list --startable</code></p>
+
+<ul>
+  <li>Voeg een nieuwe taak toe aan de werklijst:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ding_om_te_doen</span><code class="language-plaintext highlighter-rouge"> --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">werk</span></p>
+
+<ul>
+  <li>Voeg een locatie toe aan een taak met een gegeven ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo edit --location </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">locatie_naam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">taak_id</span></p>
+
+<ul>
+  <li>Toon details over een taak:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">taak_id</span></p>
+
+<ul>
+  <li>Markeer taken met de opgegeven IDs als voltooid:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo done </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">taak_id1 taak_id2 …</span></p>
+
+<ul>
+  <li>Verwijder een taak:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">taak_id</span></p>
+
+<ul>
+  <li>Verwijder voltooide taken en reset de IDs van de overgebleven taken:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo flush</code></p>

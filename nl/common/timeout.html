@@ -1,0 +1,34 @@
+<h1 id="timeout">timeout</h1>
+
+<p>Voer een commando uit met een tijdslimiet.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/timeout-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/timeout-invocation.html</a>.</p>
+
+<ul>
+  <li>Voer <code class="language-plaintext highlighter-rouge">sleep 10</code> uit en beëindig het na 3 seconden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timeout 3s sleep 10</code></p>
+
+<ul>
+  <li>Stuur een [s]ignaal naar het commando nadat de tijdslimiet is verlopen (standaard <code class="language-plaintext highlighter-rouge">TERM</code>, <code class="language-plaintext highlighter-rouge">kill -l</code> om alle signalen te tonen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timeout --signal </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">INT|HUP|KILL|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5s</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sleep 10</span></p>
+
+<ul>
+  <li>Stuur [v]erbose output naar <code class="language-plaintext highlighter-rouge">stderr</code> en laat het signaal zien dat is verzonden bij een timeout:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timeout --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.5s|1m|1h|1d|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span></p>
+
+<ul>
+  <li>Behoud de exit status van het commando ongeacht of er een timeout is:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timeout --preserve-status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1s|1m|1h|1d|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span></p>
+
+<ul>
+  <li>Stuur een krachtig <code class="language-plaintext highlighter-rouge">KILL</code>-signaal na een bepaalde tijd als het commando het initiële signaal negeert bij een timeout:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timeout --kill-after=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5m</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30s</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span></p>

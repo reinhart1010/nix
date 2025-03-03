@@ -1,0 +1,52 @@
+<h1 id="babel">babel</h1>
+
+<p>Un transpilateur qui convertit du code JavaScript avec la syntaxe ES6/ES7 en syntaxe ES5.
+Plus d'informations : <a href="https://babeljs.io/">https://babeljs.io/</a>.</p>
+
+<ul>
+  <li>Transpile une fichier spécifié et affiche le résultat dans la sortie standard :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Transpile un fichier spécifié et enregistre le résultat dans un autre fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier/d_entrée</span><code class="language-plaintext highlighter-rouge"> --out-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier/de/sortie</span></p>
+
+<ul>
+  <li>Transpile un fichier d'entrée à chaque fois qu'il est modifié :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier/d_entrée</span><code class="language-plaintext highlighter-rouge"> --watch</code></p>
+
+<ul>
+  <li>Transpile tout un dossier et ses fichiers :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier</span></p>
+
+<ul>
+  <li>Ignore des fichiers (séparés par une virgule) dans un dossier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier</span><code class="language-plaintext highlighter-rouge"> --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichiers_ignorés</span></p>
+
+<ul>
+  <li>Transpile et minifie la sortie :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier/d_entrée</span><code class="language-plaintext highlighter-rouge"> --minified</code></p>
+
+<ul>
+  <li>Sélectionne un lot de pré-configuration pour le formatage de sortie :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier/d_entrée</span><code class="language-plaintext highlighter-rouge"> --presets </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pré-configurations</span></p>
+
+<ul>
+  <li>Affiche toutes les options disponibles :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babel --help</code></p>

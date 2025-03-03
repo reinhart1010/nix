@@ -1,0 +1,46 @@
+<h1 id="z">z</h1>
+
+<p>Tracks the most used (by frequency) directories and enables quickly navigating to them using string patterns or regular expressions.
+More information: <a href="https://github.com/rupa/z">https://github.com/rupa/z</a>.</p>
+
+<ul>
+  <li>Go to a directory that contains "foo" in the name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">z </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>Go to a directory that contains "foo" and then "bar":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">z </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span></p>
+
+<ul>
+  <li>Go to the highest-ranked directory matching "foo":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">z -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>Go to the most recently accessed directory matching "foo":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">z -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>List all directories in <code class="language-plaintext highlighter-rouge">z</code>'s database matching "foo":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">z -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>Remove the current directory from <code class="language-plaintext highlighter-rouge">z</code>'s database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">z -x</code></p>
+
+<ul>
+  <li>Restrict matches to subdirectories of the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">z -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>

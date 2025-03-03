@@ -1,0 +1,41 @@
+<h1 id="duc">duc</h1>
+
+<p>Uma coleção de ferramentas para indexar, inspecionar e visualizar uso do disco.
+O duc mantém uma base de dados dos tamanhos acumlados dos diretórios do sistema de arquivos, permitindo buscas nessa base, ou a criação de gráficos elegantes.
+Mais informações: <a href="http://duc.zevv.nl">http://duc.zevv.nl</a>.</p>
+
+<ul>
+  <li>Indexa o diretório /usr, escrevendo a base de dados para o local default em ~/.duc.db:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duc index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr</span></p>
+
+<ul>
+  <li>Lista todos os arquivos e diretórios dentro do /usr/local, mostrando tamanho relativo dos arquivos em um [g]raph (gráfico):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duc ls -Fg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/local</span></p>
+
+<ul>
+  <li>Lista todos os arquivos e diretórios dentro do /usr/local em uma visão de árvore recursiva:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duc ls -Fg -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/local</span></p>
+
+<ul>
+  <li>Inicia uma interface gráfica para o usuário explorar o sistema de arquivos exibindo o gráfico sunburst:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duc gui </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr</span></p>
+
+<ul>
+  <li>Executa a interface de console ncurses para explorar o sistema de arquivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duc ui </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr</span></p>
+
+<ul>
+  <li>Exporta as informações da base de dados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duc info</code></p>

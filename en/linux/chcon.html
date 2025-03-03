@@ -1,0 +1,47 @@
+<h1 id="chcon">chcon</h1>
+
+<p>Change SELinux security context of a file or files/directories.
+See also: <code class="language-plaintext highlighter-rouge">secon</code>, <code class="language-plaintext highlighter-rouge">restorecon</code>, <code class="language-plaintext highlighter-rouge">semanage-fcontext</code>.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/chcon-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/chcon-invocation.html</a>.</p>
+
+<ul>
+  <li>View security context of a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls -lZ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Change the security context of a target file, using a reference file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon --reference=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reference_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_file</span></p>
+
+<ul>
+  <li>Change the full SELinux security context of a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">range/level</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Change only the user part of SELinux security context:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Change only the role part of SELinux security context:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Change only the type part of SELinux security context:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Change only the range/level part of SELinux security context:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">range/level</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>

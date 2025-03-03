@@ -1,0 +1,29 @@
+<h1 id="az-webapp">az webapp</h1>
+
+<p>Manage Web Applications hosted in Azure Cloud Services.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/webapp">https://learn.microsoft.com/cli/azure/webapp</a>.</p>
+
+<ul>
+  <li>List available runtimes for a web application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az webapp list-runtimes --os-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">windows|linux</span></p>
+
+<ul>
+  <li>Create a web application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az webapp up --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --location </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">location</span><code class="language-plaintext highlighter-rouge"> --runtime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">runtime</span></p>
+
+<ul>
+  <li>List all web applications:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az webapp list</code></p>
+
+<ul>
+  <li>Delete a specific web application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az webapp delete --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span></p>

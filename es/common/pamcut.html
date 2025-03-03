@@ -1,0 +1,23 @@
+<h1 id="pamcut">pamcut</h1>
+
+<p>Corta una región rectangular de una imagen Netpbm.
+Vea también: <code class="language-plaintext highlighter-rouge">pamcrop</code>, <code class="language-plaintext highlighter-rouge">pamdice</code>, <code class="language-plaintext highlighter-rouge">pamcomp</code>.
+Más información: <a href="https://netpbm.sourceforge.net/doc/pamcut.html">https://netpbm.sourceforge.net/doc/pamcut.html</a>.</p>
+
+<ul>
+  <li>Descarta la cantidad de columnas/filas especificadas a cada lado de la imagen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamcut -cropleft </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span><code class="language-plaintext highlighter-rouge"> -cropright </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span><code class="language-plaintext highlighter-rouge"> -croptop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span><code class="language-plaintext highlighter-rouge"> -cropbottom </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/imagen.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/resultado.ppm</span></p>
+
+<ul>
+  <li>Mantiene solo las columnas entre las columnas especificadas (inclusivamente):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamcut -left </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span><code class="language-plaintext highlighter-rouge"> -right </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/imagen.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/resultado.ppm</span></p>
+
+<ul>
+  <li>Llena áreas perdidas con píxeles negros si el rectángulo especificado no se encuentra completamente dentro de la imagen de entrada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamcut -top </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span><code class="language-plaintext highlighter-rouge"> -bottom </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span><code class="language-plaintext highlighter-rouge"> -pad </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/imagen.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/resultado.ppm</span></p>

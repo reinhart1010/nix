@@ -1,0 +1,34 @@
+<h1 id="csvtool">csvtool</h1>
+
+<p>Utility to filter and extract data from CSV formatted sources.
+More information: <a href="https://github.com/maroofi/csvtool">https://github.com/maroofi/csvtool</a>.</p>
+
+<ul>
+  <li>Extract the second column from a CSV file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvtool --column </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csv</span></p>
+
+<ul>
+  <li>Extract the second and fourth columns from a CSV file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvtool --column </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2,4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csv</span></p>
+
+<ul>
+  <li>Extract lines from a CSV file where the second column exactly matches 'Foo':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvtool --column </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> --search '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^Foo$</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csv</span></p>
+
+<ul>
+  <li>Extract lines from a CSV file where the second column starts with 'Bar':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvtool --column </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> --search '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^Bar</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csv</span></p>
+
+<ul>
+  <li>Find lines in a CSV file where the second column ends with 'Baz' and then extract the third and sixth columns:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvtool --column </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> --search '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Baz$</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csv</span><code class="language-plaintext highlighter-rouge"> | csvtool --no-header --column </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3,6</span></p>

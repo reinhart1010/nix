@@ -1,0 +1,40 @@
+<h1 id="whisper">whisper</h1>
+
+<p>Convert audio files to <code class="language-plaintext highlighter-rouge">txt</code>, <code class="language-plaintext highlighter-rouge">vtt</code>, <code class="language-plaintext highlighter-rouge">srt</code>, <code class="language-plaintext highlighter-rouge">tsv</code> and <code class="language-plaintext highlighter-rouge">json</code>.
+More information: <a href="https://github.com/openai/whisper">https://github.com/openai/whisper</a>.</p>
+
+<ul>
+  <li>Convert a specific audio file to all of the given file formats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whisper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/audio.mp3</span></p>
+
+<ul>
+  <li>Convert an audio file specifying the output format of the converted file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whisper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/audio.mp3</span><code class="language-plaintext highlighter-rouge"> --output_format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txt</span></p>
+
+<ul>
+  <li>Convert an audio file using a specific model for conversion:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whisper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/audio.mp3</span><code class="language-plaintext highlighter-rouge"> --model </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tiny.en,tiny,base.en,base,small.en,small,medium.en,medium,large-v1,large-v2,large</span></p>
+
+<ul>
+  <li>Convert an audio file specifying which language the audio file is in to reduce conversion time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whisper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/audio.mp3</span><code class="language-plaintext highlighter-rouge"> --language </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">english</span></p>
+
+<ul>
+  <li>Convert an audio file and save it to a specific location:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whisper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/audio.mp3</span><code class="language-plaintext highlighter-rouge"> --output_dir "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Convert an audio file in quiet mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">whisper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/audio.mp3</span><code class="language-plaintext highlighter-rouge"> --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">False</span></p>

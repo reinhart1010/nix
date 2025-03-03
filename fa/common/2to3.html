@@ -1,0 +1,46 @@
+<h1 id="2to3">2to3</h1>
+
+<p>تبدیل خودکار کد پایتون نسخه 2 به 3
+اطلاعات بیشتر: <a href="https://manned.org/2to3">https://manned.org/2to3</a>.</p>
+
+<ul>
+  <li>نمایش تغییرات که در حال حاضر انجام میشود بدون اجرای آن (dry-run) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span></p>
+
+<ul>
+  <li>تبدیل فایل پایتون نسخه 2 به 3 :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span></p>
+
+<ul>
+  <li>تبدیل قابلیت های خاص پایتون نسخه 2 به 3 :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span><code class="language-plaintext highlighter-rouge"> --fix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raw_input</span><code class="language-plaintext highlighter-rouge"> --fix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">print</span></p>
+
+<ul>
+  <li>تبدیل تمامی قابلیت های نسخه 2 به 3 بغیر از ویژگی های معیین شده :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span><code class="language-plaintext highlighter-rouge"> --nofix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">has_key</span><code class="language-plaintext highlighter-rouge"> --nofix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">isinstance</span></p>
+
+<ul>
+  <li>نمایش لیست قابلیت های زبان پایتون نسخه 2 که قابلیت تبدیل به نسخه 3 را دارند :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --list-fixes</code></p>
+
+<ul>
+  <li>تبدیل تمامی فایل های پایتون نسخه 2 به 3 در یک مسیر :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --output-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/python3_directory</span><code class="language-plaintext highlighter-rouge"> --write-unchanged-files --nobackups </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/python2_directory</span></p>
+
+<ul>
+  <li>اجرای همزان(چند رشته ای) دستور 2 به 3 :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2to3 --processes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> --output-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/python3_directory</span><code class="language-plaintext highlighter-rouge"> --write --nobackups --no-diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/python2_directory</span></p>

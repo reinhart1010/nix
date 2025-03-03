@@ -1,0 +1,29 @@
+<h1 id="smbcacls">smbcacls</h1>
+
+<p>Visualiza y manipula ACLs de Windows en recursos compartidos SMB.
+Parte de la suite Samba.
+Más información: <a href="https://www.samba.org/samba/docs/current/man-html/smbcacls.1.html">https://www.samba.org/samba/docs/current/man-html/smbcacls.1.html</a>.</p>
+
+<ul>
+  <li>Muestra las ACLs de un archivo o directorio en un recurso compartido SMB remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbcacls //</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compartido</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dominio\nombre_usuario</span><code class="language-plaintext highlighter-rouge">%</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span></p>
+
+<ul>
+  <li>Establece una nueva ACL para un archivo en un recurso compartido SMB remoto (reemplaza <code class="language-plaintext highlighter-rouge">"ACL:..."</code> con una especificación ACL válida de Windows):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbcacls //</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compartido</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dominio\nombre_usuario</span><code class="language-plaintext highlighter-rouge">%</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge"> "ACL:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">DACL</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Elimina todas las entradas ACL existentes y establece una nueva ACL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbcacls //</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compartido</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dominio\nombre_usuario</span><code class="language-plaintext highlighter-rouge">%</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge"> "RESET" "ACL:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">DACL</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Especifica un grupo de trabajo (o dominio) alternativo y hace que el programa solicite una contraseña de forma interactiva:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbcacls //</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compartido</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_usuario</span><code class="language-plaintext highlighter-rouge"> --workgroup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo_de_trabajo</span></p>

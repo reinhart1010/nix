@@ -1,0 +1,40 @@
+<h1 id="percent-sign">Percent sign</h1>
+
+<p>Zarządzaj zadaniami.
+Więcej informacji: <a href="https://www.gnu.org/software/bash/manual/bash.html#Job-Control-Basics">https://www.gnu.org/software/bash/manual/bash.html#Job-Control-Basics</a>.</p>
+
+<ul>
+  <li>Przenieś bieżące zadanie na pierwszy plan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">%</code></p>
+
+<ul>
+  <li>Przenieś poprzednie zadanie na pierwszy plan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">%-</code></p>
+
+<ul>
+  <li>Przenieś zadanie numer <code class="language-plaintext highlighter-rouge">N</code> na pierwszy plan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">%</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span></p>
+
+<ul>
+  <li>Przenieś zadanie, którego polecenie zaczyna się od <code class="language-plaintext highlighter-rouge">ciąg_znaków</code> na pierwszy plan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">%</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ciąg_znaków</span></p>
+
+<ul>
+  <li>Przenieś zadanie, którego polecenie zawiera <code class="language-plaintext highlighter-rouge">ciąg_znaków</code> na pierwszy plan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">%?</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ciąg_znaków</span></p>
+
+<ul>
+  <li>Wznów wstrzymane zadanie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">%</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> &amp;</code></p>

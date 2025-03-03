@@ -1,0 +1,23 @@
+<h1 id="yacc">yacc</h1>
+
+<p>使用形式语法规范文件生成一个 LALR 解析器（使用 C 语言）。
+请参阅：<code class="language-plaintext highlighter-rouge">bison</code>。
+更多信息：<a href="https://manned.org/yacc.1p">https://manned.org/yacc.1p</a>.</p>
+
+<ul>
+  <li>创建一个包含 C 语言解析器代码的文件 <code class="language-plaintext highlighter-rouge">y.tab.c</code>，并编译语法文件以及所有值所需的常量声明。（只有在使用 <code class="language-plaintext highlighter-rouge">-d</code> 选项时，才会创建常量声明文件 <code class="language-plaintext highlighter-rouge">y.tab.h</code>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yacc -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/grammar_file.y</span></p>
+
+<ul>
+  <li>编译一个包含解析器描述的语法文件，以及报告由于语法中的歧义导致的冲突：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yacc -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/grammar_file.y</span><code class="language-plaintext highlighter-rouge"> -v</code></p>
+
+<ul>
+  <li>编译一个语法文件，并用 <code class="language-plaintext highlighter-rouge">prefix</code> 代替 <code class="language-plaintext highlighter-rouge">y</code> 作为输出文件名前缀：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yacc -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/grammar_file.y</span><code class="language-plaintext highlighter-rouge"> -v -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">前缀</span></p>

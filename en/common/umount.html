@@ -1,0 +1,23 @@
+<h1 id="umount">umount</h1>
+
+<p>Unlink a filesystem from its mount point, making it no longer accessible.
+A filesystem cannot be unmounted when it is busy.
+More information: <a href="https://man.openbsd.org/umount">https://man.openbsd.org/umount</a>.</p>
+
+<ul>
+  <li>Unmount a filesystem, by passing the path to the source it is mounted from:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">umount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/device_file</span></p>
+
+<ul>
+  <li>Unmount a filesystem, by passing the path to the target where it is mounted:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">umount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mounted_directory</span></p>
+
+<ul>
+  <li>Unmount all mounted filesystems (except the <code class="language-plaintext highlighter-rouge">proc</code> filesystem):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">umount -a</code></p>

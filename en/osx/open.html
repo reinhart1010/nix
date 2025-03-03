@@ -1,0 +1,46 @@
+<h1 id="open">open</h1>
+
+<p>Open files, directories and applications.
+More information: <a href="https://keith.github.io/xcode-man-pages/open.1.html">https://keith.github.io/xcode-man-pages/open.1.html</a>.</p>
+
+<ul>
+  <li>Open a file with the associated application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.ext</span></p>
+
+<ul>
+  <li>Run a graphical macOS [a]pplication:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open -a "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Application</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run a graphical macOS app based on the [b]undle identifier (refer to <code class="language-plaintext highlighter-rouge">osascript</code> for an easy way to get this):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.domain.application</span></p>
+
+<ul>
+  <li>Open the current directory in Finder:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open .</code></p>
+
+<ul>
+  <li>[R]eveal a file in Finder:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Open all the files of a given extension in the current directory with the associated application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span></p>
+
+<ul>
+  <li>Open a [n]ew instance of an application specified via [b]undle identifier:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open -n -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.domain.application</span></p>

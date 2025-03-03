@@ -1,0 +1,52 @@
+<h1 id="podman-ps">podman ps</h1>
+
+<p>Listar contêineres do Podman.
+Mais informações: <a href="https://docs.podman.io/en/latest/markdown/podman-ps.1.html">https://docs.podman.io/en/latest/markdown/podman-ps.1.html</a>.</p>
+
+<ul>
+  <li>Lista contêineres do Podman em execução atualmente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman ps</code></p>
+
+<ul>
+  <li>Lista todos os contêineres do Podman (em execução e parados):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman ps --all</code></p>
+
+<ul>
+  <li>Mostra o contêiner mais recente criado (inclui todos os estados):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman ps --latest</code></p>
+
+<ul>
+  <li>Filtra contêineres que contêm uma substring em seus nomes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman ps --filter "name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Filtra contêineres que compartilham uma determinada imagem como ancestral:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman ps --filter "ancestor=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Filtra contêineres pelo código de status de saída:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman ps --all --filter "exited=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">código</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Filtra contêineres pelo status (criado, em execução, removendo, pausado, encerrado e morto):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman ps --filter "status=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">status</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Filtra contêineres que montam um volume específico ou têm um volume montado em um caminho específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman ps --filter "volume=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span><code class="language-plaintext highlighter-rouge">" --format "table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.ID</span><code class="language-plaintext highlighter-rouge">\t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.Image</span><code class="language-plaintext highlighter-rouge">\t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.Names</span><code class="language-plaintext highlighter-rouge">\t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.Mounts</span><code class="language-plaintext highlighter-rouge">"</code></p>

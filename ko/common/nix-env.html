@@ -1,0 +1,52 @@
+<h1 id="nix-env">nix-env</h1>
+
+<p>Nix 사용자 환경을 조작하거나 조회합니다.
+더 많은 정보: <a href="https://nixos.org/manual/nix/stable/#sec-nix-env">https://nixos.org/manual/nix/stable/#sec-nix-env</a>.</p>
+
+<ul>
+  <li>설치된 모든 패키지 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -q</code></p>
+
+<ul>
+  <li>설치된 패키지 조회:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색어</span></p>
+
+<ul>
+  <li>사용 가능한 패키지 조회:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -qa </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색어</span></p>
+
+<ul>
+  <li>패키지 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -iA nixpkgs.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지_이름</span></p>
+
+<ul>
+  <li>URL에서 패키지 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지_이름</span><code class="language-plaintext highlighter-rouge"> --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>패키지 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지_이름</span></p>
+
+<ul>
+  <li>특정 패키지 업그레이드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지_이름</span></p>
+
+<ul>
+  <li>모든 패키지 업그레이드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -u</code></p>

@@ -1,0 +1,23 @@
+<h1 id="gvcolor">gvcolor</h1>
+
+<p>用一系列颜色为有序有向图着色。
+Graphviz 过滤器: <code class="language-plaintext highlighter-rouge">acyclic</code>, <code class="language-plaintext highlighter-rouge">bcomps</code>, <code class="language-plaintext highlighter-rouge">comps</code>, <code class="language-plaintext highlighter-rouge">edgepaint</code>, <code class="language-plaintext highlighter-rouge">gvcolor</code>, <code class="language-plaintext highlighter-rouge">gvpack</code>, <code class="language-plaintext highlighter-rouge">mingle</code>, <code class="language-plaintext highlighter-rouge">nop</code>, <code class="language-plaintext highlighter-rouge">sccmap</code>, <code class="language-plaintext highlighter-rouge">tred</code>, &amp; <code class="language-plaintext highlighter-rouge">unflatten</code>。
+更多信息：<a href="https://graphviz.org/pdf/gvcolor.1.pdf">https://graphviz.org/pdf/gvcolor.1.pdf</a>.</p>
+
+<ul>
+  <li>为一个或多个已被 <code class="language-plaintext highlighter-rouge">dot</code> 处理的有序有向图着色:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gvcolor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/布局1.gv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/布局2.gv …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/输出.gv</span></p>
+
+<ul>
+  <li>对一个图进行布局和着色，然后将其转换为 PNG 图像:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/输入.gv</span><code class="language-plaintext highlighter-rouge"> | gvcolor | dot -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">png</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/输出.png</span></p>
+
+<ul>
+  <li>显示 <code class="language-plaintext highlighter-rouge">gvcolor</code> 的帮助信息:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gvcolor -?</code></p>

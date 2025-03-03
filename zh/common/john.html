@@ -1,0 +1,52 @@
+<h1 id="john">john</h1>
+
+<p>密码破解工具。
+更多信息：<a href="https://www.openwall.com/john/">https://www.openwall.com/john/</a>.</p>
+
+<ul>
+  <li>破解密码哈希：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/hashes.txt</span></p>
+
+<ul>
+  <li>显示已破解的密码：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/hashes.txt</span></p>
+
+<ul>
+  <li>按用户标识符从多个文件中显示用户的已破解密码：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --show --users=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户_IDs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/hashes1.txt 路径/到/hashes2.txt …</span></p>
+
+<ul>
+  <li>使用自定义的单词列表破解密码哈希：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --wordlist=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/wordlist.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/hashes.txt</span></p>
+
+<ul>
+  <li>列出可用的哈希格式：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --list=formats</code></p>
+
+<ul>
+  <li>使用特定的哈希格式破解密码哈希：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">md5crypt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/hashes.txt</span></p>
+
+<ul>
+  <li>启用单词变形规则破解密码哈希：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --rules </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/hashes.txt</span></p>
+
+<ul>
+  <li>从状态文件恢复一个中断的破解会话，例如：<code class="language-plaintext highlighter-rouge">mycrack.rec</code>：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --restore=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/mycrack.rec</span></p>

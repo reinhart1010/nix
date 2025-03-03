@@ -1,0 +1,34 @@
+<h1 id="caffeinate">caffeinate</h1>
+
+<p>Evita que o macOS entre em suspensão (repouso).
+Mais informações: <a href="https://keith.github.io/xcode-man-pages/caffeinate.8.html">https://keith.github.io/xcode-man-pages/caffeinate.8.html</a>.</p>
+
+<ul>
+  <li>Evita a suspensão por uma hora (3600 segundos):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">caffeinate -u -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3600</span></p>
+
+<ul>
+  <li>Evita a suspensão até que um comando seja concluído:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">caffeinate -s "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Evita a suspensão até que um processo com o PID especificado seja concluído:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">caffeinate -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Evita a suspensão (use <code class="language-plaintext highlighter-rouge">Ctrl + C</code> para sair):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">caffeinate -i</code></p>
+
+<ul>
+  <li>Evita a suspensão do disco (use <code class="language-plaintext highlighter-rouge">Ctrl + C</code> para sair):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">caffeinate -m</code></p>

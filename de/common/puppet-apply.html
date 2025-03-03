@@ -1,0 +1,22 @@
+<h1 id="puppet-apply">puppet apply</h1>
+
+<p>Wende ein Puppet-Manifest lokal an.
+Weitere Informationen: <a href="https://puppet.com/docs/puppet/7/man/apply.html">https://puppet.com/docs/puppet/7/man/apply.html</a>.</p>
+
+<ul>
+  <li>Wende ein Manifest an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/manifest</span></p>
+
+<ul>
+  <li>Führe Puppetcode aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet apply --execute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">code</span></p>
+
+<ul>
+  <li>Benutze ein bestimmtes Modulverzeichnis und Hiera-Konfigurationsdatei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">puppet apply --modulepath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ordner</span><code class="language-plaintext highlighter-rouge"> --hiera_config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/manifest</span></p>

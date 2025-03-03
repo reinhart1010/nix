@@ -1,0 +1,28 @@
+<h1 id="hexdump">hexdump</h1>
+
+<p>Дамп файла в ASCII, десятичном, шестнадцатеричном и восьмеричном форматах.
+Больше информации: <a href="https://manned.org/hexdump">https://manned.org/hexdump</a>.</p>
+
+<ul>
+  <li>Распечатать шестнадцатеричное представление файла, заменяя повторяющиеся строки на '*':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла</span></p>
+
+<ul>
+  <li>Отобразить шестнадцатеричное и ASCII представление в две колонки:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла</span></p>
+
+<ul>
+  <li>Отобразить двухколончатое представление файла, обработав только указанное число байтов с начала:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump -C -n</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">количество_байтов</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла</span></p>
+
+<ul>
+  <li>Не заменять повторяющиеся строки на '*':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump --no-squeezing </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла</span></p>

@@ -1,0 +1,29 @@
+<h1 id="feroxbuster">feroxbuster</h1>
+
+<p>Simple, fast, recursive content discovery tool written in Rust.
+Used to brute-force hidden paths on web servers and more.
+More information: <a href="https://epi052.github.io/feroxbuster-docs/docs/">https://epi052.github.io/feroxbuster-docs/docs/</a>.</p>
+
+<ul>
+  <li>Discover specific directories and files that match in the wordlist with extensions and 100 threads and a random user-agent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">feroxbuster --url "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span><code class="language-plaintext highlighter-rouge">" --wordlist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --extensions "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">php,txt</span><code class="language-plaintext highlighter-rouge">" --random-agent</code></p>
+
+<ul>
+  <li>Enumerate directories without recursion through a specific proxy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">feroxbuster --url "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span><code class="language-plaintext highlighter-rouge">" --wordlist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --no-recursion --proxy "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://127.0.0.1:8080</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Find links in webpages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">feroxbuster --url "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span><code class="language-plaintext highlighter-rouge">" --extract-links</code></p>
+
+<ul>
+  <li>Filter by a specific status code and a number of chars:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">feroxbuster --url "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span><code class="language-plaintext highlighter-rouge">" --filter-status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">301</span><code class="language-plaintext highlighter-rouge"> --filter-size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4092</span></p>

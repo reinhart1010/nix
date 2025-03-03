@@ -1,0 +1,28 @@
+<h1 id="networksetup">networksetup</h1>
+
+<p>网络系统首选项配置工具。
+更多信息：<a href="https://support.apple.com/guide/remote-desktop/about-networksetup-apdd0c5a2d5/mac">https://support.apple.com/guide/remote-desktop/about-networksetup-apdd0c5a2d5/mac</a>.</p>
+
+<ul>
+  <li>列出可用的网络服务源（以太网、Wi-Fi、蓝牙等）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">networksetup -listallnetworkservices</code></p>
+
+<ul>
+  <li>显示特定网络设备的配置信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">networksetup -getinfo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Wi-Fi</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>获取当前连接的 Wi-Fi 网络名称（Wi-Fi 设备通常为 en0 或 en1）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">networksetup -getairportnetwork </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">en0</span></p>
+
+<ul>
+  <li>连接到给定的 Wi-Fi 网络 Connect to a particular Wi-Fi network：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">networksetup -setairportnetwork </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">en0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">无线网 SSID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span></p>

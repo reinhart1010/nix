@@ -1,0 +1,41 @@
+<h1 id="osppvbs">ospp.vbs</h1>
+
+<p>Install, activate, and manage volume licensed versions of Microsoft Office products.
+Note: this command may override, deactivate, and/or remove your current volume of licensed Office product versions, so please proceed cautiously.
+More information: <a href="https://learn.microsoft.com/deployoffice/vlactivation/tools-to-manage-volume-activation-of-office">https://learn.microsoft.com/deployoffice/vlactivation/tools-to-manage-volume-activation-of-office</a>.</p>
+
+<ul>
+  <li>Install a product key (Note: it replaces the existing key):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cscript ospp.vbs /inpkey:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">product_key</span></p>
+
+<ul>
+  <li>Uninstall an installed product key with the last five digits of the product key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cscript ospp.vbs /unpkey:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">product_key_digits</span></p>
+
+<ul>
+  <li>Set a KMS host name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cscript ospp.vbs /sethst:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip|hostname</span></p>
+
+<ul>
+  <li>Set a KMS port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cscript ospp.vbs /setprt:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Activate installed Office product keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cscript ospp.vbs /act</code></p>
+
+<ul>
+  <li>Display license information for installed product keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cscript ospp.vbs /dstatus</code></p>

@@ -1,0 +1,40 @@
+<h1 id="defaults">defaults</h1>
+
+<p>Read and write macOS user configuration for applications.
+More information: <a href="https://keith.github.io/xcode-man-pages/defaults.1.html">https://keith.github.io/xcode-man-pages/defaults.1.html</a>.</p>
+
+<ul>
+  <li>Read system defaults for an application option:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">defaults read "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">option</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Read default values for an application option:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">defaults read -app "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">option</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Search for a keyword in domain names, keys, and values:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">defaults find "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Write the default value of an application option:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">defaults write "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">option</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Speed up Mission Control animations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">defaults write com.apple.Dock expose-animation-duration -float 0.1</code></p>
+
+<ul>
+  <li>Delete all defaults of an application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">defaults delete "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application</span><code class="language-plaintext highlighter-rouge">"</code></p>

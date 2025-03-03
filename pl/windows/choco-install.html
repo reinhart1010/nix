@@ -1,0 +1,52 @@
+<h1 id="choco-install">choco install</h1>
+
+<p>Instalacja jednej lub więcej paczek zarządzanych przez Chocolatey.
+Więcej informacji: <a href="https://chocolatey.org/docs/commands-install">https://chocolatey.org/docs/commands-install</a>.</p>
+
+<ul>
+  <li>Instalacja jednego lub więcej pakietów (oddzielonych spacją):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_pakietu(pakietów)</span></p>
+
+<ul>
+  <li>Instakacja pakietów z użyciem podanego pliku konfiguracyjnego:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/plik_konfiguracyjny.config</span></p>
+
+<ul>
+  <li>Instalacja podanej specyfikacji nuspec lub pliku nupkg:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span></p>
+
+<ul>
+  <li>Instalacja konkretnej podanej wersji pakietu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span><code class="language-plaintext highlighter-rouge"> --version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wersja</span></p>
+
+<ul>
+  <li>Zezwól na instalacjie wielu wersji danego pakietu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span><code class="language-plaintext highlighter-rouge"> --allow-multiple</code></p>
+
+<ul>
+  <li>Automatyczna akceptacja wszystkich monitów podczas instalacji:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span><code class="language-plaintext highlighter-rouge"> --yes</code></p>
+
+<ul>
+  <li>Ustawienie określonego źródła/repozytorium pakietów:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_url|alias</span></p>
+
+<ul>
+  <li>Podanie nazwy użytkownika i hasła do uwierzytelnienia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hasło</span></p>

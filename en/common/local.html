@@ -1,0 +1,35 @@
+<h1 id="local">local</h1>
+
+<p>Declare local variables and give them attributes.
+See also: <code class="language-plaintext highlighter-rouge">declare</code>.
+More information: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-local">https://www.gnu.org/software/bash/manual/bash.html#index-local</a>.</p>
+
+<ul>
+  <li>Declare a string variable with the specified value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">local </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Declare an integer variable with the specified value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">local -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Declare an array variable with the specified value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">local </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">=(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">item_a item_b item_c</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Declare an associative array variable with the specified value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">local -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">=(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[key_a]=item_a [key_b]=item_b [key_c]=item_c</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Declare a readonly variable with the specified value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">local -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge">"</code></p>

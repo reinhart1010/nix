@@ -1,0 +1,28 @@
+<h1 id="dnsmap">dnsmap</h1>
+
+<p>The dnsmap command scans a domain for common subdomains e.g. smtp.domain.org.
+More information: <a href="https://github.com/resurrecting-open-source-projects/dnsmap">https://github.com/resurrecting-open-source-projects/dnsmap</a>.</p>
+
+<ul>
+  <li>Scan for subdomains using the internal wordlist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnsmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Specify a list of subdomains to check for:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnsmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/wordlist.txt</span></p>
+
+<ul>
+  <li>Store results to a CSV file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnsmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csv</span></p>
+
+<ul>
+  <li>Ignore 2 IPs that are false positives (up to 5 possible):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnsmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">123.45.67.89,98.76.54.32</span></p>

@@ -1,0 +1,22 @@
+<h1 id="ssh-copy-id">ssh-copy-id</h1>
+
+<p>在远程机器的 authorized_keys 中安装您的公钥。
+更多信息：<a href="https://manned.org/ssh-copy-id">https://manned.org/ssh-copy-id</a>.</p>
+
+<ul>
+  <li>将您的密钥复制到远程主机：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-copy-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">远程主机</span></p>
+
+<ul>
+  <li>将给定的公钥文件复制到远程主机：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-copy-id -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/公钥文件</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">远程主机</span></p>
+
+<ul>
+  <li>将给定的公钥文件通过特定端口复制到远程主机：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh-copy-id -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/公钥文件</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">端口</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">远程主机</span></p>

@@ -1,0 +1,22 @@
+<h1 id="pnmnlfilt">pnmnlfilt</h1>
+
+<p>Apply a non-linear filter onto a PNM image.
+More information: <a href="https://netpbm.sourceforge.net/doc/pnmnlfilt.html">https://netpbm.sourceforge.net/doc/pnmnlfilt.html</a>.</p>
+
+<ul>
+  <li>Apply the "alpha trimmed mean" filter with the specified alpha and radius values onto the PNM image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmnlfilt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.0..0.5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">radius</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Apply the "optimal estimation smoothing" filter with the specified noise threshold and radius onto the PNM image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmnlfilt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.0..2.0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">radius</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Apply the "edge enhancement" filter with the specified alpha and radius onto the PNM image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmnlfilt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-0.9..(-0.1)</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">radius</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>

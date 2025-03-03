@@ -1,0 +1,34 @@
+<h1 id="theharvester">theHarvester</h1>
+
+<p>A tool designed to be used in the early stages of a penetration test.
+More information: <a href="https://github.com/laramies/theHarvester">https://github.com/laramies/theHarvester</a>.</p>
+
+<ul>
+  <li>Gather information on a domain using Google:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">theHarvester --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain_name</span><code class="language-plaintext highlighter-rouge"> --source google</code></p>
+
+<ul>
+  <li>Gather information on a domain using multiple sources:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">theHarvester --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain_name</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">duckduckgo,bing,crtsh</span></p>
+
+<ul>
+  <li>Change the limit of results to work with:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">theHarvester --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain_name</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">google</span><code class="language-plaintext highlighter-rouge"> --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">200</span></p>
+
+<ul>
+  <li>Save the output to two files in XML and HTML format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">theHarvester --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain_name</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">google</span><code class="language-plaintext highlighter-rouge"> --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file_name</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">theHarvester --help</code></p>

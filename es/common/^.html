@@ -1,0 +1,29 @@
+<h1 id="caret">Caret</h1>
+
+<p>Embebido de Bash para sustituir rápidamente una cadena en el comando anterior y ejecutar el resultado.
+Equivalente a <code class="language-plaintext highlighter-rouge">!!:s^string1^string2</code>.
+Más información: <a href="https://gnu.org/software/bash/manual/bash.html#Event-Designators">https://gnu.org/software/bash/manual/bash.html#Event-Designators</a>.</p>
+
+<ul>
+  <li>Ejecuta el comando anterior reemplazando <code class="language-plaintext highlighter-rouge">cadena1</code> por <code class="language-plaintext highlighter-rouge">cadena2</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena1</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena2</span></p>
+
+<ul>
+  <li>Retira <code class="language-plaintext highlighter-rouge">cadena1</code> del comando anterior:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena1</span><code class="language-plaintext highlighter-rouge">^</code></p>
+
+<ul>
+  <li>Sustituye <code class="language-plaintext highlighter-rouge">cadena1</code> con <code class="language-plaintext highlighter-rouge">cadena2</code> en el comando anterior y añade la <code class="language-plaintext highlighter-rouge">cadena3</code> al final:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena1</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena2</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena3</span></p>
+
+<ul>
+  <li>Sustituye todas las ocurrencias de la <code class="language-plaintext highlighter-rouge">cadena1</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena1</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena2</span><code class="language-plaintext highlighter-rouge">^:&amp;</code></p>

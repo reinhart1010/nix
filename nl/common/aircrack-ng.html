@@ -1,0 +1,23 @@
+<h1 id="aircrack-ng">aircrack-ng</h1>
+
+<p>Kraak WEP- en WPA/WPA2-sleutels van handshake in vastgelegde pakketten.
+Onderdeel van Aircrack-ng netwerksoftwaresuite.
+Meer informatie: <a href="https://www.aircrack-ng.org/doku.php?id=aircrack-ng">https://www.aircrack-ng.org/doku.php?id=aircrack-ng</a>.</p>
+
+<ul>
+  <li>Kraak-sleutel uit opnamebestand met behulp van woordenlijst:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aircrack-ng -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/woordenlijst.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pakketbestand.cap</span></p>
+
+<ul>
+  <li>Kraak de sleutel uit het opnamebestand met behulp van de woordenlijst en de essid van het toegangspunt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aircrack-ng -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/woordenlijst.txt</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">essid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pakketbestand.cap</span></p>
+
+<ul>
+  <li>Kraak de sleutel uit het opnamebestand met behulp van de woordenlijst en het MAC-adres van het toegangspunt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aircrack-ng -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/woordenlijst.txt</span><code class="language-plaintext highlighter-rouge"> --bssid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pakketbestand.cap</span></p>

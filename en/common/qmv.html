@@ -1,0 +1,40 @@
+<h1 id="qmv">qmv</h1>
+
+<p>Move files and directories using the default text editor to define the filenames.
+More information: <a href="https://www.nongnu.org/renameutils/">https://www.nongnu.org/renameutils/</a>.</p>
+
+<ul>
+  <li>Move a single file (open an editor with the source filename on the left and the target filename on the right):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qmv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_file</span></p>
+
+<ul>
+  <li>Move multiple JPEG files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qmv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpg</span></p>
+
+<ul>
+  <li>Move multiple directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qmv -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory3</span></p>
+
+<ul>
+  <li>Move all files and directories inside a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qmv --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Move files, but swap the positions of the source and the target filenames in the editor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qmv --option swap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpg</span></p>
+
+<ul>
+  <li>Rename all files and folders in the current directory, but show only target filenames in the editor (you can think of it as a kind of simple mode):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qmv --format=do .</code></p>

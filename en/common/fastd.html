@@ -1,0 +1,42 @@
+<h1 id="fastd">fastd</h1>
+
+<p>VPN daemon.
+Works on Layer 2 or Layer 3, supports different encryption methods, used by Freifunk.
+See also: <code class="language-plaintext highlighter-rouge">ivpn</code>, <code class="language-plaintext highlighter-rouge">mozillavpn</code>, <code class="language-plaintext highlighter-rouge">mullvad</code>, <code class="language-plaintext highlighter-rouge">warp-cli</code>.
+More information: <a href="https://fastd.readthedocs.io/en/stable/">https://fastd.readthedocs.io/en/stable/</a>.</p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">fastd</code> with a specific configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastd --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/fastd.conf</span></p>
+
+<ul>
+  <li>Start a Layer 3 VPN with an MTU of 1400, loading the rest of the configuration parameters from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastd --mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tap</span><code class="language-plaintext highlighter-rouge"> --mtu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1400</span><code class="language-plaintext highlighter-rouge"> --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/fastd.conf</span></p>
+
+<ul>
+  <li>Validate a configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastd --verify-config --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/fastd.conf</span></p>
+
+<ul>
+  <li>Generate a new keypair:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastd --generate-key</code></p>
+
+<ul>
+  <li>Show the public key to a private key in a configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastd --show-key --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/fastd.conf</span></p>
+
+<ul>
+  <li>Show the current version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastd -v</code></p>

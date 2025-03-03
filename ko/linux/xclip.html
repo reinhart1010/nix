@@ -1,0 +1,54 @@
+<h1 id="xclip">xclip</h1>
+
+<p>X11 클립보드 조작 도구로, <code class="language-plaintext highlighter-rouge">xsel</code>과 유사합니다.
+X 기본 및 보조 선택 영역과 시스템 클립보드(<code class="language-plaintext highlighter-rouge">Ctrl + C</code>/<code class="language-plaintext highlighter-rouge">Ctrl + V</code>)를 처리합니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">wl-copy</code>.
+더 많은 정보: <a href="https://manned.org/xclip">https://manned.org/xclip</a>.</p>
+
+<ul>
+  <li>명령의 출력을 X11 기본 선택 영역(클립보드)에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo 123 | xclip</code></p>
+
+<ul>
+  <li>명령의 출력을 지정된 X11 선택 영역에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo 123 | xclip -selection </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">primary|secondary|clipboard</span></p>
+
+<ul>
+  <li>명령의 출력을 시스템 클립보드에 짧은 표기법을 사용하여 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo 123 | xclip -sel clip</code></p>
+
+<ul>
+  <li>파일의 내용을 시스템 클립보드에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xclip -sel clip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력_파일.txt</span></p>
+
+<ul>
+  <li>PNG 파일의 내용을 시스템 클립보드에 복사 (다른 프로그램에 올바르게 붙여넣기 가능):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xclip -sel clip -t image/png </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력_파일.png</span></p>
+
+<ul>
+  <li>콘솔에서 사용자 입력을 시스템 클립보드에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xclip -i</code></p>
+
+<ul>
+  <li>X11 기본 선택 영역의 내용을 콘솔에 붙여넣기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xclip -o</code></p>
+
+<ul>
+  <li>시스템 클립보드의 내용을 콘솔에 붙여넣기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xclip -o -sel clip</code></p>

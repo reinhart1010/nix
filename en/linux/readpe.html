@@ -1,0 +1,40 @@
+<h1 id="readpe">readpe</h1>
+
+<p>Display information about PE files.
+More information: <a href="https://manned.org/readpe">https://manned.org/readpe</a>.</p>
+
+<ul>
+  <li>Display all information about a PE file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readpe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span></p>
+
+<ul>
+  <li>Display all the headers present in a PE file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readpe --all-headers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span></p>
+
+<ul>
+  <li>Display all the sections present in a PE file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readpe --all-sections </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span></p>
+
+<ul>
+  <li>Display a specific header from a PE file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readpe --header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dos|coff|optional</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span></p>
+
+<ul>
+  <li>List all imported functions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readpe --imports </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span></p>
+
+<ul>
+  <li>List all exported functions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readpe --exports </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span></p>

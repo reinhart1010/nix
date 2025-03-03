@@ -1,0 +1,35 @@
+<h1 id="lex">lex</h1>
+
+<p>Generator voor lexicale analyzers.
+Gegeven de specificatie voor een lexicale analyzer, genereert C-code die deze implementeert.
+Meer informatie: <a href="https://manned.org/lex.1">https://manned.org/lex.1</a>.</p>
+
+<ul>
+  <li>Genereer een analyzer van een Lex-bestand en sla deze op in het bestand <code class="language-plaintext highlighter-rouge">lex.yy.c</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer.l</span></p>
+
+<ul>
+  <li>Schrijf de analyzer naar <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lex -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-stdout|t</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer.l</span></p>
+
+<ul>
+  <li>Specificeer het uitvoerbestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer.l</span><code class="language-plaintext highlighter-rouge"> --outfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer.c</span></p>
+
+<ul>
+  <li>Genereer een [B]atch-scanner in plaats van een interactieve scanner:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lex -B </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">analyzer.l</span></p>
+
+<ul>
+  <li>Compileer een C-bestand dat door Lex is gegenereerd:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/lex.yy.c</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uitvoerbaar_bestand</span></p>

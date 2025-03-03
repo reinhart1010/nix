@@ -1,0 +1,53 @@
+<h1 id="pnpm">pnpm</h1>
+
+<p>Schneller, speicherplatzsparender Paketmanager für Node.js.
+Ein Kommandozeilenwerkzeug für die Verwaltung von JavaScript und Node.js Paketen (Packages).
+Weitere Informationen: <a href="https://pnpm.io">https://pnpm.io</a>.</p>
+
+<ul>
+  <li>Erstelle eine <code class="language-plaintext highlighter-rouge">package.json</code> Datei interaktiv:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm init</code></p>
+
+<ul>
+  <li>Installiere alle in der <code class="language-plaintext highlighter-rouge">package.json</code> Datei gelisteten Abhängigkeiten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm install</code></p>
+
+<ul>
+  <li>Installiere eine spezifische Version eines Packages und füge es automatisch der <code class="language-plaintext highlighter-rouge">package.json</code> Datei hinzu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modul_name</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Installiere ein Package und füge es als Entwicklungs-Abhängigkeit der <code class="language-plaintext highlighter-rouge">package.json</code> Datei hinzu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm add -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modul_name</span></p>
+
+<ul>
+  <li>Installiere ein Package global:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm add -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modul_name</span></p>
+
+<ul>
+  <li>Deinstalliere ein Package und entferne es automatisch aus der <code class="language-plaintext highlighter-rouge">package.json</code> Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modul_name</span></p>
+
+<ul>
+  <li>Gib eine Liste aller lokal installierten Packages aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm list</code></p>
+
+<ul>
+  <li>Gib eine Liste aller global installierten Packages aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm list -g --depth=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span></p>

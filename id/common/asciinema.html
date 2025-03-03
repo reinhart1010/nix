@@ -1,0 +1,53 @@
+<h1 id="asciinema">asciinema</h1>
+
+<p>Rekam dan putar ulang sesi terminal, dan secara opsional membagikannya di <a href="https://asciinema.org">https://asciinema.org</a>.
+Lihat juga: <code class="language-plaintext highlighter-rouge">terminalizer</code>.
+Informasi lebih lanjut: <a href="https://docs.asciinema.org/manual/cli/usage">https://docs.asciinema.org/manual/cli/usage</a>.</p>
+
+<ul>
+  <li>Masuk dengan suatu akun asciinema.org:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema auth</code></p>
+
+<ul>
+  <li>Buat rekaman baru (hentikan dengan <code class="language-plaintext highlighter-rouge">Ctrl+D</code> atau ketik <code class="language-plaintext highlighter-rouge">exit</code>, kemudian pilih lokasi penyimpanan baik dengan mengunggah atau menyimpannya secara lokal):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema rec</code></p>
+
+<ul>
+  <li>Buat rekaman baru kemudian simpan ke dalam suatu berkas lokal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema rec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/rekaman.cast</span></p>
+
+<ul>
+  <li>Putar ulang rekaman sesi terminal dari suatu berkas lokal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema play </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/rekaman.cast</span></p>
+
+<ul>
+  <li>Putar ulang suatu rekaman sesi terminal yang dipublikasikan di <a href="https://asciinema.org">https://asciinema.org</a>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema play https://asciinema.org/a/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_rekaman</span></p>
+
+<ul>
+  <li>Buat rekaman baru, dengan membatasi waktu diam/idle terlama selama 2.5 detik:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema rec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–idle-time-limit</span><code class="language-plaintext highlighter-rouge"> 2.5</code></p>
+
+<ul>
+  <li>Tampilkan seluruh luaran/output terminal yang dikeluarkan selama sesi perekaman:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/rekaman.cast</span></p>
+
+<ul>
+  <li>Unggah suatu berkas hasil rekaman lokal menuju asciinema.org:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/rekaman.cast</span></p>

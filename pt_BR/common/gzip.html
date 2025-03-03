@@ -1,0 +1,46 @@
+<h1 id="gzip">gzip</h1>
+
+<p>Compacta/descompacta arquivos com compressão gzip (LZ77).
+Mais informações: <a href="https://www.gnu.org/software/gzip/manual/gzip.html">https://www.gnu.org/software/gzip/manual/gzip.html</a>.</p>
+
+<ul>
+  <li>Compacta um arquivo, substituindo-o por uma versão compactada gzip:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho_para_arquivo</span></p>
+
+<ul>
+  <li>Descompacta um arquivo, substituindo-o pela versão descompactada original:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decompress caminho/para/arquivo.gz</span></p>
+
+<ul>
+  <li>Compacta um arquivo, mantendo o arquivo original:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-k|–keep caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Compacta um arquivo definindo o nome do arquivo de saída:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–stdout caminho/para/arquivo</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.gz</span></p>
+
+<ul>
+  <li>Descompacta um arquivo gzip definindo o nome do arquivo de saída:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–stdout</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decompress</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.gz</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_descompactado</span></p>
+
+<ul>
+  <li>Especifica o nível de compactação. 1 é o mais rápido (baixa compressão), 9 é o mais lento (baixa compressão), o nível padrão é 6:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1..9</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–stdout</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.gz</span></p>
+
+<ul>
+  <li>Mostra o nome e o percentual de redução para cada arquivo comprimido ou descomprimido:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decompress</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.gz</span></p>

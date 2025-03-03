@@ -1,0 +1,28 @@
+<h1 id="winicontopam">winicontopam</h1>
+
+<p>Convert a Windows ICO file to a PAM file.
+More information: <a href="https://netpbm.sourceforge.net/doc/winicontopam.html">https://netpbm.sourceforge.net/doc/winicontopam.html</a>.</p>
+
+<ul>
+  <li>Read an ICO file and convert the best quality image contained therein to the PAM format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winicontopam </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.ico</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pam</span></p>
+
+<ul>
+  <li>Convert all images in the input file to PAM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winicontopam -allimages </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.ico</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pam</span></p>
+
+<ul>
+  <li>Convert the n'th image in the input file to PAM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winicontopam -image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.ico</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pam</span></p>
+
+<ul>
+  <li>If the image(s) to be extracted contain graded transparency data and an AND mask, write the AND mask into the fifth channel of the output PAM file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winicontopam -andmasks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.ico</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pam</span></p>

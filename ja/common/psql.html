@@ -1,0 +1,34 @@
+<h1 id="psql">psql</h1>
+
+<p>PostgreSQL コマンドラインクライアントです。
+もっと詳しく: <a href="https://www.postgresql.org/docs/current/app-psql.html">https://www.postgresql.org/docs/current/app-psql.html</a>。</p>
+
+<ul>
+  <li>データベースに接続する。デフォルトでは、現在ログインしているユーザで、ポート5432を使用して、ローカルソケットに接続する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">psql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">データベース</span></p>
+
+<ul>
+  <li>指定ポートで、動作している指定サーバホストのデータベースに、指定ユーザ名で、パスワードプロンプトなしで接続する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">psql -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ホスト</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ポート</span><code class="language-plaintext highlighter-rouge"> -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユーザ名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">データベース</span></p>
+
+<ul>
+  <li>データベースに接続する。ユーザはパスワードの入力を求められる:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">psql -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ホスト</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ポート</span><code class="language-plaintext highlighter-rouge"> -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユーザ名</span><code class="language-plaintext highlighter-rouge"> -W </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">データベース</span></p>
+
+<ul>
+  <li>与えられたデータベースに対して、SQLクエリまたはPostgreSQLコマンドを1つ実行する (シェルスクリプトで有用):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">psql -c '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">クエリ</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">データベース</span></p>
+
+<ul>
+  <li>与えられたデータベース上で、ファイルからコマンドを実行する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">psql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">データベース</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.sql</span></p>

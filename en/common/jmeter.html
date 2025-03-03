@@ -1,0 +1,28 @@
+<h1 id="jmeter">jmeter</h1>
+
+<p>Open source Java application designed for load testing functional behavior and measure performance.
+More information: <a href="https://jmeter.apache.org">https://jmeter.apache.org</a>.</p>
+
+<ul>
+  <li>Run a specific test plan in nongui mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmeter --nongui --testfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.jmx</span></p>
+
+<ul>
+  <li>Run a test plan in nongui mode using a specific log file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmeter --nogui --testfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.jmx</span><code class="language-plaintext highlighter-rouge"> --logfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/logfile.jtl</span></p>
+
+<ul>
+  <li>Run a test plan in nongui mode using a specific proxy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmeter --nongui --testfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.jmx</span><code class="language-plaintext highlighter-rouge"> --proxyHost </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1</span><code class="language-plaintext highlighter-rouge"> --proxyPort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8888</span></p>
+
+<ul>
+  <li>Run a test plan in nongui mode using a specific JMeter property:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmeter --jmeterproperty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge">='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge">' --nongui --testfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.jmx</span></p>

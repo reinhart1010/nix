@@ -1,0 +1,46 @@
+<h1 id="gpclient">gpclient</h1>
+
+<p>Connect to a GlobalProtect VPN on Linux via OpenConnect.
+More information: <a href="https://github.com/yuezk/GlobalProtect-openconnect">https://github.com/yuezk/GlobalProtect-openconnect</a>.</p>
+
+<ul>
+  <li>Connect to a GlobalProtect VPN using a portal server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpclient connect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vpn_gateway_url</span></p>
+
+<ul>
+  <li>Disconnect from the currently connected VPN server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpclient disconnect</code></p>
+
+<ul>
+  <li>Launch the graphical user interface (GUI) for VPN management:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpclient launch-gui</code></p>
+
+<ul>
+  <li>Use OpenSSL workaround to bypass legacy renegotiation errors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpclient connect --fix-openssl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vpn_gateway_url</span></p>
+
+<ul>
+  <li>Ignore TLS errors during connection:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpclient connect --ignore-tls-errors </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vpn_gateway_url</span></p>
+
+<ul>
+  <li>Display version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpclient --version</code></p>
+
+<ul>
+  <li>Display help for any command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpclient help </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>

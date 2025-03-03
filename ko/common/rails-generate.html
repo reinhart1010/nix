@@ -1,0 +1,34 @@
+<h1 id="rails-generate">rails generate</h1>
+
+<p>기존 프로젝트에서 새로운 Rails 템플릿 생성.
+더 많은 정보: <a href="https://guides.rubyonrails.org/command_line.html#bin-rails-generate">https://guides.rubyonrails.org/command_line.html#bin-rails-generate</a>.</p>
+
+<ul>
+  <li>사용 가능한 모든 생성기 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rails generate</code></p>
+
+<ul>
+  <li>제목과 본문 속성을 가진 Post라는 새로운 모델 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rails generate model </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Post</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">title:string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">body:text</span></p>
+
+<ul>
+  <li>index, show, new, create 액션을 가진 Posts라는 새로운 컨트롤러 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rails generate controller </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Posts</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">index</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">show</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">create</span></p>
+
+<ul>
+  <li>기존 모델 Post에 category 속성을 추가하는 새로운 마이그레이션 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rails generate migration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AddCategoryToPost</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">category:string</span></p>
+
+<ul>
+  <li>제목과 본문 속성을 미리 정의하여 Post라는 모델을 위한 스캐폴드 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rails generate scaffold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Post</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">title:string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">body:text</span></p>

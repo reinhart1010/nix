@@ -1,0 +1,34 @@
+<h1 id="bluebuild">bluebuild</h1>
+
+<p>Construye Containerfiles e imágenes personalizadas basadas en tu <code class="language-plaintext highlighter-rouge">recipe.yml</code>.
+Más información: <a href="https://github.com/blue-build/cli">https://github.com/blue-build/cli</a>.</p>
+
+<ul>
+  <li>Construye una receta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluebuild build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/receta.yml</span></p>
+
+<ul>
+  <li>Valida una receta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluebuild validate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/receta.yml</span></p>
+
+<ul>
+  <li>Genera un archivo contenedor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluebuild generate --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_contenedor</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/receta.yml</span></p>
+
+<ul>
+  <li>Genera una ISO a partir de una receta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluebuild generate-iso --output-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio_salida</span><code class="language-plaintext highlighter-rouge"> --iso-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_iso.iso</span><code class="language-plaintext highlighter-rouge"> recipe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/receta.yml</span></p>
+
+<ul>
+  <li>Muestra la ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluebuild --help</code></p>

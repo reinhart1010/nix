@@ -1,0 +1,47 @@
+<h1 id="vgs">vgs</h1>
+
+<p>Display information about volume groups.
+See also: <code class="language-plaintext highlighter-rouge">lvm</code>.
+More information: <a href="https://manned.org/vgs">https://manned.org/vgs</a>.</p>
+
+<ul>
+  <li>Display information about volume groups:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgs</code></p>
+
+<ul>
+  <li>Display all volume groups:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgs -a</code></p>
+
+<ul>
+  <li>Change default display to show more details:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgs -v</code></p>
+
+<ul>
+  <li>Display only specific fields:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgs -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">field_name_1</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">field_name_2</span></p>
+
+<ul>
+  <li>Append field to default display:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgs -o +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">field_name</span></p>
+
+<ul>
+  <li>Suppress heading line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgs --noheadings</code></p>
+
+<ul>
+  <li>Use separator to separate fields:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgs --separator =</code></p>

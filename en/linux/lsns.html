@@ -1,0 +1,34 @@
+<h1 id="lsns">lsns</h1>
+
+<p>List information about all namespaces or about the specified namespace.
+More information: <a href="https://manned.org/lsns">https://manned.org/lsns</a>.</p>
+
+<ul>
+  <li>List all namespaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsns</code></p>
+
+<ul>
+  <li>List namespaces in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsns --json</code></p>
+
+<ul>
+  <li>List namespaces associated with the specified process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsns --task </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>List the specified type of namespaces only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsns --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mnt|net|ipc|user|pid|uts|cgroup|time</span></p>
+
+<ul>
+  <li>List namespaces, only showing the namespace ID, type, PID, and command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsns --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">NS,TYPE,PID,COMMAND</span></p>

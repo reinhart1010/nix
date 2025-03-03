@@ -1,0 +1,34 @@
+<h1 id="zstd">zstd</h1>
+
+<p>Compress or decompress files with Zstandard compression.
+More information: <a href="https://github.com/facebook/zstd">https://github.com/facebook/zstd</a>.</p>
+
+<ul>
+  <li>Compress a file into a new file with the <code class="language-plaintext highlighter-rouge">.zst</code> suffix:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zstd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Decompress a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zstd --decompress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.zst</span></p>
+
+<ul>
+  <li>Decompress to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zstd --decompress --stdout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.zst</span></p>
+
+<ul>
+  <li>Compress a file specifying the compression level, where 1=fastest, 19=slowest and 3=default:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zstd -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">level</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Unlock higher compression levels (up to 22) using more memory (both for compression and decompression):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zstd --ultra -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">level</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

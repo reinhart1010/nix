@@ -1,0 +1,46 @@
+<h1 id="docker-swarm">docker swarm</h1>
+
+<p>Uma ferramenta de orquestração de contêineres.
+Mais informações: <a href="https://docs.docker.com/engine/swarm/">https://docs.docker.com/engine/swarm/</a>.</p>
+
+<ul>
+  <li>Inicializa um cluster do Swarm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm init</code></p>
+
+<ul>
+  <li>Exibe o token para ingressar como gerenciador ou trabalhador:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm join-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">worker|manager</span></p>
+
+<ul>
+  <li>Ingressa um novo nó ao cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm join --token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">token</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_do_nó_gerenciador:2377</span></p>
+
+<ul>
+  <li>Remove um trabalhador do Swarm (executado dentro do nó trabalhador):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm leave</code></p>
+
+<ul>
+  <li>Exibe o certificado CA atual no formato PEM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm ca</code></p>
+
+<ul>
+  <li>Rotaciona o certificado CA atual e exibe o novo certificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm ca --rotate</code></p>
+
+<ul>
+  <li>Altera o período de validade dos certificados dos nós:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm update --cert-expiry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">horas</span><code class="language-plaintext highlighter-rouge">h</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">minutos</span><code class="language-plaintext highlighter-rouge">m</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">segundos</span><code class="language-plaintext highlighter-rouge">s</code></p>

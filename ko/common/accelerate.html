@@ -1,0 +1,40 @@
+<h1 id="accelerate">accelerate</h1>
+
+<p>Accelerate는 동일한 PyTorch 코드를 모든 분산 환경 구성에서 실행할 수 있게 해주는 라이브러리입니다.
+더 많은 정보: <a href="https://huggingface.co/docs/accelerate/index">https://huggingface.co/docs/accelerate/index</a>.</p>
+
+<ul>
+  <li>실행환경 정보 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate env</code></p>
+
+<ul>
+  <li>대화형으로 구성 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate config</code></p>
+
+<ul>
+  <li>다양한 데이터 타입을 사용하여 Hugging Face 모델을 실행하는 데 필요한 예상 GPU 메모리 비용을 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate estimate-memory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름/모델</span></p>
+
+<ul>
+  <li>Accelerate 구성 파일 테스트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate test --config_file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/구성파일.yaml</span></p>
+
+<ul>
+  <li>Accelerate를 사용하여 CPU에서 모델을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate launch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트.py</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–cpu</span></p>
+
+<ul>
+  <li>2대의 머신을 사용하고, Accelerate로 다중 GPU에서 모델을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate launch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트.py</span><code class="language-plaintext highlighter-rouge"> --multi_gpu --num_machines 2</code></p>

@@ -1,0 +1,40 @@
+<h1 id="rspec">rspec</h1>
+
+<p>Kerangka pengujian kode Ruby berbasis Ruby dan pola pengembangan berbasis kebiasaan (behavior-driven development).
+Informasi lebih lanjut: <a href="https://rspec.info">https://rspec.info</a>.</p>
+
+<ul>
+  <li>Buat suatu berkas konfigurasi <code class="language-plaintext highlighter-rouge">.rspec</code> dan berkas pendukung spesifikasi pengujian (spec helper):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rspec --init</code></p>
+
+<ul>
+  <li>Jalankan semua pengujian menurut berkas-berkas spesifikasi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rspec</code></p>
+
+<ul>
+  <li>Jalankan pengujian menurut berkas-berkas spesifikasi dalam direktori khusus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rspec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span></p>
+
+<ul>
+  <li>Jalankan beberapa pengujian menurut kumpulan berkas spesifikasi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rspec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 …</span></p>
+
+<ul>
+  <li>Jalankan kasus khusus dalam pengujian menurut berkas-berkas spesifikasi (misalnya tes yang ada di baris 83):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rspec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">83</span></p>
+
+<ul>
+  <li>Jalankan tes dengan seed khusus (untuk pengujian berbasis randomisasi):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rspec --seed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">angka_seed</span></p>

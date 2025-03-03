@@ -1,0 +1,53 @@
+<h1 id="apt">apt</h1>
+
+<p>Utilitaire de gestion des paquets pour les distributions basées sur Debian.
+Remplacement recommandé pour <code class="language-plaintext highlighter-rouge">apt-get</code> lorsqu'il est utilisé de manière interactive dans les versions 16.04 et ultérieures d'Ubuntu.
+Plus d'informations : <a href="https://manned.org/apt.8">https://manned.org/apt.8</a>.</p>
+
+<ul>
+  <li>Mettre à jour la liste des paquets et des versions disponibles (il est recommandé de l'exécuter avant les autres commandes <code class="language-plaintext highlighter-rouge">apt</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>Recherche d'un paquet donné :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Afficher les informations pour un paquet :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Installer un paquet, ou le mettre à jour avec la dernière version disponible :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Supprimer un paquet (utiliser <code class="language-plaintext highlighter-rouge">purge</code> à la place supprime également ses fichiers de configuration) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Mettre à jour tous les paquets installés vers les dernières versions disponibles :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt upgrade</code></p>
+
+<ul>
+  <li>Lister tous les paquets :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list</code></p>
+
+<ul>
+  <li>Lister les paquets installés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list --installed</code></p>

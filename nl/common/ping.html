@@ -1,0 +1,46 @@
+<h1 id="ping">ping</h1>
+
+<p>Verstuur ICMP ECHO_REQUEST-pakketten naar netwerkhosts.
+Meer informatie: <a href="https://manned.org/ping">https://manned.org/ping</a>.</p>
+
+<ul>
+  <li>Ping host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Ping een host een specifiek aantal keren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aantal</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Ping host met een specifiek interval in seconden tussen verzoeken (standaard is 1 seconde):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconden</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Ping host zonder te proberen symbolische namen voor adressen op te zoeken:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Ping host en laat een bel afgaan wanneer een pakket wordt ontvangen (als je terminal dit ondersteunt):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Toon ook een bericht als er geen reactie is ontvangen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Ping een host met een specifiek aantal pings, timeout (<code class="language-plaintext highlighter-rouge">-W</code>) voor elk antwoord, en totale tijdslimiet (<code class="language-plaintext highlighter-rouge">-w</code>) voor de gehele ping-uitvoering:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aantal</span><code class="language-plaintext highlighter-rouge"> -W </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconden</span><code class="language-plaintext highlighter-rouge"> -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconden</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>

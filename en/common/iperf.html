@@ -1,0 +1,40 @@
+<h1 id="iperf">iperf</h1>
+
+<p>Measure network bandwidth between computers.
+More information: <a href="https://iperf.fr">https://iperf.fr</a>.</p>
+
+<ul>
+  <li>Run on server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iperf -s</code></p>
+
+<ul>
+  <li>Run on server using UDP mode and set server port to listen on 5001:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iperf -u -s -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5001</span></p>
+
+<ul>
+  <li>Run on client:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iperf -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_address</span></p>
+
+<ul>
+  <li>Run on client every 2 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iperf -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_address</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span></p>
+
+<ul>
+  <li>Run on client with 5 parallel threads:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iperf -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_address</span><code class="language-plaintext highlighter-rouge"> -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>Run on client using UDP mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iperf -u -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_address</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5001</span></p>

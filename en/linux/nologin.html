@@ -1,0 +1,16 @@
+<h1 id="nologin">nologin</h1>
+
+<p>Alternative shell that prevents a user from logging in.
+More information: <a href="https://manned.org/nologin.5">https://manned.org/nologin.5</a>.</p>
+
+<ul>
+  <li>Set a user's login shell to <code class="language-plaintext highlighter-rouge">nologin</code> to prevent the user from logging in:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chsh -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> nologin</code></p>
+
+<ul>
+  <li>Customize message for users with the login shell of <code class="language-plaintext highlighter-rouge">nologin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">declined_login_message</span><code class="language-plaintext highlighter-rouge">" &gt; /etc/nologin.txt</code></p>

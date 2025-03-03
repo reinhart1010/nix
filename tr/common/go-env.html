@@ -1,0 +1,28 @@
+<h1 id="go-env">go env</h1>
+
+<p>Go toolchain'in kullandığı ortam değişkenlerini yönet.
+Daha fazla bilgi için: <a href="https://golang.org/cmd/go/#hdr-Print_Go_environment_information">https://golang.org/cmd/go/#hdr-Print_Go_environment_information</a>.</p>
+
+<ul>
+  <li>Tüm ortam değişkenlerini göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go env</code></p>
+
+<ul>
+  <li>Belirtilen ortam değişkenlerini göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go env </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GOPATH</span></p>
+
+<ul>
+  <li>Bir değere ortam değişkeni ata:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go env -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GOBIN</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/konum/dizin</span></p>
+
+<ul>
+  <li>Ortam değişkeninin değerini sıfırla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go env -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GOBIN</span></p>

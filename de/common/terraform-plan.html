@@ -1,0 +1,46 @@
+<h1 id="terraform-plan">terraform plan</h1>
+
+<p>Erzeugen und Anzeigen von Terraform-Ausführungsplänen.
+Weitere Informationen: <a href="https://developer.hashicorp.com/terraform/cli/commands/plan">https://developer.hashicorp.com/terraform/cli/commands/plan</a>.</p>
+
+<ul>
+  <li>Erzeugen und Anzeigen des Ausführungsplans im aktuellen Verzeichnis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan</code></p>
+
+<ul>
+  <li>Einen Plan zur Zerstörung aller derzeit existierenden entfernten Objekte anzeigen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan -destroy</code></p>
+
+<ul>
+  <li>Anzeigen eines Plans zur Aktualisierung des Terraform-Status und der Ausgabewerte:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan -refresh-only</code></p>
+
+<ul>
+  <li>Werte für Eingabevariablen festlegen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan -var '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name1</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wert1</span><code class="language-plaintext highlighter-rouge">' -var '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name2</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wert2</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Anzeigen eines Plans auf eine Teilmenge von Ressourcen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan -target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_type.resource_name[index]</span></p>
+
+<ul>
+  <li>Ausgabe eines Plans als JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan -json</code></p>
+
+<ul>
+  <li>Ausgabe eines Plans in eine separate Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan -no-color &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>

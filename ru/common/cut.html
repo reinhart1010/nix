@@ -1,0 +1,25 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="cut">cut</h1>
+
+<p>Вырезать поля из стандартного ввода или файлов.
+Больше информации: <a href="https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html</a>.</p>
+
+<ul>
+  <li>Вывести указанный диапазон символов/полей каждой строки (<code class="language-plaintext highlighter-rouge">--characters|fields 1|1,10|1-10|1-|-10</code> далее обозначается как <code class="language-plaintext highlighter-rouge">диапазон</code>):</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">команда</span><code class="language-plaintext highlighter-rouge"> | cut --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">characters|fields</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|1,10|1-10|1-|-10</span></p>
+
+<ul>
+  <li>Вывести диапазон полей каждой строки с указанным разделителем:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">команда</span><code class="language-plaintext highlighter-rouge"> | cut --delimiter "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span><code class="language-plaintext highlighter-rouge">" --fields </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Вывести диапазон символов каждой строки указанного файла:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut --characters </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/к/файлу</span></p>

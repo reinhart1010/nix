@@ -1,0 +1,17 @@
+<h1 id="lsyncd">lsyncd</h1>
+
+<p>Watch files and directories and run <code class="language-plaintext highlighter-rouge">rsync</code> when they change.
+It is often used to keep two directories on separate systems in sync, ensuring that changes made in one directory are immediately mirrored to the other.
+More information: <a href="https://github.com/lsyncd/lsyncd">https://github.com/lsyncd/lsyncd</a>.</p>
+
+<ul>
+  <li>Watch the source for changes and run <code class="language-plaintext highlighter-rouge">rsync</code> to synchronize files to the destination on every change:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsyncd -rsync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host::share_name</span></p>
+
+<ul>
+  <li>Use SSH instead of <code class="language-plaintext highlighter-rouge">rsyncd</code> shares:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsyncd -rsyncssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination</span></p>

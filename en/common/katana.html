@@ -1,0 +1,41 @@
+<h1 id="katana">katana</h1>
+
+<p>A fast crawler focused on execution in automation pipelines offering both headless and non-headless crawling.
+See also: <code class="language-plaintext highlighter-rouge">gau</code>, <code class="language-plaintext highlighter-rouge">scrapy</code>, <code class="language-plaintext highlighter-rouge">waymore</code>.
+More information: <a href="https://github.com/projectdiscovery/katana">https://github.com/projectdiscovery/katana</a>.</p>
+
+<ul>
+  <li>Crawl a list of URLs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">katana -list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com,https://google.com,…</span></p>
+
+<ul>
+  <li>Crawl a [u]RL using headless mode using Chromium:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">katana -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span><code class="language-plaintext highlighter-rouge"> -headless</code></p>
+
+<ul>
+  <li>Use <code class="language-plaintext highlighter-rouge">subfinder</code> to find subdomains, and then use [p]a[s]sive sources (Wayback Machine, Common Crawl, and AlienVault) for URL discovery:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">subfinder -list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/domains.txt</span><code class="language-plaintext highlighter-rouge"> | katana -passive</code></p>
+
+<ul>
+  <li>Pass requests through a proxy (http/socks5) and use custom [H]eaders from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">katana -proxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://127.0.0.1:8080</span><code class="language-plaintext highlighter-rouge"> -headers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/headers.txt</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Specify the crawling [s]trategy, [d]epth of subdirectories to crawl, and rate limiting (requests per second):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">katana -strategy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">depth-first|breadth-first</span><code class="language-plaintext highlighter-rouge"> -depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> -rate-limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Find subdomains using <code class="language-plaintext highlighter-rouge">subfinder</code>, crawl each for a maximum number of seconds, and write results to an [o]utput file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">subfinder -list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/domains.txt</span><code class="language-plaintext highlighter-rouge"> | katana -crawl-duration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> -output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.txt</span></p>

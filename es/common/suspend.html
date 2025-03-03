@@ -1,0 +1,22 @@
+<h1 id="suspend">suspend</h1>
+
+<p>Suspende la ejecución del intérprete de comandos actual.
+Más información: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-suspend">https://www.gnu.org/software/bash/manual/bash.html#index-suspend</a>.</p>
+
+<ul>
+  <li>Suspende el intérprete de comandos actual (útil para cuando está con intérpretes de comandos anidados como <code class="language-plaintext highlighter-rouge">su</code>):</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash</span><code class="language-plaintext highlighter-rouge"> &lt;Intro&gt; suspend</code></p>
+
+<ul>
+  <li>Ejecuta en un terminal separado para continuar desde la suspensión si <code class="language-plaintext highlighter-rouge">suspend</code> fue usado en un intérprete de comandos no anidado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkill -CONT bash</code></p>
+
+<ul>
+  <li>Fuerza la suspensión, incluso si esto bloquea el sistema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">suspend -f</code></p>

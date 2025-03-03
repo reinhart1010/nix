@@ -1,0 +1,23 @@
+<h1 id="mitmdump">mitmdump</h1>
+
+<p>View, record, and programmatically transform HTTP traffic.
+The command-line counterpart to mitmproxy.
+More information: <a href="https://docs.mitmproxy.org/stable/#mitmdump">https://docs.mitmproxy.org/stable/#mitmdump</a>.</p>
+
+<ul>
+  <li>Start a proxy and save all output to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mitmdump -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Filter a saved traffic file to just POST requests:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mitmdump -nr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_filename</span><code class="language-plaintext highlighter-rouge"> -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_filename</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~m post</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Replay a saved traffic file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mitmdump -nc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

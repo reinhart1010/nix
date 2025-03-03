@@ -1,0 +1,40 @@
+<h1 id="btrfs-inspect-internal">btrfs inspect-internal</h1>
+
+<p>Query internal information of a btrfs filesystem.
+More information: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-inspect-internal.html">https://btrfs.readthedocs.io/en/latest/btrfs-inspect-internal.html</a>.</p>
+
+<ul>
+  <li>Print superblock's information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs inspect-internal dump-super </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>
+
+<ul>
+  <li>Print superblock's and all of its copies' information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs inspect-internal dump-super --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>
+
+<ul>
+  <li>Print filesystem's metadata information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs inspect-internal dump-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>
+
+<ul>
+  <li>Print list of files in inode <code class="language-plaintext highlighter-rouge">n</code>-th:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs inspect-internal inode-resolve </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/btrfs_mount</span></p>
+
+<ul>
+  <li>Print list of files at a given logical address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs inspect-internal logical-resolve </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">logical_address</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/btrfs_mount</span></p>
+
+<ul>
+  <li>Print stats of root, extent, csum and fs trees:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs inspect-internal tree-stats </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>

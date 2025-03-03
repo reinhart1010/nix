@@ -1,0 +1,29 @@
+<h1 id="zmv">zmv</h1>
+
+<p>Move or rename files matching a specified extended glob pattern.
+See also <code class="language-plaintext highlighter-rouge">zcp</code> and <code class="language-plaintext highlighter-rouge">zln</code>.
+More information: <a href="https://zsh.sourceforge.net/Doc/Release/User-Contributions.html">https://zsh.sourceforge.net/Doc/Release/User-Contributions.html</a>.</p>
+
+<ul>
+  <li>Move files using a regular expression-like pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zmv '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">(*).log</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$1.txt</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Preview the result of a move, without making any actual changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zmv -n '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">(*).log</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$1.txt</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Interactively move files, with a prompt before every change:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zmv -i '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">(*).log</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$1.txt</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Verbosely print each action as it's being executed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zmv -v '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">(*).log</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$1.txt</span><code class="language-plaintext highlighter-rouge">'</code></p>

@@ -1,0 +1,35 @@
+<h1 id="uniq">uniq</h1>
+
+<p>Output the unique lines from a input or file.
+Since it does not detect repeated lines unless they are adjacent, we need to sort them first.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/uniq-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/uniq-invocation.html</a>.</p>
+
+<ul>
+  <li>Display each line once:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> | uniq</code></p>
+
+<ul>
+  <li>Display only unique lines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> | uniq -u</code></p>
+
+<ul>
+  <li>Display only duplicate lines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> | uniq -d</code></p>
+
+<ul>
+  <li>Display number of occurrences of each line along with that line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> | uniq -c</code></p>
+
+<ul>
+  <li>Display number of occurrences of each line, sorted by the most frequent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> | uniq -c | sort -nr</code></p>

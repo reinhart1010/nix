@@ -1,0 +1,41 @@
+<h1 id="autossh">autossh</h1>
+
+<p>Lance, surveille et redémarre les connections SSH.
+Reconnecte automatiquement pour garder le tunnel de transfert de port ouvert. Accepte toutes les options de SSH.
+Plus d'informations : <a href="https://www.harding.motd.ca/autossh">https://www.harding.motd.ca/autossh</a>.</p>
+
+<ul>
+  <li>Démarre une session SSH, redémarre quand le port échoue à renvoyer de la data :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_surveillé</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande_ssh</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Fait suivre un port local vers un port distant, redémarre si nécessaire :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_surveillé</span><code class="language-plaintext highlighter-rouge"> -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_local</span><code class="language-plaintext highlighter-rouge">:localhost:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_distant</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utilisateur</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hôte</span></p>
+
+<ul>
+  <li>Diverge <code class="language-plaintext highlighter-rouge">autossh</code> en arrière plan avant de lancer SSH et n'ouvre pas de shell distant :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -f -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_surveillé</span><code class="language-plaintext highlighter-rouge"> -N "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande_ssh</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Démarre en arrière plan, sans surveillance de port et à la place envoie des paquets SSH "keep-alive" toutes les 10 secondes pour détecter les échecs :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande_ssh</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Démarre en arrière plan, sans surveillance de port ni shell distant et s’arrête si le partage de port échoue :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" -o ExitOnForwardFailure=yes -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_local</span><code class="language-plaintext highlighter-rouge">:localhost:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_distant</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utilisateur</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hôte</span></p>
+
+<ul>
+  <li>Démarre en arrière plan, logue la sortie de déboggage d'<code class="language-plaintext highlighter-rouge">autossh</code> et la sortie verbeuse de SSH dans des fichiers :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">AUTOSSH_DEBUG=1 AUTOSSH_LOGFILE=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_logs_autossh.log</span><code class="language-plaintext highlighter-rouge"> autossh -f -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_surveillé</span><code class="language-plaintext highlighter-rouge"> -v -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_logs_ssh.log</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande_ssh</span></p>

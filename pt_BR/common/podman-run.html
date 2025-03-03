@@ -1,0 +1,52 @@
+<h1 id="podman-run">podman run</h1>
+
+<p>Executar um comando em um novo contêiner Podman.
+Mais informações: <a href="https://docs.podman.io/en/latest/markdown/podman-run.1.html">https://docs.podman.io/en/latest/markdown/podman-run.1.html</a>.</p>
+
+<ul>
+  <li>Executa um comando em um novo contêiner a partir de uma imagem marcada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem:tag</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Executa um comando em um novo contêiner em segundo plano e exibe o ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman run --detach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem:tag</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Executa um comando em um contêiner temporário no modo interativo e pseudo-TTY:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman run --rm --interactive --tty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem:tag</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Executa um comando em um novo contêiner com variáveis de ambiente passadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman run --env '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variável</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span><code class="language-plaintext highlighter-rouge">' --env </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variável</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem:tag</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Executa um comando em um novo contêiner com volumes montados por bind:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman run --volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/caminho_no_host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/caminho_no_contêiner</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem:tag</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Executa um comando em um novo contêiner com portas publicadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman run --publish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_no_host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_no_contêiner</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem:tag</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Executa um comando em um novo contêiner sobrescrevendo o ponto de entrada (entrypoint) da imagem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman run --entrypoint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem:tag</span></p>
+
+<ul>
+  <li>Executa um comando em um novo contêiner conectando-o a uma rede:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman run --network </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rede</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem:tag</span></p>

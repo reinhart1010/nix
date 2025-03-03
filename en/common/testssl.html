@@ -1,0 +1,40 @@
+<h1 id="testssl">testssl</h1>
+
+<p>Check SSL/TLS protocols and ciphers supported by a server.
+More information: <a href="https://testssl.sh/">https://testssl.sh/</a>.</p>
+
+<ul>
+  <li>Test a server (run every check) on port 443:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">testssl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Test a different port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">testssl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com:465</span></p>
+
+<ul>
+  <li>Only check available protocols:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">testssl --protocols </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Only check vulnerabilities:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">testssl --vulnerable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Only check HTTP security headers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">testssl --headers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Test other STARTTLS enabled protocols:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">testssl --starttls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp|smtp|pop3|imap|xmpp|sieve|xmpp-server|telnet|ldap|irc|lmtp|nntp|postgres|mysql</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>

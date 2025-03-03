@@ -1,0 +1,41 @@
+<h1 id="pio-ci">pio ci</h1>
+
+<p>Build PlatformIO projects with an arbitrary source code structure.
+This will create a new temporary project which the source code will be copied into.
+More information: <a href="https://docs.platformio.org/en/latest/core/userguide/cmd_ci.html">https://docs.platformio.org/en/latest/core/userguide/cmd_ci.html</a>.</p>
+
+<ul>
+  <li>Build a PlatformIO project in the default system temporary directory and delete it afterwards:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio ci </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project</span></p>
+
+<ul>
+  <li>Build a PlatformIO project and specify specific libraries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio ci --lib </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/library_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project</span></p>
+
+<ul>
+  <li>Build a PlatformIO project and specify a specific board (<code class="language-plaintext highlighter-rouge">pio boards</code> lists all of them):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio ci --board </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">board</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project</span></p>
+
+<ul>
+  <li>Build a PlatformIO project in a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio ci --build-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/build_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project</span></p>
+
+<ul>
+  <li>Build a PlatformIO project and don't delete the build directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio ci --keep-build-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project</span></p>
+
+<ul>
+  <li>Build a PlatformIO project using a specific configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio ci --project-conf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/platformio.ini</span></p>

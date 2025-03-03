@@ -1,0 +1,28 @@
+<h1 id="evtest">evtest</h1>
+
+<p>Display information from input device drivers.
+More information: <a href="https://manned.org/evtest">https://manned.org/evtest</a>.</p>
+
+<ul>
+  <li>List all detected input devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo evtest</code></p>
+
+<ul>
+  <li>Display events from a specific input device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo evtest /dev/input/event</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span></p>
+
+<ul>
+  <li>Grab the device exclusively, preventing other clients from receiving events:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo evtest --grab /dev/input/event</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span></p>
+
+<ul>
+  <li>Query the state of a specific key or button on an input device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo evtest --query /dev/input/event</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">event_type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">event_code</span></p>

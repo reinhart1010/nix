@@ -1,0 +1,22 @@
+<h1 id="llvm-dis">llvm-dis</h1>
+
+<p>Convert LLVM bitcode files into human-readable LLVM Intermediate Representation (IR).
+More information: <a href="https://www.llvm.org/docs/CommandGuide/llvm-dis.html">https://www.llvm.org/docs/CommandGuide/llvm-dis.html</a>.</p>
+
+<ul>
+  <li>Convert a bitcode file as LLVM IR and write the result to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-dis </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.bc</span><code class="language-plaintext highlighter-rouge"> -o -</code></p>
+
+<ul>
+  <li>Convert a bitcode file to an LLVM IR file with the same filename:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-dis </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.bc</span></p>
+
+<ul>
+  <li>Convert a bitcode file to LLVM IR, writing the result to the specified file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-dis </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.bc</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ll</span></p>

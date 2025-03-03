@@ -1,0 +1,28 @@
+<h1 id="readarray">readarray</h1>
+
+<p>Lee líneas de <code class="language-plaintext highlighter-rouge">stdin</code> en un arreglo.
+Más información: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-readarray">https://www.gnu.org/software/bash/manual/bash.html#index-readarray</a>.</p>
+
+<ul>
+  <li>Ingresa líneas en un arreglo de forma interactiva:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readarray </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_arreglo</span></p>
+
+<ul>
+  <li>Lee líneas de un archivo y las inserta en un arreglo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readarray </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_arreglo</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.txt</span></p>
+
+<ul>
+  <li>Elimina los delimitadores finales (newline por defecto):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readarray -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_arreglo</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.txt</span></p>
+
+<ul>
+  <li>Copia como máximo el número de líneas especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readarray -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_arreglo</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.txt</span></p>

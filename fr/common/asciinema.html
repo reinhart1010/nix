@@ -1,0 +1,52 @@
+<h1 id="asciinema">asciinema</h1>
+
+<p>Enregistre et rejoue les sessions de terminal, et également partageable sur asciinema.org.
+Plus d'informations : <a href="https://docs.asciinema.org/manual/cli/usage">https://docs.asciinema.org/manual/cli/usage</a>.</p>
+
+<ul>
+  <li>Associe l’installation locale de <code class="language-plaintext highlighter-rouge">asciinema</code> avec un compte asciinema.org :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema auth</code></p>
+
+<ul>
+  <li>Crée un nouvel enregistrement (une fois fini, l'utilisateur sera questionné pour l'enregistrer localement ou l'envoyer en ligne) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema rec</code></p>
+
+<ul>
+  <li>Crée un nouvel enregistrement et l'enregistre dans un fichier local :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema rec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/enregistrement.cast</span></p>
+
+<ul>
+  <li>Rejoue un enregistrement depuis un fichier local :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema play </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/enregistrement.cast</span></p>
+
+<ul>
+  <li>Rejoue un enregistrement depuis asciinema.org :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema play https://asciinema.org/a/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_d_enregistrement</span></p>
+
+<ul>
+  <li>Crée un nouvel enregistrement, en limitant le temps d’inactivité au maximum à 2.5 secondes :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema rec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–idle-time-limit</span><code class="language-plaintext highlighter-rouge"> 2.5</code></p>
+
+<ul>
+  <li>Affiche la sortie complète d'un enregistrement local :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/enregistrement.cast</span></p>
+
+<ul>
+  <li>Envoie un enregistrement local vers asciinema.org :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/enregistrement.cast</span></p>

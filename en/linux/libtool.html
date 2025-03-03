@@ -1,0 +1,46 @@
+<h1 id="libtool">libtool</h1>
+
+<p>A generic library support script that hides the complexity of using shared libraries behind a consistent, portable interface.
+More information: <a href="https://www.gnu.org/software/libtool/manual/libtool.html#Invoking-libtool">https://www.gnu.org/software/libtool/manual/libtool.html#Invoking-libtool</a>.</p>
+
+<ul>
+  <li>Compile a source file into a <code class="language-plaintext highlighter-rouge">libtool</code> object:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">libtool --mode=compile gcc -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.c</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.lo</span></p>
+
+<ul>
+  <li>Create a library or an executable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">libtool --mode=link gcc -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/library.lo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.lo</span></p>
+
+<ul>
+  <li>Automatically set the library path so that another program can use uninstalled <code class="language-plaintext highlighter-rouge">libtool</code> generated programs or libraries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">libtool --mode=execute gdb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/program</span></p>
+
+<ul>
+  <li>Install a shared library:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">libtool --mode=install cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/library.la</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/installation_directory</span></p>
+
+<ul>
+  <li>Complete the installation of <code class="language-plaintext highlighter-rouge">libtool</code> libraries on the system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">libtool --mode=finish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/installation_dir</span></p>
+
+<ul>
+  <li>Delete installed libraries or executables:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">libtool --mode=uninstall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/installed_library.la</span></p>
+
+<ul>
+  <li>Delete uninstalled libraries or executables:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">libtool --mode=clean rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.lo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/library.la</span></p>

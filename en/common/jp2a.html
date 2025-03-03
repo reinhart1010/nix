@@ -1,0 +1,40 @@
+<h1 id="jp2a">jp2a</h1>
+
+<p>Convert JPEG images to ASCII.
+More information: <a href="https://csl.name/jp2a/">https://csl.name/jp2a/</a>.</p>
+
+<ul>
+  <li>Read JPEG image from a file and print in ASCII:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jp2a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.jpeg</span></p>
+
+<ul>
+  <li>Read JPEG image from a URL and print in ASCII:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jp2a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">www.example.com/image.jpeg</span></p>
+
+<ul>
+  <li>Colorize the ASCII output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jp2a --colors </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.jpeg</span></p>
+
+<ul>
+  <li>Specify characters to be used for the ASCII output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jp2a --chars='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">..-ooxx@@</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.jpeg</span></p>
+
+<ul>
+  <li>Write the ASCII output into a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jp2a --output=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.jpeg</span></p>
+
+<ul>
+  <li>Write the ASCII output in HTML file format, suitable for viewing in web browsers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jp2a --html --output=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.jpeg</span></p>

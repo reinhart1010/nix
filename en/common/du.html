@@ -1,0 +1,46 @@
+<h1 id="du">du</h1>
+
+<p>Disk usage: estimate and summarize file and directory space usage.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html</a>.</p>
+
+<ul>
+  <li>List the sizes of a directory and any subdirectories, in the given unit (B/KiB/MiB):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">b|k|m</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>List the sizes of a directory and any subdirectories, in human-readable form (i.e. auto-selecting the appropriate unit for each size):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Show the size of a single directory, in human-readable units:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -sh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>List the human-readable sizes of a directory and of all the files and directories within it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -ah </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>List the human-readable sizes of a directory and any subdirectories, up to N levels deep:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -h --max-depth=N </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>List the human-readable size of all <code class="language-plaintext highlighter-rouge">.jpg</code> files in current directory, and show a cumulative total at the end:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -ch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./*.jpg</span></p>
+
+<ul>
+  <li>List all files and directories (including hidden ones) above a certain [t]hreshold size (useful for investigating what is actually taking up the space):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du --all --human-readable --threshold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1G|1024M|1048576K</span><code class="language-plaintext highlighter-rouge"> .[^.]* *</code></p>

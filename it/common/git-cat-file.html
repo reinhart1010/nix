@@ -1,0 +1,22 @@
+<h1 id="git-cat-file">git cat-file</h1>
+
+<p>Visualizza il contenuto di un oggetto Git nel repository o mostrane dimensione e tipo.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-cat-file">https://git-scm.com/docs/git-cat-file</a>.</p>
+
+<ul>
+  <li>Mostra la dimen[s]ione del commit HEAD in byte:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cat-file -s HEAD</code></p>
+
+<ul>
+  <li>Mostra il [t]ipo (blob, albero, commit, tag) di un oggetto Git:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cat-file -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8c442dc3</span></p>
+
+<ul>
+  <li>Stam[p]a il contenuto di un oggetto Git, formattato in base al tipo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cat-file -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~2</span></p>

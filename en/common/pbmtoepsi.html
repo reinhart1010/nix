@@ -1,0 +1,28 @@
+<h1 id="pbmtoepsi">pbmtoepsi</h1>
+
+<p>Convert a PBM image to an encapsulated PostScript style preview bitmap.
+More information: <a href="https://netpbm.sourceforge.net/doc/pbmtoepsi.html">https://netpbm.sourceforge.net/doc/pbmtoepsi.html</a>.</p>
+
+<ul>
+  <li>Convert a PBM image to an encapsulated PostScript style preview bitmap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtoepsi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.bmp</span></p>
+
+<ul>
+  <li>Produce a quadratic output image with the specified resolution:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtoepsi -dpi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">144</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.bmp</span></p>
+
+<ul>
+  <li>Produce an output image with the specified horizontal and vertical resolution:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtoepsi -dpi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">72x144</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.bmp</span></p>
+
+<ul>
+  <li>Only create a boundary box:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtoepsi -bbonly </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.bmp</span></p>

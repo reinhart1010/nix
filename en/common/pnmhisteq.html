@@ -1,0 +1,22 @@
+<h1 id="pnmhisteq">pnmhisteq</h1>
+
+<p>Histogram-equalize a PNM image.
+More information: <a href="https://netpbm.sourceforge.net/doc/pnmhisteq.html">https://netpbm.sourceforge.net/doc/pnmhisteq.html</a>.</p>
+
+<ul>
+  <li>Increase the contrast of a PNM image using histogram equalization:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmhisteq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Only modify grey pixels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmhisteq -grey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Do not include black or white pixels in the histogram equalization:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmhisteq -no</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">black|white</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>

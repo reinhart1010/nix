@@ -1,0 +1,40 @@
+<h1 id="todosh">todo.sh</h1>
+
+<p><code class="language-plaintext highlighter-rouge">todo.txt</code> 파일을 관리하기 위한 간단하고 확장 가능한 셸 스크립트.
+더 많은 정보: <a href="https://github.com/todotxt/todo.txt-cli">https://github.com/todotxt/todo.txt-cli</a>.</p>
+
+<ul>
+  <li>모든 항목 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo.sh ls</code></p>
+
+<ul>
+  <li>프로젝트 및 컨텍스트 태그로 항목 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo.sh add '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">설명</span><code class="language-plaintext highlighter-rouge"> +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트</span><code class="language-plaintext highlighter-rouge"> @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨텍스트</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>항목을 [완료]로 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo.sh do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">항목_번호</span></p>
+
+<ul>
+  <li>항목 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo.sh rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">항목_번호</span></p>
+
+<ul>
+  <li>항목의 [우선순위] 설정 (A-Z):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo.sh pri </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">항목_번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">우선순위</span></p>
+
+<ul>
+  <li>항목 교체:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todo.sh replace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">항목_번호</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새_설명</span><code class="language-plaintext highlighter-rouge">'</code></p>

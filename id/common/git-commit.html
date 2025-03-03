@@ -1,0 +1,46 @@
+<h1 id="git-commit">git commit</h1>
+
+<p>Komit berkas ke dalam sebuah repositori.
+Informasi lebih lanjut: <a href="https://git-scm.com/docs/git-commit">https://git-scm.com/docs/git-commit</a>.</p>
+
+<ul>
+  <li>Komit berkas bertahap ke repositori dengan sebuah pesan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pesan</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Komit berkas bertahap dengan pesan yang disimpan dalam suatu berkas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_pesan_komit</span></p>
+
+<ul>
+  <li>Ubah secara otomatis semua berkas yang dimodifikasi menjadi ke status stage dan menambahkan sebuah pesan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --all --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pesan</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Komit berkas bertahap kemudian tandatangani komit tersebut menggunakan kunci GPG (atau kunci yang didefinisikan dalam berkas konfigurasi jika tidak didefinisikan):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --gpg-sign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_kunci_gpg</span><code class="language-plaintext highlighter-rouge"> --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pesan</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ganti komit terakhir dengan perubahan yang ada di status stage saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --amend</code></p>
+
+<ul>
+  <li>Komit berkas tertentu (yang sudah di status stage):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 …</span></p>
+
+<ul>
+  <li>Buat komit kosong, tanpa berkas bertahap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pesan</span><code class="language-plaintext highlighter-rouge">" --allow-empty</code></p>

@@ -1,0 +1,40 @@
+<h1 id="pactl">pactl</h1>
+
+<p>실행 중인 PulseAudio 사운드 서버 제어.
+더 많은 정보: <a href="https://manned.org/pactl">https://manned.org/pactl</a>.</p>
+
+<ul>
+  <li>사운드 서버 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pactl info</code></p>
+
+<ul>
+  <li>모든 싱크(또는 다른 유형 - 싱크는 출력이고 싱크 입력은 활성 오디오 스트림) 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pactl list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sinks</span><code class="language-plaintext highlighter-rouge"> short</code></p>
+
+<ul>
+  <li>기본 싱크(출력)를 1로 변경 (번호는 <code class="language-plaintext highlighter-rouge">list</code> 하위 명령을 통해 확인 가능):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pactl set-default-sink </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>싱크 입력 627을 싱크 1로 이동:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pactl move-sink-input </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">627</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>싱크 1의 볼륨을 75%로 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pactl set-sink-volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.75</span></p>
+
+<ul>
+  <li>기본 싱크의 음소거 전환 (특수 이름 <code class="language-plaintext highlighter-rouge">@DEFAULT_SINK@</code> 사용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pactl set-sink-mute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@DEFAULT_SINK@</span><code class="language-plaintext highlighter-rouge"> toggle</code></p>

@@ -1,0 +1,53 @@
+<h1 id="git-tag">git tag</h1>
+
+<p>Crea, muestra, borra o verifica etiquetas.
+Una etiqueta (tag) es una referencia estática a una confirmación (commit).
+Más información: <a href="https://git-scm.com/docs/git-tag">https://git-scm.com/docs/git-tag</a>.</p>
+
+<ul>
+  <li>Muestra todas las etiquetas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag</code></p>
+
+<ul>
+  <li>Crea una etiqueta con el nombre especificado a partir de la confirmación actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_etiqueta</span></p>
+
+<ul>
+  <li>Crea una etiqueta con el nombre especificado a partir de la confirmación señalada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_etiqueta</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación</span></p>
+
+<ul>
+  <li>Crea una etiqueta anotada con el mensaje especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_etiqueta</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje_de_la_etiqueta</span></p>
+
+<ul>
+  <li>Elimina la etiqueta con el nombre especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–delete</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_etiqueta</span></p>
+
+<ul>
+  <li>Obtén las etiquetas actualizadas del remoto (remote):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git fetch --tags</code></p>
+
+<ul>
+  <li>Envía una etiqueta al remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push origin tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_etiqueta</span></p>
+
+<ul>
+  <li>Muestra todas las etiquetas cuyos ancestros incluyen una confirmación específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag --contains </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación</span></p>

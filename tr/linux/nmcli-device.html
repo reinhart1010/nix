@@ -1,0 +1,28 @@
+<h1 id="nmcli-device">nmcli device</h1>
+
+<p>NetworkManager ile donanım aygıtı yönetimi.
+Daha fazla bilgi için: <a href="https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html">https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html</a>.</p>
+
+<ul>
+  <li>Tüm ağ arayüzlerinin durumlarını yazdır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli device status</code></p>
+
+<ul>
+  <li>Kullanılabilir kablosuz erişim noktalarını yazdır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli device wifi</code></p>
+
+<ul>
+  <li>Belirtilen ad ve parola ile kablosuz ağa bağlan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli --ask device wifi connect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssid</span></p>
+
+<ul>
+  <li>Geçerli kablosuz ağ için parola ve QR kodunu yazdır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli device wifi show-password</code></p>

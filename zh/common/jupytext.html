@@ -1,0 +1,40 @@
+<h1 id="jupytext">jupytext</h1>
+
+<p>将 Jupyter 笔记本转换为纯文本文件，然后再转换回去。
+更多信息：<a href="https://jupytext.readthedocs.io">https://jupytext.readthedocs.io</a>.</p>
+
+<ul>
+  <li>将笔记本转换为成对的 <code class="language-plaintext highlighter-rouge">.ipynb</code>/<code class="language-plaintext highlighter-rouge">.py</code> 笔记本：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jupytext --set-formats ipynb,py </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">notebook.ipynb</span></p>
+
+<ul>
+  <li>将笔记本转换为 <code class="language-plaintext highlighter-rouge">.py</code> 文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jupytext --to py </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">notebook.ipynb</span></p>
+
+<ul>
+  <li>将 <code class="language-plaintext highlighter-rouge">.py</code> 文件转换为没有输出的笔记本：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jupytext --to notebook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">notebook.py</span></p>
+
+<ul>
+  <li>将 <code class="language-plaintext highlighter-rouge">.md</code> 文件转换为笔记本并运行它：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jupytext --to notebook --execute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">notebook.md</span></p>
+
+<ul>
+  <li>更新笔记本中的输入单元格并保留输出和元数据：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jupytext --update --to notebook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">notebook.py</span></p>
+
+<ul>
+  <li>更新笔记本的所有配对表示：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jupytext --sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">notebook.ipynb</span></p>

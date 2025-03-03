@@ -1,0 +1,46 @@
+<h1 id="conda-install">conda install</h1>
+
+<p>Install packages into an existing conda environment.
+More information: <a href="https://docs.conda.io/projects/conda/en/latest/commands/install.html">https://docs.conda.io/projects/conda/en/latest/commands/install.html</a>.</p>
+
+<ul>
+  <li>Install one or more package into the currently active conda environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 …</span></p>
+
+<ul>
+  <li>Install a single package into the currently active conda environment using channel conda-forge:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda install -c conda-forge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Install a single package into the currently active conda environment using channel conda-forge and ignoring other channels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda install -c conda-forge --override-channels </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Install a specific version of a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Install a package into a specific environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda install --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Update a package in the current environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda install --upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Install a package and agree to the transactions without prompting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda install --yes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>

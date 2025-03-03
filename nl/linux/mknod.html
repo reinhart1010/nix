@@ -1,0 +1,28 @@
+<h1 id="mknod">mknod</h1>
+
+<p>Maak speciale bestanden voor blok- of tekenapparaten aan.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/mknod-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/mknod-invocation.html</a>.</p>
+
+<ul>
+  <li>Maak een blokapparaat aan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mknod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/apparaat_bestand</span><code class="language-plaintext highlighter-rouge"> b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groot_apparaatnummer</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">klein_apparaatnummer</span></p>
+
+<ul>
+  <li>Maak een tekenapparaat aan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mknod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/apparaat_bestand</span><code class="language-plaintext highlighter-rouge"> c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groot_apparaatnummer</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">klein_apparaatnummer</span></p>
+
+<ul>
+  <li>Maak een FIFO (queue) apparaat aan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mknod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/apparaat_bestand</span><code class="language-plaintext highlighter-rouge"> p</code></p>
+
+<ul>
+  <li>Maak een apparaatbestand aan met de standaard SELinux-beveiligingscontext:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mknod -Z </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/apparaat_bestand</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groot_apparaatnummer</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">klein_apparaatnummer</span></p>

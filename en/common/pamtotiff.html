@@ -1,0 +1,22 @@
+<h1 id="pamtotiff">pamtotiff</h1>
+
+<p>Convert a PAM image to a TIFF file.
+More information: <a href="https://netpbm.sourceforge.net/doc/pamtotiff.html">https://netpbm.sourceforge.net/doc/pamtotiff.html</a>.</p>
+
+<ul>
+  <li>Convert a PAM image to a TIFF image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtotiff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.tiff</span></p>
+
+<ul>
+  <li>Explicitly specify a compression method for the output file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtotiff -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">none|packbits|lzw|g3|g4|flate|adobeflate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.tiff</span></p>
+
+<ul>
+  <li>Always produce a color TIFF image, even if the input image is greyscale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamtotiff -color </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.pam</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.tiff</span></p>

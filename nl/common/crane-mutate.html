@@ -1,0 +1,53 @@
+<h1 id="crane-mutate">crane mutate</h1>
+
+<p>Wijzig image-labels en annotaties.
+De container moet naar een registry worden gepusht, en het manifest wordt daar bijgewerkt.
+Meer informatie: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_mutate.md">https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_mutate.md</a>.</p>
+
+<ul>
+  <li>Nieuwe annotaties om in te stellen (standaard []):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane mutate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–annotation</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–label</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">annotation/label</span></p>
+
+<ul>
+  <li>Pad naar tarball/opdracht/entrypoint/omgeving variabele/exposed-ports om aan de image toe te voegen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane mutate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–append</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–cmd</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–entrypoint</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|–env</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–exposed-ports</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">var1 var2 …</span></p>
+
+<ul>
+  <li>Pad naar nieuwe tarball van de resulterende image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane mutate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/tarball</span></p>
+
+<ul>
+  <li>Repository in de vorm os/arch<code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;/variant&lt;/span&gt;&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;:osversion&lt;/span&gt;&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;,&lt;platform&gt;&lt;/span&gt;</code> om de gewijzigde image te pushen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane mutate --set-platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">platform_naam</span></p>
+
+<ul>
+  <li>Nieuwe tagreferentie die moet worden toegepast op de gewijzigde image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane mutate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–tag</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_naam</span></p>
+
+<ul>
+  <li>Nieuwe gebruiker in te stellen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane mutate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-u|–user</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>
+
+<ul>
+  <li>Nieuwe werk-map in te stellen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane mutate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-w|–workdir</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/werk-map</span></p>
+
+<ul>
+  <li>Toon de help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane mutate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span></p>

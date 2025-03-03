@@ -1,0 +1,34 @@
+<h1 id="sqfstar">sqfstar</h1>
+
+<p>tar 아카이브에서 squashfs 파일 시스템을 생성합니다.
+더 많은 정보: <a href="https://manned.org/sqfstar">https://manned.org/sqfstar</a>.</p>
+
+<ul>
+  <li>압축되지 않은 tar 아카이브에서 기본적으로 <code class="language-plaintext highlighter-rouge">gzip</code>으로 압축된 squashfs 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqfstar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_시스템.squashfs</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아카이브.tar</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">gzip</code>으로 압축된 tar 아카이브에서 특정 알고리즘으로 파일 시스템을 [comp]압축하여 squashfs 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zcat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아카이브.tar.gz</span><code class="language-plaintext highlighter-rouge"> | sqfstar -comp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gzip|lzo|lz4|xz|zstd|lzma</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_시스템.squashfs</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">xz</code>로 압축된 tar 아카이브에서 일부 파일을 제외하고 squashfs 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xzcat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아카이브.tar.xz</span><code class="language-plaintext highlighter-rouge"> | sqfstar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_시스템.squashfs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일1 파일2 …</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">zstd</code>로 압축된 tar 아카이브에서 <code class="language-plaintext highlighter-rouge">.gz</code>로 끝나는 파일을 제외하고 squashfs 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zstdcat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아카이브.tar.zst</span><code class="language-plaintext highlighter-rouge"> | sqfstar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_시스템.squashfs</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.gz</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">lz4</code>로 압축된 tar 아카이브에서 정규 표현식에 맞는 파일을 제외하고 squashfs 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lz4cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아카이브.tar.lz4</span><code class="language-plaintext highlighter-rouge"> | sqfstar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_시스템.squashfs</span><code class="language-plaintext highlighter-rouge"> -regex "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">정규_표현식</span><code class="language-plaintext highlighter-rouge">"</code></p>

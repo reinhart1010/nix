@@ -1,0 +1,28 @@
+<h1 id="virt-qemu-run">virt-qemu-run</h1>
+
+<p>Experimental tool to run a QEMU Guest VM independent of <code class="language-plaintext highlighter-rouge">libvirtd</code>.
+More information: <a href="https://libvirt.org/manpages/virt-qemu-run.html">https://libvirt.org/manpages/virt-qemu-run.html</a>.</p>
+
+<ul>
+  <li>Run a QEMU virtual machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-qemu-run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/guest.xml</span></p>
+
+<ul>
+  <li>Run a QEMU virtual machine and store the state in a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-qemu-run --root=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/guest.xml</span></p>
+
+<ul>
+  <li>Run a QEMU virtual machine and display verbose information about the startup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-qemu-run --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/guest.xml</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-qemu-run --help</code></p>

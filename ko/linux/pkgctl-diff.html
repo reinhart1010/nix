@@ -1,0 +1,29 @@
+<h1 id="pkgctl-diff">pkgctl diff</h1>
+
+<p>패키지 파일을 다양한 모드로 비교.
+같이 보기: <code class="language-plaintext highlighter-rouge">pkgctl</code>.
+더 많은 정보: <a href="https://manned.org/pkgctl-diff.1">https://manned.org/pkgctl-diff.1</a>.</p>
+
+<ul>
+  <li>tar 콘텐츠 [l]리스트 비교 모드(기본값)로 패키지 파일 비교:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgctl diff --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일|패키지명</span></p>
+
+<ul>
+  <li>[d]iffoscope 비교 모드로 패키지 파일 비교:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgctl diff --diffoscope </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일|패키지명</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.PKGINFO</code> 비교 모드로 패키지 파일 비교:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgctl diff --pkginfo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일|패키지명</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.BUILDINFO</code> 비교 모드로 패키지 파일 비교:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgctl diff --buildinfo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일|패키지명</span></p>

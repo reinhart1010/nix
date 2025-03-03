@@ -1,0 +1,34 @@
+<h1 id="cidr">cidr</h1>
+
+<p>Simplifies IPv4/IPv6 CIDR network prefix management with counting, overlap checking, explanation, and subdivision.
+More information: <a href="https://github.com/bschaatsbergen/cidr">https://github.com/bschaatsbergen/cidr</a>.</p>
+
+<ul>
+  <li>Explain a CIDR range:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cidr explain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.0.0/16</span></p>
+
+<ul>
+  <li>Check whether an address belongs to a CIDR range:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cidr contains </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.0.0/16</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.14.5</span></p>
+
+<ul>
+  <li>Get a count of all addresses in a CIDR range:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cidr count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.0.0/16</span></p>
+
+<ul>
+  <li>Check whether two CIDR ranges overlap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cidr overlaps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.0.0/16</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.14.0/22</span></p>
+
+<ul>
+  <li>Divide a CIDR range into a specific number of networks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cidr divide </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.0.0/16</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9</span></p>

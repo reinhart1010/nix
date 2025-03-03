@@ -1,0 +1,22 @@
+<h1 id="grubby">grubby</h1>
+
+<p>Tool for configuring <code class="language-plaintext highlighter-rouge">grub</code> and <code class="language-plaintext highlighter-rouge">zipl</code> bootloaders.
+More information: <a href="https://manned.org/grubby.8">https://manned.org/grubby.8</a>.</p>
+
+<ul>
+  <li>Add kernel boot arguments to all kernel menu entries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo grubby --update-kernel=ALL --args '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quiet console=ttyS0</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Remove existing arguments from the entry for the default kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo grubby --update-kernel=DEFAULT --remove-args </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quiet</span></p>
+
+<ul>
+  <li>List all kernel menu entries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo grubby --info=ALL</code></p>

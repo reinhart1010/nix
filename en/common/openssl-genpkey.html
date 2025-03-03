@@ -1,0 +1,22 @@
+<h1 id="openssl-genpkey">openssl genpkey</h1>
+
+<p>OpenSSL command to generate asymmetric key pairs.
+More information: <a href="https://www.openssl.org/docs/manmaster/man1/openssl-genpkey.html">https://www.openssl.org/docs/manmaster/man1/openssl-genpkey.html</a>.</p>
+
+<ul>
+  <li>Generate an RSA private key of 2048 bits, saving it to a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl genpkey -algorithm rsa -pkeyopt rsa_keygen_bits:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2048</span><code class="language-plaintext highlighter-rouge"> -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.key</span></p>
+
+<ul>
+  <li>Generate an elliptic curve private key using the curve <code class="language-plaintext highlighter-rouge">prime256v1</code>, saving it to a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl genpkey -algorithm EC -pkeyopt ec_paramgen_curve:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prime256v1</span><code class="language-plaintext highlighter-rouge"> -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.key</span></p>
+
+<ul>
+  <li>Generate an <code class="language-plaintext highlighter-rouge">ED25519</code> elliptic curve private key, saving it to a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl genpkey -algorithm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ED25519</span><code class="language-plaintext highlighter-rouge"> -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.key</span></p>

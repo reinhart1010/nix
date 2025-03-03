@@ -1,0 +1,55 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="perl">perl</h1>
+
+<p>Interpréteur du langage Perl (version 5).
+Plus d'informations : <a href="https://www.perl.org">https://www.perl.org</a>.</p>
+
+<ul>
+  <li>Exécuter le code contenu dans un fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier.pl</span></p>
+
+<ul>
+  <li>Vérifier la syntaxe sans exécuter le programme :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier.pl</span></p>
+
+<ul>
+  <li>Exécuter une expression Perl :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expression</span></p>
+
+<ul>
+  <li>Lancer le programme avec le debugger Perl :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier.pl</span></p>
+
+<ul>
+  <li>Itérer sur toutes les lignes d'un fichier, en les modifiant sur place en utilisant une expression de recherche et de remplacement :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl -p -i -e 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recherche</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remplacement</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>
+
+<ul>
+  <li>Lancer une expression de recherche et remplacement sur un fichier, en sauvegardant le fichier original avec une autre extension :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl -p -i'.ancien' -e 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recherche</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remplacement</span><code class="language-plaintext highlighter-rouge">/g' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>
+
+<ul>
+  <li>Lancer une expression de recherche et remplacement sur un fichier, en sauvegardant le résultat dans un autre fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl -p0e 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recherche</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remplacement</span><code class="language-plaintext highlighter-rouge">/g' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_entrée</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_sortie</span></p>
+
+<ul>
+  <li>Lancer une expression régulière (RegEx) sur <code class="language-plaintext highlighter-rouge">stdin</code>, en affichant le premier groupe capturé pour chaque ligne :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_entrée</span><code class="language-plaintext highlighter-rouge"> | perl -nle 'if (/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regex</span><code class="language-plaintext highlighter-rouge">/) { print "$1"; last;}'</code></p>

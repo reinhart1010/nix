@@ -1,0 +1,22 @@
+<h1 id="jstack">jstack</h1>
+
+<p>Java 栈跟踪工具。
+更多信息：<a href="https://manned.org/jstack">https://manned.org/jstack</a>.</p>
+
+<ul>
+  <li>打印 Java 进程中所有线程的 Java 栈跟踪：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jstack </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">java_进程号</span></p>
+
+<ul>
+  <li>打印混合模式（Java/C++）的栈跟踪：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jstack -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">java_进程号</span></p>
+
+<ul>
+  <li>打印来自 Java 核心转储的栈跟踪：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jstack </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/bin/java</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件.core</span></p>

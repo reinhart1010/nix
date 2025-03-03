@@ -1,0 +1,46 @@
+<h1 id="tlmgr-conf">tlmgr conf</h1>
+
+<p>TeX Live 구성 관리.
+더 많은 정보: <a href="https://www.tug.org/texlive/tlmgr.html">https://www.tug.org/texlive/tlmgr.html</a>.</p>
+
+<ul>
+  <li>현재 TeX Live 구성 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr conf</code></p>
+
+<ul>
+  <li>현재 <code class="language-plaintext highlighter-rouge">texmf</code>, <code class="language-plaintext highlighter-rouge">tlmgr</code>, 또는 <code class="language-plaintext highlighter-rouge">updmap</code> 구성 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr conf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texmf|tlmgr|updmap</span></p>
+
+<ul>
+  <li>특정 구성 옵션만 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr conf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texmf|tlmgr|updmap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구성_키</span></p>
+
+<ul>
+  <li>특정 구성 옵션 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr conf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texmf|tlmgr|updmap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구성_키</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span></p>
+
+<ul>
+  <li>특정 구성 옵션 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr conf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texmf|tlmgr|updmap</span><code class="language-plaintext highlighter-rouge"> --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구성_키</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">\write18</code>을 통한 시스템 호출 실행 비활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr conf texmf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell_escape</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span></p>
+
+<ul>
+  <li>모든 추가 <code class="language-plaintext highlighter-rouge">texmf</code> 트리 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr conf auxtrees show</code></p>

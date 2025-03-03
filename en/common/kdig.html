@@ -1,0 +1,34 @@
+<h1 id="kdig">kdig</h1>
+
+<p>Advanced DNS lookup utility.
+More information: <a href="https://www.knot-dns.cz/docs/latest/html/man_kdig.html">https://www.knot-dns.cz/docs/latest/html/man_kdig.html</a>.</p>
+
+<ul>
+  <li>Lookup the IP(s) associated with a hostname (A records):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kdig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Specify a specific DNS server to query (e.g. Google DNS):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kdig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span></p>
+
+<ul>
+  <li>Query a specific DNS record type associated with a given domain name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kdig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A|AAAA|NS|SOA|DNSKEY|ANY</span></p>
+
+<ul>
+  <li>Lookup the IP(s) associated with a hostname (A records) using DNS over TLS (DoT):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kdig -d @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span><code class="language-plaintext highlighter-rouge"> +tls-ca +tls-host=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dns.google</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Lookup the IP(s) associated with a hostname (A records) using DNS over HTTPS (DoH):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kdig -d @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.1.1.1</span><code class="language-plaintext highlighter-rouge"> +https +tls-hostname=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1dot1dot1dot1.cloudflare-dns.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>

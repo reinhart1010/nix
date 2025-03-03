@@ -1,0 +1,36 @@
+<h1 id="yadm-transcrypt">yadm-transcrypt</h1>
+
+<p><code class="language-plaintext highlighter-rouge">transcrypt</code>가 설치된 경우, 이 명령을 통해 <code class="language-plaintext highlighter-rouge">transcrypt</code>에 직접 옵션을 전달할 수 있습니다.
+yadm 저장소를 사용하도록 환경이 구성되어 있습니다.
+Transcrypt는 Git 저장소의 파일에 대해 투명한 암호화 및 복호화를 지원합니다.
+더 많은 정보: <a href="https://github.com/elasticdog/transcrypt">https://github.com/elasticdog/transcrypt</a>.</p>
+
+<ul>
+  <li>암호화에 사용할 대칭 암호 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yadm transcrypt --cipher=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">암호</span></p>
+
+<ul>
+  <li>키를 유도할 암호 전달:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yadm transcrypt --password=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">암호</span></p>
+
+<ul>
+  <li>예를 가정하고 지정되지 않은 옵션에 대해 기본값 수락:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yadm transcrypt --yes</code></p>
+
+<ul>
+  <li>현재 저장소의 암호와 암호 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yadm transcrypt --display</code></p>
+
+<ul>
+  <li>새로운 자격 증명을 사용하여 모든 암호화된 파일을 다시 암호화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yadm transcrypt --rekey</code></p>

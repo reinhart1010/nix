@@ -1,0 +1,47 @@
+<h1 id="difft">difft</h1>
+
+<p>Compare files or directories based on the syntax of the programming language.
+See also: <code class="language-plaintext highlighter-rouge">delta</code>, <code class="language-plaintext highlighter-rouge">diff</code>.
+More information: <a href="https://difftastic.wilfred.me.uk/introduction.html">https://difftastic.wilfred.me.uk/introduction.html</a>.</p>
+
+<ul>
+  <li>Compare two files or directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">difft </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory2</span></p>
+
+<ul>
+  <li>Only report the presence of differences between the files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">difft --check-only </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Specify the display mode (default is <code class="language-plaintext highlighter-rouge">side-by-side</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">difft --display </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">side-by-side|side-by-side-show-both|inline|json</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Ignore comments when comparing:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">difft --ignore-comments </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Enable/Disable syntax highlighting of source code (default is <code class="language-plaintext highlighter-rouge">on</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">difft --syntax-highlight </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Do not output anything at all if there are no differences between files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">difft --skip-unchanged </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory2</span></p>
+
+<ul>
+  <li>Print all programming languages supported by the tool, along with their extensions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">difft --list-languages</code></p>

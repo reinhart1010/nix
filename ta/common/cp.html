@@ -1,0 +1,52 @@
+<h1 id="cp">cp</h1>
+
+<p>கோப்புகளையோ அடைவுகளையோ நகலெடு.
+மேலும் விவரத்திற்கு: <a href="https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html</a>.</p>
+
+<ul>
+  <li>கோப்பை நகலெடு:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூல_கோப்பு.ext/பாதை</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நகல்_கோப்பு.ext/பாதை</span></p>
+
+<ul>
+  <li>கோப்பை நகலெடுத்து அடைவொன்றிற்குள் அதே பெயருடன் வை:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூல_கோப்பு.ext/பாதை</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நகல்/கோப்பின்/தாயடைவிற்குப்/பாதை</span></p>
+
+<ul>
+  <li>ஒரு கோப்பகத்தின் உள்ளடக்கங்களை மீண்டும் மீண்டும் மற்றொரு இடத்திற்கு நகலெடுக்கவும் (இலக்கு இருந்தால், அடைவு அதன் உள்ளே நகலெடுக்கப்படும்):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூல/அடைவிற்குப்/பாதை</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நகல்/அடைவிற்குப்/பாதை</span></p>
+
+<ul>
+  <li>ஒரு கோப்பகத்தை மீண்டும் மீண்டும், வாய்மொழி முறையில் நகலெடுக்கவும் (அவை நகலெடுக்கப்பட்ட கோப்புகளைக் காட்டுகிறது):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -vR </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூல/அடைவிற்குப்/பாதை</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நகல்/அடைவிற்குப்/பாதை</span></p>
+
+<ul>
+  <li>ஒரே நேரத்தில் பல கோப்புகளை ஒரு கோப்பகத்திற்கு நகலெடுக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">இலக்கு_அடைவுப்/பாதை</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1/பாதை கோப்பு2/பாதை …</span></p>
+
+<ul>
+  <li>txt வகைப்பெயருடையக் கோப்புகளை ஊடாட்ட நிலையில் (ஏற்கனவே இருக்கும் கோப்புகள் மேலெழுதும் முன் உறுதிப்படுத்தக் கேட்கும்) நகலெடு:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நகல்/அடைவிற்குப்/பாதை</span></p>
+
+<ul>
+  <li>நகலெடுக்கும் முன் குறியீட்டு இணைப்புகளைப் பின்பற்றவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">இணைப்பு</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நகல்/அடைவிற்குப்/பாதை</span></p>
+
+<ul>
+  <li>முதல் வாதத்தை இலக்கு கோப்பகமாகப் பயன்படுத்தவும் (<code class="language-plaintext highlighter-rouge">xargs ... | cp -t &lt;DEST_DIR&gt;</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நகல்/அடைவிற்குப்/பாதை</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_அல்லது_அடைவு1/பாதை கோப்பு_அல்லது_அடைவு2/பாதை …</span></p>

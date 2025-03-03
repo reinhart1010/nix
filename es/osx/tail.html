@@ -1,0 +1,41 @@
+<h1 id="tail">tail</h1>
+
+<p>Muestra la última parte de un archivo.
+Vea también: <code class="language-plaintext highlighter-rouge">head</code>.
+Más información: <a href="https://keith.github.io/xcode-man-pages/tail.1.html">https://keith.github.io/xcode-man-pages/tail.1.html</a>.</p>
+
+<ul>
+  <li>Muestra las últimas líneas 'count' del archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Imprime un archivo a partir de un número de línea específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -n +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Imprime un recuento específico de bytes desde el final de un archivo determinado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Imprime las últimas líneas de un archivo dado y sigue leyéndolo hasta <code class="language-plaintext highlighter-rouge">Ctrl + C</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Sigue leyendo el archivo hasta <code class="language-plaintext highlighter-rouge">Ctrl + C</code>, incluso si el archivo es inaccesible:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Muestra las últimas líneas 'contadas' en 'archivo' y lo actualiza cada 'n' segundos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>

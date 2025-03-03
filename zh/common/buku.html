@@ -1,0 +1,34 @@
+<h1 id="buku">buku</h1>
+
+<p>命令行版本的书签管理器。
+更多信息：<a href="https://github.com/jarun/Buku">https://github.com/jarun/Buku</a>.</p>
+
+<ul>
+  <li>根据关键词和标签“隐私”查找书签：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">buku </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">关键词</span><code class="language-plaintext highlighter-rouge"> --stag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">隐私</span></p>
+
+<ul>
+  <li>添加书签，并且打上标签“搜索引擎”和“隐私”：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">buku --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">搜索引擎</span><code class="language-plaintext highlighter-rouge">, </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">隐私</span></p>
+
+<ul>
+  <li>删除一个书签：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">buku --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">书签 id</span></p>
+
+<ul>
+  <li>打开编辑器，修改书签：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">buku --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">书签 id</span></p>
+
+<ul>
+  <li>移除一个书签中的标签“搜索引擎”：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">buku --update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">书签 id</span><code class="language-plaintext highlighter-rouge"> --tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">搜索引擎</span></p>

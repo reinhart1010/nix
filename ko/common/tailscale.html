@@ -1,0 +1,53 @@
+<h1 id="tailscale">tailscale</h1>
+
+<p>개인 WireGuard 네트워크 서비스.
+<code class="language-plaintext highlighter-rouge">up</code>와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+더 많은 정보: <a href="https://tailscale.com">https://tailscale.com</a>.</p>
+
+<ul>
+  <li>Tailscale에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tailscale up</code></p>
+
+<ul>
+  <li>Tailscale에서 연결 해제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tailscale down</code></p>
+
+<ul>
+  <li>현재 Tailscale IP 주소 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tailscale ip</code></p>
+
+<ul>
+  <li>Tailscale 계층에서 피어 노드를 핑하고 각 응답에 대한 경로 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tailscale ping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP|호스트명</span></p>
+
+<ul>
+  <li>로컬 네트워크 상태를 분석하고 결과 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tailscale netcheck</code></p>
+
+<ul>
+  <li>Tailscale을 제어하기 위한 웹 서버 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tailscale web</code></p>
+
+<ul>
+  <li>문제 진단을 돕기 위한 공유 가능한 식별자 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tailscale bugreport</code></p>
+
+<ul>
+  <li>하위 명령에 대한 도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tailscale </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">하위_명령</span><code class="language-plaintext highlighter-rouge"> --help</code></p>

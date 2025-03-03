@@ -1,0 +1,17 @@
+<h1 id="test-netconnection">Test-NetConnection</h1>
+
+<p>Display diagnostic information for a connection.
+Note: This command can only be used through PowerShell.
+More information: <a href="https://learn.microsoft.com/powershell/module/nettcpip/test-netconnection">https://learn.microsoft.com/powershell/module/nettcpip/test-netconnection</a>.</p>
+
+<ul>
+  <li>Test a connection and display detailed results:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Test-NetConnection -InformationLevel Detailed</code></p>
+
+<ul>
+  <li>Test a connection to a remote host using the specified port number:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Test-NetConnection -ComputerName </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname</span><code class="language-plaintext highlighter-rouge"> -Port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_number</span></p>

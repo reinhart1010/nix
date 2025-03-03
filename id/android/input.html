@@ -1,0 +1,35 @@
+<h1 id="input">input</h1>
+
+<p>Kirim sinyal input terhadap sebuah perangkat Android.
+Perintah ini hanya dapat dijalankan melalui <code class="language-plaintext highlighter-rouge">adb shell</code>.
+Informasi lebih lanjut: <a href="https://developer.android.com/reference/android/view/KeyEvent.html#constants_1">https://developer.android.com/reference/android/view/KeyEvent.html#constants_1</a>.</p>
+
+<ul>
+  <li>Masukkan input karakter (layaknya pada papan kunci / keyboard) terhadap perangkat Android:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input keyevent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kode_event</span></p>
+
+<ul>
+  <li>Masukkan input teks ke dalam perangkat Android (spasi ditandai dengan <code class="language-plaintext highlighter-rouge">%s</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input text "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">teks</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Masukkan input sentuhan layar pada posisi tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input tap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">posisi_x</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">posisi_y</span></p>
+
+<ul>
+  <li>Simulasikan gerakan usap/swipe terhadap perangkat Android:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input swipe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">posisi_awal_x</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">posisi_awal_y</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">posisi_akhir_x</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">posisi_akhir_y</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">durasi_dalam_milidetik</span></p>
+
+<ul>
+  <li>Simulasikan interaksi tekan-dan-tahan terhadap perangkat Android:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input swipe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">posisi_x</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">posisi_y</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">posisi_x</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">posisi_y</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">durasi_dalam_milidetik</span></p>

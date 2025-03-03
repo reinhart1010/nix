@@ -1,0 +1,46 @@
+<h1 id="pipx">pipx</h1>
+
+<p>Python 애플리케이션을 격리된 환경에서 설치하고 실행.
+더 많은 정보: <a href="https://github.com/pypa/pipx">https://github.com/pypa/pipx</a>.</p>
+
+<ul>
+  <li>임시 가상 환경에서 앱 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pipx run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pycowsay</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">moo</span></p>
+
+<ul>
+  <li>가상 환경에 패키지 설치 및 진입점을 경로에 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pipx install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>설치된 패키지 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pipx list</code></p>
+
+<ul>
+  <li>실행 파일과 다른 패키지 이름으로 임시 가상 환경에서 앱 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pipx run --spec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpx-cli</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpx</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://www.github.com</span></p>
+
+<ul>
+  <li>기존 가상 환경에 의존성 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pipx inject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">의존성1 의존성2 …</span></p>
+
+<ul>
+  <li>pip 인자를 사용하여 가상 환경에 패키지 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pipx install --pip-args='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pip-인자</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>모든 설치된 패키지 업그레이드/재설치/제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pipx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">upgrade-all|uninstall-all|reinstall-all</span></p>

@@ -1,0 +1,47 @@
+<h1 id="git-restore">git restore</h1>
+
+<p>Restore working tree files. Requires Git version 2.23+.
+See also <code class="language-plaintext highlighter-rouge">git checkout</code> and <code class="language-plaintext highlighter-rouge">git reset</code>.
+More information: <a href="https://git-scm.com/docs/git-restore">https://git-scm.com/docs/git-restore</a>.</p>
+
+<ul>
+  <li>Restore an unstaged file to the version of the current commit (HEAD):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Restore an unstaged file to the version of a specific commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Discard all unstaged changes to tracked files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git restore :/</code></p>
+
+<ul>
+  <li>Unstage a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git restore --staged </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Unstage all files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git restore --staged :/</code></p>
+
+<ul>
+  <li>Discard all changes to files, both staged and unstaged:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git restore --worktree --staged :/</code></p>
+
+<ul>
+  <li>Interactively select sections of files to restore:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git restore --patch</code></p>

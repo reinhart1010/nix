@@ -1,0 +1,29 @@
+<h1 id="rustup-override">rustup override</h1>
+
+<p>Modify directory toolchain overrides.
+See <code class="language-plaintext highlighter-rouge">rustup help toolchain</code> for more information about toolchains.
+More information: <a href="https://rust-lang.github.io/rustup">https://rust-lang.github.io/rustup</a>.</p>
+
+<ul>
+  <li>List directiory toolchain overrides:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup override list</code></p>
+
+<ul>
+  <li>Set the override toolchain for the current directory (i.e. tell <code class="language-plaintext highlighter-rouge">rustup</code> to run <code class="language-plaintext highlighter-rouge">cargo</code>, <code class="language-plaintext highlighter-rouge">rustc</code>, etc. from a specific toolchain when in that directory):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup override set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">toolchain</span></p>
+
+<ul>
+  <li>Remove the toolchain override for the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup override unset</code></p>
+
+<ul>
+  <li>Remove all toolchain overrides for directories that no longer exist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup override unset --nonexistent</code></p>

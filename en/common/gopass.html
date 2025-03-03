@@ -1,0 +1,52 @@
+<h1 id="gopass">gopass</h1>
+
+<p>Standard Unix Password Manager for Teams. Written in Go.
+More information: <a href="https://www.gopass.pw">https://www.gopass.pw</a>.</p>
+
+<ul>
+  <li>Initialize the configuration settings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gopass init</code></p>
+
+<ul>
+  <li>Create a new entry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gopass new</code></p>
+
+<ul>
+  <li>Show all stores:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gopass mounts</code></p>
+
+<ul>
+  <li>Mount a shared Git store:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gopass mounts add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">store_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git_repo_url</span></p>
+
+<ul>
+  <li>Search interactively using a keyword:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gopass show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span></p>
+
+<ul>
+  <li>Search using a keyword:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gopass find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span></p>
+
+<ul>
+  <li>Sync all mounted stores:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gopass sync</code></p>
+
+<ul>
+  <li>Show a particular password entry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gopass </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">store_name|path/to/directory|email@email.com</span></p>

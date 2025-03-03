@@ -1,0 +1,35 @@
+<h1 id="ed">ed</h1>
+
+<p>El editor de texto original de Unix.
+Vea también: <code class="language-plaintext highlighter-rouge">awk</code>, <code class="language-plaintext highlighter-rouge">sed</code>.
+Más información: <a href="https://www.gnu.org/software/ed/manual/ed_manual.html">https://www.gnu.org/software/ed/manual/ed_manual.html</a>.</p>
+
+<ul>
+  <li>Inicia una sesión de edición interactiva con un documento vacío:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed</code></p>
+
+<ul>
+  <li>Inicia una sesión de editor interactivo con un documento vacío y un [p]rompt específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed -p '&gt; '</code></p>
+
+<ul>
+  <li>Inicia una sesión de editor interactivo con un documento vacío y sin diagnósticos, recuento de bytes y prompt '!':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed -s</code></p>
+
+<ul>
+  <li>Edita un archivo específico (muestra el recuento de bytes del archivo cargado):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Reemplaza una cadena con un reemplazo específico para todas las líneas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">,s/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expresión_regular</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reemplazo</span><code class="language-plaintext highlighter-rouge">/g</code></p>

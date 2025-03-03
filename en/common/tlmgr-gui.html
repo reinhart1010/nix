@@ -1,0 +1,41 @@
+<h1 id="tlmgr-gui">tlmgr gui</h1>
+
+<p>Start a graphical user interface for <code class="language-plaintext highlighter-rouge">tlmgr</code>.
+<code class="language-plaintext highlighter-rouge">tlmgr gui</code> depends on the package <code class="language-plaintext highlighter-rouge">perl-tk</code>, which has to be installed manually.
+More information: <a href="https://www.tug.org/texlive/tlmgr.html">https://www.tug.org/texlive/tlmgr.html</a>.</p>
+
+<ul>
+  <li>Start a GUI for <code class="language-plaintext highlighter-rouge">tlmgr</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr gui</code></p>
+
+<ul>
+  <li>Start a GUI specifying the background color:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr gui -background "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">#f39bc3</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Start a GUI specifying the foreground color:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr gui -foreground "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">#0ef3bd</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Start a GUI specifying the font and font size:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr gui -font "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">helvetica 18</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Start a GUI setting a specific geometry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr gui -geometry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width</span><code class="language-plaintext highlighter-rouge">x</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">height</span><code class="language-plaintext highlighter-rouge">-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xpos</span><code class="language-plaintext highlighter-rouge">+</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ypos</span></p>
+
+<ul>
+  <li>Start a GUI passing an arbitrary X resource string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr gui -xrm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xresource</span></p>

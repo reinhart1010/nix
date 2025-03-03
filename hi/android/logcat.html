@@ -1,0 +1,34 @@
+<h1 id="logcat">logcat</h1>
+
+<p>सिस्टम संदेशों का एक लॉग डंप करें, जिसमें त्रुटि होने पर स्टैक ट्रेस और एप्लिकेशन द्वारा लॉग किए गए सूचना संदेश शामिल हों।
+अधिक जानकारी: <a href="https://developer.android.com/tools/logcat">https://developer.android.com/tools/logcat</a>।</p>
+
+<ul>
+  <li>सिस्टम लॉग प्रदर्शित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat</code></p>
+
+<ul>
+  <li>किसी फ़ाइल में सिस्टम लॉग लिखें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span></p>
+
+<ul>
+  <li>ऐसी पंक्तियाँ प्रदर्शित करें जो नियमित अभिव्यक्ति से मेल खाती हों:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat --regex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">नियमित_अभिव्यक्ति</span></p>
+
+<ul>
+  <li>किसी विशिष्ट पीआईडी के लिए लॉग प्रदर्शित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पीआईडी</span></p>
+
+<ul>
+  <li>किसी विशिष्ट पैकेज की प्रक्रिया के लिए लॉग प्रदर्शित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat --pid $(pidof -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज</span><code class="language-plaintext highlighter-rouge">)</code></p>

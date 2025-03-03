@@ -1,0 +1,28 @@
+<h1 id="kubectl-wait">kubectl wait</h1>
+
+<p>Wait for resource(s) to reach a certain state.
+More information: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#wait">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#wait</a>.</p>
+
+<ul>
+  <li>Wait for a deployment to become available:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl wait --for=condition=available deployment/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deployment_name</span></p>
+
+<ul>
+  <li>Wait for all pods with a certain [l]abel to be ready:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl wait --for=condition=ready pod -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">label_key</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">label_value</span></p>
+
+<ul>
+  <li>Wait for a pod to be deleted:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl wait --for=delete pod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span></p>
+
+<ul>
+  <li>Wait for a job to complete, within 120 seconds (if the condition isn't met on time, the exit status will be unsuccessful):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl wait --for=condition=complete job/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_name</span><code class="language-plaintext highlighter-rouge"> --timeout 120s</code></p>

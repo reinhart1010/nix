@@ -1,0 +1,41 @@
+<h1 id="edquota">edquota</h1>
+
+<p>사용자 또는 그룹의 쿼터를 편집. 기본적으로 쿼터가 있는 모든 파일 시스템에서 작동합니다.
+쿼터 정보는 파일 시스템의 루트에 있는 <code class="language-plaintext highlighter-rouge">quota.user</code> 및 <code class="language-plaintext highlighter-rouge">quota.group</code> 파일에 영구적으로 저장됩니다.
+더 많은 정보: <a href="https://manned.org/edquota">https://manned.org/edquota</a>.</p>
+
+<ul>
+  <li>현재 사용자의 쿼터 편집:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">edquota --user $(whoami)</code></p>
+
+<ul>
+  <li>특정 사용자의 쿼터 편집:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo edquota --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>그룹의 쿼터 편집:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo edquota --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹</span></p>
+
+<ul>
+  <li>지정된 파일 시스템으로 작업 제한 (기본적으로 edquota는 쿼터가 있는 모든 파일 시스템에서 작동합니다):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo edquota --file-system </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_시스템</span></p>
+
+<ul>
+  <li>기본 유예 기간 편집:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo edquota -t</code></p>
+
+<ul>
+  <li>다른 사용자에게 쿼터 복제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo edquota -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">참조_사용자</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상_사용자1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상_사용자2</span></p>

@@ -1,0 +1,40 @@
+<h1 id="stty">stty</h1>
+
+<p>Establece opciones para una interfaz del dispositivo terminal.
+Más información: <a href="https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html</a>.</p>
+
+<ul>
+  <li>Muestra todas las opciones de la terminal actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stty --all</code></p>
+
+<ul>
+  <li>Establece el número de filas o columnas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filas|columnas</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cuenta</span></p>
+
+<ul>
+  <li>Obtiene la velocidad de transferencia real de un dispositivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stty --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_del_dispositivo</span><code class="language-plaintext highlighter-rouge"> speed</code></p>
+
+<ul>
+  <li>Restablece todos los modos a valores razonables para el terminal actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stty sane</code></p>
+
+<ul>
+  <li>Cambia entre modo raw y cooked:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raw|cooked</span></p>
+
+<ul>
+  <li>Desactiva o activa el eco de caracteres:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-echo|echo</span></p>

@@ -1,0 +1,40 @@
+<h1 id="losetup">losetup</h1>
+
+<p>Set up and control loop devices.
+More information: <a href="https://manned.org/losetup">https://manned.org/losetup</a>.</p>
+
+<ul>
+  <li>List loop devices with detailed info:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">losetup -a</code></p>
+
+<ul>
+  <li>Attach a file to a given loop device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo losetup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/loop</span><code class="language-plaintext highlighter-rouge"> /</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Attach a file to a new free loop device and scan the device for partitions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo losetup --show --partscan -f /</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Attach a file to a read-only loop device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo losetup --read-only </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/loop</span><code class="language-plaintext highlighter-rouge"> /</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Detach all loop devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo losetup -D</code></p>
+
+<ul>
+  <li>Detach a given loop device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo losetup -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/loop</span></p>

@@ -1,0 +1,22 @@
+<h1 id="mkhomedir_helper">mkhomedir_helper</h1>
+
+<p>사용자 생성 후 사용자의 홈 디렉토리를 만듭니다.
+더 많은 정보: <a href="https://manned.org/mkhomedir_helper">https://manned.org/mkhomedir_helper</a>.</p>
+
+<ul>
+  <li>umask 022로 <code class="language-plaintext highlighter-rouge">/etc/skel</code>을 기반으로 사용자 홈 디렉토리 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkhomedir_helper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>소유자에게 모든 권한(0)을, 그룹에게 읽기 권한(3)을 부여한 umask 037로 <code class="language-plaintext highlighter-rouge">/etc/skel</code>을 기반으로 사용자 홈 디렉토리 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkhomedir_helper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">037</span></p>
+
+<ul>
+  <li>사용자 지정 스켈레톤을 기반으로 사용자 홈 디렉토리 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkhomedir_helper </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">umask</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스켈레톤_폴더</span></p>

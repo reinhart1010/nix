@@ -1,0 +1,35 @@
+<h1 id="input">input</h1>
+
+<p>एंड्रॉइड डिवाइस पर इवेंट कोड या टचस्क्रीन जेस्चर भेजें।
+इस कमांड का उपयोग केवल <code class="language-plaintext highlighter-rouge">adb shell</code> के माध्यम से किया जा सकता है।
+अधिक जानकारी: <a href="https://developer.android.com/reference/android/view/KeyEvent.html#constants_1">https://developer.android.com/reference/android/view/KeyEvent.html#constants_1</a>।</p>
+
+<ul>
+  <li>किसी एकल वर्ण के लिए किसी एंड्रॉइड डिवाइस पर ईवेंट कोड भेजें::</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input keyevent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ईवेंट_कोड</span></p>
+
+<ul>
+  <li>एंड्रॉइड डिवाइस पर एक टेक्स्ट भेजें (<code class="language-plaintext highlighter-rouge">%s</code> रिक्त स्थान का प्रतिनिधित्व करता है):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input text "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">टेक्स्ट</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>एंड्रॉइड डिवाइस पर एक टैप भेजें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input tap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_पोजीशन</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_पोजीशन</span></p>
+
+<ul>
+  <li>एंड्रॉइड डिवाइस पर स्वाइप जेस्चर भेजें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input swipe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_शुरू</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_शुरू</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_अंत</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_अंत</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ms_में_अवधि</span></p>
+
+<ul>
+  <li>स्वाइप जेस्चर का उपयोग करके एंड्रॉइड डिवाइस पर एक लंबी प्रेस भेजें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">input swipe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_पोजीशन</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_पोजीशन</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_पोजीशन</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_पोजीशन</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ms_में_अवधि</span></p>

@@ -1,0 +1,28 @@
+<h1 id="medusa">Medusa</h1>
+
+<p>A modular and parallel login brute-forcer for a variety of protocols.
+More information: <a href="https://manned.org/medusa">https://manned.org/medusa</a>.</p>
+
+<ul>
+  <li>Execute brute force against an FTP server using a file containing usernames and a file containing passwords:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">medusa -M ftp -h host -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/username_file</span><code class="language-plaintext highlighter-rouge"> -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/password_file</span></p>
+
+<ul>
+  <li>Execute a login attempt against an HTTP server using the username, password and user-agent specified:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">medusa -M HTTP -h host -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> -m USER-AGENT:"</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Agent</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Execute a brute force against a MySQL server using a file containing usernames and a hash:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">medusa -M mysql -h host -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/username_file</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash</span><code class="language-plaintext highlighter-rouge"> -m PASS:HASH</code></p>
+
+<ul>
+  <li>Execute a brute force against a list of SMB servers using a username and a pwdump file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">medusa -M smbnt -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/hosts_file</span><code class="language-plaintext highlighter-rouge"> -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pwdump_file</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -m PASS:HASH</code></p>

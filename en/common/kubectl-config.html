@@ -1,0 +1,42 @@
+<h1 id="kubectl-config">kubectl config</h1>
+
+<p>Manage Kubernetes configuration (kubeconfig) files for accessing clusters via <code class="language-plaintext highlighter-rouge">kubectl</code> or the Kubernetes API.
+By default, the Kubernetes will get its configuration from <code class="language-plaintext highlighter-rouge">${HOME}/.kube/config</code>.
+See also: <code class="language-plaintext highlighter-rouge">kubectx</code>, <code class="language-plaintext highlighter-rouge">kubens</code>.
+More information: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#config">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#config</a>.</p>
+
+<ul>
+  <li>Get all contexts in the default kubeconfig file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl config get-contexts</code></p>
+
+<ul>
+  <li>Get all clusters/contexts/users in a custom kubeconfig file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">get-clusters|get-contexts|get-users</span><code class="language-plaintext highlighter-rouge"> --kubeconfig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/kubeconfig.yaml</span></p>
+
+<ul>
+  <li>Get the current context:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl config current-context</code></p>
+
+<ul>
+  <li>Switch to another context:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">use|use-context</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context_name</span></p>
+
+<ul>
+  <li>Delete clusters/contexts/users:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delete-cluster|delete-context|delete-user</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster|context|user</span></p>
+
+<ul>
+  <li>Permanently add custom kubeconfig files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">export KUBECONFIG="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$HOME.kube/config:path/to/custom/kubeconfig.yaml</span><code class="language-plaintext highlighter-rouge">" kubectl config get-contexts</code></p>

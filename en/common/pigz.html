@@ -1,0 +1,40 @@
+<h1 id="pigz">pigz</h1>
+
+<p>Multithreaded zlib compression utility.
+More information: <a href="https://github.com/madler/pigz">https://github.com/madler/pigz</a>.</p>
+
+<ul>
+  <li>Compress a file with default options:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pigz </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Compress a file using the best compression method:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pigz -9 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Compress a file using no compression and 4 processors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pigz -0 -p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Compress a directory using tar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar cf - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> | pigz &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tar.gz</span></p>
+
+<ul>
+  <li>Decompress a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pigz -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.gz</span></p>
+
+<ul>
+  <li>List the contents of an archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pigz -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.tar.gz</span></p>

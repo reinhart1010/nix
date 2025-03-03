@@ -1,0 +1,46 @@
+<h1 id="conda-install">conda install</h1>
+
+<p>기존 conda 환경에 패키지를 설치.
+더 많은 정보: <a href="https://docs.conda.io/projects/conda/en/latest/commands/install.html">https://docs.conda.io/projects/conda/en/latest/commands/install.html</a>.</p>
+
+<ul>
+  <li>현재 활성 conda 환경에 하나 이상의 패키지를 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지1 패키지2 …</span></p>
+
+<ul>
+  <li>채널 conda-forge를 사용하여 현재 활성 conda 환경에 단일 패키지를 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda install -c conda-forge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>conda-forge 채널을 사용하고 다른 채널을 무시하고 현재 활성 conda 환경에 단일 패키지를 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda install -c conda-forge --override-channels </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>특정 버전의 패키지를 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버전</span></p>
+
+<ul>
+  <li>특정 환경에 패키지를 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda install --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">환경</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>현재 환경에서 패키지 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda install --upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>메시지를 표시하지 않고 동의하여 패키지를 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda install --yes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>

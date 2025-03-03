@@ -1,0 +1,47 @@
+<h1 id="git-changelog">git changelog</h1>
+
+<p>저장소 커밋 및 태그에서 변경 로그 보고서를 생성.
+<code class="language-plaintext highlighter-rouge">git-extras</code>의 일부.
+더 많은 정보: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-changelog">https://github.com/tj/git-extras/blob/master/Commands.md#git-changelog</a>.</p>
+
+<ul>
+  <li>최신 Git 태그 이후의 커밋 메시지로 기존 파일을 업데이트하거나 새 <code class="language-plaintext highlighter-rouge">History.md</code> 파일을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git changelog</code></p>
+
+<ul>
+  <li>현재 버전의 커밋 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git changelog --list</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">2.1.0</code> 태그부터 현재까지의 커밋 범위 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git changelog --list --start-tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2.1.0</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">0.5.0</code> 태그와 <code class="language-plaintext highlighter-rouge">1.0.0</code> 태그 사이의 커밋 범위를 보기 좋게 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git changelog --start-tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.5.0</span><code class="language-plaintext highlighter-rouge"> --final-tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.0.0</span></p>
+
+<ul>
+  <li>커밋 <code class="language-plaintext highlighter-rouge">0b97430</code>과 태그 <code class="language-plaintext highlighter-rouge">1.0.0</code> 사이의 커밋 범위를 보기 좋게 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git changelog --start-commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0b97430</span><code class="language-plaintext highlighter-rouge"> --final-tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.0.0</span></p>
+
+<ul>
+  <li>출력 파일로 <code class="language-plaintext highlighter-rouge">CHANGELOG.md</code> 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git changelog </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">CHANGELOG.md</span></p>
+
+<ul>
+  <li>현재 변경 로그 파일의 내용을 완전히 교체:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git changelog --prune-old</code></p>

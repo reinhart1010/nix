@@ -1,0 +1,40 @@
+<h1 id="ghdl">ghdl</h1>
+
+<p>VHDL 언어용 오픈 소스 시뮬레이터.
+더 많은 정보: <a href="https://ghdl.github.io/ghdl/">https://ghdl.github.io/ghdl/</a>.</p>
+
+<ul>
+  <li>VHDL 소스 파일을 분석하고 개체 파일을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ghdl -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일이름.vhdl</span></p>
+
+<ul>
+  <li>설계를 정교화 (여기서 <code class="language-plaintext highlighter-rouge">design</code>은 구성 단위, 엔터티 단위 또는 아키텍처 단위의 이름):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ghdl -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디자인</span></p>
+
+<ul>
+  <li>정교한 디자인 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ghdl -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디자인</span></p>
+
+<ul>
+  <li>정교한 설계를 실행하고 출력을 파형 파일로 덤프:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ghdl -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디자인</span><code class="language-plaintext highlighter-rouge"> --wave=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.ghw</span></p>
+
+<ul>
+  <li>VHDL 소스 파일의 구문을 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ghdl -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일이름.vhdl</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ghdl --help</code></p>

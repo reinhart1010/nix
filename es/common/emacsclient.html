@@ -1,0 +1,41 @@
+<h1 id="emacsclient">emacsclient</h1>
+
+<p>Abre archivos en un servidor Emacs existente.
+Vea también <code class="language-plaintext highlighter-rouge">emacs</code>.
+Más información: <a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html">https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html</a>.</p>
+
+<ul>
+  <li>Abre un archivo en un servidor Emacs existente (utilizando GUI si está disponible):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Abre un archivo en modo consola (sin una ventana X):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --no-window-system </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Abre un archivo en una nueva ventana Emacs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --create-frame </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Evalúa un comando, imprime la salida a <code class="language-plaintext highlighter-rouge">stdout</code>, y luego sale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --eval '(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge">)'</code></p>
+
+<ul>
+  <li>Especifica un editor alternativo en caso de que ningún servidor Emacs esté funcionando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --alternate-editor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">editor</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Detiene un servidor Emacs en funcionamiento y todas sus instancias, pidiendo confirmación en archivos no guardados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --eval '(save-buffers-kill-emacs)'</code></p>

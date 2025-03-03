@@ -1,0 +1,46 @@
+<h1 id="diskpart">diskpart</h1>
+
+<p>디스크, 볼륨 및 파티션 관리 도구.
+더 많은 정보: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart">https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart</a>.</p>
+
+<ul>
+  <li>관리 명령 프롬프트에서 diskpart를 실행하여 명령줄에 진입:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskpart</code></p>
+
+<ul>
+  <li>모든 디스크 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">list disk</code></p>
+
+<ul>
+  <li>볼륨 선택:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">select volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">볼륨</span></p>
+
+<ul>
+  <li>선택된 볼륨에 드라이브 문자 할당:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">assign letter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자</span></p>
+
+<ul>
+  <li>새 파티션 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">create partition primary</code></p>
+
+<ul>
+  <li>선택된 볼륨 활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">active</code></p>
+
+<ul>
+  <li>diskpart 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exit</code></p>

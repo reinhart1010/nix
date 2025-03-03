@@ -1,0 +1,40 @@
+<h1 id="btrfs-subvolume">btrfs subvolume</h1>
+
+<p>Gestion des sous-volumes et instantanés btrfs.
+Plus d'informations : <a href="https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html">https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html</a>.</p>
+
+<ul>
+  <li>Créer un nouveau sous-volume vide :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/nouveau_sous_volume</span></p>
+
+<ul>
+  <li>Lister tous les sous-volumes et instantanés du système de fichiers indiqué :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/systeme_de_fichiers_btrfs</span></p>
+
+<ul>
+  <li>Supprimer un sous-volume :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/sous_volume</span></p>
+
+<ul>
+  <li>Créer un instantané en lecture seule d'un sous-volume existant :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume snapshot -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/sous_volume_source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/sous_volume_cible</span></p>
+
+<ul>
+  <li>Créer un instantané en lecture et écriture d'un sous-volume existant :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume snapshot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/sous_volume_source</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/sous_volume_cible</span></p>
+
+<ul>
+  <li>Afficher les informations détaillées d'un sous-volume :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/sous_volume</span></p>

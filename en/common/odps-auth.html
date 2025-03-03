@@ -1,0 +1,47 @@
+<h1 id="odps-auth">odps auth</h1>
+
+<p>User authorities in ODPS (Open Data Processing Service).
+See also <code class="language-plaintext highlighter-rouge">odps</code>.
+More information: <a href="https://www.alibabacloud.com/help/doc-detail/27971.htm">https://www.alibabacloud.com/help/doc-detail/27971.htm</a>.</p>
+
+<ul>
+  <li>Add a user to the current project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">add user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>Grant a set of authorities to a user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grant </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">action_list</span><code class="language-plaintext highlighter-rouge"> on </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">object_type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">object_name</span><code class="language-plaintext highlighter-rouge"> to user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>Show authorities of a user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">show grants for </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>Create a user role:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">create role </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role_name</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>Grant a set of authorities to a role:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grant </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">action_list</span><code class="language-plaintext highlighter-rouge"> on </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">object_type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">object_name</span><code class="language-plaintext highlighter-rouge"> to role </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role_name</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>Describe authorities of a role:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">desc role </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role_name</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>Grant a role to a user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grant </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role_name</span><code class="language-plaintext highlighter-rouge"> to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">;</code></p>

@@ -1,0 +1,23 @@
+<h1 id="toolbox-run">toolbox run</h1>
+
+<p>Run a command in an existing <code class="language-plaintext highlighter-rouge">toolbox</code> container.
+See also: <code class="language-plaintext highlighter-rouge">toolbox enter</code>.
+More information: <a href="https://manned.org/toolbox-run">https://manned.org/toolbox-run</a>.</p>
+
+<ul>
+  <li>Run a command inside a specific <code class="language-plaintext highlighter-rouge">toolbox</code> container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">toolbox run --container </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Run a command inside a <code class="language-plaintext highlighter-rouge">toolbox</code> container for a specific release of a distribution:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">toolbox run --distro </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distribution</span><code class="language-plaintext highlighter-rouge"> --release </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">release</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Run <code class="language-plaintext highlighter-rouge">emacs</code> inside a <code class="language-plaintext highlighter-rouge">toolbox</code> container using the default image for Fedora 39:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">toolbox run --distro </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora</span><code class="language-plaintext highlighter-rouge"> --release </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f39</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">emacs</span></p>

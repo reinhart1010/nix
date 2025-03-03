@@ -1,0 +1,52 @@
+<h1 id="helm">helm</h1>
+
+<p>Helm é um gerenciador de pacores para Kubernetes.
+Mais informações: <a href="https://helm.sh/">https://helm.sh/</a>.</p>
+
+<ul>
+  <li>Cria um chart do helm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_chart</span></p>
+
+<ul>
+  <li>Adiciona um novo repositório helm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm repo add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_repositório</span></p>
+
+<ul>
+  <li>Lista os repositórios helm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm repo list</code></p>
+
+<ul>
+  <li>Atualiza os repositórios helm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm repo update</code></p>
+
+<ul>
+  <li>Remova um repositório helm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm repo remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_repositório</span></p>
+
+<ul>
+  <li>Instala um chart helm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_repositório</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_chart</span></p>
+
+<ul>
+  <li>Obtém um chart helm chart como um arquivo tar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_release_do_chart</span></p>
+
+<ul>
+  <li>Atualiza as dependências helm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm dependency update</code></p>

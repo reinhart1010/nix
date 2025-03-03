@@ -1,0 +1,52 @@
+<h1 id="task">task</h1>
+
+<p>Command-line to-do list manager.
+More information: <a href="https://taskwarrior.org/docs/">https://taskwarrior.org/docs/</a>.</p>
+
+<ul>
+  <li>Add a new task which is due tomorrow:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">task add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">description</span><code class="language-plaintext highlighter-rouge"> due:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tomorrow</span></p>
+
+<ul>
+  <li>Update a task's priority:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">task </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span><code class="language-plaintext highlighter-rouge"> modify priority:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">H|M|L</span></p>
+
+<ul>
+  <li>Complete a task:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">task </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span><code class="language-plaintext highlighter-rouge"> done</code></p>
+
+<ul>
+  <li>Delete a task:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">task </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span><code class="language-plaintext highlighter-rouge"> delete</code></p>
+
+<ul>
+  <li>List all open tasks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">task list</code></p>
+
+<ul>
+  <li>List open tasks due before the end of the week:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">task list due.before:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eow</span></p>
+
+<ul>
+  <li>Show a graphical burndown chart, by day:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">task burndown.daily</code></p>
+
+<ul>
+  <li>List all reports:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">task reports</code></p>

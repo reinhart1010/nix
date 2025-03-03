@@ -1,0 +1,23 @@
+<h1 id="arthas-watch">arthas-watch</h1>
+
+<p>函数执行数据观测。
+另见 <code class="language-plaintext highlighter-rouge">arthas</code>, <code class="language-plaintext highlighter-rouge">arthas-trace</code>.
+更多信息：<a href="https://arthas.aliyun.com/en/doc/watch.html">https://arthas.aliyun.com/en/doc/watch.html</a>.</p>
+
+<ul>
+  <li>在方法调用后观察，显示第一个参数和返回值，展开嵌套对象的 4 层：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">class-pattern</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">method-pattern</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{ params[0],returnObj }'</span><code class="language-plaintext highlighter-rouge"> -x 4</code></p>
+
+<ul>
+  <li>在方法调用后观测，当第一个参数的值是 5 时，显示第二个参数和返回值，展开嵌套对象的 4 层：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">class-pattern</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">method-pattern</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{ params[1],returnObj }'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'"5".equals(params[0])'</span><code class="language-plaintext highlighter-rouge"> -x 4</code></p>
+
+<ul>
+  <li>在方法返回和异常后观测，显示第二个参数的 count 属性：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">class-pattern</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">method-pattern</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{ params[1].count }'</span><code class="language-plaintext highlighter-rouge"> -e -s</code></p>

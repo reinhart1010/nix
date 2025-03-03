@@ -1,0 +1,46 @@
+<h1 id="traceroute">traceroute</h1>
+
+<p>ネットワークホストへの経路パケット追跡を表示します。
+もっと詳しく: <a href="https://manned.org/traceroute">https://manned.org/traceroute</a>。</p>
+
+<ul>
+  <li>ホストへの経路追跡:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>IPアドレスとホスト名のマッピングを無効化する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>応答までの待機時間を秒単位で指定する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute --wait=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>ホップごとのクエリ回数を指定する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute --queries=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>プローブパケットのサイズをバイト単位で指定する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">42</span></p>
+
+<ul>
+  <li>宛先までのMTUを特定する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute --mtu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>UDPの代わりにICMPを使ってトレースルートする:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">traceroute --icmp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>

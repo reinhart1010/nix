@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="cut">cut</h1>
+
+<p>Taglia dividendo in campi <code class="language-plaintext highlighter-rouge">stdin</code> o file.
+Maggiori informazioni: <a href="https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html</a>.</p>
+
+<ul>
+  <li>Estrai i primi 16 caratteri di ogni riga da <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-16</span></p>
+
+<ul>
+  <li>Estrai i primi 16 caratteri di ogni riga da un dato file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-16</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Estrai tutto dal terzo carattere fino alla fine di ogni riga:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3-</span></p>
+
+<ul>
+  <li>Estrai il quinto campo di ogni linea, utilizzando i due punti come separatore di campo (il default è tab):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -d'</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:</span><code class="language-plaintext highlighter-rouge">' -f</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>Estrai il secondo e decimo campo di ogni linea, utilizzando il punto e virgola come delimitatore:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -d'</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">;</span><code class="language-plaintext highlighter-rouge">' -f</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2,10</span></p>
+
+<ul>
+  <li>Estrai i campi dal terzo in poi di ogni linea, utilizzando lo spazio come delimitatore:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -d'</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"> </span><code class="language-plaintext highlighter-rouge">' -f</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3-</span></p>

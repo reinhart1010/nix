@@ -1,0 +1,52 @@
+<h1 id="fish">fish</h1>
+
+<p>The Friendly Interactive SHell, a command-line interpreter designed to be user friendly.
+More information: <a href="https://fishshell.com">https://fishshell.com</a>.</p>
+
+<ul>
+  <li>Start an interactive shell session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fish</code></p>
+
+<ul>
+  <li>Start an interactive shell session without loading startup configs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fish --no-config</code></p>
+
+<ul>
+  <li>Execute specific commands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fish --command "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'fish is executed'</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Execute a specific script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.fish</span></p>
+
+<ul>
+  <li>Check a specific script for syntax errors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fish --no-execute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.fish</span></p>
+
+<ul>
+  <li>Execute specific commands from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'fish is executed'"</span><code class="language-plaintext highlighter-rouge"> | fish</code></p>
+
+<ul>
+  <li>Start an interactive shell session in private mode, where the shell does not access old history or save new history:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fish --private</code></p>
+
+<ul>
+  <li>Define and export an environmental variable that persists across shell restarts (builtin):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">set --universal --export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable_value</span></p>

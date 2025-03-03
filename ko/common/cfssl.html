@@ -1,0 +1,29 @@
+<h1 id="cfssl">cfssl</h1>
+
+<p>Cloudflare의 PKI 및 TLS 툴킷.
+참고: <code class="language-plaintext highlighter-rouge">openssl</code>.
+더 많은 정보: <a href="https://github.com/cloudflare/cfssl">https://github.com/cloudflare/cfssl</a>.</p>
+
+<ul>
+  <li>호스트의 인증서 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cfssl certinfo -domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">www.google.com</span></p>
+
+<ul>
+  <li>파일에서 인증서 정보를 디코딩:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cfssl certinfo -cert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/인증서.pem</span></p>
+
+<ul>
+  <li>호스트에서 SSL/TLS 문제를 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cfssl scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트1 호스트2 …</span></p>
+
+<ul>
+  <li>하위 명령에 대한 도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cfssl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">genkey|gencsr|certinfo|sign|gencrl|ocspdump|ocsprefresh|ocspsign|ocspserve|scan|bundle|crl|print-defaults|revoke|gencert|serve|version|selfsign|info</span><code class="language-plaintext highlighter-rouge"> -h</code></p>

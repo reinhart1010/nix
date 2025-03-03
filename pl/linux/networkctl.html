@@ -1,0 +1,47 @@
+<h1 id="networkctl">networkctl</h1>
+
+<p>Zapytaj o stan łączy sieciowych.
+Zarządzaj konfiguracją sieci za pomocą <code class="language-plaintext highlighter-rouge">systemd-networkd</code>.
+Więcej informacji: <a href="https://www.freedesktop.org/software/systemd/man/networkctl.html">https://www.freedesktop.org/software/systemd/man/networkctl.html</a>.</p>
+
+<ul>
+  <li>Wyświetl listę istniejących łączy i ich status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">networkctl list</code></p>
+
+<ul>
+  <li>Wyświetl ogólny status sieci:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">networkctl status</code></p>
+
+<ul>
+  <li>Włącz urządzenia sieciowe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">networkctl up </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interfejs1 interfejs2 …</span></p>
+
+<ul>
+  <li>Wyłącz urządzenia sieciowe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">networkctl down </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interfejs1 interfejs2 …</span></p>
+
+<ul>
+  <li>Odnów konfiguracje dynamiczne (np. adresy IP przydzielone przez serwer DHCP):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">networkctl renew </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interfejs1 interfejs2 …</span></p>
+
+<ul>
+  <li>Przeładuj pliki konfiguracyjne (.netdev i .network):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">networkctl reload</code></p>
+
+<ul>
+  <li>Rekonfiguruj interfejsy sieciowe (jeżeli pliki konfiguracyjne były edytowane, najpierw uruchom <code class="language-plaintext highlighter-rouge">networkctl reload</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">networkctl reconfigure </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interfejs1 interfejs2 …</span></p>

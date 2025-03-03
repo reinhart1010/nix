@@ -1,0 +1,47 @@
+<h1>[</h1>
+
+<p>Cek jenis file dan bandingkan nilai dalam syel.
+Mengembalikan nilai 0 jika syarat tersebut terpenuhi (bernilai benar) atau 1 jika tidak.
+Informasi lebih lanjut: <a href="https://gnu.org/software/bash/manual/bash.html#index-test">https://gnu.org/software/bash/manual/bash.html#index-test</a>.</p>
+
+<ul>
+  <li>Ujikan apakah sebuah variabel memiliki nilai yang sama/tidak sama dengan sebuah string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabel</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">=|!=</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Ujikan apakah sebuah variabel memiliki nilai yang sama/tidak sama/lebih besar/lebih kecil/lebih besar atau sama dengan/lebih kecil atau sama dengan sebuah angka:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabel</span><code class="language-plaintext highlighter-rouge">" -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eq|ne|gt|lt|ge|le</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bilangan_bulat</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>Ujikan apakah sebuah variabel memiliki nilai yang tidak sama dengan hampa/null:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -n "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variabel</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Ujikan apakah sebuah variabel memiliki nilai hampa/null:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -z "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$variabel</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Ujikan apakah sebuah [f]ile dapat ditemukan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>Ujikan apakah sebuah [d]irektori dapat ditemukan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>Ujikan apakah sebuah file atau direktori dapat ditemukan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori</span><code class="language-plaintext highlighter-rouge"> ]</code></p>

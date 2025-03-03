@@ -1,0 +1,47 @@
+<h1 id="mokutil">mokutil</h1>
+
+<p>Configure Secure Boot Machine Owner Keys (MOK).
+Some operations, such as enabling and disabling Secure Boot or enrolling keys require a reboot.
+More information: <a href="https://github.com/lcp/mokutil">https://github.com/lcp/mokutil</a>.</p>
+
+<ul>
+  <li>Show if Secure Boot is enabled:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mokutil --sb-state</code></p>
+
+<ul>
+  <li>Enable Secure Boot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mokutil --enable-validation</code></p>
+
+<ul>
+  <li>Disable Secure Boot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mokutil --disable-validation</code></p>
+
+<ul>
+  <li>List enrolled keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mokutil --list-enrolled</code></p>
+
+<ul>
+  <li>Enroll a new key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mokutil --import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key.der</span></p>
+
+<ul>
+  <li>List the keys to be enrolled:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mokutil --list-new</code></p>
+
+<ul>
+  <li>Set shim verbosity:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mokutil --set-verbosity true</code></p>

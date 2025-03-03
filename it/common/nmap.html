@@ -1,0 +1,38 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="nmap">nmap</h1>
+
+<p>Nmap è un tool per port scanning ed esplorazione di rete.
+Alcune funzionalità diventano attive solamente con privilegi d'amministratore.
+Maggiori informazioni: <a href="https://nmap.org/book/man.html">https://nmap.org/book/man.html</a>.</p>
+
+<ul>
+  <li>Controlla se un indirizzo IP è attivo, e indovina il suo sistema operativo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_nome_host</span></p>
+
+<ul>
+  <li>Cerca di determinare se gli host specificati sono attivi e quali sono i loro nomi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nmap -sn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_nome_host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opzionale_altro_indirizzo</span></p>
+
+<ul>
+  <li>Attiva scripts, segnalazione di servizi, OS fingerprinting e traceroute:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">indirizzo_o_indirizzi</span></p>
+
+<ul>
+  <li>Scansiona una specifica lista di porte (usa <code class="language-plaintext highlighter-rouge">-p-</code> per tutte le porte <code class="language-plaintext highlighter-rouge">1-65535</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta1,porta2,…,portaN</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">indirizzo_o_indirizzi</span></p>
+
+<ul>
+  <li>Determina vulnerabilità e informazioni di un host eseguendo una scansione di tutte le porte, servizi e versioni con tutti gli script di default NSE attivi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -sC -sV </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">indirizzo_o_indirizzi</span></p>

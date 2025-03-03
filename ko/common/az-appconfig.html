@@ -1,0 +1,41 @@
+<h1 id="az-appconfig">az appconfig</h1>
+
+<p>Azure에서 앱 구성을 관리.
+<code class="language-plaintext highlighter-rouge">azure-cli</code>의 일부 (<code class="language-plaintext highlighter-rouge">az</code>라고도 함).
+더 많은 정보: <a href="https://learn.microsoft.com/cli/azure/appconfig">https://learn.microsoft.com/cli/azure/appconfig</a>.</p>
+
+<ul>
+  <li>앱 구성 만들기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az appconfig create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹_이름</span><code class="language-plaintext highlighter-rouge"> --location </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">위치</span></p>
+
+<ul>
+  <li>특정 앱 구성 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az appconfig delete --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스그룹_이름</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">앱구성파일_이름</span></p>
+
+<ul>
+  <li>현재 구독 아래의 모든 앱 구성을 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az appconfig list</code></p>
+
+<ul>
+  <li>특정 리소스 그룹 아래 모든 앱 구성을 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az appconfig list --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스그룹_이름</span></p>
+
+<ul>
+  <li>앱 구성의 속성 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az appconfig show --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">앱구성파일_이름</span></p>
+
+<ul>
+  <li>특정 앱 구성 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az appconfig update --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스그룹_이름</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">앱구성파일_이름</span></p>

@@ -1,0 +1,46 @@
+<h1 id="rich">rich</h1>
+
+<p>A toolbox for fancy output in the terminal.
+More information: <a href="https://github.com/Textualize/rich-cli">https://github.com/Textualize/rich-cli</a>.</p>
+
+<ul>
+  <li>Display a file with syntax highlighting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rich </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span></p>
+
+<ul>
+  <li>Add line numbers, and indentation guides:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rich </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span><code class="language-plaintext highlighter-rouge"> --line-numbers --guides</code></p>
+
+<ul>
+  <li>Apply a theme:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rich </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span><code class="language-plaintext highlighter-rouge"> --theme </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">monokai</span></p>
+
+<ul>
+  <li>Display a file in an interactive pager:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rich </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span><code class="language-plaintext highlighter-rouge"> --pager</code></p>
+
+<ul>
+  <li>Display contents from a URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rich </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://raw.githubusercontent.com/Textualize/rich-cli/main/README.md</span><code class="language-plaintext highlighter-rouge"> --markdown --pager</code></p>
+
+<ul>
+  <li>Export a file as HTML:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rich </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.md</span><code class="language-plaintext highlighter-rouge"> --export-html </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.html</span></p>
+
+<ul>
+  <li>Display text with formatting tags, custom alignment, and line width:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rich --print "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello [green on black]Stylized[/green on black] [bold]World[/bold]</span><code class="language-plaintext highlighter-rouge">" --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">left|center|right</span><code class="language-plaintext highlighter-rouge"> --width </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>

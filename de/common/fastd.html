@@ -1,0 +1,41 @@
+<h1 id="fastd">fastd</h1>
+
+<p>VPN daemon.
+Arbeitet auf Schicht 2 oder Schicht 3, unterstützt verschiedene Verschlüsselungsmethoden, wird von Freifunk verwendet.
+Weitere Informationen: <a href="https://fastd.readthedocs.io/en/stable/">https://fastd.readthedocs.io/en/stable/</a>.</p>
+
+<ul>
+  <li>Starte <code class="language-plaintext highlighter-rouge">fastd</code> mit einer bestimmten Konfigurationsdatei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastd --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/fastd.conf</span></p>
+
+<ul>
+  <li>Starte einen Schicht-3-VPN mit einer MTU von 1400 und lade den Rest der Konfigurationsparameter aus einer Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastd --mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tap</span><code class="language-plaintext highlighter-rouge"> --mtu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1400</span><code class="language-plaintext highlighter-rouge"> --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/fastd.conf</span></p>
+
+<ul>
+  <li>Validiere eine Konfigurationsdatei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastd --verify-config --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/fastd.conf</span></p>
+
+<ul>
+  <li>Generiere einen neuen Schlüssel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastd --generate-key</code></p>
+
+<ul>
+  <li>Zeige den öffentlichen Schlüssel zu einem privaten Schlüssel in einer Konfigurationsdatei an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastd --show-key --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/fastd.conf</span></p>
+
+<ul>
+  <li>Zeige die aktuelle Version an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastd -v</code></p>

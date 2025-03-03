@@ -1,0 +1,53 @@
+<h1 id="pnpm-audit">pnpm audit</h1>
+
+<p>Scan project dependencies.
+Check for known security issues with the installed packages.
+More information: <a href="https://pnpm.io/cli/audit">https://pnpm.io/cli/audit</a>.</p>
+
+<ul>
+  <li>Identify vulnerabilities in the project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm audit</code></p>
+
+<ul>
+  <li>Automatically fix vulnerabilities:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm audit fix</code></p>
+
+<ul>
+  <li>Generate a security report in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm audit --json &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/audit-report.json</span></p>
+
+<ul>
+  <li>Audit only [D]ev dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm audit --dev</code></p>
+
+<ul>
+  <li>Audit only [P]roduction dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm audit --prod</code></p>
+
+<ul>
+  <li>Exclude optional dependencies from the audit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm audit --no-optional</code></p>
+
+<ul>
+  <li>Ignore registry errors during the audit process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm audit --ignore-registry-errors</code></p>
+
+<ul>
+  <li>Filter advisories by severity (low, moderate, high, critical):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm audit --audit-level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">severity</span></p>

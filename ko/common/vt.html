@@ -1,0 +1,53 @@
+<h1 id="vt">vt</h1>
+
+<p>VirusTotal의 명령줄 인터페이스.
+이 명령을 사용하려면 VirusTotal 계정의 API 키가 필요합니다.
+더 많은 정보: <a href="https://github.com/VirusTotal/vt-cli">https://github.com/VirusTotal/vt-cli</a>.</p>
+
+<ul>
+  <li>특정 파일을 바이러스 검사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt scan file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>URL을 바이러스 검사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt scan url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>특정 분석에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt analysis </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_ID|분석_ID</span></p>
+
+<ul>
+  <li>암호화된 Zip 형식으로 파일 다운로드 (프리미엄 계정 필요):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt download </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_ID</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> --zip --zip-password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">vt</code>를 초기화하거나 재초기화하여 API 키를 대화식으로 입력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt init</code></p>
+
+<ul>
+  <li>도메인에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>특정 URL에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>특정 IP 주소에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vt domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP_주소</span></p>

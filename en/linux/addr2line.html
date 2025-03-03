@@ -1,0 +1,22 @@
+<h1 id="addr2line">addr2line</h1>
+
+<p>Convert addresses of a binary into file names and line numbers.
+More information: <a href="https://manned.org/addr2line">https://manned.org/addr2line</a>.</p>
+
+<ul>
+  <li>Display the filename and line number of the source code from an instruction address of an executable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">addr2line --exe=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address</span></p>
+
+<ul>
+  <li>Display the function name, filename and line number:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">addr2line --exe=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span><code class="language-plaintext highlighter-rouge"> --functions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address</span></p>
+
+<ul>
+  <li>Demangle the function name for C++ code:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">addr2line --exe=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable</span><code class="language-plaintext highlighter-rouge"> --functions --demangle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address</span></p>

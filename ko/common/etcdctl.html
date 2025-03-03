@@ -1,0 +1,52 @@
+<h1 id="etcdctl">etcdctl</h1>
+
+<p>고가용성 키-값 쌍 저장소인 <code class="language-plaintext highlighter-rouge">etcd</code>와 상호작용.
+더 많은 정보: <a href="https://etcd.io/docs/latest/dev-guide/interacting_v3/">https://etcd.io/docs/latest/dev-guide/interacting_v3/</a>.</p>
+
+<ul>
+  <li>지정된 키와 연관된 값을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcdctl get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">자신의_키</span></p>
+
+<ul>
+  <li>키-값-쌍을 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcdctl put </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">자신의_키</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">자신의_값</span></p>
+
+<ul>
+  <li>키-값 쌍 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcdctl del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">자신의_키</span></p>
+
+<ul>
+  <li>파일에서 값을 읽어 키-값 쌍을 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcdctl put </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">자신의_파일</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.txt</span></p>
+
+<ul>
+  <li>etcd 키 저장소의 스냅샷을 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcdctl snapshot save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스냅샷.db</span></p>
+
+<ul>
+  <li>etcd 키 저장소의 스냅샷을 복원 (나중에 etcd 서버를 다시 시작):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcdctl snapshot restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스냅샷.db</span></p>
+
+<ul>
+  <li>사용자 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcdctl user add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">자신의_유저</span></p>
+
+<ul>
+  <li>주요 변경사항 살펴보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">etcdctl watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">자신의_키</span></p>

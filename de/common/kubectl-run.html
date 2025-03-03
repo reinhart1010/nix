@@ -1,0 +1,34 @@
+<h1 id="kubectl-run">kubectl run</h1>
+
+<p>Pods in Kubernetes ausführen. Gibt den Pod-Generator an, um einen deprecation Fehler in einigen Kubernetes Versionen zu vermeiden.
+Weitere Informationen: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#run">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#run</a>.</p>
+
+<ul>
+  <li>Starte einen nginx-Pod und gib Port 80 frei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nginx-dev</span><code class="language-plaintext highlighter-rouge"> --image=nginx --port 80</code></p>
+
+<ul>
+  <li>Starte einen nginx-Pod und setze die Umgebungsvariable TEST_VAR:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nginx-dev</span><code class="language-plaintext highlighter-rouge"> --image=nginx --env="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">TEST_VAR</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">testing</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Zeige API-Aufrufe an, die zur Erstellung eines Nginx-Containers erfolgen würden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nginx-dev</span><code class="language-plaintext highlighter-rouge"> --image=nginx --dry-run=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">none|server|client</span></p>
+
+<ul>
+  <li>Führe einen Ubuntu-Pod interaktiv aus, starte ihn nie neu und entferne ihn, wenn er beendet wird:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">temp-ubuntu</span><code class="language-plaintext highlighter-rouge"> --image=ubuntu:22.04 --restart=Never --rm -- /bin/bash</code></p>
+
+<ul>
+  <li>Führe einen Ubuntu-Pod aus, überschreibe den Standardbefehl mit echo und gib eigene Argumente an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">temp-ubuntu</span><code class="language-plaintext highlighter-rouge"> --image=ubuntu:22.04 --command -- echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 …</span></p>

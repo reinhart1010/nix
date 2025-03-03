@@ -1,0 +1,41 @@
+<h1 id="odps">odps</h1>
+
+<p>Aliyun ODPS (Open Data Processing Service) command-line tool.
+Some subcommands such as <code class="language-plaintext highlighter-rouge">inst</code> have their own usage documentation.
+More information: <a href="https://www.alibabacloud.com/help/doc-detail/27971.htm">https://www.alibabacloud.com/help/doc-detail/27971.htm</a>.</p>
+
+<ul>
+  <li>Start the command-line with a custom configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">odpscmd --config=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">odps_config.ini</span></p>
+
+<ul>
+  <li>Switch current project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">use </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>Show tables in the current project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">show tables;</code></p>
+
+<ul>
+  <li>Describe a table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">desc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>Show table partitions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">show partitions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li>Describe a partition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">desc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> partition (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">partition_spec</span><code class="language-plaintext highlighter-rouge">);</code></p>

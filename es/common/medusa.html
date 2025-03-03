@@ -1,0 +1,40 @@
+<h1 id="medusa">medusa</h1>
+
+<p>Un forzador bruto de inicio de sesión modular y paralelo para una variedad de protocolos.
+Más información: <a href="https://jmk-foofus.github.io/medusa/medusa.html">https://jmk-foofus.github.io/medusa/medusa.html</a>.</p>
+
+<ul>
+  <li>Lista todos los módulos instalados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">medusa -d</code></p>
+
+<ul>
+  <li>Muestra ejemplo de uso de un módulo específico (usa <code class="language-plaintext highlighter-rouge">medusa -d</code> para listar todos los módulos instalados):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">medusa -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh|http|web-form|postgres|ftp|mysql|…</span><code class="language-plaintext highlighter-rouge"> -q</code></p>
+
+<ul>
+  <li>Ejecuta fuerza bruta contra un servidor FTP utilizando un fichero que contiene nombres de usuario y un fichero que contiene contraseñas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">medusa -M ftp -h host -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_usuario</span><code class="language-plaintext highlighter-rouge"> -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_contraseña</span></p>
+
+<ul>
+  <li>Ejecuta un intento de inicio de sesión contra un servidor HTTP utilizando el nombre de usuario, la contraseña y el agente de usuario especificados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">medusa -M HTTP -h host -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge"> -m USER-AGENT:"</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">agente</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ejecuta una fuerza bruta contra un servidor MySQL utilizando un fichero que contenga nombres de usuario y un hash:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">medusa -M mysql -h host -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_usuario</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash</span><code class="language-plaintext highlighter-rouge"> -m PASS:HASH</code></p>
+
+<ul>
+  <li>Ejecuta una fuerza bruta contra una lista de servidores SMB utilizando un nombre de usuario y un archivo pwdump:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">medusa -M smbnt -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_hosts</span><code class="language-plaintext highlighter-rouge"> -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_pwdump</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> -m PASS:HASH</code></p>

@@ -1,0 +1,34 @@
+<h1 id="apt-key">apt-key</h1>
+
+<p>Herramienta para la gestión de claves para el Gestor de Paquetes APT (APT Package Manager) en Debian y Ubuntu.
+Más información: <a href="https://manned.org/apt-key.8">https://manned.org/apt-key.8</a>.</p>
+
+<ul>
+  <li>Muestra las claves de confianza:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key list</code></p>
+
+<ul>
+  <li>Añade una clave al almacén de claves de confianza:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_clave_pública.asc</span></p>
+
+<ul>
+  <li>Borra una clave del almacén de claves de confianza:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_clave</span></p>
+
+<ul>
+  <li>Añade un clave remota al almacén de claves de confianza:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget -qO - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://host.tld/archivo.clave</span><code class="language-plaintext highlighter-rouge"> | apt-key add -</code></p>
+
+<ul>
+  <li>Añade una clave de un servidor de claves con el identificador de la clave:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key adv --keyserver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pgp.mit.edu</span><code class="language-plaintext highlighter-rouge"> --recv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_clave</span></p>

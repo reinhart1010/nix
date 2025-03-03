@@ -1,0 +1,29 @@
+<h1 id="cargo-metadata">cargo metadata</h1>
+
+<p>Output the workspace members and resolved dependencies of current package as JSON.
+Note: The output format is subject to change in future versions of Cargo.
+More information: <a href="https://doc.rust-lang.org/cargo/commands/cargo-metadata.html">https://doc.rust-lang.org/cargo/commands/cargo-metadata.html</a>.</p>
+
+<ul>
+  <li>Print the workspace members and resolved dependencies of the current package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo metadata</code></p>
+
+<ul>
+  <li>Print only the workspace members and do not fetch dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo metadata --no-deps</code></p>
+
+<ul>
+  <li>Print metadata in a specific format based on the specified version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo metadata --format-version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Print metadata with the <code class="language-plaintext highlighter-rouge">resolve</code> field including dependencies only for the given target triple (Note: the <code class="language-plaintext highlighter-rouge">packages</code> array will still include the dependencies for all targets):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo metadata --filter-platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_triple</span></p>

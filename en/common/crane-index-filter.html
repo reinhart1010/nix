@@ -1,0 +1,28 @@
+<h1 id="crane-index-filter">crane index filter</h1>
+
+<p>Modifies a remote index by filtering based on platform.
+More information: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_index_filter.md">https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_index_filter.md</a>.</p>
+
+<ul>
+  <li>Modify remote index:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane index filter</code></p>
+
+<ul>
+  <li>Specify the platform(s) to keep from base in the form os/arch<code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;/variant&lt;/span&gt;&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;:osversion&lt;/span&gt;&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;,&lt;platform&gt;&lt;/span&gt;</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane index filter --platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">platform1 platform2 …</span></p>
+
+<ul>
+  <li>Tag to apply to resulting image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane index filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–tags</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_name</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane index filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span></p>

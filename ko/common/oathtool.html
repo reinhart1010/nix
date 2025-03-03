@@ -1,0 +1,22 @@
+<h1 id="oathtool">oathtool</h1>
+
+<p>OATH 일회성 비밀번호 도구.
+더 많은 정보: <a href="https://www.nongnu.org/oath-toolkit/oathtool.1.html">https://www.nongnu.org/oath-toolkit/oathtool.1.html</a>.</p>
+
+<ul>
+  <li>TOTP 토큰 생성 (Google Authenticator처럼 동작):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">oathtool --totp --base32 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 시간에 대한 TOTP 토큰 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">oathtool --totp --now "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2004-02-29 16:21:42</span><code class="language-plaintext highlighter-rouge">" --base32 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>TOTP 토큰 검증:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">oathtool --totp --base32 "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">토큰</span><code class="language-plaintext highlighter-rouge">"</code></p>

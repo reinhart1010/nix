@@ -1,0 +1,23 @@
+<h1 id="pee">pee</h1>
+
+<p>Tee <code class="language-plaintext highlighter-rouge">stdin</code> to pipes.
+See also: <code class="language-plaintext highlighter-rouge">tee</code>.
+More information: <a href="https://joeyh.name/code/moreutils/">https://joeyh.name/code/moreutils/</a>.</p>
+
+<ul>
+  <li>Run each command, providing each one with a distinct copy of <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pee </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command1 command2 …</span></p>
+
+<ul>
+  <li>Write a copy of <code class="language-plaintext highlighter-rouge">stdin</code> to <code class="language-plaintext highlighter-rouge">stdout</code> (like <code class="language-plaintext highlighter-rouge">tee</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pee cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command1 command2 …</span></p>
+
+<ul>
+  <li>Immediately terminate upon SIGPIPEs and write errors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pee --no-ignore-sigpipe --no-ignore-write-errors </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command1 command2 …</span></p>

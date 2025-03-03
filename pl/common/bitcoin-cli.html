@@ -1,0 +1,38 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="bitcoin-cli">bitcoin-cli</h1>
+
+<p>Klient konsolowy do interakcji z demonem Bitcoina poprzez zapytania RPC.
+Używa konfiguracji zdefiniowanej w <code class="language-plaintext highlighter-rouge">bitcoin.conf</code>.
+Więcej informacji: <a href="https://en.bitcoin.it/wiki/Running_Bitcoin#Command-line_arguments">https://en.bitcoin.it/wiki/Running_Bitcoin#Command-line_arguments</a>.</p>
+
+<ul>
+  <li>Wyślij transakcję na dany adres:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli sendtoaddress "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ilość</span></p>
+
+<ul>
+  <li>Wygeneruj jeden lub więcej bloków:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli generate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ilość_bloków</span></p>
+
+<ul>
+  <li>Wyświetl informacje o portfelu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli getwalletinfo</code></p>
+
+<ul>
+  <li>Wyświetl wszystkie poprzednie transakcje dostępne do opłacenia transakcji wychodzących:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli listunspent</code></p>
+
+<ul>
+  <li>Wyeksportuj dane portfela do pliku tekstowego:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli dumpwallet "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span><code class="language-plaintext highlighter-rouge">"</code></p>

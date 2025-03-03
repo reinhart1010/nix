@@ -1,0 +1,41 @@
+<h1 id="git-annex">git annex</h1>
+
+<p>Manage files with Git, without checking their contents in.
+When a file is annexed, its content is moved into a key-value store, and a symlink is made that points to the content.
+More information: <a href="https://git-annex.branchable.com">https://git-annex.branchable.com</a>.</p>
+
+<ul>
+  <li>Initialize a repo with Git annex:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annex init</code></p>
+
+<ul>
+  <li>Add a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annex add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Show the current status of a file or directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annex status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Synchronize a local repository with a remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote</span></p>
+
+<ul>
+  <li>Get a file or directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annex get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git annex help</code></p>

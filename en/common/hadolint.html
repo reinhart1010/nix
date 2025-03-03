@@ -1,0 +1,34 @@
+<h1 id="hadolint">hadolint</h1>
+
+<p>Dockerfile linter.
+More information: <a href="https://github.com/hadolint/hadolint">https://github.com/hadolint/hadolint</a>.</p>
+
+<ul>
+  <li>Lint a Dockerfile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hadolint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Dockerfile</span></p>
+
+<ul>
+  <li>Lint a Dockerfile, displaying the output in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hadolint --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Dockerfile</span></p>
+
+<ul>
+  <li>Lint a Dockerfile, displaying the output in a specific format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hadolint --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tty|json|checkstyle|codeclimate|codacy</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Dockerfile</span></p>
+
+<ul>
+  <li>Lint a Dockerfile ignoring specific rules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hadolint --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">DL3006</span><code class="language-plaintext highlighter-rouge"> --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">DL3008</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Dockerfile</span></p>
+
+<ul>
+  <li>Lint multiple Dockerfiles using specific trusted registries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hadolint --trusted-registry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">docker.io</span><code class="language-plaintext highlighter-rouge"> --trusted-registry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5000</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Dockerfile1 path/to/Dockerfile2 …</span></p>

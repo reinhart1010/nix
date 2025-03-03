@@ -1,0 +1,17 @@
+<h1 id="pnmquantall">pnmquantall</h1>
+
+<p>Run <code class="language-plaintext highlighter-rouge">pnmquant</code> on multiple files at once such that they share a common colormap.
+See also: <code class="language-plaintext highlighter-rouge">pnmquant</code>.
+More information: <a href="https://netpbm.sourceforge.net/doc/pnmquantall.html">https://netpbm.sourceforge.net/doc/pnmquantall.html</a>.</p>
+
+<ul>
+  <li>Run <code class="language-plaintext highlighter-rouge">pnmquant</code> on multiple files with the specified parameters, overwriting the original files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmquantall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n_colors</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input1.pnm path/to/input2.pnm …</span></p>
+
+<ul>
+  <li>Save the quantised images to files named the same as the input files, but with the specified extension appended:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmquantall -ext </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">extension</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n_colors</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input1.pnm path/to/input2.pnm …</span></p>

@@ -1,0 +1,22 @@
+<h1 id="vela">vela</h1>
+
+<p>Command-line tools for the Vela pipeline.
+More information: <a href="https://go-vela.github.io/docs/reference/cli/">https://go-vela.github.io/docs/reference/cli/</a>.</p>
+
+<ul>
+  <li>Trigger a pipeline to run from a Git branch, commit or tag:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vela add deployment --org </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization</span><code class="language-plaintext highlighter-rouge"> --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment</span><code class="language-plaintext highlighter-rouge"> --ref </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch|commit|refs/tags/git_tag</span><code class="language-plaintext highlighter-rouge"> --description "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deploy_description</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>List deployments for a repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vela get deployment --org </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization</span><code class="language-plaintext highlighter-rouge"> --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span></p>
+
+<ul>
+  <li>Inspect a specific deployment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vela view deployment --org </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization</span><code class="language-plaintext highlighter-rouge"> --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span><code class="language-plaintext highlighter-rouge"> --deployment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deployment_number</span></p>

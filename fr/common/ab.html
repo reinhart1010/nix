@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="ab">ab</h1>
+
+<p>Outil d'analyse pour serveur Apache HTTP.
+Plus d'informations : <a href="https://httpd.apache.org/docs/current/programs/ab.html">https://httpd.apache.org/docs/current/programs/ab.html</a>.</p>
+
+<ul>
+  <li>Exécute 100 requêtes HTTP GET sur une URL donnée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -n 100 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Exécute 100 requêtes HTTP GET en parallèle par groupe de 10, sur une URL :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -n 100 -c 10 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Exécute 100 requêtes HTTP POST sur une URL, en utilisant un contenu JSON depuis un fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -n 100 -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/fichier.json</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Utilise la fonctionalitée HTTP Keep Alive pour exécuter plusieurs requêtes dans la même session HTTP :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Fixe le nombre maximum de secondes d'exécution pour l'analyse :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>

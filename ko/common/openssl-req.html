@@ -1,0 +1,16 @@
+<h1 id="openssl-req">openssl req</h1>
+
+<p>PKCS#10 인증서 서명 요청을 관리하는 OpenSSL 명령어.
+더 많은 정보: <a href="https://www.openssl.org/docs/manmaster/man1/openssl-req.html">https://www.openssl.org/docs/manmaster/man1/openssl-req.html</a>.</p>
+
+<ul>
+  <li>인증 기관에 보낼 인증서 서명 요청 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl req -new -sha256 -key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일이름.key</span><code class="language-plaintext highlighter-rouge"> -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일이름.csr</span></p>
+
+<ul>
+  <li>자체 서명된 인증서와 해당 키 쌍을 생성하여 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl req -new -x509 -newkey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rsa</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4096</span><code class="language-plaintext highlighter-rouge"> -keyout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일이름.key</span><code class="language-plaintext highlighter-rouge"> -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일이름.cert</span><code class="language-plaintext highlighter-rouge"> -subj "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/C=XX/CN=foobar</span><code class="language-plaintext highlighter-rouge">" -days </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">365</span></p>

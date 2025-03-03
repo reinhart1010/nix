@@ -1,0 +1,53 @@
+<h1 id="mpv">mpv</h1>
+
+<p>Um tocador de vídeo/audio baseado no MPlayer.
+Veja também: <code class="language-plaintext highlighter-rouge">mplayer</code>, <code class="language-plaintext highlighter-rouge">vlc</code>.
+Mais informações: <a href="https://mpv.io">https://mpv.io</a>.</p>
+
+<ul>
+  <li>Toca um vídeo ou áudio de uma URL ou arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Avança/retrocede 5 segundos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">LEFT &lt;or&gt; RIGHT</code></p>
+
+<ul>
+  <li>Avança/retrocede 1 minuto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">DOWN &lt;or&gt; UP</code></p>
+
+<ul>
+  <li>Diminui ou aumenta a velocidade de reprodução em 10%:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ &lt;or&gt; ]</code></p>
+
+<ul>
+  <li>Captura a imagem do quadro atual (salva em <code class="language-plaintext highlighter-rouge">./mpv-shotNNNN.jpg</code> por padrão):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">s</code></p>
+
+<ul>
+  <li>Toca um arquivo em uma velocidade especificada (1 por padrão):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpv --speed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.01..100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Toca um arquivo usando um perfil definido no arquivo <code class="language-plaintext highlighter-rouge">mpv.conf</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpv --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_perfil</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Mostra a saída da webcam ou de outro dispositivo de entrada de vídeo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/video0</span></p>

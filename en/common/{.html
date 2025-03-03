@@ -1,0 +1,52 @@
+<h1 id="curly-brace">Curly brace</h1>
+
+<p>Multipurpose shell syntax.
+More information: <a href="https://www.gnu.org/software/bash/manual/bash.html">https://www.gnu.org/software/bash/manual/bash.html</a>.</p>
+
+<ul>
+  <li>Isolate variable names:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo ${HOME}work</code></p>
+
+<ul>
+  <li>Brace expand sequences:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo {1..3} {a..c}{dir1,dir2,dir3}</code></p>
+
+<ul>
+  <li>Check if <code class="language-plaintext highlighter-rouge">variable</code> is set before returning text:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo ${variable:+variable is set and contains $variable}</code></p>
+
+<ul>
+  <li>Set default values in case <code class="language-plaintext highlighter-rouge">variable</code> is unset:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo ${variable:-default}</code></p>
+
+<ul>
+  <li>Return <code class="language-plaintext highlighter-rouge">variable</code> length in characters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo ${#variable}</code></p>
+
+<ul>
+  <li>Return a string slice:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo ${variable:3:7}</code></p>
+
+<ul>
+  <li>Recursively expand a <code class="language-plaintext highlighter-rouge">variable</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo ${!variable}</code></p>
+
+<ul>
+  <li>Capitalize all the characters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo ${variable^^}</code></p>

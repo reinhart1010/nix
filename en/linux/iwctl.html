@@ -1,0 +1,40 @@
+<h1 id="iwctl">iwctl</h1>
+
+<p>Control the <code class="language-plaintext highlighter-rouge">iwd</code> network supplicant.
+More information: <a href="https://archive.kernel.org/oldwiki/iwd.wiki.kernel.org/gettingstarted.html">https://archive.kernel.org/oldwiki/iwd.wiki.kernel.org/gettingstarted.html</a>.</p>
+
+<ul>
+  <li>Start the interactive mode, in this mode you can enter the commands directly, with autocompletion:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iwctl</code></p>
+
+<ul>
+  <li>Call general help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iwctl --help</code></p>
+
+<ul>
+  <li>Display your Wi-Fi stations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iwctl station list</code></p>
+
+<ul>
+  <li>Start looking for networks with a station:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iwctl station </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">station</span><code class="language-plaintext highlighter-rouge"> scan</code></p>
+
+<ul>
+  <li>Display the networks found by a station:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iwctl station </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">station</span><code class="language-plaintext highlighter-rouge"> get-networks</code></p>
+
+<ul>
+  <li>Connect to a network with a station, if credentials are needed they will be asked:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iwctl station </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">station</span><code class="language-plaintext highlighter-rouge"> connect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_name</span></p>

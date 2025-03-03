@@ -1,0 +1,28 @@
+<h1 id="kubectl-rollout">kubectl rollout</h1>
+
+<p>Kubernetes 리소스(배포, 데몬셋, 스테이트풀셋)의 롤아웃 관리.
+더 많은 정보: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#rollout">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#rollout</a>.</p>
+
+<ul>
+  <li>리소스의 롤링 재시작 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl rollout restart </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_유형</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_이름</span></p>
+
+<ul>
+  <li>리소스의 롤링 업데이트 상태 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl rollout status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_유형</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_이름</span></p>
+
+<ul>
+  <li>리소스를 이전 리비전으로 롤백:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl rollout undo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_유형</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_이름</span></p>
+
+<ul>
+  <li>리소스의 롤아웃 기록 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl rollout history </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_유형</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_이름</span></p>

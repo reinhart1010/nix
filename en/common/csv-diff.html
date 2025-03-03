@@ -1,0 +1,22 @@
+<h1 id="csv-diff">csv-diff</h1>
+
+<p>View differences between two CSV, TSV or JSON files.
+More information: <a href="https://github.com/simonw/csv-diff">https://github.com/simonw/csv-diff</a>.</p>
+
+<ul>
+  <li>Display a human-readable summary of differences between files using a specific column as a unique identifier:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csv-diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.csv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.csv</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column_name</span></p>
+
+<ul>
+  <li>Display a human-readable summary of differences between files that includes unchanged values in rows with at least one change:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csv-diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.csv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.csv</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column_name</span><code class="language-plaintext highlighter-rouge"> --show-unchanged</code></p>
+
+<ul>
+  <li>Display a summary of differences between files in JSON format using a specific column as a unique identifier:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csv-diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.csv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.csv</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column_name</span><code class="language-plaintext highlighter-rouge"> --json</code></p>

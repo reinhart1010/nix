@@ -1,0 +1,28 @@
+<h1 id="lualatex">lualatex</h1>
+
+<p>An extended version of TeX using Lua to compile.
+More information: <a href="https://manned.org/lualatex.1">https://manned.org/lualatex.1</a>.</p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">texlua</code> to act as a Lua interpreter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lualatex</code></p>
+
+<ul>
+  <li>Compile a Tex file to PDF:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lualatex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tex</span></p>
+
+<ul>
+  <li>Compile a Tex file without error interruption:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lualatex -interaction nonstopmode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tex</span></p>
+
+<ul>
+  <li>Compile a Tex file with a specific output file name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lualatex -jobname=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tex</span></p>

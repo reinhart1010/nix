@@ -1,0 +1,23 @@
+<h1 id="write">write</h1>
+
+<p>Write a message on the terminal of a specified logged in user (ctrl-C to stop writing messages).
+Use the <code class="language-plaintext highlighter-rouge">who</code> command to find out all terminal_ids of all active users active on the system. See also <code class="language-plaintext highlighter-rouge">mesg</code>.
+More information: <a href="https://manned.org/write">https://manned.org/write</a>.</p>
+
+<ul>
+  <li>Send a message to a given user on a given terminal ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">terminal_id</span></p>
+
+<ul>
+  <li>Send message to "testuser" on terminal <code class="language-plaintext highlighter-rouge">/dev/tty/5</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">testuser</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tty/5</span></p>
+
+<ul>
+  <li>Send message to "johndoe" on pseudo terminal <code class="language-plaintext highlighter-rouge">/dev/pts/5</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">johndoe</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pts/5</span></p>

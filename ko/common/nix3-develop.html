@@ -1,0 +1,22 @@
+<h1 id="nix-develop">nix develop</h1>
+
+<p>파생물의 빌드 환경을 제공하는 Bash 셸 실행.
+더 많은 정보: <a href="https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-develop.html">https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-develop.html</a>.</p>
+
+<ul>
+  <li>nixpkgs의 모든 <code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;패키지&lt;/span&gt;</code> 종속성을 사용하여 셸 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix develop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs#pkg</span></p>
+
+<ul>
+  <li>현재 디렉토리의 플레이크에 있는 기본 패키지에 대한 개발 셸 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix develop</code></p>
+
+<ul>
+  <li>해당 셸에서 소스 구성 및 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">configurePhase; buildPhase</code></p>

@@ -1,0 +1,34 @@
+<h1 id="ropper">ropper</h1>
+
+<p>Find ROP gadgets in binary files.
+More information: <a href="https://scoding.de/ropper/">https://scoding.de/ropper/</a>.</p>
+
+<ul>
+  <li>List gadgets in the binary file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ropper --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>Filter gadgets in the binary file by a regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ropper --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span><code class="language-plaintext highlighter-rouge"> --search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regex</span></p>
+
+<ul>
+  <li>List gadgets of specified type in the binary file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ropper --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span><code class="language-plaintext highlighter-rouge"> --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rop|job|sys|all</span></p>
+
+<ul>
+  <li>Exclude bad byte gadgets in the binary file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ropper --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span><code class="language-plaintext highlighter-rouge"> --badbytes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">byte_string</span></p>
+
+<ul>
+  <li>List gadgets up to the specified instruction count in the binary file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ropper --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span><code class="language-plaintext highlighter-rouge"> --inst-count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span></p>

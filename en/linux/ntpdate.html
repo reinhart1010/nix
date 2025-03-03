@@ -1,0 +1,28 @@
+<h1 id="ntpdate">ntpdate</h1>
+
+<p>Synchronize and set the date and time via NTP.
+More information: <a href="https://manned.org/ntpdate">https://manned.org/ntpdate</a>.</p>
+
+<ul>
+  <li>Synchronize and set date and time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ntpdate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Query the host without setting the time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ntpdate -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Use an unprivileged port in case a firewall is blocking privileged ports:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ntpdate -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Force time to be stepped using <code class="language-plaintext highlighter-rouge">settimeofday</code> instead of <code class="language-plaintext highlighter-rouge">slewed</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ntpdate -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>

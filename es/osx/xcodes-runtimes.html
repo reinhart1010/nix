@@ -1,0 +1,40 @@
+<h1 id="xcodes-runtimes">xcodes runtimes</h1>
+
+<p>Gestiona los tiempos de ejecución de Xcode Simulator.
+Más información: <a href="https://github.com/xcodesorg/xcodes">https://github.com/xcodesorg/xcodes</a>.</p>
+
+<ul>
+  <li>Muestra todos los tiempos de ejecución del simulador disponibles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes --include-betas</code></p>
+
+<ul>
+  <li>Descarga un tiempo de ejecución para el Simulator:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes download </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_tiempo_de_ejecución</span></p>
+
+<ul>
+  <li>Descarga e instala un tiempo de ejecución para el Simulator:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_tiempo_de_ejecución</span></p>
+
+<ul>
+  <li>Descarga/instala un tiempo de ejecución del Simulator para una versión específica de iOS/watchOS/tvOS/visionOS (debe escribirse distinguiendo entre mayúsculas y minúsculas):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">download|install</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">iOS|watchOS|tvOS|visionOS</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versión_de_tiempo_de_ejecución</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Establece una ubicación específica en la que se descargará primero el archivo de tiempo de ejecución (por defecto es <code class="language-plaintext highlighter-rouge">~/Downloads</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">download|install</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_tiempo_de_ejecución</span><code class="language-plaintext highlighter-rouge"> --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio</span></p>
+
+<ul>
+  <li>No elimina el archivo descargado cuando el Simulator se instala correctamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_tiempo_de_ejecución</span><code class="language-plaintext highlighter-rouge"> --keep-archive</code></p>

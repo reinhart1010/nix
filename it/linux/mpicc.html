@@ -1,0 +1,23 @@
+<h1 id="mpicc">mpicc</h1>
+
+<p>Involucro Open MPI per il compilatore di C.
+Shell che esegue sul compilatore, aggiungono i relevanti argomenti e linkers necessari a compilare/collegare programmi Open MPI, invocando il sottostante compilatore di C per effettuare le effetive operazioni.
+Maggiori informazioni: <a href="https://www.mpich.org/static/docs/latest/www1/mpicc.html">https://www.mpich.org/static/docs/latest/www1/mpicc.html</a>.</p>
+
+<ul>
+  <li>Compila un file sorgente in un file oggetto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpicc -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.c</span></p>
+
+<ul>
+  <li>Linka un file oggetto file e genera un eseguibile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpicc -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.o</span></p>
+
+<ul>
+  <li>Linka e compila i file sorgente in un solo commando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpicc -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.c</span></p>

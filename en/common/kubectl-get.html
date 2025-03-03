@@ -1,0 +1,46 @@
+<h1 id="kubectl-get">kubectl get</h1>
+
+<p>Get Kubernetes objects and resources.
+More information: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#get">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#get</a>.</p>
+
+<ul>
+  <li>Get all namespaces in the current cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get namespaces</code></p>
+
+<ul>
+  <li>Get nodes in a specified [n]amespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get nodes --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Get pods in a specified [n]amespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get pods --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Get deployments in a specified [n]amespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get deployments --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Get services in a specified [n]amespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get services --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Get all resources in a specified [n]amespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get all --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Get Kubernetes objects defined in a YAML manifest [f]ile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl get --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manifest.yaml</span></p>

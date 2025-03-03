@@ -1,0 +1,46 @@
+<h1 id="electrum">electrum</h1>
+
+<p>인체공학적 Bitcoin 지갑 및 개인 키 관리.
+더 많은 정보: <a href="https://electrum.org">https://electrum.org</a>.</p>
+
+<ul>
+  <li>새로운 지갑 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_wallet.dat</span><code class="language-plaintext highlighter-rouge"> create</code></p>
+
+<ul>
+  <li>오프라인 시드에서 기존 지갑 복원:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recovery_wallet.dat</span><code class="language-plaintext highlighter-rouge"> restore -o</code></p>
+
+<ul>
+  <li>오프라인으로 서명된 거래 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum mktx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recipient</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">amount</span><code class="language-plaintext highlighter-rouge"> -f 0.0000001 -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">from</span><code class="language-plaintext highlighter-rouge"> -o</code></p>
+
+<ul>
+  <li>모든 지갑 수신 주소 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum listaddresses -a</code></p>
+
+<ul>
+  <li>메시지에 설명:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum signmessage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주소</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">메시지</span></p>
+
+<ul>
+  <li>메시지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum verifymessage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주소</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서명</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">메시지</span></p>
+
+<ul>
+  <li>특정 일렉트럼 서버 인스턴스에만 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">electrum -p socks5:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1</span><code class="language-plaintext highlighter-rouge">:9050 -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">56ckl5obj37gypcu.onion</span><code class="language-plaintext highlighter-rouge">:50001:t -1</code></p>

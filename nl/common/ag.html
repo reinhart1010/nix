@@ -1,0 +1,46 @@
+<h1 id="ag">ag</h1>
+
+<p>The Silver Searcher. Zoals <code class="language-plaintext highlighter-rouge">ack</code>, maar wil sneller zijn.
+Meer informatie: <a href="https://github.com/ggreer/the_silver_searcher">https://github.com/ggreer/the_silver_searcher</a>.</p>
+
+<ul>
+  <li>Zoek bestanden die "foo" bevatten en druk de regelovereenkomsten in context af:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>Vind bestanden die "foo" bevatten in een specifieke map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span></p>
+
+<ul>
+  <li>Vind bestanden die "foo" bevatten, maar vermeld alleen de bestandsnamen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>Vind bestanden die "FOO" niet hoofdlettergevoelig bevatten en druk alleen de overeenkomst af in plaats van de hele regel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag -i -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">FOO</span></p>
+
+<ul>
+  <li>Zoek "foo" in bestanden met een naam die overeenkomt met "bar":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> -G </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span></p>
+
+<ul>
+  <li>Vind bestanden waarvan de inhoud overeenkomt met een reguliere expressie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^ba(r|z)$</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Zoek bestanden met een naam die overeenkomt met "foo":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>

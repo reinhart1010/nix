@@ -1,0 +1,34 @@
+<h1 id="snakefmt">snakefmt</h1>
+
+<p>Format Snakemake files.
+More information: <a href="https://github.com/snakemake/snakefmt">https://github.com/snakemake/snakefmt</a>.</p>
+
+<ul>
+  <li>Format a specific Snakefile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snakefmt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/snakefile</span></p>
+
+<ul>
+  <li>Format all Snakefiles recursively in a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snakefmt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Format a file using a specific configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snakefmt --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.toml</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/snakefile</span></p>
+
+<ul>
+  <li>Format a file using a specific maximum line length:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snakefmt --line-length </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/snakefile</span></p>
+
+<ul>
+  <li>Display the changes that would be performed without performing them (dry-run):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snakefmt --diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/snakefile</span></p>

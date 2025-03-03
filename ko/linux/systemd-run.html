@@ -1,0 +1,52 @@
+<h1 id="systemd-run">systemd-run</h1>
+
+<p>프로그램을 일시적 범위 단위, 서비스 단위, 경로, 소켓 또는 타이머로 트리거된 서비스 단위로 실행.
+더 많은 정보: <a href="https://www.freedesktop.org/software/systemd/man/systemd-run.html">https://www.freedesktop.org/software/systemd/man/systemd-run.html</a>.</p>
+
+<ul>
+  <li>일시적 서비스를 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo systemd-run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수1 인수2 …</span></p>
+
+<ul>
+  <li>현재 사용자의 서비스 관리자에서 (권한 없이) 일시적 서비스를 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-run --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수1 인수2 …</span></p>
+
+<ul>
+  <li>사용자 정의 단위 이름과 설명을 사용하여 일시적 서비스를 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo systemd-run --unit=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --description=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수1 인수2 …</span></p>
+
+<ul>
+  <li>종료 후 정리되지 않는 일시적 서비스와 사용자 정의 환경 변수를 사용하여 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo systemd-run --remain-after-exit --set-env=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수1 인수2 …</span></p>
+
+<ul>
+  <li>주기적으로 일시적 서비스를 실행하는 일시적 타이머 시작 (캘린더 이벤트 형식은 <code class="language-plaintext highlighter-rouge">man systemd.time</code> 참조):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo systemd-run --on-calendar=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">캘린더_이벤트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수1 인수2 …</span></p>
+
+<ul>
+  <li>터미널을 프로그램과 공유하여 상호작용 입력/출력을 허용하고 프로그램 종료 후 실행 세부정보를 유지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-run --remain-after-exit --pty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>프로세스의 속성 (예: CPUQuota, MemoryMax)을 설정하고 종료될 때까지 대기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-run --property MemoryMax=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">메모리_바이트</span><code class="language-plaintext highlighter-rouge"> --property CPUQuota=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">CPU_시간_비율</span><code class="language-plaintext highlighter-rouge">% --wait </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>셸 파이프라인에서 프로그램 사용:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어1</span><code class="language-plaintext highlighter-rouge"> | systemd-run --pipe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어2</span><code class="language-plaintext highlighter-rouge"> | </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어3</span></p>

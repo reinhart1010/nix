@@ -1,0 +1,28 @@
+<h1 id="beanstalkd">beanstalkd</h1>
+
+<p>단순하고 일반적인 work-queue 서버.
+더 많은 정보: <a href="https://beanstalkd.github.io/">https://beanstalkd.github.io/</a>.</p>
+
+<ul>
+  <li>beanstalkd를 시작하고, 11300 포트로 듣기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">beanstalkd</code></p>
+
+<ul>
+  <li>사용자가 지정한 포트 및 주소에서 beanstalkd 듣기 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">beanstalkd -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_number</span></p>
+
+<ul>
+  <li>work queue를 디스크에 저장하고 유지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">beanstalkd -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/persistence_directory</span></p>
+
+<ul>
+  <li>500밀리초마다 지속성있는 디렉토리에 동기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">beanstalkd -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/persistence_directory</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">500</span></p>

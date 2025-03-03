@@ -1,0 +1,46 @@
+<h1 id="rubocop">rubocop</h1>
+
+<p>Analiza archivos de Ruby.
+Más información: <a href="https://docs.rubocop.org/rubocop/usage/basic_usage.html">https://docs.rubocop.org/rubocop/usage/basic_usage.html</a>.</p>
+
+<ul>
+  <li>Verifica todos los archivos en el directorio actual (incluyendo subdirectorios):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop</code></p>
+
+<ul>
+  <li>Verifica uno o más archivos o directorios determinados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 …</span></p>
+
+<ul>
+  <li>Guarda la salida en un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Muestra la lista de cops (reglas de análisis):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --show-cops</code></p>
+
+<ul>
+  <li>Excluye una regla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --except </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop1 cop2 …</span></p>
+
+<ul>
+  <li>Ejecuta solo determinadas reglas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --only </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cop1 cop2 …</span></p>
+
+<ul>
+  <li>Autocorrige archivos (experimental):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rubocop --auto-correct</code></p>

@@ -1,0 +1,53 @@
+<h1 id="git-tag">git tag</h1>
+
+<p>Create, list, delete or verify tags.
+A tag is a static reference to a commit.
+More information: <a href="https://git-scm.com/docs/git-tag">https://git-scm.com/docs/git-tag</a>.</p>
+
+<ul>
+  <li>List all tags:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag</code></p>
+
+<ul>
+  <li>Create a tag with the given name pointing to the current commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_name</span></p>
+
+<ul>
+  <li>Create a tag with the given name pointing to a given commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Create an annotated tag with the given message:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_name</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_message</span></p>
+
+<ul>
+  <li>Delete the tag with the given name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–delete</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_name</span></p>
+
+<ul>
+  <li>Get updated tags from remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git fetch --tags</code></p>
+
+<ul>
+  <li>Push a tag to remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push origin tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_name</span></p>
+
+<ul>
+  <li>List all tags whose ancestors include a given commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag --contains </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>

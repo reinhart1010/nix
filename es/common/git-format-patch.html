@@ -1,0 +1,23 @@
+<h1 id="git-format-patch">git format-patch</h1>
+
+<p>Prepara archivos .patch. Es útil cuando se envían commits por correo electrónico.
+Vea también <code class="language-plaintext highlighter-rouge">git-am</code>, comando que puede aplicar los archivos .patch generados.
+Más información: <a href="https://git-scm.com/docs/git-format-patch">https://git-scm.com/docs/git-format-patch</a>.</p>
+
+<ul>
+  <li>Crea un archivo <code class="language-plaintext highlighter-rouge">.patch</code> con nombre automático para todos los cambios que no están en el push:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git format-patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">origen</span></p>
+
+<ul>
+  <li>Escribe un archivo <code class="language-plaintext highlighter-rouge">.patch</code> para todos los commits entre dos revisiones a <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git format-patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revisión_1</span><code class="language-plaintext highlighter-rouge">..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revisión_2</span></p>
+
+<ul>
+  <li>Escribe un archivo <code class="language-plaintext highlighter-rouge">.patch</code> para los 3 últimos commits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git format-patch -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>

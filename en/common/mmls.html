@@ -1,0 +1,28 @@
+<h1 id="mmls">mmls</h1>
+
+<p>Display the partition layout of a volume system.
+More information: <a href="https://wiki.sleuthkit.org/index.php?title=Mmls">https://wiki.sleuthkit.org/index.php?title=Mmls</a>.</p>
+
+<ul>
+  <li>Display the partition table stored in an image file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image_file</span></p>
+
+<ul>
+  <li>Display the partition table with an additional column for the partition size:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmls -B -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image_file</span></p>
+
+<ul>
+  <li>Display the partition table in a split EWF image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmls -i ewf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.e01</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.e02</span></p>
+
+<ul>
+  <li>Display nested partition tables:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmls -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nested_table_type</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">offset</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image_file</span></p>

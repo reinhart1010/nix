@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="trap">trap</h1>
+
+<p>이벤트 발생 시 명령을 실행합니다.
+더 많은 정보: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-trap">https://www.gnu.org/software/bash/manual/bash.html#index-trap</a>.</p>
+
+<ul>
+  <li>사용 가능한 이벤트 이름 나열 (예: <code class="language-plaintext highlighter-rouge">SIGWINCH</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trap -l</code></p>
+
+<ul>
+  <li>명령과 예상 이벤트 이름 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trap -p</code></p>
+
+<ul>
+  <li>신호를 받았을 때 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trap 'echo "Caught signal </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span><code class="language-plaintext highlighter-rouge">"' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span></p>
+
+<ul>
+  <li>명령 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trap - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGINT</span></p>

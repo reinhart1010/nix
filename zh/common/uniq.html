@@ -1,0 +1,35 @@
+<h1 id="uniq">uniq</h1>
+
+<p>输出输入或文件中的唯一行。
+因为它只检测相邻的重复行，所以需要先对它们进行排序。
+更多信息：<a href="https://www.gnu.org/software/coreutils/manual/html_node/uniq-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/uniq-invocation.html</a>.</p>
+
+<ul>
+  <li>仅显示每行一次：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span><code class="language-plaintext highlighter-rouge"> | uniq</code></p>
+
+<ul>
+  <li>仅显示唯一的行：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span><code class="language-plaintext highlighter-rouge"> | uniq -u</code></p>
+
+<ul>
+  <li>仅显示重复的行：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span><code class="language-plaintext highlighter-rouge"> | uniq -d</code></p>
+
+<ul>
+  <li>显示每行的出现次数及其内容：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span><code class="language-plaintext highlighter-rouge"> | uniq -c</code></p>
+
+<ul>
+  <li>显示每行的出现次数，并按出现次数从高到低排序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span><code class="language-plaintext highlighter-rouge"> | uniq -c | sort -nr</code></p>

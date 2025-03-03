@@ -1,0 +1,46 @@
+<h1 id="nodemon">nodemon</h1>
+
+<p>파일을 감시하고 변경 사항이 감지되면 Node 애플리케이션을 자동으로 재시작.
+더 많은 정보: <a href="https://nodemon.io">https://nodemon.io</a>.</p>
+
+<ul>
+  <li>지정된 파일을 실행하고 특정 파일의 변경 사항 감시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.js</span></p>
+
+<ul>
+  <li>수동으로 nodemon 재시작(이 기능을 사용하려면 nodemon이 이미 활성 상태여야 함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rs</code></p>
+
+<ul>
+  <li>특정 파일 무시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>
+
+<ul>
+  <li>Node 애플리케이션에 인수 전달:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.js</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수들</span></p>
+
+<ul>
+  <li>nodemon 인수가 아닌 경우 Node 자체에 인수 전달(예: <code class="language-plaintext highlighter-rouge">--inspect</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수들</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.js</span></p>
+
+<ul>
+  <li>임의의 비-Node 스크립트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon --exec "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스크립트를_실행할_명령</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">옵션들</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트</span></p>
+
+<ul>
+  <li>Python 스크립트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon --exec "python </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">옵션들</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.py</span></p>

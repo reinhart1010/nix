@@ -1,0 +1,34 @@
+<h1 id="logrotate">logrotate</h1>
+
+<p>Rotates, compresses, and mails system logs.
+More information: <a href="https://manned.org/logrotate">https://manned.org/logrotate</a>.</p>
+
+<ul>
+  <li>Trigger a run manually:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logrotate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/logrotate.conf</span><code class="language-plaintext highlighter-rouge"> --force</code></p>
+
+<ul>
+  <li>Run using a specific command to mail reports:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logrotate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/logrotate.conf</span><code class="language-plaintext highlighter-rouge"> --mail </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/bin/mail_command</span></p>
+
+<ul>
+  <li>Run without using a state (lock) file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logrotate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/logrotate.conf</span><code class="language-plaintext highlighter-rouge"> --state /dev/null</code></p>
+
+<ul>
+  <li>Run and skip the state (lock) file check:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logrotate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/logrotate.conf</span><code class="language-plaintext highlighter-rouge"> --skip-state-lock</code></p>
+
+<ul>
+  <li>Tell <code class="language-plaintext highlighter-rouge">logrotate</code> to log verbose output into the log file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logrotate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/logrotate.conf</span><code class="language-plaintext highlighter-rouge"> --log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/log_file</span></p>

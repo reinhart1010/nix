@@ -1,0 +1,53 @@
+<h1 id="docker">docker</h1>
+
+<p>Dockerコンテナ及びDockerイメージの管理を行います。
+<code class="language-plaintext highlighter-rouge">run</code> のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
+もっと詳しく: <a href="https://docs.docker.com/reference/cli/docker/">https://docs.docker.com/reference/cli/docker/</a>。</p>
+
+<ul>
+  <li>全てのDockerコンテナを表示する(実行中・停止中、両方のコンテナ):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker ps --all</code></p>
+
+<ul>
+  <li>イメージからカスタムのコンテナ名でコンテナを起動する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コンテナ名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">イメージ</span></p>
+
+<ul>
+  <li>既存のコンテナの起動もしくは停止を行う:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コンテナ名</span></p>
+
+<ul>
+  <li>dockerレジストリからイメージをプルする:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">イメージ</span></p>
+
+<ul>
+  <li>既にダウンロード済のイメージ一覧を表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images</code></p>
+
+<ul>
+  <li>実行中のコンテナ内でシェルを開く:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker exec -it </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コンテナ名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span></p>
+
+<ul>
+  <li>停止中のコンテナを削除する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コンテナ名</span></p>
+
+<ul>
+  <li>コンテナのログを取得・追跡する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker logs -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コンテナ名</span></p>

@@ -1,0 +1,22 @@
+<h1 id="gpg-zip">gpg-zip</h1>
+
+<p>GPG를 사용하여 아카이브의 파일과 디렉터리를 암호화.
+더 많은 정보: <a href="https://www.gnupg.org/documentation/manuals/gnupg/gpg_002dzip.html">https://www.gnupg.org/documentation/manuals/gnupg/gpg_002dzip.html</a>.</p>
+
+<ul>
+  <li>비밀번호 문구를 사용하여 디렉터리를 <code class="language-plaintext highlighter-rouge">archive.gpg</code>로 암호화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg-zip --symmetric --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아카이브.gpg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">아카이브.gpg</code>를 같은 이름의 디렉터리로 복호화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg-zip --decrypt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/아카이브.gpg</span></p>
+
+<ul>
+  <li>암호화된 <code class="language-plaintext highlighter-rouge">아카이브.gpg</code>의 내용을 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg-zip --list-archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/아카이브.gpg</span></p>

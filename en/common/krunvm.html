@@ -1,0 +1,34 @@
+<h1 id="krunvm">krunvm</h1>
+
+<p>Create MicroVMs from OCI images.
+More information: <a href="https://github.com/containers/krunvm">https://github.com/containers/krunvm</a>.</p>
+
+<ul>
+  <li>Create MicroVM based on Fedora:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">krunvm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">docker.io/fedora</span><code class="language-plaintext highlighter-rouge"> --cpus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_vcpus</span><code class="language-plaintext highlighter-rouge"> --mem </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memory_in_megabytes</span><code class="language-plaintext highlighter-rouge"> --name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Start a specific image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">krunvm start "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>List images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">krunvm list</code></p>
+
+<ul>
+  <li>Change a specific image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">krunvm changevm --cpus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_vcpus</span><code class="language-plaintext highlighter-rouge"> --mem </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memory_in_megabytes</span><code class="language-plaintext highlighter-rouge"> --name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_vm_name</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">current_vm_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Delete a specific image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">krunvm delete "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name</span><code class="language-plaintext highlighter-rouge">"</code></p>

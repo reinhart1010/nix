@@ -1,0 +1,23 @@
+<h1 id="pamfix">pamfix</h1>
+
+<p>Repareer errors in PAM, PBM, PGM en PPM bestanden.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">pamfile</code>, <code class="language-plaintext highlighter-rouge">pamvalidate</code>.
+Meer informatie: <a href="https://netpbm.sourceforge.net/doc/pamfix.html">https://netpbm.sourceforge.net/doc/pamfix.html</a>.</p>
+
+<ul>
+  <li>Repareer een Netpbm bestand dat zijn laatste deel mist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamfix -truncate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/corrupt.ext</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.ext</span></p>
+
+<ul>
+  <li>Repareer een Netpbm bestand waar de pixel waardes de afbeelding's <code class="language-plaintext highlighter-rouge">maxval</code> overschrijden door de overtredende pixels te verlagen in waarde:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamfix -clip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/corrupt.ext</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.ext</span></p>
+
+<ul>
+  <li>Repareer een Netpbm bestand waar de pixel waardes de afbeelding's <code class="language-plaintext highlighter-rouge">maxval</code> overschrijden door deze te verhogen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamfix -changemaxval </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/corrupt.pam|pbm|pgm|ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pam|pbm|pgm|ppm</span></p>

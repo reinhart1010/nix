@@ -1,0 +1,53 @@
+<h1 id="bundletool">bundletool</h1>
+
+<p>Android 애플리케이션 번들을 조작.
+<code class="language-plaintext highlighter-rouge">validate</code>와 같은 일부 하위 명0령에는 자체적인 사용법 문서가 존재.
+더 많은 정보: <a href="https://developer.android.com/tools/bundletool">https://developer.android.com/tools/bundletool</a>.</p>
+
+<ul>
+  <li>하위 명령어에 대한 도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool help </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">하위명령어</span></p>
+
+<ul>
+  <li>애플리케이션 번들에서 APK를 생성 (키 저장소 비밀번호를 묻는 메시지 표시):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool build-apks --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/bundle.aab</span><code class="language-plaintext highlighter-rouge"> --ks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/key.keystore</span><code class="language-plaintext highlighter-rouge"> --ks-key-alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_alias</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/file.apks</span></p>
+
+<ul>
+  <li>키스토어 비밀번호를 제공하는 애플리케이션 번들에서 APK를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool build-apks --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/bundle.aab</span><code class="language-plaintext highlighter-rouge"> --ks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/key.keystore</span><code class="language-plaintext highlighter-rouge"> --ks-key-alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_alias</span><code class="language-plaintext highlighter-rouge"> --ks-pass </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pass:the_password</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/file.apks</span></p>
+
+<ul>
+  <li>보편적인 사용을 위해 단 하나의 단일 APK를 포함하는 APK 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool build-apks --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/bundle.aab</span><code class="language-plaintext highlighter-rouge"> --mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">universal</span><code class="language-plaintext highlighter-rouge"> --ks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/key.keystore</span><code class="language-plaintext highlighter-rouge"> --ks-key-alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_alias</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/file.apks</span></p>
+
+<ul>
+  <li>에뮬레이터나 기기에 올바른 APK 조합을 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool install-apks --apks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/file.apks</span></p>
+
+<ul>
+  <li>애플리케이션의 다운로드 크기를 측정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool get-size total --apks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/file.apks</span></p>
+
+<ul>
+  <li>에뮬레이터 또는 장치에 대한 장치 사양 JSON 파일을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool get-device-spec --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/file.json</span></p>
+
+<ul>
+  <li>번들을 확인하고 이에 대한 자세한 정보를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundletool validate --bundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/bundle.aab</span></p>

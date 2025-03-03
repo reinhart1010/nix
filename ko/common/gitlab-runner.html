@@ -1,0 +1,40 @@
+<h1 id="gitlab-runner">gitlab-runner</h1>
+
+<p>GitLab 실행기 관리.
+더 많은 정보: <a href="https://docs.gitlab.com/runner/">https://docs.gitlab.com/runner/</a>.</p>
+
+<ul>
+  <li>실행기 등록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo gitlab-runner register --url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://gitlab.example.com</span><code class="language-plaintext highlighter-rouge"> --registration-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">토큰</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>Docker 실행기로 실행기를 등록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo gitlab-runner register --url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://gitlab.example.com</span><code class="language-plaintext highlighter-rouge"> --registration-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">토큰</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --executor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">docker</span></p>
+
+<ul>
+  <li>실행기 등록 해제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo gitlab-runner unregister --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>실행기 서비스 상태를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo gitlab-runner status</code></p>
+
+<ul>
+  <li>실행기 서비스를 다시 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo gitlab-runner restart</code></p>
+
+<ul>
+  <li>등록된 실행기가 GitLab에 연결할 수 있는지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo gitlab-runner verify</code></p>

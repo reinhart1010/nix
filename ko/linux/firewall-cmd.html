@@ -1,0 +1,53 @@
+<h1 id="firewall-cmd">firewall-cmd</h1>
+
+<p>firewalld 명령줄 클라이언트.
+런타임 또는 영구 방화벽 구성 상태를 조회 및 수정.
+더 많은 정보: <a href="https://firewalld.org/documentation/man-pages/firewall-cmd">https://firewalld.org/documentation/man-pages/firewall-cmd</a>.</p>
+
+<ul>
+  <li>런타임 구성 상태에서 사용 가능한 모든 방화벽 영역과 규칙 조회:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --list-all-zones</code></p>
+
+<ul>
+  <li>인터페이스를 block 영역으로 영구적으로 이동하여 모든 통신 차단:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --permanent --zone=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">block</span><code class="language-plaintext highlighter-rouge"> --change-interface=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enp1s0</span></p>
+
+<ul>
+  <li>지정된 영역에서 서비스의 포트를 영구적으로 열기 (예: <code class="language-plaintext highlighter-rouge">public</code> 영역에서 포트 443):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --permanent --zone=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public</span><code class="language-plaintext highlighter-rouge"> --add-service=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https</span></p>
+
+<ul>
+  <li>지정된 영역에서 서비스의 포트를 영구적으로 닫기 (예: <code class="language-plaintext highlighter-rouge">public</code> 영역에서 포트 80):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --permanent --zone=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public</span><code class="language-plaintext highlighter-rouge"> --remove-service=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http</span></p>
+
+<ul>
+  <li>지정된 영역에서 들어오는 패킷의 포트를 영구적으로 포워딩 (예: <code class="language-plaintext highlighter-rouge">public</code> 영역에서 포트 443을 8443으로):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --permanent --zone=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public</span><code class="language-plaintext highlighter-rouge"> --add-rich-rule='rule family="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ipv4|ipv6</span><code class="language-plaintext highlighter-rouge">" forward-port port="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">443</span><code class="language-plaintext highlighter-rouge">" protocol="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">udp|tcp</span><code class="language-plaintext highlighter-rouge">" to-port="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8443</span><code class="language-plaintext highlighter-rouge">"'</code></p>
+
+<ul>
+  <li>firewalld를 다시 로드하여 런타임 변경 사항을 제거하고 영구 구성을 즉시 적용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --reload</code></p>
+
+<ul>
+  <li>런타임 구성 상태를 영구 구성으로 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --runtime-to-permanent</code></p>
+
+<ul>
+  <li>비상시 패닉 모드 활성화. 모든 트래픽이 차단되고 활성 연결이 종료됨:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firewall-cmd --panic-on</code></p>

@@ -1,0 +1,28 @@
+<h1 id="jar">jar</h1>
+
+<p>Java 应用程序 / 类库打包程序。
+更多信息：<a href="https://docs.oracle.com/javase/tutorial/deployment/jar/basicsindex.html">https://docs.oracle.com/javase/tutorial/deployment/jar/basicsindex.html</a>.</p>
+
+<ul>
+  <li>将当前目录中的所有文件递归归档到 <code class="language-plaintext highlighter-rouge">.jar</code> 文件中：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jar cf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.jar</span><code class="language-plaintext highlighter-rouge"> *</code></p>
+
+<ul>
+  <li>将 <code class="language-plaintext highlighter-rouge">.jar</code> / <code class="language-plaintext highlighter-rouge">.war</code> 文件解压缩到当前目录：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jar -xvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.jar</span></p>
+
+<ul>
+  <li>列出 <code class="language-plaintext highlighter-rouge">.jar</code> / <code class="language-plaintext highlighter-rouge">.war</code> 文件内容：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jar tf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.jar</span></p>
+
+<ul>
+  <li>列出带有详细输出的 <code class="language-plaintext highlighter-rouge">.jar</code> / <code class="language-plaintext highlighter-rouge">.war</code> 文件内容：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jar tvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.jar</span></p>

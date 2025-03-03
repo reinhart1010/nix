@@ -1,0 +1,47 @@
+<h1 id="ed">ed</h1>
+
+<p>O editor de texto original do Unix.
+Veja também: <code class="language-plaintext highlighter-rouge">awk</code>, <code class="language-plaintext highlighter-rouge">sed</code>.
+Mais informações: <a href="https://www.gnu.org/software/ed/manual/ed_manual.html">https://www.gnu.org/software/ed/manual/ed_manual.html</a>.</p>
+
+<ul>
+  <li>Inicia uma sessão do editor interativo com um documento vazio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed</code></p>
+
+<ul>
+  <li>Inicia uma sessão do editor interativo com um documento vazio e um prompt específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed --prompt='&gt; '</code></p>
+
+<ul>
+  <li>Inicia uma sessão do editor interativo com erros compreensíveis para usuários:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed --verbose</code></p>
+
+<ul>
+  <li>Inicia uma sessão do editor interativo com um documento vazio e sem diagnósticos, contagens de bytes e prompt "!":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed --quiet</code></p>
+
+<ul>
+  <li>Inicia uma sessão do editor interativo sem mudança no status de saída quando o comando falha:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed --loose-exit-status</code></p>
+
+<ul>
+  <li>Edita um arquivo específico (mostra a contagem de bytes do arquivo carregado):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Substitui a string com um substituto específico em todas as linhas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">,s/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">substituto</span><code class="language-plaintext highlighter-rouge">/g</code></p>

@@ -1,0 +1,52 @@
+<h1 id="git-checkout">git checkout</h1>
+
+<p>Checkout a branch or paths to the working tree.
+More information: <a href="https://git-scm.com/docs/git-checkout">https://git-scm.com/docs/git-checkout</a>.</p>
+
+<ul>
+  <li>Create and switch to a new branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Create and switch to a new branch based on a specific reference (branch, remote/branch, tag are examples of valid references):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reference</span></p>
+
+<ul>
+  <li>Switch to an existing local branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Switch to the previously checked out branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout -</code></p>
+
+<ul>
+  <li>Switch to an existing remote branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout --track </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Discard all unstaged changes in the current directory (see <code class="language-plaintext highlighter-rouge">git reset</code> for more undo-like commands):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout .</code></p>
+
+<ul>
+  <li>Discard unstaged changes to a given file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Replace a file in the current directory with the version of it committed in a given branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

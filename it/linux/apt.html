@@ -1,0 +1,53 @@
+<h1 id="apt">apt</h1>
+
+<p>Servizio di gestione dei pacchetti per distribuzioni basate su Debian.
+Rimpiazzo raccomandato di <code class="language-plaintext highlighter-rouge">apt-get</code> quando usato interattivamente su Ubuntu 16.04 e versioni successive.
+Maggiori informazioni: <a href="https://manned.org/apt.8">https://manned.org/apt.8</a>.</p>
+
+<ul>
+  <li>Aggiorna la lista dei pacchetti e delle loro versioni disponibili (è consigliato eseguire questo comando prima di altri comandi <code class="language-plaintext highlighter-rouge">apt</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>Cerca per un dato pacchetto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacchetto</span></p>
+
+<ul>
+  <li>Mostra le informazioni su un pacchetto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacchetto</span></p>
+
+<ul>
+  <li>Installa un pacchetto, o lo aggiorna all'ultima versione disponibile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacchetto</span></p>
+
+<ul>
+  <li>Rimuove un pacchetto (usando <code class="language-plaintext highlighter-rouge">purge</code> rimuove anche i suoi file di configurazione):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacchetto</span></p>
+
+<ul>
+  <li>Aggiorna tutti i pacchetti installati alla versione disponibile più recente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt upgrade</code></p>
+
+<ul>
+  <li>Elenca tutti i pacchetti:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list</code></p>
+
+<ul>
+  <li>Elenca i pacchetti installati:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list --installed</code></p>

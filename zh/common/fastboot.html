@@ -1,0 +1,46 @@
+<h1 id="fastboot">fastboot</h1>
+
+<p>在引导加载程序模式下与连接的 Android 设备通信（在这里无法使用 ADB）。
+更多信息：<a href="https://cs.android.com/android/platform/superproject/+/main:system/core/fastboot">https://cs.android.com/android/platform/superproject/+/main:system/core/fastboot</a>.</p>
+
+<ul>
+  <li>解锁引导加载程序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot oem unlock</code></p>
+
+<ul>
+  <li>回锁引导加载程序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot oem lock</code></p>
+
+<ul>
+  <li>从 fastboot 模式再次重启到 fastboot 模式：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot reboot bootloader</code></p>
+
+<ul>
+  <li>刷入镜像：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot flash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.img</span></p>
+
+<ul>
+  <li>刷入自定义恢复镜像：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot flash recovery </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.img</span></p>
+
+<ul>
+  <li>列出已连接的设备：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot devices</code></p>
+
+<ul>
+  <li>列出设备所有信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot getvar all</code></p>

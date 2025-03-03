@@ -1,0 +1,47 @@
+<h1 id="go">go</h1>
+
+<p>إدارة كود مصدر Go.
+بعض الأوامر الفرعية مثل <code class="language-plaintext highlighter-rouge">build</code> تحتوي على توثيق استخدام خاص بها.
+لمزيد من التفاصيل: <a href="https://golang.org">https://golang.org</a>.</p>
+
+<ul>
+  <li>تنزيل وتثبيت حزمة محددة بالمسار الخاص بها:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_path</span></p>
+
+<ul>
+  <li>ترجمة وتشغيل ملف مصدر (يجب أن يحتوي على حزمة <code class="language-plaintext highlighter-rouge">main</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span><code class="language-plaintext highlighter-rouge">.go</code></p>
+
+<ul>
+  <li>ترجمة ملف مصدر إلى ملف تنفيذي باسم محدد:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go build -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span><code class="language-plaintext highlighter-rouge">.go</code></p>
+
+<ul>
+  <li>ترجمة الحزمة الموجودة في المجلد الحالي:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go build</code></p>
+
+<ul>
+  <li>تنفيذ جميع اختبارات الحزمة الحالية (يجب أن تنتهي الملفات بـ <code class="language-plaintext highlighter-rouge">_test.go</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test</code></p>
+
+<ul>
+  <li>ترجمة وتثبيت الحزمة الحالية:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go install</code></p>
+
+<ul>
+  <li>تهيئة وحدة جديدة في المجلد الحالي:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go mod init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span></p>

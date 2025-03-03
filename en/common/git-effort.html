@@ -1,0 +1,41 @@
+<h1 id="git-effort">git effort</h1>
+
+<p>Display how much activity a file has had, showing commits per file and "active days" i.e. total number of days that contributed to the file.
+Part of <code class="language-plaintext highlighter-rouge">git-extras</code>.
+More information: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-effort">https://github.com/tj/git-extras/blob/master/Commands.md#git-effort</a>.</p>
+
+<ul>
+  <li>Display each file in the repository, showing commits and active days:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git effort</code></p>
+
+<ul>
+  <li>Display files modified by a specific number of commits or more, showing commits and active days:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git effort --above </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>Display files modified by a specific author, showing commits and active days:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git effort -- --author="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Display files modified since a specific time/date, showing commits and active days:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git effort -- --since="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">last month</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Display only the specified files or directories, showing commits and active days:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git effort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 …</span></p>
+
+<ul>
+  <li>Display all files in a specific directory, showing commits and active days:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git effort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory/*</span></p>

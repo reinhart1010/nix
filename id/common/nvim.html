@@ -1,0 +1,53 @@
+<h1 id="nvim">nvim</h1>
+
+<p>Neovim, teks editor programmer berbasis Vim, menyediakan beberapa mode untuk manipulasi teks berbeda jenis.
+Tekan <code class="language-plaintext highlighter-rouge">i</code> masuk mode edit. <code class="language-plaintext highlighter-rouge">&lt;Esc&gt;</code> kembali ke mode normal, yang tidak mengizinkan penyisipan teks biasa.
+Informasi lebih lanjut: <a href="https://neovim.io">https://neovim.io</a>.</p>
+
+<ul>
+  <li>Membuka berkas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nvim </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">berkas</span></p>
+
+<ul>
+  <li>Masuk ke mode pengeditan teks (insert mode):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;i</code></p>
+
+<ul>
+  <li>Menyalin ("yank") atau memotong ("delete") baris saat ini (tempel itu dengan <code class="language-plaintext highlighter-rouge">P</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yy|dd</span></p>
+
+<ul>
+  <li>Batalkan operasi terakhir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;u</code></p>
+
+<ul>
+  <li>Mencari sebuah pattern pada berkas (tekan <code class="language-plaintext highlighter-rouge">n</code>/<code class="language-plaintext highlighter-rouge">N</code> untuk pergi ke kecocokan berikutnya/sebelumnya):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_pencarian</span><code class="language-plaintext highlighter-rouge">&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>Melakukan penggantian ekspresi reguler pada seluruh berkas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;:%s/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ekspresi_reguler</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pengganti</span><code class="language-plaintext highlighter-rouge">/g&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>Menyimpan (write) berkas, dan keluar:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>&lt;/span&gt;</Enter></Esc></Enter></Esc></Esc></span></p>
+
+<ul>
+  <li>Keluar tanpa menyimpan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;:q!&lt;Enter&gt;</code></p>

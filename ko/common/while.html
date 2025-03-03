@@ -1,0 +1,19 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="while">while</h1>
+
+<p>간단한 셸 루프.
+더 많은 정보: <a href="https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_09_04_09">https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_09_04_09</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>을 읽고 각 줄에 대해 작업 수행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while read line; do echo "$line"; done</code></p>
+
+<ul>
+  <li>매초마다 명령을 영구적으로 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while :; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span><code class="language-plaintext highlighter-rouge">; sleep 1; done</code></p>

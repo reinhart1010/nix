@@ -1,0 +1,53 @@
+<h1 id="lsof">lsof</h1>
+
+<p>Lista arquivos abertos e os seus processos correspondentes.
+Nota: Privilégios de administrador (ou sudo) são necessários para listar arquivos abertos por outros.
+Mais informações: <a href="https://manned.org/lsof">https://manned.org/lsof</a>.</p>
+
+<ul>
+  <li>Localiza os processos que têm um certo arquivo aberto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsof </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Localiza o processo que abriu uma porta de internet local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsof -i :</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta</span></p>
+
+<ul>
+  <li>Mostra o ID (PID) do processo que abriu um arquivo especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsof -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Lista arquivos abertos por um certo usuário:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsof -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_usuario</span></p>
+
+<ul>
+  <li>Lista arquivos abertos por um certo comando ou processo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsof -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_processo_ou_comando</span></p>
+
+<ul>
+  <li>Lista arquivos abertos por um certo processo, dado o seu PID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsof -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>
+
+<ul>
+  <li>Lista arquivos abertos em um diretório:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsof +D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Encontra o processo que está ouvindo uma porta de IPv6 TCP local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsof -i6TCP:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta</span><code class="language-plaintext highlighter-rouge"> -sTCP:LISTEN -n -P</code></p>

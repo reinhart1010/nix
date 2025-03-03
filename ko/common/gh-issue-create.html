@@ -1,0 +1,46 @@
+<h1 id="gh-issue-create">gh issue create</h1>
+
+<p>저장소에 GitHub 이슈 생성.
+더 많은 정보: <a href="https://cli.github.com/manual/gh_issue_create">https://cli.github.com/manual/gh_issue_create</a>.</p>
+
+<ul>
+  <li>현재 저장소에 대해 대화식으로 새 이슈 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue create</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">bug</code> 레이블을 사용하여 대화식으로 새 이슈 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue create --label "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bug</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>지정된 사용자에게 할당하여 대화식으로 새 이슈 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue create --assignee </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user1,user2,…</span></p>
+
+<ul>
+  <li>제목과 본문을 지정하고 현재 사용자에게 할당하여 새 이슈 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue create --title "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">제목</span><code class="language-plaintext highlighter-rouge">" --body "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">본문</span><code class="language-plaintext highlighter-rouge">" --assignee "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@me</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>파일에서 본문 텍스트를 읽어와 대화식으로 새 이슈 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue create --body-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>기본 웹 브라우저에서 새 이슈 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue create --web</code></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue create --help</code></p>

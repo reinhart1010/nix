@@ -1,0 +1,40 @@
+<h1 id="mktemp">mktemp</h1>
+
+<p>Create a temporary file or directory.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/mktemp-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/mktemp-invocation.html</a>.</p>
+
+<ul>
+  <li>Create an empty temporary file and print its absolute path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp</code></p>
+
+<ul>
+  <li>Use a custom directory (defaults to <code class="language-plaintext highlighter-rouge">$TMPDIR</code>, or <code class="language-plaintext highlighter-rouge">/tmp</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp --tmpdir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/tempdir</span></p>
+
+<ul>
+  <li>Use a custom path template (<code class="language-plaintext highlighter-rouge">X</code>s are replaced with random alphanumeric characters):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/tmp/example.XXXXXXXX</span></p>
+
+<ul>
+  <li>Use a custom file name template:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.XXXXXXXX</span></p>
+
+<ul>
+  <li>Create an empty temporary file with the given suffix and print its absolute path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp --suffix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.ext</span></p>
+
+<ul>
+  <li>Create an empty temporary directory and print its absolute path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp --directory</code></p>

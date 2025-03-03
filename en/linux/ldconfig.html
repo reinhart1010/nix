@@ -1,0 +1,22 @@
+<h1 id="ldconfig">ldconfig</h1>
+
+<p>Configure symlinks and cache for shared library dependencies.
+More information: <a href="https://manned.org/ldconfig">https://manned.org/ldconfig</a>.</p>
+
+<ul>
+  <li>Update symlinks and rebuild the cache (usually run when a new library is installed):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ldconfig</code></p>
+
+<ul>
+  <li>Update the symlinks for a given directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ldconfig -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Print the libraries in the cache and check whether a given library is present:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldconfig -p | grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">library_name</span></p>

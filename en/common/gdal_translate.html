@@ -1,0 +1,28 @@
+<h1 id="gdal_translate">gdal_translate</h1>
+
+<p>Convert raster data between different formats.
+More information: <a href="https://gdal.org/programs/gdal_translate.html">https://gdal.org/programs/gdal_translate.html</a>.</p>
+
+<ul>
+  <li>Convert a raster dataset to JPEG format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdal_translate -of </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">JPEG</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.tif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.jpeg</span></p>
+
+<ul>
+  <li>Assign a projection to a raster dataset:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdal_translate -a_srs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">EPSG:4326</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.tif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.tif</span></p>
+
+<ul>
+  <li>Reduce the size of a raster dataset to a specific fraction:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdal_translate -outsize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">40%</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">40%</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.tif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.tif</span></p>
+
+<ul>
+  <li>Convert a GeoTiff to a Cloud Optimized GeoTiff:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdal_translate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.tif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.tif</span><code class="language-plaintext highlighter-rouge"> -of COG -co COMPRESS=LZW</code></p>

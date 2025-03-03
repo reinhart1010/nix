@@ -1,0 +1,53 @@
+<h1 id="transmission-cli">transmission-cli</h1>
+
+<p>Um cliente BitTorrent leve e de linha de comando.
+Esta ferramenta foi descontinuada. Por favor, veja <code class="language-plaintext highlighter-rouge">transmission-remote</code>.
+Mais informações: <a href="https://transmissionbt.com">https://transmissionbt.com</a>.</p>
+
+<ul>
+  <li>Baixa um torrent específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Baixa um torrent para um diretório específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --download-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório_download</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Cria um arquivo torrent de um arquivo ou diretório específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretório_origem</span></p>
+
+<ul>
+  <li>Especifica o limite de velocidade de download (em KB/s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --downlimit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Especifica o limite de velocidade de upload (em KB/s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --uplimit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Usa uma porta específica para conexões:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_porta</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Força criptografia para conexões com pares:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --encryption-required </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Usa uma lista de bloqueio de pares formatados em Bluetack:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-cli --blocklist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_lista_bloqueio|caminho/para/lista_bloqueio</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|caminho/para/arquivo</span></p>

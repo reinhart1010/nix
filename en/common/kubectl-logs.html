@@ -1,0 +1,46 @@
+<h1 id="kubectl-logs">kubectl logs</h1>
+
+<p>Show logs for containers in a pod.
+More information: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#logs">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#logs</a>.</p>
+
+<ul>
+  <li>Show logs for a single-container pod:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl logs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span></p>
+
+<ul>
+  <li>Show logs for a specified container in a pod:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl logs --container </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span></p>
+
+<ul>
+  <li>Show logs for all containers in a pod:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl logs --all-containers=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span></p>
+
+<ul>
+  <li>Stream pod logs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl logs --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span></p>
+
+<ul>
+  <li>Show pod logs newer than a relative time like <code class="language-plaintext highlighter-rouge">10s</code>, <code class="language-plaintext highlighter-rouge">5m</code>, or <code class="language-plaintext highlighter-rouge">1h</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl logs --since=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">relative_time</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span></p>
+
+<ul>
+  <li>Show the 10 most recent logs in a pod:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl logs --tail=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span></p>
+
+<ul>
+  <li>Show all pod logs for a given deployment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl logs deployment/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deployment_name</span></p>

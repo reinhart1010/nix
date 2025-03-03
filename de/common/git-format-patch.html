@@ -1,0 +1,23 @@
+<h1 id="git-format-patch">git format-patch</h1>
+
+<p>Erstelle <code class="language-plaintext highlighter-rouge">.patch</code> Dateien. Ermöglicht das Senden von Commits per E-Mail.
+Siehe auch <code class="language-plaintext highlighter-rouge">git am</code>, womit <code class="language-plaintext highlighter-rouge">.patch</code> Datein lokal angewandt werden.
+Weitere Informationen: <a href="https://git-scm.com/docs/git-format-patch">https://git-scm.com/docs/git-format-patch</a>.</p>
+
+<ul>
+  <li>Erzeuge eine <code class="language-plaintext highlighter-rouge">.patch</code> Datei aus allen nicht gepushten Commits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git format-patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">origin</span></p>
+
+<ul>
+  <li>Erstelle eine <code class="language-plaintext highlighter-rouge">.patch</code> Datei aus allen Commits zwischen den angegebenen Revisionen und schreibe diese nach <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git format-patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision_1</span><code class="language-plaintext highlighter-rouge">..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision_2</span></p>
+
+<ul>
+  <li>Erstelle eine <code class="language-plaintext highlighter-rouge">.patch</code> Datei aus den letzten 3 Commits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git format-patch -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>

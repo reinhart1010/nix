@@ -1,0 +1,35 @@
+<h1 id="install-nodeversion">Install-NodeVersion</h1>
+
+<p>Install Node.js runtime versions for <code class="language-plaintext highlighter-rouge">ps-nvm</code>.
+This command is part of <code class="language-plaintext highlighter-rouge">ps-nvm</code> and can only be run under PowerShell.
+More information: <a href="https://github.com/aaronpowell/ps-nvm">https://github.com/aaronpowell/ps-nvm</a>.</p>
+
+<ul>
+  <li>Install a specific Node.js version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-NodeVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_version</span></p>
+
+<ul>
+  <li>Install multiple Node.js versions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-NodeVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_version1 , node_version2 , …</span></p>
+
+<ul>
+  <li>Install latest available version of Node.js 20:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-NodeVersion ^20</code></p>
+
+<ul>
+  <li>Install the x86 (x86 32-bit) / x64 (x86 64-bit) / arm64 (ARM 64-bit) version of Node.js:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-NodeVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_version</span><code class="language-plaintext highlighter-rouge"> -Architecture </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x86|x64|arm64</span></p>
+
+<ul>
+  <li>Use a HTTP proxy to download Node.js:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-NodeVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node-version</span><code class="language-plaintext highlighter-rouge"> -Proxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span></p>

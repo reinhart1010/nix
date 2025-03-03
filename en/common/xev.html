@@ -1,0 +1,28 @@
+<h1 id="xev">xev</h1>
+
+<p>Print contents of X events.
+More information: <a href="https://gitlab.freedesktop.org/xorg/app/xev">https://gitlab.freedesktop.org/xorg/app/xev</a>.</p>
+
+<ul>
+  <li>Monitor all occurring X events:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xev</code></p>
+
+<ul>
+  <li>Monitor all X events of the root window instead of creating a new one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xev -root</code></p>
+
+<ul>
+  <li>Monitor all X events of a particular window:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xev -id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">window_id</span></p>
+
+<ul>
+  <li>Monitor X events from a given category (can be specified multiple times):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xev -event </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">event_category</span></p>

@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="open">open</h1>
+
+<p>打开文件、目录和应用程序。
+更多信息：<a href="https://keith.github.io/xcode-man-pages/open.1.html">https://keith.github.io/xcode-man-pages/open.1.html</a>.</p>
+
+<ul>
+  <li>使用系统关联的应用程序打开文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.extension</span></p>
+
+<ul>
+  <li>运行图形化的 macOS 应用程序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">应用程序名</span></p>
+
+<ul>
+  <li>运行指定 包名 的图形化 macOS 应用程序（请参阅<code class="language-plaintext highlighter-rouge">OSascript</code>命令，查询如何获取应用程序的 包名）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.domain.application 应用程序包名</span></p>
+
+<ul>
+  <li>在"访达（finder）"中打开当前文件夹：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open .</code></p>
+
+<ul>
+  <li>打开"访达（finder）", 并且给出指定文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径</span></p>
+
+<ul>
+  <li>使用系统默认应用程序，打开当前目录中所有给定扩展名的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">open </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.extension</span></p>

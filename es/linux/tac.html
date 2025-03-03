@@ -1,0 +1,35 @@
+<h1 id="tac">tac</h1>
+
+<p>Muestra y concatena archivos con las líneas en orden inverso.
+Vea también: <code class="language-plaintext highlighter-rouge">cat</code>.
+Más información: <a href="https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html</a>.</p>
+
+<ul>
+  <li>Concatena archivos específicos en orden inverso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tac </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 …</span></p>
+
+<ul>
+  <li>Muestra <code class="language-plaintext highlighter-rouge">stdin</code> en orden inverso:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat ruta/al/archivo</span><code class="language-plaintext highlighter-rouge"> | tac</code></p>
+
+<ul>
+  <li>Usa un separador específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tac --separator </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 …</span></p>
+
+<ul>
+  <li>Usa una expresión regular específica como separador:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tac --regex --separator </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[,;]</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 …</span></p>
+
+<ul>
+  <li>Usa un separador antes de cada archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tac --before </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 …</span></p>

@@ -1,0 +1,46 @@
+<h1 id="uvcdynctrl">uvcdynctrl</h1>
+
+<p>A libwebcam command-line tool to manage dynamic controls in uvcvideo.
+More information: <a href="https://manned.org/uvcdynctrl">https://manned.org/uvcdynctrl</a>.</p>
+
+<ul>
+  <li>List all available cameras:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uvcdynctrl -l</code></p>
+
+<ul>
+  <li>Use a specific device (defaults to <code class="language-plaintext highlighter-rouge">video0</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uvcdynctrl -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span></p>
+
+<ul>
+  <li>List available controls:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uvcdynctrl -c</code></p>
+
+<ul>
+  <li>Set a new control value (for negative values, use <code class="language-plaintext highlighter-rouge">-- -value</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uvcdynctrl -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">control_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Get the current control value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uvcdynctrl -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">control_name</span></p>
+
+<ul>
+  <li>Save the state of the current controls to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uvcdynctrl -W </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Load the state of the controls from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uvcdynctrl -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>

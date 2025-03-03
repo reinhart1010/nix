@@ -1,0 +1,23 @@
+<h1 id="systemd-notify">systemd-notify</h1>
+
+<p>Notify the service manager about start-up completion and other daemon status changes.
+This command is useless outside systemd service scripts.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/systemd-notify.html">https://www.freedesktop.org/software/systemd/man/systemd-notify.html</a>.</p>
+
+<ul>
+  <li>Notify systemd that the service has completed its initialization and is fully started. It should be invoked when the service is ready to accept incoming requests:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-notify --booted</code></p>
+
+<ul>
+  <li>Signal to systemd that the service is ready to handle incoming connections or perform its tasks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-notify --ready</code></p>
+
+<ul>
+  <li>Provide a custom status message to systemd (this information is shown by <code class="language-plaintext highlighter-rouge">systemctl status</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-notify --status="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Add custom status message here…</span><code class="language-plaintext highlighter-rouge">"</code></p>

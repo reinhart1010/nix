@@ -1,0 +1,40 @@
+<h1 id="gum">gum</h1>
+
+<p>매력적인 쉘 스크립트 만들기.
+더 많은 정보: <a href="https://github.com/charmbracelet/gum">https://github.com/charmbracelet/gum</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdout</code>으로 출력할 특정 옵션을 대화형으로 선택:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gum choose "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">옵션_1</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">옵션_2</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">옵션_3</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>사용자가 특정 자리 표시자와 함께 문자열을 입력할 수 있는 대화형 프롬프트를 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gum input --placeholder "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>대화형 확인 프롬프트를 열고 <code class="language-plaintext highlighter-rouge">0</code> 또는 <code class="language-plaintext highlighter-rouge">1</code>로 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gum confirm "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Continue?</span><code class="language-plaintext highlighter-rouge">" --default=false --affirmative "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Yes</span><code class="language-plaintext highlighter-rouge">" --negative "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">No</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">&amp;&amp; echo "Yes selected" || echo "No selected"</span></p>
+
+<ul>
+  <li>명령이 실행되는 동안 텍스트와 함께 스피너를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gum spin --spinner </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dot|line|minidot|jump|pulse|points|globe|moon|monkey|meter|hamburger</span><code class="language-plaintext highlighter-rouge"> --title "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">loading…</span><code class="language-plaintext highlighter-rouge">" -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>이모티콘을 포함하도록 텍스트 형식을 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gum format -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">emoji</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:smile: :heart: hello</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>여러 줄의 텍스트를 대화식으로 프롬프트하고 (저장하려면 CTRL + D) <code class="language-plaintext highlighter-rouge">data.txt</code>에 작성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gum write &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.txt</span></p>

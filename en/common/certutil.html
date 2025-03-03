@@ -1,0 +1,34 @@
+<h1 id="certutil">certutil</h1>
+
+<p>Manage keys and certificates in both NSS databases and other NSS tokens.
+More information: <a href="https://manned.org/certutil">https://manned.org/certutil</a>.</p>
+
+<ul>
+  <li>Create a [N]ew certificate database in the current [d]irectory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil -N -d .</code></p>
+
+<ul>
+  <li>List all certificates in a database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil -L -d .</code></p>
+
+<ul>
+  <li>List all private [K]eys in a database specifying the password [f]ile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil -K -d . -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/password_file.txt</span></p>
+
+<ul>
+  <li>[A]dd the signed certificate to the requesters database specifying a [n]ickname, [t]rust attributes and an [i]nput CRT file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil -A -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_certificate</span><code class="language-plaintext highlighter-rouge">" -t ",," -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.crt</span><code class="language-plaintext highlighter-rouge"> -d .</code></p>
+
+<ul>
+  <li>Add subject alternative names to a given [c]ertificate with a specific key size ([g]):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil -S -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/password_file.txt</span><code class="language-plaintext highlighter-rouge"> -d . -t ",," -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_certificate</span><code class="language-plaintext highlighter-rouge">" -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_name</span><code class="language-plaintext highlighter-rouge">" -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2048</span><code class="language-plaintext highlighter-rouge"> -s "CN=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">common_name</span><code class="language-plaintext highlighter-rouge">,O=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization</span><code class="language-plaintext highlighter-rouge">"</code></p>

@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="pacman">pacman</h1>
+
+<p>Outil de gestion de paquets sur Arch Linux.
+Voir aussi: <code class="language-plaintext highlighter-rouge">pacman-database</code>, <code class="language-plaintext highlighter-rouge">pacman-deptest</code>, <code class="language-plaintext highlighter-rouge">pacman-files</code>, <code class="language-plaintext highlighter-rouge">pacman-key</code>, <code class="language-plaintext highlighter-rouge">pacman-mirrors</code>, <code class="language-plaintext highlighter-rouge">pacman-query</code>, <code class="language-plaintext highlighter-rouge">pacman-remove</code>, <code class="language-plaintext highlighter-rouge">pacman-sync</code>, <code class="language-plaintext highlighter-rouge">pacman-upgrade</code>.
+Plus d'informations : <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Synchronise et mets à jour tous les paquets :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Syu</code></p>
+
+<ul>
+  <li>Installe un nouveau paquet :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_paquet</span></p>
+
+<ul>
+  <li>Efface un paquet et ses dépendances :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Rs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_paquet</span></p>
+
+<ul>
+  <li>Recherche dans la base de données des paquets contenant un certain fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -F "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_fichier</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Liste les paquets installés et leurs versions :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Q</code></p>
+
+<ul>
+  <li>Liste seulement les paquets installés explicitement et leurs versions :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qe</code></p>
+
+<ul>
+  <li>Vide le cache des paquets pour libérer de l'espace :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Scc</code></p>

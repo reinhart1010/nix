@@ -1,0 +1,46 @@
+<h1 id="aws-cloudformation">aws cloudformation</h1>
+
+<p>Model, provision, and manage AWS and third-party resources by treating infrastructure as code.
+More information: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudformation/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudformation/index.html</a>.</p>
+
+<ul>
+  <li>Create a stack from a template file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudformation create-stack --stack-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stack-name</span><code class="language-plaintext highlighter-rouge"> --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span><code class="language-plaintext highlighter-rouge"> --template-body </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file://path/to/file.yml</span><code class="language-plaintext highlighter-rouge"> --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile</span></p>
+
+<ul>
+  <li>Delete a stack:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudformation delete-stack --stack-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stack-name</span><code class="language-plaintext highlighter-rouge"> --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile</span></p>
+
+<ul>
+  <li>List all stacks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudformation list-stacks --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile</span></p>
+
+<ul>
+  <li>List all running stacks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudformation list-stacks --stack-status-filter CREATE_COMPLETE --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile</span></p>
+
+<ul>
+  <li>Check the status of a stack:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudformation describe-stacks --stack-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stack-id</span><code class="language-plaintext highlighter-rouge"> --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile</span></p>
+
+<ul>
+  <li>Initiate drift detection for a stack:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudformation detect-stack-drift --stack-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stack-id</span><code class="language-plaintext highlighter-rouge"> --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile</span></p>
+
+<ul>
+  <li>Check the drift status output of a stack using 'StackDriftDetectionId' from the previous command output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws cloudformation describe-stack-resource-drifts --stack-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stack-drift-detection-id</span><code class="language-plaintext highlighter-rouge"> --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile</span></p>

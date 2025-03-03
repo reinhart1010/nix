@@ -1,0 +1,35 @@
+<h1 id="az-login">az login</h1>
+
+<p>登入到 Azure。
+<code class="language-plaintext highlighter-rouge">azure-cli</code> 的一部分（也稱為 <code class="language-plaintext highlighter-rouge">az</code>）。
+更多資訊：<a href="https://learn.microsoft.com/cli/azure/reference-index#az-login">https://learn.microsoft.com/cli/azure/reference-index#az-login</a>.</p>
+
+<ul>
+  <li>以互動方式進行登入：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az login</code></p>
+
+<ul>
+  <li>使用客戶端密鑰登入服務主體：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az login --service-principal --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://azure-cli-service-principal</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secret</span><code class="language-plaintext highlighter-rouge"> --tenant </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">someone.onmicrosoft.com</span></p>
+
+<ul>
+  <li>使用客戶端憑證登入服務主體：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az login --service-principal --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://azure-cli-service-principal</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路徑/到/憑證.pem</span><code class="language-plaintext highlighter-rouge"> --tenant </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">someone.onmicrosoft.com</span></p>
+
+<ul>
+  <li>使用 VM 的系統指派身份登入：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az login --identity</code></p>
+
+<ul>
+  <li>使用 VM 的使用者分配身份登入：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az login --identity --username /subscriptions/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subscription_id</span><code class="language-plaintext highlighter-rouge">/resourcegroups/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_rg</span><code class="language-plaintext highlighter-rouge">/providers/Microsoft.ManagedIdentity/userAssignedIdentities/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_id</span></p>

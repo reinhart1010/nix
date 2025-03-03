@@ -1,0 +1,16 @@
+<h1 id="ddrescue">ddrescue</h1>
+
+<p>Data recovery tool that reads data from damaged block devices.
+More information: <a href="https://www.gnu.org/software/ddrescue/">https://www.gnu.org/software/ddrescue/</a>.</p>
+
+<ul>
+  <li>Take an image of a device, creating a log file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ddrescue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.dd</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/log.txt</span></p>
+
+<ul>
+  <li>Clone Disk A to Disk B, creating a log file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ddrescue --force --no-scrape </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdY</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/log.txt</span></p>

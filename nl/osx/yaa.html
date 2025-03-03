@@ -1,0 +1,40 @@
+<h1 id="yaa">yaa</h1>
+
+<p>Maak en beheer YAA-archieven.
+Meer informatie: <a href="https://keith.github.io/xcode-man-pages/yaa.1.html">https://keith.github.io/xcode-man-pages/yaa.1.html</a>.</p>
+
+<ul>
+  <li>Maak een archief van een map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yaa archive -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer_bestand.yaa</span></p>
+
+<ul>
+  <li>Maak een archief van een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yaa archive -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer_bestand.yaa</span></p>
+
+<ul>
+  <li>Pak een archief uit naar de huidige map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yaa extract -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/archive_file.yaa</span></p>
+
+<ul>
+  <li>Toon de inhoud van een archief:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yaa list -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/archive_file.yaa</span></p>
+
+<ul>
+  <li>Maak een archief met een specifiek compressie-algoritme:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yaa archive -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algoritme</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer_bestand.yaa</span></p>
+
+<ul>
+  <li>Maak een archief met een blokgrootte van 8 MB:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yaa archive -b 8m -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer_bestand.yaa</span></p>

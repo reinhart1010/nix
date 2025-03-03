@@ -1,0 +1,53 @@
+<h1 id="apt">apt</h1>
+
+<p>Debian tabanlı dağıtımlar için paket yönetim aracı.
+Ubuntu 16.04 ve sonraki sürümlerde interaktif kullanıldığında <code class="language-plaintext highlighter-rouge">apt-get</code> için önerilen değiştirme.
+Daha fazla bilgi için: <a href="https://manned.org/apt.8">https://manned.org/apt.8</a>.</p>
+
+<ul>
+  <li>Kullanılabilir paket ve versiyonların listesini yenile (Bu komutu diğer <code class="language-plaintext highlighter-rouge">apt</code> komutlarından önce kullanmanız önerilir):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>Belirli bir paketi arayın:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>Bir paketin bilgilerini gösterin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>Bir paket kurun veya mevcut en son sürüme güncelleyin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>Bir paketi kaldırın (bunun için "purge" kullanmak, yapılandırma dosyalarını da kaldırır):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>Kurulu tüm paketleri mevcut en yeni sürümlerine yükseltin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt upgrade</code></p>
+
+<ul>
+  <li>Tüm paketleri listeleyin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list</code></p>
+
+<ul>
+  <li>Kurulu paketleri listeleyin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list --installed</code></p>

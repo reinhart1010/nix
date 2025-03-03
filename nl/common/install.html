@@ -1,0 +1,41 @@
+<h1 id="install">install</h1>
+
+<p>Kopieer bestanden en stel attributen in.
+Kopieer bestanden (vaak uitvoerbare) naar een systeemlocatie zoals <code class="language-plaintext highlighter-rouge">/usr/local/bin</code> en geef ze de juiste permissies/eigendom.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/install-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/install-invocation.html</a>.</p>
+
+<ul>
+  <li>Kopieer bestanden naar de bestemming:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bronbestand1 pad/naar/bronbestand2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestemming</span></p>
+
+<ul>
+  <li>Kopieer bestanden naar de bestemming en stel hun eigendom in:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">install --owner </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruiker</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bronbestand1 pad/naar/bronbestand2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestemming</span></p>
+
+<ul>
+  <li>Kopieer bestanden naar de bestemming en stel hun groepseigendom in:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">install --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruiker</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bronbestand1 pad/naar/bronbestand2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestemming</span></p>
+
+<ul>
+  <li>Kopieer bestanden naar de bestemming en stel hun <code class="language-plaintext highlighter-rouge">modus</code> in:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">install --mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+x</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bronbestand1 pad/naar/bronbestand2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestemming</span></p>
+
+<ul>
+  <li>Kopieer bestanden en pas toegangstijden/wijzigingstijden van de bron toe op de bestemming:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">install --preserve-timestamps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bronbestand1 pad/naar/bronbestand2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestemming</span></p>
+
+<ul>
+  <li>Kopieer bestanden en maak de mappen op de bestemming aan als ze niet bestaan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">install -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bronbestand1 pad/naar/bronbestand2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestemming</span></p>

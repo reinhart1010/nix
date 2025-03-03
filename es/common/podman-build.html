@@ -1,0 +1,35 @@
+<h1 id="podman-build">podman build</h1>
+
+<p>Herramienta que no corre como servicio (daemon) para construir imágenes de contenedores.
+Podman proporciona una línea de comando comparable con Docker-CLI. En pocas palabras: <code class="language-plaintext highlighter-rouge">alias docker=podman</code>.
+Más información: <a href="https://docs.podman.io/en/latest/markdown/podman-build.1.html">https://docs.podman.io/en/latest/markdown/podman-build.1.html</a>.</p>
+
+<ul>
+  <li>Crea una imagen usando un <code class="language-plaintext highlighter-rouge">Dockerfile</code> o <code class="language-plaintext highlighter-rouge">Containerfile</code> en el directorio especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Crea una imagen con una etiqueta especificada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman build --tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_imagen:version</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Crea una imagen de un archivo no estándar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman build --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Archivo_contenedor.different</span><code class="language-plaintext highlighter-rouge"> .</code></p>
+
+<ul>
+  <li>Crea una imagen sin usar ninguna imagen previamente almacenada en caché:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman build --no-cache </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Crea una imagen suprimiendo cualquier mensaje informativo (output):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman build --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>

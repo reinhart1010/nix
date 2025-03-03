@@ -1,0 +1,35 @@
+<h1 id="csplit">csplit</h1>
+
+<p>Splits een bestand in stukken.
+Dit genereert bestanden zoals "xx00", "xx01" etc.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/csplit-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/csplit-invocation.html</a>.</p>
+
+<ul>
+  <li>Splits een bestand op regels 5 en 23:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csplit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span><code class="language-plaintext highlighter-rouge"> 5 23</code></p>
+
+<ul>
+  <li>Splits een bestand iedere 5 regels (dit zal falen als het totaal aantal regels niet deelbaar is door 5):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csplit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span><code class="language-plaintext highlighter-rouge"> 5 {*}</code></p>
+
+<ul>
+  <li>Splits een bestand iedere 5 regels en negeer de exacte verdeeldheid error:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csplit -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span><code class="language-plaintext highlighter-rouge"> 5 {*}</code></p>
+
+<ul>
+  <li>Splits een bestand op regel 5 en gebruik een aangepaste prefix voor de uitvoerbestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csplit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span><code class="language-plaintext highlighter-rouge"> 5 -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span></p>
+
+<ul>
+  <li>Splits een bestand op een regel die overeenkomt met de reguliere expressie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csplit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span><code class="language-plaintext highlighter-rouge"> /</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reguliere_expressie</span><code class="language-plaintext highlighter-rouge">/</code></p>

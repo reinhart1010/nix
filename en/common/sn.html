@@ -1,0 +1,28 @@
+<h1 id="sn">sn</h1>
+
+<p>Mono StrongName utility for signing and verifying IL assemblies.
+More information: <a href="https://manned.org/sn">https://manned.org/sn</a>.</p>
+
+<ul>
+  <li>Generate a new StrongNaming key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sn -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key.snk</span></p>
+
+<ul>
+  <li>Re-sign an assembly with the specified private key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sn -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/assembly.dll</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key_pair.snk</span></p>
+
+<ul>
+  <li>Show the public key of the private key that was used to sign an assembly:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sn -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/assembly.exe</span></p>
+
+<ul>
+  <li>Extract the public key to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sn -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/assembly.dll</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pub</span></p>

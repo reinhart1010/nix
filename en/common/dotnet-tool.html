@@ -1,0 +1,46 @@
+<h1 id="dotnet-tool">dotnet tool</h1>
+
+<p>Manage .NET tools and search published tools in NuGet.
+More information: <a href="https://learn.microsoft.com/dotnet/core/tools/global-tools">https://learn.microsoft.com/dotnet/core/tools/global-tools</a>.</p>
+
+<ul>
+  <li>Install a global tool (don't use <code class="language-plaintext highlighter-rouge">--global</code> for local tools):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool install --global </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dotnetsay</span></p>
+
+<ul>
+  <li>Install tools defined in the local tool manifest:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool restore</code></p>
+
+<ul>
+  <li>Update a specific global tool (don't use <code class="language-plaintext highlighter-rouge">--global</code> for local tools):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool update --global </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tool_name</span></p>
+
+<ul>
+  <li>Uninstall a global tool (don't use <code class="language-plaintext highlighter-rouge">--global</code> for local tools):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool uninstall --global </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tool_name</span></p>
+
+<ul>
+  <li>List installed global tools (don't use <code class="language-plaintext highlighter-rouge">--global</code> for local tools):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool list --global</code></p>
+
+<ul>
+  <li>Search tools in NuGet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_term</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet tool --help</code></p>

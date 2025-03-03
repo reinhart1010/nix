@@ -1,0 +1,34 @@
+<h1 id="prstat">prstat</h1>
+
+<p>Laporkan statistik proses aktif.
+Informasi lebih lanjut: <a href="https://www.unix.com/man-page/sunos/1m/prstat">https://www.unix.com/man-page/sunos/1m/prstat</a>.</p>
+
+<ul>
+  <li>Periksa semua proses dan laporan statistik yang diurutkan berdasarkan tingkat penggunaan CPU:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat</code></p>
+
+<ul>
+  <li>Periksa semua proses dan laporan statistik yang disortir berdasarkan penggunaan memori:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat -s rss</code></p>
+
+<ul>
+  <li>Laporkan ringkasan total penggunaan untuk tiap user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat -t</code></p>
+
+<ul>
+  <li>Laporkan informasi pengukuran proses microstate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat -m</code></p>
+
+<ul>
+  <li>Cetak daftar penggunaan CPU 5 proses teratas tiap 1 detik:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prstat -c -n 5 -s cpu 1</code></p>

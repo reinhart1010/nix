@@ -1,0 +1,34 @@
+<h1 id="aspell">aspell</h1>
+
+<p>Corrector ortográfico interactivo.
+Más información: <a href="http://aspell.net/">http://aspell.net/</a>.</p>
+
+<ul>
+  <li>Revisa la ortografía de un solo archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aspell check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Lista las palabras mal escritas de <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span><code class="language-plaintext highlighter-rouge"> | aspell list</code></p>
+
+<ul>
+  <li>Muestra los idiomas disponibles en el diccionario:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aspell dicts</code></p>
+
+<ul>
+  <li>Ejecuta <code class="language-plaintext highlighter-rouge">aspell</code> con un idioma diferente (toma el código de idioma ISO 639 de dos letras):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aspell --lang=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cs</span></p>
+
+<ul>
+  <li>Lista las palabras mal escritas de <code class="language-plaintext highlighter-rouge">stdin</code> e ignora las palabras de la lista personal de palabras:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span><code class="language-plaintext highlighter-rouge"> | aspell --personal=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lista_personal_de_palabras.pws</span><code class="language-plaintext highlighter-rouge"> list</code></p>

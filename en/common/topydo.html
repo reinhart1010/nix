@@ -1,0 +1,40 @@
+<h1 id="topydo">topydo</h1>
+
+<p>A to-do list application that uses the todo.txt format.
+More information: <a href="https://github.com/topydo/topydo">https://github.com/topydo/topydo</a>.</p>
+
+<ul>
+  <li>Add a to-do to a specific project with a given context:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">topydo add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">todo_message</span><code class="language-plaintext highlighter-rouge"> +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span><code class="language-plaintext highlighter-rouge"> @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Add a to-do with a due date of tomorrow with a priority of <code class="language-plaintext highlighter-rouge">A</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">topydo add "(A) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">todo _message</span><code class="language-plaintext highlighter-rouge"> due:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1d</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Add a to-do with a due date of Friday:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">topydo add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">todo_message</span><code class="language-plaintext highlighter-rouge"> due:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fri</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Add a non-strict repeating to-do (next due = now + rec):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">topydo add "water flowers due:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mon</span><code class="language-plaintext highlighter-rouge"> rec:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1w</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Add a strict repeating to-do (next due = current due + rec):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">topydo add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">todo_message</span><code class="language-plaintext highlighter-rouge"> due:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2020-01-01</span><code class="language-plaintext highlighter-rouge"> rec:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+1m</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Revert the last <code class="language-plaintext highlighter-rouge">topydo</code> command executed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">topydo revert</code></p>

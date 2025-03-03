@@ -1,0 +1,35 @@
+<h1 id="httpry">httpry</h1>
+
+<p>A lightweight packet sniffer for displaying and logging HTTP traffic.
+It can be run in real-time displaying the traffic as it is parsed, or as a daemon process that logs to an output file.
+More information: <a href="https://dumpsterventures.com/jason/httpry/">https://dumpsterventures.com/jason/httpry/</a>.</p>
+
+<ul>
+  <li>Save output to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpry -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.log</span></p>
+
+<ul>
+  <li>Listen on a specific interface and save output to a binary PCAP format file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pcap</span></p>
+
+<ul>
+  <li>Filter output by a comma-separated list of HTTP verbs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpry -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">get|post|put|head|options|delete|trace|connect|patch</span></p>
+
+<ul>
+  <li>Read from an input capture file and filter by IP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpry -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.log</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host 192.168.5.25</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Run as daemon process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpry -d -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.log</span></p>

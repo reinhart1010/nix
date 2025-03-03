@@ -1,0 +1,46 @@
+<h1 id="bzgrep">bzgrep</h1>
+
+<p>Find patterns in <code class="language-plaintext highlighter-rouge">bzip2</code> compressed files using <code class="language-plaintext highlighter-rouge">grep</code>.
+More information: <a href="https://manned.org/bzgrep">https://manned.org/bzgrep</a>.</p>
+
+<ul>
+  <li>Search for a pattern within a compressed file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bzgrep "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Use extended regular expressions (supports <code class="language-plaintext highlighter-rouge">?</code>, <code class="language-plaintext highlighter-rouge">+</code>, <code class="language-plaintext highlighter-rouge">{}</code>, <code class="language-plaintext highlighter-rouge">()</code> and <code class="language-plaintext highlighter-rouge">|</code>), in case-insensitive mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bzgrep --extended-regexp --ignore-case "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print 3 lines of context around, before, or after each match:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bzgrep --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print file name and line number for each match:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bzgrep --with-filename --line-number "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Search for lines matching a pattern, printing only the matched text:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bzgrep --only-matching "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Recursively search files in a bzip2 compressed tar archive for a pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bzgrep --recursive "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/tar/file</span></p>
+
+<ul>
+  <li>Search <code class="language-plaintext highlighter-rouge">stdin</code> for lines that do not match a pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/bz/compressed/file</span><code class="language-plaintext highlighter-rouge"> | bzgrep --invert-match "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">"</code></p>

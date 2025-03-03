@@ -1,0 +1,53 @@
+<h1 id="screen">screen</h1>
+
+<p>원격 서버에서 세션을 열어 유지. 단일 SSH 연결로 여러 창을 관리.
+같이 보기: <code class="language-plaintext highlighter-rouge">tmux</code>, <code class="language-plaintext highlighter-rouge">zellij</code>.
+더 많은 정보: <a href="https://manned.org/screen">https://manned.org/screen</a>.</p>
+
+<ul>
+  <li>새 screen 세션 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">screen</code></p>
+
+<ul>
+  <li>새 이름 지정 screen 세션 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">screen -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">세션_이름</span></p>
+
+<ul>
+  <li>새로운 데몬을 시작하고 출력을 <code class="language-plaintext highlighter-rouge">screenlog.x</code>에 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">screen -dmLS </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">세션_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span></p>
+
+<ul>
+  <li>열린 screen 세션 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">screen -ls</code></p>
+
+<ul>
+  <li>열린 screen에 다시 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">screen -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">세션_이름</span></p>
+
+<ul>
+  <li>screen 내부에서 분리:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt; + A, D</code></p>
+
+<ul>
+  <li>현재 screen 세션 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Ctrl&gt; + A, K</code></p>
+
+<ul>
+  <li>분리된 screen 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">screen -X -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">세션_이름</span><code class="language-plaintext highlighter-rouge"> quit</code></p>

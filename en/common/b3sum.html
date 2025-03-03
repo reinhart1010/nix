@@ -1,0 +1,40 @@
+<h1 id="b3sum">b3sum</h1>
+
+<p>Calculate BLAKE3 cryptographic checksums.
+More information: <a href="https://github.com/BLAKE3-team/BLAKE3/tree/master/b3sum">https://github.com/BLAKE3-team/BLAKE3/tree/master/b3sum</a>.</p>
+
+<ul>
+  <li>Calculate the BLAKE3 checksum for one or more files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b3sum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Calculate and save the list of BLAKE3 checksums to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b3sum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.b3</span></p>
+
+<ul>
+  <li>Calculate a BLAKE3 checksum from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | b3sum</code></p>
+
+<ul>
+  <li>Read a file of BLAKE3 checksums and filenames and verify all files have matching checksums:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b3sum --check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.b3</span></p>
+
+<ul>
+  <li>Only show a message for missing files or when verification fails:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b3sum --check --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.b3</span></p>
+
+<ul>
+  <li>Check a known BLAKE3 checksum of a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">known_blake3_checksum_of_the_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> | b3sum --check</code></p>

@@ -1,0 +1,41 @@
+<h1 id="olevba">olevba</h1>
+
+<p>Parse OLE and OpenXML files (e.g., DOC, XLS, PPT, etc.) to extract VBA macros, deobfuscate, and analyze malicious code.
+Part of the <code class="language-plaintext highlighter-rouge">python-oletools</code> suite.
+For more information: <a href="https://github.com/decalage2/oletools">https://github.com/decalage2/oletools</a>.</p>
+
+<ul>
+  <li>Analyze a file, showing both macro code and analysis results:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">olevba </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Recursively analyze all supported files in a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">olevba -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Provide a password for encrypted Microsoft Office files (may be repeated):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">olevba --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/encrypted_file</span></p>
+
+<ul>
+  <li>Display only analysis results, without showing macro source code:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">olevba -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Display only macro source code:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">olevba -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Show obfuscated strings and their decoded content:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">olevba --decode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

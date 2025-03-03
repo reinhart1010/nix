@@ -1,0 +1,53 @@
+<h1 id="conda">conda</h1>
+
+<p>Package, dependency and environment management for any programming language.
+Some subcommands such as <code class="language-plaintext highlighter-rouge">create</code> have their own usage documentation.
+More information: <a href="https://github.com/conda/conda">https://github.com/conda/conda</a>.</p>
+
+<ul>
+  <li>Create a new environment, installing named packages into it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">python=3.9 matplotlib</span></p>
+
+<ul>
+  <li>List all environments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda info --envs</code></p>
+
+<ul>
+  <li>Load an environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda activate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_name</span></p>
+
+<ul>
+  <li>Unload an environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda deactivate</code></p>
+
+<ul>
+  <li>Delete an environment (remove all packages):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda remove --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_name</span><code class="language-plaintext highlighter-rouge"> --all</code></p>
+
+<ul>
+  <li>Install packages into the current environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">python=3.4 numpy</span></p>
+
+<ul>
+  <li>List currently installed packages in current environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda list</code></p>
+
+<ul>
+  <li>Delete unused packages and caches:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda clean --all</code></p>

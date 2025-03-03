@@ -1,0 +1,53 @@
+<h1 id="abroot">abroot</h1>
+
+<p>Utilidad que proporciona completa inmutabilidad y atomicidad mediante transacciones entre 2 estados de partición de la raíz (A⟺B).
+Las actualizaciones se realizan utilizando imágenes OCI, para asegurar que el sistema está siempre en un estado consistente.
+Más información: <a href="https://github.com/Vanilla-OS/ABRoot">https://github.com/Vanilla-OS/ABRoot</a>.</p>
+
+<ul>
+  <li>Añade paquetes a la imagen local (Nota: después de ejecutar este comando, se necesita aplicar estos cambios):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo abroot pkg add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Elimina paquetes de la imagen local (Nota: después de ejecutar este comando, debe aplicar estos cambios):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo abroot pkg remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Lista paquetes en la imagen local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo abroot pkg list</code></p>
+
+<ul>
+  <li>Aplica los cambios en la imagen local (Nota: es necesario reiniciar el sistema para que estos cambios sean aplicados):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo abroot pkg apply</code></p>
+
+<ul>
+  <li>Retrocede su sistema al estado anterior:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo abroot rollback</code></p>
+
+<ul>
+  <li>Edita/Visualiza los parámetros del kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo abroot kargs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">edit|show</span></p>
+
+<ul>
+  <li>Muestra estado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo abroot status</code></p>
+
+<ul>
+  <li>Muestra ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">abroot --help</code></p>

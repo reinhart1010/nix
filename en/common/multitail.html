@@ -1,0 +1,28 @@
+<h1 id="multitail">multitail</h1>
+
+<p>Extension of tail.
+More information: <a href="https://manned.org/multitail">https://manned.org/multitail</a>.</p>
+
+<ul>
+  <li>Tail all files matching a pattern in a single stream:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">multitail -Q 1 '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Tail all files in a directory in a single stream:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">multitail -Q 1 '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge">/*'</code></p>
+
+<ul>
+  <li>Automatically add new files to a window:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">multitail -Q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span></p>
+
+<ul>
+  <li>Show 5 logfiles while merging 2 and put them in 2 columns with only one in the left column:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">multitail -s 2 -sn 1,3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mergefile</span><code class="language-plaintext highlighter-rouge"> -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file4</span></p>

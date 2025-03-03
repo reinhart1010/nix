@@ -1,0 +1,53 @@
+<h1 id="apt-get">apt-get</h1>
+
+<p>ابزار مدیریت بسته‌های دبیان و اوبونتو.
+جستجو در بسته‌ها با استفاده از <code class="language-plaintext highlighter-rouge">apt-cache</code>.
+اطلاعات بیشتر: <a href="https://manned.org/apt-get.8">https://manned.org/apt-get.8</a>.</p>
+
+<ul>
+  <li>به‌روز‌رسانی لیست بسته‌ها و نسخه‌های موجود (توصیه می‌شود که این دستور را قبل از دیگر دستورات <code class="language-plaintext highlighter-rouge">apt-get</code> اجرا کنید):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get update</code></p>
+
+<ul>
+  <li>نصب یک بسته یا به روزرسانی آن به آخرین نسخه موجود:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>حذف یک بسته:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>حذف یک بسته و فایل‌های پیکربندی آن:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get purge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>ارتقاء تمامی بسته‌های نصب شده به آخرین نسخه‌های موجود:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get upgrade</code></p>
+
+<ul>
+  <li>پاکسازی مخزن محلی - حذف فایل‌های بسته (<code class="language-plaintext highlighter-rouge">.deb</code>) از دانلودهای متوقف شده که دیگر قابل دانلود نیستند:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get autoclean</code></p>
+
+<ul>
+  <li>حذف تمام بسته‌هایی که دیگر نیازی به آن‌ها نیست:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get autoremove</code></p>
+
+<ul>
+  <li>ارتقاء بسته‌های نصب شده (مانند <code class="language-plaintext highlighter-rouge">upgrade</code>) اما با حذف بسته‌های قدیمی و نصب بسته‌های اضافی برای برآورده کردن وابستگی‌های جدید:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get dist-upgrade</code></p>

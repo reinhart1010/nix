@@ -1,0 +1,40 @@
+<h1 id="steghide">steghide</h1>
+
+<p>Steganography tool for JPEG, BMP, WAV and AU file formats.
+More information: <a href="https://github.com/StefanoDeVuono/steghide">https://github.com/StefanoDeVuono/steghide</a>.</p>
+
+<ul>
+  <li>Embed data in a PNG, prompting for a passphrase:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">steghide embed --coverfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.png</span><code class="language-plaintext highlighter-rouge"> --embedfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/data.txt</span></p>
+
+<ul>
+  <li>Extract data from a WAV audio file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">steghide extract --stegofile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/sound.wav</span></p>
+
+<ul>
+  <li>Display file information, trying to detect an embedded file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">steghide info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.jpg</span></p>
+
+<ul>
+  <li>Embed data in a JPEG image, using maximum compression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">steghide embed --coverfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.jpg</span><code class="language-plaintext highlighter-rouge"> --embedfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/data.txt</span><code class="language-plaintext highlighter-rouge"> --compress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9</span></p>
+
+<ul>
+  <li>Get the list of supported encryption algorithms and modes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">steghide encinfo</code></p>
+
+<ul>
+  <li>Embed encrypted data in a JPEG image, e.g. with Blowfish in CBC mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">steghide embed --coverfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.jpg</span><code class="language-plaintext highlighter-rouge"> --embedfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/data.txt</span><code class="language-plaintext highlighter-rouge"> --encryption </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blowfish|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cbc|…</span></p>

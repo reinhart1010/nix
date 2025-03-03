@@ -1,0 +1,34 @@
+<h1 id="cu">cu</h1>
+
+<p>다른 시스템에 연결하여 다이얼인/직렬 터미널 역할을 하거나 오류 검사가 없는 파일 전송을 수행합니다.
+더 많은 정보: <a href="https://manned.org/cu">https://manned.org/cu</a>.</p>
+
+<ul>
+  <li>주어진 직렬 포트 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cu --line </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyUSB0</span></p>
+
+<ul>
+  <li>주어진 보율로 주어진 직렬 포트 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cu --line </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyUSB0</span><code class="language-plaintext highlighter-rouge"> --speed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">115200</span></p>
+
+<ul>
+  <li>주어진 보율로 주어진 직렬 포트를 열고 문자를 로컬에서 에코(반이중 모드):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cu --line </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyUSB0</span><code class="language-plaintext highlighter-rouge"> --speed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">115200</span><code class="language-plaintext highlighter-rouge"> --halfduplex</code></p>
+
+<ul>
+  <li>주어진 보율, 패리티, 하드웨어 또는 소프트웨어 흐름 제어 없이 주어진 직렬 포트 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo cu --line </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyUSB0</span><code class="language-plaintext highlighter-rouge"> --speed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">115200</span><code class="language-plaintext highlighter-rouge"> --parity=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">even|odd|none</span><code class="language-plaintext highlighter-rouge"> --nortscts --nostop</code></p>
+
+<ul>
+  <li>연결 중 <code class="language-plaintext highlighter-rouge">cu</code> 세션 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">~.</code></p>

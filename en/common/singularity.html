@@ -1,0 +1,40 @@
+<h1 id="singularity">singularity</h1>
+
+<p>Manage Singularity containers and images.
+More information: <a href="https://singularity-docs.readthedocs.io/en/latest/#commands">https://singularity-docs.readthedocs.io/en/latest/#commands</a>.</p>
+
+<ul>
+  <li>Download a remote image from Sylabs Cloud:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">singularity pull --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.sif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">library://godlovedc/funny/lolcow:latest</span></p>
+
+<ul>
+  <li>Rebuild a remote image using the latest Singularity image format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">singularity build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.sif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">docker://godlovedc/lolcow</span></p>
+
+<ul>
+  <li>Start a container from an image and get a shell inside it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">singularity shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.sif</span></p>
+
+<ul>
+  <li>Start a container from an image and run a command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">singularity exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.sif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Start a container from an image and execute the internal runscript:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">singularity run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.sif</span></p>
+
+<ul>
+  <li>Build a singularity image from a recipe file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo singularity build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.sif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recipe</span></p>

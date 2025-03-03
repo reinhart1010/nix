@@ -1,0 +1,29 @@
+<h1 id="asr">asr</h1>
+
+<p>Restaura (copia) una imagen de disco en un volumen.
+El nombre del comando significa Restauración de Software de Apple.
+Más información: <a href="https://keith.github.io/xcode-man-pages/asr.8.html">https://keith.github.io/xcode-man-pages/asr.8.html</a>.</p>
+
+<ul>
+  <li>Restaura una imagen de disco en un volumen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_imagen.dmg</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/volumen</span></p>
+
+<ul>
+  <li>Borra el volumen deseado antes de restaurar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_imagen.dmg</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/volumen</span><code class="language-plaintext highlighter-rouge"> --erase</code></p>
+
+<ul>
+  <li>Omite la verificación después de restaurar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_imagen.dmg</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/volumen</span><code class="language-plaintext highlighter-rouge"> --noverify</code></p>
+
+<ul>
+  <li>Clona volúmenes sin el uso de una imagen de disco intermedia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/volumen</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/volumen_clonado</span></p>

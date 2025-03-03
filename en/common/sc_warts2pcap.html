@@ -1,0 +1,17 @@
+<h1 id="sc_warts2pcap">sc_warts2pcap</h1>
+
+<p>Write packets included in <code class="language-plaintext highlighter-rouge">warts</code> object to a PCAP file.
+This is only possible for tbit, sting and sniff.
+More information: <a href="https://www.caida.org/catalog/software/scamper/">https://www.caida.org/catalog/software/scamper/</a>.</p>
+
+<ul>
+  <li>Convert the data from several <code class="language-plaintext highlighter-rouge">warts</code> files into one PCAP file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc_warts2pcap -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pcap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.warts path/to/file2.warts …</span></p>
+
+<ul>
+  <li>Convert the data from a <code class="language-plaintext highlighter-rouge">warts</code> file into a PCAP file and sort the packets by timestamp:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc_warts2pcap -s -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pcap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.warts</span></p>

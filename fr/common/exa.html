@@ -1,0 +1,52 @@
+<h1 id="exa">exa</h1>
+
+<p>Une alternative moderne à <code class="language-plaintext highlighter-rouge">ls</code> (pour lister le contenu de répertoires).
+Plus d'informations : <a href="https://github.com/ogham/exa">https://github.com/ogham/exa</a>.</p>
+
+<ul>
+  <li>Liste les fichiers, un par ligne :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exa --oneline</code></p>
+
+<ul>
+  <li>Liste tous les fichiers, y compris les fichiers cachés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exa --all</code></p>
+
+<ul>
+  <li>Liste au format long (autorisations, propriété, taille et date de modification) de tous les fichiers :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exa --long --all</code></p>
+
+<ul>
+  <li>Liste les fichiers avec le plus volumineux en haut :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exa --reverse --sort=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">taille</span></p>
+
+<ul>
+  <li>Affiche une arborescence de fichiers, sur trois niveaux de profondeur :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exa --long --tree --level=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>Liste des fichiers triés par date de modification (le plus ancien en premier) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exa --long --sort=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modifié</span></p>
+
+<ul>
+  <li>Liste les fichiers avec leur en-tête, leur icône et leur statut Git :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exa --long --header --icons --git</code></p>
+
+<ul>
+  <li>Liste les fichiers sauf ceux mentionnés dans <code class="language-plaintext highlighter-rouge">.gitignore</code> :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exa --git-ignore</code></p>

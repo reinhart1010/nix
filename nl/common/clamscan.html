@@ -1,0 +1,52 @@
+<h1 id="clamscan">clamscan</h1>
+
+<p>Een command-line virus scanner.
+Meer informatie: <a href="https://docs.clamav.net/manual/Usage/Scanning.html#clamscan">https://docs.clamav.net/manual/Usage/Scanning.html#clamscan</a>.</p>
+
+<ul>
+  <li>Scan een bestand op kwetsbaarheden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Scan alle bestanden recursief in een specifieke map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span></p>
+
+<ul>
+  <li>Scan data van <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span><code class="language-plaintext highlighter-rouge"> | clamscan -</code></p>
+
+<ul>
+  <li>Specificeer een virus database bestand of map van bestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --database </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/database_bestand_of_map</span></p>
+
+<ul>
+  <li>Scan de huidige map en toon alleen geïnfecteerde bestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --infected</code></p>
+
+<ul>
+  <li>Sla het scan rapport op in een log bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/log_bestand</span></p>
+
+<ul>
+  <li>Verplaats geïnfecteerde bestanden naar een specifieke map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/quarantine_map</span></p>
+
+<ul>
+  <li>Verwijder geïnfecteerde bestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --remove yes</code></p>

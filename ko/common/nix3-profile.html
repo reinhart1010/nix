@@ -1,0 +1,40 @@
+<h1 id="nix-profile">nix profile</h1>
+
+<p>Nix 프로필에서 패키지를 설치, 업데이트 및 제거.
+더 많은 정보: <a href="https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-profile.html">https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-profile.html</a>.</p>
+
+<ul>
+  <li>기본 프로필에 nixpkgs에서 일부 패키지 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix profile install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs#패키지1 nixpkgs#패키지2 …</span></p>
+
+<ul>
+  <li>GitHub의 플레이크에서 패키지를 사용자 지정 프로필에 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix profile install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github:소유자/레포/패키지</span><code class="language-plaintext highlighter-rouge"> --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./경로/대상/폴더</span></p>
+
+<ul>
+  <li>기본 프로필에 현재 설치된 패키지 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix profile list</code></p>
+
+<ul>
+  <li>기본 프로필에서 nixpkgs로 설치된 패키지를 이름으로 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix profile remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레거시패키지.x86_64-linux.pkg</span></p>
+
+<ul>
+  <li>기본 프로필의 패키지를 최신 버전으로 업그레이드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix profile upgrade</code></p>
+
+<ul>
+  <li>기본 프로필에서 최신 작업 롤백(취소):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix profile rollback</code></p>

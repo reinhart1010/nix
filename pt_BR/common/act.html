@@ -1,0 +1,46 @@
+<h1 id="act">act</h1>
+
+<p>Executa GitHub Actions localmente utilizando Docker.
+Mais informações: <a href="https://github.com/nektos/act">https://github.com/nektos/act</a>.</p>
+
+<ul>
+  <li>Lista ações disponíveis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act -l</code></p>
+
+<ul>
+  <li>Executa evento padrão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act</code></p>
+
+<ul>
+  <li>Executa evento específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tipo_de_evento</span></p>
+
+<ul>
+  <li>Executa um job específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span></p>
+
+<ul>
+  <li>Não executa realmente as ações (ex.: um dry run):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act -n</code></p>
+
+<ul>
+  <li>Mostra verbose logs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act -v</code></p>
+
+<ul>
+  <li>Executa um workflow específico com o evento de push:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">act push -W </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/workflow</span></p>

@@ -1,0 +1,22 @@
+<h1 id="pstopnm">pstopnm</h1>
+
+<p>PostScript 파일을 PNM 이미지로 변환.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/pstopnm.html">https://netpbm.sourceforge.net/doc/pstopnm.html</a>.</p>
+
+<ul>
+  <li>PS 파일을 PNM 이미지로 변환하고 입력의 페이지 N을 <code class="language-plaintext highlighter-rouge">path/to/fileN.ppm</code>에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pstopnm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ps</span></p>
+
+<ul>
+  <li>출력 형식 명시적으로 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pstopnm -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pbm|pgm|ppm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ps</span></p>
+
+<ul>
+  <li>출력 해상도를 인치당 도트로 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pstopnm -dpi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ps</span></p>

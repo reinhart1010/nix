@@ -1,0 +1,40 @@
+<h1 id="go-test">go test</h1>
+
+<p>Go paketlerini test et (dosyalar <code class="language-plaintext highlighter-rouge">_test.go</code> ifadesiyle bitmeli).
+Daha fazla bilgi için: <a href="https://pkg.go.dev/cmd/go#hdr-Testing_flags">https://pkg.go.dev/cmd/go#hdr-Testing_flags</a>.</p>
+
+<ul>
+  <li>Mevcut dizinde bulunan paketleri test et:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test</code></p>
+
+<ul>
+  <li>Mevcut dizindeki paketleri ayrıntılı şekilde test et:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test -v</code></p>
+
+<ul>
+  <li>Mevcut dizindeki ve tüm alt dizinlerdeki paketleri test et (<code class="language-plaintext highlighter-rouge">...</code> ifadesine dikkat):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test -v ./...</code></p>
+
+<ul>
+  <li>Mevcut dzindeki paketleri test et ve tüm kalite testlerini çalıştır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test -v -bench .</code></p>
+
+<ul>
+  <li>Mevcut dizindeki paketleri test et ve 50 saniye içinde tüm kalite testlerini çalıştır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test -v -bench . -benchtime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50s</span></p>
+
+<ul>
+  <li>Paketleri kapsamlı bir analiz ile test et:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test -cover</code></p>

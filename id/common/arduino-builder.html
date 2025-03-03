@@ -1,0 +1,35 @@
+<h1 id="arduino-builder">arduino-builder</h1>
+
+<p>Bangun program dari kode sumber piranti lunak (sketsa) Arduino.
+PERINGATAN DEPREKASI: Alat ini sedang dihapus demi penggunaan perintah <code class="language-plaintext highlighter-rouge">arduino</code> yang baru.
+Informasi lebih lanjut: <a href="https://github.com/arduino/arduino-builder">https://github.com/arduino/arduino-builder</a>.</p>
+
+<ul>
+  <li>Bangun program dari suatu berkas (sketsa) kode sumber piranti lunak:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -compile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sketsa.ino</span></p>
+
+<ul>
+  <li>Tentukan tingkat penampilan informasi awakutu (nilai bawaan: 5):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -debug-level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1..10</span></p>
+
+<ul>
+  <li>Tentukan direktori untuk menampung hasil pembangunan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -build-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_hasil_pembangunan</span></p>
+
+<ul>
+  <li>Gunakan konfigurasi yang didefinisikan di dalam suatu berkas, daripada mendefinisikan parameter perintah seperti <code class="language-plaintext highlighter-rouge">-hardware</code> dan <code class="language-plaintext highlighter-rouge">-tools</code> berulang kali:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -build-options-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/build.options.json</span></p>
+
+<ul>
+  <li>Gunakan mode verbose, tampilkan proses pembangunan secara rinci:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arduino-builder -verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span></p>

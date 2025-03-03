@@ -1,0 +1,34 @@
+<h1 id="carthage">carthage</h1>
+
+<p>Ferramenta de gerenciamento de dependências para aplicativos Cocoa.
+Mais informações: <a href="https://github.com/Carthage/Carthage">https://github.com/Carthage/Carthage</a>.</p>
+
+<ul>
+  <li>Baixa a versão mais recente de todas as dependências mencionadas no Cartfile e realiza o build delas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">carthage update</code></p>
+
+<ul>
+  <li>Atualiza as dependências, e faz build apenas para o iOS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">carthage update --platform ios</code></p>
+
+<ul>
+  <li>Atualiza as dependências, sem realizar build de nenhuma delas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">carthage update --no-build</code></p>
+
+<ul>
+  <li>Faz o download e rebuild da versão atual das dependências (sem atualizá-las):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">carthage bootstrap</code></p>
+
+<ul>
+  <li>Faz o rebuild de uma dependência específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">carthage build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dependência</span></p>

@@ -1,0 +1,28 @@
+<h1 id="mknod">mknod</h1>
+
+<p>创建块或字符设备特殊文件。
+更多信息：<a href="https://www.gnu.org/software/coreutils/manual/html_node/mknod-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/mknod-invocation.html</a>.</p>
+
+<ul>
+  <li>创建块设备：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mknod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/设备文件</span><code class="language-plaintext highlighter-rouge"> b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">主设备号</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">次设备号</span></p>
+
+<ul>
+  <li>创建字符设备：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mknod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/设备文件</span><code class="language-plaintext highlighter-rouge"> c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">主设备号</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">次设备号</span></p>
+
+<ul>
+  <li>创建先进先出（队列）设备：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mknod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/设备文件</span><code class="language-plaintext highlighter-rouge"> p</code></p>
+
+<ul>
+  <li>使用 SELinux 默认安全上下文创建设备文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mknod -Z </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/设备文件</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">类型</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">主设备号</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">次设备号</span></p>

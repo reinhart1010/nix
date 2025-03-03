@@ -1,0 +1,52 @@
+<h1 id="csc">csc</h1>
+
+<p>Compilatore per Microsoft C#.
+Maggiori informazioni: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe">https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe</a>.</p>
+
+<ul>
+  <li>Compila uno o più file C# in un eseguibile da command-line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_input_a.cs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_input_b.cs</span></p>
+
+<ul>
+  <li>Specifica il nome del file output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csc /out:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/nome_file_output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_input.cs</span></p>
+
+<ul>
+  <li>Compila in una libreria <code class="language-plaintext highlighter-rouge">.dll</code> invece che in un eseguibile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csc /target:library </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_input.cs</span></p>
+
+<ul>
+  <li>Referenzia un altro assembly:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csc /reference:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/libreria.dll</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_input.cs</span></p>
+
+<ul>
+  <li>Includi una risorsa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csc /resource:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_risorsa</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_input.cs</span></p>
+
+<ul>
+  <li>Genera una documentazione XML automaticamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csc /doc:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/documentazione.xml</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_input.cs</span></p>
+
+<ul>
+  <li>Specifica un'icona:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csc /win32icon:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/dell/icona.ico</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_input.cs</span></p>
+
+<ul>
+  <li>Firma un assembly con un nome sicuro utilizzando una chiave:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csc /keyfile:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/chiave.snk</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_input.cs</span></p>

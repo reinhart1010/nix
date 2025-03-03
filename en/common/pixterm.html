@@ -1,0 +1,29 @@
+<h1 id="pixterm">pixterm</h1>
+
+<p>Image printing in the terminal.
+See also: <code class="language-plaintext highlighter-rouge">chafa</code>, <code class="language-plaintext highlighter-rouge">catimg</code>.
+More information: <a href="https://github.com/eliukblau/pixterm">https://github.com/eliukblau/pixterm</a>.</p>
+
+<ul>
+  <li>Render a static image directly in the terminal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pixterm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Use the image's original aspect ratio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pixterm -s 2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Specify a custom aspect ratio using a specific number of [t]erminal [r]ows and [c]olumns:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pixterm -tr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">24</span><code class="language-plaintext highlighter-rouge"> -tc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Filter the output with a [m]atte background color and character [d]ithering:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pixterm -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">000000</span><code class="language-plaintext highlighter-rouge"> -d 2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

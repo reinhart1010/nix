@@ -1,0 +1,52 @@
+<h1 id="tomb">tomb</h1>
+
+<p>Manage encrypted storage directories that can be safely transported and hidden in a filesystem.
+More information: <a href="https://www.dyne.org/software/tomb/">https://www.dyne.org/software/tomb/</a>.</p>
+
+<ul>
+  <li>Create a new tomb with an initial size of 100 MB:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tomb dig -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">encrypted_directory.tomb</span></p>
+
+<ul>
+  <li>Create a new key file that can be used to lock a tomb; user will be prompted for a password for the key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tomb forge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">encrypted_directory.tomb.key</span></p>
+
+<ul>
+  <li>Forcefully create a new key, even if the tomb isn't allowing key forging (due to swap):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tomb forge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">encrypted_directory.tomb.key</span><code class="language-plaintext highlighter-rouge"> -f</code></p>
+
+<ul>
+  <li>Initialize and lock an empty tomb using a key made with <code class="language-plaintext highlighter-rouge">forge</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tomb lock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">encrypted_directory.tomb</span><code class="language-plaintext highlighter-rouge"> -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">encrypted_directory.tomb.key</span></p>
+
+<ul>
+  <li>Mount a tomb (by default in <code class="language-plaintext highlighter-rouge">/media</code>) using its key, making it usable as a regular filesystem directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tomb open </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">encrypted_directory.tomb</span><code class="language-plaintext highlighter-rouge"> -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">encrypted_directory.tomb.key</span></p>
+
+<ul>
+  <li>Close a tomb (fails if the tomb is being used by a process):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tomb close </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">encrypted_directory.tomb</span></p>
+
+<ul>
+  <li>Forcefully close all open tombs, killing any applications using them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tomb slam all</code></p>
+
+<ul>
+  <li>List all open tombs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tomb list</code></p>

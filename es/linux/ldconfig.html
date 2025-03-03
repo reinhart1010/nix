@@ -1,0 +1,22 @@
+<h1 id="ldconfig">ldconfig</h1>
+
+<p>Configura enlaces simbólicos y caché para dependencias de biblioteca compartidas.
+Más información: <a href="https://manned.org/ldconfig">https://manned.org/ldconfig</a>.</p>
+
+<ul>
+  <li>Actualiza los enlaces simbólicos y reconstruye el caché (normalmente se ejecuta cuando se instala una nueva biblioteca):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ldconfig</code></p>
+
+<ul>
+  <li>Actualiza los enlaces simbólicos para un directorio dado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ldconfig -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Imprime las bibliotecas en el caché y comprueba si una biblioteca dada está presente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ldconfig -p | grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_biblioteca</span></p>

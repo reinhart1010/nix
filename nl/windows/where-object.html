@@ -1,0 +1,23 @@
+<h1 id="where-object">Where-Object</h1>
+
+<p>Selecteert objecten uit een verzameling op basis van hun eigenschapswaarden.
+Dit commando kan alleen gebruikt worden via PowerShell.
+Meer informatie: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object">https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object</a>.</p>
+
+<ul>
+  <li>Filter aliassen op naam:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Alias | Where-Object -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Property</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Name</span><code class="language-plaintext highlighter-rouge"> -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eq</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">naam</span></p>
+
+<ul>
+  <li>Toon een lijst van alle services die momenteel zijn gestopt. De <code class="language-plaintext highlighter-rouge">$_</code> automatische variable representeert ieder object dat word gestuurd naar de <code class="language-plaintext highlighter-rouge">Where-Object</code> cmdlet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Service | Where-Object {$_.Status -eq "Stopped"}</code></p>
+
+<ul>
+  <li>Gebruik meerdere condities:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Module -ListAvailable | Where-Object { $_.Name -NotLike "Microsoft*" -And $_.Name -NotLike "PS*" }</code></p>

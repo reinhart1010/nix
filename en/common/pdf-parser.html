@@ -1,0 +1,22 @@
+<h1 id="pdf-parser">pdf-parser</h1>
+
+<p>Identify fundamental elements of a PDF file without rendering it.
+More information: <a href="https://blog.didierstevens.com/programs/pdf-tools">https://blog.didierstevens.com/programs/pdf-tools</a>.</p>
+
+<ul>
+  <li>Display statistics for a PDF file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdf-parser --stats </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span></p>
+
+<ul>
+  <li>Display objects of type <code class="language-plaintext highlighter-rouge">/Font</code> in a PDF file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdf-parser --type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/Font</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span></p>
+
+<ul>
+  <li>Search for strings in indirect objects:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdf-parser --search=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span></p>

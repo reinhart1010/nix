@@ -1,0 +1,22 @@
+<h1 id="qm-start">qm start</h1>
+
+<p>Inicia una máquina virtual en el administrador de máquinas virtuales QEMU/KVM.
+Más información: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>Inicia una máquina virtual específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span></p>
+
+<ul>
+  <li>Especifica el tipo de máquina QEMU (es decir, la CPU a emular):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --machine </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">q35</span></p>
+
+<ul>
+  <li>Comienza una máquina virtual específica con un tiempo de espera máximo de 60 segundos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span></p>

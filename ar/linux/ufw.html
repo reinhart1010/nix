@@ -1,0 +1,53 @@
+<h1 id="ufw">ufw</h1>
+
+<p>جدار حماية بسيط.
+واجهة أمامية لـ <code class="language-plaintext highlighter-rouge">iptables</code> تهدف إلى تسهيل تكوين جدار الحماية.
+لمزيد من التفاصيل: <a href="https://wiki.ubuntu.com/UncomplicatedFirewall">https://wiki.ubuntu.com/UncomplicatedFirewall</a>.</p>
+
+<ul>
+  <li>تفعيل ufw:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw enable</code></p>
+
+<ul>
+  <li>تعطيل ufw:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw disable</code></p>
+
+<ul>
+  <li>عرض قواعد ufw مع أرقامها:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw status numbered</code></p>
+
+<ul>
+  <li>السماح بحركة المرور الواردة على المنفذ 5432 مع تعليق يحدد الخدمة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw allow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5432</span><code class="language-plaintext highlighter-rouge"> comment "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Service</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>السماح بحركة مرور TCP فقط من العنوان 192.168.0.4 إلى أي عنوان على هذا الجهاز، على المنفذ 22:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw allow proto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp</span><code class="language-plaintext highlighter-rouge"> from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.4</span><code class="language-plaintext highlighter-rouge"> to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span><code class="language-plaintext highlighter-rouge"> port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22</span></p>
+
+<ul>
+  <li>منع حركة المرور على المنفذ 80 على هذا الجهاز:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw deny </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span></p>
+
+<ul>
+  <li>منع جميع حركة مرور UDP إلى المنافذ في النطاق 8412:8500:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw deny proto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">udp</span><code class="language-plaintext highlighter-rouge"> from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span><code class="language-plaintext highlighter-rouge"> to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span><code class="language-plaintext highlighter-rouge"> port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8412:8500</span></p>
+
+<ul>
+  <li>حذف قاعدة معينة. يمكن الحصول على رقم القاعدة من أمر <code class="language-plaintext highlighter-rouge">ufw status numbered</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_number</span></p>

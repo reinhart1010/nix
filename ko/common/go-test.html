@@ -1,0 +1,40 @@
+<h1 id="go-test">go test</h1>
+
+<p>Go 패키지를 테스트합니다 (<code class="language-plaintext highlighter-rouge">_test.go</code>로 끝나는 파일이어야 함).
+더 많은 정보: <a href="https://pkg.go.dev/cmd/go#hdr-Testing_flags">https://pkg.go.dev/cmd/go#hdr-Testing_flags</a>.</p>
+
+<ul>
+  <li>현재 디렉터리에 있는 패키지 테스트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test</code></p>
+
+<ul>
+  <li>현재 디렉터리의 패키지를 [v]자세히 테스트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test -v</code></p>
+
+<ul>
+  <li>현재 디렉터리와 모든 하위 디렉터리의 패키지 테스트 (<code class="language-plaintext highlighter-rouge">...</code> 주의):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test -v ./...</code></p>
+
+<ul>
+  <li>현재 디렉터리의 패키지를 테스트하고 모든 벤치마크 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test -v -bench .</code></p>
+
+<ul>
+  <li>현재 디렉터리의 패키지를 테스트하고 50초 동안 모든 벤치마크 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test -v -bench . -benchtime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50s</span></p>
+
+<ul>
+  <li>커버리지 분석으로 패키지 테스트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go test -cover</code></p>

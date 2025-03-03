@@ -1,0 +1,25 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="protoc">protoc</h1>
+
+<p>解析 Google Protobuf <code class="language-plaintext highlighter-rouge">.proto</code> 文件并生成指定语言的输出。
+更多信息：<a href="https://developers.google.com/protocol-buffers">https://developers.google.com/protocol-buffers</a>.</p>
+
+<ul>
+  <li>从 <code class="language-plaintext highlighter-rouge">.proto</code> 文件生成 Python 代码：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protoc --python_out=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/输出目录</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">输入文件.proto</span></p>
+
+<ul>
+  <li>从一个导入其他 <code class="language-plaintext highlighter-rouge">.proto</code> 文件的 <code class="language-plaintext highlighter-rouge">.proto</code> 文件生成 Java 代码:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protoc --java_out=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/输出目录</span><code class="language-plaintext highlighter-rouge"> --proto_path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/导入搜索路径</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">输入文件.proto</span></p>
+
+<ul>
+  <li>生成多种语言的代码：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protoc --csharp_out=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/c#_输出目录</span><code class="language-plaintext highlighter-rouge"> --js_out=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/js_输出目录</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">输入文件.proto</span></p>

@@ -1,0 +1,40 @@
+<h1 id="ip-link">ip link</h1>
+
+<p>Gestiona interfaces de red.
+Más información: <a href="https://manned.org/ip-link">https://manned.org/ip-link</a>.</p>
+
+<ul>
+  <li>Muestra información sobre todas las interfaces de red:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link</code></p>
+
+<ul>
+  <li>Muestra información sobre una interfaz de red específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span></p>
+
+<ul>
+  <li>Establece una interfaz de red arriba (up) o abajo (down). Usa inglés:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">up|down</span></p>
+
+<ul>
+  <li>Establece un nombre significativo a una interfaz de red:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span><code class="language-plaintext highlighter-rouge"> alias "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LAN Interface</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Cambia la dirección MAC de una interfaz de red:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span><code class="language-plaintext highlighter-rouge"> address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ff:ff:ff:ff:ff:ff</span></p>
+
+<ul>
+  <li>Cambia el tamaño de MTU para una interfaz de red para usar marcos jumbo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span><code class="language-plaintext highlighter-rouge"> mtu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9000</span></p>

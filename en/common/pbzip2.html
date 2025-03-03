@@ -1,0 +1,29 @@
+<h1 id="pbzip2">pbzip2</h1>
+
+<p>A parallel implementation of the <code class="language-plaintext highlighter-rouge">bzip2</code> file compressor.
+See also: <code class="language-plaintext highlighter-rouge">bzip2</code>, <code class="language-plaintext highlighter-rouge">tar</code>.
+More information: <a href="https://manned.org/pbzip2">https://manned.org/pbzip2</a>.</p>
+
+<ul>
+  <li>Compress a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbzip2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Compress a file using the specified number of processors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbzip2 -p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>[d]ecompress a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbzip2 --decompress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file.bz2</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbzip2 -h</code></p>

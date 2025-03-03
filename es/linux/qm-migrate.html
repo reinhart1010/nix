@@ -1,0 +1,35 @@
+<h1 id="qm-migrate">qm migrate</h1>
+
+<p>Migra una máquina virtual.
+Se usa para crear una nueva tarea de migración.
+Más información: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>Migra una máquina virtual específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm migrate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_mv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span></p>
+
+<ul>
+  <li>Supera el límite de ancho de banda E/S actual con 10 KiB/s:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm migrate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_mv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span><code class="language-plaintext highlighter-rouge"> --bwlimit 10</code></p>
+
+<ul>
+  <li>Permite la migración de máquinas virtuales usando dispositivos locales (solo root):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm migrate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_mv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span><code class="language-plaintext highlighter-rouge"> --force true</code></p>
+
+<ul>
+  <li>Utiliza la migración en vivo (online) si una máquina virtual está ejecutándose:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm migrate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_mv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span><code class="language-plaintext highlighter-rouge"> --online true</code></p>
+
+<ul>
+  <li>Permite la migración de almacenamiento en vivo para discos locales:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm migrate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_mv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span><code class="language-plaintext highlighter-rouge"> --with-local-disks true</code></p>

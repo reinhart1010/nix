@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="tput">tput</h1>
+
+<p>Просмотр и изменение настроек и возможностей терминала.
+Больше информации: <a href="https://manned.org/tput">https://manned.org/tput</a>.</p>
+
+<ul>
+  <li>Переместить курсор в определённое место на экране:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tput cup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">номер_строки</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">номер_столбца</span></p>
+
+<ul>
+  <li>Установить цвет переднего плана (af) или фона (ab):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tput </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">setaf|setab</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ansi_код_цвета</span></p>
+
+<ul>
+  <li>Показать количество столбцов, строк или цветов:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tput </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cols|lines|colors</span></p>
+
+<ul>
+  <li>Подать звуковой сигнал терминала:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tput bel</code></p>
+
+<ul>
+  <li>Сбросить все атрибуты терминала:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tput sgr0</code></p>
+
+<ul>
+  <li>Включить или отключить перенос слов:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tput </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smam|rmam</span></p>

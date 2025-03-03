@@ -1,0 +1,46 @@
+<h1 id="bq">bq</h1>
+
+<p>Google Cloud의 완전 관리형 서버리스 엔터프라이즈 데이터 웨어하우스인 BigQuery용 Python 기반 도구.
+더 많은 정보: <a href="https://cloud.google.com/bigquery/docs/reference/bq-cli-reference">https://cloud.google.com/bigquery/docs/reference/bq-cli-reference</a>.</p>
+
+<ul>
+  <li>표준 SQL을 사용하여 BigQuery 테이블에 대해 쿼리를 실행하고, <code class="language-plaintext highlighter-rouge">--dry_run</code> 플래그를 추가해 쿼리에서 읽은 바이트 수를 추정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bq query --nouse_legacy_sql 'SELECT COUNT(*) FROM </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터셋_이름</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>매개변수화된 쿼리 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bq query --use_legacy_sql=false --parameter='ts_value:TIMESTAMP:2016-12-07 08:00:00' 'SELECT TIMESTAMP_ADD(@ts_value, INTERVAL 1 HOUR)'</code></p>
+
+<ul>
+  <li>미국 위치에 새 데이터 세트 또는 테이블을 만듬:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bq mk --location=US </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dataset_name</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span></p>
+
+<ul>
+  <li>프로젝트의 모든 데이터세트를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bq ls --filter labels.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge"> --max_results </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">정수</span><code class="language-plaintext highlighter-rouge"> --format=prettyjson --project_id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_아이디</span></p>
+
+<ul>
+  <li>CSV, JSON, Parquet, Avro 등의 형식으로 특정 파일의 데이터를 테이블에 일괄 로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bq load --location </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">위치</span><code class="language-plaintext highlighter-rouge"> --source_format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">CSV|JSON|PARQUET|AVRO</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터셋</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로_대상_소스</span></p>
+
+<ul>
+  <li>한 테이블을 다른 테이블에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bq cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터셋</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">오래된_테이블</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터셋</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새로운_테이블</span></p>
+
+<ul>
+  <li>버전 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bq help</code></p>

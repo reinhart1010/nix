@@ -1,0 +1,46 @@
+<h1 id="octez-client">octez-client</h1>
+
+<p>Tezos 블록체인과 상호작용.
+더 많은 정보: <a href="https://tezos.gitlab.io/introduction/howtouse.html#client">https://tezos.gitlab.io/introduction/howtouse.html#client</a>.</p>
+
+<ul>
+  <li><a href="https://rpc.ghostnet.teztnets.com">https://rpc.ghostnet.teztnets.com</a>과 같은 Tezos RPC 노드에 연결하여 클라이언트 구성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">octez-client -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">엔드포인트</span><code class="language-plaintext highlighter-rouge"> config update</code></p>
+
+<ul>
+  <li>계정을 생성하고 로컬 별칭을 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">octez-client gen keys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">별칭</span></p>
+
+<ul>
+  <li>별칭이나 주소로 계정의 잔액 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">octez-client get balance for </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">별칭_또는_주소</span></p>
+
+<ul>
+  <li>다른 계정으로 tez 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">octez-client transfer </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">별칭|주소</span><code class="language-plaintext highlighter-rouge"> to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">별칭|주소</span></p>
+
+<ul>
+  <li>스마트 계약 생성(배포), 로컬 별칭 지정 및 초기 저장소를 Michelson-인코딩된 값으로 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">octez-client originate contract </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">별칭</span><code class="language-plaintext highlighter-rouge"> transferring </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">별칭|주소</span><code class="language-plaintext highlighter-rouge"> running </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스_파일.tz</span><code class="language-plaintext highlighter-rouge"> --init "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">초기_저장소</span><code class="language-plaintext highlighter-rouge">" --burn_cap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>별칭이나 주소로 스마트 계약 호출 및 Michelson-인코딩된 매개변수 전달:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">octez-client transfer </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">별칭|주소</span><code class="language-plaintext highlighter-rouge"> to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">계약</span><code class="language-plaintext highlighter-rouge"> --entrypoint "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">엔트리포인트</span><code class="language-plaintext highlighter-rouge">" --arg "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">매개변수</span><code class="language-plaintext highlighter-rouge">" --burn-cap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">octez-client man</code></p>

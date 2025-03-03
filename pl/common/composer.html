@@ -1,0 +1,52 @@
+<h1 id="composer">composer</h1>
+
+<p>Menadżer pakietów dla projektów PHP.
+Więcej informacji: <a href="https://getcomposer.org/">https://getcomposer.org/</a>.</p>
+
+<ul>
+  <li>Interaktywnie utwórz plik <code class="language-plaintext highlighter-rouge">composer.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer init</code></p>
+
+<ul>
+  <li>Dodaj pakiet do zależności tego projektu, dodając wpis do <code class="language-plaintext highlighter-rouge">composer.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer require </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">użytkownik/pakiet</span></p>
+
+<ul>
+  <li>Zainstaluj wszystkie zależności z projektowego <code class="language-plaintext highlighter-rouge">composer.json</code> i utwórz <code class="language-plaintext highlighter-rouge">composer.lock</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer install</code></p>
+
+<ul>
+  <li>Odinstaluj pakiet z tego projektu, usuwając go jako zależność z <code class="language-plaintext highlighter-rouge">composer.json</code> i <code class="language-plaintext highlighter-rouge">composer.lock</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">użytkownik/pakiet</span></p>
+
+<ul>
+  <li>Zaktualizuj wszystkie pakiety z projektowego <code class="language-plaintext highlighter-rouge">composer.json</code> i zanotuj nową wersję w <code class="language-plaintext highlighter-rouge">composer.lock</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer update</code></p>
+
+<ul>
+  <li>Zaktualizuj tylko <code class="language-plaintext highlighter-rouge">composer.lock</code> po ręcznej aktualizacji <code class="language-plaintext highlighter-rouge">composer.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer update --lock</code></p>
+
+<ul>
+  <li>Dowiedz się więcej o powodach dlaczego zależność nie może zostać zainstalowana:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer why-not </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">użytkownik/pakiet</span></p>
+
+<ul>
+  <li>Zaktualizuj narzędzie composer do najnowszej wersji:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer self-update</code></p>

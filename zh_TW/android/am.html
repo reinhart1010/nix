@@ -1,0 +1,28 @@
+<h1 id="am">am</h1>
+
+<p>Android 活動管理器。
+更多資訊：<a href="https://developer.android.com/tools/adb#am">https://developer.android.com/tools/adb#am</a>.</p>
+
+<ul>
+  <li>啟動一個指定的活動：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am start -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.android.settings/.Settings</span></p>
+
+<ul>
+  <li>啟動一個活動並將資料傳遞給它：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am start -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span></p>
+
+<ul>
+  <li>啟動與特定操作和類別匹配的活動：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am start -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.MAIN</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.category.HOME</span></p>
+
+<ul>
+  <li>將意圖（intent）轉換為 URI：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am to-uri -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span></p>

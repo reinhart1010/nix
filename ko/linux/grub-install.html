@@ -1,0 +1,22 @@
+<h1 id="grub-install">grub-install</h1>
+
+<p>GRUB을 장치에 설치.
+더 많은 정보: <a href="https://www.gnu.org/software/grub/manual/grub/html_node/Installing-GRUB-using-grub_002dinstall.html">https://www.gnu.org/software/grub/manual/grub/html_node/Installing-GRUB-using-grub_002dinstall.html</a>.</p>
+
+<ul>
+  <li>BIOS 시스템에 GRUB 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-install --target=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">i386-pc</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/장치</span></p>
+
+<ul>
+  <li>UEFI 시스템에 GRUB 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-install --target=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x86_64-efi</span><code class="language-plaintext highlighter-rouge"> --efi-directory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/efi_폴더</span><code class="language-plaintext highlighter-rouge"> --bootloader-id=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GRUB</span></p>
+
+<ul>
+  <li>특정 모듈을 사전 로드하여 GRUB 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grub-install --target=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x86_64-efi</span><code class="language-plaintext highlighter-rouge"> --efi-directory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/efi_폴더</span><code class="language-plaintext highlighter-rouge"> --modules="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">part_gpt part_msdos</span><code class="language-plaintext highlighter-rouge">"</code></p>

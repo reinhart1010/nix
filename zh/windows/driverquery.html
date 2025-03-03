@@ -1,0 +1,46 @@
+<h1 id="driverquery">driverquery</h1>
+
+<p>显示已安装设备驱动程序的信息。
+更多信息：<a href="https://learn.microsoft.com/windows-server/administration/windows-commands/driverquery">https://learn.microsoft.com/windows-server/administration/windows-commands/driverquery</a>.</p>
+
+<ul>
+  <li>显示所有已安装设备驱动程序的列表：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">driverquery</code></p>
+
+<ul>
+  <li>以指定格式显示驱动程序的列表：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">driverquery /fo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table|list|csv</span></p>
+
+<ul>
+  <li>显示带有列的驱动程序列表，以表明它们是否已签名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">driverquery /si</code></p>
+
+<ul>
+  <li>排除输出列表中的标题：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">driverquery /nh</code></p>
+
+<ul>
+  <li>显示远程计算机的驱动程序列表：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">driverquery /s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">主机名</span><code class="language-plaintext highlighter-rouge"> /u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge"> /p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span></p>
+
+<ul>
+  <li>显示详细信息的驱动程序列表：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">driverquery /v</code></p>
+
+<ul>
+  <li>显示详细的使用信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">driverquery /?</code></p>

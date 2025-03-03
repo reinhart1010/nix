@@ -1,0 +1,22 @@
+<h1 id="route">route</h1>
+
+<p>Gebruik het route-commando om de routetabel in te stellen.
+Meer informatie: <a href="https://manned.org/route">https://manned.org/route</a>.</p>
+
+<ul>
+  <li>Toon de informatie van de routetabel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">route -n</code></p>
+
+<ul>
+  <li>Voeg een routeregel toe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route add -net </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_adres</span><code class="language-plaintext highlighter-rouge"> netmask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">netmask_adres</span><code class="language-plaintext highlighter-rouge"> gw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gw_adres</span></p>
+
+<ul>
+  <li>Verwijder een routeregel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route del -net </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_adres</span><code class="language-plaintext highlighter-rouge"> netmask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">netmask_adres</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gw_adres</span></p>

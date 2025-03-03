@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="diff">diff</h1>
+
+<p>比較兩個檔案或目錄間的差異。
+更多資訊：<a href="https://manned.org/diff">https://manned.org/diff</a>.</p>
+
+<ul>
+  <li>比較兩檔案，列出 <code class="language-plaintext highlighter-rouge">舊檔案</code> 相異於 <code class="language-plaintext highlighter-rouge">新檔案</code> 而需更改之處，以讓兩者相同：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">舊檔案</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">新檔案</span></p>
+
+<ul>
+  <li>忽略空格下，比較兩檔案：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --ignore-all-space </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">舊檔案</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">新檔案</span></p>
+
+<ul>
+  <li>比較兩檔案，並排顯示差異：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --side-by-side </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">舊檔案</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">新檔案</span></p>
+
+<ul>
+  <li>比較兩檔案，並以統一格式 (unified format) 顯示差異（為 <code class="language-plaintext highlighter-rouge">git diff</code> 預設格式）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --unified </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">舊檔案</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">新檔案</span></p>
+
+<ul>
+  <li>遞迴比較兩目錄，顯示相異的檔名或目錄名，與檔案內更動：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">舊目錄</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">新目錄</span></p>
+
+<ul>
+  <li>比較兩目錄，只顯示相異檔案的檔名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --recursive --brief </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">舊目錄</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">新目錄</span></p>
+
+<ul>
+  <li>由兩個文字檔之間差異建立一個補丁 (patch) 檔給 Git，不存在的檔案視為空白文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --text --unified --new-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">舊檔案</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">新檔案</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diff.patch</span></p>

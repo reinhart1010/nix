@@ -1,0 +1,29 @@
+<h1 id="systemd-stdio-bridge">systemd-stdio-bridge</h1>
+
+<p>Implement a proxy between <code class="language-plaintext highlighter-rouge">stdin</code>/<code class="language-plaintext highlighter-rouge">stdout</code> and a D-Bus.
+Note: It expects to receive an open connection via <code class="language-plaintext highlighter-rouge">stdin</code>/<code class="language-plaintext highlighter-rouge">stdout</code> when started, and will create a new connection to the specified bus.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/latest/systemd-stdio-bridge.html">https://www.freedesktop.org/software/systemd/man/latest/systemd-stdio-bridge.html</a>.</p>
+
+<ul>
+  <li>Forward <code class="language-plaintext highlighter-rouge">stdin</code>/<code class="language-plaintext highlighter-rouge">stdout</code> to the local system bus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-stdio-bridge</code></p>
+
+<ul>
+  <li>Forward <code class="language-plaintext highlighter-rouge">stdin</code>/<code class="language-plaintext highlighter-rouge">stdout</code> to a specific user's D-Bus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-stdio-bridge --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span></p>
+
+<ul>
+  <li>Forward <code class="language-plaintext highlighter-rouge">stdin</code>/<code class="language-plaintext highlighter-rouge">stdout</code> to the local system bus within a specific container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-stdio-bridge --machine=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mycontainer</span></p>
+
+<ul>
+  <li>Forward <code class="language-plaintext highlighter-rouge">stdin</code>/<code class="language-plaintext highlighter-rouge">stdout</code> to a custom D-Bus address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-stdio-bridge --bus-path=unix:path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/custom/dbus/socket</span></p>

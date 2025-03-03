@@ -1,0 +1,28 @@
+<h1 id="clip">clip</h1>
+
+<p>Copy input content to the Windows clipboard.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/clip">https://learn.microsoft.com/windows-server/administration/windows-commands/clip</a>.</p>
+
+<ul>
+  <li>Pipe command-line output to the Windows clipboard:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dir</span><code class="language-plaintext highlighter-rouge"> | clip</code></p>
+
+<ul>
+  <li>Copy the contents of a file to the Windows clipboard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clip &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file.ext</span></p>
+
+<ul>
+  <li>Copy text with a trailing newline to the Windows clipboard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some text</span><code class="language-plaintext highlighter-rouge"> | clip</code></p>
+
+<ul>
+  <li>Copy text without a trailing newline to the Windows clipboard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo | set /p="some text" | clip</code></p>

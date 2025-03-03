@@ -1,0 +1,23 @@
+<h1 id="userdel">userdel</h1>
+
+<p>Remove a user account or remove a user from a group.
+See also: <code class="language-plaintext highlighter-rouge">users</code>, <code class="language-plaintext highlighter-rouge">useradd</code>, <code class="language-plaintext highlighter-rouge">usermod</code>.
+More information: <a href="https://manned.org/userdel">https://manned.org/userdel</a>.</p>
+
+<ul>
+  <li>Remove a user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo userdel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Remove a user in other root directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo userdel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-R|–root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/other/root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Remove a user along with the home directory and mail spool:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo userdel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–remove</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>

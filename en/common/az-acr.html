@@ -1,0 +1,53 @@
+<h1 id="az-acr">az acr</h1>
+
+<p>Manage private registries with Azure Container Registries.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/acr">https://learn.microsoft.com/cli/azure/acr</a>.</p>
+
+<ul>
+  <li>Create a managed container registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az acr create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry_name</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span><code class="language-plaintext highlighter-rouge"> --sku </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sku</span></p>
+
+<ul>
+  <li>Login to a registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az acr login --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry_name</span></p>
+
+<ul>
+  <li>Tag a local image for ACR:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry_name</span><code class="language-plaintext highlighter-rouge">.azurecr.io/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span></p>
+
+<ul>
+  <li>Push an image to a registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry_name</span><code class="language-plaintext highlighter-rouge">.azurecr.io/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span></p>
+
+<ul>
+  <li>Pull an image from a registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry_name</span><code class="language-plaintext highlighter-rouge">.azurecr.io/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span></p>
+
+<ul>
+  <li>Delete an image from a registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az acr repository delete --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry_name</span><code class="language-plaintext highlighter-rouge"> --repository </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span></p>
+
+<ul>
+  <li>Delete a managed container registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az acr delete --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry_name</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span><code class="language-plaintext highlighter-rouge"> --yes</code></p>
+
+<ul>
+  <li>List images within a registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az acr repository list --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry_name</span><code class="language-plaintext highlighter-rouge"> --output table</code></p>

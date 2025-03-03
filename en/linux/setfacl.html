@@ -1,0 +1,28 @@
+<h1 id="setfacl">setfacl</h1>
+
+<p>Set file access control lists (ACL).
+More information: <a href="https://manned.org/setfacl">https://manned.org/setfacl</a>.</p>
+
+<ul>
+  <li>[M]odify ACL of a file for user with read and write access:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setfacl --modify u:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">:rw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>[M]odify [d]efault ACL of a file for all users:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setfacl --modify --default u::rw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Remove ACL of a file for a user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setfacl --remove u:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Remove all ACL entries of a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setfacl --remove-all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>

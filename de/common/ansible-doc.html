@@ -1,0 +1,41 @@
+<h1 id="ansible-doc">ansible-doc</h1>
+
+<p>Anzeigen von Informationen über die in den Ansible-Bibliotheken installierten Module.
+Anzeigen einer knappen Auflistung von Plugins und deren Kurzbeschreibungen.
+Weitere Informationen: <a href="https://docs.ansible.com/ansible/latest/cli/ansible-doc.html">https://docs.ansible.com/ansible/latest/cli/ansible-doc.html</a>.</p>
+
+<ul>
+  <li>Auflisten der verfügbaren Aktions-Plugin (Module):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-doc --list</code></p>
+
+<ul>
+  <li>Auflisten der verfügbare Plugins eines bestimmten Typs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-doc --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plugin_typ</span><code class="language-plaintext highlighter-rouge"> --list</code></p>
+
+<ul>
+  <li>Anzeigen von Informationen über ein bestimmtes Aktions-Plugin (Module):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-doc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plugin_name</span></p>
+
+<ul>
+  <li>Anzeigen von Informationen über ein Plugin mit einem betimmten Typ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-doc --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plugin_typ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plugin_name</span></p>
+
+<ul>
+  <li>Anzeigen des Playbookausschnittes für ein Actions-Plugin (Module):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-doc --snippet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plugin_name</span></p>
+
+<ul>
+  <li>Anzeigen von Informationen über ein Aktions-Plugin (Module) als JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-doc --json </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plugin_name</span></p>

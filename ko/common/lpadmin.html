@@ -1,0 +1,29 @@
+<h1 id="lpadmin">lpadmin</h1>
+
+<p>CUPS 프린터 및 클래스를 구성.
+같이 보기: <code class="language-plaintext highlighter-rouge">lpoptions</code>.
+더 많은 정보: <a href="https://openprinting.github.io/cups/doc/man-lpadmin.html">https://openprinting.github.io/cups/doc/man-lpadmin.html</a>.</p>
+
+<ul>
+  <li>기본 프린터 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpadmin -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프린터</span></p>
+
+<ul>
+  <li>특정 프린터 또는 클래스 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpadmin -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프린터|클래스</span></p>
+
+<ul>
+  <li>프린터를 클래스에 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpadmin -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프린터</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클래스</span></p>
+
+<ul>
+  <li>프린터를 클래스에서 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpadmin -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프린터</span><code class="language-plaintext highlighter-rouge"> -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클래스</span></p>

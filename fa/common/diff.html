@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="diff">diff</h1>
+
+<p>مقایسه فایل(ها) و پوشه(ها).
+اطلاعات بیشتر: <a href="https://manned.org/diff">https://manned.org/diff</a>.</p>
+
+<ul>
+  <li>مقایسه فایل ها (فهرست تغییرات فایل های قدیمی به جدید) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_file</span></p>
+
+<ul>
+  <li>مقایسه فایل ها، با صرف نظر از فاصله های خالی:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --ignore-all-space </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_file</span></p>
+
+<ul>
+  <li>مقایسه فایل ها، با نمایش تفاوت ها در کنار هم:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --side-by-side </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_file</span></p>
+
+<ul>
+  <li>مقایسه فایل ها، به نمایش تفاوت ها به صورت یکپارچه (همانند <code class="language-plaintext highlighter-rouge">git diff</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --unified </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_file</span></p>
+
+<ul>
+  <li>مقایسه بازگشتی پوشه ها (نمایش اسامی متفاوت فایل ها و پوشه ها و همچنین تغییرات فایل ها):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_directory</span></p>
+
+<ul>
+  <li>نمایش نام فایل های متفاوت مقایسه شده:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --recursive --brief </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_directory</span></p>
+
+<ul>
+  <li>از تفاوت دو فایل متنی یک بروزرسانی میسازد، فایل های ناموجود را خالی فرض میکند :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diff --text --unified --new-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_file</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diff.patch</span></p>

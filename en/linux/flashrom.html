@@ -1,0 +1,34 @@
+<h1 id="flashrom">flashrom</h1>
+
+<p>Read, write, verify and erase flash chips.
+More information: <a href="https://manned.org/flashrom">https://manned.org/flashrom</a>.</p>
+
+<ul>
+  <li>Probe the chip, ensuring the wiring is correct:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flashrom --programmer </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programmer</span></p>
+
+<ul>
+  <li>Read flash and save it to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flashrom -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programmer</span><code class="language-plaintext highlighter-rouge"> --read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Write a file to the flash:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flashrom -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programmer</span><code class="language-plaintext highlighter-rouge"> --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Verify the flash against a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flashrom -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programmer</span><code class="language-plaintext highlighter-rouge"> --verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Probe the chip using Raspberry Pi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flashrom -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linux_spi:dev=/dev/spidev0.0</span></p>

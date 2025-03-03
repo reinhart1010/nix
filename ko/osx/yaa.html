@@ -1,0 +1,40 @@
+<h1 id="yaa">yaa</h1>
+
+<p>YAA 아카이브 생성 및 조작.
+더 많은 정보: <a href="https://keith.github.io/xcode-man-pages/yaa.1.html">https://keith.github.io/xcode-man-pages/yaa.1.html</a>.</p>
+
+<ul>
+  <li>디렉터리에서 아카이브 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yaa archive -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.yaa</span></p>
+
+<ul>
+  <li>파일에서 아카이브 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yaa archive -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.yaa</span></p>
+
+<ul>
+  <li>현재 디렉터리에 아카이브 추출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yaa extract -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/아카이브_파일.yaa</span></p>
+
+<ul>
+  <li>아카이브 내용 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yaa list -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/아카이브_파일.yaa</span></p>
+
+<ul>
+  <li>특정 압축 알고리즘으로 아카이브 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yaa archive -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">알고리즘</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.yaa</span></p>
+
+<ul>
+  <li>8 MB 블록 크기로 아카이브 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yaa archive -b 8m -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.yaa</span></p>

@@ -1,0 +1,22 @@
+<h1 id="aplay">aplay</h1>
+
+<p>ALSA 사운드카드 드라이버를 위한 사운드 플레이어.
+더 많은 정보: <a href="https://manned.org/aplay">https://manned.org/aplay</a>.</p>
+
+<ul>
+  <li>특정 파일 재생 (파일 형식에 따라 샘플링 속도, 비트 깊이 등이 자동으로 결정됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aplay </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>특정 파일의 처음 10초를 2500 Hz에서 재생:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aplay --duration=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> --rate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2500</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>22050 Hz, 모노, 8비트, Mu-Law <code class="language-plaintext highlighter-rouge">.au</code> 파일로 원시 파일 재생:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aplay --channels=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> --file-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raw</span><code class="language-plaintext highlighter-rouge"> --rate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22050</span><code class="language-plaintext highlighter-rouge"> --format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mu_law</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

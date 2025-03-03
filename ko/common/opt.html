@@ -1,0 +1,22 @@
+<h1 id="opt">opt</h1>
+
+<p>LLVM 소스 파일을 최적화하고 분석합니다.
+더 많은 정보: <a href="https://llvm.org/docs/CommandGuide/opt.html">https://llvm.org/docs/CommandGuide/opt.html</a>.</p>
+
+<ul>
+  <li>비트코드 파일에 최적화 또는 분석 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">opt -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패스명</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.bc</span><code class="language-plaintext highlighter-rouge"> -S -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_opt.bc</span></p>
+
+<ul>
+  <li>함수의 제어 흐름 그래프를 <code class="language-plaintext highlighter-rouge">.dot</code> 파일로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">opt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-dot-cfg</span><code class="language-plaintext highlighter-rouge"> -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.bc</span><code class="language-plaintext highlighter-rouge"> -disable-output</code></p>
+
+<ul>
+  <li>프로그램을 2단계로 최적화하고 결과를 다른 파일로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">opt -O2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.bc</span><code class="language-plaintext highlighter-rouge"> -S -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_파일.bc</span></p>

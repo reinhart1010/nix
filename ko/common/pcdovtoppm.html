@@ -1,0 +1,28 @@
+<h1 id="pcdovtoppm">pcdovtoppm</h1>
+
+<p>사진 CD의 개요 파일을 기반으로 색인 이미지를 생성.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/pcdovtoppm.html">https://netpbm.sourceforge.net/doc/pcdovtoppm.html</a>.</p>
+
+<ul>
+  <li>PCD 개요 파일에서 PPM 색인 이미지 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pcdovtoppm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pcd</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.ppm</span></p>
+
+<ul>
+  <li>출력 이미지의 최대 너비와 출력에 포함된 각 이미지의 최대 크기 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pcdovtoppm -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">너비</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">크기</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pcd</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.ppm</span></p>
+
+<ul>
+  <li>가로로 배치할 이미지의 최대 수와 최대 색상 수 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pcdovtoppm -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_수</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">색상_수</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pcd</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.ppm</span></p>
+
+<ul>
+  <li>주석에 사용할 폰트를 지정하고 배경을 흰색으로 칠하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pcdovtoppm -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">폰트</span><code class="language-plaintext highlighter-rouge"> -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pcd</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.ppm</span></p>

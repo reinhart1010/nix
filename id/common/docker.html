@@ -1,0 +1,53 @@
+<h1 id="docker">docker</h1>
+
+<p>Atur kontainer Docker dan image.
+Beberapa subperintah seperti <code class="language-plaintext highlighter-rouge">run</code> mempunyai dokumentasi terpisah.
+Informasi lebih lanjut: <a href="https://docs.docker.com/reference/cli/docker/">https://docs.docker.com/reference/cli/docker/</a>.</p>
+
+<ul>
+  <li>Tampilkan semua daftar kontainer Docker (yang sedang berjalan dan berhenti):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker ps --all</code></p>
+
+<ul>
+  <li>Nyalakan sebuah kontainer dari citra (image), dengan nama kustom:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_kontainer</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">citra</span></p>
+
+<ul>
+  <li>Nyalakan atau menghentikan kontainer yang tersedia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_kontainer</span></p>
+
+<ul>
+  <li>Tarik citra dari registri Docker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">citra</span></p>
+
+<ul>
+  <li>Tampilkan daftar citra Docker yang telah diunduh:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images</code></p>
+
+<ul>
+  <li>Buka sesi shell didalam sebuah kontainer yang sedang berjalan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker exec -it </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_kontainer</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span></p>
+
+<ul>
+  <li>Hapus kontainer yang sedang berhenti:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_kontainer</span></p>
+
+<ul>
+  <li>Ambil dan ikuti semua log dari sebuah kontainer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker logs -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_kontainer</span></p>

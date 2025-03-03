@@ -1,0 +1,22 @@
+<h1 id="eselect-locale">eselect locale</h1>
+
+<p>Een <code class="language-plaintext highlighter-rouge">eselect</code>-module voor het beheren van de <code class="language-plaintext highlighter-rouge">LANG</code>-omgevingsvariabele, die de systeemtaal instelt.
+Meer informatie: <a href="https://wiki.gentoo.org/wiki/Eselect#Locale">https://wiki.gentoo.org/wiki/Eselect#Locale</a>.</p>
+
+<ul>
+  <li>Toon van beschikbare locales:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect locale list</code></p>
+
+<ul>
+  <li>Stel de <code class="language-plaintext highlighter-rouge">LANG</code>-omgevingsvariabele in <code class="language-plaintext highlighter-rouge">/etc/profile.env</code> in op naam of index van de <code class="language-plaintext highlighter-rouge">list</code>-opdracht:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect locale set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">naam|index</span></p>
+
+<ul>
+  <li>Toon de waarde van <code class="language-plaintext highlighter-rouge">LANG</code> in <code class="language-plaintext highlighter-rouge">/etc/profile.env</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect locale show</code></p>

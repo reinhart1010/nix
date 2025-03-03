@@ -1,0 +1,41 @@
+<h1 id="postconf">postconf</h1>
+
+<p>Postfix configuration utility.
+This command displays the values of the <code class="language-plaintext highlighter-rouge">main.cf</code> configuration parameters by default and warns about possible mistyped parameter names. It can also change the <code class="language-plaintext highlighter-rouge">main.cf</code> configuration parameter values.
+More information: <a href="https://manned.org/postconf">https://manned.org/postconf</a>.</p>
+
+<ul>
+  <li>Specify the directory of the <code class="language-plaintext highlighter-rouge">main.cf</code> configuration file instead of the default configuration directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">postconf -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/configuration_directory</span></p>
+
+<ul>
+  <li>Edit the <code class="language-plaintext highlighter-rouge">main.cf</code> configuration file and update parameter settings with the "name=value" pairs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">postconf -e</code></p>
+
+<ul>
+  <li>Print the default parameter settings of the <code class="language-plaintext highlighter-rouge">main.cf</code> instead of the actual settings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">postconf -d</code></p>
+
+<ul>
+  <li>Display parameters only from the specified class. The class can be one of builtin, service, user or all:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">postconf -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">class</span></p>
+
+<ul>
+  <li>List available SASL plug-in types for the Postfix SMTP server. The plug-in type is selected with the <code class="language-plaintext highlighter-rouge">smtpd_sasl_type</code> configuration parameter by specifying <code class="language-plaintext highlighter-rouge">cyrus</code> or <code class="language-plaintext highlighter-rouge">dovecot</code> as the name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">postconf -a</code></p>
+
+<ul>
+  <li>List the names of all supported lookup table types. Lookup tables are specified as <code class="language-plaintext highlighter-rouge">type:name</code> in configuration files where the type can be <code class="language-plaintext highlighter-rouge">btree</code>, <code class="language-plaintext highlighter-rouge">cdb</code>, <code class="language-plaintext highlighter-rouge">hash</code>, <code class="language-plaintext highlighter-rouge">mysql</code>, etc:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">postconf -m</code></p>

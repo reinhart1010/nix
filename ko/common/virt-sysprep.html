@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="virt-sysprep">virt-sysprep</h1>
+
+<p>가상 머신 이미지를 재설정, 비구성 또는 사용자 정의.
+더 많은 정보: <a href="https://manned.org/virt-sysprep">https://manned.org/virt-sysprep</a>.</p>
+
+<ul>
+  <li>지원되는 모든 작업 나열 (활성화된 작업은 별표로 표시됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-sysprep --list-operations</code></p>
+
+<ul>
+  <li>활성화된 모든 작업을 실행하되 실제로 변경사항을 적용하지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-sysprep --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상_머신_이름</span><code class="language-plaintext highlighter-rouge"> --dry-run</code></p>
+
+<ul>
+  <li>지정된 작업만 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-sysprep --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상_머신_이름</span><code class="language-plaintext highlighter-rouge"> --operations </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업1,작업2,…</span></p>
+
+<ul>
+  <li>새로운 <code class="language-plaintext highlighter-rouge">/etc/machine-id</code> 파일을 생성하고 사용자 정의를 활성화하여 네트워크 충돌을 피하기 위해 호스트 이름을 변경할 수 있도록 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-sysprep --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상_머신_이름</span><code class="language-plaintext highlighter-rouge"> --enable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_정의</span><code class="language-plaintext highlighter-rouge"> --hostname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트_이름</span><code class="language-plaintext highlighter-rouge"> --operation </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">machine-id</span></p>

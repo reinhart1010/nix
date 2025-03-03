@@ -1,0 +1,28 @@
+<h1 id="tlmgr-key">tlmgr key</h1>
+
+<p>Manage GPG keys used to verify TeX Live databases.
+More information: <a href="https://www.tug.org/texlive/tlmgr.html">https://www.tug.org/texlive/tlmgr.html</a>.</p>
+
+<ul>
+  <li>List all keys for TeX Live:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr key list</code></p>
+
+<ul>
+  <li>Add a key from a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr key add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key.gpg</span></p>
+
+<ul>
+  <li>Add a key from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key.gpg</span><code class="language-plaintext highlighter-rouge"> | sudo tlmgr key add -</code></p>
+
+<ul>
+  <li>Remove a specific key by its ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr key remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_id</span></p>

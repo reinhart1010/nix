@@ -1,0 +1,28 @@
+<h1 id="git-hash-object">git hash-object</h1>
+
+<p>Computes the unique hash key of content and optionally creates an object with specified type.
+More information: <a href="https://git-scm.com/docs/git-hash-object">https://git-scm.com/docs/git-hash-object</a>.</p>
+
+<ul>
+  <li>Compute the object ID without storing it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git hash-object </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Compute the object ID and store it in the Git database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git hash-object -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Compute the object ID specifying the object type:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git hash-object -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blob|commit|tag|tree</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Compute the object ID from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> | git hash-object --stdin</code></p>

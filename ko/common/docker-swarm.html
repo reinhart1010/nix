@@ -1,0 +1,46 @@
+<h1 id="docker-swarm">docker swarm</h1>
+
+<p>컨테이너 오케스트레이션 도구.
+더 많은 정보: <a href="https://docs.docker.com/engine/swarm/">https://docs.docker.com/engine/swarm/</a>.</p>
+
+<ul>
+  <li>스웜 클러스터 초기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm init</code></p>
+
+<ul>
+  <li>매니저 또는 워커에 합류할 수 있는 토큰 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm join-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">worker|manager</span></p>
+
+<ul>
+  <li>새로운 노드를 클러스터에 합류:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm join --token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">토큰</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">매니저_노드_url:2377</span></p>
+
+<ul>
+  <li>스웜에서 워커 제거 (워커 노드 내부에서 실행):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm leave</code></p>
+
+<ul>
+  <li>현재 CA 인증서를 PEM 형식으로 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm ca</code></p>
+
+<ul>
+  <li>현재 CA 인증서를 갱신하고 새 인증서 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm ca --rotate</code></p>
+
+<ul>
+  <li>노드 인증서의 유효 기간 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker swarm update --cert-expiry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">시간</span><code class="language-plaintext highlighter-rouge">h</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">분</span><code class="language-plaintext highlighter-rouge">m</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">초</span><code class="language-plaintext highlighter-rouge">s</code></p>

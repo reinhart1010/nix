@@ -1,0 +1,53 @@
+<h1 id="ufw">ufw</h1>
+
+<p>Uncomplicated Firewall.
+Frontend for <code class="language-plaintext highlighter-rouge">iptables</code> aiming to make configuration of a firewall easier.
+More information: <a href="https://wiki.ubuntu.com/UncomplicatedFirewall">https://wiki.ubuntu.com/UncomplicatedFirewall</a>.</p>
+
+<ul>
+  <li>Enable ufw:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw enable</code></p>
+
+<ul>
+  <li>Disable ufw:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw disable</code></p>
+
+<ul>
+  <li>Show ufw rules, along with their numbers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw status numbered</code></p>
+
+<ul>
+  <li>Allow incoming traffic on port 5432 on this host with a comment identifying the service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw allow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5432</span><code class="language-plaintext highlighter-rouge"> comment "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Service</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Allow only TCP traffic from 192.168.0.4 to any address on this host, on port 22:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw allow proto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp</span><code class="language-plaintext highlighter-rouge"> from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.4</span><code class="language-plaintext highlighter-rouge"> to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span><code class="language-plaintext highlighter-rouge"> port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22</span></p>
+
+<ul>
+  <li>Deny traffic on port 80 on this host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw deny </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span></p>
+
+<ul>
+  <li>Deny all UDP traffic to ports in range 8412:8500:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw deny proto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">udp</span><code class="language-plaintext highlighter-rouge"> from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span><code class="language-plaintext highlighter-rouge"> to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span><code class="language-plaintext highlighter-rouge"> port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8412:8500</span></p>
+
+<ul>
+  <li>Delete a particular rule. The rule number can be retrieved from the <code class="language-plaintext highlighter-rouge">ufw status numbered</code> command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ufw delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_number</span></p>

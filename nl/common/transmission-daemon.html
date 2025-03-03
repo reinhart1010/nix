@@ -1,0 +1,29 @@
+<h1 id="transmission-daemon">transmission-daemon</h1>
+
+<p>Daemon bediend met <code class="language-plaintext highlighter-rouge">transmission-remote</code> of de webinterface.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">transmission</code>.
+Meer informatie: <a href="https://manned.org/transmission-daemon">https://manned.org/transmission-daemon</a>.</p>
+
+<ul>
+  <li>Start een headless <code class="language-plaintext highlighter-rouge">transmission</code> sessie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-daemon</code></p>
+
+<ul>
+  <li>Start en bewaak een specifieke map voor nieuwe torrents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-daemon --watch-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span></p>
+
+<ul>
+  <li>Dump daemon-instellingen in JSON formaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-daemon --dump-settings &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.json</span></p>
+
+<ul>
+  <li>Start met specifieke instellingen voor de web interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-daemon --auth --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wachtwoord</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9091</span><code class="language-plaintext highlighter-rouge"> --allowed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1</span></p>

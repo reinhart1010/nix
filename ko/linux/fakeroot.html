@@ -1,0 +1,40 @@
+<h1 id="fakeroot">fakeroot</h1>
+
+<p>파일 조작을 위해 루트 권한을 가장하는 환경에서 명령을 실행.
+더 많은 정보: <a href="https://manned.org/fakeroot.1">https://manned.org/fakeroot.1</a>.</p>
+
+<ul>
+  <li>fakeroot로 기본 셸 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fakeroot</code></p>
+
+<ul>
+  <li>fakeroot로 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fakeroot -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령_인자들</span></p>
+
+<ul>
+  <li>fakeroot로 명령을 실행하고 종료 시 환경을 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fakeroot -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령_인자들</span></p>
+
+<ul>
+  <li>fakeroot 환경을 불러와 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fakeroot -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령_인자들</span></p>
+
+<ul>
+  <li>파일의 실제 소유권을 유지하면서 명령 실행 (루트 소유로 가장하지 않음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fakeroot --unknown-is-real -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령_인자들</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fakeroot --help</code></p>

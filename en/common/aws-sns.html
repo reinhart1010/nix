@@ -1,0 +1,52 @@
+<h1 id="aws-sns">aws sns</h1>
+
+<p>Create topics and subscriptions, send and receive messages, and monitor events and logs for the Amazon Simple Notification Service.
+More information: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sns/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sns/index.html</a>.</p>
+
+<ul>
+  <li>List all objects of a specific type:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sns list-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">origination-numbers|phone-numbers-opted-out|platform-applications|sms-sandbox-phone-numbers|subscriptions|topics</span></p>
+
+<ul>
+  <li>Create a topic with a specific name and show its Amazon Resource Name (ARN):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sns create-topic --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Subscribe an email address to the topic with a specific ARN and show the subscription ARN:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sns subscribe --topic-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic_ARN</span><code class="language-plaintext highlighter-rouge"> --protocol email --notification-endpoint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email</span></p>
+
+<ul>
+  <li>Publish a message to a specific topic or phone number and show the message ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sns publish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–topic-arn "arn:aws:sns:us-west-2:123456789012:topic-name"||–phone-number +1-555-555-0100</span><code class="language-plaintext highlighter-rouge"> --message file://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Delete the subscription with a specific ARN from its topic:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sns unsubscribe --subscription-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subscription_ARN</span></p>
+
+<ul>
+  <li>Create a platform endpoint:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sns create-platform-endpoint --platform-application-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">platform_application_ARN</span><code class="language-plaintext highlighter-rouge"> --token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">token</span></p>
+
+<ul>
+  <li>Add a statement to a topic's access control policy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sns add-permission --topic-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic_ARN</span><code class="language-plaintext highlighter-rouge"> --label </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic_label</span><code class="language-plaintext highlighter-rouge"> --aws-account-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">account_id</span><code class="language-plaintext highlighter-rouge"> --action-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AddPermission|CreatePlatformApplication|DeleteEndpoint|GetDataProtectionPolicy|GetEndpointAttributes|Subscribe|…</span></p>
+
+<ul>
+  <li>Add a tag to the topic with a specific ARN:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sns tag-resource --resource-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic_ARN</span><code class="language-plaintext highlighter-rouge"> --tags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Key=tag1_key Key=tag2_key,Value=tag2_value …</span></p>

@@ -1,0 +1,34 @@
+<h1 id="gnmic-subscribe">gnmic subscribe</h1>
+
+<p>Suscribirse a las actualizaciones de estado de un dispositivo de red gnmic.
+Más información: <a href="https://gnmic.kmrd.dev/cmd/subscribe">https://gnmic.kmrd.dev/cmd/subscribe</a>.</p>
+
+<ul>
+  <li>Suscribirse a las actualizaciones del estado objetivo bajo el subárbol de una ruta específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic --address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:puerto</span><code class="language-plaintext highlighter-rouge"> subscribe --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta</span></p>
+
+<ul>
+  <li>Suscribirse a un objetivo con un intervalo de muestra de 30s (por defecto es 10s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:puerto</span><code class="language-plaintext highlighter-rouge"> subscribe --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta</span><code class="language-plaintext highlighter-rouge"> --sample-interval 30s</code></p>
+
+<ul>
+  <li>Suscribirse a un objetivo con intervalo de muestra y actualizaciones solamente cuando hay cambios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:puerto</span><code class="language-plaintext highlighter-rouge"> subscribe --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta</span><code class="language-plaintext highlighter-rouge"> --stream-mode on-change --heartbeat-interval 1m</code></p>
+
+<ul>
+  <li>Suscribirse a un objetivo para una sola actualización:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:puerto</span><code class="language-plaintext highlighter-rouge"> subscribe --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta</span><code class="language-plaintext highlighter-rouge"> --mode once</code></p>
+
+<ul>
+  <li>Suscribirse a un objetivo y especificar la codificación de la respuesta (json_ietf):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:puerto</span><code class="language-plaintext highlighter-rouge"> subscribe --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta</span><code class="language-plaintext highlighter-rouge"> --encoding json_ietf</code></p>

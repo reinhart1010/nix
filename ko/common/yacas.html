@@ -1,0 +1,40 @@
+<h1 id="yacas">yacas</h1>
+
+<p>또 다른 컴퓨터 대수 시스템.
+더 많은 정보: <a href="https://www.yacas.org">https://www.yacas.org</a>.</p>
+
+<ul>
+  <li>대화형 <code class="language-plaintext highlighter-rouge">yacas</code> 세션 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yacas</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">yacas</code> 세션에서 문 실행:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Integrate(x)Cos(x)</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">yacas</code> 세션에서 예시 표시:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Example()</span><code class="language-plaintext highlighter-rouge">;</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">yacas</code> 세션 종료:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quit</span></p>
+
+<ul>
+  <li>하나 이상의 <code class="language-plaintext highlighter-rouge">yacas</code> 스크립트를 실행하고(터미널이나 프롬프트 없이) 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yacas -p -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트2</span></p>
+
+<ul>
+  <li>하나의 문을 실행하고 결과를 출력한 후 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Echo( Deriv(x)Cos(1/x) );</span><code class="language-plaintext highlighter-rouge">" | yacas -p -c /dev/stdin</code></p>

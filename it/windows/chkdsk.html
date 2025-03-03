@@ -1,0 +1,28 @@
+<h1 id="chkdsk">chkdsk</h1>
+
+<p>Controlla il file system e i metadata dei dischi per cercare errori.
+Maggiori informazioni: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/chkdsk">https://learn.microsoft.com/windows-server/administration/windows-commands/chkdsk</a>.</p>
+
+<ul>
+  <li>Specifica la lettera del disco (seguita da due punti ':'), monta una partizione o un disco da controllare:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkdsk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">disco</span></p>
+
+<ul>
+  <li>Ripara gli errori di un disco specifico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkdsk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">disco</span><code class="language-plaintext highlighter-rouge"> /f</code></p>
+
+<ul>
+  <li>Smonta un disco specifico prima di eseguire il controllo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkdsk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume</span><code class="language-plaintext highlighter-rouge"> /x</code></p>
+
+<ul>
+  <li>Cambia la dimensione dei file di log in una dimensione specifica (solo per NTFS):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chkdsk /l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dimensione</span></p>

@@ -1,0 +1,22 @@
+<h1 id="doctl-compute-droplet">doctl compute droplet</h1>
+
+<p>List, create, and delete virtual machines which are called droplets.
+More information: <a href="https://docs.digitalocean.com/reference/doctl/reference/compute/droplet/">https://docs.digitalocean.com/reference/doctl/reference/compute/droplet/</a>.</p>
+
+<ul>
+  <li>Create a droplet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl compute droplet create --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span><code class="language-plaintext highlighter-rouge"> --image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">os_image</span><code class="language-plaintext highlighter-rouge"> --size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vps_type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">droplet_name</span></p>
+
+<ul>
+  <li>Delete a droplet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl compute droplet delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">droplet_id|droplet_name</span></p>
+
+<ul>
+  <li>List droplets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl compute droplet list</code></p>

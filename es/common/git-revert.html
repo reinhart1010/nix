@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-revert">git revert</h1>
+
+<p>Crea nuevas confirmaciones que revierten el efecto de los anteriores.
+Más información: <a href="https://git-scm.com/docs/git-revert">https://git-scm.com/docs/git-revert</a>.</p>
+
+<ul>
+  <li>Revierte la confirmación más reciente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git revert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>Revierte la quinta confirmación más reciente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git revert HEAD~</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span></p>
+
+<ul>
+  <li>Revierte una confirmación específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git revert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0c01a9</span></p>
+
+<ul>
+  <li>Revierte múltiples confirmaciones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git revert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_rama~5..nombre_rama~2</span></p>
+
+<ul>
+  <li>Revierte confirmaciones sin crear nuevas confirmaciones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git revert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–no-commit</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0c01a9..9a1743</span></p>

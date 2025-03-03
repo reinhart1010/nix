@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="cp">cp</h1>
+
+<p>複製檔案與資料夾。
+更多資訊：<a href="https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html</a>.</p>
+
+<ul>
+  <li>複製一個檔案到新位置，並重新命名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/檔案.副檔名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/新檔案.副檔名</span></p>
+
+<ul>
+  <li>複製一個檔案到目錄內，但保留檔案名稱：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/檔案.副檔名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目錄/完整/路徑</span></p>
+
+<ul>
+  <li>遞迴的複製目錄的所有內容到新位置（若目標路徑已存在，將複製到該目錄的內部）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目錄/完整/路徑</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目錄/完整/目標路徑</span></p>
+
+<ul>
+  <li>遞迴的複製目錄的所有內容到新位置，並透過 <code class="language-plaintext highlighter-rouge">-v</code> 參數在複製過程中顯示被複製的內容：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -vr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目錄/完整/路徑</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目錄/完整/目標路徑</span></p>
+
+<ul>
+  <li>透過「互動模式」複製文字檔到新位置（當新位置有相同名稱的檔案時，需要先經過使用者的同意，方能複製到新位置）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目錄/完整/目標路徑</span></p>
+
+<ul>
+  <li>複製檔案或「捷徑」指向的「真實」檔案或資料夾：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">捷徑</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目錄/完整/目標路徑</span></p>
+
+<ul>
+  <li>使用完整的檔案路徑與檔案名稱，來創建跟原本目錄結構相同的目錄與檔案：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cp --parents </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/路徑</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/路徑</span></p>

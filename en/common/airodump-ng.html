@@ -1,0 +1,29 @@
+<h1 id="airodump-ng">airodump-ng</h1>
+
+<p>Capture packets and display information about wireless networks.
+Part of <code class="language-plaintext highlighter-rouge">aircrack-ng</code>.
+More information: <a href="https://www.aircrack-ng.org/doku.php?id=airodump-ng">https://www.aircrack-ng.org/doku.php?id=airodump-ng</a>.</p>
+
+<ul>
+  <li>Capture packets and display information about wireless network(s) on the 2.4GHz band:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airodump-ng </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>
+
+<ul>
+  <li>Capture packets and display information about wireless network(s) on the 5GHz band:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airodump-ng </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span><code class="language-plaintext highlighter-rouge"> --band a</code></p>
+
+<ul>
+  <li>Capture packets and display information about wireless network(s) on both 2.4GHz and 5GHz bands:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airodump-ng </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span><code class="language-plaintext highlighter-rouge"> --band abg</code></p>
+
+<ul>
+  <li>Capture packets and display information about a wireless network given the MAC address and channel, and save the output to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo airodump-ng --channel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">channel</span><code class="language-plaintext highlighter-rouge"> --write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --bssid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>

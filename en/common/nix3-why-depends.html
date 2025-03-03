@@ -1,0 +1,16 @@
+<h1 id="nix-why-depends">nix why-depends</h1>
+
+<p>Show why a package depends on another package.
+More information: <a href="https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-why-depends.html">https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-why-depends.html</a>.</p>
+
+<ul>
+  <li>Show why the currently running NixOS system requires a certain store path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix why-depends </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/run/current-system</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/nix/store/…</span></p>
+
+<ul>
+  <li>Show why a package from nixpkgs requires another package as a <em>build-time</em> dependency:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix why-depends --derivation </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs#dependent</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs#dependency</span></p>

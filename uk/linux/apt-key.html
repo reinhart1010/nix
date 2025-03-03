@@ -1,0 +1,35 @@
+<h1 id="apt-key">apt-key</h1>
+
+<p>Утиліта керування ключами для диспетчера пакетів APT в Debian та Ubuntu.
+Примітка: <code class="language-plaintext highlighter-rouge">apt-key</code> застарілий (за винятком використання <code class="language-plaintext highlighter-rouge">apt-key del</code> у сценаріях підтримки).
+Більше інформації: <a href="https://manned.org/apt-key.8">https://manned.org/apt-key.8</a>.</p>
+
+<ul>
+  <li>Список довірених ключів:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key list</code></p>
+
+<ul>
+  <li>Додати ключ до довіреного сховища ключів:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public_key_file.asc</span></p>
+
+<ul>
+  <li>Видалити ключ з довіреного сховища ключів:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_id</span></p>
+
+<ul>
+  <li>Додайте віддалений ключ до надійного сховища ключів:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget -qO - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://host.tld/filename.key</span><code class="language-plaintext highlighter-rouge"> | apt-key add -</code></p>
+
+<ul>
+  <li>Додати ключ із сервера ключів лише з ідентифікатором ключа:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key adv --keyserver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pgp.mit.edu</span><code class="language-plaintext highlighter-rouge"> --recv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">KEYID</span></p>

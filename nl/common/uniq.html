@@ -1,0 +1,35 @@
+<h1 id="uniq">uniq</h1>
+
+<p>Geef de unieke regels uit een invoer of bestand weer.
+Omdat het geen herhaalde regels detecteert tenzij ze naast elkaar staan, moeten we ze eerst sorteren.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/uniq-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/uniq-invocation.html</a>.</p>
+
+<ul>
+  <li>Toon elke regel één keer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span><code class="language-plaintext highlighter-rouge"> | uniq</code></p>
+
+<ul>
+  <li>Toon alleen unieke regels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span><code class="language-plaintext highlighter-rouge"> | uniq -u</code></p>
+
+<ul>
+  <li>Toon alleen dubbele regels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span><code class="language-plaintext highlighter-rouge"> | uniq -d</code></p>
+
+<ul>
+  <li>Toon het aantal voorkomens van elke regel samen met die regel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span><code class="language-plaintext highlighter-rouge"> | uniq -c</code></p>
+
+<ul>
+  <li>Toon het aantal voorkomens van elke regel, gesorteerd op meest frequent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span><code class="language-plaintext highlighter-rouge"> | uniq -c | sort -nr</code></p>

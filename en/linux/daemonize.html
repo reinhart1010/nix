@@ -1,0 +1,28 @@
+<h1 id="daemonize">daemonize</h1>
+
+<p>Run a command (that does not daemonize itself) as a Unix daemon.
+More information: <a href="https://software.clapper.org/daemonize/">https://software.clapper.org/daemonize/</a>.</p>
+
+<ul>
+  <li>Run a command as a daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemonize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>
+
+<ul>
+  <li>Write the PID to the specified file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemonize -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pidfile</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>
+
+<ul>
+  <li>Use a lock file to ensure that only one instance runs at a time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemonize -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/lockfile</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>
+
+<ul>
+  <li>Use the specified user account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo daemonize -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>

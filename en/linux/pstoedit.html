@@ -1,0 +1,16 @@
+<h1 id="pstoedit">pstoedit</h1>
+
+<p>Convert PDF files into various image formats.
+More information: <a href="http://www.pstoedit.net">http://www.pstoedit.net</a>.</p>
+
+<ul>
+  <li>Convert a PDF page to PNG or JPEG format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pstoedit -page </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">page_number</span><code class="language-plaintext highlighter-rouge"> -f magick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">page.png|page.jpg]</span></p>
+
+<ul>
+  <li>Convert multiple PDF pages to numbered images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pstoedit -f magick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">page%d.png|page%d.jpg</span></p>

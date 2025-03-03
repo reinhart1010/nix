@@ -1,0 +1,52 @@
+<h1 id="git-branch">git branch</h1>
+
+<p>Perintah Git utama untuk bekerja dengan cabang (<em>branch</em>).
+Informasi lebih lanjut: <a href="https://git-scm.com/docs/git-branch">https://git-scm.com/docs/git-branch</a>.</p>
+
+<ul>
+  <li>Tampilkan daftar semua cabang (lokal dan remote; cabang saat ini ditandai oleh <code class="language-plaintext highlighter-rouge">*</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch --all</code></p>
+
+<ul>
+  <li>Tampilkan daftar semua cabang yang memiliki komit Git tertentu di dalam riwayat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch --all --contains </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash_komit</span></p>
+
+<ul>
+  <li>Tampilkan nama cabang saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch --show-current</code></p>
+
+<ul>
+  <li>Buat cabang baru berdasarkan komit saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_cabang</span></p>
+
+<ul>
+  <li>Buat cabang baru berdasarkan komit tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_cabang</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash_komit</span></p>
+
+<ul>
+  <li>Ubah nama cabang (harus bukan cabang saat ini untuk melakukannya):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–move</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_cabang_lama</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_cabang_baru</span></p>
+
+<ul>
+  <li>Hapus cabang lokal (harus bukan cabang saat ini untuk melakukannya):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–delete</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_cabang</span></p>
+
+<ul>
+  <li>Hapus cabang remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_remote</span><code class="language-plaintext highlighter-rouge"> --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_cabang_remote</span></p>

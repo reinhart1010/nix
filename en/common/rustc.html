@@ -1,0 +1,47 @@
+<h1 id="rustc">rustc</h1>
+
+<p>The Rust compiler.
+Rust projects usually use <code class="language-plaintext highlighter-rouge">cargo</code> instead of invoking <code class="language-plaintext highlighter-rouge">rustc</code> directly.
+More information: <a href="https://doc.rust-lang.org/rustc">https://doc.rust-lang.org/rustc</a>.</p>
+
+<ul>
+  <li>Compile a binary crate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/main.rs</span></p>
+
+<ul>
+  <li>Compile with optimizations (<code class="language-plaintext highlighter-rouge">s</code> means optimize for binary size; <code class="language-plaintext highlighter-rouge">z</code> is the same with even more optimizations):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc -C lto -C opt-level=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|2|3|s|z</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/main.rs</span></p>
+
+<ul>
+  <li>Compile with debugging information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/main.rs</span></p>
+
+<ul>
+  <li>Explain an error message:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc --explain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">error_code</span></p>
+
+<ul>
+  <li>Compile with architecture-specific optimizations for the current CPU:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc -C target-cpu=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">native</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/main.rs</span></p>
+
+<ul>
+  <li>Display the target list (Note: you have to add a target using <code class="language-plaintext highlighter-rouge">rustup</code> first to be able to compile for it):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc --print target-list</code></p>
+
+<ul>
+  <li>Compile for a specific target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_triple</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/main.rs</span></p>

@@ -1,0 +1,41 @@
+<h1 id="semanage">semanage</h1>
+
+<p>SELinux persistent beleid beheertool.
+Sommige subcommando's zoals <code class="language-plaintext highlighter-rouge">boolean</code>, <code class="language-plaintext highlighter-rouge">fcontext</code>, <code class="language-plaintext highlighter-rouge">port</code>, etc. hebben hun eigen gebruiksdocumentatie.
+Meer informatie: <a href="https://manned.org/semanage">https://manned.org/semanage</a>.</p>
+
+<ul>
+  <li>Stel een SELinux-boolean in of uit. Booleans stellen de beheerder in staat om aan te passen hoe beleidsregels invloed hebben op ingesloten procestypes (ook wel domeinen genoemd):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage boolean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–modify</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1|–on|-0|–off</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">haproxy_connect_any</span></p>
+
+<ul>
+  <li>Voeg een door de gebruiker gedefinieerde bestandscontextlabelregel toe. Bestandscontexten definiëren welke bestanden ingesloten domeinen mogen openen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage fcontext </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–add</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">samba_share_t</span><code class="language-plaintext highlighter-rouge"> '/mnt/share(/.*)?'</code></p>
+
+<ul>
+  <li>Voeg een door de gebruiker gedefinieerde poortlabelregel toe. Poortlabels definiëren op welke poorten ingesloten domeinen mogen luisteren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–add</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh_port_t</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|–proto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22000</span></p>
+
+<ul>
+  <li>Stel de permissieve modus in of uit voor een ingesloten domein. Per-domein permissieve modus biedt meer gedetailleerde controle vergeleken met <code class="language-plaintext highlighter-rouge">setenforce</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage permissive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–add|-d|–delete</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpd_t</span></p>
+
+<ul>
+  <li>Exporteer lokale aanpassingen in de standaardopslag:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–output_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Importeer een bestand gegenereerd door <code class="language-plaintext highlighter-rouge">semanage export</code> in lokale aanpassingen (VOORZICHTIG: kan huidige aanpassingen verwijderen!):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–input_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>

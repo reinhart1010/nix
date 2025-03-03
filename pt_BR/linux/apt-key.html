@@ -1,0 +1,34 @@
+<h1 id="apt-key">apt-key</h1>
+
+<p>Gerenciador de chaves utilizado pelo gerenciador de pacotes APT nas distribuições baseadas em Debian.
+Mais informações: <a href="https://manned.org/apt-key.8">https://manned.org/apt-key.8</a>.</p>
+
+<ul>
+  <li>Exibe as chaves confiáveis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key list</code></p>
+
+<ul>
+  <li>Adiciona uma chave na lista de chaves confiáveis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_da_chave_publica.asc</span></p>
+
+<ul>
+  <li>Remove uma chave da lista de chaves confiáveis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_id</span></p>
+
+<ul>
+  <li>Adiciona uma chave remota na lista de chaves confiáveis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget -qO - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://host.tld/arquivo.key</span><code class="language-plaintext highlighter-rouge"> | apt-key add -</code></p>
+
+<ul>
+  <li>Adiciona uma chave, de um servidor de chaves, na lista de chaves confiáveis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-key adv --keyserver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pgp.mit.edu</span><code class="language-plaintext highlighter-rouge"> --recv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">KEYID</span></p>

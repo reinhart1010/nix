@@ -1,0 +1,22 @@
+<h1 id="rsh">rsh</h1>
+
+<p>원격 호스트에서 명령을 실행합니다.
+더 많은 정보: <a href="https://www.gnu.org/software/inetutils/manual/html_node/rsh-invocation.html">https://www.gnu.org/software/inetutils/manual/html_node/rsh-invocation.html</a>.</p>
+
+<ul>
+  <li>원격 호스트에서 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_호스트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -l</span></p>
+
+<ul>
+  <li>특정 사용자명으로 원격 호스트에서 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_호스트</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -l</span></p>
+
+<ul>
+  <li>원격 호스트에서 명령을 실행할 때 <code class="language-plaintext highlighter-rouge">stdin</code>을 <code class="language-plaintext highlighter-rouge">/dev/null</code>로 리다이렉트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_호스트</span><code class="language-plaintext highlighter-rouge"> --no-err </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -l</span></p>

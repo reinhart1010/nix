@@ -1,0 +1,41 @@
+<h1 id="sed">sed</h1>
+
+<p>Pas tekst aan in een op een scriptbare manier.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">awk</code>, <code class="language-plaintext highlighter-rouge">ed</code>.
+Meer informatie: <a href="https://man.openbsd.org/sed.1">https://man.openbsd.org/sed.1</a>.</p>
+
+<ul>
+  <li>Vervang alle <code class="language-plaintext highlighter-rouge">apple</code> (basis regex) met <code class="language-plaintext highlighter-rouge">mango</code> (basis regex) in alle invoerregels en toon het resultaat in <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span><code class="language-plaintext highlighter-rouge"> | sed 's/apple/mango/g'</code></p>
+
+<ul>
+  <li>Voer een specifiek script bestand uit en toon het resultaat in <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span><code class="language-plaintext highlighter-rouge"> | sed -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/script.sed</span></p>
+
+<ul>
+  <li>Vertraag het openen van elk bestand tot een commando met de gerelateerde <code class="language-plaintext highlighter-rouge">w</code>-functie of vlag wordt toegepast op een regel invoer:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span><code class="language-plaintext highlighter-rouge"> | sed -fa </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/script.sed</span></p>
+
+<ul>
+  <li>Vervang alle <code class="language-plaintext highlighter-rouge">apple</code> (uitgebreide regex) met <code class="language-plaintext highlighter-rouge">APPLE</code> (uitgebreide regex) in alle invoerregels en toon het resultaat in <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span><code class="language-plaintext highlighter-rouge"> | sed -E 's/(apple)/\U\1/g'</code></p>
+
+<ul>
+  <li>Toon alleen de eerste regel in <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span><code class="language-plaintext highlighter-rouge"> | sed -n '1p'</code></p>
+
+<ul>
+  <li>Vervang alle <code class="language-plaintext highlighter-rouge">apple</code> (basis regex) met <code class="language-plaintext highlighter-rouge">mango</code> (basis regex) in een specifiek bestand en overschrijf het originele bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed -i 's/apple/mango/g' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>

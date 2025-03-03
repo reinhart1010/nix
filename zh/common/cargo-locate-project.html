@@ -1,0 +1,29 @@
+<h1 id="cargo-locate-project">cargo locate-project</h1>
+
+<p>打印项目的 <code class="language-plaintext highlighter-rouge">Cargo.toml</code> 清单文件的完整路径。
+如果项目是工作区的一部分，则显示项目的清单文件，而不是工作区的清单文件。
+更多信息：<a href="https://doc.rust-lang.org/cargo/commands/cargo-locate-project.html">https://doc.rust-lang.org/cargo/commands/cargo-locate-project.html</a>.</p>
+
+<ul>
+  <li>显示包含完整路径到 <code class="language-plaintext highlighter-rouge">Cargo.toml</code> 清单文件的 JSON 对象：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo locate-project</code></p>
+
+<ul>
+  <li>以指定格式显示项目路径：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo locate-project --message-format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plain|json</span></p>
+
+<ul>
+  <li>显示位于工作区根目录而不是当前工作区成员的 <code class="language-plaintext highlighter-rouge">Cargo.toml</code> 清单文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo locate-project --workspace</code></p>
+
+<ul>
+  <li>显示特定目录中的 <code class="language-plaintext highlighter-rouge">Cargo.toml</code> 清单文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo locate-project --manifest-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Cargo.toml</span></p>

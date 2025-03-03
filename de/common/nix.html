@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="nix">nix</h1>
+
+<p>Dienstprogramme für die Nix-Sprache und den Nix-Speicher.
+Weitere Informationen: <a href="https://nixos.org/manual/nix">https://nixos.org/manual/nix</a>.</p>
+
+<ul>
+  <li>Suche nach einem Paket über seinen Namen oder seine Beschreibung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suchbegriff</span></p>
+
+<ul>
+  <li>Starte eine Nix-Shell, die die angegebenen Pakete zur Verfügung stellt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs.pkg1 nixpkgs.pkg2 …</span></p>
+
+<ul>
+  <li>Optimiere die Festplattennutzung des Nix-Speichers durch Zusammenfassen doppelter Dateien:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix store optimise</code></p>
+
+<ul>
+  <li>Starte eine interaktive Umgebung zum Ausführen von Nix-Ausdrücken:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix repl</code></p>
+
+<ul>
+  <li>Upgrade Nix auf die neueste stabile Version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix upgrade-nix</code></p>

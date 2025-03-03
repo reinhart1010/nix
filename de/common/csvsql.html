@@ -1,0 +1,23 @@
+<h1 id="csvsql">csvsql</h1>
+
+<p>Generiere SQL-Anweisungen für eine CSV-Datei oder führe diese Anweisungen direkt in einer Datenbank aus.
+Teil von csvkit.
+Weitere Informationen: <a href="https://csvkit.readthedocs.io/en/latest/scripts/csvsql.html">https://csvkit.readthedocs.io/en/latest/scripts/csvsql.html</a>.</p>
+
+<ul>
+  <li>Generiere eine <code class="language-plaintext highlighter-rouge">CREATE TABLE</code>-SQL-Anweisung für eine CSV-Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvsql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.csv</span></p>
+
+<ul>
+  <li>Importiere eine CSV-Datei in eine SQL-Datenbank:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvsql --insert --db "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mysql://benutzer:passwort@host/datenbank</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.csv</span></p>
+
+<ul>
+  <li>Führe eine SQL-Abfrage auf einer CSV-Datei aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvsql --query "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">select * from 'datei'</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">datei.csv</span></p>

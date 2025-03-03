@@ -1,0 +1,41 @@
+<h1 id="mpg321">mpg321</h1>
+
+<p>High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Mpg321 was written (sometime in 1999) to be a drop-in replacement for the (previously) non-free mpg123 player.
+More information: <a href="https://mpg321.sourceforge.net/">https://mpg321.sourceforge.net/</a>.</p>
+
+<ul>
+  <li>Play an audio source exactly N times (N=0 means forever):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpg321 -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_a|URL</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_b|URL</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">…</span></p>
+
+<ul>
+  <li>Play a directory recursively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpg321 -B </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Enable Basic Keys ( <code class="language-plaintext highlighter-rouge">*</code> or <code class="language-plaintext highlighter-rouge">/</code> - Increase or decrease volume, <code class="language-plaintext highlighter-rouge">n</code> - Skip song, <code class="language-plaintext highlighter-rouge">m</code> - Mute/unmute.) while playing:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpg321 -K </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_a|URL</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_b|URL</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">…</span></p>
+
+<ul>
+  <li>Play files randomly until interrupted:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpg321 -Z </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_a|URL</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_b|URL</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">…</span></p>
+
+<ul>
+  <li>Shuffle the files before playing them once:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpg321 -z </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_a|URL</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_b|URL</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">…</span></p>
+
+<ul>
+  <li>Play all files in the current directory and subdirectories, randomly (until interrupted), with Basic Keys enabled:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mpg321 -B -Z -K .</code></p>

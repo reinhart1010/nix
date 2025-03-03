@@ -1,0 +1,52 @@
+<h1 id="docker-system">docker system</h1>
+
+<p>Dockerのデータ管理とシステム全体に関わる情報の表示をします。
+もっと詳しく: <a href="https://docs.docker.com/reference/cli/docker/system/">https://docs.docker.com/reference/cli/docker/system/</a>。</p>
+
+<ul>
+  <li>ヘルプの表示をする:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system</code></p>
+
+<ul>
+  <li>Dockerディスクの使用量を表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system df</code></p>
+
+<ul>
+  <li>ディスクの使用量に関して詳細な情報を表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system df --verbose</code></p>
+
+<ul>
+  <li>不使用データを削除する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system prune</code></p>
+
+<ul>
+  <li>不使用データのうち指定時間より前に作成されたものを削除する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system prune --filter "until=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">時</span><code class="language-plaintext highlighter-rouge">h</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">分</span><code class="language-plaintext highlighter-rouge">m"</code></p>
+
+<ul>
+  <li>Dockerデーモンからのリアルタイムイベントを表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system events</code></p>
+
+<ul>
+  <li>コンテナからのリアルタイムイベントを適正なJSON行としてストリーム表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system events --filter 'type=container' --format '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json .</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>システム全体に関わる情報の表示をする:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system info</code></p>

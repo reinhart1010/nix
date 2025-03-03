@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="docker-images">docker images</h1>
+
+<p>Zarządzaj obrazami Dockera.
+Więcej informacji: <a href="https://docs.docker.com/reference/cli/docker/image/ls/">https://docs.docker.com/reference/cli/docker/image/ls/</a>.</p>
+
+<ul>
+  <li>Wyświetl wszystkie obrazy Docker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images</code></p>
+
+<ul>
+  <li>Wyświetl wszystkie obrazy Dockera, w tym intermediates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images -a</code></p>
+
+<ul>
+  <li>Wyświetl dane wyjściowe w trybie quiet (tylko identyfikatory numeryczne):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images -q</code></p>
+
+<ul>
+  <li>Wyświetl wszystkie obrazy Docker nieużywane przez żaden kontener:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images --filter dangling=true</code></p>

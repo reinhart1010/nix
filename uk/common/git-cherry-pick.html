@@ -1,0 +1,29 @@
+<h1 id="git-cherry-pick">git cherry-pick</h1>
+
+<p>Застосовує зміни, зроблені у наявних комітах, до поточної гілки.
+Для застосування змін до іншої гілки спершу виконайте <code class="language-plaintext highlighter-rouge">git checkout</code>, аби переключитися на бажану гілку.
+Більше інформації: <a href="https://git-scm.com/docs/git-cherry-pick">https://git-scm.com/docs/git-cherry-pick</a>.</p>
+
+<ul>
+  <li>Застосовує коміт до поточної гілки:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">коміт</span></p>
+
+<ul>
+  <li>Застосовує проміжок комітів до поточної гілки (дивіться також <code class="language-plaintext highlighter-rouge">git rebase --onto</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">початковий_коміт</span><code class="language-plaintext highlighter-rouge">~..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">кінцевий_коміт</span></p>
+
+<ul>
+  <li>Застосовує декілька (непослідовних) комітів до поточної гілки:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">коміт1 коміт2 …</span></p>
+
+<ul>
+  <li>Додає зміни з коміту до робочої директорії без створення коміту:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick --no-commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">коміт</span></p>

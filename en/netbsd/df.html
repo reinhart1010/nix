@@ -1,0 +1,46 @@
+<h1 id="df">df</h1>
+
+<p>Display an overview of the filesystem disk space usage.
+More information: <a href="https://man.netbsd.org/df.1">https://man.netbsd.org/df.1</a>.</p>
+
+<ul>
+  <li>Display all filesystems and their disk usage using 512-byte units:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df</code></p>
+
+<ul>
+  <li>Use [h]uman-readable units (based on powers of 1024):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df -h</code></p>
+
+<ul>
+  <li>Display all the fields of the structure(s) returned by <code class="language-plaintext highlighter-rouge">statvfs</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df -G</code></p>
+
+<ul>
+  <li>Display the filesystem and its disk usage containing the given file or directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Include statistics on the number of free and used [i]nodes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df -i</code></p>
+
+<ul>
+  <li>Use 1024-byte units when writing space figures:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df -k</code></p>
+
+<ul>
+  <li>Display information in a [P]ortable way:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df -P</code></p>

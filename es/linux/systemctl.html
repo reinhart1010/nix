@@ -1,0 +1,52 @@
+<h1 id="systemctl">systemctl</h1>
+
+<p>Controla el gestor de sistemas y servicios systemd.
+Más información: <a href="https://www.freedesktop.org/software/systemd/man/systemctl.html">https://www.freedesktop.org/software/systemd/man/systemctl.html</a>.</p>
+
+<ul>
+  <li>Muestra todos los servicios en ejecución:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl status</code></p>
+
+<ul>
+  <li>Lista las unidades fallidas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl --failed</code></p>
+
+<ul>
+  <li>Inicia, para, reinicia, recarga o muestra el estado de una unidad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop|restart|reload|status</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span></p>
+
+<ul>
+  <li>Habilita o deshabilita una unidad para iniciarla al arrancar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enable|disable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span></p>
+
+<ul>
+  <li>Reinicia systemd, lee unidades nuevas o modificadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl daemon-reload</code></p>
+
+<ul>
+  <li>Checa si una unidad está activa, habilitada, o en estado fallido:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">is-active|is-enabled|is-failed</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span></p>
+
+<ul>
+  <li>Lista todos los servicios, sockets, unidades auto-montadas filtradas por estado en ejecución o fallido:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl list-units --type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service|socket|automount</span><code class="language-plaintext highlighter-rouge"> --state=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">failed|running</span></p>
+
+<ul>
+  <li>Muestra los contenidos y la ruta absoluta del archivo de una unidad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span></p>

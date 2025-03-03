@@ -1,0 +1,23 @@
+<h1 id="systool">systool</h1>
+
+<p>Vea información de dispositivos del sistema por bus y clases.
+Este comando es parte del paquete <code class="language-plaintext highlighter-rouge">sysfs</code>.
+Más información: <a href="https://github.com/linux-ras/sysfsutils">https://github.com/linux-ras/sysfsutils</a>.</p>
+
+<ul>
+  <li>Lista todos los atributos de los dispositivos de un bus (ej. <code class="language-plaintext highlighter-rouge">pci</code>, <code class="language-plaintext highlighter-rouge">usb</code>). Vea todos los buses usando <code class="language-plaintext highlighter-rouge">ls /sys/bus</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systool -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bus</span><code class="language-plaintext highlighter-rouge"> -v</code></p>
+
+<ul>
+  <li>Lista todos los atributos de una clase de dispositivos (ej. <code class="language-plaintext highlighter-rouge">drm</code>, <code class="language-plaintext highlighter-rouge">block</code>). Vea todas las clases usando <code class="language-plaintext highlighter-rouge">ls /sys/class</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systool -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clase</span><code class="language-plaintext highlighter-rouge"> -v</code></p>
+
+<ul>
+  <li>Muestra solo los controladores de un bus (ej. <code class="language-plaintext highlighter-rouge">pci</code>, <code class="language-plaintext highlighter-rouge">usb</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systool -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bus</span><code class="language-plaintext highlighter-rouge"> -D</code></p>

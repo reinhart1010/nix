@@ -1,0 +1,23 @@
+<h1 id="csvgrep">csvgrep</h1>
+
+<p>Filtra righe CSV con stringhe e pattern matching.
+Incluso in csvkit.
+Maggiori informazioni: <a href="https://csvkit.readthedocs.io/en/latest/scripts/csvgrep.html">https://csvkit.readthedocs.io/en/latest/scripts/csvgrep.html</a>.</p>
+
+<ul>
+  <li>Trova righe contenenti una certa stringa nella colonna 1:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvgrep -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stringa</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>
+
+<ul>
+  <li>Trova righe per le quali le colonne 3 e 4 soddisfano una certa espressione regolare:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvgrep -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3,4</span><code class="language-plaintext highlighter-rouge"> -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">espressione_regolare</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>
+
+<ul>
+  <li>Trova righe dove la colonna "nome" NON include la stringa "Mario Rossi":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvgrep -i -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span><code class="language-plaintext highlighter-rouge"> -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Mario Rossi</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>

@@ -1,0 +1,40 @@
+<h1 id="aws-s3">aws s3</h1>
+
+<p>CLI für AWS S3. AWS S3 stellt Speicherplatz in der Cloud zur Verfügung.
+Weitere Informationen: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/index.html</a>.</p>
+
+<ul>
+  <li>Liste alle Objekte in einem Bucket auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 ls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span></p>
+
+<ul>
+  <li>Synchronisiere Dateien und Verzeichnissen zu einem Bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_verzeichnis</span><code class="language-plaintext highlighter-rouge"> s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span></p>
+
+<ul>
+  <li>Synchronisiere Dateien und Verzeichnissen von einem Bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 sync s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel</span></p>
+
+<ul>
+  <li>Synchronisiere Dateien und Verzeichnissen mit Ausnahmen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_verzeichnis</span><code class="language-plaintext highlighter-rouge"> s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge"> --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span><code class="language-plaintext highlighter-rouge"> --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis</span><code class="language-plaintext highlighter-rouge">/*</code></p>
+
+<ul>
+  <li>Entferne ein Objekt von einem Bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 rm s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Probelauf eines angegebenen Kommandos ohne dieses auszuführen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span><code class="language-plaintext highlighter-rouge"> --dryrun</code></p>

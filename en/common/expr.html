@@ -1,0 +1,46 @@
+<h1 id="expr">expr</h1>
+
+<p>Evaluate expressions and manipulate strings.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/expr-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/expr-invocation.html</a>.</p>
+
+<ul>
+  <li>Get the length of a specific string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr length "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Get the substring of a string with a specific length:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr substr "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">from</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">length</span></p>
+
+<ul>
+  <li>Match a specific substring against an anchored pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr match "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Get the first char position from a specific set in a string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr index "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chars</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Calculate a specific mathematic expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expression1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+|-|*|/|%</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expression2</span></p>
+
+<ul>
+  <li>Get the first expression if its value is non-zero and not null otherwise get the second one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expression1</span><code class="language-plaintext highlighter-rouge"> \| </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expression2</span></p>
+
+<ul>
+  <li>Get the first expression if both expressions are non-zero and not null otherwise get zero:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expression1</span><code class="language-plaintext highlighter-rouge"> \&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expression2</span></p>

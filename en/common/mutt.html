@@ -1,0 +1,34 @@
+<h1 id="mutt">mutt</h1>
+
+<p>Command-line email client.
+More information: <a href="http://mutt.org">http://mutt.org</a>.</p>
+
+<ul>
+  <li>Open the specified mailbox:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutt -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mailbox</span></p>
+
+<ul>
+  <li>Send an email and specify a subject and a cc recipient:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutt -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cc@example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recipient@example.com</span></p>
+
+<ul>
+  <li>Send an email with files attached:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutt -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recipient@example.com</span></p>
+
+<ul>
+  <li>Specify a file to include as the message body:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutt -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recipient@example.com</span></p>
+
+<ul>
+  <li>Specify a draft file containing the header and the body of the message, in RFC 5322 format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutt -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recipient@example.com</span></p>

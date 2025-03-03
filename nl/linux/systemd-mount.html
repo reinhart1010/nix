@@ -1,0 +1,46 @@
+<h1 id="systemd-mount">systemd-mount</h1>
+
+<p>Zet mount of auto-mount punten op of verwijder ze.
+Meer informatie: <a href="https://www.freedesktop.org/software/systemd/man/systemd-mount.html">https://www.freedesktop.org/software/systemd/man/systemd-mount.html</a>.</p>
+
+<ul>
+  <li>Mount een bestandssysteem (afbeelding of blokapparaat) op <code class="language-plaintext highlighter-rouge">/run/media/system/LABEL</code> waar LABEL het bestandssysteemlabel is of de apparaatnaam als er geen label is:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_apparaat</span></p>
+
+<ul>
+  <li>Mount een bestandssysteem (afbeelding of blokapparaat) op een gegeven locatie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_apparaat</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/mount_point</span></p>
+
+<ul>
+  <li>Toon een lijst van alle lokale, bekende blokapparaten met de bestandssystemen die mogelijk gemount kunnen worden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount --list</code></p>
+
+<ul>
+  <li>Maak een automount punt dat het bestandssysteem zal mounten op het moment van eerste toegang:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount --automount=yes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_apparaat</span></p>
+
+<ul>
+  <li>Unmount een of meerdere apparaten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount --umount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/mount_point_of_apparaat1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/mount_point_of_apparaat2</span></p>
+
+<ul>
+  <li>Mount een bestandssysteem (afbeelding of blokapparaat) met een specifiek bestandssysteemtype:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount --type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_system_type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_apparaat</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/mount_point</span></p>
+
+<ul>
+  <li>Mount een bestandssysteem (afbeelding of blokapparaat) met extra mount opties:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-mount --options=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mount_options</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_apparaat</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/mount_point</span></p>

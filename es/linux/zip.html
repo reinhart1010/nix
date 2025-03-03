@@ -1,0 +1,47 @@
+<h1 id="zip">zip</h1>
+
+<p>Empaqueta y comprime archivos en un archivo Zip.
+Vea también: <code class="language-plaintext highlighter-rouge">unzip</code>.
+Más información: <a href="https://manned.org/zip">https://manned.org/zip</a>.</p>
+
+<ul>
+  <li>Agrega archivos/directorios a un archivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/comprimido.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 …</span></p>
+
+<ul>
+  <li>Elimina archivos/directorios de un archivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/comprimido.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 …</span></p>
+
+<ul>
+  <li>Archiva archivos/directorios e[x]cluyendo especificados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/comprimido.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 …</span><code class="language-plaintext highlighter-rouge"> --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivos_o_directorios_excluidos</span></p>
+
+<ul>
+  <li>Archiva archivos/directorios con un nivel de compresión específico (<code class="language-plaintext highlighter-rouge">0</code> - el más bajo, <code class="language-plaintext highlighter-rouge">9</code> - el más alto):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0..9</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/comprimido.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 …</span></p>
+
+<ul>
+  <li>Crea un archivo cifrado con una contraseña específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r --encrypt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/comprimido.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 …</span></p>
+
+<ul>
+  <li>Archivo de archivos/directorios a un archivo multiparte[s] (por ejemplo,  en partes de 3 GB):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3g</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/comprimido.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 …</span></p>
+
+<ul>
+  <li>Imprime un contenido específico de archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -sf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/comprimido.zip</span></p>

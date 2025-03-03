@@ -1,0 +1,34 @@
+<h1 id="aws-route53">aws route53</h1>
+
+<p>CLI for AWS Route53 - Route 53 is a highly available and scalable Domain Name System (DNS) web service.
+More information: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/route53/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/route53/index.html</a>.</p>
+
+<ul>
+  <li>List all hosted zones, private and public:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws route53 list-hosted-zones</code></p>
+
+<ul>
+  <li>Show all records in a zone:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws route53 list-resource-record-sets --hosted-zone-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zone_id</span></p>
+
+<ul>
+  <li>Create a new, public zone using a request identifier to retry the operation safely:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws route53 create-hosted-zone --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --caller-reference </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">request_identifier</span></p>
+
+<ul>
+  <li>Delete a zone (if the zone has non-defaults SOA and NS records the command will fail):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws route53 delete-hosted-zone --id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zone_id</span></p>
+
+<ul>
+  <li>Test DNS resolving by Amazon servers of a given zone:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws route53 test-dns-answer --hosted-zone-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zone_id</span><code class="language-plaintext highlighter-rouge"> --record-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --record-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type</span></p>

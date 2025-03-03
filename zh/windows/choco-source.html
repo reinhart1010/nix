@@ -1,0 +1,46 @@
+<h1 id="choco-source">choco source</h1>
+
+<p>使用 Chocolatey 管理包的源。
+更多信息：<a href="https://chocolatey.org/docs/commands-source">https://chocolatey.org/docs/commands-source</a>.</p>
+
+<ul>
+  <li>列出当前可用的源：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source list</code></p>
+
+<ul>
+  <li>添加一个新的包源：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source add --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">名称</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>添加包含凭据的新包源：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source add --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">名称</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span></p>
+
+<ul>
+  <li>使用客户端证书添加新的包源：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source add --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">名称</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge"> --cert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">证书的路径</span></p>
+
+<ul>
+  <li>启用一个包源：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source enable --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">名称</span></p>
+
+<ul>
+  <li>禁用一个包源：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source disable --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">名称</span></p>
+
+<ul>
+  <li>移除一个包源：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco source remove --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">名称</span></p>

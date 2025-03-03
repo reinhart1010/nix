@@ -1,0 +1,52 @@
+<h1 id="mvn">mvn</h1>
+
+<p>Ferramenta para a criação e gerenciamento de projetos Java.
+Mais informações: <a href="https://maven.apache.org">https://maven.apache.org</a>.</p>
+
+<ul>
+  <li>Compila um projeto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mvn compile</code></p>
+
+<ul>
+  <li>Cria um artefato de distribuição utilizando o formato espeficado no <code class="language-plaintext highlighter-rouge">pom.xml</code>, por exemplo o formato <code class="language-plaintext highlighter-rouge">jar</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mvn package</code></p>
+
+<ul>
+  <li>Cria um artefato de distribuição sem executar testes unitários:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mvn package -DskipTests</code></p>
+
+<ul>
+  <li>Instala um artefato gerado em um repositório local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mvn install</code></p>
+
+<ul>
+  <li>Apaga artefatos gerados no diretório <code class="language-plaintext highlighter-rouge">target</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mvn clean</code></p>
+
+<ul>
+  <li>Executa as fases <code class="language-plaintext highlighter-rouge">clean</code> e <code class="language-plaintext highlighter-rouge">package</code> em um projeto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mvn clean package</code></p>
+
+<ul>
+  <li>Executa as fases <code class="language-plaintext highlighter-rouge">clean</code> e <code class="language-plaintext highlighter-rouge">package</code> em um projeto utilizando um perfil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mvn clean -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perfil</span><code class="language-plaintext highlighter-rouge"> package</code></p>
+
+<ul>
+  <li>Executa uma classe que possua o método <code class="language-plaintext highlighter-rouge">main</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mvn exec:java -Dexec.mainClass="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome.do.pacote.classe</span><code class="language-plaintext highlighter-rouge">" -Dexec.args="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 …</span><code class="language-plaintext highlighter-rouge">"</code></p>

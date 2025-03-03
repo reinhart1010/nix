@@ -1,0 +1,41 @@
+<h1 id="alias">alias</h1>
+
+<p>Buat alias perintah – kata-kata yang digantikan oleh utasan perintah (command).
+Alias menjadi kadaluarsa sampai sesi shell saat ini berakhir, kecuali jika didefinisikan di file konfigurasi shell, misalnya <code class="language-plaintext highlighter-rouge">~/.bashrc</code>.
+Informasi lebih lanjut: <a href="https://tldp.org/LDP/abs/html/aliases.html">https://tldp.org/LDP/abs/html/aliases.html</a>.</p>
+
+<ul>
+  <li>Tampilkan daftar seluruh alias yang terdaftar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alias</code></p>
+
+<ul>
+  <li>Buat suatu alias generik:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata</span><code class="language-plaintext highlighter-rouge">="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Lihat perintah yang dirujuk oleh alias yang diberikan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata</span></p>
+
+<ul>
+  <li>Hapus suatu perintah alias:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unalias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata</span></p>
+
+<ul>
+  <li>Ubah perintah <code class="language-plaintext highlighter-rouge">rm</code> menjadi perintah interaktif:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm</span><code class="language-plaintext highlighter-rouge">="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm –interactive</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Buat perintah <code class="language-plaintext highlighter-rouge">la</code> menjadi pintasan untuk <code class="language-plaintext highlighter-rouge">ls --all</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alias </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">la</span><code class="language-plaintext highlighter-rouge">="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls –all</span><code class="language-plaintext highlighter-rouge">"</code></p>

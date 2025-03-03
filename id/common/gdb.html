@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="gdb">gdb</h1>
+
+<p>GNU Debugger, alat pengawakutu program komputer.
+Informasi lebih lanjut: <a href="https://www.gnu.org/software/gdb">https://www.gnu.org/software/gdb</a>.</p>
+
+<ul>
+  <li>Jalankan pengawakutu pada sebuah berkas program yang dapat dieksekusi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">berkas_exe</span></p>
+
+<ul>
+  <li>Tambahkan suatu proses untuk diawasi oleh gdb:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdb -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">berkas_exe</span></p>
+
+<ul>
+  <li>Jalankan pengawakutu dengan berkas core:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdb -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">core</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">berkas_exe</span></p>
+
+<ul>
+  <li>Kirim perintah menuju pengawakutu pada saat dijalankan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdb -ex "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">berkas_exe</span></p>
+
+<ul>
+  <li>Lemparkan argumen terhadap berkas program yang dieksekusi saat hendak diawasi oleh GDB:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdb --args </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">berkas_exe</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumen1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumen2</span></p>

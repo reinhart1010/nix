@@ -1,0 +1,52 @@
+<h1 id="gcloud">gcloud</h1>
+
+<p>Det officielle CLI værktøj for Google Cloud Platform.
+Mere information: <a href="https://cloud.google.com/sdk/gcloud">https://cloud.google.com/sdk/gcloud</a>.</p>
+
+<ul>
+  <li>List alle aktive konfigurationer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud config list</code></p>
+
+<ul>
+  <li>Login på en Google account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud auth login</code></p>
+
+<ul>
+  <li>Sæt et GCP project som standard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud config set project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">projekt_navn</span></p>
+
+<ul>
+  <li>SSH ind til en virtuel maskine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud compute ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bruger</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instans</span></p>
+
+<ul>
+  <li>Vis et overblik af alle Google Compute Engine instanser i et project. Instanser fra alle zoner er listet som standard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud compute instances list</code></p>
+
+<ul>
+  <li>Opdater en kube-konfiguratonsfil med de korrekte credentials, der peger kubectl mod et spesifikt cluster i Google Kubernetes Engine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud container clusters get-credentials </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_navn</span></p>
+
+<ul>
+  <li>Opdater all gcloud CLI komponenter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud components update</code></p>
+
+<ul>
+  <li>Vis hjælp for en command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud help </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kommando</span></p>

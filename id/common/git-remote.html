@@ -1,0 +1,46 @@
+<h1 id="git-remote">git remote</h1>
+
+<p>Kelola kumpulan repositori yang dilacak/diikuti dari sumber jarak jauh ("remotes").
+Informasi lebih lanjut: <a href="https://git-scm.com/docs/git-remote">https://git-scm.com/docs/git-remote</a>.</p>
+
+<ul>
+  <li>Tampilkan daftar remote, namanya dan URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span></p>
+
+<ul>
+  <li>Tampilkan informasi tentang suatu remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_remote</span></p>
+
+<ul>
+  <li>Tambahkan suatu remote untuk diikuti pada repositori saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_remote</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_remote</span></p>
+
+<ul>
+  <li>Ubah alamat URL dari remote (gunakan <code class="language-plaintext highlighter-rouge">--add</code> untuk tetap menyimpan URL lama):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote set-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_remote</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_baru</span></p>
+
+<ul>
+  <li>Tampilkan alamat URL dari suatu remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote get-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_remote</span></p>
+
+<ul>
+  <li>Hapus remote dari daftar remote yang dilacak pada repositori saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_remote</span></p>
+
+<ul>
+  <li>Ubah nama remote untuk dikelola dalam repositori saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_lama</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_baru</span></p>

@@ -1,0 +1,40 @@
+<h1 id="rgpt">rgpt</h1>
+
+<p>터미널에서 바로 사용할 수 있는 GPT 기반 자동 코드 리뷰 도구.
+더 많은 정보: <a href="https://github.com/vibovenkat123/review-gpt">https://github.com/vibovenkat123/review-gpt</a>.</p>
+
+<ul>
+  <li>추가 옵션 없이 GPT에게 코드 개선 요청:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rgpt --i "$(git diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge">)"</code></p>
+
+<ul>
+  <li>코드 리뷰 중 <code class="language-plaintext highlighter-rouge">rgpt</code>에서 더 자세한 출력 얻기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rgpt --v --i "$(git diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge">)"</code></p>
+
+<ul>
+  <li>GPT에게 코드 개선 요청 및 GPT3 토큰 수를 특정 수로 제한하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rgpt --max </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300</span><code class="language-plaintext highlighter-rouge"> --i "$(git diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge">)"</code></p>
+
+<ul>
+  <li>0에서 2 사이의 실수값을 사용하여 더 독특한 결과 요청 (높을수록 더 독특함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rgpt --pres </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.2</span><code class="language-plaintext highlighter-rouge"> --i "$(git diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge">)"</code></p>
+
+<ul>
+  <li>특정 모델을 사용하여 코드 리뷰 요청:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rgpt --model </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">davinci</span><code class="language-plaintext highlighter-rouge"> --i "$(git diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge">)"</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">rgpt</code>를 사용하여 JSON 출력 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rgpt --json --i "$(git diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge">)"</code></p>

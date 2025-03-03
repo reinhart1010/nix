@@ -1,0 +1,23 @@
+<h1 id="pdfxup">pdfxup</h1>
+
+<p>N-up PDF pages.
+N-upping means putting multiple pages onto one page by scaling and rotating them into a grid.
+More information: <a href="https://ctan.org/pkg/pdfxup">https://ctan.org/pkg/pdfxup</a>.</p>
+
+<ul>
+  <li>Create a 2-up PDF:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfxup -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pdf</span></p>
+
+<ul>
+  <li>Create a PDF with 3 columns and 2 lines per page:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfxup -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> -y </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pdf</span></p>
+
+<ul>
+  <li>Create a PDF in booklet mode (2-up, and pages are sorted to form a book when folded):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfxup -b -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pdf</span></p>

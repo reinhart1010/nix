@@ -1,0 +1,40 @@
+<h1 id="docker-exec">docker exec</h1>
+
+<p>이미 실행 중인 Docker 컨테이너에서 명령을 실행.
+더 많은 정보: <a href="https://docs.docker.com/reference/cli/docker/container/exec/">https://docs.docker.com/reference/cli/docker/container/exec/</a>.</p>
+
+<ul>
+  <li>이미 실행 중인 컨테이너에서 대화형 셸 세션 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker exec --interactive --tty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/bin/bash</span></p>
+
+<ul>
+  <li>실행 중인 컨테이너에서 백그라운드(분리 모드)로 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker exec --detach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span></p>
+
+<ul>
+  <li>특정 명령을 실행할 작업 디렉토리 선택:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker exec --interactive --tty --workdir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span></p>
+
+<ul>
+  <li>기존 컨테이너에서 백그라운드로 명령을 실행하되 <code class="language-plaintext highlighter-rouge">stdin</code>을 열어 둠:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker exec --interactive --detach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span></p>
+
+<ul>
+  <li>실행 중인 Bash 세션에서 환경 변수를 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker exec --interactive --tty --env </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변수_이름</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/bin/bash</span></p>
+
+<ul>
+  <li>특정 사용자로 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker exec --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span></p>

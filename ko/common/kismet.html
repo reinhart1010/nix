@@ -1,0 +1,52 @@
+<h1 id="kismet">kismet</h1>
+
+<p>무선 네트워크 및 장치 감지기, 스니퍼, 워드라이빙 도구, WIDS(무선 침입 탐지) 프레임워크.
+더 많은 정보: <a href="https://www.kismetwireless.net/">https://www.kismetwireless.net/</a>.</p>
+
+<ul>
+  <li>특정 무선 인터페이스에서 패킷 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kismet -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span></p>
+
+<ul>
+  <li>무선 인터페이스에서 여러 채널 모니터링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kismet -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0,wlan1</span><code class="language-plaintext highlighter-rouge"> -m</code></p>
+
+<ul>
+  <li>패킷을 캡처하고 특정 디렉토리에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kismet -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력</span></p>
+
+<ul>
+  <li>특정 구성 파일로 Kismet 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kismet -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/config.conf</span></p>
+
+<ul>
+  <li>SQLite 데이터베이스에 데이터를 모니터링하고 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kismet -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span><code class="language-plaintext highlighter-rouge"> --log-to-db</code></p>
+
+<ul>
+  <li>특정 데이터 소스를 사용하여 모니터링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kismet -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span><code class="language-plaintext highlighter-rouge"> --data-source=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rtl433</span></p>
+
+<ul>
+  <li>특정 이벤트에 대한 경고 활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kismet -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span><code class="language-plaintext highlighter-rouge"> --enable-alert=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_ap</span></p>
+
+<ul>
+  <li>특정 AP의 패킷에 대한 자세한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kismet -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span><code class="language-plaintext highlighter-rouge"> --info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">BSSID</span></p>

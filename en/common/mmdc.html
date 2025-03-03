@@ -1,0 +1,23 @@
+<h1 id="mmdc">mmdc</h1>
+
+<p>CLI for mermaid, a diagram generation tool with a domain-specific language.
+A mermaid definition file is taken as input and a SVG, PNG, or PDF file is generated as output.
+More information: <a href="https://mermaid-js.github.io/mermaid/">https://mermaid-js.github.io/mermaid/</a>.</p>
+
+<ul>
+  <li>Convert a file to the specified format (automatically determined from the file extension):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmdc --input </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.mmd</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.svg</span></p>
+
+<ul>
+  <li>Specify the theme of the chart:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmdc --input </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.mmd</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.svg</span><code class="language-plaintext highlighter-rouge"> --theme </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">forest|dark|neutral|default</span></p>
+
+<ul>
+  <li>Specify the background color of the chart (e.g. <code class="language-plaintext highlighter-rouge">lime</code>, <code class="language-plaintext highlighter-rouge">"#D8064F"</code>, or <code class="language-plaintext highlighter-rouge">transparent</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmdc --input </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.mmd</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.svg</span><code class="language-plaintext highlighter-rouge"> --backgroundColor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">color</span></p>

@@ -1,0 +1,36 @@
+<h1 id="sockstat">sockstat</h1>
+
+<p>Wyświetl listę otwartych gniazd internetowych lub UNIX-owych.
+Uwaga: ten program jest przeróbką programu <code class="language-plaintext highlighter-rouge">sockstat</code> z FreeBSD dla NetBSD 3.0.
+Zobacz także: <code class="language-plaintext highlighter-rouge">netstat</code>.
+Więcej informacji: <a href="https://man.netbsd.org/sockstat.1">https://man.netbsd.org/sockstat.1</a>.</p>
+
+<ul>
+  <li>Pokaż informacje o gniazdach IPv4, IPv6 i Unix, zarówno nasłuchujących jak i połączonych:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat</code></p>
+
+<ul>
+  <li>Pokaż informacje o gniazdach IPv[4]/IPv[6] nasłuchujących (z ang. [l]istening) na określonych [p]ortach używając określonego [P]rotokołu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4|6</span><code class="language-plaintext highlighter-rouge"> -l -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp|udp|sctp|divert</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port1,port2…</span></p>
+
+<ul>
+  <li>Pokaż również połączone (z ang. [c]onnected) gniazda, wyświetlając gniazda [u]nixowe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -cu</code></p>
+
+<ul>
+  <li>Pokaż tylko wynik [n]umeryczny, bez rozwiązywania symbolicznych nazw dla adresów i portów:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -n</code></p>
+
+<ul>
+  <li>Pokaż tylko gniazda dla określonej rodziny (z ang. [f]amily) adresów:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inet|inet6|local|unix</span></p>

@@ -1,0 +1,40 @@
+<h1 id="chown">chown</h1>
+
+<p>Modifie l'utilisateur et le groupe propriétaire des fichiers et dossiers.
+Plus d'informations : <a href="https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html</a>.</p>
+
+<ul>
+  <li>Modifie le propriétaire d'un fichier/dossier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utilisateur</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_ou_dossier</span></p>
+
+<ul>
+  <li>Modifie l'utilisateur et le groupe propriétaire d'un fichier/dossier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utilisateur</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groupe</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_ou_dossier</span></p>
+
+<ul>
+  <li>Modifie le propriétaire et le groupe pour qu'ils aient tous les deux le nom <code class="language-plaintext highlighter-rouge">utilisateur</code> :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utilisateur</span><code class="language-plaintext highlighter-rouge">: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_ou_dossier</span></p>
+
+<ul>
+  <li>Modifie récursivement le propriétaire d'un dossier et de son contenu :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utilisateur</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier</span></p>
+
+<ul>
+  <li>Modifie le propriétaire d'un lien symbolique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utilisateur</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/lien_symbolique</span></p>
+
+<ul>
+  <li>Modifie le propriétaire d'un fichier / dossier pour correspondre à un fichier de référence :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown --reference </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_de_référence</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_ou_dossier</span></p>

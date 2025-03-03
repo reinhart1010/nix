@@ -1,0 +1,28 @@
+<h1 id="ip-maddress">ip maddress</h1>
+
+<p>Gestiona direcciones multicast.
+Más información: <a href="https://manned.org/ip-maddress">https://manned.org/ip-maddress</a>.</p>
+
+<ul>
+  <li>Lista las direcciones multicast y cuántos programas están suscritos a ellas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip maddress</code></p>
+
+<ul>
+  <li>Lista de direcciones específicas de dispositivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip maddress show dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Se une a un grupo multicast estáticamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip maddress add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">33:33:00:00:00:02</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Abandona un grupo multicast estático:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip maddress delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">33:33:00:00:00:02</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>

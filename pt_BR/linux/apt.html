@@ -1,0 +1,54 @@
+<h1 id="apt">apt</h1>
+
+<p>Utilitário de gerenciamento de pacotes de distribuições baseadas em Debian.
+Substituto recomendado para <code class="language-plaintext highlighter-rouge">apt-get</code> quando usado de forma interativa em versões do Ubuntu mais novas que 16.04.
+Para comandos equivalentes em outros gerenciadores de pacotes, veja <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a>.
+Mais informações: <a href="https://manned.org/apt.8">https://manned.org/apt.8</a>.</p>
+
+<ul>
+  <li>Atualiza a lista de pacotes e versões disponíveis (recomenda-se executá-lo antes de outros comandos <code class="language-plaintext highlighter-rouge">apt</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>Busca por um determinado pacote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Exibe as informações de um pacote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Instala um pacote ou atualiza-o para a versão mais recente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Remove um pacote (para remover também os arquivos de configuração deve-se usar a opção <code class="language-plaintext highlighter-rouge">purge</code> ao invés do <code class="language-plaintext highlighter-rouge">remove</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Atualiza todos os pacotes instalados para suas versões mais recentes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt upgrade</code></p>
+
+<ul>
+  <li>Lista todos os pacotes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list</code></p>
+
+<ul>
+  <li>Lista todos os pacotes instalados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list --installed</code></p>

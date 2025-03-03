@@ -1,0 +1,35 @@
+<h1 id="cryptsetup">cryptsetup</h1>
+
+<p>평문 <code class="language-plaintext highlighter-rouge">dm-crypt</code> 및 LUKS (Linux Unified Key Setup) 암호화 볼륨을 관리.
+<code class="language-plaintext highlighter-rouge">luksFormat</code>와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+더 많은 정보: <a href="https://manned.org/cryptsetup">https://manned.org/cryptsetup</a>.</p>
+
+<ul>
+  <li>암호를 사용하여 LUKS 볼륨 초기화 (파티션의 모든 데이터를 덮어씁니다):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup luksFormat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span></p>
+
+<ul>
+  <li>LUKS 볼륨을 열고 <code class="language-plaintext highlighter-rouge">/dev/mapper/mapping_name</code>에 복호화된 매핑 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup open </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">매핑_이름</span></p>
+
+<ul>
+  <li>매핑에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">매핑_이름</span></p>
+
+<ul>
+  <li>기존 매핑 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup close </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">매핑_이름</span></p>
+
+<ul>
+  <li>LUKS 볼륨의 암호 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup luksChangeKey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXY</span></p>

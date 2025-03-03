@@ -1,0 +1,40 @@
+<h1 id="pr">pr</h1>
+
+<p>파일을 인쇄용으로 페이지화하거나 열로 정렬.
+더 많은 정보: <a href="https://www.gnu.org/software/coreutils/manual/html_node/pr-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/pr-invocation.html</a>.</p>
+
+<ul>
+  <li>기본 헤더와 푸터로 여러 파일 인쇄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>사용자 지정 가운데 정렬 헤더로 인쇄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pr -h "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">헤더</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>번호가 매겨진 줄과 사용자 지정 날짜 형식으로 인쇄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pr -n -D "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">형식</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>모든 파일을 각각 하나의 열에 헤더나 푸터 없이 인쇄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pr -m -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>페이지 길이(헤더와 푸터 포함)를 지정하여 페이지 2에서 페이지 5까지 인쇄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pr +2:5 -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">페이지_길이</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>각 줄에 대한 오프셋과 잘리는 사용자 지정 페이지 너비로 인쇄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pr -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">오프셋</span><code class="language-plaintext highlighter-rouge"> -W </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">너비</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>

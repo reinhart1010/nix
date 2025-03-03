@@ -1,0 +1,52 @@
+<h1 id="filebrowser">filebrowser</h1>
+
+<p>Sencillo servidor web HTTP para gestionar archivos y directorios.
+Más información: <a href="https://filebrowser.org">https://filebrowser.org</a>.</p>
+
+<ul>
+  <li>Inicia una nueva instancia del servidor sirviendo el directorio actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filebrowser</code></p>
+
+<ul>
+  <li>Inicia una nueva instancia de servidor sirviendo un directorio raíz específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filebrowser </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Inicia una instancia con una dirección de host (por defecto <code class="language-plaintext highlighter-rouge">127.0.0.1</code>) y un puerto (por defecto <code class="language-plaintext highlighter-rouge">8080</code>) diferentes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filebrowser </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–address</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|–port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Inicia una instancia con un archivo de configuración especificado, almacenando la base de datos de la aplicación en una ubicación específica (por defecto es <code class="language-plaintext highlighter-rouge">filebrowser.db</code> en el directorio actual):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filebrowser </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–config</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–database</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/base_de_datos.db</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Configura un nombre de usuario y una contraseña diferentes para la primera cuenta (ambos por defecto <code class="language-plaintext highlighter-rouge">admin</code>) cuando configure una nueva instancia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filebrowser --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Configura la cantidad máxima de procesadores de imágenes utilizados al generar miniaturas (por defecto es <code class="language-plaintext highlighter-rouge">4</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filebrowser --img-processors </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Desactiva las miniaturas de imágenes, así como la función Command Runner, que limita el acceso a los archivos de script alojados para que no se ejecuten dentro de la aplicación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filebrowser --disable-exec --disable-thumbnails </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Deshabilita el cambio de tamaño de las vistas previas de imágenes, así como la detección de tipos de archivo mediante la lectura de sus cabeceras:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">filebrowser --disable-preview-resize --disable-type-detection-by-header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>

@@ -1,0 +1,41 @@
+<h1 id="tail">tail</h1>
+
+<p>파일의 마지막 부분을 표시.
+같이 보기: <code class="language-plaintext highlighter-rouge">head</code>.
+더 많은 정보: <a href="https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html</a>.</p>
+
+<ul>
+  <li>파일에서 마지막 'count' 줄 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --lines </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">줄_수</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>특정 줄 번호부터 파일 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --lines +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">줄_수</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>주어진 파일의 끝에서 특정 바이트 수 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --bytes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">바이트_수</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>주어진 파일의 마지막 줄을 출력하고 <code class="language-plaintext highlighter-rouge">Ctrl + C</code>를 누를 때까지 계속 읽기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일이 접근할 수 없는 경우에도 <code class="language-plaintext highlighter-rouge">Ctrl + C</code>를 누를 때까지 계속 읽기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --retry --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>'파일'의 마지막 'num' 줄을 표시하고 'n' 초마다 새로 고침:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --lines </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">줄_수</span><code class="language-plaintext highlighter-rouge"> --sleep-interval </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">초</span><code class="language-plaintext highlighter-rouge"> --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

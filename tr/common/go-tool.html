@@ -1,0 +1,32 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="go-tool">go tool</h1>
+
+<p>Belirtilen bir Go aracını veya komutunu çalıştır.
+Bir Go komutunu tipik olarak hata ayıklamak için tek başına bir binary olarak çalıştır.
+Daha fazla bilgi için: <a href="https://pkg.go.dev/cmd/go#hdr-Run_specified_go_tool">https://pkg.go.dev/cmd/go#hdr-Run_specified_go_tool</a>.</p>
+
+<ul>
+  <li>Erişilebilir araçları sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go tool</code></p>
+
+<ul>
+  <li>Go bağ aracını çalıştır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go tool link </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/konum/main.o</span></p>
+
+<ul>
+  <li>Çalıştırılacak komutu çalıştırmadan yazdır (<code class="language-plaintext highlighter-rouge">whereis</code>'e benzer):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go tool -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komut</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argümanları</span></p>
+
+<ul>
+  <li>Belirtilen araç için resmi dokümentasyonu göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go tool </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komut</span><code class="language-plaintext highlighter-rouge"> --help</code></p>

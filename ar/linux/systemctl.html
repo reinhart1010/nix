@@ -1,0 +1,52 @@
+<h1 id="systemctl">systemctl</h1>
+
+<p>التحكم في مدير نظام systemd والخدمات.
+لمزيد من التفاصيل: <a href="https://www.freedesktop.org/software/systemd/man/systemctl.html">https://www.freedesktop.org/software/systemd/man/systemctl.html</a>.</p>
+
+<ul>
+  <li>عرض جميع الخدمات قيد التشغيل:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl status</code></p>
+
+<ul>
+  <li>عرض الوحدات الفاشلة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl --failed</code></p>
+
+<ul>
+  <li>بدء/إيقاف/إعادة تشغيل/إعادة تحميل/عرض حالة خدمة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop|restart|reload|status</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unit</span></p>
+
+<ul>
+  <li>تمكين/تعطيل وحدة ليتم تشغيلها عند بدء تشغيل النظام:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enable|disable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unit</span></p>
+
+<ul>
+  <li>إعادة تحميل systemd والبحث عن وحدات جديدة أو متغيرة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl daemon-reload</code></p>
+
+<ul>
+  <li>التحقق مما إذا كانت الوحدة نشطة/مُمكّنة/فاشلة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">is-active|is-enabled|is-failed</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unit</span></p>
+
+<ul>
+  <li>عرض جميع وحدات الخدمة/المقبس/التركيب التلقائي مع التصفية حسب الحالة (قيد التشغيل/فاشلة):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl list-units --type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service|socket|automount</span><code class="language-plaintext highlighter-rouge"> --state=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">failed|running</span></p>
+
+<ul>
+  <li>عرض محتويات ومسار ملف الوحدة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unit</span></p>

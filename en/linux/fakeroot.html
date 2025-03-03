@@ -1,0 +1,40 @@
+<h1 id="fakeroot">fakeroot</h1>
+
+<p>Run a command in an environment faking root privileges for file manipulation.
+More information: <a href="https://manned.org/fakeroot.1">https://manned.org/fakeroot.1</a>.</p>
+
+<ul>
+  <li>Start the default shell as fakeroot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fakeroot</code></p>
+
+<ul>
+  <li>Run a command as fakeroot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fakeroot -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>
+
+<ul>
+  <li>Run a command as fakeroot and save the environment to a file on exit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fakeroot -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>
+
+<ul>
+  <li>Load a fakeroot environment and run a command as fakeroot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fakeroot -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>
+
+<ul>
+  <li>Run a command keeping the real ownership of files instead of pretending they are owned by root:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fakeroot --unknown-is-real -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fakeroot --help</code></p>

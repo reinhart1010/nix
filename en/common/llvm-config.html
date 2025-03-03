@@ -1,0 +1,23 @@
+<h1 id="llvm-config">llvm-config</h1>
+
+<p>Get various configuration information needed to compile programs which use LLVM.
+Typically called from build systems, like in Makefiles or configure scripts.
+More information: <a href="https://llvm.org/docs/CommandGuide/llvm-config.html">https://llvm.org/docs/CommandGuide/llvm-config.html</a>.</p>
+
+<ul>
+  <li>Compile and link an LLVM based program:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang++ $(llvm-config --cxxflags --ldflags --libs) --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_executable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.cc</span></p>
+
+<ul>
+  <li>Print the <code class="language-plaintext highlighter-rouge">PREFIX</code> of your LLVM installation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-config --prefix</code></p>
+
+<ul>
+  <li>Print all targets supported by your LLVM build:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-config --targets-built</code></p>

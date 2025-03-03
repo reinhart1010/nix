@@ -1,0 +1,28 @@
+<h1 id="babeld">babeld</h1>
+
+<p>Routing daemon for Babel which uses firewall-style filters.
+More information: <a href="https://www.irif.fr/~jch/software/babel/babeld.html">https://www.irif.fr/~jch/software/babel/babeld.html</a>.</p>
+
+<ul>
+  <li>Start the daemon with one or more [c]onfiguration files (read in order):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babeld -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/ports.conf</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filters.conf</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/interfaces.conf</span></p>
+
+<ul>
+  <li>[D]eamonize after startup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babeld -D</code></p>
+
+<ul>
+  <li>Specify a [C]onfiguration command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babeld -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'redistribute metric 256'</span></p>
+
+<ul>
+  <li>Specify on which interfaces to operate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">babeld </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span></p>

@@ -1,0 +1,53 @@
+<h1 id="curl">curl</h1>
+
+<p>데이터를 서버에서 혹은 서버로 전송.
+HTTP, HTTPS, FTP, SCP 등 대부분의 프로토콜 지원.
+더 많은 정보: <a href="https://curl.se/docs/manpage.html">https://curl.se/docs/manpage.html</a>.</p>
+
+<ul>
+  <li>HTTP GET 요청을 수행하고 내용을 <code class="language-plaintext highlighter-rouge">stdout</code>에 덤프:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>HTTP GET 요청을 수행하고, <code class="language-plaintext highlighter-rouge">3xx</code> 리디렉션을 따라가며(fo[L]low), 응답 헤더와 내용을 <code class="language-plaintext highlighter-rouge">stdout</code>에 덤프([D]ump):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --location --dump-header - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>URL에 표시된 파일명으로 출력([O]utput)을 저장하고 파일을 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --remote-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/filename.zip</span></p>
+
+<ul>
+  <li>폼으로 인코딩된 데이터([d]ata) 전송 (POST 요청의 타입, <code class="language-plaintext highlighter-rouge">application/x-www-form-urlencoded</code>). <code class="language-plaintext highlighter-rouge">stdin</code>으로 부터 읽으려면 <code class="language-plaintext highlighter-rouge">--data @file_name</code> 이나 <code class="language-plaintext highlighter-rouge">--data @'-'</code>를 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl -X POST --data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'name=bob'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/form</span></p>
+
+<ul>
+  <li>추가 헤더를 포함하여 요청을 전송하고, 사용자 지정 HTTP 메소드를 사용한 후 프록시(pro[x]y)를 통해 전송하고 (예: BurpSuite), 신뢰할 수 없는 자체 서명 인증서를 무시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl -k --proxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://127.0.0.1:8080</span><code class="language-plaintext highlighter-rouge"> --header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'Authorization: Bearer token'</span><code class="language-plaintext highlighter-rouge"> --request </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET|PUT|POST|DELETE|PATCH|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>적절한 컨텐츠 유형 헤더([H]eader)를 지정하여 JSON 포맷으로 데이터 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{"name":"bob"}'</span><code class="language-plaintext highlighter-rouge"> --header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'Content-Type: application/json'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/users/123</span></p>
+
+<ul>
+  <li>리소스에 대한 클라이언트 인증서 및 키 전달, 인증서 유효성 검사 생략:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --cert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클라이언트.pem</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키.pem</span><code class="language-plaintext highlighter-rouge"> --insecure </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>호스트 이름을 사용자 지정 IP 주소로 해결하고, 상세한([v]erbose) 출력 결과를 표시 (사용자 지정 DNS resolution을 위해 <code class="language-plaintext highlighter-rouge">/etc/hosts</code> 파일을 편집하는 것과 유사):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --verbose --resolve </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span></p>

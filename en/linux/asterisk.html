@@ -1,0 +1,46 @@
+<h1 id="asterisk">asterisk</h1>
+
+<p>Run and manage telephone and exchange (phone) server instances.
+More information: <a href="https://docs.asterisk.org">https://docs.asterisk.org</a>.</p>
+
+<ul>
+  <li>[R]econnect to a running server, and turn on logging 3 levels of [v]erbosity:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asterisk -r -vvv</code></p>
+
+<ul>
+  <li>[R]econnect to a running server, run a single command, and return:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asterisk -r -x "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Show chan_SIP clients (phones):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asterisk -r -x "sip show peers"</code></p>
+
+<ul>
+  <li>Show active calls and channels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asterisk -r -x "core show channels"</code></p>
+
+<ul>
+  <li>Show voicemail mailboxes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asterisk -r -x "voicemail show users"</code></p>
+
+<ul>
+  <li>Terminate a channel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asterisk -r -x "hangup request </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">channel_ID</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Reload chan_SIP configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asterisk -r -x "sip reload"</code></p>

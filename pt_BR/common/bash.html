@@ -1,0 +1,53 @@
+<h1 id="bash">bash</h1>
+
+<p>Bourne-Again SHell, um interpretador de linha de comando compatível com <code class="language-plaintext highlighter-rouge">sh</code>.
+Veja também: <code class="language-plaintext highlighter-rouge">zsh</code>, <code class="language-plaintext highlighter-rouge">histexpand</code> (expansão do histórico).
+Mais informações: <a href="https://www.gnu.org/software/bash/">https://www.gnu.org/software/bash/</a>.</p>
+
+<ul>
+  <li>Inicia uma sessão interativa do shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash</code></p>
+
+<ul>
+  <li>Inicia uma sessão interativa do shell sem carregar as configurações de inicialização:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash --norc</code></p>
+
+<ul>
+  <li>Executa [c]omandos específicos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'bash é executado'</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Executa um script específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.sh</span></p>
+
+<ul>
+  <li>Executa um script específico exibindo cada comando antes de executá-lo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.sh</span></p>
+
+<ul>
+  <li>Executa um script específico e para no primeiro [e]rro:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.sh</span></p>
+
+<ul>
+  <li>Executa comandos específicos da <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'bash é executado'"</span><code class="language-plaintext highlighter-rouge"> | bash</code></p>
+
+<ul>
+  <li>Inicia uma sessão do shell [r]estrita:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash -r</code></p>

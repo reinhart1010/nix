@@ -1,0 +1,52 @@
+<h1 id="plantuml">plantuml</h1>
+
+<p>Crea diagramas UML a partir de un lenguaje de texto plano y los renderiza en diferentes formatos.
+Más información: <a href="https://plantuml.com/en/command-line">https://plantuml.com/en/command-line</a>.</p>
+
+<ul>
+  <li>Renderiza los diagramas al formato por defecto (PNG):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plantuml </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diagrama1.puml</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diagrama2.puml</span></p>
+
+<ul>
+  <li>Renderiza un diagrama en un formato determinado (p.ej. <code class="language-plaintext highlighter-rouge">png</code>, <code class="language-plaintext highlighter-rouge">pdf</code>, <code class="language-plaintext highlighter-rouge">svg</code>, <code class="language-plaintext highlighter-rouge">txt</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plantuml -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">formato</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diagrama.puml</span></p>
+
+<ul>
+  <li>Renderiza todos los diagramas de un directorio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plantuml </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/diagramas</span></p>
+
+<ul>
+  <li>Renderiza un diagrama al directorio de salida:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plantuml -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/salida</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diagrama.puml</span></p>
+
+<ul>
+  <li>Renderiza un diagrama sin almacenar el código fuente del diagrama (Nota: Se almacena por defecto cuando no se especifica la opción <code class="language-plaintext highlighter-rouge">-nometadata</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plantuml -nometadata </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diagrama.png</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diagrama.puml</span></p>
+
+<ul>
+  <li>Recupera la fuente de los metadatos de un diagrama <code class="language-plaintext highlighter-rouge">plantuml</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plantuml -metadata </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diagrama.png</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diagrama.puml</span></p>
+
+<ul>
+  <li>Renderiza un diagrama con el archivo de configuración:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plantuml -config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config.cfg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diagrama.puml</span></p>
+
+<ul>
+  <li>Muestra la ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plantuml -help</code></p>

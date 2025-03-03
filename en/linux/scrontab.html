@@ -1,0 +1,34 @@
+<h1 id="scrontab">scrontab</h1>
+
+<p>Manage Slurm crontab files.
+More information: <a href="https://slurm.schedmd.com/scrontab.html">https://slurm.schedmd.com/scrontab.html</a>.</p>
+
+<ul>
+  <li>Install a new crontab from the specified file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrontab </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>[e]dit the crontab of the current user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrontab -e</code></p>
+
+<ul>
+  <li>[e]dit the crontab of the specified user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrontab --user=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_id</span><code class="language-plaintext highlighter-rouge"> -e</code></p>
+
+<ul>
+  <li>[r]emove the current crontab:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrontab -r</code></p>
+
+<ul>
+  <li>Print the crontab of the current user to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrontab -l</code></p>

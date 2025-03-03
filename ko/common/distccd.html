@@ -1,0 +1,34 @@
+<h1 id="distccd">distccd</h1>
+
+<p>distcc 분산 컴파일러용 서버 데몬.
+더 많은 정보: <a href="https://distcc.github.io">https://distcc.github.io</a>.</p>
+
+<ul>
+  <li>기본 설정으로 데몬을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distccd --daemon</code></p>
+
+<ul>
+  <li>IPv4 개인 네트워크 범위 연결을 수락해 데몬을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distccd --daemon --allow-private</code></p>
+
+<ul>
+  <li>특정 네트워크 주소 또는 주소 버위로부터의 연결을 수락해 데몬을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distccd --daemon --allow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_주소|네트워크_접두사</span></p>
+
+<ul>
+  <li>한 번에 최대 4개의 작업을 실행할 수 있는 낮은 우선순위로 데몬을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distccd --daemon --jobs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> --nice </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>데몬을 시작하고 mDNS/DNS-SD (Zeroconf)를 통해 등록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distccd --daemon --zeroconf</code></p>

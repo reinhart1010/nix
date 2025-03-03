@@ -1,0 +1,29 @@
+<h1 id="kind">kind</h1>
+
+<p>Run local Kubernetes clusters using Docker container "nodes".
+Designed for testing Kubernetes itself, but may be used for local development or continuous integration.
+More information: <a href="https://github.com/kubernetes-sigs/kind">https://github.com/kubernetes-sigs/kind</a>.</p>
+
+<ul>
+  <li>Create a local Kubernetes cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kind create cluster --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span></p>
+
+<ul>
+  <li>Delete one or more clusters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kind delete clusters </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span></p>
+
+<ul>
+  <li>Get details about clusters, nodes, or the kubeconfig:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kind get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clusters|nodes|kubeconfig</span></p>
+
+<ul>
+  <li>Export the kubeconfig or the logs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kind export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kubeconfig|logs</span></p>

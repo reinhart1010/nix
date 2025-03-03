@@ -1,0 +1,22 @@
+<h1 id="kreadconfig5">kreadconfig5</h1>
+
+<p>Read KConfig entries for KDE Plasma.
+More information: <a href="https://userbase.kde.org/KDE_System_Administration/Configuration_Files">https://userbase.kde.org/KDE_System_Administration/Configuration_Files</a>.</p>
+
+<ul>
+  <li>Read a key from the global configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kreadconfig5 --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span></p>
+
+<ul>
+  <li>Read a key from a specific configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kwriteconfig5 --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span></p>
+
+<ul>
+  <li>Check if systemd is used to start the Plasma session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kreadconfig5 --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">startkderc</span><code class="language-plaintext highlighter-rouge"> --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">General</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemdBoot</span></p>

@@ -1,0 +1,46 @@
+<h1 id="bzip2">bzip2</h1>
+
+<p>A block-sorting file compressor.
+More information: <a href="https://manned.org/bzip2">https://manned.org/bzip2</a>.</p>
+
+<ul>
+  <li>Compress a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bzip2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_to_compress</span></p>
+
+<ul>
+  <li>[d]ecompress a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bzip2 -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file.bz2</span></p>
+
+<ul>
+  <li>[d]ecompress a file to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bzip2 -dc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file.bz2</span></p>
+
+<ul>
+  <li>Test the integrity of each file inside the archive file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bzip2 --test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file.bz2</span></p>
+
+<ul>
+  <li>Show the compression ratio for each file processed with detailed information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bzip2 --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_files.bz2</span></p>
+
+<ul>
+  <li>Decompress a file overwriting existing files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bzip2 --force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file.bz2</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bzip2 -h</code></p>

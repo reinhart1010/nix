@@ -1,0 +1,23 @@
+<h1 id="magick-identify">magick identify</h1>
+
+<p>Beschrijf het formaat en eigenschappen van afbeeldingen.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">magick</code>.
+Meer informatie: <a href="https://imagemagick.org/script/identify.php">https://imagemagick.org/script/identify.php</a>.</p>
+
+<ul>
+  <li>Beschrijf het formaat en basis eigenschappen van een afbeelding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick identify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding</span></p>
+
+<ul>
+  <li>Beschrijf het formaat en uitgebreide eigenschappen van een afbeelding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick identify -verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding</span></p>
+
+<ul>
+  <li>Verzamel de dimensies van alle JPEG bestanden in de huidige map en sla ze op naar een CSV-bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick identify -format "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%f,%w,%h\n</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpg</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestandslijst.csv</span></p>

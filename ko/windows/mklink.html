@@ -1,0 +1,28 @@
+<h1 id="mklink">mklink</h1>
+
+<p>심볼릭 링크를 생성합니다.
+더 많은 정보: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/mklink">https://learn.microsoft.com/windows-server/administration/windows-commands/mklink</a>.</p>
+
+<ul>
+  <li>파일에 대한 심볼릭 링크 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mklink </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\링크_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\소스_파일</span></p>
+
+<ul>
+  <li>디렉토리에 대한 심볼릭 링크 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mklink /d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\링크_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\소스_디렉토리</span></p>
+
+<ul>
+  <li>파일에 대한 하드 링크 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mklink /h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\링크_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\소스_파일</span></p>
+
+<ul>
+  <li>디렉토리 교차점 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mklink /j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\링크_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\소스_파일</span></p>

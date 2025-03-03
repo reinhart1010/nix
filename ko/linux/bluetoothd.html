@@ -1,0 +1,34 @@
+<h1 id="bluetoothd">bluetoothd</h1>
+
+<p>블루투스 장치를 관리하는 데몬.
+더 많은 정보: <a href="https://manned.org/bluetoothd">https://manned.org/bluetoothd</a>.</p>
+
+<ul>
+  <li>데몬 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluetoothd</code></p>
+
+<ul>
+  <li>로그를 <code class="language-plaintext highlighter-rouge">stdout</code>으로 출력하며 데몬 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluetoothd --nodetach</code></p>
+
+<ul>
+  <li>특정 설정 파일을 사용하여 데몬 시작 (기본값은 <code class="language-plaintext highlighter-rouge">/etc/bluetooth/main.conf</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluetoothd --configfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>자세한 출력을 <code class="language-plaintext highlighter-rouge">stderr</code>로 출력하며 데몬 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluetoothd --debug</code></p>
+
+<ul>
+  <li>bluetoothd 또는 플러그인 소스의 특정 파일에서 오는 자세한 출력을 사용하여 데몬 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bluetoothd --debug=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1:경로/대상/파일2:…</span></p>

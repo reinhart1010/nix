@@ -1,0 +1,40 @@
+<h1 id="dnf-config-manager">dnf config-manager</h1>
+
+<p>Manage DNF configuration options and repositories on Fedora-based systems.
+More information: <a href="https://manned.org/dnf-config-manager">https://manned.org/dnf-config-manager</a>.</p>
+
+<ul>
+  <li>Add (and enable) a repository from a URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf config-manager --add-repo=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span></p>
+
+<ul>
+  <li>Print current configuration values:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf config-manager --dump</code></p>
+
+<ul>
+  <li>Enable a specific repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf config-manager --set-enabled </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_id</span></p>
+
+<ul>
+  <li>Disable specified repositories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf config-manager --set-disabled </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_id1 repository_id2 …</span></p>
+
+<ul>
+  <li>Set a configuration option for a repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf config-manager --setopt=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">option</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf config-manager --help-cmd</code></p>

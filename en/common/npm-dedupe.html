@@ -1,0 +1,40 @@
+<h1 id="npm-dedupe">npm dedupe</h1>
+
+<p>Reduce duplication in the <code class="language-plaintext highlighter-rouge">node_modules</code> directory.
+More information: <a href="https://docs.npmjs.com/cli/commands/npm-dedupe">https://docs.npmjs.com/cli/commands/npm-dedupe</a>.</p>
+
+<ul>
+  <li>Deduplicate packages in <code class="language-plaintext highlighter-rouge">node_modules</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm dedupe</code></p>
+
+<ul>
+  <li>Follow <code class="language-plaintext highlighter-rouge">package-lock.json</code> or <code class="language-plaintext highlighter-rouge">npm-shrinkwrap.json</code> during deduplication:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm dedupe --lock</code></p>
+
+<ul>
+  <li>Run deduplication in strict mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm dedupe --strict</code></p>
+
+<ul>
+  <li>Skip optional/peer dependencies during deduplication:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm dedupe --omit=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional|peer</span></p>
+
+<ul>
+  <li>Enable detailed logging for troubleshooting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm dedupe --loglevel=verbose</code></p>
+
+<ul>
+  <li>Limit deduplication to a specific package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm dedupe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>

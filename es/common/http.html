@@ -1,0 +1,52 @@
+<h1 id="http">http</h1>
+
+<p>HTTPie: un cliente HTTP diseñado para probar, depurar e interactuar generalmente con APIs y servidores HTTP.
+Más información: <a href="https://httpie.io/docs/cli/usage">https://httpie.io/docs/cli/usage</a>.</p>
+
+<ul>
+  <li>Hace una solicitud simple GET (muestra encabezados de respuesta y contenido):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Imprime partes específicas del contenido (<code class="language-plaintext highlighter-rouge">H</code>: encabezados de la solicitud, <code class="language-plaintext highlighter-rouge">B</code>: cuerpo de la solicitud, <code class="language-plaintext highlighter-rouge">h</code>: encabezados de la respuesta, <code class="language-plaintext highlighter-rouge">b</code>: cuerpo de la respuesta, <code class="language-plaintext highlighter-rouge">m</code>: metadatos de respuesta):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --print </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">H|B|h|b|m|Hh|Hhb|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Especifica el método HTTP al enviar una solicitud y utiliza un proxy para interceptar la solicitud:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET|POST|HEAD|PUT|PATCH|DELETE|…</span><code class="language-plaintext highlighter-rouge"> --proxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http|https</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://localhost:8080|socks5://localhost:9050|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Sigue cualquier redirección <code class="language-plaintext highlighter-rouge">3xx</code> y especifica encabezados adicionales en una solicitud:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-F|–follow</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'User-Agent: Mozilla/5.0' 'Accept-Encoding: gzip'</span></p>
+
+<ul>
+  <li>Autentica ante un servidor utilizando diferentes métodos de autenticación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --auth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username:password|token</span><code class="language-plaintext highlighter-rouge"> --auth-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">basic|digest|bearer</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET|POST|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/auth</span></p>
+
+<ul>
+  <li>Construye una solicitud pero no la envía (similar a un simulacro (dry-run)):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --offline </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET|DELETE|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Utiliza sesiones nombradas para encabezados personalizados persistentes, credenciales de autenticación y cookies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --session </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_sesión|ruta/a/sesión.json</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–auth usuario:clave https://example.com/auth API-KEY:xxx</span></p>
+
+<ul>
+  <li>Sube un archivo a un formulario (el ejemplo a continuación supone que el campo del formulario es <code class="language-plaintext highlighter-rouge">&lt;input type="file" name="cv" /&gt;</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --form </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">POST</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/upload</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cv@ruta/al/archivo</span></p>

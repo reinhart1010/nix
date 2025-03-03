@@ -1,0 +1,40 @@
+<h1 id="ip-route-get">ip route get</h1>
+
+<p>Obtiene una única ruta a un destino e imprime su contenido exactamente como el kernel lo ve.
+Más información: <a href="https://manned.org/ip-route">https://manned.org/ip-route</a>.</p>
+
+<ul>
+  <li>Imprime ruta a un destino:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.1.1.1</span></p>
+
+<ul>
+  <li>Imprime la ruta a un destino desde una dirección de origen específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span><code class="language-plaintext highlighter-rouge"> from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">origen</span></p>
+
+<ul>
+  <li>Imprime la ruta a un destino para los paquetes que llegan a una interfaz específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span><code class="language-plaintext highlighter-rouge"> iif </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Imprime la ruta a un destino forzando la salida a través de una interfaz específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span><code class="language-plaintext highlighter-rouge"> oif </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth1</span></p>
+
+<ul>
+  <li>Imprime la ruta a un destino con un tipo específico de servicio (ToS):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span><code class="language-plaintext highlighter-rouge"> tos </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0x10</span></p>
+
+<ul>
+  <li>Imprime la ruta a un destino utilizando una instancia VRF específica (Virtual Routing and Forwarding - Enrutamiento y Reenvío Virtual):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip route get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span><code class="language-plaintext highlighter-rouge"> vrf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">myvrf</span></p>

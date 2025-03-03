@@ -1,0 +1,52 @@
+<h1 id="mkinitcpio">mkinitcpio</h1>
+
+<p>Generates initial ramdisk environments for booting the Linux kernel based on the specified preset(s).
+More information: <a href="https://manned.org/mkinitcpio.8">https://manned.org/mkinitcpio.8</a>.</p>
+
+<ul>
+  <li>Perform a dry run (print what would be done without actually doing it):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkinitcpio</code></p>
+
+<ul>
+  <li>Generate a ramdisk environment based on the <code class="language-plaintext highlighter-rouge">linux</code> preset:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkinitcpio --preset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linux</span></p>
+
+<ul>
+  <li>Generate a ramdisk environment based on the <code class="language-plaintext highlighter-rouge">linux-lts</code> preset:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkinitcpio --preset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linux-lts</span></p>
+
+<ul>
+  <li>Generate ramdisk environments based on all existing presets (used to regenerate all the initramfs images after a change in <code class="language-plaintext highlighter-rouge">/etc/mkinitcpio.conf</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkinitcpio --allpresets</code></p>
+
+<ul>
+  <li>Generate an initramfs image using an alternative configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkinitcpio --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mkinitcpio.conf</span><code class="language-plaintext highlighter-rouge"> --generate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/initramfs.img</span></p>
+
+<ul>
+  <li>Generate an initramfs image for a kernel other than the one currently running (the installed kernel releases can be found in <code class="language-plaintext highlighter-rouge">/usr/lib/modules/</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkinitcpio --kernel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kernel_version</span><code class="language-plaintext highlighter-rouge"> --generate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/initramfs.img</span></p>
+
+<ul>
+  <li>List all available hooks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkinitcpio --listhooks</code></p>
+
+<ul>
+  <li>Display help for a specific hook:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkinitcpio --hookhelp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hook_name</span></p>

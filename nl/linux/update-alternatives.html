@@ -1,0 +1,34 @@
+<h1 id="update-alternatives">update-alternatives</h1>
+
+<p>Een handig hulpmiddel voor het onderhouden van symbolische links om standaard commando's te bepalen.
+Meer informatie: <a href="https://manned.org/update-alternatives">https://manned.org/update-alternatives</a>.</p>
+
+<ul>
+  <li>Voeg een symbolische link toe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo update-alternatives --install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/symlink</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando_naam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/commando_binary</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">priority</span></p>
+
+<ul>
+  <li>Configureer een symbolische link voor <code class="language-plaintext highlighter-rouge">java</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo update-alternatives --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">java</span></p>
+
+<ul>
+  <li>Verwijder een symbolische link:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo update-alternatives --remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">java</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/opt/java/jdk1.8.0_102/bin/java</span></p>
+
+<ul>
+  <li>Toon informatie over een specifiek commando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">update-alternatives --display </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">java</span></p>
+
+<ul>
+  <li>Toon alle commando's en hun huidige selectie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">update-alternatives --get-selections</code></p>

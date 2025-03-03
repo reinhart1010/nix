@@ -1,0 +1,47 @@
+<h1 id="zip">zip</h1>
+
+<p>Verpak en comprimeer (archiveer) bestanden in een Zip-archief.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">unzip</code>.
+Meer informatie: <a href="https://manned.org/zip">https://manned.org/zip</a>.</p>
+
+<ul>
+  <li>Voeg bestanden/directories toe aan een specifiek archief ([r]ecursief):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/gecomprimeerd.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_directory1 pad/naar/bestand_of_directory2 …</span></p>
+
+<ul>
+  <li>Verwijder bestanden/directories uit een specifiek archief ([d]elete):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/gecomprimeerd.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_directory1 pad/naar/bestand_of_directory2 …</span></p>
+
+<ul>
+  <li>Archiveer bestanden/directories waarbij opgegeven bestanden worden uitgesloten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/gecomprimeerd.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_directory1 pad/naar/bestand_of_directory2 …</span><code class="language-plaintext highlighter-rouge"> -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitgesloten_bestanden_of_directories</span></p>
+
+<ul>
+  <li>Archiveer bestanden/directories met een specifieke compressieniveau (<code class="language-plaintext highlighter-rouge">0</code> - het laagste, <code class="language-plaintext highlighter-rouge">9</code> - het hoogste):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0..9</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/gecomprimeerd.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_directory1 pad/naar/bestand_of_directory2 …</span></p>
+
+<ul>
+  <li>Maak een [e]ncrypted archief met een specifiek wachtwoord:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/gecomprimeerd.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_directory1 pad/naar/bestand_of_directory2 …</span></p>
+
+<ul>
+  <li>Archiveer bestanden/directories in een multipart [s]plit Zip-archief (bijv. 3 GB delen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -r -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3g</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/gecomprimeerd.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_directory1 pad/naar/bestand_of_directory2 …</span></p>
+
+<ul>
+  <li>Print de inhoud van een specifiek archief:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zip -sf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/gecomprimeerd.zip</span></p>

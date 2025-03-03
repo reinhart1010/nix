@@ -1,0 +1,29 @@
+<h1 id="service">service</h1>
+
+<p>Manage services by running init scripts.
+The full script path should be omitted (<code class="language-plaintext highlighter-rouge">/etc/init.d/</code> is assumed).
+More information: <a href="https://manned.org/service">https://manned.org/service</a>.</p>
+
+<ul>
+  <li>List the name and status of all services:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">service --status-all</code></p>
+
+<ul>
+  <li>Start/Stop/Restart/Reload service (start/stop should always be available):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop|restart|reload</span></p>
+
+<ul>
+  <li>Do a full restart (runs script twice with start and stop):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge"> --full-restart</code></p>
+
+<ul>
+  <li>Show the current status of a service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge"> status</code></p>

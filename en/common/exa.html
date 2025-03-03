@@ -1,0 +1,52 @@
+<h1 id="exa">exa</h1>
+
+<p>A modern replacement for <code class="language-plaintext highlighter-rouge">ls</code> (List directory contents).
+More information: <a href="https://github.com/ogham/exa">https://github.com/ogham/exa</a>.</p>
+
+<ul>
+  <li>List files one per line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exa --oneline</code></p>
+
+<ul>
+  <li>List all files, including hidden files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exa --all</code></p>
+
+<ul>
+  <li>Long format list (permissions, ownership, size and modification date) of all files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exa --long --all</code></p>
+
+<ul>
+  <li>List files with the largest at the top:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exa --reverse --sort=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size</span></p>
+
+<ul>
+  <li>Display a tree of files, three levels deep:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exa --long --tree --level=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>List files sorted by modification date (oldest first):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exa --long --sort=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modified</span></p>
+
+<ul>
+  <li>List files with their headers, icons, and Git statuses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exa --long --header --icons --git</code></p>
+
+<ul>
+  <li>Don't list files mentioned in <code class="language-plaintext highlighter-rouge">.gitignore</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exa --git-ignore</code></p>

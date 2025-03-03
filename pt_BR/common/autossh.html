@@ -1,0 +1,41 @@
+<h1 id="autossh">autossh</h1>
+
+<p>Executa, monitora e reinicia conexões SSH.
+Reconecta automaticamente para manter os túneis de redirecionamento de porta ativos. Aceita todas as flags do SSH.
+Mais informações: <a href="https://www.harding.motd.ca/autossh">https://www.harding.motd.ca/autossh</a>.</p>
+
+<ul>
+  <li>Inicia uma sessão SSH, reiniciando quando uma porta de monitoramento falhar em retornar dados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_de_monitoramento</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Redireciona uma porta local para uma porta remota, reiniciando quando necessário:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_de_monitoramento</span><code class="language-plaintext highlighter-rouge"> -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_local</span><code class="language-plaintext highlighter-rouge">:localhost:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_remota</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuário</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Executa o <code class="language-plaintext highlighter-rouge">autossh</code> em segundo plano antes de executar o SSH e não abrir um shell remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -f -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_de_monitoramento</span><code class="language-plaintext highlighter-rouge"> -N "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Executa em segundo plano, sem porta de monitoramento, e em vez disso envia pacotes de keep-alive SSH a cada 10 segundos para detectar falhas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Executa em segundo plano, sem porta de monitoramento e sem shell remoto, saindo se a redireção da porta falhar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" -o ExitOnForwardFailure=yes -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_local</span><code class="language-plaintext highlighter-rouge">:localhost:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_remota</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuário</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Executa em segundo plano, registrando a saída de depuração do <code class="language-plaintext highlighter-rouge">autossh</code> e a saída detalhada do SSH em arquivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">AUTOSSH_DEBUG=1 AUTOSSH_LOGFILE=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_log_do_autossh.log</span><code class="language-plaintext highlighter-rouge"> autossh -f -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_de_monitoramento</span><code class="language-plaintext highlighter-rouge"> -v -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_log_do_ssh.log</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span></p>

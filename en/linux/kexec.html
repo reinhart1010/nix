@@ -1,0 +1,28 @@
+<h1 id="kexec">kexec</h1>
+
+<p>Directly reboot into a new kernel.
+More information: <a href="https://manned.org/kexec">https://manned.org/kexec</a>.</p>
+
+<ul>
+  <li>Load a new kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kexec -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/kernel</span><code class="language-plaintext highlighter-rouge"> --initrd=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/initrd</span><code class="language-plaintext highlighter-rouge"> --command-line=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span></p>
+
+<ul>
+  <li>Load a new kernel with current boot parameters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kexec -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/kernel</span><code class="language-plaintext highlighter-rouge"> --initrd=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/initrd</span><code class="language-plaintext highlighter-rouge"> --reuse-cmdline</code></p>
+
+<ul>
+  <li>Execute a currently loaded kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kexec -e</code></p>
+
+<ul>
+  <li>Unload current kexec target kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kexec -u</code></p>

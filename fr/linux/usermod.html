@@ -1,0 +1,35 @@
+<h1 id="usermod">usermod</h1>
+
+<p>Modifie le compte d'un utilisateur.
+Voir aussi <code class="language-plaintext highlighter-rouge">users</code>, <code class="language-plaintext highlighter-rouge">useradd</code>, <code class="language-plaintext highlighter-rouge">userdel</code>.
+Plus d'informations : <a href="https://manned.org/usermod">https://manned.org/usermod</a>.</p>
+
+<ul>
+  <li>Change le nom d'un utilisateur :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo usermod --login </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nouveau_nom</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur</span></p>
+
+<ul>
+  <li>Modifie l'identifiant numérique d'un utilisateur :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo usermod --uid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identifiant</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur</span></p>
+
+<ul>
+  <li>Change le shell d'un utilisateur :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo usermod --shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur</span></p>
+
+<ul>
+  <li>Ajoute l'utilisateur à des groupes supplémentaires (attention à l'omission d'espaces) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo usermod --append --groups </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groupe1,groupe2,…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur</span></p>
+
+<ul>
+  <li>Change le répertoire personnel d'un utilisateur et déplace ses fichiers vers celui-ci :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo usermod --move-home --home </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/nouveau_répertoire</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur</span></p>

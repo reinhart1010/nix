@@ -1,0 +1,35 @@
+<h1 id="snoop">snoop</h1>
+
+<p>Ağ paketi inceleyici.
+SunOS'in tcpdump alternatifi.
+Daha fazla bilgi için: <a href="https://www.unix.com/man-page/sunos/1m/snoop">https://www.unix.com/man-page/sunos/1m/snoop</a>.</p>
+
+<ul>
+  <li>Belirtilen ağ arayüzünde paketleri yakala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">e1000g0</span></p>
+
+<ul>
+  <li>Yakalanan paketleri terminalde göstermek yerine bir dosyaya kaydet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosyaismi</span></p>
+
+<ul>
+  <li>Belirtilen dosyadan paketlerin ayrıntılı protokol katman özetini görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -V -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosyaismi</span></p>
+
+<ul>
+  <li>Host isminden gelen ağ paketlerini yakala ve belirtilen port'a git:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop to port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> from host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostismi</span></p>
+
+<ul>
+  <li>İki IP adresi arasında takas edilen ağ paketleriini yakala ve hex değerlerini göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -x0 -p4 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_addresi_1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_addresi_2</span></p>

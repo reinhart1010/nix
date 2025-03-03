@@ -1,0 +1,52 @@
+<h1 id="aws-ecr">aws ecr</h1>
+
+<p>컨테이너 이미지 추가, 당겨오기 및 관리.
+더 많은 정보: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecr/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecr/index.html</a>.</p>
+
+<ul>
+  <li>기본 레지스트리로 Docker 인증 (사용자 이름은 AWS):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ecr get-login-password --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리전</span><code class="language-plaintext highlighter-rouge"> | </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">docker login</span><code class="language-plaintext highlighter-rouge"> --username AWS --password-stdin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aws_계정_아이디</span><code class="language-plaintext highlighter-rouge">.dkr.ecr.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리전</span><code class="language-plaintext highlighter-rouge">.amazonaws.com</code></p>
+
+<ul>
+  <li>저장소 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ecr create-repository --repository-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">저장소</span><code class="language-plaintext highlighter-rouge"> --image-scanning-configuration scanOnPush=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true|false</span><code class="language-plaintext highlighter-rouge"> --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리전</span></p>
+
+<ul>
+  <li>ECR용 로컬 이미지에 태그 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aws_계정_아이디</span><code class="language-plaintext highlighter-rouge">.dkr.ecr.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리전</span><code class="language-plaintext highlighter-rouge">.amazonaws.com/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그</span></p>
+
+<ul>
+  <li>저장소에 이미지 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aws_계정_아이디</span><code class="language-plaintext highlighter-rouge">.dkr.ecr.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리전</span><code class="language-plaintext highlighter-rouge">.amazonaws.com/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그</span></p>
+
+<ul>
+  <li>저장소에서 이미지 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aws_계정_아이디</span><code class="language-plaintext highlighter-rouge">.dkr.ecr.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리전</span><code class="language-plaintext highlighter-rouge">.amazonaws.com/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그</span></p>
+
+<ul>
+  <li>저장소에서 이미지 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ecr batch-delete-image --repository-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">저장소</span><code class="language-plaintext highlighter-rouge"> --image-ids imageTag=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">latest</span></p>
+
+<ul>
+  <li>저장소 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ecr delete-repository --repository-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">저장소</span><code class="language-plaintext highlighter-rouge"> --force</code></p>
+
+<ul>
+  <li>저장소 안 이미지 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ecr list-images --repository-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">저장소</span></p>

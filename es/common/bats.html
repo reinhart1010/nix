@@ -1,0 +1,40 @@
+<h1 id="bats">bats</h1>
+
+<p>Bash Automated Testing System: un marco de pruebas compatible con TAP (<a href="https://testanything.org/">https://testanything.org/</a>) para Bash.
+Más información: <a href="https://bats-core.readthedocs.io/en/stable/usage.html">https://bats-core.readthedocs.io/en/stable/usage.html</a>.</p>
+
+<ul>
+  <li>Ejecuta un script de prueba BATS y muestra los resultados en el formato [t]AP (Test Anything Protocol):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bats --tap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/prueba.bats</span></p>
+
+<ul>
+  <li>[c]ontar casos de prueba de un script de prueba sin ejecutar ninguna prueba:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bats --count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/prueba.bats</span></p>
+
+<ul>
+  <li>Ejecuta casos de prueba BATS [r]ecursivamente (archivos con extensión <code class="language-plaintext highlighter-rouge">.bats</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bats --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio</span></p>
+
+<ul>
+  <li>Muestra los resultados en un [f]ormato específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bats --formatter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pretty|tap|tap13|junit</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/prueba.bats</span></p>
+
+<ul>
+  <li>Añade información de [T]iming a las pruebas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bats --timing </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/prueba.bats</span></p>
+
+<ul>
+  <li>Ejecuta un número específico de traba[j]os en paralelo (requiere tener instalado GNU <code class="language-plaintext highlighter-rouge">parallel</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bats --jobs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/prueba.bats</span></p>

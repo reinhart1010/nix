@@ -1,0 +1,35 @@
+<h1 id="tlmgr-remove">tlmgr remove</h1>
+
+<p>Uninstall TeX Live packages.
+By default, removed packages will be backed up to <code class="language-plaintext highlighter-rouge">./tlpkg/backups</code> under the TL installation directory.
+More information: <a href="https://www.tug.org/texlive/tlmgr.html">https://www.tug.org/texlive/tlmgr.html</a>.</p>
+
+<ul>
+  <li>Uninstall a TeX Live package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Simulate uninstalling a package without making any changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr remove --dry-run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Uninstall a package without its dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr remove --no-depends </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Uninstall a package and back it up to a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr remove --backupdir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Uninstall all of TeX Live, asking for confirmation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr remove --all</code></p>

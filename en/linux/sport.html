@@ -1,0 +1,46 @@
+<h1 id="sport">sport</h1>
+
+<p>Search and install SlackBuilds.
+More information: <a href="http://slackermedia.info/handbook/doku.php?id=slackbuilds">http://slackermedia.info/handbook/doku.php?id=slackbuilds</a>.</p>
+
+<ul>
+  <li>Pull the list of SlackBuilds to run <code class="language-plaintext highlighter-rouge">sport</code> for the first time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkdir -p /usr/ports &amp;&amp; sudo rsync -av rsync://slackbuilds.org /slackbuilds/$(awk '{print $2}' /etc/slackware-version)/ /usr/ports/</code></p>
+
+<ul>
+  <li>Pull in any updates to the system's tree via <code class="language-plaintext highlighter-rouge">rsync</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo sport rsync</code></p>
+
+<ul>
+  <li>Search for a package by name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sport search "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Check if a package is installed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sport check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Display README and <code class="language-plaintext highlighter-rouge">.info</code> files of a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sport cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Install a package once the dependencies are resolved:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo sport install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Install a list of packages from a file (format: packages separated by spaces):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo sport install $(&lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/list</span><code class="language-plaintext highlighter-rouge">)</code></p>

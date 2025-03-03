@@ -1,0 +1,34 @@
+<h1 id="update-alternatives">update-alternatives</h1>
+
+<p>Convenientily maintain symbolic links to determine default commands.
+More information: <a href="https://manned.org/update-alternatives">https://manned.org/update-alternatives</a>.</p>
+
+<ul>
+  <li>Add a symbolic link:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo update-alternatives --install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/symlink</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/command_binary</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">priority</span></p>
+
+<ul>
+  <li>Configure a symbolic link for <code class="language-plaintext highlighter-rouge">java</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo update-alternatives --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">java</span></p>
+
+<ul>
+  <li>Remove a symbolic link:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo update-alternatives --remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">java</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/opt/java/jdk1.8.0_102/bin/java</span></p>
+
+<ul>
+  <li>Display information about a specified command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">update-alternatives --display </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">java</span></p>
+
+<ul>
+  <li>Display all commands and their current selection:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">update-alternatives --get-selections</code></p>

@@ -1,0 +1,22 @@
+<h1 id="git-commit-graph">git commit-graph</h1>
+
+<p>Write and verify Git commit-graph files.
+More information: <a href="https://git-scm.com/docs/git-commit-graph">https://git-scm.com/docs/git-commit-graph</a>.</p>
+
+<ul>
+  <li>Write a commit-graph file for the packed commits in the repository's local <code class="language-plaintext highlighter-rouge">.git</code> directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit-graph write</code></p>
+
+<ul>
+  <li>Write a commit-graph file containing all reachable commits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show-ref --hash | git commit-graph write --stdin-commits</code></p>
+
+<ul>
+  <li>Write a commit-graph file containing all commits in the current commit-graph file along with those reachable from <code class="language-plaintext highlighter-rouge">HEAD</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-parse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span><code class="language-plaintext highlighter-rouge"> | git commit-graph write --stdin-commits --append</code></p>

@@ -1,0 +1,45 @@
+<h1 id="genkernel">genkernel</h1>
+
+<p>Gentoo Linux에서 커널을 컴파일하고 설치하는 유틸리티.
+더 많은 정보: <a href="https://wiki.gentoo.org/wiki/Genkernel">https://wiki.gentoo.org/wiki/Genkernel</a>.</p>
+
+<ul>
+  <li>일반 커널을 자동으로 컴파일하고 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo genkernel all</code></p>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>bzImage</td>
+          <td>initramfs</td>
+          <td>kernel</td>
+          <td>ramdisk만 빌드하고 설치:</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo genkernel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bzImage|initramfs|kernel|ramdisk</span></p>
+
+<ul>
+  <li>컴파일 및 설치 전에 커널 설정을 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo genkernel --menuconfig all</code></p>
+
+<ul>
+  <li>사용자 지정 이름의 커널 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo genkernel --kernname=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_지정_이름</span><code class="language-plaintext highlighter-rouge"> all</code></p>
+
+<ul>
+  <li>기본 디렉토리 <code class="language-plaintext highlighter-rouge">/usr/src/linux</code> 외부의 커널 소스를 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo genkernel --kerneldir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> all</code></p>

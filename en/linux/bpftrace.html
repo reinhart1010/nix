@@ -1,0 +1,40 @@
+<h1 id="bpftrace">bpftrace</h1>
+
+<p>High-level tracing language for Linux eBPF.
+More information: <a href="https://github.com/iovisor/bpftrace">https://github.com/iovisor/bpftrace</a>.</p>
+
+<ul>
+  <li>Display bpftrace version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bpftrace -V</code></p>
+
+<ul>
+  <li>List all available probes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bpftrace -l</code></p>
+
+<ul>
+  <li>Run a one-liner program (e.g. syscall count by program):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bpftrace -e '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracepoint:raw_syscalls:sys_enter { @[comm] = count(); }</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Run a program from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bpftrace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Trace a program by PID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bpftrace -e '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracepoint:raw_syscalls:sys_enter /pid == 123/ { @[comm] = count(); }</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Do a dry run and display the output in eBPF format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bpftrace -d -e '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">one_line_program</span><code class="language-plaintext highlighter-rouge">'</code></p>

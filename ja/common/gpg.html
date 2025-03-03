@@ -1,0 +1,53 @@
+<h1 id="gpg">gpg</h1>
+
+<p>GNU Privacy Guard。
+GNU Privacy Guard 2 については <code class="language-plaintext highlighter-rouge">gpg2</code> を参照してください。殆どのオペレーティングシステムは <code class="language-plaintext highlighter-rouge">gpg</code> を <code class="language-plaintext highlighter-rouge">gpg2</code> にシンボリックリンクしています。
+もっと詳しく: <a href="https://gnupg.org">https://gnupg.org</a>。</p>
+
+<ul>
+  <li>GPGの公開鍵と秘密鍵を対話的に作成する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --full-generate-key</code></p>
+
+<ul>
+  <li>暗号化せずに <code class="language-plaintext highlighter-rouge">doc.txt</code> に署名する (出力を <code class="language-plaintext highlighter-rouge">doc.txt.asc</code> に書き出す):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --clearsign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span></p>
+
+<ul>
+  <li>alice@example.com と bob@example.com の <code class="language-plaintext highlighter-rouge">doc.txt</code> を暗号化して署名する (<code class="language-plaintext highlighter-rouge">doc.txt.gpg</code> に出力):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --encrypt --sign --recipient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span><code class="language-plaintext highlighter-rouge"> --recipient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bob@example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span></p>
+
+<ul>
+  <li>パスフレーズのみで <code class="language-plaintext highlighter-rouge">doc.txt</code> を暗号化する (<code class="language-plaintext highlighter-rouge">doc.txt.gpg</code> に出力):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --symmetric </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">doc.txt.gpg</code> を復号化する (<code class="language-plaintext highlighter-rouge">stdout</code> に出力):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --decrypt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt.gpg</span></p>
+
+<ul>
+  <li>公開鍵をインポートする:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public.gpg</span></p>
+
+<ul>
+  <li>alice@example.com 用に公開鍵をエクスポートする (<code class="language-plaintext highlighter-rouge">stdout</code> に出力):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --export --armor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span></p>
+
+<ul>
+  <li>alice@example.com の秘密鍵をエクスポートする (<code class="language-plaintext highlighter-rouge">stdout</code> に出力):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --export-secret-keys --armor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span></p>

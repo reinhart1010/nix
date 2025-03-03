@@ -1,0 +1,35 @@
+<h1 id="transmission-create">transmission-create</h1>
+
+<p>Create BitTorrent <code class="language-plaintext highlighter-rouge">.torrent</code> files.
+See also: <code class="language-plaintext highlighter-rouge">transmission</code>.
+More information: <a href="https://manned.org/transmission-create">https://manned.org/transmission-create</a>.</p>
+
+<ul>
+  <li>Create a torrent with 2048 KB as the piece size:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/example.torrent</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracker_announce_url</span><code class="language-plaintext highlighter-rouge"> --piecesize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2048</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Create a private torrent with a 2048 KB piece size:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create -p -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/example.torrent</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracker_announce_url</span><code class="language-plaintext highlighter-rouge"> --piecesize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2048</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Create a torrent with a comment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/example.torrent</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracker_url1</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comment</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Create a torrent with multiple trackers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/example.torrent</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracker_url1</span><code class="language-plaintext highlighter-rouge"> --tracker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracker_url2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Display help page:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-create --help</code></p>

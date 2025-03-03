@@ -1,0 +1,46 @@
+<h1 id="tc">tc</h1>
+
+<p>Show/manipulate traffic control settings.
+More information: <a href="https://manned.org/tc">https://manned.org/tc</a>.</p>
+
+<ul>
+  <li>Add constant network delay to outbound packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tc qdisc add dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> root netem delay </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delay_in_milliseconds</span><code class="language-plaintext highlighter-rouge">ms</code></p>
+
+<ul>
+  <li>Add normal distributed network delay to outbound packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tc qdisc add dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> root netem delay </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mean_delay_ms</span><code class="language-plaintext highlighter-rouge">ms </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delay_std_ms</span><code class="language-plaintext highlighter-rouge">ms</code></p>
+
+<ul>
+  <li>Add package corruption/loss/duplication to a portion of packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tc qdisc add dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> root netem </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">corruption|loss|duplication</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">effect_percentage</span><code class="language-plaintext highlighter-rouge">%</code></p>
+
+<ul>
+  <li>Limit bandwidth, burst rate and max latency:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tc qdisc add dev eth0 root tbf rate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_bandwidth_mb</span><code class="language-plaintext highlighter-rouge">mbit burst </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_burst_rate_kb</span><code class="language-plaintext highlighter-rouge">kbit latency </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_latency_before_drop_ms</span><code class="language-plaintext highlighter-rouge">ms</code></p>
+
+<ul>
+  <li>Show active traffic control policies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tc qdisc show dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Delete all traffic control rules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tc qdisc del dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Change traffic control rule:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tc qdisc change dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> root netem </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">policy</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">policy_parameters</span></p>

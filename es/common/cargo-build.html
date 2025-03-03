@@ -1,0 +1,46 @@
+<h1 id="cargo-build">cargo build</h1>
+
+<p>Compila un paquete local y todas sus dependencias.
+Más información: <a href="https://doc.rust-lang.org/cargo/commands/cargo-build.html">https://doc.rust-lang.org/cargo/commands/cargo-build.html</a>.</p>
+
+<ul>
+  <li>Construye el paquete o los paquetes definidos por el archivo manifiesto <code class="language-plaintext highlighter-rouge">Cargo.toml</code> en la ruta local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build</code></p>
+
+<ul>
+  <li>Construye artefactos en modo de lanzamiento, con optimizaciones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --release</code></p>
+
+<ul>
+  <li>Exige que <code class="language-plaintext highlighter-rouge">Cargo.lock</code> esté actualizado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --locked</code></p>
+
+<ul>
+  <li>Construye todos los paquetes en el espacio de trabajo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --workspace</code></p>
+
+<ul>
+  <li>Construye un paquete en específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Construye solo el binario especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --bin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>
+
+<ul>
+  <li>Construye solamente el objetivo de prueba especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_prueba</span></p>

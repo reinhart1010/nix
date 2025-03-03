@@ -1,0 +1,52 @@
+<h1 id="podman-ps">podman ps</h1>
+
+<p>List Podman containers.
+More information: <a href="https://docs.podman.io/en/latest/markdown/podman-ps.1.html">https://docs.podman.io/en/latest/markdown/podman-ps.1.html</a>.</p>
+
+<ul>
+  <li>List currently running Podman containers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman ps</code></p>
+
+<ul>
+  <li>List all Podman containers (running and stopped):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman ps --all</code></p>
+
+<ul>
+  <li>Show the latest created container (includes all states):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman ps --latest</code></p>
+
+<ul>
+  <li>Filter containers that contain a substring in their name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman ps --filter "name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Filter containers that share a given image as an ancestor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman ps --filter "ancestor=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Filter containers by exit status code:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman ps --all --filter "exited=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">code</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Filter containers by status (created, running, removing, paused, exited and dead):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman ps --filter "status=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">status</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Filter containers that mount a specific volume or have a volume mounted in a specific path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman ps --filter "volume=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge">" --format "table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.ID</span><code class="language-plaintext highlighter-rouge">\t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.Image</span><code class="language-plaintext highlighter-rouge">\t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.Names</span><code class="language-plaintext highlighter-rouge">\t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.Mounts</span><code class="language-plaintext highlighter-rouge">"</code></p>

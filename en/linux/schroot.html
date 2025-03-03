@@ -1,0 +1,52 @@
+<h1 id="schroot">schroot</h1>
+
+<p>Run a command or start an interactive shell with a different root directory. More customizable than <code class="language-plaintext highlighter-rouge">chroot</code>.
+More information: <a href="https://wiki.debian.org/Schroot">https://wiki.debian.org/Schroot</a>.</p>
+
+<ul>
+  <li>List available chroots:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">schroot --list</code></p>
+
+<ul>
+  <li>Run a command in a specific chroot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">schroot --chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chroot</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Run a command with options in a specific chroot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">schroot --chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chroot</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_options</span></p>
+
+<ul>
+  <li>Run a command in all available chroots:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">schroot --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Start an interactive shell within a specific chroot as a specific user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">schroot --chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chroot</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span></p>
+
+<ul>
+  <li>Begin a new session (a unique session ID is returned on <code class="language-plaintext highlighter-rouge">stdout</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">schroot --begin-session --chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chroot</span></p>
+
+<ul>
+  <li>Connect to an existing session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">schroot --run-session --chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">session_id</span></p>
+
+<ul>
+  <li>End an existing session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">schroot --end-session --chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">session_id</span></p>

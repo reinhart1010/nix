@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="jq">jq</h1>
+
+<p>Процессор JSON командной строки, использующий доменный язык.
+Больше информации: <a href="https://jqlang.github.io/jq/manual/">https://jqlang.github.io/jq/manual/</a>.</p>
+
+<ul>
+  <li>Выполнить указанное выражение (вывести цветной и отформатированный JSON):</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat путь/к/файлу.json</span><code class="language-plaintext highlighter-rouge"> | jq '.'</code></p>
+
+<ul>
+  <li>Выполнить указанный скрипт:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat путь/к/файлу.json</span><code class="language-plaintext highlighter-rouge"> | jq --from-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/к/скрипту.jq</span></p>
+
+<ul>
+  <li>Передать указанные агрументы:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat путь/к/файлу.json</span><code class="language-plaintext highlighter-rouge"> | jq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–arg "имя1" "значение1" –arg "имя2" "значение2" …</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">. + $ARGS.named</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Вывести указанные ключи:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat путь/к/файлу.json</span><code class="language-plaintext highlighter-rouge"> | jq '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.ключ1, .ключ2, …</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Вывести указанные элементы массива:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat путь/к/файлу.json</span><code class="language-plaintext highlighter-rouge"> | jq '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.[индекс1], .[индекс2], …</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Вывести все элементы массива/ключи объекта:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat путь/к/файлу.json</span><code class="language-plaintext highlighter-rouge"> | jq '.[]'</code></p>
+
+<ul>
+  <li>Добавить/удалить указанные ключи:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat путь/к/файлу.json</span><code class="language-plaintext highlighter-rouge"> | jq '. </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+|-</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{"ключ1": "значение1", "ключ2": "значение2", …}</span><code class="language-plaintext highlighter-rouge">'</code></p>

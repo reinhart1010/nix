@@ -1,0 +1,47 @@
+<h1 id="new-item">New-Item</h1>
+
+<p>Create a new file, directory, symbolic link, or a registry entry.
+Note: This command can only be used through PowerShell.
+More information: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item">https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item</a>.</p>
+
+<ul>
+  <li>Create a new blank file (equivalent to <code class="language-plaintext highlighter-rouge">touch</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">New-Item </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span></p>
+
+<ul>
+  <li>Create a new directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">New-Item -ItemType Directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span></p>
+
+<ul>
+  <li>Write a new text file with specified content:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">New-Item </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span><code class="language-plaintext highlighter-rouge"> -Value </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">content</span></p>
+
+<ul>
+  <li>Write the same text file in multiple locations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">New-Item </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file1 , path\to\file2 , …</span><code class="language-plaintext highlighter-rouge"> -Value </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">content</span></p>
+
+<ul>
+  <li>Create a symbolic link\hard link\junction to a file or directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">New-Item -ItemType </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SymbolicLink|HardLink|Junction</span><code class="language-plaintext highlighter-rouge"> -Path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\link_file</span><code class="language-plaintext highlighter-rouge"> -Target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\source_file_or_directory</span></p>
+
+<ul>
+  <li>Create a new blank registry entry (in REG_SZ, use <code class="language-plaintext highlighter-rouge">New-ItemProperty</code> or <code class="language-plaintext highlighter-rouge">Set-ItemProperty</code> to fine-tune the value type):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">New-Item </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\registry_key</span></p>
+
+<ul>
+  <li>Create a new blank registry entry with specified value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">New-Item </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\registry_key</span><code class="language-plaintext highlighter-rouge"> -Value </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>

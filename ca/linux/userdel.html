@@ -1,0 +1,23 @@
+<h1 id="userdel">userdel</h1>
+
+<p>Elimina una conta d'usuari o elimina un usuari d'un grup.
+Vegeu també: <code class="language-plaintext highlighter-rouge">users</code>, <code class="language-plaintext highlighter-rouge">useradd</code>, <code class="language-plaintext highlighter-rouge">usermod</code>.
+Més informació: <a href="https://manned.org/userdel">https://manned.org/userdel</a>.</p>
+
+<ul>
+  <li>Elimina un usuari:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo userdel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_usuari</span></p>
+
+<ul>
+  <li>Elimina un usuari en un altre directori root:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo userdel --root </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/altre/root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_usuari</span></p>
+
+<ul>
+  <li>Elimina un usuari en conjunt amb el seu directori home i mail spool:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo userdel --remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_usuari</span></p>

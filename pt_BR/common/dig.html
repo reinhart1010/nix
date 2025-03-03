@@ -1,0 +1,52 @@
+<h1 id="dig">dig</h1>
+
+<p>Utilitário de pesquisa de DNS.
+Mais informações: <a href="https://manned.org/dig">https://manned.org/dig</a>.</p>
+
+<ul>
+  <li>Pesquisa o(s) IP(s) associados a um hostname (registros A):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig +short </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Obtém uma resposta detalhada para um determinado domínio (registros A):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig +noall +answer </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Consulta um tipo de registro DNS específico associado a um nome de domínio fornecido:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig +short </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A|MX|TXT|CNAME|NS</span></p>
+
+<ul>
+  <li>Especifica um DNS alternativo para busca e opcionalmente usa DNS sobre TLS (DoT):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+tls</span><code class="language-plaintext highlighter-rouge"> @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.1.1.1|8.8.8.8|9.9.9.9|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Performa uma busca reversa de DNS em um endereço de IP (registro PTR):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span></p>
+
+<ul>
+  <li>Encontra servidores de nomes autorizados para a região e exibe os registros SOA:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig +nssearch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Performa consultas iterativas e exibe o caminho de ratreio completo para resolver um nome de domínio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig +trace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Busca um servidor DNS sobre uma [p]orta não padrão usando protocolo TCP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dig +tcp -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta</span><code class="language-plaintext highlighter-rouge"> @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_servidor_dns</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>

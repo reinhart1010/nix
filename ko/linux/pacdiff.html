@@ -1,0 +1,40 @@
+<h1 id="pacdiff">pacdiff</h1>
+
+<p><code class="language-plaintext highlighter-rouge">pacman</code>에 의해 생성된 <code class="language-plaintext highlighter-rouge">.pacorig</code>, <code class="language-plaintext highlighter-rouge">.pacnew</code>, <code class="language-plaintext highlighter-rouge">.pacsave</code> 파일을 관리하는 도구.
+더 많은 정보: <a href="https://manned.org/pacdiff">https://manned.org/pacdiff</a>.</p>
+
+<ul>
+  <li>인터랙티브 모드에서 유지 관리가 필요한 파일 검토:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacdiff</code></p>
+
+<ul>
+  <li>sudo와 sudoedit를 사용하여 파일 제거 및 병합:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacdiff --sudo</code></p>
+
+<ul>
+  <li>유지 관리가 필요한 파일을 검토하고, <code class="language-plaintext highlighter-rouge">(O)덮어쓰기</code> 시 원본의 <code class="language-plaintext highlighter-rouge">.bak</code>업 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacdiff --sudo --backup</code></p>
+
+<ul>
+  <li>특정 편집기를 사용하여 설정 파일을 보고 병합 (기본값은 <code class="language-plaintext highlighter-rouge">vim -d</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">DIFFPROG=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">편집기</span><code class="language-plaintext highlighter-rouge"> pacdiff</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">pacman</code> 데이터베이스 대신 <code class="language-plaintext highlighter-rouge">locate</code>를 사용하여 설정 파일 스캔:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacdiff --locate</code></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacdiff --help</code></p>

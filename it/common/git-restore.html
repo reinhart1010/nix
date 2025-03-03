@@ -1,0 +1,26 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-restore">git restore</h1>
+
+<p>Ripristina i file dell'albero di lavoro. Richiede versioni di Git successive alla 2.23.
+Vedi anche <code class="language-plaintext highlighter-rouge">git checkout</code>.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-restore">https://git-scm.com/docs/git-restore</a>.</p>
+
+<ul>
+  <li>Ripristina un file cancellato dal contenuto del commit corrente (HEAD):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>
+
+<ul>
+  <li>Ripristina un file alla versione di un commit differente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span></p>
+
+<ul>
+  <li>Annulla le modifiche ai file nell'area di stage, ripristinandoli all'HEAD:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git restore .</code></p>

@@ -1,0 +1,52 @@
+<h1 id="mv">mv</h1>
+
+<p>Pindahkan atau namai-ulang berkas dan direktori.
+Informasi lebih lanjut: <a href="https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html</a>.</p>
+
+<ul>
+  <li>Pindahkan berkas ke lokasi yang baru:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span></p>
+
+<ul>
+  <li>Pindahkan berkas atau direktori ke dalam direktori lain yang telah ada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span></p>
+
+<ul>
+  <li>Pindahkan berkas majemuk ke dalam direktori lain yang telah ada, dengan menyimpan nama masing-masing file secara utuh:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber1 jalan/menuju/sumber2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span></p>
+
+<ul>
+  <li>Pindahkan tanpa meminta konfirmasi sebelum menimpa file yang sudah ada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv --force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span></p>
+
+<ul>
+  <li>Minta konfirmasi sebelum menimpa berkas yang sudah ada, tanpa memerhatikan hak akses hedua file tersebut:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv --interactive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span></p>
+
+<ul>
+  <li>Jangan menimpa file yang sudah ada di direktori tujuan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv --no-clobber </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span></p>
+
+<ul>
+  <li>Pindahkan berkas dalam mode [v]erbose, tampilkan berkas-berkas yang dipindahkan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span></p>
+
+<ul>
+  <li>Tetapkan direktori tujuan ([t]arget) agar Anda dapat menggunakan alat atau perintah eksternal untuk mengelola kumpulan berkas yang dapat dipindahkan:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find /var/log -type f -name '*.log' -print0</span><code class="language-plaintext highlighter-rouge"> | </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xargs -0</span><code class="language-plaintext highlighter-rouge"> mv --target-directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_tujuan</span></p>

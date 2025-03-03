@@ -1,0 +1,41 @@
+<h1 id="dumpsys">dumpsys</h1>
+
+<p>Berikan informasi tentang layanan (daemon) sistem milik Android.
+Perintah ini hanya dapat dijalankan melalui <code class="language-plaintext highlighter-rouge">adb shell</code>.
+Informasi lebih lanjut: <a href="https://developer.android.com/tools/dumpsys">https://developer.android.com/tools/dumpsys</a>.</p>
+
+<ul>
+  <li>Tampilkan informasi diagnostik terhadap seluruh layanan sistem Android:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys</code></p>
+
+<ul>
+  <li>Tampilkan informasi diagnostik untuk layanan sistem tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">layanan</span></p>
+
+<ul>
+  <li>Tampilkan daftar layanan sistem yang diketahui oleh <code class="language-plaintext highlighter-rouge">dumpsys</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys -l</code></p>
+
+<ul>
+  <li>Tampilkan daftar argumen yang diterima oleh sebuah layanan sistem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">layanan</span><code class="language-plaintext highlighter-rouge"> -h</code></p>
+
+<ul>
+  <li>Kecualikan layanan sistem tertentu dari informasi diagnostik yang ditampilkan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys --skip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">layanan</span></p>
+
+<ul>
+  <li>Tetapkan periode waktu habis dalam hitungan detik (10 detik secara default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">detik</span></p>

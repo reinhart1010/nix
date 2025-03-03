@@ -1,0 +1,34 @@
+<h1 id="snowsql">snowsql</h1>
+
+<p>SnowSQL command-line client for Snowflake's Data Cloud.
+More information: <a href="https://docs.snowflake.com/en/user-guide/snowsql.html">https://docs.snowflake.com/en/user-guide/snowsql.html</a>.</p>
+
+<ul>
+  <li>Connect to a specific instance at <a href="https://account.snowflakecomputing.com">https://account.snowflakecomputing.com</a> (password can be provided in prompt or configuration file):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snowsql --accountname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">account</span><code class="language-plaintext highlighter-rouge"> --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --dbname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database</span><code class="language-plaintext highlighter-rouge"> --schemaname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">schema</span></p>
+
+<ul>
+  <li>Connect to an instance specified by a specific configuration file (defaults to <code class="language-plaintext highlighter-rouge">~/.snowsql/config</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snowsql --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/configuration_file</span></p>
+
+<ul>
+  <li>Connect to the default instance using a token for multi-factor authentication:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snowsql --mfa-passcode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">token</span></p>
+
+<ul>
+  <li>Execute a single SQL query or SnowSQL command on the default connection (useful in shell scripts):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snowsql --query '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Execute commands from a specific file on the default connection:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snowsql --filename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sql</span></p>

@@ -1,0 +1,29 @@
+<h1 id="az-network">az network</h1>
+
+<p>Manage Azure Network resources.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/network">https://learn.microsoft.com/cli/azure/network</a>.</p>
+
+<ul>
+  <li>List network resources in a region that are used against a subscription quota:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az network list-usages</code></p>
+
+<ul>
+  <li>List all virtual networks in a subscription:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az network vnet list</code></p>
+
+<ul>
+  <li>Create a virtual network:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az network vnet create --address-prefixes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.0.0/16</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vnet</span><code class="language-plaintext highlighter-rouge"> --resource_group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span><code class="language-plaintext highlighter-rouge"> --submet-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subnet</span><code class="language-plaintext highlighter-rouge"> --subnet-prefixes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.0.0/24</span></p>
+
+<ul>
+  <li>Enable accelerated networking for a network interface card:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az network nic update --accelerated-networking true --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nic</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span></p>

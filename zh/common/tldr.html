@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="tldr">tldr</h1>
+
+<p>显示来自 tldr-pages 项目的命令行工具的简单帮助页面。
+注意：<code class="language-plaintext highlighter-rouge">--language</code> 和 <code class="language-plaintext highlighter-rouge">--list</code> 选项并非客户端规范所必需，但大多数客户端都实现了它们。
+更多信息：<a href="https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface">https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface</a>.</p>
+
+<ul>
+  <li>打印指定命令的 tldr 页面（提示：这就是你来到这里的方式！）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span></p>
+
+<ul>
+  <li>打印指定子命令的 tldr 页面：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">子命令</span></p>
+
+<ul>
+  <li>用指定语言打印命令的 tldr 页面（如果没有，返回英语）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --language </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">语言代码</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span></p>
+
+<ul>
+  <li>打印指定平台的命令的 tldr 页面：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span></p>
+
+<ul>
+  <li>更新 tldr 页面的本地缓存：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --update</code></p>
+
+<ul>
+  <li>列出当前平台和 <code class="language-plaintext highlighter-rouge">common</code> 的所有页面：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --list</code></p>
+
+<ul>
+  <li>列出某个命令的所有可用子命令页面：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --list | grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span><code class="language-plaintext highlighter-rouge"> | column</code></p>

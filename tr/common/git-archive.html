@@ -1,0 +1,40 @@
+<h1 id="git-archive">git archive</h1>
+
+<p>İsimlendirilmiş bir ağaçtan dosyaların arşivini oluştur.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-archive">https://git-scm.com/docs/git-archive</a>.</p>
+
+<ul>
+  <li>Mevcut HEAD'deki içerik ile bir tar arşivi oluştur ve içeriği standart çıktı biçiminde göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span><code class="language-plaintext highlighter-rouge"> HEAD</code></p>
+
+<ul>
+  <li>Mevcut HEAD'deki içerik ile bir zip arşivi oluştur ve içeriği standart çıktı biçiminde göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span><code class="language-plaintext highlighter-rouge"> --format zip HEAD</code></p>
+
+<ul>
+  <li>Yukarıda yazan madde ile aynı şeyi yap, ama zip arşivini belirtilen dosya olarak yaz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/arşiv/dosyası.zip</span><code class="language-plaintext highlighter-rouge"> HEAD</code></p>
+
+<ul>
+  <li>Belirtilmiş bir daldaki son commitlerin içeriğinden bir tar arşivi oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/arşiv/dosyası.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_ismi</span></p>
+
+<ul>
+  <li>Belirtilmiş bir dizindeki içeriklerden tar arşivi oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/arşiv/dosyası.tar</span><code class="language-plaintext highlighter-rouge"> HEAD:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dizin</span></p>
+
+<ul>
+  <li>Bir takım dosyayı belirtilmiş bir dizinin içinde arşivlemek için başlarına yol ekle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/arşiv/dosyası.tar</span><code class="language-plaintext highlighter-rouge"> --prefix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">başlarına/yol/eklenecek/dosyalar</span><code class="language-plaintext highlighter-rouge">/ HEAD</code></p>

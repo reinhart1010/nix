@@ -1,0 +1,26 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="avahi-browse">avahi-browse</h1>
+
+<p>显示通过 mDNS/DNS-SD 暴露在本地网络的服务和主机。
+Avahi 与苹果设备的 Bonjour（Zeroconf）兼容。
+更多信息：<a href="https://www.avahi.org/">https://www.avahi.org/</a>.</p>
+
+<ul>
+  <li>列出本地网络中的所有服务和他们的地址与端口，忽略他们本地的地址和端口：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avahi-browse --all --resolve --ignore-local</code></p>
+
+<ul>
+  <li>列出所有的域名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avahi-browse --browse-domains</code></p>
+
+<ul>
+  <li>只搜索一个特定的域名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avahi-browse --all --domain=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span></p>

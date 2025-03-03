@@ -1,0 +1,28 @@
+<h1 id="ajson">ajson</h1>
+
+<p>Exécute un JSONPath sur un objet JSON.
+Plus d'informations : <a href="https://github.com/spyzhov/ajson">https://github.com/spyzhov/ajson</a>.</p>
+
+<ul>
+  <li>Lis un JSON depuis un fichier et exécute une expression JSONPath spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ajson '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$..json[?(@.path)]</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.json</span></p>
+
+<ul>
+  <li>Lis un JSON depuis l'entrée standard et exécute une expression JSONPath spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.json</span><code class="language-plaintext highlighter-rouge"> | ajson '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$..json[?(@.path)]</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Lis un JSON depuis une URL et évalue une expression JSONPath spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ajson '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">avg($..price)</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://exemple.com/api/</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Lis un JSON simple et calcule une valeur :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge">' | ajson '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2 * pi * $</span><code class="language-plaintext highlighter-rouge">'</code></p>

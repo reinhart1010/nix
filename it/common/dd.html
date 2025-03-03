@@ -1,0 +1,34 @@
+<h1 id="dd">dd</h1>
+
+<p>Converti e copia un file.
+Maggiori informazioni: <a href="https://manned.org/dd.1p">https://manned.org/dd.1p</a>.</p>
+
+<ul>
+  <li>Crea un disco USB avviabile da un file ISO e mostra il progresso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.iso</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/disco_usb</span><code class="language-plaintext highlighter-rouge"> status=progress</code></p>
+
+<ul>
+  <li>Clona un disco su un altro disco a blocchi con grandezza di 4 MiB e scarica le scritture prima che il comando termini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=4194304 conv=fsync if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/disco_sorgente</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/disco_destinazione</span></p>
+
+<ul>
+  <li>Genera un file con un numero specifico di byte randomici utilizzando il driver random del kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> count=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> if=/dev/urandom of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_random</span></p>
+
+<ul>
+  <li>Testa la performance in scrittura di un disco:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span><code class="language-plaintext highlighter-rouge"> count=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000000</span><code class="language-plaintext highlighter-rouge"> if=/dev/zero of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_1GB</span></p>
+
+<ul>
+  <li>Crea un backup di sistema, salvalo in un file IMG (può essere ripristinato in seguito scambiando <code class="language-plaintext highlighter-rouge">if</code> e <code class="language-plaintext highlighter-rouge">of</code>), e mostra il progresso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/disco</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.img</span><code class="language-plaintext highlighter-rouge"> status=progress</code></p>

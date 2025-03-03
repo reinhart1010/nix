@@ -1,0 +1,46 @@
+<h1 id="mysql">mysql</h1>
+
+<p>MySQL 命令行工具。
+更多信息：<a href="https://www.mysql.com/">https://www.mysql.com/</a>.</p>
+
+<ul>
+  <li>连接数据库：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">数据库名</span></p>
+
+<ul>
+  <li>连接到数据库，系统将提示用户输入密码：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">数据库名</span></p>
+
+<ul>
+  <li>连接到另一台主机上的数据库：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">数据库地址</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">数据库名</span></p>
+
+<ul>
+  <li>通过Unix套接字文件连接到数据库：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql --socket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/socket.sock</span></p>
+
+<ul>
+  <li>执行脚本文件中的SQL语句：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql -e "source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">脚本.sql</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">数据库名</span></p>
+
+<ul>
+  <li>从<code class="language-plaintext highlighter-rouge">mysqldump</code>创建的备份文件中恢复单个数据库（系统将提示用户输入密码）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">数据库名</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/备份文件.sql</span></p>
+
+<ul>
+  <li>从备份中恢复所有数据库（系统将提示用户输入密码）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge"> --password &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/备份文件.sql</span></p>

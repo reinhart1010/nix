@@ -1,0 +1,34 @@
+<h1 id="aspell">aspell</h1>
+
+<p>Interaktiver Korrekturleser.
+Weitere Informationen: <a href="http://aspell.net/">http://aspell.net/</a>.</p>
+
+<ul>
+  <li>Überprüfe eine einzelne Datei auf Fehler:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aspell check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zur/datei</span></p>
+
+<ul>
+  <li>Liste falsch geschriebene Worte von Standard Input:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span><code class="language-plaintext highlighter-rouge"> | aspell list</code></p>
+
+<ul>
+  <li>Zeige verfügbare Wörterbuchsprachen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aspell dicts</code></p>
+
+<ul>
+  <li>Nutze <code class="language-plaintext highlighter-rouge">aspell</code> mit einem anderen Wörterbuch (nimmt 2-Zeichen-Locale laut ISO 639 Sprach Code):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aspell --lang=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cs</span></p>
+
+<ul>
+  <li>Zeige alle falsch geschriebenen Wörter von Standard Input und ignoriere alle Wörter in einer persönlichen Wortliste:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span><code class="language-plaintext highlighter-rouge"> | aspell --personal=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">persönliche-wort-liste.pws</span><code class="language-plaintext highlighter-rouge"> list</code></p>

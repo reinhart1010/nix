@@ -1,0 +1,29 @@
+<h1 id="git-squash">git squash</h1>
+
+<p>Squash multiple commits into a single commit.
+Part of <code class="language-plaintext highlighter-rouge">git-extras</code>.
+More information: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-squash">https://github.com/tj/git-extras/blob/master/Commands.md#git-squash</a>.</p>
+
+<ul>
+  <li>Merge all commits from a specific branch into the current branch as a single commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git squash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_branch</span></p>
+
+<ul>
+  <li>Squash all commits starting with a specific commit on the current branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git squash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Squash the <code class="language-plaintext highlighter-rouge">n</code> latest commits and commit with a message:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git squash HEAD~</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Squash the <code class="language-plaintext highlighter-rouge">n</code> latest commits and commit concatenating all individual messages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git squash --squash-msg HEAD~</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span></p>

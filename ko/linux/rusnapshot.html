@@ -1,0 +1,40 @@
+<h1 id="rusnapshot">rusnapshot</h1>
+
+<p>Rust로 작성된 BTRFS 스냅샷 유틸리티.
+더 많은 정보: <a href="https://github.com/Edu4rdSHL/rusnapshot">https://github.com/Edu4rdSHL/rusnapshot</a>.</p>
+
+<ul>
+  <li>구성 파일을 사용하여 스냅샷 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rusnapshot --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/config.toml</span><code class="language-plaintext highlighter-rouge"> --cr</code></p>
+
+<ul>
+  <li>생성된 스냅샷 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rusnapshot -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/config.toml</span><code class="language-plaintext highlighter-rouge"> --list</code></p>
+
+<ul>
+  <li>ID 또는 스냅샷 이름으로 스냅샷 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rusnapshot -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/config.toml</span><code class="language-plaintext highlighter-rouge"> --del --id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스냅샷_id</span></p>
+
+<ul>
+  <li>모든 <code class="language-plaintext highlighter-rouge">hourly</code> 스냅샷 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rusnapshot -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/config.toml</span><code class="language-plaintext highlighter-rouge"> --list --keep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> --clean --kind </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hourly</span></p>
+
+<ul>
+  <li>읽기-쓰기 스냅샷 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rusnapshot -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/config.toml</span><code class="language-plaintext highlighter-rouge"> --cr --rw</code></p>
+
+<ul>
+  <li>스냅샷 복원:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rusnapshot -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/config.toml</span><code class="language-plaintext highlighter-rouge"> --id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스냅샷_id</span><code class="language-plaintext highlighter-rouge"> --restore</code></p>

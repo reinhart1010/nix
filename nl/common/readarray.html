@@ -1,0 +1,28 @@
+<h1 id="readarray">readarray</h1>
+
+<p>Lees regels van <code class="language-plaintext highlighter-rouge">stdin</code> in een array.
+Meer informatie: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-readarray">https://www.gnu.org/software/bash/manual/bash.html#index-readarray</a>.</p>
+
+<ul>
+  <li>Interactief regels in een array invoeren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readarray </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">array_naam</span></p>
+
+<ul>
+  <li>Lees regels uit een bestand en plaats ze in een array:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readarray </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">array_naam</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.txt</span></p>
+
+<ul>
+  <li>Verwijder scheidingstekens aan het einde (standaard newline):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readarray -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">array_naam</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.txt</span></p>
+
+<ul>
+  <li>Kopieer maximaal het opgegeven aantal regels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">readarray -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">array_naam</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.txt</span></p>

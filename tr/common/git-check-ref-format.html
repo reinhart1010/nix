@@ -1,0 +1,22 @@
+<h1 id="git-check-ref-format">git check-ref-format</h1>
+
+<p>Girilen referans isminin kabul edilebilir olup olmadığını kontrol eder, ve eğer kabul edilemezse sıfır olmayan bir çıktı verir.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-check-ref-format">https://git-scm.com/docs/git-check-ref-format</a>.</p>
+
+<ul>
+  <li>Belirtilen referans ismini biçimini kontrol et:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ref-format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">refs/head/referans_ismi</span></p>
+
+<ul>
+  <li>Son kontrol edilen dalın ismini göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ref-format --branch @{-1}</code></p>
+
+<ul>
+  <li>Bir referans ismi dosyasını normalleştir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ref-format --normalize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">refs/head/referans_ismi</span></p>

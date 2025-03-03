@@ -1,0 +1,53 @@
+<h1 id="rg">rg</h1>
+
+<p>Ripgrep is een recursieve regel-georiënteerde zoek tool.
+Wil een sneller alternatief zijn dan <code class="language-plaintext highlighter-rouge">grep</code>.
+Meer informatie: <a href="https://github.com/BurntSushi/ripgrep">https://github.com/BurntSushi/ripgrep</a>.</p>
+
+<ul>
+  <li>Zoek recursief in de huidige map naar een reguliere expressie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reguliere_expressie</span></p>
+
+<ul>
+  <li>Zoek recursief in de huidige map naar een reguliere expressie, inclusief verborgen bestanden en bestanden opgenomen in <code class="language-plaintext highlighter-rouge">.gitignore</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rg --no-ignore --hidden </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reguliere_expressie</span></p>
+
+<ul>
+  <li>Zoek alleen in een subset van mappen naar een reguliere expressie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reguliere_expressie</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">set_van_submappen</span></p>
+
+<ul>
+  <li>Zoek in bestanden die overeenkomen met een glob (bijv. <code class="language-plaintext highlighter-rouge">README.*</code>) naar een reguliere expressie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reguliere_expressie</span><code class="language-plaintext highlighter-rouge"> --glob </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">glob</span></p>
+
+<ul>
+  <li>Zoek naar bestandsnamen die overeenkomen met een reguliere expressie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rg --files | rg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reguliere_expressie</span></p>
+
+<ul>
+  <li>Toon alleen overeenkomende bestanden (handig bij het doorsturen naar andere commando's):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rg --files-with-matches </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reguliere_expressie</span></p>
+
+<ul>
+  <li>Toon regels die niet overeenkomen met de gegeven reguliere expressie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rg --invert-match </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reguliere_expressie</span></p>
+
+<ul>
+  <li>Zoek naar een letterlijk string pattroon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rg --fixed-strings -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span></p>

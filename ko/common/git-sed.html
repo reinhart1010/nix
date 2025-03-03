@@ -1,0 +1,29 @@
+<h1 id="git-sed">git sed</h1>
+
+<p>git으로 관리되는 파일에서 sed를 사용하여 패턴을 대체.
+<code class="language-plaintext highlighter-rouge">git-extras</code>의 일부.
+더 많은 정보: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-sed">https://github.com/tj/git-extras/blob/master/Commands.md#git-sed</a>.</p>
+
+<ul>
+  <li>현재 저장소에서 지정된 텍스트 대체:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git sed '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">찾을_텍스트</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대체할_텍스트</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>지정된 텍스트를 대체한 후, 표준 커밋 메시지로 결과 변경사항 커밋:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git sed -c '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">찾을_텍스트</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대체할_텍스트</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>정규 표현식을 사용하여 지정된 텍스트 대체:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git sed -f g '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">찾을_텍스트</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대체할_텍스트</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>주어진 디렉터리 내 모든 파일에서 특정 텍스트 대체:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git sed '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">찾을_텍스트</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대체할_텍스트</span><code class="language-plaintext highlighter-rouge">' -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>

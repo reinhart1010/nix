@@ -1,0 +1,29 @@
+<h1 id="rexec">rexec</h1>
+
+<p>원격 호스트에서 명령을 실행합니다.
+참고: <code class="language-plaintext highlighter-rouge">rexec</code>는 데이터를 일반 텍스트로 전송하므로 주의해서 사용하세요. 암호화된 통신을 위해 SSH와 같은 보안 대안을 고려하세요.
+더 많은 정보: <a href="https://www.gnu.org/software/inetutils/manual/html_node/rexec-invocation.html">https://www.gnu.org/software/inetutils/manual/html_node/rexec-invocation.html</a>.</p>
+
+<ul>
+  <li>원격 [h]호스트에서 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rexec -h=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_호스트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -l</span></p>
+
+<ul>
+  <li>원격 [h]호스트에서 원격 [u]사용자명을 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rexec -username=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> -h=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_호스트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ps aux</span></p>
+
+<ul>
+  <li>원격 [h]호스트에서 <code class="language-plaintext highlighter-rouge">stdin</code>을 <code class="language-plaintext highlighter-rouge">/dev/null</code>로 리디렉션:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rexec --no-err -h=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_호스트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -l</span></p>
+
+<ul>
+  <li>원격 [h]호스트에서 원격 [P]포트를 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rexec -P=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span><code class="language-plaintext highlighter-rouge"> -h=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_호스트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -l</span></p>

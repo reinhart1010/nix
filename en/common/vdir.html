@@ -1,0 +1,47 @@
+<h1 id="vdir">vdir</h1>
+
+<p>List directory contents.
+Drop-in replacement for <code class="language-plaintext highlighter-rouge">ls -l</code>.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/vdir-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/vdir-invocation.html</a>.</p>
+
+<ul>
+  <li>List files and directories in the current directory, one per line, with details:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vdir</code></p>
+
+<ul>
+  <li>List with sizes displayed in human-readable units (KB, MB, GB):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vdir -h</code></p>
+
+<ul>
+  <li>List including hidden files (starting with a dot):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vdir -a</code></p>
+
+<ul>
+  <li>List files and directories sorting entries by size (largest first):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vdir -S</code></p>
+
+<ul>
+  <li>List files and directories sorting entries by modification time (newest first):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vdir -t</code></p>
+
+<ul>
+  <li>List grouping directories first:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vdir --group-directories-first</code></p>
+
+<ul>
+  <li>Recursively list all files and directories in a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vdir --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

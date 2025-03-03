@@ -1,0 +1,28 @@
+<h1 id="kubectl-rollout">kubectl rollout</h1>
+
+<p>Verwalten des Rollouts einer Kubernetes-Ressource (deployments, daemonsets, and statefulsets).
+Weitere Informationen: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#rollout">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#rollout</a>.</p>
+
+<ul>
+  <li>Starte einen rollenden Neustart einer Ressource:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl rollout restart </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_type</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_name</span></p>
+
+<ul>
+  <li>Überwache den fortlaufenden Aktualisierungsstatus einer Ressource:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl rollout status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_type</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_name</span></p>
+
+<ul>
+  <li>Setze eine Ressource auf die vorherige Version zurück:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl rollout undo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_type</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_name</span></p>
+
+<ul>
+  <li>Zeige den Rollout-Verlauf einer Ressource an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl rollout history </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_type</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_name</span></p>

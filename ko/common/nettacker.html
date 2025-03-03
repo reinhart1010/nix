@@ -1,0 +1,28 @@
+<h1 id="nettacker">nettacker</h1>
+
+<p>정보 수집 자동화, 취약점 스캔 및 보고서 생성.
+더 많은 정보: <a href="https://nettacker.readthedocs.io/en/latest/Home/">https://nettacker.readthedocs.io/en/latest/Home/</a>.</p>
+
+<ul>
+  <li>사용 가능한 모든 모듈 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettacker --show-all-modules</code></p>
+
+<ul>
+  <li>대상에 포트 스캔 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettacker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–modules</span><code class="language-plaintext highlighter-rouge"> port_scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–targets</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1/24,owasp.org,scanme.org,…</span></p>
+
+<ul>
+  <li>특정 포트 및 파일에 나열된 대상에 포트 스캔 실행 (줄바꿈으로 구분):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettacker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–modules</span><code class="language-plaintext highlighter-rouge"> port_scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–ports</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22,80,443,…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–targets-list</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/targets.txt</span></p>
+
+<ul>
+  <li>스캔 전 핑 테스트를 실행한 후 대상에 여러 스캔 유형 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nettacker --ping-before-scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–modules</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_scan,subdomain_scan,waf_scan,…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–ports</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80,443</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–targets</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">owasp.org</span></p>

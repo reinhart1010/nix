@@ -1,0 +1,29 @@
+<h1 id="virsh-connect">virsh-connect</h1>
+
+<p>가상 머신 하이퍼바이저에 연결합니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">virsh</code>.
+더 많은 정보: <a href="https://manned.org/virsh">https://manned.org/virsh</a>.</p>
+
+<ul>
+  <li>기본 하이퍼바이저에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh connect</code></p>
+
+<ul>
+  <li>로컬 QEMU/KVM 하이퍼바이저에 루트로 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh connect qemu:///system</code></p>
+
+<ul>
+  <li>하이퍼바이저의 새 인스턴스를 시작하고, 로컬 사용자로 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh connect qemu:///session</code></p>
+
+<ul>
+  <li>SSH를 사용하여 원격 하이퍼바이저에 루트로 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh connect qemu+ssh://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_명@호스트_명</span><code class="language-plaintext highlighter-rouge">/system</code></p>

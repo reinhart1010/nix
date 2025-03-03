@@ -1,0 +1,34 @@
+<h1 id="chrt">chrt</h1>
+
+<p>Manipulate the real-time attributes of a process.
+More information: <a href="https://manned.org/chrt">https://manned.org/chrt</a>.</p>
+
+<ul>
+  <li>Display attributes of a process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chrt --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>
+
+<ul>
+  <li>Display attributes of all threads of a process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chrt --all-tasks --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>
+
+<ul>
+  <li>Display the min/max priority values that can be used with <code class="language-plaintext highlighter-rouge">chrt</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chrt --max</code></p>
+
+<ul>
+  <li>Set the scheduling priority of a process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chrt --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">priority</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>
+
+<ul>
+  <li>Set the scheduling policy of a process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chrt --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deadline|idle|batch|rr|fifo|other</span><code class="language-plaintext highlighter-rouge"> --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">priority</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>

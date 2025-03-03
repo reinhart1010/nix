@@ -1,0 +1,28 @@
+<h1 id="winicontopam">winicontopam</h1>
+
+<p>Converteer een Windows ICO bestand naar een PAM bestand.
+Meer informatie: <a href="https://netpbm.sourceforge.net/doc/winicontopam.html">https://netpbm.sourceforge.net/doc/winicontopam.html</a>.</p>
+
+<ul>
+  <li>Lees een ICO bestand en converteer de beste kwaliteit afbeelding daarin naar het PAM formaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winicontopam </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/invoer_bestand.ico</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pam</span></p>
+
+<ul>
+  <li>Converteer alle afbeeldingen in het invoerbestand naar PAM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winicontopam -allimages </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/invoer_bestand.ico</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pam</span></p>
+
+<ul>
+  <li>Converteer de n afbeelding in het invoerbestand naar PAM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winicontopam -image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/invoer_bestand.ico</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pam</span></p>
+
+<ul>
+  <li>Als de afbeelding(en) voor te extraheren bevatten transparantie data en een AND mask, scrhijf de AND mask naar het vijfde kanaal van het uitvoer PAM bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winicontopam -andmasks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/invoer_bestand.ico</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pam</span></p>

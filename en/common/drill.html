@@ -1,0 +1,46 @@
+<h1 id="drill">drill</h1>
+
+<p>Perform various DNS queries.
+More information: <a href="https://manned.org/drill">https://manned.org/drill</a>.</p>
+
+<ul>
+  <li>Lookup the IP(s) associated with a hostname (A records):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Lookup the mail server(s) associated with a given domain name (MX record):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill mx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Get all types of records for a given domain name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill any </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Specify an alternate DNS server to query:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span></p>
+
+<ul>
+  <li>Perform a reverse DNS lookup on an IP address (PTR record):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span></p>
+
+<ul>
+  <li>Perform DNSSEC trace from root servers down to a domain name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill -TD </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Show DNSKEY record(s) for a domain name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill -s dnskey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>

@@ -1,0 +1,17 @@
+<h1 id="git-for-each-repo">git for-each-repo</h1>
+
+<p>Run a Git command on a list of repositories.
+Note: this command is experimental and may change.
+More information: <a href="https://git-scm.com/docs/git-for-each-repo">https://git-scm.com/docs/git-for-each-repo</a>.</p>
+
+<ul>
+  <li>Run maintenance on each of a list of repositories stored in the <code class="language-plaintext highlighter-rouge">maintenance.repo</code> user configuration variable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git for-each-repo --config=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">maintenance.repo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">maintenance run</span></p>
+
+<ul>
+  <li>Run <code class="language-plaintext highlighter-rouge">git pull</code> on each repository listed in a global configuration variable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git for-each-repo --config=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global_configuration_variable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pull</span></p>

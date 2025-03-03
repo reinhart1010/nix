@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="exiftool">exiftool</h1>
+
+<p>Leggi e scrivi metadati nei file.
+Maggiori informazioni: <a href="https://exiftool.org">https://exiftool.org</a>.</p>
+
+<ul>
+  <li>Rimuovi tutti i metadati EXIF dai file specificati:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exiftool -All= </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1 file2 …</span></p>
+
+<ul>
+  <li>Muovi avanti di 1 ora la data in cui sono state scattate tutte le foto contenute in una directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exiftool "-AllDates+=0:0:0 1:0:0" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span></p>
+
+<ul>
+  <li>Muovi indietro di 1 giorno e 2 ore la data in cui sono state scattate tutte le immagini JPEG:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exiftool "-AllDates-=0:0:1 2:0:0" -ext jpg</code></p>
+
+<ul>
+  <li>Cambia solo il campo <code class="language-plaintext highlighter-rouge">DateTimeOriginal</code> sottraendo 1.5 ore e non tenere file di backup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exiftool -DateTimeOriginal-=1.5 -overwrite_original</code></p>
+
+<ul>
+  <li>Rinomina ricorsivamente tutti i file JPEG in una directory in base al campo <code class="language-plaintext highlighter-rouge">DateTimeOriginal</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exiftool '-filename&lt;DateTimeOriginal' -d %Y-%m-%d_%H-%M-%S%%lc.%%e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span><code class="language-plaintext highlighter-rouge"> -r -ext jpg</code></p>

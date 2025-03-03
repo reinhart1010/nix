@@ -1,0 +1,47 @@
+<h1 id="acmesh">acme.sh</h1>
+
+<p>实现了 ACME 客户端协议的 shell 脚本，是 <code class="language-plaintext highlighter-rouge">certbot</code> 的替代品。
+另见 <code class="language-plaintext highlighter-rouge">acme.sh dns</code>。
+更多信息：<a href="https://github.com/acmesh-official/acme.sh">https://github.com/acmesh-official/acme.sh</a>.</p>
+
+<ul>
+  <li>使用网站根目录模式签发证书：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --webroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/路径/到/网站根目录</span></p>
+
+<ul>
+  <li>使用独立模式和 80 端口为多个域名签发证书：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --standalone --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">www.example.com</span></p>
+
+<ul>
+  <li>使用独立 TLS 模式和 443 端口签发证书：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --alpn --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>使用运行中的 Nginx 的配置来签发证书：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --nginx --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>使用运行中的 Apache 的配置来签发证书：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --apache --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>使用自动 DNS API 模式签发一个通配符（*）证书：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --issue --dns </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dns_cf</span><code class="language-plaintext highlighter-rouge"> --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.example.com</span></p>
+
+<ul>
+  <li>将证书文件安装到指定位置（对自动更新证书很有用）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">acme.sh --install-cert -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --key-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/路径/到/example.com.key</span><code class="language-plaintext highlighter-rouge"> --fullchain-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/路径/到/example.com.cer</span><code class="language-plaintext highlighter-rouge"> --reloadcmd "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemctl force-reload nginx</span><code class="language-plaintext highlighter-rouge">"</code></p>

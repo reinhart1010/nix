@@ -1,0 +1,42 @@
+<h1 id="trip">trip</h1>
+
+<p>Una herramienta de diagnóstico de red.
+Combina la funcionalidad de <code class="language-plaintext highlighter-rouge">traceroute</code> y <code class="language-plaintext highlighter-rouge">ping</code>.
+Diseñada para ayudar en el análisis de problemas de red.
+Más información: <a href="https://trippy.rs/">https://trippy.rs/</a>.</p>
+
+<ul>
+  <li>Uso básico con parámetros por defecto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo trip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Rastrea sin requerir privilegios elevados (solo plataformas soportadas):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --unprivileged</code></p>
+
+<ul>
+  <li>Rastrea solo con <code class="language-plaintext highlighter-rouge">IPv6</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo trip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --ipv6</code></p>
+
+<ul>
+  <li>Rastrea usando el protocolo <code class="language-plaintext highlighter-rouge">udp</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo trip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --protocol </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">udp</span></p>
+
+<ul>
+  <li>Utiliza el puerto de destino personalizado <code class="language-plaintext highlighter-rouge">443</code> para el rastreo <code class="language-plaintext highlighter-rouge">tcp</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo trip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --protocol </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp</span><code class="language-plaintext highlighter-rouge"> --target-port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">443</span></p>
+
+<ul>
+  <li>Utiliza el puerto de origen personalizado <code class="language-plaintext highlighter-rouge">5000</code> para el seguimiento <code class="language-plaintext highlighter-rouge">udp</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo trip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> --protocol </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">udp</span><code class="language-plaintext highlighter-rouge"> --source-port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5000</span></p>

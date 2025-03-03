@@ -1,0 +1,28 @@
+<h1 id="kcadmsh">kcadm.sh</h1>
+
+<p>Perform administration tasks.
+More information: <a href="https://www.keycloak.org/docs/latest/server_admin/#admin-cli">https://www.keycloak.org/docs/latest/server_admin/#admin-cli</a>.</p>
+
+<ul>
+  <li>Start an authenticated session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kcadm.sh config credentials --server </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> --realm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">realm_name</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Create a user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kcadm.sh create users -s username=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">realm_name</span></p>
+
+<ul>
+  <li>List all realms:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kcadm.sh get realms</code></p>
+
+<ul>
+  <li>Update a realm with JSON config:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kcadm.sh update realms/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">realm_name</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span></p>

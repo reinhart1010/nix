@@ -1,0 +1,46 @@
+<h1 id="drill">drill</h1>
+
+<p>Effectue diverses requêtes DNS.
+Plus d'informations : <a href="https://manned.org/drill">https://manned.org/drill</a>.</p>
+
+<ul>
+  <li>Recherche des adresses IP(s) associées à un nom d'hôte (enregistrements A) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Recherche le(s) serveur(s) de messagerie associé(s) à un nom de domaine donné (enregistrement MX) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill mx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Obtient tous les types d'enregistrements pour un nom de domaine donné :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill any </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Spécifie un autre serveur DNS à interroger :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span></p>
+
+<ul>
+  <li>Effectue une recherche DNS inversée sur une adresse IP (enregistrement PTR) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span></p>
+
+<ul>
+  <li>Suit la traçabilité DNSSEC des serveurs racines jusqu'à un nom de domaine :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill -TD </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Affiche le(s) enregistrement(s) DNSKEY d'un nom de domaine :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drill -s dnskey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>

@@ -1,0 +1,52 @@
+<h1 id="skate">skate</h1>
+
+<p>Simple and powerful key-value store.
+More information: <a href="https://github.com/charmbracelet/skate">https://github.com/charmbracelet/skate</a>.</p>
+
+<ul>
+  <li>Store a key and a value on the default database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">skate set "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Show your keys saved on the default database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">skate list</code></p>
+
+<ul>
+  <li>Delete key and value from the default database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">skate delete "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Create a new key and value in a new database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">skate set "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge">"@"</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_name</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Show your keys saved in a non default database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">skate list @"</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Delete key and value from a specific database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">skate delete "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge">"@"</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Show the databases available:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">skate list-dbs</code></p>
+
+<ul>
+  <li>Delete local db and pull down fresh copy from Charm Cloud:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">skate reset @"</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_name</span><code class="language-plaintext highlighter-rouge">"</code></p>

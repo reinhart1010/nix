@@ -1,0 +1,52 @@
+<h1 id="aws-amplify">aws amplify</h1>
+
+<p>Plataforma de desarrollo para crear aplicaciones móviles y web seguras y escalables.
+Más información: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/amplify/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/amplify/index.html</a>.</p>
+
+<ul>
+  <li>Crea una nueva aplicación Amplify:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws amplify create-app --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_app</span><code class="language-plaintext highlighter-rouge"> --description </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">descripción</span><code class="language-plaintext highlighter-rouge"> --repository </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_repositorio</span><code class="language-plaintext highlighter-rouge"> --platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plataforma</span><code class="language-plaintext highlighter-rouge"> --environment-variables </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variables_de_entorno</span><code class="language-plaintext highlighter-rouge"> --tags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiquetas</span></p>
+
+<ul>
+  <li>Elimina una aplicación Amplify existente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws amplify delete-app --app-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_aplicación</span></p>
+
+<ul>
+  <li>Obtiene detalles de una aplicación Amplify determinada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws amplify get-app --app-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_aplicación</span></p>
+
+<ul>
+  <li>Lista todas las aplicaciones de Amplify:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws amplify list-apps</code></p>
+
+<ul>
+  <li>Actualiza la configuración de una aplicación Amplify:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws amplify update-app --app-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_aplicación</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuevo_nombre</span><code class="language-plaintext highlighter-rouge"> --description </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nueva_descripción</span><code class="language-plaintext highlighter-rouge"> --repository </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuevo_url_repositorio</span><code class="language-plaintext highlighter-rouge"> --environment-variables </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variables_nuevo_entorno</span><code class="language-plaintext highlighter-rouge"> --tags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuevas_etiquetas</span></p>
+
+<ul>
+  <li>Añade un nuevo entorno backend a una aplicación Amplify:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws amplify create-backend-environment --app-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_aplicación</span><code class="language-plaintext highlighter-rouge"> --environment-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_entorno</span><code class="language-plaintext highlighter-rouge"> --deployment-artifacts </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">artefactos</span></p>
+
+<ul>
+  <li>Elimina un entorno backend de una aplicación Amplify:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws amplify delete-backend-environment --app-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_aplicación</span><code class="language-plaintext highlighter-rouge"> --environment-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_entorno</span></p>
+
+<ul>
+  <li>Lista todos los entornos backend de una aplicación Amplify:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws amplify list-backend-environments --app-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_aplicación</span></p>

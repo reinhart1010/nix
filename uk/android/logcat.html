@@ -1,0 +1,34 @@
+<h1 id="logcat">logcat</h1>
+
+<p>Дамп журналу системних повідомлень, включаючи стек викликів, коли трапилась помилка, і інформаційні повідомлення, залоговані застосунками.
+Більше інформації: <a href="https://developer.android.com/tools/logcat">https://developer.android.com/tools/logcat</a>.</p>
+
+<ul>
+  <li>Вивести системні логи:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat</code></p>
+
+<ul>
+  <li>Записати системні логи в файл:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/файлу</span></p>
+
+<ul>
+  <li>Вивести рядки, які підпадають під регулярний вираз:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat --regex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">регулярний_вираз</span></p>
+
+<ul>
+  <li>Вивести логи для специфічного процесу (PID):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Вивести логи для процесу специфічного пакету:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat --pid $(pidof -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">пакет</span><code class="language-plaintext highlighter-rouge">)</code></p>

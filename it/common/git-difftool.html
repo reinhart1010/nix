@@ -1,0 +1,28 @@
+<h1 id="git-difftool">git difftool</h1>
+
+<p>Mostra le modifiche ai file tracciati usando uno strumento Diff esterno. Accetta le stesse opzioni e argomenti di Git diff.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-difftool">https://git-scm.com/docs/git-difftool</a>.</p>
+
+<ul>
+  <li>Elenca gli strumenti Diff disponibili:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git difftool --tool-help</code></p>
+
+<ul>
+  <li>Imposta meld come strumento Diff predefinito:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global diff.tool "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">meld</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Usa lo strumento Diff predefinito per mostrare le modifiche nell'area di stage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git difftool --staged</code></p>
+
+<ul>
+  <li>Uso uno specifico strumento Diff (opendiff) per mostrare le modifiche a partire da un dato commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git difftool --tool=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opendiff</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>

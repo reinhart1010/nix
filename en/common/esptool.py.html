@@ -1,0 +1,16 @@
+<h1 id="esptoolpy">esptool.py</h1>
+
+<p>Bootloader utility for Espressif chips (e.g. ESP8266).
+More information: <a href="https://docs.espressif.com/projects/esptool/en/latest/esp32/">https://docs.espressif.com/projects/esptool/en/latest/esp32/</a>.</p>
+
+<ul>
+  <li>Flash a firmware file to an ESP chip with a given port and baud rate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo esptool.py --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> --baud </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">baud_rate</span><code class="language-plaintext highlighter-rouge"> write_flash 0x0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/firmware.bin</span></p>
+
+<ul>
+  <li>Clear the flash of an ESP chip:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo esptool.py --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> --baud </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">baud_rate</span><code class="language-plaintext highlighter-rouge"> erase_flash</code></p>

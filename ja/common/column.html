@@ -1,0 +1,29 @@
+<h1 id="column">column</h1>
+
+<p><code class="language-plaintext highlighter-rouge">stdin</code> またはファイルを複数の列にフォーマットします。
+デフォルトの区切り文字は空白文字です。
+もっと詳しく: <a href="https://manned.org/column">https://manned.org/column</a>。</p>
+
+<ul>
+  <li>30文字幅の表示用にコマンドの出力をフォーマットする:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "header1 header2\nbar foo\n" | column --output-width </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span></p>
+
+<ul>
+  <li>カラムを自動的に分割し、表形式に自動整列する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "header1 header2\nbar foo\n" | column --table</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">table</code>オプションにカラムの区切り文字を指定する(CSVの場合は","など) (デフォルトは空白文字):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "header1,header2\nbar,foo\n" | column --table --separator </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span></p>
+
+<ul>
+  <li>列を埋める前に行を埋める:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "header1\nbar\nfoobar\n" | column --output-width </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span><code class="language-plaintext highlighter-rouge"> --fillrows</code></p>

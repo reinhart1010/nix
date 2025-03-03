@@ -1,0 +1,41 @@
+<h1 id="pueue-enqueue">pueue enqueue</h1>
+
+<p>Enqueue stashed tasks.
+See also: <code class="language-plaintext highlighter-rouge">pueue stash</code>.
+More information: <a href="https://github.com/Nukesor/pueue">https://github.com/Nukesor/pueue</a>.</p>
+
+<ul>
+  <li>Enqueue multiple stashed tasks at once:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue enqueue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Enqueue a stashed task after 60 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue enqueue --delay </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Enqueue a stashed task next Wednesday:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue enqueue --delay </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wednesday</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Enqueue a stashed task after four months:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue enqueue --delay "4 months" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Enqueue a stashed task on 2021-02-19:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue enqueue --delay </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2021-02-19</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>List all available date/time formats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue enqueue --help</code></p>

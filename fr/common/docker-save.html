@@ -1,0 +1,28 @@
+<h1 id="docker-save">docker save</h1>
+
+<p>Exporeter une ou plusieurs images Docker dans une archive.
+Plus d'informations : <a href="https://docs.docker.com/reference/cli/docker/image/save/">https://docs.docker.com/reference/cli/docker/image/save/</a>.</p>
+
+<ul>
+  <li>Sauvegarder une image en redirigeant la sortie standard vers une archive tar :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etquette</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.tar</span></p>
+
+<ul>
+  <li>Sauvegarder une image dans une archive tar :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker save --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etquette</span></p>
+
+<ul>
+  <li>Sauvegarder toutes les étiquettes de l'image :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker save --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_l_image</span></p>
+
+<ul>
+  <li>Sélectionner des étiquettes particulières d'une image à sauvegarder :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker save --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_l_image:etquette1 nom_de_l_image:etquette2 …</span></p>

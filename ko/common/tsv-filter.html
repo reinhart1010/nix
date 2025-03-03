@@ -1,0 +1,52 @@
+<h1 id="tsv-filter">tsv-filter</h1>
+
+<p>개별 필드에 대한 테스트를 실행하여 TSV 파일의 행을 필터링합니다.
+더 많은 정보: <a href="https://github.com/eBay/tsv-utils#tsv-filter">https://github.com/eBay/tsv-utils#tsv-filter</a>.</p>
+
+<ul>
+  <li>특정 열이 주어진 숫자와 수치적으로 같은 행을 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tsv-filter -H --eq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">필드_이름</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">숫자</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/tsv_파일</span></p>
+
+<ul>
+  <li>특정 열이 주어진 숫자와 [eq]ual/[n]on [e]qual/[l]ess [t]han/[l]ess than or [e]qual/[g]reater [t]han/[g]reater than or [e]qual한 행을 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tsv-filter --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eq|ne|lt|le|gt|ge</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">열_번호</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">숫자</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/tsv_파일</span></p>
+
+<ul>
+  <li>특정 열이 주어진 문자열과 [eq]ual/[n]ot [e]qual/포함됨/포함되지 않음을 만족하는 행을 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tsv-filter --str-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eq|ne|in-fld|not-in-fld</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">열_번호</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/tsv_파일</span></p>
+
+<ul>
+  <li>비어 있지 않은 필드를 필터링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tsv-filter --not-empty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">열_번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/tsv_파일</span></p>
+
+<ul>
+  <li>특정 열이 비어 있는 행을 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tsv-filter --invert --not-empty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">열_번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/tsv_파일</span></p>
+
+<ul>
+  <li>두 조건을 만족하는 행을 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tsv-filter --eq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">열_번호1</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">숫자</span><code class="language-plaintext highlighter-rouge"> --str-eq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">열_번호2</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/tsv_파일</span></p>
+
+<ul>
+  <li>최소한 하나의 조건을 만족하는 행을 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tsv-filter --or --eq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">열_번호1</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">숫자</span><code class="language-plaintext highlighter-rouge"> --str-eq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">열_번호2</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/tsv_파일</span></p>
+
+<ul>
+  <li>첫 번째 행을 [H]eader로 해석하여 일치하는 행 개수 세기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tsv-filter --count -H --eq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">필드_이름</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">숫자</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/tsv_파일</span></p>

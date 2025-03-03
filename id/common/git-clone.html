@@ -1,0 +1,52 @@
+<h1 id="git-clone">git clone</h1>
+
+<p>Gandakan repositori dari lokasi luar/remote menuju lokal.
+Informasi lebih lanjut: <a href="https://git-scm.com/docs/git-clone">https://git-scm.com/docs/git-clone</a>.</p>
+
+<ul>
+  <li>Gandakan repositori yang ada ke direktori tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi_repositori_remote</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span></p>
+
+<ul>
+  <li>Gandakan repositori yang ada dan submodulnya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi_repositori_remote</span></p>
+
+<ul>
+  <li>Gandakan hanya direktori <code class="language-plaintext highlighter-rouge">.git</code> pada repositori saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --no-checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi_repositori_remote</span></p>
+
+<ul>
+  <li>Gandakan repositori lokal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --local </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/repositori/lokal</span></p>
+
+<ul>
+  <li>Gandakan dengan senyap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi_repositori_remote</span></p>
+
+<ul>
+  <li>Gandakan repositori yang sudah ada dengan hanya mengambil 10 komit paling baru pada branch bawaan (berguna untuk menghemat waktu):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi_repositori_remote</span></p>
+
+<ul>
+  <li>Gandakan repositori yang sudah ada dengan hanya mengambil dari cabang tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --single-branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi_repositori_remote</span></p>
+
+<ul>
+  <li>Gandakan repositori yang sudah ada menggunakan perintah SSH tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --config core.sshCommand="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh -i jalan/menuju/kunci_ssh_privat</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi_repositori_remote</span></p>

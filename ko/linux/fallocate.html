@@ -1,0 +1,23 @@
+<h1 id="fallocate">fallocate</h1>
+
+<p>파일에 디스크 공간을 예약하거나 할당 해제.
+이 도구는 공간을 할당할 때 0으로 초기화하지 않습니다.
+더 많은 정보: <a href="https://manned.org/fallocate">https://manned.org/fallocate</a>.</p>
+
+<ul>
+  <li>700 MiB의 디스크 공간을 차지하는 파일 예약:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fallocate --length </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">700M</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>이미 할당된 파일을 200 MiB 줄이기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fallocate --collapse-range --length </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">200M</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일에서 100 MiB 이후의 20 MB 공간 줄이기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fallocate --collapse-range --offset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100M</span><code class="language-plaintext highlighter-rouge"> --length </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20M</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

@@ -1,0 +1,28 @@
+<h1 id="wasm-objdump">wasm-objdump</h1>
+
+<p>Display information from WebAssembly binaries.
+More information: <a href="https://github.com/WebAssembly/wabt">https://github.com/WebAssembly/wabt</a>.</p>
+
+<ul>
+  <li>Display the section headers of a given binary:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wasm-objdump -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.wasm</span></p>
+
+<ul>
+  <li>Display the entire disassembled output of a given binary:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wasm-objdump -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.wasm</span></p>
+
+<ul>
+  <li>Display the details of each section:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wasm-objdump --details </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.wasm</span></p>
+
+<ul>
+  <li>Display the details of a given section:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wasm-objdump --section '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import</span><code class="language-plaintext highlighter-rouge">' --details </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.wasm</span></p>

@@ -1,0 +1,34 @@
+<h1 id="lslocks">lslocks</h1>
+
+<p>List local system locks.
+More information: <a href="https://manned.org/lslocks">https://manned.org/lslocks</a>.</p>
+
+<ul>
+  <li>List all local system locks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lslocks</code></p>
+
+<ul>
+  <li>List locks with defined column headers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lslocks --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">COMMAND</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PATH</span></p>
+
+<ul>
+  <li>List locks producing a raw output (no columns), and without column headers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lslocks --raw --noheadings</code></p>
+
+<ul>
+  <li>List locks by PID input:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lslocks --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>
+
+<ul>
+  <li>List locks with JSON output to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lslocks --json</code></p>

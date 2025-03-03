@@ -1,0 +1,23 @@
+<h1 id="ykman-config">ykman config</h1>
+
+<p>启用或禁用 YubiKey 应用程序。
+注意：您可以使用 <code class="language-plaintext highlighter-rouge">ykman info</code> 查看当前已启用的应用程序。
+更多信息：<a href="https://docs.yubico.com/software/yubikey/tools/ykman/Base_Commands.html#ykman-config-options-command-args">https://docs.yubico.com/software/yubikey/tools/ykman/Base_Commands.html#ykman-config-options-command-args</a>.</p>
+
+<ul>
+  <li>通过 USB 或 NFC 启用某个应用程序（<code class="language-plaintext highlighter-rouge">--enable</code> 可以多次使用以指定更多应用程序）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usb|nfc</span><code class="language-plaintext highlighter-rouge"> --enable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">otp|u2f|fido2|oath|piv|openpgp|hsmauth</span></p>
+
+<ul>
+  <li>通过 USB 或 NFC 禁用某个应用程序（<code class="language-plaintext highlighter-rouge">--disable</code> 可以多次使用以指定更多应用程序）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usb|nfc</span><code class="language-plaintext highlighter-rouge"> --disable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">otp|u2f|fido2|oath|piv|openpgp|hsmauth</span></p>
+
+<ul>
+  <li>禁用 NFC 上的所有应用程序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman config nfc --disable-all</code></p>

@@ -1,0 +1,46 @@
+<h1 id="jhead">jhead</h1>
+
+<p>Manipulation der Zeitstempel und EXIF Daten in Bilddateien.
+Weitere Informationen: <a href="https://www.sentex.net/~mwandel/jhead/usage.html">https://www.sentex.net/~mwandel/jhead/usage.html</a>.</p>
+
+<ul>
+  <li>Zeige alle EXIF Daten eines JPEG Bildes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhead </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild.jpg</span></p>
+
+<ul>
+  <li>Setze die Dateizeit auf die EXIF Zeit (d.h. die Dateizeit wird geändert):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhead -ft </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild.jpg</span></p>
+
+<ul>
+  <li>Setze die EXIF Zeit auf die Dateizeit (d.h. die EXIF Zeit wird geändert):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhead -dsft </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild.jpg</span></p>
+
+<ul>
+  <li>Benenne alle Dateinamen der JPEG Bilder nach EXIF Datum/Zeit um (Format: Jahr_Monat_Tag-Stunde_Minute_Sekunde.jpg):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhead -n%Y_%m_%d-%H_%M_%S *.jpg</code></p>
+
+<ul>
+  <li>Rotiere alle Bilder im aktuellen Ordner verlustfrei (Basierend auf dem EXIF Orientierungstag):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhead -autorot *.jpg</code></p>
+
+<ul>
+  <li>Korrigiere den EXIF Zeitstempel (Format: Stunden:Minuten:Sekunden). Im Beispiel wird jedes Bild eine Stunde in die Vergangenheit geschoben (z.B. Zeitumstellung vergessen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhead -ta-1:00:00 *.jpg</code></p>
+
+<ul>
+  <li>Entferne alle Metadaten einschließlich der Vorschaubilder aus der JPEG Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jhead -purejpg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/bild.jpg</span></p>

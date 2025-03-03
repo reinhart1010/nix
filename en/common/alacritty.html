@@ -1,0 +1,46 @@
+<h1 id="alacritty">alacritty</h1>
+
+<p>Cross-platform, GPU-accelerated terminal emulator.
+More information: <a href="https://github.com/alacritty/alacritty">https://github.com/alacritty/alacritty</a>.</p>
+
+<ul>
+  <li>Start a new Alacritty process and create a window:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alacritty</code></p>
+
+<ul>
+  <li>Start the Alacritty daemon (without creating a window):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alacritty --daemon</code></p>
+
+<ul>
+  <li>Create a new window using the already running Alacritty process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alacritty msg create-window</code></p>
+
+<ul>
+  <li>Start the shell in a specific directory (also works with <code class="language-plaintext highlighter-rouge">alacritty msg create-window</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alacritty --working-directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>[e]xecute a command in a new Alacritty window (also works with <code class="language-plaintext highlighter-rouge">alacritty msg create-window</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alacritty -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Use an alternative configuration file (defaults to <code class="language-plaintext highlighter-rouge">$XDG_CONFIG_HOME/alacritty/alacritty.toml</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alacritty --config-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.toml</span></p>
+
+<ul>
+  <li>Run with live configuration reload enabled (can also be enabled by default in <code class="language-plaintext highlighter-rouge">alacritty.toml</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">alacritty --live-config-reload --config-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.toml</span></p>

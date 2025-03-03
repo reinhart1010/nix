@@ -1,0 +1,47 @@
+<h1 id="polybar-msg">polybar-msg</h1>
+
+<p>Control <code class="language-plaintext highlighter-rouge">polybar</code> using inter-process-messaging (IPC).
+Note: IPC is disabled by default and can be enabled by setting <code class="language-plaintext highlighter-rouge">enable-ipc = true</code> in the Polybar config.
+More information: <a href="https://polybar.rtfd.io/en/stable/user/ipc.html">https://polybar.rtfd.io/en/stable/user/ipc.html</a>.</p>
+
+<ul>
+  <li>Quit the bar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">polybar-msg cmd quit</code></p>
+
+<ul>
+  <li>Restart the bar in-place:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">polybar-msg cmd restart</code></p>
+
+<ul>
+  <li>Hide the bar (does nothing if the bar is already hidden):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">polybar-msg cmd hide</code></p>
+
+<ul>
+  <li>Show the bar again (does nothing if the bar is not hidden):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">polybar-msg cmd show</code></p>
+
+<ul>
+  <li>Toggle between hidden/visible:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">polybar-msg cmd toggle</code></p>
+
+<ul>
+  <li>Execute a module action (the data string is optional):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">polybar-msg action "#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">action_name</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data_string</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Only send messages to a specific Polybar instance (all instances by default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">polybar-msg -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cmd|action</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">payload</span></p>

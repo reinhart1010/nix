@@ -1,0 +1,52 @@
+<h1 id="inotifywait">inotifywait</h1>
+
+<p>Waits for changes to files.
+More information: <a href="https://manned.org/inotifywait">https://manned.org/inotifywait</a>.</p>
+
+<ul>
+  <li>Watch a specific file for events, exiting after the first one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inotifywait </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Continuously watch a specific file for events without exiting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inotifywait --monitor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Watch a directory recursively for events:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inotifywait --monitor --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Watch a directory for changes, excluding files, whose names match a regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inotifywait --monitor --recursive --exclude "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Watch a file for changes, exiting when no event occurs for 30 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inotifywait --monitor --timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Only watch a file for file modification events:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inotifywait --event </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modify</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Watch a file printing only events, and no status messages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inotifywait --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Run a command when a file is accessed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">inotifywait --event </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">access</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>

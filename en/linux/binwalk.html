@@ -1,0 +1,40 @@
+<h1 id="binwalk">binwalk</h1>
+
+<p>Firmware Analysis Tool.
+More information: <a href="https://github.com/ReFirmLabs/binwalk">https://github.com/ReFirmLabs/binwalk</a>.</p>
+
+<ul>
+  <li>Scan a binary file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binwalk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>Extract files from a binary, specifying the output directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binwalk --extract --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>Recursively extract files from a binary limiting the recursion depth to 2:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binwalk --extract --matryoshka --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>Extract files from a binary with the specified file signature:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binwalk --dd '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">png image:png</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>Analyze the entropy of a binary, saving the plot with the same name as the binary and <code class="language-plaintext highlighter-rouge">.png</code> extension appended:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binwalk --entropy --save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>Combine entropy, signature and opcodes analysis in a single command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binwalk --entropy --signature --opcodes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>

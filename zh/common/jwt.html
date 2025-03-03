@@ -1,0 +1,29 @@
+<h1 id="jwt">jwt</h1>
+
+<p>使用 JSON Web Tokens (JWTs) 进行操作。
+可用的加密算法包括 HS256、HS384、HS512、RS256、RS384、RS512、ES256、ES384。
+更多信息：<a href="https://github.com/mike-engel/jwt-cli">https://github.com/mike-engel/jwt-cli</a>.</p>
+
+<ul>
+  <li>解码一个 JWT：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jwt decode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jwt字符串</span></p>
+
+<ul>
+  <li>将 JWT 解码为 JSON 字符串：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jwt decode -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jwt字符串</span></p>
+
+<ul>
+  <li>将 JSON 字符串编码为 JWT：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jwt encode --alg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HS256</span><code class="language-plaintext highlighter-rouge"> --secret </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234567890</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json字符串</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>将键值对载荷编码为 JWT：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jwt encode --alg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HS256</span><code class="language-plaintext highlighter-rouge"> --secret </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234567890</span><code class="language-plaintext highlighter-rouge"> -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">键=值</span></p>

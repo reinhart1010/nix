@@ -1,0 +1,28 @@
+<h1 id="ts">ts</h1>
+
+<p><code class="language-plaintext highlighter-rouge">stdin</code>의 각 줄에 타임스탬프를 추가.
+더 많은 정보: <a href="https://joeyh.name/code/moreutils/">https://joeyh.name/code/moreutils/</a>.</p>
+
+<ul>
+  <li>각 줄의 시작에 타임스탬프 추가:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> | ts</code></p>
+
+<ul>
+  <li>마이크로초 정밀도의 타임스탬프 추가:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> | ts "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%b %d %H:%M:%.S</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>0부터 시작하여 마이크로초 정밀도의 [i]증분 타임스탬프 추가:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> | ts -i "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%H:%M:%.S</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>텍스트 파일(예: 로그 파일)의 기존 타임스탬프를 [r]상대적 형식으로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> | ts -r</code></p>

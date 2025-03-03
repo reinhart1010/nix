@@ -1,0 +1,41 @@
+<h1 id="apx-stacks">apx stacks</h1>
+
+<p>Administra stacks en <code class="language-plaintext highlighter-rouge">apx</code>.
+Nota: las configuraciones de stacks creadas por el usuario se almacenan en <code class="language-plaintext highlighter-rouge">~/.local/share/apx/stacks</code>.
+Más información: <a href="https://github.com/Vanilla-OS/apx">https://github.com/Vanilla-OS/apx</a>.</p>
+
+<ul>
+  <li>Crea de forma interactiva una nueva configuración de stack:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apx stacks new</code></p>
+
+<ul>
+  <li>Actualiza de forma interactiva una configuración de stack:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apx stacks update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>
+
+<ul>
+  <li>Muestra la lista de todas las configuraciones de stacks disponibles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apx stacks list</code></p>
+
+<ul>
+  <li>Elimina una configuración de stack específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apx stacks rm --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena_de_caracteres</span></p>
+
+<ul>
+  <li>Importa una configuración de stack:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apx stacks import --input </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/stack.yml</span></p>
+
+<ul>
+  <li>Exporta una configuración de stack (Nota: la opción de salida es opcional, por defecto se exporta al directorio de trabajo actual):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apx stacks export --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena_de_caracteres</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_salida</span></p>

@@ -1,0 +1,22 @@
+<h1 id="createrepo">createrepo</h1>
+
+<p>Initializes an RPM repository in a directory, including all XML and SQLite files.
+More information: <a href="https://manned.org/createrepo">https://manned.org/createrepo</a>.</p>
+
+<ul>
+  <li>Initialize a basic repository in a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">createrepo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Initialize a repository, exclude test RPMs and display verbose logs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">createrepo -v -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test_*.rpm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Initialize a repository, using SHA1 as the checksum algorithm, and ignoring symbolic links:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">createrepo -S -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sha1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

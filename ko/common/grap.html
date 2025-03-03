@@ -1,0 +1,17 @@
+<h1 id="grap">grap</h1>
+
+<p>groff (GNU Troff) 문서 형식화 시스템을 위한 차트 작성 전처리기.
+<code class="language-plaintext highlighter-rouge">pic</code> 및 <code class="language-plaintext highlighter-rouge">groff</code>를 참고.
+더 많은 정보: <a href="https://manned.org/grap">https://manned.org/grap</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">grap</code> 파일을 처리하고 <code class="language-plaintext highlighter-rouge">pic</code> 및 <code class="language-plaintext highlighter-rouge">groff</code>를 사용하여 향후 처리를 위해 출력 파일을 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력파일.grap</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력파일.pic</span></p>
+
+<ul>
+  <li>[me] 매크로 패키지를 사용하여 <code class="language-plaintext highlighter-rouge">grap</code> 파일을 PDF로 조판하고, 출력을 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력파일.grap</span><code class="language-plaintext highlighter-rouge"> | pic -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span><code class="language-plaintext highlighter-rouge"> | groff -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">me</span><code class="language-plaintext highlighter-rouge"> -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력파일.pdf</span></p>

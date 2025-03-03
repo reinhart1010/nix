@@ -1,0 +1,28 @@
+<h1 id="dkms">dkms</h1>
+
+<p>커널 모듈의 동적 빌드를 위한 프레임워크.
+더 많은 정보: <a href="https://github.com/dell/dkms">https://github.com/dell/dkms</a>.</p>
+
+<ul>
+  <li>현재 설치된 모듈 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dkms status</code></p>
+
+<ul>
+  <li>현재 실행 중인 커널에 대해 모든 모듈 다시 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dkms autoinstall</code></p>
+
+<ul>
+  <li>현재 실행 중인 커널에 대해 acpi_call 모듈의 버전 1.2.1 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dkms install -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">acpi_call</span><code class="language-plaintext highlighter-rouge"> -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.2.1</span></p>
+
+<ul>
+  <li>모든 커널에서 acpi_call 모듈의 버전 1.2.1 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dkms remove -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">acpi_call</span><code class="language-plaintext highlighter-rouge"> -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.2.1</span><code class="language-plaintext highlighter-rouge"> --all</code></p>

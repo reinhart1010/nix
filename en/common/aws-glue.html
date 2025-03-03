@@ -1,0 +1,41 @@
+<h1 id="aws-glue">aws glue</h1>
+
+<p>CLI for AWS Glue.
+Define the public endpoint for the AWS Glue service.
+More information: <a href="https://docs.aws.amazon.com/cli/latest/reference/glue/">https://docs.aws.amazon.com/cli/latest/reference/glue/</a>.</p>
+
+<ul>
+  <li>List jobs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws glue list-jobs</code></p>
+
+<ul>
+  <li>Start a job:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws glue start-job-run --job-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_name</span></p>
+
+<ul>
+  <li>Start running a workflow:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws glue start-workflow-run --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workflow_name</span></p>
+
+<ul>
+  <li>List triggers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws glue list-triggers</code></p>
+
+<ul>
+  <li>Start a trigger:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws glue start-trigger --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">trigger_name</span></p>
+
+<ul>
+  <li>Create a dev endpoint:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws glue create-dev-endpoint --endpoint-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --role-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role_arn_used_by_endpoint</span></p>

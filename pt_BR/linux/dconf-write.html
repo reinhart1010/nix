@@ -1,0 +1,41 @@
+<h1 id="dconf-write">dconf write</h1>
+
+<p>Escreve valores de chave nos bancos de dados dconf.
+Veja também: <code class="language-plaintext highlighter-rouge">dconf</code>.
+Mais informações: <a href="https://manned.org/dconf">https://manned.org/dconf</a>.</p>
+
+<ul>
+  <li>Escreve um valor de chave específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/chave</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Escreve uma string específica como valor de chave:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/chave</span><code class="language-plaintext highlighter-rouge"> "'</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">'"</code></p>
+
+<ul>
+  <li>Escreve um inteiro específico como valor de chave:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/chave</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Escreve um booleano específico como valor de chave:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/chave</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true|false</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Escreve um array específico como valor de chave:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/chave</span><code class="language-plaintext highlighter-rouge"> "[</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'primeiro', 'segundo', …</span><code class="language-plaintext highlighter-rouge">]"</code></p>
+
+<ul>
+  <li>Escreve um array vazio específico como valor de chave:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/caminho/para/chave</span><code class="language-plaintext highlighter-rouge"> "@as []"</code></p>

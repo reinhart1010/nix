@@ -1,0 +1,40 @@
+<h1 id="chown">chown</h1>
+
+<p>Verander gebruiker- en groepsbeheer van bestanden en mappen.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html</a>.</p>
+
+<ul>
+  <li>Verander gebruikkersbeheerder van een bestand/map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruiker</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span></p>
+
+<ul>
+  <li>Verander de gebruikersbeheerder en -groep van een bestand of map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruiker</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groep</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span></p>
+
+<ul>
+  <li>Verander de gebruikersbeheerder en -groep zodat beiden de naam <code class="language-plaintext highlighter-rouge">user</code> krijgen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge">: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span></p>
+
+<ul>
+  <li>Verander recursief de beheerder van een map en alle inhoud:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruiker</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span></p>
+
+<ul>
+  <li>Verander de gebruiker van een symbolische link:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruiker</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/symlink</span></p>
+
+<ul>
+  <li>Verander de beheerder van een bestand of map naar dezelfde als een referentiebestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown --reference </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/referentiebestand</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span></p>

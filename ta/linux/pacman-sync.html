@@ -1,0 +1,53 @@
+<h1 id="pacman-sync">pacman –sync</h1>
+
+<p>ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு.
+இதையும் பார்க்கவும்: <code class="language-plaintext highlighter-rouge">pacman</code>.
+மேலும் விவரத்திற்கு: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>ஒரு புதிய தொகுப்பை நிறுவவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span></p>
+
+<ul>
+  <li>அனைத்து தொகுப்புகளையும் ஒத்திசைத்து புதுப்பிக்கவும் (தொகுப்புகளைப் பதிவிறக்குவதற்கு <code class="language-plaintext highlighter-rouge">--downloadonly</code> சேர்க்கவும், அவற்றைப் புதுப்பிக்க வேண்டாம்):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade</code></p>
+
+<ul>
+  <li>அனைத்து தொகுப்புகளையும் புதுப்பித்து, கேட்காமல் புதிய ஒன்றை நிறுவவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span></p>
+
+<ul>
+  <li>வழக்கமான வெளிப்பாடு அல்லது முக்கிய சொல்லுக்கு தொகுப்பு தரவுத்தளத்தில் தேடவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --sync --search "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தேடல்_முறை</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>தொகுப்பு பற்றிய தகவலைக் காட்டு:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --sync --info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span></p>
+
+<ul>
+  <li>தொகுப்பு புதுப்பிப்பின் போது முரண்பட்ட கோப்புகளை மேலெழுதவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade --overwrite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span></p>
+
+<ul>
+  <li>அனைத்து தொகுப்புகளையும் ஒத்திசைத்து புதுப்பிக்கவும், ஆனால் ஒரு குறிப்பிட்ட தொகுப்பை புறக்கணிக்கவும் (ஒருமுறைக்கு மேல் பயன்படுத்தலாம்):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொகுப்பு_பெயர்</span></p>
+
+<ul>
+  <li>நிறுவப்படாத தொகுப்புகள் மற்றும் பயன்படுத்தப்படாத களஞ்சியங்களை தற்காலிக சேமிப்பிலிருந்து அகற்றவும் (அனைத்து தொகுப்புகளையும் சுத்தம் செய்ய இரண்டு <code class="language-plaintext highlighter-rouge">--clean</code> கொடிகளைப் பயன்படுத்தவும்):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --clean</code></p>

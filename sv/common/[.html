@@ -1,0 +1,38 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1>[</h1>
+
+<p>Utvärdera villkor.
+Returnerar 0 om villkoret är sant, 1 om villkoret är falsk.
+Mer information: <a href="https://gnu.org/software/bash/manual/bash.html#index-test">https://gnu.org/software/bash/manual/bash.html#index-test</a>.</p>
+
+<ul>
+  <li>Testa om en given variabel är lika med en given sträng:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$VARIABEL</span><code class="language-plaintext highlighter-rouge">" = "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/bin/zsh</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Testa om en given variabel är tom:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -z "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$GIT_BRANCH</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Testa om filen existerar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -f "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">väg/till/fil</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Testa om en katalog inte existerar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ ! -d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">väg/till/katalog</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>If-else uttryck:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">villkor</span><code class="language-plaintext highlighter-rouge"> ] &amp;&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "true"</span><code class="language-plaintext highlighter-rouge"> || </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "false"</span></p>

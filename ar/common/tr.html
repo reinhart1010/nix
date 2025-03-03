@@ -1,0 +1,46 @@
+<h1 id="tr">tr</h1>
+
+<p>ترجمة الأحرف: تنفيذ عمليات الاستبدال بناءً على أحرف مفردة ومجموعات أحرف.
+لمزيد من التفاصيل: <a href="https://www.gnu.org/software/coreutils/manual/html_node/tr-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/tr-invocation.html</a>.</p>
+
+<ul>
+  <li>استبدال جميع تكرارات حرف معين في ملف وطباعة النتيجة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find_character</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replace_character</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>استبدال جميع تكرارات حرف معين من ناتج أمر آخر:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text</span><code class="language-plaintext highlighter-rouge"> | tr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find_character</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replace_character</span></p>
+
+<ul>
+  <li>تعيين كل حرف من المجموعة الأولى إلى الحرف المقابل في المجموعة الثانية:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tr '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">abcd</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jkmn</span><code class="language-plaintext highlighter-rouge">' &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>حذف جميع تكرارات مجموعة الأحرف المحددة من المدخلات:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tr -d '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_characters</span><code class="language-plaintext highlighter-rouge">' &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>ضغط سلسلة من الأحرف المتطابقة إلى حرف واحد:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tr -s '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_characters</span><code class="language-plaintext highlighter-rouge">' &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>ترجمة محتويات ملف إلى أحرف كبيرة (Upper-case):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tr "[:lower:]" "[:upper:]" &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>إزالة الأحرف غير القابلة للطباعة من ملف:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tr -cd "[:print:]" &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

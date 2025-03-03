@@ -1,0 +1,28 @@
+<h1 id="tee">tee</h1>
+
+<p>Lee desde la entrada estándar (<code class="language-plaintext highlighter-rouge">stdin</code>) y escribe a la salida estándar (<code class="language-plaintext highlighter-rouge">stdout</code>) y a archivos (o comandos).
+Más información: <a href="https://www.gnu.org/software/coreutils/manual/html_node/tee-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/tee-invocation.html</a>.</p>
+
+<ul>
+  <li>Copia la entrada estándar (<code class="language-plaintext highlighter-rouge">stdin</code>) a cada archivo, y también a la salida estándar (<code class="language-plaintext highlighter-rouge">stdout</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "ejemplo" | tee </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Anexa a los archivos específicos, sin sobreescribir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "ejemplo" | tee -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Imprime la entrada estándar a la terminal, y también lo reenvía a otro programa para posterior procesamiento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "ejemplo" | tee </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty</span><code class="language-plaintext highlighter-rouge"> | </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xargs printf "[%s]"</span></p>
+
+<ul>
+  <li>Crea un directorio llamado "ejemplo", cuenta el número de caracteres en "ejemplo" y escribe "ejemplo" a la terminal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "ejemplo" | tee &gt;(xargs mkdir) &gt;(wc -c)</code></p>

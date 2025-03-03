@@ -1,0 +1,35 @@
+<h1 id="chafa">chafa</h1>
+
+<p>터미널에서 이미지 출력.
+참고: <code class="language-plaintext highlighter-rouge">catimg</code>, <code class="language-plaintext highlighter-rouge">pixterm</code>.
+더 많은 정보: <a href="https://hpjansson.org/chafa/man">https://hpjansson.org/chafa/man</a>.</p>
+
+<ul>
+  <li>터미널에서 직접 이미지를 렌더링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chafa </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>24비트 색깔([c]olor) 이미지 렌더링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chafa -c full </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>디더링을 사용하여 작은 색상 팔레트로 이미지 렌더링을 개선:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chafa -c 16 --dither ordered </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>이미지를 렌더링하여, 픽셀화된 것처럼 보이게 만듬:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chafa --symbols vhalf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>점자 문자만 사용하여 흑백 이미지를 렌더링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chafa -c none --symbols braille </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

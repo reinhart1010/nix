@@ -1,0 +1,22 @@
+<h1 id="addr2line">addr2line</h1>
+
+<p>将二进制文件地址转换成文件名和行数。
+更多信息：<a href="https://manned.org/addr2line">https://manned.org/addr2line</a>.</p>
+
+<ul>
+  <li>显示可执行文件的指令地址对应源代码的文件名和行数：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">addr2line --exe=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">可执行文件路径</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">地址</span></p>
+
+<ul>
+  <li>显示函数名、文件名和行数：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">addr2line --exe=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">可执行文件路径</span><code class="language-plaintext highlighter-rouge"> --functions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">地址</span></p>
+
+<ul>
+  <li>将 C++ 代码函数名符号重组：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">addr2line --exe=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">可执行文件地址</span><code class="language-plaintext highlighter-rouge"> --functions --demangle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">地址</span></p>

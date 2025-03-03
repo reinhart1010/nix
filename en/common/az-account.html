@@ -1,0 +1,35 @@
+<h1 id="az-account">az account</h1>
+
+<p>Manage Azure subscription information.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/account">https://learn.microsoft.com/cli/azure/account</a>.</p>
+
+<ul>
+  <li>List all subscriptions for the logged in account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az account list</code></p>
+
+<ul>
+  <li>Set a <code class="language-plaintext highlighter-rouge">subscription</code> to be the currently active subscription:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az account set --subscription </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subscription_id</span></p>
+
+<ul>
+  <li>List supported regions for the currently active subscription:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az account list-locations</code></p>
+
+<ul>
+  <li>Print an access token to be used with <code class="language-plaintext highlighter-rouge">MS Graph API</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az account get-access-token --resource-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ms-graph</span></p>
+
+<ul>
+  <li>Print details of the currently active subscription in a specific format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az account show --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|tsv|table|yaml</span></p>

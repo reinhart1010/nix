@@ -1,0 +1,52 @@
+<h1 id="docker-system">docker system</h1>
+
+<p>Manage Docker data and display system-wide information.
+More information: <a href="https://docs.docker.com/reference/cli/docker/system/">https://docs.docker.com/reference/cli/docker/system/</a>.</p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system</code></p>
+
+<ul>
+  <li>Show Docker disk usage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system df</code></p>
+
+<ul>
+  <li>Show detailed information on disk usage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system df --verbose</code></p>
+
+<ul>
+  <li>Remove unused data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system prune</code></p>
+
+<ul>
+  <li>Remove unused data created more than a specified amount of time in the past:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system prune --filter "until=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hours</span><code class="language-plaintext highlighter-rouge">h</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">minutes</span><code class="language-plaintext highlighter-rouge">m"</code></p>
+
+<ul>
+  <li>Display real-time events from the Docker daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system events</code></p>
+
+<ul>
+  <li>Display real-time events from containers streamed as valid JSON Lines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system events --filter 'type=container' --format '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json .</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Display system-wide information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system info</code></p>

@@ -1,0 +1,52 @@
+<h1 id="jq">jq</h1>
+
+<p>A JSON processor that uses a domain-specific language (DSL).
+More information: <a href="https://jqlang.github.io/jq/manual/">https://jqlang.github.io/jq/manual/</a>.</p>
+
+<ul>
+  <li>Execute a specific expression only using the <code class="language-plaintext highlighter-rouge">jq</code> binary (print a colored and formatted JSON output):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jq '.' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/file.json</span></p>
+
+<ul>
+  <li>Execute a specific script:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat path/to/file.json</span><code class="language-plaintext highlighter-rouge"> | jq --from-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.jq</span></p>
+
+<ul>
+  <li>Pass specific arguments:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat path/to/file.json</span><code class="language-plaintext highlighter-rouge"> | jq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–arg "name1" "value1" –arg "name2" "value2" …</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">. + $ARGS.named</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Create new JSON object via old JSON objects from multiple files:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat path/to/multiple_json_file_*.json</span><code class="language-plaintext highlighter-rouge"> | jq '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{newKey1: .key1, newKey2: .key2.nestedKey, …}</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Print specific array items:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat path/to/file.json</span><code class="language-plaintext highlighter-rouge"> | jq '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.[index1], .[index2], …</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Print all array/object values:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat path/to/file.json</span><code class="language-plaintext highlighter-rouge"> | jq '.[]'</code></p>
+
+<ul>
+  <li>Print objects with 2-condition filter in array:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat path/to/file.json</span><code class="language-plaintext highlighter-rouge"> | jq '.[] | select((.key1=="value1") and .key2=="value2")'</code></p>
+
+<ul>
+  <li>Add/remove specific keys:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat path/to/file.json</span><code class="language-plaintext highlighter-rouge"> | jq '. </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+|-</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{"key1": "value1", "key2": "value2", …}</span><code class="language-plaintext highlighter-rouge">'</code></p>

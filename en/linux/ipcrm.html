@@ -1,0 +1,46 @@
+<h1 id="ipcrm">ipcrm</h1>
+
+<p>Delete IPC (Inter-process Communication) resources.
+More information: <a href="https://manned.org/ipcrm">https://manned.org/ipcrm</a>.</p>
+
+<ul>
+  <li>Delete a shared memory segment by ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcrm --shmem-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shmem_id</span></p>
+
+<ul>
+  <li>Delete a shared memory segment by key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcrm --shmem-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shmem_key</span></p>
+
+<ul>
+  <li>Delete an IPC queue by ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcrm --queue-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ipc_queue_id</span></p>
+
+<ul>
+  <li>Delete an IPC queue by key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcrm --queue-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ipc_queue_key</span></p>
+
+<ul>
+  <li>Delete a semaphore by ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcrm --semaphore-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">semaphore_id</span></p>
+
+<ul>
+  <li>Delete a semaphore by key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcrm --semaphore-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">semaphore_key</span></p>
+
+<ul>
+  <li>Delete all IPC resources:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcrm --all</code></p>

@@ -1,0 +1,29 @@
+<h1 id="cfssl">cfssl</h1>
+
+<p>Cloudflare's PKI and TLS toolkit.
+See also: <code class="language-plaintext highlighter-rouge">openssl</code>.
+More information: <a href="https://github.com/cloudflare/cfssl">https://github.com/cloudflare/cfssl</a>.</p>
+
+<ul>
+  <li>Show certificate information of a host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cfssl certinfo -domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">www.google.com</span></p>
+
+<ul>
+  <li>Decode certificate information from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cfssl certinfo -cert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/certificate.pem</span></p>
+
+<ul>
+  <li>Scan host(s) for SSL/TLS issues:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cfssl scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host1 host2 …</span></p>
+
+<ul>
+  <li>Display help for a subcommand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cfssl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">genkey|gencsr|certinfo|sign|gencrl|ocspdump|ocsprefresh|ocspsign|ocspserve|scan|bundle|crl|print-defaults|revoke|gencert|serve|version|selfsign|info</span><code class="language-plaintext highlighter-rouge"> -h</code></p>

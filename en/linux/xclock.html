@@ -1,0 +1,34 @@
+<h1 id="xclock">xclock</h1>
+
+<p>Display the time in analog or digital form.
+More information: <a href="https://manned.org/xclock">https://manned.org/xclock</a>.</p>
+
+<ul>
+  <li>Display an analog clock:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xclock</code></p>
+
+<ul>
+  <li>Display a 24-hour digital clock with the hour and minute fields only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xclock -digital -brief</code></p>
+
+<ul>
+  <li>Display a digital clock using an strftime format string (see strftime(3)):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xclock -digital -strftime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">format</span></p>
+
+<ul>
+  <li>Display a 24-hour digital clock with the hour, minute and second fields that updates every second:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xclock -digital -strftime '%H:%M:%S' -update 1</code></p>
+
+<ul>
+  <li>Display a 12-hour digital clock with the hour and minute fields only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xclock -digital -twelve -brief</code></p>

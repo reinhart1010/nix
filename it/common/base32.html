@@ -1,0 +1,34 @@
+<h1 id="base32">base32</h1>
+
+<p>Codifica o decodifica file o standard input in Base32 su standard output.
+Maggiori informazioni: <a href="https://manned.org/base32">https://manned.org/base32</a>.</p>
+
+<ul>
+  <li>Codifica un file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base32 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percoso/del/file</span></p>
+
+<ul>
+  <li>Avvolgi l'output codificato a una larghezza specifica (<code class="language-plaintext highlighter-rouge">0</code> disabilita l'avvolgimento):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base32 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-w|–wrap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|76|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percoso/del/file</span></p>
+
+<ul>
+  <li>Decodifica un file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">base32 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decode</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percoso/del/file</span></p>
+
+<ul>
+  <li>Codifica da <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | base32</code></p>
+
+<ul>
+  <li>Decodifica da <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | base32 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decode</span></p>

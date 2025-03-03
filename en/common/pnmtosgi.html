@@ -1,0 +1,22 @@
+<h1 id="pnmtosgi">pnmtosgi</h1>
+
+<p>Convert a PNM file to an SGI image file.
+More information: <a href="https://netpbm.sourceforge.net/doc/pnmtosgi.html">https://netpbm.sourceforge.net/doc/pnmtosgi.html</a>.</p>
+
+<ul>
+  <li>Convert a PNM image to an SGI image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtosgi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.sgi</span></p>
+
+<ul>
+  <li>Disable or enable compression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtosgi -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">verbatim|rle</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.sgi</span></p>
+
+<ul>
+  <li>Write the specified string into the SGI image header's <code class="language-plaintext highlighter-rouge">imagename</code> field:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtosgi -imagename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.sgi</span></p>

@@ -1,0 +1,34 @@
+<h1 id="npx">npx</h1>
+
+<p>Führt Binärdateien von <code class="language-plaintext highlighter-rouge">npm</code> Paketen aus.
+Weitere Informationen: <a href="https://github.com/npm/npx">https://github.com/npm/npx</a>.</p>
+
+<ul>
+  <li>Führe die Binärdatei eines bestimmten npm Pakets aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modulname</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehlsargumente</span></p>
+
+<ul>
+  <li>Übergib den konkreten Namen, falls das Paket mehrere Binärdateien besitzt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npx --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modulname</span></p>
+
+<ul>
+  <li>Führe einen Befehl aus, wenn er im aktuellen Verzeichnis oder in <code class="language-plaintext highlighter-rouge">node_modules/.bin</code> gefunden wird:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npx --no-install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehlsargumente</span></p>
+
+<ul>
+  <li>Führe die Binärdatei eines bestimmten npm Moduls aus und unterdrücke jede Ausgabe von <code class="language-plaintext highlighter-rouge">npx</code> selbst:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npx --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modulname</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehlsargumente</span></p>
+
+<ul>
+  <li>Zeige eine Hilfe an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npx --help</code></p>

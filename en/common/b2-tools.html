@@ -1,0 +1,52 @@
+<h1 id="b2-tools">b2-tools</h1>
+
+<p>Access all features of Backblaze B2 Cloud Storage easily.
+More information: <a href="https://www.backblaze.com/docs/cloud-storage-command-line-tools">https://www.backblaze.com/docs/cloud-storage-command-line-tools</a>.</p>
+
+<ul>
+  <li>Access your account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2 authorize_account </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_id</span></p>
+
+<ul>
+  <li>List the existing buckets in your account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2 list_buckets</code></p>
+
+<ul>
+  <li>Create a bucket, provide the bucket name, and access type (e.g. allPublic or allPrivate):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2 create_bucket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">allPublic|allPrivate</span></p>
+
+<ul>
+  <li>Upload a file. Choose a file, bucket, and a folder:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2 upload_file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">folder_name</span></p>
+
+<ul>
+  <li>Upload a source directory to a Backblaze B2 bucket destination:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2 sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span></p>
+
+<ul>
+  <li>Copy a file from one bucket to another bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2 copy-file-by-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_file_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination_bucket_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/b2_file</span></p>
+
+<ul>
+  <li>Show the files in your bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2 ls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span></p>
+
+<ul>
+  <li>Remove a "folder" or a set of files matching a pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2 rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/folder|pattern</span></p>

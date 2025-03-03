@@ -1,0 +1,17 @@
+<h1 id="sc_warts2pcap">sc_warts2pcap</h1>
+
+<p>Schreibt die in den <code class="language-plaintext highlighter-rouge">warts</code>-Dateien enthaltenen Pakete in eine <code class="language-plaintext highlighter-rouge">pcap</code>-Datei.
+Dies ist nur bei tbit, sting und sniff möglich.
+Weitere Informationen: <a href="https://www.caida.org/catalog/software/scamper/">https://www.caida.org/catalog/software/scamper/</a>.</p>
+
+<ul>
+  <li>Wandle die Daten aus mehreren <code class="language-plaintext highlighter-rouge">warts</code>-Dateien in eine <code class="language-plaintext highlighter-rouge">pcap</code>-Datei um:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc_warts2pcap -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pcap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.warts path/to/file2.warts …</span></p>
+
+<ul>
+  <li>Wandle die Daten aus einer <code class="language-plaintext highlighter-rouge">warts</code>-Datei in eine <code class="language-plaintext highlighter-rouge">pcap</code>-Datei um und sortiere die Pakete nach Zeitstempel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc_warts2pcap -s -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pcap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.warts</span></p>

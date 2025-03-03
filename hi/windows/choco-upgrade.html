@@ -1,0 +1,46 @@
+<h1 id="choco-upgrade">choco upgrade</h1>
+
+<p>चॉकलेटी के साथ एक या अधिक पैकेज अपग्रेड करें।
+अधिक जानकारी: <a href="https://chocolatey.org/docs/commands-upgrade">https://chocolatey.org/docs/commands-upgrade</a>।</p>
+
+<ul>
+  <li>एक या अधिक स्थान-पृथक पैकेजों को अपग्रेड करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज1 पैकेज2 …</span></p>
+
+<ul>
+  <li>किसी पैकेज के विशिष्ट संस्करण में अपग्रेड करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज</span><code class="language-plaintext highlighter-rouge"> --version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">संस्करण</span></p>
+
+<ul>
+  <li>सभी पैकेज अपग्रेड करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade all</code></p>
+
+<ul>
+  <li>निर्दिष्ट अल्पविराम से अलग किए गए पैकेजों को छोड़कर सभी को अपग्रेड करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade all --except "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज1 पैकेज2 …</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>सभी संकेतों की स्वचालित रूप से पुष्टि करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज</span><code class="language-plaintext highlighter-rouge"> --yes</code></p>
+
+<ul>
+  <li>पैकेज प्राप्त करने के लिए एक कस्टम स्रोत निर्दिष्ट करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">स्रोत_यूआरएल|उपनाम</span></p>
+
+<ul>
+  <li>प्रमाणीकरण के लिए उपयोगकर्ता नाम और पासवर्ड प्रदान करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">उपयोगकर्ता_नाम</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पासवर्ड</span></p>

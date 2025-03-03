@@ -1,0 +1,34 @@
+<h1 id="pio-access">pio access</h1>
+
+<p>Set the access level on published resources (packages) in the registry.
+More information: <a href="https://docs.platformio.org/en/latest/core/userguide/access/">https://docs.platformio.org/en/latest/core/userguide/access/</a>.</p>
+
+<ul>
+  <li>Grant a user access to a resource:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio access grant </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">guest|maintainer|admin</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_urn</span></p>
+
+<ul>
+  <li>Remove a user's access to a resource:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio access revoke </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_urn</span></p>
+
+<ul>
+  <li>Show all resources that a user or team has access to and the access level:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio access list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Restrict access to a resource to specific users or team members:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio access private </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_urn</span></p>
+
+<ul>
+  <li>Allow all users access to a resource:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio access public </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_urn</span></p>

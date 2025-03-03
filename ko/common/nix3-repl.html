@@ -1,0 +1,35 @@
+<h1 id="nix-repl">nix repl</h1>
+
+<p>Nix 표현식을 평가하기 위한 대화형 환경 시작.
+Nix 표현식 언어에 대한 설명은 <a href="https://nixos.org/manual/nix/stable/language/index.html">https://nixos.org/manual/nix/stable/language/index.html</a>을 참고하세요.
+더 많은 정보: <a href="https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-repl.html">https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-repl.html</a>.</p>
+
+<ul>
+  <li>Nix 표현식을 평가하기 위한 대화형 환경 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix repl</code></p>
+
+<ul>
+  <li>플레이크(예: <code class="language-plaintext highlighter-rouge">nixpkgs</code>)의 모든 패키지를 스코프로 불러오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:lf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs</span></p>
+
+<ul>
+  <li>표현식에서 패키지 빌드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">표현식</span></p>
+
+<ul>
+  <li>표현식에서 패키지를 사용할 수 있는 셸 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">표현식</span></p>
+
+<ul>
+  <li>표현식에서 패키지의 종속성을 사용할 수 있는 셸 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">표현식</span></p>

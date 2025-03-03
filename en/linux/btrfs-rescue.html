@@ -1,0 +1,34 @@
+<h1 id="btrfs-rescue">btrfs rescue</h1>
+
+<p>Try to recover a damaged btrfs filesystem.
+More information: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-rescue.html">https://btrfs.readthedocs.io/en/latest/btrfs-rescue.html</a>.</p>
+
+<ul>
+  <li>Rebuild the filesystem metadata tree (very slow):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs rescue chunk-recover </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>
+
+<ul>
+  <li>Fix device size alignment related problems (e.g. unable to mount the filesystem with super total bytes mismatch):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs rescue fix-device-size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>
+
+<ul>
+  <li>Recover a corrupted superblock from correct copies (recover the root of filesystem tree):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs rescue super-recover </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>
+
+<ul>
+  <li>Recover from an interrupted transactions (fixes log replay problems):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs rescue zero-log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>
+
+<ul>
+  <li>Create a <code class="language-plaintext highlighter-rouge">/dev/btrfs-control</code> control device when <code class="language-plaintext highlighter-rouge">mknod</code> is not installed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs rescue create-control-device</code></p>

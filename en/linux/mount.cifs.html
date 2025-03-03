@@ -1,0 +1,23 @@
+<h1 id="mountcifs">mount.cifs</h1>
+
+<p>Mount SMB (Server Message Block) or CIFS (Common Internet File System) shares.
+Note: you can also do the same thing by passing the <code class="language-plaintext highlighter-rouge">-t cifs</code> option to <code class="language-plaintext highlighter-rouge">mount</code>.
+More information: <a href="https://manned.org/mount.cifs">https://manned.org/mount.cifs</a>.</p>
+
+<ul>
+  <li>Connect using the specified username or <code class="language-plaintext highlighter-rouge">$USER</code> by default (you will be prompted for a password):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount.cifs -o user=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> //</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">share_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountpoint</span></p>
+
+<ul>
+  <li>Connect as the guest user (without a password):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount.cifs -o guest //</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">share_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountpoint</span></p>
+
+<ul>
+  <li>Set ownership information for the mounted directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount.cifs -o uid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_id|username</span><code class="language-plaintext highlighter-rouge">,gid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_id|groupname</span><code class="language-plaintext highlighter-rouge"> //</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">share_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mountpoint</span></p>

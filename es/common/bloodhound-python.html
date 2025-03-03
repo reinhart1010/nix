@@ -1,0 +1,34 @@
+<h1 id="bloodhound-python">bloodhound-python</h1>
+
+<p>Un ingestor Python para BloodHound, utilizado para enumerar las relaciones de Active Directory.
+Más información: <a href="https://github.com/dirkjanm/BloodHound.py">https://github.com/dirkjanm/BloodHound.py</a>.</p>
+
+<ul>
+  <li>Recopila todos los datos utilizando los métodos de recopilación predeterminados (incluye grupos, sesiones y fideicomisos):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bloodhound-python --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge"> --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dominio</span></p>
+
+<ul>
+  <li>Recopila datos utilizando la autenticación Kerberos sin requerir una contraseña en texto plano:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bloodhound-python --collectionmethod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Todos</span><code class="language-plaintext highlighter-rouge"> --kerberos --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dominio</span></p>
+
+<ul>
+  <li>Se autentica utilizando hashes NTLM en lugar de una contraseña:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bloodhound-python --collectionmethod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Todos</span><code class="language-plaintext highlighter-rouge"> --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span><code class="language-plaintext highlighter-rouge"> --hashes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LM:NTLM</span><code class="language-plaintext highlighter-rouge"> --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dominio</span></p>
+
+<ul>
+  <li>Especifica un servidor de nombres personalizado para consultas DNS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bloodhound-python --collectionmethod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Todos}</span><code class="language-plaintext highlighter-rouge"> --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge"> --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dominio</span><code class="language-plaintext highlighter-rouge"> --nameserver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_servidor</span></p>
+
+<ul>
+  <li>Guarde los archivos de salida como un archivo ZIP comprimido:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bloodhound-python --collectionmethod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Todos</span><code class="language-plaintext highlighter-rouge"> --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge"> --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dominio</span><code class="language-plaintext highlighter-rouge"> --zip</code></p>

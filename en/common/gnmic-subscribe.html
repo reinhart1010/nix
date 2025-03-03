@@ -1,0 +1,34 @@
+<h1 id="gnmic-subscribe">gnmic subscribe</h1>
+
+<p>Subscribe to a gnmic network device state updates.
+More information: <a href="https://gnmic.kmrd.dev/cmd/subscribe">https://gnmic.kmrd.dev/cmd/subscribe</a>.</p>
+
+<ul>
+  <li>Subscribe to target state updates under the subtree of a specific path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic --address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:port</span><code class="language-plaintext highlighter-rouge"> subscribe --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path</span></p>
+
+<ul>
+  <li>Subscribe to a target with a sample interval of 30s (default is 10s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:port</span><code class="language-plaintext highlighter-rouge"> subscribe --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path</span><code class="language-plaintext highlighter-rouge"> --sample-interval 30s</code></p>
+
+<ul>
+  <li>Subscribe to a target with sample interval and updates only on change:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:port</span><code class="language-plaintext highlighter-rouge"> subscribe --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path</span><code class="language-plaintext highlighter-rouge"> --stream-mode on-change --heartbeat-interval 1m</code></p>
+
+<ul>
+  <li>Subscribe to a target for only one update:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:port</span><code class="language-plaintext highlighter-rouge"> subscribe --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path</span><code class="language-plaintext highlighter-rouge"> --mode once</code></p>
+
+<ul>
+  <li>Subscribe to a target and specify response encoding (json_ietf):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:port</span><code class="language-plaintext highlighter-rouge"> subscribe --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path</span><code class="language-plaintext highlighter-rouge"> --encoding json_ietf</code></p>

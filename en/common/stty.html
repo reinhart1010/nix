@@ -1,0 +1,40 @@
+<h1 id="stty">stty</h1>
+
+<p>Set options for a terminal device interface.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html</a>.</p>
+
+<ul>
+  <li>Display all settings for the current terminal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stty --all</code></p>
+
+<ul>
+  <li>Set the number of rows or columns:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rows|cols</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span></p>
+
+<ul>
+  <li>Get the actual transfer speed of a device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stty --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/device_file</span><code class="language-plaintext highlighter-rouge"> speed</code></p>
+
+<ul>
+  <li>Reset all modes to reasonable values for the current terminal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stty sane</code></p>
+
+<ul>
+  <li>Switch between raw and normal mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raw|cooked</span></p>
+
+<ul>
+  <li>Turn character echoing off or on:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-echo|echo</span></p>

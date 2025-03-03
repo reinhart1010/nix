@@ -1,0 +1,34 @@
+<h1 id="diffoscope">diffoscope</h1>
+
+<p>Compare files, archives, and directories.
+More information: <a href="https://diffoscope.org">https://diffoscope.org</a>.</p>
+
+<ul>
+  <li>Compare two files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diffoscope </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Compare two files without displaying a progress bar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diffoscope --no-progress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Compare two files and write an HTML-report to a file (use <code class="language-plaintext highlighter-rouge">-</code> for <code class="language-plaintext highlighter-rouge">stdout</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diffoscope --html </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/outfile|-</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Compare two directories excluding files with a name matching a specified pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diffoscope --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory2</span></p>
+
+<ul>
+  <li>Compare two directories and control whether directory metadata is considered:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diffoscope --exclude-directory-metadata </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">auto|yes|no|recursive</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory2</span></p>

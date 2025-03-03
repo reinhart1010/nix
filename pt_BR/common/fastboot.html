@@ -1,0 +1,46 @@
+<h1 id="fastboot">fastboot</h1>
+
+<p>Se comunica com dispositivos Android conectados quando iniciados no modo <em>fastboot</em> (o único lugar em que <code class="language-plaintext highlighter-rouge">adb</code> não funciona).
+Mais informações: <a href="https://cs.android.com/android/platform/superproject/+/main:system/core/fastboot">https://cs.android.com/android/platform/superproject/+/main:system/core/fastboot</a>.</p>
+
+<ul>
+  <li>Desbloqueia o bootloader:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot oem unlock</code></p>
+
+<ul>
+  <li>Bloqueia o bootloader novamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot oem lock</code></p>
+
+<ul>
+  <li>Reinicia o dispositivo no modo fastboot para o modo fastboot novamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot reboot bootloader</code></p>
+
+<ul>
+  <li>Flasheia uma imagem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot flash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.img</span></p>
+
+<ul>
+  <li>Flasheia uma imagem de <em>recovery</em> customizada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot flash recovery </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.img</span></p>
+
+<ul>
+  <li>Exibe os dispositivos conectados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot devices</code></p>
+
+<ul>
+  <li>Mostra todas as informações de um dispositivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fastboot getvar all</code></p>

@@ -1,0 +1,34 @@
+<h1 id="paste">paste</h1>
+
+<p>Merge lines of files.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/paste-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/paste-invocation.html</a>.</p>
+
+<ul>
+  <li>Join all the lines into a single line, using TAB as delimiter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">paste -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Join all the lines into a single line, using the specified delimiter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">paste -s -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delimiter</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Merge two files side by side, each in its column, using TAB as delimiter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">paste </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Merge two files side by side, each in its column, using the specified delimiter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">paste -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delimiter</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Merge two files, with lines added alternatively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">paste -d '\n' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>

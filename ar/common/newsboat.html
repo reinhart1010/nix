@@ -1,0 +1,34 @@
+<h1 id="newsboat">newsboat</h1>
+
+<p>هو قارئ خلاصة آر إس إس للطرفية أو الكونسول.
+لمزيد من التفاصيل: <a href="https://newsboat.org/">https://newsboat.org/</a>.</p>
+
+<ul>
+  <li>إستيراد روابط الخلاصات من ملف OPML:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">newsboat -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my-feeds.xml</span></p>
+
+<ul>
+  <li>إضافة روابط الخلاصات يدوياً:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/path/to/feed</span><code class="language-plaintext highlighter-rouge"> &gt;&gt; "${HOME}/.newsboat/urls"</code></p>
+
+<ul>
+  <li>إبدأ newsboat وقم بتحديث كل الخلاصات عند بدء التشغيل:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">newsboat -r</code></p>
+
+<ul>
+  <li>نفذ أمر أو عدة أوامر مفصولة بمسافات بدون الحاجة إلي فتح newsboat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">newsboat -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reload print-unread …</span></p>
+
+<ul>
+  <li>انظر إختصارات لوحة المفاتيح (الإختصارت الأكثر شيوعاً مرئية في شريط الحالة):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">?</code></p>

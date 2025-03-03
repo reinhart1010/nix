@@ -1,0 +1,53 @@
+<h1 id="dnf">dnf</h1>
+
+<p>ابزار مدیریت بسته‌ها برای RHEL، Fedora و CentOS (جایگزین <code class="language-plaintext highlighter-rouge">yum</code>).
+برای دستورات معادل در دیگر مدیران بسته، به <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a> مراجعه کنید.
+اطلاعات بیشتر: <a href="https://dnf.readthedocs.io">https://dnf.readthedocs.io</a>.</p>
+
+<ul>
+  <li>ارتقاء بسته‌های نصب شده به جدیدترین نسخه‌های موجود:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf upgrade</code></p>
+
+<ul>
+  <li>جستجوی بسته‌ها بر اساس کلمات کلیدی:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword1 keyword2 …</span></p>
+
+<ul>
+  <li>نمایش جزئیات یک بسته:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>نصب یک بسته جدید (از <code class="language-plaintext highlighter-rouge">-y</code> برای تأیید اتوماتیک تمام پنجره‌ها استفاده کنید):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 …</span></p>
+
+<ul>
+  <li>حذف یک بسته:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 …</span></p>
+
+<ul>
+  <li>لیست بسته‌های نصب شده:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf list --installed</code></p>
+
+<ul>
+  <li>یافتن بسته‌هایی که دستور مشخصی را ارائه می‌دهند:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf provides </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>مشاهده تاریخچه تمام عملیات‌های گذشته:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf history</code></p>

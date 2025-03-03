@@ -1,0 +1,53 @@
+<h1 id="huggingface-cli">huggingface-cli</h1>
+
+<p>Interact with Hugging Face Hub.
+Login, manage local cache, download or upload files.
+More information: <a href="https://huggingface.co/docs/huggingface_hub/guides/cli">https://huggingface.co/docs/huggingface_hub/guides/cli</a>.</p>
+
+<ul>
+  <li>Login to Hugging Face Hub:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">huggingface-cli login</code></p>
+
+<ul>
+  <li>Display the name of the logged in user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">huggingface-cli whoami</code></p>
+
+<ul>
+  <li>Log out:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">huggingface-cli logout</code></p>
+
+<ul>
+  <li>Print information about the environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">huggingface-cli env</code></p>
+
+<ul>
+  <li>Download files from an repository and print out the path (omit filenames to download entire repository):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">huggingface-cli download --repo-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo_type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename1 filename2 …</span></p>
+
+<ul>
+  <li>Upload an entire folder or a file to Hugging Face:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">huggingface-cli upload --repo-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo_type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repo_file_or_directory</span></p>
+
+<ul>
+  <li>Scan cache to see downloaded repositories and their disk usage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">huggingface-cli scan-cache</code></p>
+
+<ul>
+  <li>Delete the cache interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">huggingface-cli delete-cache</code></p>

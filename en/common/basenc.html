@@ -1,0 +1,28 @@
+<h1 id="basenc">basenc</h1>
+
+<p>Encode or decode file or <code class="language-plaintext highlighter-rouge">stdin</code> using a specified encoding, to <code class="language-plaintext highlighter-rouge">stdout</code>.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/basenc-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/basenc-invocation.html</a>.</p>
+
+<ul>
+  <li>Encode a file with base64 encoding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">basenc --base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Decode a file with base64 encoding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">basenc --decode --base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Encode from <code class="language-plaintext highlighter-rouge">stdin</code> with base32 encoding with 42 columns:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | basenc --base32 -w42</code></p>
+
+<ul>
+  <li>Encode from <code class="language-plaintext highlighter-rouge">stdin</code> with base32 encoding:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | basenc --base32</code></p>

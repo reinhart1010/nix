@@ -1,0 +1,40 @@
+<h1 id="pactl">pactl</h1>
+
+<p>Control a running PulseAudio sound server.
+More information: <a href="https://manned.org/pactl">https://manned.org/pactl</a>.</p>
+
+<ul>
+  <li>Show information about the sound server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pactl info</code></p>
+
+<ul>
+  <li>List all sinks (or other types - sinks are outputs and sink-inputs are active audio streams):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pactl list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sinks</span><code class="language-plaintext highlighter-rouge"> short</code></p>
+
+<ul>
+  <li>Change the default sink (output) to 1 (the number can be retrieved via the <code class="language-plaintext highlighter-rouge">list</code> subcommand):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pactl set-default-sink </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Move sink-input 627 to sink 1:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pactl move-sink-input </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">627</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Set the volume of sink 1 to 75%:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pactl set-sink-volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.75</span></p>
+
+<ul>
+  <li>Toggle mute on the default sink (using the special name <code class="language-plaintext highlighter-rouge">@DEFAULT_SINK@</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pactl set-sink-mute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@DEFAULT_SINK@</span><code class="language-plaintext highlighter-rouge"> toggle</code></p>

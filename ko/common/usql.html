@@ -1,0 +1,46 @@
+<h1 id="usql">usql</h1>
+
+<p>SQL 데이터베이스를 위한 범용 CLI 인터페이스.
+더 많은 정보: <a href="https://github.com/xo/usql">https://github.com/xo/usql</a>.</p>
+
+<ul>
+  <li>특정 데이터베이스에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">usql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sqlserver|mysql|postgres|sqlite3|…</span><code class="language-plaintext highlighter-rouge">://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_명</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_명</span></p>
+
+<ul>
+  <li>파일에서 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">usql --file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/query.sql</span></p>
+
+<ul>
+  <li>특정 SQL 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">usql --command="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sql_명령</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">usql</code> 프롬프트에서 SQL 명령 실행:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프롬프트</span><code class="language-plaintext highlighter-rouge">=&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span></p>
+
+<ul>
+  <li>데이터베이스 스키마 표시:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프롬프트</span><code class="language-plaintext highlighter-rouge">=&gt; \d</code></p>
+
+<ul>
+  <li>특정 파일로 쿼리 결과 내보내기:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프롬프트</span><code class="language-plaintext highlighter-rouge">=&gt; \g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/결과_파일</span></p>
+
+<ul>
+  <li>CSV 파일에서 특정 테이블로 데이터 가져오기:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프롬프트</span><code class="language-plaintext highlighter-rouge">=&gt; \copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/데이터.csv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_명</span></p>

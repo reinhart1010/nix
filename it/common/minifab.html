@@ -1,0 +1,52 @@
+<h1 id="minifab">minifab</h1>
+
+<p>Strumento per semplificare il settaggio e il deployment di una blockchain Hyperledger Fabric.
+Maggiori informazioni: <a href="https://github.com/hyperledger-labs/minifabric">https://github.com/hyperledger-labs/minifabric</a>.</p>
+
+<ul>
+  <li>Crea la blockchain Hyperledger Fabric:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab up -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versione_minifab</span></p>
+
+<ul>
+  <li>Rimuovi la blockchain Hyperledger Fabric:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab down</code></p>
+
+<ul>
+  <li>Installa smart contract su un canale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab install -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_smart_contract</span></p>
+
+<ul>
+  <li>Installa smart contract su un canale specificando la versione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab install -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_smart_contract</span><code class="language-plaintext highlighter-rouge"> -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versione_smart_contract</span></p>
+
+<ul>
+  <li>Inizializza smart contract dopo installazione/aggiornamento dello stesso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab approve,commit,initialize,discover</code></p>
+
+<ul>
+  <li>Interroga smart contract con argomenti:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab invoke -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_smart_contract</span><code class="language-plaintext highlighter-rouge"> -p '"</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_metodo</span><code class="language-plaintext highlighter-rouge">", "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arg0</span><code class="language-plaintext highlighter-rouge">", "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arg1</span><code class="language-plaintext highlighter-rouge">", ...'</code></p>
+
+<ul>
+  <li>Interroga la blockchain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab blockquery </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_blocco</span></p>
+
+<ul>
+  <li>Esegui direttamente l'applicazione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab apprun -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linguaggio_di_programmazione</span></p>

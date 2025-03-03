@@ -1,0 +1,41 @@
+<h1 id="bgpgrep">bgpgrep</h1>
+
+<p>MRT 덤프 내의 BGP 데이터 필터링 및 인쇄.
+<code class="language-plaintext highlighter-rouge">gzip</code>, <code class="language-plaintext highlighter-rouge">bzip2</code> 및 <code class="language-plaintext highlighter-rouge">xz</code>로 압축된 파일을 읽을 수 있음.
+더 많은 정보: <a href="https://codeberg.org/1414codeforge/ubgpsuite">https://codeberg.org/1414codeforge/ubgpsuite</a>.</p>
+
+<ul>
+  <li>모든 경로 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bgpgrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">master6.mrt</span></p>
+
+<ul>
+  <li>피어의 AS 번호로 결정된 특정 피어로부터 수신된 경로를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bgpgrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">master4.mrt</span><code class="language-plaintext highlighter-rouge"> -peer </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">64498</span></p>
+
+<ul>
+  <li>피어의 IP 주소로 결정된 특정 피어로부터 수신된 경로를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bgpgrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">master4.mrt.bz2</span><code class="language-plaintext highlighter-rouge"> -peer </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2001:db8:dead:cafe:acd::19e</span></p>
+
+<ul>
+  <li>AS 경로에 특정 ASN이 있는 경로를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bgpgrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">master6.mrt.bz2</span><code class="language-plaintext highlighter-rouge"> -aspath '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">64498 64510</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>특정 주소로 연결되는 경로 목록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bgpgrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">master6.mrt.bz2</span><code class="language-plaintext highlighter-rouge"> -supernet '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2001:db8:dead:cafe:aef::5</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>특정 AS의 커뮤니티가 있는 경로를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bgpgrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">master4.mrt</span><code class="language-plaintext highlighter-rouge"> -communities \( '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">64497</span><code class="language-plaintext highlighter-rouge">:*' \)</code></p>

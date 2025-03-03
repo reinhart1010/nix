@@ -1,0 +1,52 @@
+<h1 id="git-bundle">git bundle</h1>
+
+<p>Empaquetez des objets et des références dans une archive.
+Plus d'informations : <a href="https://git-scm.com/docs/git-bundle">https://git-scm.com/docs/git-bundle</a>.</p>
+
+<ul>
+  <li>Empaquetez tout les objets et les références d'une branche spécifiée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.bundle</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_branche</span></p>
+
+<ul>
+  <li>Crée un empaquetage de tout les fichiers de toutes les branches :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.bundle</span><code class="language-plaintext highlighter-rouge"> --all</code></p>
+
+<ul>
+  <li>Crée un empaquetage des 5 derniers commits de la branche courante :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.bundle</span><code class="language-plaintext highlighter-rouge"> -5 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>Crée un empaquetage des 7 derniers jours :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.bundle</span><code class="language-plaintext highlighter-rouge"> --since 7.days </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>Vérifie qu'un empaquetage est valide et peut être appliqué à la branche courante :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.bundle</span></p>
+
+<ul>
+  <li>Affiche sur la sortie standard la liste des références contenues dans un empaquetage :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle unbundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.bundle</span></p>
+
+<ul>
+  <li>Extraire une branche spécifique d'un fichier de bundle dans le référentiel actuel :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.bundle</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_branche</span></p>
+
+<ul>
+  <li>Créer un nouveau dépôt depuis un empaquetage :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.bundle</span></p>

@@ -1,0 +1,22 @@
+<h1 id="fls">fls</h1>
+
+<p>List files and directories in an image file or device.
+More information: <a href="https://wiki.sleuthkit.org/index.php?title=Fls">https://wiki.sleuthkit.org/index.php?title=Fls</a>.</p>
+
+<ul>
+  <li>Build a recursive fls list over a device, output paths will start with C:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fls -r -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/loop1p1</span></p>
+
+<ul>
+  <li>Analyze a single partition, providing the sector offset at which the filesystem starts in the image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fls -r -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sector</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image_file</span></p>
+
+<ul>
+  <li>Analyze a single partition, providing the timezone of the original system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fls -r -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:</span><code class="language-plaintext highlighter-rouge"> -z </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">timezone</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/loop1p1</span></p>

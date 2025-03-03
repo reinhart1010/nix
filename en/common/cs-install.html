@@ -1,0 +1,52 @@
+<h1 id="cs-install">cs install</h1>
+
+<p>Install an application in the installation directory onfigured when installing <code class="language-plaintext highlighter-rouge">cs</code> (to enable the binary to be loaded add to your <code class="language-plaintext highlighter-rouge">.bash_profile</code> the <code class="language-plaintext highlighter-rouge">$ eval "$(cs install --env)"</code> command).
+More information: <a href="https://get-coursier.io/docs/cli-install">https://get-coursier.io/docs/cli-install</a>.</p>
+
+<ul>
+  <li>Install a specific application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application_name</span></p>
+
+<ul>
+  <li>Install a specific version of an application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application_version</span></p>
+
+<ul>
+  <li>Search an application by a specific name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application_partial_name</span></p>
+
+<ul>
+  <li>Update a specific application if available:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application_name</span></p>
+
+<ul>
+  <li>Update all the installed applications:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs update</code></p>
+
+<ul>
+  <li>Uninstall a specific application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs uninstall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application_name</span></p>
+
+<ul>
+  <li>List all installed applications:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs list</code></p>
+
+<ul>
+  <li>Pass specific Java options to an installed application:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-Jjava_option_name1=value1 -Jjava_option_name2=value2 …</span></p>

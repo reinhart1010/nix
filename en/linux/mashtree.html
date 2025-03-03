@@ -1,0 +1,23 @@
+<h1 id="mashtree">mashtree</h1>
+
+<p>Make a fast tree from genomes.
+Does not make a phylogeny.
+More information: <a href="https://github.com/lskatz/mashtree">https://github.com/lskatz/mashtree</a>.</p>
+
+<ul>
+  <li>Fastest method in mashtree to create a tree from fastq and/or fasta files using multiple threads, piping into a newick file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mashtree --numcpus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">12</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.fastq.gz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.fasta</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mashtree.dnd</span></p>
+
+<ul>
+  <li>Most accurate method in mashtree to create a tree from fastq and/or fasta files using multiple threads, piping into a newick file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mashtree --mindepth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> --numcpus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">12</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.fastq.gz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.fasta</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mashtree.dnd</span></p>
+
+<ul>
+  <li>Most accurate method to create a tree with confidence values (note that any options for <code class="language-plaintext highlighter-rouge">mashtree</code> itself has to be on the right side of the <code class="language-plaintext highlighter-rouge">--</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mashtree_bootstrap.pl --reps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --numcpus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">12</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.fastq.gz</span><code class="language-plaintext highlighter-rouge"> -- --min-depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mashtree.bootstrap.dnd</span></p>

@@ -1,0 +1,29 @@
+<h1 id="ykman-openpgp">ykman openpgp</h1>
+
+<p>管理 OpenPGP YubiKey 应用程序。
+注意：你需要使用 <code class="language-plaintext highlighter-rouge">gpg --card-edit</code> 来进行某些设置。
+更多信息：<a href="https://docs.yubico.com/software/yubikey/tools/ykman/OpenPGP_Commands.html">https://docs.yubico.com/software/yubikey/tools/ykman/OpenPGP_Commands.html</a>.</p>
+
+<ul>
+  <li>显示有关 OpenPGP 应用程序的一般信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman openpgp info</code></p>
+
+<ul>
+  <li>分别设置用户 PIN码、复位代码和管理 PIN码的重试次数：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman openpgp access set-retries </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>更改用户 PIN码、复位代码或管理 PIN码：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman openpgp access change-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pin|reset-code|admin-pin</span></p>
+
+<ul>
+  <li>将 OpenPGP 应用程序恢复出厂设置（在超过管理 PIN码 重试次数后需要这样做）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman openpgp reset</code></p>

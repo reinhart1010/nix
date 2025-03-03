@@ -1,0 +1,35 @@
+<h1 id="yesod">yesod</h1>
+
+<p>Yesod 是一个基于 Haskell 的网页框架的辅助工具。
+所有 Yesod 命令都通过 <code class="language-plaintext highlighter-rouge">stack</code> 项目管理器来调用。
+更多信息：<a href="https://github.com/yesodweb/yesod">https://github.com/yesodweb/yesod</a>.</p>
+
+<ul>
+  <li>在 <code class="language-plaintext highlighter-rouge">my-project</code> 目录下创建一个以 SQLite 为后端的新样板网站：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my-project</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yesod-sqlite</span></p>
+
+<ul>
+  <li>在一个 Yesod 样板网站中安装 Yesod CLI 工具：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack build yesod-bin cabal-install --install-ghc</code></p>
+
+<ul>
+  <li>启动开发服务器：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack exec -- yesod devel</code></p>
+
+<ul>
+  <li>处理具有更改的 Template Haskell 依赖项的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack exec -- yesod touch</code></p>
+
+<ul>
+  <li>使用 Keter（Yesod 的部署管理器）部署应用程序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stack exec -- yesod keter</code></p>

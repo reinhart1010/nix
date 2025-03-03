@@ -1,0 +1,38 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1>[</h1>
+
+<p>条件を評価します。
+条件が真と評価された場合は 0 を、偽と評価された場合は 1 を返します。
+もっと詳しく: <a href="https://gnu.org/software/bash/manual/bash.html#index-test">https://gnu.org/software/bash/manual/bash.html#index-test</a>。</p>
+
+<ul>
+  <li>与えられた変数が与えられた文字列と等しいかどうかをテスト:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$変数名</span><code class="language-plaintext highlighter-rouge">" = "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/bin/zsh</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>与えられた変数が空であるかどうかをテスト:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -z "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$変数名</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>ファイルが存在するかどうかをテスト:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -f "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイルへのパス</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>ディレクトリが存在しないかどうかをテスト:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ ! -d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ディレクトリへのパス</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>if-else 文:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">条件</span><code class="language-plaintext highlighter-rouge"> ] &amp;&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "真"</span><code class="language-plaintext highlighter-rouge"> || </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "偽"</span></p>

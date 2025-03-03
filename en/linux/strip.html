@@ -1,0 +1,22 @@
+<h1 id="strip">strip</h1>
+
+<p>Discard symbols from executables or object files.
+More information: <a href="https://manned.org/strip">https://manned.org/strip</a>.</p>
+
+<ul>
+  <li>Replace the input file with its stripped version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Strip symbols from a file, saving the output to a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span></p>
+
+<ul>
+  <li>Strip debug symbols only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strip --strip-debug </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.o</span></p>

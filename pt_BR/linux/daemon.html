@@ -1,0 +1,40 @@
+<h1 id="daemon">daemon</h1>
+
+<p>Roda processos em daemons.
+Mais informações: <a href="https://manned.org/daemon">https://manned.org/daemon</a>.</p>
+
+<ul>
+  <li>Roda um comando como um daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemon --name="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Roda um comando como um daemon que será reiniciado se o comando falhar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemon --name="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span><code class="language-plaintext highlighter-rouge">" --respawn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Roda um comando como um daemon que será reiniciado se falar, com duas tentativas a cada 10 segundos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemon --name="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span><code class="language-plaintext highlighter-rouge">" --respawn --attempts=2 --delay=10 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Roda um comando como um daemon, gravando registros em um arquivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemon --name="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span><code class="language-plaintext highlighter-rouge">" --errlog=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.log</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Elimina um daemon (SIGTERM):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemon --name="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span><code class="language-plaintext highlighter-rouge">" --stop</code></p>
+
+<ul>
+  <li>Lista os daemons:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemon --list</code></p>

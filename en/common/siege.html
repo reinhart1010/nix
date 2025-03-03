@@ -1,0 +1,40 @@
+<h1 id="siege">siege</h1>
+
+<p>HTTP loadtesting and benchmarking tool.
+More information: <a href="https://www.joedog.org/siege-manual/">https://www.joedog.org/siege-manual/</a>.</p>
+
+<ul>
+  <li>Test a URL with default settings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">siege </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Test a list of URLs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">siege --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/url_list.txt</span></p>
+
+<ul>
+  <li>Test list of URLs in a random order (Simulates internet traffic):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">siege --internet --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/url_list.txt</span></p>
+
+<ul>
+  <li>Benchmark a list of URLs (without waiting between requests):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">siege --benchmark --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/url_list.txt</span></p>
+
+<ul>
+  <li>Set the amount of concurrent connections:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">siege --concurrent=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span><code class="language-plaintext highlighter-rouge"> --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/url_list.txt</span></p>
+
+<ul>
+  <li>Set how long for the siege to run for:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">siege --time=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30s</span><code class="language-plaintext highlighter-rouge"> --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/url_list.txt</span></p>

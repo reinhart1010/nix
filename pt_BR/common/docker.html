@@ -1,0 +1,53 @@
+<h1 id="docker">docker</h1>
+
+<p>Gerenciador de containers e imagens Docker.
+Alguns subcomandos como <code class="language-plaintext highlighter-rouge">run</code> tem sua própia documentação de uso.
+Mais informações: <a href="https://docs.docker.com/reference/cli/docker/">https://docs.docker.com/reference/cli/docker/</a>.</p>
+
+<ul>
+  <li>Lista todos os containers Docker (em execução e parados):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker ps --all</code></p>
+
+<ul>
+  <li>Inicializa um container com um nome personalizado a partir de uma imagem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem</span></p>
+
+<ul>
+  <li>Começa ou para um container existente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span></p>
+
+<ul>
+  <li>Extrai uma imagem a partir de um Docker Registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem</span></p>
+
+<ul>
+  <li>Mostra a lista de imagens já baixadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images</code></p>
+
+<ul>
+  <li>Abre um terminal dentro de um container em execução:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker exec -it </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span></p>
+
+<ul>
+  <li>Remove um container parado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span></p>
+
+<ul>
+  <li>Obtém e acompanha o histórico de um container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker logs -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span></p>

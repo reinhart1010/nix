@@ -1,0 +1,29 @@
+<h1 id="in2csv">in2csv</h1>
+
+<p>다양한 표 데이터 형식을 CSV로 변환.
+csvkit에 포함.
+더 많은 정보: <a href="https://csvkit.readthedocs.io/en/latest/scripts/in2csv.html">https://csvkit.readthedocs.io/en/latest/scripts/in2csv.html</a>.</p>
+
+<ul>
+  <li>XLS 파일을 CSV로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">in2csv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.xls</span></p>
+
+<ul>
+  <li>DBF 파일을 CSV 파일로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">in2csv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.dbf</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>
+
+<ul>
+  <li>특정 시트를 XLSX 파일에서 CSV로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">in2csv --sheet=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">시트_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.xlsx</span></p>
+
+<ul>
+  <li>JSON 파일을 in2csv로 파이프:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.json</span><code class="language-plaintext highlighter-rouge"> | in2csv -f json &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>

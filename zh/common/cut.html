@@ -1,0 +1,28 @@
+<h1 id="cut">cut</h1>
+
+<p>从标准输入或文件中剪切字段。
+更多信息：<a href="https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html</a>.</p>
+
+<ul>
+  <li>打印每行的特定字符/或属性范围：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span><code class="language-plaintext highlighter-rouge"> | cut -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">characters|fields</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|1,10|1-10|1-|-10</span></p>
+
+<ul>
+  <li>打印每行由指定分隔符分割的属性范围：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span><code class="language-plaintext highlighter-rouge"> | cut --delimiter "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">分隔符</span><code class="language-plaintext highlighter-rouge">" --fields </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|1,10|1-10|1-|-10</span></p>
+
+<ul>
+  <li>打印文件每行的字符范围：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut --characters </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|1,10|1-10|1-|-10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>打印以 <code class="language-plaintext highlighter-rouge">NUL</code> 结尾的行的特定字段（例如 <code class="language-plaintext highlighter-rouge">find . -print0</code>）而不是换行符：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span><code class="language-plaintext highlighter-rouge"> | cut --zero-terminated --fields </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>

@@ -1,0 +1,52 @@
+<h1 id="sort">sort</h1>
+
+<p>Sorteer regels van tekstbestanden.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html</a>.</p>
+
+<ul>
+  <li>Sorteer een bestand in oplopende volgorde:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Sorteer een bestand in aflopende volgorde:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort --reverse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Sorteer een bestand op een niet-hoofdlettergevoelige manier:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort --ignore-case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Sorteer een bestand met numerieke in plaats van alfabetische volgorde:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort --numeric-sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Sorteer <code class="language-plaintext highlighter-rouge">/etc/passwd</code> numeriek op het 3e veld van elke regel, gebruik makend van ":" als veldscheidingsteken:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort --field-separator=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:</span><code class="language-plaintext highlighter-rouge"> --key=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/etc/passwd</span></p>
+
+<ul>
+  <li>Sorteer zoals hierboven, maar wanneer items in het 3e veld gelijk zijn, sorteer op het 4e veld met getallen en exponenten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:</span><code class="language-plaintext highlighter-rouge"> -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3,3n</span><code class="language-plaintext highlighter-rouge"> -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4,4g</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/etc/passwd</span></p>
+
+<ul>
+  <li>Sorteer een bestand waarbij alleen unieke regels worden behouden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort --unique </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Sorteer een bestand en schrijf de uitvoer naar het opgegeven uitvoerbestand (kan worden gebruikt om een bestand in-place te sorteren):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort --output=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>

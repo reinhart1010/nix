@@ -1,0 +1,41 @@
+<h1 id="arping">arping</h1>
+
+<p>Mit dem ARP Protokoll Hosts in einem Netzwerk entdecken und untersuchen.
+Nützlich für die Entdeckung von MAC-Adressen.
+Weitere Informationen: <a href="https://github.com/ThomasHabets/arping">https://github.com/ThomasHabets/arping</a>.</p>
+
+<ul>
+  <li>Pinge einen Host mit ARP Request Paketen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_adresse</span></p>
+
+<ul>
+  <li>Pinge einen Host auf einem spezifizierten Interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_adresse</span></p>
+
+<ul>
+  <li>Pinge einen Host und höre nach der ersten Antwort auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_adresse</span></p>
+
+<ul>
+  <li>Pinge einen Host für eine bestimmte Anzahl:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anzahl</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_adresse</span></p>
+
+<ul>
+  <li>Broadcaste ARP Request Pakete um die ARP Caches der Nachbarn zu aktualisieren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">broadcast_adresse</span></p>
+
+<ul>
+  <li>Sende ARP Requests mit einem 3 Sekunden Timeout um duplizierte IP-Adressen im Netzwerk zu erkennen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -D -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adresse_zum_checken</span></p>

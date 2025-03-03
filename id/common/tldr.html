@@ -1,0 +1,53 @@
+<h1 id="tldr">tldr</h1>
+
+<p>Tampilkan laman bantuan sederhana untuk alat baris perintah (command-line) dari proyek dokumentasi tldr-pages.
+Catatan: opsi <code class="language-plaintext highlighter-rouge">--language</code> dan <code class="language-plaintext highlighter-rouge">--list</code> sering diimplementasikan oleh program-program klien meskipun tak diwajibkan menurut spesifikasi teknis.
+Informasi lebih lanjut: <a href="https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface">https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface</a>.</p>
+
+<ul>
+  <li>Tampilkan laman bantuan sederhana untuk suatu perintah (catatan: beginilah cara Anda sampai di sini!):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span></p>
+
+<ul>
+  <li>Tampilkan laman bantuan sederhana untuk suatu subperintah:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subperintah</span></p>
+
+<ul>
+  <li>Tampilkan laman bantuan untuk suatu perintah dalam suatu bahasa (jika tersedia, selainnya dalam bahasa Inggris):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --language </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kode_bahasa</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span></p>
+
+<ul>
+  <li>Tampilkan laman bantuan untuk suatu perintah pada [p]latform tujuan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>M[u]takhirkan data cache lokal untuk laman-laman bantuan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --update</code></p>
+
+<ul>
+  <li>Tampilkan daftar seluruh laman bantuan untuk perintah-perintah yang tersedia pada platform saat ini dan <code class="language-plaintext highlighter-rouge">common</code> (lintas platform):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --list</code></p>
+
+<ul>
+  <li>Tampilkan daftar seluruh laman bantuan subperintah yang tersedia untuk dokumentasi suatu perintah induk:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --list | grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span><code class="language-plaintext highlighter-rouge"> | column</code></p>
+
+<ul>
+  <li>Tampilkan suatu laman bantuan untuk perintah yang dipilih secara acak:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr --list | shuf -n1 | xargs tldr</code></p>

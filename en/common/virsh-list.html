@@ -1,0 +1,29 @@
+<h1 id="virsh-list">virsh-list</h1>
+
+<p>List the ID, name, and state of virtual machines.
+See also: <code class="language-plaintext highlighter-rouge">virsh</code>.
+More information: <a href="https://manned.org/virsh">https://manned.org/virsh</a>.</p>
+
+<ul>
+  <li>List information about running virtual machines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh list</code></p>
+
+<ul>
+  <li>List information about virtual machines regardless of state:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh list --all</code></p>
+
+<ul>
+  <li>List information about virtual machines with autostart either enabled or disabled:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh list --all --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">autostart|no-autostart</span></p>
+
+<ul>
+  <li>List information about virtual machines either with or without snapshots:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh list --all --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">with-snapshot|without-snapshot</span></p>

@@ -1,0 +1,34 @@
+<h1 id="icalbuddy">icalBuddy</h1>
+
+<p>Utilidad de línea de comandos para imprimir eventos y tareas desde la base de datos del calendario de macOS.
+Más información: <a href="https://hasseg.org/icalBuddy/">https://hasseg.org/icalBuddy/</a>.</p>
+
+<ul>
+  <li>Muestra los eventos de hoy más tarde:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">icalBuddy --includeOnlyEventsFromNowOn eventsToday</code></p>
+
+<ul>
+  <li>Muestra tareas no completadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">icalBuddy uncompletedTasks</code></p>
+
+<ul>
+  <li>Muestra una lista formateada y discriminada de acuerdo al calendario de todos los eventos en el día de hoy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">icalBuddy --formatOutput --separateByCalendar eventsToday</code></p>
+
+<ul>
+  <li>Muestra las tareas para un número determinado de días:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">icalBuddy --includeOnlyEventsFromNowOn "tasksDueBefore:today+</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">days</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Muestra los eventos en un rango de tiempo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">icalBuddy eventsFrom:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start_date</span><code class="language-plaintext highlighter-rouge"> to:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">end_date</span></p>

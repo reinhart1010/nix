@@ -1,0 +1,28 @@
+<h1 id="mongod">mongod</h1>
+
+<p>Peladen basis data MongoDB.
+Informasi lebih lanjut: <a href="https://docs.mongodb.com/manual/reference/program/mongod">https://docs.mongodb.com/manual/reference/program/mongod</a>.</p>
+
+<ul>
+  <li>Tentukan direktori penyimpanan basis data (default: <code class="language-plaintext highlighter-rouge">/data/db</code> dalam Linux dan macOS, <code class="language-plaintext highlighter-rouge">C:\data\db</code> dalam Windows):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongod --dbpath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span></p>
+
+<ul>
+  <li>Tentukan berkas konfigurasi basis data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongod --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span></p>
+
+<ul>
+  <li>Tentukan port yang akan digunakan (default: 27017):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongod --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Tentukan tingkat pencatatan perilaku (profiling) peladen basis data. 0 mati, 1 hanya operasi lambat, 2 semuanya (default: 0):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongod --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|2</span></p>

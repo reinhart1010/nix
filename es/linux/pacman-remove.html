@@ -1,0 +1,47 @@
+<h1 id="pacman-remove">pacman –remove</h1>
+
+<p>Utilidad del administrador de paquetes de Arch Linux.
+Vea también: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Más información: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>[R]emueve un paquete y sus dependencias recur[s]ivamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Rs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>[R]emueve un paquete y sus dependencias. [n]o guarda copias de seguridad de los archivos de configuración:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Rsn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>[R]emueve un paquete sin pedir confirmación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -R --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>[R]emueve los paquetes huérfanos (instalados como [d]ependencias pero no requeridos por algún paquete):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Rsn $(pacman -Qdtq)</code></p>
+
+<ul>
+  <li>[R]emueve un paquete y ha[c]e lo mismo a todos los paquetes que dependen de él:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Rc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Lista e im[p]rime los paquetes que serían afectados (no [R]emueve paquete alguno):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Rp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Muestra la ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Rh</code></p>

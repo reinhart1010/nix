@@ -1,0 +1,29 @@
+<h1 id="clamav">clamav</h1>
+
+<p>Open-source anti-virus program.
+Designed especially for e-mail scanning on mail gateways, but can be used in other contexts.
+More information: <a href="https://www.clamav.net">https://www.clamav.net</a>.</p>
+
+<ul>
+  <li>Update virus definitions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">freshclam</code></p>
+
+<ul>
+  <li>Scan a file for viruses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Scan directories recursively and print out infected files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --recursive --infected </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Scan directories recursively and move them into quarantine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --recursive --move=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory</span></p>

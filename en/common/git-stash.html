@@ -1,0 +1,52 @@
+<h1 id="git-stash">git stash</h1>
+
+<p>Stash local Git changes in a temporary area.
+More information: <a href="https://git-scm.com/docs/git-stash">https://git-scm.com/docs/git-stash</a>.</p>
+
+<ul>
+  <li>Stash current changes with a [m]essage, except new (untracked) files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash push --message </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_stash_message</span></p>
+
+<ul>
+  <li>Stash current changes, including new ([u]ntracked) files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash --include-untracked</code></p>
+
+<ul>
+  <li>Interactively select [p]arts of changed files for stashing:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash --patch</code></p>
+
+<ul>
+  <li>List all stashes (shows stash name, related branch and message):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash list</code></p>
+
+<ul>
+  <li>Show the changes as a [p]atch between the stash (default is <code class="language-plaintext highlighter-rouge">stash@{0}</code>) and the commit back when stash entry was first created:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash show --patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stash@{0}</span></p>
+
+<ul>
+  <li>Apply a stash (default is the latest, named stash@{0}):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_stash_name_or_commit</span></p>
+
+<ul>
+  <li>Drop or apply a stash (default is stash@{0}) and remove it from the stash list if applying doesn't cause conflicts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash pop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_stash_name</span></p>
+
+<ul>
+  <li>Drop all stashes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash clear</code></p>

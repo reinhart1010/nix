@@ -1,0 +1,29 @@
+<h1 id="mongo">mongo</h1>
+
+<p>The legacy MongoDB shell. See <code class="language-plaintext highlighter-rouge">mongosh</code> for the new shell.
+Note: all connection options can be replaced with one string: <code class="language-plaintext highlighter-rouge">mongodb://user@host:port/db_name?authSource=authdb_name</code>.
+More information: <a href="https://docs.mongodb.com/manual/reference/program/mongo">https://docs.mongodb.com/manual/reference/program/mongo</a>.</p>
+
+<ul>
+  <li>Connect to a local database on the default port (<code class="language-plaintext highlighter-rouge">mongodb://localhost:27017</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongo</code></p>
+
+<ul>
+  <li>Connect to a database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongo --host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db_name</span></p>
+
+<ul>
+  <li>Authenticate using the specified username on the specified database (you will be prompted for a password):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongo --host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --authenticationDatabase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">authdb_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db_name</span></p>
+
+<ul>
+  <li>Evaluate a JavaScript expression on a database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongo --eval '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">JSON.stringify(db.foo.findOne())</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db_name</span></p>

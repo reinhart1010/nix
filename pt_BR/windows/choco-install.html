@@ -1,0 +1,52 @@
+<h1 id="choco-install">choco install</h1>
+
+<p>Instalar um pacote ou mais com Chocolatey.
+Mais informações: <a href="https://chocolatey.org/docs/commands-install">https://chocolatey.org/docs/commands-install</a>.</p>
+
+<ul>
+  <li>Instala um ou mais pacotes separado por espaço:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote(s)</span></p>
+
+<ul>
+  <li>Instala pacotes a partir de um aquivo de configuração personalizado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/pacotes.config</span></p>
+
+<ul>
+  <li>Instala um arquivo específico <code class="language-plaintext highlighter-rouge">nuspec</code> ou <code class="language-plaintext highlighter-rouge">nupkg</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Instala uma versão específica de um pacote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span><code class="language-plaintext highlighter-rouge"> --version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versão</span></p>
+
+<ul>
+  <li>Permite a instalação de múltiplas versões de um pacote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span><code class="language-plaintext highlighter-rouge"> --allow-multiple</code></p>
+
+<ul>
+  <li>Confirma todos prompts automaticamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span><code class="language-plaintext highlighter-rouge"> --yes</code></p>
+
+<ul>
+  <li>Especifica uma fonte personalizada para receber pacotes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_do_pacote|apelido</span></p>
+
+<ul>
+  <li>Fornece um nome e uma senha para autenticação:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">senha</span></p>

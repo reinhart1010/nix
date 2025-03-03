@@ -1,0 +1,53 @@
+<h1 id="git-config">git config</h1>
+
+<p>Ubah pengaturan Git untuk repositori-repositori tertentu.
+Konfigurasi ini dapat diatur hanya untuk repositori saat ini (lokal/local) atau untuk pengguna sistem operasi saat ini (global).
+Informasi lebih lanjut: <a href="https://git-scm.com/docs/git-config">https://git-scm.com/docs/git-config</a>.</p>
+
+<ul>
+  <li>Tampilkan hanya daftar pengaturan Git untuk repositori saat ini (sebagaimana tersimpan dalam <code class="language-plaintext highlighter-rouge">.git/config</code> dalam pangkal direktori repositori):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --list --local</code></p>
+
+<ul>
+  <li>Tampilkan hanya daftar pengaturan Git untuk pengguna saat ini (sebagaimana tersimpan dalam <code class="language-plaintext highlighter-rouge">~/.gitconfig</code> sebagai default, atau bila ada, <code class="language-plaintext highlighter-rouge">$XDG_CONFIG_HOME/git/config</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --list --global</code></p>
+
+<ul>
+  <li>Tampilkan hanya daftar pengaturan Git untuk keseluruhan sistem operasi (sebagaimana tersimpan dalam <code class="language-plaintext highlighter-rouge">/etc/gitconfig</code>), dan tampilkan lokasi berkas tersebut:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --list --system --show-origin</code></p>
+
+<ul>
+  <li>Tampilkan nilai atas entri konfigurasi saat ini (contoh: <code class="language-plaintext highlighter-rouge">alias.unstage</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config alias.unstage</code></p>
+
+<ul>
+  <li>Simpan baru atau ubah nilai entri konfigurasi tertentu secara global (untuk pengguna saat ini):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global alias.unstage "reset HEAD --"</code></p>
+
+<ul>
+  <li>Hapus atau kembalikan nilai dari entri konfigurasi tersebut menuju nilai default (bila ada):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global --unset alias.unstage</code></p>
+
+<ul>
+  <li>Sunting konfigurasi Git pada repositori saat ini dengan aplikasi pengolah teks default:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --edit</code></p>
+
+<ul>
+  <li>Sunting konfigurasi Git pada pengguna saat ini dengan aplikasi pengolah teks default:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global --edit</code></p>

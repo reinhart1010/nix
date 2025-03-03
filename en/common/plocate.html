@@ -1,0 +1,17 @@
+<h1 id="plocate">plocate</h1>
+
+<p>Find filenames quickly.
+Make sure to run <code class="language-plaintext highlighter-rouge">sudo updatedb</code> to include new files.
+More information: <a href="https://plocate.sesse.net">https://plocate.sesse.net</a>.</p>
+
+<ul>
+  <li>Look for patterns in the database (recomputed periodically):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plocate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span></p>
+
+<ul>
+  <li>Look for a file by its exact filename (a pattern containing no globbing characters is interpreted as <code class="language-plaintext highlighter-rouge">*pattern*</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plocate */</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>

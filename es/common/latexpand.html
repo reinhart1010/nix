@@ -1,0 +1,34 @@
+<h1 id="latexpand">latexpand</h1>
+
+<p>Simplifica los archivos fuente LaTeX eliminando comentarios y resolviendo <code class="language-plaintext highlighter-rouge">\include</code>s, <code class="language-plaintext highlighter-rouge">\input</code>s, etc.
+Más información: <a href="https://www.ctan.org/pkg/latexpand">https://www.ctan.org/pkg/latexpand</a>.</p>
+
+<ul>
+  <li>Simplifica el archivo fuente dado y guarda el resultado en el archivo de salida especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexpand --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/salida.tex</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.tex</span></p>
+
+<ul>
+  <li>No elimina los comentarios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexpand --keep-comments --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/salida.tex</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.tex</span></p>
+
+<ul>
+  <li>No expande <code class="language-plaintext highlighter-rouge">\include</code>s, <code class="language-plaintext highlighter-rouge">\input</code>s etc.:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexpand --keep-includes --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/salida.tex</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.tex</span></p>
+
+<ul>
+  <li>Expande <code class="language-plaintext highlighter-rouge">\usepackage</code>s hasta encontrar los archivos STY correspondientes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexpand --expand-usepackage --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/salida.tex</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.tex</span></p>
+
+<ul>
+  <li>Incorpora el archivo BBL especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">latexpand --expand-bbl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/bibliografía.bbl</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/salida.tex</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.tex</span></p>

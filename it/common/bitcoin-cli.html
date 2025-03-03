@@ -1,0 +1,38 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="bitcoin-cli">bitcoin-cli</h1>
+
+<p>Client da linea di comando per interagire con il demone Bitcoin tramite chiamate RPC.
+Utilizza la configurazione definita in <code class="language-plaintext highlighter-rouge">bitcoin.conf</code>.
+Maggiori informazioni: <a href="https://en.bitcoin.it/wiki/Running_Bitcoin#Command-line_arguments">https://en.bitcoin.it/wiki/Running_Bitcoin#Command-line_arguments</a>.</p>
+
+<ul>
+  <li>Invia una transazione ad un dato indirizzo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli sendtoaddress "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">indirizzo</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">importo</span></p>
+
+<ul>
+  <li>Genera uno o più blocchi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli generate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_blocchi</span></p>
+
+<ul>
+  <li>Mostra informazioni di alto livello sul portafogli:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli getwalletinfo</code></p>
+
+<ul>
+  <li>Elenca tutti gli output di transazioni precedenti disponibili per finanziare una nuove transazioni:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli listunspent</code></p>
+
+<ul>
+  <li>Esporta le informazioni sul portafogli in un file di testo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bitcoin-cli dumpwallet "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span><code class="language-plaintext highlighter-rouge">"</code></p>

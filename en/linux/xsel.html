@@ -1,0 +1,40 @@
+<h1 id="xsel">xsel</h1>
+
+<p>X11 selection and clipboard manipulation tool.
+More information: <a href="https://manned.org/xsel">https://manned.org/xsel</a>.</p>
+
+<ul>
+  <li>Use a command's output as input of the clip[b]oard (equivalent to <code class="language-plaintext highlighter-rouge">Ctrl + C</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo 123 | xsel -ib</code></p>
+
+<ul>
+  <li>Use the contents of a file as input of the clipboard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> | xsel -ib</code></p>
+
+<ul>
+  <li>Output the clipboard's contents into the terminal (equivalent to <code class="language-plaintext highlighter-rouge">Ctrl + V</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsel -ob</code></p>
+
+<ul>
+  <li>Output the clipboard's contents into a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsel -ob &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Clear the clipboard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsel -cb</code></p>
+
+<ul>
+  <li>Output the X11 primary selection's contents into the terminal (equivalent to a mouse middle-click):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsel -op</code></p>

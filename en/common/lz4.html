@@ -1,0 +1,40 @@
+<h1 id="lz4">lz4</h1>
+
+<p>Compress or decompress .lz4 files.
+More information: <a href="https://github.com/lz4/lz4">https://github.com/lz4/lz4</a>.</p>
+
+<ul>
+  <li>Compress a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lz4 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Decompress a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lz4 -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.lz4</span></p>
+
+<ul>
+  <li>Decompress a file and write to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lz4 -dc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.lz4</span></p>
+
+<ul>
+  <li>Package and compress a directory and its contents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar cvf - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> | lz4 - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dir.tar.lz4</span></p>
+
+<ul>
+  <li>Decompress and unpack a directory and its contents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lz4 -dc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dir.tar.lz4</span><code class="language-plaintext highlighter-rouge"> | tar -xv</code></p>
+
+<ul>
+  <li>Compress a file using the best compression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lz4 -9 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

@@ -1,0 +1,46 @@
+<h1 id="redis-cli">redis-cli</h1>
+
+<p>Opens a connection to a Redis server.
+More information: <a href="https://redis.io/topics/rediscli">https://redis.io/topics/rediscli</a>.</p>
+
+<ul>
+  <li>Connect to the local server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">redis-cli</code></p>
+
+<ul>
+  <li>Connect to a remote server on the default port (6379):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">redis-cli -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Connect to a remote server specifying a port number:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">redis-cli -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Connect to a remote server specifying a URI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">redis-cli -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uri</span></p>
+
+<ul>
+  <li>Specify a password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">redis-cli -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Execute Redis command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">redis-cli </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">redis_command</span></p>
+
+<ul>
+  <li>Connect to the local cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">redis-cli -c</code></p>

@@ -1,0 +1,29 @@
+<h1 id="guacd">guacd</h1>
+
+<p>Apache Guacamole 프록시 데몬.
+Guacamole 프로토콜과 임의의 원격 데스크톱 프로토콜(예. RDP, VNC, 기타) 간의 인터페이스를 위한 클라이언트 플러그인용 로더를 지원ㄴ.
+더 많은 정보: <a href="https://guacamole.apache.org/">https://guacamole.apache.org/</a>.</p>
+
+<ul>
+  <li>localhost의 특정 포트에 바인딩:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">guacd -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4823</span></p>
+
+<ul>
+  <li>디버그 모드에서 시작하여, 프로세스를 포그라운드에 유지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">guacd -f -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">debug</span></p>
+
+<ul>
+  <li>TLS 지원과 함께 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">guacd -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my-cert.crt</span><code class="language-plaintext highlighter-rouge"> -K </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my-key.pem</span></p>
+
+<ul>
+  <li>PID을 파일에 작성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">guacd -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pid</span></p>

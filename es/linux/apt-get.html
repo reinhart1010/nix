@@ -1,0 +1,53 @@
+<h1 id="apt-get">apt-get</h1>
+
+<p>Utilidad de gestión de paquetes para Debian y Ubuntu.
+Búsqueda de paquetes mediante <code class="language-plaintext highlighter-rouge">apt-cache</code>.
+Más información: <a href="https://manned.org/apt-get.8">https://manned.org/apt-get.8</a>.</p>
+
+<ul>
+  <li>Actualiza la lista de paquetes y versiones disponibles (se recomienda ejecutar esto antes de otros comandos <code class="language-plaintext highlighter-rouge">apt-get</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get update</code></p>
+
+<ul>
+  <li>Instala un paquete o lo actualiza a la última versión disponible:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Elimina un paquete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Elimina un paquete y sus archivos de configuración:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get purge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Actualiza todos los paquetes instalados a sus versiones más recientes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get upgrade</code></p>
+
+<ul>
+  <li>Limpia el repositorio local: elimina los archivos de paquetes (<code class="language-plaintext highlighter-rouge">.deb</code>) de descargas interrumpidas que ya no pueden descargarse:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get autoclean</code></p>
+
+<ul>
+  <li>Elimina todos los paquetes que ya no sean necesarios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get autoremove</code></p>
+
+<ul>
+  <li>Actualiza los paquetes instalados (como <code class="language-plaintext highlighter-rouge">upgrade</code>), pero eliminando los paquetes obsoletos e instalando paquetes adicionales para satisfacer las nuevas dependencias:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get dist-upgrade</code></p>

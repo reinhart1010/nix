@@ -1,0 +1,28 @@
+<h1 id="ipcmk">ipcmk</h1>
+
+<p>Create IPC (Inter-process Communication) resources.
+More information: <a href="https://manned.org/ipcmk">https://manned.org/ipcmk</a>.</p>
+
+<ul>
+  <li>Create a shared memory segment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcmk --shmem </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">segment_size_in_bytes</span></p>
+
+<ul>
+  <li>Create a semaphore:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcmk --semaphore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">element_size</span></p>
+
+<ul>
+  <li>Create a message queue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcmk --queue</code></p>
+
+<ul>
+  <li>Create a shared memory segment with specific permissions (default is 0644):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcmk --shmem </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">segment_size_in_bytes</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">octal_permissions</span></p>

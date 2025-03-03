@@ -1,0 +1,35 @@
+<h1 id="rmmod">rmmod</h1>
+
+<p>Elimina módulos del núcleo Linux.
+Vea también: <code class="language-plaintext highlighter-rouge">kmod</code>, para otros comandos de gestión de módulos.
+Más información: <a href="https://manned.org/rmmod">https://manned.org/rmmod</a>.</p>
+
+<ul>
+  <li>Elimina un módulo del kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rmmod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_módulo</span></p>
+
+<ul>
+  <li>Elimina un módulo del kernel y muestra información detallada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rmmod --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_módulo</span></p>
+
+<ul>
+  <li>Elimina un módulo del kernel y envía los errores a syslog en lugar de a <code class="language-plaintext highlighter-rouge">stderr</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rmmod --syslog </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_modulo</span></p>
+
+<ul>
+  <li>Muestra la ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rmmod --help</code></p>
+
+<ul>
+  <li>Muestra la versión:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rmmod --version</code></p>

@@ -1,0 +1,28 @@
+<h1 id="ipcmk">ipcmk</h1>
+
+<p>IPC(프로세스 간 통신) 리소스 생성.
+더 많은 정보: <a href="https://manned.org/ipcmk">https://manned.org/ipcmk</a>.</p>
+
+<ul>
+  <li>공유 메모리 세그먼트 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcmk --shmem </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">세그먼트_크기_바이트</span></p>
+
+<ul>
+  <li>세마포어 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcmk --semaphore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">요소_크기</span></p>
+
+<ul>
+  <li>메시지 큐 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcmk --queue</code></p>
+
+<ul>
+  <li>특정 권한으로 공유 메모리 세그먼트 생성 (기본값은 0644):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcmk --shmem </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">세그먼트_크기_바이트</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8진수_권한</span></p>

@@ -1,0 +1,52 @@
+<h1 id="hsw-cli">hsw-cli</h1>
+
+<p>Alat baris perintah untuk mengakses dompet digital Handshake melalui koneksi REST API.
+Informasi lebih lanjut: <a href="https://github.com/handshake-org/hs-client">https://github.com/handshake-org/hs-client</a>.</p>
+
+<ul>
+  <li>Buka akses terhadap suatu dompet digital (nilai timeout dalam hitungan detik):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hsw-cli unlock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_sandi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">timeout</span></p>
+
+<ul>
+  <li>Kunci dompet saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hsw-cli lock</code></p>
+
+<ul>
+  <li>Tampilkan informasi terhadap dompet saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hsw-cli get</code></p>
+
+<ul>
+  <li>Tampilkan saldo dompet saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hsw-cli balance</code></p>
+
+<ul>
+  <li>Tampilkan riwayat transaksi yang menggunakan dompet saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hsw-cli history</code></p>
+
+<ul>
+  <li>Kirim suatu transaksi dengan suatu nominal koin menuju suatu alamat dompet tujuan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hsw-cli send </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat_tujuan</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.05</span></p>
+
+<ul>
+  <li>Tampilkan daftar transaksi yang berstatus tertunda (pending) yang melibatkan dompet ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hsw-cli pending</code></p>
+
+<ul>
+  <li>Tampilkan informasi rincian suatu transaksi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hsw-cli tx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash_transaksi</span></p>

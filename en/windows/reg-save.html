@@ -1,0 +1,16 @@
+<h1 id="reg-save">reg save</h1>
+
+<p>Save a registry key, its subkeys and values to a native <code class="language-plaintext highlighter-rouge">.hiv</code> file.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/reg-save">https://learn.microsoft.com/windows-server/administration/windows-commands/reg-save</a>.</p>
+
+<ul>
+  <li>Save a registry key, its subkeys and values to a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file.hiv</span></p>
+
+<ul>
+  <li>Forcefully (assuming [y]es) overwrite an existing file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file.hiv</span><code class="language-plaintext highlighter-rouge"> /y</code></p>

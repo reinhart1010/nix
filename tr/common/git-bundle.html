@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-bundle">git bundle</h1>
+
+<p>Cisim ve referansları bir arşive paketle.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-bundle">https://git-scm.com/docs/git-bundle</a>.</p>
+
+<ul>
+  <li>Belirtilmiş bir dalın tüm cisim ve referanslarını içeren bir paket dosyası oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosyas.bundle</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_ismi</span></p>
+
+<ul>
+  <li>Tüm dallar için bir paket dosyası oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosyas.bundle</span><code class="language-plaintext highlighter-rouge"> --all</code></p>
+
+<ul>
+  <li>Mevcut daldaki en son 5 commit için bir paket dosyası oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya.bundle</span><code class="language-plaintext highlighter-rouge"> -5 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>Son 7 günü içeren bir paket dosyası oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya.bundle</span><code class="language-plaintext highlighter-rouge"> --since=7.days </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>Bir paket dosyasının geçerli olduğunu ve mevcut depoya uygulanabileceğini doğrula:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya.bundle</span></p>
+
+<ul>
+  <li>Bir pakette bulunan referansları sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle unbundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya.bundle</span></p>
+
+<ul>
+  <li>Belirtilen dalı paket dosyasından çıkarıp mevcut depoya koy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya.bundle</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_ismi</span></p>

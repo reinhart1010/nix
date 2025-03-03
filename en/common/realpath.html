@@ -1,0 +1,34 @@
+<h1 id="realpath">realpath</h1>
+
+<p>Display the resolved absolute path for a file or directory.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/realpath-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/realpath-invocation.html</a>.</p>
+
+<ul>
+  <li>Display the absolute path for a file or directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">realpath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Require all path components to exist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">realpath --canonicalize-existing </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Resolve ".." components before symlinks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">realpath --logical </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Disable symlink expansion:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">realpath --no-symlinks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Suppress error messages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">realpath --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>

@@ -1,0 +1,40 @@
+<h1 id="grim">grim</h1>
+
+<p>Grab images (Screenshots) from a Wayland compositor.
+More information: <a href="https://sr.ht/~emersion/grim">https://sr.ht/~emersion/grim</a>.</p>
+
+<ul>
+  <li>Screenshot all outputs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grim</code></p>
+
+<ul>
+  <li>Screenshot a specific output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grim -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span></p>
+
+<ul>
+  <li>Screenshot a specific region:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grim -g "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><x_position>,<y_position> <width>x<height>&lt;/span&gt;`"`</height></width></y_position></x_position></span></p>
+
+<ul>
+  <li>Select a specific region and screenshot it, (using slurp):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grim -g "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$(slurp)</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Use a custom filename:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grim "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.png</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Screenshot and copy to clipboard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grim - | </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clipboard_manager</span></p>

@@ -1,0 +1,34 @@
+<h1 id="dotnet-run">dotnet run</h1>
+
+<p>Run a .NET application without explicit compile or launch commands.
+More information: <a href="https://learn.microsoft.com/dotnet/core/tools/dotnet-run">https://learn.microsoft.com/dotnet/core/tools/dotnet-run</a>.</p>
+
+<ul>
+  <li>Run the project in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet run</code></p>
+
+<ul>
+  <li>Run a specific project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet run --project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csproj</span></p>
+
+<ul>
+  <li>Run the project with specific arguments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet run -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arg1=foo arg2=bar …</span></p>
+
+<ul>
+  <li>Run the project using a target framework moniker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet run --framework </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">net7.0</span></p>
+
+<ul>
+  <li>Specify architecture and OS, available since .NET 6 (Don't use <code class="language-plaintext highlighter-rouge">--runtime</code> with these options):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet run --arch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x86|x64|arm|arm64</span><code class="language-plaintext highlighter-rouge"> --os </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">win|win7|osx|linux|ios|android</span></p>

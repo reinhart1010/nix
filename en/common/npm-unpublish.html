@@ -1,0 +1,34 @@
+<h1 id="npm-unpublish">npm unpublish</h1>
+
+<p>Remove a package from the npm registry.
+More information: <a href="https://docs.npmjs.com/cli/v8/commands/npm-unpublish">https://docs.npmjs.com/cli/v8/commands/npm-unpublish</a>.</p>
+
+<ul>
+  <li>Unpublish a specific package version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm unpublish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Unpublish the entire package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm unpublish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span><code class="language-plaintext highlighter-rouge"> --force</code></p>
+
+<ul>
+  <li>Unpublish a package that is scoped:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm unpublish @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scope</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>Specify a timeout period before unpublishing:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm unpublish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span><code class="language-plaintext highlighter-rouge"> --timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">time_in_milliseconds</span></p>
+
+<ul>
+  <li>To prevent accidental unpublishing, use the <code class="language-plaintext highlighter-rouge">--dry-run</code> flag to see what would be unpublished:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm unpublish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span><code class="language-plaintext highlighter-rouge"> --dry-run</code></p>

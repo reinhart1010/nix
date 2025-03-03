@@ -1,0 +1,28 @@
+<h1 id="opensnoop">opensnoop</h1>
+
+<p>Herramienta que rastrea las aperturas de archivos en tu sistema.
+Más información: <a href="https://keith.github.io/xcode-man-pages/opensnoop.1m.html">https://keith.github.io/xcode-man-pages/opensnoop.1m.html</a>.</p>
+
+<ul>
+  <li>Imprime todos los archivos abiertos a medida que ocurren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo opensnoop</code></p>
+
+<ul>
+  <li>Rastrea todos los archivos abiertos por un proceso por su nombre:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo opensnoop -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_proceso</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Rastrea todos los archivos abiertos por un proceso por PID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo opensnoop -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>
+
+<ul>
+  <li>Seguimiento de los procesos que abren un archivo especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo opensnoop -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>

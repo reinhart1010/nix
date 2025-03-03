@@ -1,0 +1,25 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="apt-file">apt-file</h1>
+
+<p>Cerca un file dentro un pacchetto APT, includendo quelli non ancora installati.
+Maggiori informazioni: <a href="https://manned.org/apt-file.1">https://manned.org/apt-file.1</a>.</p>
+
+<ul>
+  <li>Aggiorna il database dei metadati:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>Cerca i pacchetti che contengono un file o un percorso specificato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-file search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parte/del/filename</span></p>
+
+<ul>
+  <li>Elenca i contenuti di un pacchetto specifico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-file list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_del_pacchetto</span></p>

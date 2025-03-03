@@ -1,0 +1,40 @@
+<h1 id="envoy">envoy</h1>
+
+<p>A PHP-based task manager for Laravel remote servers.
+More information: <a href="https://laravel.com/docs/envoy">https://laravel.com/docs/envoy</a>.</p>
+
+<ul>
+  <li>Initialize a configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">envoy init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_name</span></p>
+
+<ul>
+  <li>Run a task:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">envoy run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span></p>
+
+<ul>
+  <li>Run a task from a specific project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">envoy run --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span></p>
+
+<ul>
+  <li>Run a task and continue on failure:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">envoy run --continue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span></p>
+
+<ul>
+  <li>Dump a task as a Bash script for inspection:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">envoy run --pretend </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span></p>
+
+<ul>
+  <li>Connect to the specified server via SSH:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">envoy ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_name</span></p>

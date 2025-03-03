@@ -1,0 +1,29 @@
+<h1 id="waymore">waymore</h1>
+
+<p>Fetch URLs of a domain from Wayback Machine, Common Crawl, Alien Vault OTX, URLScan, and VirusTotal.
+Note: Unless specified, output is dumped into the <code class="language-plaintext highlighter-rouge">results/</code> directory where waymore's <code class="language-plaintext highlighter-rouge">config.yml</code> resides (by default in <code class="language-plaintext highlighter-rouge">~/.config/waymore/</code>).
+More information: <a href="https://github.com/xnl-h4ck3r/waymore">https://github.com/xnl-h4ck3r/waymore</a>.</p>
+
+<ul>
+  <li>Search for URLs of a domain (output will typically be in <code class="language-plaintext highlighter-rouge">~/.config/waymore/results/</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waymore -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Limit search results to only include a list of URLs for a domain and store outputs to the specified file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waymore -mode U -oU </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/example.com-urls.txt</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Only output the content bodies of URLs and store outputs to the specified directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waymore -mode R -oR </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/example.com-url-responses</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Filter the results by specifying date ranges:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">waymore -from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDD|YYYYMM|YYYY</span><code class="language-plaintext highlighter-rouge"> -to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDD|YYYYMM|YYYY</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>

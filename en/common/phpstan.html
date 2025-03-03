@@ -1,0 +1,40 @@
+<h1 id="phpstan">phpstan</h1>
+
+<p>A PHP static analysis tool to discover bugs in code.
+More information: <a href="https://github.com/phpstan/phpstan">https://github.com/phpstan/phpstan</a>.</p>
+
+<ul>
+  <li>Analyze one or more directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpstan analyse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 …</span></p>
+
+<ul>
+  <li>Analyze a directory using a configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpstan analyse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --configuration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config</span></p>
+
+<ul>
+  <li>Analyze using a specific rule level (0-7, higher is stricter):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpstan analyse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">level</span></p>
+
+<ul>
+  <li>Specify an autoload file to load before analyzing:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpstan analyse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --autoload-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/autoload_file</span></p>
+
+<ul>
+  <li>Specify a memory limit during analysis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpstan analyse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --memory-limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memory_limit</span></p>
+
+<ul>
+  <li>Display available options for analysis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phpstan analyse --help</code></p>

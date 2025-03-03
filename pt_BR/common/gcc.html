@@ -1,0 +1,52 @@
+<h1 id="gcc">gcc</h1>
+
+<p>Pré-processa e compila arquivos de código fonte C e C++, depois monta-os e vincula-os.
+Mais informações: <a href="https://gcc.gnu.org">https://gcc.gnu.org</a>.</p>
+
+<ul>
+  <li>Compila múltiplos arquivos de código fonte, produzindo um arquivo executável:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_fonte1.c caminho/para/arquivo_fonte2.c …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/executável_de_saída</span></p>
+
+<ul>
+  <li>Ativa a saída de todos os erros e avisos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/fonte.c</span><code class="language-plaintext highlighter-rouge"> -Wall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executável_de_saída</span></p>
+
+<ul>
+  <li>Mostra avisos comuns, símbolos de depuração na saída, e otimiza sem afetar a depuração:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/fonte.c</span><code class="language-plaintext highlighter-rouge"> -Wall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–debug</span><code class="language-plaintext highlighter-rouge"> -Og </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/executável_de_saída</span></p>
+
+<ul>
+  <li>Inclui bibliotecas de um local diferente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/fonte.c</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/executável_de_saída</span><code class="language-plaintext highlighter-rouge"> -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/header</span><code class="language-plaintext highlighter-rouge"> -L</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/biblioteca</span><code class="language-plaintext highlighter-rouge"> -l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_biblioteca</span></p>
+
+<ul>
+  <li>Compila o código fonte para instruções Assembler:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-S|–assemble</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/fonte.c</span></p>
+
+<ul>
+  <li>Compila o código fonte sem efetuar vinculação:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–compile</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/font.c</span></p>
+
+<ul>
+  <li>Otimiza o programa compilado para desempenho:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/fonte.c</span><code class="language-plaintext highlighter-rouge"> -O</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3|fast</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/executável_de_saída</span></p>
+
+<ul>
+  <li>Mostra versão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc --version</code></p>

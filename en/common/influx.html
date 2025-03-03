@@ -1,0 +1,40 @@
+<h1 id="influx">influx</h1>
+
+<p>InfluxDB command-line client.
+More information: <a href="https://docs.influxdata.com/influxdb/v1.7/tools/shell/">https://docs.influxdata.com/influxdb/v1.7/tools/shell/</a>.</p>
+
+<ul>
+  <li>Connect to an InfluxDB running on localhost with no credentials:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">influx</code></p>
+
+<ul>
+  <li>Connect with a specific username (will prompt for a password):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">influx -username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -password ""</code></p>
+
+<ul>
+  <li>Connect to a specific host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">influx -host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span></p>
+
+<ul>
+  <li>Use a specific database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">influx -database </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_name</span></p>
+
+<ul>
+  <li>Execute a given command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">influx -execute "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">influxql_command</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Return output in a specific format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">influx -execute "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">influxql_command</span><code class="language-plaintext highlighter-rouge">" -format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|csv|column</span></p>

@@ -1,0 +1,34 @@
+<h1 id="in-toto-sign">in-toto-sign</h1>
+
+<p>Sign in-toto link or layout metadata or verify their signatures.
+More information: <a href="https://in-toto.readthedocs.io/en/latest/command-line-tools/in-toto-sign.html">https://in-toto.readthedocs.io/en/latest/command-line-tools/in-toto-sign.html</a>.</p>
+
+<ul>
+  <li>Sign 'unsigned.layout' with two keys and write it to 'root.layout':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">in-toto-sign -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unsigned.layout</span><code class="language-plaintext highlighter-rouge"> -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">priv_key1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">priv_key2</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root.layout</span></p>
+
+<ul>
+  <li>Replace signature in link file and write to default filename:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">in-toto-sign -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package.2f89b927.link</span><code class="language-plaintext highlighter-rouge"> -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">priv_key</span></p>
+
+<ul>
+  <li>Verify a layout signed with 3 keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">in-toto-sign -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root.layout</span><code class="language-plaintext highlighter-rouge"> -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pub_key0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pub_key1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pub_key2</span><code class="language-plaintext highlighter-rouge"> --verify</code></p>
+
+<ul>
+  <li>Sign a layout with the default GPG key in default GPG keyring:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">in-toto-sign -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root.layout</span><code class="language-plaintext highlighter-rouge"> --gpg</code></p>
+
+<ul>
+  <li>Verify a layout with a GPG key identified by keyid '…439F3C2':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">in-toto-sign -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root.layout</span><code class="language-plaintext highlighter-rouge"> --verify --gpg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">…439F3C2</span></p>

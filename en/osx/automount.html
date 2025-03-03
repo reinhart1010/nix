@@ -1,0 +1,23 @@
+<h1 id="automount">automount</h1>
+
+<p>Read the <code class="language-plaintext highlighter-rouge">/etc/auto_master</code> file and mount <code class="language-plaintext highlighter-rouge">autofs</code> on the appropriate mount points to trigger the on-demand mounting of directories. Essentially, it's a way to manually initiate the system's automounting process.
+Note: You'll most likely need to run with <code class="language-plaintext highlighter-rouge">sudo</code> if you don't have the necessary permissions.
+More information: <a href="https://keith.github.io/xcode-man-pages/automount.8.html">https://keith.github.io/xcode-man-pages/automount.8.html</a>.</p>
+
+<ul>
+  <li>Run automount, flush the cache(<code class="language-plaintext highlighter-rouge">-c</code>) beforehand, and be verbose(<code class="language-plaintext highlighter-rouge">-v</code>) about it (most common use):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">automount -cv</code></p>
+
+<ul>
+  <li>Automatically unmount after 5 minutes (300 seconds) of inactivity:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">automount -t 300</code></p>
+
+<ul>
+  <li>Unmount anything previously mounted by automount and/or defined in <code class="language-plaintext highlighter-rouge">/etc/auto_master</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">automount -u</code></p>

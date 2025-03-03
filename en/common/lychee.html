@@ -1,0 +1,34 @@
+<h1 id="lychee">lychee</h1>
+
+<p>Find broken URLs.
+More information: <a href="https://lychee.cli.rs/usage/cli/">https://lychee.cli.rs/usage/cli/</a>.</p>
+
+<ul>
+  <li>Scan a website for broken links:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lychee </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Display a breakdown of error types:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lychee --format detailed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Limit the amount of connections to prevent DDOS protection:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lychee --max-concurrency </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">links.txt</span></p>
+
+<ul>
+  <li>Check files in a directory structure for any broken URLs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep -r "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span><code class="language-plaintext highlighter-rouge">" | lychee -</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lychee --help</code></p>

@@ -1,0 +1,46 @@
+<h1 id="phan">phan</h1>
+
+<p>PHP용 정적 분석 도구.
+더 많은 정보: <a href="https://github.com/phan/phan">https://github.com/phan/phan</a>.</p>
+
+<ul>
+  <li>현재 디렉터리에 <code class="language-plaintext highlighter-rouge">.phan/config.php</code> 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phan --init</code></p>
+
+<ul>
+  <li>특정 레벨을 사용하여 Phan 구성 파일 생성 (1이 가장 엄격하고 5가 가장 덜 엄격함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phan --init --init-level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레벨</span></p>
+
+<ul>
+  <li>현재 디렉터리 분석:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phan</code></p>
+
+<ul>
+  <li>하나 이상의 디렉터리 분석:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phan --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/다른_폴더</span></p>
+
+<ul>
+  <li>구성 파일 지정 (기본값은 <code class="language-plaintext highlighter-rouge">.phan/config.php</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phan --config-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/config.php</span></p>
+
+<ul>
+  <li>출력 모드 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phan --output-mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text|verbose|json|csv|codeclimate|checkstyle|pylint|html</span></p>
+
+<ul>
+  <li>병렬 프로세스 수 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phan --processes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로세스_수</span></p>

@@ -1,0 +1,35 @@
+<h1 id="x11docker">x11docker</h1>
+
+<p>Executar aplicativos de GUI e interfaces de desktop seguramente em contêineres do Docker.
+Veja também <code class="language-plaintext highlighter-rouge">xephyr</code>.
+Mais informações: <a href="https://github.com/mviereck/x11docker">https://github.com/mviereck/x11docker</a>.</p>
+
+<ul>
+  <li>Inicia o VLC em um contêiner:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">x11docker --pulseaudio --share=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$HOME/Videos</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jess/vlc</span></p>
+
+<ul>
+  <li>Inicia o Xfce em uma janela:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">x11docker --desktop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x11docker/xfce</span></p>
+
+<ul>
+  <li>Inicia o GNOME em uma janela:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">x11docker --desktop --gpu --init=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemd</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x11docker/gnome</span></p>
+
+<ul>
+  <li>Inicia o KDE Plasma em uma janela:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">x11docker --desktop --gpu --init=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemd</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x11docker/kde-plasma</span></p>
+
+<ul>
+  <li>Exibe ajuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">x11docker --help</code></p>

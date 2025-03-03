@@ -1,0 +1,35 @@
+<h1 id="patch">patch</h1>
+
+<p>Emparcha un archivo (o archivos) con un archivo diff.
+Ten en cuenta que los archivos diff deben ser generados por el comando <code class="language-plaintext highlighter-rouge">diff</code>.
+Más información: <a href="https://manned.org/patch">https://manned.org/patch</a>.</p>
+
+<ul>
+  <li>Aplica un parche usando un archivo diff (los nombres de archivo deben incluirse en el archivo diff):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">patch &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parche.diff</span></p>
+
+<ul>
+  <li>Aplica un parche a un archivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parche.diff</span></p>
+
+<ul>
+  <li>Emparcha un archivo escribiendo el resultado a un archivo diferente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_entrada</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_resultado</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parche.diff</span></p>
+
+<ul>
+  <li>Aplica un parche al directorio actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">patch -p1 &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parche.diff</span></p>
+
+<ul>
+  <li>Aplica el reverso de un parche:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">patch -R &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parche.diff</span></p>

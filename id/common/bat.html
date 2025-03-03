@@ -1,0 +1,53 @@
+<h1 id="bat">bat</h1>
+
+<p>Cetak dan gabungkan berkas.
+Sebuah klon atas program <code class="language-plaintext highlighter-rouge">cat</code> dengan sintaks berwarna dan integrasi Git.
+Informasi lebih lanjut: <a href="https://github.com/sharkdp/bat">https://github.com/sharkdp/bat</a>.</p>
+
+<ul>
+  <li>Cetak rapi konten berkas ke <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 …</span></p>
+
+<ul>
+  <li>Gabungkan konten beberapa berkas ke berkas tujuan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_tujuan</span></p>
+
+<ul>
+  <li>Hapus dekorasi dan matikan fitur tampilan halaman (paging) (opsi <code class="language-plaintext highlighter-rouge">--style plain</code> dapat digantikan dengan <code class="language-plaintext highlighter-rouge">-p</code>, atau nyalakan kedua opsi dengan <code class="language-plaintext highlighter-rouge">-pp</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat --style plain --pager never </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span></p>
+
+<ul>
+  <li>Sorot baris tertentu dengan warna latar belakang yang berbeda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-H|–highlight-line</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10|5:10|:10|10:|10:+5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span></p>
+
+<ul>
+  <li>Tunjukkan segala karakter yang tak tercetak seperti spasi, tab, atau indikator baris baru:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-A|–show-all</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span></p>
+
+<ul>
+  <li>Hapus seluruh informasi dekoratif selain nomor baris pada luaran program:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–number</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span></p>
+
+<ul>
+  <li>Tampilkan sintaks berwarna terhadap berkas JSON dengan mengatur bahasa sintaks berkas secara eksplisit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–language</span><code class="language-plaintext highlighter-rouge"> json </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.json</span></p>
+
+<ul>
+  <li>Tampilka semua jenis bahasa sintaks berkas yang didukung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-L|–list-languages</span></p>

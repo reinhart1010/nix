@@ -1,0 +1,52 @@
+<h1 id="oxipng">oxipng</h1>
+
+<p>Losslessly improve compression of PNG files.
+More information: <a href="https://github.com/shssoichiro/oxipng">https://github.com/shssoichiro/oxipng</a>.</p>
+
+<ul>
+  <li>Compress a PNG file (overwrites the file by default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">oxipng </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.png</span></p>
+
+<ul>
+  <li>Compress a PNG file and save the output to a new file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">oxipng --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.png</span></p>
+
+<ul>
+  <li>Compress all PNG files in the current directory using multiple threads:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">oxipng "*.png"</code></p>
+
+<ul>
+  <li>Compress a file with a set optimization level (default is 2):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">oxipng --opt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|2|3|4|5|6|max</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.png</span></p>
+
+<ul>
+  <li>Set the PNG interlacing type (<code class="language-plaintext highlighter-rouge">0</code> removes interlacing, <code class="language-plaintext highlighter-rouge">1</code> applies Adam7 interlacing, <code class="language-plaintext highlighter-rouge">keep</code> preserves existing interlacing; default is <code class="language-plaintext highlighter-rouge">0</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">oxipng --interlace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|keep</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.png</span></p>
+
+<ul>
+  <li>Perform additional optimization on images with an alpha channel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">oxipng --alpha </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.png</span></p>
+
+<ul>
+  <li>Use the much slower but stronger Zopfli compressor with max optimization:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">oxipng --zopfli --opt max </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.png</span></p>
+
+<ul>
+  <li>Strip all non-critical metadata chunks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">oxipng --strip all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.png</span></p>

@@ -1,0 +1,35 @@
+<h1 id="modprobe">modprobe</h1>
+
+<p>Añade o elimina módulos del núcleo Linux.
+Vea también: <code class="language-plaintext highlighter-rouge">kmod</code>, para otros comandos de gestión de módulos.
+Más información: <a href="https://manned.org/modprobe">https://manned.org/modprobe</a>.</p>
+
+<ul>
+  <li>Finge cargar un módulo en el kernel, pero no lo hace realmente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe --dry-run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_módulo</span></p>
+
+<ul>
+  <li>Carga un módulo en el kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_módulo</span></p>
+
+<ul>
+  <li>Elimina un módulo del núcleo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe --remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_módulo</span></p>
+
+<ul>
+  <li>Elimina un módulo y los que dependen de él desde el núcleo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe --remove-dependencies </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_módulo</span></p>
+
+<ul>
+  <li>Muestra las dependencias de un módulo del kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe --show-depends </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_módulo</span></p>

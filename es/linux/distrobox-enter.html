@@ -1,0 +1,23 @@
+<h1 id="distrobox-enter">distrobox-enter</h1>
+
+<p>Entra a un contenedor Distrobox. Véase también: <code class="language-plaintext highlighter-rouge">tldr distrobox</code>.
+El comando ejecutado por defecto es su SHELL, pero puede especificar otros o comandos enteros a ejecutar. Si se utiliza dentro de un script, una aplicación o un servicio, puede utilizar el modo <code class="language-plaintext highlighter-rouge">--headless</code> para desactivar tty e interactividad.
+Más información: <a href="https://distrobox.it/usage/distrobox-enter">https://distrobox.it/usage/distrobox-enter</a>.</p>
+
+<ul>
+  <li>Entra a un contenedor Distrobox:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-enter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_contenedor</span></p>
+
+<ul>
+  <li>Entra a un contenedor Distrobox y ejecuta un comando al iniciar sesión:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-enter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_contenedor</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh -l</span></p>
+
+<ul>
+  <li>Entra a un contenedor Distrobox sin instanciar una tty:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-enter --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_contenedor</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uptime -p</span></p>

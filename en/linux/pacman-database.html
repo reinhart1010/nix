@@ -1,0 +1,42 @@
+<h1 id="pacman-database">pacman –database</h1>
+
+<p>Operate on the Arch Linux package database.
+Modify certain attributes of the installed packages.
+See also: <code class="language-plaintext highlighter-rouge">pacman</code>.
+More information: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Mark a package as implicitly installed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -D --asdeps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Mark a package as explicitly installed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -D --asexplicit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Chec[k] that all the package dependencies are installed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Dk</code></p>
+
+<ul>
+  <li>Chec[k] the sync [D]atabase to ensure all specified dependencies of downloadable packages are available:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Dkk</code></p>
+
+<ul>
+  <li>Chec[k] and display in [q]uiet mode (only error messages are displayed):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Dkq</code></p>
+
+<ul>
+  <li>Display [h]elp:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Dh</code></p>

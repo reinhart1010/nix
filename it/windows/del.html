@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="del">del</h1>
+
+<p>Cancella uno o più file.
+Maggiori informazioni: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/del">https://learn.microsoft.com/windows-server/administration/windows-commands/del</a>.</p>
+
+<ul>
+  <li>Cancella uno o più (separati da uno spazio) file o pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_di_file</span></p>
+
+<ul>
+  <li>Chiedi conferma prima di cancellare ogni file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_di_file</span><code class="language-plaintext highlighter-rouge"> /p</code></p>
+
+<ul>
+  <li>Forza l'eliminazione di un file a sola lettura:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_di_file</span><code class="language-plaintext highlighter-rouge"> /f</code></p>
+
+<ul>
+  <li>Elimina in modo ricorsivo i file da tutte le sottodirectory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_di_file</span><code class="language-plaintext highlighter-rouge"> /s</code></p>
+
+<ul>
+  <li>Non chiedere conferma quando si eliminano i file in base a un carattere globale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_di_file</span><code class="language-plaintext highlighter-rouge"> /q</code></p>
+
+<ul>
+  <li>Mostra il messaggio d'aiuto e fà vedere la lista di attributi disponibili:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del /?</code></p>
+
+<ul>
+  <li>Cancella dei file in base a degli attributi specifici:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_di_file</span><code class="language-plaintext highlighter-rouge"> /a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">attributo</span></p>

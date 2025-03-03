@@ -1,0 +1,28 @@
+<h1 id="pyinfra">pyinfra</h1>
+
+<p>대규모 인프라를 자동화.
+더 많은 정보: <a href="https://docs.pyinfra.com">https://docs.pyinfra.com</a>.</p>
+
+<ul>
+  <li>SSH를 통해 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pyinfra </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상_IP_주소</span><code class="language-plaintext highlighter-rouge"> exec -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어_및_인수</span></p>
+
+<ul>
+  <li>대상 목록에 있는 서버에 배포 파일의 내용을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pyinfra </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/목록.py</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/배포.py</span></p>
+
+<ul>
+  <li>로컬에서 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pyinfra @local </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/배포.py</span></p>
+
+<ul>
+  <li>Docker를 통해 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pyinfra @docker/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/배포.py</span></p>

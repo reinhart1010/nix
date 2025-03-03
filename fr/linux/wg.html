@@ -1,0 +1,34 @@
+<h1 id="wg">wg</h1>
+
+<p>Gestion de la configuration des interfaces WireGuard.
+Plus d'informations : <a href="https://www.wireguard.com/quickstart/">https://www.wireguard.com/quickstart/</a>.</p>
+
+<ul>
+  <li>Vérifier l'état des interfaces actuellement actives :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo wg</code></p>
+
+<ul>
+  <li>Générer une clé privée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wg genkey</code></p>
+
+<ul>
+  <li>Générer une clé publique à partir d'une clé privée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wg pubkey &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/clé_privée</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/clé_publique</span></p>
+
+<ul>
+  <li>Générer une clé publique et privée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wg genkey | tee </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/clé_privée</span><code class="language-plaintext highlighter-rouge"> | wg pubkey &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/clé_publique</span></p>
+
+<ul>
+  <li>Afficher la configuration actuelle d'une interface wireguard :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo wg showconf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wg0</span></p>

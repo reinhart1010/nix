@@ -1,0 +1,53 @@
+<h1 id="pacman-key">pacman-key</h1>
+
+<p>Skrypt opakowujący dla GnuPG używany do zarządzania pękiem kluczy pacmana.
+Zobacz także: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Więcej informacji: <a href="https://manned.org/pacman-key">https://manned.org/pacman-key</a>.</p>
+
+<ul>
+  <li>Zainicjalizuj pęk kluczy pacmana:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-key --init</code></p>
+
+<ul>
+  <li>Dodaj domyślne klucze Arch Linuksa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-key --populate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archlinux</span></p>
+
+<ul>
+  <li>Wyświetl klucze z pęku publicznego:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman-key --list-keys</code></p>
+
+<ul>
+  <li>Dodaj podane klucze:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-key --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/klucza.gpg</span></p>
+
+<ul>
+  <li>Pobierz klucz z serwera kluczy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-key --recv-keys "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uid|imię|email</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Wyświetl odcisk podanego klucza:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman-key --finger "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uid|imię|email</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Podpisz zaimportowany klucz lokalnie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-key --lsign-key "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uid|imię|email</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Usuń podany klucz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-key --delete "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uid|imię|email</span><code class="language-plaintext highlighter-rouge">"</code></p>

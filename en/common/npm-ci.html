@@ -1,0 +1,23 @@
+<h1 id="npm-ci">npm ci</h1>
+
+<p>Clean install of <code class="language-plaintext highlighter-rouge">npm</code> project dependencies for automated environments.
+Installs packages based on <code class="language-plaintext highlighter-rouge">package-lock.json</code> or <code class="language-plaintext highlighter-rouge">npm-shrinkwrap.json</code>.
+More information: <a href="https://docs.npmjs.com/cli/commands/npm-ci">https://docs.npmjs.com/cli/commands/npm-ci</a>.</p>
+
+<ul>
+  <li>Install project dependencies from <code class="language-plaintext highlighter-rouge">package-lock.json</code> or <code class="language-plaintext highlighter-rouge">npm-shrinkwrap.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm ci</code></p>
+
+<ul>
+  <li>Install project dependencies but skip the specified dependency type:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm ci --omit=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dev|optional|peer</span></p>
+
+<ul>
+  <li>Install project dependencies without running any pre-/post-scripts defined in <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm ci --ignore-scripts</code></p>

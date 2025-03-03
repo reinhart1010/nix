@@ -1,0 +1,22 @@
+<h1 id="conda-create">conda create</h1>
+
+<p>Erstelle neue Conda-Umgebungen.
+Weitere Informationen: <a href="https://docs.conda.io/projects/conda/en/latest/commands/create.html">https://docs.conda.io/projects/conda/en/latest/commands/create.html</a>.</p>
+
+<ul>
+  <li>Erstelle eine neue Umgebung mit dem Namen <code class="language-plaintext highlighter-rouge">py39</code> und installiere Python 3.9 und NumPy v1.11 (oder höher) darin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda create --yes --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">py39</span><code class="language-plaintext highlighter-rouge"> python=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3.9</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numpy&gt;=1.11</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Erstelle eine exakte Kopie einer Umgebung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda create --clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">py39</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">py39-copy</span></p>
+
+<ul>
+  <li>Erstelle eine neue Umgebung mit gegebenem Namen und den zu installierenden Paketen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">umgebungsname</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span></p>

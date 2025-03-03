@@ -1,0 +1,52 @@
+<h1 id="clamscan">clamscan</h1>
+
+<p>Um antivírus de linha de comando.
+Mais informações: <a href="https://docs.clamav.net/manual/Usage/Scanning.html#clamscan">https://docs.clamav.net/manual/Usage/Scanning.html#clamscan</a>.</p>
+
+<ul>
+  <li>Faz uma varredura em um arquivo por vulnerabilidades:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span></p>
+
+<ul>
+  <li>Faz uma varredura em todos os arquivos recursivamente em um diretório específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Faz uma varredura nos dados da <code class="language-plaintext highlighter-rouge">stdin</code> (entrada padrão):</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | clamscan -</code></p>
+
+<ul>
+  <li>Especifica um arquivo de banco de dados de vírus ou diretório de arquivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --database </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório_ou_arquivo_banco_de_dados</span></p>
+
+<ul>
+  <li>Faz uma varredura no diretório atual e lista apenas os arquivos infectados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --infected</code></p>
+
+<ul>
+  <li>Gera um relatório da varredura para um arquivo de registro:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_registro</span></p>
+
+<ul>
+  <li>Move arquivos infectados para um diretório específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório_de_quarentena</span></p>
+
+<ul>
+  <li>Remove arquivos infectados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --remove yes</code></p>

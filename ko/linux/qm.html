@@ -1,0 +1,41 @@
+<h1 id="qm">qm</h1>
+
+<p>QEMU/KVM 가상 머신 관리자.
+<code class="language-plaintext highlighter-rouge">list</code>, <code class="language-plaintext highlighter-rouge">start</code>, <code class="language-plaintext highlighter-rouge">stop</code>, <code class="language-plaintext highlighter-rouge">clone</code> 등의 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+더 많은 정보: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>모든 가상 머신 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm list</code></p>
+
+<ul>
+  <li>로컬 스토리지에 업로드된 ISO 파일을 사용하여 <code class="language-plaintext highlighter-rouge">local-lvm</code> 스토리지에 4 GB IDE 디스크와 ID가 100인 가상 머신 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> -ide0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local-lvm:4</span><code class="language-plaintext highlighter-rouge"> -net0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">e1000</span><code class="language-plaintext highlighter-rouge"> -cdrom </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local:iso/proxmox-mailgateway_2.1.iso</span></p>
+
+<ul>
+  <li>가상 머신의 ID를 지정하여 구성 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span></p>
+
+<ul>
+  <li>특정 가상 머신 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span></p>
+
+<ul>
+  <li>종료 요청을 보내고, 가상 머신이 중지될 때까지 대기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm shutdown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; qm wait </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span></p>
+
+<ul>
+  <li>가상 머신을 제거하고 모든 관련 리소스 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm destroy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --purge</code></p>

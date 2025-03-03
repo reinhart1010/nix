@@ -1,0 +1,52 @@
+<h1 id="mount">mount</h1>
+
+<p>Get access to an entire filesystem in one directory.
+More information: <a href="https://manned.org/mount.8">https://manned.org/mount.8</a>.</p>
+
+<ul>
+  <li>Show all mounted filesystems:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount</code></p>
+
+<ul>
+  <li>Mount a device to a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filesystem_type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/device_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_directory</span></p>
+
+<ul>
+  <li>Create a specific directory if it does not exist and mount a device to it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount --mkdir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/device_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_directory</span></p>
+
+<ul>
+  <li>Mount a device to a directory for a specific user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -o uid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_id</span><code class="language-plaintext highlighter-rouge">,gid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/device_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_directory</span></p>
+
+<ul>
+  <li>Mount a CD-ROM device (with the filetype ISO9660) to <code class="language-plaintext highlighter-rouge">/cdrom</code> (readonly):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">iso9660</span><code class="language-plaintext highlighter-rouge"> -o ro </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/cdrom</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/cdrom</span></p>
+
+<ul>
+  <li>Mount all the filesystem defined in <code class="language-plaintext highlighter-rouge">/etc/fstab</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -a</code></p>
+
+<ul>
+  <li>Mount a specific filesystem described in <code class="language-plaintext highlighter-rouge">/etc/fstab</code> (e.g. <code class="language-plaintext highlighter-rouge">/dev/sda1 /my_drive ext2 defaults 0 2</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/my_drive</span></p>
+
+<ul>
+  <li>Mount a directory to another directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount --bind </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/old_dir</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new_dir</span></p>

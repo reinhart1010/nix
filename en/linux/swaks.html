@@ -1,0 +1,34 @@
+<h1 id="swaks">swaks</h1>
+
+<p>Swiss Army Knife SMTP, the all-purpose SMTP transaction tester.
+More information: <a href="https://github.com/jetmore/swaks/blob/develop/doc/base.pod">https://github.com/jetmore/swaks/blob/develop/doc/base.pod</a>.</p>
+
+<ul>
+  <li>Deliver a standard test email to <code class="language-plaintext highlighter-rouge">user@example.com</code> on port 25 of <code class="language-plaintext highlighter-rouge">test-server.example.net</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swaks --to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@example.com</span><code class="language-plaintext highlighter-rouge"> --server </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test-server.example.net</span></p>
+
+<ul>
+  <li>Deliver a standard test email, requiring CRAM-MD5 authentication as user <code class="language-plaintext highlighter-rouge">me@example.com</code>. An "X-Test" header will be added to the email body:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swaks --to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@example.com</span><code class="language-plaintext highlighter-rouge"> --from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">me@example.com</span><code class="language-plaintext highlighter-rouge"> --auth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">CRAM-MD5</span><code class="language-plaintext highlighter-rouge"> --auth-user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">me@example.com</span><code class="language-plaintext highlighter-rouge"> --header-X-Test "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test_email</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Test a virus scanner using EICAR in an attachment. Don't show the message DATA part:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swaks -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@example.com</span><code class="language-plaintext highlighter-rouge"> --attach - --server </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test-server.example.com</span><code class="language-plaintext highlighter-rouge"> --suppress-data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/eicar.txt</span></p>
+
+<ul>
+  <li>Test a spam scanner using GTUBE in the body of an email, routed via the MX records for <code class="language-plaintext highlighter-rouge">example.com</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swaks --to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@example.com</span><code class="language-plaintext highlighter-rouge"> --body </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/gtube_file</span></p>
+
+<ul>
+  <li>Deliver a standard test email to <code class="language-plaintext highlighter-rouge">user@example.com</code> using the LMTP protocol via a UNIX domain socket file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swaks --to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@example.com</span><code class="language-plaintext highlighter-rouge"> --socket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/var/lda.sock</span><code class="language-plaintext highlighter-rouge"> --protocol </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LMTP</span></p>

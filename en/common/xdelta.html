@@ -1,0 +1,17 @@
+<h1 id="xdelta">xdelta</h1>
+
+<p>Delta encoding utility.
+Often used for applying patches to binary files.
+More information: <a href="https://github.com/jmacd/xdelta">https://github.com/jmacd/xdelta</a>.</p>
+
+<ul>
+  <li>Apply a patch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdelta -d -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/delta_file.xdelta</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span></p>
+
+<ul>
+  <li>Create a patch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdelta -e -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/old_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.xdelta</span></p>

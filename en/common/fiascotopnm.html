@@ -1,0 +1,34 @@
+<h1 id="fiascotopnm">fiascotopnm</h1>
+
+<p>Convert a compressed FIASCO file to a PNM image.
+More information: <a href="https://netpbm.sourceforge.net/doc/fiascotopnm.html">https://netpbm.sourceforge.net/doc/fiascotopnm.html</a>.</p>
+
+<ul>
+  <li>Convert a compressed FIASCO file to a PNM file or in the case of video streams multiple PNM files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fiascotopnm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.fiasco</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file_basename</span></p>
+
+<ul>
+  <li>Use fast decompression, resulting in a slightly decreased quality of the output file(s):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fiascotopnm --fast </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.fiasco</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file_basename</span></p>
+
+<ul>
+  <li>Load the options to be used from the specified configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fiascotopnm --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/fiascorc</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.fiasco</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file_basename</span></p>
+
+<ul>
+  <li>Magnify the decompressed image(s) by a factor of 2^n:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fiascotopnm --magnify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.fiasco</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file_basename</span></p>
+
+<ul>
+  <li>Smooth the decompressed image by the specified amount:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fiascotopnm --smooth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.fiasco</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file_basename</span></p>

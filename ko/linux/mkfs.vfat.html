@@ -1,0 +1,28 @@
+<h1 id="mkfsvfat">mkfs.vfat</h1>
+
+<p>파티션 내에 MS-DOS 파일 시스템 생성.
+더 많은 정보: <a href="https://manned.org/mkfs.vfat">https://manned.org/mkfs.vfat</a>.</p>
+
+<ul>
+  <li>장치 b의 파티션 1 (<code class="language-plaintext highlighter-rouge">sdb1</code>) 에 vfat 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.vfat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>볼륨 이름과 함께 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.vfat -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">볼륨_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>볼륨 ID와 함께 파일 시스템 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.vfat -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">볼륨_ID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>2 대신 5개의 파일 할당 테이블 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.vfat -f 5 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>

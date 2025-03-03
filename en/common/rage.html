@@ -1,0 +1,17 @@
+<h1 id="rage">rage</h1>
+
+<p>A simple, secure and modern file encryption tool (and Rust library) with small explicit keys, no config options, and UNIX-style composability.
+Rust implementation of <code class="language-plaintext highlighter-rouge">age</code>.
+More information: <a href="https://github.com/str4d/rage">https://github.com/str4d/rage</a>.</p>
+
+<ul>
+  <li>Encrypt a file for <code class="language-plaintext highlighter-rouge">user</code> and save it to <code class="language-plaintext highlighter-rouge">message.age</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Your secret message</span><code class="language-plaintext highlighter-rouge">" | rage --encrypt --recipient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/message.age</span></p>
+
+<ul>
+  <li>Decrypt a file with <code class="language-plaintext highlighter-rouge">identity_file</code> and save it to <code class="language-plaintext highlighter-rouge">message</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rage --decrypt --identity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/identity_file</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span></p>

@@ -1,0 +1,34 @@
+<h1 id="scontrol">scontrol</h1>
+
+<p>View information about and modify jobs.
+More information: <a href="https://slurm.schedmd.com/scontrol.html">https://slurm.schedmd.com/scontrol.html</a>.</p>
+
+<ul>
+  <li>Show information for job:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scontrol show job </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span></p>
+
+<ul>
+  <li>Suspend a comma-separated list of running jobs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scontrol suspend </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id1,job_id2,…</span></p>
+
+<ul>
+  <li>Resume a comma-separated list of suspended jobs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scontrol resume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id1,job_id2,…</span></p>
+
+<ul>
+  <li>Hold a comma-separated list of queued jobs (Use <code class="language-plaintext highlighter-rouge">release</code> command to permit the jobs to be scheduled):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scontrol hold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id1,job_id2,…</span></p>
+
+<ul>
+  <li>Release a comma-separated list of suspended job:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scontrol release </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id1,job_id2,…</span></p>

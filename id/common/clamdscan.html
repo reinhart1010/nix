@@ -1,0 +1,52 @@
+<h1 id="clamdscan">clamdscan</h1>
+
+<p>Sebuah program pemindai virus berbasis command-line.
+Informasi lebih lanjut: <a href="https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan">https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan</a>.</p>
+
+<ul>
+  <li>Pindai kerentanan suatu file atau direktori tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori</span></p>
+
+<ul>
+  <li>Pindai data dari input <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span><code class="language-plaintext highlighter-rouge"> | clamdscan -</code></p>
+
+<ul>
+  <li>Pindai direktori saat ini dan hanya tampilkan file yang terinfeksi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --infected</code></p>
+
+<ul>
+  <li>Simpan hasil laporan pemindaian kepada sebuah file log:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_log</span></p>
+
+<ul>
+  <li>Pindahkan file-file yang terinfeksi kepada suatu direktori:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_karantina</span></p>
+
+<ul>
+  <li>Hapus file-file yang terinfeksi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --remove</code></p>
+
+<ul>
+  <li>Gunakan lebih dari satu thread untuk memindai sebuah direktori:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --multiscan</code></p>
+
+<ul>
+  <li>Pindai file dengan memberikan deskriptor kepada daemon daripada mengoper isi mentah file tersebut seperti biasa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --fdpass</code></p>

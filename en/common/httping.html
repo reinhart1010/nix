@@ -1,0 +1,28 @@
+<h1 id="httping">httping</h1>
+
+<p>Measure the latency and throughput of a web server.
+More information: <a href="https://manned.org/httping">https://manned.org/httping</a>.</p>
+
+<ul>
+  <li>Ping the specified URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httping -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Ping the web server on <code class="language-plaintext highlighter-rouge">host</code> and <code class="language-plaintext highlighter-rouge">port</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httping -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Ping the web server on <code class="language-plaintext highlighter-rouge">host</code> using a TLS connection:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httping -l -g https://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Ping the web server on <code class="language-plaintext highlighter-rouge">host</code> using HTTP basic authentication:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httping -g http://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>

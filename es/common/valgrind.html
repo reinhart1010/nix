@@ -1,0 +1,29 @@
+<h1 id="valgrind">valgrind</h1>
+
+<p>Programa para un conjunto de herramientas expertas con programas de perfilado, optimización y depuración.
+Entre las herramientas de uso común cabe citar: <code class="language-plaintext highlighter-rouge">memcheck</code>, <code class="language-plaintext highlighter-rouge">cachegrind</code>, <code class="language-plaintext highlighter-rouge">callgrind</code>, <code class="language-plaintext highlighter-rouge">massif</code>, <code class="language-plaintext highlighter-rouge">helgrind</code> y <code class="language-plaintext highlighter-rouge">drd</code>.
+Más información: <a href="https://www.valgrind.org">https://www.valgrind.org</a>.</p>
+
+<ul>
+  <li>Utiliza la herramienta Memcheck (por defecto) para mostrar un diagnóstico del uso de la memoria por <code class="language-plaintext highlighter-rouge">programa</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">valgrind </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programa</span></p>
+
+<ul>
+  <li>Utiliza Memcheck para informar sobre todas las posibles fugas de memoria de <code class="language-plaintext highlighter-rouge">programa</code> en detalle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">valgrind --leak-check=full --show-leak-kinds=all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programa</span></p>
+
+<ul>
+  <li>Utiliza la herramienta Cachegrind para perfilar y registrar operaciones de caché de CPU de <code class="language-plaintext highlighter-rouge">programa</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">valgrind --tool=cachegrind </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programa</span></p>
+
+<ul>
+  <li>Utiliza la herramienta Massif para perfilar y registrar la memoria heap y el uso de la pila de <code class="language-plaintext highlighter-rouge">programa</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">valgrind --tool=massif --stacks=yes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programa</span></p>

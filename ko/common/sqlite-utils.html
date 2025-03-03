@@ -1,0 +1,52 @@
+<h1 id="sqlite-utils">sqlite-utils</h1>
+
+<p>SQLite 데이터베이스를 다양한 방식으로 조작하기 위한 명령줄 도구.
+더 많은 정보: <a href="https://sqlite-utils.datasette.io/en/stable/cli.html">https://sqlite-utils.datasette.io/en/stable/cli.html</a>.</p>
+
+<ul>
+  <li>데이터베이스 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqlite-utils create-database </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/database.db</span></p>
+
+<ul>
+  <li>테이블 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqlite-utils create-table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/database.db</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id integer name text height float photo blob –pk id</span></p>
+
+<ul>
+  <li>테이블 목록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqlite-utils tables </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/database.db</span></p>
+
+<ul>
+  <li>레코드 삽입 또는 업데이트:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo '[ {"id": 1, "name": "Linus Torvalds"}, {"id": 2, "name": "Steve Wozniak"}, {"id": 3, "name": "Tony Hoare"} ]'</span><code class="language-plaintext highlighter-rouge"> | sqlite-utils upsert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/database.db</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–pk id</span></p>
+
+<ul>
+  <li>레코드 선택:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqlite-utils rows </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/database.db</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span></p>
+
+<ul>
+  <li>레코드 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqlite-utils query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/database.db</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delete from table_name where name = 'Tony Hoare'</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>테이블 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqlite-utils drop-table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/database.db</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sqlite-utils -h</code></p>

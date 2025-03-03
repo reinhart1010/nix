@@ -1,0 +1,16 @@
+<h1 id="dcfldd">dcfldd</h1>
+
+<p>Enhanced version of dd for forensics and security.
+More information: <a href="https://dcfldd.sourceforge.net/">https://dcfldd.sourceforge.net/</a>.</p>
+
+<ul>
+  <li>Copy a disk to a raw image file and hash the image using SHA256:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dcfldd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/disk_device</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.img</span><code class="language-plaintext highlighter-rouge"> hash=sha256 hashlog=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.hash</span></p>
+
+<ul>
+  <li>Copy a disk to a raw image file, hashing each 1 GB chunk:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dcfldd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/disk_device</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.img</span><code class="language-plaintext highlighter-rouge"> hash=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sha512|sha384|sha256|sha1|md5</span><code class="language-plaintext highlighter-rouge"> hashlog=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.hash</span><code class="language-plaintext highlighter-rouge"> hashwindow=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1G</span></p>

@@ -1,0 +1,47 @@
+<h1 id="chpass">chpass</h1>
+
+<p>Add or change user database information, including login shell and password.
+See also: <code class="language-plaintext highlighter-rouge">passwd</code>.
+More information: <a href="https://man.freebsd.org/cgi/man.cgi?chpass">https://man.freebsd.org/cgi/man.cgi?chpass</a>.</p>
+
+<ul>
+  <li>Add or change user database information for the current user interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c chpass</code></p>
+
+<ul>
+  <li>Set a specific login [s]hell for the current user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/shell</span></p>
+
+<ul>
+  <li>Set a login [s]hell for a specific user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Change the account [e]xpire time (in seconds from the epoch, UTC):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">time</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Change a user's password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">encrypted_password</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Specify the [h]ostname or address of an NIS server to query:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Specify a particular NIS [d]omain (system domain name by default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">'</code></p>

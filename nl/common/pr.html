@@ -1,0 +1,40 @@
+<h1 id="pr">pr</h1>
+
+<p>Pagineer of kolomeer bestanden voor afdrukken.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/pr-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/pr-invocation.html</a>.</p>
+
+<ul>
+  <li>Toon meerdere bestanden met een standaardkop- en voettekst:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 …</span></p>
+
+<ul>
+  <li>Toon met een aangepaste gecentreerde koptekst:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pr -h "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">koptekst</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 …</span></p>
+
+<ul>
+  <li>Toon met genummerde regels en een aangepast datumnotatieformaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pr -n -D "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">formaat</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 …</span></p>
+
+<ul>
+  <li>Toon alle bestanden samen, één in elke kolom, zonder kop- of voettekst:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pr -m -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 …</span></p>
+
+<ul>
+  <li>Toon, beginnend bij pagina 2 en tot en met pagina 5, met een gegeven paginalengte (inclusief kop- en voettekst):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pr +2:5 -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paginalengte</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 …</span></p>
+
+<ul>
+  <li>Toon met een offset voor elke regel en een afkappende aangepaste paginabreedte:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pr -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">offset</span><code class="language-plaintext highlighter-rouge"> -W </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">breedte</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 …</span></p>

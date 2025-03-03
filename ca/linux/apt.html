@@ -1,0 +1,53 @@
+<h1 id="apt">apt</h1>
+
+<p>Eina de gestió de paquets per a distribucions basades en Debian.
+Es recomana substituïr-lo per <code class="language-plaintext highlighter-rouge">apt-get</code> quan es faci servir interactivament en Ubuntu 16.04 o en versions posteriors.
+Més informació: <a href="https://manned.org/apt.8">https://manned.org/apt.8</a>.</p>
+
+<ul>
+  <li>Actualitza la llista de paquets i versions disponbles (es recomana executar aquest comandament abans que qualsevol altre <code class="language-plaintext highlighter-rouge">apt</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>Busca un paquet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span></p>
+
+<ul>
+  <li>Mostra la informació de un paquet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span></p>
+
+<ul>
+  <li>Instala un paquet o l'actualitza a l'última versió disponible:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span></p>
+
+<ul>
+  <li>Elimina un paquet (si s'utiliza <code class="language-plaintext highlighter-rouge">purge</code> també elimina els seus arxius de configuració):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span></p>
+
+<ul>
+  <li>Actualitza tots els paquets instal·lats a les noves versions disponibles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt upgrade</code></p>
+
+<ul>
+  <li>Mostra tots els paquets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list</code></p>
+
+<ul>
+  <li>Mostra tots els paquets instalats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list --installed</code></p>

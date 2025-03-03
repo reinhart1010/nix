@@ -1,0 +1,29 @@
+<h1 id="git-am">git am</h1>
+
+<p>Zastosuj pliki poprawki i utwórz commit. Przydatne przy otrzymywaniu commitów przez email.
+Zobacz także <code class="language-plaintext highlighter-rouge">git format-patch</code>, który może generować pliki poprawki.
+Więcej informacji: <a href="https://git-scm.com/docs/git-am">https://git-scm.com/docs/git-am</a>.</p>
+
+<ul>
+  <li>Zastosuj i komituj zmiany z lokalnego pliku poprawki:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git am </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.patch</span></p>
+
+<ul>
+  <li>Zastosuj i komituj zmiany ze zdalnego pliku poprawki:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/plik.patch</span><code class="language-plaintext highlighter-rouge"> | git apply</code></p>
+
+<ul>
+  <li>Przerwij proces zastosowania pliku poprawki:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git am --abort</code></p>
+
+<ul>
+  <li>Zastosuj jak największą część pliku poprawki, zapisując nieudane fragmenty w plikach odrzuceń (pliki <code class="language-plaintext highlighter-rouge">.rej</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git am --reject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.patch</span></p>

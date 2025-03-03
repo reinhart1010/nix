@@ -1,0 +1,52 @@
+<h1 id="tcpdump">tcpdump</h1>
+
+<p>Dump traffic on a network.
+More information: <a href="https://www.tcpdump.org">https://www.tcpdump.org</a>.</p>
+
+<ul>
+  <li>List available network interfaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpdump -D</code></p>
+
+<ul>
+  <li>Capture the traffic of a specific interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpdump -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Capture all TCP traffic showing contents (ASCII) in console:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpdump -A tcp</code></p>
+
+<ul>
+  <li>Capture the traffic from or to a host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpdump host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">www.example.com</span></p>
+
+<ul>
+  <li>Capture the traffic from a specific interface, source, destination and destination port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpdump -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> src </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.1</span><code class="language-plaintext highlighter-rouge"> and dst </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.2</span><code class="language-plaintext highlighter-rouge"> and dst port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span></p>
+
+<ul>
+  <li>Capture the traffic of a network:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpdump net </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.0/24</span></p>
+
+<ul>
+  <li>Capture all traffic except traffic over port 22 and save to a dump file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpdump -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dumpfile.pcap</span><code class="language-plaintext highlighter-rouge"> port not </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22</span></p>
+
+<ul>
+  <li>Read from a given dump file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcpdump -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dumpfile.pcap</span></p>

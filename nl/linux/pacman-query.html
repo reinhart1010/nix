@@ -1,0 +1,53 @@
+<h1 id="pacman-query">pacman –query</h1>
+
+<p>Arch Linux pakketbeheer hulpprogramma.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Meer informatie: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>[Q]uery de lokale pakkettendatabase en toon geïnstalleerde pakketten en versies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Q</code></p>
+
+<ul>
+  <li>Toon alleen pakketten en versies welke [e]xpliciet geïnstalleerd zijn:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qe</code></p>
+
+<ul>
+  <li>Zoek welk pakket een bestand bezit ([o]):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestandsnaam</span></p>
+
+<ul>
+  <li>Toon informatie over een geïnstalleerd ([i]) pakket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span></p>
+
+<ul>
+  <li>Toon de [l]ijst met bestanden welke een specifiek pakket bezit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Ql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span></p>
+
+<ul>
+  <li>Maak een lijst van pakketten welke geïnstalleerd zijn als afhankelijkhe[d]en maar niet vereist door een pakket en print in stille ([q]) modus (alleen pakketnaam wordt weergegeven):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qdtq</code></p>
+
+<ul>
+  <li>Toon geïnstalleerde pakketten foreign ([m]) voor de repository database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qm</code></p>
+
+<ul>
+  <li>Toon pakketten die geüpgraded ([u]) kunnen worden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qu</code></p>

@@ -1,0 +1,41 @@
+<h1 id="git-imerge">git-imerge</h1>
+
+<p>Esegui un'unione (merge) o rebase tra due rami Git in modo incrementale.
+Eventuali conflitti tra i due rami sono tracciati in coppie di commit distinti, per semplificarne la risoluzione.
+Maggiori informazioni: <a href="https://github.com/mhagger/git-imerge">https://github.com/mhagger/git-imerge</a>.</p>
+
+<ul>
+  <li>Avvia un rebase usando imerge (dopo aver fatto checkout sul ramo da spostare):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git imerge rebase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ramo_su_cui_eseguire_il_rebase</span></p>
+
+<ul>
+  <li>Avvia un'unione usando imerge (dopo aver fatto checkout sul ramo di destinazione):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git imerge merge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ramo_da_unire</span></p>
+
+<ul>
+  <li>Mostra con un diagramma ASCII lo stato di esecuzione dell'unione o rebase:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git imerge diagram</code></p>
+
+<ul>
+  <li>Continua con l'operazione di imerge dopo aver risolto i conflitti (dopo aver aggiunto i file in conflitto con <code class="language-plaintext highlighter-rouge">git add</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git imerge continue --no-edit</code></p>
+
+<ul>
+  <li>Concludi l'operazione di imerge dopo aver risolto tutti i conflitti:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git imerge finish</code></p>
+
+<ul>
+  <li>Interrompi l'operazione di imerge e ritorna al ramo precedente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git-imerge remove &amp;&amp; git checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ramo_precedente</span></p>

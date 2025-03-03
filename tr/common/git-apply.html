@@ -1,0 +1,40 @@
+<h1 id="git-apply">git apply</h1>
+
+<p>İndeks veya dosyalara yama uygula.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-apply">https://git-scm.com/docs/git-apply</a>.</p>
+
+<ul>
+  <li>Yamalanan dosyalarla ilgili mesajları yazdır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya</span></p>
+
+<ul>
+  <li>Yamalanan dosyaları indekse uygula ve ekle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya</span></p>
+
+<ul>
+  <li>Uzak yama dosyası uygula:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://ornek.com/dosya.patch</span><code class="language-plaintext highlighter-rouge"> | git apply</code></p>
+
+<ul>
+  <li>Çıktı için fark statistiği çıkar ve yamayı uygula:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --stat --apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya</span></p>
+
+<ul>
+  <li>Yamayı tersten uygula:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --reverse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya</span></p>
+
+<ul>
+  <li>Yama sonucunu çalışan ağacı değiştirmeden indekste sakla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git apply --cache </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya</span></p>

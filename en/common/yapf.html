@@ -1,0 +1,22 @@
+<h1 id="yapf">yapf</h1>
+
+<p>Python style guide checker.
+More information: <a href="https://github.com/google/yapf">https://github.com/google/yapf</a>.</p>
+
+<ul>
+  <li>Display a diff of the changes that would be made, without making them (dry-run):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yapf --diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Format the file in-place and display a diff of the changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yapf --diff --in-place </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Recursively format all Python files in a directory, concurrently:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yapf --recursive --in-place --style </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pep8</span><code class="language-plaintext highlighter-rouge"> --parallel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

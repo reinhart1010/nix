@@ -1,0 +1,46 @@
+<h1 id="ping">ping</h1>
+
+<p>Send ICMP ECHO_REQUEST packets to network hosts.
+More information: <a href="https://manned.org/ping">https://manned.org/ping</a>.</p>
+
+<ul>
+  <li>Ping host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Ping a host only a specific number of times:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Ping host, specifying the interval in seconds between requests (default is 1 second):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconds</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Ping host without trying to lookup symbolic names for addresses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Ping host and ring the bell when a packet is received (if your terminal supports it):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Also display a message if no response was received:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Ping a host with specific number of pings, per-packet response timeout (<code class="language-plaintext highlighter-rouge">-W</code>), and total time limit (<code class="language-plaintext highlighter-rouge">-w</code>) of the entire ping run:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ping -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span><code class="language-plaintext highlighter-rouge"> -W </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconds</span><code class="language-plaintext highlighter-rouge"> -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconds</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>

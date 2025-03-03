@@ -1,0 +1,29 @@
+<h1 id="glib-compile-resources">glib-compile-resources</h1>
+
+<p>Compiles resource files (e.g. images) into a binary resource bundle.
+These may be linked into GTK applications using the GResource API.
+More information: <a href="https://manned.org/glib-compile-resources">https://manned.org/glib-compile-resources</a>.</p>
+
+<ul>
+  <li>Compile resources referenced in <code class="language-plaintext highlighter-rouge">file.gresource.xml</code> to a .gresource binary:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glib-compile-resources </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.gresource.xml</span></p>
+
+<ul>
+  <li>Compile resources referenced in <code class="language-plaintext highlighter-rouge">file.gresource.xml</code> to a C source file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glib-compile-resources --generate-source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.gresource.xml</span></p>
+
+<ul>
+  <li>Compile resources in <code class="language-plaintext highlighter-rouge">file.gresource.xml</code> to a chosen target file, with <code class="language-plaintext highlighter-rouge">.c</code>, <code class="language-plaintext highlighter-rouge">.h</code> or <code class="language-plaintext highlighter-rouge">.gresource</code> extension:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glib-compile-resources --generate --target=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.ext</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.gresource.xml</span></p>
+
+<ul>
+  <li>Print a list of resource files referenced in <code class="language-plaintext highlighter-rouge">file.gresource.xml</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glib-compile-resources --generate-dependencies </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.gresource.xml</span></p>

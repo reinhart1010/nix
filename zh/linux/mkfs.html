@@ -1,0 +1,23 @@
+<h1 id="mkfs">mkfs</h1>
+
+<p>在硬盘分区上建立一个 Linux 文件系统。
+该命令已被废弃，建议使用特定文件系统的 mkfs.<type> 工具。
+更多信息：&lt;https://manned.org/mkfs&gt;.</type></p>
+
+<ul>
+  <li>在分区上建立一个 Linux ext2 文件系统：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>
+
+<ul>
+  <li>建立指定类型的文件系统：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ext4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>
+
+<ul>
+  <li>建立指定类型的文件系统并检查坏块：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs -c -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ntfs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/partition</span></p>

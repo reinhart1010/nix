@@ -1,0 +1,34 @@
+<h1 id="repren">repren</h1>
+
+<p>Multi-pattern string replacement and file renaming tool.
+More information: <a href="https://github.com/jlevy/repren">https://github.com/jlevy/repren</a>.</p>
+
+<ul>
+  <li>Do a dry-run renaming a directory of PNGs with a literal string replacement:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repren --dry-run --rename --literal --from '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find_string</span><code class="language-plaintext highlighter-rouge">' --to '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replacement_string</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.png</span></p>
+
+<ul>
+  <li>Do a dry-run renaming a directory of JPEGs with a regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repren --rename --dry-run --from '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">' --to '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replacement_string</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpeg</span></p>
+
+<ul>
+  <li>Do a find-and-replace on the contents of a directory of CSV files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repren --from '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">([0-9]+) example_string</span><code class="language-plaintext highlighter-rouge">' --to '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replacement_string \1</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.csv</span></p>
+
+<ul>
+  <li>Do both a find-and-replace and a rename operation at the same time, using a pattern file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repren --patterns </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/patfile.ext</span><code class="language-plaintext highlighter-rouge"> --full </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span></p>
+
+<ul>
+  <li>Do a case-insensitive rename:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">repren --rename --insensitive --patterns </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/patfile.ext</span><code class="language-plaintext highlighter-rouge"> *</code></p>

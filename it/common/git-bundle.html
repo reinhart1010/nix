@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-bundle">git bundle</h1>
+
+<p>Colloca oggetti e riferimenti in un archivio.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-bundle">https://git-scm.com/docs/git-bundle</a>.</p>
+
+<ul>
+  <li>Crea un file bundle che contiene tutti gli oggetti e riferimenti di un dato ramo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.bundle</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span></p>
+
+<ul>
+  <li>Crea un file bundle di tutti i rami:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.bundle</span><code class="language-plaintext highlighter-rouge"> --all</code></p>
+
+<ul>
+  <li>Crea un file bundle degli ultimi 5 commit sul ramo corrente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.bundle</span><code class="language-plaintext highlighter-rouge"> -5 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>Crea un file bundle degli ultimi 7 giorni:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.bundle</span><code class="language-plaintext highlighter-rouge"> --since=7.days </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>Verifica che un file bundle sia valido e possa essere applicato al repository in uso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.bundle</span></p>
+
+<ul>
+  <li>Stampa su standard output la lista di riferimenti contenuti in un bundle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle unbundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.bundle</span></p>
+
+<ul>
+  <li>Dato un file bundle, estrai un ramo specifico nel repository in uso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.bundle</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span></p>

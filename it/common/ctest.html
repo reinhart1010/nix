@@ -1,0 +1,22 @@
+<h1 id="ctest">ctest</h1>
+
+<p>Programma per eseguire test in progetti CMake.
+Maggiori informazioni: <a href="https://gitlab.kitware.com/cmake/community/wikis/doc/ctest/Testing-With-CTest">https://gitlab.kitware.com/cmake/community/wikis/doc/ctest/Testing-With-CTest</a>.</p>
+
+<ul>
+  <li>Esegui tutti i test definiti nel progetto CMakw, eseguendo 4 job allo stesso tempo in parallelo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ctest -j</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> --output-on-failure</code></p>
+
+<ul>
+  <li>Mostra una lista dei test disponibili:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ctest -N</code></p>
+
+<ul>
+  <li>Esegui un singolo test in base al suo nome, o filtrando con una espressione regolare:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ctest --output-on-failure -R '^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_test</span><code class="language-plaintext highlighter-rouge">$'</code></p>

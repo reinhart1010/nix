@@ -1,0 +1,16 @@
+<h1 id="mkfscramfs">mkfs.cramfs</h1>
+
+<p>创建一个 ROM 文件系统，放置在分区内。
+更多信息：<a href="https://manned.org/mkfs.cramfs">https://manned.org/mkfs.cramfs</a>.</p>
+
+<ul>
+  <li>在设备 b 的第 1 个分区内创建一个 ROM 文件系统（<code class="language-plaintext highlighter-rouge">sdb1</code>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.cramfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>创建一个带有卷名的 ROM 文件系统：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.cramfs -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>

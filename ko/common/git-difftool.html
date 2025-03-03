@@ -1,0 +1,29 @@
+<h1 id="git-difftool">git difftool</h1>
+
+<p>외부 diff 도구를 사용하여 파일 변경 사항을 표시합니다. <code class="language-plaintext highlighter-rouge">git diff</code>와 동일한 옵션과 인수를 허용합니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">git diff</code>.
+더 많은 정보: <a href="https://git-scm.com/docs/git-difftool">https://git-scm.com/docs/git-difftool</a>.</p>
+
+<ul>
+  <li>사용 가능한 diff 도구 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git difftool --tool-help</code></p>
+
+<ul>
+  <li>기본 diff 도구를 meld로 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global diff.tool "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">meld</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>기본 diff 도구를 사용하여 스테이징된 변경 사항 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git difftool --staged</code></p>
+
+<ul>
+  <li>특정 도구(opendiff)를 사용하여 주어진 커밋 이후의 변경 사항 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git difftool --tool=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opendiff</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋</span></p>

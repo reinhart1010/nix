@@ -1,0 +1,52 @@
+<h1 id="lsblk">lsblk</h1>
+
+<p>Отобразить информацию об устройствах.
+Больше информации: <a href="https://manned.org/lsblk">https://manned.org/lsblk</a>.</p>
+
+<ul>
+  <li>Отобразить список всех накопителей в древовидном виде:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk</code></p>
+
+<ul>
+  <li>Отобразить все устройства, в том числе "пустые":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -a</code></p>
+
+<ul>
+  <li>Отобразить столбец SIZE в байтах, а не в удобочитаемом формате:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -b</code></p>
+
+<ul>
+  <li>Вывод информации о файловой системе:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -f</code></p>
+
+<ul>
+  <li>Использовать символы ASCII при отображении в формате дерева:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -i</code></p>
+
+<ul>
+  <li>Вывести информацию о топологии блочного устройства:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -t</code></p>
+
+<ul>
+  <li>Исключить устройства, указанные в списке основных номеров устройств, разделенных запятыми:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,7,…</span></p>
+
+<ul>
+  <li>Отобразить вывод с указанием списка определённых параметров, разделенных запятыми:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">NAME,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,…</span></p>

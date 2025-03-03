@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-remote">git remote</h1>
+
+<p>Organisation des dépôts suivis ("remotes").
+Plus d'informations : <a href="https://git-scm.com/docs/git-remote">https://git-scm.com/docs/git-remote</a>.</p>
+
+<ul>
+  <li>Affiche les dépôts existants, leur nom et URL :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span></p>
+
+<ul>
+  <li>Affiche les informations à propos d'un dépôt :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_distant</span></p>
+
+<ul>
+  <li>Ajoute un dépôt :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_distant</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_distant</span></p>
+
+<ul>
+  <li>Change l'URL d'un dépôt (ajouter <code class="language-plaintext highlighter-rouge">--add</code> pour conserver l'URL existante) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote set-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_distant</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_url</span></p>
+
+<ul>
+  <li>Supprime un dépôt :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_distant</span></p>
+
+<ul>
+  <li>Renomme un dépôt :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git remote rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_name</span></p>

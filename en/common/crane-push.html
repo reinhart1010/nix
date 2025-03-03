@@ -1,0 +1,28 @@
+<h1 id="crane-push">crane push</h1>
+
+<p>Push local image contents to a remote registry.
+More information: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_push.md">https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_push.md</a>.</p>
+
+<ul>
+  <li>Push local image to remote registry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/tarball</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name</span></p>
+
+<ul>
+  <li>Path to file with list of published image references:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/tarball</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name</span><code class="language-plaintext highlighter-rouge"> --image-refs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename</span></p>
+
+<ul>
+  <li>Push a collection of images as a single index (required if path has multiple images):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/tarball</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name</span><code class="language-plaintext highlighter-rouge"> --index</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span></p>

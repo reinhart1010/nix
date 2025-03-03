@@ -1,0 +1,40 @@
+<h1 id="reg-compare">reg compare</h1>
+
+<p>Compare keys and their values in the registry.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/reg-compare">https://learn.microsoft.com/windows-server/administration/windows-commands/reg-compare</a>.</p>
+
+<ul>
+  <li>Compare all values under a specific key with another key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg compare </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name2</span></p>
+
+<ul>
+  <li>Compare a specific [v]alue under two keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg compare </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name2</span><code class="language-plaintext highlighter-rouge"> /v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Compare all [s]ubkeys and values for two keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg compare </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name2</span><code class="language-plaintext highlighter-rouge"> /s</code></p>
+
+<ul>
+  <li>Only [o]utput the matches ([s]ame) between the specified keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg compare </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name2</span><code class="language-plaintext highlighter-rouge"> /os</code></p>
+
+<ul>
+  <li>[o]utput the differences and matches ([a]ll) between the specified keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg compare </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name2</span><code class="language-plaintext highlighter-rouge"> /oa</code></p>
+
+<ul>
+  <li>Compare two keys, [o]utputting [n]othing:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg compare </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name2</span><code class="language-plaintext highlighter-rouge"> /on</code></p>

@@ -1,0 +1,53 @@
+<h1 id="ssh">ssh</h1>
+
+<p>Secure Shell は、リモートシステムに安全にログオンするために使用されるプロトコルです。
+これは、リモート・サーバー上でのロギングやコマンド実行に使用できます。
+もっと詳しく: <a href="https://man.openbsd.org/ssh">https://man.openbsd.org/ssh</a>。</p>
+
+<ul>
+  <li>リモートサーバに接続する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユーザ名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">リモートホスト</span></p>
+
+<ul>
+  <li>特定のID(秘密鍵)でリモートサーバに接続する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユーザ名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">リモートホスト</span></p>
+
+<ul>
+  <li>特定のポート([p]ort)を使ってリモートサーバに接続する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユーザ名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">リモートホスト</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2222</span></p>
+
+<ul>
+  <li>リモートコマンドとのやり取りを許可する[t]ty割当を使って、リモートサーバ上でコマンドを実行する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユーザ名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">リモートホスト</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コマンド</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コマンド引数</span></p>
+
+<ul>
+  <li>SSHトンネリング： [D]ynamic port forwarding (<code class="language-plaintext highlighter-rouge">localhost:1080</code> の SOCKSプロキシ):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1080</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユーザ名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">リモートホスト</span></p>
+
+<ul>
+  <li>SSHトンネリング： 特定のポート(<code class="language-plaintext highlighter-rouge">localhost:9999</code>から<code class="language-plaintext highlighter-rouge">example.org:80</code>)を転送し、擬似[T]tyの割当とリモートコマンドの実行(executio[N])を無効にする:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9999</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.org</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> -N -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユーザ名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">リモートホスト</span></p>
+
+<ul>
+  <li>SSH [J]umping： ジャンプホストを経由して、リモートサーバーに接続する (カンマ区切りで複数のジャンプホップを指定できる):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ssh -J </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユーザ名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ジャンプホスト</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユーザ名</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">リモートホスト</span></p>
+
+<ul>
+  <li>ハングしたセッションを閉じる:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Enter&gt; ~ .</code></p>

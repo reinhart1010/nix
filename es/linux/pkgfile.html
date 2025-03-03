@@ -1,0 +1,53 @@
+<h1 id="pkgfile">pkgfile</h1>
+
+<p>Busca archivos en los paquetes de los repositorios oficiales en sistemas basados en Arch.
+Vea también: <code class="language-plaintext highlighter-rouge">pacman files</code>, que describe el uso de <code class="language-plaintext highlighter-rouge">pacman --files</code>.
+Más información: <a href="https://manned.org/pkgfile">https://manned.org/pkgfile</a>.</p>
+
+<ul>
+  <li>Sincroniza la base de datos pkgfile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pkgfile --update</code></p>
+
+<ul>
+  <li>Busca un paquete que posee un archivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span></p>
+
+<ul>
+  <li>Lista todos los archivos proporcionados por un paquete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgfile --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Lista los ejecutables proporcionados por un paquete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgfile --list --binaries </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Busca un paquete que posee un archivo específico utilizando coincidencias insensibles a mayúsculas y minúsculas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgfile --ignorecase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span></p>
+
+<ul>
+  <li>Busca un paquete que posee un archivo específico en el directorio <code class="language-plaintext highlighter-rouge">bin</code> o <code class="language-plaintext highlighter-rouge">sbin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgfile --binaries </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span></p>
+
+<ul>
+  <li>Busca un paquete que posee un archivo específico, mostrando la versión del paquete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgfile --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span></p>
+
+<ul>
+  <li>Busca un paquete que posee un archivo específico en un repositorio específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgfile --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_repositorio</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span></p>

@@ -1,0 +1,28 @@
+<h1 id="avrdude">avrdude</h1>
+
+<p>Pilotes pour programmer les microcontrôleurs Atmel AVR.
+Plus d'informations : <a href="https://www.nongnu.org/avrdude/">https://www.nongnu.org/avrdude/</a>.</p>
+
+<ul>
+  <li>Lire le contenu du microcontrôleur AVR :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">appareil_AVR</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programmeur</span><code class="language-plaintext highlighter-rouge"> -U flash:r:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier.hex</span><code class="language-plaintext highlighter-rouge">:i</code></p>
+
+<ul>
+  <li>Programme le microcontrôleur AVR :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">appareil_AVR</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programmeur</span><code class="language-plaintext highlighter-rouge"> -U flash:w:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier.hex</span></p>
+
+<ul>
+  <li>Affiche les appareils AVR disponibles :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -p \?</code></p>
+
+<ul>
+  <li>Affiche les programmeurs AVR disponibles :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">avrdude -c \?</code></p>

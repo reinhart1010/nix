@@ -1,0 +1,52 @@
+<h1 id="git-push">git push</h1>
+
+<p>Invia i commit ad un repository remoto.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-push">https://git-scm.com/docs/git-push</a>.</p>
+
+<ul>
+  <li>Invia le modifiche fatte nel ramo corrente locale al corrispondente ramo remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push</code></p>
+
+<ul>
+  <li>Invia le modifiche fatte in uno specifico ramo locale al corrispondente ramo remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_repository_remoto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span></p>
+
+<ul>
+  <li>Invia le modifiche fatte in uno specifico ramo locale al corrispondente ramo remoto ed imposta il ramo remoto come destinazione di default per i push/pull del ramo locale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_repository_remoto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span></p>
+
+<ul>
+  <li>Invia le modifiche fatte in uno specifico ramo locale ad uno specifico ramo remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_repository_remoto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo_remoto</span></p>
+
+<ul>
+  <li>Invia le modifiche fatte in ogni ramo locale ai corrispondenti rami remoti in uno specifico repository remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_repository_remoto</span></p>
+
+<ul>
+  <li>Cancella un ramo di un repository remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_repository_remoto</span><code class="language-plaintext highlighter-rouge"> --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo_remoto</span></p>
+
+<ul>
+  <li>Cancella i rami remoti che non hanno un ramo locale corrispondente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push --prune </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_repository_remoto</span></p>
+
+<ul>
+  <li>Pubblica i tag che non sono già presenti nel repository remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push --tags</code></p>

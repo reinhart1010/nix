@@ -1,0 +1,16 @@
+<h1 id="git-request-pull">git request-pull</h1>
+
+<p>Generate a request asking the upstream project to pull changes into its tree.
+More information: <a href="https://git-scm.com/docs/git-request-pull">https://git-scm.com/docs/git-request-pull</a>.</p>
+
+<ul>
+  <li>Produce a request summarizing the changes between the v1.1 release and a specified branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git request-pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">v1.1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/project</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Produce a request summarizing the changes between the v0.1 release on the <code class="language-plaintext highlighter-rouge">foo</code> branch and the local <code class="language-plaintext highlighter-rouge">bar</code> branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git request-pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">v0.1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/project</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo:bar</span></p>

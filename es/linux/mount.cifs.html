@@ -1,0 +1,23 @@
+<h1 id="mountcifs">mount.cifs</h1>
+
+<p>Monta SMB (Server Message Block) o CIFS (Common Internet File System).
+Nota: también puede hacer lo mismo pasando la opción <code class="language-plaintext highlighter-rouge">-t cifs</code> a <code class="language-plaintext highlighter-rouge">mount</code>.
+Más información: <a href="https://manned.org/mount.cifs">https://manned.org/mount.cifs</a>.</p>
+
+<ul>
+  <li>Conecta el nombre de usuario especificado o <code class="language-plaintext highlighter-rouge">$USER</code> por defecto (se le pedirá una contraseña):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount.cifs -o user=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> //</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_share</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">punto_de_montaje</span></p>
+
+<ul>
+  <li>Conecta como usuario invitado (sin contraseña):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount.cifs -o guest //</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_share</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">punto_de_montaje</span></p>
+
+<ul>
+  <li>Establece información de propiedad para el directorio montado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount.cifs -o uid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_del_usuario|usuario</span><code class="language-plaintext highlighter-rouge">,gid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_del_grupo|nombre_del_grupo</span><code class="language-plaintext highlighter-rouge"> //</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_share</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">punto_de_montaje</span></p>

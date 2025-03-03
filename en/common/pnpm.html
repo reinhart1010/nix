@@ -1,0 +1,53 @@
+<h1 id="pnpm">pnpm</h1>
+
+<p>Fast, disk space efficient package manager for Node.js.
+Manage Node.js projects and their module dependencies.
+More information: <a href="https://pnpm.io">https://pnpm.io</a>.</p>
+
+<ul>
+  <li>Create a <code class="language-plaintext highlighter-rouge">package.json</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm init</code></p>
+
+<ul>
+  <li>Download all the packages listed as dependencies in <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm install</code></p>
+
+<ul>
+  <li>Download a specific version of a package and add it to the list of dependencies in <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Download a package and add it to the list of [D]ev dependencies in <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm add -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span></p>
+
+<ul>
+  <li>Download a package and install it [g]lobally:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm add -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span></p>
+
+<ul>
+  <li>Uninstall a package and remove it from the list of dependencies in <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span></p>
+
+<ul>
+  <li>Print a tree of locally installed modules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm list</code></p>
+
+<ul>
+  <li>List top-level [g]lobally installed modules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm list -g --depth=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span></p>

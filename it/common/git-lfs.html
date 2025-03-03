@@ -1,0 +1,52 @@
+<h1 id="git-lfs">git lfs</h1>
+
+<p>Lavora con file di grandi dimensioni in repository Git.
+Maggiori informazioni: <a href="https://git-lfs.com">https://git-lfs.com</a>.</p>
+
+<ul>
+  <li>Inizializza Git LFS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git lfs install</code></p>
+
+<ul>
+  <li>Tieni traccia dei file che soddisfano un criterio glob:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git lfs track '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.bin</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Cambia l'URL endpoint di Git LFS (utile quando server LFS e server Git sono separati):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–file</span><code class="language-plaintext highlighter-rouge"> .lfsconfig lfs.url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lfs_url_endpoint</span></p>
+
+<ul>
+  <li>Elenca i criteri tracciati:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git lfs track</code></p>
+
+<ul>
+  <li>Elenca i file tracciati che sono già stati salvati in un commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git lfs ls-files</code></p>
+
+<ul>
+  <li>Invia tutti gli oggetti Git LFS al server remoto (utile in caso di errori):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git lfs push --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_repository_remoto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span></p>
+
+<ul>
+  <li>Scarica tutti gli oggetti Git LFS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git lfs fetch</code></p>
+
+<ul>
+  <li>Ripristina gli oggetti Git LFS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git lfs checkout</code></p>

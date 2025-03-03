@@ -1,0 +1,28 @@
+<h1 id="ppmcie">ppmcie</h1>
+
+<p>Draw a CIE color chart as a PPM image.
+More information: <a href="https://netpbm.sourceforge.net/doc/ppmcie.html">https://netpbm.sourceforge.net/doc/ppmcie.html</a>.</p>
+
+<ul>
+  <li>Draw a CIE color chart using the REC709 color system as a PPM image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmcie &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Specify the color system to be used:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmcie -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cie|ebu|hdtv|ntsc|smpte</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Specify the location of the individual illuminants:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmcie -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">red|green|blue</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xpos ypos</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Do not dim the area outside the Maxwell triangle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmcie -full &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>

@@ -1,0 +1,17 @@
+<h1 id="tsort">tsort</h1>
+
+<p>Voer een topologische sortering uit.
+Een veelvoorkomend gebruik is om de afhankelijkheidsvolgorde van knooppunten in een gerichte acyclische grafiek te tonen.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/tsort-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/tsort-invocation.html</a>.</p>
+
+<ul>
+  <li>Voer een topologische sortering uit consistent met een gedeeltelijke sortering per regel van invoer gescheiden door spaties:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tsort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Voer een topologische sortering uit consistent op strings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UI Backend\nBackend Database\nDocs UI</span><code class="language-plaintext highlighter-rouge">" | tsort</code></p>

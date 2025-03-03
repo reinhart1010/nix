@@ -1,0 +1,29 @@
+<h1 id="lit">lit</h1>
+
+<p>Comprobador integrado LLVM para ejecutar conjuntos de pruebas estilo LLVM y Clang, resumiendo los resultados.
+Parte de LLVM.
+Más información: <a href="https://www.llvm.org/docs/CommandGuide/lit.html">https://www.llvm.org/docs/CommandGuide/lit.html</a>.</p>
+
+<ul>
+  <li>Ejecuta un caso de prueba especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_prueba.test</span></p>
+
+<ul>
+  <li>Ejecuta todos los casos de prueba en un directorio especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/suite_de_pruebas</span></p>
+
+<ul>
+  <li>Ejecuta todos los escenarios de prueba y comprueba el tiempo de ejecución de cada uno de ellos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/suite_de_pruebas</span><code class="language-plaintext highlighter-rouge"> --time-tests</code></p>
+
+<ul>
+  <li>Ejecuta pruebas individuales con Valgrind (comprobación de memoria y prueba de fuga de memoria):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_prueba.test</span><code class="language-plaintext highlighter-rouge"> --vg --vg-leak --vg-args=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">args_con_valgrind</span></p>

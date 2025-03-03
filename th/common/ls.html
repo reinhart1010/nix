@@ -1,0 +1,52 @@
+<h1 id="ls">ls</h1>
+
+<p>แสดงชื่อ ขนาด หรือข้อมูลเบื้องต้นของแต่ละไฟล์หรือโฟลเดอร์
+ข้อมูลเพิ่มเติม: <a href="https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html</a></p>
+
+<ul>
+  <li>แสดงชื่อไฟล์หรือโฟลเดอร์ หนึ่งชื่อต่อบรรทัด:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls -1</code></p>
+
+<ul>
+  <li>แสดงชื่อไฟล์หรือโฟลเดอร์ทั้งหมด รวมทั้งไฟล์ที่ถูกซ่อนอยู่:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls -a</code></p>
+
+<ul>
+  <li>แสดงชื่อไฟล์หรือโฟลเดอร์ทั้งหมด โดยที่ชื่อโฟลเดอร์จะมี <code class="language-plaintext highlighter-rouge">/</code> ตามหลัง:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls -F</code></p>
+
+<ul>
+  <li>แสดงข้อมูลเบื้องต้นของไฟล์หรือโฟลเดอร์ (สิทธ์การเข้าถึง, ความเป็นเจ้าของ, ขนาด, และวันที่แก้ไขล่าสุด):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls -la</code></p>
+
+<ul>
+  <li>แสดงข้อมูลเบื้องต้นของไฟล์หรือโฟลเดอร์ (สิทธ์การเข้าถึง, ความเป็นเจ้าของ, ขนาด, และวันที่แก้ไขล่าสุด โดยที่ขนาดจะแสดงผลในหน่วยที่มนุษย์เข้าใจ เช่น KiB, MiB, GiB):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls -lh</code></p>
+
+<ul>
+  <li>แสดงข้อมูลเบื้องต้นของไฟล์หรือโฟลเดอร์ (สิทธ์การเข้าถึง, ความเป็นเจ้าของ, ขนาด, และวันที่แก้ไขล่าสุด) โดยใช้ขนาดในการเรียงลำดับจากมากไปน้อย:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls -lSR</code></p>
+
+<ul>
+  <li>แสดงข้อมูลเบื้องต้นของไฟล์หรือโฟลเดอร์ (สิทธ์การเข้าถึง, ความเป็นเจ้าของ, ขนาด, และวันที่แก้ไขล่าสุด) โดยใช้วันที่แก้ไขล่าสุดในการเรียงลำดับจากอายุมากไปน้อย:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls -ltr</code></p>
+
+<ul>
+  <li>แสดงชื่อโฟลเดอร์:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls -d */</code></p>

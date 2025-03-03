@@ -1,0 +1,41 @@
+<h1 id="git-imerge">git-imerge</h1>
+
+<p>Perform a merge or rebase between two Git branches incrementally.
+Conflicts between branches are tracked down to pairs of individual commits, to simplify conflict resolution.
+More information: <a href="https://github.com/mhagger/git-imerge">https://github.com/mhagger/git-imerge</a>.</p>
+
+<ul>
+  <li>Start imerge-based rebase (checkout the branch to be rebased, first):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git imerge rebase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_to_rebase_onto</span></p>
+
+<ul>
+  <li>Start imerge-based merge (checkout the branch to merge into, first):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git imerge merge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_to_be_merged</span></p>
+
+<ul>
+  <li>Show ASCII diagram of in-progress merge or rebase:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git imerge diagram</code></p>
+
+<ul>
+  <li>Continue imerge operation after resolving conflicts (<code class="language-plaintext highlighter-rouge">git add</code> the conflicted files, first):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git imerge continue --no-edit</code></p>
+
+<ul>
+  <li>Wrap up imerge operation, after all conflicts are resolved:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git imerge finish</code></p>
+
+<ul>
+  <li>Abort imerge operation, and return to the previous branch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git-imerge remove &amp;&amp; git checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">previous_branch</span></p>

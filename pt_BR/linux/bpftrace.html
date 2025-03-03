@@ -1,0 +1,40 @@
+<h1 id="bpftrace">bpftrace</h1>
+
+<p>Linguagem de análise de alto nível para eBPF Linux.
+Mais informações: <a href="https://github.com/iovisor/bpftrace">https://github.com/iovisor/bpftrace</a>.</p>
+
+<ul>
+  <li>Exibe a versão do bpftrace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bpftrace -V</code></p>
+
+<ul>
+  <li>Lista todos os probes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bpftrace -l</code></p>
+
+<ul>
+  <li>Roda um programa de uma linha (e.g. número de syscalls por programa):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bpftrace -e '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracepoint:raw_syscalls:sys_enter { @[comm] = count(); }</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Roda um programa de um arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bpftrace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/do/arquivo</span></p>
+
+<ul>
+  <li>Analisa um programa por PID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bpftrace -e '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracepoint:raw_syscalls:sys_enter /pid == 123/ { @[comm] = count(); }</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Mostra o resultado do programa em eBPF, sem rodar ele:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bpftrace -d -e '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programa_de_uma_linha</span><code class="language-plaintext highlighter-rouge">'</code></p>

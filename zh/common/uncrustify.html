@@ -1,0 +1,40 @@
+<h1 id="uncrustify">uncrustify</h1>
+
+<p>C、C++、C#、D、Java 和 Pawn 源代码格式化工具。
+更多信息：<a href="https://github.com/uncrustify/uncrustify">https://github.com/uncrustify/uncrustify</a>.</p>
+
+<ul>
+  <li>格式化单个文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uncrustify -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.cpp</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/输出文件.cpp</span></p>
+
+<ul>
+  <li>从 <code class="language-plaintext highlighter-rouge">stdin</code> 读取文件名，在写回原始文件路径之前创建备份：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find . -name "*.cpp" | uncrustify -F - --replace</code></p>
+
+<ul>
+  <li>不进行备份（适用于文件已在版本控制下的情况）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find . -name "*.cpp" | uncrustify -F - --no-backup</code></p>
+
+<ul>
+  <li>使用自定义配置文件并将结果写入 <code class="language-plaintext highlighter-rouge">stdout</code>：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uncrustify -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/uncrustify.cfg</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.cpp</span></p>
+
+<ul>
+  <li>显式设置配置变量的值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uncrustify --set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">选项</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">值</span></p>
+
+<ul>
+  <li>生成新的配置文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uncrustify --update-config -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/新配置文件.cfg</span></p>

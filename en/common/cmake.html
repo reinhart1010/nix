@@ -1,0 +1,52 @@
+<h1 id="cmake">cmake</h1>
+
+<p>Cross-platform build automation system, that generates recipes for native build systems.
+More information: <a href="https://cmake.org/cmake/help/latest/manual/cmake.1.html">https://cmake.org/cmake/help/latest/manual/cmake.1.html</a>.</p>
+
+<ul>
+  <li>Generate a build recipe in the current directory with <code class="language-plaintext highlighter-rouge">CMakeLists.txt</code> from a project directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project_directory</span></p>
+
+<ul>
+  <li>Generate a build recipe, with build type set to <code class="language-plaintext highlighter-rouge">Release</code> with CMake variable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project_directory</span><code class="language-plaintext highlighter-rouge"> -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">CMAKE_BUILD_TYPE=Release</span></p>
+
+<ul>
+  <li>Generate a build recipe using <code class="language-plaintext highlighter-rouge">generator_name</code> as the underlying build system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake -G </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">generator_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project_directory</span></p>
+
+<ul>
+  <li>Use a generated recipe in a given directory to build artifacts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake --build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/build_directory</span></p>
+
+<ul>
+  <li>Install the build artifacts into <code class="language-plaintext highlighter-rouge">/usr/local/</code> and strip debugging symbols:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake --install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/build_directory</span><code class="language-plaintext highlighter-rouge"> --strip</code></p>
+
+<ul>
+  <li>Install the build artifacts using the custom prefix for paths:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake --install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/build_directory</span><code class="language-plaintext highlighter-rouge"> --strip --prefix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Run a custom build target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake --build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/build_directory</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_name</span></p>
+
+<ul>
+  <li>Display help, obtain a list of generators:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmake --help</code></p>

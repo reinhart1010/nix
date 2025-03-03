@@ -1,0 +1,53 @@
+<h1 id="httpx">httpx</h1>
+
+<p>A fast and multi-purpose HTTP toolkit written in Go to run multiple probes at once.
+Note: not to be confused with the unrelated Python's HTTPX which has the same command name.
+More information: <a href="https://github.com/projectdiscovery/httpx">https://github.com/projectdiscovery/httpx</a>.</p>
+
+<ul>
+  <li>Run a probe against a [u]RL, host, IP Address or subnet (CIDR notation) showing probe status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpx -probe -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|host|ipaddress|subnet_with_cidr</span></p>
+
+<ul>
+  <li>Run a probe against multiple hosts showing [s]tatus [c]ode with input from <code class="language-plaintext highlighter-rouge">subfinder</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">subfinder -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge"> | httpx -sc</code></p>
+
+<ul>
+  <li>Run a [r]ate [l]imited probe against a [l]ist of hosts from a file showing [t]echnology [d]etected and [r]esponse [t]ime:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpx -rl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">150</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/newline_separated_hosts_list</span><code class="language-plaintext highlighter-rouge"> -td -rt</code></p>
+
+<ul>
+  <li>Run a probe against a [u]RL showing its webpage title, CDN/WAF in use, and page content hash:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpx -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge"> -title -cdn -hash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sha256</span></p>
+
+<ul>
+  <li>Run a probe against a list of hosts with custom defined [p]orts and timeout after certain seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpx -probe -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host1,host2,…</span><code class="language-plaintext highlighter-rouge"> -p http:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80,8000-8080</span><code class="language-plaintext highlighter-rouge">,https:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">443,8443</span><code class="language-plaintext highlighter-rouge"> -timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Run a probe against a list of hosts [f]iltering out [c]odes of certain responses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpx -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host1,host2,…</span><code class="language-plaintext highlighter-rouge"> -fc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">400,401,404</span></p>
+
+<ul>
+  <li>Run a probe against a list of hosts [m]atching [c]odes of certain responses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpx -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host1,host2,…</span><code class="language-plaintext highlighter-rouge"> -mc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">200,301,304</span></p>
+
+<ul>
+  <li>Run a probe against a URL [s]aving [s]creenshots of certain paths, with [s]creenshot [t]imeouts (assets are saved in <code class="language-plaintext highlighter-rouge">./output</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httpx -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.github.com</span><code class="language-plaintext highlighter-rouge"> -path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/tldr-pages/tldr,/projectdiscovery/httpx</span><code class="language-plaintext highlighter-rouge"> -ss -st </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>

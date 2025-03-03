@@ -1,0 +1,42 @@
+<h1 id="magick-mogrify">magick mogrify</h1>
+
+<p>Perform operations on multiple images, such as resizing, cropping, flipping, and adding effects.
+Changes are applied directly to the original file.
+See also: <code class="language-plaintext highlighter-rouge">magick</code>.
+More information: <a href="https://imagemagick.org/script/mogrify.php">https://imagemagick.org/script/mogrify.php</a>.</p>
+
+<ul>
+  <li>Resize all JPEG images in the directory to 50% of their initial size:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick mogrify -resize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50%</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpg</span></p>
+
+<ul>
+  <li>Resize all images starting with <code class="language-plaintext highlighter-rouge">DSC</code> to 800x600:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick mogrify -resize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">800x600</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">DSC*</span></p>
+
+<ul>
+  <li>Convert all PNGs in the directory to JPEG:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick mogrify -format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jpg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.png</span></p>
+
+<ul>
+  <li>Halve the saturation of all image files in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick mogrify -modulate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100,50</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*</span></p>
+
+<ul>
+  <li>Double the brightness of all image files in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick mogrify -modulate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">200</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*</span></p>
+
+<ul>
+  <li>Reduce file sizes of all GIF images in the current directory by reducing quality:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick mogrify -layers 'optimize' -fuzz </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7%</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.gif</span></p>

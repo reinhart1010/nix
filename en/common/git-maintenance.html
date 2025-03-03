@@ -1,0 +1,34 @@
+<h1 id="git-maintenance">git-maintenance</h1>
+
+<p>Run tasks to optimize Git repository data.
+More information: <a href="https://git-scm.com/docs/git-maintenance">https://git-scm.com/docs/git-maintenance</a>.</p>
+
+<ul>
+  <li>Register the current repository in the user's list of repositories to daily have maintenance run:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git maintenance register</code></p>
+
+<ul>
+  <li>Schedule maintenance tasks on the current repository every hour:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git maintenance start</code></p>
+
+<ul>
+  <li>Halt the background maintenance schedule for the current repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git maintenance stop</code></p>
+
+<ul>
+  <li>Remove the current repository from the user's maintenance repository list:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git maintenance unregister</code></p>
+
+<ul>
+  <li>Run a specific maintenance task on the current repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git maintenance run --task=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit-graph|gc|incremental-repack|loose-objects|pack-refs|prefetch</span></p>

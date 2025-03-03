@@ -1,0 +1,40 @@
+<h1 id="zpaq">zpaq</h1>
+
+<p>Incremental journaling backup utility and archiver.
+More information: <a href="https://mattmahoney.net/dc/zpaq.html">https://mattmahoney.net/dc/zpaq.html</a>.</p>
+
+<ul>
+  <li>[a]dd a file or directory to a new or existing archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zpaq a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.zpaq</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Create or add to an encrypted archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zpaq a -k</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.zpaq</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>E[x]tract the most recent versions of files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zpaq x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.zpaq</span></p>
+
+<ul>
+  <li>[l]ist the archive contents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zpaq l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.zpaq</span></p>
+
+<ul>
+  <li>Set the level of compression (higher means more compression but slower):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zpaq a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.zpaq</span><code class="language-plaintext highlighter-rouge"> -m</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3|4|5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>E[x]tract the specified files from the archive that are not newer than the specified date:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zpaq x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.zpaq</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/in/archive/to/extract</span><code class="language-plaintext highlighter-rouge"> -to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output</span><code class="language-plaintext highlighter-rouge"> -until </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD</span></p>

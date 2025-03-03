@@ -1,0 +1,29 @@
+<h1 id="ccache">ccache</h1>
+
+<p>C/C++ compiler cache.
+Note: packages usually provide symlinks for compilers in <code class="language-plaintext highlighter-rouge">/usr/lib/ccache/bin</code>. Prepend this directory to <code class="language-plaintext highlighter-rouge">$PATH</code> to automatically use <code class="language-plaintext highlighter-rouge">ccache</code> for them.
+More information: <a href="https://ccache.dev/manual/latest.html">https://ccache.dev/manual/latest.html</a>.</p>
+
+<ul>
+  <li>Show current cache [s]tatistics:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ccache --show-stats</code></p>
+
+<ul>
+  <li>[C]lear all cache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ccache --clear</code></p>
+
+<ul>
+  <li>Reset ([z]ero) statistics (but not cache itself):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ccache --zero-stats</code></p>
+
+<ul>
+  <li>Compile C code and cache compiled output (to use <code class="language-plaintext highlighter-rouge">ccache</code> on all <code class="language-plaintext highlighter-rouge">gcc</code> invocations, see the note above):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ccache gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.c</span></p>

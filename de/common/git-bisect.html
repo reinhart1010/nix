@@ -1,0 +1,32 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-bisect">git bisect</h1>
+
+<p>Benutzt binäre Suche um den commit ausfindig zu machen, welcher einen Fehler beinhaltet.
+Git springt im Commit-Graph automatisch vor und zurück, um den fehlerhaften Commit schrittweise eingrenzen zu können.
+Weitere Informationen: <a href="https://git-scm.com/docs/git-bisect">https://git-scm.com/docs/git-bisect</a>.</p>
+
+<ul>
+  <li>Starte eine Bisect-Session in einem Commit-Bereich, der durch einen bekannten fehlerhaften Commit und einen sauberen Commit begrenzt wird:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fehlerhafter_commit</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sauberer_commit</span></p>
+
+<ul>
+  <li>Prüfe jeden Commit, den <code class="language-plaintext highlighter-rouge">git bisect</code> auswählt, und kennzeichne ihn mit "gut" oder "schlecht":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">good|bad</span></p>
+
+<ul>
+  <li>Wechsle zum vorherigen Branch zurück, nachdem der fehlerhafte Commit lokalisiert wurde:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect reset</code></p>
+
+<ul>
+  <li>Überspringe einen Commit während der Bisect-Session (z.B. einen, der die Tests aufgrund eines anderen Problems nicht bestanden hat):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect skip</code></p>

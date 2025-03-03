@@ -1,0 +1,41 @@
+<h1 id="xargs">xargs</h1>
+
+<p>Execute a command with piped arguments coming from another command, a file, etc.
+The input is treated as a single block of text and split into separate pieces on spaces, tabs, newlines and end-of-file.
+More information: <a href="https://pubs.opengroup.org/onlinepubs/9699919799/utilities/xargs.html">https://pubs.opengroup.org/onlinepubs/9699919799/utilities/xargs.html</a>.</p>
+
+<ul>
+  <li>Run a command using the input data as arguments:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments_source</span><code class="language-plaintext highlighter-rouge"> | xargs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Run multiple chained commands on the input data:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments_source</span><code class="language-plaintext highlighter-rouge"> | xargs sh -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command1</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command2</span><code class="language-plaintext highlighter-rouge"> | </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command3</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Gzip all files with <code class="language-plaintext highlighter-rouge">.log</code> extension taking advantage of multiple threads (<code class="language-plaintext highlighter-rouge">-print0</code> uses a null character to split file names, and <code class="language-plaintext highlighter-rouge">-0</code> uses it as delimiter):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find . -name '*.log' -print0 | xargs -0 -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> -n 1 gzip</code></p>
+
+<ul>
+  <li>Execute the command once per argument:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments_source</span><code class="language-plaintext highlighter-rouge"> | xargs -n1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Execute the command once for each input line, replacing any occurrences of the placeholder (here marked as <code class="language-plaintext highlighter-rouge">_</code>) with the input line:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments_source</span><code class="language-plaintext highlighter-rouge"> | xargs -I _ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> _ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_extra_arguments</span></p>
+
+<ul>
+  <li>Parallel runs of up to <code class="language-plaintext highlighter-rouge">max-procs</code> processes at a time; the default is 1. If <code class="language-plaintext highlighter-rouge">max-procs</code> is 0, xargs will run as many processes as possible at a time:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments_source</span><code class="language-plaintext highlighter-rouge"> | xargs -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max-procs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>

@@ -1,0 +1,41 @@
+<h1 id="nix-store">nix-store</h1>
+
+<p>Nix 저장소를 조작하거나 쿼리.
+같이 보기: <code class="language-plaintext highlighter-rouge">nix3 store</code>.
+더 많은 정보: <a href="https://nixos.org/manual/nix/stable/command-ref/nix-store.html">https://nixos.org/manual/nix/stable/command-ref/nix-store.html</a>.</p>
+
+<ul>
+  <li>사용하지 않는 경로를 제거하는 등의 쓰레기 수집:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-store --gc</code></p>
+
+<ul>
+  <li>동일한 파일을 하드 링크로 연결하여 공간 사용량 줄이기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-store --optimise</code></p>
+
+<ul>
+  <li>특정 저장소 경로 삭제 (사용 중이지 않아야 함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-store --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/nix/store/…</span></p>
+
+<ul>
+  <li>저장소 경로(패키지)의 모든 의존성을 트리 형식으로 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-store --query --tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/nix/store/…</span></p>
+
+<ul>
+  <li>특정 저장소 경로와 모든 의존성의 총 크기 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -cLsh $(nix-store --query --references </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/nix/store/…</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>특정 저장소 경로에 대한 모든 종속 항목 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-store --query --referrers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/nix/store/…</span></p>

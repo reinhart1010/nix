@@ -1,0 +1,22 @@
+<h1 id="ppmdither">ppmdither</h1>
+
+<p>디더링을 적용하여 이미지의 색상 수를 줄입니다.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/ppmdither.html">https://netpbm.sourceforge.net/doc/ppmdither.html</a>.</p>
+
+<ul>
+  <li>PPM 이미지를 읽고 디더링을 적용하여 파일로 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmdither </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ppm</span></p>
+
+<ul>
+  <li>각 기본 색상에 대한 원하는 음영 수 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmdither -red </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> -green </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> -blue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ppm</span></p>
+
+<ul>
+  <li>디더링 행렬의 크기 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmdither -dim </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ppm</span></p>

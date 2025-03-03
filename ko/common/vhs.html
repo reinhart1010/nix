@@ -1,0 +1,40 @@
+<h1 id="vhs">vhs</h1>
+
+<p>테이프 파일에서 터미널 GIF 생성.
+더 많은 정보: <a href="https://github.com/charmbracelet/vhs">https://github.com/charmbracelet/vhs</a>.</p>
+
+<ul>
+  <li>테이프 파일 생성 (편집기를 사용하여 테이프 파일에 명령 추가):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vhs new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.tape</span></p>
+
+<ul>
+  <li>테이프 파일에 입력 기록 (완료 후 셸을 종료하여 테이프 생성):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vhs record &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.tape</span></p>
+
+<ul>
+  <li>특정 셸을 사용하여 테이프 파일에 입력 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vhs record --shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">셸</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.tape</span></p>
+
+<ul>
+  <li>테이프 파일의 구문 검증:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vhs validate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.tape</span></p>
+
+<ul>
+  <li>테이프 파일에서 GIF 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vhs &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.tape</span></p>
+
+<ul>
+  <li><a href="https://vhs.charm.sh">https://vhs.charm.sh</a>에 GIF 게시 및 공유 가능한 URL 얻기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vhs publish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.gif</span></p>

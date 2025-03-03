@@ -1,0 +1,52 @@
+<h1 id="cargo-bench">cargo bench</h1>
+
+<p>벤치마크를 컴파일하고 실행.
+더 많은 정보: <a href="https://doc.rust-lang.org/cargo/commands/cargo-bench.html">https://doc.rust-lang.org/cargo/commands/cargo-bench.html</a>.</p>
+
+<ul>
+  <li>패키지의 모든 벤치마크를 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo bench</code></p>
+
+<ul>
+  <li>벤치마크가 실패하더라도 중단하지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo bench --no-fail-fast</code></p>
+
+<ul>
+  <li>컴파일하지만, 벤치마크를 실행하지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo bench --no-run</code></p>
+
+<ul>
+  <li>지정된 벤치마크를 벤치마킹:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo bench --bench </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">벤치마크</span></p>
+
+<ul>
+  <li>주어진 프로필을 사용한 벤치마크 (기본값: <code class="language-plaintext highlighter-rouge">bench</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo bench --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로필</span></p>
+
+<ul>
+  <li>모든 예시 타겟을 벤치마킹:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo bench --examples</code></p>
+
+<ul>
+  <li>모든 바이너리 타겟을 벤치마킹:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo bench --bins</code></p>
+
+<ul>
+  <li>패키지 라이브러리를 벤치마킹:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo bench --lib</code></p>

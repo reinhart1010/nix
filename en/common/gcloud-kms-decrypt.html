@@ -1,0 +1,17 @@
+<h1 id="gcloud-kms-decrypt">gcloud kms decrypt</h1>
+
+<p>Decrypt a ciphertext file using a Cloud KMS key.
+See also: <code class="language-plaintext highlighter-rouge">gcloud</code>.
+More information: <a href="https://cloud.google.com/sdk/gcloud/reference/kms/decrypt">https://cloud.google.com/sdk/gcloud/reference/kms/decrypt</a>.</p>
+
+<ul>
+  <li>Decrypt a file using a specified key, key ring, and location:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud kms decrypt --key=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> --keyring=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyring_name</span><code class="language-plaintext highlighter-rouge"> --location=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global</span><code class="language-plaintext highlighter-rouge"> --ciphertext-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/ciphertext</span><code class="language-plaintext highlighter-rouge"> --plaintext-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/plaintext</span></p>
+
+<ul>
+  <li>Decrypt a file with additional authenticated data (AAD) and write the decrypted plaintext to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud kms decrypt --key=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> --keyring=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyring_name</span><code class="language-plaintext highlighter-rouge"> --location=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global</span><code class="language-plaintext highlighter-rouge"> --additional-authenticated-data-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.aad</span><code class="language-plaintext highlighter-rouge"> --ciphertext-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/ciphertext</span><code class="language-plaintext highlighter-rouge"> --plaintext-file=-</code></p>

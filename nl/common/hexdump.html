@@ -1,0 +1,28 @@
+<h1 id="hexdump">hexdump</h1>
+
+<p>Een ASCII, decimaal, hexadecimale, octale dump.
+Meer informatie: <a href="https://manned.org/hexdump">https://manned.org/hexdump</a>.</p>
+
+<ul>
+  <li>Toon de hexadecimale weergave van een bestand en vervang dubbele regels door '*':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon de invoeroffset in hexadecimaal en zijn ASCII-weergave in twee kolommen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Geef de hexadecimale weergave van een bestand weer, maar interpreteer alleen n bytes van de invoer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump -C -n</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aantal_bytes</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Vervang geen dubbele regels door '*':</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexdump --no-squeezing </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>

@@ -1,0 +1,47 @@
+<h1 id="cancel">cancel</h1>
+
+<p>Cancel print jobs.
+See also: <code class="language-plaintext highlighter-rouge">lp</code>, <code class="language-plaintext highlighter-rouge">lpmove</code>, <code class="language-plaintext highlighter-rouge">lpstat</code>.
+More information: <a href="https://openprinting.github.io/cups/doc/man-cancel.html">https://openprinting.github.io/cups/doc/man-cancel.html</a>.</p>
+
+<ul>
+  <li>Cancel the current job of the default printer (set with <code class="language-plaintext highlighter-rouge">lpoptions -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">printer</span>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cancel</code></p>
+
+<ul>
+  <li>Cancel the jobs of the default printer owned by a specific [u]ser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cancel -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Cancel the current job of a specific printer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cancel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">printer</span></p>
+
+<ul>
+  <li>Cancel a specific job from a specific printer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cancel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">printer</span><code class="language-plaintext highlighter-rouge">-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span></p>
+
+<ul>
+  <li>Cancel [a]ll jobs of all printers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cancel -a</code></p>
+
+<ul>
+  <li>Cancel [a]ll jobs of a specific printer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cancel -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">printer</span></p>
+
+<ul>
+  <li>Cancel the current job of a specific server and then delete ([x]) job data files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cancel -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server</span><code class="language-plaintext highlighter-rouge"> -x</code></p>

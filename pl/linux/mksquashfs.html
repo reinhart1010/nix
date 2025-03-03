@@ -1,0 +1,34 @@
+<h1 id="mksquashfs">mksquashfs</h1>
+
+<p>Utwórz lub dodaj pliki i katalogi do systemów plików squashfs.
+Więcej informacji: <a href="https://manned.org/mksquashfs">https://manned.org/mksquashfs</a>.</p>
+
+<ul>
+  <li>Utwórz lub dodaj pliki i katalogi do systemu plików squashfs (domyślnie kompresując za pomocą <code class="language-plaintext highlighter-rouge">gzip</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mksquashfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_lub_katalogu1 ścieżka/do/pliku_lub_katalogu2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">system_plików.squashfs</span></p>
+
+<ul>
+  <li>Utwórz lub dodaj pliki i katalogi do systemu plików squashfs, używając podanego algorytmu kompresji ([comp]ression):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mksquashfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_lub_katalogu1 ścieżka/do/pliku_lub_katalogu2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">system_plików.squashfs</span><code class="language-plaintext highlighter-rouge"> -comp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gzip|lzo|lz4|xz|zstd|lzma</span></p>
+
+<ul>
+  <li>Utwórz lub dodaj pliki i katalogi do systemu plików squashfs, pomijając ([e]xcluding) niektóre z nich:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mksquashfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_lub_katalogu1 ścieżka/do/pliku_lub_katalogu2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">system_plików.squashfs</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plik|katalog1 plik|katalog2 …</span></p>
+
+<ul>
+  <li>Utwórz lub dodaj pliki i katalogi do systemu plików squashfs, pomijając ([e]xcluding) te kończące się na <code class="language-plaintext highlighter-rouge">.gz</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mksquashfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_lub_katalogu1 ścieżka/do/pliku_lub_katalogu2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">system_plików.squashfs</span><code class="language-plaintext highlighter-rouge"> -wildcards -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.gz</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Utwórz lub dodaj pliki i katalogi do systemu plików squashfs, pomijając ([e]xcluding) te pasujące do wyrażenia regularnego:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mksquashfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_lub_katalogu1 ścieżka/do/pliku_lub_katalogu2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">system_plików.squashfs</span><code class="language-plaintext highlighter-rouge"> -regex -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wyrażenie_regularne</span><code class="language-plaintext highlighter-rouge">"</code></p>

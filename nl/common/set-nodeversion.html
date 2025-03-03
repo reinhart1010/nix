@@ -1,0 +1,29 @@
+<h1 id="set-nodeversion">Set-NodeVersion</h1>
+
+<p>Stel de standaard Node.js versie in voor <code class="language-plaintext highlighter-rouge">ps-nvm</code>.
+Onderdeel van <code class="language-plaintext highlighter-rouge">ps-nvm</code> en kan alleen uitgevoerd worden in PowerShell.
+Meer informatie: <a href="https://github.com/aaronpowell/ps-nvm">https://github.com/aaronpowell/ps-nvm</a>.</p>
+
+<ul>
+  <li>Gebruik een specifieke versie van Node.js in de huidige PowerShell sessie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-NodeVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versie</span></p>
+
+<ul>
+  <li>Gebruik de laatst geïnstalleerde Node.js versie van 20.x:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-NodeVersion ^20</code></p>
+
+<ul>
+  <li>Stel de standaard Node.js versie in voor de huidige gebruiker (geldt alleen voor toekomstige PowerShell sessies):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-NodeVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versie</span><code class="language-plaintext highlighter-rouge"> -Persist User</code></p>
+
+<ul>
+  <li>Stel de standaard Node.js versie in voor alle gebruikers (dient uitgevoerd te worden als Administrator/root en geldt alleen voor toekomstige PowerShell sessies):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Set-NodeVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versie</span><code class="language-plaintext highlighter-rouge"> -Persist Machine</code></p>

@@ -1,0 +1,28 @@
+<h1 id="upnpc">upnpc</h1>
+
+<p>Configure port forwarding rules on your router via the UPnP protocol.
+More information: <a href="https://manned.org/upnpc">https://manned.org/upnpc</a>.</p>
+
+<ul>
+  <li>Forward the external TCP port 80 to port 8080 on a local machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">upnpc -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1</span><code class="language-plaintext highlighter-rouge"> 8080 80 tcp</code></p>
+
+<ul>
+  <li>Delete any port redirection for external TCP port 80:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">upnpc -d 80 tcp</code></p>
+
+<ul>
+  <li>Get information about UPnP devices on your network:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">upnpc -s</code></p>
+
+<ul>
+  <li>List existing redirections:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">upnpc -l</code></p>

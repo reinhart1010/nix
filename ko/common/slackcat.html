@@ -1,0 +1,28 @@
+<h1 id="slackcat">slackcat</h1>
+
+<p>파일 및 명령 출력을 Slack에 전달하는 도구.
+더 많은 정보: <a href="https://github.com/bcicen/slackcat">https://github.com/bcicen/slackcat</a>.</p>
+
+<ul>
+  <li>파일을 Slack에 게시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slackcat --channel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">채널_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>사용자 지정 파일 이름으로 파일을 Slack에 게시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slackcat --channel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">채널_이름</span><code class="language-plaintext highlighter-rouge"> --filename=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>명령 출력을 텍스트 스니펫으로 Slack에 파이프:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> | slackcat --channel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">채널_이름</span><code class="language-plaintext highlighter-rouge"> --filename=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스니펫_이름</span></p>
+
+<ul>
+  <li>명령 출력을 Slack에 지속적으로 스트리밍:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> | slackcat --channel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">채널_이름</span><code class="language-plaintext highlighter-rouge"> --stream</code></p>

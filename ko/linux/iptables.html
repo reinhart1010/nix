@@ -1,0 +1,41 @@
+<h1 id="iptables">iptables</h1>
+
+<p>Linux 커널 IPv4 방화벽의 테이블, 체인 및 규칙을 구성합니다.
+IPv6 트래픽 규칙 설정을 위해서는 <code class="language-plaintext highlighter-rouge">ip6tables</code>를 사용하세요. 같이 보기: <code class="language-plaintext highlighter-rouge">iptables-save</code>, <code class="language-plaintext highlighter-rouge">iptables-restore</code>.
+더 많은 정보: <a href="https://manned.org/iptables">https://manned.org/iptables</a>.</p>
+
+<ul>
+  <li>필터 테이블의 체인, 규칙, 패킷/바이트 카운터 및 라인 번호 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables --verbose --numeric --list --line-numbers</code></p>
+
+<ul>
+  <li>체인 [P]규칙 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables --policy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">체인</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">규칙</span></p>
+
+<ul>
+  <li>IP에 대한 체인 정책에 규칙 [A]추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables --append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">체인</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP</span><code class="language-plaintext highlighter-rouge"> --jump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">규칙</span></p>
+
+<ul>
+  <li>[p]프로토콜과 포트를 고려하여 IP에 대한 체인 정책에 규칙 [A]추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables --append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">체인</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP</span><code class="language-plaintext highlighter-rouge"> --protocol </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp|udp|icmp|…</span><code class="language-plaintext highlighter-rouge"> --dport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span><code class="language-plaintext highlighter-rouge"> --jump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">규칙</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">192.168.0.0/24</code> 서브넷의 모든 트래픽을 호스트의 공인 IP로 변환하는 NAT 규칙 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables --table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nat</span><code class="language-plaintext highlighter-rouge"> --append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">POSTROUTING</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.0/24</span><code class="language-plaintext highlighter-rouge"> --jump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MASQUERADE</span></p>
+
+<ul>
+  <li>체인 규칙 [D]삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">체인</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">규칙_라인_번호</span></p>

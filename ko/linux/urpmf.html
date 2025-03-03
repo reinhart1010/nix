@@ -1,0 +1,38 @@
+<h1 id="urpmf">urpmf</h1>
+
+<p>파일을 패키지에서 찾고 Mageia에서 해당 정보를 조회.
+같이 보기: <code class="language-plaintext highlighter-rouge">urpmi</code>, <code class="language-plaintext highlighter-rouge">urpme</code>, <code class="language-plaintext highlighter-rouge">urpmi.addmedia</code>, <code class="language-plaintext highlighter-rouge">urpmi.removemedia</code>, <code class="language-plaintext highlighter-rouge">urpmi.update</code>, <code class="language-plaintext highlighter-rouge">urpmq</code>.
+더 많은 정보: <a href="https://wiki.mageia.org/en/URPMI#urpmi.removemedia">https://wiki.mageia.org/en/URPMI#urpmi.removemedia</a>.</p>
+
+<ul>
+  <li>파일을 포함하는 패키지 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">urpmf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일명</span></p>
+
+<ul>
+  <li>요약에 특정 키워드 [a]그리고 다른 키워드를 모두 포함하는 패키지 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">urpmf --summary </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키워드1</span><code class="language-plaintext highlighter-rouge"> -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키워드2</span></p>
+
+<ul>
+  <li>설명에 특정 키워드 [o]또는 다른 키워드를 포함하는 패키지 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">urpmf --description </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키워드1</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키워드2</span></p>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>이름에 특정 키워드를 대소문자 구분 없이 포함하지 않는 패키지를 ":" 대신 "</td>
+          <td>"를 [F]ield 구분자로 사용하여 검색:</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">urpmf --description ! </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키워드</span><code class="language-plaintext highlighter-rouge"> -F'|'</code></p>

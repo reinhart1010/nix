@@ -1,0 +1,16 @@
+<h1 id="mkfscramfs">mkfs.cramfs</h1>
+
+<p>Create a ROM filesystem inside a partition.
+More information: <a href="https://manned.org/mkfs.cramfs">https://manned.org/mkfs.cramfs</a>.</p>
+
+<ul>
+  <li>Create a ROM filesystem inside partition 1 on device b (<code class="language-plaintext highlighter-rouge">sdb1</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.cramfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>Create a ROM filesystem with a volume-name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.cramfs -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>

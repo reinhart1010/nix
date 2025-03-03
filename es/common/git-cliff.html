@@ -1,0 +1,34 @@
+<h1 id="git-cliff">git cliff</h1>
+
+<p>Un generador de registros de cambios altamente personalizable.
+Más información: <a href="https://git-cliff.org/docs/usage/args">https://git-cliff.org/docs/usage/args</a>.</p>
+
+<ul>
+  <li>Genera un registro de cambios a partir de todos los commits de un repositorio Git y lo guarda en <code class="language-plaintext highlighter-rouge">CHANGELOG.md</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cliff &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">CHANGELOG.md</span></p>
+
+<ul>
+  <li>Genera un registro de cambios a partir de los commits desde la última etiqueta y lo imprime en <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cliff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–latest</span></p>
+
+<ul>
+  <li>Genera un registro de cambios a partir de los commits que pertenecen a la etiqueta actual (usa <code class="language-plaintext highlighter-rouge">git checkout</code> en una etiqueta anterior a esta):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cliff --current</code></p>
+
+<ul>
+  <li>Genera un registro de cambios a partir de las confirmaciones que no pertenecen a una etiqueta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cliff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-u|–unreleased</span></p>
+
+<ul>
+  <li>Escribe el archivo de configuración por defecto en <code class="language-plaintext highlighter-rouge">cliff.toml</code> en el directorio actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cliff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–init</span></p>

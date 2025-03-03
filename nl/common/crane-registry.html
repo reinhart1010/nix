@@ -1,0 +1,35 @@
+<h1 id="crane-registry">crane registry</h1>
+
+<p>Dit commando biedt een registry-implementatie op een automatisch gekozen poort (:0), $PORT of –address.
+Het commando blokkeert terwijl de server pushes en pulls accepteert en de inhoud kan worden opgeslagen in het geheugen en op de schijf.
+Meer informatie: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_registry_serve.md">https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_registry_serve.md</a>.</p>
+
+<ul>
+  <li>Dien een registry-implementatie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane registry serve</code></p>
+
+<ul>
+  <li>Adres om naar te luisteren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane registry serve --address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address_naam</span></p>
+
+<ul>
+  <li>Pad naar een directory waar blobs worden opgeslagen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane registry serve --disk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/store_dir</span></p>
+
+<ul>
+  <li>Toon help voor <code class="language-plaintext highlighter-rouge">crane registry</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane registry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span></p>
+
+<ul>
+  <li>Toon help voor <code class="language-plaintext highlighter-rouge">crane registry serve</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane registry serve </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span></p>

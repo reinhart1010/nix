@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="dollar-sign">Dollar sign</h1>
+
+<p>展开 Bash 变量。
+更多信息：<a href="https://gnu.org/software/bash/manual/bash.html#Shell-Variables">https://gnu.org/software/bash/manual/bash.html#Shell-Variables</a>.</p>
+
+<ul>
+  <li>打印变量的值：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">变量名</span></p>
+
+<ul>
+  <li>打印上一个命令的退出状态：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $?</code></p>
+
+<ul>
+  <li>打印 0 到 32767 之间的随机数：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $RANDOM</code></p>
+
+<ul>
+  <li>打印其中一个提示字符串：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PS0|PS1|PS2|PS3|PS4</span></p>
+
+<ul>
+  <li>运行 <code class="language-plaintext highlighter-rouge">命令</code> 并展开它的输出。与将 <code class="language-plaintext highlighter-rouge">命令</code> 括在反引号中相同：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">$(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span><code class="language-plaintext highlighter-rouge">)</code></p>

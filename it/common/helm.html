@@ -1,0 +1,53 @@
+<h1 id="helm">helm</h1>
+
+<p>Helm è un gestore di pacchetti per Kubernetes.
+Alcuni comandi aggiuntivi, come <code class="language-plaintext highlighter-rouge">install</code>, hanno la propria documentazione.
+Maggiori informazioni: <a href="https://helm.sh/">https://helm.sh/</a>.</p>
+
+<ul>
+  <li>Crea una helm chart:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_chart</span></p>
+
+<ul>
+  <li>Aggiungi un nuovo repository helm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm repo add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_repository</span></p>
+
+<ul>
+  <li>Elenca i repositories helm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm repo list</code></p>
+
+<ul>
+  <li>Aggiorna i repositories helm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm repo update</code></p>
+
+<ul>
+  <li>Cancella un repository helm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm repo remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_repository</span></p>
+
+<ul>
+  <li>Installa una helm chart:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_chart</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_repository</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_chart</span></p>
+
+<ul>
+  <li>Scarica una helm chart sottoforma di archivio tar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_chart_rilasciata</span></p>
+
+<ul>
+  <li>Aggiorna le dipendenze helm:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm dependency update</code></p>

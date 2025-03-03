@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="dollar-sign">Dollar sign</h1>
+
+<p>Expande una variable Bash.
+Más información: <a href="https://gnu.org/software/bash/manual/bash.html#Shell-Variables">https://gnu.org/software/bash/manual/bash.html#Shell-Variables</a>.</p>
+
+<ul>
+  <li>Imprime una variable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VARIABLE</span></p>
+
+<ul>
+  <li>Imprime el valor de retorno (exit status) del comando anterior:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $?</code></p>
+
+<ul>
+  <li>Imprime un número aleatorio entre 0 y 32767:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $RANDOM</code></p>
+
+<ul>
+  <li>Imprime una de las cadenas de prompt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PS1|PS2|PS3|PS4</span></p>
+
+<ul>
+  <li>Expande la salida del <code class="language-plaintext highlighter-rouge">comando</code> al ejecutarlo. Igual que encerrar <code class="language-plaintext highlighter-rouge">comando</code> en comillas inversas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">$(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge">)</code></p>

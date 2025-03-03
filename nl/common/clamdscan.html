@@ -1,0 +1,52 @@
+<h1 id="clamdscan">clamdscan</h1>
+
+<p>Een command-line virus scanner die gebruik maakt van de ClamAV Daemon.
+Meer informatie: <a href="https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan">https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan</a>.</p>
+
+<ul>
+  <li>Scan een bestand of map op kwetsbaarheden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span></p>
+
+<ul>
+  <li>Scan data van <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span><code class="language-plaintext highlighter-rouge"> | clamdscan -</code></p>
+
+<ul>
+  <li>Scan de huidige map en toon alleen geïnfecteerde bestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --infected</code></p>
+
+<ul>
+  <li>Sla het scan rapport op in een log bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/log_bestand</span></p>
+
+<ul>
+  <li>Verplaats geïnfecteerde bestanden naar een specifieke map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/quarantaine_map</span></p>
+
+<ul>
+  <li>Verwijder geïnfecteerde bestanden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --remove</code></p>
+
+<ul>
+  <li>Gebruik meerdere threads voor het scannen van een map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --multiscan</code></p>
+
+<ul>
+  <li>Geef de bestandsdescriptor door in plaats van het bestand naar de daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --fdpass</code></p>

@@ -1,0 +1,52 @@
+<h1 id="sort">sort</h1>
+
+<p>Sort lines of text files.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html</a>.</p>
+
+<ul>
+  <li>Sort a file in ascending order:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Sort a file in descending order:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort --reverse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Sort a file in case-insensitive way:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort --ignore-case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Sort a file using numeric rather than alphabetic order:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort --numeric-sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Sort <code class="language-plaintext highlighter-rouge">/etc/passwd</code> by the 3rd field of each line numerically, using ":" as a field separator:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort --field-separator=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:</span><code class="language-plaintext highlighter-rouge"> --key=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/etc/passwd</span></p>
+
+<ul>
+  <li>As above, but when items in the 3rd field are equal, sort by the 4th field by numbers with exponents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:</span><code class="language-plaintext highlighter-rouge"> -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3,3n</span><code class="language-plaintext highlighter-rouge"> -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4,4g</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/etc/passwd</span></p>
+
+<ul>
+  <li>Sort a file preserving only unique lines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort --unique </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Sort a file, printing the output to the specified output file (can be used to sort a file in-place):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sort --output=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

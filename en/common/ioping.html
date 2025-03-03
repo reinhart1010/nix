@@ -1,0 +1,28 @@
+<h1 id="ioping">ioping</h1>
+
+<p>Monitor I/O latency in real time.
+More information: <a href="https://github.com/koct9i/ioping">https://github.com/koct9i/ioping</a>.</p>
+
+<ul>
+  <li>Show disk I/O latency using the default values and the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ioping .</code></p>
+
+<ul>
+  <li>Measure latency on /tmp using 10 requests of 1 megabyte each:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ioping -c 10 -s 1M /tmp</code></p>
+
+<ul>
+  <li>Measure disk seek rate on <code class="language-plaintext highlighter-rouge">/dev/sdX</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ioping -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Measure disk sequential speed on <code class="language-plaintext highlighter-rouge">/dev/sdX</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ioping -RL </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>

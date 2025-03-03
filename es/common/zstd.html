@@ -1,0 +1,34 @@
+<h1 id="zstd">zstd</h1>
+
+<p>Comprime o descomprime archivos con compresión Zstandard.
+Más información: <a href="https://github.com/facebook/zstd">https://github.com/facebook/zstd</a>.</p>
+
+<ul>
+  <li>Comprime un archivo en un nuevo archivo con el sufijo <code class="language-plaintext highlighter-rouge">.zst</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zstd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Descomprime un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zstd --decompress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.zst</span></p>
+
+<ul>
+  <li>Descomprime a la salida estándar <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zstd --decompress --stdout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.zst</span></p>
+
+<ul>
+  <li>Comprime un archivo especificando el nivel de compresión, donde 1=más rápido, 19=más lento y 3=predeterminado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zstd -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nivel</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Desbloquea niveles de compresión superiores (hasta 22) utilizando más memoria (tanto para compresión como descompresión):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zstd --ultra -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nivel</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>

@@ -1,0 +1,40 @@
+<h1 id="echo">echo</h1>
+
+<p>چاپ ورودی داده شده.
+اطلاعات بیشتر: <a href="https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html</a>.</p>
+
+<ul>
+  <li>چاپ پیام ورودی. نکته : استفاده از علامت نقل قول انتخابی است:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">سلام دنیا</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>چاپ یک پیام حاوی متغییرهای سیستمی:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر سیستم من $PATH است.</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>چاپ یک پیام بدون انتقال به خط جدید:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">سلام دنیا</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>افزودن یک پیام به انتهای یک فایل:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">سلام دنیا</span><code class="language-plaintext highlighter-rouge">" &gt;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.txt</span></p>
+
+<ul>
+  <li>فعال کردن تفسیر کاراکترهای خاص، برای مثال tab:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Column 1\tColumn 2</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>چاپ وضعیت خروج آخرین دستور اجرا شده (نکته: معادل های این دستور در ویندور به ترتیب echo %errorlevel% و $lastexitcode هستند.) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $?</code></p>

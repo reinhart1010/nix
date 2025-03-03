@@ -1,0 +1,29 @@
+<h1 id="pngtopam">pngtopam</h1>
+
+<p>Convert a PNG image to a Netpbm image.
+See also: <code class="language-plaintext highlighter-rouge">pamtopng</code>.
+More information: <a href="https://netpbm.sourceforge.net/doc/pngtopam.html">https://netpbm.sourceforge.net/doc/pngtopam.html</a>.</p>
+
+<ul>
+  <li>Convert the specified PNG image to a Netpbm image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pngtopam </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.png</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pam</span></p>
+
+<ul>
+  <li>Create an output image that includes both the main image and transparency mask of the input image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pngtopam -alphapam </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.png</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pam</span></p>
+
+<ul>
+  <li>Replace transparent pixels by the specified color:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pngtopam -mix -background </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">color</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.png</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pam</span></p>
+
+<ul>
+  <li>Write tEXt chunks found in the input image to the specified text file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pngtopam -text </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.png</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pam</span></p>

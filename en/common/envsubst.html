@@ -1,0 +1,29 @@
+<h1 id="envsubst">envsubst</h1>
+
+<p>Substitutes environment variables with their value in shell format strings.
+Variables to be replaced should be in either <code class="language-plaintext highlighter-rouge">${var}</code> or <code class="language-plaintext highlighter-rouge">$var</code> format.
+More information: <a href="https://www.gnu.org/software/gettext/manual/html_node/envsubst-Invocation.html">https://www.gnu.org/software/gettext/manual/html_node/envsubst-Invocation.html</a>.</p>
+
+<ul>
+  <li>Replace environment variables in <code class="language-plaintext highlighter-rouge">stdin</code> and output to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$HOME</span><code class="language-plaintext highlighter-rouge">' | envsubst</code></p>
+
+<ul>
+  <li>Replace environment variables in an input file and output to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">envsubst &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span></p>
+
+<ul>
+  <li>Replace environment variables in an input file and output to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">envsubst &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span></p>
+
+<ul>
+  <li>Replace environment variables in an input file from a space-separated list:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">envsubst '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$USER $SHELL $HOME</span><code class="language-plaintext highlighter-rouge">' &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span></p>

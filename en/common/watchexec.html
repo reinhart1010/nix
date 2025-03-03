@@ -1,0 +1,28 @@
+<h1 id="watchexec">watchexec</h1>
+
+<p>Run arbitrary commands when files change.
+More information: <a href="https://github.com/watchexec/watchexec">https://github.com/watchexec/watchexec</a>.</p>
+
+<ul>
+  <li>Call <code class="language-plaintext highlighter-rouge">ls -la</code> when any file in the current directory changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watchexec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -la</span></p>
+
+<ul>
+  <li>Run <code class="language-plaintext highlighter-rouge">make</code> when any JavaScript, CSS and HTML file in the current directory changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watchexec --exts </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">js,css,html</span><code class="language-plaintext highlighter-rouge"> make</code></p>
+
+<ul>
+  <li>Run <code class="language-plaintext highlighter-rouge">make</code> when any file in the <code class="language-plaintext highlighter-rouge">lib</code> or <code class="language-plaintext highlighter-rouge">src</code> directory changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watchexec --watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lib</span><code class="language-plaintext highlighter-rouge"> --watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">src</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make</span></p>
+
+<ul>
+  <li>Call/restart <code class="language-plaintext highlighter-rouge">my_server</code> when any file in the current directory changes, sending <code class="language-plaintext highlighter-rouge">SIGKILL</code> to stop the child process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">watchexec --restart --stop-signal </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGKILL</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_server</span></p>

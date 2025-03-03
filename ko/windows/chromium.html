@@ -1,0 +1,53 @@
+<h1 id="chromium">chromium</h1>
+
+<p>주로 Google에서 개발 및 유지 관리하는 오픈 소스 웹 브라우저.
+참고: 원하는 웹 브라우저에 따라 <code class="language-plaintext highlighter-rouge">chromium</code> 명령을 <code class="language-plaintext highlighter-rouge">brave</code>, <code class="language-plaintext highlighter-rouge">google-chrome</code>, <code class="language-plaintext highlighter-rouge">microsoft-edge</code>/<code class="language-plaintext highlighter-rouge">msedge</code>, <code class="language-plaintext highlighter-rouge">opera</code>, 또는 <code class="language-plaintext highlighter-rouge">vivaldi</code>로 대체해야 할 수 있습니다.
+더 많은 정보: <a href="https://www.chromium.org/developers/how-tos/run-chromium-with-flags/">https://www.chromium.org/developers/how-tos/run-chromium-with-flags/</a>.</p>
+
+<ul>
+  <li>특정 URL 또는 파일 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com|경로/대상/파일.html</span></p>
+
+<ul>
+  <li>시크릿 모드로 열기 (Microsoft Edge의 경우 <code class="language-plaintext highlighter-rouge">--inprivate</code> 사용):</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chromium –incognito|msedge –inprivate</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>새 창으로 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --new-window </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>애플리케이션 모드로 열기 (툴바, URL 바, 버튼 등 없이):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --app=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>프록시 서버 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --proxy-server="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">socks5://hostname:66</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>사용자 정의 프로필 디렉토리로 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --user-data-dir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>CORS 검증 없이 열기 (API 테스트에 유용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --user-data-dir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> --disable-web-security</code></p>
+
+<ul>
+  <li>열리는 각 탭에 대해 개발자 도구 창과 함께 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chromium --auto-open-devtools-for-tabs</code></p>

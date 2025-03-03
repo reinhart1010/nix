@@ -1,0 +1,52 @@
+<h1 id="find">find</h1>
+
+<p>Пошук файлів або каталогів в дереві каталогів, рекурсивно.
+Більше інформації: <a href="https://manned.org/find">https://manned.org/find</a>.</p>
+
+<ul>
+  <li>Знайти файли за розширенням:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">кореневий_шлях</span><code class="language-plaintext highlighter-rouge"> -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Знайти файли, що відповідають декільком шаблонам шляху/імен:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">кореневий_шлях</span><code class="language-plaintext highlighter-rouge"> -path '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><strong>/path/</strong>/*.ext</span><code class="language-plaintext highlighter-rouge">' -or -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>шаблон</em></span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Знайти каталоги, що відповідають заданому імені, у режимі без урахування регістру:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">кореневий_шлях</span><code class="language-plaintext highlighter-rouge"> -type d -iname '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>lib</em></span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Знайти файли, що відповідають заданому шаблону, за винятком певних шляхів:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">кореневий_шлях</span><code class="language-plaintext highlighter-rouge"> -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.py</span><code class="language-plaintext highlighter-rouge">' -not -path '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>/site-packages/</em></span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Знайти файли, що відповідають заданому діапазону розмірів, обмеживши рекурсивну глибину до "1":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">кореневий_шлях</span><code class="language-plaintext highlighter-rouge"> -maxdepth 1 -size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+500k</span><code class="language-plaintext highlighter-rouge"> -size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-10M</span></p>
+
+<ul>
+  <li>Виконати команду для кожного файлу (використовуйте <code class="language-plaintext highlighter-rouge">{}</code> в команді, щоб отримати доступ до імені файлу):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">кореневий_шлях</span><code class="language-plaintext highlighter-rouge"> -name '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span><code class="language-plaintext highlighter-rouge">' -exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -l</span><code class="language-plaintext highlighter-rouge"> {} \;</code></p>
+
+<ul>
+  <li>Знайти всі файли, змінені сьогодні, і передати результати одній команді як аргументи:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">кореневий_шлях</span><code class="language-plaintext highlighter-rouge"> -daystart -mtime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1</span><code class="language-plaintext highlighter-rouge"> -exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tar -cvf archive.tar</span><code class="language-plaintext highlighter-rouge"> {} \+</code></p>
+
+<ul>
+  <li>Знайти порожні файли (0 байт) або каталоги та докладно видалити їх:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">кореневий_шлях</span><code class="language-plaintext highlighter-rouge"> -type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f|d</span><code class="language-plaintext highlighter-rouge"> -empty -delete -print</code></p>

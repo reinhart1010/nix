@@ -1,0 +1,34 @@
+<h1 id="qtile">qtile</h1>
+
+<p>A full-featured, hackable tiling window manager written and configured in Python.
+More information: <a href="https://docs.qtile.org/en/latest/manual/commands/shell/index.html">https://docs.qtile.org/en/latest/manual/commands/shell/index.html</a>.</p>
+
+<ul>
+  <li>Start the window manager, if it is not running already (should ideally be run from <code class="language-plaintext highlighter-rouge">.xsession</code> or similar):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qtile start</code></p>
+
+<ul>
+  <li>Check the configuration file for any compilation errors (default location is <code class="language-plaintext highlighter-rouge">~/.config/qtile/config.py</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qtile check</code></p>
+
+<ul>
+  <li>Show current resource usage information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qtile top --force</code></p>
+
+<ul>
+  <li>Open the program <code class="language-plaintext highlighter-rouge">xterm</code> as a floating window on the group named <code class="language-plaintext highlighter-rouge">test-group</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qtile run-cmd --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test-group</span><code class="language-plaintext highlighter-rouge"> --float </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xterm</span></p>
+
+<ul>
+  <li>Restart the window manager:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qtile cmd-obj --object cmd --function restart</code></p>

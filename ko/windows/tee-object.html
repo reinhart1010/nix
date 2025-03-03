@@ -1,0 +1,17 @@
+<h1 id="tee-object">Tee-Object</h1>
+
+<p>명령어 출력을 파일 또는 변수에 저장하고 파이프라인으로 전달합니다.
+참고: 이 명령어는 PowerShell을 통해서만 사용할 수 있습니다.
+더 많은 정보: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/tee-object">https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/tee-object</a>.</p>
+
+<ul>
+  <li>프로세스를 파일과 콘솔에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Process | Tee-Object -FilePath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\파일</span></p>
+
+<ul>
+  <li>프로세스를 변수와 <code class="language-plaintext highlighter-rouge">Select-Object</code>에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Process notepad | Tee-Object -Variable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">proc</span><code class="language-plaintext highlighter-rouge"> | Select-Object processname,handles</code></p>

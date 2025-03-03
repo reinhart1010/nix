@@ -1,0 +1,43 @@
+<h1 id="gcrane">gcrane</h1>
+
+<p>Beheer tool voor containerafbeeldingen.
+Deze tool implementeert een superset van de <code class="language-plaintext highlighter-rouge">crane</code>-commando's, met aanvullende commando's die specifiek zijn voor <code class="language-plaintext highlighter-rouge">gcr.io</code>.
+Sommige subcommando's zoals <code class="language-plaintext highlighter-rouge">append</code>, <code class="language-plaintext highlighter-rouge">auth</code>, <code class="language-plaintext highlighter-rouge">copy</code>, enz. hebben hun eigen gebruiksdocumentatie die te vinden is onder <code class="language-plaintext highlighter-rouge">crane</code>.
+Sommige subcommando's zoals <code class="language-plaintext highlighter-rouge">completion</code>, <code class="language-plaintext highlighter-rouge">gc</code>, <code class="language-plaintext highlighter-rouge">help</code> zijn specifiek voor gcrane en hebben hun eigen gebruiksdocumentatie.
+Meer informatie: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md">https://github.com/google/go-containerregistry/blob/main/cmd/gcrane/README.md</a>.</p>
+
+<ul>
+  <li>Voer een <code class="language-plaintext highlighter-rouge">gcrane</code>-subcommando uit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcrane </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>
+
+<ul>
+  <li>Sta het pushen van niet-distributieve (vreemde) lagen toe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcrane --allow-nondistributable-artifacts </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>
+
+<ul>
+  <li>Sta het ophalen van afbeeldingsreferenties zonder TLS toe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcrane --insecure </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>
+
+<ul>
+  <li>Specificeer het platform in de vorm os/arch<code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;/variant&lt;/span&gt;&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;:osversion&lt;/span&gt;</code> (bijv. linux/amd64). (standaard alles):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcrane --platform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">platform</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>
+
+<ul>
+  <li>Schakel debuglogs in:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcrane </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span></p>
+
+<ul>
+  <li>Toon de help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcrane </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span></p>

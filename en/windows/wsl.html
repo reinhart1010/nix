@@ -1,0 +1,52 @@
+<h1 id="wsl">wsl</h1>
+
+<p>Manage the Windows Subsystem for Linux.
+More information: <a href="https://learn.microsoft.com/windows/wsl/reference">https://learn.microsoft.com/windows/wsl/reference</a>.</p>
+
+<ul>
+  <li>Start a Linux shell (in the default distribution):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell_command</span></p>
+
+<ul>
+  <li>Run a Linux command without using a shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>
+
+<ul>
+  <li>Specify a particular distribution:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --distribution </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distribution</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell_command</span></p>
+
+<ul>
+  <li>List available distributions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --list</code></p>
+
+<ul>
+  <li>Export a distribution to a <code class="language-plaintext highlighter-rouge">.tar</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distribution</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\distro_file.tar</span></p>
+
+<ul>
+  <li>Import a distribution from a <code class="language-plaintext highlighter-rouge">.tar</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distribution</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\install_location</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/distro_file.tar</span></p>
+
+<ul>
+  <li>Change the version of wsl used for the specified distribution:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --set-version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distribution</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Shut down Windows Subsystem for Linux:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --shutdown</code></p>

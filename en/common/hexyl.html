@@ -1,0 +1,28 @@
+<h1 id="hexyl">hexyl</h1>
+
+<p>A simple hex viewer for the terminal. Uses colored output to distinguish different categories of bytes.
+More information: <a href="https://github.com/sharkdp/hexyl">https://github.com/sharkdp/hexyl</a>.</p>
+
+<ul>
+  <li>Print the hexadecimal representation of a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexyl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print the hexadecimal representation of the first n bytes of a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexyl -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print bytes 512 through 1024 of a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexyl -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">512</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print 512 bytes starting at the 1024th byte:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hexyl -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span><code class="language-plaintext highlighter-rouge">:+</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">512</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

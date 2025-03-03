@@ -1,0 +1,40 @@
+<h1 id="cbt">cbt</h1>
+
+<p>Google Cloud's Bigtable에서 데이터를 읽는 유틸리티.
+더 많은 정보: <a href="https://cloud.google.com/bigtable/docs/cbt-reference">https://cloud.google.com/bigtable/docs/cbt-reference</a>.</p>
+
+<ul>
+  <li>현재 프로젝트의 테이블 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cbt ls</code></p>
+
+<ul>
+  <li>현재 프로젝트의 특정 테이블에 있는 행 수를 인쇄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cbt count "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>현재 프로젝트의 열 당 1개의 (가장 최근) 셀 수정만 사용하여 특정 테이블의 단일 행을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cbt lookup "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">열_키</span><code class="language-plaintext highlighter-rouge">" cells-per-column=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>현재 프로젝트에서 특정 열만 있는 단일 행 표시 (전체 패밀리를 반환하려면 한정자를 생략):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cbt lookup "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">열_키</span><code class="language-plaintext highlighter-rouge">" columns="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">family1:qualifier1,family2:qualifier2,…</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 정규식 패턴으로 현재 프로젝트에서 최대 5개 행을 검색하고 인쇄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cbt read "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge">" regex="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">열_키_패턴</span><code class="language-plaintext highlighter-rouge">" count=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>특정 행 범위를 읽고, 현재 프로젝트에서 반환된 행 키만 인쇄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cbt read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블_이름</span><code class="language-plaintext highlighter-rouge"> start=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">시작_열_키</span><code class="language-plaintext highlighter-rouge"> end=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">마지막_열_키</span><code class="language-plaintext highlighter-rouge"> keys-only=true</code></p>

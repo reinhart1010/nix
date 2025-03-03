@@ -1,0 +1,46 @@
+<h1 id="nixos-rebuild">nixos-rebuild</h1>
+
+<p>Reconfigure a NixOS machine.
+More information: <a href="https://nixos.org/nixos/manual/#sec-changing-config">https://nixos.org/nixos/manual/#sec-changing-config</a>.</p>
+
+<ul>
+  <li>Build and switch to the new configuration, making it the boot default:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nixos-rebuild switch</code></p>
+
+<ul>
+  <li>Build and switch to the new configuration, making it the boot default and naming the boot entry:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nixos-rebuild switch -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Build and switch to the new configuration, making it the boot default and installing updates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nixos-rebuild switch --upgrade</code></p>
+
+<ul>
+  <li>Rollback changes to the configuration, switching to the previous generation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nixos-rebuild switch --rollback</code></p>
+
+<ul>
+  <li>Build the new configuration and make it the boot default without switching to it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nixos-rebuild boot</code></p>
+
+<ul>
+  <li>Build and activate the new configuration, but don't make a boot entry (for testing purposes):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nixos-rebuild test</code></p>
+
+<ul>
+  <li>Build the configuration and open it in a virtual machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nixos-rebuild build-vm</code></p>

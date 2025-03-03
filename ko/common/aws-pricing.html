@@ -1,0 +1,34 @@
+<h1 id="aws-pricing">aws pricing</h1>
+
+<p>Amazon Web Services에서 서비스, 제품 및 가격 정보를 쿼리.
+더 많은 정보: <a href="https://docs.aws.amazon.com/cli/latest/reference/pricing/">https://docs.aws.amazon.com/cli/latest/reference/pricing/</a>.</p>
+
+<ul>
+  <li>특정 지역의 서비스 코드 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws pricing describe-services --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us-east-1</span></p>
+
+<ul>
+  <li>특정 지역의 지정된 서비스 코드에 대한 속성을 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws pricing describe-services --service-code </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AmazonEC2</span><code class="language-plaintext highlighter-rouge"> --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us-east-1</span></p>
+
+<ul>
+  <li>특정 지역의 서비스 코드에 대한 가격 정보 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws pricing get-products --service-code </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AmazonEC2</span><code class="language-plaintext highlighter-rouge"> --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us-east-1</span></p>
+
+<ul>
+  <li>특정 지역의 서비스 코드에 대한 특정 속성 값 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws pricing get-attribute-values --service-code </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AmazonEC2</span><code class="language-plaintext highlighter-rouge"> --attribute-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인스턴스타입</span><code class="language-plaintext highlighter-rouge"> --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us-east-1</span></p>
+
+<ul>
+  <li>인스턴스 유형 및 위치에 대한 필터를 사용하여, 서비스 코드에 대한 가격 정보를 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws pricing get-products --service-code </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AmazonEC2</span><code class="language-plaintext highlighter-rouge"> --filters "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Type=TERM_MATCH,Field=instanceType,Value=m5.xlarge</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Type=TERM_MATCH,Field=location,Value=US East (N. Virginia)</span><code class="language-plaintext highlighter-rouge">" --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us-east-1</span></p>

@@ -1,0 +1,22 @@
+<h1 id="kubectl-scale">kubectl scale</h1>
+
+<p>배포, 레플리카 세트, 복제 컨트롤러 또는 스테이트풀 세트의 크기를 조정.
+더 많은 정보: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#scale">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#scale</a>.</p>
+
+<ul>
+  <li>레플리카 세트 크기 조정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl scale --replicas=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레플리카_수</span><code class="language-plaintext highlighter-rouge"> rs/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레플리카_이름</span></p>
+
+<ul>
+  <li>파일로 식별된 리소스 크기 조정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl scale --replicas=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레플리카_수</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.yml</span></p>
+
+<ul>
+  <li>현재 레플리카 수를 기준으로 배포 크기 조정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl scale --current-replicas=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">현재_레플리카_수</span><code class="language-plaintext highlighter-rouge"> --replicas=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레플리카_수</span><code class="language-plaintext highlighter-rouge"> deployment/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">배포_이름</span></p>

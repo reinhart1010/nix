@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-tag">git tag</h1>
+
+<p>Erstelle, lösche, überprüfe und liste Tags auf.
+Weitere Informationen: <a href="https://git-scm.com/docs/git-tag">https://git-scm.com/docs/git-tag</a>.</p>
+
+<ul>
+  <li>Liste alle Tags auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag</code></p>
+
+<ul>
+  <li>Erstelle einen Tag mit Namen, welcher auf den aktuellen Commit zeigt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_name</span></p>
+
+<ul>
+  <li>Erstelle einen Tag mit Namen, welcher auf einen bestimmten Commit zeigt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Erstelle einen Tag mit Anmerkung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_name</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anmkerung</span></p>
+
+<ul>
+  <li>Lösche einen Tag mit bestimmten Namen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_name</span></p>
+
+<ul>
+  <li>Lade die aktualisierten Tags aus dem Upstream:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git fetch --tags</code></p>
+
+<ul>
+  <li>Liste alle Tags auf, bei denen sich in den vorangegangenen Commits ein bestimmter Commit findet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git tag --contains </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>

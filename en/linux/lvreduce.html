@@ -1,0 +1,17 @@
+<h1 id="lvreduce">lvreduce</h1>
+
+<p>Reduce the size of a logical volume.
+See also: <code class="language-plaintext highlighter-rouge">lvm</code>.
+More information: <a href="https://manned.org/lvreduce">https://manned.org/lvreduce</a>.</p>
+
+<ul>
+  <li>Reduce a volume's size to 120 GB:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lvreduce --size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">120G</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">logical_volume</span></p>
+
+<ul>
+  <li>Reduce a volume's size by 40 GB as well as the underlying filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lvreduce --size -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">40G</span><code class="language-plaintext highlighter-rouge"> -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">logical_volume</span></p>

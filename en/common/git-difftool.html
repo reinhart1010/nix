@@ -1,0 +1,29 @@
+<h1 id="git-difftool">git difftool</h1>
+
+<p>Show file changes using external diff tools. Accepts the same options and arguments as <code class="language-plaintext highlighter-rouge">git diff</code>.
+See also: <code class="language-plaintext highlighter-rouge">git diff</code>.
+More information: <a href="https://git-scm.com/docs/git-difftool">https://git-scm.com/docs/git-difftool</a>.</p>
+
+<ul>
+  <li>List available diff tools:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git difftool --tool-help</code></p>
+
+<ul>
+  <li>Set the default diff tool to meld:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global diff.tool "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">meld</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Use the default diff tool to show staged changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git difftool --staged</code></p>
+
+<ul>
+  <li>Use a specific tool (opendiff) to show changes since a given commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git difftool --tool=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opendiff</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>

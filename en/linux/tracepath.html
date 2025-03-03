@@ -1,0 +1,40 @@
+<h1 id="tracepath">tracepath</h1>
+
+<p>Trace the path to a network host discovering MTU along this path.
+More information: <a href="https://manned.org/tracepath">https://manned.org/tracepath</a>.</p>
+
+<ul>
+  <li>A preferred way to trace the path to a host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracepath -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">33434</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Specify the initial destination port, useful with non-standard firewall settings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracepath -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination_port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Print both hostnames and numerical IP addresses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracepath -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Specify a maximum TTL (number of hops):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracepath -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_hops</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Specify the initial packet length (defaults to 65535 for IPv4 and 128000 for IPv6):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracepath -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">packet_length</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Use only IPv6 addresses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracepath -6 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>

@@ -1,0 +1,28 @@
+<h1 id="touch">touch</h1>
+
+<p>Buat berkas-berkas kosong baru dan setel waktu akses dan modifikasi terhadap para berkas.
+Informasi lebih lanjut: <a href="https://manned.org/touch">https://manned.org/touch</a>.</p>
+
+<ul>
+  <li>Buat kumpulan berkas baru:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">touch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 …</span></p>
+
+<ul>
+  <li>Atur informasi waktu [a]kses atau [m]odifikasi pada kumpulan berkas yang telah tersedia dalam penyimpanan, dan jangan membuat ([c]reate) berkas baru jika tak tersedia dalam penyimpanan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">touch -c -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a|m</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 …</span></p>
+
+<ul>
+  <li>Atur informasi wak[t]u terhadap kumpulan berkas, dan jangan membuat ([c]reate) berkas baru jika tak tersedia dalam penyimpanan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">touch -c -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 …</span></p>
+
+<ul>
+  <li>Gunakan informasi wak[t]u atas suatu berkas referensi terhadap kumpulan berkas yang diolah, dan jangan membuat ([c]reate) berkas baru jika tak tersedia dalam penyimpanan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">touch -c -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_referensi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 …</span></p>

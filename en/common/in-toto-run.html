@@ -1,0 +1,28 @@
+<h1 id="in-toto-run">in-toto-run</h1>
+
+<p>Generating link metadata while carrying out a supply chain step.
+More information: <a href="https://in-toto.readthedocs.io/en/latest/command-line-tools/in-toto-run.html">https://in-toto.readthedocs.io/en/latest/command-line-tools/in-toto-run.html</a>.</p>
+
+<ul>
+  <li>Tag a Git repo and signing the resulting link file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">in-toto-run -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span><code class="language-plaintext highlighter-rouge"> --products </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span><code class="language-plaintext highlighter-rouge"> -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_file</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git tag v1.0</span></p>
+
+<ul>
+  <li>Create a tarball, storing files as materials and the tarball as product:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">in-toto-run -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project.tar.gz</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tar czf project.tar.gz project</span></p>
+
+<ul>
+  <li>Generate signed attestations for review work:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">in-toto-run -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">review</span><code class="language-plaintext highlighter-rouge"> -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_file</span><code class="language-plaintext highlighter-rouge"> -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">document.pdf</span><code class="language-plaintext highlighter-rouge"> -x</code></p>
+
+<ul>
+  <li>Scan the image using Trivy and generate link file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">in-toto-run -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scan</span><code class="language-plaintext highlighter-rouge"> -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_file</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">report.json</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/bin/sh -c "trivy -o report.json -f json <IMAGE>"&lt;/span&gt;</IMAGE></span></p>

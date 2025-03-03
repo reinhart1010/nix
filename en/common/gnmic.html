@@ -1,0 +1,35 @@
+<h1 id="gnmic">gnmic</h1>
+
+<p>A gNMI command-line client.
+Manage gNMI network device configuration and view operational data.
+More information: <a href="https://gnmic.kmrd.dev">https://gnmic.kmrd.dev</a>.</p>
+
+<ul>
+  <li>Request device capabilities:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic --address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:port</span><code class="language-plaintext highlighter-rouge"> capabilities</code></p>
+
+<ul>
+  <li>Provide a username and password to fetch device capabilities:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic --address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:port</span><code class="language-plaintext highlighter-rouge"> --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> capabilities</code></p>
+
+<ul>
+  <li>Get a snapshot of the device state at a specific path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:port</span><code class="language-plaintext highlighter-rouge"> get --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path</span></p>
+
+<ul>
+  <li>Update device state at a specific path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:port</span><code class="language-plaintext highlighter-rouge"> set --update-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path</span><code class="language-plaintext highlighter-rouge"> --update-value </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Subscribe to target state updates under the subtree at a specific path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gnmic -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:port</span><code class="language-plaintext highlighter-rouge"> subscribe --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path</span></p>

@@ -1,0 +1,52 @@
+<h1 id="tmutil">tmutil</h1>
+
+<p>Utility for managing Time Machine backups. Most verbs require root privileges.
+More information: <a href="https://keith.github.io/xcode-man-pages/tmutil.8.html">https://keith.github.io/xcode-man-pages/tmutil.8.html</a>.</p>
+
+<ul>
+  <li>Set an HFS+ drive as the backup destination:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tmutil setdestination </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/disk_mount_point</span></p>
+
+<ul>
+  <li>Set an APF share or SMB share as the backup destination:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tmutil setdestination "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protocol://user[:password]@host/share</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Append the given destination to the list of destinations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tmutil setdestination -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination</span></p>
+
+<ul>
+  <li>Enable automatic backups:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tmutil enable</code></p>
+
+<ul>
+  <li>Disable automatic backups:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tmutil disable</code></p>
+
+<ul>
+  <li>Start a backup, if one is not running already, and release control of the shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tmutil startbackup</code></p>
+
+<ul>
+  <li>Start a backup and block until the backup is finished:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tmutil startbackup -b</code></p>
+
+<ul>
+  <li>Stop a backup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tmutil stopbackup</code></p>

@@ -1,0 +1,40 @@
+<h1 id="daemon">daemon</h1>
+
+<p>프로세스를 데몬으로 실행.
+더 많은 정보: <a href="https://manned.org/daemon">https://manned.org/daemon</a>.</p>
+
+<ul>
+  <li>명령어를 데몬으로 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemon --name="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>명령어를 데몬으로 실행하고, 충돌 시 재시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemon --name="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge">" --respawn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>충돌 시 재시작하는 데몬으로 명령어를 실행하며, 10초마다 두 번 시도:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemon --name="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge">" --respawn --attempts=2 --delay=10 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>로그를 특정 파일에 기록하며 명령어를 데몬으로 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemon --name="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge">" --errlog=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.log</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>데몬 종료 (SIGTERM):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemon --name="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge">" --stop</code></p>
+
+<ul>
+  <li>데몬 목록 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">daemon --list</code></p>

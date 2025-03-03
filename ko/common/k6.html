@@ -1,0 +1,52 @@
+<h1 id="k6">k6</h1>
+
+<p>엔지니어링 팀을 위한 오픈 소스 부하 테스트 도구 및 SaaS.
+더 많은 정보: <a href="https://k6.io">https://k6.io</a>.</p>
+
+<ul>
+  <li>로컬에서 부하 테스트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k6 run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스크립트.js</span></p>
+
+<ul>
+  <li>주어진 가상 사용자 수와 지속 시간으로 로컬에서 부하 테스트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k6 run --vus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> --duration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30s</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스크립트.js</span></p>
+
+<ul>
+  <li>주어진 환경 변수를 사용하여 로컬에서 부하 테스트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k6 run -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HOSTNAME=example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스크립트.js</span></p>
+
+<ul>
+  <li>InfluxDB를 사용하여 결과를 저장하며 로컬에서 부하 테스트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k6 run --out influxdb=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://localhost:8086/k6db</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스크립트.js</span></p>
+
+<ul>
+  <li>응답 본문을 버리면서 (상당히 빠르게) 로컬에서 부하 테스트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k6 run --discard-response-bodies </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스크립트.js</span></p>
+
+<ul>
+  <li>기본 JavaScript 호환 모드를 사용하여 (상당히 빠르게) 로컬에서 부하 테스트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k6 run --compatibility-mode=base </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스크립트.js</span></p>
+
+<ul>
+  <li>비밀 토큰을 사용하여 클라우드 서비스에 로그인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k6 login cloud --token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀</span></p>
+
+<ul>
+  <li>클라우드 인프라에서 부하 테스트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k6 cloud </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스크립트.js</span></p>

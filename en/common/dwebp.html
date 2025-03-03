@@ -1,0 +1,41 @@
+<h1 id="dwebp">dwebp</h1>
+
+<p><code class="language-plaintext highlighter-rouge">dwebp</code> decompresses WebP files into PNG, PAM, PPM or PGM images.
+Animated WebP files are not supported.
+More information: <a href="https://developers.google.com/speed/webp/docs/dwebp/">https://developers.google.com/speed/webp/docs/dwebp/</a>.</p>
+
+<ul>
+  <li>Convert a WebP file into a PNG file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dwebp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.webp</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span></p>
+
+<ul>
+  <li>Convert a WebP file into a specific filetype:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dwebp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.webp</span><code class="language-plaintext highlighter-rouge"> -bmp|-tiff|-pam|-ppm|-pgm|-yuv -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output</span></p>
+
+<ul>
+  <li>Convert a WebP file, using multi-threading if possible:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dwebp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.webp</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span><code class="language-plaintext highlighter-rouge"> -mt</code></p>
+
+<ul>
+  <li>Convert a WebP file, but also crop and scale at the same time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dwebp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.webp</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.png</span><code class="language-plaintext highlighter-rouge"> -crop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_pos</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_pos</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">height</span><code class="language-plaintext highlighter-rouge"> -scale </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">height</span></p>
+
+<ul>
+  <li>Convert a WebP file and flip the output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dwebp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.webp</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span><code class="language-plaintext highlighter-rouge"> -flip</code></p>
+
+<ul>
+  <li>Convert a WebP file and don't use in-loop filtering to speed up the decoding process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dwebp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.webp</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span><code class="language-plaintext highlighter-rouge"> -nofilter</code></p>

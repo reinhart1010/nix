@@ -1,0 +1,53 @@
+<h1 id="vim">vim</h1>
+
+<p>Vim (Vi IMproved), 是一個命令列文字編輯器，為不同類型的文字操作提供了多種模式。
+在正常模式下按下 <code class="language-plaintext highlighter-rouge">i</code> 進入插入模式。按 <code class="language-plaintext highlighter-rouge">&lt;Esc&gt;</code> 返回正常模式，可以使用 Vim 指令。
+更多資訊：<a href="https://www.vim.org">https://www.vim.org</a>.</p>
+
+<ul>
+  <li>打開檔案：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vim </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/路徑</span></p>
+
+<ul>
+  <li>使用指定行數打開檔案：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vim +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指定行數</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/路徑</span></p>
+
+<ul>
+  <li>查看 Vim 指令手冊：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:help&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>儲存並且離開：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ZZ|:wq<Enter>&lt;/span&gt;</Enter></span></p>
+
+<ul>
+  <li>進入正常模式並且復原上次操作：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;u</code></p>
+
+<ul>
+  <li>搜尋特定字詞：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">欲搜尋字詞</span><code class="language-plaintext highlighter-rouge">&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>使用正規表示式（RE）尋找並取代整份文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:%s/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">正規表示式</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">取代文字</span><code class="language-plaintext highlighter-rouge">/g&lt;Enter&gt;</code></p>
+
+<ul>
+  <li>顯示行數：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:set nu&lt;Enter&gt;</code></p>

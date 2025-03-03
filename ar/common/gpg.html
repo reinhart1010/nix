@@ -1,0 +1,53 @@
+<h1 id="gpg">gpg</h1>
+
+<p>برنامج GNU Privacy Guard.
+راجع <code class="language-plaintext highlighter-rouge">gpg2</code> للحصول على الإصدار الثاني من GNU Privacy Guard. تقوم معظم أنظمة التشغيل بربط <code class="language-plaintext highlighter-rouge">gpg</code> بـ <code class="language-plaintext highlighter-rouge">gpg2</code>.
+لمزيد من التفاصيل: <a href="https://gnupg.org">https://gnupg.org</a>.</p>
+
+<ul>
+  <li>إنشاء مفتاح GPG عام وخاص بطريقة تفاعلية:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --full-generate-key</code></p>
+
+<ul>
+  <li>توقيع الملف <code class="language-plaintext highlighter-rouge">doc.txt</code> دون تشفير (يتم حفظ الإخراج في ملف <code class="language-plaintext highlighter-rouge">doc.txt.asc</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --clearsign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span></p>
+
+<ul>
+  <li>تشفير وتوقيع الملف <code class="language-plaintext highlighter-rouge">doc.txt</code> للمستخدمين alice@example.com و bob@example.com (يتم حفظ الإخراج في ملف <code class="language-plaintext highlighter-rouge">doc.txt.gpg</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --encrypt --sign --recipient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span><code class="language-plaintext highlighter-rouge"> --recipient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bob@example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span></p>
+
+<ul>
+  <li>تشفير <code class="language-plaintext highlighter-rouge">doc.txt</code> باستخدام كلمة مرور فقط (يتم حفظ الإخراج في ملف <code class="language-plaintext highlighter-rouge">doc.txt.gpg</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --symmetric </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span></p>
+
+<ul>
+  <li>فك تشفير <code class="language-plaintext highlighter-rouge">doc.txt.gpg</code> (يتم عرض الإخراج على <code class="language-plaintext highlighter-rouge">stdout</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --decrypt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt.gpg</span></p>
+
+<ul>
+  <li>استيراد مفتاح عام:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public.gpg</span></p>
+
+<ul>
+  <li>تصدير المفتاح العام للمستخدم alice@example.com (يتم عرض الإخراج على <code class="language-plaintext highlighter-rouge">stdout</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --export --armor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span></p>
+
+<ul>
+  <li>تصدير المفتاح الخاص للمستخدم alice@example.com (يتم عرض الإخراج على <code class="language-plaintext highlighter-rouge">stdout</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --export-secret-keys --armor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span></p>

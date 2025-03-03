@@ -1,0 +1,44 @@
+<h1 id="nsenter">nsenter</h1>
+
+<p>Run a new command in a running process' namespace.
+Particularly useful for Docker images or chroot jails.
+More information: <a href="https://manned.org/nsenter">https://manned.org/nsenter</a>.</p>
+
+<ul>
+  <li>Run a specific command using the same namespaces as an existing process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nsenter --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Run a specific command in an existing process's mount</td>
+          <td>UTS</td>
+          <td>IPC</td>
+          <td>network</td>
+          <td>PID</td>
+          <td>user</td>
+          <td>cgroup</td>
+          <td>time namespace:</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nsenter --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mount|uts|ipc|net|pid|user|cgroup</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>
+
+<ul>
+  <li>Run a specific command in an existing process's UTS, time, and IPC namespaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nsenter --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> --uts --time --ipc -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>
+
+<ul>
+  <li>Run a specific command in an existing process's namespace by referencing procfs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nsenter --pid=/proc/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge">/pid/net -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>

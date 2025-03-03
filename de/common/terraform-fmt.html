@@ -1,0 +1,28 @@
+<h1 id="terraform-fmt">terraform fmt</h1>
+
+<p>Formatierung der Konfiguration gemäß den Konventionen der Terraform-Sprache.
+Weitere Informationen: <a href="https://developer.hashicorp.com/terraform/cli/commands/fmt">https://developer.hashicorp.com/terraform/cli/commands/fmt</a>.</p>
+
+<ul>
+  <li>Formatieren der Konfiguration im aktuellen Verzeichnis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform fmt</code></p>
+
+<ul>
+  <li>Formatieren der Konfiguration im aktuellen Verzeichnis und den Unterverzeichnissen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform fmt -recursive</code></p>
+
+<ul>
+  <li>Anzeige der Unterschiede bei Formatierungsänderungen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform fmt -diff</code></p>
+
+<ul>
+  <li>Die Dateien mit Formatierungsinkonsistenzen werden nicht auf <code class="language-plaintext highlighter-rouge">stdout</code> ausgegeben:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform fmt -list=false</code></p>

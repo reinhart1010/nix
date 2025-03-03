@@ -1,0 +1,25 @@
+<h1 id="cupstestppd">cupstestppd</h1>
+
+<p>사양 버전 4.3에 대한 PPD 파일의 적합성 테스트.
+오류 코드 (각각 1, 2, 3, 4): 잘못된 CLI 인수, 파일을 열 수 없음, 건너뛸 수 없는 형식 오류 및 PPD 사양 불일치.
+참고: 이 명령은 더 이상 사용되지 않음.
+더 보기: <code class="language-plaintext highlighter-rouge">lpadmin</code>.
+더 많은 정보: <a href="https://openprinting.github.io/cups/doc/man-cupstestppd.html">https://openprinting.github.io/cups/doc/man-cupstestppd.html</a>.</p>
+
+<ul>
+  <li>자동 모드에서 하나 이상의 파일의 적합성을 테스트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupstestppd -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.ppd 경로/대상/파일2.ppd …</span></p>
+
+<ul>
+  <li>자세한 적합성 테스트 결과를 보여주는 <code class="language-plaintext highlighter-rouge">stdin</code>에서 PPD 파일을 가져옴:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupstestppd -v - &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.ppd</span></p>
+
+<ul>
+  <li>현재 디렉터리 아래의 모든 PPD 파일을 테스트하고, 일치하지 않는 각 파일의 이름을 인쇄:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find . -name \*.ppd \! -execdir cupstestppd -q '{}' \; -print</code></p>

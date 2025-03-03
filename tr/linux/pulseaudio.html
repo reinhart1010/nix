@@ -1,0 +1,34 @@
+<h1 id="pulseaudio">pulseaudio</h1>
+
+<p>Ses sistem arkaplan uygulaması ve yöneticisi.
+Daha fazla bilgi için: <a href="https://www.freedesktop.org/wiki/Software/PulseAudio/">https://www.freedesktop.org/wiki/Software/PulseAudio/</a>.</p>
+
+<ul>
+  <li>Pulseaudio'nun çalışıp çalışmadığını kontrol et (sıfır olmayan çıktı, çalışmadığı anlamına gelir):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulseaudio --check</code></p>
+
+<ul>
+  <li>Pulseaudio'yu arkaplanda çalıştır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulseaudio --start</code></p>
+
+<ul>
+  <li>Arkaplanda çalışan tüm PulseAudio uygulamalarını öldür:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulseaudio --kill</code></p>
+
+<ul>
+  <li>Müsait modülleri sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulseaudio --dump-modules</code></p>
+
+<ul>
+  <li>Belirtilen argümanlarla bir modülü mevcut çalışan arkaplan uygulamasına yükle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulseaudio --load="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modül_ismi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argümanlar</span><code class="language-plaintext highlighter-rouge">"</code></p>

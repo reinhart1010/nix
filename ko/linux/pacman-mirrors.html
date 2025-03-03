@@ -1,0 +1,36 @@
+<h1 id="pacman-mirrors">pacman-mirrors</h1>
+
+<p>Manjaro Linux용 <code class="language-plaintext highlighter-rouge">pacman</code> 미러 리스트 생성.
+<code class="language-plaintext highlighter-rouge">pacman-mirrors</code>를 실행할 때마다 데이터베이스를 동기화하고 <code class="language-plaintext highlighter-rouge">sudo pacman -Syyu</code>를 사용하여 시스템을 업데이트해야 합니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">pacman</code>.
+더 많은 정보: <a href="https://wiki.manjaro.org/index.php?title=Pacman-mirrors">https://wiki.manjaro.org/index.php?title=Pacman-mirrors</a>.</p>
+
+<ul>
+  <li>기본 설정을 사용하여 미러 리스트 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-mirrors --fasttrack</code></p>
+
+<ul>
+  <li>현재 미러 상태 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman-mirrors --status</code></p>
+
+<ul>
+  <li>현재 브랜치 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman-mirrors --get-branch</code></p>
+
+<ul>
+  <li>다른 브랜치로 전환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-mirrors --api --set-branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stable|unstable|testing</span></p>
+
+<ul>
+  <li>거주 국가의 미러만 사용하여 미러 리스트 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-mirrors --geoip</code></p>

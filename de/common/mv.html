@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="mv">mv</h1>
+
+<p>Verschiebe Dateien oder Verzeichnisse oder benenne diese um.
+Weitere Informationen: <a href="https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html</a>.</p>
+
+<ul>
+  <li>Verschiebe eine Datei an einen beliebigen Ort:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/zieldatei</span></p>
+
+<ul>
+  <li>Verschiebe mehrere Dateien in ein anderes Verzeichnis und behalte deren Namen bei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei1 pfad/zu/datei2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel_verzeichnis</span></p>
+
+<ul>
+  <li>Überschreibe bereits existierende Dateien ohne vorherige Bestätigung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/zieldatei</span></p>
+
+<ul>
+  <li>Überschreibe bereits existierende Dateien nach Bestätigung (unabhängig von Dateirechten):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/zieldatei</span></p>
+
+<ul>
+  <li>Verhindere das Überschreiben existierender Dateien am Zielort:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/zieldatei</span></p>
+
+<ul>
+  <li>Liste Dateien und deren Details auf während sie verschoben werden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/zieldatei</span></p>

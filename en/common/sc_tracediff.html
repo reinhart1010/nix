@@ -1,0 +1,22 @@
+<h1 id="sc_tracediff">sc_tracediff</h1>
+
+<p>Display traceroute paths where the path has changed.
+More information: <a href="https://www.caida.org/catalog/software/scamper/">https://www.caida.org/catalog/software/scamper/</a>.</p>
+
+<ul>
+  <li>Show the difference between traceroutes in two <code class="language-plaintext highlighter-rouge">warts</code> files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc_tracediff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.warts</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.warts</span></p>
+
+<ul>
+  <li>Show the difference between the traceroutes in two <code class="language-plaintext highlighter-rouge">warts</code> files, including those that have not changed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc_tracediff -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.warts</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.warts</span></p>
+
+<ul>
+  <li>Show the difference between the traceroutes in two <code class="language-plaintext highlighter-rouge">warts</code> files and try to show DNS names and not IP addresses if possible:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc_tracediff -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.warts</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.warts</span></p>

@@ -1,0 +1,22 @@
+<h1 id="git-commit-graph">git commit-graph</h1>
+
+<p>Git commit-graph dosyalarını yaz ve doğrula.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-commit-graph">https://git-scm.com/docs/git-commit-graph</a>.</p>
+
+<ul>
+  <li>Dizinin yerel <code class="language-plaintext highlighter-rouge">.git</code> dizinindeki paketlenmiş commit'ler için bir commit-grafik dosyası yaz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit-graph write</code></p>
+
+<ul>
+  <li>Erişilebilen tüm commitleri içeren bir commit-grafik dosyası yaz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show-ref --hash | git commit-graph write --stdin-commits</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">HEAD</code>'den erişilebilenlerin yanında mevcut commit-grafik dosyasındaki tüm commit'leri içeren bir commit-grafik dosyası oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-parse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span><code class="language-plaintext highlighter-rouge"> | git commit-graph write --stdin-commits --append</code></p>

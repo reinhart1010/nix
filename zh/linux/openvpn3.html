@@ -1,0 +1,34 @@
+<h1 id="openvpn3">openvpn3</h1>
+
+<p>OpenVPN 3 Linux 客户端。
+更多信息：<a href="https://community.openvpn.net/openvpn/wiki/OpenVPN3Linux">https://community.openvpn.net/openvpn/wiki/OpenVPN3Linux</a>.</p>
+
+<ul>
+  <li>打开一个新的 VPN 会话：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openvpn3 session-start --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/config.conf</span></p>
+
+<ul>
+  <li>列出已建立的会话：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openvpn3 sessions-list</code></p>
+
+<ul>
+  <li>断开当前建立的以给定配置开始的会话：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openvpn3 session-manage --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/config.conf</span><code class="language-plaintext highlighter-rouge"> --disconnect</code></p>
+
+<ul>
+  <li>导入 VPN 配置：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openvpn3 config-import --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/config.conf</span></p>
+
+<ul>
+  <li>列出导入的配置：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openvpn3 configs-list</code></p>

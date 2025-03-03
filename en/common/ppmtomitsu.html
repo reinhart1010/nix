@@ -1,0 +1,22 @@
+<h1 id="ppmtomitsu">ppmtomitsu</h1>
+
+<p>Convert a PPM image to a Mitsubishi S340-10 file.
+More information: <a href="https://netpbm.sourceforge.net/doc/ppmtomitsu.html">https://netpbm.sourceforge.net/doc/ppmtomitsu.html</a>.</p>
+
+<ul>
+  <li>Convert a PPM image to a MITSU file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtomitsu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mitsu</span></p>
+
+<ul>
+  <li>Enlarge the image by the specified factor, use the specified sharpness and produce <code class="language-plaintext highlighter-rouge">n</code> copies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtomitsu -enlarge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3</span><code class="language-plaintext highlighter-rouge"> -sharpness </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3|4</span><code class="language-plaintext highlighter-rouge"> -copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mitsu</span></p>
+
+<ul>
+  <li>Use the given medium for the printing process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtomitsu -media </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A|A4|AS|A4S</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.mitsu</span></p>

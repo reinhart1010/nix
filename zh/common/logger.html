@@ -1,0 +1,34 @@
+<h1 id="logger">logger</h1>
+
+<p>向系统日志增加记录（/var/log/syslog）。
+更多信息：<a href="https://manned.org/logger">https://manned.org/logger</a>.</p>
+
+<ul>
+  <li>向系统日志增加记录：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logger </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">消息内容</span></p>
+
+<ul>
+  <li>从 <code class="language-plaintext highlighter-rouge">stdin</code> 获取输入并记录到系统日志 syslog：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">记录内容</span><code class="language-plaintext highlighter-rouge"> | logger</code></p>
+
+<ul>
+  <li>将输出发送到在给定端口上运行的远程系统日志服务器。默认端口为 514：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">记录内容</span><code class="language-plaintext highlighter-rouge"> | logger --server </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">服务器名</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">端口</span></p>
+
+<ul>
+  <li>对记录的每一行使用特定的标签。默认值是登录用户的名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">记录内容</span><code class="language-plaintext highlighter-rouge"> | logger --tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">标签</span></p>
+
+<ul>
+  <li>以给定的错误等级记录消息。默认是 <code class="language-plaintext highlighter-rouge">user.notice</code>. 使用 <code class="language-plaintext highlighter-rouge">man logger</code> 查询所有可选等级：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">记录内容</span><code class="language-plaintext highlighter-rouge"> | logger --priority </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user.warning</span></p>

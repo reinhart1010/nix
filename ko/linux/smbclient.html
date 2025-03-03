@@ -1,0 +1,46 @@
+<h1 id="smbclient">smbclient</h1>
+
+<p>서버의 SMB/CIFS 리소스에 접근하기 위한 FTP 유사 클라이언트.
+더 많은 정보: <a href="https://manned.org/smbclient">https://manned.org/smbclient</a>.</p>
+
+<ul>
+  <li>공유 서버에 연결(비밀번호 입력이 필요하며, <code class="language-plaintext highlighter-rouge">exit</code> 명령으로 세션 종료):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbclient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">//서버/공유</span></p>
+
+<ul>
+  <li>다른 사용자명으로 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbclient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">//서버/공유</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>다른 작업 그룹으로 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbclient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">//서버/공유</span><code class="language-plaintext highlighter-rouge"> --workgroup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>사용자명과 비밀번호로 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbclient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">//서버/공유</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명%비밀번호</span></p>
+
+<ul>
+  <li>서버에서 파일 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbclient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">//서버/공유</span><code class="language-plaintext highlighter-rouge"> --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> --command "get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.txt</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>서버에 파일 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbclient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">//서버/공유</span><code class="language-plaintext highlighter-rouge"> --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> --command "put </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.txt</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>서버의 공유 목록을 익명으로 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbclient --list=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서버</span><code class="language-plaintext highlighter-rouge"> --no-pass</code></p>

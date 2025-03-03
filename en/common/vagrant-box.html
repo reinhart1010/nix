@@ -1,0 +1,53 @@
+<h1 id="vagrant-box">vagrant box</h1>
+
+<p>Manage Vagrant boxes (virtual machine images).
+See also: <code class="language-plaintext highlighter-rouge">vagrant</code>.
+More information: <a href="https://developer.hashicorp.com/vagrant/docs/cli/box">https://developer.hashicorp.com/vagrant/docs/cli/box</a>.</p>
+
+<ul>
+  <li>List all installed boxes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vagrant box list</code></p>
+
+<ul>
+  <li>Add a new box:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vagrant box add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hashicorp/bionic64</span></p>
+
+<ul>
+  <li>Add a box from a custom URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vagrant box add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my-box</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/my-box.box</span></p>
+
+<ul>
+  <li>Remove an installed box:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vagrant box remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hashicorp/bionic64</span></p>
+
+<ul>
+  <li>Update all boxes that are in use in the current Vagrant environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vagrant box update</code></p>
+
+<ul>
+  <li>Update a specific box:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vagrant box update --box </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bento/debian-12</span></p>
+
+<ul>
+  <li>Check if there is a new version available for the box that you are using:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vagrant box outdated</code></p>
+
+<ul>
+  <li>Clean up old versions of installed boxes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vagrant box prune</code></p>

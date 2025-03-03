@@ -1,0 +1,53 @@
+<h1 id="aws-ec2">aws ec2</h1>
+
+<p>CLI für AWS EC2.
+AWS EC2 stellt eine sichere und skalierbare Einheit in der AWS Cloud zur Verfügung, um ein schnelleres Entwickeln und Ausrollen von Software zu ermöglichen.
+Weitere Informationen: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/index.html</a>.</p>
+
+<ul>
+  <li>Liste Informationen zu einer bestimmten Instanz auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ec2 describe-instances --instance-ids </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instanz_id</span></p>
+
+<ul>
+  <li>Liste Informationen zu allen Instanzen auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ec2 describe-instances</code></p>
+
+<ul>
+  <li>Liste Informationen zu allen EC2 Volumen auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ec2 describe-volumes</code></p>
+
+<ul>
+  <li>Lösche ein EC2 Volumen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ec2 delete-volume --volume-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volumen_id</span></p>
+
+<ul>
+  <li>Erstelle einen Snapshot basierend auf einem EC2 Volumen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ec2 create-snapshot --volume-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volumen_id</span></p>
+
+<ul>
+  <li>Liste alle verfügbaren AMIs (Amazon Machine Images) auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ec2 describe-images</code></p>
+
+<ul>
+  <li>Liste alle verfügbaren EC2 Befehle auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ec2 help</code></p>
+
+<ul>
+  <li>Zeige Hilfe für bestimmte EC2 Unterbefehle an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ec2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unterbefehl</span><code class="language-plaintext highlighter-rouge"> help</code></p>

@@ -1,0 +1,40 @@
+<h1 id="setxkbmap">setxkbmap</h1>
+
+<p>X Keyboard Extension을 사용하여 키보드를 설정합니다.
+더 많은 정보: <a href="https://manned.org/setxkbmap">https://manned.org/setxkbmap</a>.</p>
+
+<ul>
+  <li>키보드를 프랑스어 AZERTY로 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setxkbmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fr</span></p>
+
+<ul>
+  <li>여러 키보드 레이아웃, 변형 및 전환 옵션 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setxkbmap -layout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us,de</span><code class="language-plaintext highlighter-rouge"> -variant </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,qwerty</span><code class="language-plaintext highlighter-rouge"> -option </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'grp:alt_caps_toggle'</span></p>
+
+<ul>
+  <li>도움말 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setxkbmap -help</code></p>
+
+<ul>
+  <li>모든 레이아웃 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">localectl list-x11-keymap-layouts</code></p>
+
+<ul>
+  <li>레이아웃의 변형 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">localectl list-x11-keymap-variants </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">de</span></p>
+
+<ul>
+  <li>사용 가능한 전환 옵션 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">localectl list-x11-keymap-options | grep grp:</code></p>

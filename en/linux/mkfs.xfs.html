@@ -1,0 +1,16 @@
+<h1 id="mkfsxfs">mkfs.xfs</h1>
+
+<p>Create an XFS filesystem inside a partition.
+More information: <a href="https://manned.org/mkfs.xfs">https://manned.org/mkfs.xfs</a>.</p>
+
+<ul>
+  <li>Create an XFS filesystem inside partition 1 on a device (<code class="language-plaintext highlighter-rouge">X</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.xfs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX1</span></p>
+
+<ul>
+  <li>Create an XFS filesystem with a volume label:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.xfs -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_label</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX1</span></p>

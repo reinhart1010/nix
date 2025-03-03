@@ -1,0 +1,46 @@
+<h1 id="gh-issue-create">gh issue create</h1>
+
+<p>Create GitHub issues on a repository.
+More information: <a href="https://cli.github.com/manual/gh_issue_create">https://cli.github.com/manual/gh_issue_create</a>.</p>
+
+<ul>
+  <li>Create a new issue against the current repository interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue create</code></p>
+
+<ul>
+  <li>Create a new issue with the <code class="language-plaintext highlighter-rouge">bug</code> label interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue create --label "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bug</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Create a new issue interactively and assign it to the specified users:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue create --assignee </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user1,user2,…</span></p>
+
+<ul>
+  <li>Create a new issue with a title, body and assign it to the current user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue create --title "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">title</span><code class="language-plaintext highlighter-rouge">" --body "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">body</span><code class="language-plaintext highlighter-rouge">" --assignee "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@me</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Create a new issue interactively, reading the body text from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue create --body-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Create a new issue in the default web browser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue create --web</code></p>
+
+<ul>
+  <li>Display the help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue create --help</code></p>

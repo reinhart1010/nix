@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-push">git push</h1>
+
+<p>Commit'leri uzak depoya yolla.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-push">https://git-scm.com/docs/git-push</a>.</p>
+
+<ul>
+  <li>Mevcut daldaki yerel değişiklikleri onun uzak eşine gönder:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push</code></p>
+
+<ul>
+  <li>Belirtilen daldaki yerel değişiklikleri onun uzak eşine gönder:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uzak_bağlantı</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yerel_dal</span></p>
+
+<ul>
+  <li>Mevcut dalı bir uzak dal ismi ayarlayarak uzak depoda yayınla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uzak_bağlantı</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uzak_dal</span></p>
+
+<ul>
+  <li>Yerel dallardaki tüm değişiklikleri onların belirtilen uzak depodaki uzak eşlerine gönder:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uzak_bağlantı</span></p>
+
+<ul>
+  <li>Uzak depodaki bir dalı sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uzak_bağlantı</span><code class="language-plaintext highlighter-rouge"> --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uzak_dal</span></p>
+
+<ul>
+  <li>Yerel eşi olmayan uzak dalları sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push --prune </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uzak_bağlantı</span></p>
+
+<ul>
+  <li>Daha yzak depoda olmayan etiketleri yayınla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push --tags</code></p>

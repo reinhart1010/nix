@@ -1,0 +1,46 @@
+<h1 id="mysql">mysql</h1>
+
+<p>MySQL のコマンドラインツールです。
+もっと詳しく: <a href="https://www.mysql.com/">https://www.mysql.com/</a>。</p>
+
+<ul>
+  <li>データベースへの接続:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">データベース名</span></p>
+
+<ul>
+  <li>データベースへの接続、ユーザーにはパスワードの入力が求められる:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユーザー</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">データベース名</span></p>
+
+<ul>
+  <li>別のホスト上のデータベースに接続する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">データベースホスト</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">データベース名</span></p>
+
+<ul>
+  <li>Unix ソケット経由でのデータベースへの接続:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql --socket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ソケットファイルへのパス</span></p>
+
+<ul>
+  <li>スクリプトファイル（バッチファイル）での SQL 文の実行:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql -e "source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sqlファイル</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">データベース名</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">mysqldump</code> で作成したバックアップからデータベースをリストアする（ユーザーはパスワードの入力を求められます）:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユーザー</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">データベース名</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">バックアップsqlファイルへのパス</span></p>
+
+<ul>
+  <li>バックアップからすべてのデータベースを復元する（ユーザーはパスワードの入力を求められます）:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユーザー</span><code class="language-plaintext highlighter-rouge"> --password &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">バックアップsqlファイルへのパス</span></p>

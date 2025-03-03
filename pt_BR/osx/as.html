@@ -1,0 +1,29 @@
+<h1 id="as">as</h1>
+
+<p>Montador (assembler) GNU portável.
+Principalmente destinado a montar a saída do <code class="language-plaintext highlighter-rouge">gcc</code> para ser usada pelo <code class="language-plaintext highlighter-rouge">ld</code>.
+Mais informações: <a href="https://keith.github.io/xcode-man-pages/as.1.html">https://keith.github.io/xcode-man-pages/as.1.html</a>.</p>
+
+<ul>
+  <li>Monta (compilar) um arquivo, escrevendo a saída para <code class="language-plaintext highlighter-rouge">a.out</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.s</span></p>
+
+<ul>
+  <li>Monta a saída para um determinado arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.s</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/saida.o</span></p>
+
+<ul>
+  <li>Gera saída mais rapidamente ignorando espaços em branco e pré-processamento de comentários. (Só deve ser usado para compiladores confiáveis):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.s</span></p>
+
+<ul>
+  <li>Inclui um determinado caminho na lista de diretórios para pesquisar os arquivos especificados nas diretivas <code class="language-plaintext highlighter-rouge">.include</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.s</span></p>

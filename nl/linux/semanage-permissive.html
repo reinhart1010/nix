@@ -1,0 +1,18 @@
+<h1 id="semanage-permissive">semanage permissive</h1>
+
+<p>Beheer persistente SELinux permissieve domeinen.
+Let op dat dit het proces effectief onbeperkt maakt. Voor langdurig gebruik wordt aanbevolen om SELinux correct te configureren.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">semanage</code>, <code class="language-plaintext highlighter-rouge">getenforce</code>, <code class="language-plaintext highlighter-rouge">setenforce</code>.
+Meer informatie: <a href="https://manned.org/semanage-permissive">https://manned.org/semanage-permissive</a>.</p>
+
+<ul>
+  <li>Toon alle procestypen (ook wel domeinen genoemd) die in permissieve modus zijn:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage permissive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–list</span></p>
+
+<ul>
+  <li>Stel de permissieve modus in of uit voor een domein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage permissive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–add|-d|–delete</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpd_t</span></p>

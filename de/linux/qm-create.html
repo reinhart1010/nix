@@ -1,0 +1,34 @@
+<h1 id="qm-create">qm create</h1>
+
+<p>Erzeugung einer virtuellen Maschine per QEMU/KVM Virtual Machine Manager.
+Weitere Informationen: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>Erzeuge eine virtuelle Maschine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span></p>
+
+<ul>
+  <li>Erzeuge eine virtuelle Maschine und starte sie unmittelbar danach im Anschluss:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --start 1</code></p>
+
+<ul>
+  <li>Lege den Typ des Betriebssystems auf der virtuellen Maschine fest:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --ostype </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">win10</span></p>
+
+<ul>
+  <li>Ersetze eine bestehende virtuelle Maschine (setzt deren Archivierung voraus):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/backup_file.tar</span><code class="language-plaintext highlighter-rouge"> --force 1</code></p>
+
+<ul>
+  <li>Lege ein Skript fest, welches automatisch abhängig vom Zustand der virtuellen Maschine ausgelöst werden soll:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> --hookscript </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/skript.pl</span></p>

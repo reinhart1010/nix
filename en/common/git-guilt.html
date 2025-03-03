@@ -1,0 +1,41 @@
+<h1 id="git-guilt">git guilt</h1>
+
+<p>Show total blame count for files with unstaged changes or calculate the change in blame between two revisions.
+Part of <code class="language-plaintext highlighter-rouge">git-extras</code>.
+More information: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-guilt">https://github.com/tj/git-extras/blob/master/Commands.md#git-guilt</a>.</p>
+
+<ul>
+  <li>Show total blame count:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git guilt</code></p>
+
+<ul>
+  <li>Calculate the change in blame between two revisions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git guilt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">first_revision</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">last_revision</span></p>
+
+<ul>
+  <li>Show author emails instead of names:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git guilt --email</code></p>
+
+<ul>
+  <li>Ignore whitespace only changes when attributing blame:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git guilt --ignore-whitespace</code></p>
+
+<ul>
+  <li>Find blame delta over the last three weeks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git guilt 'git log --until="3 weeks ago" --format="%H" -n 1'</code></p>
+
+<ul>
+  <li>Find blame delta over the last three weeks (git 1.8.5+):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git guilt @{3.weeks.ago}</code></p>

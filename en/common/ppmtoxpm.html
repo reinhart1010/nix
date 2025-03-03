@@ -1,0 +1,28 @@
+<h1 id="ppmtoxpm">ppmtoxpm</h1>
+
+<p>Convert a PPM image to an X11 version 3 pixmap.
+More information: <a href="https://netpbm.sourceforge.net/doc/ppmtoxpm.html">https://netpbm.sourceforge.net/doc/ppmtoxpm.html</a>.</p>
+
+<ul>
+  <li>Convert a PPM image to a XPM image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoxpm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.xpm</span></p>
+
+<ul>
+  <li>Specify the prefix string in the output XPM image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoxpm -name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix_string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.xpm</span></p>
+
+<ul>
+  <li>In the output XPM file, specify colors by their hexadecimal code instead of their name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoxpm -hexonly </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.xpm</span></p>
+
+<ul>
+  <li>Use the specified PGM file as a transparency mask:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoxpm -alphamask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/alpha_file.pgm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.xpm</span></p>

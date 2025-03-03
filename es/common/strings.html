@@ -1,0 +1,28 @@
+<h1 id="strings">strings</h1>
+
+<p>Encuentra cadenas imprimibles en un archivo objeto o binario.
+Más información: <a href="https://manned.org/strings">https://manned.org/strings</a>.</p>
+
+<ul>
+  <li>Imprime todas las cadenas contenidas en un binario:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strings </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Limita resultados a cadenas por lo menos n caracteres de largo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strings -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Precede cada resultado con su distancia hasta el inicio (offset) del archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strings -t d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Precede cada resultado con su desplazamiento (offset) dentro del archivo en hexadecimal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strings -t x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>

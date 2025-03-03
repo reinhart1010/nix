@@ -1,0 +1,46 @@
+<h1 id="jello">jello</h1>
+
+<p>A command-line JSON processor using Python syntax.
+More information: <a href="https://github.com/kellyjonbrazil/jello">https://github.com/kellyjonbrazil/jello</a>.</p>
+
+<ul>
+  <li>Pretty-print JSON or JSON-Lines data from <code class="language-plaintext highlighter-rouge">stdin</code> to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.json</span><code class="language-plaintext highlighter-rouge"> | jello</code></p>
+
+<ul>
+  <li>Output a schema of JSON or JSON Lines data from <code class="language-plaintext highlighter-rouge">stdin</code> to <code class="language-plaintext highlighter-rouge">stdout</code> (useful for grep):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.json</span><code class="language-plaintext highlighter-rouge"> | jello -s</code></p>
+
+<ul>
+  <li>Output all elements from arrays (or all the values from objects) in JSON or JSON-Lines data from <code class="language-plaintext highlighter-rouge">stdin</code> to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.json</span><code class="language-plaintext highlighter-rouge"> | jello -l</code></p>
+
+<ul>
+  <li>Output the first element in JSON or JSON-Lines data from <code class="language-plaintext highlighter-rouge">stdin</code> to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.json</span><code class="language-plaintext highlighter-rouge"> | jello _[0]</code></p>
+
+<ul>
+  <li>Output the value of a given key of each element in JSON or JSON-Lines data from <code class="language-plaintext highlighter-rouge">stdin</code> to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.json</span><code class="language-plaintext highlighter-rouge"> | jello '[i.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> for i in _]'</code></p>
+
+<ul>
+  <li>Output the value of multiple keys as a new JSON object (assuming the input JSON has the keys <code class="language-plaintext highlighter-rouge">key_name1</code> and <code class="language-plaintext highlighter-rouge">key_name2</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.json</span><code class="language-plaintext highlighter-rouge"> | jello '{"</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key1</span><code class="language-plaintext highlighter-rouge">": _.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name1</span><code class="language-plaintext highlighter-rouge">, "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge">": _.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name2}</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Output the value of a given key to a string (and disable JSON output):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.json</span><code class="language-plaintext highlighter-rouge"> | jello -r '"</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some text</span><code class="language-plaintext highlighter-rouge">: " + _.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge">'</code></p>

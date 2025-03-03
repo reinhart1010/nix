@@ -1,0 +1,47 @@
+<h1 id="neo4j-admin">neo4j-admin</h1>
+
+<p>Manage and administer a Neo4j DBMS (Database Management System).
+See also: <code class="language-plaintext highlighter-rouge">cypher-shell</code>, <code class="language-plaintext highlighter-rouge">mysqld</code>.
+More information: <a href="https://neo4j.com/docs/operations-manual/current/tools/neo4j-admin/">https://neo4j.com/docs/operations-manual/current/tools/neo4j-admin/</a>.</p>
+
+<ul>
+  <li>Start the DBMS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin server start</code></p>
+
+<ul>
+  <li>Stop the DBMS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin server stop</code></p>
+
+<ul>
+  <li>Set the initial password of the default <code class="language-plaintext highlighter-rouge">neo4j</code> user (prerequisite for the first start of the DBMS):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin dbms set-initial-password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_name</span></p>
+
+<ul>
+  <li>Create an archive (dump) of an offline database to a file named <code class="language-plaintext highlighter-rouge">database_name.dump</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin database dump --to-path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_name</span></p>
+
+<ul>
+  <li>Load a database from an archive named <code class="language-plaintext highlighter-rouge">database_name.dump</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin database load --from-path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_name</span><code class="language-plaintext highlighter-rouge"> --overwrite-destination=true</code></p>
+
+<ul>
+  <li>Load a database from a specified archive file through <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin database load --from-stdin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_name</span><code class="language-plaintext highlighter-rouge"> --overwrite-destination=true &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.dump</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">neo4j-admin --help</code></p>

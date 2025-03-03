@@ -1,0 +1,47 @@
+<h1 id="chcon">chcon</h1>
+
+<p>파일 또는 파일/디렉토리의 SELinux 보안 컨텍스트를 변경합니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">secon</code>, <code class="language-plaintext highlighter-rouge">restorecon</code>, <code class="language-plaintext highlighter-rouge">semanage-fcontext</code>.
+더 많은 정보: <a href="https://www.gnu.org/software/coreutils/manual/html_node/chcon-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/chcon-invocation.html</a>.</p>
+
+<ul>
+  <li>파일의 보안 컨텍스트 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls -lZ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>참조된 파일을 사용하여, 대상 파일의 보안 내용 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon --reference=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">참조_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">대상_파일</span></p>
+
+<ul>
+  <li>파일의 전체 SELinux 보안 컨텍스트 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">역할</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">타입</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">범위/레벨</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일명</span></p>
+
+<ul>
+  <li>SELinux 보안 컨텍스트의 사용자 부분만 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일명</span></p>
+
+<ul>
+  <li>SELinux 보안 컨텍스트의 역할 부분만 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">역할</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일명</span></p>
+
+<ul>
+  <li>SELinux 보안 컨텍스트의 유형 부분만 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">타입</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일명</span></p>
+
+<ul>
+  <li>SELinux 보안 컨텍스트의 범위/레벨 부분만 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">범위/레벨</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일명</span></p>

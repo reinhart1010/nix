@@ -1,0 +1,22 @@
+<h1 id="srun">srun</h1>
+
+<p>Create an interactive slurm job or connect to an existing job.
+More information: <a href="https://slurm.schedmd.com/srun.html">https://slurm.schedmd.com/srun.html</a>.</p>
+
+<ul>
+  <li>Submit a basic interactive job:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">srun --pty /bin/bash</code></p>
+
+<ul>
+  <li>Submit an interactive job with different attributes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">srun --ntasks-per-node=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">num_cores</span><code class="language-plaintext highlighter-rouge"> --mem-per-cpu=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memory_MB</span><code class="language-plaintext highlighter-rouge"> --pty /bin/bash</code></p>
+
+<ul>
+  <li>Connect to a worker node with a job running:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">srun --jobid=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span><code class="language-plaintext highlighter-rouge"> --pty /bin/bash</code></p>

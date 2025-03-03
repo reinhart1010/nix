@@ -1,0 +1,29 @@
+<h1 id="smbpasswd">smbpasswd</h1>
+
+<p>Add/remove a Samba user or change its password.
+Samba users must have an existing local Unix account.
+More information: <a href="https://manned.org/smbpasswd.8">https://manned.org/smbpasswd.8</a>.</p>
+
+<ul>
+  <li>Change the current user's SMB password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbpasswd</code></p>
+
+<ul>
+  <li>Add a specified user to Samba and set password (user should already exist in system):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo smbpasswd -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Modify an existing Samba user's password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo smbpasswd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Delete a Samba user (use <code class="language-plaintext highlighter-rouge">pdbedit</code> instead if the Unix account has been deleted):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo smbpasswd -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>

@@ -1,0 +1,34 @@
+<h1 id="aws-route53">aws route53</h1>
+
+<p>CLI para AWS Route53 - Route 53 es un servicio web de Sistema de Nombres de Dominio (DNS) altamente disponible y escalable.
+Más información: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/route53/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/route53/index.html</a>.</p>
+
+<ul>
+  <li>Lista todas las zonas alojadas, privadas y públicas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws route53 list-hosted-zones</code></p>
+
+<ul>
+  <li>Muestra todos los registros de una zona:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws route53 list-resource-record-sets --hosted-zone-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_zona</span></p>
+
+<ul>
+  <li>Crea una nueva zona pública utilizando un identificador de solicitud para reintentar la operación de forma segura:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws route53 create-hosted-zone --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge"> --caller-reference </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_solicitud</span></p>
+
+<ul>
+  <li>Elimina una zona (si la zona tiene registros SOA y NS no predeterminados, el comando fallará):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws route53 delete-hosted-zone --id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_zona</span></p>
+
+<ul>
+  <li>Prueba la resolución DNS por parte de los servidores de Amazon de una zona determinada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws route53 test-dns-answer --hosted-zone-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_zona</span><code class="language-plaintext highlighter-rouge"> --record-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge"> --record-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tipo</span></p>

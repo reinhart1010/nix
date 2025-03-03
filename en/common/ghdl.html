@@ -1,0 +1,40 @@
+<h1 id="ghdl">ghdl</h1>
+
+<p>Open-source simulator for the VHDL language.
+More information: <a href="https://ghdl.github.io/ghdl/">https://ghdl.github.io/ghdl/</a>.</p>
+
+<ul>
+  <li>Analyze a VHDL source file and produce an object file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ghdl -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.vhdl</span></p>
+
+<ul>
+  <li>Elaborate a design (where <code class="language-plaintext highlighter-rouge">design</code> is the name of a configuration unit, entity unit or architecture unit):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ghdl -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">design</span></p>
+
+<ul>
+  <li>Run an elaborated design:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ghdl -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">design</span></p>
+
+<ul>
+  <li>Run an elaborated design and dump output to a waveform file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ghdl -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">design</span><code class="language-plaintext highlighter-rouge"> --wave=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.ghw</span></p>
+
+<ul>
+  <li>Check the syntax of a VHDL source file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ghdl -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.vhdl</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ghdl --help</code></p>

@@ -1,0 +1,41 @@
+<h1 id="mitmproxy">mitmproxy</h1>
+
+<p>An interactive man-in-the-middle HTTP proxy.
+See also: <code class="language-plaintext highlighter-rouge">mitmweb</code> and <code class="language-plaintext highlighter-rouge">mitmdump</code>.
+More information: <a href="https://docs.mitmproxy.org/stable/">https://docs.mitmproxy.org/stable/</a>.</p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">mitmproxy</code> with default settings (will listen on port <code class="language-plaintext highlighter-rouge">8080</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mitmproxy</code></p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">mitmproxy</code> bound to a custom address and port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mitmproxy --listen-host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|–listen-port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">mitmproxy</code> using a script to process traffic:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mitmproxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-s|–scripts</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.py</span></p>
+
+<ul>
+  <li>Export the logs with SSL/TLS master keys to external programs (wireshark, etc.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">SSLKEYLOGFILE="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">" mitmproxy</code></p>
+
+<ul>
+  <li>Specify mode of operation of the proxy server (<code class="language-plaintext highlighter-rouge">regular</code> is the default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mitmproxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–mode</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular|transparent|socks5|…</span></p>
+
+<ul>
+  <li>Set the console layout:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mitmproxy --console-layout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">horizontal|single|vertical</span></p>

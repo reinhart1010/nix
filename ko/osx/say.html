@@ -1,0 +1,40 @@
+<h1 id="say">say</h1>
+
+<p>텍스트를 음성으로 변환.
+더 많은 정보: <a href="https://keith.github.io/xcode-man-pages/say.1.html">https://keith.github.io/xcode-man-pages/say.1.html</a>.</p>
+
+<ul>
+  <li>문구를 소리내어 말하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">나는 자전거 타는 것을 좋아해.</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>[f]파일을 소리내어 읽기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say --input-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일명.txt</span></p>
+
+<ul>
+  <li>사용자 지정 음성과 속도로 문구 말하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say --voice=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">음성</span><code class="language-plaintext highlighter-rouge"> --rate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">분당_단어_수</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">미안해 데이브, 그렇게 할 수 없어.</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>사용 가능한 음성 목록 나열 (다양한 언어로 말하는 음성):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say --voice="?"</code></p>
+
+<ul>
+  <li>폴란드어로 말하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say --voice=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Zosia</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Litwo, ojczyzno moja!</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>음성 텍스트의 오디오 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say --output-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일명.aiff</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Here's to the Crazy Ones.</span><code class="language-plaintext highlighter-rouge">"</code></p>

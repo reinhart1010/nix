@@ -1,0 +1,46 @@
+<h1 id="df">df</h1>
+
+<p>Wyświetl przegląd wykorzystania przestrzeni dyskowej systemu plików.
+Więcej informacji: <a href="https://man.freebsd.org/cgi/man.cgi?df">https://man.freebsd.org/cgi/man.cgi?df</a>.</p>
+
+<ul>
+  <li>Wyświetl wszystkie systemy plików i ich wykorzystanie dysków w jednostkach 512-bajtowych:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df</code></p>
+
+<ul>
+  <li>Użyj jednostek czytelnych dla człowieka (z ang. [h]uman) (opartych na potęgach 1024) i wyświetl sumę całkowitą:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df -h -c</code></p>
+
+<ul>
+  <li>Użyj jednostek czytelnych dla człowieka (z ang. [H]uman) (opartych na potęgach 1000):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-si|H</span></p>
+
+<ul>
+  <li>Wyświetl wszystkie systemy plików i ich wykorzystanie dysków zawierające podany plik lub katalog:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_lub_katalogu</span></p>
+
+<ul>
+  <li>Dołącz statystyki dotyczące liczby wolnych i wykorzystanych [i]-węzłów wraz z [T]ypami systemów plików:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df -iT</code></p>
+
+<ul>
+  <li>Użyj jednostek 1024-bajtowych do wyświetlania danych o przestrzeni dyskowej:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df -k</code></p>
+
+<ul>
+  <li>Wyświetl informację w sposób [P]rzenośny:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df -P</code></p>

@@ -1,0 +1,28 @@
+<h1 id="tokei">tokei</h1>
+
+<p>Display statistics about code.
+More information: <a href="https://github.com/XAMPPRocky/tokei">https://github.com/XAMPPRocky/tokei</a>.</p>
+
+<ul>
+  <li>Display a report for the code in a directory and all subdirectories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tokei </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Display a report for a directory excluding <code class="language-plaintext highlighter-rouge">.min.js</code> files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tokei </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.min.js</span></p>
+
+<ul>
+  <li>Display statistics for individual files in a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tokei </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --files</code></p>
+
+<ul>
+  <li>Display a report for all files of type Rust and Markdown:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tokei </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> -t=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Rust</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Markdown</span></p>

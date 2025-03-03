@@ -1,0 +1,44 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="bc">bc</h1>
+
+<p>任意の精度で計算を行える言語です。
+<code class="language-plaintext highlighter-rouge">dc</code>も参照してください。
+もっと詳しく: <a href="https://manned.org/bc">https://manned.org/bc</a>。</p>
+
+<ul>
+  <li>対話モードのセッションを開始する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc</code></p>
+
+<ul>
+  <li>標準数学ライブラリを有効化して対話モードのセッションを開始する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc --mathlib</code></p>
+
+<ul>
+  <li>式を計算する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span><code class="language-plaintext highlighter-rouge">' | bc</code></p>
+
+<ul>
+  <li>スクリプトを実行する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">スクリプト/への/パス.bc</span></p>
+
+<ul>
+  <li>小数点以下の桁数を指定して式を計算する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo 'scale = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge">; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span><code class="language-plaintext highlighter-rouge">' | bc</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">mathlib</code>を使用してサイン/コサイン/アークタンジェント/自然対数/指数関数を計算する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s|c|a|l|e</span><code class="language-plaintext highlighter-rouge">(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge">)' | bc --mathlib</code></p>

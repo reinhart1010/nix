@@ -1,0 +1,35 @@
+<h1 id="podman-build">podman build</h1>
+
+<p>컨테이너 이미지를 빌드하기 위한 데몬리스 도구.
+Podman은 Docker-CLI와 유사한 명령줄을 제공합니다. 간단히 말해: <code class="language-plaintext highlighter-rouge">alias docker=podman</code>.
+더 많은 정보: <a href="https://docs.podman.io/en/latest/markdown/podman-build.1.html">https://docs.podman.io/en/latest/markdown/podman-build.1.html</a>.</p>
+
+<ul>
+  <li>지정된 디렉토리의 <code class="language-plaintext highlighter-rouge">Dockerfile</code> 또는 <code class="language-plaintext highlighter-rouge">Containerfile</code>을 사용하여 이미지 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>지정된 태그로 이미지 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman build --tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_이름:버전</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>비표준 파일에서 이미지 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman build --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Containerfile.different</span><code class="language-plaintext highlighter-rouge"> .</code></p>
+
+<ul>
+  <li>이전에 캐시된 이미지를 사용하지 않고 이미지 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman build --no-cache </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>모든 출력을 억제하여 이미지 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman build --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>

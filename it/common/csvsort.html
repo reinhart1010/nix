@@ -1,0 +1,29 @@
+<h1 id="csvsort">csvsort</h1>
+
+<p>Ordina le righe di di file CSV.
+Incluso in csvkit.
+Maggiori informazioni: <a href="https://csvkit.readthedocs.io/en/latest/scripts/csvsort.html">https://csvkit.readthedocs.io/en/latest/scripts/csvsort.html</a>.</p>
+
+<ul>
+  <li>Ordina un file CSV secondo la colonna 9:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvsort -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>
+
+<ul>
+  <li>Ordina un file CSV secondo la colonna "nome" in ordine decrescente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvsort -r -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>
+
+<ul>
+  <li>Ordina un file CSV secondo la colonna 2 e secondo la 4:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvsort -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2,4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>
+
+<ul>
+  <li>Ordina un file CSV senza inferire il tipo dei dati:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvsort --no-inference -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">colonne</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span></p>

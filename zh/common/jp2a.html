@@ -1,0 +1,40 @@
+<h1 id="jp2a">jp2a</h1>
+
+<p>将 JPEG 图像转换为 ASCII。
+更多信息：<a href="https://csl.name/jp2a/">https://csl.name/jp2a/</a>.</p>
+
+<ul>
+  <li>从文件中读取 JPEG 图像并以 ASCII 显示：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jp2a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/image.jpeg</span></p>
+
+<ul>
+  <li>从 URL 中读取 JPEG 图像并以 ASCII 显示：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jp2a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">www.example.com/image.jpeg</span></p>
+
+<ul>
+  <li>对 ASCII 输出进行着色：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jp2a --colors </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/image.jpeg</span></p>
+
+<ul>
+  <li>指定用于 ASCII 输出的字符：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jp2a --chars='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">..-ooxx@@</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/image.jpeg</span></p>
+
+<ul>
+  <li>将 ASCII 输出写入一个文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jp2a --output=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/output_file.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/image.jpeg</span></p>
+
+<ul>
+  <li>以 HTML 文件格式写入 ASCII 输出，适合在网页浏览器中查看：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jp2a --html --output=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/output_file.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/image.jpeg</span></p>

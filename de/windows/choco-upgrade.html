@@ -1,0 +1,46 @@
+<h1 id="choco-upgrade">choco upgrade</h1>
+
+<p>Aktualisiere mit Chocolatey ein oder mehrere Pakete.
+Weitere Informationen: <a href="https://chocolatey.org/docs/commands-upgrade">https://chocolatey.org/docs/commands-upgrade</a>.</p>
+
+<ul>
+  <li>Aktualisiere ein oder mehrere Pakete, deren Namen mit Leerzeichen getrennt sind:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket(e)</span></p>
+
+<ul>
+  <li>Aktualisiere auf eine bestimmte Version des Pakets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span><code class="language-plaintext highlighter-rouge"> --version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Aktualisiere alle Pakete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade all</code></p>
+
+<ul>
+  <li>Aktualisiere alle außer den angegebenen, durch Kommas getrennten Paketen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade all --except "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket(e)</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Stimme allen Fragen automatisch zu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span><code class="language-plaintext highlighter-rouge"> --yes</code></p>
+
+<ul>
+  <li>Gib eine eigene Quelle an, von der Pakete aktualisiert werden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quell_url|alias</span></p>
+
+<ul>
+  <li>Gib einen Benutzernamen und ein Passwort für die Authentifizierung an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choco upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span><code class="language-plaintext highlighter-rouge"> --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzername</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">passwort</span></p>

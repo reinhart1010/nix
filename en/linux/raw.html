@@ -1,0 +1,22 @@
+<h1 id="raw">raw</h1>
+
+<p>Bind a Unix raw character device.
+More information: <a href="https://manned.org/raw.8">https://manned.org/raw.8</a>.</p>
+
+<ul>
+  <li>Bind a raw character device to a block device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">raw /dev/raw/raw</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/block_device</span></p>
+
+<ul>
+  <li>Query an existing binding instead of setting a new one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">raw /dev/raw/raw</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Query all bound raw devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">raw -qa</code></p>

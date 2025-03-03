@@ -1,0 +1,46 @@
+<h1 id="helm-install">helm install</h1>
+
+<p>Install a helm chart.
+More information: <a href="https://helm.sh/docs/intro/using_helm/#helm-install-installing-a-package">https://helm.sh/docs/intro/using_helm/#helm-install-installing-a-package</a>.</p>
+
+<ul>
+  <li>Install a helm chart:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chart_name</span></p>
+
+<ul>
+  <li>Install a helm chart from an unpacked chart directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_directory</span></p>
+
+<ul>
+  <li>Install a helm chart from a URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/charts/packagename-1.2.3.tgz</span></p>
+
+<ul>
+  <li>Install a helm chart and generate a name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chart_name</span><code class="language-plaintext highlighter-rouge"> --generate-name</code></p>
+
+<ul>
+  <li>Perform a dry run:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chart_name</span><code class="language-plaintext highlighter-rouge"> --dry-run</code></p>
+
+<ul>
+  <li>Install a helm chart with custom values:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chart_name</span><code class="language-plaintext highlighter-rouge"> --set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parameter1</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value1</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parameter2</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value2</span></p>
+
+<ul>
+  <li>Install a helm chart passing a custom values file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">helm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chart_name</span><code class="language-plaintext highlighter-rouge"> --values </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/values.yaml</span></p>

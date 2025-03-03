@@ -1,0 +1,28 @@
+<h1 id="netsh-interface-portproxy">netsh interface portproxy</h1>
+
+<p>다양한 네트워크 구성 요소의 상태를 구성하고 표시합니다.
+더 많은 정보: <a href="https://learn.microsoft.com/windows-server/networking/technologies/netsh/netsh-interface-portproxy">https://learn.microsoft.com/windows-server/networking/technologies/netsh/netsh-interface-portproxy</a>.</p>
+
+<ul>
+  <li>현재 포트 전달 설정 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netsh interface portproxy show all</code></p>
+
+<ul>
+  <li>IPv4 포트 전달 설정 (관리자 권한 콘솔에서 실행):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netsh interface portproxy add v4tov4 listenaddress=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1</span><code class="language-plaintext highlighter-rouge"> listenport=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8080</span><code class="language-plaintext highlighter-rouge">  connectaddress=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.0.1</span><code class="language-plaintext highlighter-rouge"> connectport=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span></p>
+
+<ul>
+  <li>IPv4 포트 전달 삭제 (관리자 권한 콘솔에서 실행):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netsh interface portproxy delete v4tov4 listenaddress=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1</span><code class="language-plaintext highlighter-rouge"> listenport=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8080</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netsh interface portproxy</code></p>

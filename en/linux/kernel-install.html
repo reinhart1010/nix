@@ -1,0 +1,22 @@
+<h1 id="kernel-install">kernel-install</h1>
+
+<p>Add and remove kernel and initrd images to and from <code class="language-plaintext highlighter-rouge">/boot</code>.
+More information: <a href="https://manned.org/kernel-install.8">https://manned.org/kernel-install.8</a>.</p>
+
+<ul>
+  <li>Add kernel and initramfs images to bootloader partition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kernel-install add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kernel-version</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kernel-image</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/initrd-file …</span></p>
+
+<ul>
+  <li>Remove kernel from the bootloader partition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kernel-install remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kernel-version</span></p>
+
+<ul>
+  <li>Show various paths and parameters that have been configured or auto-detected:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo kernel-install inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kernel-image</span></p>

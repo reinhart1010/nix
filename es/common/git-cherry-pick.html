@@ -1,0 +1,29 @@
+<h1 id="git-cherry-pick">git cherry-pick</h1>
+
+<p>Aplica los cambios introducidos por confirmaciones existentes a la rama actual.
+Para aplicar cambios a otra rama, primero utiliza <code class="language-plaintext highlighter-rouge">git checkout</code> para cambiar a la rama deseada.
+Más información: <a href="https://git-scm.com/docs/git-cherry-pick">https://git-scm.com/docs/git-cherry-pick</a>.</p>
+
+<ul>
+  <li>Aplica una confirmación a la rama actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación</span></p>
+
+<ul>
+  <li>Aplica un rango de confirmaciones de la rama actual (vea también <code class="language-plaintext highlighter-rouge">git rebase --onto</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación_inicial</span><code class="language-plaintext highlighter-rouge">~..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación_final</span></p>
+
+<ul>
+  <li>Aplica múltiples confirmaciones no secuenciales a la rama actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación_1 confirmación_2 …</span></p>
+
+<ul>
+  <li>Añade los cambios de una confirmación al directorio de trabajo, sin crear una confirmación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick --no-commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación</span></p>

@@ -1,0 +1,17 @@
+<h1 id="rpmconf">rpmconf</h1>
+
+<p>Handle RPMNEW, RPMSAVE and RPMORIG files left over by package upgrades.
+See also: <code class="language-plaintext highlighter-rouge">rpm</code>.
+More information: <a href="https://github.com/xsuchy/rpmconf">https://github.com/xsuchy/rpmconf</a>.</p>
+
+<ul>
+  <li>List leftover files and interactively choose what to do with each of them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rpmconf --all</code></p>
+
+<ul>
+  <li>Delete orphaned RPMNEW and RPMSAVE files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo rpmconf --all --clean</code></p>

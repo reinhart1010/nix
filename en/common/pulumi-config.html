@@ -1,0 +1,46 @@
+<h1 id="pulumi-config">pulumi config</h1>
+
+<p>Manage configuration of a Pulumi stack.
+More information: <a href="https://www.pulumi.com/docs/iac/cli/commands/pulumi_config/">https://www.pulumi.com/docs/iac/cli/commands/pulumi_config/</a>.</p>
+
+<ul>
+  <li>View current configuration in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi config --json</code></p>
+
+<ul>
+  <li>View configuration for a specified stack:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi config --stack </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stack_name</span></p>
+
+<ul>
+  <li>Get the value of a configuration key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi config get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span></p>
+
+<ul>
+  <li>Remove a configuration value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi config rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span></p>
+
+<ul>
+  <li>Set a value for a configuration key from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> | pulumi config set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span></p>
+
+<ul>
+  <li>Set a secret value (e.g. API key) for a configuration key and store/display as ciphertext:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi config set --secret </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">S3cr37_value</span></p>
+
+<ul>
+  <li>Remove multiple configuration values from a specified configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi config --config-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> rm-all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key1 key2 …</span></p>

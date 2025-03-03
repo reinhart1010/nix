@@ -1,0 +1,11 @@
+<h1 id="qm-disk-import">qm disk import</h1>
+
+<p>Importeer een schijf image in een virtuele machine als een ongebruikte schijf.
+De onderstende image formaten voor <code class="language-plaintext highlighter-rouge">qemu-img</code>, zoals raw, qcow2, qed, vdi, vmdk, en vhd moeten gebruikt worden.
+Meer informatie: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>Importeer een VMDK/qcow2/raw schijf image met behulp van een specifieke opslagnaam:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm importdisk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/schijf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opslagnaam</span><code class="language-plaintext highlighter-rouge"> --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">qcow2|raw|vmdk</span></p>

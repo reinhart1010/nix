@@ -1,0 +1,47 @@
+<h1 id="pw-metadata">pw-metadata</h1>
+
+<p>Monitor, set, and delete metadata on PipeWire objects.
+See also: <code class="language-plaintext highlighter-rouge">pipewire</code>, <code class="language-plaintext highlighter-rouge">pw-mon</code>, <code class="language-plaintext highlighter-rouge">pw-cli</code>.
+More information: <a href="https://docs.pipewire.org/page_man_pw-metadata_1.html">https://docs.pipewire.org/page_man_pw-metadata_1.html</a>.</p>
+
+<ul>
+  <li>Show metadata in <code class="language-plaintext highlighter-rouge">default</code> name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-metadata</code></p>
+
+<ul>
+  <li>Show metadata with ID 0 in <code class="language-plaintext highlighter-rouge">settings</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-metadata </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">settings</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span></p>
+
+<ul>
+  <li>List all available metadata objects:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-metadata </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–list</span></p>
+
+<ul>
+  <li>Keep running and log the changes to the metadata:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-metadata </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–monitor</span></p>
+
+<ul>
+  <li>Delete all metadata:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-metadata </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–delete</span></p>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">log.level</code> to 1 in <code class="language-plaintext highlighter-rouge">settings</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-metadata --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">settings</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">log.level</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-metadata --help</code></p>

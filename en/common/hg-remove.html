@@ -1,0 +1,34 @@
+<h1 id="hg-remove">hg remove</h1>
+
+<p>Remove specified files from the staging area.
+More information: <a href="https://www.mercurial-scm.org/doc/hg.1.html#remove">https://www.mercurial-scm.org/doc/hg.1.html#remove</a>.</p>
+
+<ul>
+  <li>Remove files or directories from the staging area:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hg remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Remove all staged files matching a specified pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hg remove --include </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span></p>
+
+<ul>
+  <li>Remove all staged files, excluding those that match a specified pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hg remove --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span></p>
+
+<ul>
+  <li>Recursively remove sub-repositories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hg remove --subrepos</code></p>
+
+<ul>
+  <li>Remove files from the repository that have been physically removed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hg remove --after</code></p>

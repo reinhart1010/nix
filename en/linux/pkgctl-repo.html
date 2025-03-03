@@ -1,0 +1,35 @@
+<h1 id="pkgctl-repo">pkgctl repo</h1>
+
+<p>Manage Git packaging repositories and their configuration for Arch Linux.
+See also: <code class="language-plaintext highlighter-rouge">pkgctl</code>.
+More information: <a href="https://manned.org/pkgctl-repo.1">https://manned.org/pkgctl-repo.1</a>.</p>
+
+<ul>
+  <li>Clone a package repository (requires setting an SSH key in your Arch Linux GitLab account):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgctl repo clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pkgname</span></p>
+
+<ul>
+  <li>Clone a package repository over HTTPS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgctl repo clone --protocol=https </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pkgname</span></p>
+
+<ul>
+  <li>Create a new GitLab package repository and clone it after creation (requires valid GitLab API authentication):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgctl repo create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pkgbase</span></p>
+
+<ul>
+  <li>Switch a package repository to a specified version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgctl repo switch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pkgbase</span></p>
+
+<ul>
+  <li>Open a package repository's website:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pkgctl repo web </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pkgbase</span></p>

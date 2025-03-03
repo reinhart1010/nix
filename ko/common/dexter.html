@@ -1,0 +1,16 @@
+<h1 id="dexter">dexter</h1>
+
+<p>OpenId Connect를 사용하여 Kubectl 사용자를 인증하는 도구.
+더 많은 정보: <a href="https://github.com/gini/dexter">https://github.com/gini/dexter</a>.</p>
+
+<ul>
+  <li>Google OIDC로 사용자 생성 및 인증:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dexter auth -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클라이언트_아이디</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클라이언트_secret</span></p>
+
+<ul>
+  <li>기본 kube 구성파일 위치 재정의:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dexter auth -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클라이언트_아이디</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">클라이언트_secret</span><code class="language-plaintext highlighter-rouge"> --kube-config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">예시/구성파일</span></p>

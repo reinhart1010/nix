@@ -1,0 +1,47 @@
+<h1 id="vgrep">vgrep</h1>
+
+<p>사용하기 쉬운 grep용 페이지 도구.
+같이 보기: <code class="language-plaintext highlighter-rouge">ugrep</code>, <code class="language-plaintext highlighter-rouge">rg</code>.
+더 많은 정보: <a href="https://github.com/vrothberg/vgrep">https://github.com/vrothberg/vgrep</a>.</p>
+
+<ul>
+  <li>현재 디렉토리에서 패턴을 재귀적으로 검색하고 캐시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgrep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span></p>
+
+<ul>
+  <li>캐시된 내용 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgrep</code></p>
+
+<ul>
+  <li>기본 편집기로 캐시에서 "4번째" 일치 항목 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgrep --show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span></p>
+
+<ul>
+  <li>캐시에서 각 일치 항목에 대해 "3" 줄의 컨텍스트 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgrep --show=context</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>트리 내 각 디렉토리에 대한 일치 항목 수 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgrep --show=tree</code></p>
+
+<ul>
+  <li>트리 내 각 파일에 대한 일치 항목 수 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgrep --show=files</code></p>
+
+<ul>
+  <li>캐시된 일치 항목과 함께 대화형 셸 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgrep --interactive</code></p>

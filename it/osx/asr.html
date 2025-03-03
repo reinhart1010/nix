@@ -1,0 +1,29 @@
+<h1 id="asr">asr</h1>
+
+<p>Ripristina (copia) un'immagine disco dentro a un volume.
+Il nome del comando sta per Apple Software Restore (software di ripristino Apple).
+Maggiori informazioni: <a href="https://keith.github.io/xcode-man-pages/asr.8.html">https://keith.github.io/xcode-man-pages/asr.8.html</a>.</p>
+
+<ul>
+  <li>Ripristina un'immagine disco su un volume specifico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_immagine.dmg</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/volume</span></p>
+
+<ul>
+  <li>Distruggi il volume specifico prima di ripristinare:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_immagine.dmg</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/volume</span><code class="language-plaintext highlighter-rouge"> --erase</code></p>
+
+<ul>
+  <li>Salta la verifica dopo il ripristino:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_immagine.dmg</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/volume</span><code class="language-plaintext highlighter-rouge"> --noverify</code></p>
+
+<ul>
+  <li>Clona i volumi senza utilizzare un'immagine disco intermedia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/volume</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/volume/clonato</span></p>

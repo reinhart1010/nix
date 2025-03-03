@@ -1,0 +1,40 @@
+<h1 id="xfce4-terminal">xfce4-terminal</h1>
+
+<p>XFCE4 terminal öykünücüsü.
+Daha fazla bilgi için: <a href="https://docs.xfce.org/apps/xfce4-terminal/start">https://docs.xfce.org/apps/xfce4-terminal/start</a>.</p>
+
+<ul>
+  <li>Yeni bir terminal penceresi aç:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xfce4-terminal</code></p>
+
+<ul>
+  <li>Başlangıç başlığı belirle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xfce4-terminal --initial-title "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">başlangıç_başlığı</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Mevcut terminal penceresinde yeni bir sekme aç:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xfce4-terminal --tab</code></p>
+
+<ul>
+  <li>Yeni bir terminal penceresini belirlenen bir komutu çalıştırarak aç:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xfce4-terminal --command "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argümanlı_komut</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Çalıştırılan komutun çalışmayı kesme durumunda dahi terminali kapama:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xfce4-terminal --command "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argümanlı_komut</span><code class="language-plaintext highlighter-rouge">" --hold</code></p>
+
+<ul>
+  <li>Her birinde farklı komut çalışacak birçok yeni sekme aç:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xfce4-terminal --tab --command "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komut_a</span><code class="language-plaintext highlighter-rouge">" --tab --command "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komut_b</span><code class="language-plaintext highlighter-rouge">"</code></p>

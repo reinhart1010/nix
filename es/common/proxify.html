@@ -1,0 +1,29 @@
+<h1 id="proxify">proxify</h1>
+
+<p>Un proxy versátil y portátil para capturar, manipular y reproducir tráfico HTTP/HTTPS sobre la marcha.
+Vea también: <code class="language-plaintext highlighter-rouge">mitmproxy</code>.
+Más información: <a href="https://github.com/projectdiscovery/proxify">https://github.com/projectdiscovery/proxify</a>.</p>
+
+<ul>
+  <li>Inicia un proxy HTTP (en la interfaz de red loopback <code class="language-plaintext highlighter-rouge">127.0.0.1</code> y puerto <code class="language-plaintext highlighter-rouge">8888</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">proxify</code></p>
+
+<ul>
+  <li>Inicia un proxy HTTP en una interfaz de red y puerto personalizados (puede requerir <code class="language-plaintext highlighter-rouge">sudo</code> para un número de puerto inferior a <code class="language-plaintext highlighter-rouge">1024</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">proxify -http-addr "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_ip</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_de_puerto</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Especifica el formato y el archivo de salida:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">proxify -output-format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jsonl|yaml</span><code class="language-plaintext highlighter-rouge"> -output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Muestra la ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">proxify -h</code></p>

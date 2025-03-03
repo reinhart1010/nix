@@ -1,0 +1,17 @@
+<h1 id="vgcreate">vgcreate</h1>
+
+<p>여러 대용량 저장 장치를 결합하여 볼륨 그룹 생성.
+같이 보기: <code class="language-plaintext highlighter-rouge">lvm</code>.
+더 많은 정보: <a href="https://manned.org/vgcreate">https://manned.org/vgcreate</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">/dev/sda1</code> 장치를 사용하여 vg1이라는 새 볼륨 그룹 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgcreate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vg1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda1</span></p>
+
+<ul>
+  <li>여러 장치를 사용하여 vg1이라는 새 볼륨 그룹 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgcreate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vg1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdc1</span></p>

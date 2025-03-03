@@ -1,0 +1,34 @@
+<h1 id="git-check-ignore">git check-ignore</h1>
+
+<p>Analyser et déboguer les fichiers ignorés / exclus (".gitignore") de Git.
+Plus d'informations : <a href="https://git-scm.com/docs/git-check-ignore">https://git-scm.com/docs/git-check-ignore</a>.</p>
+
+<ul>
+  <li>Vérifie qu'un fichier ou répertoire est ignoré :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_ou_répertoire</span></p>
+
+<ul>
+  <li>Vérifie que plusieurs fichiers ou répertoires sont ignorés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_ou_répertoire1 chemin/vers/fichier_ou_répertoire2 …</span></p>
+
+<ul>
+  <li>Utilisez des chemins d'accès, un par ligne, de <code class="language-plaintext highlighter-rouge">stdin</code> :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore --stdin &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_annexe</span></p>
+
+<ul>
+  <li>Ne pas vérifier l'index (utilisé pour déboguer pourquoi les chemins ont été suivis et non ignorés) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore --no-index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_ou_répertoire1 chemin/vers/fichier_ou_répertoire2 …</span></p>
+
+<ul>
+  <li>Inclure les détails pour chaque occurrence dans le chemin :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_ou_répertoire1 chemin/vers/fichier_ou_répertoire2 …</span></p>

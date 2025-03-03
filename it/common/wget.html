@@ -1,0 +1,53 @@
+<h1 id="wget">wget</h1>
+
+<p>Scarica file dal Web.
+Supporta HTTP, HTTPS, FTP.
+Maggiori informazioni: <a href="https://www.gnu.org/software/wget">https://www.gnu.org/software/wget</a>.</p>
+
+<ul>
+  <li>Scarica il contenuto dell'URL in un file (dal nome "abcd" in questo caso):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://esempio.com/abcd</span></p>
+
+<ul>
+  <li>Scarica il contenuto dell'URL in un file (dal nome "efgh" in questo caso):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --output-document </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">efgh</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://esempio.com/abcd</span></p>
+
+<ul>
+  <li>Scarica una singola pagina web e tutte le sue risorse (script, immagini, stili, ecc..) aspettando 3 secondi dopo ogni richiesta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --page-requisites --convert-links --wait=3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://esempio.com/pagina_web.html</span></p>
+
+<ul>
+  <li>Scarica tutti i file elencati nella directory e nelle sue sotto-directory (non scarica gli elementi incorporati nella pagina):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --mirror --no-parent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://esempio.com/unqualchepercorso/</span></p>
+
+<ul>
+  <li>Limita la velocità di download e il numero di tentativi di connessione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --limit-rate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300k</span><code class="language-plaintext highlighter-rouge"> --tries=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://esempio.com/unqualchepercorso/</span></p>
+
+<ul>
+  <li>Scarica un file da un server HTTP trasmettendo le credenziali tramite Basis Auth (funzione anche con FTP):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --user=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_utente</span><code class="language-plaintext highlighter-rouge"> --password=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://esempio.com</span></p>
+
+<ul>
+  <li>Riprende un download incompleto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --continue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://esempio.com</span></p>
+
+<ul>
+  <li>Scarica tutti gli URL contenuti in un file di testo in una directory specificata:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget --directory-prefix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span><code class="language-plaintext highlighter-rouge"> --input-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lista_di_URL.txt</span></p>

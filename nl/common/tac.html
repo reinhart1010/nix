@@ -1,0 +1,35 @@
+<h1 id="tac">tac</h1>
+
+<p>Toon en voeg bestanden samen met regels in omgekeerde volgorde.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">cat</code>.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html</a>.</p>
+
+<ul>
+  <li>Voeg specifieke bestanden samen in omgekeerde volgorde:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tac </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 …</span></p>
+
+<ul>
+  <li>Toon <code class="language-plaintext highlighter-rouge">stdin</code> in omgekeerde volgorde:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat pad/naar/bestand</span><code class="language-plaintext highlighter-rouge"> | tac</code></p>
+
+<ul>
+  <li>Gebruik een specifiek [s]cheidingsteken:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tac -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scheidingsteken</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 …</span></p>
+
+<ul>
+  <li>Gebruik een specifieke [r]egex als [s]cheidingsteken:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tac -r -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scheidingsteken</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 …</span></p>
+
+<ul>
+  <li>Gebruik een scheidingsteken vóór ([b]) elk bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tac -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 …</span></p>

@@ -1,0 +1,35 @@
+<h1 id="test">test</h1>
+
+<p>Controleer bestandstypen en vergelijk waarden.
+Retourneert 0 als de voorwaarde waar is, 1 als de voorwaarde onwaar is.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/test-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/test-invocation.html</a>.</p>
+
+<ul>
+  <li>Test of een gegeven variabele gelijk is aan een gegeven string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">test "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$MY_VAR</span><code class="language-plaintext highlighter-rouge">" = "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/bin/zsh</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Test of een gegeven variabele leeg is:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">test -z "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$GIT_BRANCH</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Test of een bestand bestaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">test -f "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Test of een map niet bestaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">test ! -d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Als A waar is, voer dan B uit, of C in het geval van een fout (let op dat C mogelijk wordt uitgevoerd, zelfs als A mislukt):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">voorwaarde</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "true"</span><code class="language-plaintext highlighter-rouge"> || </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "false"</span></p>

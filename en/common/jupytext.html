@@ -1,0 +1,40 @@
+<h1 id="jupytext">jupytext</h1>
+
+<p>Convert Jupyter notebooks to plain text documents, and back again.
+More information: <a href="https://jupytext.readthedocs.io">https://jupytext.readthedocs.io</a>.</p>
+
+<ul>
+  <li>Turn a notebook into a paired <code class="language-plaintext highlighter-rouge">.ipynb</code>/<code class="language-plaintext highlighter-rouge">.py</code> notebook:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jupytext --set-formats ipynb,py </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">notebook.ipynb</span></p>
+
+<ul>
+  <li>Convert a notebook to a <code class="language-plaintext highlighter-rouge">.py</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jupytext --to py </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">notebook.ipynb</span></p>
+
+<ul>
+  <li>Convert a <code class="language-plaintext highlighter-rouge">.py</code> file to a notebook with no outputs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jupytext --to notebook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">notebook.py</span></p>
+
+<ul>
+  <li>Convert a <code class="language-plaintext highlighter-rouge">.md</code> file to a notebook and run it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jupytext --to notebook --execute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">notebook.md</span></p>
+
+<ul>
+  <li>Update the input cells in a notebook and preserve outputs and metadata:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jupytext --update --to notebook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">notebook.py</span></p>
+
+<ul>
+  <li>Update all paired representations of a notebook:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jupytext --sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">notebook.ipynb</span></p>

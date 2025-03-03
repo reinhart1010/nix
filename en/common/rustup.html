@@ -1,0 +1,47 @@
+<h1 id="rustup">rustup</h1>
+
+<p>Install, manage, and update Rust toolchains.
+Some subcommands, such as <code class="language-plaintext highlighter-rouge">toolchain</code>, <code class="language-plaintext highlighter-rouge">target</code>, <code class="language-plaintext highlighter-rouge">update</code>, etc. have their own usage documentation.
+More information: <a href="https://rust-lang.github.io/rustup">https://rust-lang.github.io/rustup</a>.</p>
+
+<ul>
+  <li>Install the nightly toolchain for your system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup install nightly</code></p>
+
+<ul>
+  <li>Switch the default toolchain to nightly so that the <code class="language-plaintext highlighter-rouge">cargo</code> and <code class="language-plaintext highlighter-rouge">rustc</code> commands will use it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup default nightly</code></p>
+
+<ul>
+  <li>Use the nightly toolchain when inside the current project but leave global settings unchanged:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup override set nightly</code></p>
+
+<ul>
+  <li>Update all toolchains:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup update</code></p>
+
+<ul>
+  <li>List installed toolchains:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup show</code></p>
+
+<ul>
+  <li>Run <code class="language-plaintext highlighter-rouge">cargo build</code> with a certain toolchain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">toolchain</span><code class="language-plaintext highlighter-rouge"> cargo build</code></p>
+
+<ul>
+  <li>Open the local Rust documentation in the default web browser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustup doc</code></p>

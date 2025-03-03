@@ -1,0 +1,47 @@
+<h1 id="podman-machine">podman machine</h1>
+
+<p>Create and manage virtual machines running Podman.
+Included with Podman version 4 or greater.
+More information: <a href="https://docs.podman.io/en/latest/markdown/podman-machine.1.html">https://docs.podman.io/en/latest/markdown/podman-machine.1.html</a>.</p>
+
+<ul>
+  <li>List existing machines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine ls</code></p>
+
+<ul>
+  <li>Create a new default machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine init</code></p>
+
+<ul>
+  <li>Create a new machine with a specific name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Create a new machine with different resources:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine init --cpus=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> --memory=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4096</span><code class="language-plaintext highlighter-rouge"> --disk-size=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span></p>
+
+<ul>
+  <li>Start or stop a machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Connect to a running machine via SSH:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Inspect information about a machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman machine inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>

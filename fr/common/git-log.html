@@ -1,0 +1,52 @@
+<h1 id="git-log">git log</h1>
+
+<p>Afficher un historique de commits.
+Plus d'informations : <a href="https://git-scm.com/docs/git-log">https://git-scm.com/docs/git-log</a>.</p>
+
+<ul>
+  <li>Afficher la séquence de commits à partir de l'actuel, dans l'ordre chronologique inverse du dépôt Git dans le répertoire de travail actuel :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git log</code></p>
+
+<ul>
+  <li>Afficher l'historique de fichiers ou répertoires en particulier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|-u|–patch</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_ou_repertoire</span></p>
+
+<ul>
+  <li>Afficher la liste des fichiers modifiés pour chaque commit :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git log --stat</code></p>
+
+<ul>
+  <li>Afficher un graphique des commits dans la branche actuelle en utilisant uniquement la première ligne de chaque message de commit :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git log --oneline --graph</code></p>
+
+<ul>
+  <li>Afficher un graphique de tout les commits, tags et branches dans le dépôt entier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git log --oneline --decorate --all --graph</code></p>
+
+<ul>
+  <li>Afficher uniquement les commits dont le message contient la chaine (non sensible à la casse) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–regexp-ignore-case</span><code class="language-plaintext highlighter-rouge"> --grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chaine_recherché</span></p>
+
+<ul>
+  <li>Afficher les N derniers commits d'un utilisateur :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–max-count</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number</span><code class="language-plaintext highlighter-rouge"> --author "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">author</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Afficher les commits entre deux dates (yyyy-mm-dd):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git log --before "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2017-01-29</span><code class="language-plaintext highlighter-rouge">" --after "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2017-01-17</span><code class="language-plaintext highlighter-rouge">"</code></p>

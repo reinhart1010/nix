@@ -1,0 +1,52 @@
+<h1 id="firejail">firejail</h1>
+
+<p>Linux의 내장 기능을 사용하여 프로세스를 안전하게 컨테이너로 샌드박스화합니다.
+더 많은 정보: <a href="https://manned.org/firejail">https://manned.org/firejail</a>.</p>
+
+<ul>
+  <li>데스크톱 환경에 firejail 통합:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo firecfg</code></p>
+
+<ul>
+  <li>제한된 Mozilla Firefox 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firejail </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">firefox</span></p>
+
+<ul>
+  <li>알려진 인터페이스와 주소에서 제한된 Apache 서버 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firejail --net=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> --ip=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.244</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/etc/init.d/apache2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start</span></p>
+
+<ul>
+  <li>실행 중인 샌드박스 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firejail --list</code></p>
+
+<ul>
+  <li>실행 중인 샌드박스의 네트워크 활동 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firejail --netstats</code></p>
+
+<ul>
+  <li>실행 중인 샌드박스 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firejail --shutdown=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7777</span></p>
+
+<ul>
+  <li>인터넷 탐색을 위한 제한된 Firefox 세션 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firejail --seccomp --private --private-dev --private-tmp --protocol=inet firefox --new-instance --no-remote --safe-mode --private-window</code></p>
+
+<ul>
+  <li>사용자 정의 호스트 파일 사용(<code class="language-plaintext highlighter-rouge">/etc/hosts</code> 파일 무시):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">firejail --hosts-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/myhosts</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">curl http://mysite.arpa</span></p>

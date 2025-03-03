@@ -1,0 +1,34 @@
+<h1 id="git-symbolic-ref">git symbolic-ref</h1>
+
+<p>Read, change, or delete files that store references.
+More information: <a href="https://git-scm.com/docs/git-symbolic-ref">https://git-scm.com/docs/git-symbolic-ref</a>.</p>
+
+<ul>
+  <li>Store a reference by a name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git symbolic-ref refs/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ref</span></p>
+
+<ul>
+  <li>Store a reference by name, including a message with a reason for the update:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git symbolic-ref -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span><code class="language-plaintext highlighter-rouge">" refs/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> refs/heads/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span></p>
+
+<ul>
+  <li>Read a reference by name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git symbolic-ref refs/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Delete a reference by name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git symbolic-ref --delete refs/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>For scripting, hide errors with <code class="language-plaintext highlighter-rouge">--quiet</code> and use <code class="language-plaintext highlighter-rouge">--short</code> to simplify ("refs/heads/X" prints as "X"):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git symbolic-ref --quiet --short refs/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>

@@ -1,0 +1,52 @@
+<h1 id="wsl">wsl</h1>
+
+<p>Verwalte das Windows Subsystem für Linux von der Kommandozeile.
+Weitere Informationen: <a href="https://learn.microsoft.com/windows/wsl/reference">https://learn.microsoft.com/windows/wsl/reference</a>.</p>
+
+<ul>
+  <li>Starte eine Linux-Shell (in der Standard-Distribution):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell_befehl</span></p>
+
+<ul>
+  <li>Führe einen Linux-Befehl aus, ohne eine Shell zu benutzen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl_argumente</span></p>
+
+<ul>
+  <li>Gib eine bestimmte Distribution an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --distribution </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distribution</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell_befehl</span></p>
+
+<ul>
+  <li>Liste verfügbare Distributionen auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --list</code></p>
+
+<ul>
+  <li>Exportiere eine Distribution in eine <code class="language-plaintext highlighter-rouge">.tar</code> Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distribution</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.tar</span></p>
+
+<ul>
+  <li>Importiere eine Distribution von einer <code class="language-plaintext highlighter-rouge">.tar</code> Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distribution</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/installations_verzeichnis</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.tar</span></p>
+
+<ul>
+  <li>Ändere die WSL-Version einer bestimmten Distribution:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --set-version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distribution</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Fahre das Windows Subsystem für Linux herunter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --shutdown</code></p>

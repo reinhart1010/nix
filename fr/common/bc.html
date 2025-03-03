@@ -1,0 +1,44 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="bc">bc</h1>
+
+<p>Un langage de calcul de précision arbitraire.
+Voir aussi : <code class="language-plaintext highlighter-rouge">dc</code>.
+Plus d'informations : <a href="https://manned.org/bc">https://manned.org/bc</a>.</p>
+
+<ul>
+  <li>Démarre une session interactive :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc</code></p>
+
+<ul>
+  <li>Démarre une session interactive avec la bibliothèque mathématique standard activée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc --mathlib</code></p>
+
+<ul>
+  <li>Calcule une expression :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span><code class="language-plaintext highlighter-rouge">' | bc</code></p>
+
+<ul>
+  <li>Exécute un script :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/script.bc</span></p>
+
+<ul>
+  <li>Calcule une expression avec l'échelle spécifiée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo 'scale = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge">; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span><code class="language-plaintext highlighter-rouge">' | bc</code></p>
+
+<ul>
+  <li>Calcule une fonction sinus/cosinus/arctangente/logarithme naturel/exponentielle en utilisant <code class="language-plaintext highlighter-rouge">mathlib</code> :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s|c|a|l|e</span><code class="language-plaintext highlighter-rouge">(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge">)' | bc --mathlib</code></p>

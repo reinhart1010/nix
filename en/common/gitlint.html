@@ -1,0 +1,40 @@
+<h1 id="gitlint">gitlint</h1>
+
+<p>Git commit message linter checks your commit messages for style.
+More information: <a href="https://jorisroovers.com/gitlint/">https://jorisroovers.com/gitlint/</a>.</p>
+
+<ul>
+  <li>Check the last commit message:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlint</code></p>
+
+<ul>
+  <li>The range of commits to lint:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlint --commits </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">single_refspec_argument</span></p>
+
+<ul>
+  <li>Path to a directory or Python module with extra user-defined rules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlint --extra-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Start a specific CI job:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlint --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_directory</span></p>
+
+<ul>
+  <li>Path to a file containing a commit-msg:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlint --msg-filename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename</span></p>
+
+<ul>
+  <li>Read staged commit meta-info from the local repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlint --staged</code></p>

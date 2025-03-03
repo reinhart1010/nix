@@ -1,0 +1,34 @@
+<h1 id="cargo-check">cargo check</h1>
+
+<p>检查本地软件包及其所有依赖包是否有错误。
+更多信息：<a href="https://doc.rust-lang.org/cargo/commands/cargo-check.html">https://doc.rust-lang.org/cargo/commands/cargo-check.html</a>.</p>
+
+<ul>
+  <li>检查当前包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo check</code></p>
+
+<ul>
+  <li>检查所有测试：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo check --tests</code></p>
+
+<ul>
+  <li>检查 <code class="language-plaintext highlighter-rouge">tests/integration_test1.rs</code> 中的集成测试：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo check --test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">integration_test1</span></p>
+
+<ul>
+  <li>使用 <code class="language-plaintext highlighter-rouge">feature1</code> 和 <code class="language-plaintext highlighter-rouge">feature2</code> 功能检查当前包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo check --features </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">feature1,feature2</span></p>
+
+<ul>
+  <li>禁用默认功能后检测当前包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo check --no-default-features</code></p>

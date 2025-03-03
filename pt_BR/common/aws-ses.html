@@ -1,0 +1,53 @@
+<h1 id="aws-ses">aws ses</h1>
+
+<p>Interface de linha de comando para o AWS Simple Email Service.
+Serviço em nuvem com alta performance para envio e recebimento de emails.
+Mais informações: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ses/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ses/index.html</a>.</p>
+
+<ul>
+  <li>Cria um novo conjunto de regras:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ses create-receipt-rule-set --rule-set-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_conjunto_de_regras</span><code class="language-plaintext highlighter-rouge"> --generate-cli-skeleton</code></p>
+
+<ul>
+  <li>Descreve os conjuntos ativos de regras:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ses describe-active-receipt-rule-set --generate-cli-skeletion</code></p>
+
+<ul>
+  <li>Descreve um regra específica de um conjunto de regras:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ses describe-receipt-rule --rule-set-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_conjunto_de_regras</span><code class="language-plaintext highlighter-rouge"> --rule-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_regra</span><code class="language-plaintext highlighter-rouge"> --generate-cli-skeleton</code></p>
+
+<ul>
+  <li>Lista todos os conjuntos de regras:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ses list-receipt-rule-sets --starting-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texto_do_token</span><code class="language-plaintext highlighter-rouge"> --max-items </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inteiro</span><code class="language-plaintext highlighter-rouge"> --generate-cli-skeleton</code></p>
+
+<ul>
+  <li>Remove um conjunto de regras específico (o conjunto ativo não pode ser removido):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ses delete-receipt-rule-set --rule-set-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_conjunto_de_regras</span><code class="language-plaintext highlighter-rouge"> --generate-cli-skeleton</code></p>
+
+<ul>
+  <li>Remove uma regras específica de um conjunto de regras:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ses delete-receipt-rule --rule-set-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_conjunto_de_regras</span><code class="language-plaintext highlighter-rouge"> --rule-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_regra</span><code class="language-plaintext highlighter-rouge"> --generate-cli-skeleton</code></p>
+
+<ul>
+  <li>Envia um email:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ses send-email --from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">de_endereco</span><code class="language-plaintext highlighter-rouge"> --destination "ToAddresses=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">para_endereco</span><code class="language-plaintext highlighter-rouge">" --message "Subject={Data=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">assunto</span><code class="language-plaintext highlighter-rouge">,Charset=utf8},Body={Text={Data=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">corpo_email</span><code class="language-plaintext highlighter-rouge">,Charset=utf8},Html={Data=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">corpo_do_email_com_html</span><code class="language-plaintext highlighter-rouge">,Charset=utf8&lt;/span&gt;</code>"`</p>
+
+<ul>
+  <li>Exibe ajuda para um subcomando específico do SES:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ses </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span><code class="language-plaintext highlighter-rouge"> help</code></p>

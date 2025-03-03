@@ -1,0 +1,46 @@
+<h1 id="terraform-plan">terraform plan</h1>
+
+<p>Terraform 실행 계획을 생성하고 보여줍니다.
+더 많은 정보: <a href="https://developer.hashicorp.com/terraform/cli/commands/plan">https://developer.hashicorp.com/terraform/cli/commands/plan</a>.</p>
+
+<ul>
+  <li>현재 디렉토리에서 실행 계획 생성 및 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan</code></p>
+
+<ul>
+  <li>현재 존재하는 모든 원격 객체를 삭제하는 계획 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan -destroy</code></p>
+
+<ul>
+  <li>Terraform 상태 및 출력 값을 업데이트하는 계획 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan -refresh-only</code></p>
+
+<ul>
+  <li>입력 변수에 대한 값 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan -var '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름1</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값1</span><code class="language-plaintext highlighter-rouge">' -var '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름2</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값2</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>특정 리소스 하위 집합에만 Terraform의 주의 집중:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan -target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_type.resource_name[인스턴스 인덱스]</span></p>
+
+<ul>
+  <li>계획을 JSON으로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan -json</code></p>
+
+<ul>
+  <li>특정 파일에 계획 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">terraform plan -no-color &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

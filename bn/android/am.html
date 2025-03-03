@@ -1,0 +1,28 @@
+<h1 id="am">am</h1>
+
+<p>অ্যান্ড্রয়েড অ্যাক্টিভিটি ম্যানেজার।
+আরও তথ্য পাবেন: <a href="https://developer.android.com/tools/adb#am">https://developer.android.com/tools/adb#am</a>।</p>
+
+<ul>
+  <li>একটি নির্দিষ্ট কার্যকলাপ শুরু করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am start -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.android.settings/.Settings</span></p>
+
+<ul>
+  <li>একটি কার্যকলাপ শুরু করুন এবং এতে ডেটা পাঠান:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am start -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span></p>
+
+<ul>
+  <li>একটি নির্দিষ্ট কর্ম এবং বিভাগের সাথে মেলে এমন একটি কার্যকলাপ শুরু করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am start -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.MAIN</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.category.HOME</span></p>
+
+<ul>
+  <li>একটি উদ্দেশ্যকে একটি URI-তে রূপান্তর করুন:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">am to-uri -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span></p>

@@ -1,0 +1,40 @@
+<h1 id="cbt">cbt</h1>
+
+<p>Utility for reading data from Google Cloud's Bigtable.
+More information: <a href="https://cloud.google.com/bigtable/docs/cbt-reference">https://cloud.google.com/bigtable/docs/cbt-reference</a>.</p>
+
+<ul>
+  <li>List tables in the current project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cbt ls</code></p>
+
+<ul>
+  <li>Print count of rows in a specific table in the current project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cbt count "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Display a single row from a specific table with only 1 (most recent) cell revision per column in the current project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cbt lookup "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">row_key</span><code class="language-plaintext highlighter-rouge">" cells-per-column=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Display a single row with only specific column(s) (omit qualifier to return entire family) in the current project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cbt lookup "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">row_key</span><code class="language-plaintext highlighter-rouge">" columns="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">family1:qualifier1,family2:qualifier2,…</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Search up to 5 rows in the current project by a specific regex pattern and print them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cbt read "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge">" regex="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">row_key_pattern</span><code class="language-plaintext highlighter-rouge">" count=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>Read a specific range of rows and print only returned row keys in the current project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cbt read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span><code class="language-plaintext highlighter-rouge"> start=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start_row_key</span><code class="language-plaintext highlighter-rouge"> end=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">end_row_key</span><code class="language-plaintext highlighter-rouge"> keys-only=true</code></p>

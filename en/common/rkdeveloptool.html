@@ -1,0 +1,42 @@
+<h1 id="rkdeveloptool">rkdeveloptool</h1>
+
+<p>Flash, dump, and manage boot firmware for Rockchip-based computer devices.
+You will need to turn on the device into Maskrom/Bootrom mode before connecting it through USB.
+Some subcommands may require to run as root.
+More information: <a href="https://github.com/rockchip-linux/rkdeveloptool">https://github.com/rockchip-linux/rkdeveloptool</a>.</p>
+
+<ul>
+  <li>[l]ist all connected Rockchip-based flash [d]evices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rkdeveloptool ld</code></p>
+
+<ul>
+  <li>Initialize the device by forcing it to [d]ownload and install the [b]ootloader from the specified file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rkdeveloptool db </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bootloader.bin</span></p>
+
+<ul>
+  <li>[u]pdate the boot[l]oader software with a new one:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rkdeveloptool ul </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bootloader.bin</span></p>
+
+<ul>
+  <li>Write an image to a GPT-formatted flash partition, specifying the initial storage sector (usually <code class="language-plaintext highlighter-rouge">0x0</code> alias <code class="language-plaintext highlighter-rouge">0</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rkdeveloptool wl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">initial_sector</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.img</span></p>
+
+<ul>
+  <li>Write to the flash partition by its user-friendly name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rkdeveloptool wlx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">partition_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.img</span></p>
+
+<ul>
+  <li>[r]eset/reboot the [d]evice, exit from the Maskrom/Bootrom mode to boot into the selected flash partition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rkdeveloptool rd</code></p>

@@ -1,0 +1,46 @@
+<h1 id="gzip">gzip</h1>
+
+<p>使用 <code class="language-plaintext highlighter-rouge">gzip</code> (LZ77) 压缩/解压文件。
+更多信息：<a href="https://www.gnu.org/software/gzip/manual/gzip.html">https://www.gnu.org/software/gzip/manual/gzip.html</a>.</p>
+
+<ul>
+  <li>压缩文件，将其替换为 <code class="language-plaintext highlighter-rouge">gzip</code> 存档文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>解压缩文件，将其替换为原始未压缩版本：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decompress</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.gz</span></p>
+
+<ul>
+  <li>压缩文件，保留原始文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-k|–keep</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>压缩文件，指定输出文件名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–stdout</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/压缩文件.gz</span></p>
+
+<ul>
+  <li>解压缩 <code class="language-plaintext highlighter-rouge">gzip</code> 存档，指定输出文件名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–stdout</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decompress</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.gz</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/解压缩的文件名</span></p>
+
+<ul>
+  <li>指定压缩级别。 1 为最快（低压缩率），9 为最慢（高压缩率），默认值是 6：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1..9</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–stdout</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/压缩文件.gz</span></p>
+
+<ul>
+  <li>显示压缩或解压后的每个文件的名称和压缩百分比：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gzip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–decompress</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.gz</span></p>

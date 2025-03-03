@@ -1,0 +1,40 @@
+<h1 id="osascript">osascript</h1>
+
+<p>Ejecuta AppleScript o JavaScript for Automation (JXA) desde la línea de comandos.
+Más información: <a href="https://keith.github.io/xcode-man-pages/osascript.1.html">https://keith.github.io/xcode-man-pages/osascript.1.html</a>.</p>
+
+<ul>
+  <li>Ejecuta un comando AppleScript:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osascript -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say 'Hello world'</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ejecuta varios comandos AppleScript:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osascript -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say 'Hello'</span><code class="language-plaintext highlighter-rouge">" -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say 'world'</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ejecuta un archivo AppleScript compilado (<code class="language-plaintext highlighter-rouge">*.scpt</code>), empaquetado (<code class="language-plaintext highlighter-rouge">*.scptd</code>) o un archivo Applescript en texto plano (<code class="language-plaintext highlighter-rouge">*.applescript</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osascript </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/apple.scpt</span></p>
+
+<ul>
+  <li>Obtén el identificador del paquete de una aplicación (útil para <code class="language-plaintext highlighter-rouge">open -b</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osascript -e 'id of app "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Application</span><code class="language-plaintext highlighter-rouge">"'</code></p>
+
+<ul>
+  <li>Ejecuta un comando JavaScript:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osascript -l JavaScript -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">console.log('Hola mundo');</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ejecuta un archivo JavaScript:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">osascript -l JavaScript </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/script.js</span></p>

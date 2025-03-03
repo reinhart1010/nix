@@ -1,0 +1,34 @@
+<h1 id="certutil">certutil</h1>
+
+<p>Beheer sleutels en certificaten in zowel NSS-databases als andere NSS-tokens.
+Meer informatie: <a href="https://manned.org/certutil">https://manned.org/certutil</a>.</p>
+
+<ul>
+  <li>Maak een [N]ieuwe certificaatdatabase aan in de huidige [d]irectory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil -N -d .</code></p>
+
+<ul>
+  <li>Toon alle certificaten in een database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil -L -d .</code></p>
+
+<ul>
+  <li>Toon alle private [S]leutels in een database door het wachtwoord[b]estand te specificeren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil -K -d . -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/wachtwoord_bestand.txt</span></p>
+
+<ul>
+  <li>[V]oeg het ondertekende certificaat toe aan de database van de aanvrager door een [b]ijnaam, [v]ertrouwensattributen en een [i]nvoer-CRT-bestand te specificeren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil -A -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_certificaat</span><code class="language-plaintext highlighter-rouge">" -t ",," -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.crt</span><code class="language-plaintext highlighter-rouge"> -d .</code></p>
+
+<ul>
+  <li>Voeg subject alternative names toe aan een [c]ertificaat met een specifieke sleutelgrootte ([g]):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">certutil -S -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/wachtwoordbestand.txt</span><code class="language-plaintext highlighter-rouge"> -d . -t ",," -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_certificaat</span><code class="language-plaintext highlighter-rouge">" -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_naam</span><code class="language-plaintext highlighter-rouge">" -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2048</span><code class="language-plaintext highlighter-rouge"> -s "CN=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">common_name</span><code class="language-plaintext highlighter-rouge">,O=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organisatie</span><code class="language-plaintext highlighter-rouge">"</code></p>

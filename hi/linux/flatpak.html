@@ -1,0 +1,52 @@
+<h1 id="flatpak">flatpak</h1>
+
+<p>फ्लैटपैक अनुप्रयोग और रनटाइम बनाएं, स्थापित करें और चलाएं।
+अधिक जानकारी: <a href="https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak">https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak</a>।</p>
+
+<ul>
+  <li>एक स्थापित अनुप्रयोग चलाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">नाम</span></p>
+
+<ul>
+  <li>दूरस्थ स्रोत से एक अनुप्रयोग स्थापित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">दूरस्थ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">नाम</span></p>
+
+<ul>
+  <li>सभी स्थापित अनुप्रयोग और रनटाइम की सूची दिखाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak list</code></p>
+
+<ul>
+  <li>सभी स्थापित अनुप्रयोग और रनटाइम को अद्यतित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak update</code></p>
+
+<ul>
+  <li>एक दूरस्थ स्रोत जोड़ें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak remote-add --if-not-exists </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">दूरस्थ_नाम</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">दूरस्थ_URL</span></p>
+
+<ul>
+  <li>एक स्थापित अनुप्रयोग हटाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">नाम</span></p>
+
+<ul>
+  <li>सभी अउपयोग नहीं किए जा रहे अनुप्रयोग हटाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak remove --unused</code></p>
+
+<ul>
+  <li>एक स्थापित अनुप्रयोग के बारे में जानकारी दिखाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">नाम</span></p>

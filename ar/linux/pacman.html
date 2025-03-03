@@ -1,0 +1,54 @@
+<h1 id="pacman">pacman</h1>
+
+<p>أداة مدير الحزم لنظام Arch Linux.
+انظر أيضًا: <code class="language-plaintext highlighter-rouge">pacman-sync</code>, <code class="language-plaintext highlighter-rouge">pacman-remove</code>, <code class="language-plaintext highlighter-rouge">pacman-query</code>, <code class="language-plaintext highlighter-rouge">pacman-upgrade</code>, <code class="language-plaintext highlighter-rouge">pacman-files</code>, <code class="language-plaintext highlighter-rouge">pacman-database</code>, <code class="language-plaintext highlighter-rouge">pacman-deptest</code>, <code class="language-plaintext highlighter-rouge">pacman-key</code>, <code class="language-plaintext highlighter-rouge">pacman-mirrors</code>.
+لأوامر مكافئة في مديري الحزم الآخرين، انظر <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a>.
+لمزيد من التفاصيل: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>مزامنة وتحديث جميع الحزم:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Syu</code></p>
+
+<ul>
+  <li>تثبيت حزمة جديدة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>إزالة حزمة والتبعيات الخاصة بها:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Rs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>البحث في قاعدة بيانات الحزم عن تعبير نمطي (Regular Expresssion) أو كلمة مفتاحية:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Ss "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>البحث في قاعدة البيانات عن الحزم التي تحتوي على ملف محدد:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -F "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>عرض الحزم المثبتة بشكل صريح (تم تثبيتها يدويًا بواسطة المستخدم) مع إصداراتها:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qe</code></p>
+
+<ul>
+  <li>عرض الحزم اليتيمة (المثبتة كـ تبعيات ولكنها غير مطلوبة من قبل أي حزمة):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qtdq</code></p>
+
+<ul>
+  <li>تفريغ ذاكرة التخزين المؤقت بالكامل لـ <code class="language-plaintext highlighter-rouge">pacman</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Scc</code></p>

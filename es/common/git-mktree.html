@@ -1,0 +1,34 @@
+<h1 id="git-mktree">git mktree</h1>
+
+<p>Construye un objeto árbol usando texto formateado <code class="language-plaintext highlighter-rouge">ls-tree</code>.
+Más información: <a href="https://git-scm.com/docs/git-mktree">https://git-scm.com/docs/git-mktree</a>.</p>
+
+<ul>
+  <li>Construye un objeto árbol y verifica que el hash de cada entrada del árbol identifica un objeto existente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git mktree</code></p>
+
+<ul>
+  <li>Permite que falten objetos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git mktree --missing</code></p>
+
+<ul>
+  <li>Lee la salida terminada en NUL (carácter cero) del objeto árbol (<code class="language-plaintext highlighter-rouge">ls-tree -z</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git mktree -z</code></p>
+
+<ul>
+  <li>Permite la creación de múltiples objetos árbol:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git mktree --batch</code></p>
+
+<ul>
+  <li>Ordena y construye un árbol a partir de <code class="language-plaintext highlighter-rouge">stdin</code> (se requiere un formato de salida de <code class="language-plaintext highlighter-rouge">git ls-tree</code> no recursivo):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git mktree &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/árbol.txt</span></p>

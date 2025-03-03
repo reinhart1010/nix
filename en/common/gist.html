@@ -1,0 +1,46 @@
+<h1 id="gist">gist</h1>
+
+<p>Upload code to <a href="https://gist.github.com">https://gist.github.com</a>.
+More information: <a href="https://github.com/defunkt/gist">https://github.com/defunkt/gist</a>.</p>
+
+<ul>
+  <li>Log in to gist on this computer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gist --login</code></p>
+
+<ul>
+  <li>Create a gist from any number of text files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2.txt</span></p>
+
+<ul>
+  <li>Create a private gist with a description:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gist --private --description "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A meaningful description</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.txt</span></p>
+
+<ul>
+  <li>Read contents from <code class="language-plaintext highlighter-rouge">stdin</code> and create a gist from it:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "hello world"</span><code class="language-plaintext highlighter-rouge"> | gist</code></p>
+
+<ul>
+  <li>List your public and private gists:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gist --list</code></p>
+
+<ul>
+  <li>List all public gists for any user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gist --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Update a gist using the ID from URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gist --update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GIST_ID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.txt</span></p>

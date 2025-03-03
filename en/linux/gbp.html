@@ -1,0 +1,34 @@
+<h1 id="gbp">gbp</h1>
+
+<p>A system to integrate the Debian package build system with Git.
+More information: <a href="https://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html">https://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html</a>.</p>
+
+<ul>
+  <li>Convert an existing Debian package to gbp:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gbp import-dsc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.dsc</span></p>
+
+<ul>
+  <li>Build the package in the current directory using the default builder (<code class="language-plaintext highlighter-rouge">debuild</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gbp buildpackage -jauto -us -uc</code></p>
+
+<ul>
+  <li>Build a package in a <code class="language-plaintext highlighter-rouge">pbuilder</code> environment for Debian Bullseye:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">DIST=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bullseye</span><code class="language-plaintext highlighter-rouge"> ARCH=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">amd64</span><code class="language-plaintext highlighter-rouge"> gbp buildpackage -jauto -us -uc --git-builder=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git-pbuilder</span></p>
+
+<ul>
+  <li>Specify a package to be a source-only upload in the <code class="language-plaintext highlighter-rouge">.changes</code> file (see <a href="https://wiki.debian.org/SourceOnlyUpload">https://wiki.debian.org/SourceOnlyUpload</a>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gbp buildpackage -jauto -us -uc --changes-options=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-S</span></p>
+
+<ul>
+  <li>Import a new upstream release:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gbp import-orig --pristine-tar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.tar.gz</span></p>

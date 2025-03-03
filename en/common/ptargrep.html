@@ -1,0 +1,22 @@
+<h1 id="ptargrep">ptargrep</h1>
+
+<p>Find regular expression patterns in tar archive files.
+More information: <a href="https://manned.org/ptargrep">https://manned.org/ptargrep</a>.</p>
+
+<ul>
+  <li>Search for a pattern within one or more tar archives:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ptargrep "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Extract to the current directory using the basename of the file from the archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ptargrep --basename "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Search for a case-insensitive pattern matching within a tar archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ptargrep --ignore-case "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

@@ -1,0 +1,52 @@
+<h1 id="docker-system">docker system</h1>
+
+<p>Docker verilerini yönet ve sistem bilgisi görüntüle.
+Daha fazla bilgi için: <a href="https://docs.docker.com/reference/cli/docker/system/">https://docs.docker.com/reference/cli/docker/system/</a>.</p>
+
+<ul>
+  <li>Yardım göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system</code></p>
+
+<ul>
+  <li>Docker disk kullanımını göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system df</code></p>
+
+<ul>
+  <li>Disk kullanımı üzerine detaylı bilgi göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system df --verbose</code></p>
+
+<ul>
+  <li>Kullanılmayan veriyi sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system prune</code></p>
+
+<ul>
+  <li>Kullanılmayan ve geçmişte birden çok kez oluşturulan veriyi sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system prune --filter "until=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">saat</span><code class="language-plaintext highlighter-rouge">h</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dakika</span><code class="language-plaintext highlighter-rouge">m"</code></p>
+
+<ul>
+  <li>Docker deamon'dan tam-zamanlı eylemleri görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system events</code></p>
+
+<ul>
+  <li>Geçerli JSON satırları olarak yayınlanan konteynerleden tam-zamanlı eylemleri göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system events --filter 'type=container' --format '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json .</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Sistem bilgisi göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker system info</code></p>

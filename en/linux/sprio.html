@@ -1,0 +1,34 @@
+<h1 id="sprio">sprio</h1>
+
+<p>View the factors determining a job's scheduling priority.
+More information: <a href="https://slurm.schedmd.com/sprio.html">https://slurm.schedmd.com/sprio.html</a>.</p>
+
+<ul>
+  <li>View the factors determining the scheduling priority of all jobs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sprio</code></p>
+
+<ul>
+  <li>View the factors determining the specified job's scheduling priority:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sprio --jobs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id_1,job_id_2,…</span></p>
+
+<ul>
+  <li>Output additional information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sprio --long</code></p>
+
+<ul>
+  <li>View information for the jobs of specified users:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sprio --user=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_name_1,user_name_2,…</span></p>
+
+<ul>
+  <li>Print the weights for each factor determining job scheduling priority:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sprio --weights</code></p>

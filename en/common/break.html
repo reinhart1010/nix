@@ -1,0 +1,16 @@
+<h1 id="break">break</h1>
+
+<p>Break out of a <code class="language-plaintext highlighter-rouge">for</code>, <code class="language-plaintext highlighter-rouge">while</code>, <code class="language-plaintext highlighter-rouge">until</code> or <code class="language-plaintext highlighter-rouge">select</code> loop.
+More information: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-break">https://www.gnu.org/software/bash/manual/bash.html#index-break</a>.</p>
+
+<ul>
+  <li>Break out of a single loop:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while :; do break; done</code></p>
+
+<ul>
+  <li>Break out of nested loops:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while :; do while :; do break 2; done; done</code></p>

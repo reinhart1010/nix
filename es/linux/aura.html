@@ -1,0 +1,52 @@
+<h1 id="aura">aura</h1>
+
+<p>El gestor de paquetes Aura: un gestor de paquetes seguro y multilingüe para Arch Linux y el AUR.
+Más información: <a href="https://github.com/fosskers/aura">https://github.com/fosskers/aura</a>.</p>
+
+<ul>
+  <li>Busca paquetes en los repositorios oficiales y AUR:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aura --aursync --both --search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">palabra_clave|expresión_regular</span></p>
+
+<ul>
+  <li>Instala un paquete desde el AUR:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aura --aursync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Actualiza todos los paquetes del AUR en modo detallado y elimina todas las dependencias de construcción:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aura --aursync --diff --sysupgrade --delmakedeps --unsuppress</code></p>
+
+<ul>
+  <li>Instala un paquete desde los repositorios oficiales:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aura --sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Sincroniza y actualiza todos los paquetes desde los repositorios oficiales:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aura --sync --refresh --sysupgrade</code></p>
+
+<ul>
+  <li>Reemplaza un paquete con uno más antiguo usando la caché de paquetes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aura --downgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Elimina un paquete y sus dependencias:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aura --remove --recursive --unneeded </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Elimina paquetes huérfanos (instalados como dependencias pero no requeridos por ningún paquete):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aura --orphans --abandon</code></p>

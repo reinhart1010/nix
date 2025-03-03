@@ -1,0 +1,52 @@
+<h1 id="aptitude">aptitude</h1>
+
+<p>Debian 和 Ubuntu 上的软件包管理工具。
+更多信息：<a href="https://manned.org/aptitude.8">https://manned.org/aptitude.8</a>.</p>
+
+<ul>
+  <li>同步可用软件包及其版本列表，在运行后续 aptitude 命令前，应该首先运行该命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude update</code></p>
+
+<ul>
+  <li>安装一个新的软件包及其依赖：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">软件包</span></p>
+
+<ul>
+  <li>查找一个软件包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">软件包</span></p>
+
+<ul>
+  <li>查找一个已安装的软件包（<code class="language-plaintext highlighter-rouge">?installed</code> 是一个 aptitude 搜索项）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude search '?installed(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">软件包</span><code class="language-plaintext highlighter-rouge">)'</code></p>
+
+<ul>
+  <li>移除一个软件包并移除所有依赖它的软件包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">软件包</span></p>
+
+<ul>
+  <li>更新已安装软件包到最新版本：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude upgrade</code></p>
+
+<ul>
+  <li>更新已安装的软件包（类似于 <code class="language-plaintext highlighter-rouge">aptitude upgrade</code> 命令），移除过时的软件包并安装额外的软件包以满足新的软件包依赖项：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude full-upgrade</code></p>
+
+<ul>
+  <li>锁定一个已安装的软件包以便阻止它自动升级：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aptitude hold '?installed(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">软件包</span><code class="language-plaintext highlighter-rouge">)'</code></p>

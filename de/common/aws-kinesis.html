@@ -1,0 +1,40 @@
+<h1 id="aws-kinesis">aws kinesis</h1>
+
+<p>Offizielles AWS CLI für die Amazon Kinesis-Streaming-Datenplattform.
+Weitere Informationen: <a href="https://docs.aws.amazon.com/cli/latest/reference/kinesis/index.html#cli-aws-kinesis">https://docs.aws.amazon.com/cli/latest/reference/kinesis/index.html#cli-aws-kinesis</a>.</p>
+
+<ul>
+  <li>Liste alle Streams auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kinesis list-streams</code></p>
+
+<ul>
+  <li>Schreibe einen Datensatz in einen Kinesis Stream:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kinesis put-record --stream-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --partition-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">schlüssel</span><code class="language-plaintext highlighter-rouge"> --data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base64_codierte_nachricht</span></p>
+
+<ul>
+  <li>Schreibe einen Datensatz in einen Kinesis Stream mit base64 inline Encodierung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kinesis put-record --stream-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --partition-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">schlüssel</span><code class="language-plaintext highlighter-rouge"> --data "$( echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">meine nachricht</span><code class="language-plaintext highlighter-rouge">" | base64 )"</code></p>
+
+<ul>
+  <li>Liste alle verfügbaren Shards in einem Stream auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kinesis list-shards --stream-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Rufe einen Shard Iterators auf, um diesen beginnend mit der ältesten Nachricht auszulesen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kinesis get-shard-iterator --shard-iterator-type TRIM_HORIZON --stream-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --shard-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span></p>
+
+<ul>
+  <li>Lies einen Datensatz aus einem Shard über einen Shard Iterator:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws kinesis get-records --shard-iterator </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">iterator</span></p>

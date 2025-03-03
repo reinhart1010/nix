@@ -1,0 +1,46 @@
+<h1 id="dockutil">dockutil</h1>
+
+<p>Manage macOS dock items.
+More information: <a href="https://github.com/kcrawford/dockutil">https://github.com/kcrawford/dockutil</a>.</p>
+
+<ul>
+  <li>Add an application to the end of the current user's dock:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/application</span></p>
+
+<ul>
+  <li>Replace one application with another in the current user's dock:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/application</span><code class="language-plaintext highlighter-rouge"> --replacing '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dock_item_label</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Add a directory with view options and display it as a folder icon or stack:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/directory</span><code class="language-plaintext highlighter-rouge"> --view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grid|fan|list|auto</span><code class="language-plaintext highlighter-rouge"> --display </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">folder|stack</span></p>
+
+<ul>
+  <li>Add a URL dock item after another item:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vnc://example_server.local</span><code class="language-plaintext highlighter-rouge"> --label '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Example VNC</span><code class="language-plaintext highlighter-rouge">' --after </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dock_item_label</span></p>
+
+<ul>
+  <li>Remove an application from the dock given its dock label name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --remove '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dock_item_label</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Add a spacer in a section after an application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --add '' --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">spacer|small-spacer|flex-spacer</span><code class="language-plaintext highlighter-rouge"> --section </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apps</span><code class="language-plaintext highlighter-rouge"> --after </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dock_item_label</span></p>
+
+<ul>
+  <li>Remove all spacer tiles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dockutil --remove spacer-tiles</code></p>

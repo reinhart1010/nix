@@ -1,0 +1,29 @@
+<h1 id="git-cherry-pick">git cherry-pick</h1>
+
+<p>Appliquer les modifications introduites par les commits existants à la branche actuelle.
+Pour appliquer les changements a une autre branche, utiliser d'abord <code class="language-plaintext highlighter-rouge">git checkout</code> pour basculer sur la branche désirée.
+Plus d'informations : <a href="https://git-scm.com/docs/git-cherry-pick">https://git-scm.com/docs/git-cherry-pick</a>.</p>
+
+<ul>
+  <li>Applique un commit à la branche courante :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Appliquer une plage de commits à la branche courante (voir aussi <code class="language-plaintext highlighter-rouge">git rebase --onto</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start_commit</span><code class="language-plaintext highlighter-rouge">~..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">end_commit</span></p>
+
+<ul>
+  <li>Appliquer plusieurs commits non séquentiels à la branche courante :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_1 commit_2 …</span></p>
+
+<ul>
+  <li>Appliquer les changements d'un commit à la branche courante sans créer de commit :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick --no-commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>

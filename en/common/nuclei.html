@@ -1,0 +1,52 @@
+<h1 id="nuclei">nuclei</h1>
+
+<p>Fast and customizable vulnerability scanner based on a simple YAML based DSL.
+More information: <a href="https://docs.projectdiscovery.io/tools/nuclei/overview">https://docs.projectdiscovery.io/tools/nuclei/overview</a>.</p>
+
+<ul>
+  <li>[u]pdate <code class="language-plaintext highlighter-rouge">nuclei</code> [t]emplates to the latest released version (will be downloaded to <code class="language-plaintext highlighter-rouge">~/nuclei-templates</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nuclei -ut</code></p>
+
+<ul>
+  <li>[l]ist all [t]emplates with a specific [p]rotocol [t]ype:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nuclei -tl -pt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dns|file|http|headless|tcp|workflow|ssl|websocket|whois|code|javascript</span></p>
+
+<ul>
+  <li>Run an [a]utomatic web [s]can using wappalyzer technology detection specifying a target [u]RL/host to scan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nuclei -as -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scanme.nmap.org</span></p>
+
+<ul>
+  <li>Run HTTP [p]rotocol [t]ype templates of high and critical severity, [e]xporting results to [m]arkdown files inside a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nuclei -severity high,critical -pt http -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://scanme.sh</span><code class="language-plaintext highlighter-rouge"> -me </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">markdown_directory</span></p>
+
+<ul>
+  <li>Run all templates using a different [r]ate [l]imit and maximum [b]ulk [s]ize with silent output (only showing the findings):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nuclei -rl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">150</span><code class="language-plaintext highlighter-rouge"> -bs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">25</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">25</span><code class="language-plaintext highlighter-rouge"> -silent -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://scanme.sh</span></p>
+
+<ul>
+  <li>Run the WordPress [w]orkflow against a WordPress site:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nuclei -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/nuclei-templates/workflows/wordpress-workflow.yaml</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://sample.wordpress.site</span></p>
+
+<ul>
+  <li>Run one or more specific [t]emplates or directory with [t]emplates with [v]erbose output in <code class="language-plaintext highlighter-rouge">stderr</code> and [o]utput detected issues/vulnerabilities to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nuclei -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/nuclei-templates/http</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://scanme.sh</span><code class="language-plaintext highlighter-rouge"> -v -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">results</span></p>
+
+<ul>
+  <li>Run scan based on one or more [t]emplate [c]onditions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nuclei -tc "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contains(tags, 'xss') &amp;&amp; contains(tags, 'cve')</span><code class="language-plaintext highlighter-rouge">" -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://vulnerable.website</span></p>

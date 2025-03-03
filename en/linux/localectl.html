@@ -1,0 +1,34 @@
+<h1 id="localectl">localectl</h1>
+
+<p>Control the system locale and keyboard layout settings.
+More information: <a href="https://www.freedesktop.org/software/systemd/man/localectl.html">https://www.freedesktop.org/software/systemd/man/localectl.html</a>.</p>
+
+<ul>
+  <li>Show the current settings of the system locale and keyboard mapping:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">localectl</code></p>
+
+<ul>
+  <li>List available locales:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">localectl list-locales</code></p>
+
+<ul>
+  <li>Set a system locale variable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">localectl set-locale </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LANG</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">en_US.UTF-8</span></p>
+
+<ul>
+  <li>List available keymaps:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">localectl list-keymaps</code></p>
+
+<ul>
+  <li>Set the system keyboard mapping for the console and X11:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">localectl set-keymap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us</span></p>

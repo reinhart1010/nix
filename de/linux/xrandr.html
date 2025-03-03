@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="xrandr">xrandr</h1>
+
+<p>Setzt die Auflösung, Orientierung und/oder Reflektion eines Bildschirmausgangs.
+Weitere Informationen: <a href="https://www.x.org/releases/current/doc/man/man1/xrandr.1.xhtml">https://www.x.org/releases/current/doc/man/man1/xrandr.1.xhtml</a>.</p>
+
+<ul>
+  <li>Zeige den momentanen Systemzustand an (erkannte Bildschirme, Auflösungen, …):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xrandr --query</code></p>
+
+<ul>
+  <li>Deaktiviere nicht mehr verbundene Ausgangsgeräte und aktiviere verbundene Ausgänge mit Standardeinstellungen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xrandr --auto</code></p>
+
+<ul>
+  <li>Ändere die Auflösung und Bildfrequenz von DisplayPort 1 zu 1920x1080, 60Hz:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xrandr --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">DP1</span><code class="language-plaintext highlighter-rouge"> --mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1920x1080</span><code class="language-plaintext highlighter-rouge"> --rate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span></p>
+
+<ul>
+  <li>Setze die Auflösung von HDMI auf 1280x1024 und platziere HDMI1 rechts von DP1:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xrandr --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HDMI2</span><code class="language-plaintext highlighter-rouge"> --mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1280x1024</span><code class="language-plaintext highlighter-rouge"> --right-of </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">DP1</span></p>
+
+<ul>
+  <li>Deaktiviere den Ausgang von VGA1:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xrandr --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VGA1</span><code class="language-plaintext highlighter-rouge"> --off</code></p>
+
+<ul>
+  <li>Setze die Bildschirmhelligkeit von LVDS1 auf 50%:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xrandr --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LVDS1</span><code class="language-plaintext highlighter-rouge"> --brightness </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.5</span></p>

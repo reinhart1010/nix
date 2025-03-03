@@ -1,0 +1,47 @@
+<h1 id="sbctl">sbctl</h1>
+
+<p>A user-friendly secure boot key manager.
+Note: not enrolling Microsoft's certificates can brick your system. See <a href="https://github.com/Foxboron/sbctl/wiki/FAQ#option-rom">https://github.com/Foxboron/sbctl/wiki/FAQ#option-rom</a>.
+More information: <a href="https://github.com/Foxboron/sbctl#usage">https://github.com/Foxboron/sbctl#usage</a>.</p>
+
+<ul>
+  <li>Show the current secure boot status:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbctl status</code></p>
+
+<ul>
+  <li>Create custom secure boot keys (by default, everything is stored in <code class="language-plaintext highlighter-rouge">/var/lib/sbctl</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbctl create-keys</code></p>
+
+<ul>
+  <li>Enroll the custom secure boot keys and Microsoft's UEFI vendor certificates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbctl enroll-keys --microsoft</code></p>
+
+<ul>
+  <li>Automatically run <code class="language-plaintext highlighter-rouge">create-keys</code> and <code class="language-plaintext highlighter-rouge">enroll-keys</code> based on the settings in <code class="language-plaintext highlighter-rouge">/etc/sbctl/sbctl.conf</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbctl setup --setup</code></p>
+
+<ul>
+  <li>Sign an EFI binary with the created key and save the file to the database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbctl sign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-s|–save</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/efi_binary</span></p>
+
+<ul>
+  <li>Re-sign all the saved files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbctl sign-all</code></p>
+
+<ul>
+  <li>Verify that all EFI executables on the EFI system partition have been signed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sbctl verify</code></p>

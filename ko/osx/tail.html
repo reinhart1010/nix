@@ -1,0 +1,41 @@
+<h1 id="tail">tail</h1>
+
+<p>파일의 마지막 부분을 표시합니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">head</code>.
+더 많은 정보: <a href="https://keith.github.io/xcode-man-pages/tail.1.html">https://keith.github.io/xcode-man-pages/tail.1.html</a>.</p>
+
+<ul>
+  <li>파일에서 마지막 '개수' 줄을 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>특정 행 번호부터 파일 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -n +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>주어진 파일의 끝에서부터 특정 개수의 바이트 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>주어진 파일의 마지막 줄을 출력하고 <code class="language-plaintext highlighter-rouge">Ctrl + C</code>까지 계속 읽기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일이 접근 불가능해도 <code class="language-plaintext highlighter-rouge">Ctrl + C</code>까지 계속 읽기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>'파일'의 마지막 '개수' 줄을 표시하고 '초'마다 새로 고침:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

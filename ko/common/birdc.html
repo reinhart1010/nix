@@ -1,0 +1,53 @@
+<h1 id="birdc">birdc</h1>
+
+<p>BIRD 원격 제어.
+bird로부터 경로와 같은 정보를 검색하고 런타임 중에 구성을 수행.
+더 많은 정보: <a href="https://bird.network.cz/">https://bird.network.cz/</a>.</p>
+
+<ul>
+  <li>원격 제어 콘솔을 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc</code></p>
+
+<ul>
+  <li>BIRD를 다시 시작하지 않고 구성을 다시 로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc configure</code></p>
+
+<ul>
+  <li>BIRD의 현재 상태를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc show status</code></p>
+
+<ul>
+  <li>구성된 모든 프로토콜 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc show protocols</code></p>
+
+<ul>
+  <li>프로토콜에 대한 모든 세부정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc show protocols </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">upstream1</span><code class="language-plaintext highlighter-rouge"> all</code></p>
+
+<ul>
+  <li>특정 AS 번호를 포함하는 모든 경로 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc "show route where bgp_path ~ [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4242120045</span><code class="language-plaintext highlighter-rouge">]"</code></p>
+
+<ul>
+  <li>모든 최적 경로 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc show route primary</code></p>
+
+<ul>
+  <li>특정 접두사에서 모든 경로의 모든 세부 정보를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">birdc show route for </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fd00:/8</span><code class="language-plaintext highlighter-rouge"> all</code></p>

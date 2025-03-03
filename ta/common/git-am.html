@@ -1,0 +1,29 @@
+<h1 id="git-am">git am</h1>
+
+<p>பேட்ச் கோப்புகளைப் பயன்படுத்துங்கள். மின்னஞ்சல் வழியாக கமிட் பெறும்போது பயனுள்ளதாக இருக்கும்.
+பேட்ச் கோப்புகளை உருவாக்கக்கூடிய <code class="language-plaintext highlighter-rouge">git format-patch</code> கட்டளையை காண்க.
+மேலும் விவரத்திற்கு: <a href="https://git-scm.com/docs/git-am">https://git-scm.com/docs/git-am</a>.</p>
+
+<ul>
+  <li>பேட்ச் கோப்பைப் பயன்படுத்துங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git am </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.patch/பாதை</span></p>
+
+<ul>
+  <li>ரிமோட் பேட்ச் கோப்பைப் பின்பற்றி, மாற்றங்களைச் செய்யுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/file.patch</span><code class="language-plaintext highlighter-rouge"> | git apply</code></p>
+
+<ul>
+  <li>பேட்ச் கோப்பைப் பயன்படுத்துவதற்கான செயல்முறையை நிறுத்தவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git am --abort</code></p>
+
+<ul>
+  <li>கோப்புகளை நிராகரிக்க தோல்வியுற்ற ஹன்களை சேமித்து, முடிந்தவரை ஒரு பேட்ச் கோப்பைப் பயன்படுத்துங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git am --reject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.patch/பாதை</span></p>

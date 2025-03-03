@@ -1,0 +1,29 @@
+<h1 id="pdbedit">pdbedit</h1>
+
+<p>Edit the Samba user database.
+For simple user add/remove/password, you can also use <code class="language-plaintext highlighter-rouge">smbpasswd</code>.
+More information: <a href="https://manned.org/pdbedit">https://manned.org/pdbedit</a>.</p>
+
+<ul>
+  <li>List all Samba users (use verbose flag to show their settings):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pdbedit --list --verbose</code></p>
+
+<ul>
+  <li>Add an existing Unix user to Samba (will prompt for password):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pdbedit --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --create</code></p>
+
+<ul>
+  <li>Remove a Samba user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pdbedit --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --delete</code></p>
+
+<ul>
+  <li>Reset a Samba user's failed password counter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pdbedit --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --bad-password-count-reset</code></p>

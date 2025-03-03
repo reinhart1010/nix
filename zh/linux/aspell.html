@@ -1,0 +1,34 @@
+<h1 id="aspell">aspell</h1>
+
+<p>交互式拼写检查工具。
+更多信息：<a href="http://aspell.net/">http://aspell.net/</a>.</p>
+
+<ul>
+  <li>为一个文件做拼写检查：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aspell check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径</span></p>
+
+<ul>
+  <li>列出来自标准输入的拼写错误单词：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span><code class="language-plaintext highlighter-rouge"> | aspell list</code></p>
+
+<ul>
+  <li>列出可用的字典语言：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aspell dicts</code></p>
+
+<ul>
+  <li>指定不同的语言（取 ISO 639 语言代码的 2 个字母）来运行 <code class="language-plaintext highlighter-rouge">aspell</code>：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aspell --lang=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cs</span></p>
+
+<ul>
+  <li>列出来自标准输入的拼写错误单词，并且忽略个人单词列表中的单词：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span><code class="language-plaintext highlighter-rouge"> | aspell --personal=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">个人单词列表.pws</span><code class="language-plaintext highlighter-rouge"> list</code></p>

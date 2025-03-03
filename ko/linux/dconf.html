@@ -1,0 +1,41 @@
+<h1 id="dconf">dconf</h1>
+
+<p>dconf 데이터베이스 관리.
+같이 보기: <code class="language-plaintext highlighter-rouge">dconf-read</code>, <code class="language-plaintext highlighter-rouge">dconf-reset</code>, <code class="language-plaintext highlighter-rouge">dconf-write</code>, <code class="language-plaintext highlighter-rouge">gsettings</code>.
+더 많은 정보: <a href="https://manned.org/dconf">https://manned.org/dconf</a>.</p>
+
+<ul>
+  <li>특정 키 값을 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/키</span></p>
+
+<ul>
+  <li>특정 경로의 하위 디렉토리 및 하위 키를 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/폴더/</span></p>
+
+<ul>
+  <li>특정 키 값 쓰기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/키</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>특정 키 값 초기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf reset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/키</span></p>
+
+<ul>
+  <li>특정 키/디렉토리의 변경 사항 감시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf watch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/키|/경로/대상/폴더/</span></p>
+
+<ul>
+  <li>특정 디렉토리를 INI 파일 형식으로 덤프:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf dump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/폴더/</span></p>

@@ -1,0 +1,52 @@
+<h1 id="ftp">ftp</h1>
+
+<p>在本地和远程 FTP 服务器之间交互式传输文件。
+更多信息：<a href="https://learn.microsoft.com/windows-server/administration/windows-commands/ftp">https://learn.microsoft.com/windows-server/administration/windows-commands/ftp</a>.</p>
+
+<ul>
+  <li>交互式连接一个远程的 FTP 服务：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">主机名</span></p>
+
+<ul>
+  <li>匿名登录：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">主机名</span></p>
+
+<ul>
+  <li>初始连接时禁用自动登录：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">主机名</span></p>
+
+<ul>
+  <li>运行包含 FTP 命令列表的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp -s:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件的路径</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">主机名</span></p>
+
+<ul>
+  <li>下载多个文件（通配符表达式）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.png</span></p>
+
+<ul>
+  <li>上传多个文件（通配符表达式）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mput </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.zip</span></p>
+
+<ul>
+  <li>在远程服务器上删除多个文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mdelete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span></p>
+
+<ul>
+  <li>显示详细的帮助：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp --help</code></p>

@@ -1,0 +1,41 @@
+<h1 id="iptables">iptables</h1>
+
+<p>Configure tables, chains and rules of the Linux kernel IPv4 firewall.
+Use <code class="language-plaintext highlighter-rouge">ip6tables</code> to set rules for IPv6 traffic. See also: <code class="language-plaintext highlighter-rouge">iptables-save</code>, <code class="language-plaintext highlighter-rouge">iptables-restore</code>.
+More information: <a href="https://manned.org/iptables">https://manned.org/iptables</a>.</p>
+
+<ul>
+  <li>View chains, rules, packet/byte counters and line numbers for the filter table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables --verbose --numeric --list --line-numbers</code></p>
+
+<ul>
+  <li>Set chain [P]olicy rule:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables --policy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chain</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule</span></p>
+
+<ul>
+  <li>[A]ppend rule to chain policy for IP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables --append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chain</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge"> --jump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule</span></p>
+
+<ul>
+  <li>[A]ppend rule to chain policy for IP considering [p]rotocol and port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables --append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chain</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge"> --protocol </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp|udp|icmp|…</span><code class="language-plaintext highlighter-rouge"> --dport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> --jump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule</span></p>
+
+<ul>
+  <li>Add a NAT rule to translate all traffic from the <code class="language-plaintext highlighter-rouge">192.168.0.0/24</code> subnet to the host's public IP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables --table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nat</span><code class="language-plaintext highlighter-rouge"> --append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">POSTROUTING</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.0/24</span><code class="language-plaintext highlighter-rouge"> --jump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MASQUERADE</span></p>
+
+<ul>
+  <li>[D]elete chain rule:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chain</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_line_number</span></p>

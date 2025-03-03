@@ -1,0 +1,47 @@
+<h1 id="gsutil">gsutil</h1>
+
+<p>Access Google Cloud Storage.
+You can use <code class="language-plaintext highlighter-rouge">gsutil</code> to do a wide range of bucket and object management tasks.
+More information: <a href="https://cloud.google.com/storage/docs/gsutil">https://cloud.google.com/storage/docs/gsutil</a>.</p>
+
+<ul>
+  <li>List all buckets in a project you are logged into:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsutil ls</code></p>
+
+<ul>
+  <li>List the objects in a bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsutil ls -r 'gs://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span><code class="language-plaintext highlighter-rouge">**'</code></p>
+
+<ul>
+  <li>Download an object from a bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsutil cp gs://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">object_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/save_location</span></p>
+
+<ul>
+  <li>Upload an object to a bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsutil cp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">object_location</span><code class="language-plaintext highlighter-rouge"> gs://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination_bucket_name</span><code class="language-plaintext highlighter-rouge">/</code></p>
+
+<ul>
+  <li>Rename or move objects in a bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsutil mv gs://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_object_name</span><code class="language-plaintext highlighter-rouge"> gs://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_object_name</span></p>
+
+<ul>
+  <li>Create a new bucket in the project you are logged into:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsutil mb gs://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span></p>
+
+<ul>
+  <li>Delete a bucket and remove all the objects in it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gsutil rm -r gs://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span></p>

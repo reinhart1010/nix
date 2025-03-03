@@ -1,0 +1,41 @@
+<h1 id="autossh">autossh</h1>
+
+<p>Ejecuta, monitorea y reinicia conexiones SSH.
+Auto-reconecta para mantener los túneles de reenvío de puertos. Acepta todas las señales SSH.
+Más información: <a href="https://www.harding.motd.ca/autossh">https://www.harding.motd.ca/autossh</a>.</p>
+
+<ul>
+  <li>Inicia una sesión SSH, reiniciando cuando un puerto de monitoreo no retorna datos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto_monitor</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Reenvía un puerto local a uno remoto, reiniciando cuando sea necesario:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto_monitor</span><code class="language-plaintext highlighter-rouge"> -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto_local</span><code class="language-plaintext highlighter-rouge">:localhost:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto_remoto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Crea un proceso <code class="language-plaintext highlighter-rouge">autossh</code> en segundo plano antes de ejecutar SSH y no abre un shell remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -f -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto_monitor</span><code class="language-plaintext highlighter-rouge"> -N "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ejecuta en segundo plano, sin puerto de monitorización, y en su lugar envía paquetes SSH keep-alive cada 10 segundos para detectar fallos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ejecuta en segundo plano, sin puerto de monitorización y sin shell remoto, saliendo si falla el reenvío de puerto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" -o ExitOnForwardFailure=yes -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span><code class="language-plaintext highlighter-rouge">:localhost:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto_remoto</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>
+
+<ul>
+  <li>Se ejecuta en segundo plano, registrando la salida de depuración <code class="language-plaintext highlighter-rouge">autossh</code> y la salida detallada SSH en archivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">AUTOSSH_DEBUG=1 AUTOSSH_LOGFILE=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/autossh_log_file.log</span><code class="language-plaintext highlighter-rouge"> autossh -f -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto_monitor</span><code class="language-plaintext highlighter-rouge"> -v -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_ssh_log.log</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span></p>

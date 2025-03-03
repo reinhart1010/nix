@@ -1,0 +1,35 @@
+<h1 id="usermod">usermod</h1>
+
+<p>Wijzig een gebruikersaccount.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">users</code>, <code class="language-plaintext highlighter-rouge">useradd</code>, <code class="language-plaintext highlighter-rouge">userdel</code>.
+Meer informatie: <a href="https://manned.org/usermod">https://manned.org/usermod</a>.</p>
+
+<ul>
+  <li>Verander een gebruikersnaam:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo usermod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–login</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nieuwe_gebruikersnaam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>
+
+<ul>
+  <li>Verander een gebruikers-ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo usermod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-u|–uid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>
+
+<ul>
+  <li>Verander een gebruikersshell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo usermod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-s|–shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>
+
+<ul>
+  <li>Voeg een gebruiker toe aan aanvullende groepen (let op het ontbreken van spaties):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo usermod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–append</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-G|–groups</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groep1,groep2,…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>
+
+<ul>
+  <li>Verander een gebruikers thuismap:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo usermod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–move-home</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-d|–home</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/nieuwe_thuismap</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>

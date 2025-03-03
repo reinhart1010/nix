@@ -1,0 +1,52 @@
+<h1 id="git-push">git push</h1>
+
+<p>Надсилає коміти до віддаленого репозиторію.
+Більше інформації: <a href="https://git-scm.com/docs/git-push">https://git-scm.com/docs/git-push</a>.</p>
+
+<ul>
+  <li>Надіслати локальні зміни у поточній гілці до її типового віддаленого відповідника:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push</code></p>
+
+<ul>
+  <li>Надіслати зміни із вказаної локальної гілки до її віддаленого відповідника:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">назва_сховища</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">локальна_гілка</span></p>
+
+<ul>
+  <li>Надіслати зміни із вказаної локальної гілки до її віддаленого відповідника та встановити цю віддалену гілку як типову для дій надсилання і стягування:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">назва_сховища</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">локальна_гілка</span></p>
+
+<ul>
+  <li>Надіслати зміни із вказаної локальної гілки до вказаної віддаленої:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">назва_сховища</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">локальна_гілка</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">віддалена_гілка</span></p>
+
+<ul>
+  <li>Надіслати зміни з усіх локальних гілок до їх відповідників у вказаному віддаленому репозиторії:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">назва_сховища</span></p>
+
+<ul>
+  <li>Видалити гілку у віддаленому репозиторії:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">назва_сховища</span><code class="language-plaintext highlighter-rouge"> --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">віддалена_гілка</span></p>
+
+<ul>
+  <li>Видалити віддалену гілку, що не містить локального відповідника:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push --prune </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">назва_сховища</span></p>
+
+<ul>
+  <li>Надіслати мітки, що відсутні у віддаленому репозиторії:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push --tags</code></p>

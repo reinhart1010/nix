@@ -1,0 +1,53 @@
+<h1 id="git-rebase">git rebase</h1>
+
+<p>Rejoue les commits d'une branche par dessus une autre.
+Communément utilisé pour dupliquer les commits d'une branche dans une autre, en créant de nouveaux commits dans la branche de destination.
+Plus d'informations : <a href="https://git-scm.com/docs/git-rebase">https://git-scm.com/docs/git-rebase</a>.</p>
+
+<ul>
+  <li>Rejouer les commits de la branche courante sur la branche master :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">master</span></p>
+
+<ul>
+  <li>Rejouer les comits interactivement, ce qui permet aux commits d'être re-arrangés, exclus, combinés ou modifiés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–interactive</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branche_de_base_ou_commit</span></p>
+
+<ul>
+  <li>Continuer le re-jeu des commits après la résolution d'un conflit :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase --continue</code></p>
+
+<ul>
+  <li>Continuer le re-jeu des commits en sautant la résolution d'un conflit :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase --skip</code></p>
+
+<ul>
+  <li>Annule l'opération (ex : en cas de conflit) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase --abort</code></p>
+
+<ul>
+  <li>Déplacez une partie de la branche actuelle sur une nouvelle base, fournissant l'ancienne base à partir de laquelle commencer :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase --onto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_base</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_base</span></p>
+
+<ul>
+  <li>Rejoue les 5 derniers commits, ce qui permet aux commits d'être re-arrangés, exclus, combinés ou modifiés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–interactive</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~5</span></p>
+
+<ul>
+  <li>Résoudre automatiquement les conflits en précisant la version à conserver (<code class="language-plaintext highlighter-rouge">theirs</code> signifie la version des fichiers à privilégier) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rebase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-X|–strategy-option</span><code class="language-plaintext highlighter-rouge"> theirs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">master</span></p>

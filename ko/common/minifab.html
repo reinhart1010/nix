@@ -1,0 +1,52 @@
+<h1 id="minifab">minifab</h1>
+
+<p>Hyperledger Fabric 네트워크의 설정 및 배포를 자동화.
+더 많은 정보: <a href="https://github.com/hyperledger-labs/minifabric">https://github.com/hyperledger-labs/minifabric</a>.</p>
+
+<ul>
+  <li>기본 Hyperledger Fabric 네트워크 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab up -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">minifab_버전</span></p>
+
+<ul>
+  <li>Hyperledger Fabric 네트워크 중지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab down</code></p>
+
+<ul>
+  <li>지정된 채널에 체인코드 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab install -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">체인코드_이름</span></p>
+
+<ul>
+  <li>특정 버전의 체인코드를 채널에 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab install -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">체인코드_이름</span><code class="language-plaintext highlighter-rouge"> -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">체인코드_버전</span></p>
+
+<ul>
+  <li>설치/업그레이드 후 체인코드 초기화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab approve,commit,initialize,discover</code></p>
+
+<ul>
+  <li>지정된 인수로 체인코드 메서드 호출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab invoke -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">체인코드_이름</span><code class="language-plaintext highlighter-rouge"> -p '"</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">메서드_이름</span><code class="language-plaintext highlighter-rouge">", "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수1</span><code class="language-plaintext highlighter-rouge">", "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수2</span><code class="language-plaintext highlighter-rouge">", ...'</code></p>
+
+<ul>
+  <li>원장에 쿼리 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab blockquery </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">블록_번호</span></p>
+
+<ul>
+  <li>애플리케이션을 빠르게 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">minifab apprun -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">앱_프로그래밍_언어</span></p>

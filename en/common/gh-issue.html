@@ -1,0 +1,46 @@
+<h1 id="gh-issue">gh issue</h1>
+
+<p>Manage GitHub issues.
+More information: <a href="https://cli.github.com/manual/gh_issue">https://cli.github.com/manual/gh_issue</a>.</p>
+
+<ul>
+  <li>Display a specific issue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">issue_number</span></p>
+
+<ul>
+  <li>Display a specific issue in the default web browser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">issue_number</span><code class="language-plaintext highlighter-rouge"> --web</code></p>
+
+<ul>
+  <li>Create a new issue in the default web browser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue create --web</code></p>
+
+<ul>
+  <li>List the last 10 issues with the <code class="language-plaintext highlighter-rouge">bug</code> label:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue list --limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> --label "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bug</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>List closed issues made by a specific user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue list --state closed --author </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Display the status of issues relevant to the user, in a specific repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue status --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">owner</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span></p>
+
+<ul>
+  <li>Reopen a specific issue:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh issue reopen </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">issue_number</span></p>

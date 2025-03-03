@@ -1,0 +1,34 @@
+<h1 id="varnishlog">varnishlog</h1>
+
+<p>Varnish 로그 표시.
+더 많은 정보: <a href="https://varnish-cache.org/docs/trunk/reference/varnishlog.html">https://varnish-cache.org/docs/trunk/reference/varnishlog.html</a>.</p>
+
+<ul>
+  <li>실시간으로 로그 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">varnishlog</code></p>
+
+<ul>
+  <li>특정 도메인에 대한 요청만 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">varnishlog -q 'ReqHeader eq "Host: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge">"'</code></p>
+
+<ul>
+  <li>POST 요청만 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">varnishlog -q 'ReqMethod eq "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">POST</span><code class="language-plaintext highlighter-rouge">"'</code></p>
+
+<ul>
+  <li>특정 경로에 대한 요청만 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">varnishlog -q 'ReqURL eq "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로</span><code class="language-plaintext highlighter-rouge">"'</code></p>
+
+<ul>
+  <li>정규 표현식과 일치하는 경로에 대한 요청만 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">varnishlog -q 'ReqURL ~ "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">정규표현식</span><code class="language-plaintext highlighter-rouge">"'</code></p>

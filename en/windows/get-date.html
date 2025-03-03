@@ -1,0 +1,29 @@
+<h1 id="get-date">Get-Date</h1>
+
+<p>Get the current date and time.
+Note: This command can only be used through PowerShell.
+More information: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-date">https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-date</a>.</p>
+
+<ul>
+  <li>Display the current date and time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Date</code></p>
+
+<ul>
+  <li>Display the current date and time with a .NET format specifier:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Date -Format "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yyyy-MM-dd HH:mm:ss</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Display the current date and time in UTC and ISO 8601 format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">(Get-Date).ToUniversalTime()</code></p>
+
+<ul>
+  <li>Convert a Unix timestamp:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-Date -UnixTimeSeconds </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1577836800</span></p>

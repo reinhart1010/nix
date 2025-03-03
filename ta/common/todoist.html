@@ -1,0 +1,40 @@
+<h1 id="todoist">todoist</h1>
+
+<p>கட்டளை வரியிலிருந்து Todoist ஐ அணுகவும்.
+மேலும் விவரத்திற்கு: <a href="https://github.com/sachaos/todoist">https://github.com/sachaos/todoist</a>.</p>
+
+<ul>
+  <li>பணியைச் சேர்க்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பணி_பெயர்</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>லேபிள், திட்டம் மற்றும் நிலுவைத் தேதியுடன் அதிக முன்னுரிமை பணியைச் சேர்க்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பணி_பெயர்</span><code class="language-plaintext highlighter-rouge">" --priority </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> --label-ids "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">லேபிள்_ஐடி</span><code class="language-plaintext highlighter-rouge">" --project-name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">திட்டத்தின்_பெயர்</span><code class="language-plaintext highlighter-rouge">" --date "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நாளை காலை 9 மணி</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Aவிரைவு பயன்முறையில் லேபிள், திட்டப்பணி மற்றும் நிலுவைத் தேதியுடன் அதிக முன்னுரிமைப் பணியைச் சேர்க்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist quick '#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">திட்டத்தின்_பெயர்</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நாளை காலை 9 மணி</span><code class="language-plaintext highlighter-rouge">" p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பணி_பெயர்</span><code class="language-plaintext highlighter-rouge"> @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">லேபிள்_பெயர்</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>தலைப்பு மற்றும் வண்ணத்துடன் அனைத்து பணிகளையும் பட்டியலிடுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist --header --color list</code></p>
+
+<ul>
+  <li>அனைத்து உயர் முன்னுரிமைப் பணிகளையும் பட்டியலிடுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist list --filter p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>குறிப்பிடப்பட்ட லேபிளைக் கொண்ட இன்றைய பணிகளை அதிக முன்னுரிமையுடன் பட்டியலிடுங்கள்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist list --filter '(@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">லேபிள்_பெயர்</span><code class="language-plaintext highlighter-rouge"> | </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">இன்று</span><code class="language-plaintext highlighter-rouge">) &amp; p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge">'</code></p>

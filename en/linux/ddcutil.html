@@ -1,0 +1,29 @@
+<h1 id="ddcutil">ddcutil</h1>
+
+<p>Control the settings of connected displays via DDC/CI.
+This command requires the kernel module <code class="language-plaintext highlighter-rouge">i2c-dev</code> to be loaded. See also: <code class="language-plaintext highlighter-rouge">modprobe</code>.
+More information: <a href="https://www.ddcutil.com">https://www.ddcutil.com</a>.</p>
+
+<ul>
+  <li>List all compatible displays:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ddcutil detect</code></p>
+
+<ul>
+  <li>Change the brightness (option 0x10) of display 1 to 50%:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ddcutil --display </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> setvcp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span></p>
+
+<ul>
+  <li>Increase the contrast (option 0x12) of display 1 by 5%:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ddcutil -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> setvcp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">12</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>Read the settings of display 1:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ddcutil -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> getvcp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ALL</span></p>

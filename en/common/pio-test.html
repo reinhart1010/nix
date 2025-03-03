@@ -1,0 +1,40 @@
+<h1 id="pio-test">pio test</h1>
+
+<p>Run local tests on a PlatformIO project.
+More information: <a href="https://docs.platformio.org/en/latest/core/userguide/cmd_test.html">https://docs.platformio.org/en/latest/core/userguide/cmd_test.html</a>.</p>
+
+<ul>
+  <li>Run all tests in all environments of the current PlatformIO project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio test</code></p>
+
+<ul>
+  <li>Test only specific environments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio test --environment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment1</span><code class="language-plaintext highlighter-rouge"> --environment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment2</span></p>
+
+<ul>
+  <li>Run only tests whose name matches a specific glob pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio test --filter "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ignore tests whose name matches a specific glob pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio test --ignore "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Specify a port for firmware uploading:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio test --upload-port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">upload_port</span></p>
+
+<ul>
+  <li>Specify a custom configuration file for running the tests:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio test --project-conf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/platformio.ini</span></p>

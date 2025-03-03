@@ -1,0 +1,22 @@
+<h1 id="pdfseparate">pdfseparate</h1>
+
+<p>Extrahiere die Seiten einer Portable Document Format (PDF) Datei.
+Weitere Informationen: <a href="https://manpages.debian.org/latest/poppler-utils/pdfseparate.1.en.html">https://manpages.debian.org/latest/poppler-utils/pdfseparate.1.en.html</a>.</p>
+
+<ul>
+  <li>Extrahiere die Seiten einer PDF Datei und speichere jede Seite als neue PDF Datei ab:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfseparate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/zieldatei-%d.pdf</span></p>
+
+<ul>
+  <li>Gib die erste Seite zum Extrahieren an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfseparate -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/zieldatei-%d.pdf</span></p>
+
+<ul>
+  <li>Gib die letzte Seite zum Extrahieren an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfseparate -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/zieldatei-%d.pdf</span></p>

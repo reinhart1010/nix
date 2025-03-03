@@ -1,0 +1,52 @@
+<h1 id="git-bundle">git bundle</h1>
+
+<p>Empaqueta objetos y referencias en un archivo.
+Más información: <a href="https://git-scm.com/docs/git-bundle">https://git-scm.com/docs/git-bundle</a>.</p>
+
+<ul>
+  <li>Crea un archivo bundle que contiene todos los objetos y referencias de una rama específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.bundle</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_rama</span></p>
+
+<ul>
+  <li>Crea un archivo bundle de todas las ramas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.bundle</span><code class="language-plaintext highlighter-rouge"> --all</code></p>
+
+<ul>
+  <li>Crea un archivo bundle de los últimos 5 commits de la rama actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.bundle</span><code class="language-plaintext highlighter-rouge"> -5 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>Crea un archivo bundle de los últimos 7 días:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.bundle</span><code class="language-plaintext highlighter-rouge"> --since 7.days </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>Verifica que un archivo bundle es válido y puede aplicarse al repositorio actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.bundle</span></p>
+
+<ul>
+  <li>Imprime en <code class="language-plaintext highlighter-rouge">stdout</code> la lista de referencias contenidas en un bundle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bundle unbundle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.bundle</span></p>
+
+<ul>
+  <li>Desagrupa una rama específica de un archivo bundle en el repositorio actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.bundle</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_rama</span></p>
+
+<ul>
+  <li>Crea un nuevo repositorio a partir de un paquete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.bundle</span></p>

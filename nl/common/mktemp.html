@@ -1,0 +1,34 @@
+<h1 id="mktemp">mktemp</h1>
+
+<p>Maak een tijdelijk bestand of een tijdelijke map aan.
+Meer informatie: <a href="https://man.openbsd.org/mktemp.1">https://man.openbsd.org/mktemp.1</a>.</p>
+
+<ul>
+  <li>Maak een leeg tijdelijk bestand en toon het absolute pad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp</code></p>
+
+<ul>
+  <li>Gebruik een aangepaste map als <code class="language-plaintext highlighter-rouge">$TMPDIR</code> niet is ingesteld (de standaard is platformafhankelijk, maar meestal <code class="language-plaintext highlighter-rouge">/tmp</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/pad/naar/tempdir</span></p>
+
+<ul>
+  <li>Gebruik een aangepast pad-sjabloon (<code class="language-plaintext highlighter-rouge">X</code>en worden vervangen door willekeurige alfanumerieke tekens):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/tmp/voorbeeld.XXXXXXXX</span></p>
+
+<ul>
+  <li>Gebruik een aangepast bestandsnaam-sjabloon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">voorbeeld.XXXXXXXX</span></p>
+
+<ul>
+  <li>Maak een lege tijdelijke map aan en toon het absolute pad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp -d</code></p>

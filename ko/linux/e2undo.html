@@ -1,0 +1,35 @@
+<h1 id="e2undo">e2undo</h1>
+
+<p>ext2/ext3/ext4 파일 시스템에 대한 undo 로그 재생.
+e2fsprogs 프로그램의 실패한 작업을 취소하는 데 사용할 수 있습니다.
+더 많은 정보: <a href="https://manned.org/e2undo">https://manned.org/e2undo</a>.</p>
+
+<ul>
+  <li>특정 undo 파일에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">e2undo -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/undo_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>드라이런을 수행하고 재생할 후보 블록 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">e2undo -nv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/undo_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>undo 작업 수행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">e2undo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/undo_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>undo 작업 수행 및 자세한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">e2undo -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/undo_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>파일 시스템 블록을 덮어쓰기에 앞서 블록의 이전 내용을 undo 파일에 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">e2undo -z </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/file.e2undo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/undo_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>

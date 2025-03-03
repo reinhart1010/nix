@@ -1,0 +1,52 @@
+<h1 id="zig">zig</h1>
+
+<p>El compilador Zig y la cadena de herramientas.
+Más información: <a href="https://ziglang.org">https://ziglang.org</a>.</p>
+
+<ul>
+  <li>Compila el proyecto en el directorio actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zig build</code></p>
+
+<ul>
+  <li>Compila y ejecuta el proyecto en el directorio actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zig build run</code></p>
+
+<ul>
+  <li>Inicializa un proyecto <code class="language-plaintext highlighter-rouge">zig build</code> con biblioteca y ejecutable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zig init</code></p>
+
+<ul>
+  <li>Crea y ejecuta una compilación de pruebas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zig test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.zig</span></p>
+
+<ul>
+  <li>Hace compilación cruzada, arma y ejecuta un proyecto para la arquitectura <code class="language-plaintext highlighter-rouge">x86_64</code> y el sistema operativo <code class="language-plaintext highlighter-rouge">windows</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zig build run -fwine -Dtarget=x86_64-windows</code></p>
+
+<ul>
+  <li>Reformatea código fuente Zig en forma canónica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zig fmt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.zig</span></p>
+
+<ul>
+  <li>Traduce un archivo C a <code class="language-plaintext highlighter-rouge">zig</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zig translate-c -lc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.c</span></p>
+
+<ul>
+  <li>Usa Zig como compilador de C++:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zig c++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.cpp</span></p>

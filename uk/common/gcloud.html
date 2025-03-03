@@ -1,0 +1,53 @@
+<h1 id="gcloud">gcloud</h1>
+
+<p>Офіційний CLI інструмент для Google Cloud Platform.
+Примітка: підкоманди <code class="language-plaintext highlighter-rouge">gcloud</code> мають власну документацію щодо використання.
+Більше інформації: <a href="https://cloud.google.com/sdk/gcloud">https://cloud.google.com/sdk/gcloud</a>.</p>
+
+<ul>
+  <li>Вивести всі властивості в активній конфігурації:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud config list</code></p>
+
+<ul>
+  <li>Увійти в обліковий запис Google:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud auth login</code></p>
+
+<ul>
+  <li>Встановити активний проект:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud config set project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">назва_проекту</span></p>
+
+<ul>
+  <li>SSH в екземпляр віртуальної машини:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud compute ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">користувач</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">екземпляр</span></p>
+
+<ul>
+  <li>Вивести всі екземпляри Google Compute Engine у проекті (за замовчуванням виводяться екземпляри з усіх зон):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud compute instances list</code></p>
+
+<ul>
+  <li>Оновити файл kubeconfig відповідними обліковими даними, щоб вказати <code class="language-plaintext highlighter-rouge">kubectl</code> на певний кластер у Google Kubernetes Engine (GKE):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud container clusters get-credentials </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">назва_кластера</span></p>
+
+<ul>
+  <li>Оновити усі компоненти <code class="language-plaintext highlighter-rouge">gcloud</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud components update</code></p>
+
+<ul>
+  <li>Вивести довідки для заданої команди:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud help </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">команда</span></p>

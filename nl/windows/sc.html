@@ -1,0 +1,28 @@
+<h1 id="sc">sc</h1>
+
+<p>Communiceer met de Service Control Manager en services.
+Meer informatie: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/sc-query">https://learn.microsoft.com/windows-server/administration/windows-commands/sc-query</a>.</p>
+
+<ul>
+  <li>Toon de status van een service (geen service naam zal alle services tonen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc.exe query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_naam</span></p>
+
+<ul>
+  <li>Start een service asynchroon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc.exe create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_naam</span><code class="language-plaintext highlighter-rouge"> binpath= </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\service_binary_bestand</span></p>
+
+<ul>
+  <li>Stop een service asynchroon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc.exe delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_naam</span></p>
+
+<ul>
+  <li>Zet het type van een service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sc.exe config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_naam</span><code class="language-plaintext highlighter-rouge"> type= </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_type</span></p>

@@ -1,0 +1,47 @@
+<h1 id="chpass">chpass</h1>
+
+<p>Dodaj lub zmień informacje w bazie danych użytkowników, w tym powłokę logowania i hasło.
+Zobacz także: <code class="language-plaintext highlighter-rouge">passwd</code>.
+Więcej informacji: <a href="https://man.freebsd.org/cgi/man.cgi?chpass">https://man.freebsd.org/cgi/man.cgi?chpass</a>.</p>
+
+<ul>
+  <li>Dodaj lub zmień informacje w bazie danych użytkowników dla bieżącego użytkownika w sposób interaktywny:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c chpass</code></p>
+
+<ul>
+  <li>Ustaw określoną powłokę (z ang. [s]hell) logowania dla bieżącego użytkownika:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/powłoki</span></p>
+
+<ul>
+  <li>Ustaw powłokę (z ang. [s]hell) logowania dla określonego użytkownika:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/powłoki</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span></p>
+
+<ul>
+  <li>Zmień czas wygaśnięcia (z ang. [e]xpire) konta (w sekundach od daty początku epoki, UTC):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">czas</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Zmień hasło użytkownika:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zaszyfrowane_hasło</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Określ nazwę [h]osta lub adres serwera NIS do zapytania:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_hosta</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Określ konkretną [d]omenę NIS (domyślnie nazwa domeny systemowej):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span><code class="language-plaintext highlighter-rouge">'</code></p>

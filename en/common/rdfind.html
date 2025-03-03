@@ -1,0 +1,28 @@
+<h1 id="rdfind">rdfind</h1>
+
+<p>Find files with duplicate content and get rid of them.
+More information: <a href="https://rdfind.pauldreik.se">https://rdfind.pauldreik.se</a>.</p>
+
+<ul>
+  <li>Identify all duplicates in a given directory and output a summary:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdfind -dryrun true </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Replace all duplicates with hardlinks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdfind -makehardlinks true </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Replace all duplicates with symlinks/soft links:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdfind -makesymlinks true </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Delete all duplicates and do not ignore empty files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdfind -deleteduplicates true -ignoreempty false </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

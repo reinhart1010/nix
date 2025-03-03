@@ -1,0 +1,16 @@
+<h1 id="xdg-user-dirs-update">xdg-user-dirs-update</h1>
+
+<p>Update XDG user directories.
+More information: <a href="https://manned.org/xdg-user-dirs-update">https://manned.org/xdg-user-dirs-update</a>.</p>
+
+<ul>
+  <li>Change XDG's DESKTOP directory to the specified directory (must be absolute):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdg-user-dirs-update --set DESKTOP "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Write the result to the specified dry-run-file instead of the <code class="language-plaintext highlighter-rouge">user-dirs.dirs</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xdg-user-dirs-update --dummy-output "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/dry_run_file</span><code class="language-plaintext highlighter-rouge">" --set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xdg_user_directory</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge">"</code></p>

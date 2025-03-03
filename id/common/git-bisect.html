@@ -1,0 +1,35 @@
+<h1 id="git-bisect">git bisect</h1>
+
+<p>Lakukan strategi pencarian/pembelahan biner untuk mencari komit yang menyebabkan masalah/bug.
+Git akan secara otomatis melompat bolak-balik dalam grafik komit untuk semakin mempersempit kandidat komit yang bermasalah.
+Informasi lebih lanjut: <a href="https://git-scm.com/docs/git-bisect">https://git-scm.com/docs/git-bisect</a>.</p>
+
+<ul>
+  <li>Jalankan sesi pembelahan biner pada suatu rentang komit antara komit bermasalah dan komit (biasanya terdahulu) yang diketahui tak bermasalah:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komit_bermasalah</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komit_baik</span></p>
+
+<ul>
+  <li>Untuk setiap komit yang dipilih oleh <code class="language-plaintext highlighter-rouge">git bisect</code>, tandai komit tersebut sebagai baik (good) atau buruk (bad) setelah mencobanya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">good|bad</span></p>
+
+<ul>
+  <li>Setelah <code class="language-plaintext highlighter-rouge">git bisect</code> berhasil menemukan komit yang bermasalah, akhiri sesi pembelahan dan kembali kepada cabang sebelumnya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect reset</code></p>
+
+<ul>
+  <li>Lewati pengecekan suatu komit saat proses pembelahan berlangsung (misal: karena terdapat masalah yang disebabkan oleh faktor lain):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect skip</code></p>
+
+<ul>
+  <li>Tampilkan log tentang kemajuan proses pembelahan saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect log</code></p>

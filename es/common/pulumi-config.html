@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="pulumi-config">pulumi config</h1>
+
+<p>Administra la configuración de una pila Pulumi.
+Más información: <a href="https://www.pulumi.com/docs/iac/cli/commands/pulumi_config/">https://www.pulumi.com/docs/iac/cli/commands/pulumi_config/</a>.</p>
+
+<ul>
+  <li>Muestra la configuración actual en formato JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi config --json</code></p>
+
+<ul>
+  <li>Obtiene el valor de una clave de configuración:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi config get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave</span></p>
+
+<ul>
+  <li>Elimina un valor de configuración:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi config rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave</span></p>
+
+<ul>
+  <li>Establece un valor para una clave de configuración desde un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span><code class="language-plaintext highlighter-rouge"> | pulumi config set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave</span></p>
+
+<ul>
+  <li>Establece un valor secreto (por ejemplo, la clave API) para una clave de configuración y almacena/muestra como texto cifrado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi config set --secret </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor_53cr3t0</span></p>
+
+<ul>
+  <li>Elimina varios valores de configuración de un archivo de configuración especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi config --config-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span><code class="language-plaintext highlighter-rouge"> rm-all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">clave1 clave2 …</span></p>

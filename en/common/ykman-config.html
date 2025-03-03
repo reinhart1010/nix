@@ -1,0 +1,23 @@
+<h1 id="ykman-config">ykman config</h1>
+
+<p>Enable or disable YubiKey applications.
+Note: you can use <code class="language-plaintext highlighter-rouge">ykman info</code> to see currently enabled applications.
+More information: <a href="https://docs.yubico.com/software/yubikey/tools/ykman/Base_Commands.html#ykman-config-options-command-args">https://docs.yubico.com/software/yubikey/tools/ykman/Base_Commands.html#ykman-config-options-command-args</a>.</p>
+
+<ul>
+  <li>Enable an application over USB or NFC (<code class="language-plaintext highlighter-rouge">--enable</code> can be used multiple times to specify more applications):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usb|nfc</span><code class="language-plaintext highlighter-rouge"> --enable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">otp|u2f|fido2|oath|piv|openpgp|hsmauth</span></p>
+
+<ul>
+  <li>Disable an application over USB or NFC (<code class="language-plaintext highlighter-rouge">--disable</code> can be used multiple times to specify more applications):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usb|nfc</span><code class="language-plaintext highlighter-rouge"> --disable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">otp|u2f|fido2|oath|piv|openpgp|hsmauth</span></p>
+
+<ul>
+  <li>Disable all applications over NFC:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman config nfc --disable-all</code></p>

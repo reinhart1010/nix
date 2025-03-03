@@ -1,0 +1,47 @@
+<h1 id="pvs">pvs</h1>
+
+<p>물리 볼륨에 대한 정보를 표시합니다.
+같이 보기: <code class="language-plaintext highlighter-rouge">lvm</code>.
+더 많은 정보: <a href="https://manned.org/pvs">https://manned.org/pvs</a>.</p>
+
+<ul>
+  <li>물리 볼륨에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvs</code></p>
+
+<ul>
+  <li>비물리적 볼륨 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvs -a</code></p>
+
+<ul>
+  <li>기본 표시를 자세히 보여주도록 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvs -v</code></p>
+
+<ul>
+  <li>특정 필드만 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvs -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">필드_이름_1</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">필드_이름_2</span></p>
+
+<ul>
+  <li>기본 표시에 필드를 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvs -o +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">필드_이름</span></p>
+
+<ul>
+  <li>헤딩 행 생략:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvs --noheadings</code></p>
+
+<ul>
+  <li>필드 구분자 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvs --separator </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">특수_문자</span></p>

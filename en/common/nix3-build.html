@@ -1,0 +1,29 @@
+<h1 id="nix-build">nix build</h1>
+
+<p>Build a Nix expression (downloading from the cache when possible).
+See also: <code class="language-plaintext highlighter-rouge">nix-build</code> for information about traditional Nix builds from expressions, <code class="language-plaintext highlighter-rouge">nix3 flake</code> for information about flakes.
+More information: <a href="https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-build.html">https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-build.html</a>.</p>
+
+<ul>
+  <li>Build a package from nixpkgs, symlinking the result to <code class="language-plaintext highlighter-rouge">./result</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nixpkgs#pkg</span></p>
+
+<ul>
+  <li>Build a package from a flake in the current directory, showing the build logs in the process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix build -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.#pkg</span></p>
+
+<ul>
+  <li>Build the default package from a flake in some directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./path/to/directory</span></p>
+
+<ul>
+  <li>Build a package without making the <code class="language-plaintext highlighter-rouge">result</code> symlink, instead printing the store path to the <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix build --no-link --print-out-paths</code></p>

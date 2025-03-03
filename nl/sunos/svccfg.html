@@ -1,0 +1,22 @@
+<h1 id="svccfg">svccfg</h1>
+
+<p>Importeer, exporteer, en wijzig service configurations.
+Meer informatie: <a href="https://www.unix.com/man-page/linux/1m/svccfg">https://www.unix.com/man-page/linux/1m/svccfg</a>.</p>
+
+<ul>
+  <li>Validatie van een configuratie bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svccfg validate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smf.xml</span></p>
+
+<ul>
+  <li>Exporteer de configuratie van een service naar een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svccfg export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servicename</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smf.xml</span></p>
+
+<ul>
+  <li>Update de service configuratie aan de hand van een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svccfg import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smf.xml</span></p>

@@ -1,0 +1,40 @@
+<h1 id="pacdiff">pacdiff</h1>
+
+<p>Utilitário de manutenção para arquivos <code class="language-plaintext highlighter-rouge">.pacorig</code>, <code class="language-plaintext highlighter-rouge">.pacnew</code> e <code class="language-plaintext highlighter-rouge">.pacsave</code> criados pelo <code class="language-plaintext highlighter-rouge">pacman</code>.
+Mais informações: <a href="https://manned.org/pacdiff">https://manned.org/pacdiff</a>.</p>
+
+<ul>
+  <li>Reveja arquivos que precisam manutenção em modo interativo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacdiff</code></p>
+
+<ul>
+  <li>Usa sudo e sudoedit para remover e mesclar arquivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacdiff --sudo</code></p>
+
+<ul>
+  <li>Reveja arquivos precisando de manutenção, criando <code class="language-plaintext highlighter-rouge">.bak</code>ups do original se você <code class="language-plaintext highlighter-rouge">s(O)brescrever</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacdiff --sudo --backup</code></p>
+
+<ul>
+  <li>Usa um editor específico para ver e mesclar arquivos de configuração (o padrão é <code class="language-plaintext highlighter-rouge">vim -d</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">DIFFPROG=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">editor</span><code class="language-plaintext highlighter-rouge"> pacdiff</code></p>
+
+<ul>
+  <li>Procura arquivos de configuração com <code class="language-plaintext highlighter-rouge">locate</code> ao invés de usar o banco de dados do <code class="language-plaintext highlighter-rouge">pacman</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacdiff --locate</code></p>
+
+<ul>
+  <li>Exibe ajuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacdiff --help</code></p>

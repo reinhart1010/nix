@@ -1,0 +1,44 @@
+<h1 id="nsenter">nsenter</h1>
+
+<p>Ejecuta un nuevo comando en el espacio de nombres de un proceso en ejecución.
+Particularmente útil para imágenes Docker o jaulas chroot.
+Más información: <a href="https://manned.org/nsenter">https://manned.org/nsenter</a>.</p>
+
+<ul>
+  <li>Ejecuta un comando específico utilizando los mismos espacios de nombres como un proceso existente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nsenter --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumentos_del_comando</span></p>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Ejecuta un comando específico en el espacio de nombres mount</td>
+          <td>UTS</td>
+          <td>IPC</td>
+          <td>network</td>
+          <td>PID</td>
+          <td>user</td>
+          <td>cgroup</td>
+          <td>time de un proceso existente:</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nsenter --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mount|uts|ipc|net|pid|user|cgroup</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumentos_del_comando</span></p>
+
+<ul>
+  <li>Ejecuta un comando específico en los espacios de nombres UTS, time e IPC de un proceso existente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nsenter --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> --uts --time --ipc -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumentos_del_comando</span></p>
+
+<ul>
+  <li>Ejecuta un comando específico en el espacio de nombres de un proceso existente haciendo referencia a procfs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nsenter --pid=/proc/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge">/pid/net -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumentos_del_comando</span></p>

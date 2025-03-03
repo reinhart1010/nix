@@ -1,0 +1,29 @@
+<h1 id="az-storage-account">az storage account</h1>
+
+<p>Manage storage accounts in Azure.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/storage/account">https://learn.microsoft.com/cli/azure/storage/account</a>.</p>
+
+<ul>
+  <li>Create an storage account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage account create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">azure_resource_group</span><code class="language-plaintext highlighter-rouge"> --location </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">azure_location</span><code class="language-plaintext highlighter-rouge"> --sku </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_sku</span></p>
+
+<ul>
+  <li>Generate a shared access signature for a specific storage account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage account generate-sas --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">account_name</span><code class="language-plaintext highlighter-rouge"> --permissions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sas_permissions</span><code class="language-plaintext highlighter-rouge"> --expiry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expiry_date</span><code class="language-plaintext highlighter-rouge"> --services </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_services</span><code class="language-plaintext highlighter-rouge"> --resource-types </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_types</span></p>
+
+<ul>
+  <li>List storage accounts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage account list --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">azure_resource_group</span></p>
+
+<ul>
+  <li>Delete a specific storage account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage account delete --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">azure_resource_group</span></p>

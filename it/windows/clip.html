@@ -1,0 +1,28 @@
+<h1 id="clip">clip</h1>
+
+<p>Copia il contenuto di input negli Appunti di Windows.
+Maggiori informazioni: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/clip">https://learn.microsoft.com/windows-server/administration/windows-commands/clip</a>.</p>
+
+<ul>
+  <li>Manda l'output della riga di comando negli Appunti di Windows:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dir</span><code class="language-plaintext highlighter-rouge"> | clip</code></p>
+
+<ul>
+  <li>Copia i contenuti di un file negli appunti di Windows:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clip &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso\per\file.ext</span></p>
+
+<ul>
+  <li>Copia il testo con una nuova riga finale negli appunti di Windows:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">testo_generico</span><code class="language-plaintext highlighter-rouge"> | clip</code></p>
+
+<ul>
+  <li>Copia il testo senza una nuova riga finale negli appunti di Windows:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo | set /p="testo_generico" | clip</code></p>

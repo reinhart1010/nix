@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-blame">git blame</h1>
+
+<p>파일의 각 줄에 커밋 해시와 마지막 작성자를 표시.
+더 많은 정보: <a href="https://git-scm.com/docs/git-blame">https://git-scm.com/docs/git-blame</a>.</p>
+
+<ul>
+  <li>각 줄에 작성자 이름과 커밋 해시를 표시하여 파일 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git blame </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>각 줄에 작성자 이메일과 커밋 해시를 표시하여 파일 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git blame </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|–show-email</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>특정 커밋에서 각 줄에 작성자 이름과 커밋 해시를 표시하여 파일 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git blame </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>특정 커밋 이전의 각 줄에 작성자 이름과 커밋 해시를 표시하여 파일 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git blame </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋</span><code class="language-plaintext highlighter-rouge">~ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

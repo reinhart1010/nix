@@ -1,0 +1,28 @@
+<h1 id="mmv">mmv</h1>
+
+<p>파일을 대량으로 이동 및 이름 변경.
+더 많은 정보: <a href="https://manned.org/mmv.1">https://manned.org/mmv.1</a>.</p>
+
+<ul>
+  <li>특정 확장자를 가진 모든 파일의 확장자 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmv "*</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.old_extension</span><code class="language-plaintext highlighter-rouge">" "#1</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.new_extension</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">report6part4.txt</code>를 <code class="language-plaintext highlighter-rouge">./french/rapport6partie4.txt</code>로 복사하고, 유사한 이름을 가진 모든 파일도 함께 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmv -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">report<em>part</em>.txt</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./french/rapport#1partie#2.txt</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>모든 <code class="language-plaintext highlighter-rouge">.txt</code> 파일을 하나의 파일로 합치기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmv -a "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모두.txt</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>파일 이름의 날짜 형식을 "M-D-Y"에서 "D-M-Y"로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mmv "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[0-1][0-9]-[0-3][0-9]-[0-9][0-9][0-9][0-9].txt</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">#3#4-#1#2-#5#6#7#8.txt</span><code class="language-plaintext highlighter-rouge">"</code></p>

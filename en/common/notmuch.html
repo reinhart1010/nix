@@ -1,0 +1,46 @@
+<h1 id="notmuch">notmuch</h1>
+
+<p>Command-line based program for indexing, searching, reading, and tagging large collections of email messages.
+More information: <a href="https://notmuchmail.org/manpages/">https://notmuchmail.org/manpages/</a>.</p>
+
+<ul>
+  <li>Configure for first use:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">notmuch setup</code></p>
+
+<ul>
+  <li>Add a tag for all messages matching a search term:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">notmuch tag +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">custom_tag</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_term</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Remove a tag for all messages matching a search term:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">notmuch tag -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">custom_tag</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_term</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Count messages matching the given search term:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">notmuch count --output=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">messages|threads</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_term</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Search for messages matching the given search term:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">notmuch search --format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|text</span><code class="language-plaintext highlighter-rouge"> --output=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">summary|threads|messages|files|tags</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_term</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Limit the number of search results to X:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">notmuch search --format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|text</span><code class="language-plaintext highlighter-rouge"> --output=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">summary|threads|messages|files|tags</span><code class="language-plaintext highlighter-rouge"> --limit=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">X</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_term</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Create a reply template for a set of messages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">notmuch reply --format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">default|headers-only</span><code class="language-plaintext highlighter-rouge"> --reply-to=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sender|all</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_term</span><code class="language-plaintext highlighter-rouge">"</code></p>

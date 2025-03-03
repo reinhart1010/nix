@@ -1,0 +1,40 @@
+<h1 id="bspc">bspc</h1>
+
+<p>Een tool om <code class="language-plaintext highlighter-rouge">bspwm</code> te besturen.
+Meer informatie: <a href="https://github.com/baskerville/bspwm">https://github.com/baskerville/bspwm</a>.</p>
+
+<ul>
+  <li>Definieer twee virtuele bureaubladen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc monitor --reset-desktops </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span></p>
+
+<ul>
+  <li>Focus op het gegeven bureaublad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc desktop --focus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nummer</span></p>
+
+<ul>
+  <li>Sluit de vensters die afgetakt zijn van de geselecteerde node:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc node --close</code></p>
+
+<ul>
+  <li>Stuur de geselecteerde node naar het opgegeven bureaublad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc node --to-desktop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nummer</span></p>
+
+<ul>
+  <li>Schakel de modus volledig scherm in voor de geselecteerde node:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc node --state ~fullscreen</code></p>
+
+<ul>
+  <li>Zet de waarde van een specifieke instelling:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bspc config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instelling</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">waarde</span></p>

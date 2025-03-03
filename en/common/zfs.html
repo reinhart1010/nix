@@ -1,0 +1,40 @@
+<h1 id="zfs">zfs</h1>
+
+<p>Manage ZFS filesystems.
+More information: <a href="https://manned.org/zfs">https://manned.org/zfs</a>.</p>
+
+<ul>
+  <li>List all available zfs filesystems:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zfs list</code></p>
+
+<ul>
+  <li>Create a new ZFS filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zfs create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pool_name/filesystem_name</span></p>
+
+<ul>
+  <li>Delete a ZFS filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zfs destroy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pool_name/filesystem_name</span></p>
+
+<ul>
+  <li>Create a Snapshot of a ZFS filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zfs snapshot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pool_name/filesystem_name</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot_name</span></p>
+
+<ul>
+  <li>Enable compression on a filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zfs set compression=on </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pool_name/filesystem_name</span></p>
+
+<ul>
+  <li>Change mountpoint for a filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zfs set mountpoint=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/my/mount/path</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pool_name/filesystem_name</span></p>

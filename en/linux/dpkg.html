@@ -1,0 +1,48 @@
+<h1 id="dpkg">dpkg</h1>
+
+<p>Debian package manager.
+Some subcommands such as <code class="language-plaintext highlighter-rouge">deb</code> have their own usage documentation.
+For equivalent commands in other package managers, see <a href="https://wiki.archlinux.org/title/Pacman/Rosetta">https://wiki.archlinux.org/title/Pacman/Rosetta</a>.
+More information: <a href="https://manned.org/dpkg">https://manned.org/dpkg</a>.</p>
+
+<ul>
+  <li>Install a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.deb</span></p>
+
+<ul>
+  <li>Remove a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>List installed packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span></p>
+
+<ul>
+  <li>List a package's contents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>List contents of a local package file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.deb</span></p>
+
+<ul>
+  <li>Find out which package owns a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Purge an installed or already removed package, including configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>

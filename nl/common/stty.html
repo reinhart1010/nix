@@ -1,0 +1,40 @@
+<h1 id="stty">stty</h1>
+
+<p>Stel opties in voor een terminalapparaatinterface.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html</a>.</p>
+
+<ul>
+  <li>Toon alle instellingen voor de huidige terminal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stty --all</code></p>
+
+<ul>
+  <li>Stel het aantal rijen of kolommen in:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rows|cols</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aantal</span></p>
+
+<ul>
+  <li>Verkrijg de daadwerkelijke overdrachtssnelheid van een apparaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stty --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/apparaat_bestand</span><code class="language-plaintext highlighter-rouge"> speed</code></p>
+
+<ul>
+  <li>Reset alle modi naar redelijke waarden voor de huidige terminal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stty sane</code></p>
+
+<ul>
+  <li>Wissel tussen rauwe en normale modus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">raw|cooked</span></p>
+
+<ul>
+  <li>Zet karakter echoing uit of aan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-echo|echo</span></p>

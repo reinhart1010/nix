@@ -1,0 +1,46 @@
+<h1 id="pamixer">pamixer</h1>
+
+<p>A simple command-line mixer for PulseAudio.
+More information: <a href="https://github.com/cdemoulins/pamixer">https://github.com/cdemoulins/pamixer</a>.</p>
+
+<ul>
+  <li>List all sinks and sources with their corresponding IDs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamixer --list-sinks --list-sources</code></p>
+
+<ul>
+  <li>Set the volume to 75% on the default sink:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamixer --set-volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">75</span></p>
+
+<ul>
+  <li>Toggle mute on a sink other than the default:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamixer --toggle-mute --sink </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ID</span></p>
+
+<ul>
+  <li>Increase the volume on default sink by 5%:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamixer --increase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>Decrease the volume on a source by 5%:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamixer --decrease </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ID</span></p>
+
+<ul>
+  <li>Use the allow boost option to increase, decrease, or set the volume above 100%:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamixer --set-volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">105</span><code class="language-plaintext highlighter-rouge"> --allow-boost</code></p>
+
+<ul>
+  <li>Mute the default sink (use <code class="language-plaintext highlighter-rouge">--unmute</code> instead to unmute):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamixer --mute</code></p>

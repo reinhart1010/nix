@@ -1,0 +1,41 @@
+<h1 id="scutil">scutil</h1>
+
+<p>Gere parametros da configuração do sistema.
+Necessita de permissões de root para modificar configurações.
+Mais informações: <a href="https://keith.github.io/xcode-man-pages/scutil.8.html">https://keith.github.io/xcode-man-pages/scutil.8.html</a>.</p>
+
+<ul>
+  <li>Mostra as configurações de DNS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scutil --dns</code></p>
+
+<ul>
+  <li>Mostra as configurações de proxy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scutil --proxy</code></p>
+
+<ul>
+  <li>Obtêm o nome do computador:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scutil --get ComputerName</code></p>
+
+<ul>
+  <li>Altera o nome do computador:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo scutil --set ComputerName </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_computador</span></p>
+
+<ul>
+  <li>Obtêm o nome de rede do computador:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scutil --get HostName</code></p>
+
+<ul>
+  <li>Altera o nome de rede do computador:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scutil --set HostName </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_rede_computador</span></p>

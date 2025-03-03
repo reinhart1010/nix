@@ -1,0 +1,46 @@
+<h1 id="vboxmanage-createvm">vboxmanage-createvm</h1>
+
+<p>Create a new virtual machine.
+More information: <a href="https://www.virtualbox.org/manual/ch08.html#vboxmanage-createvm">https://www.virtualbox.org/manual/ch08.html#vboxmanage-createvm</a>.</p>
+
+<ul>
+  <li>Create a new VM with default settings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage createvm --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span></p>
+
+<ul>
+  <li>Set the base folder where the VM configuration will be stored:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage createvm --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span><code class="language-plaintext highlighter-rouge"> --basefolder </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Set the guest OS type (one of <code class="language-plaintext highlighter-rouge">VBoxManage list ostypes</code>) for the imported VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage createvm --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span><code class="language-plaintext highlighter-rouge"> --ostype </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ostype</span></p>
+
+<ul>
+  <li>Register the created VM in VirtualBox:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage createvm --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span><code class="language-plaintext highlighter-rouge"> --register</code></p>
+
+<ul>
+  <li>Set the VM to the specified groups:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage createvm --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span><code class="language-plaintext highlighter-rouge"> --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group1,group2,…</span></p>
+
+<ul>
+  <li>Set the Universally Unique Identifier (UUID) of the VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage createvm --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span><code class="language-plaintext highlighter-rouge"> --uuid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uuid</span></p>
+
+<ul>
+  <li>Set the cipher to use for encryption:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage createvm --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span><code class="language-plaintext highlighter-rouge"> --cipher </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AES-128|AES-256</span></p>

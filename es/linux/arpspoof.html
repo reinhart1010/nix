@@ -1,0 +1,22 @@
+<h1 id="arpspoof">arpspoof</h1>
+
+<p>Forja respuestas ARP para interceptar paquetes.
+Más información: <a href="https://monkey.org/~dugsong/dsniff">https://monkey.org/~dugsong/dsniff</a>.</p>
+
+<ul>
+  <li>Envenena todos los hosts para interceptar paquetes en la [i]nterfaz para el host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo arpspoof -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_del_host</span></p>
+
+<ul>
+  <li>Envenena el objetivo para interceptar paquetes en la [i]nterfaz para el host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo arpspoof -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_del_objetivo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_del_host</span></p>
+
+<ul>
+  <li>Envenena tanto el objetivo como el host para interceptar paquetes en la [i]nterfaz para el host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo arpspoof -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span><code class="language-plaintext highlighter-rouge"> -r -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_del_objetivo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_del_host</span></p>

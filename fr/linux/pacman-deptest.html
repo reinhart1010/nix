@@ -1,0 +1,29 @@
+<h1 id="pacman-deptest">pacman –deptest</h1>
+
+<p>Vérifie la satisfaction des dépendances et renvoie celles qui ne le sont pas.
+Voir aussi: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Plus d'informations : <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Affiche les noms des paquets qui ne sont pas installés dans la liste :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --deptest </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet1 paquet2 …</span></p>
+
+<ul>
+  <li>Vérifie que le paquet installé a une version supérieure ou égale :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --deptest "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash&gt;=5</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Vérifie qu'une version ultérieure du paquet est installée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --deptest "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash&gt;5</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Affiche l'aide :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --deptest --help</code></p>

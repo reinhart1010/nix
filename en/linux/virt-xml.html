@@ -1,0 +1,41 @@
+<h1 id="virt-xml">virt-xml</h1>
+
+<p>Edit libvirt Domain XML files with explicit command-line options.
+Note: 'domain' refers to the name, UUID or ID for the existing VMs (See: tldr virsh).
+More information: <a href="https://github.com/virt-manager/virt-manager/blob/main/man/virt-xml.rst">https://github.com/virt-manager/virt-manager/blob/main/man/virt-xml.rst</a>.</p>
+
+<ul>
+  <li>List all the suboptions for a specific option:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-xml --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">option</span><code class="language-plaintext highlighter-rouge">=?</code></p>
+
+<ul>
+  <li>List all the suboptions for disk, network, and boot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-xml --disk=? --network=? --boot=?</code></p>
+
+<ul>
+  <li>Edit a value for a specific domain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-xml </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span><code class="language-plaintext highlighter-rouge"> --edit --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">option</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suboption</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_value</span></p>
+
+<ul>
+  <li>Change the description for a specific domain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-xml </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span><code class="language-plaintext highlighter-rouge"> --edit --metadata description="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_description</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Enable/Disable the boot device menu for a specific domain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-xml </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span><code class="language-plaintext highlighter-rouge"> --edit --boot bootmenu=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span></p>
+
+<ul>
+  <li>Attach host USB hub to a running VM (See: tldr lsusb):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virt-xml </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span><code class="language-plaintext highlighter-rouge"> --update --add-device --hostdev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bus</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device</span></p>

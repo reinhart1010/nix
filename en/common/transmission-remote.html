@@ -1,0 +1,46 @@
+<h1 id="transmission-remote">transmission-remote</h1>
+
+<p>Remote control utility for <code class="language-plaintext highlighter-rouge">transmission-daemon</code> and <code class="language-plaintext highlighter-rouge">transmission</code>.
+More information: <a href="https://transmissionbt.com">https://transmissionbt.com</a>.</p>
+
+<ul>
+  <li>Add a torrent file or magnet link to Transmission and download to a specified directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">torrent|url</span><code class="language-plaintext highlighter-rouge"> -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/download_directory</span></p>
+
+<ul>
+  <li>Change the default download directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/download_directory</span></p>
+
+<ul>
+  <li>List all torrents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> --list</code></p>
+
+<ul>
+  <li>Start torrent 1 and 2, stop torrent 3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> -t "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,2</span><code class="language-plaintext highlighter-rouge">" --start -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> --stop</code></p>
+
+<ul>
+  <li>Remove torrent 1 and 2, and also delete local data for torrent 2:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> --remove -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> --remove-and-delete</code></p>
+
+<ul>
+  <li>Stop all torrents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">all</span><code class="language-plaintext highlighter-rouge"> --stop</code></p>
+
+<ul>
+  <li>Move torrents 1-10 and 15-20 to a new directory (which will be created if it does not exist):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> -t "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-10,15-20</span><code class="language-plaintext highlighter-rouge">" --move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/new_directory</span></p>

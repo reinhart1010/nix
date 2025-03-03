@@ -1,0 +1,28 @@
+<h1 id="salt">salt</h1>
+
+<p>Execute commands and assert state on remote salt minions.
+More information: <a href="https://docs.saltproject.io/en/latest/ref/cli/index.html">https://docs.saltproject.io/en/latest/ref/cli/index.html</a>.</p>
+
+<ul>
+  <li>List connected minions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt '*' test.ping</code></p>
+
+<ul>
+  <li>Execute a highstate on all connected minions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt '*' state.highstate</code></p>
+
+<ul>
+  <li>Upgrade packages using the OS package manager (apt, yum, brew) on a subset of minions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt '*.example.com' pkg.upgrade</code></p>
+
+<ul>
+  <li>Execute an arbitrary command on a particular minion:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">minion_id</span><code class="language-plaintext highlighter-rouge">' cmd.run "ls "</code></p>

@@ -1,0 +1,53 @@
+<h1 id="turbo">turbo</h1>
+
+<p>High-performance build system for JavaScript and TypeScript codebases.
+See also: <code class="language-plaintext highlighter-rouge">nx</code>.
+More information: <a href="https://turborepo.org/docs/reference/command-line-reference">https://turborepo.org/docs/reference/command-line-reference</a>.</p>
+
+<ul>
+  <li>Log in using the default web browser with a Vercel account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">turbo login</code></p>
+
+<ul>
+  <li>Link the current directory to a Vercel organization and enable remote caching:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">turbo link</code></p>
+
+<ul>
+  <li>Build the current project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">turbo run build</code></p>
+
+<ul>
+  <li>Run a task without concurrency:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">turbo run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span><code class="language-plaintext highlighter-rouge"> --concurrency=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Run a task ignoring cached artifacts and forcibly re-execute all tasks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">turbo run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span><code class="language-plaintext highlighter-rouge"> --force</code></p>
+
+<ul>
+  <li>Run a task in parallel across packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">turbo run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span><code class="language-plaintext highlighter-rouge"> --parallel --no-cache</code></p>
+
+<ul>
+  <li>Unlink the current directory from your Vercel organization and disable Remote Caching:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">turbo unlink</code></p>
+
+<ul>
+  <li>Generate a Dot graph of a specific task execution (the output file format can be controlled with the filename):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">turbo run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span><code class="language-plaintext highlighter-rouge"> --graph=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.html|jpg|json|pdf|png|svg</span></p>

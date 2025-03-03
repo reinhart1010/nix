@@ -1,0 +1,40 @@
+<h1 id="tlmgr-repository">tlmgr repository</h1>
+
+<p>Manage repositories of a TeX Live installation.
+More information: <a href="https://www.tug.org/texlive/tlmgr.html">https://www.tug.org/texlive/tlmgr.html</a>.</p>
+
+<ul>
+  <li>List all configured repositories and their tags (if set):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr repository list</code></p>
+
+<ul>
+  <li>List all packages available in a specific repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr repository list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path|url|tag</span></p>
+
+<ul>
+  <li>Add a new repository with a specific tag (the tag is not required):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr repository add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path|url</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span></p>
+
+<ul>
+  <li>Remove a specific repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr repository remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path|url|tag</span></p>
+
+<ul>
+  <li>Set a new list of repositories, overwriting the previous list:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tlmgr repository set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path|url|tag</span><code class="language-plaintext highlighter-rouge">#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path|url|tag</span><code class="language-plaintext highlighter-rouge">#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">…</span></p>
+
+<ul>
+  <li>Show the verification status of all configured repositories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tlmgr repository status</code></p>

@@ -1,0 +1,22 @@
+<h1 id="reg-copy">reg copy</h1>
+
+<p>레지스트리에서 키와 그 값을 복사.
+더 많은 정보: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/reg-copy">https://learn.microsoft.com/windows-server/administration/windows-commands/reg-copy</a>.</p>
+
+<ul>
+  <li>레지스트리 키를 새로운 레지스트리 위치로 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_key_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_key_name</span></p>
+
+<ul>
+  <li>레지스트리 키를 재귀적으로 (모든 [s]ubkeys 포함) 새로운 레지스트리 위치로 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_key_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_key_name</span><code class="language-plaintext highlighter-rouge"> /s</code></p>
+
+<ul>
+  <li>[f]orcefully (프롬프트 없이) 레지스트리 키 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_key_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_key_name</span><code class="language-plaintext highlighter-rouge"> /f</code></p>

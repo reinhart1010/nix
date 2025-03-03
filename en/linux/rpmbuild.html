@@ -1,0 +1,22 @@
+<h1 id="rpmbuild">rpmbuild</h1>
+
+<p>RPM Package Build tool.
+More information: <a href="https://manned.org/rpmbuild">https://manned.org/rpmbuild</a>.</p>
+
+<ul>
+  <li>Build binary and source packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpmbuild -ba </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/spec_file</span></p>
+
+<ul>
+  <li>Build a binary package without source package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpmbuild -bb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/spec_file</span></p>
+
+<ul>
+  <li>Specify additional variables when building a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rpmbuild -bb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/spec_file</span><code class="language-plaintext highlighter-rouge"> --define "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value1</span><code class="language-plaintext highlighter-rouge">" --define "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value2</span><code class="language-plaintext highlighter-rouge">"</code></p>

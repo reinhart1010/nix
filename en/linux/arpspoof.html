@@ -1,0 +1,22 @@
+<h1 id="arpspoof">arpspoof</h1>
+
+<p>Forge ARP replies to intercept packets.
+More information: <a href="https://monkey.org/~dugsong/dsniff">https://monkey.org/~dugsong/dsniff</a>.</p>
+
+<ul>
+  <li>Poison all hosts to intercept packets on [i]nterface for the host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo arpspoof -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_ip</span></p>
+
+<ul>
+  <li>Poison [t]arget to intercept packets on [i]nterface for the host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo arpspoof -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_ip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_ip</span></p>
+
+<ul>
+  <li>Poison both [t]arget and host to intercept packets on [i]nterface for the host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo arpspoof -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span><code class="language-plaintext highlighter-rouge"> -r -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_ip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_ip</span></p>

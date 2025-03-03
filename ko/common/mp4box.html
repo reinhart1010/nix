@@ -1,0 +1,22 @@
+<h1 id="mp4box">mp4box</h1>
+
+<p>MPEG-4 시스템 도구: 스트림을 MP4 컨테이너에 멀티플렉싱.
+더 많은 정보: <a href="https://gpac.wp.imt.fr/mp4box">https://gpac.wp.imt.fr/mp4box</a>.</p>
+
+<ul>
+  <li>기존 MP4 파일에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mp4box -info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>MP4 파일에 SRT 자막 파일 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mp4box -add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력_자막.srt</span><code class="language-plaintext highlighter-rouge">:lang=eng -add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력.mp4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력.mp4</span></p>
+
+<ul>
+  <li>한 파일에서 오디오와 다른 파일에서 비디오 결합:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mp4box -add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력1.mp4</span><code class="language-plaintext highlighter-rouge">#audio -add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력2.mp4</span><code class="language-plaintext highlighter-rouge">#video </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력.mp4</span></p>

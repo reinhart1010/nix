@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-checkout">git checkout</h1>
+
+<p>Cambia rami o ripristina i file dell'albero di lavoro.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-checkout">https://git-scm.com/docs/git-checkout</a>.</p>
+
+<ul>
+  <li>Crea e passa ad un nuovo ramo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span></p>
+
+<ul>
+  <li>Crea e passa ad un nuovo ramo a partire dal riferimento specificato (ramo-locale, remote/ramo-remoto, tag sono alcuni esempi di riferimenti validi):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">riferimento</span></p>
+
+<ul>
+  <li>Passa ad un ramo locale esistente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span></p>
+
+<ul>
+  <li>Passa ad un ramo remoto esistente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout --track </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_repository_remoto</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span></p>
+
+<ul>
+  <li>Annulla tutte le modifiche nella directory corrente che non sono state aggiunte all'area di stage (vedi <code class="language-plaintext highlighter-rouge">git reset</code> per più comandi simili):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout .</code></p>
+
+<ul>
+  <li>Annulla tutte le modifiche di un dato file non aggiunte all'area di stage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span></p>
+
+<ul>
+  <li>Sostituisci un file con il contenuto del suo corrispondente localizzato su un altro ramo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span></p>

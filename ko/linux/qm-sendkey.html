@@ -1,0 +1,16 @@
+<h1 id="qm-sendkey">qm sendkey</h1>
+
+<p>QEMU 모니터 인코딩 키 이벤트를 가상 머신에 전송.
+더 많은 정보: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>특정 키 이벤트를 특정 가상 머신에 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm sendkey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상_머신_ID</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span></p>
+
+<ul>
+  <li>루트 사용자가 키 이벤트를 전송하고 잠금을 무시하도록 허용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm sendkey --skiplock </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span></p>

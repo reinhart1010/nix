@@ -1,0 +1,28 @@
+<h1 id="nms">nms</h1>
+
+<p>Herramienta de línea de comandos que recrea el famoso efecto de desencriptado de datos de la película Sneakers (1992).
+Más información: <a href="https://github.com/bartobri/no-more-secrets">https://github.com/bartobri/no-more-secrets</a>.</p>
+
+<ul>
+  <li>Desencripta el texto tras presionar una tecla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hola, Mundo!</span><code class="language-plaintext highlighter-rouge">" | nms</code></p>
+
+<ul>
+  <li>Desencripta la salida inmediatamente, sin esperar a que una tecla sea pulsada:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -la</span><code class="language-plaintext highlighter-rouge"> | nms -a</code></p>
+
+<ul>
+  <li>Desencripta el contenido de un archivo, especificando el color de la salida:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span><code class="language-plaintext highlighter-rouge"> | nms -a -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blue|white|yellow|black|magenta|green|red</span></p>
+
+<ul>
+  <li>Limpia la pantalla antes de desencriptar:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | nms -a -c</code></p>

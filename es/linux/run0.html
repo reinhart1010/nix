@@ -1,0 +1,17 @@
+<h1 id="run0">run0</h1>
+
+<p>Eleva privilegios interactivamente.
+Similar a <code class="language-plaintext highlighter-rouge">sudo</code>, pero no es un binario SUID, la autenticación tiene lugar a través de polkit, y los comandos se invocan desde un servicio <code class="language-plaintext highlighter-rouge">systemd</code>.
+Más información: <a href="https://www.freedesktop.org/software/systemd/man/latest/run0.html">https://www.freedesktop.org/software/systemd/man/latest/run0.html</a>.</p>
+
+<ul>
+  <li>Ejecuta un comando como root:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">run0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>
+
+<ul>
+  <li>Ejecuta un comando como otro usuario y/o grupo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">run0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-u|–user</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario|uid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–group</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_grupo|gid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>

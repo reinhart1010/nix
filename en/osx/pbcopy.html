@@ -1,0 +1,17 @@
+<h1 id="pbcopy">pbcopy</h1>
+
+<p>Copy data from <code class="language-plaintext highlighter-rouge">stdin</code> to the clipboard.
+Comparable to pressing Cmd + C on the keyboard.
+More information: <a href="https://keith.github.io/xcode-man-pages/pbcopy.1.html">https://keith.github.io/xcode-man-pages/pbcopy.1.html</a>.</p>
+
+<ul>
+  <li>Place the contents of a specific file in the clipboard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbcopy &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Place the results of a specific command in the clipboard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find . -type t -name "*.png" | pbcopy</code></p>

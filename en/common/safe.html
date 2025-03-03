@@ -1,0 +1,52 @@
+<h1 id="safe">safe</h1>
+
+<p>Interact with HashiCorp Vault.
+More information: <a href="https://github.com/starkandwayne/safe">https://github.com/starkandwayne/safe</a>.</p>
+
+<ul>
+  <li>Add a safe target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">safe target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vault_addr</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_name</span></p>
+
+<ul>
+  <li>Authenticate the CLI client against the Vault server, using an authentication token:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">safe auth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">authentication_token</span></p>
+
+<ul>
+  <li>Print the environment variables describing the current target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">safe env</code></p>
+
+<ul>
+  <li>Display a tree hierarchy of all reachable keys for a given path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">safe tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path</span></p>
+
+<ul>
+  <li>Move a secret from one path to another:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">safe move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old/path/to/secret</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new/path/to/secret</span></p>
+
+<ul>
+  <li>Generate a new 2048-bit SSH key-pair and store it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">safe ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2048</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/secret</span></p>
+
+<ul>
+  <li>Set non-sensitive keys for a secret:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">safe set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/secret</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Set auto-generated password in a secret:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">safe gen </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/secret</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span></p>

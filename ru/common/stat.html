@@ -1,0 +1,40 @@
+<h1 id="stat">stat</h1>
+
+<p>Показ информации о файле и файловой системе.
+Больше информации: <a href="https://www.gnu.org/software/coreutils/manual/html_node/stat-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/stat-invocation.html</a>.</p>
+
+<ul>
+  <li>Показать свойства файла, такие как размер, права доступа, даты создания и последнего обращения и другие:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла</span></p>
+
+<ul>
+  <li>То же, что и выше, но в сжатой форме:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat --terse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла</span></p>
+
+<ul>
+  <li>Показать информацию о файловой системе:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat --file-system </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла</span></p>
+
+<ul>
+  <li>Показать только права доступа в восьмеричном виде:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat --format="%a %n" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла</span></p>
+
+<ul>
+  <li>Показать владельца и группу файла:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat --format="%U %G" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла</span></p>
+
+<ul>
+  <li>Показать размер файла в байтах:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat --format="%s %n" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла</span></p>

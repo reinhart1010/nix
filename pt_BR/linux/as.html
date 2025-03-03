@@ -1,0 +1,29 @@
+<h1 id="as">as</h1>
+
+<p>Assembler GNU multiplataforma.
+Seu objetivo inicial é realizar o montagem do arquivo gerado pelo <code class="language-plaintext highlighter-rouge">gcc</code> para ser utilizado pelo <code class="language-plaintext highlighter-rouge">ld</code>.
+Mais informações: <a href="https://manned.org/as">https://manned.org/as</a>.</p>
+
+<ul>
+  <li>Realiza a montagem de um arquivo, o resultado dessa operação será gravado no arquivo a.out:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.s</span></p>
+
+<ul>
+  <li>Realiza a montagem de um arquivo, o resultado dessa operação será gravado em um arquivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.s</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/saida.o</span></p>
+
+<ul>
+  <li>Realiza a montagem de um arquivo rapidamente, pois ignora o pré-processamento de comentários e espaços em branco. (Deve ser utilizado apenas em compiladores confiáveis):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.s</span></p>
+
+<ul>
+  <li>Adiciona um caminho na lista de diretórios onde será realizada a busca por arquivos especificados na diretiva .include:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho_para_o_diretorio</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.s</span></p>

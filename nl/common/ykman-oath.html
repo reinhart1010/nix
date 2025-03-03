@@ -1,0 +1,53 @@
+<h1 id="ykman-oath">ykman oath</h1>
+
+<p>Beheer de OATH YubiKey applicatie.
+Een <code class="language-plaintext highlighter-rouge">keyword</code> kan onderdeel zijn van de naam of van de indiener.
+Meer informatie: <a href="https://docs.yubico.com/software/yubikey/tools/ykman/OATH_Commands.html">https://docs.yubico.com/software/yubikey/tools/ykman/OATH_Commands.html</a>.</p>
+
+<ul>
+  <li>Toon algemene informatie over de OATH applicatie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman oath info</code></p>
+
+<ul>
+  <li>Verander het wachtwoord dat de OATH accounts beschermd (voeg <code class="language-plaintext highlighter-rouge">--clear</code> toe om het te verwijderen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman oath access change</code></p>
+
+<ul>
+  <li>Voeg een nieuw account toe (<code class="language-plaintext highlighter-rouge">--issuer</code> is optioneel):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman oath accounts add --issuer </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">indiener</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">naam</span></p>
+
+<ul>
+  <li>Toon alle accounts (met hun indiener):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman oath accounts list</code></p>
+
+<ul>
+  <li>Toon alle accounts met hun huidige TOTP/HOTP codes (optioneel kan deze lijst gefilterd worden met een keyword):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman oath accounts code </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span></p>
+
+<ul>
+  <li>Hernoem een account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman oath accounts rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">indiener:naam|naam</span></p>
+
+<ul>
+  <li>Verwijder een account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman oath accounts delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span></p>
+
+<ul>
+  <li>Verwijder alle accounts en herstel de fabrieksinstellingen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman oath reset</code></p>

@@ -1,0 +1,34 @@
+<h1 id="truncate">truncate</h1>
+
+<p>Verkort of verleng de grootte van een bestand naar de opgegeven grootte.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/truncate-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/truncate-invocation.html</a>.</p>
+
+<ul>
+  <li>Stel een grootte van 10 GB in voor een bestaand bestand, of maak een nieuw bestand met de opgegeven grootte:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truncate --size 10G </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Verleng de bestandsgrootte met 50 MiB, vul met gaten (die lezen als null bytes):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truncate --size +50M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Verkort het bestand met 2 GiB door gegevens van het einde van het bestand te verwijderen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truncate --size -2G </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Leeg de inhoud van het bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truncate --size 0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Leeg de inhoud van het bestand, maar maak het bestand niet aan als het niet bestaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">truncate --no-create --size 0 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>

@@ -1,0 +1,46 @@
+<h1 id="cargo-build">cargo build</h1>
+
+<p>Compile un paquet local et toutes ses dépendances.
+Plus d'informations : <a href="https://doc.rust-lang.org/cargo/commands/cargo-build.html">https://doc.rust-lang.org/cargo/commands/cargo-build.html</a>.</p>
+
+<ul>
+  <li>Compile un ou plusieurs paquets définis dans le manifeste <code class="language-plaintext highlighter-rouge">Cargo.toml</code> dans le dossier local :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build</code></p>
+
+<ul>
+  <li>Compile les artefacts avec le mode publication, avec des optimisations :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --release</code></p>
+
+<ul>
+  <li>Le fichier <code class="language-plaintext highlighter-rouge">Cargo.lock</code> doit être à jour :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --locked</code></p>
+
+<ul>
+  <li>Compile tous les paquets de l'espace de travail :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --workspace</code></p>
+
+<ul>
+  <li>Compile un paquet spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span></p>
+
+<ul>
+  <li>Compile uniquement le binaire spécifié :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --bin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_binaire</span></p>
+
+<ul>
+  <li>Compile uniquement le test cible spécifié :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_test</span></p>

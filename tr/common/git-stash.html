@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-stash">git stash</h1>
+
+<p>Yerel Git düzenlemelerini geçici bir alanda sakla.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-stash">https://git-scm.com/docs/git-stash</a>.</p>
+
+<ul>
+  <li>Yeni (izlenmeyen) dosyalar hariç mevcut değişiklikleri sakla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash push -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyfi_saklama_mesajı</span></p>
+
+<ul>
+  <li>Yeni (izlenmeyen) dosyalar dahil mevcut değişiklikleri sakla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash -u</code></p>
+
+<ul>
+  <li>Değiştirilen dosyaların parçalarını etkileşimli şekilde seçip sakla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash -p</code></p>
+
+<ul>
+  <li>Tüm saklananları göster (saklanan ismi, bağlı olduğu dal ve mesaj gösterilir):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash list</code></p>
+
+<ul>
+  <li>Bir saklananı uygula (varsayılan son saklanandır ve stash@{0} olarak belirtilir):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyfi_saklanan_veya_commit_ismi</span></p>
+
+<ul>
+  <li>Bir saklananı uygula (varsayılan stash@{0}), ve eğer uygulanması sıkıntı çıkarmıyorsa onu saklanan listesinden kaldır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash pop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyfi_saklanan_ismi</span></p>
+
+<ul>
+  <li>Tüm saklananları bırak:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash clear</code></p>

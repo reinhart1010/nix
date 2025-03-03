@@ -1,0 +1,34 @@
+<h1 id="home-manager">home-manager</h1>
+
+<p>Manage a per-user environment using Nix, allowing declarative configuration of the user’s home.
+More information: <a href="https://github.com/nix-community/home-manager">https://github.com/nix-community/home-manager</a>.</p>
+
+<ul>
+  <li>Build the configuration defined in <code class="language-plaintext highlighter-rouge">~/.config/nixpkgs/home.nix</code> without applying it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">home-manager build</code></p>
+
+<ul>
+  <li>Build and apply (switch to) the new configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">home-manager switch</code></p>
+
+<ul>
+  <li>Build the configuration for testing without applying it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">home-manager test</code></p>
+
+<ul>
+  <li>Roll back to a previous configuration generation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">home-manager rollback</code></p>
+
+<ul>
+  <li>List all existing configuration generations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">home-manager generations</code></p>

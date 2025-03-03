@@ -1,0 +1,34 @@
+<h1 id="rlwrap">rlwrap</h1>
+
+<p>Add line editing, persistent history and prompt completion to a REPL command.
+More information: <a href="https://github.com/hanslub42/rlwrap">https://github.com/hanslub42/rlwrap</a>.</p>
+
+<ul>
+  <li>Run a REPL command with line editing, persistent history and prompt completion:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rlwrap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Use all words seen on input and output for prompt completion:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rlwrap --remember </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Better prompt completion if prompts contain ANSI colour codes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rlwrap --ansi-colour-aware </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Enable filename completion (case sensitive):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rlwrap --complete-filenames </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Add coloured prompts, use colour name, or an ASCI-conformant colour specification. Use an uppercase colour name for bold styling:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rlwrap --prompt-colour=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">black|red|green|yellow|blue|cyan|purple|white|colour_spec</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>

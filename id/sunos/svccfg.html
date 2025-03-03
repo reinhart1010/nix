@@ -1,0 +1,22 @@
+<h1 id="svccfg">svccfg</h1>
+
+<p>Impor, ekspor, dan modifikasi konfigurasi servis.
+Informasi lebih lanjut: <a href="https://www.unix.com/man-page/linux/1m/svccfg">https://www.unix.com/man-page/linux/1m/svccfg</a>.</p>
+
+<ul>
+  <li>Validasi berkas konfigurasi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svccfg validate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_smf.xml</span></p>
+
+<ul>
+  <li>Ekspor konfigurasi servis kedalam sebuah berkas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svccfg export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_servis</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalur/ke/berkas_smf.xml</span></p>
+
+<ul>
+  <li>Impor/perbarui konfigurasi servis dari berkas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svccfg import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_smf.xml</span></p>

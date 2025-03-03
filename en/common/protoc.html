@@ -1,0 +1,40 @@
+<h1 id="protoc">protoc</h1>
+
+<p>Parse Google Protobuf <code class="language-plaintext highlighter-rouge">.proto</code> files and generate output in the specified language.
+More information: <a href="https://developers.google.com/protocol-buffers">https://developers.google.com/protocol-buffers</a>.</p>
+
+<ul>
+  <li>Generate Python code from a <code class="language-plaintext highlighter-rouge">.proto</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protoc --python_out=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file.proto</span></p>
+
+<ul>
+  <li>Generate Java code from a <code class="language-plaintext highlighter-rouge">.proto</code> file that imports other <code class="language-plaintext highlighter-rouge">.proto</code> files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protoc --java_out=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_directory</span><code class="language-plaintext highlighter-rouge"> --proto_path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/import_search_path</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file.proto</span></p>
+
+<ul>
+  <li>Generate code for multiple languages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protoc --csharp_out=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/c#_output_directory</span><code class="language-plaintext highlighter-rouge"> --js_out=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/js_output_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file.proto</span></p>
+
+<ul>
+  <li>Encode a text-format message into a protocol message from a <code class="language-plaintext highlighter-rouge">.proto</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protoc --encode=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">TypeName</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file.proto</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message.txt</span></p>
+
+<ul>
+  <li>Decode a protocol message into text-format from a <code class="language-plaintext highlighter-rouge">.proto</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protoc --decode=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">TypeName</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file.proto</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message.bin</span></p>
+
+<ul>
+  <li>Decode a protocol message into raw tag/value pairs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protoc --decode_raw &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message.bin</span></p>

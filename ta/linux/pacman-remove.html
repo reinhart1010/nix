@@ -1,0 +1,47 @@
+<h1 id="pacman-remove">pacman –remove</h1>
+
+<p>ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு.
+இதையும் பார்க்கவும்: <code class="language-plaintext highlighter-rouge">pacman</code>.
+மேலும் விவரத்திற்கு: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>ஒரு தொகுப்பு மற்றும் அதன் சார்புகளை அகற்றவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span></p>
+
+<ul>
+  <li>ஒரு தொகுப்பு மற்றும் அதன் சார்புகள் மற்றும் கட்டமைப்பு கோப்புகள் இரண்டையும் அகற்றவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --recursive --nosave </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span></p>
+
+<ul>
+  <li>கேட்காமல் ஒரு தொகுப்பை அகற்றவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span></p>
+
+<ul>
+  <li>அனாதை தொகுப்புகளை அகற்று (சார்புகளாக நிறுவப்பட்டது ஆனால் எந்த தொகுப்பிற்கும் தேவையில்லை):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --recursive --nosave $(pacman --query --unrequired --deps --quiet)</code></p>
+
+<ul>
+  <li>ஒரு தொகுப்பு மற்றும் அதைச் சார்ந்த அனைத்து தொகுப்புகளையும் அகற்றவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --cascade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span></p>
+
+<ul>
+  <li>பாதிக்கப்படக்கூடிய தொகுப்புகளை பட்டியலிடுங்கள் (எந்த தொகுப்புகளையும் அகற்றாது):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --remove --print </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span></p>
+
+<ul>
+  <li>இந்த துணைக் கட்டளைக்கான உதவியைக் காட்டு:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --remove --help</code></p>

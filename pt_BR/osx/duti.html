@@ -1,0 +1,40 @@
+<h1 id="duti">duti</h1>
+
+<p>Define os aplicativos padrão para tipos de documentos e esquemas de URL no macOS.
+Mais informações: <a href="https://github.com/moretension/duti">https://github.com/moretension/duti</a>.</p>
+
+<ul>
+  <li>Define o Safari como o manipulador padrão de documentos HTML:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duti -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.apple.Safari</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public.html</span><code class="language-plaintext highlighter-rouge"> all</code></p>
+
+<ul>
+  <li>Define o VLC como visualizador padrão para arquivos com extensões <code class="language-plaintext highlighter-rouge">.m4v</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duti -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.videolan.vlc</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">m4v</span><code class="language-plaintext highlighter-rouge"> viewer</code></p>
+
+<ul>
+  <li>Define o Finder como o manipulador padrão para esquema de URL ftp://:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duti -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.apple.Finder</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Exibe informações sobre o aplicativo padrão para uma determinada extensão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duti -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ext</span></p>
+
+<ul>
+  <li>Exibe o manipulador padrão para um determinado UTI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duti -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uti</span></p>
+
+<ul>
+  <li>Exibe todos os manipuladores de um determinado UTI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duti -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uti</span></p>

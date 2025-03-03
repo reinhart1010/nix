@@ -1,0 +1,41 @@
+<h1 id="sockstat">sockstat</h1>
+
+<p>열린 인터넷 또는 UNIX 도메인 소켓 나열.
+같이 보기: <code class="language-plaintext highlighter-rouge">netstat</code>.
+더 많은 정보: <a href="https://manned.org/sockstat">https://manned.org/sockstat</a>.</p>
+
+<ul>
+  <li>대기 중이거나 연결된 IPv4 및 IPv6 소켓 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat</code></p>
+
+<ul>
+  <li>특정 프로토콜을 사용하여 특정 포트에서 [l]대기 중인 IPv[4]/IPv[6] 소켓 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4|6</span><code class="language-plaintext highlighter-rouge"> -l -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp|udp|raw|unix</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트1,포트2…</span></p>
+
+<ul>
+  <li>[c]연결된 소켓 및 [u]유닉스 소켓도 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -cu</code></p>
+
+<ul>
+  <li>지정된 <code class="language-plaintext highlighter-rouge">pid</code> 또는 프로세스의 소켓만 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid|프로세스</span></p>
+
+<ul>
+  <li>지정된 <code class="language-plaintext highlighter-rouge">uid</code> 또는 사용자의 소켓만 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uid|사용자</span></p>
+
+<ul>
+  <li>지정된 <code class="language-plaintext highlighter-rouge">gid</code> 또는 그룹의 소켓만 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -G </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gid|그룹</span></p>

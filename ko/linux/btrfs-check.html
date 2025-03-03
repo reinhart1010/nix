@@ -1,0 +1,46 @@
+<h1 id="btrfs-check">btrfs check</h1>
+
+<p>btrfs 파일 시스템 검사 또는 복구.
+더 많은 정보: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-check.html">https://btrfs.readthedocs.io/en/latest/btrfs-check.html</a>.</p>
+
+<ul>
+  <li>btrfs 파일 시스템 검사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파티션</span></p>
+
+<ul>
+  <li>btrfs 파일 시스템 검사 및 복구 (위험함):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --repair </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파티션</span></p>
+
+<ul>
+  <li>검사 진행 상황 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --progress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파티션</span></p>
+
+<ul>
+  <li>각 데이터 블록의 체크섬 확인 (파일 시스템이 손상되지 않은 경우):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --check-data-csum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파티션</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">n</code>번째 슈퍼블록 사용 (<code class="language-plaintext highlighter-rouge">n</code>은 0, 1 또는 2 가능):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --super </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파티션</span></p>
+
+<ul>
+  <li>체크섬 트리 재구성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --repair --init-csum-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파티션</span></p>
+
+<ul>
+  <li>익스텐트 트리 재구성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs check --repair --init-extent-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파티션</span></p>

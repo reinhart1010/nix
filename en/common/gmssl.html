@@ -1,0 +1,52 @@
+<h1 id="gmssl">gmssl</h1>
+
+<p>GmSSL is a crypto toolkit supporting SM1, SM2, SM3, SM4, SM9, and ZUC/ZUC256.
+More information: <a href="http://gmssl.org/english.html">http://gmssl.org/english.html</a>.</p>
+
+<ul>
+  <li>Generate an SM3 hash for a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gmssl sm3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Encrypt a file using the SM4 cipher:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gmssl sms4 -e -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sms4</span></p>
+
+<ul>
+  <li>Decrypt a file using the SM4 cipher:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gmssl sms4 -d -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sms4</span></p>
+
+<ul>
+  <li>Generate an SM2 private key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gmssl sm2 -genkey -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pem</span></p>
+
+<ul>
+  <li>Generate an SM2 public key from an existing private key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gmssl sm2 -pubout -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pem</span><code class="language-plaintext highlighter-rouge"> -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pem.pub</span></p>
+
+<ul>
+  <li>Encrypt a file using the ZUC cipher:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gmssl zuc -e -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.zuc</span></p>
+
+<ul>
+  <li>Decrypt a file using the ZUC cipher:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gmssl zuc -d -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.zuc</span></p>
+
+<ul>
+  <li>Display version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gmssl version</code></p>

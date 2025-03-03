@@ -1,0 +1,47 @@
+<h1 id="limactl">limactl</h1>
+
+<p>Virtual machine manager for Linux guests, with multiple VM templates available.
+Can be used to run containers on macOS, but also for generic virtual machine use cases on macOS and Linux hosts.
+More information: <a href="https://github.com/lima-vm/lima">https://github.com/lima-vm/lima</a>.</p>
+
+<ul>
+  <li>List VMs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl list</code></p>
+
+<ul>
+  <li>Create a VM using the default settings and optionally provide a name and/or a template (see <code class="language-plaintext highlighter-rouge">limactl create --list-templates</code> for available templates):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span><code class="language-plaintext highlighter-rouge"> template://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">debian|fedora|ubuntu|…</span></p>
+
+<ul>
+  <li>Start a VM (this might install some dependencies in it and take a few minutes):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span></p>
+
+<ul>
+  <li>Open a remote shell inside a VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span></p>
+
+<ul>
+  <li>Run a command inside a VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Stop/shutdown a VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl stop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span></p>
+
+<ul>
+  <li>Delete a VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">limactl remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span></p>

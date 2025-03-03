@@ -1,0 +1,35 @@
+<h1 id="setsebool">setsebool</h1>
+
+<p>Set SELinux boolean value.
+See also: <code class="language-plaintext highlighter-rouge">semanage-boolean</code>, <code class="language-plaintext highlighter-rouge">getsebool</code>.
+More information: <a href="https://manned.org/setsebool">https://manned.org/setsebool</a>.</p>
+
+<ul>
+  <li>Show the current setting of [a]ll booleans:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">getsebool -a</code></p>
+
+<ul>
+  <li>Set or unset a boolean temporarily (non-persistent across reboot):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo setsebool </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">httpd_can_network_connect</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|true|on|0|false|off</span></p>
+
+<ul>
+  <li>Set or unset a boolean [p]ersistently:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo setsebool -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_use_devices</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|true|on|0|false|off</span></p>
+
+<ul>
+  <li>Set or unset multiple booleans [p]ersistently at once:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo setsebool -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftpd_use_fusefs=1 mount_anyfile=0 …</span></p>
+
+<ul>
+  <li>Set or unset a boolean persistently (alternative method using <code class="language-plaintext highlighter-rouge">semanage-boolean</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semanage boolean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-m|–modify</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1|–on|-0|–off</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">haproxy_connect_any</span></p>

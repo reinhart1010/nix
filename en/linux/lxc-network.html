@@ -1,0 +1,40 @@
+<h1 id="lxc-network">lxc network</h1>
+
+<p>Manage networks for LXD containers.
+More information: <a href="https://linuxcontainers.org/lxd/docs/master/networks">https://linuxcontainers.org/lxd/docs/master/networks</a>.</p>
+
+<ul>
+  <li>List all available networks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxc network list</code></p>
+
+<ul>
+  <li>Show the configuration of a specific network:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxc network show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_name</span></p>
+
+<ul>
+  <li>Add a running instance to a specific network:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxc network attach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Create a new managed network:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxc network create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_name</span></p>
+
+<ul>
+  <li>Set a bridge interface of a specific network:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxc network set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_name</span><code class="language-plaintext highlighter-rouge"> bridge.external_interfaces </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Disable NAT for a specific network:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxc network set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_name</span><code class="language-plaintext highlighter-rouge"> ipv</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge">.nat false</code></p>

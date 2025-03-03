@@ -1,0 +1,47 @@
+<h1 id="assimp">assimp</h1>
+
+<p>Command-line client for the Open Asset Import Library.
+Supports loading of 40+ 3D file formats, and exporting to several popular 3D formats.
+More information: <a href="https://assimp-docs.readthedocs.io/">https://assimp-docs.readthedocs.io/</a>.</p>
+
+<ul>
+  <li>List all supported import formats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">assimp listext</code></p>
+
+<ul>
+  <li>List all supported export formats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">assimp listexport</code></p>
+
+<ul>
+  <li>Convert a file to one of the supported output formats, using the default parameters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">assimp export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file.stl</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file.obj</span></p>
+
+<ul>
+  <li>Convert a file using custom parameters (the dox_cmd.h file in assimp's source code lists available parameters):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">assimp export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file.stl</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file.obj</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parameters</span></p>
+
+<ul>
+  <li>Display a summary of a 3D file's contents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">assimp info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">assimp help</code></p>
+
+<ul>
+  <li>Display help for a specific subcommand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">assimp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span><code class="language-plaintext highlighter-rouge"> --help</code></p>

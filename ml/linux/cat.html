@@ -1,0 +1,40 @@
+<h1 id="cat">cat</h1>
+
+<p>ഫയലുകൾ പ്രിന്റ് ചെയ്യുവാനും സംയോജിപ്പിക്കുവാനുമുള്ള കമാൻഡ്.
+കൂടുതൽ വിവരങ്ങൾ: <a href="https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html</a>.</p>
+
+<ul>
+  <li>ഫയലിന്റെ ഉള്ളടക്കം സ്റ്റാൻഡേർഡ് ഔട്പുട്ടിലേക്ക് പ്രിന്റ് ചെയ്യുവാൻ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഫയലിലേക്കുള്ള/പാത</span></p>
+
+<ul>
+  <li>പല ഫയലുകൾ സംയോജിപ്പിച് ഒരു ഔട്ട്പുട്ട് ഫയലുണ്ടാക്കുവാൻ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഫയൽ1/ലേക്കുള്ള/പാത ഫയൽ2/ലേക്കുള്ള/പാത …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഔട്ട്പുട്ട്_ഫയൽ/ലേക്കുള്ള/പാത</span></p>
+
+<ul>
+  <li>പല ഫയലുകൾ അപ്പെൻഡ് ചെയ്‌ത്‌ ഒരു ഔട്ട്പുട്ട് ഫയലുണ്ടാക്കുവാൻ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഫയൽ1/ലേക്കുള്ള/പാത ഫയൽ2/ലേക്കുള്ള/പാത …</span><code class="language-plaintext highlighter-rouge"> &gt;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഔട്ട്പുട്ട്_ഫയൽ/ലേക്കുള്ള/പാത</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code> ഫയലിലേക്ക് എഴുതുവാൻ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat - &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഫയലിലേക്കുള്ള/പാത</span></p>
+
+<ul>
+  <li>ഔട്ട്പുട്ട് ലൈനുകൾ നമ്പർ ചെയ്യുവാൻ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഫയലിലേക്കുള്ള/പാത</span></p>
+
+<ul>
+  <li>വൈറ്റ്സ്പേസും പ്രിന്റ് ചെയ്യപ്പെടാത്ത മറ്റ് ചിഹ്നങ്ങളും കാണുവാൻ (ASCII അല്ലെങ്കിൽ <code class="language-plaintext highlighter-rouge">M-</code> ആരംഭത്തിൽ ചേർക്കുക):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat -v -t -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഫയലിലേക്കുള്ള/പാത</span></p>

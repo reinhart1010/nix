@@ -1,0 +1,22 @@
+<h1 id="minicom">minicom</h1>
+
+<p>Communicate with the serial interface of a device.
+More information: <a href="https://manned.org/minicom">https://manned.org/minicom</a>.</p>
+
+<ul>
+  <li>Open a given serial port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo minicom --device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyUSB0</span></p>
+
+<ul>
+  <li>Open a given serial port with a given baud rate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo minicom --device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyUSB0</span><code class="language-plaintext highlighter-rouge"> --baudrate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">115200</span></p>
+
+<ul>
+  <li>Enter the configuration menu before communicating with a given serial port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo minicom --device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyUSB0</span><code class="language-plaintext highlighter-rouge"> --setup</code></p>

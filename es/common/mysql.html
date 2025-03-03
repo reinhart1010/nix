@@ -1,0 +1,46 @@
+<h1 id="mysql">mysql</h1>
+
+<p>Herramienta de línea de comandos para gestionar bases de datos MySQL.
+Más información: <a href="https://www.mysql.com/">https://www.mysql.com/</a>.</p>
+
+<ul>
+  <li>Conecta a una base de datos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span></p>
+
+<ul>
+  <li>Conecta a una base de datos con el usuario <code class="language-plaintext highlighter-rouge">usuario</code> y se le pedirá la contraseña:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span></p>
+
+<ul>
+  <li>Conecta a una base de datos en otra máquina:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">maquina_remota</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span></p>
+
+<ul>
+  <li>Conecta a una base de datos a través de un socket unix:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql --socket </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/socket.sock</span></p>
+
+<ul>
+  <li>Ejecuta comandos SQL contenidos en un script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql -e "source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo.sql</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span></p>
+
+<ul>
+  <li>Restaura una base de datos a partir de una copia de seguridad creada con <code class="language-plaintext highlighter-rouge">mysqldump</code> (y se le pedirá la contraseña al usuario):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_base_de_datos</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/backup.sql</span></p>
+
+<ul>
+  <li>Restaura todas las bases de datos en una copia de seguridad (y se le pedirá la contraseña al usuario):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysql --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> --password &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/backup.sql</span></p>

@@ -1,0 +1,28 @@
+<h1 id="enca">enca</h1>
+
+<p>Rileva e converti l'encoding di file di testo.
+Maggiori informazioni: <a href="https://github.com/nijel/enca">https://github.com/nijel/enca</a>.</p>
+
+<ul>
+  <li>Rileva l'encoding di uno o più file in base alla locale di sistema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">enca </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1 file2 …</span></p>
+
+<ul>
+  <li>Rileva l'encoding specificando un linguaggio nel formato di locale POSIX/C (e.g. zh_CN, en_US):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">enca -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linguaggio</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1 file2 …</span></p>
+
+<ul>
+  <li>Converti file ad uno specifico encoding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">enca -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linguaggio</span><code class="language-plaintext highlighter-rouge"> -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">encoding</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1 file2 …</span></p>
+
+<ul>
+  <li>Crea una copia di un file esistente utilizzando un encoding diverso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">enca -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linguaggio</span><code class="language-plaintext highlighter-rouge"> -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">encoding_finale</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_originale</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuovo_file</span></p>

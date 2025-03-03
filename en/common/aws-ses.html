@@ -1,0 +1,53 @@
+<h1 id="aws-ses">aws ses</h1>
+
+<p>CLI for AWS Simple Email Service.
+High-scale inbound and outbound cloud email service.
+More information: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ses/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ses/index.html</a>.</p>
+
+<ul>
+  <li>Create a new receipt rule set:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ses create-receipt-rule-set --rule-set-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_set_name</span><code class="language-plaintext highlighter-rouge"> --generate-cli-skeleton</code></p>
+
+<ul>
+  <li>Describe the active receipt rule set:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ses describe-active-receipt-rule-set --generate-cli-skeletion</code></p>
+
+<ul>
+  <li>Describe a specific receipt rule:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ses describe-receipt-rule --rule-set-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_set_name</span><code class="language-plaintext highlighter-rouge"> --rule-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_name</span><code class="language-plaintext highlighter-rouge"> --generate-cli-skeleton</code></p>
+
+<ul>
+  <li>List all receipt rule sets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ses list-receipt-rule-sets --starting-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">token_string</span><code class="language-plaintext highlighter-rouge"> --max-items </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">integer</span><code class="language-plaintext highlighter-rouge"> --generate-cli-skeleton</code></p>
+
+<ul>
+  <li>Delete a specific receipt rule set (the currently active rule set cannot be deleted):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ses delete-receipt-rule-set --rule-set-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_set_name</span><code class="language-plaintext highlighter-rouge"> --generate-cli-skeleton</code></p>
+
+<ul>
+  <li>Delete a specific receipt rule:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ses delete-receipt-rule --rule-set-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_set_name</span><code class="language-plaintext highlighter-rouge"> --rule-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_name</span><code class="language-plaintext highlighter-rouge"> --generate-cli-skeleton</code></p>
+
+<ul>
+  <li>Send an email:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ses send-email --from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">from_address</span><code class="language-plaintext highlighter-rouge"> --destination "ToAddresses=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">addresses</span><code class="language-plaintext highlighter-rouge">" --message "Subject={Data=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject_text</span><code class="language-plaintext highlighter-rouge">,Charset=utf8},Body={Text={Data=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">body_text</span><code class="language-plaintext highlighter-rouge">,Charset=utf8},Html={Data=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message_body_containing_html</span><code class="language-plaintext highlighter-rouge">,Charset=utf8&lt;/span&gt;</code>"`</p>
+
+<ul>
+  <li>Display help for a specific SES subcommand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ses </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span><code class="language-plaintext highlighter-rouge"> help</code></p>

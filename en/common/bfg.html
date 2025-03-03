@@ -1,0 +1,17 @@
+<h1 id="bfg">bfg</h1>
+
+<p>Remove large files or passwords from Git history like git-filter-branch.
+Note: if your repository is connected to a remote, you will need to force push to it.
+More information: <a href="https://rtyley.github.io/bfg-repo-cleaner/">https://rtyley.github.io/bfg-repo-cleaner/</a>.</p>
+
+<ul>
+  <li>Remove a file with sensitive data but leave the latest commit untouched:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bfg --delete-files </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_with_sensitive_data</span></p>
+
+<ul>
+  <li>Remove all text mentioned in the specified file wherever it can be found in the repository's history:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bfg --replace-text </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>

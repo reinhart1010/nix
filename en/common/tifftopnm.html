@@ -1,0 +1,28 @@
+<h1 id="tifftopnm">tifftopnm</h1>
+
+<p>Convert a TIFF image to a PNM image.
+More information: <a href="https://netpbm.sourceforge.net/doc/tifftopnm.html">https://netpbm.sourceforge.net/doc/tifftopnm.html</a>.</p>
+
+<ul>
+  <li>Convert a TIFF to a PNM file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tifftopnm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.tiff</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.pnm</span></p>
+
+<ul>
+  <li>Create a PGM file containing the alpha channel of the input image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tifftopnm -alphaout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/alpha_file.pgm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.tiff</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.pnm</span></p>
+
+<ul>
+  <li>Respect the <code class="language-plaintext highlighter-rouge">fillorder</code> tag in the input TIFF image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tifftopnm -respectfillorder </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.tiff</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.pnm</span></p>
+
+<ul>
+  <li>Print TIFF header information to <code class="language-plaintext highlighter-rouge">stderr</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tifftopnm -headerdump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file.tiff</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.pnm</span></p>

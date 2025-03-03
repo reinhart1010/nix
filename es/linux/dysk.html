@@ -1,0 +1,34 @@
+<h1 id="dysk">dysk</h1>
+
+<p>Muestra información del sistema de archivos en una tabla.
+Más información: <a href="https://dystroy.org/dysk">https://dystroy.org/dysk</a>.</p>
+
+<ul>
+  <li>Obtén una visión general estándar de tus discos habituales:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dysk</code></p>
+
+<ul>
+  <li>Ordena por tamaño libre:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dysk --sort free</code></p>
+
+<ul>
+  <li>Incluye solo discos HDD:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dysk --filter 'disk = HDD'</code></p>
+
+<ul>
+  <li>Excluye discos SSD:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dysk --filter 'disk &lt;&gt; SSD'</code></p>
+
+<ul>
+  <li>Muestra discos con alta ocupación o poco espacio libre:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dysk --filter 'use &gt; 65% | free &lt; 50G'</code></p>

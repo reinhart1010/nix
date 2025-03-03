@@ -1,0 +1,47 @@
+<h1 id="cypher-shell">cypher-shell</h1>
+
+<p>대화형 세션을 열고 Neo4j 인스턴스에 대해 Cypher 쿼리를 실행.
+참고: <code class="language-plaintext highlighter-rouge">neo4j-admin</code>, <code class="language-plaintext highlighter-rouge">mysql</code>.
+더 많은 정보: <a href="https://neo4j.com/docs/operations-manual/current/tools/cypher-shell/">https://neo4j.com/docs/operations-manual/current/tools/cypher-shell/</a>.</p>
+
+<ul>
+  <li>기본 포트에서 로컬 인스턴스에 연결 (<code class="language-plaintext highlighter-rouge">neo4j://localhost:7687</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell</code></p>
+
+<ul>
+  <li>원격 인스턴스에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell --address neo4j://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span></p>
+
+<ul>
+  <li>보안 자격 증명 연결 및 제공:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span></p>
+
+<ul>
+  <li>특정 데이터베이스에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell --database </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span></p>
+
+<ul>
+  <li>파일에서 Cypher 문을 실행하고 닫음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.cypher</span></p>
+
+<ul>
+  <li>파일에 대한 로깅 활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell --log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.log</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cypher-shell --help</code></p>

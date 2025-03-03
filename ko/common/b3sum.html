@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="b3sum">b3sum</h1>
+
+<p>BLAKE3 암호화 체크섬을 계산.
+더 많은 정보: <a href="https://github.com/BLAKE3-team/BLAKE3/tree/master/b3sum">https://github.com/BLAKE3-team/BLAKE3/tree/master/b3sum</a>.</p>
+
+<ul>
+  <li>하나 이상의 파일에 대한 BLAKE3 체크섬을 계산:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b3sum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>BLAKE3 체크섬 목록을 게산하고 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b3sum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.b3</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 BLAKE3 체크섬을 계산:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> | b3sum</code></p>
+
+<ul>
+  <li>BLAKE3 합계 및 파일 이름이 포함된 파일을 읽고, 모든 파일에 일치하는 체크섬이 있는지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b3sum --check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.b3</span></p>
+
+<ul>
+  <li>누락된 파일이 있거나 확인에 실패한 경우에만 메시지를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b3sum --check --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.b3</span></p>

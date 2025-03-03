@@ -1,0 +1,40 @@
+<h1 id="q">q</h1>
+
+<p>在 CSV 和 TSV 文件上执行类似 SQL 的查询。
+更多信息：<a href="https://harelba.github.io/q">https://harelba.github.io/q</a>.</p>
+
+<ul>
+  <li>指定分隔符为 ',' 来查询 CSV 文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">q -d',' "SELECT * from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>查询 TSV 文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">q -t "SELECT * from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>查询带有表头行的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">q -d</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">分隔符</span><code class="language-plaintext highlighter-rouge"> -H "SELECT * from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>从 <code class="language-plaintext highlighter-rouge">stdin</code> 读取数据；查询中的 '-' 代表来自 <code class="language-plaintext highlighter-rouge">stdin</code> 的数据：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">输出</span><code class="language-plaintext highlighter-rouge"> | q "select * from -"</code></p>
+
+<ul>
+  <li>在列 <code class="language-plaintext highlighter-rouge">c1</code> 上连接两个文件（在例子中别名为 <code class="language-plaintext highlighter-rouge">f1</code> 和 <code class="language-plaintext highlighter-rouge">f2</code>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">q "SELECT * FROM </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件1</span><code class="language-plaintext highlighter-rouge"> f1 JOIN </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件2</span><code class="language-plaintext highlighter-rouge"> f2 ON (f1.c1 = f2.c1)"</code></p>
+
+<ul>
+  <li>使用包含输出标题行的输出分隔符来格式化输出（注意：命令将根据输入文件标题或在查询中覆盖的列别名输出列名）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">q -D</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">分隔符</span><code class="language-plaintext highlighter-rouge"> -O "SELECT </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">列</span><code class="language-plaintext highlighter-rouge"> as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">别名</span><code class="language-plaintext highlighter-rouge"> from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span><code class="language-plaintext highlighter-rouge">"</code></p>

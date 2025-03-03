@@ -1,0 +1,34 @@
+<h1 id="apg">apg</h1>
+
+<p>Crée arbitrairement les mots de passe aléatoires et complexes.
+Plus d'informations : <a href="https://manned.org/apg">https://manned.org/apg</a>.</p>
+
+<ul>
+  <li>Crée des mots de passe aléatoires (la longueur par défaut est 8) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apg</code></p>
+
+<ul>
+  <li>Crée un mot de passe avec au moins 1 symbole (S), 1 Nombre (N), 1 Majuscule (C), 1 Minuscule (L) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apg -M SNCL</code></p>
+
+<ul>
+  <li>Crée un mot de passe avec 16 caractères :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apg -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span></p>
+
+<ul>
+  <li>Crée un mot de passe avec une longeur maximum de 16 :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apg -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span></p>
+
+<ul>
+  <li>Crée un mot de passe qui n'apparaît pas dans le dictionnaire (le fichier de dictionnaire doit être donné) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apg -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_dictionnaire</span></p>

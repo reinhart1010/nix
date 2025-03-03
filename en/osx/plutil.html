@@ -1,0 +1,34 @@
+<h1 id="plutil">plutil</h1>
+
+<p>View, convert, validate, or edit property list ("plist") files.
+More information: <a href="https://keith.github.io/xcode-man-pages/plutil.1.html">https://keith.github.io/xcode-man-pages/plutil.1.html</a>.</p>
+
+<ul>
+  <li>Display the contents of one or more plist files in human-readable format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plutil -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1.plist file2.plist …</span></p>
+
+<ul>
+  <li>Convert one or more plist files to XML format, overwriting the original files in-place:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plutil -convert xml1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1.plist file2.plist …</span></p>
+
+<ul>
+  <li>Convert one or more plist files to binary format, overwriting the original files in-place:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plutil -convert binary1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1.plist file2.plist …</span></p>
+
+<ul>
+  <li>Convert a plist file to a different format, writing to a new file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plutil -convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml1|binary1|json|swift|objc</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.plist</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new_file.plist</span></p>
+
+<ul>
+  <li>Convert a plist file to a different format, writing to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">plutil -convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml1|binary1|json|swift|objc</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.plist</span><code class="language-plaintext highlighter-rouge"> -o -</code></p>

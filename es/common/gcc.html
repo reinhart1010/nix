@@ -1,0 +1,53 @@
+<h1 id="gcc">gcc</h1>
+
+<p>Preprocesa y compila archivos de código fuente C y C++, luego los ensambla y los une.
+Parte de GCC Colección de Compilación GNU (GNU Compiler Collection).
+Más información: <a href="https://gcc.gnu.org">https://gcc.gnu.org</a>.</p>
+
+<ul>
+  <li>Compila varios archivos de código fuente en un ejecutable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/fuente1.c ruta/a/la/fuente2.c …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/ejecutable</span></p>
+
+<ul>
+  <li>Muestra todos los errores y advertencias:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/fuente.c</span><code class="language-plaintext highlighter-rouge"> -Wall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejecutable</span></p>
+
+<ul>
+  <li>Muestra las advertencias comunes, añade símbolos de depuración en el ejecutable, y optimiza sin afectar la depuración:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/fuente.c</span><code class="language-plaintext highlighter-rouge"> -Wall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–debug</span><code class="language-plaintext highlighter-rouge"> -Og </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/ejecutable</span></p>
+
+<ul>
+  <li>Incluye las bibliotecas de una ruta diferente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/fuente.c</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/ejecutable</span><code class="language-plaintext highlighter-rouge"> -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/header</span><code class="language-plaintext highlighter-rouge"> -L</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/biblioteca</span><code class="language-plaintext highlighter-rouge"> -l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_biblioteca</span></p>
+
+<ul>
+  <li>Compila el código fuente a instrucciones de Ensamblador (Assembler):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-S|–assemble</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/fuente.c</span></p>
+
+<ul>
+  <li>Compila el código fuente a un archivo objeto sin vincular:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–compile</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/fuente.c</span></p>
+
+<ul>
+  <li>Optimiza el programa compilado en función de velocidad de ejecución:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/fuente.c</span><code class="language-plaintext highlighter-rouge"> -O</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3|fast</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/ejecutable</span></p>
+
+<ul>
+  <li>Versión de visualización:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc --version</code></p>

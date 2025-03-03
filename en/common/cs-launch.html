@@ -1,0 +1,28 @@
+<h1 id="cs-launch">cs launch</h1>
+
+<p>Launch an application from the name directly from Maven dependencies without the need of installing it.
+More information: <a href="https://get-coursier.io/docs/cli-launch">https://get-coursier.io/docs/cli-launch</a>.</p>
+
+<ul>
+  <li>Launch a specific application with arguments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs launch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application_name</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 …</span></p>
+
+<ul>
+  <li>Launch a specific application version with arguments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs launch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application_version</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 …</span></p>
+
+<ul>
+  <li>Launch a specific version of an application specifying which is the main file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs launch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_id</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">artifact_id</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">artifact_version</span><code class="language-plaintext highlighter-rouge"> --main-class </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/main_class_file</span></p>
+
+<ul>
+  <li>Launch an application with specific Java options and JVM memory ones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs launch --java-opt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-Doption_name1:option_value1 -Doption_name2:option_value2 …</span><code class="language-plaintext highlighter-rouge"> --java-opt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-Xjvm_option1 -Xjvm_option2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application_name</span></p>

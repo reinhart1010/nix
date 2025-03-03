@@ -1,0 +1,47 @@
+<h1 id="ansible">ansible</h1>
+
+<p>Atur grup perangkat komputer yang secara jarak jauh melalui SSH. (Gunakan berkas <code class="language-plaintext highlighter-rouge">/etc/ansible/hosts</code> untuk menambahkan grup atau host baru).
+Beberapa subperintah seperti <code class="language-plaintext highlighter-rouge">ansible galaxy</code> mempunyai dokumentasi terpisah.
+Informasi lebih lanjut: <a href="https://www.ansible.com/">https://www.ansible.com/</a>.</p>
+
+<ul>
+  <li>Tampilkan daftar host yang tergabung dalam suatu grup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grup</span><code class="language-plaintext highlighter-rouge"> --list-hosts</code></p>
+
+<ul>
+  <li>Uji koneksi (ping) kepada grup perangkat tertentu dengan menggunakan [m]odul ping:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grup</span><code class="language-plaintext highlighter-rouge"> -m ping</code></p>
+
+<ul>
+  <li>Tampilkan informasi faktual tentang suatu grup perangkat dengan menggunakan [m]odul setup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grup</span><code class="language-plaintext highlighter-rouge"> -m setup</code></p>
+
+<ul>
+  <li>Jalankan perintah pada suatu kelompok perangkat melalui [m]odul command dengan kumpulan [a]rgumen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grup</span><code class="language-plaintext highlighter-rouge"> -m command -a '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah_saya</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Jalankan perintah dengan hak akses administratif:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grup</span><code class="language-plaintext highlighter-rouge"> --become --ask-become-pass -m command -a '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah_saya</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Jalankan perintah menggunakan berkas [i]nventaris tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grup</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_inventaris</span><code class="language-plaintext highlighter-rouge"> -m command -a '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah_saya</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Tampilkan daftar grup dalam sebuah inventaris:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible localhost -m debug -a '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">var=groups.keys()</span><code class="language-plaintext highlighter-rouge">'</code></p>

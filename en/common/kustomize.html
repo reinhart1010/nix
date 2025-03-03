@@ -1,0 +1,28 @@
+<h1 id="kustomize">kustomize</h1>
+
+<p>Easily deploy resources for Kubernetes.
+More information: <a href="https://github.com/kubernetes-sigs/kustomize">https://github.com/kubernetes-sigs/kustomize</a>.</p>
+
+<ul>
+  <li>Create a kustomization file with resources and namespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kustomize create --resources </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deployment.yaml,service.yaml</span><code class="language-plaintext highlighter-rouge"> --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">staging</span></p>
+
+<ul>
+  <li>Build a kustomization file and deploy it with <code class="language-plaintext highlighter-rouge">kubectl</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kustomize build . | kubectl apply -f -</code></p>
+
+<ul>
+  <li>Set an image in the kustomization file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kustomize edit set image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">busybox=alpine:3.6</span></p>
+
+<ul>
+  <li>Search for Kubernetes resources in the current directory to be added to the kustomization file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kustomize create --autodetect</code></p>

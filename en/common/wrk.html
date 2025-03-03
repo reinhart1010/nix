@@ -1,0 +1,22 @@
+<h1 id="wrk">wrk</h1>
+
+<p>HTTP benchmarking tool.
+More information: <a href="https://github.com/wg/wrk">https://github.com/wg/wrk</a>.</p>
+
+<ul>
+  <li>Run a benchmark for <code class="language-plaintext highlighter-rouge">30</code> seconds, using <code class="language-plaintext highlighter-rouge">12</code> threads, and keeping <code class="language-plaintext highlighter-rouge">400</code> HTTP connections open:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wrk -t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">12</span><code class="language-plaintext highlighter-rouge"> -c</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">400</span><code class="language-plaintext highlighter-rouge"> -d</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30s</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://127.0.0.1:8080/index.html</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run a benchmark with a custom header:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wrk -t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> -c</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> -d</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5s</span><code class="language-plaintext highlighter-rouge"> -H "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Host: example.com</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/index.html</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run a benchmark with a request timeout of <code class="language-plaintext highlighter-rouge">2</code> seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wrk -t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> -c</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> -d</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5s</span><code class="language-plaintext highlighter-rouge"> --timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2s</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/index.html</span><code class="language-plaintext highlighter-rouge">"</code></p>

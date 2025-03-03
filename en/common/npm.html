@@ -1,0 +1,53 @@
+<h1 id="npm">npm</h1>
+
+<p>JavaScript and Node.js package manager.
+Manage Node.js projects and their module dependencies.
+More information: <a href="https://www.npmjs.com">https://www.npmjs.com</a>.</p>
+
+<ul>
+  <li>Create a <code class="language-plaintext highlighter-rouge">package.json</code> file with default values (omit <code class="language-plaintext highlighter-rouge">--yes</code> to do it interactively):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-y|–yes</span></p>
+
+<ul>
+  <li>Download all the packages listed as dependencies in <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm install</code></p>
+
+<ul>
+  <li>Download a specific version of a package and add it to the list of dependencies in <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Download the latest version of a package and add it to the list of dev dependencies in <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-D|–save-dev</span></p>
+
+<ul>
+  <li>Download the latest version of a package and install it globally:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–global</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>Uninstall a package and remove it from the list of dependencies in <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm uninstall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>List all locally installed dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm list</code></p>
+
+<ul>
+  <li>List all top-level globally installed packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">npm list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–global</span><code class="language-plaintext highlighter-rouge"> --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span></p>

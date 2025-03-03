@@ -1,0 +1,40 @@
+<h1 id="git-clean">git clean</h1>
+
+<p>Elimina archivos sin rastrear del árbol de trabajo.
+Más información: <a href="https://git-scm.com/docs/git-clean">https://git-scm.com/docs/git-clean</a>.</p>
+
+<ul>
+  <li>Elimina archivos que no son rastreados por Git:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean</code></p>
+
+<ul>
+  <li>Elimina interactivamente archivos que no son rastreados por Git:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–interactive</span></p>
+
+<ul>
+  <li>Muestra que archivos serían borrados sin llegar a borrarlos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean --dry-run</code></p>
+
+<ul>
+  <li>Elimina forzosamente los archivos que no son rastreados por Git:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–force</span></p>
+
+<ul>
+  <li>Elimina forzosamente los directorios que no son rastreados por Git:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–force</span><code class="language-plaintext highlighter-rouge"> -d</code></p>
+
+<ul>
+  <li>Elimina archivos sin rastrear, incluyendo los archivos ignorados en <code class="language-plaintext highlighter-rouge">.gitignore</code> y los excluidos en <code class="language-plaintext highlighter-rouge">.git/info/exclude</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean -x</code></p>

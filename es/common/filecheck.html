@@ -1,0 +1,35 @@
+<h1 id="filecheck">FileCheck</h1>
+
+<p>Verificador de archivos de coincidencia de patrones flexible.
+Se utiliza típicamente a partir de pruebas de regresión LLVM y forma parte de una prueba <code class="language-plaintext highlighter-rouge">lit</code>.
+Más información: <a href="https://llvm.org/docs/CommandGuide/FileCheck.html">https://llvm.org/docs/CommandGuide/FileCheck.html</a>.</p>
+
+<ul>
+  <li>Compara el contenido de <code class="language-plaintext highlighter-rouge">archivo_entrada</code> con el archivo de patrones <code class="language-plaintext highlighter-rouge">archivo_comprobado</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">FileCheck --input-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_entrada</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_comprobación</span></p>
+
+<ul>
+  <li>Busca coincidencias de <code class="language-plaintext highlighter-rouge">stdin</code> con el archivo de patrones <code class="language-plaintext highlighter-rouge">archivo_de_comprobación</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algún_texto</span><code class="language-plaintext highlighter-rouge">" | FileCheck </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_comprobación</span></p>
+
+<ul>
+  <li>Busca coincidencias con el <code class="language-plaintext highlighter-rouge">prefijo</code> de comprobación personalizado especificado (Nota: el prefijo predeterminado es <code class="language-plaintext highlighter-rouge">CHECK</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algún_texto</span><code class="language-plaintext highlighter-rouge">" | FileCheck --check-prefix=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefijo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_comprobado</span></p>
+
+<ul>
+  <li>Imprime las coincidencias de patrón de directivas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_text</span><code class="language-plaintext highlighter-rouge">" | FileCheck -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_comprobado</span></p>
+
+<ul>
+  <li>Introduce <code class="language-plaintext highlighter-rouge">llvm_code.ll</code> en llvm-as y, a continuación, envía la salida a FileCheck para que coincida:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/código_llvm_.ll</span><code class="language-plaintext highlighter-rouge"> | FileCheck </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_comprobado</span></p>

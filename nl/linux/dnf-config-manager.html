@@ -1,0 +1,40 @@
+<h1 id="dnf-config-manager">dnf config-manager</h1>
+
+<p>Beheer DNF-configuratie-opties en repositories op Fedora-gebaseerde systemen.
+Meer informatie: <a href="https://manned.org/dnf-config-manager">https://manned.org/dnf-config-manager</a>.</p>
+
+<ul>
+  <li>Voeg een repository toe (en schakel deze in) vanaf een URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf config-manager --add-repo=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span></p>
+
+<ul>
+  <li>Print de huidige configuratiewaarden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf config-manager --dump</code></p>
+
+<ul>
+  <li>Schakel een specifieke repository in:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf config-manager --set-enabled </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_id</span></p>
+
+<ul>
+  <li>Schakel opgegeven repositories uit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf config-manager --set-disabled </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_id1 repository_id2 …</span></p>
+
+<ul>
+  <li>Stel een configuratieoptie in voor een repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf config-manager --setopt=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">option</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Toon de help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf config-manager --help-cmd</code></p>

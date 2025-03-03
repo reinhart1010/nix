@@ -1,0 +1,35 @@
+<h1 id="az-storage-blob">az storage blob</h1>
+
+<p>Azure에서 blob 저장소 컨테이너 및 개체를 관리.
+<code class="language-plaintext highlighter-rouge">azure-cli</code>의 일부 (<code class="language-plaintext highlighter-rouge">az</code>라고도 함).
+더 많은 정보: <a href="https://learn.microsoft.com/cli/azure/storage/blob">https://learn.microsoft.com/cli/azure/storage/blob</a>.</p>
+
+<ul>
+  <li>소스([s]ource) 컨테이너를 지정하는 파일([f]ile) 경로에 blob를 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage blob download --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge"> --account-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_키</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge"> -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/blob</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/로컬_파일</span></p>
+
+<ul>
+  <li>blob 컨테이너에서 blob을 재귀적으로 다운로드([d]ownload):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage blob download-batch --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge"> --account-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_키</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/remote</span><code class="language-plaintext highlighter-rouge"> --pattern </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일이름_정규표현식</span><code class="language-plaintext highlighter-rouge"> --destination </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/목적지</span></p>
+
+<ul>
+  <li>blob 스토리지에 로컬 파일을 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage blob upload --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge"> --account-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_키</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge"> -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/blob</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/로컬_파일</span></p>
+
+<ul>
+  <li>blob 객체 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage blob delete --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge"> --account-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_키</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge"> -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/blob</span></p>
+
+<ul>
+  <li>blob에 대한 공유 액세스 서명을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az storage blob generate-sas --account-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge"> --account-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_키</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge"> -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/blob</span><code class="language-plaintext highlighter-rouge"> --permissions </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">permission_set</span><code class="language-plaintext highlighter-rouge"> --expiry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Y-m-d'T'H:M'Z'</span><code class="language-plaintext highlighter-rouge"> --https-only</code></p>

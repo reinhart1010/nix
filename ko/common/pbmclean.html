@@ -1,0 +1,22 @@
+<h1 id="pbmclean">pbmclean</h1>
+
+<p>PBM 이미지를 정리하여 고립된 검은색 및 흰색 픽셀을 제거합니다.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/pbmclean.html">https://netpbm.sourceforge.net/doc/pbmclean.html</a>.</p>
+
+<ul>
+  <li>고립된 검은색 및 흰색 픽셀을 제거하여 PBM 이미지 정리:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmclean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pbm</span></p>
+
+<ul>
+  <li>검은색/흰색 픽셀만 정리:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmclean -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">black|white</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pbm</span></p>
+
+<ul>
+  <li>고립되지 않은 픽셀로 간주되기 위한 최소한의 동일 색상 이웃 픽셀 수 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmclean -minneighbours </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pbm</span></p>

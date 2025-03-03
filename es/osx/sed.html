@@ -1,0 +1,35 @@
+<h1 id="sed">sed</h1>
+
+<p>Edita texto de manera programable.
+Vea también: <code class="language-plaintext highlighter-rouge">awk</code>, <code class="language-plaintext highlighter-rouge">ed</code>.
+Más información: <a href="https://keith.github.io/xcode-man-pages/sed.1.html">https://keith.github.io/xcode-man-pages/sed.1.html</a>.</p>
+
+<ul>
+  <li>Reemplaza todas las veces que aparece <code class="language-plaintext highlighter-rouge">apple</code> (regex básico) por <code class="language-plaintext highlighter-rouge">mango</code> (regex básico) en todas las líneas de entrada e imprime el resultado en <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | sed 's/apple/mango/g'</code></p>
+
+<ul>
+  <li>Ejecuta un script [f] específico e imprime el resultado en <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | sed -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_script.sed</span></p>
+
+<ul>
+  <li>Sustituye todas las apariciones de <code class="language-plaintext highlighter-rouge">manzana</code> (regex extendido) por <code class="language-plaintext highlighter-rouge">MANZANA</code> (regex extendido) en todas las líneas de entrada e imprime el resultado en <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | sed -E 's/(manzana)/\U\1/g'</code></p>
+
+<ul>
+  <li>Imprime solo la primera línea en <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | sed -n '1p'</code></p>
+
+<ul>
+  <li>Sustituye todas las apariciones de <code class="language-plaintext highlighter-rouge">manzana</code> (regex básico) por <code class="language-plaintext highlighter-rouge">mango</code> (regex básico) en un <code class="language-plaintext highlighter-rouge">fichero</code> y guarda una copia de seguridad del original en <code class="language-plaintext highlighter-rouge">fichero.bak</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed -i bak 's/manzana/mango/g' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>

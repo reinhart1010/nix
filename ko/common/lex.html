@@ -1,0 +1,24 @@
+<h1 id="lex">lex</h1>
+
+<p>어휘 분석기 생성기.
+어휘 분석기의 명세가 주어지면 이를 구현하는 C 코드를 생성합니다.
+참고: 대부분의 주요 운영 체제에서 이 명령은 <code class="language-plaintext highlighter-rouge">flex</code>의 별칭입니다.
+더 많은 정보: <a href="https://manned.org/lex.1">https://manned.org/lex.1</a>.</p>
+
+<ul>
+  <li>Lex 파일로부터 분석기를 생성하고, <code class="language-plaintext highlighter-rouge">lex.yy.c</code> 파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">분석기.l</span></p>
+
+<ul>
+  <li>출력 파일 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lex -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">분석기.l</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">분석기.c</span></p>
+
+<ul>
+  <li>Lex가 생성한 C 파일 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">c99 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/lex.yy.c</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">실행_파일</span></p>

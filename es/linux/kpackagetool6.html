@@ -1,0 +1,34 @@
+<h1 id="kpackagetool6">kpackagetool6</h1>
+
+<p>KPackage Manager: instala, lista, elimina paquetes Plasma.
+Más información: <a href="https://manned.org/kpackagetool6">https://manned.org/kpackagetool6</a>.</p>
+
+<ul>
+  <li>Lista todos los tipos de paquetes conocidos que se pueden instalar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kpackagetool6 --list-types</code></p>
+
+<ul>
+  <li>Instala el paquete desde un directorio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kpackagetool6 --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tipo_paquete</span><code class="language-plaintext highlighter-rouge"> --install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio</span></p>
+
+<ul>
+  <li>Actualiza el paquete instalado desde un directorio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kpackagetool6 --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tipo_paquete</span><code class="language-plaintext highlighter-rouge"> --upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio</span></p>
+
+<ul>
+  <li>Lista los plasmoides instalados (<code class="language-plaintext highlighter-rouge">--global</code> para todos los usuarios):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kpackagetool6 --type Plasma/Applet --list --global</code></p>
+
+<ul>
+  <li>Elimina un plasmoide por su nombre:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kpackagetool6 --type Plasma/Applet --remove "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span><code class="language-plaintext highlighter-rouge">"</code></p>

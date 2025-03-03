@@ -1,0 +1,28 @@
+<h1 id="getopt">getopt</h1>
+
+<p>명령줄 인수를 파싱합니다.
+더 많은 정보: <a href="https://www.gnu.org/software/libc/manual/html_node/Getopt.html">https://www.gnu.org/software/libc/manual/html_node/Getopt.html</a>.</p>
+
+<ul>
+  <li>축약형으로 <code class="language-plaintext highlighter-rouge">verbose</code>/<code class="language-plaintext highlighter-rouge">version</code> 플래그를 파싱:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">getopt --options vV --longoptions verbose,version -- --version --verbose</code></p>
+
+<ul>
+  <li>축약형 <code class="language-plaintext highlighter-rouge">-f</code>로 필수 인자를 갖는 <code class="language-plaintext highlighter-rouge">--file</code> 옵션 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">getopt --options f: --longoptions file: -- --file=somefile</code></p>
+
+<ul>
+  <li>축약형 <code class="language-plaintext highlighter-rouge">-v</code>로 선택적 인자를 갖는 <code class="language-plaintext highlighter-rouge">--verbose</code> 옵션 추가 및 비옵션 매개변수 <code class="language-plaintext highlighter-rouge">arg</code> 전달:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">getopt --options v:: --longoptions verbose:: -- --verbose arg</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">-r</code> 및 <code class="language-plaintext highlighter-rouge">--verbose</code> 플래그, 선택적 인자를 갖는 <code class="language-plaintext highlighter-rouge">--accept</code> 옵션, 필수 인자를 갖는 <code class="language-plaintext highlighter-rouge">--target</code> 옵션을 축약형으로 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">getopt --options rv::s::t: --longoptions verbose,source::,target: -- -v --target target</code></p>

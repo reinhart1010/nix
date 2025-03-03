@@ -1,0 +1,52 @@
+<h1 id="winget">winget</h1>
+
+<p>विंडोज़ पैकेज प्रबंधक।
+अधिक जानकारी: <a href="https://learn.microsoft.com/windows/package-manager/winget">https://learn.microsoft.com/windows/package-manager/winget</a>।</p>
+
+<ul>
+  <li>एक पैकेज इनस्टॉल करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज</span></p>
+
+<ul>
+  <li>एक पैकेज निकालें (अनइंस्टॉल करें): (नोट: <code class="language-plaintext highlighter-rouge">uninstall</code> की जगह <code class="language-plaintext highlighter-rouge">remove</code> का भी इस्तेमाल किया जा सकता है):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget uninstall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज</span></p>
+
+<ul>
+  <li>पैकेज के बारे में जानकारी प्रदर्शित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज</span></p>
+
+<ul>
+  <li>पैकेज की खोज करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज</span></p>
+
+<ul>
+  <li>सभी पैकेज़ को नवीनतम संस्करणों में अपग्रेड करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget upgrade --all</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">winget</code> के साथ प्रबंधित इन्सटाल्ड पैकेजों की सूची बनाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget list --source winget</code></p>
+
+<ul>
+  <li>किसी फ़ाइल से पैकेज आयात करें, या स्थापित पैकेज़ को किसी फ़ाइल में निर्यात करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import|export</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–import-file|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल\का\पथ</span></p>
+
+<ul>
+  <li>विंगेट-पीकेजीएस(winget-pkgs) रिपॉजिटरी में पीआर(PR) सबमिट करने से पहले मैनिफ़ेस्ट को सत्यापित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">winget validate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">प्रकट\का\पथ</span></p>

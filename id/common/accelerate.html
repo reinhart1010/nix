@@ -1,0 +1,40 @@
+<h1 id="accelerate">accelerate</h1>
+
+<p>Sebuah pustaka/library yang memungkinkan kode PyTorch yang sama dapat dijalankan secara menyebar.
+Informasi lebih lanjut: <a href="https://huggingface.co/docs/accelerate/index">https://huggingface.co/docs/accelerate/index</a>.</p>
+
+<ul>
+  <li>Tampilkan informasi lingkungan proyek PyTorch saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate env</code></p>
+
+<ul>
+  <li>Buat file konfigurasi secara interaktif:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate config</code></p>
+
+<ul>
+  <li>Tampilkan prakiraan kapasitas memori GPU yang dibutuhkan untuk menjalankan model Hugging Face dengan tipe data yang berbeda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate estimate-memory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama/model</span></p>
+
+<ul>
+  <li>Uji validitas sebuah file konfigurasi Accelerate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate test --config_file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/config.yaml</span></p>
+
+<ul>
+  <li>Jalankan sebuah model PyTorch dengan Accelerate, menggunakan CPU saja:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate launch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/script.py</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–cpu</span></p>
+
+<ul>
+  <li>Jalankan model dengan Accelerate, menggunakan GPU dari 2 perangkat yang berbeda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">accelerate launch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/script.py</span><code class="language-plaintext highlighter-rouge"> --multi_gpu --num_machines 2</code></p>

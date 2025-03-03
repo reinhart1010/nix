@@ -1,0 +1,46 @@
+<h1 id="mount">mount</h1>
+
+<p>Koppel Network File System (NFS) netwerkschijven.
+Meer informatie: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/mount">https://learn.microsoft.com/windows-server/administration/windows-commands/mount</a>.</p>
+
+<ul>
+  <li>Koppel een netwerkshare aan de "Z"-schijfletter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount \\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">computer_naam</span><code class="language-plaintext highlighter-rouge">\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">share_naam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Z:</span></p>
+
+<ul>
+  <li>Koppel een netwerkshare aan de eerstvolgende beschikbare schijfletter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount \\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">computer_naam</span><code class="language-plaintext highlighter-rouge">\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">share_naam</span><code class="language-plaintext highlighter-rouge"> *</code></p>
+
+<ul>
+  <li>Koppel een netwerkshare met een leesslot in seconden (standaard 0,8, kan 0,9 of 1 tot 60 zijn):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -o timeout=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconden</span><code class="language-plaintext highlighter-rouge"> \\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">computer_naam</span><code class="language-plaintext highlighter-rouge">\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">share_naam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Z:</span></p>
+
+<ul>
+  <li>Koppel een netwerkshare en probeer het maximaal 10 keer opnieuw als het mislukt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -o retry=10 \\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">computer_naam</span><code class="language-plaintext highlighter-rouge">\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">share_naam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Z:</span></p>
+
+<ul>
+  <li>Koppel een netwerkshare met geforceerde hoofdlettergevoeligheid:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -o casesensitive \\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">computer_naam</span><code class="language-plaintext highlighter-rouge">\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">share_naam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Z:</span></p>
+
+<ul>
+  <li>Koppel een netwerkshare als een anonieme gebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -o anon \\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">computer_naam</span><code class="language-plaintext highlighter-rouge">\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">share_naam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Z:</span></p>
+
+<ul>
+  <li>Koppel een netwerkshare met een specifiek type koppeling:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mount -o mtype=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">soft|hard</span><code class="language-plaintext highlighter-rouge"> \\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">computer_naam</span><code class="language-plaintext highlighter-rouge">\</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">share_naam</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Z:</span></p>

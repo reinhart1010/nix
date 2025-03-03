@@ -1,0 +1,40 @@
+<h1 id="git-shortlog">git shortlog</h1>
+
+<p><code class="language-plaintext highlighter-rouge">git log</code> 출력을 요약.
+더 많은 정보: <a href="https://git-scm.com/docs/git-shortlog">https://git-scm.com/docs/git-shortlog</a>.</p>
+
+<ul>
+  <li>작성자 이름별로 알파벳 순으로 그룹화된 모든 커밋 요약 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git shortlog</code></p>
+
+<ul>
+  <li>커밋 수에 따라 정렬된 모든 커밋 요약 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git shortlog </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–numbered</span></p>
+
+<ul>
+  <li>커미터의 신원(이름과 이메일)별로 그룹화된 모든 커밋 요약 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git shortlog </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–committer</span></p>
+
+<ul>
+  <li>마지막 5개의 커밋 요약 보기(즉, 리비전 범위 지정):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git shortlog HEAD~5..HEAD</code></p>
+
+<ul>
+  <li>현재 브랜치에서 모든 사용자, 이메일 및 커밋 수 요약 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git shortlog </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-s|–summary</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–numbered</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|–email</span></p>
+
+<ul>
+  <li>모든 브랜치에서 모든 사용자, 이메일 및 커밋 수 요약 보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git shortlog </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-s|–summary</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–numbered</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|–email</span><code class="language-plaintext highlighter-rouge"> --all</code></p>

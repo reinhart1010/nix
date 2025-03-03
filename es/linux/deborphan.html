@@ -1,0 +1,22 @@
+<h1 id="deborphan">deborphan</h1>
+
+<p>Muestra paquetes huérfanos en sistemas operativos usando el administrador de paquetes APT.
+Más información: <a href="https://manned.org/deborphan">https://manned.org/deborphan</a>.</p>
+
+<ul>
+  <li>Muestra paquetes de biblioteca (de la sección "libs" del repositorio de paquetes) que no son requeridos por otro paquete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">deborphan</code></p>
+
+<ul>
+  <li>Lista paquetes huérfanos de la sección "libs", así como paquetes huérfanos que tienen un nombre que parece un nombre de biblioteca:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">deborphan --guess-all</code></p>
+
+<ul>
+  <li>Busca paquetes que son recomendados o sugeridos (pero no requeridos) por otro paquete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">deborphan --nice-mode</code></p>

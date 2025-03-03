@@ -1,0 +1,35 @@
+<h1 id="az-provider">az provider</h1>
+
+<p>리소스 공급자 관리.
+<code class="language-plaintext highlighter-rouge">azure-cli</code>의 일부 (<code class="language-plaintext highlighter-rouge">az</code>라고도 함).
+더 많은 정보: <a href="https://learn.microsoft.com/cli/azure/provider">https://learn.microsoft.com/cli/azure/provider</a>.</p>
+
+<ul>
+  <li>공급자 등록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az provider register --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Microsoft.PolicyInsights</span></p>
+
+<ul>
+  <li>공급자 등록 취소:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az provider unregister --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Microsoft.Automation</span></p>
+
+<ul>
+  <li>구독에 대한 모든 공급자를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az provider list</code></p>
+
+<ul>
+  <li>특정 공급업체에 대한 정보를 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az provider show --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Microsoft.Storage</span></p>
+
+<ul>
+  <li>특정 공급자에 대한 모든 리소스 유형을 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az provider list --query "[?namespace=='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Microsoft.Network</span><code class="language-plaintext highlighter-rouge">'].resourceTypes[].resourceType"</code></p>

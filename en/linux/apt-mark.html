@@ -1,0 +1,34 @@
+<h1 id="apt-mark">apt-mark</h1>
+
+<p>Utility to change the status of installed packages.
+More information: <a href="https://manned.org/apt-mark.8">https://manned.org/apt-mark.8</a>.</p>
+
+<ul>
+  <li>Mark a package as automatically installed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt-mark auto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Hold a package at its current version and prevent updates to it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt-mark hold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Allow a package to be updated again:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt-mark unhold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Show manually installed packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-mark showmanual</code></p>
+
+<ul>
+  <li>Show held packages that aren't being updated:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-mark showhold</code></p>

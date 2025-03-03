@@ -1,0 +1,40 @@
+<h1 id="bru">bru</h1>
+
+<p>API 탐색 및 테스트를 위한 오픈소스 IDE인 Bruno용 CLI.
+더 많은 정보: <a href="https://docs.usebruno.com/bru-cli/overview">https://docs.usebruno.com/bru-cli/overview</a>.</p>
+
+<ul>
+  <li>현재 디렉터리에서 모든 요청된 파일을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bru run</code></p>
+
+<ul>
+  <li>파일 이름을 지정하여, 현재 디렉터리에서 단일 요청을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bru run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.bru</span></p>
+
+<ul>
+  <li>환경 파일을 사용해 요청을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bru run --env </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">환경_이름</span></p>
+
+<ul>
+  <li>변수가 있는 환경을 사용하여 요청을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bru run --env </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">환경_이름</span><code class="language-plaintext highlighter-rouge"> --env-var </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변수_이름</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">변수_값</span></p>
+
+<ul>
+  <li>요청을 실행하고, 출력 파일에 결과를 수집:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bru run --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.json</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bru run --help</code></p>

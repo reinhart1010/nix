@@ -1,0 +1,34 @@
+<h1 id="physlock">physlock</h1>
+
+<p>Lock all consoles and virtual terminals.
+More information: <a href="https://github.com/muennich/physlock">https://github.com/muennich/physlock</a>.</p>
+
+<ul>
+  <li>Lock every console (require current user or root to unlock):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">physlock</code></p>
+
+<ul>
+  <li>Mute kernel messages on console while locked:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">physlock -m</code></p>
+
+<ul>
+  <li>Disable SysRq mechanism while locked:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">physlock -s</code></p>
+
+<ul>
+  <li>Display a message before the password prompt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">physlock -p "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Locked!</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Fork and detach physlock (useful for suspend or hibernate scripts):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">physlock -d</code></p>

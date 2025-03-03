@@ -1,0 +1,40 @@
+<h1 id="lxc-profile">lxc profile</h1>
+
+<p>Manage profiles for LXD containers.
+More information: <a href="https://linuxcontainers.org/lxd/docs/master/profiles">https://linuxcontainers.org/lxd/docs/master/profiles</a>.</p>
+
+<ul>
+  <li>List all available profiles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxc profile list</code></p>
+
+<ul>
+  <li>Show the configuration of a specific profile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxc profile show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span></p>
+
+<ul>
+  <li>Edit a specific profile in the default editor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxc profile edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span></p>
+
+<ul>
+  <li>Edit a specific profile importing the configuration values from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxc profile edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config.yaml</span></p>
+
+<ul>
+  <li>Launch a new container with specific profiles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxc launch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_image</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile1</span><code class="language-plaintext highlighter-rouge"> --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile2</span></p>
+
+<ul>
+  <li>Change the profiles of a running container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lxc profile assign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile1,profile2</span></p>

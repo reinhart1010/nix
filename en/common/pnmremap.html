@@ -1,0 +1,28 @@
+<h1 id="pnmremap">pnmremap</h1>
+
+<p>Replace the colors in a PNM image.
+More information: <a href="https://netpbm.sourceforge.net/doc/pnmremap.html">https://netpbm.sourceforge.net/doc/pnmremap.html</a>.</p>
+
+<ul>
+  <li>Replace the colors in an image with those in the specified color palette:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmremap -mapfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/palette_file.ppm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Use Floyd-Steinberg dithering for representing colors missing in the color palette:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmremap -mapfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/palette_file.ppm</span><code class="language-plaintext highlighter-rouge"> -floyd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Use the first color in the palette for representing colors missing in the color palette:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmremap -mapfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/palette_file.ppm</span><code class="language-plaintext highlighter-rouge"> -firstisdefault </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Use the specified color for representing colors missing in the color palette:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmremap -mapfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/palette_file.ppm</span><code class="language-plaintext highlighter-rouge"> -missingcolor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">color</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>

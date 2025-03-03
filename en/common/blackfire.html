@@ -1,0 +1,52 @@
+<h1 id="blackfire">blackfire</h1>
+
+<p>Monitor, profile and test a PHP application.
+More information: <a href="https://blackfire.io">https://blackfire.io</a>.</p>
+
+<ul>
+  <li>Initialize and configure the Blackfire client:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blackfire config</code></p>
+
+<ul>
+  <li>Launch the Blackfire agent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blackfire agent</code></p>
+
+<ul>
+  <li>Launch the Blackfire agent on a specific socket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blackfire agent --socket="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp://127.0.0.1:8307</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run the profiler on a specific program:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blackfire run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">php path/to/file.php</span></p>
+
+<ul>
+  <li>Run the profiler and collect 10 samples:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blackfire --samples 10 run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">php path/to/file.php</span></p>
+
+<ul>
+  <li>Run the profiler and output results as JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blackfire --json run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">php path/to/file.php</span></p>
+
+<ul>
+  <li>Upload a profiler file to the Blackfire web service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blackfire upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>View the status of profiles on the Blackfire web service:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blackfire status</code></p>

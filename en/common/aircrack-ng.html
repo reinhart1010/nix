@@ -1,0 +1,23 @@
+<h1 id="aircrack-ng">aircrack-ng</h1>
+
+<p>Crack WEP and WPA/WPA2 keys from handshake in captured packets.
+Part of Aircrack-ng network software suite.
+More information: <a href="https://www.aircrack-ng.org/doku.php?id=aircrack-ng">https://www.aircrack-ng.org/doku.php?id=aircrack-ng</a>.</p>
+
+<ul>
+  <li>Crack key from capture file using [w]ordlist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aircrack-ng -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/wordlist.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/capture.cap</span></p>
+
+<ul>
+  <li>Crack key from capture file using [w]ordlist and the access point's [e]ssid:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aircrack-ng -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/wordlist.txt</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">essid</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/capture.cap</span></p>
+
+<ul>
+  <li>Crack key from capture file using [w]ordlist and the access point's MAC address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aircrack-ng -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/wordlist.txt</span><code class="language-plaintext highlighter-rouge"> --bssid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/capture.cap</span></p>

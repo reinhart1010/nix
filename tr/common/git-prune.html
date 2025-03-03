@@ -1,0 +1,23 @@
+<h1 id="git-prune">git prune</h1>
+
+<p>Nesne veritabanından erişilemeyen tüm nesneleri budamaya yarayan git komutu.
+Bu komut genelde doğrudan kullanılmasa da Git gc tarafından bir iç komut olarak kullanılmaktadır.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-prune">https://git-scm.com/docs/git-prune</a>.</p>
+
+<ul>
+  <li>Git prune tarafından silinebilecek nesneleri onları silmeden raporla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git prune --dry-run</code></p>
+
+<ul>
+  <li>Erişilemeyen nesneleri buda ve <code class="language-plaintext highlighter-rouge">stdout</code>'a budanan şeyleri görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git prune --verbose</code></p>
+
+<ul>
+  <li>Erişilemeyen nesneleri budarken ilerlemeyi göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git prune --progress</code></p>

@@ -1,0 +1,22 @@
+<h1 id="mkfsexfat">mkfs.exfat</h1>
+
+<p>在分区内创建一个 exFAT 文件系统。
+更多信息：<a href="https://manned.org/mkfs.exfat">https://manned.org/mkfs.exfat</a>.</p>
+
+<ul>
+  <li>在设备 b 的分区 1 内创建一个 exFAT 文件系统（<code class="language-plaintext highlighter-rouge">sdb1</code>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.exfat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>创建一个带有卷名的文件系统：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.exfat -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>创建一个带有卷 ID 的文件系统：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.exfat -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>

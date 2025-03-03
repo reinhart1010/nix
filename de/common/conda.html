@@ -1,0 +1,53 @@
+<h1 id="conda">conda</h1>
+
+<p>Eine Paket-, Abhängigkeits- und Umgebungsverwaltung für beliebige Programmiersprachen.
+Manche Unterbefehle wie <code class="language-plaintext highlighter-rouge">create</code> sind separat dokumentiert.
+Weitere Informationen: <a href="https://github.com/conda/conda">https://github.com/conda/conda</a>.</p>
+
+<ul>
+  <li>Erstelle eine neue Umgebung mit den zu installierenden Paketen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">umgebungsname</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">python=3.9 matplotlib</span></p>
+
+<ul>
+  <li>Liste alle Umgebungen auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda info --envs</code></p>
+
+<ul>
+  <li>Lade eine Umgebung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda activate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">umgebungs_name</span></p>
+
+<ul>
+  <li>Entlade eine Umgebung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda deactivate</code></p>
+
+<ul>
+  <li>Lösche eine Umgebung (entferne alle Pakete):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda remove --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">umgebungsname</span><code class="language-plaintext highlighter-rouge"> --all</code></p>
+
+<ul>
+  <li>Installiere Pakete in die derzeit geladene Umgebung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">python=3.4 numpy</span></p>
+
+<ul>
+  <li>Liste alle installierten Pakete in der derzeit geladenen Umgebung auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda list</code></p>
+
+<ul>
+  <li>Lösche alle ungenutzten Pakete und leere den Cache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">conda clean --all</code></p>

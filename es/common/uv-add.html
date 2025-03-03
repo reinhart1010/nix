@@ -1,0 +1,53 @@
+<h1 id="uv-add">uv add</h1>
+
+<p>Añade dependencias de paquetes al archivo <code class="language-plaintext highlighter-rouge">pyproject.toml</code>.
+Los paquetes se especifican según <a href="https://peps.python.org/pep-0508/">https://peps.python.org/pep-0508/</a>.
+Más información: <a href="https://docs.astral.sh/uv/reference/cli/#uv-add">https://docs.astral.sh/uv/reference/cli/#uv-add</a>.</p>
+
+<ul>
+  <li>Añade la última versión de un paquete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uv add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Añade múltiples paquetes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uv add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete1 paquete2 …</span></p>
+
+<ul>
+  <li>Añade un paquete con un requisito de versión:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uv add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete&gt;=1.2.3</span></p>
+
+<ul>
+  <li>Añade paquetes a un grupo de dependencia opcional, que se incluirá cuando se publique:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uv add --optional </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opcional</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete1 paquete2 …</span></p>
+
+<ul>
+  <li>Añade paquetes a un grupo local, que no se incluirán cuando se publiquen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uv add --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete1 paquete2 …</span></p>
+
+<ul>
+  <li>Añade paquetes al grupo dev, abreviatura de <code class="language-plaintext highlighter-rouge">--group dev</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uv add --dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete1 paquete2 …</span></p>
+
+<ul>
+  <li>Añade paquete como editable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uv add --editable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/paquete/</span></p>
+
+<ul>
+  <li>Habilita un extra al instalar el paquete, se puede proporcionar varias veces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uv add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span><code class="language-plaintext highlighter-rouge"> --extra </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">característica_extra</span></p>

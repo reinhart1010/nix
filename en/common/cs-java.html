@@ -1,0 +1,46 @@
+<h1 id="cs-java">cs java</h1>
+
+<p>The <code class="language-plaintext highlighter-rouge">java</code> and <code class="language-plaintext highlighter-rouge">java-home</code> commands fetch and install JVMs. The <code class="language-plaintext highlighter-rouge">java</code> command runs them too.
+More information: <a href="https://get-coursier.io/docs/cli-java">https://get-coursier.io/docs/cli-java</a>.</p>
+
+<ul>
+  <li>Display Java version by using coursier:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs java -version</code></p>
+
+<ul>
+  <li>Call a specific Java version with custom properties using coursier:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs java --jvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jvm_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jvm_version</span><code class="language-plaintext highlighter-rouge"> -Xmx32m -X</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">another_jvm_opt</span><code class="language-plaintext highlighter-rouge"> -jar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/jar_name.jar</span></p>
+
+<ul>
+  <li>List all the available JVM in the coursier default index:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs java --available</code></p>
+
+<ul>
+  <li>List all the installed JVM in the system with his own location:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs java --installed</code></p>
+
+<ul>
+  <li>Set a specific JVM as one-off default for the shell instance:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs java --jvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jvm_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jvm_version</span><code class="language-plaintext highlighter-rouge"> --env</code></p>
+
+<ul>
+  <li>Revert the changes for the default JVM settings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eval "$(cs java --disable)"</code></p>
+
+<ul>
+  <li>Set a specific JVM as default for the whole system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cs java --jvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jvm_name</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jvm_version</span><code class="language-plaintext highlighter-rouge"> --setup</code></p>

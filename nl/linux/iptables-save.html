@@ -1,0 +1,23 @@
+<h1 id="iptables-save">iptables-save</h1>
+
+<p>Sla de <code class="language-plaintext highlighter-rouge">iptables</code> IPv4 configuratie op.
+Gebruik <code class="language-plaintext highlighter-rouge">ip6tables-save</code> om hetzelfde te doen voor IPv6.
+Meer informatie: <a href="https://manned.org/iptables-save">https://manned.org/iptables-save</a>.</p>
+
+<ul>
+  <li>Toon de <code class="language-plaintext highlighter-rouge">iptables</code> configuratie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables-save</code></p>
+
+<ul>
+  <li>Toon de <code class="language-plaintext highlighter-rouge">iptables</code> configuratie van een specifiek [t]abel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables-save --table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tabel</span></p>
+
+<ul>
+  <li>Sla de <code class="language-plaintext highlighter-rouge">iptables</code> configuratie op in een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables-save --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>

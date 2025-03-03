@@ -1,0 +1,56 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="kill">kill</h1>
+
+<p>Envia um sinal para um processo, geralmente para finalizar o processo.
+Todos os sinais exceto pelo SIGKILL e SIGSTOP podem ser interceptados pelo processo para finalizar de forma limpa.
+Mais informações: <a href="https://manned.org/kill.1posix">https://manned.org/kill.1posix</a>.</p>
+
+<ul>
+  <li>Finaliza um programa usando o sinal default SIGTERM (terminate):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_do_processo</span></p>
+
+<ul>
+  <li>Lista todos os nomes dos sinais disponíveis (para serem usados sem o prefixo <code class="language-plaintext highlighter-rouge">SIG</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -l</code></p>
+
+<ul>
+  <li>Finaliza um processo em background:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill %</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_do_processo</span></p>
+
+<ul>
+  <li>Finaliza um programa usando o sinal SIGHUP. Muitos daemons vão recarregar ao invés de finalizar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|HUP</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_do_processo</span></p>
+
+<ul>
+  <li>Finaliza um programa usando o sinal SIGINT (interrupt). Isto é tipicamente iniciado pelo usuário ao pressionar <code class="language-plaintext highlighter-rouge">Ctrl + C</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2|INT</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_do_processo</span></p>
+
+<ul>
+  <li>Envia sinal para o sistema operacional para finalizar imediatamente o programa (quem não tem chance de capturar o sinal):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9|KILL</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_do_processo</span></p>
+
+<ul>
+  <li>Envia sinal para o sistema operacional para pausar o programa até um sinal SIGCONT ("continue") seja recebido:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">17|STOP</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_do_processo</span></p>
+
+<ul>
+  <li>Envia um sinal <code class="language-plaintext highlighter-rouge">SIGUSR1</code> para todos os processos de um dado GID (group id):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGUSR1</span><code class="language-plaintext highlighter-rouge"> -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_do_grupo</span></p>

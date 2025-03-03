@@ -1,0 +1,52 @@
+<h1 id="synoupgrade">synoupgrade</h1>
+
+<p>Upgrade Synology DiskStation Manager (DSM) - the Synology NAS operating system.
+More information: <a href="https://www.synology.com/dsm">https://www.synology.com/dsm</a>.</p>
+
+<ul>
+  <li>Check if upgrades are available:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo synoupgrade --check</code></p>
+
+<ul>
+  <li>Check for patches without upgrading the DSM version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo synoupgrade --check-smallupdate</code></p>
+
+<ul>
+  <li>Download the latest upgrade available (use <code class="language-plaintext highlighter-rouge">--download-smallupdate</code> for patches):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo synoupgrade --download</code></p>
+
+<ul>
+  <li>Start the upgrade process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo synoupgrade --start</code></p>
+
+<ul>
+  <li>Upgrade to the latest version automatically:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo synoupgrade --auto</code></p>
+
+<ul>
+  <li>Apply patches without upgrading the DSM version automatically:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo synoupgrade --auto-smallupdate</code></p>
+
+<ul>
+  <li>Upgrade the DSM using a patch file (should be an absolute path):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo synoupgrade --patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/file.pat</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">synoupgrade</code></p>

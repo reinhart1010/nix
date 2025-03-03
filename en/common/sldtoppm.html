@@ -1,0 +1,16 @@
+<h1 id="sldtoppm">sldtoppm</h1>
+
+<p>Convert an AutoCAD slide file to a PPM image.
+More information: <a href="https://netpbm.sourceforge.net/doc/sldtoppm.html">https://netpbm.sourceforge.net/doc/sldtoppm.html</a>.</p>
+
+<ul>
+  <li>Convert an SLD file to a PPM image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sldtoppm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.sld</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Compensate for non-square pixels by scaling the width of the image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sldtoppm -adjust </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.sld</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>

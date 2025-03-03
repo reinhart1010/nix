@@ -1,0 +1,41 @@
+<h1 id="pacman-files">pacman –files</h1>
+
+<p>Arch Linux pakketbeheer hulpprogramma.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">pacman</code>,<code class="language-plaintext highlighter-rouge"> pkgfile</code>.
+Meer informatie: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Werk de pakketdatabase bij:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Fy</code></p>
+
+<ul>
+  <li>Zoek het pakket dat een specifiek bestand ([F]) bezit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestandsnaam</span></p>
+
+<ul>
+  <li>Zoek het pakket dat een specifiek bestand ([F]) bezit, met behulp van een reguliere e[x]pressie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Fx '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reguliere_expressie</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Maak een lijst van alleen de pakketnamen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Fq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestandsnaam</span></p>
+
+<ul>
+  <li>Toon ([l]) de bestanden ([F]) die eigendom zijn van een specifiek pakket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Fl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakket</span></p>
+
+<ul>
+  <li>Toon de [h]elp:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Fh</code></p>

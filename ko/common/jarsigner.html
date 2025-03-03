@@ -1,0 +1,22 @@
+<h1 id="jarsigner">jarsigner</h1>
+
+<p>Java 아카이브(JAR) 파일 서명 및 검증 도구.
+더 많은 정보: <a href="https://docs.oracle.com/en/java/javase/20/docs/specs/man/jarsigner.html">https://docs.oracle.com/en/java/javase/20/docs/specs/man/jarsigner.html</a>.</p>
+
+<ul>
+  <li>JAR 파일 서명:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jarsigner </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.jar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키스토어_별칭</span></p>
+
+<ul>
+  <li>특정 알고리즘으로 JAR 파일 서명:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jarsigner -sigalg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">알고리즘</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.jar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키스토어_별칭</span></p>
+
+<ul>
+  <li>JAR 파일의 서명 검증:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jarsigner -verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.jar</span></p>

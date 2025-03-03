@@ -1,0 +1,46 @@
+<h1 id="gh-pr-merge">gh pr merge</h1>
+
+<p>Merge GitHub pull requests.
+More information: <a href="https://cli.github.com/manual/gh_pr_merge">https://cli.github.com/manual/gh_pr_merge</a>.</p>
+
+<ul>
+  <li>Merge the pull request associated with the current branch interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh pr merge</code></p>
+
+<ul>
+  <li>Merge the specified pull request, interactively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh pr merge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pr_number</span></p>
+
+<ul>
+  <li>Merge the pull request, removing the branch on both the local and the remote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh pr merge --delete-branch</code></p>
+
+<ul>
+  <li>Merge the current pull request with the specified merge strategy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh pr merge --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">merge|squash|rebase</span></p>
+
+<ul>
+  <li>Merge the current pull request with the specified merge strategy and commit message:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh pr merge --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">merge|squash|rebase</span><code class="language-plaintext highlighter-rouge"> --subject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_message</span></p>
+
+<ul>
+  <li>Squash the current pull request into one commit with the message body and merge:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh pr merge --squash --body="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_message_body</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gh pr merge --help</code></p>

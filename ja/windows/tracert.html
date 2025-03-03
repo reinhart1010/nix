@@ -1,0 +1,40 @@
+<h1 id="tracert">tracert</h1>
+
+<p>PCとターゲット間の経路の各ステップに関する情報を受信します。
+もっと詳しく: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/tracert">https://learn.microsoft.com/windows-server/administration/windows-commands/tracert</a>。</p>
+
+<ul>
+  <li>ルートを追跡する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">tracert</code>がIPアドレスをホスト名に解決しないようにする:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracert /d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">tracert</code>にIPv4のみの利用を強制する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracert /4 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">tracert</code>にIpv6のみの利用を強制する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracert /6 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP</span></p>
+
+<ul>
+  <li>ターゲットの検索における最大ホップ数を指定する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracert /h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">最大ホップ数</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP</span></p>
+
+<ul>
+  <li>ヘルプを表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tracert /?</code></p>

@@ -1,0 +1,34 @@
+<h1 id="ledger">ledger</h1>
+
+<p>A powerful, double-entry accounting system.
+More information: <a href="https://www.ledger-cli.org">https://www.ledger-cli.org</a>.</p>
+
+<ul>
+  <li>Print a balance report showing totals:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ledger balance --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/ledger.journal</span></p>
+
+<ul>
+  <li>List all postings in Expenses ordered by amount:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ledger register </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expenses</span><code class="language-plaintext highlighter-rouge"> --sorted </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">amount</span></p>
+
+<ul>
+  <li>Print total Expenses other than Drinks and Food:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ledger balance </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Expenses</span><code class="language-plaintext highlighter-rouge"> and not (</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Drinks</span><code class="language-plaintext highlighter-rouge"> or </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Food</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Print a budget report:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ledger budget</code></p>
+
+<ul>
+  <li>Print summary information about all the postings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ledger stats</code></p>

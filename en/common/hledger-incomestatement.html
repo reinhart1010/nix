@@ -1,0 +1,29 @@
+<h1 id="hledger-incomestatement">hledger incomestatement</h1>
+
+<p>Show revenue inflows and expense outflows during the report period.
+Amounts are shown with normal positive sign, as in conventional financial statements.
+More information: <a href="https://hledger.org/hledger.html#incomestatement">https://hledger.org/hledger.html#incomestatement</a>.</p>
+
+<ul>
+  <li>Show revenues and expenses (changes in <code class="language-plaintext highlighter-rouge">Revenue</code> and <code class="language-plaintext highlighter-rouge">Expense</code> accounts):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger incomestatement</code></p>
+
+<ul>
+  <li>Show revenues and expenses each month:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger incomestatement --monthly</code></p>
+
+<ul>
+  <li>Show monthly revenues/expenses/totals, largest first, summarised to 2 levels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger incomestatement --monthly --row-total --average --sort --depth 2</code></p>
+
+<ul>
+  <li>Short form of the above, and generate HTML output in <code class="language-plaintext highlighter-rouge">is.html</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger is -MTAS -2 -o is.html</code></p>

@@ -1,0 +1,22 @@
+<h1 id="lxc-create">lxc-create</h1>
+
+<p>Create linux containers.
+More information: <a href="https://linuxcontainers.org/lxc/getting-started">https://linuxcontainers.org/lxc/getting-started</a>.</p>
+
+<ul>
+  <li>Create a container interactively in <code class="language-plaintext highlighter-rouge">/var/lib/lxc/</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lxc-create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container</span><code class="language-plaintext highlighter-rouge"> --template download</code></p>
+
+<ul>
+  <li>Create a container in a target directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lxc-create --lxcpath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/directory/</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container</span><code class="language-plaintext highlighter-rouge"> --template download</code></p>
+
+<ul>
+  <li>Create a container passing options to a template:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo lxc-create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --template download -- --dist </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distro-name</span><code class="language-plaintext highlighter-rouge"> --release </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">release-version</span><code class="language-plaintext highlighter-rouge"> --arch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arch</span></p>

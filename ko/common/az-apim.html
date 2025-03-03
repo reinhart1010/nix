@@ -1,0 +1,35 @@
+<h1 id="az-apim">az apim</h1>
+
+<p>Azure API Management 서비스를 관리.
+<code class="language-plaintext highlighter-rouge">azure-cli</code>의 일부 (<code class="language-plaintext highlighter-rouge">az</code>라고도 함).
+더 많은 정보: <a href="https://learn.microsoft.com/cli/azure/apim">https://learn.microsoft.com/cli/azure/apim</a>.</p>
+
+<ul>
+  <li>리소스 그룹 내 API Management 서비스를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az apim list --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span></p>
+
+<ul>
+  <li>API Management 서비스 인스턴스 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az apim create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span><code class="language-plaintext highlighter-rouge"> --publisher-email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이메일</span><code class="language-plaintext highlighter-rouge"> --publisher-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>API Management 서비스 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az apim delete --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span></p>
+
+<ul>
+  <li>API Management 서비스 인스턴스의 세부정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az apim show --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span></p>
+
+<ul>
+  <li>API Management 서비스 인스턴스 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az apim update --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리소스_그룹</span></p>

@@ -1,0 +1,22 @@
+<h1 id="csshx">csshX</h1>
+
+<p>Herramienta SSH de clúster para macOS.
+Más información: <a href="https://github.com/brockgr/csshx">https://github.com/brockgr/csshx</a>.</p>
+
+<ul>
+  <li>Conectarse a múltiples hosts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csshX </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombrehost1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombrehost2</span></p>
+
+<ul>
+  <li>Conectarse a múltiples hosts con una clave SSH dada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csshX </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario@nombrehost1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario@nombrehost2</span><code class="language-plaintext highlighter-rouge"> --ssh_args "-i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_clave.pem</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Conectarse a un clúster predefinido desde <code class="language-plaintext highlighter-rouge">/etc/clusters</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csshX cluster1</code></p>

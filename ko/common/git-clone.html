@@ -1,0 +1,52 @@
+<h1 id="git-clone">git clone</h1>
+
+<p>기존 저장소를 복제합니다.
+더 많은 정보: <a href="https://git-scm.com/docs/git-clone">https://git-scm.com/docs/git-clone</a>.</p>
+
+<ul>
+  <li>기존 저장소를 새 디렉토리로 복제 (기본 디렉토리는 저장소 이름):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_저장소_위치</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>기존 저장소 및 그 하위 모듈 복제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_저장소_위치</span></p>
+
+<ul>
+  <li>기존 저장소의 <code class="language-plaintext highlighter-rouge">.git</code> 디렉토리만 복제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --no-checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_저장소_위치</span></p>
+
+<ul>
+  <li>로컬 저장소 복제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --local </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/로컬/저장소</span></p>
+
+<ul>
+  <li>조용히 복제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_저장소_위치</span></p>
+
+<ul>
+  <li>기존 저장소를 기본 브랜치에서 최근 커밋 10개만 복제 (시간 절약에 좋음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_저장소_위치</span></p>
+
+<ul>
+  <li>기존 저장소의 특정 브랜치만 복제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span><code class="language-plaintext highlighter-rouge"> --single-branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_저장소_위치</span></p>
+
+<ul>
+  <li>특정 SSH 명령을 사용하여 기존 저장소 복제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clone --config core.sshCommand="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh -i path/to/private_ssh_key</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">원격_저장소_위치</span></p>

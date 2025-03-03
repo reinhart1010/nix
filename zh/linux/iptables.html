@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="iptables">iptables</h1>
+
+<p>可用于配置 Linux 内核防火墙提供的过滤表、规则链和规则的程序。
+更多信息：<a href="https://manned.org/iptables">https://manned.org/iptables</a>.</p>
+
+<ul>
+  <li>查看过滤表的规则链、规则以及数据包/字节计数器：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables -vnL</code></p>
+
+<ul>
+  <li>设定规则链策略规则：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">规则链</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">规则</span></p>
+
+<ul>
+  <li>追加规则到 IP 的规则链策略：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">规则链</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge"> -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">规则</span></p>
+
+<ul>
+  <li>追加规则到 IP 的规则链策略（考虑协议与端口）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">规则链</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">协议</span><code class="language-plaintext highlighter-rouge"> --dport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">端口</span><code class="language-plaintext highlighter-rouge"> -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">规则</span></p>
+
+<ul>
+  <li>删除规则链中的规则：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">规则链</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">规则所在行号</span></p>
+
+<ul>
+  <li>将指定过滤表的 iptables 配置保存到文件中：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables-save -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">过滤表名</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">iptables_文件路径</span></p>
+
+<ul>
+  <li>从文件中还原 iptables 配置：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables-restore &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">iptables_文件路径</span></p>

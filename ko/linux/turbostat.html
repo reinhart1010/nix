@@ -1,0 +1,34 @@
+<h1 id="turbostat">turbostat</h1>
+
+<p>프로세서 토폴로지, 주파수, 온도, 전력 및 유휴 통계를 보고합니다.
+더 많은 정보: <a href="https://manned.org/turbostat.8">https://manned.org/turbostat.8</a>.</p>
+
+<ul>
+  <li>5초마다 통계 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo turbostat</code></p>
+
+<ul>
+  <li>지정한 초마다 통계 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo turbostat -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">초</span></p>
+
+<ul>
+  <li>시스템 구성 헤더 정보를 해독하여 출력하지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo turbostat --quiet</code></p>
+
+<ul>
+  <li>헤더 정보 없이 1초마다 CPU에 대한 유용한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo turbostat --quiet --interval 1 --cpu 0-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">CPU_스레드_수</span><code class="language-plaintext highlighter-rouge"> --show "PkgWatt","Busy%","Core","CoreTmp","Thermal"</code></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">turbostat --help</code></p>

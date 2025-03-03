@@ -1,0 +1,35 @@
+<h1 id="az-image">az image</h1>
+
+<p>Manage custom Virtual Machine Images in Azure.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/image">https://learn.microsoft.com/cli/azure/image</a>.</p>
+
+<ul>
+  <li>List the custom images under a resource group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az image list --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span></p>
+
+<ul>
+  <li>Create a custom image from managed disks or snapshots:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az image create --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --os-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">windows|linux</span><code class="language-plaintext highlighter-rouge"> --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">os_disk_source</span></p>
+
+<ul>
+  <li>Delete a custom image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az image delete --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span></p>
+
+<ul>
+  <li>Show details of a custom image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az image show --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span></p>
+
+<ul>
+  <li>Update custom images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az image update --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_group</span><code class="language-plaintext highlighter-rouge"> --set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">property=value</span></p>

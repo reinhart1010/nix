@@ -1,0 +1,46 @@
+<h1 id="k8sec">k8sec</h1>
+
+<p>Manage Kubernetes secrets.
+More information: <a href="https://github.com/dtan4/k8sec">https://github.com/dtan4/k8sec</a>.</p>
+
+<ul>
+  <li>List all secrets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k8sec list</code></p>
+
+<ul>
+  <li>List a specific secret as a base64-encoded string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k8sec list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secret_name</span><code class="language-plaintext highlighter-rouge"> --base64</code></p>
+
+<ul>
+  <li>Set a secret's value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k8sec set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secret_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key=value</span></p>
+
+<ul>
+  <li>Set a base64-encoded value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k8sec set --base64 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secret_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key=encoded_value</span></p>
+
+<ul>
+  <li>Unset a secret:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k8sec unset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secret_name</span></p>
+
+<ul>
+  <li>Load secrets from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k8sec load -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secret_name</span></p>
+
+<ul>
+  <li>Dump secrets to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k8sec dump -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secret_name</span></p>

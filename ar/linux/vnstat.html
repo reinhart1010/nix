@@ -1,0 +1,34 @@
+<h1 id="vnstat">vnstat</h1>
+
+<p>مراقبة حركة مرور الشبكة عن طريق وحدة تحكم.
+لمزيد من التفاصيل: <a href="https://manned.org/vnstat">https://manned.org/vnstat</a>.</p>
+
+<ul>
+  <li>عرض ملخص حركة المرور لجميع الواجهات:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vnstat</code></p>
+
+<ul>
+  <li>عرض ملخص حركة المرور لواجهة شبكة محددة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vnstat -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_interface</span></p>
+
+<ul>
+  <li>عرض إحصائيات مباشرة لواجهة شبكة محددة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vnstat -l -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_interface</span></p>
+
+<ul>
+  <li>عرض إحصائيات حركة المرور على أساس كل ساعة خلال آخر 24 ساعة باستخدام رسم بياني شريطي:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vnstat -hg</code></p>
+
+<ul>
+  <li>قياس وعرض متوسط حركة المرور لمدة 30 ثانية:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vnstat -tr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span></p>

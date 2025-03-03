@@ -1,0 +1,41 @@
+<h1 id="quotacheck">quotacheck</h1>
+
+<p>파일 시스템의 디스크 사용량을 스캔하여 쿼터 파일을 생성, 확인 및 복구합니다.
+쿼터 파일의 손상이나 손실을 방지하기 위해 쿼터를 비활성화한 상태에서 실행하는 것이 좋습니다.
+더 많은 정보: <a href="https://manned.org/quotacheck">https://manned.org/quotacheck</a>.</p>
+
+<ul>
+  <li>모든 마운트된 비-NFS 파일 시스템의 쿼터 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo quotacheck --all</code></p>
+
+<ul>
+  <li>쿼터가 활성화된 상태에서도 강제 확인 (쿼터 파일의 손상이나 손실이 발생할 수 있음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo quotacheck --force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">마운트_지점</span></p>
+
+<ul>
+  <li>디버그 모드로 주어진 파일 시스템의 쿼터 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo quotacheck --debug </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">마운트_지점</span></p>
+
+<ul>
+  <li>진행 상황을 표시하며 주어진 파일 시스템의 쿼터 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo quotacheck --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">마운트_지점</span></p>
+
+<ul>
+  <li>사용자 쿼터 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo quotacheck --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">마운트_지점</span></p>
+
+<ul>
+  <li>그룹 쿼터 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo quotacheck --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">마운트_지점</span></p>

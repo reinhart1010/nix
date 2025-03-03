@@ -1,0 +1,28 @@
+<h1 id="apt-file">apt-file</h1>
+
+<p><code class="language-plaintext highlighter-rouge">apt</code> 패키지에서 아직 설치되지 않은 파일 검색.
+더 많은 정보: <a href="https://manned.org/apt-file.1">https://manned.org/apt-file.1</a>.</p>
+
+<ul>
+  <li>메타데이터 데이터베이스 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>지정된 파일 또는 경로를 포함하는 패키지 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search|find</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">부분_경로/대상/파일</span></p>
+
+<ul>
+  <li>특정 패키지의 내용 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">show|list</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">정규_표현식</code>과 일치하는 패키지 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search|find</span><code class="language-plaintext highlighter-rouge"> --regexp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">정규_표현식</span></p>

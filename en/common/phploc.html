@@ -1,0 +1,46 @@
+<h1 id="phploc">phploc</h1>
+
+<p>Quickly measure the size and analyzing the structure of a PHP project.
+More information: <a href="https://github.com/sebastianbergmann/phploc">https://github.com/sebastianbergmann/phploc</a>.</p>
+
+<ul>
+  <li>Analyze a directory and print the result:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phploc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Include only specific files from a comma-separated list (globs are allowed):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phploc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --names '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1,path/to/file2,…</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Exclude specific files from a comma-separated list (globs are allowed):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phploc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --names-exclude '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1,path/to/file2,…</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Exclude a specific directory from analysis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phploc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/exclude_directory</span></p>
+
+<ul>
+  <li>Log the results to a specific CSV file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phploc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --log-csv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Log the results to a specific XML file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phploc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --log-xml </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Count PHPUnit test case classes and test methods:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">phploc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --count-tests</code></p>

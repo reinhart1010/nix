@@ -1,0 +1,29 @@
+<h1 id="jwt">jwt</h1>
+
+<p>Work with JSON Web Tokens (JWTs).
+Encryption algorithms available are HS256, HS384, HS512, RS256, RS384, RS512, ES256, ES384.
+More information: <a href="https://github.com/mike-engel/jwt-cli">https://github.com/mike-engel/jwt-cli</a>.</p>
+
+<ul>
+  <li>Decode a JWT:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jwt decode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jwt_string</span></p>
+
+<ul>
+  <li>Decode a JWT as a JSON string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jwt decode -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jwt_string</span></p>
+
+<ul>
+  <li>Encode a JSON string to a JWT:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jwt encode --alg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HS256</span><code class="language-plaintext highlighter-rouge"> --secret </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234567890</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json_string</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Encode key pair payload to JWT:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jwt encode --alg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HS256</span><code class="language-plaintext highlighter-rouge"> --secret </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234567890</span><code class="language-plaintext highlighter-rouge"> -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key=value</span></p>

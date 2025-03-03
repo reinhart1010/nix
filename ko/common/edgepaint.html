@@ -1,0 +1,29 @@
+<h1 id="edgepaint">edgepaint</h1>
+
+<p>교차하는 가장자리를 명확하게 하기 위해, 그래프 레이아웃의 가장자리에 색상을 지정.
+Graphviz 필터: <code class="language-plaintext highlighter-rouge">acyclic</code>, <code class="language-plaintext highlighter-rouge">bcomps</code>, <code class="language-plaintext highlighter-rouge">comps</code>, <code class="language-plaintext highlighter-rouge">edgepaint</code>, <code class="language-plaintext highlighter-rouge">gvcolor</code>, <code class="language-plaintext highlighter-rouge">gvpack</code>, <code class="language-plaintext highlighter-rouge">mingle</code>, <code class="language-plaintext highlighter-rouge">nop</code>, <code class="language-plaintext highlighter-rouge">sccmap</code>, <code class="language-plaintext highlighter-rouge">tred</code>, &amp; <code class="language-plaintext highlighter-rouge">unflatten</code>.
+더 많은 정보: <a href="https://graphviz.org/pdf/edgepaint.1.pdf">https://graphviz.org/pdf/edgepaint.1.pdf</a>.</p>
+
+<ul>
+  <li>하나 이상의 그래프 레이아웃 (이미 레이아웃 정보가 있음)의 가장자리에 색상을 지정하여, 교차하는 가장자리를 명확하게 함:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">edgepaint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/레이아웃1.gv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/레이아웃2.gv …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력파일.gv</span></p>
+
+<ul>
+  <li>색 구성표를 사용하여 가장자리에 색상을 지정. (<a href="https://graphviz.org/doc/info/colors.html#brewer">https://graphviz.org/doc/info/colors.html#brewer</a> 참조):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">edgepaint -color-scheme=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">accent7</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/레이아웃.gv</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력파일.gv</span></p>
+
+<ul>
+  <li>그래프를 배치하고 가장자리에 색상을 지정한다음, PNG 이미지로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력파일.gv</span><code class="language-plaintext highlighter-rouge"> | edgepaint | dot -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">png</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력파일.png</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">edgepaint -?</code></p>

@@ -1,0 +1,53 @@
+<h1 id="jbang">jbang</h1>
+
+<p>简便地创建、编辑和运行仅包含源代码的自包含 Java 程序。
+此命令也有关于其子命令的文件，例如：<code class="language-plaintext highlighter-rouge">java</code>.
+更多信息：<a href="https://www.jbang.dev/documentation/guide/latest/cli/jbang.html">https://www.jbang.dev/documentation/guide/latest/cli/jbang.html</a>.</p>
+
+<ul>
+  <li>初始化一个简单的 Java 类：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jbang init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.java</span></p>
+
+<ul>
+  <li>初始化一个 Java 类（用于脚本编写）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jbang init --template=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cli</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.java</span></p>
+
+<ul>
+  <li>使用 <code class="language-plaintext highlighter-rouge">jshell</code> 在 REPL 编辑器中探索和使用脚本及其任何依赖项：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jbang run --interactive</code></p>
+
+<ul>
+  <li>设置一个临时项目以在 IDE 中编辑脚本：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jbang edit --open=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">codium|code|eclipse|idea|netbeans|gitpod</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/脚本.java</span></p>
+
+<ul>
+  <li>运行 Java 代码片段（Java 9 及以后版本）：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'Files.list(Paths.get("/etc")).forEach(System.out::println);'</span><code class="language-plaintext highlighter-rouge"> | jbang -</code></p>
+
+<ul>
+  <li>运行命令行应用程序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jbang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.java</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">参数1 参数2 …</span></p>
+
+<ul>
+  <li>在用户的 <code class="language-plaintext highlighter-rouge">$PATH</code> 中安装一个脚本：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jbang app install --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令名称</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/脚本.java</span></p>
+
+<ul>
+  <li>安装一个特定版本的 JDK 以与 <code class="language-plaintext highlighter-rouge">jbang</code> 一起使用：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jbang jdk install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">版本</span></p>

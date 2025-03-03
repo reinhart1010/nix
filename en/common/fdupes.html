@@ -1,0 +1,46 @@
+<h1 id="fdupes">fdupes</h1>
+
+<p>Finds duplicate files in a set of directories.
+More information: <a href="https://github.com/adrianlopezroche/fdupes">https://github.com/adrianlopezroche/fdupes</a>.</p>
+
+<ul>
+  <li>Search a single directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fdupes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Search multiple directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fdupes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory2</span></p>
+
+<ul>
+  <li>Search a directory recursively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fdupes -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Search multiple directories, one recursively:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fdupes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory1</span><code class="language-plaintext highlighter-rouge"> -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory2</span></p>
+
+<ul>
+  <li>Search recursively, considering hardlinks as duplicates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fdupes -rH </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Search recursively for duplicates and display interactive prompt to pick which ones to keep, deleting the others:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fdupes -rd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Search recursively and delete duplicates without prompting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fdupes -rdN </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

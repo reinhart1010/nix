@@ -1,0 +1,40 @@
+<h1 id="qmv">qmv</h1>
+
+<p>Mueve archivos y directorios usando el editor de texto predeterminado para definir los nombres de archivos.
+Más información: <a href="https://www.nongnu.org/renameutils/">https://www.nongnu.org/renameutils/</a>.</p>
+
+<ul>
+  <li>Mueve un solo archivo (abre un editor con el nombre de archivo fuente a la izquierda y el nombre de archivo de destino a la derecha):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qmv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_original</span></p>
+
+<ul>
+  <li>Mueve múltiples archivos JPEG:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qmv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpg</span></p>
+
+<ul>
+  <li>Mueve múltiples directorios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qmv -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio3</span></p>
+
+<ul>
+  <li>Mueve todos los archivos y directorios dentro de un directorio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qmv --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Mueve archivos, pero cambia las posiciones de la fuente y los nombres de archivo de destino en el editor:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qmv --option swap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpg</span></p>
+
+<ul>
+  <li>Renombra todos los archivos y carpetas en el directorio actual, pero muestra solo los nombres de archivo de destino en el editor (puedes pensar en ello como una especie de modo simple):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qmv --format=do .</code></p>

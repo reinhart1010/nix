@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-show">git show</h1>
+
+<p>Affiche différents types d'objets Git (commits, tags, etc.).
+Plus d'informations : <a href="https://git-scm.com/docs/git-show">https://git-scm.com/docs/git-show</a>.</p>
+
+<ul>
+  <li>Afficher des informations sur le dernier commit (hachage, message, modifications et autres métadonnées) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show</code></p>
+
+<ul>
+  <li>Affiche les informations du dernier commit :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Affiche les informations associés au tag spécifié :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiquette</span></p>
+
+<ul>
+  <li>Affiche les informations à propos du 3ème commit en partant du sommet de la branche :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branche</span><code class="language-plaintext highlighter-rouge">~</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>Afficher le message d'un commit sur une seule ligne, en supprimant la sortie diff :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show --oneline -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Affiche uniquement la liste des fichiers changés dans un commit :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show --stat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Afficher le contenu d'un fichier tel qu'il était à une révision donnée (par exemple, branche, tag ou commit) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>

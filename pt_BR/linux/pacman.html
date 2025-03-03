@@ -1,0 +1,53 @@
+<h1 id="pacman">pacman</h1>
+
+<p>Utilitário de Arch Linux para gerenciamento de pacotes.
+Veja também: <code class="language-plaintext highlighter-rouge">pacman-database</code>, <code class="language-plaintext highlighter-rouge">pacman-deptest</code>, <code class="language-plaintext highlighter-rouge">pacman-files</code>, <code class="language-plaintext highlighter-rouge">pacman-key</code>, <code class="language-plaintext highlighter-rouge">pacman-mirrors</code>, <code class="language-plaintext highlighter-rouge">pacman-query</code>, <code class="language-plaintext highlighter-rouge">pacman-remove</code>, <code class="language-plaintext highlighter-rouge">pacman-sync</code>, <code class="language-plaintext highlighter-rouge">pacman-upgrade</code>.
+Mais informações: <a href="https://manned.org/pacman.8">https://manned.org/pacman.8</a>.</p>
+
+<ul>
+  <li>Sincroniza e atualiza todos os pacotes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Syu</code></p>
+
+<ul>
+  <li>Instala um novo pacote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Remove um pacote e suas dependências:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Rs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Procura pacotes no banco de dados que contenham um arquivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -F "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Lista pacotes instalados e versões:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Q</code></p>
+
+<ul>
+  <li>Lista apenas os pacotes explicitamente instalados e versões:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qe</code></p>
+
+<ul>
+  <li>Lista pacotes órfãos (instalado como dependência mas não requerido por qualquer pacote):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman -Qtdq</code></p>
+
+<ul>
+  <li>Esvazia completamente o cache do pacman:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman -Scc</code></p>

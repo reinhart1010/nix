@@ -1,0 +1,29 @@
+<h1 id="edgepaint">edgepaint</h1>
+
+<p>Colorize edges of a graph layout to clarify crossing edges.
+Graphviz filters: <code class="language-plaintext highlighter-rouge">acyclic</code>, <code class="language-plaintext highlighter-rouge">bcomps</code>, <code class="language-plaintext highlighter-rouge">comps</code>, <code class="language-plaintext highlighter-rouge">edgepaint</code>, <code class="language-plaintext highlighter-rouge">gvcolor</code>, <code class="language-plaintext highlighter-rouge">gvpack</code>, <code class="language-plaintext highlighter-rouge">mingle</code>, <code class="language-plaintext highlighter-rouge">nop</code>, <code class="language-plaintext highlighter-rouge">sccmap</code>, <code class="language-plaintext highlighter-rouge">tred</code>, &amp; <code class="language-plaintext highlighter-rouge">unflatten</code>.
+More information: <a href="https://graphviz.org/pdf/edgepaint.1.pdf">https://graphviz.org/pdf/edgepaint.1.pdf</a>.</p>
+
+<ul>
+  <li>Colorize edges of one or more graph layouts (that already have layout information) to clarify crossing edges:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">edgepaint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/layout1.gv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/layout2.gv …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.gv</span></p>
+
+<ul>
+  <li>Colorize edges using a color scheme. (See <a href="https://graphviz.org/doc/info/colors.html#brewer">https://graphviz.org/doc/info/colors.html#brewer</a>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">edgepaint -color-scheme=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">accent7</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/layout.gv</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.gv</span></p>
+
+<ul>
+  <li>Lay out a graph and colorize its edges, then convert to a PNG image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gv</span><code class="language-plaintext highlighter-rouge"> | edgepaint | dot -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">png</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">edgepaint -?</code></p>

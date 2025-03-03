@@ -1,0 +1,46 @@
+<h1 id="ag">ag</h1>
+
+<p>The Silver Searcher. 类似 <code class="language-plaintext highlighter-rouge">ack</code>, 但是更快。
+更多信息：<a href="https://github.com/ggreer/the_silver_searcher">https://github.com/ggreer/the_silver_searcher</a>.</p>
+
+<ul>
+  <li>寻找内容包含"小明"的文件，并列出所在的行数：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">小明</span></p>
+
+<ul>
+  <li>在指定目录中寻找内容包含 "foo" 的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">小明</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指定的目录</span></p>
+
+<ul>
+  <li>寻找内容包含 "foo" 的文件，但只列出文件名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">小明</span></p>
+
+<ul>
+  <li>忽略大小写，寻找内容包含 "ABC" 的文件，并只输出匹配的内容，而非整行：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag -i -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ABC</span></p>
+
+<ul>
+  <li>在文件名包含"小红"的文件中寻找"小明"：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">小明</span><code class="language-plaintext highlighter-rouge"> -G </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">小红</span></p>
+
+<ul>
+  <li>使用正则表达式来匹配文件内容：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^ba(r|z)$</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>输出文件名包含"小明"的文件名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">小明</span></p>

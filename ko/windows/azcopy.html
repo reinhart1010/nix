@@ -1,0 +1,40 @@
+<h1 id="azcopy">azcopy</h1>
+
+<p>Azure 클라우드 스토리지 계정에 업로드하기 위한 파일 전송 도구.
+더 많은 정보: <a href="https://learn.microsoft.com/azure/storage/common/storage-use-azcopy-v10">https://learn.microsoft.com/azure/storage/common/storage-use-azcopy-v10</a>.</p>
+
+<ul>
+  <li>Azure 테넌트에 로그인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">azopy login</code></p>
+
+<ul>
+  <li>로컬 파일 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">azcopy copy '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\소스_파일</span><code class="language-plaintext highlighter-rouge">' 'https://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge">.blob.core.windows.net/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">블롭_이름</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.txt</code> 및 <code class="language-plaintext highlighter-rouge">.jpg</code> 확장자를 가진 파일 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">azcopy copy '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\소스_폴더</span><code class="language-plaintext highlighter-rouge">' 'https://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge">.blob.core.windows.net/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge">' --include-pattern '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>.txt;</em>.jpg</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>두 Azure 스토리지 계정 간에 컨테이너 직접 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">azcopy copy 'https://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">소스_스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge">.blob.core.windows.net/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge">' 'https://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">목적지_스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge">.blob.core.windows.net/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>로컬 디렉터리와 동기화하고 소스에 더 이상 존재하지 않는 파일을 대상에서 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">azcopy sync '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\소스_폴더</span><code class="language-plaintext highlighter-rouge">' 'https://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스토리지_계정_이름</span><code class="language-plaintext highlighter-rouge">.blob.core.windows.net/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge">' --recursive --delete-destination=true</code></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">azcopy --help</code></p>

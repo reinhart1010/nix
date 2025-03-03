@@ -1,0 +1,53 @@
+<h1 id="apt">apt</h1>
+
+<p>Debian系ディストリビューションで使われるパッケージ管理システムです。
+Ubuntuのバージョンが16.04か、それ以降で対話モードを使う場合<code class="language-plaintext highlighter-rouge">apt-get</code>の代わりとして使用します。
+もっと詳しく: <a href="https://manned.org/apt.8">https://manned.org/apt.8</a>。</p>
+
+<ul>
+  <li>利用可能なパーケージとバージョンのリストの更新（他の<code class="language-plaintext highlighter-rouge">apt</code>コマンドの前での実行を推奨）:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>指定されたパッケージの検索:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">パッケージ</span></p>
+
+<ul>
+  <li>パッケージの情報を出力:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">パッケージ</span></p>
+
+<ul>
+  <li>パッケージのインストール、または利用可能な最新バージョンに更新:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">パッケージ</span></p>
+
+<ul>
+  <li>パッケージの削除（<code class="language-plaintext highlighter-rouge">sudo apt remove --purge</code>の場合設定ファイルも削除）:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">パッケージ</span></p>
+
+<ul>
+  <li>インストールされている全てのパッケージを最新のバージョンにアップグレード:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt upgrade</code></p>
+
+<ul>
+  <li>インストールできるすべてのパッケージを表示:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list</code></p>
+
+<ul>
+  <li>インストールされた全てのパッケージを表示（依存関係も表示）:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt list --installed</code></p>

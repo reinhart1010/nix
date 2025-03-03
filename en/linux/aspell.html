@@ -1,0 +1,34 @@
+<h1 id="aspell">aspell</h1>
+
+<p>Interactive spell checker.
+More information: <a href="http://aspell.net/">http://aspell.net/</a>.</p>
+
+<ul>
+  <li>Spell check a single file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aspell check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>List misspelled words from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> | aspell list</code></p>
+
+<ul>
+  <li>Show available dictionary languages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aspell dicts</code></p>
+
+<ul>
+  <li>Run <code class="language-plaintext highlighter-rouge">aspell</code> with a different language (takes two-letter ISO 639 language code):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aspell --lang=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cs</span></p>
+
+<ul>
+  <li>List misspelled words from <code class="language-plaintext highlighter-rouge">stdin</code> and ignore words from personal word list:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> | aspell --personal=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">personal-word-list.pws</span><code class="language-plaintext highlighter-rouge"> list</code></p>

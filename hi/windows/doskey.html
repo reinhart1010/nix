@@ -1,0 +1,46 @@
+<h1 id="doskey">doskey</h1>
+
+<p>मैक्रोज़, विंडोज़ कमांड और कमांड-लाइन प्रबंधित करें।
+अधिक जानकारी: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/doskey">https://learn.microsoft.com/windows-server/administration/windows-commands/doskey</a>।</p>
+
+<ul>
+  <li>उपलब्ध मैक्रोज़ की सूची बनाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /macros</code></p>
+
+<ul>
+  <li>एक नया मैक्रो बनाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">नाम</span><code class="language-plaintext highlighter-rouge"> = "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आज्ञा</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>किसी विशिष्ट निष्पादन योग्य के लिए एक नया मैक्रो बनाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /exename=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">निष्पादन</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">नाम</span><code class="language-plaintext highlighter-rouge"> = "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आज्ञा</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>मैक्रो हटाएँ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">नाम</span><code class="language-plaintext highlighter-rouge"> =</code></p>
+
+<ul>
+  <li>मेमोरी में संग्रहीत सभी कमांड प्रदर्शित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /history</code></p>
+
+<ul>
+  <li>पोर्टेबिलिटी के लिए मैक्रोज़ को फ़ाइल में सहेजें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /macros &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">मैकिनिट_फ़ाइल\का\पथ</span></p>
+
+<ul>
+  <li>किसी फ़ाइल से मैक्रोज़ लोड करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /macrofile = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">मैकिनिट_फ़ाइल\का\पथ</span></p>

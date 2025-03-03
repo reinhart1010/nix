@@ -1,0 +1,35 @@
+<h1 id="setsid">setsid</h1>
+
+<p>Run a program in a new session if the calling process is not a process group leader.
+The created session is by default not controlled by the current terminal.
+More information: <a href="https://manned.org/setsid">https://manned.org/setsid</a>.</p>
+
+<ul>
+  <li>Run a program in a new session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setsid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Run a program in a new session discarding the resulting output and error:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setsid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span><code class="language-plaintext highlighter-rouge"> &gt; /dev/null 2&gt;&amp;1</code></p>
+
+<ul>
+  <li>Run a program creating a new process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setsid --fork </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Return the exit code of a program as the exit code of setsid when the program exits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setsid --wait </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Run a program in a new session setting the current terminal as the controlling terminal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setsid --ctty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>

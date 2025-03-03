@@ -1,0 +1,23 @@
+<h1 id="mkfsbtrfs">mkfs.btrfs</h1>
+
+<p>创建一个 BTRFS 文件系统。
+默认情况下是 <code class="language-plaintext highlighter-rouge">raid1</code>，指定了数据块的两份拷贝分布在两个不同的设备上。
+更多信息：<a href="https://btrfs.readthedocs.io/en/latest/mkfs.btrfs.html">https://btrfs.readthedocs.io/en/latest/mkfs.btrfs.html</a>.</p>
+
+<ul>
+  <li>在单个设备上创建一个 btrfs 文件系统：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.btrfs --metadata single --data single </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda</span></p>
+
+<ul>
+  <li>在多个设备上使用 raid1 创建一个 btrfs 文件系统：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.btrfs --metadata raid1 --data raid1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdN</span></p>
+
+<ul>
+  <li>为文件系统设置一个标签（可选）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkfs.btrfs --label "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">label</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda</span><code class="language-plaintext highlighter-rouge"> [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdN</span><code class="language-plaintext highlighter-rouge">]</code></p>

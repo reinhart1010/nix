@@ -1,0 +1,46 @@
+<h1 id="du">du</h1>
+
+<p>Disk gebruik: schat en groepeer bestand en map ruimte gebruik.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html</a>.</p>
+
+<ul>
+  <li>Toont de grootte van een map en mogelijke sub-mappen, met een gegeven eenheid (B/KiB/MiB):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">b|k|m</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span></p>
+
+<ul>
+  <li>Toont de grootte van een map en mogelijke sub-mappen, met een leesbaar unit formaat (bijvoorbeeld door het automatisch kiezen van een eenheid gebaseerd op grootte)):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span></p>
+
+<ul>
+  <li>Toont de grootte van een enkele map met een leesbaar eenheid formaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -sh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span></p>
+
+<ul>
+  <li>Toont de grootte in leesbare vorm van een map met alle bestanden en mappen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -ah </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span></p>
+
+<ul>
+  <li>Toont de grootte in leesbare vorm van een map en alle sub-mappen tot N niveaus diep:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -h --max-depth=N </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span></p>
+
+<ul>
+  <li>Toont de grootte in leesbare vorm van alle <code class="language-plaintext highlighter-rouge">.jpg</code> bestanden in sub-mappen van de huidige map en laat een cumulatief totaal zien op het eind:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -ch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>/</em>.jpg</span></p>
+
+<ul>
+  <li>Toont alle bestanden en mappen (inclusief verborgen) boven een bepaalde drempelwaarde ([t]hreshold) (bruikbaar om te onderzoeken wat veel ruimte in neemt):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du --all --human-readable --threshold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1G|1024M|1048576K</span><code class="language-plaintext highlighter-rouge"> .[^.]* *</code></p>

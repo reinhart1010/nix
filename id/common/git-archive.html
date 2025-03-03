@@ -1,0 +1,40 @@
+<h1 id="git-archive">git archive</h1>
+
+<p>Buat sebuah arsip direktori berdasarkan cabang/tree tertentu.
+Informasi lebih lanjut: <a href="https://git-scm.com/docs/git-archive">https://git-scm.com/docs/git-archive</a>.</p>
+
+<ul>
+  <li>Buat sebuah arsip tar berisikan isi dari tree HEAD saat ini, kemudian tampilkan isi file arsip mentah menuju <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span><code class="language-plaintext highlighter-rouge"> HEAD</code></p>
+
+<ul>
+  <li>Buat sebuah arsip zip dari tree HEAD saat ini, kemudian tampilkan isi file arsip mentah menuju <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span><code class="language-plaintext highlighter-rouge"> --format zip HEAD</code></p>
+
+<ul>
+  <li>Lakukan hal yang sama, namun simpan arsip zip ke dalam suatu direktori:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-v|–verbose</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file.zip</span><code class="language-plaintext highlighter-rouge"> HEAD</code></p>
+
+<ul>
+  <li>Buat arsip tar dari komit terakhir pada cabang tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_cabang</span></p>
+
+<ul>
+  <li>Buat arsip tar berdasaran subdirektori tertentu pada suatu repositori Git:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file.tar</span><code class="language-plaintext highlighter-rouge"> HEAD:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span></p>
+
+<ul>
+  <li>Bubuhkan nama jalur pada awal nama setiap file, untuk diarsipkan di dalam direktori tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git archive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file.tar</span><code class="language-plaintext highlighter-rouge"> --prefix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/untuk/dibubuhkan</span><code class="language-plaintext highlighter-rouge">/ HEAD</code></p>

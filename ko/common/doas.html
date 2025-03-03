@@ -1,0 +1,34 @@
+<h1 id="doas">doas</h1>
+
+<p>다른 사용자로 명령을 실행.
+더 많은 정보: <a href="https://man.openbsd.org/doas">https://man.openbsd.org/doas</a>.</p>
+
+<ul>
+  <li>루트 권한으로 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>다른 사용자 권한으로 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li>루트 권한으로 기본 쉘을 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas -s</code></p>
+
+<ul>
+  <li>구성 파일을 구문 분석하고, 다른 사용자로 명령 실행이 허용되는지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구성_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">doas</code>가 이전에 제공된 후에도 비밀번호를 요청하도록 함:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas -L</code></p>

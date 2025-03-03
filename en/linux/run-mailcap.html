@@ -1,0 +1,35 @@
+<h1 id="run-mailcap">run-mailcap</h1>
+
+<p>Run MailCap Programs.
+Run mailcap view, see, edit, compose, print - execute programs via entries in the mailcap file (or any of its aliases) will use the given action to process each mime-type/file.
+More information: <a href="https://manned.org/run-mailcap">https://manned.org/run-mailcap</a>.</p>
+
+<ul>
+  <li>Individual actions/programs on run-mailcap can be invoked with action flag:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">run-mailcap --action=ACTION [--option[=value]]</code></p>
+
+<ul>
+  <li>In simple language:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">run-mailcap --action=ACTION </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Turn on extra information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">run-mailcap --action=ACTION --debug </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Ignore any "copiousoutput" directive and forward output to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">run-mailcap --action=ACTION --nopager </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Display the found command without actually executing it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">run-mailcap --action=ACTION --norun </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>

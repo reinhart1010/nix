@@ -1,0 +1,28 @@
+<h1 id="hostnamectl">hostnamectl</h1>
+
+<p>컴퓨터의 호스트명을 가져오거나 설정합니다.
+더 많은 정보: <a href="https://manned.org/hostnamectl">https://manned.org/hostnamectl</a>.</p>
+
+<ul>
+  <li>컴퓨터의 호스트명 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hostnamectl</code></p>
+
+<ul>
+  <li>컴퓨터의 호스트명 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo hostnamectl set-hostname "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>컴퓨터에 보기 좋은 호스트명 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo hostnamectl set-hostname --static "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명.example.com</span><code class="language-plaintext highlighter-rouge">" &amp;&amp; sudo hostnamectl set-hostname --pretty "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>호스트명을 기본값으로 재설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo hostnamectl set-hostname --pretty ""</code></p>

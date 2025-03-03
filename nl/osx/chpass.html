@@ -1,0 +1,36 @@
+<h1 id="chpass">chpass</h1>
+
+<p>Gebruikersdatabase informatie toevoegen of wijzigen, inclusief login shell en wachtwoord.
+Let op: het is niet mogelijk om een gebruikerswachtwoord te wijzigen op een Open Directory systeem, gebruik hiervoor <code class="language-plaintext highlighter-rouge">passwd</code>.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">passwd</code>.
+Meer informatie: <a href="https://man.freebsd.org/cgi/man.cgi?chpass">https://man.freebsd.org/cgi/man.cgi?chpass</a>.</p>
+
+<ul>
+  <li>Voeg toe of pas interactief de gebruikersdatabase informatie aan voor de huidige gebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c chpass</code></p>
+
+<ul>
+  <li>Stel een specifieke login [s]hell in voor de huidige gebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/shell</span></p>
+
+<ul>
+  <li>Stel een login [s]hell in voor een specifieke gebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>
+
+<ul>
+  <li>Pas het gebruikersrecord aan in de directory node op de opgegeven [l]ocatie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">locatie</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>
+
+<ul>
+  <li>Gebruik de opgegeven gebr[u]ikersnaam bij het authenticeren van het mapknooppunt dat de gebruiker bevat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">auth_naam</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruikersnaam</span></p>

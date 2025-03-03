@@ -1,0 +1,16 @@
+<h1 id="qm-disk-move">qm disk move</h1>
+
+<p>Mueve un disco virtual de un almacenamiento a otro dentro del mismo grupo Proxmox.
+Más información: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>Mueve un disco virtual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm disk move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">índice</span></p>
+
+<ul>
+  <li>Elimina la copia anterior del disco virtual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm disk move -delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">índice</span></p>

@@ -1,0 +1,28 @@
+<h1 id="salt">salt</h1>
+
+<p>원격 salt 미니언에서 명령을 실행하고 상태를 확인.
+더 많은 정보: <a href="https://docs.saltproject.io/en/latest/ref/cli/index.html">https://docs.saltproject.io/en/latest/ref/cli/index.html</a>.</p>
+
+<ul>
+  <li>연결된 미니언 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt '*' test.ping</code></p>
+
+<ul>
+  <li>모든 연결된 미니언에서 highstate 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt '*' state.highstate</code></p>
+
+<ul>
+  <li>일부 미니언에서 OS 패키지 관리자(apt, yum, brew)를 사용하여 패키지 업그레이드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt '*.example.com' pkg.upgrade</code></p>
+
+<ul>
+  <li>특정 미니언에서 임의의 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">미니언_ID</span><code class="language-plaintext highlighter-rouge">' cmd.run "ls "</code></p>

@@ -1,0 +1,29 @@
+<h1 id="pbmtoescp2">pbmtoescp2</h1>
+
+<p>PBM 이미지를 ESC/P2 프린터 파일로 변환.
+같이 보기: <code class="language-plaintext highlighter-rouge">pbmtoepson</code>, <code class="language-plaintext highlighter-rouge">escp2topbm</code>.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/pbmtoescp2.html">https://netpbm.sourceforge.net/doc/pbmtoescp2.html</a>.</p>
+
+<ul>
+  <li>PBM 이미지를 ESC/P2 프린터 파일로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtoescp2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.escp2</span></p>
+
+<ul>
+  <li>출력의 압축 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtoescp2 -compression </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.escp2</span></p>
+
+<ul>
+  <li>출력을 인치당 도트 수로 가로 및 세로 해상도 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtoescp2 -resolution </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">180|360|720</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.escp2</span></p>
+
+<ul>
+  <li>출력의 끝에 폼피드 명령 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtoescp2 -formfeed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.escp2</span></p>

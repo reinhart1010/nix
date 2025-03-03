@@ -1,0 +1,35 @@
+<h1 id="ar">ar</h1>
+
+<p>Create, modify, and extract from Unix archives. Typically used for static libraries (<code class="language-plaintext highlighter-rouge">.a</code>) and Debian packages (<code class="language-plaintext highlighter-rouge">.deb</code>).
+See also: <code class="language-plaintext highlighter-rouge">tar</code>.
+More information: <a href="https://manned.org/ar">https://manned.org/ar</a>.</p>
+
+<ul>
+  <li>E[x]tract all members from an archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.a</span></p>
+
+<ul>
+  <li>Lis[t] contents in a specific archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ar</span></p>
+
+<ul>
+  <li>[r]eplace or add specific files to an archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.deb</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/debian-binary path/to/control.tar.gz path/to/data.tar.xz …</span></p>
+
+<ul>
+  <li>In[s]ert an object file index (equivalent to using <code class="language-plaintext highlighter-rouge">ranlib</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.a</span></p>
+
+<ul>
+  <li>Create an archive with specific files and an accompanying object file index:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ar rs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.a</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.o path/to/file2.o …</span></p>

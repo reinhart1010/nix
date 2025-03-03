@@ -1,0 +1,29 @@
+<h1 id="xbps-remove">xbps-remove</h1>
+
+<p>XBPS utility to remove packages.
+See also: <code class="language-plaintext highlighter-rouge">xbps</code>.
+More information: <a href="https://manned.org/xbps-remove.1">https://manned.org/xbps-remove.1</a>.</p>
+
+<ul>
+  <li>Remove a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Remove a package and its dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-remove --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Remove orphan packages (installed as dependencies but no longer required by any package):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-remove --remove-orphans</code></p>
+
+<ul>
+  <li>Remove obsolete packages from the cache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-remove --clean-cache</code></p>

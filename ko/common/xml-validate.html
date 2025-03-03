@@ -1,0 +1,34 @@
+<h1 id="xml-validate">xml validate</h1>
+
+<p>XML 문서 유효성 검사.
+더 많은 정보: <a href="https://xmlstar.sourceforge.net/docs.php">https://xmlstar.sourceforge.net/docs.php</a>.</p>
+
+<ul>
+  <li>하나 이상의 XML 문서가 잘 형성되었는지 검사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml validate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력1.xml|URI</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input2.xml …</span></p>
+
+<ul>
+  <li>하나 이상의 XML 문서를 문서 유형 정의(DTD)와 비교하여 유효성 검사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml validate --dtd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스키마.dtd</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력1.xml|URI</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input2.xml …</span></p>
+
+<ul>
+  <li>하나 이상의 XML 문서를 XML 스키마 정의(XSD)와 비교하여 유효성 검사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml validate --xsd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스키마.xsd</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력1.xml|URI</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input2.xml …</span></p>
+
+<ul>
+  <li>하나 이상의 XML 문서를 Relax NG 스키마(RNG)와 비교하여 유효성 검사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml validate --relaxng </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스키마.rng</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력1.xml|URI</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input2.xml …</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml validate --help</code></p>

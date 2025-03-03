@@ -1,0 +1,46 @@
+<h1 id="expr">expr</h1>
+
+<p>Evalúa expresiones y manipula cadenas.
+Más información: <a href="https://www.gnu.org/software/coreutils/manual/html_node/expr-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/expr-invocation.html</a>.</p>
+
+<ul>
+  <li>Obtiene la longitud de una cadena específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr length "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Obtiene la subcadena de una cadena con una longitud específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr substr "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">desde</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">longitud</span></p>
+
+<ul>
+  <li>Empareja una subcadena específica frente a un patrón:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr match "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena</span><code class="language-plaintext highlighter-rouge">" '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patrón</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Obtiene la primera posición de un caracter de un conjunto específico en una cadena:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr index "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caracteres</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Calcula una expresión matemática específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expresión1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+|-|*|/|%</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expresión2</span></p>
+
+<ul>
+  <li>Obtiene la primera expresión si su valor no es cero y no nulo, de otro modo, obtiene el segundo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expresión1</span><code class="language-plaintext highlighter-rouge"> \| </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expresión2</span></p>
+
+<ul>
+  <li>Obtiene la primera expresión si ambas expresiones no son cero y no nulas de otro modo obtiene cero:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expresión1</span><code class="language-plaintext highlighter-rouge"> \&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expresión2</span></p>

@@ -1,0 +1,23 @@
+<h1 id="git-verify-tag">git verify-tag</h1>
+
+<p>Check for GPG verification of tags.
+If a tag wasn't signed, an error will occur.
+More information: <a href="https://git-scm.com/docs/git-verify-tag">https://git-scm.com/docs/git-verify-tag</a>.</p>
+
+<ul>
+  <li>Check tags for a GPG signature:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git verify-tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag1 optional_tag2 …</span></p>
+
+<ul>
+  <li>Check tags for a GPG signature and show details for each tag:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git verify-tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag1 optional_tag2 …</span><code class="language-plaintext highlighter-rouge"> --verbose</code></p>
+
+<ul>
+  <li>Check tags for a GPG signature and print the raw details:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git verify-tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag1 optional_tag2 …</span><code class="language-plaintext highlighter-rouge"> --raw</code></p>

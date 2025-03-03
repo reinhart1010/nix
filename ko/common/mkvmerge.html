@@ -1,0 +1,28 @@
+<h1 id="mkvmerge">mkvmerge</h1>
+
+<p>멀티미디어 스트림을 병합하고 추출.
+더 많은 정보: <a href="https://mkvtoolnix.download/doc/mkvmerge.html">https://mkvtoolnix.download/doc/mkvmerge.html</a>.</p>
+
+<ul>
+  <li>Matroska 파일 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkvmerge --identify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.mkv</span></p>
+
+<ul>
+  <li>특정 파일의 트랙 1에서 오디오 추출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkvextract tracks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.mkv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.webm</span></p>
+
+<ul>
+  <li>특정 파일의 트랙 3에서 자막 추출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkvextract tracks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.mkv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/자막.srt</span></p>
+
+<ul>
+  <li>파일에 자막 트랙 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkvmerge --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.mkv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.mkv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/자막.srt</span></p>

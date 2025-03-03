@@ -1,0 +1,40 @@
+<h1 id="restic">restic</h1>
+
+<p>A fast, secure and secure backup program.
+More information: <a href="https://restic.net">https://restic.net</a>.</p>
+
+<ul>
+  <li>Initialize a backup repository in the specified local directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">restic init --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span></p>
+
+<ul>
+  <li>Backup a directory to the repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">restic --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span><code class="language-plaintext highlighter-rouge"> backup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Show backup snapshots currently stored in the repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">restic --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span><code class="language-plaintext highlighter-rouge"> snapshots</code></p>
+
+<ul>
+  <li>Restore a specific backup snapshot to a target directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">restic --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span><code class="language-plaintext highlighter-rouge"> restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">latest|snapshot_id</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target</span></p>
+
+<ul>
+  <li>Restore a specific path from a specific backup to a target directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">restic --repo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span><code class="language-plaintext highlighter-rouge"> restore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot_id</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target</span><code class="language-plaintext highlighter-rouge"> --include </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/restore</span></p>
+
+<ul>
+  <li>Clean up the repository and keep only the most recent snapshot of each unique backup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">restic forget --keep-last 1 --prune</code></p>

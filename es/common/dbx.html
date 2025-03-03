@@ -1,0 +1,29 @@
+<h1 id="dbx">dbx</h1>
+
+<p>Interactúa con la plataforma Databricks.
+Nota: esta herramienta ha sido retirada y se recomienda utilizar Databricks Asset Bundles en su lugar.
+Más información: <a href="https://dbx.readthedocs.io/en/latest/reference/cli/#dbx">https://dbx.readthedocs.io/en/latest/reference/cli/#dbx</a>.</p>
+
+<ul>
+  <li>Crea un nuevo proyecto <code class="language-plaintext highlighter-rouge">dbx</code> en el directorio de trabajo actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dbx configure --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">DEFAULT</span></p>
+
+<ul>
+  <li>Sincroniza archivos locales de la ruta especificada a DBFS y vigila los cambios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dbx sync dbfs --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio</span><code class="language-plaintext highlighter-rouge"> --dest </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio_remoto</span></p>
+
+<ul>
+  <li>Despliega el flujo de trabajo especificado en el almacenamiento de artefactos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dbx deploy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_flujo_de_trabajo</span></p>
+
+<ul>
+  <li>Inicia el flujo de trabajo especificado después de desplegarlo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dbx launch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_flujo_de_trabajo</span></p>

@@ -1,0 +1,34 @@
+<h1 id="ip-neighbour">ip neighbour</h1>
+
+<p>Komşu/ARP tablosu yönetimi IP alt komutu.
+Daha fazla bilgi için: <a href="https://manned.org/ip-neighbour.8">https://manned.org/ip-neighbour.8</a>.</p>
+
+<ul>
+  <li>Komşu/ARP tablosu girdilerini görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip neighbour</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">eth0</code> aygıtının komşu tablosundaki girdileri kaldır:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip neighbour flush dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li>Bir komşu araması gerçekleştir ve bir komşu girdisi döndür:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip neighbour get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aranacak_ip</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">eth0</code> arayüzüne komşu IP adresi için bir ARP girdisi ekle veya sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip neighbour </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">add|del</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_adresi</span><code class="language-plaintext highlighter-rouge"> lladdr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac_adresi</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span><code class="language-plaintext highlighter-rouge"> nud reachable</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">eth0</code> arayüzünde komşu IP adresi için bir ARP girdisini değiştir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip neighbour </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">change|replace</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_adresi</span><code class="language-plaintext highlighter-rouge"> lladdr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yeni_mac_adresi</span><code class="language-plaintext highlighter-rouge"> dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span></p>

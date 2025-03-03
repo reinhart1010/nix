@@ -1,0 +1,34 @@
+<h1 id="diffoscope">diffoscope</h1>
+
+<p>파일, 아카이브 및 디렉터리를 비교.
+더 많은 정보: <a href="https://diffoscope.org">https://diffoscope.org</a>.</p>
+
+<ul>
+  <li>2개 파일 비교:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diffoscope </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2</span></p>
+
+<ul>
+  <li>진행 표시줄을 보여주지 않고 두 파일을 비교:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diffoscope --no-progress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2</span></p>
+
+<ul>
+  <li>두 파일을 비교하고 HTML 보고서를 파일에 작성 (<code class="language-plaintext highlighter-rouge">stdout</code>에는 <code class="language-plaintext highlighter-rouge">-</code> 사용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diffoscope --html </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력파일|-</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2</span></p>
+
+<ul>
+  <li>지정된 패턴과 일치하는 이름을 가진 파일을 제외한 두 디렉터리를 비교:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diffoscope --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패턴</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리2</span></p>
+
+<ul>
+  <li>두 디렉터리를 비교하고 디렉터리 메타데이터가 고려되는지 여부를 제어:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diffoscope --exclude-directory-metadata </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">auto|yes|no|recursive</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리2</span></p>

@@ -1,0 +1,56 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="parted">parted</h1>
+
+<p>एक पार्टीशन मैनिपुलेशन प्रोग्राम।
+देखें भी: <code class="language-plaintext highlighter-rouge">partprobe</code>.
+अधिक जानकारी: <a href="https://www.gnu.org/software/parted/parted.html">https://www.gnu.org/software/parted/parted.html</a>।</p>
+
+<ul>
+  <li>सभी ब्लॉक डिवाइस पर पार्टीशनों की सूची दिखाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo parted --list</code></p>
+
+<ul>
+  <li>निर्दिष्ट डिस्क के साथ इंटरैक्टिव मोड शुरू करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo parted </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>निर्दिष्ट लेबल-प्रकार का नया पार्टीशन टेबल बनाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo parted --script </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span><code class="language-plaintext highlighter-rouge"> mklabel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aix|amiga|bsd|dvh|gpt|loop|mac|msdos|pc98|sun</span></p>
+
+<ul>
+  <li>इंटरैक्टिव मोड में पार्टीशन की जानकारी दिखाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">print</code></p>
+
+<ul>
+  <li>इंटरैक्टिव मोड में डिस्क का चयन करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">select </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>इंटरैक्टिव मोड में निर्दिष्ट फ़ाइल सिस्टम के साथ 16 जीबी का पार्टीशन बनाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkpart </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">primary|logical|extended</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">btrfs|ext2|ext3|ext4|fat16|fat32|hfs|hfs+|linux-swap|ntfs|reiserfs|udf|xfs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0%</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16G</span></p>
+
+<ul>
+  <li>इंटरैक्टिव मोड में पार्टीशन का आकार बदलें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resizepart </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पार्टीशन की अंतिम स्थिति</span></p>
+
+<ul>
+  <li>इंटरैक्टिव मोड में एक पार्टीशन को हटाएं:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>

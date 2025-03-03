@@ -1,0 +1,22 @@
+<h1 id="git-bugreport">git bugreport</h1>
+
+<p>Captures debug information from the system and user, generating a text file to aid in the reporting of a bug in Git.
+More information: <a href="https://git-scm.com/docs/git-bugreport">https://git-scm.com/docs/git-bugreport</a>.</p>
+
+<ul>
+  <li>Create a new bug report file in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bugreport</code></p>
+
+<ul>
+  <li>Create a new bug report file in the specified directory, creating it if it does not exist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bugreport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output-directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Create a new bug report file with the specified filename suffix in <code class="language-plaintext highlighter-rouge">strftime</code> format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bugreport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-s|–suffix</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%m%d%y</span></p>

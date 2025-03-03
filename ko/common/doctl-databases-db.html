@@ -1,0 +1,34 @@
+<h1 id="doctl-databases-db">doctl databases db</h1>
+
+<p>데이터베이스 클러스터에서 제공하는 데이터베이스를 관리.
+더 많은 정보: <a href="https://docs.digitalocean.com/reference/doctl/reference/databases/db">https://docs.digitalocean.com/reference/doctl/reference/databases/db</a>.</p>
+
+<ul>
+  <li>액세스 토큰을 사용하여 <code class="language-plaintext highlighter-rouge">doctl databases db</code> 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases db </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> --access-token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">액세스_토큰</span></p>
+
+<ul>
+  <li>특정 데이터베이스 클러스터에서 호스팅되는 특정 데이터베이스의 이름을 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases db get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span></p>
+
+<ul>
+  <li>특정 데이터베이스 클러스터 내에서 호스팅되는 기존 데이터베이스를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases db list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span></p>
+
+<ul>
+  <li>주어진 데이터베이스 클러스터에 주어진 이름을 가진 데이터베이스를 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases db create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span></p>
+
+<ul>
+  <li>주어진 데이터베이스 클러스터에 주어진 이름을 가진 데이터베이스를 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doctl databases db delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_아이디</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span></p>

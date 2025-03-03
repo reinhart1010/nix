@@ -1,0 +1,47 @@
+<h1 id="iw-dev">iw dev</h1>
+
+<p>무선 장치를 표시하고 조작합니다.
+채널, 주파수 및 규제 정보 목록은 <a href="https://wireless.docs.kernel.org/en/latest/en/developers/documentation/channellist.html">https://wireless.docs.kernel.org/en/latest/en/developers/documentation/channellist.html</a>.
+더 많은 정보: <a href="https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html">https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html</a>.</p>
+
+<ul>
+  <li>장치를 모니터 모드로 설정(인터페이스는 먼저 종료되어야 합니다. <code class="language-plaintext highlighter-rouge">ip link</code>도 참조):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iw dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlp</span><code class="language-plaintext highlighter-rouge"> set type monitor</code></p>
+
+<ul>
+  <li>장치를 관리 모드로 설정(인터페이스는 먼저 종료되어야 합니다):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iw dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlp</span><code class="language-plaintext highlighter-rouge"> set type managed</code></p>
+
+<ul>
+  <li>장치의 WiFi 채널 설정(장치는 먼저 인터페이스가 활성화된 상태에서 모니터 모드여야 합니다):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iw dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlp</span><code class="language-plaintext highlighter-rouge"> set channel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">채널_번호</span></p>
+
+<ul>
+  <li>장치의 WiFi 주파수 설정(Mhz 단위)(장치는 먼저 인터페이스가 활성화된 상태에서 모니터 모드여야 합니다):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iw dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlp</span><code class="language-plaintext highlighter-rouge"> set freq </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">주파수_단위_메가헤르츠</span></p>
+
+<ul>
+  <li>모든 알려진 스테이션 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">iw dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlp</span><code class="language-plaintext highlighter-rouge"> station dump</code></p>
+
+<ul>
+  <li>특정 MAC 주소로 모니터 모드의 가상 인터페이스 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iw dev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlp</span><code class="language-plaintext highlighter-rouge"> interface add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상_인터페이스_이름</span><code class="language-plaintext highlighter-rouge">" type monitor addr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">12:34:56:aa:bb:cc</span></p>
+
+<ul>
+  <li>가상 인터페이스 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iw dev "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상_인터페이스_이름</span><code class="language-plaintext highlighter-rouge">" del</code></p>

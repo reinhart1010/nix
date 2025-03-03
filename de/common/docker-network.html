@@ -1,0 +1,46 @@
+<h1 id="docker-network">docker network</h1>
+
+<p>Erzeuge und verwalte Docker Netzwerke.
+Weitere Informationen: <a href="https://docs.docker.com/reference/cli/docker/network/">https://docs.docker.com/reference/cli/docker/network/</a>.</p>
+
+<ul>
+  <li>Liste alle verfügbaren und konfigurierten Docker Netzwerke auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network ls</code></p>
+
+<ul>
+  <li>Erzeuge ein benutzerdefiniertes Netzwerk:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network create --driver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">treiber_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">netzwerk_name</span></p>
+
+<ul>
+  <li>Zeige detaillierte Informationen der mit Leerzeichen separierten Netzwerke an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">netzwerk_name</span></p>
+
+<ul>
+  <li>Verbinde einen Container mit einem Netzwerk anhand des Namens oder der ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network connect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">netzwerk_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name|ID</span></p>
+
+<ul>
+  <li>Trenne einen Container von einem Netzwerk:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network disconnect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">netzwerk_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name|ID</span></p>
+
+<ul>
+  <li>Entferne alle unbenutzten (nicht von Containern referenzierten) Netzwerke:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network prune</code></p>
+
+<ul>
+  <li>Entferne mehrere - durch Leerzeichen getrennte - Netzwerke:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">netzwerk_name</span></p>

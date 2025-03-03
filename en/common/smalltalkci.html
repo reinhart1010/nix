@@ -1,0 +1,40 @@
+<h1 id="smalltalkci">smalltalkci</h1>
+
+<p>Framework for testing Smalltalk projects with GitHub Actions, Travis CI, AppVeyor, GitLab CI, and others.
+More information: <a href="https://github.com/hpi-swa/smalltalkCI">https://github.com/hpi-swa/smalltalkCI</a>.</p>
+
+<ul>
+  <li>Run tests for a configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smalltalkci </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/.smalltalk.ston</span></p>
+
+<ul>
+  <li>Run tests for the <code class="language-plaintext highlighter-rouge">.smalltalk.ston</code> configuration in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smalltalkci</code></p>
+
+<ul>
+  <li>Debug tests in headful mode (show VM window):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smalltalkci --headful</code></p>
+
+<ul>
+  <li>Download and prepare a well-known smalltalk image for the tests:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smalltalkci --smalltalk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Squeak64-Trunk</span></p>
+
+<ul>
+  <li>Specify a custom Smalltalk image and VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smalltalkci --image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Smalltalk.image</span><code class="language-plaintext highlighter-rouge"> --vm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/vm</span></p>
+
+<ul>
+  <li>Clean up caches and delete builds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smalltalkci --clean</code></p>

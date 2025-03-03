@@ -1,0 +1,23 @@
+<h1 id="distrobox-enter">distrobox-enter</h1>
+
+<p>Distrobox 컨테이너에 진입합니다. 같이 보기: <code class="language-plaintext highlighter-rouge">tldr distrobox</code>.
+기본 실행 명령어는 사용자의 SHELL이지만, 다른 셸 또는 전체 명령어를 지정하여 실행할 수 있습니다. 스크립트, 애플리케이션 또는 서비스 내에서 사용 시, <code class="language-plaintext highlighter-rouge">--headless</code> 모드를 사용하여 tty 및 상호작용을 비활성화할 수 있습니다.
+더 많은 정보: <a href="https://distrobox.it/usage/distrobox-enter">https://distrobox.it/usage/distrobox-enter</a>.</p>
+
+<ul>
+  <li>Distrobox 컨테이너에 진입:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-enter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span></p>
+
+<ul>
+  <li>Distrobox 컨테이너에 진입하고 로그인 시 명령어 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-enter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh -l</span></p>
+
+<ul>
+  <li>tty를 인스턴스화하지 않고 Distrobox 컨테이너에 진입:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-enter --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컨테이너_이름</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uptime -p</span></p>

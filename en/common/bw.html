@@ -1,0 +1,34 @@
+<h1 id="bw">bw</h1>
+
+<p>Access and manage a Bitwarden vault.
+More information: <a href="https://help.bitwarden.com/article/cli/">https://help.bitwarden.com/article/cli/</a>.</p>
+
+<ul>
+  <li>Log in to a Bitwarden user account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bw login</code></p>
+
+<ul>
+  <li>Log out of a Bitwarden user account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bw logout</code></p>
+
+<ul>
+  <li>Search and display items from Bitwarden vault:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bw list items --search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github</span></p>
+
+<ul>
+  <li>Display a particular item from Bitwarden vault:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bw get item </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github</span></p>
+
+<ul>
+  <li>Create a folder in Bitwarden vault:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo -n '{"name":"My Folder1"}' | base64</span><code class="language-plaintext highlighter-rouge"> | bw create folder</code></p>

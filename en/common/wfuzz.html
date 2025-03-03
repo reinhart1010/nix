@@ -1,0 +1,52 @@
+<h1 id="wfuzz">wfuzz</h1>
+
+<p>A web application bruteforcer.
+More information: <a href="https://wfuzz.readthedocs.io/en/latest/user/basicusage.html">https://wfuzz.readthedocs.io/en/latest/user/basicusage.html</a>.</p>
+
+<ul>
+  <li>Directory and file bruteforce using the specified [w]ordlist and also [p]roxying the traffic:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wfuzz -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1:8080:HTTP</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/FUZZ</span></p>
+
+<ul>
+  <li>Save the results to a [f]ile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wfuzz -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/FUZZ</span></p>
+
+<ul>
+  <li>Show [c]olorized output while only showing the declared response codes in the output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wfuzz -c -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --sc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">200,301,302</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/FUZZ</span></p>
+
+<ul>
+  <li>Use a custom [H]eader to fuzz subdomains while [h]iding specific response [c]odes and word counts. Increase the [t]hreads to 100 and include the target ip/domain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wfuzz -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> -H "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Host: FUZZ.example.com</span><code class="language-plaintext highlighter-rouge">" --hc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">301</span><code class="language-plaintext highlighter-rouge"> --hw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">222</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Brute force Basic Authentication using a list of usernames and passwords from files for each FUZ[z] keyword, [h]iding response [c]odes of unsuccessful attempts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wfuzz -c --hc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">401</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delay_between_requests_in_seconds</span><code class="language-plaintext highlighter-rouge"> -z file,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/usernames</span><code class="language-plaintext highlighter-rouge"> -z file,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/passwords</span><code class="language-plaintext highlighter-rouge"> --basic 'FUZZ:FUZ2Z' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Provide wordlist directly from the command-line and use POST request for fuzzing:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wfuzz -z list,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">word1-word2-…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://api.example.com</span><code class="language-plaintext highlighter-rouge"> -d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id=FUZZ&amp;showwallet=true</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Provide wordlists from a file applying base64 and md5 encoding on them (<code class="language-plaintext highlighter-rouge">wfuzz -e encoders</code> lists all available encoders):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wfuzz -z file,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">,none-base64-md5 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/FUZZ</span></p>
+
+<ul>
+  <li>List available encoders/payloads/iterators/printers/scripts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wfuzz -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">encoders|payloads|iterators|printers|scripts</span></p>

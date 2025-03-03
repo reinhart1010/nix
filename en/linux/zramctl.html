@@ -1,0 +1,35 @@
+<h1 id="zramctl">zramctl</h1>
+
+<p>Setup and control zram devices.
+Use <code class="language-plaintext highlighter-rouge">mkfs</code> or <code class="language-plaintext highlighter-rouge">mkswap</code> to format zram devices to partitions.
+More information: <a href="https://manned.org/zramctl">https://manned.org/zramctl</a>.</p>
+
+<ul>
+  <li>Check if zram is enabled:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsmod | grep -i zram</code></p>
+
+<ul>
+  <li>Enable zram with a dynamic number of devices (use <code class="language-plaintext highlighter-rouge">zramctl</code> to configure devices further):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe zram</code></p>
+
+<ul>
+  <li>Enable zram with exactly 2 devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe zram num_devices=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span></p>
+
+<ul>
+  <li>Find and initialize the next free zram device to a 2 GB virtual drive using LZ4 compression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo zramctl --find --size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2GB</span><code class="language-plaintext highlighter-rouge"> --algorithm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lz4</span></p>
+
+<ul>
+  <li>List currently initialized devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo zramctl</code></p>

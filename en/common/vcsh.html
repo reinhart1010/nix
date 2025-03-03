@@ -1,0 +1,41 @@
+<h1 id="vcsh">vcsh</h1>
+
+<p>Version Control System for the home directory using Git repositories.
+See also: <code class="language-plaintext highlighter-rouge">chezmoi</code>, <code class="language-plaintext highlighter-rouge">stow</code>, <code class="language-plaintext highlighter-rouge">tuckr</code>, <code class="language-plaintext highlighter-rouge">homeshick</code>.
+More information: <a href="https://github.com/RichiH/vcsh">https://github.com/RichiH/vcsh</a>.</p>
+
+<ul>
+  <li>Initialize an (empty) repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vcsh init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span></p>
+
+<ul>
+  <li>Clone a repository into a custom directory name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vcsh clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git_url</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span></p>
+
+<ul>
+  <li>List all managed repositories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vcsh list</code></p>
+
+<ul>
+  <li>Execute a Git command on a managed repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vcsh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git_command</span></p>
+
+<ul>
+  <li>Push/pull all managed repositories to/from remotes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vcsh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">push|pull</span></p>
+
+<ul>
+  <li>Write a custom <code class="language-plaintext highlighter-rouge">.gitignore</code> file for a managed repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vcsh write-gitignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span></p>

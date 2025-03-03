@@ -1,0 +1,29 @@
+<h1 id="cmctl">cmctl</h1>
+
+<p>Manage cert-manager resources inside your cluster.
+Check cert signing status, approve/deny requests, and issue new certificate requests.
+More information: <a href="https://cert-manager.io/docs/usage/cmctl/">https://cert-manager.io/docs/usage/cmctl/</a>.</p>
+
+<ul>
+  <li>Check if the cert-manager API is ready:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmctl check api</code></p>
+
+<ul>
+  <li>Check the status of a certificate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmctl status certificate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cert_name</span></p>
+
+<ul>
+  <li>Create a new certificate request based on an existing certificate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmctl create certificaterequest my-cr --from-certificate-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cert.yaml</span></p>
+
+<ul>
+  <li>Create a new certificate request, fetch the signed certificate, and set a maximum wait time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmctl create certificaterequest my-cr --from-certificate-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cert.yaml</span><code class="language-plaintext highlighter-rouge"> --fetch-certificate --timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20m</span></p>

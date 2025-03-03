@@ -1,0 +1,35 @@
+<h1 id="magick-montage">magick montage</h1>
+
+<p>Coloca imágenes en una cuadrícula personalizable.
+Vea también: <code class="language-plaintext highlighter-rouge">magick</code>.
+Más información: <a href="https://imagemagick.org/script/montage.php">https://imagemagick.org/script/montage.php</a>.</p>
+
+<ul>
+  <li>Coloca imágenes en una cuadrícula, redimensionando automáticamente las imágenes más grandes que el tamaño de la celda de la cuadrícula:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick montage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/imagen1.jpg ruta/a/imagen2.jpg …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/montaje.jpg</span></p>
+
+<ul>
+  <li>Coloca imágenes en una cuadrícula, calculando automáticamente el tamaño de la celda de la cuadrícula a partir de la imagen más grande:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick montage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/imagen1.jpg ruta/a/imagen2.jpg …</span><code class="language-plaintext highlighter-rouge"> -geometry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+0+0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/montaje.jpg</span></p>
+
+<ul>
+  <li>Especifica el tamaño de la celda de la cuadrícula y redimensiona las imágenes para ajustarlas antes de colocarlas en la cuadrícula:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick montage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/imagen1.jpg ruta/a/imagen2.jpg …</span><code class="language-plaintext highlighter-rouge"> -geometry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640x480+0+0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/montaje.jpg</span></p>
+
+<ul>
+  <li>Limita el número de filas y columnas en la cuadrícula, causando que las imágenes de entrada desborden en múltiples montajes de salida:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick montage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/imagen1.jpg ruta/a/imagen2.jpg …</span><code class="language-plaintext highlighter-rouge"> -geometry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+0+0</span><code class="language-plaintext highlighter-rouge"> -tile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2x3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">montaje_%d.jpg</span></p>
+
+<ul>
+  <li>Redimensiona y recorta las imágenes para llenar sus celdas de cuadrícula antes de colocarlas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick montage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/imagen1.jpg ruta/a/imagen2.jpg …</span><code class="language-plaintext highlighter-rouge"> -geometry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+0+0</span><code class="language-plaintext highlighter-rouge"> -resize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640x480^</span><code class="language-plaintext highlighter-rouge"> -gravity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">center</span><code class="language-plaintext highlighter-rouge"> -crop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640x480+0+0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/montaje.jpg</span></p>

@@ -1,0 +1,22 @@
+<h1 id="protector">protector</h1>
+
+<p>Protect or unprotect branches on GitHub repositories.
+More information: <a href="https://github.com/jcgay/protector">https://github.com/jcgay/protector</a>.</p>
+
+<ul>
+  <li>Protect branches of a GitHub repository (create branch protection rules):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protector </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branches_regex</span><code class="language-plaintext highlighter-rouge"> -repos </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization/repository</span></p>
+
+<ul>
+  <li>Use the dry run to see what would be protected (can also be used for freeing):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protector -dry-run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branches_regex</span><code class="language-plaintext highlighter-rouge"> -repos </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization/repository</span></p>
+
+<ul>
+  <li>Free branches of a GitHub repository (delete branch protection rules):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">protector -free </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branches_regex</span><code class="language-plaintext highlighter-rouge"> -repos </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization/repository</span></p>

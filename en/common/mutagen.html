@@ -1,0 +1,40 @@
+<h1 id="mutagen">mutagen</h1>
+
+<p>Real-time file synchronization and network forwarding tool.
+More information: <a href="https://mutagen.io">https://mutagen.io</a>.</p>
+
+<ul>
+  <li>Start a synchronization session between a local directory and a remote host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutagen sync create --name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">session_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/local/directory/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/remote/directory/</span></p>
+
+<ul>
+  <li>Start a synchronization session between a local directory and a Docker container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutagen sync create --name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">session_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/local/directory/</span><code class="language-plaintext highlighter-rouge"> docker://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/remote/directory/</span></p>
+
+<ul>
+  <li>Stop a running session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutagen sync terminate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">session_name</span></p>
+
+<ul>
+  <li>Start a project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutagen project start</code></p>
+
+<ul>
+  <li>Stop a project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutagen project terminate</code></p>
+
+<ul>
+  <li>List running sessions for the current project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutagen project list</code></p>

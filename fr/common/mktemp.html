@@ -1,0 +1,34 @@
+<h1 id="mktemp">mktemp</h1>
+
+<p>Crée un fichier ou un répertoire temporaire.
+Plus d'informations : <a href="https://man.openbsd.org/mktemp.1">https://man.openbsd.org/mktemp.1</a>.</p>
+
+<ul>
+  <li>Crée un fichier temporaire vide et affiche son chemin d'accès absolu :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp</code></p>
+
+<ul>
+  <li>Utilise un répertoire personnalisé si <code class="language-plaintext highlighter-rouge">$TMPDIR</code> n'est pas défini (la valeur par défaut dépend de la plateforme, mais est habituellement <code class="language-plaintext highlighter-rouge">/tmp</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/chemin/vers/reptemp</span></p>
+
+<ul>
+  <li>Utilise un modèle de chemin personnalisé (les <code class="language-plaintext highlighter-rouge">X</code> sont remplacés par des caractères alphanumériques aléatoires) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/tmp/exemple.XXXXXXXX</span></p>
+
+<ul>
+  <li>Utilise un modèle de nom de fichier personnalisé :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemple.XXXXXXXX</span></p>
+
+<ul>
+  <li>Crée un répertoire temporaire vide et affiche son chemin d'accès absolu :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp -d</code></p>

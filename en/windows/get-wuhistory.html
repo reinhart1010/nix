@@ -1,0 +1,35 @@
+<h1 id="get-wuhistory">Get-WUHistory</h1>
+
+<p>Get the history of installed updates from Windows Update. Part of external <code class="language-plaintext highlighter-rouge">PSWindowsUpdate</code> module.
+This command can only be run under PowerShell.
+More information: <a href="https://github.com/mgajda83/PSWindowsUpdate">https://github.com/mgajda83/PSWindowsUpdate</a>.</p>
+
+<ul>
+  <li>Get list of update history:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-WUHistory</code></p>
+
+<ul>
+  <li>List the last 10 installed updates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-WUHistory -Last </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>List all updates installed from a specific date to today:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-WUHistory -MaxDate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">date</span></p>
+
+<ul>
+  <li>List all updates installed in the past 24 hours:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-WUHistory -MaxDate (Get-Date).AddDays(-1)</code></p>
+
+<ul>
+  <li>Send the results via email (SMTP):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Get-WUHistory -SendReport -PSWUSettings @{SmtpServer="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smtp_server</span><code class="language-plaintext highlighter-rouge">"; Port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smtp_port</span><code class="language-plaintext highlighter-rouge"> From="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sender_email</span><code class="language-plaintext highlighter-rouge">" To="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">receiver_email</span><code class="language-plaintext highlighter-rouge">"}</code></p>

@@ -1,0 +1,52 @@
+<h1 id="clamscan">clamscan</h1>
+
+<p>A command-line virus scanner.
+More information: <a href="https://docs.clamav.net/manual/Usage/Scanning.html#clamscan">https://docs.clamav.net/manual/Usage/Scanning.html#clamscan</a>.</p>
+
+<ul>
+  <li>Scan a file for vulnerabilities:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Scan all files recursively in a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Scan data from <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | clamscan -</code></p>
+
+<ul>
+  <li>Specify a virus database file or directory of files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --database </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database_file_or_directory</span></p>
+
+<ul>
+  <li>Scan the current directory and output only infected files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --infected</code></p>
+
+<ul>
+  <li>Print the scan report to a log file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/log_file</span></p>
+
+<ul>
+  <li>Move infected files to a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/quarantine_directory</span></p>
+
+<ul>
+  <li>Remove infected files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamscan --remove yes</code></p>

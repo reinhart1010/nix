@@ -1,0 +1,40 @@
+<h1 id="df">df</h1>
+
+<p>ファイルシステムのディスク使用量の概要を表示します。
+もっと詳しく: <a href="https://www.gnu.org/software/coreutils/manual/html_node/df-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/df-invocation.html</a>。</p>
+
+<ul>
+  <li>すべてのファイルシステムとそのディスク使用量を表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df</code></p>
+
+<ul>
+  <li>すべてのファイルシステムとそのディスク使用量を、人が解釈可能な形式で表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–human-readable</span></p>
+
+<ul>
+  <li>与えられたファイルまたはディレクトリを含むファイルシステムと、そのディスク使用量を表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>空きinode数の統計を含める:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–inodes</span></p>
+
+<ul>
+  <li>ファイルシステムを表示するが、指定したタイプは除外する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-x|–exclude-type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">squashfs</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-x|–exclude-type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmpfs</span></p>
+
+<ul>
+  <li>ファイルシステムのタイプを表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">df </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-T|–print-type</span></p>

@@ -1,0 +1,29 @@
+<h1 id="virsh-connect">virsh-connect</h1>
+
+<p>Conectar-se a um hipervisor de máquina virtual.
+Veja também: <code class="language-plaintext highlighter-rouge">virsh</code>.
+Mais informações: <a href="https://manned.org/virsh">https://manned.org/virsh</a>.</p>
+
+<ul>
+  <li>Conecta ao hipervisor padrão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh connect</code></p>
+
+<ul>
+  <li>Conecta como root ao hipervisor local QEMU/KVM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh connect qemu:///system</code></p>
+
+<ul>
+  <li>Inicia uma nova instância do hipervisor e conectar-se a ela como usuário local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh connect qemu:///session</code></p>
+
+<ul>
+  <li>Conecta como root a um hipervisor remoto usando SSH:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh connect qemu+ssh://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_usuário@nome_do_host</span><code class="language-plaintext highlighter-rouge">/system</code></p>

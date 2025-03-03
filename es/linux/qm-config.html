@@ -1,0 +1,22 @@
+<h1 id="qm-config">qm config</h1>
+
+<p>Muestra la configuración de la máquina virtual con los cambios de configuración pendientes aplicados.
+Más información: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>Muestra la configuración de la máquina virtual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_mv</span></p>
+
+<ul>
+  <li>Muestra los valores de configuración actuales en lugar de los valores pendientes en la máquina virtual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm config --current </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_mv</span></p>
+
+<ul>
+  <li>Obtiene los valores de configuración de la instantánea (snapshot) dada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm config --snapshot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_instantánea</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_mv</span></p>

@@ -1,0 +1,46 @@
+<h1 id="nc">nc</h1>
+
+<p>Redirige datos de entrada o salida a un flujo de red a través de esta versátil herramienta.
+Más información: <a href="https://manned.org/nc">https://manned.org/nc</a>.</p>
+
+<ul>
+  <li>Inicia un escuchador en un puerto TCP y le envía un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -l -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_archivo</span></p>
+
+<ul>
+  <li>Conecta a un escuchador en un puerto y recibe un archivo de él:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_archivo_por_recibir</span></p>
+
+<ul>
+  <li>Escanea los puertos TCP abiertos en un host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -v -z -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tiempo_de_espera_en_segundos</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto_inicial</span><code class="language-plaintext highlighter-rouge">-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto_final</span></p>
+
+<ul>
+  <li>Inicia un escuchador en un puerto TCP y provee de acceso a tu intérprete de comandos local a la parte conectada (esto es peligroso y podría ser explotado):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -l -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejecutable_del_intérprete</span></p>
+
+<ul>
+  <li>Conecta a un escuchador y provee de acceso a tu intérprete de comandos local a una parte remota (esto es peligroso y podría ser explotado):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejecutable_del_intérprete</span></p>
+
+<ul>
+  <li>Actúa como un proxy y envía información de un puerto TCP local a un host remoto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -l -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto_local</span><code class="language-plaintext highlighter-rouge"> | nc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto_remoto</span></p>
+
+<ul>
+  <li>Envía una petición HTTP GET:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -e "GET / HTTP/1.1\nHost: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">\n\n" | nc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> 80</code></p>

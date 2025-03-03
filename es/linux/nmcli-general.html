@@ -1,0 +1,41 @@
+<h1 id="nmcli-general">nmcli general</h1>
+
+<p>Administra los ajustes generales de NetworkManager.
+Este subcomando también se puede invocar con <code class="language-plaintext highlighter-rouge">nmcli g</code>.
+Más información: <a href="https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html">https://networkmanager.pages.freedesktop.org/NetworkManager/NetworkManager/nmcli.html</a>.</p>
+
+<ul>
+  <li>Muestra el estado general de NetworkManager:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli general</code></p>
+
+<ul>
+  <li>Muestra el nombre del host del dispositivo actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli general hostname</code></p>
+
+<ul>
+  <li>Cambia el nombre del host del dispositivo actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nmcli general hostname </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuevo_nombre</span></p>
+
+<ul>
+  <li>Muestra los permisos de NetworkManager:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli general permissions</code></p>
+
+<ul>
+  <li>Muestra el nivel actual de registro (logging) y los dominios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli general logging</code></p>
+
+<ul>
+  <li>Establece el nivel de registro y/o dominios (mira <code class="language-plaintext highlighter-rouge">man NetworkManager.conf</code> para todos los dominios disponibles):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmcli general logging level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">INFO|OFF|ERR|WARN|DEBUG|TRACE</span><code class="language-plaintext highlighter-rouge"> domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dominio_1,dominio_2,…</span></p>

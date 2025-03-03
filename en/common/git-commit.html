@@ -1,0 +1,46 @@
+<h1 id="git-commit">git commit</h1>
+
+<p>Commit files to the repository.
+More information: <a href="https://git-scm.com/docs/git-commit">https://git-scm.com/docs/git-commit</a>.</p>
+
+<ul>
+  <li>Commit staged files to the repository with a message:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Commit staged files with a message read from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/commit_message_file</span></p>
+
+<ul>
+  <li>Auto stage all modified and deleted files and commit with a message:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --all --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Commit staged files and sign them with the specified GPG key (or the one defined in the configuration file if no argument is specified):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --gpg-sign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_id</span><code class="language-plaintext highlighter-rouge"> --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Update the last commit by adding the currently staged changes, changing the commit's hash:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --amend</code></p>
+
+<ul>
+  <li>Commit only specific (already staged) files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span></p>
+
+<ul>
+  <li>Create a commit, even if there are no staged files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span><code class="language-plaintext highlighter-rouge">" --allow-empty</code></p>

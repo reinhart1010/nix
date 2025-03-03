@@ -1,0 +1,47 @@
+<h1 id="gcalcli">gcalcli</h1>
+
+<p>Ferramenta de linha de comando para interagir com o Google Agenda.
+Solicita autorização da API do Google na primeira inicialização.
+Mais informações: <a href="https://github.com/insanum/gcalcli">https://github.com/insanum/gcalcli</a>.</p>
+
+<ul>
+  <li>Lista seus eventos para todos os seus calendários nos próximos 7 dias:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcalcli agenda</code></p>
+
+<ul>
+  <li>Mostra eventos começando em ou entre datas específicas (também recebe datas relativas, por exemplo, "amanhã"):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcalcli agenda </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mm/dd</span><code class="language-plaintext highlighter-rouge"> [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mm/dd</span><code class="language-plaintext highlighter-rouge">]</code></p>
+
+<ul>
+  <li>Lista eventos de um calendário específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcalcli --calendar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_calendário</span><code class="language-plaintext highlighter-rouge"> agenda</code></p>
+
+<ul>
+  <li>Exibe um calendário ASCII de eventos por semana:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcalcli calw</code></p>
+
+<ul>
+  <li>Exibe um calendário ASCII de eventos para um mês:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcalcli calm</code></p>
+
+<ul>
+  <li>Adiciona um evento rapidamente ao seu calendário:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcalcli --calendar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_calendário</span><code class="language-plaintext highlighter-rouge"> quick "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mm/dd</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HH:MM</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_evento</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Adiciona um evento ao calendário. Dispara prompt interativo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcalcli --calendar "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_calendário</span><code class="language-plaintext highlighter-rouge">" add</code></p>

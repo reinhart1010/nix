@@ -1,0 +1,53 @@
+<h1 id="virsh">virsh</h1>
+
+<p>Manage <code class="language-plaintext highlighter-rouge">virsh</code> guest domains. (Note: <code class="language-plaintext highlighter-rouge">guest_id</code> can be the ID, name or UUID of the guest).
+Some subcommands such as <code class="language-plaintext highlighter-rouge">list</code> have their own usage documentation.
+More information: <a href="https://libvirt.org/manpages/virsh.html">https://libvirt.org/manpages/virsh.html</a>.</p>
+
+<ul>
+  <li>Connect to a hypervisor session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh connect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">qemu:///system</span></p>
+
+<ul>
+  <li>Activate a network named <code class="language-plaintext highlighter-rouge">default</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo virsh net-start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">default</span></p>
+
+<ul>
+  <li>List all domains:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh list --all</code></p>
+
+<ul>
+  <li>Create a guest from a configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config_file.xml</span></p>
+
+<ul>
+  <li>Edit a guest's configuration file (editor can be changed with $EDITOR):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">guest_id</span></p>
+
+<ul>
+  <li>Start/reboot/shutdown/suspend/resume a guest:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">guest_id</span></p>
+
+<ul>
+  <li>Save the current state of a guest to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">guest_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Delete a running guest:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh destroy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">guest_id</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; virsh undefine </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">guest_id</span></p>

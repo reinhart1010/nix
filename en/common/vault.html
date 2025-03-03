@@ -1,0 +1,46 @@
+<h1 id="vault">vault</h1>
+
+<p>Interact with HashiCorp Vault.
+More information: <a href="https://www.vaultproject.io/docs/commands">https://www.vaultproject.io/docs/commands</a>.</p>
+
+<ul>
+  <li>Connect to a Vault server and initialize a new encrypted data store:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vault init</code></p>
+
+<ul>
+  <li>Unseal (unlock) the vault, by providing one of the key shares needed to access the encrypted data store:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vault unseal </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key-share-x</span></p>
+
+<ul>
+  <li>Authenticate the CLI client against the Vault server, using an authentication token:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vault auth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">authentication_token</span></p>
+
+<ul>
+  <li>Store a new secret in the vault, using the generic back-end called "secret":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vault write secret/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hello</span><code class="language-plaintext highlighter-rouge"> value=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">world</span></p>
+
+<ul>
+  <li>Read a value from the vault, using the generic back-end called "secret":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vault read secret/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hello</span></p>
+
+<ul>
+  <li>Read a specific field from the value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vault read -field=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">field_name</span><code class="language-plaintext highlighter-rouge"> secret/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hello</span></p>
+
+<ul>
+  <li>Seal (lock) the Vault server, by removing the encryption key of the data store from memory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vault seal</code></p>

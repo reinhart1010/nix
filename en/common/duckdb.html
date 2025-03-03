@@ -1,0 +1,52 @@
+<h1 id="duckdb">duckdb</h1>
+
+<p>Command-line client for DuckDB, an in-process analytical SQL engine.
+More information: <a href="https://duckdb.org">https://duckdb.org</a>.</p>
+
+<ul>
+  <li>Start an interactive shell with a transient in-memory database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duckdb</code></p>
+
+<ul>
+  <li>Start an interactive shell on a database file. If the file does not exist, a new database is created:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duckdb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/dbfile</span></p>
+
+<ul>
+  <li>Directly query a CSV, JSON, or Parquet file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duckdb -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SELECT * FROM 'data_source.[csv|csv.gz|json|json.gz|parquet]'</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run an SQL script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duckdb -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sql</span></p>
+
+<ul>
+  <li>Run query on database file and keep the interactive shell open:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duckdb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/dbfile</span><code class="language-plaintext highlighter-rouge"> -cmd "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SELECT DISTINCT * FROM tbl</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run SQL queries in file on database and keep the interactive shell open:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duckdb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/dbfile</span><code class="language-plaintext highlighter-rouge"> -init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sql</span></p>
+
+<ul>
+  <li>Read CSV from <code class="language-plaintext highlighter-rouge">stdin</code> and write CSV to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.csv</span><code class="language-plaintext highlighter-rouge"> | duckdb -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">COPY (FROM read_csv('/dev/stdin')) TO '/dev/stdout' WITH (FORMAT CSV, HEADER)</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">duckdb -help</code></p>

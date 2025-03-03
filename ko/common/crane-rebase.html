@@ -1,0 +1,34 @@
+<h1 id="crane-rebase">crane rebase</h1>
+
+<p>이미지를 새로운 기본 이미지로 rebase.
+더 많은 정보: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_rebase.md">https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_rebase.md</a>.</p>
+
+<ul>
+  <li>이미지 rebase:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane rebase</code></p>
+
+<ul>
+  <li>새로운 기본 이미지 삽입:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane rebase --new_base </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_이름</span></p>
+
+<ul>
+  <li>오래된 이미지 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane rebase --old_base </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_이름</span></p>
+
+<ul>
+  <li>rebase된 이미지에 적용할 태그 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane rebase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–tag</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">태그_이름</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane rebase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span></p>

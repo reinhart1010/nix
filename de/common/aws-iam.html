@@ -1,0 +1,52 @@
+<h1 id="aws-iam">aws iam</h1>
+
+<p>CLI für AWS IAM.
+Weitere Informationen: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html</a>.</p>
+
+<ul>
+  <li>Liste aller Benutzer auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-users</code></p>
+
+<ul>
+  <li>Liste aller Richtlinien auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-policies</code></p>
+
+<ul>
+  <li>Liste aller Gruppen auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-groups</code></p>
+
+<ul>
+  <li>Liste aller Benutzer zu einer Gruppe auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam get-group --group-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gruppe</span></p>
+
+<ul>
+  <li>Liste einer IAM Richtlinie detailliert auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam get-policy --policy-arn arn:aws:iam::aws:policy/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">richtlinie</span></p>
+
+<ul>
+  <li>Liste alle Zugriffsschlüssel auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-access-keys</code></p>
+
+<ul>
+  <li>Liste alle Zugriffsschlüssel für einen Benutzer auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-access-keys --user-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzername</span></p>
+
+<ul>
+  <li>Zeige die AWS IAM Hilfeseite (beinhaltet auch Hinweise für alle Unterbefehle):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam help</code></p>

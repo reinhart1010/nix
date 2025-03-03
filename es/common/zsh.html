@@ -1,0 +1,53 @@
+<h1 id="zsh">zsh</h1>
+
+<p>Z SHell, un intérprete de línea de comandos compatible con Bash.
+Vea también <code class="language-plaintext highlighter-rouge">histexpand</code> para la expansión del historial.
+Más información: <a href="https://www.zsh.org">https://www.zsh.org</a>.</p>
+
+<ul>
+  <li>Comienza una sesión interactiva en el intérprete de comandos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zsh</code></p>
+
+<ul>
+  <li>Ejecuta un comando y sale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zsh -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ejecuta un script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zsh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/script.zsh</span></p>
+
+<ul>
+  <li>Comprueba si hay errores de sintaxis en un script sin ejecutarlo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zsh --no-exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/script.zsh</span></p>
+
+<ul>
+  <li>Ejecuta comandos desde <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | zsh</code></p>
+
+<ul>
+  <li>Ejecuta un script, mostrando cada comando antes de ejecutarlo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zsh --xtrace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/script.zsh</span></p>
+
+<ul>
+  <li>Comienza una sesión interactiva en el intérprete de comandos en modo detallado, mostrando cada comando antes de ejecutarlo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zsh --verbose</code></p>
+
+<ul>
+  <li>Ejecuta un comando dentro de <code class="language-plaintext highlighter-rouge">zsh</code> con patrones glob desactivados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">noglob </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>

@@ -1,0 +1,41 @@
+<h1 id="kinit">kinit</h1>
+
+<p>Authenticate a principal with a Kerberos server to gain and cache a ticket.
+Note: A Kerberos principal can be either a user, service, or application.
+More information: <a href="https://web.mit.edu/kerberos/krb5-1.12/doc/user/user_commands/kinit.html">https://web.mit.edu/kerberos/krb5-1.12/doc/user/user_commands/kinit.html</a>.</p>
+
+<ul>
+  <li>Authenticate a user and obtain a ticket-granting ticket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kinit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Renew a ticket-granting ticket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kinit -R</code></p>
+
+<ul>
+  <li>Specify a lifetime for the ticket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kinit -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5h</span></p>
+
+<ul>
+  <li>Specify a total renewable lifetime for the ticket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kinit -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1w</span></p>
+
+<ul>
+  <li>Specify a different principal name to authenticate as:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kinit -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">principal@REALM</span></p>
+
+<ul>
+  <li>Specify a different keytab file to authenticate with:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kinit -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/keytab</span></p>

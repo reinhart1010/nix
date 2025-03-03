@@ -1,0 +1,40 @@
+<h1 id="timeshift">timeshift</h1>
+
+<p>System restore utility.
+More information: <a href="https://github.com/teejee2008/timeshift">https://github.com/teejee2008/timeshift</a>.</p>
+
+<ul>
+  <li>List snapshots:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo timeshift --list</code></p>
+
+<ul>
+  <li>Create a new snapshot (if scheduled):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo timeshift --check</code></p>
+
+<ul>
+  <li>Create a new snapshot (even if not scheduled):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo timeshift --create</code></p>
+
+<ul>
+  <li>Restore a snapshot (selecting which snapshot to restore interactively):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo timeshift --restore</code></p>
+
+<ul>
+  <li>Restore a specific snapshot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo timeshift --restore --snapshot '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Delete a specific snapshot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo timeshift --delete --snapshot '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot</span><code class="language-plaintext highlighter-rouge">'</code></p>

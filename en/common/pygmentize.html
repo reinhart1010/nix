@@ -1,0 +1,40 @@
+<h1 id="pygmentize">pygmentize</h1>
+
+<p>Python-based syntax highlighter.
+More information: <a href="https://pygments.org/docs/cmdline/">https://pygments.org/docs/cmdline/</a>.</p>
+
+<ul>
+  <li>Highlight file syntax and print to <code class="language-plaintext highlighter-rouge">stdout</code> (language is inferred from the file extension):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pygmentize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.py</span></p>
+
+<ul>
+  <li>Explicitly set the language for syntax highlighting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pygmentize -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">javascript</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file</span></p>
+
+<ul>
+  <li>List available lexers (processors for input languages):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pygmentize -L lexers</code></p>
+
+<ul>
+  <li>Save output to a file in HTML format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pygmentize -f html -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file.py</span></p>
+
+<ul>
+  <li>List available output formats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pygmentize -L formatters</code></p>
+
+<ul>
+  <li>Output an HTML file, with additional formatter options (full page, with line numbers):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pygmentize -f html -O "full,linenos=True" -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file</span></p>

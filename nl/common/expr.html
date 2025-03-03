@@ -1,0 +1,46 @@
+<h1 id="expr">expr</h1>
+
+<p>Evalueer expressies en manipuleer string.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/expr-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/expr-invocation.html</a>.</p>
+
+<ul>
+  <li>Krijg de lengte van een specifieke string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr length "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Krijg de substring van een string met een specifieke lengte:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr substr "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">van</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lengte</span></p>
+
+<ul>
+  <li>Vergelijk een specifieke substring met een verankerd patroon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr match "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patroon</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Verkrijg de eerste karakterpositie van een specifieke set in een tekenreeks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr index "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">karakters</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Bereken een specifieke mathematische expressie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expressie1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+|-|*|/|%</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expressie2</span></p>
+
+<ul>
+  <li>Bekijk de eerste expressie als de waarde niet nul is en niet null, anders de tweede:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expressie1</span><code class="language-plaintext highlighter-rouge"> \| </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expressie2</span></p>
+
+<ul>
+  <li>Bekijk de eerste expressie als beide expressies niet nul zijn en niet null, anders 0:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expressie1</span><code class="language-plaintext highlighter-rouge"> \&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expressie2</span></p>

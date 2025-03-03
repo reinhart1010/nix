@@ -1,0 +1,28 @@
+<h1 id="ppmtompeg">ppmtompeg</h1>
+
+<p>Encode an MPEG-1 stream.
+More information: <a href="https://netpbm.sourceforge.net/doc/ppmtompeg.html">https://netpbm.sourceforge.net/doc/ppmtompeg.html</a>.</p>
+
+<ul>
+  <li>Produce an MPEG-1 stream using the parameter file to specify inputs and outputs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtompeg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/parameter_file</span></p>
+
+<ul>
+  <li>Encode the GOP with the specified number only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtompeg -gop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gop_num</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/parameter_file</span></p>
+
+<ul>
+  <li>Specify the first and last frame to encode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtompeg -frames </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">first_frame</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">last_frame</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/parameter_file</span></p>
+
+<ul>
+  <li>Combine multiple MPEG frames into a single MPEG-1 stream:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtompeg -combine_frames </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/parameter_file</span></p>

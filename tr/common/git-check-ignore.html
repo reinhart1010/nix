@@ -1,0 +1,34 @@
+<h1 id="git-check-ignore">git check-ignore</h1>
+
+<p>Git yoksayma / dışlama (".gitignore") dosyalarını analiz et.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-check-ignore">https://git-scm.com/docs/git-check-ignore</a>.</p>
+
+<ul>
+  <li>Bir dosya veya dizinin yoksayıldığı veya sayılmadığını kontrol et:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya_veya_dizin</span></p>
+
+<ul>
+  <li>Birden fazla dosya veya dizinin yoksayıldığı veya sayılmadığını kontrol et:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya_veya_dizin1 örnek/dosya_veya_dizin2 …</span></p>
+
+<ul>
+  <li>Her bir satıra tekabül edecek şekilde <code class="language-plaintext highlighter-rouge">stdin</code>'den yolisimleri kullan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore --stdin &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya_sırası</span></p>
+
+<ul>
+  <li>İndeksi kontrol etme:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore --no-index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya_veya_dizin1 örnek/dosya_veya_dizin2 …</span></p>
+
+<ul>
+  <li>Her yol için eşleşen desene dair detayları dahil et:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git check-ignore --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya_veya_dizin1 örnek/dosya_veya_dizin2 …</span></p>

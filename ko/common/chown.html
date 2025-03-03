@@ -1,0 +1,40 @@
+<h1 id="chown">chown</h1>
+
+<p>파일과 디렉토리의 사용자 및 그룹 소유권 변경.
+더 많은 정보: <a href="https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html</a>.</p>
+
+<ul>
+  <li>파일/디렉토리를 소유한 사용자를 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉토리</span></p>
+
+<ul>
+  <li>파일/디렉토리를 소유한 사용자 및 그룹을 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉토리</span></p>
+
+<ul>
+  <li>소유한 사용자 및 그룹을 모두 <code class="language-plaintext highlighter-rouge">사용자</code>로 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge">: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉토리</span></p>
+
+<ul>
+  <li>디렉토리 및 그 내용의 소유한 사용자를 재귀적으로 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉토리</span></p>
+
+<ul>
+  <li>심볼릭 링크의 소유한 사용자를 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">심볼릭_링크</span></p>
+
+<ul>
+  <li>파일/디렉토리의 소유한 사용자를 참조 파일과 일치시키기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown --reference </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/참조_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_디렉토리</span></p>

@@ -1,0 +1,34 @@
+<h1 id="mktemp">mktemp</h1>
+
+<p>임시 파일 또는 디렉터리 생성.
+더 많은 정보: <a href="https://keith.github.io/xcode-man-pages/mktemp.1.html">https://keith.github.io/xcode-man-pages/mktemp.1.html</a>.</p>
+
+<ul>
+  <li>빈 임시 파일을 생성하고 절대 경로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp</code></p>
+
+<ul>
+  <li>사용자 정의 디렉터리 사용 (<code class="language-plaintext highlighter-rouge">getconf DARWIN_USER_TEMP_DIR</code>의 출력 또는 <code class="language-plaintext highlighter-rouge">/tmp</code>가 기본값):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp --tmpdir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/임시_폴더</span></p>
+
+<ul>
+  <li>사용자 정의 경로 템플릿 사용 (<code class="language-plaintext highlighter-rouge">X</code>는 무작위 영숫자 문자로 대체됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/tmp/example.XXXXXXXX</span></p>
+
+<ul>
+  <li>사용자 정의 파일 이름 접두사 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">예제</span></p>
+
+<ul>
+  <li>빈 임시 디렉터리를 생성하고 절대 경로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp --directory</code></p>

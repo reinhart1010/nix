@@ -1,0 +1,22 @@
+<h1 id="pnmcolormap">pnmcolormap</h1>
+
+<p>Maak een kwantisatiekleurkaart voor een PNM afbeelding.
+Meer informatie: <a href="https://netpbm.sourceforge.net/doc/pnmcolormap.html">https://netpbm.sourceforge.net/doc/pnmcolormap.html</a>.</p>
+
+<ul>
+  <li>Genereer een afbeelding met alleen <code class="language-plaintext highlighter-rouge">n_kleuren</code> of minder kleuren, zo dicht als mogelijk bij de invoer-afbeelding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmcolormap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n_kleuren</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/invoer.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.ppm</span></p>
+
+<ul>
+  <li>Gebruik de splitspread strategie voor het bepalen van de uitvoer-kleuren, welke waarschijnlijk een beter resultaat oplevert met afbeeldingen met kleine details:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmcolormap -splitspread </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n_kleuren</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/invoer.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.ppm</span></p>
+
+<ul>
+  <li>Sorteer de resulteerde kleurkaart, welke nuttig is voor het vergelijken van kleurkaarten:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmcolormap -sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/invoer.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.ppm</span></p>

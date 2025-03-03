@@ -1,0 +1,16 @@
+<h1 id="woeusb">woeusb</h1>
+
+<p>Windows media creation tool.
+More information: <a href="https://github.com/WoeUSB/WoeUSB">https://github.com/WoeUSB/WoeUSB</a>.</p>
+
+<ul>
+  <li>Format a USB then create a bootable Windows installation drive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">woeusb --device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/windows.iso</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Copy Windows files to an existing partition of a USB storage device and make it bootable, without erasing the current data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">woeusb --partition </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/windows.iso</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>

@@ -1,0 +1,35 @@
+<h1 id="airdecap-ng">airdecap-ng</h1>
+
+<p>Dekripsi file tangkapan jaringan terenkripsi dengan kunci sandi WEP, WPA, atau WPA2.
+Bagian dari paket perangkat lunak jaringan Aircrack-ng.
+Informasi lebih lanjut: <a href="https://www.aircrack-ng.org/doku.php?id=airdecap-ng">https://www.aircrack-ng.org/doku.php?id=airdecap-ng</a>.</p>
+
+<ul>
+  <li>Buang informasi header jaringan wireless/nirkabel dari file tangkapan jaringan (bebas enkripsi WEP/WPA/WPA2), dan gunakan alamat MAC titik akses Wi-Fi untuk menyaringnya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat_mac</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tangkapan_jaringan.cap</span></p>
+
+<ul>
+  <li>Buka enkripsi WEP dari file tangkapan jaringan menggunakan kunci WEP dalam format heksadesimal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kunci_heksadesimal</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tangkapan_jaringan.cap</span></p>
+
+<ul>
+  <li>Buka enkripsi WPA/WPA2 dari file tangkapan jaringan menggunakan [e]ssid titik akses Wi-Fi dan kata sandi ([p]assword):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">essid</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_sandi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tangkapan_jaringan.cap</span></p>
+
+<ul>
+  <li>Buka enkripsi WPA/WPA2 dari file tangkapan jaringan menggunakan [e]ssid dan kata sandi ([p]assword), tanpa menghilangkan informasi header jaringan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -l -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">essid</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_sandi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tangkapan_jaringan.cap</span></p>
+
+<ul>
+  <li>Buka enkripsi WPA/WPA2 dari file tangkapan jaringan menggunakan [e]ssid dan kata sandi ([p]assword), dan saring menurut alamat MAC titik akses Wi-Fi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">airdecap-ng -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat_mac</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">essid</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_sandi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tangkapan_jaringan.cap</span></p>

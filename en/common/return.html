@@ -1,0 +1,16 @@
+<h1 id="return">return</h1>
+
+<p>Exit a function or a script if run with <code class="language-plaintext highlighter-rouge">source</code>.
+More information: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-return">https://www.gnu.org/software/bash/manual/bash.html#index-return</a>.</p>
+
+<ul>
+  <li>Exit a function prematurely:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">func_name</span><code class="language-plaintext highlighter-rouge">() { </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "This is reached"</span><code class="language-plaintext highlighter-rouge">; return; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "This is not"</span><code class="language-plaintext highlighter-rouge">; }</code></p>
+
+<ul>
+  <li>Specify the function's return value:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">func_name</span><code class="language-plaintext highlighter-rouge">() { return </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span><code class="language-plaintext highlighter-rouge">; }</code></p>

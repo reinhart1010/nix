@@ -1,0 +1,23 @@
+<h1 id="pammixinterlace">pammixinterlace</h1>
+
+<p>Merge each row in an image with its two neighbours.
+See also: <code class="language-plaintext highlighter-rouge">pamdeinterlace</code>.
+More information: <a href="https://netpbm.sourceforge.net/doc/pammixinterlace.html">https://netpbm.sourceforge.net/doc/pammixinterlace.html</a>.</p>
+
+<ul>
+  <li>Merge each row in an image with its two neighbours:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pammixinterlace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Use the specified filtering mechanism:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pammixinterlace -filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linear|fir|ffmpeg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>
+
+<ul>
+  <li>Turn on adaptive filtering mode, i.e., only modify pixels that are obviously part of a comb pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pammixinterlace -adaptive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ppm</span></p>

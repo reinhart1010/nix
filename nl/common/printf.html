@@ -1,0 +1,40 @@
+<h1 id="printf">printf</h1>
+
+<p>Formatteer en toon tekst.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/printf-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/printf-invocation.html</a>.</p>
+
+<ul>
+  <li>Toon een tekstbericht:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%s\n</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hallo wereld</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Toon een geheel getal in vetgedrukt blauw:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\e[1;34m%.3d\e[0m\n</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">42</span></p>
+
+<ul>
+  <li>Toon een drijvend-komma getal met het Unicode euroteken:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\u20AC %.2f\n</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">123.4</span></p>
+
+<ul>
+  <li>Toon een tekstbericht samengesteld met omgevingsvariabelen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">var1: %s\tvar2: %s\n</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$VAR1</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$VAR2</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Sla een geformatteerd bericht op in een variabele (werkt niet in Zsh):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mijnvar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">"Dit is %s = %d\n" "een jaar" 2016</span></p>
+
+<ul>
+  <li>Toon een hexadecimaal, octaal en wetenschappelijk getal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hex=%x octal=%o scientific=%e</span><code class="language-plaintext highlighter-rouge">" 0x</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">FF</span><code class="language-plaintext highlighter-rouge"> 0</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">377</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100000</span></p>

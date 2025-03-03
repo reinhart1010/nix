@@ -1,0 +1,28 @@
+<h1 id="chflags">chflags</h1>
+
+<p>更改文件或文件夹的标志。
+更多信息：<a href="https://keith.github.io/xcode-man-pages/chflags.1.html">https://keith.github.io/xcode-man-pages/chflags.1.html</a>.</p>
+
+<ul>
+  <li>给文件设置 hidden（隐藏）标签：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chflags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hidden</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径</span></p>
+
+<ul>
+  <li>取消文件的 hidden 标签：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chflags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hidden</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径</span></p>
+
+<ul>
+  <li>递归地给文件夹中每个文件设置 uchg 标志：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chflags -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uchg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件夹路径</span></p>
+
+<ul>
+  <li>递归地撤销文件夹中每个文件设置的 uchg 标志：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chflags -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nouchg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件夹路径</span></p>

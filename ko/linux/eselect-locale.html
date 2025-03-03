@@ -1,0 +1,22 @@
+<h1 id="eselect-locale">eselect locale</h1>
+
+<p>시스템 언어를 설정하는 <code class="language-plaintext highlighter-rouge">LANG</code> 환경 변수를 관리하기 위한 <code class="language-plaintext highlighter-rouge">eselect</code> 모듈.
+더 많은 정보: <a href="https://wiki.gentoo.org/wiki/Eselect#Locale">https://wiki.gentoo.org/wiki/Eselect#Locale</a>.</p>
+
+<ul>
+  <li>사용 가능한 로케일 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect locale list</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">list</code> 명령의 이름이나 인덱스로 <code class="language-plaintext highlighter-rouge">/etc/profile.env</code>에 <code class="language-plaintext highlighter-rouge">LANG</code> 환경 변수 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect locale set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름|인덱스</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">/etc/profile.env</code>의 <code class="language-plaintext highlighter-rouge">LANG</code> 값 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eselect locale show</code></p>

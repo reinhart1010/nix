@@ -1,0 +1,34 @@
+<h1 id="logger">logger</h1>
+
+<p>Voeg berichten toe aan syslog (/var/log/syslog).
+Meer informatie: <a href="https://manned.org/logger">https://manned.org/logger</a>.</p>
+
+<ul>
+  <li>Log een bericht naar syslog:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logger </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bericht</span></p>
+
+<ul>
+  <li>Neem invoer van <code class="language-plaintext highlighter-rouge">stdin</code> en log naar syslog:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">log_entry</span><code class="language-plaintext highlighter-rouge"> | logger</code></p>
+
+<ul>
+  <li>Stuur de uitvoer naar een externe syslog-server die op een bepaalde poort draait. Standaardpoort is 514:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">log_entry</span><code class="language-plaintext highlighter-rouge"> | logger --server </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">poort</span></p>
+
+<ul>
+  <li>Gebruik een specifieke tag voor elke gelogde regel. Standaard is de naam van de ingelogde gebruiker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">log_entry</span><code class="language-plaintext highlighter-rouge"> | logger --tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span></p>
+
+<ul>
+  <li>Log berichten met een gegeven prioriteit. Standaard is <code class="language-plaintext highlighter-rouge">user.notice</code>. Zie <code class="language-plaintext highlighter-rouge">man logger</code> voor alle prioriteitsopties:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">log_entry</span><code class="language-plaintext highlighter-rouge"> | logger --priority </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user.warning</span></p>

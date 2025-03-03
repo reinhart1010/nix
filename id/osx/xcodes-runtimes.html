@@ -1,0 +1,40 @@
+<h1 id="xcodes-runtimes">xcodes runtimes</h1>
+
+<p>Atur pemasangan runtime Simulator yang tersedia bagi aplikasi Xcode.
+Informasi lebih lanjut: <a href="https://github.com/xcodesorg/xcodes">https://github.com/xcodesorg/xcodes</a>.</p>
+
+<ul>
+  <li>Tampilkan seluruh Simulator yang tersedia bagi aplikasi Xcode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes --include-betas</code></p>
+
+<ul>
+  <li>Unduh sebuah runtime Simulator:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes download </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_runtime</span></p>
+
+<ul>
+  <li>Unduh dan pasang sebuah runtime Simulator:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_runtime</span></p>
+
+<ul>
+  <li>Unduh/pasang runtime Simulator untuk iOS/watchOS/tvOS/visionOS versi spesifik (nama harus ditulis sebagai case-sensitive):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">download|install</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">iOS|watchOS|tvOS|visionOS</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_runtime</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Atur lokasi penyimpanan arsip runtime yang akan diunduh (nilai default: <code class="language-plaintext highlighter-rouge">~/Downloads</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">download|install</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_runtime</span><code class="language-plaintext highlighter-rouge"> --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span></p>
+
+<ul>
+  <li>Jangan hapus arsip runtime Simulator setelah pemasangan selesai:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xcodes runtimes install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_runtime</span><code class="language-plaintext highlighter-rouge"> --keep-archive</code></p>

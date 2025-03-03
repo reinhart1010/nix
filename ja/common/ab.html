@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="ab">ab</h1>
+
+<p>Apache HTTP server のベンチマーク用ツールです。
+もっと詳しく: <a href="https://httpd.apache.org/docs/current/programs/ab.html">https://httpd.apache.org/docs/current/programs/ab.html</a>。</p>
+
+<ul>
+  <li>指定された URL に 100 個の GET リクエストを送信する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -n 100 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>指定された URL に 100 個の GET リクエストを、10 個ずつ同時に送信する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -n 100 -c 10 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>ファイルからの JSON ペイロードを使って、指定された URL に 100 個の POST リクエストを送信する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -n 100 -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイルパス.json</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>[K]eep Alive を有効化する（１つの HTTP セッションで複数のリクエストを実行する）:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>ベンチマークを行う最大秒数を設定する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>

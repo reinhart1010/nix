@@ -1,0 +1,34 @@
+<h1 id="kubectl-label">kubectl label</h1>
+
+<p>Kubernetes 리소스에 레이블 지정.
+더 많은 정보: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#label">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#label</a>.</p>
+
+<ul>
+  <li>포드에 레이블 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl label pod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포드_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span></p>
+
+<ul>
+  <li>기존 값을 덮어쓰며 포드 레이블 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl label --overwrite pod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포드_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span></p>
+
+<ul>
+  <li>네임스페이스의 모든 포드에 레이블 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl label pods --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span></p>
+
+<ul>
+  <li>포드 정의 파일로 식별된 포드에 레이블 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl label -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포드_정의_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span></p>
+
+<ul>
+  <li>포드에서 레이블 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl label pod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포드_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키</span><code class="language-plaintext highlighter-rouge">-</code></p>

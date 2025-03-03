@@ -1,0 +1,46 @@
+<h1 id="chcon">chcon</h1>
+
+<p>Change le contexte de sécurité de SELinux d'un ou plusieurs fichiers/dossiers.
+Plus d'informations : <a href="https://www.gnu.org/software/coreutils/manual/html_node/chcon-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/chcon-invocation.html</a>.</p>
+
+<ul>
+  <li>Affiche le contexte de sécurité d'un fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls -lZ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Change le contexte de sécurité d'un fichier cible, en utilisant un fichier de référence :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon --reference=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_référence</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_cible</span></p>
+
+<ul>
+  <li>Change le contexte de sécurité SELinux complet d'un fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utilisateur</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">range/level</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>
+
+<ul>
+  <li>Change seulement la partie utilisateur du contexte de sécurité SELinux :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utilisateur</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>
+
+<ul>
+  <li>Change seulement la partie role du contexte de sécurité SELinux :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>
+
+<ul>
+  <li>Change seulement la partie type du contexte de sécurité SELinux :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>
+
+<ul>
+  <li>Change seulement la partie plage/niveau du contexte de sécurité SELinux :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plage/niveau</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>

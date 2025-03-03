@@ -1,0 +1,40 @@
+<h1 id="pageres">pageres</h1>
+
+<p>다양한 해상도로 웹사이트의 스크린샷을 캡처.
+더 많은 정보: <a href="https://github.com/sindresorhus/pageres-cli">https://github.com/sindresorhus/pageres-cli</a>.</p>
+
+<ul>
+  <li>여러 URL의 다양한 해상도로 스크린샷 촬영:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pageres </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example2.com/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1366x768</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1600x900</span></p>
+
+<ul>
+  <li>특정 URL에 대해 글로벌 옵션을 무시하고 특정 옵션 제공:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pageres [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1366x768</span><code class="language-plaintext highlighter-rouge"> --no-crop] [</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example2.com/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024x768</span><code class="language-plaintext highlighter-rouge">] --crop</code></p>
+
+<ul>
+  <li>사용자 정의 파일명 템플릿 제공:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pageres </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024x768</span><code class="language-plaintext highlighter-rouge"> --filename=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'&lt;%= date %&gt; - &lt;%= url %&gt;'</span></p>
+
+<ul>
+  <li>페이지의 특정 요소 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pageres </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1366x768</span><code class="language-plaintext highlighter-rouge"> --selector='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.page-header</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>특정 요소 숨기기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pageres </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1366x768</span><code class="language-plaintext highlighter-rouge"> --hide='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.page-header</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>로컬 파일의 스크린샷 캡처:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pageres </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_file_path.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1366x768</span></p>

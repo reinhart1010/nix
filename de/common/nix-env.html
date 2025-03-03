@@ -1,0 +1,52 @@
+<h1 id="nix-env">nix-env</h1>
+
+<p>Manipulieren oder Abfragen von Nix-Benutzerumgebungen.
+Weitere Informationen: <a href="https://nixos.org/manual/nix/stable/#sec-nix-env">https://nixos.org/manual/nix/stable/#sec-nix-env</a>.</p>
+
+<ul>
+  <li>Liste alle installierten Pakete auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -q</code></p>
+
+<ul>
+  <li>Frage installierte Pakete ab:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suchbegriff</span></p>
+
+<ul>
+  <li>Frage verfügbare Pakete ab:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -qa </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suchbegriff</span></p>
+
+<ul>
+  <li>Installiere Paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -iA nixpkgs.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_name</span></p>
+
+<ul>
+  <li>Installiere ein Paket von einer URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_name</span><code class="language-plaintext highlighter-rouge"> --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">beispiel.com</span></p>
+
+<ul>
+  <li>Deinstalliere ein Paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_name</span></p>
+
+<ul>
+  <li>Upgrade ein Pakets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_name</span></p>
+
+<ul>
+  <li>Upgrade alle Pakete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -u</code></p>

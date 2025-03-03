@@ -1,0 +1,35 @@
+<h1 id="xbps-query">xbps-query</h1>
+
+<p>패키지 및 저장소 정보를 조회하는 XBPS 유틸리티.
+같이 보기: <code class="language-plaintext highlighter-rouge">xbps</code>.
+더 많은 정보: <a href="https://manned.org/xbps-query.1">https://manned.org/xbps-query.1</a>.</p>
+
+<ul>
+  <li>정규 표현식 또는 키워드를 사용하여 원격 저장소에서 패키지 검색 (<code class="language-plaintext highlighter-rouge">--regex</code>가 생략된 경우 키워드 사용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-query --search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">정규_표현식|키워드</span><code class="language-plaintext highlighter-rouge"> --repository --regex</code></p>
+
+<ul>
+  <li>설치된 패키지에 대한 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-query --show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>원격 저장소의 패키지 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-query --show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span><code class="language-plaintext highlighter-rouge"> --repository</code></p>
+
+<ul>
+  <li>패키지 데이터베이스에 등록된 패키지 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-query --list-pkgs</code></p>
+
+<ul>
+  <li>명시적으로 설치된 패키지 나열 (의존성으로 자동 설치되지 않은 패키지):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-query --list-manual-pkgs</code></p>

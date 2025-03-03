@@ -1,0 +1,29 @@
+<h1 id="arthas-trace">arthas-trace</h1>
+
+<p>Trace method invoke chain, and output the time cost for each node in the path.
+See also: <code class="language-plaintext highlighter-rouge">arthas</code>, <code class="language-plaintext highlighter-rouge">arthas-watch</code>.
+More information: <a href="https://arthas.aliyun.com/en/doc/trace.html">https://arthas.aliyun.com/en/doc/trace.html</a>.</p>
+
+<ul>
+  <li>Trace method invoke chain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">class-pattern</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">method-pattern</span></p>
+
+<ul>
+  <li>Trace method invoke chains and only display invoke information longer than 10 ms:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">class-pattern</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">method-pattern</span><code class="language-plaintext highlighter-rouge"> '#cost &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Trace the invoke chain of multiple classes or multiple methods:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trace -E </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">class-pattern1|class-patter2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">method-pattern1|method-pattern2|method-pattern3</span></p>
+
+<ul>
+  <li>Track method invoke chains, only display invoke information that exceeds 10 ms, and exit after 5 times:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">class-pattern</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">method-pattern</span><code class="language-plaintext highlighter-rouge"> '#cost &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge">' -n 5</code></p>

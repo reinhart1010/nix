@@ -1,0 +1,52 @@
+<h1 id="reg-query">reg query</h1>
+
+<p>Display the values of keys and subkeys in the registry.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/reg-query">https://learn.microsoft.com/windows-server/administration/windows-commands/reg-query</a>.</p>
+
+<ul>
+  <li>Display all values of a key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span></p>
+
+<ul>
+  <li>Display a specific [v]alue of a key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> /v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Display all values of a key and its [s]ubkeys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> /s</code></p>
+
+<ul>
+  <li>Search [f]or keys and values matching a specific pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> /f "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query_pattern</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Display a value of a key matching a specified data [t]ype:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> /t REG_</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SZ|MULTI_SZ|EXPAND_SZ|DWORD|BINARY|NONE</span></p>
+
+<ul>
+  <li>Only search in [d]ata:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> /d</code></p>
+
+<ul>
+  <li>Only search in [k]ey names:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> /f "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query_pattern</span><code class="language-plaintext highlighter-rouge">" /k</code></p>
+
+<ul>
+  <li>[c]ase-sensitively search for an [e]xact match:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> /c /e</code></p>

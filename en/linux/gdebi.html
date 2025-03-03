@@ -1,0 +1,34 @@
+<h1 id="gdebi">gdebi</h1>
+
+<p>Easily install <code class="language-plaintext highlighter-rouge">.deb</code> files.
+More information: <a href="https://www.commandlinux.com/man-page/man1/gdebi.1.html">https://www.commandlinux.com/man-page/man1/gdebi.1.html</a>.</p>
+
+<ul>
+  <li>Install local <code class="language-plaintext highlighter-rouge">.deb</code> packages resolving and installing its dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdebi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.deb</span></p>
+
+<ul>
+  <li>Do not show progress information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdebi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.deb</span><code class="language-plaintext highlighter-rouge"> --quiet</code></p>
+
+<ul>
+  <li>Set an APT configuration option:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdebi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.deb</span><code class="language-plaintext highlighter-rouge"> --option=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">APT_OPTS</span></p>
+
+<ul>
+  <li>Use alternative root dir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdebi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.deb</span><code class="language-plaintext highlighter-rouge"> --root=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/root_dir</span></p>
+
+<ul>
+  <li>Display version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdebi --version</code></p>

@@ -1,0 +1,41 @@
+<h1 id="emacsclient">emacsclient</h1>
+
+<p>Open files in an existing Emacs server.
+See also <code class="language-plaintext highlighter-rouge">emacs</code>.
+More information: <a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html">https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html</a>.</p>
+
+<ul>
+  <li>Open a file in an existing Emacs server (using GUI if available):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Open a file in console mode (without an X window):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --no-window-system </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Open a file in a new Emacs window:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --create-frame </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Evaluate a command, printing the output to <code class="language-plaintext highlighter-rouge">stdout</code>, and then quit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --eval '(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">)'</code></p>
+
+<ul>
+  <li>Specify an alternative editor in case no Emacs server is running:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --alternate-editor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">editor</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Stop a running Emacs server and all its instances, asking for confirmation on unsaved files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --eval '(save-buffers-kill-emacs)'</code></p>

@@ -1,0 +1,28 @@
+<h1 id="pidof">pidof</h1>
+
+<p>Ottiene l'ID di un processo a partire dal suo nome.
+Maggiori informazioni: <a href="https://manned.org/pidof">https://manned.org/pidof</a>.</p>
+
+<ul>
+  <li>Elenca gli ID di tutti i processi con un dato nome:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pidof </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash</span></p>
+
+<ul>
+  <li>Elenca un solo ID di processo con il nome specificato:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pidof -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash</span></p>
+
+<ul>
+  <li>Elenca gli ID dei processi con un dato includendo anche gli script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pidof -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script.py</span></p>
+
+<ul>
+  <li>Uccide tutti i processi con un dato nome:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill $(pidof </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span><code class="language-plaintext highlighter-rouge">)</code></p>

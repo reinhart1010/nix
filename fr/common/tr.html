@@ -1,0 +1,46 @@
+<h1 id="tr">tr</h1>
+
+<p>Convertisseur de caractères : exécute des remplacements basés sur des caractères uniques et des jeux de caractères.
+Plus d'informations : <a href="https://www.gnu.org/software/coreutils/manual/html_node/tr-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/tr-invocation.html</a>.</p>
+
+<ul>
+  <li>Remplace toutes les occurrences d'un caractère dans un fichier, et affiche le résultat :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caractère_recherché</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caractère_remplacé</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>
+
+<ul>
+  <li>Remplace toutes les occurrences d'un caractère dans la sortie d'une autre commande :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texte</span><code class="language-plaintext highlighter-rouge"> | tr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caractère_recherché</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caractère_remplacé</span></p>
+
+<ul>
+  <li>Fais correspondre chaque caractère du premier ensemble au caractère correspondant du second ensemble :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tr '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">abcd</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jkmn</span><code class="language-plaintext highlighter-rouge">' &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>
+
+<ul>
+  <li>Supprime toutes les occurrences de l'ensemble de caractères spécifié dans l'entrée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tr -d '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caractères_en_entrée</span><code class="language-plaintext highlighter-rouge">' &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>
+
+<ul>
+  <li>Comprime une série de caractères identiques en un seul caractère :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tr -s '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caractères_en_entrée</span><code class="language-plaintext highlighter-rouge">' &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>
+
+<ul>
+  <li>Traduis le contenu d'un fichier en majuscules :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tr "[:lower:]" "[:upper:]" &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>
+
+<ul>
+  <li>Supprime les caractères non imprimables d'un fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tr -cd "[:print:]" &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>

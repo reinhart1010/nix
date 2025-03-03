@@ -1,0 +1,41 @@
+<h1 id="ansible-doc">ansible-doc</h1>
+
+<p>Muestra información sobre los módulos instalados en las bibliotecas de Ansible.
+Muestra una concisa lista de complementos y sus breves descripciones.
+Más información: <a href="https://docs.ansible.com/ansible/latest/cli/ansible-doc.html">https://docs.ansible.com/ansible/latest/cli/ansible-doc.html</a>.</p>
+
+<ul>
+  <li>Lista de complementos disponibles acorde a su acción (módulos):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-doc --list</code></p>
+
+<ul>
+  <li>Lista de complementos disponibles dado un tipo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-doc --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">become|cache|callback|cliconf|connection|…</span><code class="language-plaintext highlighter-rouge"> --list</code></p>
+
+<ul>
+  <li>Muestra información sobre un complemento acorde a su acción específica (módulo):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-doc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_complemento</span></p>
+
+<ul>
+  <li>Muestra información acerca de un complemento dado un tipo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-doc --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">become|cache|callback|cliconf|connection|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_complemento</span></p>
+
+<ul>
+  <li>Muestra fragmentos de las acciones respecto al tipo de complemento y su especificidad de tipo de acción (módulos):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-doc --snippet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_complemento</span></p>
+
+<ul>
+  <li>Muestra información de acuerdo al complemento dada su especificidad de acción (módulo) como JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-doc --json </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_complemento</span></p>

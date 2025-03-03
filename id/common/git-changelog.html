@@ -1,0 +1,47 @@
+<h1 id="git-changelog">git changelog</h1>
+
+<p>Buat laporan riwayat perubahan (changelog) dari daftar komit dan tag yang terkandung dalam repositori Git.
+Bagian dari <code class="language-plaintext highlighter-rouge">git-extras</code>.
+Informasi lebih lanjut: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-changelog">https://github.com/tj/git-extras/blob/master/Commands.md#git-changelog</a>.</p>
+
+<ul>
+  <li>Buat atau mutakhirkan file <code class="language-plaintext highlighter-rouge">History.md</code> berisikan riwayat komit sejak tag komit Git terkini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git changelog</code></p>
+
+<ul>
+  <li>Tampilkan daftar komit pada versi saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git changelog --list</code></p>
+
+<ul>
+  <li>Tampilkan daftar rentang komit yang dilakukan sejak tag komit <code class="language-plaintext highlighter-rouge">2.1.0</code> hingga komit terkini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git changelog --list --start-tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2.1.0</span></p>
+
+<ul>
+  <li>Tampilkan, dengan format yang mudah dibaca manusia, daftar rentang komit antara tag <code class="language-plaintext highlighter-rouge">0.5.0</code> dan <code class="language-plaintext highlighter-rouge">1.0.0</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git changelog --start-tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.5.0</span><code class="language-plaintext highlighter-rouge"> --final-tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.0.0</span></p>
+
+<ul>
+  <li>Tampilkan, dengan format yang mudah dibaca manusia, daftar rentang komit antara komit <code class="language-plaintext highlighter-rouge">0b97430</code> dan komit yang ditandai sebagai tag <code class="language-plaintext highlighter-rouge">1.0.0</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git changelog --start-commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0b97430</span><code class="language-plaintext highlighter-rouge"> --final-tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.0.0</span></p>
+
+<ul>
+  <li>Gunakan <code class="language-plaintext highlighter-rouge">CHANGELOG.md</code> untuk menyimpan informasi daftar perubahan tersebut:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git changelog </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">CHANGELOG.md</span></p>
+
+<ul>
+  <li>Hapus dan gantikan keseluruhan isi file perubahan dengan yang baru:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git changelog --prune-old</code></p>

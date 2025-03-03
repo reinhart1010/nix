@@ -1,0 +1,28 @@
+<h1 id="reg-delete">reg delete</h1>
+
+<p>레지스트리에서 키 또는 해당 값을 삭제.
+더 많은 정보: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/reg-delete">https://learn.microsoft.com/windows-server/administration/windows-commands/reg-delete</a>.</p>
+
+<ul>
+  <li>특정 레지스트리 키 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span></p>
+
+<ul>
+  <li>특정 키 아래의 [v]alue 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> /v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span></p>
+
+<ul>
+  <li>지정된 키 아래의 모든 [v]alue를 재귀적으로 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> /va</code></p>
+
+<ul>
+  <li>프롬프트 없이 강제로 특정 키 아래의 모든 [v]alue를 재귀적으로 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span><code class="language-plaintext highlighter-rouge"> /f /va</code></p>

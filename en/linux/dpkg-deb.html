@@ -1,0 +1,34 @@
+<h1 id="dpkg-deb">dpkg-deb</h1>
+
+<p>Pack, unpack and provide information about Debian archives.
+More information: <a href="https://manned.org/dpkg-deb">https://manned.org/dpkg-deb</a>.</p>
+
+<ul>
+  <li>Display information about a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-deb --info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.deb</span></p>
+
+<ul>
+  <li>Display the package's name and version on one line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-deb --show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.deb</span></p>
+
+<ul>
+  <li>List the package's contents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-deb --contents </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.deb</span></p>
+
+<ul>
+  <li>Extract package's contents into a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-deb --extract </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.deb</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Create a package from a specified directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-deb --build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

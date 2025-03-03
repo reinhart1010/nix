@@ -1,0 +1,22 @@
+<h1 id="openssl-genrsa">openssl genrsa</h1>
+
+<p>OpenSSL command to generate RSA private keys.
+More information: <a href="https://www.openssl.org/docs/manmaster/man1/openssl-genrsa.html">https://www.openssl.org/docs/manmaster/man1/openssl-genrsa.html</a>.</p>
+
+<ul>
+  <li>Generate an RSA private key of 2048 bits to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl genrsa</code></p>
+
+<ul>
+  <li>Save an RSA private key of an arbitrary number of bits to the output file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl genrsa -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file.key</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span></p>
+
+<ul>
+  <li>Generate an RSA private key and encrypt it with AES256 (you will be prompted for a passphrase):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl genrsa </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-aes256</span></p>

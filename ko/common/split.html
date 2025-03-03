@@ -1,0 +1,28 @@
+<h1 id="split">split</h1>
+
+<p>파일을 여러 조각으로 분할.
+더 많은 정보: <a href="https://www.gnu.org/software/coreutils/manual/html_node/split-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/split-invocation.html</a>.</p>
+
+<ul>
+  <li>파일을 10줄씩 분할 (마지막 조각 제외):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">split -l 10 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일을 5개의 파일로 분할. 각 조각이 동일한 크기를 갖도록 분할 (마지막 조각 제외):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">split -n 5 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>파일을 각 조각이 512바이트인 크기로 분할 (마지막 조각 제외; 킬로바이트 단위는 512k, 메가바이트 단위는 512m 사용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">split -b 512 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>줄을 끊지 않고 각 조각이 최대 512바이트가 되도록 파일 분할:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">split -C 512 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

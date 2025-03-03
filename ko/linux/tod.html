@@ -1,0 +1,47 @@
+<h1 id="tod">tod</h1>
+
+<p>Rust로 작성된 간단한 Todoist 클라이언트.
+간단한 입력을 받아 인박스 또는 다른 프로젝트에 저장합니다. 자연어 처리를 활용하여 기한, 태그 등을 할당합니다.
+더 많은 정보: <a href="https://github.com/alanvardy/tod">https://github.com/alanvardy/tod</a>.</p>
+
+<ul>
+  <li>프로젝트 가져오기(프로젝트 프롬프트를 활성화하려면 필요):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tod project import</code></p>
+
+<ul>
+  <li>기한과 함께 빠르게 작업 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tod --quickadd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">오늘 우유 더 사기</span></p>
+
+<ul>
+  <li>새 작업 생성(내용 및 프로젝트를 입력하라는 메시지가 표시됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tod task create</code></p>
+
+<ul>
+  <li>특정 프로젝트에 작업 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tod task create --content "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Rust 더 작성하기</span><code class="language-plaintext highlighter-rouge">" --project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">코드</span></p>
+
+<ul>
+  <li>특정 프로젝트의 다음 작업 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tod task next</code></p>
+
+<ul>
+  <li>작업 일정 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tod task list --scheduled --project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업</span></p>
+
+<ul>
+  <li>작업에 대한 모든 작업 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tod task list --project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">작업</span></p>

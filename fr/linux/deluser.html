@@ -1,0 +1,28 @@
+<h1 id="deluser">deluser</h1>
+
+<p>Supprime un utilisateur du système.
+Plus d'informations : <a href="https://manned.org/deluser">https://manned.org/deluser</a>.</p>
+
+<ul>
+  <li>Supprime un utilisateur :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo deluser </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_dutilisateur</span></p>
+
+<ul>
+  <li>Supprime un utilisateur et son répertoire "home" :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo deluser --remove-home </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_dutilisateur</span></p>
+
+<ul>
+  <li>Supprime un utilisateur et son répertoire "home", mais sauvegarde ses fichiers dans une archive <code class="language-plaintext highlighter-rouge">.tar.gz</code> dans le répertoire spécifié :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo deluser --backup-to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/répertoire/de/sauvegarde</span><code class="language-plaintext highlighter-rouge"> --remove-home </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_dutilisateur</span></p>
+
+<ul>
+  <li>Supprime un utilisateur et tous les fichiers qu'il possède :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo deluser --remove-all-files </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_dutilisateur</span></p>

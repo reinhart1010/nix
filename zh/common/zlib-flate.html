@@ -1,0 +1,23 @@
+<h1 id="zlib-flate">zlib-flate</h1>
+
+<p>原始 zlib 压缩和解压缩程序。
+<code class="language-plaintext highlighter-rouge">qpdf</code> 的一部分。
+更多信息：<a href="https://manned.org/zlib-flate">https://manned.org/zlib-flate</a>.</p>
+
+<ul>
+  <li>压缩一个文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zlib-flate -compress &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/输入_文件</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/压缩.zlib</span></p>
+
+<ul>
+  <li>解压缩一个文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zlib-flate -uncompress &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/压缩.zlib</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/输出_文件</span></p>
+
+<ul>
+  <li>使用指定的压缩级别压缩文件。0=最快（最差），9=最慢（最佳）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zlib-flate -compress=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">压缩级别</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/输入_文件</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/压缩.zlib</span></p>

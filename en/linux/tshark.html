@@ -1,0 +1,52 @@
+<h1 id="tshark">tshark</h1>
+
+<p>Packet analysis tool, CLI version of Wireshark.
+More information: <a href="https://tshark.dev/">https://tshark.dev/</a>.</p>
+
+<ul>
+  <li>Monitor everything on localhost:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tshark</code></p>
+
+<ul>
+  <li>Only capture packets matching a specific capture filter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tshark -f '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">udp port 53</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Only show packets matching a specific output filter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tshark -Y '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http.request.method == "GET"</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Decode a TCP port using a specific protocol (e.g. HTTP):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tshark -d tcp.port==</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8888</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http</span></p>
+
+<ul>
+  <li>Specify the format of captured output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tshark -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|text|ps|…</span></p>
+
+<ul>
+  <li>Select specific fields to output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tshark -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fields|ek|json|pdml</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http.request.method</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip.src</span></p>
+
+<ul>
+  <li>Write captured packet to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tshark -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Analyze packets from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tshark -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pcap</span></p>

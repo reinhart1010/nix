@@ -1,0 +1,25 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="reflector">reflector</h1>
+
+<p>Arch 스크립트로 미러리스트를 가져오고 정렬합니다.
+더 많은 정보: <a href="https://manned.org/reflector">https://manned.org/reflector</a>.</p>
+
+<ul>
+  <li>모든 미러를 가져와 다운로드 속도로 정렬하고 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo reflector --sort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rate</span><code class="language-plaintext highlighter-rouge"> --save </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/etc/pacman.d/mirrorlist</span></p>
+
+<ul>
+  <li>독일의 HTTPS 미러만 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reflector --country </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Germany</span><code class="language-plaintext highlighter-rouge"> --protocol </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https</span></p>
+
+<ul>
+  <li>최근에 동기화된 10개의 미러만 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reflector --latest </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>

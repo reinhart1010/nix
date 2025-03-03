@@ -1,0 +1,40 @@
+<h1 id="git-blame">git blame</h1>
+
+<p>Show commit hash and last author on each line of a file.
+More information: <a href="https://git-scm.com/docs/git-blame">https://git-scm.com/docs/git-blame</a>.</p>
+
+<ul>
+  <li>Print file with author name and commit hash on each line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git blame </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print file with author email and commit hash on each line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git blame </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-e|–show-email</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print file with author name and commit hash on each line at a specific commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git blame </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print file with author name and commit hash on each line before a specific commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git blame </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span><code class="language-plaintext highlighter-rouge">~ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print author name and commit hash information for a specific line range:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git blame -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start_line</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">end_line</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Ignore whitespaces and line moves:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git blame -w -C -C -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

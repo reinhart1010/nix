@@ -1,0 +1,46 @@
+<h1 id="mtr">mtr</h1>
+
+<p>Matt's Traceroute: combined traceroute and ping tool.
+More information: <a href="https://www.bitwizard.nl/mtr/">https://www.bitwizard.nl/mtr/</a>.</p>
+
+<ul>
+  <li>Traceroute to a host and continuously ping all intermediary hops:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mtr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Disable IP address and host name mapping:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mtr --no-dns </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Generate output after pinging each hop 10 times:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mtr --report-wide </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Force IP IPv4 or IPV6:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mtr -4 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Wait for a given time (in seconds) before sending another packet to the same hop:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mtr --interval </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Display the Autonomous System Number (ASN) for each hop:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mtr --aslookup </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Display both IP address and reverse DNS name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mtr --show-ips </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>

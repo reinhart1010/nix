@@ -1,0 +1,17 @@
+<h1 id="pvcreate">pvcreate</h1>
+
+<p>Initialize a disk or partition for use as a physical volume.
+See also: <code class="language-plaintext highlighter-rouge">lvm</code>.
+More information: <a href="https://manned.org/pvcreate">https://manned.org/pvcreate</a>.</p>
+
+<ul>
+  <li>Initialize the <code class="language-plaintext highlighter-rouge">/dev/sda1</code> volume for use by LVM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvcreate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda1</span></p>
+
+<ul>
+  <li>Force the creation without any confirmation prompts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pvcreate --force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda1</span></p>

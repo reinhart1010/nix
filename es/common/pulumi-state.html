@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="pulumi-state">pulumi state</h1>
+
+<p>Edita el estado de la pila actual.
+Más información: <a href="https://www.pulumi.com/docs/iac/cli/commands/pulumi_state/">https://www.pulumi.com/docs/iac/cli/commands/pulumi_state/</a>.</p>
+
+<ul>
+  <li>Elimina un recurso del estado de la pila actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi state delete</code></p>
+
+<ul>
+  <li>Mueve un recurso de la pila actual a otra:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi state move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recurso_urn</span><code class="language-plaintext highlighter-rouge"> --dest </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_pila</span></p>
+
+<ul>
+  <li>Cambia el nombre de un recurso de la pila actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi state rename</code></p>
+
+<ul>
+  <li>Repara un estado no válido:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi state repair</code></p>
+
+<ul>
+  <li>Muestra la ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi state --help</code></p>

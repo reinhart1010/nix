@@ -1,0 +1,52 @@
+<h1 id="cargo-rustc">cargo rustc</h1>
+
+<p>Compila um pacote Rust.
+Mais informações: <a href="https://doc.rust-lang.org/cargo/commands/cargo-rustc.html">https://doc.rust-lang.org/cargo/commands/cargo-rustc.html</a>.</p>
+
+<ul>
+  <li>Compila o pacote e passa opções para <code class="language-plaintext highlighter-rouge">rustc</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rustc_options</span></p>
+
+<ul>
+  <li>Compila os artefatos em modo de publicação (release), com otimizações:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc --release</code></p>
+
+<ul>
+  <li>Compila com otimizações específicas para a arquitetura do CPU atual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc --release -- -C target-cpu=native</code></p>
+
+<ul>
+  <li>Compila com otimização de velocidade:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc -- -C opt-level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3</span></p>
+
+<ul>
+  <li>Compila com otimização de tamanho (<code class="language-plaintext highlighter-rouge">z</code> também desativa a vetorização de ciclos):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc -- -C opt-level </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s|z</span></p>
+
+<ul>
+  <li>Verifica se o pacote usa código com padrões inseguros de acesso à memória:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc --lib -- -D unsafe-code</code></p>
+
+<ul>
+  <li>Compila um pacote específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustc --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span></p>
+
+<ul>
+  <li>Compila apenas o binário especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo --bin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span></p>

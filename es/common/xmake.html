@@ -1,0 +1,34 @@
+<h1 id="xmake">xmake</h1>
+
+<p>Una utilidad de compilación multiplataforma C &amp; C++ basada en Lua.
+Más información: <a href="https://xmake.io/#/getting_started">https://xmake.io/#/getting_started</a>.</p>
+
+<ul>
+  <li>Crea un proyecto Xmake C, consistente en un hello world y <code class="language-plaintext highlighter-rouge">xmake.lua</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmake create --language c -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_proyecto</span></p>
+
+<ul>
+  <li>Construye y ejecuta un proyecto Xmake:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmake build run</code></p>
+
+<ul>
+  <li>Ejecuta directamente un objetivo Xmake compilado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmake run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_objetivo</span></p>
+
+<ul>
+  <li>Configura los objetivos de compilación de un proyecto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmake config --plat=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">macosx|linux|iphoneos|…</span><code class="language-plaintext highlighter-rouge"> --arch=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x86_64|i386|arm64| ..</span><code class="language-plaintext highlighter-rouge"> --mode=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">debug|release</span></p>
+
+<ul>
+  <li>Instala el objetivo compilado en un directorio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmake install -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>

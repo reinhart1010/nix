@@ -1,0 +1,46 @@
+<h1 id="du">du</h1>
+
+<p>Uso de disco: estima e sumariza o uso de espaço em disco de arquivos e diretórios.
+Mais informações: <a href="https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html</a>.</p>
+
+<ul>
+  <li>Lista os tamanhos dos diretórios e qualquer subdiretório, em uma unidade de tamanho (B/KiB/MiB):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">b|k|m</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Lista os tamanhos dos diretórios e subdiretórios, em tamanho legível por humanos (isto é seleciona automaticamente a unidade de tamanho apropriada para o tamanho):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Exibe o tamanho de um único diretório, em tamanho legível por humanos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -sh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Lista em tamanho legível por humanos todos os arquivos e diretórios dentro de um diretório:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -ah </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Lista em tamanho legível por humanos, até o nível N de profundidade um diretório e subdiretórios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -h --max-depth=N </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span></p>
+
+<ul>
+  <li>Lista em tamanho legível por humanos todos os arquivos <code class="language-plaintext highlighter-rouge">.jpg</code> dos subdiretórios do diretório atual, e exibe o total cumulativo no final:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du -ch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>/</em>.jpg</span></p>
+
+<ul>
+  <li>Lista todos os arquivos e diretórios (incluindo os ocultos) acima de um limite de tamanho (útil para invetigar o que está de fato ocupando o espaço):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">du --all --human-readable --threshold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1G|1024M|1048576K</span><code class="language-plaintext highlighter-rouge"> .[^.]* *</code></p>

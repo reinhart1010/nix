@@ -1,0 +1,28 @@
+<h1 id="pnmmontage">pnmmontage</h1>
+
+<p>여러 PNM 이미지를 합쳐 몽타주 생성.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/pnmmontage.html">https://netpbm.sourceforge.net/doc/pnmmontage.html</a>.</p>
+
+<ul>
+  <li>지정된 이미지들을 모아서 패킹:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmmontage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지1.pnm 경로/대상/이미지2.pnm …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pnm</span></p>
+
+<ul>
+  <li>패킹의 품질 지정 (참고: 값이 클수록 작은 패킹이 생성되지만 계산 시간이 길어짐):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmmontage -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0..9</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지1.pnm 경로/대상/이미지2.pnm …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pnm</span></p>
+
+<ul>
+  <li>최적 패킹의 <code class="language-plaintext highlighter-rouge">p</code> 퍼센트보다 크지 않은 패킹 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmmontage -quality </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">p</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지1.pnm 경로/대상/이미지2.pnm …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pnm</span></p>
+
+<ul>
+  <li>입력 파일들의 위치를 기계가 읽을 수 있는 파일에 작성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmmontage -data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/데이터파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지1.pnm 경로/대상/이미지2.pnm …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.pnm</span></p>

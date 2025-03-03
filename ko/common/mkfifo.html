@@ -1,0 +1,28 @@
+<h1 id="mkfifo">mkfifo</h1>
+
+<p>FIFO(이름 있는 파이프) 생성.
+더 많은 정보: <a href="https://www.gnu.org/software/coreutils/manual/html_node/mkfifo-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/mkfifo-invocation.html</a>.</p>
+
+<ul>
+  <li>지정된 경로에 이름 있는 파이프 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfifo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파이프</span></p>
+
+<ul>
+  <li>이름 있는 파이프를 통해 데이터를 보내고 명령을 백그라운드로 전송:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World</span><code class="language-plaintext highlighter-rouge">" &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파이프</span><code class="language-plaintext highlighter-rouge"> &amp;</code></p>
+
+<ul>
+  <li>이름 있는 파이프를 통해 데이터 수신:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파이프</span></p>
+
+<ul>
+  <li>터미널 세션을 실시간으로 공유:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfifo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파이프</span><code class="language-plaintext highlighter-rouge">; script -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파이프</span></p>

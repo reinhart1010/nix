@@ -1,0 +1,28 @@
+<h1 id="adb-reverse">adb reverse</h1>
+
+<p>安卓调试桥-反射： 反向映射安卓模拟器实例或者已连接的实体设备的套接字连接。
+更多信息：<a href="https://developer.android.com/tools/adb">https://developer.android.com/tools/adb</a>.</p>
+
+<ul>
+  <li>列出所有来自模拟器和设备的映射连接：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse --list</code></p>
+
+<ul>
+  <li>将 TCP 端口从安卓模拟器或设备中映射到 localhost：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse tcp:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">远程端口</span><code class="language-plaintext highlighter-rouge"> tcp:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">本地端口</span></p>
+
+<ul>
+  <li>从安卓模拟器或设备移除一个反向 socket 连接：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse --remove tcp:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">远程端口</span></p>
+
+<ul>
+  <li>从安卓模拟器或设备移除所有反向 socket 连接：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse --remove-all</code></p>

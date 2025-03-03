@@ -1,0 +1,35 @@
+<h1 id="git-grep">git-grep</h1>
+
+<p>저장소의 히스토리에서 파일 내의 문자열을 찾습니다.
+일반 <code class="language-plaintext highlighter-rouge">grep</code>과 같은 많은 플래그를 수용합니다.
+더 많은 정보: <a href="https://git-scm.com/docs/git-grep">https://git-scm.com/docs/git-grep</a>.</p>
+
+<ul>
+  <li>추적된 파일에서 문자열 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_문자열</span></p>
+
+<ul>
+  <li>추적된 파일 중 일치하는 패턴의 파일에서 문자열 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_문자열</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_글로브_패턴</span></p>
+
+<ul>
+  <li>서브모듈을 포함하여 추적된 파일에서 문자열 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep --recurse-submodules </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_문자열</span></p>
+
+<ul>
+  <li>특정 히스토리 지점에서 문자열 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_문자열</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~2</span></p>
+
+<ul>
+  <li>모든 브랜치에서 문자열 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_문자열</span><code class="language-plaintext highlighter-rouge"> $(git rev-list --all)</code></p>

@@ -1,0 +1,22 @@
+<h1 id="llvm-bcanalyzer">llvm-bcanalyzer</h1>
+
+<p>LLVM Bitcode (<code class="language-plaintext highlighter-rouge">.bc</code>) 분석기.
+더 많은 정보: <a href="https://llvm.org/docs/CommandGuide/llvm-bcanalyzer.html">https://llvm.org/docs/CommandGuide/llvm-bcanalyzer.html</a>.</p>
+
+<ul>
+  <li>Bitcode 파일에 대한 통계 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-bcanalyzer </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.bc</span></p>
+
+<ul>
+  <li>Bitcode 파일에 대한 SGML 표현과 통계 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-bcanalyzer -dump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.bc</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 Bitcode 파일을 읽고 분석:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.bc</span><code class="language-plaintext highlighter-rouge"> | llvm-bcanalyzer</code></p>

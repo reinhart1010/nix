@@ -1,0 +1,40 @@
+<h1 id="handlr">handlr</h1>
+
+<p>Manage your default applications.
+More information: <a href="https://github.com/chmln/handlr">https://github.com/chmln/handlr</a>.</p>
+
+<ul>
+  <li>Open a URL in the default application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">handlr open </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Open a PDF in the default PDF viewer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">handlr open </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span></p>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">imv</code> as the default application for PNG files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">handlr set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imv.desktop</span></p>
+
+<ul>
+  <li>Set MPV as the default application for all audio files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">handlr set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'audio/*'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mpv.desktop</span></p>
+
+<ul>
+  <li>List all default apps:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">handlr list</code></p>
+
+<ul>
+  <li>Print the default application for PNG files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">handlr get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.png</span></p>

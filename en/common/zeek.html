@@ -1,0 +1,41 @@
+<h1 id="zeek">zeek</h1>
+
+<p>Passive network traffic analyzer.
+Any output and log files will be saved to the current working directory.
+More information: <a href="https://docs.zeek.org/en/lts/quickstart.html#zeek-as-a-command-line-utility">https://docs.zeek.org/en/lts/quickstart.html#zeek-as-a-command-line-utility</a>.</p>
+
+<ul>
+  <li>Analyze live traffic from a network interface:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo zeek --iface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>
+
+<ul>
+  <li>Analyze live traffic from a network interface and load custom scripts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo zeek --iface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script2</span></p>
+
+<ul>
+  <li>Analyze live traffic from a network interface, without loading any scripts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo zeek --bare-mode --iface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>
+
+<ul>
+  <li>Analyze live traffic from a network interface, applying a <code class="language-plaintext highlighter-rouge">tcpdump</code> filter:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo zeek --filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filter</span><code class="language-plaintext highlighter-rouge"> --iface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>
+
+<ul>
+  <li>Analyze live traffic from a network interface using a watchdog timer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo zeek --watchdog --iface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span></p>
+
+<ul>
+  <li>Analyze traffic from a PCAP file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zeek --readfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.trace</span></p>

@@ -1,0 +1,34 @@
+<h1 id="mktemp">mktemp</h1>
+
+<p>Maak een tijdelijk bestand of een tijdelijke map aan.
+Meer informatie: <a href="https://keith.github.io/xcode-man-pages/mktemp.1.html">https://keith.github.io/xcode-man-pages/mktemp.1.html</a>.</p>
+
+<ul>
+  <li>Maak een leeg tijdelijk bestand en toon het absolute pad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp</code></p>
+
+<ul>
+  <li>Gebruik een aangepaste map (standaard is de uitvoer van <code class="language-plaintext highlighter-rouge">getconf DARWIN_USER_TEMP_DIR</code>, of <code class="language-plaintext highlighter-rouge">/tmp</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp --tmpdir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/pad/naar/tempdir</span></p>
+
+<ul>
+  <li>Gebruik een aangepast pad-sjabloon (<code class="language-plaintext highlighter-rouge">X</code>en worden vervangen door willekeurige alfanumerieke tekens):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/tmp/voorbeeld.XXXXXXXX</span></p>
+
+<ul>
+  <li>Gebruik een aangepaste bestandsnaam-prefix:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">voorbeeld</span></p>
+
+<ul>
+  <li>Maak een lege tijdelijke map aan en toon het absolute pad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mktemp --directory</code></p>

@@ -1,0 +1,28 @@
+<h1 id="sdiag">sdiag</h1>
+
+<p>Show information about the execution of <code class="language-plaintext highlighter-rouge">slurmctld</code>.
+More information: <a href="https://slurm.schedmd.com/sdiag.html">https://slurm.schedmd.com/sdiag.html</a>.</p>
+
+<ul>
+  <li>Show all performance counters related to the execution of <code class="language-plaintext highlighter-rouge">slurmctld</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sdiag --all</code></p>
+
+<ul>
+  <li>Reset performance counters related to the execution of <code class="language-plaintext highlighter-rouge">slurmctld</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sdiag --reset</code></p>
+
+<ul>
+  <li>Specify the output format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sdiag --all --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|yaml</span></p>
+
+<ul>
+  <li>Specify the cluster to send commands to:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sdiag --all --cluster=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span></p>

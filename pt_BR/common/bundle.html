@@ -1,0 +1,52 @@
+<h1 id="bundle">bundle</h1>
+
+<p>Gerenciador de dependências da linguagem de programação Ruby.
+Mais informações: <a href="https://bundler.io/man/bundle.1.html">https://bundler.io/man/bundle.1.html</a>.</p>
+
+<ul>
+  <li>Instala todas as gemas definidas no <code class="language-plaintext highlighter-rouge">Gemfile</code> esperadas no diretório de trabalho:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle install</code></p>
+
+<ul>
+  <li>Executa um comando no contexto do pacote atual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumentos</span></p>
+
+<ul>
+  <li>Atualiza todas as gemas respeitando as regras definidas no <code class="language-plaintext highlighter-rouge">Gemfile</code> e recria o arquivo <code class="language-plaintext highlighter-rouge">Gemfile.lock</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle update</code></p>
+
+<ul>
+  <li>Atualiza uma ou mais gema(s) específicas definidas no <code class="language-plaintext highlighter-rouge">Gemfile</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_gema1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_gema2</span></p>
+
+<ul>
+  <li>Atualiza uma ou mais gema(s) específicas definidas no <code class="language-plaintext highlighter-rouge">Gemfile</code> mas somente para a próxima versão de patch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle update --patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_gema1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_gema2</span></p>
+
+<ul>
+  <li>Atualiza todas as gemas do grupo especificado no <code class="language-plaintext highlighter-rouge">Gemfile</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle update --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">desenvolvimento</span></p>
+
+<ul>
+  <li>Lista gemas instaladas no <code class="language-plaintext highlighter-rouge">Gemfile</code> com novas versões disponíveis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle outdated</code></p>
+
+<ul>
+  <li>Cria o esqueleto do projeto de uma nova gema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bundle gem </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_gema</span></p>

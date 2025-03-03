@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="resolvectl">resolvectl</h1>
+
+<p>Znajdź nazwy domen, adresy IPv4 i IPv6, rekordy zasobów DNS i usługi.
+Analizuj i rekonfiguruj resolwer DNS.
+Więcej informacji: <a href="https://www.freedesktop.org/software/systemd/man/resolvectl.html">https://www.freedesktop.org/software/systemd/man/resolvectl.html</a>.</p>
+
+<ul>
+  <li>Wyświetl ustawienia DNS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl status</code></p>
+
+<ul>
+  <li>Znajdź adresy IPv4 i IPv6 jednej lub więcej domen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domena1 domena2 …</span></p>
+
+<ul>
+  <li>Znajdź domenę podanego adresu IP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_ip</span></p>
+
+<ul>
+  <li>Znajdź rekord MX podanej domeny:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl --legend=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">no</span><code class="language-plaintext highlighter-rouge"> --type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MX</span><code class="language-plaintext highlighter-rouge"> query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domena</span></p>
+
+<ul>
+  <li>Znajdź rekord SRV, na przykład _xmpp-server._tcp gmail.com:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl service _</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usługa</span><code class="language-plaintext highlighter-rouge">._</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protokół</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa</span></p>
+
+<ul>
+  <li>Pobierz klucz publiczny z adresu email z rekordu DNS OPENPGPGKEY:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl openpgp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email</span></p>
+
+<ul>
+  <li>Znajdź klucz TLS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">resolvectl tlsa tcp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domena</span><code class="language-plaintext highlighter-rouge">:443</code></p>

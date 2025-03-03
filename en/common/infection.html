@@ -1,0 +1,52 @@
+<h1 id="infection">infection</h1>
+
+<p>A mutation testing framework for PHP.
+More information: <a href="https://infection.github.io">https://infection.github.io</a>.</p>
+
+<ul>
+  <li>Analyze code using the configuration file (or create one if it does not exist):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">infection</code></p>
+
+<ul>
+  <li>Use a specific number of threads:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">infection --threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_threads</span></p>
+
+<ul>
+  <li>Specify a minimum Mutation Score Indicator (MSI):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">infection --min-msi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percentage</span></p>
+
+<ul>
+  <li>Specify a minimum covered code MSI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">infection --min-covered-msi </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percentage</span></p>
+
+<ul>
+  <li>Use a specific test framework (defaults to PHPUnit):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">infection --test-framework </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">phpunit|phpspec</span></p>
+
+<ul>
+  <li>Only mutate lines of code that are covered by tests:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">infection --only-covered</code></p>
+
+<ul>
+  <li>Display the mutation code that has been applied:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">infection --show-mutations</code></p>
+
+<ul>
+  <li>Specify the log verbosity:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">infection --log-verbosity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">default|all|none</span></p>

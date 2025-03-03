@@ -1,0 +1,29 @@
+<h1 id="sk">sk</h1>
+
+<p>Rust로 작성된 퍼지 파인더.
+<code class="language-plaintext highlighter-rouge">fzf</code>와 유사.
+더 많은 정보: <a href="https://github.com/lotabout/skim">https://github.com/lotabout/skim</a>.</p>
+
+<ul>
+  <li>지정된 디렉터리 내 모든 파일에서 <code class="language-plaintext highlighter-rouge">skim</code> 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> -type f | sk</code></p>
+
+<ul>
+  <li>실행 중인 프로세스에 대해 <code class="language-plaintext highlighter-rouge">skim</code> 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps aux | sk</code></p>
+
+<ul>
+  <li>지정된 쿼리로 <code class="language-plaintext highlighter-rouge">skim</code> 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sk --query "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">쿼리</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Shift + Tab</code>으로 여러 파일 선택 후 파일에 쓰기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span><code class="language-plaintext highlighter-rouge"> -type f | sk --multi &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

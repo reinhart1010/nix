@@ -1,0 +1,41 @@
+<h1 id="route">route</h1>
+
+<p>手动操作路由表。
+需要 root 权限。
+更多信息：<a href="https://keith.github.io/xcode-man-pages/route.8.html">https://keith.github.io/xcode-man-pages/route.8.html</a>.</p>
+
+<ul>
+  <li>通过网关向目标添加路由：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路由 ip 地址</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">网关地址</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>通过网关向 子网 / 24 添加路由：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">子网 ip</span><code class="language-plaintext highlighter-rouge">/24" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">网关地址</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>在测试模式下运行（不做任何操作，只打印）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route -t add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路由 ip 地址</span><code class="language-plaintext highlighter-rouge">/24" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">网关地址</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>删除所有路由：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route flush</code></p>
+
+<ul>
+  <li>删除特定路由：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route delete "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路由 ip 地址</span><code class="language-plaintext highlighter-rouge">/24"</code></p>
+
+<ul>
+  <li>查找并显示目标的路由（主机名或 IP 地址）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo route get "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标</span><code class="language-plaintext highlighter-rouge">"</code></p>

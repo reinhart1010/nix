@@ -1,0 +1,29 @@
+<h1 id="guacd">guacd</h1>
+
+<p>Apache Guacamole proxy daemon.
+Support loader for client plugins to interface between the Guacamole protocol and any arbitrary remote desktop protocol (e.g. RDP, VNC, Other).
+More information: <a href="https://guacamole.apache.org/">https://guacamole.apache.org/</a>.</p>
+
+<ul>
+  <li>Bind to a specific port on localhost:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">guacd -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4823</span></p>
+
+<ul>
+  <li>Start in debug mode, keeping the process in the foreground:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">guacd -f -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">debug</span></p>
+
+<ul>
+  <li>Start with TLS support:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">guacd -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my-cert.crt</span><code class="language-plaintext highlighter-rouge"> -K </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my-key.pem</span></p>
+
+<ul>
+  <li>Write the PID to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">guacd -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pid</span></p>

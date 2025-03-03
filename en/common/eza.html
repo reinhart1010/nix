@@ -1,0 +1,52 @@
+<h1 id="eza">eza</h1>
+
+<p>Modern, maintained replacement for <code class="language-plaintext highlighter-rouge">ls</code>, built on <code class="language-plaintext highlighter-rouge">exa</code>.
+More information: <a href="https://github.com/eza-community/eza">https://github.com/eza-community/eza</a>.</p>
+
+<ul>
+  <li>List files one per line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eza --oneline</code></p>
+
+<ul>
+  <li>List all files, including hidden files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eza --all</code></p>
+
+<ul>
+  <li>Long format list (permissions, ownership, size and modification date) of all files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eza --long --all</code></p>
+
+<ul>
+  <li>List files with the largest at the top:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eza --reverse --sort=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size</span></p>
+
+<ul>
+  <li>Display a tree of files, three levels deep:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eza --long --tree --level=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>List files sorted by modification date (oldest first):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eza --long --sort=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modified</span></p>
+
+<ul>
+  <li>List files with their headers, icons, and Git statuses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eza --long --header --icons --git</code></p>
+
+<ul>
+  <li>Don't list files mentioned in <code class="language-plaintext highlighter-rouge">.gitignore</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">eza --git-ignore</code></p>

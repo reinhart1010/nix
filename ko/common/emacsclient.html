@@ -1,0 +1,41 @@
+<h1 id="emacsclient">emacsclient</h1>
+
+<p>기존 Emacs 서버에서 파일을 열기.
+참고: <code class="language-plaintext highlighter-rouge">emacs</code>.
+더 많은 정보: <a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html">https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html</a>.</p>
+
+<ul>
+  <li>기존 Emacs 서버에서 파일을 열기 (사용 가능한 경우, GUI 사용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>콘솔 모드에서 파일 열기 (X 윈도우 없이):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --no-window-system </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>새로운 Emacs 창에서 파일을 열기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --create-frame </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>명령을 평가하고 출력을 <code class="language-plaintext highlighter-rouge">stdout</code>으로 출력한 다음 종료:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --eval '(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge">)'</code></p>
+
+<ul>
+  <li>Emacs 서버가 실행되고 있지 않은 경우, 대체 편집기를 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --alternate-editor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">에디터</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>실행 중인 Emacs 서버와 모든 인스턴스를 중지, 저장되지 않은 파일에 대한 확인을 요청:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">emacsclient --eval '(save-buffers-kill-emacs)'</code></p>

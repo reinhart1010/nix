@@ -1,0 +1,52 @@
+<h1 id="dmesg">dmesg</h1>
+
+<p>Escreve as mensagens do kernel na terminal.
+Mais informações: <a href="https://manned.org/dmesg">https://manned.org/dmesg</a>.</p>
+
+<ul>
+  <li>Exibe as mensagens do kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmesg</code></p>
+
+<ul>
+  <li>Exibe as mensagens de erro do kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmesg --level err</code></p>
+
+<ul>
+  <li>Exibe as mensagens do kernel e manter o terminal esperando por novas menagens, semelhante ao <code class="language-plaintext highlighter-rouge">tail -f</code> (disponível nas versões 3.5.0 e superiores do kernel):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmesg -w</code></p>
+
+<ul>
+  <li>Exibe a quantidade de memória física disponível no sistema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmesg | grep -i memory</code></p>
+
+<ul>
+  <li>Exibe as mensagens do kernel divididas em páginas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmesg | less</code></p>
+
+<ul>
+  <li>Exibe as menagens do kernel com data/hora (disponível nas versões 3.5.0 e superiores do kernel):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmesg -T</code></p>
+
+<ul>
+  <li>Exibe as mensagens do kernel em um formato de fácil leitura (disponível nas versões 3.5.0 e superiores do kernel):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmesg -H</code></p>
+
+<ul>
+  <li>Exibe as mensagens do kernel utilizando cores (disponível nas versões 3.5.0 e superiores do kernel):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmesg -L</code></p>

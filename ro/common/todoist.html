@@ -1,0 +1,40 @@
+<h1 id="todoist">todoist</h1>
+
+<p>Acest program îți permite să folosești Todoist din linia de comandă.
+Mai multe informații: <a href="https://github.com/sachaos/todoist">https://github.com/sachaos/todoist</a>.</p>
+
+<ul>
+  <li>Adaugă o sarcină:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">o_sarcină</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Adaugă o sarcină cu prioritate ridicată cu o etichetă, proiect și dată scadentă:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">o_sarcină</span><code class="language-plaintext highlighter-rouge">" --priority </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> --label-ids "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">idul_etichetei</span><code class="language-plaintext highlighter-rouge">" --project-name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numele_proiectului</span><code class="language-plaintext highlighter-rouge">" --date "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmr 9am</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Adaugă o sarcină cu prioritate ridicată cu o etichetă, proiect și dată scadentă, folosind modul rapid:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist quick '#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numele_proiectului</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmr 9am</span><code class="language-plaintext highlighter-rouge">" p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">o_sarcină</span><code class="language-plaintext highlighter-rouge"> @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numele_etichetei</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Enumeră toate sarcinile cu cap de tabel și culori:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist --header --color list</code></p>
+
+<ul>
+  <li>Enumeră toate sarcinile cu prioritate ridicată:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist list --filter p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Enumeră toate sarcinile cu prioritate ridicată de astăzi care au eticheta specificată:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">todoist list --filter '(@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numele_etichetei</span><code class="language-plaintext highlighter-rouge"> | </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">today</span><code class="language-plaintext highlighter-rouge">) &amp; p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge">'</code></p>

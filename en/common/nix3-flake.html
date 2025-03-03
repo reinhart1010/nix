@@ -1,0 +1,34 @@
+<h1 id="nix-flake">nix flake</h1>
+
+<p>Manage Nix flakes.
+More information: <a href="https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-flake.html">https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-flake.html</a>.</p>
+
+<ul>
+  <li>Create a new flake (just the <code class="language-plaintext highlighter-rouge">flake.nix</code> file) from the default template, in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix flake init</code></p>
+
+<ul>
+  <li>Update all inputs (dependencies) of the flake in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix flake update</code></p>
+
+<ul>
+  <li>Update a specific input (dependency) of the flake in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix flake lock --update-input </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input</span></p>
+
+<ul>
+  <li>Show all the outputs of a flake on github:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix flake show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github:owner/repo</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix flake --help</code></p>

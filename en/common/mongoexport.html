@@ -1,0 +1,46 @@
+<h1 id="mongoexport">mongoexport</h1>
+
+<p>Produce exports of data stored in a MongoDB instance formatted as JSON or CSV.
+More information: <a href="https://docs.mongodb.com/database-tools/mongoexport/">https://docs.mongodb.com/database-tools/mongoexport/</a>.</p>
+
+<ul>
+  <li>Export a collection to <code class="language-plaintext highlighter-rouge">stdout</code>, formatted as JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongoexport --uri=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">connection_string</span><code class="language-plaintext highlighter-rouge"> --collection=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">collection_name</span></p>
+
+<ul>
+  <li>Export the documents in the specified collection that match a query to a JSON file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongoexport --db=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database_name</span><code class="language-plaintext highlighter-rouge"> --collection=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">collection_name</span><code class="language-plaintext highlighter-rouge"> --query="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query_object</span><code class="language-plaintext highlighter-rouge">" --out=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span></p>
+
+<ul>
+  <li>Export documents as a JSON array instead of one object per line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongoexport --collection=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">collection_name</span><code class="language-plaintext highlighter-rouge"> --jsonArray</code></p>
+
+<ul>
+  <li>Export documents to a CSV file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongoexport --collection=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">collection_name</span><code class="language-plaintext highlighter-rouge"> --type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">csv</span><code class="language-plaintext highlighter-rouge"> --fields="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">field1,field2,…</span><code class="language-plaintext highlighter-rouge">" --out=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csv</span></p>
+
+<ul>
+  <li>Export documents that match the query in the specified file to a CSV file, omitting the list of field names on the first line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongoexport --collection=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">collection_name</span><code class="language-plaintext highlighter-rouge"> --type=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">csv</span><code class="language-plaintext highlighter-rouge"> --fields="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">field1,field2,…</span><code class="language-plaintext highlighter-rouge">" --queryFile=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --noHeaderLine --out=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csv</span></p>
+
+<ul>
+  <li>Export documents to <code class="language-plaintext highlighter-rouge">stdout</code>, formatted as human-readable JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongoexport --uri=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mongodb_uri</span><code class="language-plaintext highlighter-rouge"> --collection=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">collection_name</span><code class="language-plaintext highlighter-rouge"> --pretty</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongoexport --help</code></p>

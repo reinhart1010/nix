@@ -1,0 +1,47 @@
+<h1 id="makepkg">makepkg</h1>
+
+<p>Monta um pacote que pode ser usado junto ao <code class="language-plaintext highlighter-rouge">pacman</code>.
+Utiliza por padrão o arquivo <code class="language-plaintext highlighter-rouge">PKGBUILD</code> no diretório de trabalho atual.
+Mais informações: <a href="https://manned.org/makepkg.8">https://manned.org/makepkg.8</a>.</p>
+
+<ul>
+  <li>Monta um pacote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">makepkg</code></p>
+
+<ul>
+  <li>Monta um pacote e instala suas dependências:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">makepkg --syncdeps</code></p>
+
+<ul>
+  <li>Monta um pacote, instala suas dependências e então o instala no sistema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">makepkg --syncdeps --install</code></p>
+
+<ul>
+  <li>Monta um pacote, mas pula a verificação de hashes da fonte:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">makepkg --skipchecksums</code></p>
+
+<ul>
+  <li>Limpa os diretórios de trabalho após uma compilação bem sucedida:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">makepkg --clean</code></p>
+
+<ul>
+  <li>Verifica os hashes das fontes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">makepkg --verifysource</code></p>
+
+<ul>
+  <li>Gera e salva as informações da fonte no arquivo <code class="language-plaintext highlighter-rouge">.SRCINFO</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">makepkg --printsrcinfo &gt; .SRCINFO</code></p>

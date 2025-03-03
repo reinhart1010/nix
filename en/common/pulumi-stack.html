@@ -1,0 +1,52 @@
+<h1 id="pulumi-stack">pulumi stack</h1>
+
+<p>Manage stacks and view stack state.
+More information: <a href="https://www.pulumi.com/docs/iac/cli/commands/pulumi_stack/">https://www.pulumi.com/docs/iac/cli/commands/pulumi_stack/</a>.</p>
+
+<ul>
+  <li>Create a new stack:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi stack init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stack_name</span></p>
+
+<ul>
+  <li>View the stack state:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi stack</code></p>
+
+<ul>
+  <li>List stacks in the current project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi stack ls</code></p>
+
+<ul>
+  <li>List stacks across all projects:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi stack ls --all</code></p>
+
+<ul>
+  <li>Select an active stack:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi stack select </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stack_name</span></p>
+
+<ul>
+  <li>Delete a stack:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi stack rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stack_name</span></p>
+
+<ul>
+  <li>Show stack outputs, including secrets, in plaintext:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi stack output --show-secrets</code></p>
+
+<ul>
+  <li>Export the stack state to a JSON file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pulumi stack export --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span></p>

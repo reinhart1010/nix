@@ -1,0 +1,32 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="gprof">gprof</h1>
+
+<p>다양한 프로그래밍 언어에 대한 성능 분석 도구.
+프로그램의 기능 실행을 프로파일링.
+더 많은 정보: <a href="https://ftp.gnu.org/old-gnu/Manuals/gprof-2.9.1/html_mono/gprof.html">https://ftp.gnu.org/old-gnu/Manuals/gprof-2.9.1/html_mono/gprof.html</a>.</p>
+
+<ul>
+  <li>gprof 정보로 바이너리를 컴파일하고 실행하여 <code class="language-plaintext highlighter-rouge">gmon.out</code>을 얻음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc -pg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program.c</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./a.out</span></p>
+
+<ul>
+  <li>gprof를 실행하여 프로필 출력을 얻음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gprof</code></p>
+
+<ul>
+  <li>프로필 필드의 설명을 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gprof -b</code></p>
+
+<ul>
+  <li>사용량이 전혀 없는 루틴을 보여줌:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gprof -bz</code></p>

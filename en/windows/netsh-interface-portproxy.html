@@ -1,0 +1,28 @@
+<h1 id="netsh-interface-portproxy">netsh interface portproxy</h1>
+
+<p>Configure and display the status of various network components.
+More information: <a href="https://learn.microsoft.com/windows-server/networking/technologies/netsh/netsh-interface-portproxy">https://learn.microsoft.com/windows-server/networking/technologies/netsh/netsh-interface-portproxy</a>.</p>
+
+<ul>
+  <li>Display the current port forwarding setup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netsh interface portproxy show all</code></p>
+
+<ul>
+  <li>Set up IPv4 port forwarding (run in elevated console):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netsh interface portproxy add v4tov4 listenaddress=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1</span><code class="language-plaintext highlighter-rouge"> listenport=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8080</span><code class="language-plaintext highlighter-rouge">  connectaddress=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.0.1</span><code class="language-plaintext highlighter-rouge"> connectport=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span></p>
+
+<ul>
+  <li>Remove IPv4 port forwarding (run in elevated console):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netsh interface portproxy delete v4tov4 listenaddress=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.1</span><code class="language-plaintext highlighter-rouge"> listenport=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8080</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netsh interface portproxy</code></p>

@@ -1,0 +1,52 @@
+<h1 id="yq">yq</h1>
+
+<p>가볍고 휴대 가능한 명령줄 YAML 프로세서.
+더 많은 정보: <a href="https://mikefarah.gitbook.io/yq/">https://mikefarah.gitbook.io/yq/</a>.</p>
+
+<ul>
+  <li>YAML 파일을 보기 좋게 출력 (v4+):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yq eval </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.yaml</span></p>
+
+<ul>
+  <li>YAML 파일을 보기 좋게 출력 (v3):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yq read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.yaml</span><code class="language-plaintext highlighter-rouge"> --colors</code></p>
+
+<ul>
+  <li>배열만 포함된 YAML 파일에서 첫 번째 요소 출력 (v4+):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yq eval '.[0]' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.yaml</span></p>
+
+<ul>
+  <li>배열만 포함된 YAML 파일에서 첫 번째 요소 출력 (v3):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yq read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.yaml</span><code class="language-plaintext highlighter-rouge"> '[0]'</code></p>
+
+<ul>
+  <li>파일에서 키를 값으로 설정 (또는 덮어쓰기) (v4+):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yq eval '.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키</span><code class="language-plaintext highlighter-rouge"> = "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge">"' --inplace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.yaml</span></p>
+
+<ul>
+  <li>파일에서 키를 값으로 설정 (또는 덮어쓰기) (v3):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yq write --inplace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.yaml</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>두 파일을 병합하여 <code class="language-plaintext highlighter-rouge">stdout</code>에 출력 (v4+):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yq eval-all 'select(filename == "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.yaml</span><code class="language-plaintext highlighter-rouge">") * select(filename == "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2.yaml</span><code class="language-plaintext highlighter-rouge">")' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.yaml</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2.yaml</span></p>
+
+<ul>
+  <li>두 파일을 병합하여 <code class="language-plaintext highlighter-rouge">stdout</code>에 출력 (v3):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yq merge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1.yaml</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일2.yaml</span><code class="language-plaintext highlighter-rouge"> --colors</code></p>

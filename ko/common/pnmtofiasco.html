@@ -1,0 +1,28 @@
+<h1 id="pnmtofiasco">pnmtofiasco</h1>
+
+<p>PNM 이미지를 압축된 FIASCO 파일로 변환.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/pnmtofiasco.html">https://netpbm.sourceforge.net/doc/pnmtofiasco.html</a>.</p>
+
+<ul>
+  <li>PNM 이미지를 압축된 FIASCO 파일로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtofiasco </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.fiasco</span></p>
+
+<ul>
+  <li>패턴을 통해 [i]nput 파일 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtofiasco --image-name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">img[01-09+1].pnm</span><code class="language-plaintext highlighter-rouge">" &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.fiasco</span></p>
+
+<ul>
+  <li>압축 품질 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtofiasco --quality </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">품질_수준</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.fiasco</span></p>
+
+<ul>
+  <li>지정된 구성 파일에서 사용할 옵션 로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmtofiasco --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/fiascorc</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.fiasco</span></p>

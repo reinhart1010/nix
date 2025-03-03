@@ -1,0 +1,46 @@
+<h1 id="playerctl">playerctl</h1>
+
+<p>Control media players via MPRIS.
+More information: <a href="https://github.com/altdesktop/playerctl">https://github.com/altdesktop/playerctl</a>.</p>
+
+<ul>
+  <li>Toggle play:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">playerctl play-pause</code></p>
+
+<ul>
+  <li>Skip to the next track:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">playerctl next</code></p>
+
+<ul>
+  <li>Go back to the previous track:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">playerctl previous</code></p>
+
+<ul>
+  <li>List all players:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">playerctl --list-all</code></p>
+
+<ul>
+  <li>Send a command to a specific player:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">playerctl --player </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">player_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">play-pause|next|previous|…</span></p>
+
+<ul>
+  <li>Send a command to all players:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">playerctl --all-players </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">play-pause|next|previous|…</span></p>
+
+<ul>
+  <li>Display metadata about the current track:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">playerctl metadata --format "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Now playing: {{artist}} - {{album}} - {{title}}</span><code class="language-plaintext highlighter-rouge">"</code></p>

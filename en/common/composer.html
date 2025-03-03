@@ -1,0 +1,52 @@
+<h1 id="composer">composer</h1>
+
+<p>A package-based dependency manager for PHP projects.
+More information: <a href="https://getcomposer.org/">https://getcomposer.org/</a>.</p>
+
+<ul>
+  <li>Interactively create a <code class="language-plaintext highlighter-rouge">composer.json</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer init</code></p>
+
+<ul>
+  <li>Add a package as a dependency for this project, adding an entry to <code class="language-plaintext highlighter-rouge">composer.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer require </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/package</span></p>
+
+<ul>
+  <li>Install all the dependencies in this project's <code class="language-plaintext highlighter-rouge">composer.json</code> and create <code class="language-plaintext highlighter-rouge">composer.lock</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer install</code></p>
+
+<ul>
+  <li>Uninstall a package from this project, removing it as a dependency from <code class="language-plaintext highlighter-rouge">composer.json</code> and <code class="language-plaintext highlighter-rouge">composer.lock</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/package</span></p>
+
+<ul>
+  <li>Update all the dependencies in this project's <code class="language-plaintext highlighter-rouge">composer.json</code> and note new versions in <code class="language-plaintext highlighter-rouge">composer.lock</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer update</code></p>
+
+<ul>
+  <li>Update only <code class="language-plaintext highlighter-rouge">composer.lock</code> after updating <code class="language-plaintext highlighter-rouge">composer.json</code> manually:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer update --lock</code></p>
+
+<ul>
+  <li>Learn more about why a dependency can't be installed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer why-not </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/package</span></p>
+
+<ul>
+  <li>Update composer to its latest version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">composer self-update</code></p>

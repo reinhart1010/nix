@@ -1,0 +1,40 @@
+<h1 id="ip-link">ip link</h1>
+
+<p>네트워크 인터페이스 관리.
+더 많은 정보: <a href="https://manned.org/ip-link">https://manned.org/ip-link</a>.</p>
+
+<ul>
+  <li>모든 네트워크 인터페이스 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link</code></p>
+
+<ul>
+  <li>특정 네트워크 인터페이스 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span></p>
+
+<ul>
+  <li>네트워크 인터페이스 활성화 또는 비활성화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">up|down</span></p>
+
+<ul>
+  <li>네트워크 인터페이스에 의미 있는 이름 부여:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span><code class="language-plaintext highlighter-rouge"> alias "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LAN 인터페이스</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>네트워크 인터페이스의 MAC 주소 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span><code class="language-plaintext highlighter-rouge"> address </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ff:ff:ff:ff:ff:ff</span></p>
+
+<ul>
+  <li>네트워크 인터페이스의 MTU 크기를 변경하여 점보 프레임 사용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip link set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethN</span><code class="language-plaintext highlighter-rouge"> mtu </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9000</span></p>

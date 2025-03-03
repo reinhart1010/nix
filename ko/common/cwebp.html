@@ -1,0 +1,34 @@
+<h1 id="cwebp">cwebp</h1>
+
+<p>이미지 파일을 WebP 파일로 압축.
+더 많은 정보: <a href="https://developers.google.com/speed/webp/docs/cwebp">https://developers.google.com/speed/webp/docs/cwebp</a>.</p>
+
+<ul>
+  <li>기본 설정 (q = 75)을 사용하여 WebP 파일을 출력([o]utput) 파일로 압축:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cwebp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지_파일</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력파일.webp</span></p>
+
+<ul>
+  <li>최고 품질([q]uality)과 최대 파일 크기로 WebP 파일을 압축:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cwebp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지_파일</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력파일.webp</span><code class="language-plaintext highlighter-rouge"> -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span></p>
+
+<ul>
+  <li>최저 품질([q]uality)과 최소 파일 크기로 WebP 파일을 압축:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cwebp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지_파일</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력파일.webp</span><code class="language-plaintext highlighter-rouge"> -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span></p>
+
+<ul>
+  <li>WebP 파일을 압축하고 이미지에 크기 조정을 적용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cwebp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지_파일</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력파일.webp</span><code class="language-plaintext highlighter-rouge"> -resize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">height</span></p>
+
+<ul>
+  <li>WebP 파일을 압축하고 알파 채널 정보를 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cwebp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지_파일</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력파일.webp</span><code class="language-plaintext highlighter-rouge"> -noalpha</code></p>

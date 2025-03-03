@@ -1,0 +1,52 @@
+<h1 id="cargo-bench">cargo bench</h1>
+
+<p>Compile et exécute des benchmarks.
+Plus d'informations : <a href="https://doc.rust-lang.org/cargo/commands/cargo-bench.html">https://doc.rust-lang.org/cargo/commands/cargo-bench.html</a>.</p>
+
+<ul>
+  <li>Exécute tous les benchmarks d'un paquet :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo bench</code></p>
+
+<ul>
+  <li>Ne pas arréter quand un benchmark échoue :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo bench --no-fail-fast</code></p>
+
+<ul>
+  <li>Compile, mais n'exécute pas les benchmarks :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo bench --no-run</code></p>
+
+<ul>
+  <li>Exécute le benchmark spécifié :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo bench --bench </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benchmark</span></p>
+
+<ul>
+  <li>Exécute les benchmarks avec un profile spécifique (défaut : <code class="language-plaintext highlighter-rouge">bench</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo bench --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile</span></p>
+
+<ul>
+  <li>Exécute les benchmarks sur tous les exemples cibles :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo bench --examples</code></p>
+
+<ul>
+  <li>Exécute les benchmarks sur tous les binaires cibles :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo bench --bins</code></p>
+
+<ul>
+  <li>Exécute les benchmarks sur la bibliothèque du paquet :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo bench --lib</code></p>

@@ -1,0 +1,52 @@
+<h1 id="trufflehog">trufflehog</h1>
+
+<p>Find and verify credentials in files, Git repositories, S3 buckets, and Docker images.
+More information: <a href="https://github.com/trufflesecurity/trufflehog">https://github.com/trufflesecurity/trufflehog</a>.</p>
+
+<ul>
+  <li>Scan a Git repository for verified secrets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trufflehog git </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://github.com/trufflesecurity/test_keys</span><code class="language-plaintext highlighter-rouge"> --only-verified</code></p>
+
+<ul>
+  <li>Scan a GitHub organization for verified secrets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trufflehog github --org=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">trufflesecurity</span><code class="language-plaintext highlighter-rouge"> --only-verified</code></p>
+
+<ul>
+  <li>Scan a GitHub repository for verified keys and get JSON output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trufflehog git </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://github.com/trufflesecurity/test_keys</span><code class="language-plaintext highlighter-rouge"> --only-verified --json</code></p>
+
+<ul>
+  <li>Scan a GitHub repository along with its Issues and Pull Requests:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trufflehog github --repo=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://github.com/trufflesecurity/test_keys</span><code class="language-plaintext highlighter-rouge"> --issue-comments --pr-comments</code></p>
+
+<ul>
+  <li>Scan an S3 bucket for verified keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trufflehog s3 --bucket=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket name</span><code class="language-plaintext highlighter-rouge"> --only-verified</code></p>
+
+<ul>
+  <li>Scan S3 buckets using IAM Roles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trufflehog s3 --role-arn=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">iam-role-arn</span></p>
+
+<ul>
+  <li>Scan individual files or directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trufflehog filesystem </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 …</span></p>
+
+<ul>
+  <li>Scan a Docker image for verified secrets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trufflehog docker --image </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">trufflesecurity/secrets</span><code class="language-plaintext highlighter-rouge"> --only-verified</code></p>

@@ -1,0 +1,40 @@
+<h1 id="dd">dd</h1>
+
+<p>파일을 변환하고 복사합니다.
+더 많은 정보: <a href="https://keith.github.io/xcode-man-pages/dd.1.html">https://keith.github.io/xcode-man-pages/dd.1.html</a>.</p>
+
+<ul>
+  <li>부팅 가능한 USB 드라이브를 isohybrid 파일(예: <code class="language-plaintext highlighter-rouge">archlinux-xxx.iso</code>)로 만들고 진행률 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.iso</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/usb_드라이브</span><code class="language-plaintext highlighter-rouge"> status=progress</code></p>
+
+<ul>
+  <li>드라이브를 다른 드라이브로 4MB 블록 단위로 복제하고 오류를 무시하며 진행률 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=4m conv=noerror if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/소스_드라이브</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/대상_드라이브</span><code class="language-plaintext highlighter-rouge"> status=progress</code></p>
+
+<ul>
+  <li>커널 랜덤 드라이버를 사용하여 특정 바이트 수의 랜덤 데이터를 가진 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> count=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> if=/dev/urandom of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/랜덤_파일</span></p>
+
+<ul>
+  <li>디스크의 쓰기 성능을 벤치마킹:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd bs=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1024</span><code class="language-plaintext highlighter-rouge"> count=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000000</span><code class="language-plaintext highlighter-rouge"> if=/dev/zero of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/1GB_파일</span></p>
+
+<ul>
+  <li>시스템 백업을 생성하여 IMG 파일로 저장하고 나중에 <code class="language-plaintext highlighter-rouge">if</code>와 <code class="language-plaintext highlighter-rouge">of</code>를 교환하여 복원 가능하며 진행률 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/드라이브_디바이스</span><code class="language-plaintext highlighter-rouge"> of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.img</span><code class="language-plaintext highlighter-rouge"> status=progress</code></p>
+
+<ul>
+  <li>진행 중인 <code class="language-plaintext highlighter-rouge">dd</code> 작업의 진행률 확인 (다른 셸에서 이 명령 실행):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kill -USR1 $(pgrep ^dd)</code></p>

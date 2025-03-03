@@ -1,0 +1,34 @@
+<h1 id="vmtouch">vmtouch</h1>
+
+<p>Manage the filesystem cache.
+More information: <a href="https://manned.org/vmtouch">https://manned.org/vmtouch</a>.</p>
+
+<ul>
+  <li>Print the cache status of a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vmtouch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Load a file into cache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vmtouch -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Evict a file from cache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vmtouch -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Lock a file in cache to prevent eviction from memory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vmtouch -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Lock a file and daemonize the program:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vmtouch -ld </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

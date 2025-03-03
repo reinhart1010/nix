@@ -1,0 +1,34 @@
+<h1 id="podman-images">podman images</h1>
+
+<p>Gerenciar imagens do Podman.
+Mais informações: <a href="https://docs.podman.io/en/latest/markdown/podman-images.1.html">https://docs.podman.io/en/latest/markdown/podman-images.1.html</a>.</p>
+
+<ul>
+  <li>Lista todas as imagens do Podman:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman images</code></p>
+
+<ul>
+  <li>Lista todas as imagens do Podman, incluindo intermediárias:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman images --all</code></p>
+
+<ul>
+  <li>Lista a saída no modo silencioso (apenas IDs numéricos):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman images --quiet</code></p>
+
+<ul>
+  <li>Lista todas as imagens do Podman que não são utilizadas por nenhum contêiner:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman images --filter dangling=true</code></p>
+
+<ul>
+  <li>Lista imagens que contenham uma substring em seus nomes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman images "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>imagem|imagem</em></span><code class="language-plaintext highlighter-rouge">"</code></p>

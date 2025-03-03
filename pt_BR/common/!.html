@@ -1,0 +1,52 @@
+<h1 id="exclamation-mark">Exclamation mark</h1>
+
+<p>Mecanismo interno do bash para substituir por um comando existente no histórico.
+Mais informações: <a href="https://gnu.org/software/bash/manual/bash.html#Event-Designators">https://gnu.org/software/bash/manual/bash.html#Event-Designators</a>.</p>
+
+<ul>
+  <li>Substitui com o comando anterior e execute com o sudo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo !!</code></p>
+
+<ul>
+  <li>Substitui com o comando baseado no número da linha do <code class="language-plaintext highlighter-rouge">history</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span></p>
+
+<ul>
+  <li>Substitui com o comando que foi usado algumas linhas do histórico atrás:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número</span></p>
+
+<ul>
+  <li>Substitui com o comando mais recente que começa com o texto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texto</span></p>
+
+<ul>
+  <li>Substitui com os argumentos do último comando:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> !*</code></p>
+
+<ul>
+  <li>Substitui com os argumentos do último comando:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> !$</code></p>
+
+<ul>
+  <li>Substitui com o último comando, mas sem o último argumento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!:-</code></p>
+
+<ul>
+  <li>Imprime o último comando que começa com uma string sem executá-lo.:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">:p</code></p>

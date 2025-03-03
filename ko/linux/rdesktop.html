@@ -1,0 +1,41 @@
+<h1 id="rdesktop">rdesktop</h1>
+
+<p>원격 데스크톱 프로토콜 클라이언트.
+RDP 프로토콜을 사용하여 원격 컴퓨터에 연결할 수 있습니다.
+더 많은 정보: <a href="https://manned.org/rdesktop">https://manned.org/rdesktop</a>.</p>
+
+<ul>
+  <li>원격 컴퓨터에 연결 (기본 포트는 3389):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdesktop -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트:포트</span></p>
+
+<ul>
+  <li>간단한 예시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdesktop -u Administrator -p passwd123 192.168.1.111:3389</code></p>
+
+<ul>
+  <li>전체 화면으로 원격 컴퓨터에 연결 (종료하려면 <code class="language-plaintext highlighter-rouge">Ctrl + Alt + Enter</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdesktop -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트:포트</span></p>
+
+<ul>
+  <li>사용자 지정 해상도 사용 ('x' 문자를 숫자 사이에 사용):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdesktop -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> -g 1366x768 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트:포트</span></p>
+
+<ul>
+  <li>도메인 사용자를 사용하여 원격 컴퓨터에 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdesktop -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인명</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트:포트</span></p>
+
+<ul>
+  <li>16비트 색상 사용 (속도 향상):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rdesktop -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> -a 16 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트:포트</span></p>

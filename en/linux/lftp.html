@@ -1,0 +1,46 @@
+<h1 id="lftp">lftp</h1>
+
+<p>Sophisticated file transfer program.
+More information: <a href="https://lftp.yar.ru/lftp-man.html">https://lftp.yar.ru/lftp-man.html</a>.</p>
+
+<ul>
+  <li>Connect to an FTP server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lftp --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp.example.com</span></p>
+
+<ul>
+  <li>Download multiple files (glob expression):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/*.png</span></p>
+
+<ul>
+  <li>Upload multiple files (glob expression):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mput </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/*.zip</span></p>
+
+<ul>
+  <li>Delete multiple files on the remote server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mrm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/*.txt</span></p>
+
+<ul>
+  <li>Rename a file on the remote server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">original_filename</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_filename</span></p>
+
+<ul>
+  <li>Download or update an entire directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mirror </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote_dir</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_output_dir</span></p>
+
+<ul>
+  <li>Upload or update an entire directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mirror -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local_dir</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote_output_dir</span></p>

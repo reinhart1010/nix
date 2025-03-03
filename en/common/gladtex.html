@@ -1,0 +1,47 @@
+<h1 id="gladtex">gladtex</h1>
+
+<p>A LaTeX formula preprocessor for HTML files.
+It converts LaTeX formulas to images.
+More information: <a href="https://manned.org/gladtex.1">https://manned.org/gladtex.1</a>.</p>
+
+<ul>
+  <li>Convert to HTML:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gladtex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.htex</span></p>
+
+<ul>
+  <li>Save the converted file to a specific location:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gladtex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.htex</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.html</span></p>
+
+<ul>
+  <li>Save the generated images to a specific [d]irectory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gladtex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.htex</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image_output_directory</span></p>
+
+<ul>
+  <li>Set image [r]esolution (in dpi, default is 100):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gladtex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.htex</span><code class="language-plaintext highlighter-rouge"> -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resolution</span></p>
+
+<ul>
+  <li>[k]eep LaTeX files after conversion:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gladtex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.htex</span><code class="language-plaintext highlighter-rouge"> -k</code></p>
+
+<ul>
+  <li>Set [b]ackground and [f]oreground color of the images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gladtex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.htex</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">background_color</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foreground_color</span></p>
+
+<ul>
+  <li>Convert Markdown to HTML using <code class="language-plaintext highlighter-rouge">pandoc</code> and <code class="language-plaintext highlighter-rouge">gladtex</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pandoc -s -t html --gladtex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.md</span><code class="language-plaintext highlighter-rouge"> | gladtex -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.html</span></p>

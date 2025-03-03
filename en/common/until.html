@@ -1,0 +1,16 @@
+<h1 id="until">until</h1>
+
+<p>Simple shell loop that repeats until it receives zero as return value.
+More information: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-until">https://www.gnu.org/software/bash/manual/bash.html#index-until</a>.</p>
+
+<ul>
+  <li>Execute a command until it succeeds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">until </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">; do :; done</code></p>
+
+<ul>
+  <li>Wait for a systemd service to be active:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">until systemctl is-active --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nginx</span><code class="language-plaintext highlighter-rouge">; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "Waiting…"</span><code class="language-plaintext highlighter-rouge">; sleep 1; done; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "Launched!"</span></p>

@@ -1,0 +1,28 @@
+<h1 id="clip">clip</h1>
+
+<p>Kopieren von Inhalten der Befehlsausgabe in die Windows Zwischenablage.
+Weitere Informationen: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/clip">https://learn.microsoft.com/windows-server/administration/windows-commands/clip</a>.</p>
+
+<ul>
+  <li>Kopiere die Ausgabe eines Befehls in die Windows Zwischenablage:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dir</span><code class="language-plaintext highlighter-rouge"> | clip</code></p>
+
+<ul>
+  <li>Kopiere den Inhalt einer Datei in die Windows Zwischenablage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clip &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.txt</span></p>
+
+<ul>
+  <li>Kopiere Text mit einem nachfolgenden Zeilenumbruch in die Windows Zwischenablage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">irgendein text</span><code class="language-plaintext highlighter-rouge"> | clip</code></p>
+
+<ul>
+  <li>Kopiere Text ohne nachfolgenden Zeilenumbruch in die Windows Zwischenablage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo | set /p="irgendein text" | clip</code></p>

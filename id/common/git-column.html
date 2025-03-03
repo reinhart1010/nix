@@ -1,0 +1,22 @@
+<h1 id="git-column">git column</h1>
+
+<p>Tampilkan data dalam bentuk kolom.
+Informasi lebih lanjut: <a href="https://git-scm.com/docs/git-column">https://git-scm.com/docs/git-column</a>.</p>
+
+<ul>
+  <li>Tampilkan <code class="language-plaintext highlighter-rouge">stdin</code> dalam bentuk beberapa kolom:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls | git column --mode=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column</span></p>
+
+<ul>
+  <li>Tampilkan <code class="language-plaintext highlighter-rouge">stdin</code> sebagai beberapa kolom dengan lebar maksimum sebesar <code class="language-plaintext highlighter-rouge">100</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls | git column --mode=column --width=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span></p>
+
+<ul>
+  <li>Tampilkan <code class="language-plaintext highlighter-rouge">stdin</code> sebagai beberapa kolom dengan padding maksimum sebesar <code class="language-plaintext highlighter-rouge">30</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls | git column --mode=column --padding=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span></p>

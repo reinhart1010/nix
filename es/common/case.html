@@ -1,0 +1,37 @@
+<h1 id="case">case</h1>
+
+<p>Construcción de Bash para crear sentencias condicionales multi-elección.
+Más información: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-case">https://www.gnu.org/software/bash/manual/bash.html#index-case</a>.</p>
+
+<ul>
+  <li>Compara una variable con literales de cadena para decidir qué comando ejecutar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$COUNTRULE</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">palabras</span><code class="language-plaintext highlighter-rouge">) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -w LEAME</span><code class="language-plaintext highlighter-rouge"> ;; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">líneas</span><code class="language-plaintext highlighter-rouge">) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -l LEAME</span><code class="language-plaintext highlighter-rouge"> ;; esac</code></p>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Combina patrones con</td>
+          <td>, usa * como patrón de reserva:</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$COUNTRULE</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[wW]|palabras</span><code class="language-plaintext highlighter-rouge">) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -w LEAME</span><code class="language-plaintext highlighter-rouge"> ;; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[lL]|líneas</span><code class="language-plaintext highlighter-rouge">) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -l LEAME</span><code class="language-plaintext highlighter-rouge"> ;; *) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "¿qué?"</span><code class="language-plaintext highlighter-rouge"> ;; esac</code></p>
+
+<ul>
+  <li>Permite la coincidencia de múltiples patrones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$ANIMAL</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gato</span><code class="language-plaintext highlighter-rouge">) echo "Es un gato" ;;&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gato|perro</span><code class="language-plaintext highlighter-rouge">) echo "Es un gato o un perro" ;;&amp; *) echo "Fallback" ;; esac</code></p>
+
+<ul>
+  <li>Continúa con los comandos del siguiente patrón sin comprobar el patrón:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$ANIMAL</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gato</span><code class="language-plaintext highlighter-rouge">) echo "Es un gato" ;&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perro</span><code class="language-plaintext highlighter-rouge">) echo "O es un perro o es un gato" ;&amp; *) echo "Fallback" ;; esac</code></p>

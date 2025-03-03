@@ -1,0 +1,28 @@
+<h1 id="umask">umask</h1>
+
+<p>Manage the read/write/execute permissions that are masked out (i.e. restricted) for newly created files by the user.
+More information: <a href="https://manned.org/umask">https://manned.org/umask</a>.</p>
+
+<ul>
+  <li>Display the current mask in octal notation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">umask</code></p>
+
+<ul>
+  <li>Display the current mask in symbolic (human-readable) mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">umask -S</code></p>
+
+<ul>
+  <li>Change the mask symbolically to allow read permission for all users (the rest of the mask bits are unchanged):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">umask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a+r</span></p>
+
+<ul>
+  <li>Set the mask (using octal) to restrict no permissions for the file's owner, and restrict all permissions for everyone else:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">umask </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">077</span></p>

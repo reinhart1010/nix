@@ -1,0 +1,35 @@
+<h1 id="magick-montage">magick montage</h1>
+
+<p>Plaats afbeeldingen in een aanpasbaar raster.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">magick</code>.
+Meer informatie: <a href="https://imagemagick.org/script/montage.php">https://imagemagick.org/script/montage.php</a>.</p>
+
+<ul>
+  <li>Plaats afbeeldingen in een raster, waarbij afbeeldingen die groter zijn dan de rastercelgrootte automatisch worden aangepast:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick montage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding1.jpg pad/naar/afbeelding2.jpg …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/montage.jpg</span></p>
+
+<ul>
+  <li>Plaats afbeeldingen in een raster, waarbij de rastercelgrootte automatisch wordt berekend op basis van de grootste afbeelding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick montage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding1.jpg pad/naar/afbeelding2.jpg …</span><code class="language-plaintext highlighter-rouge"> -geometry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+0+0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/montage.jpg</span></p>
+
+<ul>
+  <li>Specificeer de rastercelgrootte en pas de afbeeldingen aan om hierin te passen voordat ze worden geplaatst:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick montage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding1.jpg pad/naar/afbeelding2.jpg …</span><code class="language-plaintext highlighter-rouge"> -geometry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640x480+0+0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/montage.jpg</span></p>
+
+<ul>
+  <li>Beperk het aantal rijen en kolommen in het raster, waardoor invoerafbeeldingen over meerdere output-montages worden verdeeld:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick montage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding1.jpg pad/naar/afbeelding2.jpg …</span><code class="language-plaintext highlighter-rouge"> -geometry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+0+0</span><code class="language-plaintext highlighter-rouge"> -tile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2x3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">montage_%d.jpg</span></p>
+
+<ul>
+  <li>Wijzig de grootte en snijd afbeeldingen bij om hun rastercellen te vullen voordat ze worden geplaatst:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick montage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/afbeelding1.jpg pad/naar/afbeelding2.jpg …</span><code class="language-plaintext highlighter-rouge"> -geometry </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+0+0</span><code class="language-plaintext highlighter-rouge"> -resize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640x480^</span><code class="language-plaintext highlighter-rouge"> -gravity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">center</span><code class="language-plaintext highlighter-rouge"> -crop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640x480+0+0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/montage.jpg</span></p>

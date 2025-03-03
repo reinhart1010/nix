@@ -1,0 +1,28 @@
+<h1 id="adb-reverse">adb reverse</h1>
+
+<p>Android Debug Bridge Reverse: conexiones de socket inversas desde una instancia de emulador de Android o dispositivos Android conectados.
+Más información: <a href="https://developer.android.com/tools/adb">https://developer.android.com/tools/adb</a>.</p>
+
+<ul>
+  <li>Lista todas las conexiones de socket inverso de emuladores y dispositivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse --list</code></p>
+
+<ul>
+  <li>Invierte un puerto TCP desde un emulador o dispositivo a localhost:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse tcp:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_port</span><code class="language-plaintext highlighter-rouge"> tcp:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span></p>
+
+<ul>
+  <li>Elimina una conexión de socket inversa de un emulador o dispositivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse --remove tcp:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_port</span></p>
+
+<ul>
+  <li>Elimina todas las conexiones de socket inverso de todos los emuladores y dispositivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb reverse --remove-all</code></p>

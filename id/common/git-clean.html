@@ -1,0 +1,40 @@
+<h1 id="git-clean">git clean</h1>
+
+<p>Hapus berkas-berkas yang tak dilacak oleh Git pada pohon direktori kerja saat ini.
+Informasi lebih lanjut: <a href="https://git-scm.com/docs/git-clean">https://git-scm.com/docs/git-clean</a>.</p>
+
+<ul>
+  <li>Hapus seluruh berkas yang tak dilacak:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean</code></p>
+
+<ul>
+  <li>Hapus menggunakan mode interaktif:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–interactive</span></p>
+
+<ul>
+  <li>Tampilkan kumpulan berkas yang akan dihapus tanpa menghapusnya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean --dry-run</code></p>
+
+<ul>
+  <li>Hapus berkas-berkas secara paksa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–force</span></p>
+
+<ul>
+  <li>Hapus kumpulan [d]irektori secara paksa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–force</span><code class="language-plaintext highlighter-rouge"> -d</code></p>
+
+<ul>
+  <li>Hapus berkas-berkas yang tak dilacak, termasuk berkas yang dikecualikan (menurut daftar <code class="language-plaintext highlighter-rouge">.gitignore</code> dan <code class="language-plaintext highlighter-rouge">.git/info/exclude</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git clean -x</code></p>

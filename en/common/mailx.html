@@ -1,0 +1,40 @@
+<h1 id="mailx">mailx</h1>
+
+<p>Send and receive mail.
+More information: <a href="https://manned.org/mailx">https://manned.org/mailx</a>.</p>
+
+<ul>
+  <li>Send mail (the content should be typed after the command, and ended with <code class="language-plaintext highlighter-rouge">Ctrl+D</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mailx -s "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to_addr</span></p>
+
+<ul>
+  <li>Send mail with content passed from another command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">content</span><code class="language-plaintext highlighter-rouge">" | mailx -s "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to_addr</span></p>
+
+<ul>
+  <li>Send mail with content read from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mailx -s "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to_addr</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">content.txt</span></p>
+
+<ul>
+  <li>Send mail to a recipient and CC to another address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mailx -s "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject</span><code class="language-plaintext highlighter-rouge">" -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cc_addr</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to_addr</span></p>
+
+<ul>
+  <li>Send mail specifying the sender address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mailx -s "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject</span><code class="language-plaintext highlighter-rouge">" -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">from_addr</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to_addr</span></p>
+
+<ul>
+  <li>Send mail with an attachment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mailx -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> -s "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to_addr</span></p>

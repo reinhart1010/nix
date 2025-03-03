@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="b2sum">b2sum</h1>
+
+<p>Calcule les sommes de contrôle cryptographiques BLAKE2.
+Plus d'informations : <a href="https://www.gnu.org/software/coreutils/manual/html_node/b2sum-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/b2sum-invocation.html</a>.</p>
+
+<ul>
+  <li>Calcule la somme de contrôle BLAKE2 d'un fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2sum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span></p>
+
+<ul>
+  <li>Calcule les sommes de contrôle BLAKE2 pour plusieurs fichiers :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2sum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier1 chemin/vers/fichier2 …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.b2</span></p>
+
+<ul>
+  <li>Calcule la somme de contrôle BLAKE2 depuis <code class="language-plaintext highlighter-rouge">stdin</code> :</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span><code class="language-plaintext highlighter-rouge"> | b2sum</code></p>
+
+<ul>
+  <li>Lis un fichier contenant des sommes de contrôle BLAKE2 et des noms de fichier et vérifie que tous les fichiers ont des sommes de contrôle correspondantes :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2sum --check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.b2</span></p>
+
+<ul>
+  <li>Affiche un message uniquement pour les fichiers manquants ou lorsque la vérification échoue :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2sum --check --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.b2</span></p>
+
+<ul>
+  <li>N'affiche un message que pour les fichiers pour lesquels la vérification a échoué, en ignorant les fichiers manquants :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2sum --ignore-missing --check --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.b2</span></p>

@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="cargo">cargo</h1>
+
+<p>Gestion d'un projet Rust et ses dependences (crates).
+Certaines sous-commandes comme <code class="language-plaintext highlighter-rouge">build</code> ont leurs propres documentations.
+Plus d'informations : <a href="https://doc.rust-lang.org/cargo">https://doc.rust-lang.org/cargo</a>.</p>
+
+<ul>
+  <li>Rechercher des crates :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recherche</span></p>
+
+<ul>
+  <li>Installer un crate :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_crate</span></p>
+
+<ul>
+  <li>Lister les crates déjà installés :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo install --list</code></p>
+
+<ul>
+  <li>Crée un nouveau binaire ou librairie du projet Rust dans les dossiers spécifiés (ou dans le dossier courant par défaut) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo init --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier</span></p>
+
+<ul>
+  <li>Compile le projet Rust dans le dossier courant en utilisant le profil release :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --release</code></p>
+
+<ul>
+  <li>Compiler le projet Rust dans le dossier courant en utilisant le compilateur nightly :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo +nightly build</code></p>
+
+<ul>
+  <li>Compiler en utilisant un nombre spécifique de threads (par défaut on prend le nombre de coeurs du CPU) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --jobs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_threads</span></p>

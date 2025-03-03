@@ -1,0 +1,17 @@
+<h1 id="tsort">tsort</h1>
+
+<p>Perform a topological sort.
+A common use is to show the dependency order of nodes in a directed acyclic graph.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/tsort-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/tsort-invocation.html</a>.</p>
+
+<ul>
+  <li>Perform a topological sort consistent with a partial sort per line of input separated by blanks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tsort </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Perform a topological sort consistent on strings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UI Backend\nBackend Database\nDocs UI</span><code class="language-plaintext highlighter-rouge">" | tsort</code></p>

@@ -1,0 +1,22 @@
+<h1 id="git-bugreport">git bugreport</h1>
+
+<p>Tangkap dan simpan informasi sistem dan pengguna Git dalam berkas teks untuk kepentingan melaporkan dan menyelesaikan masalah/bug internal dalam Git.
+Informasi lebih lanjut: <a href="https://git-scm.com/docs/git-bugreport">https://git-scm.com/docs/git-bugreport</a>.</p>
+
+<ul>
+  <li>Buat berkas laporan masalah/bug baru pada direktori saat ini:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bugreport</code></p>
+
+<ul>
+  <li>Buat berkas laporan pada direktori tertentu, dan buat direktori tersebut jika belum:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bugreport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output-directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span></p>
+
+<ul>
+  <li>Buat berkas laporan baru, dengan nama berkas diakhiri dengan tanggal pelaporan menurut format <code class="language-plaintext highlighter-rouge">strftime</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bugreport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-s|–suffix</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%m%d%y</span></p>

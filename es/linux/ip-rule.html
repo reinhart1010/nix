@@ -1,0 +1,52 @@
+<h1 id="ip-rule">ip rule</h1>
+
+<p>Gestión de bases de datos de políticas de enrutamiento IP.
+Más información: <a href="https://manned.org/ip-rule">https://manned.org/ip-rule</a>.</p>
+
+<ul>
+  <li>Muestra la política de enrutamiento:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip rule </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">show|list</span></p>
+
+<ul>
+  <li>Agrega una nueva regla basada en las direcciones fuente de paquetes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip rule add from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2/32</span></p>
+
+<ul>
+  <li>Añade una nueva regla basada en direcciones destino de paquetes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip rule add to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2/32</span></p>
+
+<ul>
+  <li>Elimina una regla basada en las direcciones fuente de paquetes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip rule delete from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2/32</span></p>
+
+<ul>
+  <li>Elimina una regla basada en las direcciones destino de paquetes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo ip rule delete to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2/32</span></p>
+
+<ul>
+  <li>Limpia todas las reglas eliminadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip rule flush</code></p>
+
+<ul>
+  <li>Guarda todas las reglas en un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip rule save &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/reglas_ip.dat</span></p>
+
+<ul>
+  <li>Restaura todas las reglas desde un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ip rule restore &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/reglas_ip.dat</span></p>

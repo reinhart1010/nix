@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="clang">clang</h1>
+
+<p>C, C++ 그리고 Objective-C 소스 파일을 위한 컴파일러입니다. GCC의 드롭인 대체로 사용할 수 있습니다.
+더 많은 정보: <a href="https://clang.llvm.org/docs/ClangCommandLineReference.html">https://clang.llvm.org/docs/ClangCommandLineReference.html</a>.</p>
+
+<ul>
+  <li>소스 코드를 실행 가능한 바이너리 파일로 컴파일합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력_소스.c</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력_실행가능파일</span></p>
+
+<ul>
+  <li>모든 에러와 경고 메시지를 출력하도록 활성화합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력_소스.c</span><code class="language-plaintext highlighter-rouge"> -Wall -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력_실행가능파일</span></p>
+
+<ul>
+  <li>소스 파일과 다른 경로에 있는 라이브러리를 포함합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력_소스.c</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력_실행가능파일</span><code class="language-plaintext highlighter-rouge"> -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">헤더_경로</span><code class="language-plaintext highlighter-rouge"> -L</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">라이브러리_경로</span><code class="language-plaintext highlighter-rouge"> -l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">라이브러리명</span></p>
+
+<ul>
+  <li>소스 코드를 LLVM Intermediate Representation(IR)로 컴파일 합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang -S -emit-llvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.c</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.ll</span></p>
+
+<ul>
+  <li>소스 코드를 링킹 없이 컴파일합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력_소스.c</span></p>

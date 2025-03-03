@@ -1,0 +1,54 @@
+<h1 id="wget2">wget2</h1>
+
+<p>An improved version of <code class="language-plaintext highlighter-rouge">wget</code> for downloading files from the web.
+Supports HTTP, HTTPS, and HTTP/2 protocols with enhanced performance.
+By default, <code class="language-plaintext highlighter-rouge">wget2</code> uses multiple threads for faster downloads.
+More information: <a href="https://gitlab.com/gnuwget/wget2">https://gitlab.com/gnuwget/wget2</a>.</p>
+
+<ul>
+  <li>Download the contents of a URL to a file using multiple threads (default behavior differs from <code class="language-plaintext highlighter-rouge">wget</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/foo</span></p>
+
+<ul>
+  <li>Limit the number of threads used for downloading (default is 5 threads):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget2 --max-threads=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/foo</span></p>
+
+<ul>
+  <li>Download a single web page and all its resources (scripts, stylesheets, images, etc.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget2 --page-requisites --convert-links </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/somepage.html</span></p>
+
+<ul>
+  <li>Mirror a website, but do not ascend to the parent directory (does not download embedded page elements):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget2 --mirror --no-parent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/somepath/</span></p>
+
+<ul>
+  <li>Limit the download speed and the number of connection retries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget2 --limit-rate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300k</span><code class="language-plaintext highlighter-rouge"> --tries=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/somepath/</span></p>
+
+<ul>
+  <li>Continue an incomplete download (behavior is consistent with <code class="language-plaintext highlighter-rouge">wget</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget2 --continue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Download all URLs stored in a text file to a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget2 --directory-prefix </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --input-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">URLs.txt</span></p>
+
+<ul>
+  <li>Download a file from an HTTP server using Basic Auth (also works for HTTPS):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wget2 --user=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --password=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>

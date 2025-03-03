@@ -1,0 +1,46 @@
+<h1 id="security">security</h1>
+
+<p>Administer keychains, keys, certificates and the Security framework.
+More information: <a href="https://keith.github.io/xcode-man-pages/security.1.html">https://keith.github.io/xcode-man-pages/security.1.html</a>.</p>
+
+<ul>
+  <li>List all available keychains:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">security list-keychains</code></p>
+
+<ul>
+  <li>Delete a specific keychain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">security delete-keychain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.keychain</span></p>
+
+<ul>
+  <li>Create a keychain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">security create-keychain -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.keychain</span></p>
+
+<ul>
+  <li>Set a certificate to use with a website or [s]ervice by its [c]ommon name (fails if several certificates with the same common name exist):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">security set-identity-preference -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">URL|hostname|service</span><code class="language-plaintext highlighter-rouge"> -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">common_name</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.keychain</span></p>
+
+<ul>
+  <li>Add a certificate from file to a [k]eychain (if -k isn't specified, the default keychain is used):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">security add-certificates -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.keychain</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cert_file.pem</span></p>
+
+<ul>
+  <li>Add a CA certificate to the per-user Trust Settings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">security add-trusted-cert -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/user-keychain.keychain-db</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/ca-cert_file.pem</span></p>
+
+<ul>
+  <li>Remove a CA certificate from the per-user Trust Settings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">security remove-trusted-cert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/ca-cert_file.pem</span></p>

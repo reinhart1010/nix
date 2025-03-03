@@ -1,0 +1,28 @@
+<h1 id="amass-db">amass db</h1>
+
+<p>Interact with an Amass database.
+More information: <a href="https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-db-subcommand">https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-db-subcommand</a>.</p>
+
+<ul>
+  <li>List all performed enumerations in the database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass db -dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database_directory</span><code class="language-plaintext highlighter-rouge"> -list</code></p>
+
+<ul>
+  <li>Show results for a specified enumeration index and [d]omain name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass db -dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database_directory</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain_name</span><code class="language-plaintext highlighter-rouge"> -enum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">index_from_list</span><code class="language-plaintext highlighter-rouge"> -show</code></p>
+
+<ul>
+  <li>List all found subdomains of a [d]omain within an enumeration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass db -dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database_directory</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain_name</span><code class="language-plaintext highlighter-rouge"> -enum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">index_from_list</span><code class="language-plaintext highlighter-rouge"> -names</code></p>
+
+<ul>
+  <li>Show a summary of the found subdomains within an enumeration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass db -dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database_directory</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain_name</span><code class="language-plaintext highlighter-rouge"> -enum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">index_from_list</span><code class="language-plaintext highlighter-rouge"> -summary</code></p>

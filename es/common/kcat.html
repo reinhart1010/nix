@@ -1,0 +1,52 @@
+<h1 id="kcat">kcat</h1>
+
+<p>Productor Apache Kafka y herramienta de consumo.
+Más información: <a href="https://github.com/edenhill/kcat">https://github.com/edenhill/kcat</a>.</p>
+
+<ul>
+  <li>Consume mensajes empezando por el corrimiento (offset) más nuevo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kcat -C -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tema</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">intermediarios</span></p>
+
+<ul>
+  <li>Consume mensajes comenzando con el offset más antiguo y sale después de recibir el último mensaje:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kcat -C -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tema</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">intermediarios</span><code class="language-plaintext highlighter-rouge"> -o beginning -e</code></p>
+
+<ul>
+  <li>Consume mensajes como grupo de consumidores de Kafka:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kcat -G </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_de_grupo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tema</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">intermediarios</span></p>
+
+<ul>
+  <li>Publica el mensaje leyendo de <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje</span><code class="language-plaintext highlighter-rouge"> | kcat -P -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tema</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">intermediarios</span></p>
+
+<ul>
+  <li>Publica mensajes leyendo desde un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kcat -P -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tema</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">intermediarios</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Lista metadatos para todos los temas e intermediarios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kcat -L -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">intermediarios</span></p>
+
+<ul>
+  <li>Lista metadatos para un tema específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kcat -L -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tema</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">intermediarios</span></p>
+
+<ul>
+  <li>Obtiene el offset de un tema/partición para un punto específico en el tiempo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kcat -Q -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tema</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">partición</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">marca_de_tiempo_unix</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">intermediarios</span></p>

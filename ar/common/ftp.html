@@ -1,0 +1,52 @@
+<h1 id="ftp">ftp</h1>
+
+<p>أدوات للتفاعل مع الخادم عبر بروتوكول نقل الملفات (FTP).
+لمزيد من التفاصيل: <a href="https://manned.org/ftp">https://manned.org/ftp</a>.</p>
+
+<ul>
+  <li>الاتصال بخادم FTP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp.example.com</span></p>
+
+<ul>
+  <li>الاتصال بخادم FTP مع تحديد عنوان الـ IP والمنفذ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ftp </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>التبديل إلى وضع النقل الثنائي (الرسوميات، الملفات المضغوطة، إلخ):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">binary</code></p>
+
+<ul>
+  <li>نقل عدة ملفات دون طلب تأكيد على كل ملف:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">prompt off</code></p>
+
+<ul>
+  <li>تنزيل عدة ملفات (تعليمات الكلمة العامة glob):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mget </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.png</span></p>
+
+<ul>
+  <li>رفع عدة ملفات (تعليمات الكلمة العامة glob):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mput </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.zip</span></p>
+
+<ul>
+  <li>حذف عدة ملفات على الخادم:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mdelete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span></p>
+
+<ul>
+  <li>إعادة تسمية ملف على الخادم:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">original_filename</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_filename</span></p>

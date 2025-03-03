@@ -1,0 +1,23 @@
+<h1 id="pnmscalefixed">pnmscalefixed</h1>
+
+<p>Scale a PNM file quickly with possibly reduced quality.
+See also: <code class="language-plaintext highlighter-rouge">pamscale</code>.
+More information: <a href="https://netpbm.sourceforge.net/doc/pnmscalefixed.html">https://netpbm.sourceforge.net/doc/pnmscalefixed.html</a>.</p>
+
+<ul>
+  <li>Scale an image such that the result has the specified dimensions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmscalefixed -width </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width</span><code class="language-plaintext highlighter-rouge"> -height </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">height</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Scale an image such that the result has the specified width, keeping the aspect ratio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmscalefixed -width </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>
+
+<ul>
+  <li>Scale an image such that its width and height is changed by the specified factors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmscalefixed -xscale </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_factor</span><code class="language-plaintext highlighter-rouge"> -yscale </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_factor</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pnm</span></p>

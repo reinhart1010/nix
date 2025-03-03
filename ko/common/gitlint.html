@@ -1,0 +1,40 @@
+<h1 id="gitlint">gitlint</h1>
+
+<p>Git 커밋 메시지 린터는 커밋 메시지의 스타일을 확인.
+더 많은 정보: <a href="https://jorisroovers.com/gitlint/">https://jorisroovers.com/gitlint/</a>.</p>
+
+<ul>
+  <li>마지막 커밋 메시지를 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlint</code></p>
+
+<ul>
+  <li>린트에 대한 커밋 범위:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlint --commits </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">단일_refspec_인수</span></p>
+
+<ul>
+  <li>추가 사용자 정의 규칙이 있는 디렉토리 또는 Python 모듈의 경로 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlint --extra-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉터리</span></p>
+
+<ul>
+  <li>특정 CI 작업 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlint --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/대상_디렉터리</span></p>
+
+<ul>
+  <li>commit-msg가 포함된 파일의 경로 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlint --msg-filename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일이름</span></p>
+
+<ul>
+  <li>로컬 저장소에서 단계적 커밋 메타 정보를 읽음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlint --staged</code></p>

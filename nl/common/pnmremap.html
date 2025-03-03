@@ -1,0 +1,28 @@
+<h1 id="pnmremap">pnmremap</h1>
+
+<p>Vervang de kleuren in een PNM afbeelding.
+Meer informatie: <a href="https://netpbm.sourceforge.net/doc/pnmremap.html">https://netpbm.sourceforge.net/doc/pnmremap.html</a>.</p>
+
+<ul>
+  <li>Vervang de kleuren in een afbeelding met diegene gespecificeerd in een kleurenpalet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmremap -mapfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/kleurenpalet_bestand.ppm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/invoer.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pnm</span></p>
+
+<ul>
+  <li>Gebruik Floyd-Steinberg dithering voor het representeren van missende kleuren in het kleurenpalet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmremap -mapfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/kleurenpalet_bestand.ppm</span><code class="language-plaintext highlighter-rouge"> -floyd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/invoer.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pnm</span></p>
+
+<ul>
+  <li>Gebruik de eerste kleur in het palet voor het representeren van missende kleuren in het kleurenpalet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmremap -mapfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/kleurenpalet_bestand.ppm</span><code class="language-plaintext highlighter-rouge"> -firstisdefault </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/invoer.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pnm</span></p>
+
+<ul>
+  <li>Gebruik de gespecificeerde kleur voor het representeren van de missende kleuren in het kleurenpalet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pnmremap -mapfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/kleurenpalet_bestand.ppm</span><code class="language-plaintext highlighter-rouge"> -missingcolor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kleur</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/invoer.pnm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer.pnm</span></p>

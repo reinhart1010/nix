@@ -1,0 +1,53 @@
+<h1 id="ipcs">ipcs</h1>
+
+<p>Show information about the usage of System V IPC facilities: shared memory segments, message queues, and semaphore arrays.
+See also: <code class="language-plaintext highlighter-rouge">lsipc</code> for a more flexible tool, <code class="language-plaintext highlighter-rouge">ipcmk</code> for creating IPC facilities, and <code class="language-plaintext highlighter-rouge">ipcrm</code> for deleting them.
+More information: <a href="https://manned.org/ipcs">https://manned.org/ipcs</a>.</p>
+
+<ul>
+  <li>Show information about all active IPC facilities:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcs</code></p>
+
+<ul>
+  <li>Show information about active shared [m]emory segments, message [q]ueues or [s]empahore sets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–shmems|–queues|–semaphores</span></p>
+
+<ul>
+  <li>Show full details on the resource with a specific [i]D:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–shmems|–queues|–semaphores</span><code class="language-plaintext highlighter-rouge"> --id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource_id</span></p>
+
+<ul>
+  <li>Show [l]imits in [b]ytes or in a human-readable format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcs --limits </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–bytes|–human</span></p>
+
+<ul>
+  <li>Show s[u]mmary about current usage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcs --summary</code></p>
+
+<ul>
+  <li>Show [c]reator's and owner's UIDs and PIDs for all IPC facilities:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcs --creator</code></p>
+
+<ul>
+  <li>Show the [p]ID of the last operators for all IPC facilities:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcs --pid</code></p>
+
+<ul>
+  <li>Show last access [t]imes for all IPC facilities:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ipcs --time</code></p>

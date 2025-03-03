@@ -1,0 +1,41 @@
+<h1 id="az-lock">az lock</h1>
+
+<p>Manage Azure locks.
+Part of <code class="language-plaintext highlighter-rouge">azure-cli</code> (also known as <code class="language-plaintext highlighter-rouge">az</code>).
+More information: <a href="https://learn.microsoft.com/cli/azure/lock">https://learn.microsoft.com/cli/azure/lock</a>.</p>
+
+<ul>
+  <li>Create a read-only subscription level lock:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az lock create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lock_name</span><code class="language-plaintext highlighter-rouge"> --lock-type ReadOnly</code></p>
+
+<ul>
+  <li>Create a read-only resource group level lock:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az lock create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lock_name</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span><code class="language-plaintext highlighter-rouge"> --lock-type ReadOnly</code></p>
+
+<ul>
+  <li>Delete a subscription level lock:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az lock delete --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lock_name</span></p>
+
+<ul>
+  <li>Delete a resource group level lock:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az lock delete --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lock_name</span><code class="language-plaintext highlighter-rouge"> --resource-group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_name</span></p>
+
+<ul>
+  <li>List out all locks on the subscription level:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az lock list</code></p>
+
+<ul>
+  <li>Show a subscription level lock with a specific [n]ame:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az lock show -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lock_name</span></p>

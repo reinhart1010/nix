@@ -1,0 +1,40 @@
+<h1 id="say">say</h1>
+
+<p>Convierte texto a voz.
+Más información: <a href="https://keith.github.io/xcode-man-pages/say.1.html">https://keith.github.io/xcode-man-pages/say.1.html</a>.</p>
+
+<ul>
+  <li>Di una frase en voz alta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Me gusta andar en mi bicicleta.</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Lee un archivo en voz alta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say --input-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_archivo.txt</span></p>
+
+<ul>
+  <li>Di una frase con una voz y un ritmo de voz personalizados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say --voice=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">voz</span><code class="language-plaintext highlighter-rouge"> --rate=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">palabras_por_minuto</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Lo siento David, no puedo dejarte hacer eso.</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Lista las voces disponibles (cada voz habla en un idioma distinto):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say --voice="?"</code></p>
+
+<ul>
+  <li>Di algo en polaco:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say --voice=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Zosia</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Litwo, ojczyzno moja!</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Crea un archivo de audio con el texto hablado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say --output-file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_fichero.aiff</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Aquí están los locos.</span><code class="language-plaintext highlighter-rouge">"</code></p>

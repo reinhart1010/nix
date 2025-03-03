@@ -1,0 +1,29 @@
+<h1 id="mosquitto_passwd">mosquitto_passwd</h1>
+
+<p>Manage password files for mosquitto.
+See also <code class="language-plaintext highlighter-rouge">mosquitto</code>, the MQTT server that this manages.
+More information: <a href="https://mosquitto.org/man/mosquitto_passwd-1.html">https://mosquitto.org/man/mosquitto_passwd-1.html</a>.</p>
+
+<ul>
+  <li>Add a new user to a password file (will prompt to enter the password):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosquitto_passwd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/password_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Create the password file if it doesn't already exist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosquitto_passwd -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/password_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Delete the specified username instead:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosquitto_passwd -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/password_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Upgrade an old plain-text password file to a hashed password file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mosquitto_passwd -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/password_file</span></p>

@@ -1,0 +1,53 @@
+<h1 id="aria2c">aria2c</h1>
+
+<p>Fast download utility.
+Supports HTTP(S), FTP, SFTP, BitTorrent, and Metalink.
+More information: <a href="https://aria2.github.io">https://aria2.github.io</a>.</p>
+
+<ul>
+  <li>Download a specific URI to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Download a file from a URI with a specific output name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Download multiple different files in parallel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --force-sequential </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">false</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url1 url2 …</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Download the same file from different mirrors and verify the checksum of the downloaded file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --checksum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sha-256</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url1</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url2</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">urlN</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Download the URIs listed in a file with a specific number of parallel downloads:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --input-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --max-concurrent-downloads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_downloads</span></p>
+
+<ul>
+  <li>Download with multiple connections:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --split </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_connections</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>FTP download with username and password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --ftp-user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --ftp-passwd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Limit download speed in bytes/s:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --max-download-limit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">speed</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">"</code></p>

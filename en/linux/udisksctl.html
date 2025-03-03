@@ -1,0 +1,40 @@
+<h1 id="udisksctl">udisksctl</h1>
+
+<p>Interact with <code class="language-plaintext highlighter-rouge">udisksd</code> to query and manipulate storage devices.
+More information: <a href="https://storaged.org/doc/udisks2-api/latest/udisksctl.1.html">https://storaged.org/doc/udisks2-api/latest/udisksctl.1.html</a>.</p>
+
+<ul>
+  <li>Show high-level information about disk drives and block devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">udisksctl status</code></p>
+
+<ul>
+  <li>Show detailed information about a device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">udisksctl info --block-device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>
+
+<ul>
+  <li>Show detailed information about a device partition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">udisksctl info --block-device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Mount a device partition and prints the mount point:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">udisksctl mount --block-device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Unmount a device partition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">udisksctl unmount --block-device </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Monitor the daemon for events:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">udisksctl monitor</code></p>

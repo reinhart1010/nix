@@ -1,0 +1,45 @@
+<h1 id="xsetwacom">xsetwacom</h1>
+
+<p>Command-line tool to change settings for Wacom pen tablets at runtime.
+More information: <a href="https://manned.org/xsetwacom">https://manned.org/xsetwacom</a>.</p>
+
+<ul>
+  <li>List all the available Wacom devices. The device name is in the first column:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsetwacom list</code></p>
+
+<ul>
+  <li>Set Wacom area to specific screen. Get name of the screen with <code class="language-plaintext highlighter-rouge">xrandr</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsetwacom set "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span><code class="language-plaintext highlighter-rouge">" MapToOutput </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">screen</span></p>
+
+<ul>
+  <li>Set mode to relative (like a mouse) or absolute (like a pen) mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsetwacom set "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span><code class="language-plaintext highlighter-rouge">" Mode "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Relative|Absolute</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Rotate the input (useful for tablet-PC when rotating screen) by 0</td>
+          <td>90</td>
+          <td>180</td>
+          <td>270 degrees from "natural" rotation:</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsetwacom set "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span><code class="language-plaintext highlighter-rouge">" Rotate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">none|half|cw|ccw</span></p>
+
+<ul>
+  <li>Set button to only work when the tip of the pen is touching the tablet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsetwacom set "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span><code class="language-plaintext highlighter-rouge">" TabletPCButton "on"</code></p>

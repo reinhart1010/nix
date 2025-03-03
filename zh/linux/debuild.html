@@ -1,0 +1,22 @@
+<h1 id="debuild">debuild</h1>
+
+<p>从源代码构建 <code class="language-plaintext highlighter-rouge">Debian</code> 软件包的工具。
+更多信息：<a href="https://manned.org/debuild.1">https://manned.org/debuild.1</a>.</p>
+
+<ul>
+  <li>在当前目录中生成软件包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debuild</code></p>
+
+<ul>
+  <li>仅构建二进制包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debuild -b</code></p>
+
+<ul>
+  <li>生成软件包后，不运行 <code class="language-plaintext highlighter-rouge">lintian</code>（检查常见打包错误）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">debuild --no-lintian</code></p>

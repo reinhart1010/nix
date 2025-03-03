@@ -1,0 +1,34 @@
+<h1 id="xbacklight">xbacklight</h1>
+
+<p>Utility to adjust backlight brightness using the RandR extension.
+More information: <a href="https://gitlab.freedesktop.org/xorg/app/xbacklight">https://gitlab.freedesktop.org/xorg/app/xbacklight</a>.</p>
+
+<ul>
+  <li>Get the current screen brightness as a percentage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbacklight</code></p>
+
+<ul>
+  <li>Set the screen brightness to 40%:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbacklight -set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">40</span></p>
+
+<ul>
+  <li>Increase current brightness by 25%:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbacklight -inc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">25</span></p>
+
+<ul>
+  <li>Decrease current brightness by 75%:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbacklight -dec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">75</span></p>
+
+<ul>
+  <li>Increase backlight to 100%, over 60 seconds (value given in ms), using 60 steps:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbacklight -set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> -time </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60000</span><code class="language-plaintext highlighter-rouge"> -steps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span></p>

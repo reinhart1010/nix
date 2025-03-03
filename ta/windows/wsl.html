@@ -1,0 +1,52 @@
+<h1 id="wsl">wsl</h1>
+
+<p>லினக்ஸிற்கான விண்டோஸ் துணை அமைப்பை கட்டளை வரியிலிருந்து நிர்வகிக்கவும்.
+மேலும் விவரத்திற்கு: <a href="https://learn.microsoft.com/windows/wsl/reference">https://learn.microsoft.com/windows/wsl/reference</a>.</p>
+
+<ul>
+  <li>லினக்ஸ் ஷெல்லைத் தொடங்கவும் (இயல்புநிலை விநியோகத்தில்):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ஷெல்_கட்டளை</span></p>
+
+<ul>
+  <li>ஷெல்லைப் பயன்படுத்தாமல் லினக்ஸ் கட்டளையை இயக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கட்டளை</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கட்டளை_வாதங்கள்</span></p>
+
+<ul>
+  <li>குறிப்பிட்ட விநியோகத்தைக் குறிப்பிடவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --distribution </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">விநியோகம்</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ஷெல்_கட்டளை</span></p>
+
+<ul>
+  <li>கிடைக்கக்கூடிய விநியோகங்களின் பட்டியல்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --list</code></p>
+
+<ul>
+  <li>விநியோகத்தை <code class="language-plaintext highlighter-rouge">.tar</code> கோப்பிற்கு ஏற்றுமதி செய்யவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --export </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">விநியோகம்</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">விநியோக_கோப்பு.tar\பாதை</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.tar</code> கோப்பிலிருந்து விநியோகத்தை இறக்குமதி செய்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">விநியோகம்</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிறுவல்_இடம்\பாதை</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">விநியோக_கோப்பு.tar\பாதை</span></p>
+
+<ul>
+  <li>குறிப்பிட்ட விநியோகத்திற்கு பயன்படுத்தப்படும் <code class="language-plaintext highlighter-rouge">wsl</code> பதிப்பை மாற்றவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --set-version </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">விநியோகம்</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பதிப்பு</span></p>
+
+<ul>
+  <li>லினக்ஸிற்கான விண்டோஸ் துணை அமைப்பை மூடவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --shutdown</code></p>

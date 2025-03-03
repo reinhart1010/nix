@@ -1,0 +1,53 @@
+<h1 id="rtl_sdr">rtl_sdr</h1>
+
+<p>Raw data recorder for RTL-SDR receivers.
+Data is encoded using I/Q sampling (aka quadrature sampling).
+More information: <a href="https://osmocom.org/projects/rtl-sdr/wiki/Rtl-sdr">https://osmocom.org/projects/rtl-sdr/wiki/Rtl-sdr</a>.</p>
+
+<ul>
+  <li>Save RAW data from a frequency (specified in Hz) to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rtl_sdr -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100000000</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Pipe data to another program:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rtl_sdr -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100000000</span><code class="language-plaintext highlighter-rouge"> - | </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aplay</span></p>
+
+<ul>
+  <li>Read a specified number of samples:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rtl_sdr -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100000000</span><code class="language-plaintext highlighter-rouge"> -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span><code class="language-plaintext highlighter-rouge"> -</code></p>
+
+<ul>
+  <li>Specify the sample rate in Hz (ranges 225001-300000 and 900001-3200000):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rtl_sdr -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100000000</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2400000</span><code class="language-plaintext highlighter-rouge"> -</code></p>
+
+<ul>
+  <li>Specify the device by its index:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rtl_sdr -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100000000</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> -</code></p>
+
+<ul>
+  <li>Specify the gain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rtl_sdr -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100000000</span><code class="language-plaintext highlighter-rouge"> -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span><code class="language-plaintext highlighter-rouge"> -</code></p>
+
+<ul>
+  <li>Specify the output block size:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rtl_sdr -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100000000</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9999999</span><code class="language-plaintext highlighter-rouge"> -</code></p>
+
+<ul>
+  <li>Use synchronous output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rtl_sdr -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100000000</span><code class="language-plaintext highlighter-rouge"> -S -</code></p>

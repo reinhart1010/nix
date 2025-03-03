@@ -1,0 +1,29 @@
+<h1 id="pbmtoescp2">pbmtoescp2</h1>
+
+<p>Convert a PBM image to a ESC/P2 printer file.
+See also: <code class="language-plaintext highlighter-rouge">pbmtoepson</code>, <code class="language-plaintext highlighter-rouge">escp2topbm</code>.
+More information: <a href="https://netpbm.sourceforge.net/doc/pbmtoescp2.html">https://netpbm.sourceforge.net/doc/pbmtoescp2.html</a>.</p>
+
+<ul>
+  <li>Convert a PBM image to a ESC/P2 printer file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtoescp2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.escp2</span></p>
+
+<ul>
+  <li>Specify the compression of the output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtoescp2 -compression </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.escp2</span></p>
+
+<ul>
+  <li>Specify the horizontal and vertical resolution of the output in dots per inch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtoescp2 -resolution </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">180|360|720</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.escp2</span></p>
+
+<ul>
+  <li>Place a formfeed command at the end of the output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pbmtoescp2 -formfeed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.pbm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.escp2</span></p>

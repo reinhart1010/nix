@@ -1,0 +1,34 @@
+<h1 id="pg_dumpall">pg_dumpall</h1>
+
+<p>Extract a PostgreSQL database cluster into a script file or other archive file.
+More information: <a href="https://www.postgresql.org/docs/current/app-pg-dumpall.html">https://www.postgresql.org/docs/current/app-pg-dumpall.html</a>.</p>
+
+<ul>
+  <li>Dump all databases:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_dumpall &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sql</span></p>
+
+<ul>
+  <li>Dump all databases using a specific username:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_dumpall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-U|–username</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sql</span></p>
+
+<ul>
+  <li>Same as above, customize host and port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_dumpall -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file.sql</span></p>
+
+<ul>
+  <li>Dump only database data into an SQL-script file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_dumpall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–data-only</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sql</span></p>
+
+<ul>
+  <li>Dump only schema (data definitions) into an SQL-script file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pg_dumpall -s &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file.sql</span></p>

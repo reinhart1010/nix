@@ -1,0 +1,22 @@
+<h1 id="xvfb-run">xvfb-run</h1>
+
+<p>Run a command in a virtual X server environment.
+More information: <a href="https://www.x.org/wiki/">https://www.x.org/wiki/</a>.</p>
+
+<ul>
+  <li>Run the specified command in a virtual X server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xvfb-run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Try to get a free server number, if the default (99) is not available:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xvfb-run --auto-servernum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Pass arguments to the Xvfb server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xvfb-run --server-args "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-screen 0 1024x768x24</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>

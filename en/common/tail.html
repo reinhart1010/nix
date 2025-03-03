@@ -1,0 +1,41 @@
+<h1 id="tail">tail</h1>
+
+<p>Display the last part of a file.
+See also: <code class="language-plaintext highlighter-rouge">head</code>.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html</a>.</p>
+
+<ul>
+  <li>Show last 'count' lines in file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --lines </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print a file from a specific line number:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --lines +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print a specific count of bytes from the end of a given file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --bytes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print the last lines of a given file and keep reading it until <code class="language-plaintext highlighter-rouge">Ctrl + C</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Keep reading file until <code class="language-plaintext highlighter-rouge">Ctrl + C</code>, even if the file is inaccessible:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --retry --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Show last 'num' lines in 'file' and refresh every 'n' seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --lines </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span><code class="language-plaintext highlighter-rouge"> --sleep-interval </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconds</span><code class="language-plaintext highlighter-rouge"> --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

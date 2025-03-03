@@ -1,0 +1,40 @@
+<h1 id="ntfy">ntfy</h1>
+
+<p>HTTP POST 알림을 보내고 받기.
+더 많은 정보: <a href="https://github.com/binwiederhier/ntfy">https://github.com/binwiederhier/ntfy</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">security</code> 토픽에 메시지 보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ntfy pub security "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">현관문이 열렸습니다.</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>제목, 우선순위 및 태그와 함께 보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ntfy publish --title="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">누군가 당신의 아이템을 구매했습니다</span><code class="language-plaintext highlighter-rouge">" --priority=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">높음</span><code class="language-plaintext highlighter-rouge"> --tags=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">오리</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이베이</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">누군가 당신의 아이템을 구매했습니다: 오리너구리 조각상</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>오전 8시 30분에 보내기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ntfy pub --at=8:30am </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">지연된_토픽</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">학교 갈 시간이야, 졸린이…</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>웹훅 트리거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ntfy trigger </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">나의_웹훅</span></p>
+
+<ul>
+  <li>토픽 구독하기 (Ctrl-C로 듣기 중지):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ntfy sub </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">홈_자동화</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ntfy --help</code></p>

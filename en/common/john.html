@@ -1,0 +1,52 @@
+<h1 id="john">john</h1>
+
+<p>Password cracker.
+More information: <a href="https://www.openwall.com/john/">https://www.openwall.com/john/</a>.</p>
+
+<ul>
+  <li>Crack password hashes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/hashes.txt</span></p>
+
+<ul>
+  <li>Show passwords cracked:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/hashes.txt</span></p>
+
+<ul>
+  <li>Display users' cracked passwords by user identifier from multiple files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --show --users=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_ids</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/hashes1.txt path/to/hashes2.txt …</span></p>
+
+<ul>
+  <li>Crack password hashes, using a custom wordlist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --wordlist=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/wordlist.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/hashes.txt</span></p>
+
+<ul>
+  <li>List available hash formats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --list=formats</code></p>
+
+<ul>
+  <li>Crack password hashes, using a specific hash format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">md5crypt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/hashes.txt</span></p>
+
+<ul>
+  <li>Crack password hashes, enabling word mangling rules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --rules </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/hashes.txt</span></p>
+
+<ul>
+  <li>Restore an interrupted cracking session from a state file, e.g. <code class="language-plaintext highlighter-rouge">mycrack.rec</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">john --restore=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mycrack.rec</span></p>

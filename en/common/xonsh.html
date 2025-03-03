@@ -1,0 +1,41 @@
+<h1 id="xonsh">xonsh</h1>
+
+<p>Python-powered, cross-platform, Unix-gazing shell.
+Write and mix sh/Python code in Xonsh (pronounced conch).
+More information: <a href="https://xon.sh">https://xon.sh</a>.</p>
+
+<ul>
+  <li>Start an interactive shell session:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xonsh</code></p>
+
+<ul>
+  <li>Execute a single command and then exit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xonsh -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run commands from a script file and then exit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xonsh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script_file.xonsh</span></p>
+
+<ul>
+  <li>Define environment variables for the shell process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xonsh -D</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name1</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value1</span><code class="language-plaintext highlighter-rouge"> -D</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name2</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value2</span></p>
+
+<ul>
+  <li>Load the specified <code class="language-plaintext highlighter-rouge">.xonsh</code> or <code class="language-plaintext highlighter-rouge">.json</code> configuration files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xonsh --rc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.xonsh</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.json</span></p>
+
+<ul>
+  <li>Skip loading the <code class="language-plaintext highlighter-rouge">.xonshrc</code> configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xonsh --no-rc</code></p>

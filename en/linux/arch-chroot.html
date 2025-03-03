@@ -1,0 +1,28 @@
+<h1 id="arch-chroot">arch-chroot</h1>
+
+<p>Enhanced <code class="language-plaintext highlighter-rouge">chroot</code> command to help in the Arch Linux installation process.
+More information: <a href="https://manned.org/arch-chroot.8">https://manned.org/arch-chroot.8</a>.</p>
+
+<ul>
+  <li>Start an interactive shell (Bash, by default) in a new root directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arch-chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new/root</span></p>
+
+<ul>
+  <li>Specify the user (other than the current user) to run the shell as:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arch-chroot -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new/root</span></p>
+
+<ul>
+  <li>Run a custom command (instead of the default Bash) in the new root directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arch-chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new/root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>
+
+<ul>
+  <li>Specify the shell, other than the default Bash (in this case, the <code class="language-plaintext highlighter-rouge">zsh</code> package should have been installed in the target system):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arch-chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new/root</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zsh</span></p>

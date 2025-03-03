@@ -1,0 +1,52 @@
+<h1 id="youtube-dl">youtube-dl</h1>
+
+<p>Pobieraj wideo i audio z YouTube i podobnych portali.
+Więcej informacji: <a href="https://rg3.github.io/youtube-dl/">https://rg3.github.io/youtube-dl/</a>.</p>
+
+<ul>
+  <li>Pobierz plik wideo lub wszystkie pliki z playlisty:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">youtube-dl '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Wypisz wszystkie formaty dostępne dla filmu lub playlisty:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">youtube-dl --list-formats '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=Mwa0_nE9H7A</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Pobierz wideo lub playlistę w wybranej jakości:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">youtube-dl --format "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">best[height&lt;=480]</span><code class="language-plaintext highlighter-rouge">" '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Pobierz audio z wideo w formacie mp3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">youtube-dl -x --audio-format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mp3</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Pobierz wideo ze ścieżką audio złączone w jednym pliku w najlepszej dostępnej jakości:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">youtube-dl -f bestvideo+bestaudio '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Pobierz wideo jako pliki MP4 i nazwij wedle schematu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">youtube-dl --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mp4</span><code class="language-plaintext highlighter-rouge"> -o "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%(playlist_index)s-%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s</span><code class="language-plaintext highlighter-rouge">" '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Pobierz plik razem z napisami:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">youtube-dl --sub-lang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">en</span><code class="language-plaintext highlighter-rouge"> --write-sub '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=Mwa0_nE9H7A</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Pobierz playlistę i wyodrębnij z niej pliki MP3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">youtube-dl -f "bestaudio" --continue --no-overwrites --ignore-errors --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_url_playlisty</span><code class="language-plaintext highlighter-rouge">'</code></p>

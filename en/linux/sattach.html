@@ -1,0 +1,22 @@
+<h1 id="sattach">sattach</h1>
+
+<p>Attach to a Slurm job step.
+More information: <a href="https://slurm.schedmd.com/sattach.html">https://slurm.schedmd.com/sattach.html</a>.</p>
+
+<ul>
+  <li>Redirect the IO streams (<code class="language-plaintext highlighter-rouge">stdout</code>, <code class="language-plaintext highlighter-rouge">stderr</code>, and <code class="language-plaintext highlighter-rouge">stdin</code>) of a Slurm job step to the current terminal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sattach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jobid</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stepid</span></p>
+
+<ul>
+  <li>Use the current console's input as <code class="language-plaintext highlighter-rouge">stdin</code> to the specified task:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sattach --input-filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_number</span></p>
+
+<ul>
+  <li>Only redirect <code class="language-plaintext highlighter-rouge">stdin</code>/<code class="language-plaintext highlighter-rouge">stderr</code> of the specified task:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sattach --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output|error</span><code class="language-plaintext highlighter-rouge">-filter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_number</span></p>

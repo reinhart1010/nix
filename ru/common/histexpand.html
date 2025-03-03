@@ -1,0 +1,52 @@
+<h1 id="history-expansion">history expansion</h1>
+
+<p>Повторное использование и подстановка команд из списка истории в <code class="language-plaintext highlighter-rouge">sh</code>, Bash, Zsh, <code class="language-plaintext highlighter-rouge">rbash</code> and <code class="language-plaintext highlighter-rouge">ksh</code>.
+Больше информации: <a href="https://www.gnu.org/software/bash/manual/html_node/History-Interaction">https://www.gnu.org/software/bash/manual/html_node/History-Interaction</a>.</p>
+
+<ul>
+  <li>Запустить предыдущую команду от имени суперпользователя (<code class="language-plaintext highlighter-rouge">!!</code> заменяется на предыдущую команду):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo !!</code></p>
+
+<ul>
+  <li>Запустить команду с последним аргументом из предыдущей команды:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">команда</span><code class="language-plaintext highlighter-rouge"> !$</code></p>
+
+<ul>
+  <li>Запустить команду с первым аргументом из предыдущей команды:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">команда</span><code class="language-plaintext highlighter-rouge"> !^</code></p>
+
+<ul>
+  <li>Запустить <code class="language-plaintext highlighter-rouge">n</code>-ую с начала команду из истории:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span></p>
+
+<ul>
+  <li>Запустить <code class="language-plaintext highlighter-rouge">n</code>-ую с конца команду из истории :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span></p>
+
+<ul>
+  <li>Запустить самую последнюю команду, содержащую <code class="language-plaintext highlighter-rouge">строка</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!?</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">строка</span><code class="language-plaintext highlighter-rouge">?</code></p>
+
+<ul>
+  <li>Запустить предыдущую команду, заменив <code class="language-plaintext highlighter-rouge">строка1</code> на <code class="language-plaintext highlighter-rouge">строка2</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">строка1</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">строка2</span><code class="language-plaintext highlighter-rouge">^</code></p>
+
+<ul>
+  <li>Выполнить подстановку команд из списка истории и вывести на экран получившуюся команду, не запуская её:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">!-n</span><code class="language-plaintext highlighter-rouge">:p</code></p>

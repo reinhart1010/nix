@@ -1,0 +1,52 @@
+<h1 id="k6">k6</h1>
+
+<p>Open-Source Tool und SaaS für Lasttests.
+Weitere Informationen: <a href="https://k6.io">https://k6.io</a>.</p>
+
+<ul>
+  <li>Führe einen Lasttest lokal aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k6 run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">skript.js</span></p>
+
+<ul>
+  <li>Führe einen Lasttest lokal mit einer festgelegten Anzahl von virtuellen Benutzern und Dauer aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k6 run --vus </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> --duration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30s</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">skript.js</span></p>
+
+<ul>
+  <li>Führe einen Lasttest lokal mit einer gesetzten Umgebungsvariablen aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k6 run -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HOSTNAME=beispiel.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">skript.js</span></p>
+
+<ul>
+  <li>Führe einen Lasttest lokal aus und speichere die Ergebnisse in InfluxDB:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k6 run --out influxdb=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://localhost:8086/k6db</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">skript.js</span></p>
+
+<ul>
+  <li>Führe einen Lasttest lokal aus und verwerfe Antworten (deutlich schneller):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k6 run --discard-response-bodies </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">skript.js</span></p>
+
+<ul>
+  <li>Führe einen Lasttest lokal im JavaScript-Kompatibilitätsmodus aus (deutlich schneller):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k6 run --compatibility-mode=base </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">skript.js</span></p>
+
+<ul>
+  <li>Melde dich bei einem Cloud-Dienst mit einem geheimen Token an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k6 login cloud --token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">geheim</span></p>
+
+<ul>
+  <li>Führe einen Lasttest auf Cloud-Infrastruktur aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k6 cloud </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">skript.js</span></p>

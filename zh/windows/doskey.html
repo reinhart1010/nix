@@ -1,0 +1,46 @@
+<h1 id="doskey">doskey</h1>
+
+<p>管理宏，Windows 命令和命令行。
+更多信息：<a href="https://learn.microsoft.com/windows-server/administration/windows-commands/doskey">https://learn.microsoft.com/windows-server/administration/windows-commands/doskey</a>.</p>
+
+<ul>
+  <li>列出可用的宏：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /macros</code></p>
+
+<ul>
+  <li>创建一个新的宏：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">宏的名称</span><code class="language-plaintext highlighter-rouge"> = "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>为指定可执行文件创建新的宏：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /exename=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">可执行文件名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">宏的名称</span><code class="language-plaintext highlighter-rouge"> = "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>删除一个宏：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">宏的名称</span><code class="language-plaintext highlighter-rouge"> =</code></p>
+
+<ul>
+  <li>列出所有储存在内存中的命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /history</code></p>
+
+<ul>
+  <li>将宏保存到文件以便于移植：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /macros &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">保存宏的文件名</span></p>
+
+<ul>
+  <li>从文件中加载宏：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doskey /macrofile = </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">保存宏的文件名</span></p>

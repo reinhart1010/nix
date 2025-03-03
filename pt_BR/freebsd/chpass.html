@@ -1,0 +1,47 @@
+<h1 id="chpass">chpass</h1>
+
+<p>Adiciona ou altera informação de usuário do banco de dados, incluindo login shell e senha.
+Veja também: <code class="language-plaintext highlighter-rouge">passwd</code>.
+Mais informações: <a href="https://man.freebsd.org/cgi/man.cgi?chpass">https://man.freebsd.org/cgi/man.cgi?chpass</a>.</p>
+
+<ul>
+  <li>Adiciona ou altera informação de usuário do banco de dados para o usuário atual interativamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c chpass</code></p>
+
+<ul>
+  <li>Define uma [s]hell de login para o usuário atual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/shell</span></p>
+
+<ul>
+  <li>Define uma [s]hell de login para um usuário específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chpass -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/shell</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_usuário</span></p>
+
+<ul>
+  <li>Altera o tempo de [e]xpiração da conta (Unix epoch):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tempo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_usuário</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Altera a senha de um usuário:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">senha_criptografada</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_usuário</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Especifica [h]ostname ou endereço de um servidor NIS para consulta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_usuário</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Especifica um [d]omínio NIS específico (nome do domínio do sistema por padrão):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">su -c 'chpass -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domínio</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_usuário</span><code class="language-plaintext highlighter-rouge">'</code></p>

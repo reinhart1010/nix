@@ -1,0 +1,46 @@
+<h1 id="nixos-rebuild">nixos-rebuild</h1>
+
+<p>Rekonfiguriere eine NixOS-Maschine.
+Weitere Informationen: <a href="https://nixos.org/nixos/manual/#sec-changing-config">https://nixos.org/nixos/manual/#sec-changing-config</a>.</p>
+
+<ul>
+  <li>Erstelle und wechsle zu einer neuen Konfiguration und nutze diese künftig als Standardkonfiguration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nixos-rebuild switch</code></p>
+
+<ul>
+  <li>Gib der neu erstellten Standardkonfiguration einen Namen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nixos-rebuild switch -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Erstelle und wechsle zu einer neuen Konfiguration, nutze diese künftig als Standardkonfiguration und installiere Updates:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nixos-rebuild switch --upgrade</code></p>
+
+<ul>
+  <li>Setze Änderungen der Konfiguration zurück und wechsle zur vorhergehenden Konfiguration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nixos-rebuild switch --rollback</code></p>
+
+<ul>
+  <li>Erstelle eine neue Konfiguration und starte diese zukünftig direkt ohne sofort zu wechseln:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nixos-rebuild boot</code></p>
+
+<ul>
+  <li>Erstelle und wechsle direkt zu einer neuen Konfiguration, ändere den Standard-Start-Eintrag nicht (dieses Kommando ist für Testzwecke gedacht):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nixos-rebuild test</code></p>
+
+<ul>
+  <li>Erstelle die Konfiguration und öffne diese in einer virtuellen Maschine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nixos-rebuild build-vm</code></p>

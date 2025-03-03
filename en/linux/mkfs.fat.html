@@ -1,0 +1,28 @@
+<h1 id="mkfsfat">mkfs.fat</h1>
+
+<p>Create an MS-DOS filesystem inside a partition.
+More information: <a href="https://manned.org/mkfs.fat">https://manned.org/mkfs.fat</a>.</p>
+
+<ul>
+  <li>Create a fat filesystem inside partition 1 on device b (<code class="language-plaintext highlighter-rouge">sdb1</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.fat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>Create filesystem with a volume-name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.fat -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>Create filesystem with a volume-id:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.fat -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>
+
+<ul>
+  <li>Use 5 instead of 2 file allocation tables:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfs.fat -f 5 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb1</span></p>

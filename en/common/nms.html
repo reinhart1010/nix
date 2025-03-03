@@ -1,0 +1,28 @@
+<h1 id="nms">nms</h1>
+
+<p>Command-line tool that recreates the famous data decryption effect seen in the 1992 movie Sneakers from <code class="language-plaintext highlighter-rouge">stdin</code>.
+More information: <a href="https://github.com/bartobri/no-more-secrets">https://github.com/bartobri/no-more-secrets</a>.</p>
+
+<ul>
+  <li>Decrypt text after a keystroke:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello, World!</span><code class="language-plaintext highlighter-rouge">" | nms</code></p>
+
+<ul>
+  <li>Decrypt output immediately, without waiting for a keystroke:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -la</span><code class="language-plaintext highlighter-rouge"> | nms -a</code></p>
+
+<ul>
+  <li>Decrypt the content of a file, with a custom output color:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> | nms -a -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blue|white|yellow|black|magenta|green|red</span></p>
+
+<ul>
+  <li>Clear the screen before decrypting:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> | nms -a -c</code></p>

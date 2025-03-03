@@ -1,0 +1,28 @@
+<h1 id="archwiki-rs">archwiki-rs</h1>
+
+<p>Lee, busca y descarga páginas de la ArchWiki.
+Más información: <a href="https://gitlab.com/lucifayr/archwiki-rs">https://gitlab.com/lucifayr/archwiki-rs</a>.</p>
+
+<ul>
+  <li>Lee una página de la ArchWiki:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">archwiki-rs read-page </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">título_de_página</span></p>
+
+<ul>
+  <li>Lee una página de la ArchWiki en el formato especificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">archwiki-rs read-page </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">título_de_página</span><code class="language-plaintext highlighter-rouge"> --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plain-text|markdown|html</span></p>
+
+<ul>
+  <li>Busca páginas en ArchWiki con el texto proporcionado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">archwiki-rs search "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texto_a_buscar</span><code class="language-plaintext highlighter-rouge">" --text-search</code></p>
+
+<ul>
+  <li>Descarga una copia local de todas las páginas de ArchWiki en un directorio específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">archwiki-rs local-wiki </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/wiki_local</span><code class="language-plaintext highlighter-rouge"> --format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plain-text|markdown|html</span></p>

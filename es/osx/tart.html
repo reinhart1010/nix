@@ -1,0 +1,52 @@
+<h1 id="tart">tart</h1>
+
+<p>Crea, ejecuta y gestiona máquinas virtuales (VM) macOS y Linux en Apple Silicon.
+Más información: <a href="https://github.com/cirruslabs/tart">https://github.com/cirruslabs/tart</a>.</p>
+
+<ul>
+  <li>Extrae una imagen de VM remota:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">acme.io/org/nombre:tag</span></p>
+
+<ul>
+  <li>Clona una VM desde una fuente de imagen local o remota:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source-vm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre-vm</span></p>
+
+<ul>
+  <li>Crea una nueva Mac VM a partir de un archivo ipsw específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart create --from-ipsw=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ultima|ruta/al/archivo.ipsw</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre-de-la-vm</span></p>
+
+<ul>
+  <li>Ejecuta una máquina virtual existente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre-de-la-vm</span></p>
+
+<ul>
+  <li>Ejecuta una máquina virtual existente con un directorio específico montado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart run --dir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/directorio local</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre-de-la-vm</span></p>
+
+<ul>
+  <li>Lista máquinas virtuales:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart list</code></p>
+
+<ul>
+  <li>Obtén la dirección IP de una máquina virtual en ejecución:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart ip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre-de-la-vm</span></p>
+
+<ul>
+  <li>Cambia la resolución de pantalla de una máquina virtual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tart set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre-de-la-vm</span><code class="language-plaintext highlighter-rouge"> --display </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640</span><code class="language-plaintext highlighter-rouge">x</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">400</span></p>

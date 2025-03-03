@@ -1,0 +1,28 @@
+<h1 id="touch">touch</h1>
+
+<p>파일을 생성하고 접근/수정 시간을 설정합니다.
+더 많은 정보: <a href="https://manned.org/touch">https://manned.org/touch</a>.</p>
+
+<ul>
+  <li>특정 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">touch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>파일의 [a]ccess 또는 [m]odification 시간을 현재 시간으로 설정하고 파일이 없으면 [c]reate 하지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">touch -c -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a|m</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>파일의 [t]ime을 특정 값으로 설정하고 파일이 없으면 [c]reate 하지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">touch -c -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>
+
+<ul>
+  <li>파일의 타임스탬프를 [r]eference 파일의 타임스탬프로 설정하고 파일이 없으면 [c]reate 하지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">touch -c -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/참조_파일</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일1 경로/대상/파일2 …</span></p>

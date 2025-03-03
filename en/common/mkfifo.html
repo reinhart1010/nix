@@ -1,0 +1,28 @@
+<h1 id="mkfifo">mkfifo</h1>
+
+<p>Make FIFOs (named pipes).
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/mkfifo-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/mkfifo-invocation.html</a>.</p>
+
+<ul>
+  <li>Create a named pipe at a given path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfifo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pipe</span></p>
+
+<ul>
+  <li>Send data through a named pipe and send the command to the background:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World</span><code class="language-plaintext highlighter-rouge">" &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pipe</span><code class="language-plaintext highlighter-rouge"> &amp;</code></p>
+
+<ul>
+  <li>Receive data through a named pipe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pipe</span></p>
+
+<ul>
+  <li>Share your terminal session in real-time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfifo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pipe</span><code class="language-plaintext highlighter-rouge">; script -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pipe</span></p>

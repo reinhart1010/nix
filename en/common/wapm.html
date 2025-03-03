@@ -1,0 +1,52 @@
+<h1 id="wapm">wapm</h1>
+
+<p>The WebAssembly package manager.
+More information: <a href="https://wapm.io/help/reference">https://wapm.io/help/reference</a>.</p>
+
+<ul>
+  <li>Interactively create a new <code class="language-plaintext highlighter-rouge">wapm.toml</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wapm init</code></p>
+
+<ul>
+  <li>Download all the packages listed as dependencies in <code class="language-plaintext highlighter-rouge">wapm.toml</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wapm install</code></p>
+
+<ul>
+  <li>Download a specific version of a package and add it to the list of dependencies in <code class="language-plaintext highlighter-rouge">wapm.toml</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wapm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Download a package and install it globally:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wapm install --global </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Uninstall a package and remove it from the list of dependencies in <code class="language-plaintext highlighter-rouge">wapm.toml</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wapm uninstall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Print a tree of locally installed dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wapm list</code></p>
+
+<ul>
+  <li>List top-level globally installed packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wapm list --global</code></p>
+
+<ul>
+  <li>Execute a package command using the Wasmer runtime:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wapm run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span></p>

@@ -1,0 +1,23 @@
+<h1 id="iptables-save">iptables-save</h1>
+
+<p><code class="language-plaintext highlighter-rouge">iptables</code> IPv4 설정 저장.
+IPv6의 경우 <code class="language-plaintext highlighter-rouge">ip6tables-save</code> 사용.
+더 많은 정보: <a href="https://manned.org/iptables-save">https://manned.org/iptables-save</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">iptables</code> 설정 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables-save</code></p>
+
+<ul>
+  <li>특정 [t]테이블의 <code class="language-plaintext highlighter-rouge">iptables</code> 설정 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables-save --table </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테이블</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">iptables</code> 설정을 [f]파일에 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables-save --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

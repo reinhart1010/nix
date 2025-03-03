@@ -1,0 +1,23 @@
+<h1 id="fstrim">fstrim</h1>
+
+<p>Discard unused blocks on a mounted filesystem.
+Only supported by flash memory devices such as SSDs and microSD cards.
+More information: <a href="https://manned.org/fstrim">https://manned.org/fstrim</a>.</p>
+
+<ul>
+  <li>Trim unused blocks on all mounted partitions that support it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo fstrim --all</code></p>
+
+<ul>
+  <li>Trim unused blocks on a specified partition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo fstrim </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/</span></p>
+
+<ul>
+  <li>Display statistics after trimming:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo fstrim --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/</span></p>

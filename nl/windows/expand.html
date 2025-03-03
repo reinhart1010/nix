@@ -1,0 +1,34 @@
+<h1 id="expand">expand</h1>
+
+<p>Pak Windows Cabinet bestanden uit.
+Meer informatie: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/expand">https://learn.microsoft.com/windows-server/administration/windows-commands/expand</a>.</p>
+
+<ul>
+  <li>Pak een Cabinet bestand met één bestand naar de specifieke map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expand </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestand.cab</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\map</span></p>
+
+<ul>
+  <li>Toon een lijst van bestanden in een Cabinet bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expand </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestand.cab</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\map</span><code class="language-plaintext highlighter-rouge"> -d</code></p>
+
+<ul>
+  <li>Pak alle bestanden van een Cabinet bestand uit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expand </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestand.cab</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\map</span><code class="language-plaintext highlighter-rouge"> -f:*</code></p>
+
+<ul>
+  <li>Pak een specifiek bestand van een Cabinet bestand uit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expand </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestand.cab</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\map</span><code class="language-plaintext highlighter-rouge"> -f:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestand</span></p>
+
+<ul>
+  <li>Negeer de mapstructuur bij het uitpakken en voeg ze toe aan een enkele map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expand </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\bestand.cab</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\map</span><code class="language-plaintext highlighter-rouge"> -i</code></p>

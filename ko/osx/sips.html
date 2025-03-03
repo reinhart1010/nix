@@ -1,0 +1,41 @@
+<h1 id="sips">sips</h1>
+
+<p>Apple Scriptable Image Processing System.
+래스터/쿼리 이미지 및 ColorSync ICC 프로필.
+더 많은 정보: <a href="https://keith.github.io/xcode-man-pages/sips.1.html">https://keith.github.io/xcode-man-pages/sips.1.html</a>.</p>
+
+<ul>
+  <li>원본이 수정되지 않도록 출력 디렉터리 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sips --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_폴더</span></p>
+
+<ul>
+  <li>지정된 크기로 이미지 리샘플링 (이미지 비율이 변경될 수 있음):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sips --resampleHeightWidth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1920</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_파일.ext</span></p>
+
+<ul>
+  <li>높이와 너비가 지정된 크기를 초과하지 않도록 이미지 리샘플링 (대문자 Z 주의):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sips --resampleHeightWidthMax </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1920</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지_파일.ext</span></p>
+
+<ul>
+  <li>디렉터리 내 모든 이미지를 960px 너비에 맞게 리샘플링 (비율 유지):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sips --resampleWidth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">960</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지</span></p>
+
+<ul>
+  <li>이미지 색상을 CMYK에서 RGB로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sips --matchTo "/System/Library/ColorSync/Profiles/Generic RGB Profile.icc" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.ext</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_폴더</span></p>
+
+<ul>
+  <li>이미지에서 ColorSync ICC 프로필 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sips --deleteProperty profile --deleteColorManagementProperties </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지_파일.ext</span></p>

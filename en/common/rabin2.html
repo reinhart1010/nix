@@ -1,0 +1,35 @@
+<h1 id="rabin2">rabin2</h1>
+
+<p>Get information about binary files (ELF, PE, Java CLASS, Mach-O) - symbols, sections, linked libraries, etc.
+Comes bundled with <code class="language-plaintext highlighter-rouge">radare2</code>.
+More information: <a href="https://manned.org/rabin2">https://manned.org/rabin2</a>.</p>
+
+<ul>
+  <li>Display general information about a binary (architecture, type, endianness):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rabin2 -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>Display linked libraries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rabin2 -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>Display symbols imported from libraries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rabin2 -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>Display strings contained in the binary:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rabin2 -z </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>
+
+<ul>
+  <li>Display the output in JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rabin2 -j -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/binary</span></p>

@@ -1,0 +1,47 @@
+<h1 id="borg">borg</h1>
+
+<p>Deduplicating backup tool.
+Create local or remote backups that are mountable as filesystems.
+More information: <a href="https://borgbackup.readthedocs.io/en/stable/usage/general.html">https://borgbackup.readthedocs.io/en/stable/usage/general.html</a>.</p>
+
+<ul>
+  <li>Initialize a (local) repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repo_directory</span></p>
+
+<ul>
+  <li>Backup a directory into the repository, creating an archive called "Monday":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg create --progress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repo_directory</span><code class="language-plaintext highlighter-rouge">::</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Monday</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_directory</span></p>
+
+<ul>
+  <li>List all archives in a repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repo_directory</span></p>
+
+<ul>
+  <li>Extract a specific directory from the "Monday" archive in a remote repository, excluding all <code class="language-plaintext highlighter-rouge">*.ext</code> files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg extract </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repo_directory</span><code class="language-plaintext highlighter-rouge">::</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Monday</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_directory</span><code class="language-plaintext highlighter-rouge"> --exclude '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Prune a repository by deleting all archives older than 7 days, listing changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg prune --keep-within </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7d</span><code class="language-plaintext highlighter-rouge"> --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repo_directory</span></p>
+
+<ul>
+  <li>Mount a repository as a FUSE filesystem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repo_directory</span><code class="language-plaintext highlighter-rouge">::</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Monday</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mountpoint</span></p>
+
+<ul>
+  <li>Display help on creating archives:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg create --help</code></p>

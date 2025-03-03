@@ -1,0 +1,46 @@
+<h1 id="dotnet-build">dotnet build</h1>
+
+<p>Собирает приложение .NET и все его зависимости.
+Больше информации: <a href="https://learn.microsoft.com/dotnet/core/tools/dotnet-build">https://learn.microsoft.com/dotnet/core/tools/dotnet-build</a>.</p>
+
+<ul>
+  <li>Скомпилировать проект или решение в текущей директории:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build</code></p>
+
+<ul>
+  <li>Скомпилировать проект или решение .NET в режиме debug:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/проекта_или_решения</span></p>
+
+<ul>
+  <li>Скомпилировать в режиме release:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build --configuration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Release</span></p>
+
+<ul>
+  <li>Скомпилировать без восстановления зависимостей:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build --no-restore</code></p>
+
+<ul>
+  <li>Скомпилировать с заданным уровнем детализации выводимой информации:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build --verbosity </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quiet|minimal|normal|detailed|diagnostic</span></p>
+
+<ul>
+  <li>Скомпилировать для заданной среды исполнения:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build --runtime </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">идентификатор_среды_исполения</span></p>
+
+<ul>
+  <li>Указать целевую папку:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet build --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/папки</span></p>

@@ -1,0 +1,52 @@
+<h1 id="docker-compose">docker compose</h1>
+
+<p>Run and manage multi container Docker applications.
+More information: <a href="https://docs.docker.com/reference/cli/docker/compose/">https://docs.docker.com/reference/cli/docker/compose/</a>.</p>
+
+<ul>
+  <li>List all running containers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose ps</code></p>
+
+<ul>
+  <li>Create and start all containers in the background using a <code class="language-plaintext highlighter-rouge">docker-compose.yml</code> file from the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose up --detach</code></p>
+
+<ul>
+  <li>Start all containers, rebuild if necessary:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose up --build</code></p>
+
+<ul>
+  <li>Start all containers by specifying a project name and using an alternate compose file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span><code class="language-plaintext highlighter-rouge"> --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> up</code></p>
+
+<ul>
+  <li>Stop all running containers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose stop</code></p>
+
+<ul>
+  <li>Stop and remove all containers, networks, images, and volumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose down --rmi all --volumes</code></p>
+
+<ul>
+  <li>Follow logs for all containers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose logs --follow</code></p>
+
+<ul>
+  <li>Follow logs for a specific container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker compose logs --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>

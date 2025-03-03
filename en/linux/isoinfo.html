@@ -1,0 +1,22 @@
+<h1 id="isoinfo">isoinfo</h1>
+
+<p>Utility programs for dumping and verifying ISO disk images.
+More information: <a href="https://manned.org/isoinfo">https://manned.org/isoinfo</a>.</p>
+
+<ul>
+  <li>List all the files included in an ISO image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">isoinfo -f -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.iso</span></p>
+
+<ul>
+  <li>E[x]tract a specific file from an ISO image and send it out <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">isoinfo -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.iso</span><code class="language-plaintext highlighter-rouge"> -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/PATH/TO/FILE/INSIDE/ISO.EXT</span></p>
+
+<ul>
+  <li>Show header information for an ISO disk image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">isoinfo -d -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.iso</span></p>

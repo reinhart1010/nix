@@ -1,0 +1,28 @@
+<h1 id="openssl-x509">openssl x509</h1>
+
+<p>OpenSSL command to manage X.509 certificates.
+More information: <a href="https://www.openssl.org/docs/manmaster/man1/openssl-x509.html">https://www.openssl.org/docs/manmaster/man1/openssl-x509.html</a>.</p>
+
+<ul>
+  <li>Display certificate information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl x509 -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.crt</span><code class="language-plaintext highlighter-rouge"> -noout -text</code></p>
+
+<ul>
+  <li>Display a certificate's expiration date:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl x509 -enddate -noout -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.pem</span></p>
+
+<ul>
+  <li>Convert a certificate between binary DER encoding and textual PEM encoding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl x509 -inform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">der</span><code class="language-plaintext highlighter-rouge"> -outform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pem</span><code class="language-plaintext highlighter-rouge"> -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">original_certificate_file</span><code class="language-plaintext highlighter-rouge"> -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">converted_certificate_file</span></p>
+
+<ul>
+  <li>Store a certificate's public key in a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl x509 -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">certificate_file</span><code class="language-plaintext highlighter-rouge"> -noout -pubkey -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file</span></p>

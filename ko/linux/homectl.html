@@ -1,0 +1,52 @@
+<h1 id="homectl">homectl</h1>
+
+<p>systemd-homed 서비스를 사용하여 홈 디렉토리를 생성, 제거, 변경 또는 검사합니다.
+더 많은 정보: <a href="https://manned.org/homectl">https://manned.org/homectl</a>.</p>
+
+<ul>
+  <li>사용자 계정과 관련된 홈 디렉토리 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">homectl list</code></p>
+
+<ul>
+  <li>사용자 계정과 관련된 홈 디렉토리 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo homectl create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>특정 사용자 및 관련 홈 디렉토리 제거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo homectl remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>특정 사용자의 비밀번호 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo homectl passwd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>특정 홈 디렉토리에 접근하여 셸 또는 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo homectl with </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령_인자</span></p>
+
+<ul>
+  <li>특정 홈 디렉토리 잠금 또는 잠금 해제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo homectl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lock|unlock</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span></p>
+
+<ul>
+  <li>특정 홈 디렉토리에 할당된 디스크 공간을 100 GiB로 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo homectl resize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자명</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100G</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">homectl --help</code></p>

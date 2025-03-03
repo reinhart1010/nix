@@ -1,0 +1,22 @@
+<h1 id="git-commit-graph">git commit-graph</h1>
+
+<p>Записує та перевіряє файл графіку комітів Git.
+Більше інформації: <a href="https://git-scm.com/docs/git-commit-graph">https://git-scm.com/docs/git-commit-graph</a>.</p>
+
+<ul>
+  <li>Записує файл графіку комітів для спакованих комітів у локальній директорії <code class="language-plaintext highlighter-rouge">.git</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit-graph write</code></p>
+
+<ul>
+  <li>Записує файл графіку комітів, що містить набір усіх досяжних комітів:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git show-ref --hash | git commit-graph write --stdin-commits</code></p>
+
+<ul>
+  <li>Записує файл графіку комітів, що містить усі коміти у поточному файлі графіку комітів разом з тими, до яких можна отримати доступ з <code class="language-plaintext highlighter-rouge">HEAD</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-parse </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span><code class="language-plaintext highlighter-rouge"> | git commit-graph write --stdin-commits --append</code></p>

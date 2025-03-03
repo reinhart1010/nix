@@ -1,0 +1,52 @@
+<h1 id="clamdscan">clamdscan</h1>
+
+<p>Faz uma varredura em busca de vírus usando o ClamAV Daemon.
+Mais informações: <a href="https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan">https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan</a>.</p>
+
+<ul>
+  <li>Faz uma varredura em um arquivo ou diretório por vulnerabilidades:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretório</span></p>
+
+<ul>
+  <li>Faz uma varredura nos dados da <code class="language-plaintext highlighter-rouge">stdin</code> (entrada padrão):</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> | clamdscan -</code></p>
+
+<ul>
+  <li>Faz uma varredura no diretório atual e lista apenas os arquivos infectados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --infected</code></p>
+
+<ul>
+  <li>Gera um relatório da varredura para um arquivo de registro:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --log </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_registro</span></p>
+
+<ul>
+  <li>Move arquivos infectados para um diretório específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório_de_quarentena</span></p>
+
+<ul>
+  <li>Remove arquivos infectados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --remove</code></p>
+
+<ul>
+  <li>Usa várias threads para para fazer uma varredura em um diretório:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --multiscan</code></p>
+
+<ul>
+  <li>Passa o descritor de arquivo em vez de transmitir o arquivo para o daemon:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clamdscan --fdpass</code></p>

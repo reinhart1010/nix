@@ -1,0 +1,40 @@
+<h1 id="btrfs-inspect-internal">btrfs inspect-internal</h1>
+
+<p>btrfs 파일 시스템의 내부 정보를 쿼리.
+더 많은 정보: <a href="https://btrfs.readthedocs.io/en/latest/btrfs-inspect-internal.html">https://btrfs.readthedocs.io/en/latest/btrfs-inspect-internal.html</a>.</p>
+
+<ul>
+  <li>슈퍼블록 정보 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs inspect-internal dump-super </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파티션</span></p>
+
+<ul>
+  <li>슈퍼블록 및 모든 복사본의 정보 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs inspect-internal dump-super --all </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파티션</span></p>
+
+<ul>
+  <li>파일 시스템 메타데이터 정보 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs inspect-internal dump-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파티션</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">n</code>번째 inode의 파일 목록 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs inspect-internal inode-resolve </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/btrfs_마운트</span></p>
+
+<ul>
+  <li>지정된 논리 주소에 있는 파일 목록 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs inspect-internal logical-resolve </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">논리_주소</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/btrfs_마운트</span></p>
+
+<ul>
+  <li>루트, extent, csum 및 fs 트리의 통계 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs inspect-internal tree-stats </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파티션</span></p>

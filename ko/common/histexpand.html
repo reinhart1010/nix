@@ -1,0 +1,52 @@
+<h1 id="history-expansion">history expansion</h1>
+
+<p><code class="language-plaintext highlighter-rouge">sh</code>, Bash, Zsh, <code class="language-plaintext highlighter-rouge">rbash</code> 및 <code class="language-plaintext highlighter-rouge">ksh</code>에서 셸 기록을 재사용하고 확장.
+더 많은 정보: <a href="https://www.gnu.org/software/bash/manual/html_node/History-Interaction">https://www.gnu.org/software/bash/manual/html_node/History-Interaction</a>.</p>
+
+<ul>
+  <li>루트로 이전 명령을 실행 (<code class="language-plaintext highlighter-rouge">!!</code>는 이전 명령으로 대체됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo !!</code></p>
+
+<ul>
+  <li>이전 명령의 마지막 인수를 사용하여 명령을 실행:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> !$</code></p>
+
+<ul>
+  <li>이전 명령의 첫번째 인수를 사용하여 명령을 실행:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> !^</code></p>
+
+<ul>
+  <li>history의 N번째 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span></p>
+
+<ul>
+  <li>history에서 <code class="language-plaintext highlighter-rouge">n</code>라인 명령을 다시 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">문자열</code>이 포함된 가장 최근 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!?</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge">?</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">문자열1</code>을 <code class="language-plaintext highlighter-rouge">문자열2</code>로 바꿔, 이전 명령을 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열1</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열2</span><code class="language-plaintext highlighter-rouge">^</code></p>
+
+<ul>
+  <li>history 확장을 수행하지만, 실제로 실행하는 대신 실행될 명령을 출력:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">!-n</span><code class="language-plaintext highlighter-rouge">:p</code></p>

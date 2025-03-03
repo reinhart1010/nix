@@ -1,0 +1,34 @@
+<h1 id="unexpand">unexpand</h1>
+
+<p>공백을 탭으로 변환.
+더 많은 정보: <a href="https://www.gnu.org/software/coreutils/manual/html_node/unexpand-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/unexpand-invocation.html</a>.</p>
+
+<ul>
+  <li>각 파일의 공백을 탭으로 변환하여 <code class="language-plaintext highlighter-rouge">stdout</code>에 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unexpand </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdout</code>에서 읽어온 공백을 탭으로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unexpand</code></p>
+
+<ul>
+  <li>처음의 공백만이 아닌 모든 공백을 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unexpand -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>앞부분의 공백 시퀀스만 변환 (옵션 -a를 무시):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unexpand --first-only </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>탭을 8칸이 아닌 지정한 문자 수만큼 떨어뜨려 변환 (-a 활성화):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">unexpand -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">숫자</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

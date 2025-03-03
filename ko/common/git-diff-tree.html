@@ -1,0 +1,28 @@
+<h1 id="git-diff-tree">git diff-tree</h1>
+
+<p>두 트리 객체를 통해 찾은 블롭의 내용과 모드를 비교.
+더 많은 정보: <a href="https://git-scm.com/docs/git-diff-tree">https://git-scm.com/docs/git-diff-tree</a>.</p>
+
+<ul>
+  <li>두 트리 객체 비교:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree-ish1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree-ish2</span></p>
+
+<ul>
+  <li>특정 두 커밋 간의 변경 사항 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff-tree -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit2</span></p>
+
+<ul>
+  <li>패치 형식으로 변경 사항 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-p|–patch</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree-ish1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree-ish2</span></p>
+
+<ul>
+  <li>특정 경로로 변경 사항 필터링:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree-ish1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tree-ish2</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일_또는_폴더</span></p>

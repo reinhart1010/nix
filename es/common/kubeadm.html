@@ -1,0 +1,46 @@
+<h1 id="kubeadm">kubeadm</h1>
+
+<p>Interfaz de línea de comandos para crear y gestionar clusters Kubernetes.
+Más información: <a href="https://kubernetes.io/docs/reference/setup-tools/kubeadm">https://kubernetes.io/docs/reference/setup-tools/kubeadm</a>.</p>
+
+<ul>
+  <li>Crea un plano de control de Kubernetes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubeadm init</code></p>
+
+<ul>
+  <li>Arranca un nodo trabajador de Kubernetes y lo une a un clúster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubeadm join --token </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">token</span></p>
+
+<ul>
+  <li>Crea un nuevo token de arranque con un TTL de 12 horas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubeadm token create --ttl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">12h0m0s</span></p>
+
+<ul>
+  <li>Comprueba si el clúster Kubernetes es actualizable y qué versiones están disponibles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubeadm upgrade plan</code></p>
+
+<ul>
+  <li>Actualiza el clúster Kubernetes a la versión especificada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubeadm upgrade apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versión</span></p>
+
+<ul>
+  <li>Observa el ConfigMap de kubeadm que contiene la configuración del clúster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubeadm config view</code></p>
+
+<ul>
+  <li>Revierte los cambios realizados en el host por <code class="language-plaintext highlighter-rouge">kubeadm init</code> o <code class="language-plaintext highlighter-rouge">kubeadm join</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubeadm reset</code></p>

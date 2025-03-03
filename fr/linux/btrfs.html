@@ -1,0 +1,35 @@
+<h1 id="btrfs">btrfs</h1>
+
+<p>Système de fichiers basé sur le principe de copie à l’écriture ("copy-on-write", souvent désigné par son sigle anglais COW) pour Linux.
+Certaines sous-commandes comme <code class="language-plaintext highlighter-rouge">device</code> ont leur propre documentation.
+Plus d'informations : <a href="https://btrfs.readthedocs.io/en/latest/btrfs.html">https://btrfs.readthedocs.io/en/latest/btrfs.html</a>.</p>
+
+<ul>
+  <li>Créer un sous-volume :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/sous_volume</span></p>
+
+<ul>
+  <li>Lister les sous-volumes :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs subvolume list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/point_de_montage</span></p>
+
+<ul>
+  <li>Afficher les informations d'utilisation d'espace :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs filesystem df </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/point_de_montage</span></p>
+
+<ul>
+  <li>Activer les quotas :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs quota enable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/sous_volume</span></p>
+
+<ul>
+  <li>Afficher les quotas :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrfs qgroup show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/sous_volume</span></p>

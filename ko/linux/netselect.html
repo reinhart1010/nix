@@ -1,0 +1,34 @@
+<h1 id="netselect">netselect</h1>
+
+<p>빠른 네트워크 서버 선택을 위한 속도 테스트.
+더 많은 정보: <a href="https://github.com/apenwarr/netselect">https://github.com/apenwarr/netselect</a>.</p>
+
+<ul>
+  <li>지연 시간이 가장 낮은 서버 선택:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo netselect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트_1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트_2</span></p>
+
+<ul>
+  <li>네임서버 해상도 및 통계 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo netselect -vv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트_1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트_2</span></p>
+
+<ul>
+  <li>최대 TTL(수명) 정의:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo netselect -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트_1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트_2</span></p>
+
+<ul>
+  <li>호스트 중에서 가장 빠른 N개의 서버 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo netselect -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트_1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트_2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트_3</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">netselect</code></p>

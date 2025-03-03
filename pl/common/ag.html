@@ -1,0 +1,46 @@
+<h1 id="ag">ag</h1>
+
+<p>The Silver Searcher. Podobny do <code class="language-plaintext highlighter-rouge">ack</code>, ale ma być szybszy.
+Więcej informacji: <a href="https://github.com/ggreer/the_silver_searcher">https://github.com/ggreer/the_silver_searcher</a>.</p>
+
+<ul>
+  <li>Znajdź pliki zawierające "foo" i wypisz dopasowane linie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>Znajdź pliki zawierające "foo" w określonym katalogu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/katalogu</span></p>
+
+<ul>
+  <li>Znajdź pliki zawierające "foo", ale wypisz tylko nazwy plików:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>Znajdź pliki zawierające "FOO" bez rozróżniania wielkości liter i wypisz tylko dopasowanie, a nie całą linię:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag -i -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">FOO</span></p>
+
+<ul>
+  <li>Znajdź "foo" w plikach o nazwie pasującej do "bar":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> -G </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span></p>
+
+<ul>
+  <li>Znajdź pliki, których zawartość pasuje do wyrażenia regularnego:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^ba(r|z)$</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Znajdź pliki o nazwie pasującej do "foo":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>

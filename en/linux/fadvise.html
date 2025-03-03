@@ -1,0 +1,22 @@
+<h1 id="fadvise">fadvise</h1>
+
+<p>Control Linux file caching behavior.
+More information: <a href="https://manned.org/fadvise">https://manned.org/fadvise</a>.</p>
+
+<ul>
+  <li>Preload a file into cache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fadvise </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-a|–advice</span><code class="language-plaintext highlighter-rouge"> willneed </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Suggest dropping a file from cache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fadvise </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fadvise --help</code></p>

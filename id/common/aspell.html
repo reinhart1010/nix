@@ -1,0 +1,34 @@
+<h1 id="aspell">aspell</h1>
+
+<p>Mesin pengecek ejaan secara interaktif.
+Informasi lebih lanjut: <a href="http://aspell.net/">http://aspell.net/</a>.</p>
+
+<ul>
+  <li>Lakukan pengecekan ejaan terhadap suatu berkas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aspell check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span></p>
+
+<ul>
+  <li>Tampilkan daftar kata dalam <code class="language-plaintext highlighter-rouge">stdin</code> yang dicurigai memiliki kesalahan ejaan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span><code class="language-plaintext highlighter-rouge"> | aspell list</code></p>
+
+<ul>
+  <li>Tampilkan daftar kamus dan bahasa yang didukung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aspell dicts</code></p>
+
+<ul>
+  <li>Jalankan <code class="language-plaintext highlighter-rouge">aspell</code> dengan bahasa teks yang berbeda (menggunakan format kode bahasa ISO 639):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aspell --lang=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cs</span></p>
+
+<ul>
+  <li>Tampilkan daftar kata dalam <code class="language-plaintext highlighter-rouge">stdin</code> yang dicurigai memiliki kesalahan ejaan dan abaikan kata yang berasal dari daftar kata pribadi (personal word list):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span><code class="language-plaintext highlighter-rouge"> | aspell --personal=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">daftar-kata-pribadi.pws</span><code class="language-plaintext highlighter-rouge"> list</code></p>

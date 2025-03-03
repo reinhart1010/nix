@@ -1,0 +1,40 @@
+<h1 id="pio-run">pio run</h1>
+
+<p>Run PlatformIO project targets.
+More information: <a href="https://docs.platformio.org/en/latest/core/userguide/cmd_run.html">https://docs.platformio.org/en/latest/core/userguide/cmd_run.html</a>.</p>
+
+<ul>
+  <li>List all available project targets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio run --list-targets</code></p>
+
+<ul>
+  <li>List all available project targets of a specific environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio run --list-targets --environment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment</span></p>
+
+<ul>
+  <li>Run all targets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio run</code></p>
+
+<ul>
+  <li>Run all targets of specified environments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio run --environment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment1</span><code class="language-plaintext highlighter-rouge"> --environment </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment2</span></p>
+
+<ul>
+  <li>Run specified targets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio run --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target1</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target2</span></p>
+
+<ul>
+  <li>Run the targets of a specified configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio run --project-conf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/platformio.ini</span></p>

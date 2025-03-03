@@ -1,0 +1,34 @@
+<h1 id="vgremove">vgremove</h1>
+
+<p>Elimina grupo(s) de volúmenes en LVM.
+Más información: <a href="https://manned.org/vgremove">https://manned.org/vgremove</a>.</p>
+
+<ul>
+  <li>Elimina un grupo de volúmenes con confirmación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgremove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo_volumen</span></p>
+
+<ul>
+  <li>Fuerza la eliminación de un grupo de volúmenes sin confirmación:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgremove --force </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo_volumen</span></p>
+
+<ul>
+  <li>Establece el nivel de depuración para el registro detallado en el nivel 2, (repite <code class="language-plaintext highlighter-rouge">--debug</code> hasta 6 veces para aumentar el nivel):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgremove --debug --debug </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo_volumen</span></p>
+
+<ul>
+  <li>Utiliza una configuración específica para anular los valores predeterminados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgremove --config '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global/locking_type=1</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo_volumen</span></p>
+
+<ul>
+  <li>Muestra texto de ayuda para obtener información de uso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vgremove --help</code></p>

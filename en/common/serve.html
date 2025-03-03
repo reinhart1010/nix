@@ -1,0 +1,46 @@
+<h1 id="serve">serve</h1>
+
+<p>Static file serving and directory listing.
+More information: <a href="https://github.com/vercel/serve">https://github.com/vercel/serve</a>.</p>
+
+<ul>
+  <li>Start an HTTP server listening on the default port to serve the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">serve</code></p>
+
+<ul>
+  <li>Start an HTTP server on a specific [p]ort to serve a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">serve -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Start an HTTP server with CORS enabled by including the <code class="language-plaintext highlighter-rouge">Access-Control-Allow-Origin: *</code> header in all responses:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">serve --cors</code></p>
+
+<ul>
+  <li>Start an HTTP server on the default port rewriting all not-found requests to the <code class="language-plaintext highlighter-rouge">index.html</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">serve --single</code></p>
+
+<ul>
+  <li>Start an HTTPS server on the default port using the specified certificate:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">serve --ssl-cert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cert.pem</span><code class="language-plaintext highlighter-rouge"> --ssl-key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key.pem</span></p>
+
+<ul>
+  <li>Start an HTTP server on the default port using a specific configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">serve --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/serve.json</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">serve --help</code></p>

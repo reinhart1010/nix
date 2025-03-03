@@ -1,0 +1,52 @@
+<h1 id="homectl">homectl</h1>
+
+<p>Create, remove, change or inspect home directories using the systemd-homed service.
+More information: <a href="https://manned.org/homectl">https://manned.org/homectl</a>.</p>
+
+<ul>
+  <li>List user accounts and their associated home directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">homectl list</code></p>
+
+<ul>
+  <li>Create a user account and their associated home directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo homectl create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Remove a specific user and the associated home directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo homectl remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Change the password for a specific user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo homectl passwd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Run a shell or a command with access to a specific home directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo homectl with </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>
+
+<ul>
+  <li>Lock or unlock a specific home directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo homectl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lock|unlock</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span></p>
+
+<ul>
+  <li>Change the disk space assigned to a specific home directory to 100 GiB:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo homectl resize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100G</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">homectl --help</code></p>

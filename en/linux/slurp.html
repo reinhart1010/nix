@@ -1,0 +1,40 @@
+<h1 id="slurp">slurp</h1>
+
+<p>Select a region in a Wayland compositor.
+More information: <a href="https://github.com/emersion/slurp">https://github.com/emersion/slurp</a>.</p>
+
+<ul>
+  <li>Select a region and print it to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slurp</code></p>
+
+<ul>
+  <li>Select a region and print it to <code class="language-plaintext highlighter-rouge">stdout</code>, while displaying the dimensions of the selection:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slurp -d</code></p>
+
+<ul>
+  <li>Select a single point instead of a region:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slurp -p</code></p>
+
+<ul>
+  <li>Select an output and print its name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">slurp -o -f '%o'</code></p>
+
+<ul>
+  <li>Select a specific region and take a borderless screenshot of it, using <code class="language-plaintext highlighter-rouge">grim</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grim -g "$(slurp -w 0)"</code></p>
+
+<ul>
+  <li>Select a specific region and take a borderless video of it, using <code class="language-plaintext highlighter-rouge">wf-recorder</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wf-recorder --geometry "$(slurp -w 0)"</code></p>

@@ -1,0 +1,52 @@
+<h1 id="hledger-accounts">hledger accounts</h1>
+
+<p>List account names.
+More information: <a href="https://hledger.org/hledger.html#accounts">https://hledger.org/hledger.html#accounts</a>.</p>
+
+<ul>
+  <li>Show all accounts used or declared in the default journal file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger accounts</code></p>
+
+<ul>
+  <li>Show accounts used by transactions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger accounts --used</code></p>
+
+<ul>
+  <li>Show accounts declared with account directives:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger accounts --declared</code></p>
+
+<ul>
+  <li>Add new account directives, for accounts used but not declared, to the journal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger accounts --undeclared --directives &gt;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2024-accounts.journal</span></p>
+
+<ul>
+  <li>Show accounts with <code class="language-plaintext highlighter-rouge">asset</code> in their name, and their declared/inferred types:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger accounts asset --types</code></p>
+
+<ul>
+  <li>Show accounts of the <code class="language-plaintext highlighter-rouge">Asset</code> type:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger accounts type:A</code></p>
+
+<ul>
+  <li>Show the first two levels of the accounts hierarchy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger accounts --tree --depth 2</code></p>
+
+<ul>
+  <li>Short form of the above:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger acc -t -2</code></p>

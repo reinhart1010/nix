@@ -1,0 +1,34 @@
+<h1 id="modprobe">modprobe</h1>
+
+<p>Aggiunge o rimuove moduli del kernel Linux.
+Maggiori informazioni: <a href="https://manned.org/modprobe">https://manned.org/modprobe</a>.</p>
+
+<ul>
+  <li>Fa finta di carica un modulo nel kernel, ma non lo fa veramente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe --dry-run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_del_modulo</span></p>
+
+<ul>
+  <li>Carica un modulo nel kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_del_modulo</span></p>
+
+<ul>
+  <li>Rimuove un modulo dal kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe --remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_del_modulo</span></p>
+
+<ul>
+  <li>Rimuove dal kernel un modulo e quelli che dipendono da quest'ultimo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe --remove-dependencies </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_del_modulo</span></p>
+
+<ul>
+  <li>Mostra le dipendenza di un modulo del kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe --show-depends </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_del_modulo</span></p>

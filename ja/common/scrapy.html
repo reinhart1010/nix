@@ -1,0 +1,46 @@
+<h1 id="scrapy">scrapy</h1>
+
+<p>ウェブクローリングのフレームワークです。
+もっと詳しく: <a href="https://scrapy.org">https://scrapy.org</a>。</p>
+
+<ul>
+  <li>プロジェクトを作成する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy startproject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">プロジェクト名</span></p>
+
+<ul>
+  <li>スパイダーを作成する (プロジェクトのディレクトリ内での実行):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy genspider </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">スパイダー名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ウェブサイトのドメイン名</span></p>
+
+<ul>
+  <li>スパイダーを編集する (プロジェクトのディレクトリ内での実行):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">スパイダー名</span></p>
+
+<ul>
+  <li>スパイダーを実行する (プロジェクトのディレクトリ内での実行):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy crawl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">スパイダー名</span></p>
+
+<ul>
+  <li>Scrapyが見るようにWebページを取得しソースを<code class="language-plaintext highlighter-rouge">stdout</code>(標準出力)に表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy fetch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>Scrapyが見ているようにデフォルトブラウザ内でウェブページを開く(より応答に忠実であるようにするためにJavaScriptを無効化している):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>URL用のScrapyシェルを開き、Python(もしくは可能であればIPython)シェル内でページソースとの対話式でのやり取りを可能にする:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>

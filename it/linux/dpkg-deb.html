@@ -1,0 +1,34 @@
+<h1 id="dpkg-deb">dpkg-deb</h1>
+
+<p>Impacchetta, spacchetta e fornisce informazioni su archivi Debian.
+Maggiori informazioni: <a href="https://manned.org/dpkg-deb">https://manned.org/dpkg-deb</a>.</p>
+
+<ul>
+  <li>Mostra le informazioni riguardo ad un pacchetto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-deb --info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.deb</span></p>
+
+<ul>
+  <li>Mostra il nome e la versione del pacchetto in una singola riga:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-deb --show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.deb</span></p>
+
+<ul>
+  <li>Elenca i contenuti del pacchetto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-deb --contents </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.deb</span></p>
+
+<ul>
+  <li>Estrae i contenuti del pacchetto in una directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-deb --extract </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.deb</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span></p>
+
+<ul>
+  <li>Crea una pacchetto a partire da una directory specificata:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-deb --build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span></p>

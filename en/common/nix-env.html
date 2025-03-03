@@ -1,0 +1,52 @@
+<h1 id="nix-env">nix-env</h1>
+
+<p>Manipulate or query Nix user environments.
+More information: <a href="https://nixos.org/manual/nix/stable/#sec-nix-env">https://nixos.org/manual/nix/stable/#sec-nix-env</a>.</p>
+
+<ul>
+  <li>List all installed packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -q</code></p>
+
+<ul>
+  <li>Query installed packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_term</span></p>
+
+<ul>
+  <li>Query available packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -qa </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_term</span></p>
+
+<ul>
+  <li>Install package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -iA nixpkgs.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pkg_name</span></p>
+
+<ul>
+  <li>Install a package from a URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pkg_name</span><code class="language-plaintext highlighter-rouge"> --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span></p>
+
+<ul>
+  <li>Uninstall package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pkg_name</span></p>
+
+<ul>
+  <li>Upgrade one package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pkg_name</span></p>
+
+<ul>
+  <li>Upgrade all packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nix-env -u</code></p>

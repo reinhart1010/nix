@@ -1,0 +1,53 @@
+<h1 id="chisel">chisel</h1>
+
+<p>إنشاء أنفاق TCP/UDP، يتم نقلها عبر HTTP، وتأمينها عبر SSH.
+يتضمن كل من العميل والخادم في نفس الملف التنفيذي <code class="language-plaintext highlighter-rouge">chisel</code>.
+لمزيد من التفاصيل: <a href="https://github.com/jpillora/chisel">https://github.com/jpillora/chisel</a>.</p>
+
+<ul>
+  <li>تشغيل خادم Chisel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chisel server</code></p>
+
+<ul>
+  <li>تشغيل خادم Chisel يستمع إلى منفذ محدد:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chisel server -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_port</span></p>
+
+<ul>
+  <li>تشغيل خادم Chisel يقبل الاتصالات المصادق عليها باستخدام اسم المستخدم وكلمة المرور:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chisel server --auth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>الاتصال بخادم Chisel وإنشاء نفق لمنفذ محدد إلى خادم طرف ثالث ومنفذ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chisel client </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_ip</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_server</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_port</span></p>
+
+<ul>
+  <li>الاتصال بخادم Chisel وإنشاء نفق لجهاز ومنفذ محددين إلى خادم طرف ثالث ومنفذ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chisel client </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_ip</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_server</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_port</span></p>
+
+<ul>
+  <li>الاتصال بخادم Chisel باستخدام المصادقة باسم المستخدم وكلمة المرور:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chisel client --auth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_ip</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_server</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_port</span></p>
+
+<ul>
+  <li>تهيئة خادم Chisel في الوضع العكسي على منفذ محدد، مع تمكين وظيفة وكيل SOCKS5 (على المنفذ 1080):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chisel server -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_port</span><code class="language-plaintext highlighter-rouge"> --reverse --socks5</code></p>
+
+<ul>
+  <li>الاتصال بخادم Chisel على عنوان IP ومنفذ محددين، وإنشاء نفق عكسي يتم تعيينه إلى وكيل SOCKS محلي:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chisel client </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_ip</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_port</span><code class="language-plaintext highlighter-rouge"> R:socks</code></p>

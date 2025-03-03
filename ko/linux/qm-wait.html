@@ -1,0 +1,22 @@
+<h1 id="qm-wait">qm wait</h1>
+
+<p>가상 머신이 중지될 때까지 대기.
+더 많은 정보: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>가상 머신이 중지될 때까지 대기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm wait </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상_머신_ID</span></p>
+
+<ul>
+  <li>가상 머신이 중지될 때까지 10초 동안 대기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm wait --timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상_머신_ID</span></p>
+
+<ul>
+  <li>종료 요청을 전송한 후 가상 머신이 중지될 때까지 10초 동안 대기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm shutdown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">가상_머신_ID</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; qm wait --timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span></p>

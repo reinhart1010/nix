@@ -1,0 +1,41 @@
+<h1 id="aws-s3">aws s3</h1>
+
+<p>CLI for AWS S3 - provides storage through web services interfaces.
+Some subcommands such as <code class="language-plaintext highlighter-rouge">cp</code> have their own usage documentation.
+More information: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/index.html</a>.</p>
+
+<ul>
+  <li>Show files in a bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 ls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span></p>
+
+<ul>
+  <li>Sync files and directories from local to bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span><code class="language-plaintext highlighter-rouge"> s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span></p>
+
+<ul>
+  <li>Sync files and directories from bucket to local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 sync s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target</span></p>
+
+<ul>
+  <li>Sync files and directories with exclusions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 …</span><code class="language-plaintext highlighter-rouge"> s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span><code class="language-plaintext highlighter-rouge"> --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge">/*</code></p>
+
+<ul>
+  <li>Remove file from bucket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 rm s3://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Preview changes only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws s3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any_command</span><code class="language-plaintext highlighter-rouge"> --dryrun</code></p>

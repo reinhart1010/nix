@@ -1,0 +1,34 @@
+<h1 id="flatpak-builder">flatpak-builder</h1>
+
+<p>Help build application dependencies.
+More information: <a href="https://docs.flatpak.org/en/latest/flatpak-builder-command-reference.html">https://docs.flatpak.org/en/latest/flatpak-builder-command-reference.html</a>.</p>
+
+<ul>
+  <li>Build a Flatpak and export it to a new repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak-builder </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/build_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manifest</span></p>
+
+<ul>
+  <li>Build a Flatpak and export it to the specified repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak-builder --repo=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/build_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manifest</span></p>
+
+<ul>
+  <li>Build a Flatpak and install it locally:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak-builder --install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/build_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manifest</span></p>
+
+<ul>
+  <li>Build and sign a Flatpak and export it to the specified repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak-builder --gpg-sign=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_id</span><code class="language-plaintext highlighter-rouge"> --repo=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manifest</span></p>
+
+<ul>
+  <li>Run a shell inside of an application sandbox without installing it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flatpak-builder --run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/build_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manifest</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span></p>

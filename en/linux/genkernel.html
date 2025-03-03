@@ -1,0 +1,45 @@
+<h1 id="genkernel">genkernel</h1>
+
+<p>Gentoo Linux utility to compile and install kernels.
+More information: <a href="https://wiki.gentoo.org/wiki/Genkernel">https://wiki.gentoo.org/wiki/Genkernel</a>.</p>
+
+<ul>
+  <li>Automatically compile and install a generic kernel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo genkernel all</code></p>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Build and install the bzImage</td>
+          <td>initramfs</td>
+          <td>kernel</td>
+          <td>ramdisk only:</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo genkernel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bzImage|initramfs|kernel|ramdisk</span></p>
+
+<ul>
+  <li>Apply changes to the kernel configuration before compiling and installing:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo genkernel --menuconfig all</code></p>
+
+<ul>
+  <li>Generate a kernel with a custom name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo genkernel --kernname=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">custom_name</span><code class="language-plaintext highlighter-rouge"> all</code></p>
+
+<ul>
+  <li>Use a kernel source outside the default directory <code class="language-plaintext highlighter-rouge">/usr/src/linux</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo genkernel --kerneldir=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> all</code></p>

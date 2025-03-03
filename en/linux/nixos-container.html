@@ -1,0 +1,40 @@
+<h1 id="nixos-container">nixos-container</h1>
+
+<p>Starts NixOS containers using Linux containers.
+More information: <a href="https://nixos.org/manual/nixos/stable/#ch-containers">https://nixos.org/manual/nixos/stable/#ch-containers</a>.</p>
+
+<ul>
+  <li>List running containers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nixos-container list</code></p>
+
+<ul>
+  <li>Create a NixOS container with a specific configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nixos-container create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> --config-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nix_config_file_path</span></p>
+
+<ul>
+  <li>Start, stop, terminate, or destroy a specific container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nixos-container </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop|terminate|destroy|status</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Run a command in a running container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nixos-container run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>
+
+<ul>
+  <li>Update a container configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo $EDITOR /var/lib/container/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span><code class="language-plaintext highlighter-rouge">/etc/nixos/configuration.nix &amp;&amp; sudo nixos-container update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>
+
+<ul>
+  <li>Enter an interactive shell session on an already-running container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo nixos-container root-login </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span></p>

@@ -1,0 +1,52 @@
+<h1 id="wapm">wapm</h1>
+
+<p>WebAssembly 패키지 관리자.
+더 많은 정보: <a href="https://wapm.io/help/reference">https://wapm.io/help/reference</a>.</p>
+
+<ul>
+  <li>상호 작용 방식으로 새로운 <code class="language-plaintext highlighter-rouge">wapm.toml</code> 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wapm init</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">wapm.toml</code>에 나열된 모든 패키지 의존성 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wapm install</code></p>
+
+<ul>
+  <li>특정 버전의 패키지를 다운로드하고 <code class="language-plaintext highlighter-rouge">wapm.toml</code>의 의존성 목록에 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wapm install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버전</span></p>
+
+<ul>
+  <li>패키지를 다운로드하여 전역으로 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wapm install --global </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>패키지를 제거하고 <code class="language-plaintext highlighter-rouge">wapm.toml</code>의 의존성 목록에서 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wapm uninstall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">패키지</span></p>
+
+<ul>
+  <li>로컬에 설치된 의존성 트리 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wapm list</code></p>
+
+<ul>
+  <li>최상위 전역 설치 패키지 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wapm list --global</code></p>
+
+<ul>
+  <li>Wasmer 런타임을 사용하여 패키지 명령 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wapm run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수</span></p>

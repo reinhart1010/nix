@@ -1,0 +1,28 @@
+<h1 id="qsub">qsub</h1>
+
+<p>Submits a script to the queue management system TORQUE.
+More information: <a href="https://manned.org/qsub.1">https://manned.org/qsub.1</a>.</p>
+
+<ul>
+  <li>Submit a script with default settings (depends on TORQUE settings):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qsub </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script.sh</span></p>
+
+<ul>
+  <li>Submit a script with a specified wallclock runtime limit of 1 hour, 2 minutes and 3 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qsub -l walltime=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script.sh</span></p>
+
+<ul>
+  <li>Submit a script that is executed on 2 nodes using 4 cores per node:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qsub -l nodes=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge">:ppn=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script.sh</span></p>
+
+<ul>
+  <li>Submit a script to a specific queue. Note that different queues can have different maximum and minimum runtime limits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qsub -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script.sh</span></p>

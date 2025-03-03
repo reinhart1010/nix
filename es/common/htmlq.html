@@ -1,0 +1,34 @@
+<h1 id="htmlq">htmlq</h1>
+
+<p>Utiliza selectores CSS para extraer contenido de archivos HTML.
+Más información: <a href="https://github.com/mgdm/htmlq">https://github.com/mgdm/htmlq</a>.</p>
+
+<ul>
+  <li>Devuelve todos los elementos de la clase <code class="language-plaintext highlighter-rouge">card</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.html</span><code class="language-plaintext highlighter-rouge"> | htmlq '.card'</code></p>
+
+<ul>
+  <li>Obtiene el contenido del texto del primer párrafo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.html</span><code class="language-plaintext highlighter-rouge"> | htmlq --text 'p:primer-del-tipo'</code></p>
+
+<ul>
+  <li>Encuentra todos los enlaces de una página:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.html</span><code class="language-plaintext highlighter-rouge"> | htmlq --attribute href 'a'</code></p>
+
+<ul>
+  <li>Elimina todas las imágenes y archivos SVG de una página:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.html</span><code class="language-plaintext highlighter-rouge"> | htmlq --remove-nodes 'img' --remove-nodes 'svg'</code></p>
+
+<ul>
+  <li>Impresión bonita y escritura de la salida en un archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">htmlq --pretty --filename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo.html</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/salida.html</span></p>

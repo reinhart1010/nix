@@ -1,0 +1,28 @@
+<h1 id="log">log</h1>
+
+<p>View, export, and configure logging systems.
+More information: <a href="https://keith.github.io/xcode-man-pages/log.1.html">https://keith.github.io/xcode-man-pages/log.1.html</a>.</p>
+
+<ul>
+  <li>Stream live system logs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">log stream</code></p>
+
+<ul>
+  <li>Stream logs sent to <code class="language-plaintext highlighter-rouge">syslog</code> from the process with a specific PID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">log stream --process </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_id</span></p>
+
+<ul>
+  <li>Show logs sent to syslog from a process with a specific name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">log show --predicate "process == '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span><code class="language-plaintext highlighter-rouge">'"</code></p>
+
+<ul>
+  <li>Export all logs to disk for the past hour:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo log collect --last </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1h</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.logarchive</span></p>

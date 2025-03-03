@@ -1,0 +1,46 @@
+<h1 id="kwriteconfig5">kwriteconfig5</h1>
+
+<p>KDE Plasma의 KConfig 항목 쓰기.
+더 많은 정보: <a href="https://userbase.kde.org/KDE_System_Administration/Configuration_Files">https://userbase.kde.org/KDE_System_Administration/Configuration_Files</a>.</p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kwriteconfig5 --help</code></p>
+
+<ul>
+  <li>전역 설정 키 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kwriteconfig5 --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹_이름</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span></p>
+
+<ul>
+  <li>특정 설정 파일에 키 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kwriteconfig5 --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹_이름</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span></p>
+
+<ul>
+  <li>키 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kwriteconfig5 --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹_이름</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키</span><code class="language-plaintext highlighter-rouge"> --delete</code></p>
+
+<ul>
+  <li>systemd를 사용하여 Plasma 세션이 가능할 때 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kwriteconfig5 --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">startkderc</span><code class="language-plaintext highlighter-rouge"> --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">General</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemdBoot</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span></p>
+
+<ul>
+  <li>창이 최대화될 때 제목 표시줄 숨기기 (Ubuntu와 유사):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kwriteconfig5 --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.config/kwinrc</span><code class="language-plaintext highlighter-rouge"> --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Windows</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">BorderlessMaximizedWindows</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span></p>
+
+<ul>
+  <li>KRunner를 Meta(커맨드/윈도우) 글로벌 핫키로 열리도록 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kwriteconfig5 --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.config/kwinrc</span><code class="language-plaintext highlighter-rouge"> --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ModifierOnlyShortcuts</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Meta</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.kde.kglobalaccel,/component/krunner_desktop,org.kde.kglobalaccel.Component,invokeShortcut,_launch</span><code class="language-plaintext highlighter-rouge">"</code></p>

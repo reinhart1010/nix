@@ -1,0 +1,40 @@
+<h1 id="pw-loopback">pw-loopback</h1>
+
+<p>PipeWire'da geri döngü cihazları yaratma aracı.
+Daha fazla bilgi için: <a href="https://docs.pipewire.org/page_man_pw-loopback_1.html">https://docs.pipewire.org/page_man_pw-loopback_1.html</a>.</p>
+
+<ul>
+  <li>Varsayılan geri döngü davranışına sahip bir geri döngü cihazı yarat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-loopback</code></p>
+
+<ul>
+  <li>Hoparlörlere otomatik olarak bağlanan bir geri döngü cihazı yarat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-loopback -m '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[FL FR]</span><code class="language-plaintext highlighter-rouge">' --capture-props='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media.class=Audio/Sink</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Mikrofona otomatik olarak bağlanan bir geri döngü cihazı yarat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-loopback -m '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[FL FR]</span><code class="language-plaintext highlighter-rouge">' --playback-props='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media.class=Audio/Source</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Hiçbir şeye otomatik olarak bağlanmayan salak bir geri döngü cihazı yarat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-loopback -m '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[FL FR]</span><code class="language-plaintext highlighter-rouge">' --capture-props='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media.class=Audio/Sink</span><code class="language-plaintext highlighter-rouge">' --playback-props='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media.class=Audio/Source</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Hoparlörlere otomatik olarak bağlanan ve taban-kaynak arasında sağ-sol kanalların yerini değiştiren bir geri döngü cihazı yarat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-loopback --capture-props='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media.class=Audio/Sink audio.position=[FL FR]</span><code class="language-plaintext highlighter-rouge">' --playback-props='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">audio.position=[FR FL]</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Mikrofona otomatik olarak bağlanan ve taban-kaynak arasında sağ-sol kanalların yerini değiştiren bir geri döngü cihazı yarat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-loopback --capture-props='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">audio.position=[FR FL]</span><code class="language-plaintext highlighter-rouge">' --playback-props='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media.class=Audio/Source audio.position=[FL FR]</span><code class="language-plaintext highlighter-rouge">'</code></p>

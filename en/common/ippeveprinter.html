@@ -1,0 +1,41 @@
+<h1 id="ippeveprinter">ippeveprinter</h1>
+
+<p>A simple IPP Everywhere printer server.
+See also: <code class="language-plaintext highlighter-rouge">ippeveps</code>, <code class="language-plaintext highlighter-rouge">ippevepcl</code>.
+More information: <a href="https://openprinting.github.io/cups/doc/man-ippeveprinter.html">https://openprinting.github.io/cups/doc/man-ippeveprinter.html</a>.</p>
+
+<ul>
+  <li>Run the server with a specific service name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ippeveprinter "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Load printer attributes from a PPD file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ippeveprinter -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppd</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run the <code class="language-plaintext highlighter-rouge">file</code> command whenever a job is sent to the server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ippeveprinter -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/usr/bin/file</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Specify the directory that will hold the print files (by default, a directory under the user's temporary directory):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ippeveprinter -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">spool_directory</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Keep the print documents in the spool directory rather than deleting them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ippeveprinter -k "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Specify the printer speed in pages/minute unit (10 by default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ippeveprinter -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">speed</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span><code class="language-plaintext highlighter-rouge">"</code></p>

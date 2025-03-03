@@ -1,0 +1,40 @@
+<h1 id="guix-package">guix package</h1>
+
+<p>Install, upgrade and remove Guix packages, or rollback to previous configurations.
+More information: <a href="https://guix.gnu.org/manual/html_node/Invoking-guix-package.html">https://guix.gnu.org/manual/html_node/Invoking-guix-package.html</a>.</p>
+
+<ul>
+  <li>Install a new package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">guix package -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Remove a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">guix package -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Search the package database for a regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">guix package -s "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>List installed packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">guix package -I</code></p>
+
+<ul>
+  <li>List generations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">guix package -l</code></p>
+
+<ul>
+  <li>Roll back to the previous generation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">guix package --roll-back</code></p>

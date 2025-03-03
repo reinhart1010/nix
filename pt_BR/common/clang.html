@@ -1,0 +1,53 @@
+<h1 id="clang">clang</h1>
+
+<p>Compila arquivos fonte escritos em C, C++ e Objective-C. Pode ser usado como um substituto drop-in para GCC.
+Parte de LLVM.
+Mais informações: <a href="https://clang.llvm.org/docs/ClangCommandLineReference.html">https://clang.llvm.org/docs/ClangCommandLineReference.html</a>.</p>
+
+<ul>
+  <li>Compila vários arquivos fonte para um executável:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_fonte1.c caminho/para/arquivo_fonte2.c …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/executável_resultante</span></p>
+
+<ul>
+  <li>Ativa a saída de todos os erros e avisos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_fonte.c</span><code class="language-plaintext highlighter-rouge"> -Wall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executável_resultante</span></p>
+
+<ul>
+  <li>Mostra avisos comuns, faz depuração de símbolos na saída e otimiza sem afetar a depuração:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_fonte.c</span><code class="language-plaintext highlighter-rouge"> -Wall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-g|–debug</span><code class="language-plaintext highlighter-rouge"> -Og </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/executável_resultante</span></p>
+
+<ul>
+  <li>Inclui bibliotecas de um caminho diferente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_fonte.c</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/executável_resultante</span><code class="language-plaintext highlighter-rouge"> -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/cabeçalho</span><code class="language-plaintext highlighter-rouge"> -L</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/biblioteca</span><code class="language-plaintext highlighter-rouge"> -l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_biblioteca</span></p>
+
+<ul>
+  <li>Compila o código-fonte na Representação Intermediária (IR) do LLVM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-S|–assemble</span><code class="language-plaintext highlighter-rouge"> -emit-llvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_fonte.c</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.ll</span></p>
+
+<ul>
+  <li>Compila o código-fonte em um arquivo objeto sem vincular:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-c|–compile</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_fonte.c</span></p>
+
+<ul>
+  <li>Otimiza o programa compilado para desempenho:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_fonte.c</span><code class="language-plaintext highlighter-rouge"> -O</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3|fast</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/executável_resultante</span></p>
+
+<ul>
+  <li>Exibe a versão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang --version</code></p>

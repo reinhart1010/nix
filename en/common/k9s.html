@@ -1,0 +1,28 @@
+<h1 id="k9s">k9s</h1>
+
+<p>View and manage Kubernetes clusters.
+More information: <a href="https://k9scli.io/topics/commands/">https://k9scli.io/topics/commands/</a>.</p>
+
+<ul>
+  <li>Manage a cluster using a kubeconfig context:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k9s --context </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kubeconfig_context_name</span></p>
+
+<ul>
+  <li>Manage a cluster in read-only mode (disabling all commands that may cause modifications):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k9s --readonly --cluster </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span></p>
+
+<ul>
+  <li>Manage a cluster using a given kubernetes namespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k9s --namespace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kubernetes_namespace</span><code class="language-plaintext highlighter-rouge"> --cluster </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span></p>
+
+<ul>
+  <li>Manage a cluster launching k9s in the pod view and enable debug logging:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">k9s --command </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod</span><code class="language-plaintext highlighter-rouge"> --logLevel debug --cluster </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span></p>

@@ -1,0 +1,36 @@
+<h1 id="magick">magick</h1>
+
+<p>이미지 형식 간 변환, 편집, 합성 또는 변환.
+이 도구는 ImageMagick 7+에서 <code class="language-plaintext highlighter-rouge">convert</code>를 대체합니다. 7+ 버전에서 이전 도구를 사용하려면 <code class="language-plaintext highlighter-rouge">magick convert</code>를 참조하세요.
+<code class="language-plaintext highlighter-rouge">mogrify</code>와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.
+더 많은 정보: <a href="https://imagemagick.org">https://imagemagick.org</a>.</p>
+
+<ul>
+  <li>이미지 형식 간 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_이미지.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_이미지.jpg</span></p>
+
+<ul>
+  <li>이미지를 크기 조정하여 새 복사본 만들기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_이미지.jpg</span><code class="language-plaintext highlighter-rouge"> -resize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100x100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_이미지.jpg</span></p>
+
+<ul>
+  <li>현재 디렉토리의 모든 JPEG 이미지로 GIF 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/이미지.gif</span></p>
+
+<ul>
+  <li>체커보드 패턴 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick -size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640x480</span><code class="language-plaintext highlighter-rouge"> pattern:checkerboard </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/체커보드.png</span></p>
+
+<ul>
+  <li>현재 디렉토리의 모든 JPEG 이미지로 PDF 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpg</span><code class="language-plaintext highlighter-rouge"> -adjoin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.pdf</span></p>

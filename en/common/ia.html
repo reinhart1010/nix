@@ -1,0 +1,34 @@
+<h1 id="ia">ia</h1>
+
+<p>Command-line tool to interact with <code class="language-plaintext highlighter-rouge">archive.org</code>.
+More information: <a href="https://archive.org/services/docs/api/internetarchive/cli.html">https://archive.org/services/docs/api/internetarchive/cli.html</a>.</p>
+
+<ul>
+  <li>Configure <code class="language-plaintext highlighter-rouge">ia</code> with API keys (some functions won't work without this step):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ia configure</code></p>
+
+<ul>
+  <li>Upload one or more items to <code class="language-plaintext highlighter-rouge">archive.org</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ia upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identifier</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --metadata="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mediatype:data</span><code class="language-plaintext highlighter-rouge">" --metadata="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">title:example</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Download one or more items from <code class="language-plaintext highlighter-rouge">archive.org</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ia download </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">item</span></p>
+
+<ul>
+  <li>Delete one or more items from <code class="language-plaintext highlighter-rouge">archive.org</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ia delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identifier</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Search on <code class="language-plaintext highlighter-rouge">archive.org</code>, returning results as JSON:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ia search '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject:"subject" collection:collection</span><code class="language-plaintext highlighter-rouge">'</code></p>

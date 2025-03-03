@@ -1,0 +1,47 @@
+<h1 id="lpr">lpr</h1>
+
+<p>Print files.
+See also: <code class="language-plaintext highlighter-rouge">lpstat</code> and <code class="language-plaintext highlighter-rouge">lpadmin</code>.
+More information: <a href="https://openprinting.github.io/cups/doc/man-lpr.html">https://openprinting.github.io/cups/doc/man-lpr.html</a>.</p>
+
+<ul>
+  <li>Print a file to the default printer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print 2 copies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -# </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print to a named printer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">printer</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print either a single page (e.g. 2) or a range of pages (e.g. 2-16):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -o page-ranges=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2|2-16</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print double-sided either in portrait (long) or in landscape (short):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -o sides=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">two-sided-long-edge|two-sided-short-edge</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Set page size (more options may be available depending on setup):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -o media=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a4|letter|legal</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print multiple pages per sheet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lpr -o number-up=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2|4|6|9|16</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

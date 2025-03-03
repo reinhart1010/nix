@@ -1,0 +1,28 @@
+<h1 id="sngrep">sngrep</h1>
+
+<p>Display SIP calls message flows from terminal.
+More information: <a href="https://github.com/irontec/sngrep">https://github.com/irontec/sngrep</a>.</p>
+
+<ul>
+  <li>Visualize SIP packets from a PCAP file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sngrep -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pcap</span></p>
+
+<ul>
+  <li>Visualize only dialogs starting with INVITE packets with RTP packets from a PCAP file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sngrep -crI </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pcap</span></p>
+
+<ul>
+  <li>Real-time interface with only dialogs starting with INVITE packets with RTP packets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sngrep -cr</code></p>
+
+<ul>
+  <li>Only capture packets without interface to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sngrep -NO </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pcap</span></p>

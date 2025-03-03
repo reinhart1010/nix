@@ -1,0 +1,29 @@
+<h1 id="odps-func">odps func</h1>
+
+<p>Manage functions in ODPS (Open Data Processing Service).
+See also <code class="language-plaintext highlighter-rouge">odps</code>.
+More information: <a href="https://www.alibabacloud.com/help/doc-detail/27971.htm">https://www.alibabacloud.com/help/doc-detail/27971.htm</a>.</p>
+
+<ul>
+  <li>Show functions in the current project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">list functions;</code></p>
+
+<ul>
+  <li>Create a Java function using a <code class="language-plaintext highlighter-rouge">.jar</code> resource:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">create function </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">func_name</span><code class="language-plaintext highlighter-rouge"> as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path.to.package.Func</span><code class="language-plaintext highlighter-rouge"> using '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package.jar</span><code class="language-plaintext highlighter-rouge">';</code></p>
+
+<ul>
+  <li>Create a Python function using a <code class="language-plaintext highlighter-rouge">.py</code> resource:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">create function </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">func_name</span><code class="language-plaintext highlighter-rouge"> as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script.Func</span><code class="language-plaintext highlighter-rouge"> using '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script.py</span><code class="language-plaintext highlighter-rouge">';</code></p>
+
+<ul>
+  <li>Delete a function:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">drop function </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">func_name</span><code class="language-plaintext highlighter-rouge">;</code></p>

@@ -1,0 +1,16 @@
+<h1 id="growpart">growpart</h1>
+
+<p>Extend a partition in a disk or disk image to fill available space.
+More information: <a href="https://github.com/canonical/cloud-utils">https://github.com/canonical/cloud-utils</a>.</p>
+
+<ul>
+  <li>Extend partition <code class="language-plaintext highlighter-rouge">n</code> from <code class="language-plaintext highlighter-rouge">sdX</code> to fill empty space until end of disk or beginning of next partition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">growpart </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span></p>
+
+<ul>
+  <li>Show what modifications would be made when growing partition <code class="language-plaintext highlighter-rouge">n</code> in a disk image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">growpart --dry-run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/disk.img</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span></p>

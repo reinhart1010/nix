@@ -1,0 +1,40 @@
+<h1 id="java">java</h1>
+
+<p>Peluncur Aplikasi Java.
+Informasi lebih lanjut: <a href="https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html">https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html</a>.</p>
+
+<ul>
+  <li>Jalankan berkas java <code class="language-plaintext highlighter-rouge">.class</code> yang mengandung method main dengan hanya menggunakan nama class:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_class</span></p>
+
+<ul>
+  <li>Jalankan sebuah program java menggunakan berkas-berkas <code class="language-plaintext highlighter-rouge">.class</code> eksternal dan tambahan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -classpath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_class1</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_class2</span><code class="language-plaintext highlighter-rouge">:. </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_class</span></p>
+
+<ul>
+  <li>Jalankan program <code class="language-plaintext highlighter-rouge">.jar</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -jar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_berkas.jar</span></p>
+
+<ul>
+  <li>Jalankan program <code class="language-plaintext highlighter-rouge">.jar</code> dengan menunggu debugger terhubung ke port 5005:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_berkas.jar</span></p>
+
+<ul>
+  <li>Tampilkan versi JDK, JRE dan HotSpot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -version</code></p>
+
+<ul>
+  <li>Tampilkan informasi penggunaan untuk perintah java:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -help</code></p>

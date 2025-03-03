@@ -1,0 +1,28 @@
+<h1 id="openssl-x509">openssl x509</h1>
+
+<p>أمر OpenSSL لإدارة شهادات X.509.
+لمزيد من التفاصيل: <a href="https://www.openssl.org/docs/manmaster/man1/openssl-x509.html">https://www.openssl.org/docs/manmaster/man1/openssl-x509.html</a>.</p>
+
+<ul>
+  <li>عرض معلومات الشهادة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl x509 -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.crt</span><code class="language-plaintext highlighter-rouge"> -noout -text</code></p>
+
+<ul>
+  <li>عرض تاريخ انتهاء صلاحية الشهادة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl x509 -enddate -noout -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.pem</span></p>
+
+<ul>
+  <li>تحويل الشهادة بين الترميز الثنائي DER والترميز النصي PEM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl x509 -inform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">der</span><code class="language-plaintext highlighter-rouge"> -outform </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pem</span><code class="language-plaintext highlighter-rouge"> -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">original_certificate_file</span><code class="language-plaintext highlighter-rouge"> -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">converted_certificate_file</span></p>
+
+<ul>
+  <li>تخزين المفتاح العام للشهادة في ملف:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl x509 -in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">certificate_file</span><code class="language-plaintext highlighter-rouge"> -noout -pubkey -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file</span></p>

@@ -1,0 +1,22 @@
+<h1 id="kreadconfig5">kreadconfig5</h1>
+
+<p>KDE Plasma의 KConfig 항목 읽기.
+더 많은 정보: <a href="https://userbase.kde.org/KDE_System_Administration/Configuration_Files">https://userbase.kde.org/KDE_System_Administration/Configuration_Files</a>.</p>
+
+<ul>
+  <li>전역 설정에서 키 읽기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kreadconfig5 --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹_이름</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span></p>
+
+<ul>
+  <li>특정 설정 파일에서 키 읽기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kwriteconfig5 --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그룹_이름</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">키_이름</span></p>
+
+<ul>
+  <li>systemd가 Plasma 세션을 시작하는지 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kreadconfig5 --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">startkderc</span><code class="language-plaintext highlighter-rouge"> --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">General</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemdBoot</span></p>

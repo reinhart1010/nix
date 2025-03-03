@@ -1,0 +1,34 @@
+<h1 id="git-cliff">git cliff</h1>
+
+<p>A highly customizable changelog generator.
+More information: <a href="https://git-cliff.org/docs/usage/args">https://git-cliff.org/docs/usage/args</a>.</p>
+
+<ul>
+  <li>Generate a changelog from all commits in a Git repository and save it to <code class="language-plaintext highlighter-rouge">CHANGELOG.md</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cliff &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">CHANGELOG.md</span></p>
+
+<ul>
+  <li>Generate a changelog from commits starting from the latest tag and print it to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cliff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–latest</span></p>
+
+<ul>
+  <li>Generate a changelog from commits that belong to the current tag (use <code class="language-plaintext highlighter-rouge">git checkout</code> on a tag before this):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cliff --current</code></p>
+
+<ul>
+  <li>Generate a changelog from commits that do not belong to a tag:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cliff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-u|–unreleased</span></p>
+
+<ul>
+  <li>Write the default config file to <code class="language-plaintext highlighter-rouge">cliff.toml</code> in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cliff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–init</span></p>

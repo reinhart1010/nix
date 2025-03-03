@@ -1,0 +1,53 @@
+<h1 id="git-bulk">git bulk</h1>
+
+<p>Execute operations on multiple Git repositories.
+Part of <code class="language-plaintext highlighter-rouge">git-extras</code>.
+More information: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-bulk">https://github.com/tj/git-extras/blob/master/Commands.md#git-bulk</a>.</p>
+
+<ul>
+  <li>Register the current directory as a workspace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bulk --addcurrent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workspace_name</span></p>
+
+<ul>
+  <li>Register a workspace for bulk operations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bulk --addworkspace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workspace_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/absolute/path/to/repository</span></p>
+
+<ul>
+  <li>Clone a repository inside a specific directory, then register the repository as a workspace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bulk --addworkspace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workspace_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/absolute/path/to/parent_directory</span><code class="language-plaintext highlighter-rouge"> --from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_repository_location</span></p>
+
+<ul>
+  <li>Clone repositories from a newline-separated list of remote locations, then register them as workspaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bulk --addworkspace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workspace_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/root/directory</span><code class="language-plaintext highlighter-rouge"> --from </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/file</span></p>
+
+<ul>
+  <li>List all registered workspaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bulk --listall</code></p>
+
+<ul>
+  <li>Run a Git command on the repositories of the current workspace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bulk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span></p>
+
+<ul>
+  <li>Remove a specific workspace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bulk --removeworkspace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workspace_name</span></p>
+
+<ul>
+  <li>Remove all workspaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bulk --purge</code></p>

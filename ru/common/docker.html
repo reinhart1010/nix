@@ -1,0 +1,53 @@
+<h1 id="docker">docker</h1>
+
+<p>Управление контейнерами и образами Docker.
+Некоторые подкоманды, такие как <code class="language-plaintext highlighter-rouge">run</code>, имеют собственную документацию по использованию.
+Больше информации: <a href="https://docs.docker.com/reference/cli/docker/">https://docs.docker.com/reference/cli/docker/</a>.</p>
+
+<ul>
+  <li>Список всех контейнеров Docker (запущенных и остановленных):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker ps --all</code></p>
+
+<ul>
+  <li>Запустить контейнера из образа с заданным именем:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">имя_контейнера</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">имя_образа</span></p>
+
+<ul>
+  <li>Запустить или остановить существующий контейнер:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">имя_контейнера</span></p>
+
+<ul>
+  <li>Загрузить образ из репозитория Docker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">имя_образа</span></p>
+
+<ul>
+  <li>Показать список уже загруженных образов:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images</code></p>
+
+<ul>
+  <li>Запустить интерактивный ([i]) телетайп ([t]) с командной оболочкой Bourne shell (sh) внутри запущенного контейнера:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker exec -it </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">имя_контейнера</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span></p>
+
+<ul>
+  <li>Удалить остановленный контейнер:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">имя_контейнера</span></p>
+
+<ul>
+  <li>Получить и следить за логами контейнера:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker logs -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">имя_контейнера</span></p>

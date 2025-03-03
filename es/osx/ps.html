@@ -1,0 +1,40 @@
+<h1 id="ps">ps</h1>
+
+<p>Información sobre los procesos en ejecución.
+Más información: <a href="https://keith.github.io/xcode-man-pages/ps.1.html">https://keith.github.io/xcode-man-pages/ps.1.html</a>.</p>
+
+<ul>
+  <li>Lista todos los procesos en ejecución:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps aux</code></p>
+
+<ul>
+  <li>Lista todos los procesos en ejecución incluyendo la cadena de comandos completa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps auxww</code></p>
+
+<ul>
+  <li>Busca un proceso que coincida con una cadena:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps aux | grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena</span></p>
+
+<ul>
+  <li>Obtén el PID principal de un proceso:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps -o ppid= -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Ordena los procesos por uso de memoria:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps -m</code></p>
+
+<ul>
+  <li>Ordena los procesos por uso de CPU:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps -r</code></p>

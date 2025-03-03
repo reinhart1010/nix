@@ -1,0 +1,29 @@
+<h1 id="column">column</h1>
+
+<p>Formatta standard input o un file in più colonne.
+Le colonne sono riempite prima delle righe; il separatore predefinito è lo spazio.
+Maggiori informazioni: <a href="https://manned.org/column">https://manned.org/column</a>.</p>
+
+<ul>
+  <li>Formatta l'output per uno schermo largo 30 caratteri:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "intestazione1 intestazione2\nbar foo\n" | column --output-width </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span></p>
+
+<ul>
+  <li>Separa colonne ed allinea automaticamente in un formato tabulare:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "intestazione1 intestazione2\nbar foo\n" | column --table</code></p>
+
+<ul>
+  <li>Specifica un diverso separatore di colonna (e.g. "," per CSV) (il predefinito è lo spazio):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "intestazione1 intestazione2\nbar foo\n" | column --table --separator </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span></p>
+
+<ul>
+  <li>Riempi le righe prima delle colonne:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">printf "intestazione1\nbar\nfoobar\n" | column --output-width </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span><code class="language-plaintext highlighter-rouge"> --fillrows</code></p>

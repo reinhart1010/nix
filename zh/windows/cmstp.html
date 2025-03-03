@@ -1,0 +1,52 @@
+<h1 id="cmstp">cmstp</h1>
+
+<p>用于管理连接服务配置文件的命令行工具。
+更多信息：<a href="https://learn.microsoft.com/windows-server/administration/windows-commands/cmstp">https://learn.microsoft.com/windows-server/administration/windows-commands/cmstp</a>.</p>
+
+<ul>
+  <li>安装指定的配置文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmstp "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">配置文件的路径</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>安装时不创建桌面快捷方式：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmstp /ns "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">配置文件的路径</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>安装时不检查依赖：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmstp /nf "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">配置文件的路径</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>仅为当前用户安装：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmstp /su "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">配置文件的路径</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>为所有用户安装（需要管理员权限）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmstp /au "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">配置文件的路径</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>静默安装：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmstp /s "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">配置文件的路径</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>卸载一个指定的配置文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmstp /u "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">配置文件的路径</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>静默删除：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cmstp /u /s "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">配置文件的路径</span><code class="language-plaintext highlighter-rouge">"</code></p>

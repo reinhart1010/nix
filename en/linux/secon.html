@@ -1,0 +1,35 @@
+<h1 id="secon">secon</h1>
+
+<p>Get the SELinux security context of a file, pid, current execution context, or a context specification.
+See also: <code class="language-plaintext highlighter-rouge">semanage</code>, <code class="language-plaintext highlighter-rouge">runcon</code>, <code class="language-plaintext highlighter-rouge">chcon</code>.
+More information: <a href="https://manned.org/secon">https://manned.org/secon</a>.</p>
+
+<ul>
+  <li>Get the security context of the current execution context:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">secon</code></p>
+
+<ul>
+  <li>Get the current security context of a process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">secon --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span></p>
+
+<ul>
+  <li>Get the current security context of a file, resolving all intermediate symlinks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">secon --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span></p>
+
+<ul>
+  <li>Get the current security context of a symlink itself (i.e. do not resolve):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">secon --link </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/symlink</span></p>
+
+<ul>
+  <li>Parse and explain a context specification:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">secon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">system_u:system_r:container_t:s0:c899,c900</span></p>

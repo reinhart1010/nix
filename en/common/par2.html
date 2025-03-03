@@ -1,0 +1,28 @@
+<h1 id="par2">par2</h1>
+
+<p>File verification and repair using PAR 2.0 compatible parity archives (.par2 files).
+More information: <a href="https://github.com/Parchive/par2cmdline/">https://github.com/Parchive/par2cmdline/</a>.</p>
+
+<ul>
+  <li>Create a parity archive with a set percentage level of redundancy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">par2 create -r</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1..100</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Create a parity archive with a chosen number of volume files (in addition to the index file):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">par2 create -n</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1..32768</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Verify a file with a parity archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">par2 verify -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.par2</span></p>
+
+<ul>
+  <li>Repair a file with a parity archive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">par2 repair -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.par2</span></p>

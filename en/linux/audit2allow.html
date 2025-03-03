@@ -1,0 +1,29 @@
+<h1 id="audit2allow">audit2allow</h1>
+
+<p>Create an SELinux local policy module to allow rules based on denied operations found in logs.
+Note: Use audit2allow with caution. Always review the generated policy before applying it, as it may allow excessive access.
+More information: <a href="https://manned.org/audit2allow">https://manned.org/audit2allow</a>.</p>
+
+<ul>
+  <li>Generate a local policy to allow access for all denied services:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo audit2allow --all -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_policy_name</span></p>
+
+<ul>
+  <li>Generate a local policy module to grant access to a specific process/service/command from the audit logs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apache2</span><code class="language-plaintext highlighter-rouge"> /var/log/audit/audit.log | sudo audit2allow -M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_policy_name</span></p>
+
+<ul>
+  <li>Inspect and review the Type Enforcement (.te) file for a local policy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vim </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_policy_name</span><code class="language-plaintext highlighter-rouge">.te</code></p>
+
+<ul>
+  <li>Install a local policy module:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo semodule -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_policy_name</span><code class="language-plaintext highlighter-rouge">.pp</code></p>

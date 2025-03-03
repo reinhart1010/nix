@@ -1,0 +1,46 @@
+<h1 id="docker-inspect">docker inspect</h1>
+
+<p>Docker objelerinde bulunan düşük seviye bilgiyi gösterir.
+Daha fazla bilgi için: <a href="https://docs.docker.com/reference/cli/docker/inspect/">https://docs.docker.com/reference/cli/docker/inspect/</a>.</p>
+
+<ul>
+  <li>Yardım içeriğini göster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect</code></p>
+
+<ul>
+  <li>Bir konteyner, imge veya hacim ile ilgili bilgiyi ismini veya ID'sini girerek görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner|imge|ID</span></p>
+
+<ul>
+  <li>Bir konteynerin IP adresini görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect --format '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{\{end\}\}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner</span></p>
+
+<ul>
+  <li>Konteynerin log dosyasının yolunu görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect --format='\{\{.LogPath\}\}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner</span></p>
+
+<ul>
+  <li>Konteynerin imge ismini görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect --format='\{\{.Config.Image\}\}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner</span></p>
+
+<ul>
+  <li>Konfigürasyon bilgisini JSON olarak görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect --format='\{\{json .Config\}\}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner</span></p>
+
+<ul>
+  <li>Tüm port limanlayıcıları görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker inspect --format='\{\{range $p, $conf := .NetworkSettings.Ports\}\} \{\{$p\}\} -&gt; \{\{(index $conf 0).HostPort\}\} \{\{end\}\}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner</span></p>

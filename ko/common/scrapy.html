@@ -1,0 +1,46 @@
+<h1 id="scrapy">scrapy</h1>
+
+<p>웹 크롤링 프레임워크.
+더 많은 정보: <a href="https://scrapy.org">https://scrapy.org</a>.</p>
+
+<ul>
+  <li>프로젝트 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy startproject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span></p>
+
+<ul>
+  <li>스파이더 생성 (프로젝트 디렉토리에서):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy genspider </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스파이더_이름</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">웹사이트_도메인</span></p>
+
+<ul>
+  <li>스파이더 편집 (프로젝트 디렉토리에서):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스파이더_이름</span></p>
+
+<ul>
+  <li>스파이더 실행 (프로젝트 디렉토리에서):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy crawl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스파이더_이름</span></p>
+
+<ul>
+  <li>Scrapy가 인식하는 방식으로 웹페이지를 가져와 <code class="language-plaintext highlighter-rouge">stdout</code>에 소스 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy fetch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">URL</span></p>
+
+<ul>
+  <li>Scrapy가 인식하는 방식으로 웹페이지를 기본 브라우저에서 열기 (더 정확하게 보려면 JavaScript 비활성화):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy view </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">URL</span></p>
+
+<ul>
+  <li>URL에 대한 Scrapy 셸 열기, 이 셸을 통해 Python 셸(IPython이 가능하다면)을 사용하여 페이지 소스와 상호작용 가능:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">scrapy shell </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">URL</span></p>

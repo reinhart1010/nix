@@ -1,0 +1,34 @@
+<h1 id="smbmap">smbmap</h1>
+
+<p>사용자가 전체 도메인에 걸쳐 Samba 공유 드라이브를 열거할 수 있게 합니다.
+더 많은 정보: <a href="https://github.com/ShawnDEvans/smbmap">https://github.com/ShawnDEvans/smbmap</a>.</p>
+
+<ul>
+  <li>NULL 세션이 활성화되고 공유가 열린 호스트 열거:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbmap --host-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>호스트를 열거하고 SMB 파일 권한 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbmap --host-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_이름</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> -q</code></p>
+
+<ul>
+  <li>사용자 이름과 비밀번호를 사용하여 IP 또는 호스트 이름에 SMB로 연결:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbmap -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_이름</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인</span><code class="language-plaintext highlighter-rouge"> -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP_또는_호스트_이름</span></p>
+
+<ul>
+  <li>파일 이름 패턴(정규 표현식)으로 검색하고 특정 공유를 제외하면서 N 단계 깊이까지 재귀적으로 파일을 찾아 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbmap --host-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_이름</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> -q -R --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">숫자</span><code class="language-plaintext highlighter-rouge"> --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">공유이름</span><code class="language-plaintext highlighter-rouge"> -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일패턴</span></p>
+
+<ul>
+  <li>사용자 이름과 비밀번호를 사용하여 SMB를 통해 파일 업로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">smbmap -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_이름</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">비밀번호</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">도메인</span><code class="language-plaintext highlighter-rouge"> -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP_또는_호스트_이름</span><code class="language-plaintext highlighter-rouge"> --upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span><code class="language-plaintext highlighter-rouge"> '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/공유_이름/원격_파일명</span><code class="language-plaintext highlighter-rouge">'</code></p>

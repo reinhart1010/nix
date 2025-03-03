@@ -1,0 +1,53 @@
+<h1 id="mamba">mamba</h1>
+
+<p>Fast, cross-platform package manager, intended as a drop-in replacement for conda.
+Some subcommands such as <code class="language-plaintext highlighter-rouge">repoquery</code> have their own usage documentation.
+More information: <a href="https://mamba.readthedocs.io/en/latest/user_guide/mamba.html">https://mamba.readthedocs.io/en/latest/user_guide/mamba.html</a>.</p>
+
+<ul>
+  <li>Create a new environment, installing the specified packages into it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mamba create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">python=3.10 matplotlib</span></p>
+
+<ul>
+  <li>Install packages into the current environment, specifying the package [c]hannel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mamba install -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">conda-forge</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">python=3.6 numpy</span></p>
+
+<ul>
+  <li>Update all packages in the current environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mamba update --all</code></p>
+
+<ul>
+  <li>Search for a specific package across repositories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mamba repoquery search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numpy</span></p>
+
+<ul>
+  <li>List all environments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mamba info --envs</code></p>
+
+<ul>
+  <li>Remove unused [p]ackages and [t]arballs from the cache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mamba clean -pt</code></p>
+
+<ul>
+  <li>Activate an environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mamba activate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_name</span></p>
+
+<ul>
+  <li>List all installed packages in the currently activated environment:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mamba list</code></p>

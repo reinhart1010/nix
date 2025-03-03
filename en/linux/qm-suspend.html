@@ -1,0 +1,23 @@
+<h1 id="qm-suspend">qm suspend</h1>
+
+<p>Suspends a virtual machine (VM) in the Proxmox Virtual Environment (PVE).
+Use <code class="language-plaintext highlighter-rouge">--skiplock</code> and <code class="language-plaintext highlighter-rouge">--skiplockstorage</code> flags with caution, as they may lead to data corruption in certain situations.
+More information: <a href="https://pve.proxmox.com/pve-docs/qm.1.html">https://pve.proxmox.com/pve-docs/qm.1.html</a>.</p>
+
+<ul>
+  <li>Suspend a virtual machine by ID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm suspend </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">integer</span></p>
+
+<ul>
+  <li>Skip the lock check when suspending the VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm suspend </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">integer</span><code class="language-plaintext highlighter-rouge"> --skiplock</code></p>
+
+<ul>
+  <li>Skip the lock check for storage when suspending the VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">qm suspend </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">integer</span><code class="language-plaintext highlighter-rouge"> --skiplockstorage</code></p>

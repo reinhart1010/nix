@@ -1,0 +1,40 @@
+<h1 id="pv">pv</h1>
+
+<p>Monitor the progress of data through a pipe.
+More information: <a href="https://manned.org/pv">https://manned.org/pv</a>.</p>
+
+<ul>
+  <li>Print the contents of the file and display a progress bar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Measure the speed and amount of data flow between pipes (<code class="language-plaintext highlighter-rouge">--size</code> is optional):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">command1 | pv --size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expected_amount_of_data_for_eta</span><code class="language-plaintext highlighter-rouge"> | command2</code></p>
+
+<ul>
+  <li>Filter a file, see both progress and amount of output data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pv -cN in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">big_text_file</span><code class="language-plaintext highlighter-rouge"> | grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span><code class="language-plaintext highlighter-rouge"> | pv -cN out &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filtered_file</span></p>
+
+<ul>
+  <li>Attach to an already running process and see its file reading progress:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pv -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>
+
+<ul>
+  <li>Read an erroneous file, skip errors as <code class="language-plaintext highlighter-rouge">dd conv=sync,noerror</code> would:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pv -EE </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/faulty_media</span><code class="language-plaintext highlighter-rouge"> &gt; image.img</code></p>
+
+<ul>
+  <li>Stop reading after reading specified amount of data, rate limit to 1K/s:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pv -L 1K --stop-at --size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">maximum_file_size_to_be_read</span></p>

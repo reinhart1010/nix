@@ -1,0 +1,34 @@
+<h1 id="distrobox-export">distrobox-export</h1>
+
+<p>Exporta aplicaciones/servicios/binarios del contenedor al sistema operativo anfitrión. Vea también: <code class="language-plaintext highlighter-rouge">tldr distrobox</code>.
+Más información: <a href="https://distrobox.it/usage/distrobox-export">https://distrobox.it/usage/distrobox-export</a>.</p>
+
+<ul>
+  <li>Exporta una aplicación del contenedor al anfitrión (la entrada de escritorio/ícono aparecerá en la lista de aplicaciones del sistema anfitrión):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-export --app </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span><code class="language-plaintext highlighter-rouge"> --extra-flags "--foreground"</code></p>
+
+<ul>
+  <li>Exporta un binario del contenedor al anfitrión:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-export --bin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/binario</span><code class="language-plaintext highlighter-rouge"> --export-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/binario_en_anfitrión</span></p>
+
+<ul>
+  <li>Exporta un binario del contenedor al anfitrión (es decir, <code class="language-plaintext highlighter-rouge">$HOME/.local/bin</code>) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-export --bin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/binario</span><code class="language-plaintext highlighter-rouge"> --export-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/exportar</span></p>
+
+<ul>
+  <li>Exporta un servicio desde el contenedor al anfitrión (<code class="language-plaintext highlighter-rouge">--sudo</code> ejecutará el servicio como root dentro del contenedor):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-export --service </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span><code class="language-plaintext highlighter-rouge"> --extra-flags "--allow-newer-config" --sudo</code></p>
+
+<ul>
+  <li>Elimina o deja de exportar una aplicación exportada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">distrobox-export --app </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span><code class="language-plaintext highlighter-rouge"> --delete</code></p>

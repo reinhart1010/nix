@@ -1,0 +1,46 @@
+<h1 id="dash">dash</h1>
+
+<p>Debian Almquist Shell, uma implementação moderna e compatível com POSIX de <code class="language-plaintext highlighter-rouge">sh</code> (não compatível com Bash).
+Mais informações: <a href="https://manned.org/dash">https://manned.org/dash</a>.</p>
+
+<ul>
+  <li>Inicia uma sessão de shell interativa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dash</code></p>
+
+<ul>
+  <li>Executa [c]omandos específicos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dash -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'dash executado'</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Executa um script específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.sh</span></p>
+
+<ul>
+  <li>Checar erros de sintaxe em um script específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dash -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.sh</span></p>
+
+<ul>
+  <li>Executa comandos de um script, imprimindo cada comando antes de executá-lo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dash -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.sh</span></p>
+
+<ul>
+  <li>Executa comandos de um script, parando no primeiro [e]rro:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dash -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.sh</span></p>
+
+<ul>
+  <li>Executa comandos específicos de <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'dash executado'"</span><code class="language-plaintext highlighter-rouge"> | dash</code></p>

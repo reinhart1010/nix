@@ -1,0 +1,47 @@
+<h1>[</h1>
+
+<p>Teste Dateitypen und vergleiche Werte.
+Gibt 0 zurück, wenn der Ausdruck wahr ist und 1 wenn nicht.
+Weitere Informationen: <a href="https://gnu.org/software/bash/manual/bash.html#index-test">https://gnu.org/software/bash/manual/bash.html#index-test</a>.</p>
+
+<ul>
+  <li>Überprüfe, ob eine bestimmte Variable gleich oder ungleich einem bestimmen String ist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">=|!=</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Überprüfe, ob eine Variable gleich/ungleich/größer/kleiner/größer-gleich oder kleiner-gleich als eine bestimme Zahl ist:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">" -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eq|ne|gt|lt|ge|le</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zahl</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>Überprüfe, ob eine bestimmte Variable einen nicht-leeren Wert hat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -n "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Überprüfe, ob eine bestimmte Variable einen leeren Wert hat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -z "$</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Überprüfe, ob eine bestimmte Datei existiert:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>Überprüfe, ob ein bestimmtes Verzeichnis existiert:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis</span><code class="language-plaintext highlighter-rouge"> ]</code></p>
+
+<ul>
+  <li>Überprüfe, ob eine Datei oder ein Verzeichnis existiert:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_verzeichnis</span><code class="language-plaintext highlighter-rouge"> ]</code></p>

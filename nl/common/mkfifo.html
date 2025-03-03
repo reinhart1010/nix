@@ -1,0 +1,28 @@
+<h1 id="mkfifo">mkfifo</h1>
+
+<p>Maak FIFOs (benoemde pipes).
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/mkfifo-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/mkfifo-invocation.html</a>.</p>
+
+<ul>
+  <li>Maak een benoemde pipe op een opgegeven pad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfifo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pipe</span></p>
+
+<ul>
+  <li>Stuur data naar een benoemde pipe en stuur het commando naar de achtergrond:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World</span><code class="language-plaintext highlighter-rouge">" &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pipe</span><code class="language-plaintext highlighter-rouge"> &amp;</code></p>
+
+<ul>
+  <li>Ontvang data van benoemde pipe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pipe</span></p>
+
+<ul>
+  <li>Deel je terminal sessie in real-time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mkfifo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pipe</span><code class="language-plaintext highlighter-rouge">; script -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/pipe</span></p>

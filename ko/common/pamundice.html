@@ -1,0 +1,23 @@
+<h1 id="pamundice">pamundice</h1>
+
+<p>여러 개의 Netpbm 이미지를 하나로 결합.
+같이 보기: <code class="language-plaintext highlighter-rouge">pamdice</code>.
+더 많은 정보: <a href="https://netpbm.sourceforge.net/doc/pamundice.html">https://netpbm.sourceforge.net/doc/pamundice.html</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">printf</code> 스타일의 파일 이름 표현과 일치하는 이미지 결합. 특정 크기의 그리드를 가정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamundice </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일이름_%1d_%1a.ppm</span><code class="language-plaintext highlighter-rouge"> -across </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그리드_너비</span><code class="language-plaintext highlighter-rouge"> -down </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">그리드_높이</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.ppm</span></p>
+
+<ul>
+  <li>타일이 지정된 양만큼 수평 및 수직으로 겹친다고 가정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamundice </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일이름_%1d_%1a.ppm</span><code class="language-plaintext highlighter-rouge"> -across </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_값</span><code class="language-plaintext highlighter-rouge"> -down </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_값</span><code class="language-plaintext highlighter-rouge"> -hoverlap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge"> -voverlap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">값</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.ppm</span></p>
+
+<ul>
+  <li>결합할 이미지를 한 줄에 하나의 파일 이름이 있는 텍스트 파일로 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pamundice -listfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.txt</span><code class="language-plaintext highlighter-rouge"> -across </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_값</span><code class="language-plaintext highlighter-rouge"> -down </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_값</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력.ppm</span></p>

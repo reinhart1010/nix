@@ -1,0 +1,42 @@
+<h1 id="agetty">agetty</h1>
+
+<p>Alternative <code class="language-plaintext highlighter-rouge">getty</code>: Open a <code class="language-plaintext highlighter-rouge">tty</code> port, prompt for a login name, and invoke the <code class="language-plaintext highlighter-rouge">/bin/login</code> command.
+It is normally invoked by <code class="language-plaintext highlighter-rouge">init</code>.
+Note: the baud rate is the speed of data transfer between a terminal and a device over a serial connection.
+More information: <a href="https://manned.org/agetty">https://manned.org/agetty</a>.</p>
+
+<ul>
+  <li>Connect <code class="language-plaintext highlighter-rouge">stdin</code> to a port (relative to <code class="language-plaintext highlighter-rouge">/dev</code>) and optionally specify a baud rate (defaults to 9600):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">agetty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tty</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">115200</span></p>
+
+<ul>
+  <li>Assume <code class="language-plaintext highlighter-rouge">stdin</code> is already connected to a <code class="language-plaintext highlighter-rouge">tty</code> and set a timeout for the login:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">agetty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–timeout</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">timeout_in_seconds</span><code class="language-plaintext highlighter-rouge"> -</code></p>
+
+<ul>
+  <li>Assume the <code class="language-plaintext highlighter-rouge">tty</code> is [8]-bit, overriding the <code class="language-plaintext highlighter-rouge">TERM</code> environment variable set by <code class="language-plaintext highlighter-rouge">init</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">agetty -8 - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">term_var</span></p>
+
+<ul>
+  <li>Skip the login (no login) and invoke, as root, another login program instead of <code class="language-plaintext highlighter-rouge">/bin/login</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">agetty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–skip-login</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–login-program</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">login_program</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tty</span></p>
+
+<ul>
+  <li>Do not display the pre-login (issue) file (<code class="language-plaintext highlighter-rouge">/etc/issue</code> by default) before writing the login prompt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">agetty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-i|–noissue</span><code class="language-plaintext highlighter-rouge"> -</code></p>
+
+<ul>
+  <li>Change the root directory and write a specific fake host into the <code class="language-plaintext highlighter-rouge">utmp</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">agetty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–chroot</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/root_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-H|–host</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fake_host</span><code class="language-plaintext highlighter-rouge"> -</code></p>

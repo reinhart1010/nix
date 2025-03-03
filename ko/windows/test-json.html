@@ -1,0 +1,23 @@
+<h1 id="test-json">Test-Json</h1>
+
+<p>문자열이 유효한 JSON 문서인지 여부를 테스트합니다.
+참고: 이 명령어는 PowerShell을 통해서만 사용할 수 있습니다.
+더 많은 정보: <a href="https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/test-json">https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/test-json</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 문자열이 JSON 형식인지 테스트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">'</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge">' | Test-Json</code></p>
+
+<ul>
+  <li>문자열이 JSON 형식인지 테스트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Test-Json -Json '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">테스트_대상_json</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 문자열이 특정 스키마 파일과 일치하는지 테스트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">'</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span><code class="language-plaintext highlighter-rouge">' | Test-Json -SchemaFile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로\대상\스키마_파일.json</span></p>

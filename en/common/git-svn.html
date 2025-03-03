@@ -1,0 +1,34 @@
+<h1 id="git-svn">git svn</h1>
+
+<p>Bidirectional operation between a Subversion repository and Git.
+More information: <a href="https://git-scm.com/docs/git-svn">https://git-scm.com/docs/git-svn</a>.</p>
+
+<ul>
+  <li>Clone an SVN repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git svn clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/subversion_repo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_dir</span></p>
+
+<ul>
+  <li>Clone an SVN repository starting at a given revision number:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git svn clone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|–revision</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234</span><code class="language-plaintext highlighter-rouge">:HEAD </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://svn.example.net/subversion/repo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_dir</span></p>
+
+<ul>
+  <li>Update local clone from the remote SVN repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git svn rebase</code></p>
+
+<ul>
+  <li>Fetch updates from the remote SVN repository without changing the Git HEAD:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git svn fetch</code></p>
+
+<ul>
+  <li>Commit back to the SVN repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git svn commit</code></p>

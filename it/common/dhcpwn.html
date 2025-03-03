@@ -1,0 +1,16 @@
+<h1 id="dhcpwn">dhcpwn</h1>
+
+<p>Testa attacchi di esaurimento IP DHCP ed intercetta il traffico DHCP locale.
+Maggiori informazioni: <a href="https://github.com/mschwager/dhcpwn">https://github.com/mschwager/dhcpwn</a>.</p>
+
+<ul>
+  <li>Inonda la rete con richieste di IP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dhcpwn --interface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interfaccia</span><code class="language-plaintext highlighter-rouge"> flood --count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_di_richieste</span></p>
+
+<ul>
+  <li>Intercetta traffico DHCP locale:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dhcpwn --interface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interfaccia</span><code class="language-plaintext highlighter-rouge"> sniff</code></p>

@@ -1,0 +1,34 @@
+<h1 id="fsutil">fsutil</h1>
+
+<p>파일 시스템 볼륨에 대한 정보를 표시.
+더 많은 정보: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/fsutil">https://learn.microsoft.com/windows-server/administration/windows-commands/fsutil</a>.</p>
+
+<ul>
+  <li>볼륨 목록 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fsutil volume list</code></p>
+
+<ul>
+  <li>볼륨의 파일 시스템 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fsutil fsInfo volumeInfo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">드라이브_문자|볼륨_경로</span></p>
+
+<ul>
+  <li>모든 볼륨의 파일 시스템 자동 복구 현재 상태 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fsutil repair state</code></p>
+
+<ul>
+  <li>모든 볼륨의 더티 비트 상태 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fsutil dirty query</code></p>
+
+<ul>
+  <li>볼륨의 더티 비트 상태 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fsutil dirty set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">드라이브_문자|볼륨_경로</span></p>

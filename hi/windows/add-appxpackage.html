@@ -1,0 +1,28 @@
+<h1 id="add-appxpackage">Add-AppxPackage</h1>
+
+<p>उपयोगकर्ता खाते में एक हस्ताक्षरित ऐप पैकेज (<code class="language-plaintext highlighter-rouge">.appx</code>, <code class="language-plaintext highlighter-rouge">.msix</code>, <code class="language-plaintext highlighter-rouge">.appxbundle</code> और <code class="language-plaintext highlighter-rouge">.msixbundle</code>) जोड़ने के लिए एक PowerShell उपयोगिता।
+अधिक जानकारी: <a href="https://learn.microsoft.com/powershell/module/appx/Add-AppxPackage">https://learn.microsoft.com/powershell/module/appx/Add-AppxPackage</a>।</p>
+
+<ul>
+  <li>एक ऐप पैकेज जोड़ें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Add-AppxPackage -Path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज.msix\का\पथ</span></p>
+
+<ul>
+  <li>निर्भरता के साथ एक ऐप पैकेज जोड़ें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Add-AppxPackage -Path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज.msix\का\पथ</span><code class="language-plaintext highlighter-rouge"> -DependencyPath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">निर्भरता.msix\का\पथ</span></p>
+
+<ul>
+  <li>ऐप इंस्टॉलर फ़ाइल का उपयोग करके एक ऐप इंस्टॉल करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Add-AppxPackage -AppInstallerFile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ऐप_इंस्टॉलर.msix\का\पथ</span></p>
+
+<ul>
+  <li>एक अहस्ताक्षरित पैकेज जोड़ें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Add-AppxPackage -Path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पैकेज.msix\का\पथ</span><code class="language-plaintext highlighter-rouge"> -DependencyPath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">निर्भरता.msix\का\पथ</span><code class="language-plaintext highlighter-rouge"> -AllowUnsigned</code></p>

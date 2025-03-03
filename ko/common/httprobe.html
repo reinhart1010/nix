@@ -1,0 +1,28 @@
+<h1 id="httprobe">httprobe</h1>
+
+<p>작동하는 HTTP 및 HTTPS 서버에 대한 도메인 밒 프로브 목록을 가져옴.
+더 많은 정보: <a href="https://github.com/tomnomnom/httprobe">https://github.com/tomnomnom/httprobe</a>.</p>
+
+<ul>
+  <li>텍스트 파일에서 도에인 목록을 조사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력_파일</span><code class="language-plaintext highlighter-rouge"> | httprobe</code></p>
+
+<ul>
+  <li>HTTPS가 작동하지 않는 경우에만 HTTP 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력_파일</span><code class="language-plaintext highlighter-rouge"> | httprobe --prefer-https</code></p>
+
+<ul>
+  <li>특정 프로토콜을 사용하여 추가 포트를 조사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력_파일</span><code class="language-plaintext highlighter-rouge"> | httprobe -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https:2222</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">httprobe --help</code></p>

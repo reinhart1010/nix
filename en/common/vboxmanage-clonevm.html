@@ -1,0 +1,28 @@
+<h1 id="vboxmanage-clonevm">vboxmanage-clonevm</h1>
+
+<p>Create a clone of an existing virtual machine (VM).
+More information: <a href="https://www.virtualbox.org/manual/ch08.html#vboxmanage-clonevm">https://www.virtualbox.org/manual/ch08.html#vboxmanage-clonevm</a>.</p>
+
+<ul>
+  <li>Clone the specified VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage clonevm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span></p>
+
+<ul>
+  <li>Specify a new name for the new VM:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage clonevm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_vm_name</span></p>
+
+<ul>
+  <li>Indicate the folder where the new VM configuration is saved:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage clonevm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span><code class="language-plaintext highlighter-rouge"> --basefolder </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Register the cloned VM in VirtualBox:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage clonevm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span><code class="language-plaintext highlighter-rouge"> --register</code></p>

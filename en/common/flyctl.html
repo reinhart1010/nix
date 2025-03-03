@@ -1,0 +1,52 @@
+<h1 id="flyctl">flyctl</h1>
+
+<p>Command-line tool for flyctl.io.
+More information: <a href="https://github.com/superfly/flyctl">https://github.com/superfly/flyctl</a>.</p>
+
+<ul>
+  <li>Sign into a Fly account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flyctl auth login</code></p>
+
+<ul>
+  <li>Launch an application from a specific Dockerfile (the default path is the current working directory):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flyctl launch --dockerfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/dockerfile</span></p>
+
+<ul>
+  <li>Open the current deployed application in the default web browser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flyctl open</code></p>
+
+<ul>
+  <li>Deploy the Fly applications from a specific Dockerfile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flyctl deploy --dockerfile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/dockerfile</span></p>
+
+<ul>
+  <li>Open the Fly Web UI for the current application in a web browser:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flyctl dashboard</code></p>
+
+<ul>
+  <li>List all applications in the logged-in Fly account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flyctl apps list</code></p>
+
+<ul>
+  <li>View the status of a specific running application:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flyctl status --app </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span></p>
+
+<ul>
+  <li>Display version information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flyctl version</code></p>

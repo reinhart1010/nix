@@ -1,0 +1,41 @@
+<h1 id="dmidecode">dmidecode</h1>
+
+<p>Muestra la tabla de contenidos del DMI (también conocido como SMBIOS) en un formato legible por humanos.
+Requiere privilegios de root.
+Más información: <a href="https://manned.org/dmidecode">https://manned.org/dmidecode</a>.</p>
+
+<ul>
+  <li>Muestra todos la tabla de contenidos de DMI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmidecode</code></p>
+
+<ul>
+  <li>Muestra la versión de la BIOS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmidecode -s bios-version</code></p>
+
+<ul>
+  <li>Muestra el número de serie del equipo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmidecode -s system-serial-number</code></p>
+
+<ul>
+  <li>Muestra información de la BIOS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmidecode -t bios</code></p>
+
+<ul>
+  <li>Muestra información de la CPU:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmidecode -t processor</code></p>
+
+<ul>
+  <li>Muestra información de la memoria:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dmidecode -t memory</code></p>

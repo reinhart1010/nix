@@ -1,0 +1,46 @@
+<h1 id="docker-network">docker network</h1>
+
+<p>Docker ağları oluştur ve yönet.
+Daha fazla bilgi için: <a href="https://docs.docker.com/reference/cli/docker/network/">https://docs.docker.com/reference/cli/docker/network/</a>.</p>
+
+<ul>
+  <li>docker daemon'daki tüm müsait ve düzenlenmiş ağları sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network ls</code></p>
+
+<ul>
+  <li>Kullanıcı tarafından belirtilmiş bir ağ oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network create --driver </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">driver_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ağ_ismi</span></p>
+
+<ul>
+  <li>Boşluk ile ayrılmış bir ağ listesinin detaylı bilgisini görüntüle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ağ_ismi</span></p>
+
+<ul>
+  <li>Bir konteyneri isim veya ID kullanarak bir ağa bağla:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network connect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ağ_ismi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner_ismi|ID</span></p>
+
+<ul>
+  <li>Bir konteyneri bir ağdan çıkar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network disconnect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ağ_ismi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner_ismi|ID</span></p>
+
+<ul>
+  <li>Tüm kullanılmayan (hiçbir konteyner tarafından belirtilmeyen) ağları sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network prune</code></p>
+
+<ul>
+  <li>Kullanılmayan ağların boşluk ile ayrılmış bir listesini sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker network rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ağ_ismi</span></p>

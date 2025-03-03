@@ -1,0 +1,53 @@
+<h1 id="del">del</h1>
+
+<p>Delete one or more files.
+In PowerShell, this command is an alias of <code class="language-plaintext highlighter-rouge">Remove-Item</code>. This documentation is based on the Command Prompt (<code class="language-plaintext highlighter-rouge">cmd</code>) version of <code class="language-plaintext highlighter-rouge">del</code>.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/del">https://learn.microsoft.com/windows-server/administration/windows-commands/del</a>.</p>
+
+<ul>
+  <li>View the documentation of the equivalent PowerShell command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr remove-item</code></p>
+
+<ul>
+  <li>Delete one or more files or patterns:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern1 file_pattern2 …</span></p>
+
+<ul>
+  <li>Prompt for confirmation before deleting each file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span><code class="language-plaintext highlighter-rouge"> /p</code></p>
+
+<ul>
+  <li>Force the deletion of read-only files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span><code class="language-plaintext highlighter-rouge"> /f</code></p>
+
+<ul>
+  <li>Recursively delete file(s) from all subdirectories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span><code class="language-plaintext highlighter-rouge"> /s</code></p>
+
+<ul>
+  <li>Do not prompt when deleting files based on a global wildcard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span><code class="language-plaintext highlighter-rouge"> /q</code></p>
+
+<ul>
+  <li>Display the help and list available attributes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del /?</code></p>
+
+<ul>
+  <li>Delete files based on specified attributes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span><code class="language-plaintext highlighter-rouge"> /a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">attribute</span></p>

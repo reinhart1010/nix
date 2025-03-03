@@ -1,0 +1,47 @@
+<h1 id="ansible">ansible</h1>
+
+<p>Manage groups of computers remotely over SSH. (use the <code class="language-plaintext highlighter-rouge">/etc/ansible/hosts</code> file to add new groups/hosts).
+Some subcommands such as <code class="language-plaintext highlighter-rouge">galaxy</code> have their own usage documentation.
+More information: <a href="https://www.ansible.com/">https://www.ansible.com/</a>.</p>
+
+<ul>
+  <li>List hosts belonging to a group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span><code class="language-plaintext highlighter-rouge"> --list-hosts</code></p>
+
+<ul>
+  <li>Ping a group of hosts by invoking the ping [m]odule:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span><code class="language-plaintext highlighter-rouge"> -m ping</code></p>
+
+<ul>
+  <li>Display facts about a group of hosts by invoking the setup [m]odule:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span><code class="language-plaintext highlighter-rouge"> -m setup</code></p>
+
+<ul>
+  <li>Execute a command on a group of hosts by invoking command module with arguments:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span><code class="language-plaintext highlighter-rouge"> -m command -a '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_command</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Execute a command with administrative privileges:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span><code class="language-plaintext highlighter-rouge"> --become --ask-become-pass -m command -a '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_command</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Execute a command using a custom inventory file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inventory_file</span><code class="language-plaintext highlighter-rouge"> -m command -a '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_command</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>List the groups in an inventory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible localhost -m debug -a '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">var=groups.keys()</span><code class="language-plaintext highlighter-rouge">'</code></p>

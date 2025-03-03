@@ -1,0 +1,22 @@
+<h1 id="tcc">tcc</h1>
+
+<p>A tiny C compiler that can run C source files as scripts and otherwise has command-line options similar to <code class="language-plaintext highlighter-rouge">gcc</code>.
+More information: <a href="https://bellard.org/tcc/tcc-doc.html">https://bellard.org/tcc/tcc-doc.html</a>.</p>
+
+<ul>
+  <li>Compile and link 2 source files to generate an executable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcc -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.c</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.c</span></p>
+
+<ul>
+  <li>Directly run an input file like a script and pass arguments to it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tcc -run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_file.c</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span></p>
+
+<ul>
+  <li>Interpret C source files with a shebang inside the file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">#!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/full/path/to/tcc</span><code class="language-plaintext highlighter-rouge"> -run</code></p>

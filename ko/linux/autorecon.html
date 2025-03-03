@@ -1,0 +1,28 @@
+<h1 id="autorecon">autorecon</h1>
+
+<p>다중 스레드 네트워크 정찰 도구로, 서비스의 자동 열거를 수행합니다.
+더 많은 정보: <a href="https://github.com/Tib3rius/AutoRecon">https://github.com/Tib3rius/AutoRecon</a>.</p>
+
+<ul>
+  <li>대상 호스트에 대해 정찰 수행 (<code class="language-plaintext highlighter-rouge">./results</code>에 자세한 스캔 결과가 저장됩니다):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo autorecon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트_또는_IP1,호스트_또는_IP2,…</span></p>
+
+<ul>
+  <li>파일에 지정된 [t]대상에 대해 정찰 수행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo autorecon --target-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>다른 디렉토리에 [o]출력 결과 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo autorecon --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/결과</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트_또는_IP1,호스트_또는_IP2,…</span></p>
+
+<ul>
+  <li>특정 [p]포트 및 프로토콜로 스캔 제한 (<code class="language-plaintext highlighter-rouge">T</code>는 TCP, <code class="language-plaintext highlighter-rouge">U</code>는 UDP, <code class="language-plaintext highlighter-rouge">B</code>는 둘 다):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo autorecon --ports </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">T:21-25,80,443,U:53,B:123</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트_또는_IP1,호스트_또는_IP2,…</span></p>

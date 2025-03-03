@@ -1,0 +1,41 @@
+<h1 id="nixpkgs-review">nixpkgs-review</h1>
+
+<p>Review pull requests in the NixOS packages repository (nixpkgs).
+After a successful build, a <code class="language-plaintext highlighter-rouge">nix-shell</code> with all built packages is started.
+More information: <a href="https://github.com/Mic92/nixpkgs-review#usage">https://github.com/Mic92/nixpkgs-review#usage</a>.</p>
+
+<ul>
+  <li>Build changed packages in the specified pull request:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nixpkgs-review pr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pr_number|pr_url</span></p>
+
+<ul>
+  <li>Build changed packages and post a comment with a report (requires setting up a token in <code class="language-plaintext highlighter-rouge">hub</code>, <code class="language-plaintext highlighter-rouge">gh</code>, or the <code class="language-plaintext highlighter-rouge">GITHUB_TOKEN</code> environment variable):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nixpkgs-review pr --post-result </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pr_number|pr_url</span></p>
+
+<ul>
+  <li>Build changed packages and print a report:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nixpkgs-review pr --print-result </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pr_number|pr_url</span></p>
+
+<ul>
+  <li>Build changed packages in a local commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nixpkgs-review rev </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>Build changed packages that haven't been committed yet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nixpkgs-review wip</code></p>
+
+<ul>
+  <li>Build changed packages that have been staged:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nixpkgs-review wip --staged</code></p>

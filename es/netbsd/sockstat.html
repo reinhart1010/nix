@@ -1,0 +1,36 @@
+<h1 id="sockstat">sockstat</h1>
+
+<p>Lista sockets abiertos de Internet o dominios UNIX.
+Nota: este programa es una reescritura para NetBSD 3.0 de <code class="language-plaintext highlighter-rouge">sockstat</code> de FreeBSD.
+Vea también: <code class="language-plaintext highlighter-rouge">netstat</code>.
+Más información: <a href="https://man.netbsd.org/sockstat.1">https://man.netbsd.org/sockstat.1</a>.</p>
+
+<ul>
+  <li>Muestra información de sockets IPv4, IPv6 y Unix que estén escuchando y conectados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat</code></p>
+
+<ul>
+  <li>Muestra información para sockets IPv[4]/IPv[6] escuchando ([l]istening) sobre [p]uertos específicos usando un [P]rotocolo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4|6</span><code class="language-plaintext highlighter-rouge"> -l -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp|udp|sctp|divert</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto1,puerto2…</span></p>
+
+<ul>
+  <li>También muestra sockets [c]onectados, mostrando sockets [u]nix:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -cu</code></p>
+
+<ul>
+  <li>Solo muestra salida [n]umérica, sin resolver nombres simbólicos para direcciones y puertos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -n</code></p>
+
+<ul>
+  <li>Lista sockets de una [f]amilia de direcciones específica:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sockstat -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inet|inet6|local|unix</span></p>

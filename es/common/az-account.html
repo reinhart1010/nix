@@ -1,0 +1,35 @@
+<h1 id="az-account">az account</h1>
+
+<p>Administra la información de una suscripción de Azure.
+Parte de <code class="language-plaintext highlighter-rouge">azure-cli</code> (también conocido como <code class="language-plaintext highlighter-rouge">az</code>).
+Más información: <a href="https://learn.microsoft.com/cli/azure/account">https://learn.microsoft.com/cli/azure/account</a>.</p>
+
+<ul>
+  <li>Lista las suscripciones de la cuenta activa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az account list</code></p>
+
+<ul>
+  <li>Establece una <code class="language-plaintext highlighter-rouge">subscription</code> como la suscripción activa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az account set --subscription </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_suscripción</span></p>
+
+<ul>
+  <li>Lista las regiones admitidas para la suscripción activa:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az account list-locations</code></p>
+
+<ul>
+  <li>Imprime un token de acceso para usar con la <code class="language-plaintext highlighter-rouge">MS Graph API</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az account get-access-token --resource-type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ms-graph</span></p>
+
+<ul>
+  <li>Imprime los detalles de la suscripción activa actual en un formato específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az account show --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|tsv|table|yaml</span></p>

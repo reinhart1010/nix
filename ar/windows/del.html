@@ -1,0 +1,54 @@
+<h1 id="del">del</h1>
+
+<p>حذف ملف واحد او مجموعه من الملفات.
+وهو الاسم المستعار للامر <code class="language-plaintext highlighter-rouge">Remove-Item</code>.
+هذه الوثائق تستند إلى إصدار سطر الأوامر (<code class="language-plaintext highlighter-rouge">cmd</code>) من <code class="language-plaintext highlighter-rouge">del</code>.
+لمزيد من التفاصيل: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/del">https://learn.microsoft.com/windows-server/administration/windows-commands/del</a>.</p>
+
+<ul>
+  <li>اعرض التوثيقات للأمر الأصلي:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tldr remove-item</code></p>
+
+<ul>
+  <li>حذف ملف او أكثر او حذف التطابق مع أنماط:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern1 file_pattern2 …</span></p>
+
+<ul>
+  <li>التأكيد قبل الحذف:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span><code class="language-plaintext highlighter-rouge"> /p</code></p>
+
+<ul>
+  <li>حذف ملفات القراءة فقط:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span><code class="language-plaintext highlighter-rouge"> /f</code></p>
+
+<ul>
+  <li>حذف الملفات الموجودة في المجلد الحالي وأيضًا الملفات الفرعية:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span><code class="language-plaintext highlighter-rouge"> /s</code></p>
+
+<ul>
+  <li>لا تطلب التأكيد عند حذف الملفات بناءً على محدد عام:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span><code class="language-plaintext highlighter-rouge"> /q</code></p>
+
+<ul>
+  <li>عرض المساعدة وقائمة السمات المتاحة:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del /?</code></p>
+
+<ul>
+  <li>حذف ملف اعتمادا على محدد معين:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">del </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span><code class="language-plaintext highlighter-rouge"> /a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">attribute</span></p>

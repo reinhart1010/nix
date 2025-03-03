@@ -1,0 +1,28 @@
+<h1 id="asciidoctor">asciidoctor</h1>
+
+<p>Преобразователь AsciiDoc файлов в другие форматы для публикации.
+Больше информации: <a href="https://docs.asciidoctor.org">https://docs.asciidoctor.org</a>.</p>
+
+<ul>
+  <li>Преобразовать данный <code class="language-plaintext highlighter-rouge">.adoc</code> файл в HTML (формат на выходе по умолчанию):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciidoctor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла.adoc</span></p>
+
+<ul>
+  <li>Преобразовать данный <code class="language-plaintext highlighter-rouge">.adoc</code> файл в HTML и привязать к таблице стилей CSS:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciidoctor -a stylesheet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/таблицы-стилей.css</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла.adoc</span></p>
+
+<ul>
+  <li>Преобразовать данный <code class="language-plaintext highlighter-rouge">.adoc</code> файл во встраиваемый HTML, убрав всё кроме самого текста:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciidoctor --embedded </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла.adoc</span></p>
+
+<ul>
+  <li>Преобразовать данный <code class="language-plaintext highlighter-rouge">.adoc</code> файл в PDF с помощью библиотеки <code class="language-plaintext highlighter-rouge">asciidoctor-pdf</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciidoctor --backend </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span><code class="language-plaintext highlighter-rouge"> --require </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">asciidoctor-pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла.adoc</span></p>

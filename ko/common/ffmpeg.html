@@ -1,0 +1,52 @@
+<h1 id="ffmpeg">ffmpeg</h1>
+
+<p>비디오 변환 도구.
+더 많은 정보: <a href="https://ffmpeg.org">https://ffmpeg.org</a>.</p>
+
+<ul>
+  <li>비디오에서 사운드를 추출하여 MP3로 저장:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/비디오.mp4</span><code class="language-plaintext highlighter-rouge"> -vn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소리.mp3</span></p>
+
+<ul>
+  <li>FLAC 파일을 Red Book CD 형식 (44100kHz, 16bit)으로 트랜스코딩:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_소리.flac</span><code class="language-plaintext highlighter-rouge"> -ar 44100 -sample_fmt s16 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_소리.wav</span></p>
+
+<ul>
+  <li>비디오를 GIF로 저장하고, 높이를 1000px로 조정하고 프레임 속도를 15로 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/비디오.mp4</span><code class="language-plaintext highlighter-rouge"> -vf 'scale=-1:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000</span><code class="language-plaintext highlighter-rouge">' -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">15</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.gif</span></p>
+
+<ul>
+  <li>번호가 매겨진 이미지 (<code class="language-plaintext highlighter-rouge">frame_1.jpg</code>, <code class="language-plaintext highlighter-rouge">frame_2.jpg</code>, etc) 를 비디오 또는 GIF로 결합:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/프레임_%d.jpg</span><code class="language-plaintext highlighter-rouge"> -f image2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">video.mpg|video.gif</span></p>
+
+<ul>
+  <li>주어진 시작 시간 mm:ss부터 종료 시간 mm2:ss2까지 비디오를 편집 (끝까지 다듬으려면 -to 플래그 생략):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_비디오.mp4</span><code class="language-plaintext highlighter-rouge"> -ss </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mm:ss</span><code class="language-plaintext highlighter-rouge"> -to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mm2:ss2</span><code class="language-plaintext highlighter-rouge"> -codec copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_비디오.mp4</span></p>
+
+<ul>
+  <li>AVI 비디오를 MP4로 변환. AAC 오디오 @ 128kbit, h264 Video @ CRF 23:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_비디오</span><code class="language-plaintext highlighter-rouge">.avi -codec:a aac -b:a 128k -codec:v libx264 -crf 23 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_비디오</span><code class="language-plaintext highlighter-rouge">.mp4</code></p>
+
+<ul>
+  <li>오디오 또는 비디오 스트림을 다시 인코딩하지 않고 MKV 비디오를 MP4로 리먹싱:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_비디오</span><code class="language-plaintext highlighter-rouge">.mkv -codec copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_비디오</span><code class="language-plaintext highlighter-rouge">.mp4</code></p>
+
+<ul>
+  <li>MP4 비디오를 VP9 코덱으로 변환. 최상의 품질을 위해서는, CRF 값(권장 범위 15-35)을 사용하고 -b:v는 0이어야 함:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ffmpeg -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_비디오</span><code class="language-plaintext highlighter-rouge">.mp4 -codec:v libvpx-vp9 -crf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span><code class="language-plaintext highlighter-rouge"> -b:v 0 -codec:a libopus -vbr on -threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">스레드_수</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_비디오</span><code class="language-plaintext highlighter-rouge">.webm</code></p>

@@ -1,0 +1,40 @@
+<h1 id="pdftocairo">pdftocairo</h1>
+
+<p>Convert PDF files to PNG/JPEG/TIFF/PDF/PS/EPS/SVG using cairo.
+More information: <a href="https://poppler.freedesktop.org">https://poppler.freedesktop.org</a>.</p>
+
+<ul>
+  <li>Convert a PDF file to JPEG:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftocairo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span><code class="language-plaintext highlighter-rouge"> -jpeg</code></p>
+
+<ul>
+  <li>Convert to PDF expanding the output to fill the paper:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftocairo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.pdf</span><code class="language-plaintext highlighter-rouge"> -pdf -expand</code></p>
+
+<ul>
+  <li>Convert to SVG specifying the first/last page to convert:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftocairo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.svg</span><code class="language-plaintext highlighter-rouge"> -svg -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">first_page</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">last_page</span></p>
+
+<ul>
+  <li>Convert to PNG with 200ppi resolution:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftocairo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.png</span><code class="language-plaintext highlighter-rouge"> -png -r 200</code></p>
+
+<ul>
+  <li>Convert to grayscale TIFF setting paper size to A3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftocairo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span><code class="language-plaintext highlighter-rouge"> -tiff -gray -paper A3</code></p>
+
+<ul>
+  <li>Convert to PNG cropping x and y pixels from the top-left corner:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdftocairo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span><code class="language-plaintext highlighter-rouge"> -png -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_pixels</span><code class="language-plaintext highlighter-rouge"> -y </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_pixels</span></p>

@@ -1,0 +1,40 @@
+<h1 id="topydo">topydo</h1>
+
+<p>Une application de liste de choses à faire qui utilise le format todo.txt.
+Plus d'informations : <a href="https://github.com/topydo/topydo">https://github.com/topydo/topydo</a>.</p>
+
+<ul>
+  <li>Ajouter une tâche à un projet spécifique avec un contexte donné :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">topydo add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">todo_message</span><code class="language-plaintext highlighter-rouge"> +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">projet_nom</span><code class="language-plaintext highlighter-rouge"> @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context_nom</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ajouter une tâche à faire avec une date d'échéance de demain et une priorité de <code class="language-plaintext highlighter-rouge">A</code> :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">topydo add "(A) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">todo _message</span><code class="language-plaintext highlighter-rouge"> due:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1d</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ajouter une tâche à faire dont la date d'échéance est le vendredi :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">topydo add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">todo_message</span><code class="language-plaintext highlighter-rouge"> due:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fri</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ajouter une tâche répétitive non stricte (jour + récurrence) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">topydo add "water flowers due:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mon</span><code class="language-plaintext highlighter-rouge"> rec:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1w</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Ajouter une tâche répétitive stricte (prochaine échéance = date + récurrence) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">topydo add "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">todo_message</span><code class="language-plaintext highlighter-rouge"> due:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2020-01-01</span><code class="language-plaintext highlighter-rouge"> rec:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+1m</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Revenir sur la dernière commande <code class="language-plaintext highlighter-rouge">topydo</code> exécutée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">topydo revert</code></p>

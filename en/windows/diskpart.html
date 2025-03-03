@@ -1,0 +1,46 @@
+<h1 id="diskpart">diskpart</h1>
+
+<p>Disk, volume and partition manager.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart">https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart</a>.</p>
+
+<ul>
+  <li>Run diskpart by itself in an administrative command prompt to enter its command-line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskpart</code></p>
+
+<ul>
+  <li>List all disks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">list disk</code></p>
+
+<ul>
+  <li>Select a volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">select volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume</span></p>
+
+<ul>
+  <li>Assign a drive letter to the selected volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">assign letter </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">letter</span></p>
+
+<ul>
+  <li>Create a new partition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">create partition primary</code></p>
+
+<ul>
+  <li>Activate the selected volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">active</code></p>
+
+<ul>
+  <li>Exit diskpart:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exit</code></p>

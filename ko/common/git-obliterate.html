@@ -1,0 +1,17 @@
+<h1 id="git-obliterate">git obliterate</h1>
+
+<p>Git 저장소에서 파일을 삭제하고 해당 기록을 지웁니다.
+<code class="language-plaintext highlighter-rouge">git-extras</code>의 일부입니다.
+더 많은 정보: <a href="https://github.com/tj/git-extras/blob/master/Commands.md#git-obliterate">https://github.com/tj/git-extras/blob/master/Commands.md#git-obliterate</a>.</p>
+
+<ul>
+  <li>특정 파일의 존재를 지우기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git obliterate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_이름_1 파일_이름_2 …</span></p>
+
+<ul>
+  <li>두 커밋 사이의 특정 파일 존재를 지우기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git obliterate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_이름_1 파일_이름_2 …</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋_해시_1</span><code class="language-plaintext highlighter-rouge">..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋_해시_2</span></p>

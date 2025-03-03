@@ -1,0 +1,40 @@
+<h1 id="quilt">quilt</h1>
+
+<p>Manage a series of patches.
+More information: <a href="https://savannah.nongnu.org/projects/quilt">https://savannah.nongnu.org/projects/quilt</a>.</p>
+
+<ul>
+  <li>Import an existing patch from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quilt import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.patch</span></p>
+
+<ul>
+  <li>Create a new patch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quilt new </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.patch</span></p>
+
+<ul>
+  <li>Add a file to the current patch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quilt add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>After editing the file, refresh the current patch with the changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quilt refresh</code></p>
+
+<ul>
+  <li>Apply all the patches in the series file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quilt push -a</code></p>
+
+<ul>
+  <li>Remove all applied patches:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">quilt pop -a</code></p>

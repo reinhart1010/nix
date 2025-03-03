@@ -1,0 +1,35 @@
+<h1 id="cargo-tree">cargo tree</h1>
+
+<p>Display a tree visualization of a dependency graph.
+Note: in the tree, dependencies of packages marked with <code class="language-plaintext highlighter-rouge">(*)</code> have already been shown elsewhere in the graph, and so are not repeated.
+More information: <a href="https://doc.rust-lang.org/cargo/commands/cargo-tree.html">https://doc.rust-lang.org/cargo/commands/cargo-tree.html</a>.</p>
+
+<ul>
+  <li>Show a dependency tree of the current project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo tree</code></p>
+
+<ul>
+  <li>Only show dependencies up to the specified depth (e.g. when <code class="language-plaintext highlighter-rouge">n</code> is 1, display only direct dependencies):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo tree --depth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span></p>
+
+<ul>
+  <li>Do not display the given package (and its dependencies) in the tree:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo tree --prune </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_spec</span></p>
+
+<ul>
+  <li>Show all occurrences of repeated dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo tree --no-dedupe</code></p>
+
+<ul>
+  <li>Only show normal/build/development dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo tree --edges </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">normal|build|dev</span></p>

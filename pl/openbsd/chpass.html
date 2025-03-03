@@ -1,0 +1,29 @@
+<h1 id="chpass">chpass</h1>
+
+<p>Dodaj lub zmień informacje o użytkowniku w bazie danych, w tym powłoki logowania i hasła.
+Zobacz także: <code class="language-plaintext highlighter-rouge">passwd</code>.
+Więcej informacji: <a href="https://man.openbsd.org/chsh">https://man.openbsd.org/chsh</a>.</p>
+
+<ul>
+  <li>Interaktywnie ustaw określoną powłokę logowania dla bieżącego użytkownika:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas chsh</code></p>
+
+<ul>
+  <li>Ustaw określoną powłokę (z ang. [s]hell) logowania dla bieżącego użytkownika:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas chsh -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/powłoki</span></p>
+
+<ul>
+  <li>Ustaw określoną powłokę (z ang. [s]hell) logowania dla określonego użytkownika:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas chsh -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/powłoki</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span></p>
+
+<ul>
+  <li>Określ wpis bazy danych użytkownika w formacie pliku <code class="language-plaintext highlighter-rouge">passwd</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">doas chsh -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika:zaszyfrowane_hasło:uid:gid:…</span></p>

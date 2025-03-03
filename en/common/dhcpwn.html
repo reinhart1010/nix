@@ -1,0 +1,16 @@
+<h1 id="dhcpwn">dhcpwn</h1>
+
+<p>Test DHCP IP exhaustion attacks and sniff local DHCP traffic.
+More information: <a href="https://github.com/mschwager/dhcpwn">https://github.com/mschwager/dhcpwn</a>.</p>
+
+<ul>
+  <li>Flood the network with IP requests:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dhcpwn --interface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_interface</span><code class="language-plaintext highlighter-rouge"> flood --count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_requests</span></p>
+
+<ul>
+  <li>Sniff local DHCP traffic:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dhcpwn --interface </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_interface</span><code class="language-plaintext highlighter-rouge"> sniff</code></p>

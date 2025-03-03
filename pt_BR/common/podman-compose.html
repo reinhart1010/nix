@@ -1,0 +1,52 @@
+<h1 id="podman-compose">podman-compose</h1>
+
+<p>Executar e gerenciar definição de contêineres Compose Specification.
+Mais informações: <a href="https://github.com/containers/podman-compose">https://github.com/containers/podman-compose</a>.</p>
+
+<ul>
+  <li>Lista todos os contêineres em execução:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman-compose ps</code></p>
+
+<ul>
+  <li>Cria e inicia todos os contêineres em segundo plano usando um arquivo <code class="language-plaintext highlighter-rouge">docker-compose.yml</code> local:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman-compose up -d</code></p>
+
+<ul>
+  <li>Inicia todos os contêineres, fazendo o build se necessário:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman-compose up --build</code></p>
+
+<ul>
+  <li>Inicia todos os contêineres usando um arquivo de composição alternativo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman-compose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span><code class="language-plaintext highlighter-rouge"> up</code></p>
+
+<ul>
+  <li>Para todos os contêineres em execução:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman-compose stop</code></p>
+
+<ul>
+  <li>Remove todos os contêineres, redes e volumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman-compose down --volumes</code></p>
+
+<ul>
+  <li>Acompanha logs de um contêiner (omite todos os nomes de contêineres):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman-compose logs --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_contêiner</span></p>
+
+<ul>
+  <li>Executa um comando único em um serviço sem mapear portas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">podman-compose run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_serviço</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>

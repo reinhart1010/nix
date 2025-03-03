@@ -1,0 +1,29 @@
+<h1 id="glib-compile-resources">glib-compile-resources</h1>
+
+<p>리소스 파일 (예: 이미지)을 바이너리 리소스 번들로 컴파일.
+GResource API를 사용해 GTK 애플리케이션에 연결될 수 있음.
+더 많은 정보: <a href="https://manned.org/glib-compile-resources">https://manned.org/glib-compile-resources</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">file.gresource.xml</code>에서 참조된 리소스를 .gresource 바이너리로 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glib-compile-resources </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.gresource.xml</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">file.gresource.xml</code>에서 참조된 리소스를 C 소스 파일로 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glib-compile-resources --generate-source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.gresource.xml</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">file.gresource.xml</code>의 리소스를 <code class="language-plaintext highlighter-rouge">.c</code>, <code class="language-plaintext highlighter-rouge">.h</code> 또는 <code class="language-plaintext highlighter-rouge">.gresource</code> 확장자를 사용하여 선택한 대상 파일로 컴파일:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glib-compile-resources --generate --target=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.ext</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.gresource.xml</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">file.gresource.xml</code>에서 참조되는 리소스 파일 목록을 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">glib-compile-resources --generate-dependencies </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.gresource.xml</span></p>

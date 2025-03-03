@@ -1,0 +1,29 @@
+<h1 id="gitlab">gitlab</h1>
+
+<p>GitLab API'si için Ruby sarıcı ve CLI aracı.
+<code class="language-plaintext highlighter-rouge">ctl</code> gibi bazı alt komutların kendi kullanım kılavuzları vardır.
+Daha fazla bilgi için: <a href="https://narkoz.github.io/gitlab/">https://narkoz.github.io/gitlab/</a>.</p>
+
+<ul>
+  <li>Yeni bir proje oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlab create_project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">proje_ismi</span></p>
+
+<ul>
+  <li>Belirtilen commit ile ilgili bilgi al:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlab commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">proje_ismi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_değeri</span></p>
+
+<ul>
+  <li>Bit CI pipeline'ındaki işler ile ilgili bilgi al:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlab pipeline_jobs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">proje_ismi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pipeline_id'si</span></p>
+
+<ul>
+  <li>Belirtilen CI işini başlat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitlab job_play </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">proje_ismi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">iş_id'si</span></p>

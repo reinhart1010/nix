@@ -1,0 +1,47 @@
+<h1 id="az-pipelines">az pipelines</h1>
+
+<p>Azure Pipelines 리소스를 관리.
+<code class="language-plaintext highlighter-rouge">azure-cli</code>의 일부 (<code class="language-plaintext highlighter-rouge">az</code>라고도 함).
+더 많은 정보: <a href="https://learn.microsoft.com/cli/azure/pipelines">https://learn.microsoft.com/cli/azure/pipelines</a>.</p>
+
+<ul>
+  <li>새로운 Azure 파이프라인(YAML 기반)을 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az pipelines create --org </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조직_url</span><code class="language-plaintext highlighter-rouge"> --project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파이프라인_이름</span><code class="language-plaintext highlighter-rouge"> --description </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구독</span><code class="language-plaintext highlighter-rouge"> --repository </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">레포지토리_이름</span><code class="language-plaintext highlighter-rouge"> --branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">브랜치_이름</span></p>
+
+<ul>
+  <li>특정 파이프라인 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az pipelines delete --org </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조직_url</span><code class="language-plaintext highlighter-rouge"> --project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span><code class="language-plaintext highlighter-rouge"> --id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파이프라인_아이디</span></p>
+
+<ul>
+  <li>파이프라인 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az pipelines list --org </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조직_url</span><code class="language-plaintext highlighter-rouge"> --project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span></p>
+
+<ul>
+  <li>실행할 특정 파이프라인을 대기열에 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az pipelines run --org </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization_url</span><code class="language-plaintext highlighter-rouge"> --project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파이프라인_이름</span></p>
+
+<ul>
+  <li>특정 파이프라인의 세부정보를 가져옴:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az pipelines show --org </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조직_url</span><code class="language-plaintext highlighter-rouge"> --project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파이프라인_이름</span></p>
+
+<ul>
+  <li>특정 파이프라인 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az pipelines update --org </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조직_url</span><code class="language-plaintext highlighter-rouge"> --project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span><code class="language-plaintext highlighter-rouge"> --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파이프라인_이름</span><code class="language-plaintext highlighter-rouge"> --new-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">새로운_파이프라인_이름</span><code class="language-plaintext highlighter-rouge"> --new-folder-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user1/production_pipelines</span></p>
+
+<ul>
+  <li>풀의 모든 에이전트를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">az pipelines agent list --org </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">조직_url</span><code class="language-plaintext highlighter-rouge"> --pool-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">agent_pool</span></p>

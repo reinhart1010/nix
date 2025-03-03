@@ -1,0 +1,46 @@
+<h1 id="ogrinfo">ogrinfo</h1>
+
+<p>List information about an OGR-supported data source.
+More information: <a href="https://gdal.org/programs/ogrinfo.html">https://gdal.org/programs/ogrinfo.html</a>.</p>
+
+<ul>
+  <li>List supported formats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ogrinfo --formats</code></p>
+
+<ul>
+  <li>List layers of a data source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ogrinfo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gpkg</span></p>
+
+<ul>
+  <li>Get detailed information about a specific layer of a data source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ogrinfo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gpkg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">layer_name</span></p>
+
+<ul>
+  <li>Show summary information about a specific layer of a data source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ogrinfo -so </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gpkg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">layer_name</span></p>
+
+<ul>
+  <li>Show summary of all layers of the data source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ogrinfo -so -al </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gpkg</span></p>
+
+<ul>
+  <li>Show detailed information of features matching a condition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ogrinfo -where '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">attribute_name &gt; 42</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gpkg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">layer_name</span></p>
+
+<ul>
+  <li>Update a layer in the data source with SQL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ogrinfo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.geojson</span><code class="language-plaintext highlighter-rouge"> -dialect SQLite -sql "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UPDATE input SET attribute_name = 'foo'</span><code class="language-plaintext highlighter-rouge">"</code></p>

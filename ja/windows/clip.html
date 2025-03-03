@@ -1,0 +1,28 @@
+<h1 id="clip">clip</h1>
+
+<p>入力コンテンツをWindowsクリップボードにコピーします。
+もっと詳しく: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/clip">https://learn.microsoft.com/windows-server/administration/windows-commands/clip</a>。</p>
+
+<ul>
+  <li>コマンドライン出力をWindowsクリップボードにパイプします:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dir</span><code class="language-plaintext highlighter-rouge"> | clip</code></p>
+
+<ul>
+  <li>ファイルの内容をWindowsクリップボードにコピーします:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clip &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ext</span></p>
+
+<ul>
+  <li>末尾に改行が付いたテキストをWindowsクリップボードにコピーします:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">テキスト</span><code class="language-plaintext highlighter-rouge"> | clip</code></p>
+
+<ul>
+  <li>末尾の改行なしでテキストをWindowsクリップボードにコピーします:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo | set /p="テキスト" | clip</code></p>

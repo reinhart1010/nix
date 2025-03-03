@@ -1,0 +1,47 @@
+<h1 id="crane-append">crane append</h1>
+
+<p>Push een image gebaseerd op een (optionele) basisimage.
+Voegt lagen toe met de inhoud van de opgegeven tarballs.
+Meer informatie: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_append.md">https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_append.md</a>.</p>
+
+<ul>
+  <li>Push een image gebaseerd op een basisimage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-b|–base</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_naam</span></p>
+
+<ul>
+  <li>Push een image met een toegevoegde laag vanuit een tarball:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-f|–new_layer</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">layer_naam1 layer_naam2 …</span></p>
+
+<ul>
+  <li>Push een image met een toegevoegde laag met een nieuwe tag:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–new_tag</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_naam</span></p>
+
+<ul>
+  <li>Push de resulterende image naar een nieuwe tarball:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-o|–output</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/tarball</span></p>
+
+<ul>
+  <li>Gebruik een lege basisimage van het type OCI-media in plaats van Docker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane append --oci-empty-base</code></p>
+
+<ul>
+  <li>Annoteer de resulterende image als gebaseerd op de basisimage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane append --set-base-image-annotations</code></p>
+
+<ul>
+  <li>Toon de help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span></p>

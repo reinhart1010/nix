@@ -1,0 +1,29 @@
+<h1 id="as">as</h1>
+
+<p>Ensamblador GNU portátil.
+Principalmente destinado a ensamblar la salida de <code class="language-plaintext highlighter-rouge">gcc</code> para ser utilizada por <code class="language-plaintext highlighter-rouge">ld</code>.
+Más información: <a href="https://manned.org/as">https://manned.org/as</a>.</p>
+
+<ul>
+  <li>Ensambla un archivo, escribiendo la salida en <code class="language-plaintext highlighter-rouge">a.out</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.s</span></p>
+
+<ul>
+  <li>Ensambla la salida en un archivo específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.s</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_salida.o</span></p>
+
+<ul>
+  <li>Genera la salida más rápida omitiendo el preprocesamiento de espacios en blanco y comentarios. (Solo debe usarse con compiladores de confianza):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.s</span></p>
+
+<ul>
+  <li>Incluye una ruta específica en la lista de directorios para buscar archivos especificados en las directivas <code class="language-plaintext highlighter-rouge">.include</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">as -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.s</span></p>

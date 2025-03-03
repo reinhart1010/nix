@@ -1,0 +1,53 @@
+<h1 id="gpg">gpg</h1>
+
+<p>GNU Privacy Guard.
+Siehe <code class="language-plaintext highlighter-rouge">gpg2</code> für GNU Privacy Guard 2.
+Weitere Informationen: <a href="https://gnupg.org">https://gnupg.org</a>.</p>
+
+<ul>
+  <li>Erstelle einen öffentlichen und privaten GPG Schlüssel interaktiv:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --full-generate-key</code></p>
+
+<ul>
+  <li>Signiere <code class="language-plaintext highlighter-rouge">doc.txt</code> ohne Verschlüsselung (Ausgabe nach <code class="language-plaintext highlighter-rouge">doc.txt.asc</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --clearsign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span></p>
+
+<ul>
+  <li>Verschlüssle und signiere <code class="language-plaintext highlighter-rouge">doc.txt</code> für alice@beispiel.de und bob@example.org (Ausgabe nach <code class="language-plaintext highlighter-rouge">doc.txt.gpg</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --encrypt --sign --recipient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@beispiel.de</span><code class="language-plaintext highlighter-rouge"> --recipient </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bob@example.com</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span></p>
+
+<ul>
+  <li>Verschlüssle <code class="language-plaintext highlighter-rouge">doc.txt</code> nur mit Passwort (Ausgabe nach <code class="language-plaintext highlighter-rouge">doc.txt.gpg</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --symmetric </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span></p>
+
+<ul>
+  <li>Entschlüssle <code class="language-plaintext highlighter-rouge">doc.txt.gpg</code> (Ausgabe nach <code class="language-plaintext highlighter-rouge">stdout</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --decrypt </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt.gpg</span></p>
+
+<ul>
+  <li>Importiere einen öffentlichen Schlüssel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">schlüssel.gpg</span></p>
+
+<ul>
+  <li>Exportiere den öffentlichen Schlüssel von alice@beispiel.de (Ausgabe nach <code class="language-plaintext highlighter-rouge">stdout</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --export --armor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@beispiel.de</span></p>
+
+<ul>
+  <li>Exportiere den privaten Schlüssel von alice@beispiel.de (Ausgabe nach <code class="language-plaintext highlighter-rouge">stdout</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gpg --export-secret-keys --armor </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@beispiel.de</span></p>

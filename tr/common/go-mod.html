@@ -1,0 +1,34 @@
+<h1 id="go-mod">go mod</h1>
+
+<p>Modül yönetimi.
+Daha fazla bilgi için: <a href="https://golang.org/cmd/go/#hdr-Module_maintenance">https://golang.org/cmd/go/#hdr-Module_maintenance</a>.</p>
+
+<ul>
+  <li>Mevcut dizinde yeni modül başlat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go mod init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modülİsmi</span></p>
+
+<ul>
+  <li>Modülleri yerel önbelleğe yükle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go mod download</code></p>
+
+<ul>
+  <li>Kaybolan modülleri ekle ve kullanılmayanları sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go mod tidy</code></p>
+
+<ul>
+  <li>Bağlılıkların beklenen içeriğe sahip olduklarını doğrula:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go mod verify</code></p>
+
+<ul>
+  <li>Tüm bağlılıkların kaynaklarını satıcı dizine kopyala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">go mod vendor</code></p>

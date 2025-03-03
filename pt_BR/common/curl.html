@@ -1,0 +1,53 @@
+<h1 id="curl">curl</h1>
+
+<p>Transfere dados entre o computador local e um servidor.
+Suporta a maioria dos protocolos de comunicação, incluindo HTTP, HTTPS, FTP, SCP, etc.
+Mais informações: <a href="https://curl.se/docs/manpage.html">https://curl.se/docs/manpage.html</a>.</p>
+
+<ul>
+  <li>Faz um pedido HTTP GET e descarrega os conteúdos em <code class="language-plaintext highlighter-rouge">stdout</code> (saída padrão):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Faz um pedido HTTP GET, segue redirecionamentos 3xx<code class="language-plaintext highlighter-rouge"> e descarrega os cabeçalhos da resposta e conteúdos para </code>stdout`:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --location --dump-header - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Baixa um arquivo, salvando a saída no arquivo indicado pela URL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --remote-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/arquivo.zip</span></p>
+
+<ul>
+  <li>Envia dados codificados por formulário (pedido POST do tipo <code class="language-plaintext highlighter-rouge">application/x-www-form-urlencoded</code>). Usa <code class="language-plaintext highlighter-rouge">--data @file_name</code> ou <code class="language-plaintext highlighter-rouge">--data @'-'</code> para ler da <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl -X POST --data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'nome=maria'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/formulario</span></p>
+
+<ul>
+  <li>Envia um pedido com um cabeçalho adicional, usando um método HTTP personalizado e por meio de um proxy (tal como BurpSuite), ignorando certificados autoassinados inseguros:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl -k --proxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://127.0.0.1:8080</span><code class="language-plaintext highlighter-rouge"> --header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'Authorization: Bearer token'</span><code class="language-plaintext highlighter-rouge"> --request </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GET|PUT|POST|DELETE|PATCH|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Envia dados no formato JSON, especificando o cabeçalho de tipo de conteúdo (content-type) apropriado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --data </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{"nome":"maria"}'</span><code class="language-plaintext highlighter-rouge"> --header </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'Content-Type: application/json'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/usuarios/1234</span></p>
+
+<ul>
+  <li>Passa o certificado do cliente e chave para um recurso, pulando a validação do certificado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --cert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cliente.pem</span><code class="language-plaintext highlighter-rouge"> --key </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chave.pem</span><code class="language-plaintext highlighter-rouge"> --insecure </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span></p>
+
+<ul>
+  <li>Resolve um hostname para um endereço de IP personalizado, com a saída verbosa (similar a editar o arquivo <code class="language-plaintext highlighter-rouge">/etc/hosts</code> para resolução de DNS personalizada):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl --verbose --resolve </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">127.0.0.1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span></p>

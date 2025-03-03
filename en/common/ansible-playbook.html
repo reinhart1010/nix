@@ -1,0 +1,46 @@
+<h1 id="ansible-playbook">ansible-playbook</h1>
+
+<p>Execute tasks defined in playbook on remote machines over SSH.
+More information: <a href="https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html">https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html</a>.</p>
+
+<ul>
+  <li>Run tasks in playbook:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-playbook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span></p>
+
+<ul>
+  <li>Run tasks in playbook with custom host [i]nventory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-playbook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inventory_file</span></p>
+
+<ul>
+  <li>Run tasks in playbook with [e]xtra variables defined via the command-line:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-playbook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span><code class="language-plaintext highlighter-rouge"> -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable1</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable2</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value2</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run tasks in playbook with [e]xtra variables defined in a JSON file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-playbook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span><code class="language-plaintext highlighter-rouge"> -e "@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variables.json</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run tasks in playbook for the given tags:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-playbook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span><code class="language-plaintext highlighter-rouge"> --tags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag1,tag2</span></p>
+
+<ul>
+  <li>Run tasks in a playbook starting at a specific task:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-playbook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span><code class="language-plaintext highlighter-rouge"> --start-at </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span></p>
+
+<ul>
+  <li>Run tasks in a playbook without making any changes (dry-run):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible-playbook </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">playbook</span><code class="language-plaintext highlighter-rouge"> --check --diff</code></p>

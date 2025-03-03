@@ -1,0 +1,43 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="mv">mv</h1>
+
+<p>移动或重命名文件或目录。
+更多信息：<a href="https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html</a>.</p>
+
+<ul>
+  <li>移动文件到任意位置：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/来源</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目标</span></p>
+
+<ul>
+  <li>移动文件到其他目录，并保持文件名不变：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/来源1 路径/到/来源2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目标目录</span></p>
+
+<ul>
+  <li>覆盖现有文件前无需确认：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/来源</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目标</span></p>
+
+<ul>
+  <li>无论是否有文件权限，覆盖现有文件前均需要确认：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/来源</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目标</span></p>
+
+<ul>
+  <li>不要覆盖现有的目标文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/来源</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目标</span></p>
+
+<ul>
+  <li>详细模式，移动后打印文件名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mv -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/来源</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目标</span></p>

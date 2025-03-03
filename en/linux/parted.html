@@ -1,0 +1,29 @@
+<h1 id="parted">parted</h1>
+
+<p>A partition manipulation program.
+See also: <code class="language-plaintext highlighter-rouge">parted-interactive</code>, <code class="language-plaintext highlighter-rouge">partprobe</code>.
+More information: <a href="https://www.gnu.org/software/parted/parted.html">https://www.gnu.org/software/parted/parted.html</a>.</p>
+
+<ul>
+  <li>List partitions on all block devices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo parted --list</code></p>
+
+<ul>
+  <li>Create a new partition table of the specified label-type:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo parted </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span><code class="language-plaintext highlighter-rouge"> --script mklabel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aix|amiga|bsd|dvh|gpt|loop|mac|msdos|pc98|sun</span></p>
+
+<ul>
+  <li>Create a new <code class="language-plaintext highlighter-rouge">gpt</code> partition table with a 500MiB boot partition and give the rest for the system partition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo parted </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span><code class="language-plaintext highlighter-rouge"> --script mklabel gpt mkpart primary 0% 500MiB mkpart primary 500MiB 100%</code></p>
+
+<ul>
+  <li>Start interactive mode with the specified disk selected:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo parted </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span></p>

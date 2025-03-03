@@ -1,0 +1,40 @@
+<h1 id="echo">echo</h1>
+
+<p>Toont gegeven argumenten.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html</a>.</p>
+
+<ul>
+  <li>Toon een tekstbericht. Let op: aanhalingstekens zijn optioneel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hallo Wereld</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Toon een bericht met omgevingsvariabelen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Mijn pad is $PATH</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Toont een bericht zonder te volgen met een nieuwe regel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hallo Wereld</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Voeg een bericht aan een bestand toe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hallo Wereld</span><code class="language-plaintext highlighter-rouge">" &gt;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestand.txt</span></p>
+
+<ul>
+  <li>Interpretatie van backslash-escapes (speciale tekens) inschakelen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kolom 1\kolom 2</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Toon de afsluitstatus van de laatst uitgevoerde opdracht (Let op: in Windows Command Prompt en PowerShell zijn de equivalente opdrachten respectievelijk <code class="language-plaintext highlighter-rouge">echo %errorlevel%</code> en <code class="language-plaintext highlighter-rouge">$lastexitcode</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $?</code></p>

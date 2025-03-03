@@ -1,0 +1,34 @@
+<h1 id="lerna">lerna</h1>
+
+<p>Manage JavaScript projects with multiple packages.
+More information: <a href="https://lerna.js.org">https://lerna.js.org</a>.</p>
+
+<ul>
+  <li>Initialize project files (<code class="language-plaintext highlighter-rouge">lerna.json</code>, <code class="language-plaintext highlighter-rouge">package.json</code>, <code class="language-plaintext highlighter-rouge">.git</code>, etc.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lerna init</code></p>
+
+<ul>
+  <li>Install all external dependencies of each package and symlink together local dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lerna bootstrap</code></p>
+
+<ul>
+  <li>Run a specific script for every package that contains it in its <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lerna run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script</span></p>
+
+<ul>
+  <li>Execute an arbitrary shell command in every package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lerna exec -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls</span></p>
+
+<ul>
+  <li>Publish all packages that have changed since the last release:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lerna publish</code></p>

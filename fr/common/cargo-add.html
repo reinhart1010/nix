@@ -1,0 +1,46 @@
+<h1 id="cargo-add">cargo add</h1>
+
+<p>Ajoute des dépendences au manifeste <code class="language-plaintext highlighter-rouge">Cargo.toml</code> d'un projet Rust.
+Plus d'informations : <a href="https://doc.rust-lang.org/cargo/commands/cargo-add.html">https://doc.rust-lang.org/cargo/commands/cargo-add.html</a>.</p>
+
+<ul>
+  <li>Ajoute la dernière version d'une dépendance au projet courant :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dépendance</span></p>
+
+<ul>
+  <li>Ajoute une version spécifique d'une dépendance :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dépendance</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span></p>
+
+<ul>
+  <li>Ajoute une dépendance et active une ou plusieures fonctionnalités :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dépendance</span><code class="language-plaintext highlighter-rouge"> --features </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fonctionnalité_1</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fonctionnalité_2</span></p>
+
+<ul>
+  <li>Ajoute une dépendance optionnelle, qui sera exposée comme une fonctionnalité du crate :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dépendance</span><code class="language-plaintext highlighter-rouge"> --optional</code></p>
+
+<ul>
+  <li>Ajoute un crate local en tant que dépendance :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo add --path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/crate</span></p>
+
+<ul>
+  <li>Ajoute une dépendance de développement ou de compilation :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dépendance</span><code class="language-plaintext highlighter-rouge"> --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dev|build</span></p>
+
+<ul>
+  <li>Ajoute une dépendance avec toutes les fonctionnalités par défaut désactivées :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dépendance</span><code class="language-plaintext highlighter-rouge"> --no-default-features</code></p>

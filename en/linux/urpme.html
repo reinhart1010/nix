@@ -1,0 +1,23 @@
+<h1 id="urpme">urpme</h1>
+
+<p>Uninstall packages in Mageia.
+See also: <code class="language-plaintext highlighter-rouge">urpmi</code>, <code class="language-plaintext highlighter-rouge">urpmi.update</code>, <code class="language-plaintext highlighter-rouge">urpmi.addmedia</code>, <code class="language-plaintext highlighter-rouge">urpmi.removemedia</code>, <code class="language-plaintext highlighter-rouge">urpmf</code>, <code class="language-plaintext highlighter-rouge">urpmq</code>.
+More information: <a href="https://wiki.mageia.org/en/URPMI#urpme">https://wiki.mageia.org/en/URPMI#urpme</a>.</p>
+
+<ul>
+  <li>Uninstall a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo urpme </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>
+
+<ul>
+  <li>Uninstall orphan packages (Note: use it with caution as it might unintentionally remove important packages):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo urpme --auto-orphans</code></p>
+
+<ul>
+  <li>Uninstall a package and its dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo urpme --auto-orphans </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span></p>

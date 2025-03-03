@@ -1,0 +1,47 @@
+<h1 id="cargo-rustdoc">cargo rustdoc</h1>
+
+<p>Rust 패키지의 문서를 작성.
+<code class="language-plaintext highlighter-rouge">cargo doc</code>과 유사하지만, <code class="language-plaintext highlighter-rouge">rustdoc</code>에 옵션을 전달할 수 있음. 사용 가능한 모든 옵션은 <code class="language-plaintext highlighter-rouge">rustdoc --help</code>를 참조.
+더 많은 정보: <a href="https://doc.rust-lang.org/cargo/commands/cargo-rustdoc.html">https://doc.rust-lang.org/cargo/commands/cargo-rustdoc.html</a>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">rustdoc</code>에 옵션을 전달:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rustdoc_옵션</span></p>
+
+<ul>
+  <li>문서 린트에 대해 경고:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc -- --warn rustdoc::</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">린트_이름</span></p>
+
+<ul>
+  <li>문서 린트를 무시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc -- --allow rustdoc::</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">린트_이름</span></p>
+
+<ul>
+  <li>패키지 라이브러리를 문서화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc --lib</code></p>
+
+<ul>
+  <li>지정된 바이너리를 문서화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc --bin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>지정된 예시를 문서화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc --example </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>지정된 통합 테스트를 문서화:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo rustdoc --test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>

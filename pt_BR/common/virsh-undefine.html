@@ -1,0 +1,22 @@
+<h1 id="virsh-undefine">virsh-undefine</h1>
+
+<p>Excluir uma máquina virtual.
+Mais informações: <a href="https://manned.org/virsh">https://manned.org/virsh</a>.</p>
+
+<ul>
+  <li>Exclui apenas o arquivo de configuração da máquina virtual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh undefine --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_vm</span></p>
+
+<ul>
+  <li>Exclui o arquivo de configuração e todos os volumes de armazenamento associados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh undefine --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_vm</span><code class="language-plaintext highlighter-rouge"> --remove-all-storage</code></p>
+
+<ul>
+  <li>Exclui o arquivo de configuração e os volumes de armazenamento especificados usando o nome de destino ou o nome de origem (obtido a partir do comando <code class="language-plaintext highlighter-rouge">virsh domblklist</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">virsh undefine --domain </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_vm</span><code class="language-plaintext highlighter-rouge"> --storage </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sda,caminho/para/origem</span></p>

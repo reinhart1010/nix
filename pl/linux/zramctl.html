@@ -1,0 +1,35 @@
+<h1 id="zramctl">zramctl</h1>
+
+<p>Tworzenie i kontrola urządzeń zram.
+Użyj <code class="language-plaintext highlighter-rouge">mkfs</code> lub <code class="language-plaintext highlighter-rouge">mkswap</code> aby sformatować urządzenia zram na partycje.
+Więcej informacji: <a href="https://manned.org/zramctl">https://manned.org/zramctl</a>.</p>
+
+<ul>
+  <li>Sprawdzenie, czy zram jest włączony:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsmod | grep -i zram</code></p>
+
+<ul>
+  <li>Włączenie zram z dynamiczną liczbą urządzeń (użyj <code class="language-plaintext highlighter-rouge">zramctl</code> aby skonfigurować urządzenia dalej):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe zram</code></p>
+
+<ul>
+  <li>Włączenie zram z dokładnie 2 urządzeniami:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo modprobe zram num_devices=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span></p>
+
+<ul>
+  <li>Znalezienie i inicjalizacja następnego wolnego urządzenia zram jako 2 GB napęd wirtualny z użyciem kompresji LZ4:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo zramctl --find --size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2GB</span><code class="language-plaintext highlighter-rouge"> --algorithm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lz4</span></p>
+
+<ul>
+  <li>Wyświetlenie aktualnie zainicjalizowanych urządzeń:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo zramctl</code></p>

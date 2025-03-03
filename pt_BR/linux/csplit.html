@@ -1,0 +1,35 @@
+<h1 id="csplit">csplit</h1>
+
+<p>Divide um arquivo em várias partes.
+O padrão de nomenclatura dos arquivos será "xx00", "xx01" e assim por diante.
+Mais informações: <a href="https://www.gnu.org/software/coreutils/manual/html_node/csplit-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/csplit-invocation.html</a>.</p>
+
+<ul>
+  <li>Divide um arquivo nas linhas 5 e 23:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csplit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span><code class="language-plaintext highlighter-rouge"> 5 23</code></p>
+
+<ul>
+  <li>Divide um arquivo a cada 5 linhas (este comando irá falhar se o total de linhas do arquivo não for divisível por 5):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csplit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span><code class="language-plaintext highlighter-rouge"> 5 {*}</code></p>
+
+<ul>
+  <li>Divide um arquivo a cada 5 linhas, ignorando o fato do total de linhas ser divisível por 5:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csplit -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span><code class="language-plaintext highlighter-rouge"> 5 {*}</code></p>
+
+<ul>
+  <li>Divide o arquivo na linha 5 e utiliza um prefixo específico para os arquivos de saída:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csplit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span><code class="language-plaintext highlighter-rouge"> 5 -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span></p>
+
+<ul>
+  <li>Divide um arquivo na linha que atenda a expressão regular:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csplit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span><code class="language-plaintext highlighter-rouge"> /</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expressao_regular</span><code class="language-plaintext highlighter-rouge">/</code></p>

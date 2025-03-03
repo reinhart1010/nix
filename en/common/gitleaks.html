@@ -1,0 +1,46 @@
+<h1 id="gitleaks">gitleaks</h1>
+
+<p>Detect secrets and API keys leaked in Git repositories.
+More information: <a href="https://github.com/gitleaks/gitleaks">https://github.com/gitleaks/gitleaks</a>.</p>
+
+<ul>
+  <li>Scan a remote repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks detect --repo-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://github.com/username/repository.git</span></p>
+
+<ul>
+  <li>Scan a local directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks detect --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span></p>
+
+<ul>
+  <li>Output scan results to a JSON file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks detect --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span><code class="language-plaintext highlighter-rouge"> --report </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/report.json</span></p>
+
+<ul>
+  <li>Use a custom rules file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks detect --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span><code class="language-plaintext highlighter-rouge"> --config-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.toml</span></p>
+
+<ul>
+  <li>Start scanning from a specific commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks detect --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span><code class="language-plaintext highlighter-rouge"> --log-opts </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">–since=commit_id</span></p>
+
+<ul>
+  <li>Scan uncommitted changes before a commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks protect --staged</code></p>
+
+<ul>
+  <li>Display verbose output indicating which parts were identified as leaks during the scan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gitleaks protect --staged --verbose</code></p>

@@ -1,0 +1,52 @@
+<h1 id="aws-configure">aws configure</h1>
+
+<p>Manage configuration for the AWS CLI.
+More information: <a href="https://docs.aws.amazon.com/cli/latest/reference/configure/">https://docs.aws.amazon.com/cli/latest/reference/configure/</a>.</p>
+
+<ul>
+  <li>Configure AWS CLI interactively (creates a new configuration or updates the default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure</code></p>
+
+<ul>
+  <li>Configure a named profile for AWS CLI interactively (creates a new profile or updates an existing one):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span></p>
+
+<ul>
+  <li>Display the value from a specific configuration variable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Display the value for a configuration variable in a specific profile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure get </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span></p>
+
+<ul>
+  <li>Set the value of a specific configuration variable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Set the value of a configuration variable in a specific profile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span></p>
+
+<ul>
+  <li>List the configuration entries:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure list</code></p>
+
+<ul>
+  <li>List the configuration entries for a specific profile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws configure list --profile </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span></p>

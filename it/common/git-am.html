@@ -1,0 +1,26 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="git-am">git am</h1>
+
+<p>Applica file di patch. Utile quando si ricevono commit via email.
+Vedi anche <code class="language-plaintext highlighter-rouge">git format-patch</code> per generare file di patch.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-am">https://git-scm.com/docs/git-am</a>.</p>
+
+<ul>
+  <li>Applica un file di patch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git am </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.patch</span></p>
+
+<ul>
+  <li>Interrompi l'applicazione di un file di patch:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git am --abort</code></p>
+
+<ul>
+  <li>Applica quanto possibile di un file di patch, salvando le parti non applicabili in file <code class="language-plaintext highlighter-rouge">.rej</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git am --reject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.patch</span></p>

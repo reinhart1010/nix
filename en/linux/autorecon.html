@@ -1,0 +1,28 @@
+<h1 id="autorecon">autorecon</h1>
+
+<p>A multi-threaded network reconnaissance tool which performs automated enumeration of services.
+More information: <a href="https://github.com/Tib3rius/AutoRecon">https://github.com/Tib3rius/AutoRecon</a>.</p>
+
+<ul>
+  <li>Perform reconnaissance on target host(s) (detailed scan results will be dumped in <code class="language-plaintext highlighter-rouge">./results</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo autorecon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_or_ip1,host_or_ip2,…</span></p>
+
+<ul>
+  <li>Perform reconnaissance on [t]arget(s) from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo autorecon --target-file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>[o]utput results to a different directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo autorecon --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/results</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_or_ip1,host_or_ip2,…</span></p>
+
+<ul>
+  <li>Limit scanning to specific [p]orts and protocols (<code class="language-plaintext highlighter-rouge">T</code> for TCP, <code class="language-plaintext highlighter-rouge">U</code> for UDP, <code class="language-plaintext highlighter-rouge">B</code> for both):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo autorecon --ports </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">T:21-25,80,443,U:53,B:123</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_or_ip1,host_or_ip2,…</span></p>

@@ -1,0 +1,40 @@
+<h1 id="wol">wol</h1>
+
+<p>Client for sending Wake-on-LAN magic packets.
+More information: <a href="https://sourceforge.net/projects/wake-on-lan/">https://sourceforge.net/projects/wake-on-lan/</a>.</p>
+
+<ul>
+  <li>Send a WoL packet to a device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wol </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac_address</span></p>
+
+<ul>
+  <li>Send a WoL packet to a device in another subnet based on its IP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wol --ipaddr=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac_address</span></p>
+
+<ul>
+  <li>Send a WoL packet to a device in another subnet based on its hostname:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wol --host=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac_address</span></p>
+
+<ul>
+  <li>Send a WoL packet to a specific port on a host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wol --port=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_number</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac_address</span></p>
+
+<ul>
+  <li>Read hardware addresses, IP addresses/hostnames, optional ports and SecureON passwords from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wol --file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Turn on verbose output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wol --verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac_address</span></p>

@@ -1,0 +1,22 @@
+<h1 id="yapf">yapf</h1>
+
+<p>Python 风格指南检查器。
+更多信息：<a href="https://github.com/google/yapf">https://github.com/google/yapf</a>.</p>
+
+<ul>
+  <li>显示将要进行的更改的差异，但不实际更改（试运行）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yapf --diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>就地格式化文件，并显示更改的差异：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yapf --diff --in-place </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span></p>
+
+<ul>
+  <li>递归格式化目录中的所有 Python 文件，并发执行：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yapf --recursive --in-place --style </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pep8</span><code class="language-plaintext highlighter-rouge"> --parallel </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span></p>

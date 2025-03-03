@@ -1,0 +1,35 @@
+<h1 id="git-send-email">git send-email</h1>
+
+<p>Envoyer une collection de correctifs par email.
+Les correctifs peuvent être spécifiés sous forme de fichiers, de directions ou de liste de révisions.
+Plus d'informations : <a href="https://git-scm.com/docs/git-send-email">https://git-scm.com/docs/git-send-email</a>.</p>
+
+<ul>
+  <li>Envoyer le dernier commit de la branche courante :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git send-email -1</code></p>
+
+<ul>
+  <li>Envoyer un commit spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git send-email -1 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Envoyer de multiples commits de la branche courante (ici : 10) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git send-email </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-10</span></p>
+
+<ul>
+  <li>Envoyez un e-mail de présentation de la série de correctifs :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git send-email -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number of commits</span><code class="language-plaintext highlighter-rouge"> --compose</code></p>
+
+<ul>
+  <li>Consultez et modifiez l'e-mail de chaque patch que vous êtes sur le point d'envoyer :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git send-email -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number of commits</span><code class="language-plaintext highlighter-rouge"> --annotate</code></p>

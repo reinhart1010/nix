@@ -1,0 +1,46 @@
+<h1 id="delta">delta</h1>
+
+<p>A viewer for Git and diff output.
+More information: <a href="https://github.com/dandavison/delta">https://github.com/dandavison/delta</a>.</p>
+
+<ul>
+  <li>Compare files or directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">delta </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/old_file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new_file_or_directory</span></p>
+
+<ul>
+  <li>Compare files or directories, showing the line numbers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">delta --line-numbers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/old_file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new_file_or_directory</span></p>
+
+<ul>
+  <li>Compare files or directories, showing the differences side by side:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">delta --side-by-side </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/old_file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new_file_or_directory</span></p>
+
+<ul>
+  <li>Compare files or directories, ignoring any Git configuration settings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">delta --no-gitconfig </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/old_file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new_file_or_directory</span></p>
+
+<ul>
+  <li>Compare, rendering commit hashes, file names, and line numbers as hyperlinks, according to the hyperlink spec for terminal emulators:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">delta --hyperlinks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/old_file_or_directory</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new_file_or_directory</span></p>
+
+<ul>
+  <li>Display the current settings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">delta --show-config</code></p>
+
+<ul>
+  <li>Display supported languages and associated file extensions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">delta --list-languages</code></p>

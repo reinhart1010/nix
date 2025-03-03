@@ -1,0 +1,40 @@
+<h1 id="java">java</h1>
+
+<p>Java 程序启动器。
+更多信息：<a href="https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html">https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html</a>.</p>
+
+<ul>
+  <li>通过提供类名称运行一个含有 main 函数的 java <code class="language-plaintext highlighter-rouge">.class</code> 程序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">类名称</span></p>
+
+<ul>
+  <li>运行 Java 程序，并使用附加的第三方或用户定义类：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -classpath </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/类1</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/类2</span><code class="language-plaintext highlighter-rouge">:. </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">类名称</span></p>
+
+<ul>
+  <li>运行一个 <code class="language-plaintext highlighter-rouge">.jar</code> 程序：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -jar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名.jar</span></p>
+
+<ul>
+  <li>运行一个 <code class="language-plaintext highlighter-rouge">.jar</code> 程序并且在端口 5005 等待调试器：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名.jar</span></p>
+
+<ul>
+  <li>显示 JDK、JRE 和 HotSpot 的版本：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -version</code></p>
+
+<ul>
+  <li>显示帮助：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">java -help</code></p>

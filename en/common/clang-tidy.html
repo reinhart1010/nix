@@ -1,0 +1,28 @@
+<h1 id="clang-tidy">clang-tidy</h1>
+
+<p>An LLVM-based C/C++ linter to find style violations, bugs and security flaws through static analysis.
+More information: <a href="https://clang.llvm.org/extra/clang-tidy/">https://clang.llvm.org/extra/clang-tidy/</a>.</p>
+
+<ul>
+  <li>Run default checks on a source file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang-tidy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cpp</span></p>
+
+<ul>
+  <li>Don't run any checks other than the <code class="language-plaintext highlighter-rouge">cppcoreguidelines</code> checks on a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang-tidy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cpp</span><code class="language-plaintext highlighter-rouge"> -checks=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-<em>,cppcoreguidelines-</em></span></p>
+
+<ul>
+  <li>List all available checks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang-tidy -checks=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*</span><code class="language-plaintext highlighter-rouge"> -list-checks</code></p>
+
+<ul>
+  <li>Specify defines and includes as compilation options (after <code class="language-plaintext highlighter-rouge">--</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">clang-tidy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cpp</span><code class="language-plaintext highlighter-rouge"> -- -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_project/include</span><code class="language-plaintext highlighter-rouge"> -D</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">definitions</span></p>

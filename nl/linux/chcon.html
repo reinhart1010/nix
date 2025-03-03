@@ -1,0 +1,46 @@
+<h1 id="chcon">chcon</h1>
+
+<p>Verander SELinux beveiligingscontext van een bestand of bestanden/mappen.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/chcon-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/chcon-invocation.html</a>.</p>
+
+<ul>
+  <li>Toon beveiligingscontext van een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls -lZ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Verander de beveiligingscontext van een doelbestand, door gebruik te maken van een referentiebestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon --reference=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">referentiebestand</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doelbestand</span></p>
+
+<ul>
+  <li>Verander de volledige SELinux beveiligingscontext van een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gebruiker</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rol</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bereik/niveau</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestandsnaam</span></p>
+
+<ul>
+  <li>Verander alleen het gebruikersgedeelte van de SELinux beveiligingscontext:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestandsnaam</span></p>
+
+<ul>
+  <li>Verander alleen het rolgedeelte van de SELinux beveiligingscontext:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rol</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestandsnaam</span></p>
+
+<ul>
+  <li>Verander alleen het typegedeelte van de SELinux beveiligingscontext:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestandsnaam</span></p>
+
+<ul>
+  <li>Verander alleen het bereik/niveaugedeelte van de SELinux beveiligingscontext:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chcon -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bereik/niveau</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestandsnaam</span></p>

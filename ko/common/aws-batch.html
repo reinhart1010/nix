@@ -1,0 +1,40 @@
+<h1 id="aws-batch">aws batch</h1>
+
+<p>AWS Batch를 통해 배치 컴퓨팅 워크로드를 실행합니다.
+더 많은 정보: <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/batch/index.html">https://awscli.amazonaws.com/v2/documentation/api/latest/reference/batch/index.html</a>.</p>
+
+<ul>
+  <li>실행 중인 배치 작업 목록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws batch list-jobs --job-queue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_name</span></p>
+
+<ul>
+  <li>컴퓨팅 환경 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws batch create-compute-environment --compute-environment-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compute_environment_name</span><code class="language-plaintext highlighter-rouge"> --type </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type</span></p>
+
+<ul>
+  <li>배치 작업 큐 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws batch create-job-queue --job-queue-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">queue_name</span><code class="language-plaintext highlighter-rouge"> --priority </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">priority</span><code class="language-plaintext highlighter-rouge"> --compute-environment-order </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compute_environment</span></p>
+
+<ul>
+  <li>작업 제출:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws batch submit-job --job-name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_name</span><code class="language-plaintext highlighter-rouge"> --job-queue </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_queue</span><code class="language-plaintext highlighter-rouge"> --job-definition </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_definition</span></p>
+
+<ul>
+  <li>배치 작업 목록 설명:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws batch describe-jobs --jobs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jobs</span></p>
+
+<ul>
+  <li>작업 취소:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws batch cancel-job --job-id </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span><code class="language-plaintext highlighter-rouge"> --reason </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reason</span></p>

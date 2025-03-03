@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="chown">chown</h1>
+
+<p>Zmienia właściciela i grupę właścicieli dla plików i katalogów.
+Więcej informacji: <a href="https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html</a>.</p>
+
+<ul>
+  <li>Zmień właściciela pliku/katalogu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">użytkownik</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_lub_katalogu</span></p>
+
+<ul>
+  <li>Zmień właściciela i grupę właścicieli pliku/katalogu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">użytkownik</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupa</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_lub_katalogu</span></p>
+
+<ul>
+  <li>Rekursywnie zmień właściciela katalogu i jego zawartości:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown -R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">użytkownik</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/katalogu</span></p>
+
+<ul>
+  <li>Zmień właściciela dowiązania symbolicznego:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown -h </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">użytkownik</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/dowiązania_symbolicznego</span></p>
+
+<ul>
+  <li>Zmień właściciela pliku/katalogu by był taki sam jak w pliku referencyjnym:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chown --reference=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_referencyjnego</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_lub_katalogu</span></p>

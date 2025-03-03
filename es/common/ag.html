@@ -1,0 +1,46 @@
+<h1 id="ag">ag</h1>
+
+<p>The Silver Searcher. Como <code class="language-plaintext highlighter-rouge">ack</code>, pero apunta a ser más rápido.
+Más información: <a href="https://github.com/ggreer/the_silver_searcher">https://github.com/ggreer/the_silver_searcher</a>.</p>
+
+<ul>
+  <li>Encuentra archivos que contengan "foo", e imprime las líneas coincidentes en su contexto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>Busca archivos que contengan "foo" en un directorio específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span></p>
+
+<ul>
+  <li>Busca archivos que contengan "foo", pero sólo se alistan los nombres de los archivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>Busca archivos que contengan "FOO" sin distinguir entre mayúsculas y minúsculas, e imprime sólo la coincidencia, en lugar de toda la línea:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag -i -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">FOO</span></p>
+
+<ul>
+  <li>Busca "foo" en archivos cuyo nombre coincide con "bar":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> -G </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span></p>
+
+<ul>
+  <li>Busca archivos cuyo contenido coincide con una expresión regular:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">^ba(r|z)$</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Busca archivos con un nombre que coincida con "foo":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ag -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>

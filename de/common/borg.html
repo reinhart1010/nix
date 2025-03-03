@@ -1,0 +1,47 @@
+<h1 id="borg">borg</h1>
+
+<p>Deduplizierendes Sicherungswerkzeug.
+Erstellt lokale oder entfernte Sicherungen, die als Dateisysteme einhängbar sind.
+Weitere Informationen: <a href="https://borgbackup.readthedocs.io/en/stable/usage/general.html">https://borgbackup.readthedocs.io/en/stable/usage/general.html</a>.</p>
+
+<ul>
+  <li>Initialisiere ein lokales Repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/repo_verzeichnis</span></p>
+
+<ul>
+  <li>Sichere ein Verzeichnis in das Repository und erstelle ein Archiv mit dem Namen "Montag":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg create --progress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/repo_verzeichnis</span><code class="language-plaintext highlighter-rouge">::</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Montag</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quell_verzeichnis</span></p>
+
+<ul>
+  <li>Liste alle Archive in einem Repository auf:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/repo_verzeichnis</span></p>
+
+<ul>
+  <li>Extrahiere ein bestimmtes Verzeichnis aus dem "Montag"-Archiv in einem entfernten Repository, unter Ausschluss aller <code class="language-plaintext highlighter-rouge">*.ext</code>-Dateien:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg extract </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/repo_verzeichnis</span><code class="language-plaintext highlighter-rouge">::</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Montag</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel_verzeichnis</span><code class="language-plaintext highlighter-rouge"> --exclude '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Bereinige ein Repository, indem alle Archive gelöscht werden, die älter als 7 Tage sind und Änderungen aufweisen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg prune --keep-within </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7d</span><code class="language-plaintext highlighter-rouge"> --list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/repo_verzeichnis</span></p>
+
+<ul>
+  <li>Hänge ein Repository als FUSE-Dateisystem ein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/repo_verzeichnis</span><code class="language-plaintext highlighter-rouge">::</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Montag</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/mountpoint</span></p>
+
+<ul>
+  <li>Zeige Hilfe zur Erstellung von Archiven an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">borg create --help</code></p>

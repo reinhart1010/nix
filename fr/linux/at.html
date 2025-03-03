@@ -1,0 +1,28 @@
+<h1 id="at">at</h1>
+
+<p>Exécute des commandes à des temps détermintés.
+Plus d'informations : <a href="https://manned.org/at.1">https://manned.org/at.1</a>.</p>
+
+<ul>
+  <li>Ouvre une invite <code class="language-plaintext highlighter-rouge">at</code> afin de créer un nouvel ensemble de commandes programmées, presser <code class="language-plaintext highlighter-rouge">Ctrl + D</code> pour sauvegarder et quitter :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hh:mm</span></p>
+
+<ul>
+  <li>Exécute les commandes et envoie les résultats par mail en utilisant un programme de messagerie local comme Sendmail :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hh:mm</span><code class="language-plaintext highlighter-rouge"> -m</code></p>
+
+<ul>
+  <li>Exécute un script à un temps donné :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">at </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hh:mm</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/script</span></p>
+
+<ul>
+  <li>Affiche une notification système à 23 heures le 18 Février :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "notify-send '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Debout !</span><code class="language-plaintext highlighter-rouge">'" | at </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">11pm</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Feb 18</span></p>

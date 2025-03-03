@@ -1,0 +1,16 @@
+<h1 id="xsltproc">xsltproc</h1>
+
+<p>Transform XML with XSLT to produce output (usually HTML or XML).
+More information: <a href="http://www.xmlsoft.org/xslt/xsltproc.html">http://www.xmlsoft.org/xslt/xsltproc.html</a>.</p>
+
+<ul>
+  <li>Transform an XML file with a specific XSLT stylesheet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsltproc --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.html</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/stylesheet_file.xslt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.xml</span></p>
+
+<ul>
+  <li>Pass a value to a parameter in the stylesheet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xsltproc --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.html</span><code class="language-plaintext highlighter-rouge"> --stringparam "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/stylesheet_file.xslt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/xml_file.xml</span></p>

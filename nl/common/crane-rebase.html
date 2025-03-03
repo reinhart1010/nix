@@ -1,0 +1,34 @@
+<h1 id="crane-rebase">crane rebase</h1>
+
+<p>Rebase een image op een nieuw basisimage.
+Meer informatie: <a href="https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_rebase.md">https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane_rebase.md</a>.</p>
+
+<ul>
+  <li>Rebase image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane rebase</code></p>
+
+<ul>
+  <li>Nieuwe basisimage om in te voegen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane rebase --new_base </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_naam</span></p>
+
+<ul>
+  <li>Oude basisimage om te verwijderen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane rebase --old_base </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_naam</span></p>
+
+<ul>
+  <li>Tag om toe te passen op de gerebaseerde image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane rebase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-t|–tag</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_naam</span></p>
+
+<ul>
+  <li>Toon de help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">crane rebase </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-h|–help</span></p>

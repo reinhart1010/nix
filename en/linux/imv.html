@@ -1,0 +1,41 @@
+<h1 id="imv">imv</h1>
+
+<p>CLI image viewer for wayland and X11 aimed at tiling window managers.
+Handles multiple formats including Photoshop (PSD).
+More information: <a href="https://sr.ht/~exec64/imv">https://sr.ht/~exec64/imv</a>.</p>
+
+<ul>
+  <li>View multiple images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">imv </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.ext path/to/image2.ext …</span></p>
+
+<ul>
+  <li>View in fullscreen mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">imv -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ext</span></p>
+
+<ul>
+  <li>View images [r]ecursively from a path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">imv -r --slideshow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/path</span></p>
+
+<ul>
+  <li>Open multiple images via <code class="language-plaintext highlighter-rouge">stdin</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find . -type f -name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.svg</span><code class="language-plaintext highlighter-rouge">" | imv</code></p>
+
+<ul>
+  <li>Make a slideshow from a directory showing each image for 10 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">imv -t 10 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>View multiple images from the web:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl -Osw '%{filename_effective}\n' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://www.example.com/[1-10].jpg</span><code class="language-plaintext highlighter-rouge">' | imv</code></p>

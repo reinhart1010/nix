@@ -1,0 +1,28 @@
+<h1 id="ppmtoilbm">ppmtoilbm</h1>
+
+<p>Convert a PPM image to an ILBM file.
+More information: <a href="https://netpbm.sourceforge.net/doc/ppmtoilbm.html">https://netpbm.sourceforge.net/doc/ppmtoilbm.html</a>.</p>
+
+<ul>
+  <li>Convert a PPM image to an ILBM file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoilbm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ilbm</span></p>
+
+<ul>
+  <li>Write a maximum of n planes to the ILBM file and produce a HAM/24bit/direct color file if this number is exceeded:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoilbm -maxplanes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hamif|24if|dcif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ilbm</span></p>
+
+<ul>
+  <li>Produce a ILBM file with exactly n planes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoilbm -fixplanes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ilbm</span></p>
+
+<ul>
+  <li>Select the compression method to be used:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ppmtoilbm -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compress|nocompress|savemem</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppm</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ilbm</span></p>

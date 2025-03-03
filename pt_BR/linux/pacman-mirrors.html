@@ -1,0 +1,36 @@
+<h1 id="pacman-mirrors">pacman-mirrors</h1>
+
+<p>Gera uma lista de mirrors do pacman para o Manjaro Linux.
+Toda execução do pacman-mirrors requer que você sincronize seu bando de dados e atualize seu sistema usado <code class="language-plaintext highlighter-rouge">sudo pacman -Syyu</code>.
+Veja também: <code class="language-plaintext highlighter-rouge">pacman</code>.
+Mais informações: <a href="https://wiki.manjaro.org/index.php?title=Pacman-mirrors">https://wiki.manjaro.org/index.php?title=Pacman-mirrors</a>.</p>
+
+<ul>
+  <li>Gera uma lista de mirrors usando as configurações padrão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-mirrors --fasttrack</code></p>
+
+<ul>
+  <li>Obtém o status dos mirrors atuais:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman-mirrors --status</code></p>
+
+<ul>
+  <li>Exibe a branch atual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman-mirrors --get-branch</code></p>
+
+<ul>
+  <li>Muda para uma branch diferente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-mirrors --api --set-branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stable|unstable|testing</span></p>
+
+<ul>
+  <li>Gera uma lista de mirror, usando apenas mirrors em seu país:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman-mirrors --geoip</code></p>

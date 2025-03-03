@@ -1,0 +1,53 @@
+<h1 id="bat">bat</h1>
+
+<p>Bestanden tonen en samenvoegen.
+Een <code class="language-plaintext highlighter-rouge">cat</code> kopie met syntax highlighting en Git integratie.
+Meer informatie: <a href="https://github.com/sharkdp/bat">https://github.com/sharkdp/bat</a>.</p>
+
+<ul>
+  <li>Toon de inhoud van een of meerdere bestanden in <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 …</span></p>
+
+<ul>
+  <li>Voeg verschillende bestanden samen in het doelbestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1 pad/naar/bestand2 …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/doelbestand</span></p>
+
+<ul>
+  <li>Verwijder decoraties en schakel paging uit (<code class="language-plaintext highlighter-rouge">--style plain</code> kan vervangen worden met <code class="language-plaintext highlighter-rouge">-p</code> of beide opties met <code class="language-plaintext highlighter-rouge">-pp</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat --style plain --pager never </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Highlight een specifieke regel of een reeks van regels met een andere achtergrondkleur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-H|–highlight-line</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10|5:10|:10|10:|10:+5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon niet-printbare karakters zoals spatie, tab of witregel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-A|–show-all</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Nummer alle uitvoerregels:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-n|–number</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Highlight de syntax van een JSON-bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-l|–language</span><code class="language-plaintext highlighter-rouge"> json </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.json</span></p>
+
+<ul>
+  <li>Toon alle ondersteunde talen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-L|–list-languages</span></p>

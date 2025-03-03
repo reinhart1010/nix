@@ -1,0 +1,52 @@
+<h1 id="dotnet-ef">dotnet ef</h1>
+
+<p>Entity Framework Core용 디자인 타임 개발 작업 수행.
+더 많은 정보: <a href="https://learn.microsoft.com/ef/core/cli/dotnet">https://learn.microsoft.com/ef/core/cli/dotnet</a>.</p>
+
+<ul>
+  <li>지정된 마이그레이션으로 데이터베이스 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef database update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">마이그레이션</span></p>
+
+<ul>
+  <li>데이터베이스 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef database drop</code></p>
+
+<ul>
+  <li>사용 가능한 <code class="language-plaintext highlighter-rouge">DbContext</code> 유형 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef dbcontext list</code></p>
+
+<ul>
+  <li>데이터베이스에 대한 <code class="language-plaintext highlighter-rouge">DbContext</code> 및 엔티티 유형의 코드 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef dbcontext scaffold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">연결_문자열</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로바이더</span></p>
+
+<ul>
+  <li>새 마이그레이션 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef migrations add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름</span></p>
+
+<ul>
+  <li>마지막 마이그레이션 제거 및 최신 마이그레이션에 대한 코드 변경 사항 롤백:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef migrations remove</code></p>
+
+<ul>
+  <li>사용 가능한 마이그레이션 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef migrations list</code></p>
+
+<ul>
+  <li>마이그레이션 범위에서 SQL 스크립트 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dotnet ef migrations script </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">시작_마이그레이션</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">종료_마이그레이션</span></p>

@@ -1,0 +1,16 @@
+<h1 id="codesign">codesign</h1>
+
+<p>为 macOS 的应用程序签名。
+更多信息：<a href="https://keith.github.io/xcode-man-pages/codesign.1.html">https://keith.github.io/xcode-man-pages/codesign.1.html</a>.</p>
+
+<ul>
+  <li>用证书签名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">codesign --sign "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">公司名称</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径 / 应用名.app</span></p>
+
+<ul>
+  <li>验证应用程序的签名：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">codesign --verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径 / 应用名.app</span></p>

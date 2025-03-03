@@ -1,0 +1,40 @@
+<h1 id="docker-service">docker service</h1>
+
+<p>Gérer les services sur un démon Docker.
+Plus d'informations : <a href="https://docs.docker.com/reference/cli/docker/service/">https://docs.docker.com/reference/cli/docker/service/</a>.</p>
+
+<ul>
+  <li>Lister les services sur un démon Docker :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service ls</code></p>
+
+<ul>
+  <li>Créer un nouveau service :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_service</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">etiquette</span></p>
+
+<ul>
+  <li>Afficher des informations détaillées d'une liste de services séparée par des espaces :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service inspect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_service|ID</span></p>
+
+<ul>
+  <li>Lister les tâches d'une liste de services séparée par des espaces :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service ps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_service|ID</span></p>
+
+<ul>
+  <li>Redimensionner à un nombre spécifique de réplicas pour une liste de services séparée par des espaces :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service scale </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_service</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count_of_replicas</span></p>
+
+<ul>
+  <li>Supprimer une liste de services séparée par des espaces :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker service rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_service|ID</span></p>

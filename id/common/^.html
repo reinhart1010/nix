@@ -1,0 +1,29 @@
+<h1 id="caret">Caret</h1>
+
+<p>Digunakan pada Bash untuk menggantikan string pada perintah sebelumnya dan menjalankan perintah yang telah diubahnya.
+Setara dengan <code class="language-plaintext highlighter-rouge">!!:s^string1^string2</code>.
+Informasi lebih lanjut: <a href="https://gnu.org/software/bash/manual/bash.html#Event-Designators">https://gnu.org/software/bash/manual/bash.html#Event-Designators</a>.</p>
+
+<ul>
+  <li>Jalankan perintah sebelumnya dengan menggantikan <code class="language-plaintext highlighter-rouge">string1</code> dengan <code class="language-plaintext highlighter-rouge">string2</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string2</span></p>
+
+<ul>
+  <li>Hapus <code class="language-plaintext highlighter-rouge">string1</code> dari perintah sebelumnya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1</span><code class="language-plaintext highlighter-rouge">^</code></p>
+
+<ul>
+  <li>Gantikan <code class="language-plaintext highlighter-rouge">string1</code> dengan <code class="language-plaintext highlighter-rouge">string2</code> pada perintah sebelumnya, kemudian tambahkan <code class="language-plaintext highlighter-rouge">string3</code> pada akhir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string2</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string3</span></p>
+
+<ul>
+  <li>Gantikan seluruh kemunculan <code class="language-plaintext highlighter-rouge">string1</code> menuju <code class="language-plaintext highlighter-rouge">string2</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string2</span><code class="language-plaintext highlighter-rouge">^:&amp;</code></p>

@@ -1,0 +1,35 @@
+<h1 id="fdp">fdp</h1>
+
+<p>Renderiza uma imagem de um gráfico de rede <code class="language-plaintext highlighter-rouge">force-directed</code> a partir de um arquivo <code class="language-plaintext highlighter-rouge">graphviz</code>.
+Layouts: <code class="language-plaintext highlighter-rouge">dot</code>, <code class="language-plaintext highlighter-rouge">neato</code>, <code class="language-plaintext highlighter-rouge">twopi</code>, <code class="language-plaintext highlighter-rouge">circo</code>, <code class="language-plaintext highlighter-rouge">fdp</code>, <code class="language-plaintext highlighter-rouge">sfdp</code>, <code class="language-plaintext highlighter-rouge">osage</code> &amp; <code class="language-plaintext highlighter-rouge">patchwork</code>.
+Mais informações: <a href="https://graphviz.org/doc/info/command.html">https://graphviz.org/doc/info/command.html</a>.</p>
+
+<ul>
+  <li>Renderiza uma imagem PNG com um nome de arquivo baseado no nome do arquivo de entrada e formato de saída (-O maiúsculo):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fdp -T png -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/entrada.gv</span></p>
+
+<ul>
+  <li>Renderiza uma imagem SVG com o nome do arquivo de saída especificado (-o minúsculo):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fdp -T svg -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/imagem.svg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/entrada.gv</span></p>
+
+<ul>
+  <li>Renderiza a saída nos formatos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fdp -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ps|pdf|svg|fig|png|gif|jpg|json|dot</span><code class="language-plaintext highlighter-rouge"> -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/entrada.gv</span></p>
+
+<ul>
+  <li>Renderiza uma imagem GIF usando <code class="language-plaintext highlighter-rouge">stdin</code> e <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">digraph {isso -&gt; aquilo} </span><code class="language-plaintext highlighter-rouge">" | fdp -T gif &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/imagem.gif</span></p>
+
+<ul>
+  <li>Exibe ajuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fdp -?</code></p>

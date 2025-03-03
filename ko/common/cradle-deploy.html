@@ -1,0 +1,28 @@
+<h1 id="cradle-deploy">cradle deploy</h1>
+
+<p>Cradle 배포 관리.
+더 많은 정보: <a href="https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#deploy">https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#deploy</a>.</p>
+
+<ul>
+  <li>서버에 Cradle을 배포:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cradle deploy production</code></p>
+
+<ul>
+  <li>아마존 S3에 정적 자산 배포:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cradle deploy s3</code></p>
+
+<ul>
+  <li>Yarn "components" 디렉토리를 포함하여 정적 자산 배포:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cradle deploy s3 --include-yarn</code></p>
+
+<ul>
+  <li>"upload" 디렉토리를 포함한 정적 자산 배포:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cradle deploy s3 --include-upload</code></p>

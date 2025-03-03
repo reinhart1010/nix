@@ -1,0 +1,52 @@
+<h1 id="date">date</h1>
+
+<p>Set or display the system date.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html</a>.</p>
+
+<ul>
+  <li>Display the current date using the default locale's format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">date +%c</code></p>
+
+<ul>
+  <li>Display the current date in UTC, using the ISO 8601 format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">date -u +%Y-%m-%dT%H:%M:%S%Z</code></p>
+
+<ul>
+  <li>Display the current date as a Unix timestamp (seconds since the Unix epoch):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">date +%s</code></p>
+
+<ul>
+  <li>Convert a date specified as a Unix timestamp to the default format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">date -d @</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1473305798</span></p>
+
+<ul>
+  <li>Convert a given date to the Unix timestamp format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">date -d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2018-09-01 00:00</span><code class="language-plaintext highlighter-rouge">" +%s --utc</code></p>
+
+<ul>
+  <li>Display the current date using the RFC-3339 format (<code class="language-plaintext highlighter-rouge">YYYY-MM-DD hh:mm:ss TZ</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">date --rfc-3339 s</code></p>
+
+<ul>
+  <li>Set the current date using the format <code class="language-plaintext highlighter-rouge">MMDDhhmmYYYY.ss</code> (<code class="language-plaintext highlighter-rouge">YYYY</code> and <code class="language-plaintext highlighter-rouge">.ss</code> are optional):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">date </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">093023592021.59</span></p>
+
+<ul>
+  <li>Display the current ISO week number:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">date +%V</code></p>

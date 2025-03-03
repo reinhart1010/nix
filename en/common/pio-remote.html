@@ -1,0 +1,47 @@
+<h1 id="pio-remote">pio remote</h1>
+
+<p>Helper command for PlatformIO Remote Development.
+<code class="language-plaintext highlighter-rouge">pio remote [command]</code> takes the same arguments as its locally executing counterpart <code class="language-plaintext highlighter-rouge">pio [command]</code>.
+More information: <a href="https://docs.platformio.org/en/latest/core/userguide/remote/index.html">https://docs.platformio.org/en/latest/core/userguide/remote/index.html</a>.</p>
+
+<ul>
+  <li>List all active Remote Agents:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio remote agent list</code></p>
+
+<ul>
+  <li>Start a new Remote Agent with a specific name and share it with friends:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio remote agent start --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">agent_name</span><code class="language-plaintext highlighter-rouge"> --share </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example1@example.com</span><code class="language-plaintext highlighter-rouge"> --share </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example2@example.com</span></p>
+
+<ul>
+  <li>List devices from specified Agents (omit <code class="language-plaintext highlighter-rouge">--agent</code> to specify all Agents):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio remote --agent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">agent_name1</span><code class="language-plaintext highlighter-rouge"> --agent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">agent_name2</span><code class="language-plaintext highlighter-rouge"> device list</code></p>
+
+<ul>
+  <li>Connect to the serial port of a remote device:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio remote --agent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">agent_name</span><code class="language-plaintext highlighter-rouge"> device monitor</code></p>
+
+<ul>
+  <li>Run all targets on a specified Agent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio remote --agent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">agent_name</span><code class="language-plaintext highlighter-rouge"> run</code></p>
+
+<ul>
+  <li>Update installed core packages, development platforms and global libraries on a specific Agent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio remote --agent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">agent_name</span><code class="language-plaintext highlighter-rouge"> update</code></p>
+
+<ul>
+  <li>Run all tests in all environments on a specific Agent:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pio remote --agent </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">agent_name</span><code class="language-plaintext highlighter-rouge"> test</code></p>

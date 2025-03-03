@@ -1,0 +1,34 @@
+<h1 id="perf">perf</h1>
+
+<p>Linux 성능 카운터 측정을 위한 프레임워크.
+더 많은 정보: <a href="https://perf.wiki.kernel.org">https://perf.wiki.kernel.org</a>.</p>
+
+<ul>
+  <li>명령에 대한 기본 성능 카운터 통계 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perf stat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gcc hello.c</span></p>
+
+<ul>
+  <li>시스템 전역의 실시간 성능 카운터 프로필 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo perf top</code></p>
+
+<ul>
+  <li>명령을 실행하고 프로필을 <code class="language-plaintext highlighter-rouge">perf.data</code>에 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo perf record </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령</span></p>
+
+<ul>
+  <li>기존 프로세스의 프로필을 <code class="language-plaintext highlighter-rouge">perf.data</code>에 기록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo perf record -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">perf.data</code>( <code class="language-plaintext highlighter-rouge">perf record</code>에 의해 생성됨)를 읽고 프로필 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo perf report</code></p>

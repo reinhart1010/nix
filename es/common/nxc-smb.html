@@ -1,0 +1,40 @@
+<h1 id="nxc-smb">nxc smb</h1>
+
+<p>Prueba y explota servidores SMB.
+Más información: <a href="https://www.netexec.wiki/smb-protocol">https://www.netexec.wiki/smb-protocol</a>.</p>
+
+<ul>
+  <li>Busca credenciales de dominio válidas probando cada combinación en las listas especificadas de nombres de [u]suario y contraseñas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc smb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/nombres_de_usuario.txt</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/contraseñas.txt</span></p>
+
+<ul>
+  <li>Busca credenciales válidas para cuentas locales en lugar de cuentas de dominio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc smb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/nombres_de_usuario.txt</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/contraseñas.txt</span><code class="language-plaintext highlighter-rouge"> --local-auth</code></p>
+
+<ul>
+  <li>Enumera los recursos compartidos SMB y los derechos de acceso de los usuarios especificados en los hosts de destino:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc smb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.0/24</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge"> --shares</code></p>
+
+<ul>
+  <li>Enumera las interfaces de red en los hosts de destino, realizando la autenticación mediante pass-the-hash:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc smb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.30-45</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">NTLM_hash</span><code class="language-plaintext highlighter-rouge"> --interfaces</code></p>
+
+<ul>
+  <li>Analiza los hosts de destino en busca de vulnerabilidades frecuentes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc smb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/lista_objetivo.txt</span><code class="language-plaintext highlighter-rouge"> -u '' -p '' -M zerologon -M petitpotam</code></p>
+
+<ul>
+  <li>Intenta ejecutar un comando en los hosts de destino:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nxc smb </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.178.2</span><code class="language-plaintext highlighter-rouge"> -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">contraseña</span><code class="language-plaintext highlighter-rouge"> -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span></p>

@@ -1,0 +1,28 @@
+<h1 id="stress">stress</h1>
+
+<p>Stress test CPU, memory, and IO on a Linux system.
+More information: <a href="https://manned.org/stress">https://manned.org/stress</a>.</p>
+
+<ul>
+  <li>Spawn 4 workers to stress test CPU:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stress -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span></p>
+
+<ul>
+  <li>Spawn 2 workers to stress test IO and timeout after 5 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stress -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>Spawn 2 workers to stress test memory (each worker allocates 256M bytes):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stress -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> --vm-bytes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">256M</span></p>
+
+<ul>
+  <li>Spawn 2 workers spinning on write()/unlink() (each worker writes 1G bytes):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stress -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> --hdd-bytes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1GB</span></p>

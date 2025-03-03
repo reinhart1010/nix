@@ -1,0 +1,28 @@
+<h1 id="diskutil">diskutil</h1>
+
+<p>Dienstprogramm zur Verwaltung lokaler Festplatten und Volumes.
+Weitere Informationen: <a href="https://keith.github.io/xcode-man-pages/diskutil.8.html">https://keith.github.io/xcode-man-pages/diskutil.8.html</a>.</p>
+
+<ul>
+  <li>Auflisten aller aktuell verfügbaren Festplatten, Partitionen und gemounteten Volumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskutil list</code></p>
+
+<ul>
+  <li>Reparieren der Dateisystem-Datenstrukturen eines Volumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskutil repairVolume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/diskX</span></p>
+
+<ul>
+  <li>Einen Datenträger aushängen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskutil unmountDisk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/diskX</span></p>
+
+<ul>
+  <li>Eine CD/DVD auswerfen (zuerst aushängen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">diskutil eject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/disk1</span></p>

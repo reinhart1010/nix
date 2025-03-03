@@ -1,0 +1,52 @@
+<h1 id="hledger-accounts">hledger accounts</h1>
+
+<p>계정 이름 목록.
+더 많은 정보: <a href="https://hledger.org/hledger.html#accounts">https://hledger.org/hledger.html#accounts</a>.</p>
+
+<ul>
+  <li>기본 저널 파일에 사용되거나 선언된 모든 계정 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger accounts</code></p>
+
+<ul>
+  <li>거래에 사용된 계정 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger accounts --used</code></p>
+
+<ul>
+  <li>계정 지시문으로 선언된 계정 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger accounts --declared</code></p>
+
+<ul>
+  <li>사용되었지만 선언되지 않은 계정에 대한 새 계정 지시문을 저널에 추가:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger accounts --undeclared --directives &gt;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2024-계정.journal</span></p>
+
+<ul>
+  <li>이름에 <code class="language-plaintext highlighter-rouge">asset</code>이 포함된 계정 및 선언/추론된 유형 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger accounts asset --types</code></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Asset</code> 유형의 계정 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger accounts type:A</code></p>
+
+<ul>
+  <li>계정 계층 구조의 처음 두 레벨 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger accounts --tree --depth 2</code></p>
+
+<ul>
+  <li>위의 명령의 축약형:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hledger acc -t -2</code></p>

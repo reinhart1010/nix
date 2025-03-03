@@ -1,0 +1,47 @@
+<h1 id="ansible">ansible</h1>
+
+<p>Gestiona grupos de ordenadores de forma remota a través de SSH. (usa el fichero <code class="language-plaintext highlighter-rouge">/etc/ansible/hosts</code> para añadir nuevos grupos de hosts).
+Algunos subcomandos como <code class="language-plaintext highlighter-rouge">galaxy</code> tienen su propia documentación.
+Más información: <a href="https://www.ansible.com/">https://www.ansible.com/</a>.</p>
+
+<ul>
+  <li>Lista los hosts pertenecientes a un grupo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo</span><code class="language-plaintext highlighter-rouge"> --list-hosts</code></p>
+
+<ul>
+  <li>Hace ping a un grupo de hosts invocando al módulo ping:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo</span><code class="language-plaintext highlighter-rouge"> -m ping</code></p>
+
+<ul>
+  <li>Muestra información sobre un grupo de hosts invocando al módulo setup:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo</span><code class="language-plaintext highlighter-rouge"> -m setup</code></p>
+
+<ul>
+  <li>Ejecuta un comando en un grupo de hosts invocando el módulo de command con argumentos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo</span><code class="language-plaintext highlighter-rouge"> -m command -a '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mi_comando</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Ejecuta un comando con privilegios administrativos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo</span><code class="language-plaintext highlighter-rouge"> --become --ask-become-pass -m command -a '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mi_comando</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Ejecuta un comando utilizando un archivo de inventario personalizado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_de_inventario</span><code class="language-plaintext highlighter-rouge"> -m command -a '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mi_comando</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Lista los grupos de un inventario:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ansible localhost -m debug -a '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">var=groups.keys()</span><code class="language-plaintext highlighter-rouge">'</code></p>

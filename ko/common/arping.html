@@ -1,0 +1,41 @@
+<h1 id="arping">arping</h1>
+
+<p>ARP 프로토콜을 사용하여 네트워크에서 호스트를 발견하고 탐색합니다.
+MAC 주소 검색에 유용합니다.
+더 많은 정보: <a href="https://github.com/ThomasHabets/arping">https://github.com/ThomasHabets/arping</a>.</p>
+
+<ul>
+  <li>ARP 요청 패킷으로 호스트 ping 하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_ip</span></p>
+
+<ul>
+  <li>특정 인터페이스의 호스트로 ping 하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -I </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_ip</span></p>
+
+<ul>
+  <li>첫 응답을 한 호스트로 ping 하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_ip</span></p>
+
+<ul>
+  <li>호스트에 특정 횟수 ping 하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_ip</span></p>
+
+<ul>
+  <li>브로드캐스트 ARP 요청 패킷을 통해 이웃 ARP 캐시 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -U </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_to_broadcast</span></p>
+
+<ul>
+  <li>3초의 시간 제한을 사용하여 ARP 요청을 전송하여 네트워크에서 중복된 IP 주소를 탐지합니다:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">arping -D -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_to_check</span></p>

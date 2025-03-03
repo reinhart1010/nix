@@ -1,0 +1,46 @@
+<h1 id="mongodump">mongodump</h1>
+
+<p>MongoDB 인스턴스의 내용을 내보내는 유틸리티.
+더 많은 정보: <a href="https://docs.mongodb.com/database-tools/mongodump/">https://docs.mongodb.com/database-tools/mongodump/</a>.</p>
+
+<ul>
+  <li>모든 데이터베이스의 덤프 생성 (파일은 "dump"라는 폴더에 저장됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongodump</code></p>
+
+<ul>
+  <li>덤프의 출력 위치 지정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongodump --out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/폴더</span></p>
+
+<ul>
+  <li>특정 데이터베이스의 덤프 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongodump --db </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span></p>
+
+<ul>
+  <li>특정 데이터베이스 내의 특정 컬렉션 덤프 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongodump --collection </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">컬렉션_이름</span><code class="language-plaintext highlighter-rouge"> --db </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스_이름</span></p>
+
+<ul>
+  <li>주어진 포트에서 실행 중인 특정 호스트에 연결하여 덤프 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongodump --host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트</span></p>
+
+<ul>
+  <li>특정 사용자 명으로 데이터베이스의 덤프 생성; 사용자에게 비밀번호 입력이 요청됨:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongodump --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자_명</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터베이스</span><code class="language-plaintext highlighter-rouge"> --password</code></p>
+
+<ul>
+  <li>특정 인스턴스에서 덤프 생성; 호스트, 사용자, 비밀번호 및 데이터베이스가 연결 문자열에 정의됨:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongodump --uri </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">연결_문자열</span></p>

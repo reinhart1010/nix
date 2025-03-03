@@ -1,0 +1,28 @@
+<h1 id="uncompress">uncompress</h1>
+
+<p>Uncompress files compressed using the Unix <code class="language-plaintext highlighter-rouge">compress</code> command.
+More information: <a href="https://manned.org/uncompress.1">https://manned.org/uncompress.1</a>.</p>
+
+<ul>
+  <li>Uncompress specific files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uncompress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.Z path/to/file2.Z …</span></p>
+
+<ul>
+  <li>Uncompress specific files while ignoring non-existent ones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uncompress -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.Z path/to/file2.Z …</span></p>
+
+<ul>
+  <li>Write to <code class="language-plaintext highlighter-rouge">stdout</code> (no files are changed and no <code class="language-plaintext highlighter-rouge">.Z</code> files are created):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uncompress -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.Z path/to/file2.Z …</span></p>
+
+<ul>
+  <li>Verbose mode (write to <code class="language-plaintext highlighter-rouge">stderr</code> about percentage reduction or expansion):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">uncompress -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.Z path/to/file2.Z …</span></p>

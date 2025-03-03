@@ -1,0 +1,28 @@
+<h1 id="comby">comby</h1>
+
+<p>Tool for structural code search and replace that supports many languages.
+More information: <a href="https://github.com/comby-tools/comby">https://github.com/comby-tools/comby</a>.</p>
+
+<ul>
+  <li>Match and rewrite templates, and print changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comby '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">assert_eq!(:[a], :[b])</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">assert_eq!(:[b], :[a])</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.rs</span></p>
+
+<ul>
+  <li>Match and rewrite with rewrite properties:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comby '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">assert_eq!(:[a], :[b])</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">assert_eq!(:[b].Capitalize, :[a])</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.rs</span></p>
+
+<ul>
+  <li>Match and rewrite in-place:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comby -in-place '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">match_pattern</span><code class="language-plaintext highlighter-rouge">' '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rewrite_pattern</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Only perform matching and print matches:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">comby -match-only '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">match_pattern</span><code class="language-plaintext highlighter-rouge">' ""</code></p>

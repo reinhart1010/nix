@@ -1,0 +1,46 @@
+<h1 id="cargo-build">cargo build</h1>
+
+<p>编译本地包及其所有依赖项。
+更多信息：<a href="https://doc.rust-lang.org/cargo/commands/cargo-build.html">https://doc.rust-lang.org/cargo/commands/cargo-build.html</a>.</p>
+
+<ul>
+  <li>在本地路径中构建由 <code class="language-plaintext highlighter-rouge">Cargo.toml</code> 清单文件定义的一个或多个包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build</code></p>
+
+<ul>
+  <li>以 release 模式构建，并进行优化：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --release</code></p>
+
+<ul>
+  <li>要求 <code class="language-plaintext highlighter-rouge">Cargo.lock</code> 文件为最新版本：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --locked</code></p>
+
+<ul>
+  <li>构建工作区中的所有包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --workspace</code></p>
+
+<ul>
+  <li>构建特定的包：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">包名</span></p>
+
+<ul>
+  <li>仅构建指定的二进制文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --bin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">名称</span></p>
+
+<ul>
+  <li>仅构建指定的测试目标：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cargo build --test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">测试名称</span></p>

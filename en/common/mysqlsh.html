@@ -1,0 +1,47 @@
+<h1 id="mysqlsh">mysqlsh</h1>
+
+<p>Advanced command-line client for MySQL, supporting SQL, JavaScript, and Python.
+It offers features for managing InnoDB clusters and document store collections.
+More information: <a href="https://dev.mysql.com/doc/mysql-shell/8.0/en/mysql-shell-commands.html">https://dev.mysql.com/doc/mysql-shell/8.0/en/mysql-shell-commands.html</a>.</p>
+
+<ul>
+  <li>Start MySQL Shell in interactive mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlsh</code></p>
+
+<ul>
+  <li>Connect to a MySQL server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlsh --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Execute an SQL statement on the server and exit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlsh --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --execute '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sql_statement</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Start MySQL Shell in JavaScript mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlsh --js</code></p>
+
+<ul>
+  <li>Start MySQL Shell in Python mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlsh --py</code></p>
+
+<ul>
+  <li>Import JSON documents into a MySQL collection:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlsh --import </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span><code class="language-plaintext highlighter-rouge"> --schema </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">schema_name</span><code class="language-plaintext highlighter-rouge"> --collection </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">collection_name</span></p>
+
+<ul>
+  <li>Enable verbose output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mysqlsh --verbose</code></p>

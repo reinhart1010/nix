@@ -1,0 +1,34 @@
+<h1 id="debootstrap">debootstrap</h1>
+
+<p>Create a basic Debian system.
+More information: <a href="https://wiki.debian.org/Debootstrap">https://wiki.debian.org/Debootstrap</a>.</p>
+
+<ul>
+  <li>Create a Debian stable release system inside the <code class="language-plaintext highlighter-rouge">debian-root</code> directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo debootstrap stable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/debian-root/</span><code class="language-plaintext highlighter-rouge"> http://deb.debian.org/debian</code></p>
+
+<ul>
+  <li>Create a minimal system including only required packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo debootstrap --variant=minbase stable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/debian-root/</span></p>
+
+<ul>
+  <li>Create an Ubuntu 20.04 system inside the <code class="language-plaintext highlighter-rouge">focal-root</code> directory with a local mirror:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo debootstrap focal </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/focal-root/</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file:///path/to/mirror/</span></p>
+
+<ul>
+  <li>Switch to a bootstrapped system:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo chroot </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/root</span></p>
+
+<ul>
+  <li>List available releases:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls /usr/share/debootstrap/scripts/</code></p>

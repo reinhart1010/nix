@@ -1,0 +1,46 @@
+<h1 id="usql">usql</h1>
+
+<p>通用 SQL 数据库的命令行界面。
+更多信息：<a href="https://github.com/xo/usql">https://github.com/xo/usql</a>.</p>
+
+<ul>
+  <li>连接到一个特定的数据库：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">usql </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sqlserver|mysql|postgres|sqlite3|…</span><code class="language-plaintext highlighter-rouge">://</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">主机</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">端口</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">数据库名</span></p>
+
+<ul>
+  <li>从文件中执行命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">usql --file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.sql</span></p>
+
+<ul>
+  <li>执行一个特定的 SQL 命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">usql --command="</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sql命令</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>在 <code class="language-plaintext highlighter-rouge">usql</code> 提示符下运行一个 SQL 命令：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span><code class="language-plaintext highlighter-rouge">=&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sql命令</span></p>
+
+<ul>
+  <li>显示数据库架构：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span><code class="language-plaintext highlighter-rouge">=&gt; \d</code></p>
+
+<ul>
+  <li>将查询结果导出到一个特定文件：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span><code class="language-plaintext highlighter-rouge">=&gt; \g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/结果文件</span></p>
+
+<ul>
+  <li>从 CSV 文件导入数据到一个特定表：</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prompt</span><code class="language-plaintext highlighter-rouge">=&gt; \copy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/data.csv</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">表名</span></p>

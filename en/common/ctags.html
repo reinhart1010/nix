@@ -1,0 +1,28 @@
+<h1 id="ctags">ctags</h1>
+
+<p>Generate an index (or tag) file of language objects found in source files for many popular programming languages.
+More information: <a href="https://ctags.io/">https://ctags.io/</a>.</p>
+
+<ul>
+  <li>Generate tags for a single file, and output them to a file named "tags" in the current directory, overwriting the file if it exists:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ctags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Generate tags for all files in the current directory, and output them to a specific file, overwriting the file if it exists:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ctags -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> *</code></p>
+
+<ul>
+  <li>Generate tags for all files in the current directory and all subdirectories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ctags --recurse</code></p>
+
+<ul>
+  <li>Generate tags for a single file, and output them with start line number and end line number in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ctags --fields=+ne --output-format=json </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

@@ -1,0 +1,29 @@
+<h1 id="salt-key">salt-key</h1>
+
+<p>Salt 마스터에서 Salt 미니언 키를 관리.
+루트 사용자로 또는 sudo와 함께 Salt 마스터에서 실행해야 함.
+더 많은 정보: <a href="https://docs.saltproject.io/en/latest/ref/cli/salt-key.html">https://docs.saltproject.io/en/latest/ref/cli/salt-key.html</a>.</p>
+
+<ul>
+  <li>수락된, 수락되지 않은 및 거부된 모든 미니언 키 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt-key -L</code></p>
+
+<ul>
+  <li>이름으로 미니언 키 수락:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt-key -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">미니언_ID</span></p>
+
+<ul>
+  <li>이름으로 미니언 키 거부:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt-key -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">미니언_ID</span></p>
+
+<ul>
+  <li>모든 공개 키의 지문 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">salt-key -F</code></p>

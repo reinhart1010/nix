@@ -1,0 +1,34 @@
+<h1 id="xmake">xmake</h1>
+
+<p>A cross-platform C &amp; C++ build utility based on Lua.
+More information: <a href="https://xmake.io/#/getting_started">https://xmake.io/#/getting_started</a>.</p>
+
+<ul>
+  <li>Create an Xmake C project, consisting of a hello world and <code class="language-plaintext highlighter-rouge">xmake.lua</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmake create --language c -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span></p>
+
+<ul>
+  <li>Build and run an Xmake project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmake build run</code></p>
+
+<ul>
+  <li>Run a compiled Xmake target directly:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmake run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_name</span></p>
+
+<ul>
+  <li>Configure a project's build targets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmake config --plat=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">macosx|linux|iphoneos|…</span><code class="language-plaintext highlighter-rouge"> --arch=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x86_64|i386|arm64|…</span><code class="language-plaintext highlighter-rouge"> --mode=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">debug|release</span></p>
+
+<ul>
+  <li>Install the compiled target to a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xmake install -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>

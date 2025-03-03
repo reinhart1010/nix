@@ -1,0 +1,25 @@
+<h1 id="cupstestppd">cupstestppd</h1>
+
+<p>Test conformance of PPD files to the version 4.3 of the specification.
+Error codes (1, 2, 3 and 4, respectively): bad CLI arguments, unable to open file, unskippable format errors and non-conformance with PPD specification.
+Note: this command is deprecated.
+See also: <code class="language-plaintext highlighter-rouge">lpadmin</code>.
+More information: <a href="https://openprinting.github.io/cups/doc/man-cupstestppd.html">https://openprinting.github.io/cups/doc/man-cupstestppd.html</a>.</p>
+
+<ul>
+  <li>Test the conformance of one or more files in quiet mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupstestppd -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.ppd path/to/file2.ppd …</span></p>
+
+<ul>
+  <li>Get the PPD file from <code class="language-plaintext highlighter-rouge">stdin</code>, showing detailed conformance testing results:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupstestppd -v - &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ppd</span></p>
+
+<ul>
+  <li>Test all PPD files under the current directory, printing the names of each file that does not conform:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">find . -name \*.ppd \! -execdir cupstestppd -q '{}' \; -print</code></p>

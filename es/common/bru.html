@@ -1,0 +1,40 @@
+<h1 id="bru">bru</h1>
+
+<p>CLI para Bruno, un IDE de código abierto para explorar y probar APIs.
+Más información: <a href="https://docs.usebruno.com/bru-cli/overview">https://docs.usebruno.com/bru-cli/overview</a>.</p>
+
+<ul>
+  <li>Ejecuta todos los archivos de petición en el directorio actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bru run</code></p>
+
+<ul>
+  <li>Ejecuta una única petición en el directorio actual especificando su nombre de archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bru run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo.bru</span></p>
+
+<ul>
+  <li>Ejecuta peticiones utilizando un entorno:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bru run --env </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_entorno</span></p>
+
+<ul>
+  <li>Ejecuta peticiones utilizando un entorno con una variable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bru run --env </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_entorno</span><code class="language-plaintext highlighter-rouge"> --env-var </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_variable</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor_variable</span></p>
+
+<ul>
+  <li>Ejecuta la solicitud y guarda los resultados en un archivo de salida:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bru run --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/archivo_de_salida.json</span></p>
+
+<ul>
+  <li>Muestra ayuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bru run --help</code></p>

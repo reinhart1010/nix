@@ -1,0 +1,28 @@
+<h1 id="ico">ico</h1>
+
+<p>다면체 애니메이션을 표시합니다.
+더 많은 정보: <a href="https://manned.org/ico.1">https://manned.org/ico.1</a>.</p>
+
+<ul>
+  <li>0.1초마다 위치가 변경되는 정이십면체의 와이어프레임 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ico -sleep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.1</span></p>
+
+<ul>
+  <li>빨간 면과 파란 배경의 실체 정이십면체 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ico -faces -noedges -colors </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">red</span><code class="language-plaintext highlighter-rouge"> -bg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blue</span></p>
+
+<ul>
+  <li>크기 100x100의 큐브 와이어프레임을 프레임마다 +1+2씩 이동하며 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ico -obj </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">큐브</span><code class="language-plaintext highlighter-rouge"> -size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100x100</span><code class="language-plaintext highlighter-rouge"> -delta </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+1+2</span></p>
+
+<ul>
+  <li>5개의 스레드를 사용하여 선 너비 10의 반전된 정이십면체 와이어프레임 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ico -i -lw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> -threads </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>

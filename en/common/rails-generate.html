@@ -1,0 +1,34 @@
+<h1 id="rails-generate">rails generate</h1>
+
+<p>Generate new Rails templates in an existing project.
+More information: <a href="https://guides.rubyonrails.org/command_line.html#bin-rails-generate">https://guides.rubyonrails.org/command_line.html#bin-rails-generate</a>.</p>
+
+<ul>
+  <li>List all available generators:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rails generate</code></p>
+
+<ul>
+  <li>Generate a new model named Post with attributes title and body:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rails generate model </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Post</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">title:string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">body:text</span></p>
+
+<ul>
+  <li>Generate a new controller named Posts with actions index, show, new and create:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rails generate controller </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Posts</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">index</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">show</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">create</span></p>
+
+<ul>
+  <li>Generate a new migration that adds a category attribute to an existing model called Post:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rails generate migration </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AddCategoryToPost</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">category:string</span></p>
+
+<ul>
+  <li>Generate a scaffold for a model named Post, predefining the attributes title and body:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rails generate scaffold </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Post</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">title:string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">body:text</span></p>

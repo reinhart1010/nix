@@ -1,0 +1,34 @@
+<h1 id="zipgrep">zipgrep</h1>
+
+<p>在 Zip 压缩档案中的文件中使用扩展正则表达式查找模式（支持 <code class="language-plaintext highlighter-rouge">?</code>、<code class="language-plaintext highlighter-rouge">+</code>、<code class="language-plaintext highlighter-rouge">{}</code>、<code class="language-plaintext highlighter-rouge">()</code> 和 <code class="language-plaintext highlighter-rouge">|</code>）。
+更多信息：<a href="https://manned.org/zipgrep">https://manned.org/zipgrep</a>.</p>
+
+<ul>
+  <li>在 Zip 压缩档案中搜索一个模式：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zipgrep "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">搜索模式</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.zip</span></p>
+
+<ul>
+  <li>打印匹配的文件名和行号：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zipgrep -H -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">搜索模式</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.zip</span></p>
+
+<ul>
+  <li>搜索与模式不匹配的行：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zipgrep -v "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">搜索模式</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.zip</span></p>
+
+<ul>
+  <li>指定在 Zip 压缩档案中要搜索的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zipgrep "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">搜索模式</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">要搜索的文件1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">要搜索的文件2</span></p>
+
+<ul>
+  <li>排除在 Zip 压缩档案中要搜索的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zipgrep "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">搜索模式</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.zip</span><code class="language-plaintext highlighter-rouge"> -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">要排除的文件1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">要排除的文件2</span></p>

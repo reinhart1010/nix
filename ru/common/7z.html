@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="7z">7z</h1>
+
+<p>Архиватор файлов с высокой степенью сжатия.
+Больше информации: <a href="https://manned.org/7z">https://manned.org/7z</a>.</p>
+
+<ul>
+  <li>Архивировать ([a]rchive) файл или папку:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива.7z</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла_или_папки</span></p>
+
+<ul>
+  <li>Зашифровать существующий архив (включая имена файлов):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/зашифрованного_архива.7z</span><code class="language-plaintext highlighter-rouge"> -p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">пароль</span><code class="language-plaintext highlighter-rouge"> -mhe=on </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива.7z</span></p>
+
+<ul>
+  <li>Распаковать (e[x]tract) существующий архив, сохраняя оригинальную структуру папок:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива.7z</span></p>
+
+<ul>
+  <li>Распаковать (e[x]tract) архив в нужную папку:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива.7z</span><code class="language-plaintext highlighter-rouge"> -o</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/папки</span></p>
+
+<ul>
+  <li>Распаковать (e[x]tract) архив в <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива.7z</span><code class="language-plaintext highlighter-rouge"> -so</code></p>
+
+<ul>
+  <li>Архивировать ([a]rchive), используя определённый тип архива:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z a -t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7z|bzip2|gzip|lzip|tar|zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла_или_папки</span></p>
+
+<ul>
+  <li>Вывести ([l]ist) содержимое архива:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива.7z</span></p>

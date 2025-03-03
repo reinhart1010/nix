@@ -1,0 +1,32 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="vim">vim</h1>
+
+<p>Vi IMproved, un editor di testo per programmatori che fornisce diverse modalità per modificare testo.
+Premi <code class="language-plaintext highlighter-rouge">i</code> per entrare in insert mode e <code class="language-plaintext highlighter-rouge">&lt;Esc&gt;</code> per tornare in normal mode dove non puoi inserire testo normalmente.
+Maggiori informazioni: <a href="https://www.vim.org">https://www.vim.org</a>.</p>
+
+<ul>
+  <li>Apri un file in vim:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vim </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Annulla l'ultima operazione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;Esc&gt;u</code></p>
+
+<ul>
+  <li>Cerca un pattern nel file (usa <code class="language-plaintext highlighter-rouge">n</code>/<code class="language-plaintext highlighter-rouge">N</code> per spostarti al risultato successivo/precedente):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">espressione_regolare</span><code class="language-plaintext highlighter-rouge">&lt;Invio&gt;</code></p>
+
+<ul>
+  <li>Effettua una sostituzione tramite espressione regolare nell'intero file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">:%s/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">espressione_regolare</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sostituzione</span><code class="language-plaintext highlighter-rouge">/g&lt;Invio&gt;</code></p>

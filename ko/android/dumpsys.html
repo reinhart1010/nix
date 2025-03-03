@@ -1,0 +1,41 @@
+<h1 id="dumpsys">dumpsys</h1>
+
+<p>Android 시스템 서비스에 대한 제공.
+이 명령은 <code class="language-plaintext highlighter-rouge">adb shell</code>을 통해서만 사용할 수 있습니다.
+더 많은 정보: <a href="https://developer.android.com/tools/dumpsys">https://developer.android.com/tools/dumpsys</a>.</p>
+
+<ul>
+  <li>모든 시스템 서비스에 대한 진단 출력 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys</code></p>
+
+<ul>
+  <li>특정 시스템 서비스에 대한 진단 출력 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서비스</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">dumpsys</code>가 제공할 수 있는 모든 서비스를 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys -l</code></p>
+
+<ul>
+  <li>서비스에 대한 서비스별 인수 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서비스</span><code class="language-plaintext highlighter-rouge"> -h</code></p>
+
+<ul>
+  <li>진단 출력에서 특정 서비스 제외:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys --skip </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">서비스</span></p>
+
+<ul>
+  <li>시간 초과 기간을 초 단위로 지정(기본값은 10초):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dumpsys -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span></p>

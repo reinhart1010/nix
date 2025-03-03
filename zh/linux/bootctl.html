@@ -1,0 +1,40 @@
+<h1 id="bootctl">bootctl</h1>
+
+<p>控制EFI固件启动设置并管理启动加载器。
+更多信息：<a href="https://manned.org/bootctl">https://manned.org/bootctl</a>.</p>
+
+<ul>
+  <li>显示系统固件和启动加载器的信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bootctl status</code></p>
+
+<ul>
+  <li>显示所有可用的启动加载器条目：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bootctl list</code></p>
+
+<ul>
+  <li>将系统固件设置为在下次启动时启动：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bootctl reboot-to-firmware true</code></p>
+
+<ul>
+  <li>指定EFI系统分区（默认为<code class="language-plaintext highlighter-rouge">/efi/</code>，<code class="language-plaintext highlighter-rouge">/boot/</code>或<code class="language-plaintext highlighter-rouge">/boot/efi</code>）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bootctl --esp-path=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/efi_system_partition/</span></p>
+
+<ul>
+  <li>将<code class="language-plaintext highlighter-rouge">systemd-boot</code>安装到EFI系统分区：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bootctl install</code></p>
+
+<ul>
+  <li>从EFI系统分区移除所有已安装的<code class="language-plaintext highlighter-rouge">systemd-boot</code>版本：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo bootctl remove</code></p>

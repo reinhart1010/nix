@@ -1,0 +1,35 @@
+<h1 id="namei">namei</h1>
+
+<p>Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc).
+This program is useful for finding "too many levels of symbolic links" problems.
+More information: <a href="https://manned.org/namei">https://manned.org/namei</a>.</p>
+
+<ul>
+  <li>Resolve the pathnames specified as the argument parameters:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">namei </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/a</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/b</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/c</span></p>
+
+<ul>
+  <li>Display the results in a long-listing format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">namei --long </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/a</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/b</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/c</span></p>
+
+<ul>
+  <li>Show the mode bits of each file type in the style of <code class="language-plaintext highlighter-rouge">ls</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">namei --modes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/a</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/b</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/c</span></p>
+
+<ul>
+  <li>Show owner and group name of each file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">namei --owners </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/a</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/b</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/c</span></p>
+
+<ul>
+  <li>Don't follow symlinks while resolving:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">namei --nosymlinks </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/a</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/b</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/c</span></p>

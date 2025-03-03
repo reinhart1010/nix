@@ -1,0 +1,28 @@
+<h1 id="browser-sync">browser-sync</h1>
+
+<p>파일 변경에 따라 브라우저를 업데이트 하는 로컬 웹 서버 시작.
+더 많은 정보: <a href="https://browsersync.io/docs/command-line">https://browsersync.io/docs/command-line</a>.</p>
+
+<ul>
+  <li>특정 디렉토리로부터 서버 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">browser-sync start --server </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디렉토리/의/경로</span><code class="language-plaintext highlighter-rouge"> --files </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디렉토리/의/경로</span></p>
+
+<ul>
+  <li>로컬 디렉토리에서 서버 시작, 일부 디렉토리에서 모든 CSS파일 확인:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">browser-sync start --server --files '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디렉토리/의/경로/*.css</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>구성 파일 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">browser-sync init</code></p>
+
+<ul>
+  <li>구성 파일에서 브라우저 동기화 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">browser-sync start --config </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config_파일</span></p>

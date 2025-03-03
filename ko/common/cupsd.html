@@ -1,0 +1,52 @@
+<h1 id="cupsd">cupsd</h1>
+
+<p>CUPS 인쇄 서버용 서버 데몬.
+더 많은 정보: <a href="https://openprinting.github.io/cups/doc/man-cupsd.html">https://openprinting.github.io/cups/doc/man-cupsd.html</a>.</p>
+
+<ul>
+  <li>백그라운드에서 <code class="language-plaintext highlighter-rouge">cupsd</code>를 데몬으로 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd</code></p>
+
+<ul>
+  <li>포어그라운드에서 <code class="language-plaintext highlighter-rouge">cupsd</code>를 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -f</code></p>
+
+<ul>
+  <li>필요에 따라 <code class="language-plaintext highlighter-rouge">cupsd</code> 실행([l]aunch) (일반적으로 <code class="language-plaintext highlighter-rouge">launchd</code> 또는 <code class="language-plaintext highlighter-rouge">systemd</code>에서 사용됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -l</code></p>
+
+<ul>
+  <li>Start <code class="language-plaintext highlighter-rouge">cupsd</code> using the specified [<code class="language-plaintext highlighter-rouge">c</code>]<code class="language-plaintext highlighter-rouge">upsd.conf</code> configuration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/cupsd.conf</span></p>
+
+<ul>
+  <li>지정된 <code class="language-plaintext highlighter-rouge">cups-file</code>[<code class="language-plaintext highlighter-rouge">s</code>]<code class="language-plaintext highlighter-rouge">.conf</code> 구성 파일을 사용하여 <code class="language-plaintext highlighter-rouge">cupsd</code>를 시작:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/cups-파일.conf</span></p>
+
+<ul>
+  <li>[<code class="language-plaintext highlighter-rouge">c</code>]<code class="language-plaintext highlighter-rouge">upsd.conf</code> 구성 파일에 오류가 있는지 확인([t]est):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -t -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cupsd.conf</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">cups-file</code>[<code class="language-plaintext highlighter-rouge">s</code>]<code class="language-plaintext highlighter-rouge">.conf</code> 구성 파일들에 오류가 있는지 확인([t]est):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -t -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/cups-파일.conf</span></p>
+
+<ul>
+  <li>도움말 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cupsd -h</code></p>

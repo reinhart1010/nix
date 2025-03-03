@@ -1,0 +1,46 @@
+<h1 id="knife">knife</h1>
+
+<p>Interact with a Chef server from a local Chef repo.
+More information: <a href="https://docs.chef.io/knife.html">https://docs.chef.io/knife.html</a>.</p>
+
+<ul>
+  <li>Bootstrap a new node:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">knife bootstrap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fqdn_or_ip</span></p>
+
+<ul>
+  <li>List all registered nodes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">knife node list</code></p>
+
+<ul>
+  <li>Show a node:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">knife node show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_name</span></p>
+
+<ul>
+  <li>Edit a node:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">knife node edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_name</span></p>
+
+<ul>
+  <li>Edit a role:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">knife role edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role_name</span></p>
+
+<ul>
+  <li>View a data bag:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">knife data bag show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data_bag_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data_bag_item</span></p>
+
+<ul>
+  <li>Upload a local cookbook to the Chef server:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">knife cookbook upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cookbook_name</span></p>

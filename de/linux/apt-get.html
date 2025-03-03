@@ -1,0 +1,53 @@
+<h1 id="apt-get">apt-get</h1>
+
+<p>Debian und Ubuntu Paket Management Tool.
+Suche mit <code class="language-plaintext highlighter-rouge">apt-cache</code> nach Paketen.
+Weitere Informationen: <a href="https://manned.org/apt-get.8">https://manned.org/apt-get.8</a>.</p>
+
+<ul>
+  <li>Aktualisiere die Liste der Paketquellen (es wird empfohlen diesen Befehl zu Beginn auszuführen):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get update</code></p>
+
+<ul>
+  <li>Installiere ein Paket oder aktualisiere es zur neuesten Version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>Entferne ein Paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>Entferne ein Paket und die dazugehörigen Konfigurationen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get purge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span></p>
+
+<ul>
+  <li>Aktualisiere alle Pakete auf die neueste Version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get upgrade</code></p>
+
+<ul>
+  <li>Reinige das Repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get autoclean</code></p>
+
+<ul>
+  <li>Entferne alle Pakete, die nicht mehr benötigt werden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get autoremove</code></p>
+
+<ul>
+  <li>Aktualisiere alle Pakete (wie <code class="language-plaintext highlighter-rouge">upgrade</code>), aber entfernt alle obsoleten Pakete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get dist-upgrade</code></p>

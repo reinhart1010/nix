@@ -1,0 +1,23 @@
+<h1 id="git-format-patch">git format-patch</h1>
+
+<p><code class="language-plaintext highlighter-rouge">.patch</code> dosyaları oluştur. Commit'leri e-posta olarak gönderirken işe yarar.
+Ayrıca benzer bir komut olan <code class="language-plaintext highlighter-rouge">git am</code> sayfasına bakılması önerilir.
+Daha fazla bilgi için: <a href="https://git-scm.com/docs/git-format-patch">https://git-scm.com/docs/git-format-patch</a>.</p>
+
+<ul>
+  <li>Gönderilmemiş tüm commit'ler için otomatik olarak adlandırılan bir <code class="language-plaintext highlighter-rouge">.patch</code> dosyası oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git format-patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">origin</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdout</code>'daki belirtilen 2 revizyon arasındaki tüm commit'ler için bir <code class="language-plaintext highlighter-rouge">.patch</code> dosyası oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git format-patch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revizyon_1</span><code class="language-plaintext highlighter-rouge">..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revizyon_2</span></p>
+
+<ul>
+  <li>Son 3 commit için bit <code class="language-plaintext highlighter-rouge">.patch</code> dosyası oluştur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git format-patch -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>

@@ -1,0 +1,46 @@
+<h1 id="transmission-remote">transmission-remote</h1>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-daemon</code> 및 <code class="language-plaintext highlighter-rouge">transmission</code>의 원격 제어 도구.
+더 많은 정보: <a href="https://transmissionbt.com">https://transmissionbt.com</a>.</p>
+
+<ul>
+  <li>토렌트 파일 또는 마그넷 링크를 Transmission에 추가하고 지정한 디렉토리로 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">토렌트|url</span><code class="language-plaintext highlighter-rouge"> -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/다운로드_디렉토리</span></p>
+
+<ul>
+  <li>기본 다운로드 디렉토리 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/다운로드_디렉토리</span></p>
+
+<ul>
+  <li>모든 토렌트 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> --list</code></p>
+
+<ul>
+  <li>토렌트 1과 2 시작, 토렌트 3 중지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> -t "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,2</span><code class="language-plaintext highlighter-rouge">" --start -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> --stop</code></p>
+
+<ul>
+  <li>토렌트 1과 2 제거, 토렌트 2의 로컬 데이터도 삭제:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span><code class="language-plaintext highlighter-rouge"> --remove -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> --remove-and-delete</code></p>
+
+<ul>
+  <li>모든 토렌트 중지:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">all</span><code class="language-plaintext highlighter-rouge"> --stop</code></p>
+
+<ul>
+  <li>토렌트 1-10 및 15-20을 새 디렉토리로 이동 (존재하지 않는 경우 생성됨):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">transmission-remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">호스트명</span><code class="language-plaintext highlighter-rouge"> -t "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-10,15-20</span><code class="language-plaintext highlighter-rouge">" --move </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/경로/대상/새_디렉토리</span></p>

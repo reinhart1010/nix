@@ -1,0 +1,40 @@
+<h1 id="kops">kops</h1>
+
+<p>Create, destroy, upgrade and maintain Kubernetes clusters.
+More information: <a href="https://github.com/kubernetes/kops/">https://github.com/kubernetes/kops/</a>.</p>
+
+<ul>
+  <li>Create a cluster from the configuration specification:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kops create cluster -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name.yaml</span></p>
+
+<ul>
+  <li>Create a new SSH public key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kops create secret sshpublickey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/id_rsa.pub</span></p>
+
+<ul>
+  <li>Export the cluster configuration to the <code class="language-plaintext highlighter-rouge">~/.kube/config</code> file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kops export kubecfg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span></p>
+
+<ul>
+  <li>Get the cluster configuration as YAML:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kops get cluster </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span><code class="language-plaintext highlighter-rouge"> -o yaml</code></p>
+
+<ul>
+  <li>Delete a cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kops delete cluster </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span><code class="language-plaintext highlighter-rouge"> --yes</code></p>
+
+<ul>
+  <li>Validate a cluster:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kops validate cluster </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span><code class="language-plaintext highlighter-rouge"> --wait </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wait_time_until_ready</span><code class="language-plaintext highlighter-rouge"> --count </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">num_required_validations</span></p>

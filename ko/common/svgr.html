@@ -1,0 +1,46 @@
+<h1 id="svgr">svgr</h1>
+
+<p>SVG를 React 컴포넌트로 변환.
+더 많은 정보: <a href="https://react-svgr.com">https://react-svgr.com</a>.</p>
+
+<ul>
+  <li>SVG 파일을 React 컴포넌트로 변환하여 <code class="language-plaintext highlighter-rouge">stdout</code>으로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgr -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.svg</span></p>
+
+<ul>
+  <li>SVG 파일을 TypeScript를 사용하여 React 컴포넌트로 변환하여 <code class="language-plaintext highlighter-rouge">stdout</code>으로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgr --typescript -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.svg</span></p>
+
+<ul>
+  <li>SVG 파일을 JSX 변환을 사용하여 React 컴포넌트로 변환하여 <code class="language-plaintext highlighter-rouge">stdout</code>으로 출력:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgr --jsx-runtime automatic -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.svg</span></p>
+
+<ul>
+  <li>디렉터리의 모든 SVG 파일을 특정 디렉터리의 React 컴포넌트로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgr --out-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_폴더</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_폴더</span></p>
+
+<ul>
+  <li>이미 변환된 파일을 건너뛰고 디렉터리의 모든 SVG 파일을 특정 디렉터리의 React 컴포넌트로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgr --out-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_폴더</span><code class="language-plaintext highlighter-rouge"> --ignore-existing </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_폴더</span></p>
+
+<ul>
+  <li>파일 이름에 특정 케이스를 사용하여 디렉터리의 모든 SVG 파일을 특정 디렉터리의 React 컴포넌트로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgr --out-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_폴더</span><code class="language-plaintext highlighter-rouge"> --filename-case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">camel|kebab|pascal</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_폴더</span></p>
+
+<ul>
+  <li>색인 파일을 생성하지 않고 디렉터리의 모든 SVG 파일을 특정 디렉터리의 React 컴포넌트로 변환:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">svgr --out-dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/출력_폴더</span><code class="language-plaintext highlighter-rouge"> --no-index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/입력_폴더</span></p>

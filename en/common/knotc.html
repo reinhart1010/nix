@@ -1,0 +1,34 @@
+<h1 id="knotc">knotc</h1>
+
+<p>Control knot DNS server.
+More information: <a href="https://www.knot-dns.cz/docs/latest/html/man_knotc.html">https://www.knot-dns.cz/docs/latest/html/man_knotc.html</a>.</p>
+
+<ul>
+  <li>Start editing a zone:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">knotc zone-begin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zone</span></p>
+
+<ul>
+  <li>Set an A record with TTL of 3600:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">knotc zone-set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zone</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subdomain</span><code class="language-plaintext highlighter-rouge"> 3600 A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span></p>
+
+<ul>
+  <li>Finish editing the zone:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">knotc zone-commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zone</span></p>
+
+<ul>
+  <li>Get the current zone data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">knotc zone-read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zone</span></p>
+
+<ul>
+  <li>Get the current server configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">knotc conf-read server</code></p>

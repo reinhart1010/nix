@@ -1,0 +1,40 @@
+<h1 id="cat">cat</h1>
+
+<p>फ़ाइलों को प्रिंट करता है और जोड़ता है।
+अधिक जानकारी: <a href="https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html</a>।</p>
+
+<ul>
+  <li>फ़ाइल की सामग्री को मानक (standard) आउटपुट पर प्रिंट करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span></p>
+
+<ul>
+  <li>एक आउटपुट फ़ाइल में कई फ़ाइलों को सम्‍मिलित करें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल1/का/पथ फ़ाइल2/का/पथ …</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट_फ़ाइल/का/पथ</span></p>
+
+<ul>
+  <li>आउटपुट फ़ाइल में कई फ़ाइलें जोड़ें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल1/का/पथ फ़ाइल2/का/पथ …</span><code class="language-plaintext highlighter-rouge"> &gt;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट_फ़ाइल/का/पथ</span></p>
+
+<ul>
+  <li>फ़ाइल में <code class="language-plaintext highlighter-rouge">stdin</code> लिखें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat - &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span></p>
+
+<ul>
+  <li>संख्या ([n]umber) सभी आउटपुट लाइनें:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span></p>
+
+<ul>
+  <li>गैर-मुद्रण योग्य और खाली स्थान वाले वर्ण प्रदर्शित करें (<code class="language-plaintext highlighter-rouge">M-</code> उपसर्ग के साथ यदि गैर-ASCII है):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat -v -t -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span></p>

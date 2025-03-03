@@ -1,0 +1,35 @@
+<h1 id="updog">updog</h1>
+
+<p>A replacement for Python's SimpleHTTPServer.
+It allows uploading and downloading via HTTP/S, can set ad hoc SSL certificates and use HTTP basic auth.
+More information: <a href="https://github.com/sc0tfree/updog">https://github.com/sc0tfree/updog</a>.</p>
+
+<ul>
+  <li>Start a HTTP server for the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">updog</code></p>
+
+<ul>
+  <li>Start a HTTP server for a specified directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">updog --directory </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/directory</span></p>
+
+<ul>
+  <li>Start a HTTP server on a specified port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">updog --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Start a HTTP server with a password (To log in, leave the username blank and enter the password in the password field):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">updog --password </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span></p>
+
+<ul>
+  <li>Enable transport encryption via SSL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">updog --ssl</code></p>

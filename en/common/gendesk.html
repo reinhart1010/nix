@@ -1,0 +1,22 @@
+<h1 id="gendesk">gendesk</h1>
+
+<p>Specifies the command to generate a <code class="language-plaintext highlighter-rouge">.desktop</code> file and a download icon with minimal information.
+More information: <a href="https://gendesk.roboticoverlords.org">https://gendesk.roboticoverlords.org</a>.</p>
+
+<ul>
+  <li>Create a <code class="language-plaintext highlighter-rouge">.desktop</code> file named <code class="language-plaintext highlighter-rouge">app</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gendesk -n --name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app</span><code class="language-plaintext highlighter-rouge">" --exec "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/app</span><code class="language-plaintext highlighter-rouge">" --icon "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/icon.png</span><code class="language-plaintext highlighter-rouge">" --comment "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">This is application</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Create a <code class="language-plaintext highlighter-rouge">.desktop</code> file named <code class="language-plaintext highlighter-rouge">app</code>, do not display any output, and overwrite it if it exists:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gendesk -q -f -n --name "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app</span><code class="language-plaintext highlighter-rouge">" --exec "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/app</span><code class="language-plaintext highlighter-rouge">" --icon "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/icon.png</span><code class="language-plaintext highlighter-rouge">" --comment "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">This is application</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gendesk -h</code></p>

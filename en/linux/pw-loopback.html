@@ -1,0 +1,40 @@
+<h1 id="pw-loopback">pw-loopback</h1>
+
+<p>Create loopback devices in PipeWire.
+More information: <a href="https://docs.pipewire.org/page_man_pw-loopback_1.html">https://docs.pipewire.org/page_man_pw-loopback_1.html</a>.</p>
+
+<ul>
+  <li>Create a loopback device with the default loopback behavior:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-loopback</code></p>
+
+<ul>
+  <li>Create a loopback device that automatically connects to the speakers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-loopback -m '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[FL FR]</span><code class="language-plaintext highlighter-rouge">' --capture-props='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media.class=Audio/Sink</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Create a loopback device that automatically connects to the microphone:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-loopback -m '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[FL FR]</span><code class="language-plaintext highlighter-rouge">' --playback-props='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media.class=Audio/Source</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Create a dummy loopback device that doesn't automatically connect to anything:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-loopback -m '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">[FL FR]</span><code class="language-plaintext highlighter-rouge">' --capture-props='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media.class=Audio/Sink</span><code class="language-plaintext highlighter-rouge">' --playback-props='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media.class=Audio/Source</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Create a loopback device that automatically connects to the speakers and swaps the left and right channels between the sink and source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-loopback --capture-props='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media.class=Audio/Sink audio.position=[FL FR]</span><code class="language-plaintext highlighter-rouge">' --playback-props='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">audio.position=[FR FL]</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Create a loopback device that automatically connects to the microphone and swaps the left and right channels between the sink and source:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-loopback --capture-props='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">audio.position=[FR FL]</span><code class="language-plaintext highlighter-rouge">' --playback-props='</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media.class=Audio/Source audio.position=[FL FR]</span><code class="language-plaintext highlighter-rouge">'</code></p>

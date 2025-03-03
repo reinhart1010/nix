@@ -1,0 +1,52 @@
+<h1 id="history-expansion">history expansion</h1>
+
+<p>Reuse and expand the shell history in <code class="language-plaintext highlighter-rouge">sh</code>, Bash, Zsh, <code class="language-plaintext highlighter-rouge">rbash</code> and <code class="language-plaintext highlighter-rouge">ksh</code>.
+More information: <a href="https://www.gnu.org/software/bash/manual/html_node/History-Interaction">https://www.gnu.org/software/bash/manual/html_node/History-Interaction</a>.</p>
+
+<ul>
+  <li>Run the previous command as root (<code class="language-plaintext highlighter-rouge">!!</code> is replaced by the previous command):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo !!</code></p>
+
+<ul>
+  <li>Run a command with the last argument of the previous command:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> !$</code></p>
+
+<ul>
+  <li>Run a command with the first argument of the previous command:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> !^</code></p>
+
+<ul>
+  <li>Run the Nth command of the history:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span></p>
+
+<ul>
+  <li>Run the command <code class="language-plaintext highlighter-rouge">n</code> lines back in the history:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span></p>
+
+<ul>
+  <li>Run the most recent command containing <code class="language-plaintext highlighter-rouge">string</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!?</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge">?</code></p>
+
+<ul>
+  <li>Run the previous command, replacing <code class="language-plaintext highlighter-rouge">string1</code> with <code class="language-plaintext highlighter-rouge">string2</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string1</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string2</span><code class="language-plaintext highlighter-rouge">^</code></p>
+
+<ul>
+  <li>Perform a history expansion, but print the command that would be run instead of actually running it:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">!-n</span><code class="language-plaintext highlighter-rouge">:p</code></p>

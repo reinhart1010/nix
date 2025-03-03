@@ -1,0 +1,29 @@
+<h1 id="ykman-openpgp">ykman openpgp</h1>
+
+<p>OpenPGP YubiKey 애플리케이션 관리.
+참고: 일부 설정을 위해 <code class="language-plaintext highlighter-rouge">gpg --card-edit</code>를 사용해야 합니다.
+더 많은 정보: <a href="https://docs.yubico.com/software/yubikey/tools/ykman/OpenPGP_Commands.html">https://docs.yubico.com/software/yubikey/tools/ykman/OpenPGP_Commands.html</a>.</p>
+
+<ul>
+  <li>OpenPGP 애플리케이션에 대한 일반 정보 표시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman openpgp info</code></p>
+
+<ul>
+  <li>사용자 PIN, 재설정 코드 및 관리자 PIN의 재시도 횟수 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman openpgp access set-retries </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span></p>
+
+<ul>
+  <li>사용자 PIN, 재설정 코드 또는 관리자 PIN 변경:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman openpgp access change-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pin|reset-code|admin-pin</span></p>
+
+<ul>
+  <li>OpenPGP 애플리케이션 초기화 (관리자 PIN 재시도 횟수를 초과한 후 수행해야 합니다):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman openpgp reset</code></p>

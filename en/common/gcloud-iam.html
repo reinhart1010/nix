@@ -1,0 +1,41 @@
+<h1 id="gcloud-iam">gcloud iam</h1>
+
+<p>Configure Identity and Access Management (IAM) preferences and service accounts.
+See also: <code class="language-plaintext highlighter-rouge">gcloud</code>.
+More information: <a href="https://cloud.google.com/sdk/gcloud/reference/iam">https://cloud.google.com/sdk/gcloud/reference/iam</a>.</p>
+
+<ul>
+  <li>List IAM grantable roles for a resource:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud iam list-grantable-roles </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource</span></p>
+
+<ul>
+  <li>Create a custom role for a organization or project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud iam roles create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role_name</span><code class="language-plaintext highlighter-rouge"> --</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization|project</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization|project_id</span><code class="language-plaintext highlighter-rouge"> --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/role.yaml</span></p>
+
+<ul>
+  <li>Create a service account for a project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud iam service-accounts create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span></p>
+
+<ul>
+  <li>Add an IAM policy binding to a service account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud iam service-accounts add-iam-policy-binding </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_account_email</span><code class="language-plaintext highlighter-rouge"> --member </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">member</span><code class="language-plaintext highlighter-rouge"> --role </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">role</span></p>
+
+<ul>
+  <li>Replace existing IAM policy binding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud iam service-accounts set-iam-policy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_account_email</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">policy_file</span></p>
+
+<ul>
+  <li>List a service account's keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud iam service-accounts keys list --iam-account </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_account_email</span></p>

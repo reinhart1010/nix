@@ -1,0 +1,11 @@
+<h1 id="cgexec">cgexec</h1>
+
+<p>Limita, mede e controla recursos usados pelos processos.
+Há vários tipos de cgroup (conhecidos como controladores), tal como <code class="language-plaintext highlighter-rouge">cpu</code>, <code class="language-plaintext highlighter-rouge">memory</code>, etc.
+Mais informações: <a href="https://manned.org/cgexec">https://manned.org/cgexec</a>.</p>
+
+<ul>
+  <li>Executa um processo em um cgroup e controlador providos pelo usuário:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cgexec -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">controlador</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_cgroup</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_processo</span></p>

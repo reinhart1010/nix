@@ -1,0 +1,46 @@
+<h1 id="git-commit">git commit</h1>
+
+<p>Faz um commit dos arquivos no repositório.
+Mais informações: <a href="https://git-scm.com/docs/git-commit">https://git-scm.com/docs/git-commit</a>.</p>
+
+<ul>
+  <li>Faz um commit com os arquivos preparados no repositório com uma mensagem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensagem</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Faz um commit com os arquivos preparados com uma mensagem lida de um arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_mensagem_do_commit</span></p>
+
+<ul>
+  <li>Prepara automaticamente todos os arquivos modificados e excluídos e faz o commit com uma mensagem:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --all --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensagem</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Faz um commit com os arquivos preparados e assina-os com a chave GPG especificada (ou a definida no arquivo de configuração se nenhum argumento for especificado):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --gpg-sign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_da_chave</span><code class="language-plaintext highlighter-rouge"> --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensagem</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Atualiza o último commit adicionando as alterações atualmente preparadas, alterando o hash do commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --amend</code></p>
+
+<ul>
+  <li>Faz um commit apenas de arquivos específicos (já preparados):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1 caminho/para/arquivo2 …</span></p>
+
+<ul>
+  <li>Cria um commit, mesmo se não haja arquivos preparados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --message "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensagem</span><code class="language-plaintext highlighter-rouge">" --allow-empty</code></p>

@@ -1,0 +1,46 @@
+<h1 id="mods">mods</h1>
+
+<p>AI for the command-line, built for pipelines.
+More information: <a href="https://github.com/charmbracelet/mods">https://github.com/charmbracelet/mods</a>.</p>
+
+<ul>
+  <li>Ask a generic question:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mods "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">write me a poem about platypuses</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Open settings in your <code class="language-plaintext highlighter-rouge">$EDITOR</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mods --settings</code></p>
+
+<ul>
+  <li>Ask for comments on your code, in markdown format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mods --format "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">what are your thoughts on improving this code?</span><code class="language-plaintext highlighter-rouge">" &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Ask for help with your documentation, in markdown format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mods --format "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">write a new section to this readme for a feature that sends you a free rabbit if you hit r</span><code class="language-plaintext highlighter-rouge">" &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">README.md</span></p>
+
+<ul>
+  <li>Organize your videos, in markdown format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/videos</span><code class="language-plaintext highlighter-rouge"> | mods --format "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organize these by decade and summarize</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Read through raw HTML and summarize the contents, in markdown format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">curl "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://api.open-meteo.com/v1/forecast?latitude=29.00&amp;longitude=-90.00&amp;current_weather=true&amp;hourly=temperature_2m,relativehumidity_2m,windspeed_10m</span><code class="language-plaintext highlighter-rouge">" | mods --format "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">summarize this weather data for a human</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mods --help</code></p>

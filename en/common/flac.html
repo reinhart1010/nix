@@ -1,0 +1,28 @@
+<h1 id="flac">flac</h1>
+
+<p>Encodes, decodes and tests FLAC files.
+More information: <a href="https://xiph.org/flac">https://xiph.org/flac</a>.</p>
+
+<ul>
+  <li>Encode a WAV file to FLAC (this will create a FLAC file in the same location as the WAV file):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flac </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.wav</span></p>
+
+<ul>
+  <li>Encode a WAV file to FLAC, specifying the output file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flac -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.flac</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.wav</span></p>
+
+<ul>
+  <li>Decode a FLAC file to WAV, specifying the output file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flac -d -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.wav</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.flac</span></p>
+
+<ul>
+  <li>Test a FLAC file for the correct encoding:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">flac -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.flac</span></p>

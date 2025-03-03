@@ -1,0 +1,24 @@
+<h1 id="abrt-action-analyze-backtrace">abrt-action-analyze-backtrace</h1>
+
+<p>Analyze C/C++ backtrace.
+Generate duplication hash, backtrace rating, and identify crash function.
+Save the data as new elements <code class="language-plaintext highlighter-rouge">duphash</code>, <code class="language-plaintext highlighter-rouge">rating</code>, <code class="language-plaintext highlighter-rouge">crash_function</code> in the problem directory.
+More information: <a href="https://manned.org/abrt-action-analyze-backtrace">https://manned.org/abrt-action-analyze-backtrace</a>.</p>
+
+<ul>
+  <li>Analyze backtrace for the current working directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">abrt-action-analyze-backtrace</code></p>
+
+<ul>
+  <li>Analyze backtrace for a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">abrt-action-analyze-backtrace -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Analyze backtrace verbosely:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">abrt-action-analyze-backtrace -v</code></p>

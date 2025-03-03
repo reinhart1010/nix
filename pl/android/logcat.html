@@ -1,0 +1,34 @@
+<h1 id="logcat">logcat</h1>
+
+<p>Zrzut dziennika komunikatów systemowych, w tym śladów stosu po wystąpieniu błędu i komunikatów informacyjnych rejestrowanych przez aplikacje.
+Więcej informacji: <a href="https://developer.android.com/tools/logcat">https://developer.android.com/tools/logcat</a>.</p>
+
+<ul>
+  <li>Wyświetl logi systemowe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat</code></p>
+
+<ul>
+  <li>Zapisz logi systemowe do pliku ([f]ile):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span></p>
+
+<ul>
+  <li>Wyświetl linie pasujące do wyrażenia regularnego:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat --regex </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wyrażenie_regularne</span></p>
+
+<ul>
+  <li>Wyświetl logi dla określonego PID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat --pid </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Wyświetl logi dla procesu określonego pakietu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">logcat --pid $(pidof -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span><code class="language-plaintext highlighter-rouge">)</code></p>

@@ -1,0 +1,28 @@
+<h1 id="opusenc">opusenc</h1>
+
+<p>Converte audio WAV o FLAC in Opus.
+Maggiori informazioni: <a href="https://opus-codec.org/docs/opus-tools/opusenc.html">https://opus-codec.org/docs/opus-tools/opusenc.html</a>.</p>
+
+<ul>
+  <li>Converte un file WAV in un file Opus usando le opzioni predefinite:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">opusenc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_originale.wav</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_convertito.opus</span></p>
+
+<ul>
+  <li>Converte un audio stereo alla massima qualità possibile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">opusenc --bitrate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">512</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_originale.wav</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_convertito.opus</span></p>
+
+<ul>
+  <li>Converte un audio con canali surround 5.1 alla massima qualità possibile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">opusenc --bitrate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1536</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_originale.flac</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_convertito.opus</span></p>
+
+<ul>
+  <li>Converte l'audio di una voce alla minima qualità possibile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">opusenc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_originale.wav</span><code class="language-plaintext highlighter-rouge"> --downmix-mono --bitrate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">6</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_convertito.opus</span></p>

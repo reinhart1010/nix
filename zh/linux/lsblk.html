@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="lsblk">lsblk</h1>
+
+<p>列出设备信息。
+更多信息：<a href="https://manned.org/lsblk">https://manned.org/lsblk</a>.</p>
+
+<ul>
+  <li>以树状格式列出所有存储设备：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk</code></p>
+
+<ul>
+  <li>同时列出空设备：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -a</code></p>
+
+<ul>
+  <li>以字节为单位而不是以人类可读的格式打印 SIZE 列：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -b</code></p>
+
+<ul>
+  <li>输出文件系统信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -f</code></p>
+
+<ul>
+  <li>输出块设备的拓扑结构：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -t</code></p>
+
+<ul>
+  <li>排除由逗号分隔的主要设备编号列表指定的设备：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,7,…</span></p>
+
+<ul>
+  <li>使用逗号分隔的列列表显示自定义摘要：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsblk --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">NAME,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT,…</span></p>

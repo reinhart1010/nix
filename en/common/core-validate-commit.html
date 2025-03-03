@@ -1,0 +1,46 @@
+<h1 id="core-validate-commit">core-validate-commit</h1>
+
+<p>Validate commit messages for Node.js core.
+More information: <a href="https://github.com/nodejs/core-validate-commit">https://github.com/nodejs/core-validate-commit</a>.</p>
+
+<ul>
+  <li>Validate the current commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">core-validate-commit</code></p>
+
+<ul>
+  <li>Validate a specific commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">core-validate-commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_hash</span></p>
+
+<ul>
+  <li>Validate a range of commits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git rev-list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_hash</span><code class="language-plaintext highlighter-rouge">..HEAD | xargs core-validate-commit</code></p>
+
+<ul>
+  <li>List all validation rules:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">core-validate-commit --list</code></p>
+
+<ul>
+  <li>List all valid Node.js subsystems:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">core-validate-commit --list-subsystem</code></p>
+
+<ul>
+  <li>Validate the current commit formatting the output in tap format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">core-validate-commit --tap</code></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">core-validate-commit --help</code></p>

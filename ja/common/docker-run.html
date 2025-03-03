@@ -1,0 +1,52 @@
+<h1 id="docker-run">docker run</h1>
+
+<p>新しいDockerコンテナでコマンドを実行します。
+もっと詳しく: <a href="https://docs.docker.com/reference/cli/docker/container/run/">https://docs.docker.com/reference/cli/docker/container/run/</a>。</p>
+
+<ul>
+  <li>タグ付けイメージから作成した新しいコンテナでコマンドを実行する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">イメージ:タグ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コマンド</span></p>
+
+<ul>
+  <li>新しいコンテナでコマンドをバックグランド実行し、そのIDを表示する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --detach </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">イメージ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コマンド</span></p>
+
+<ul>
+  <li>インタラクティブモードと疑似端末の割り当てを行って、使い捨てコンテナでコマンドを実行する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --rm --interactive --tty </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">イメージ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コマンド</span></p>
+
+<ul>
+  <li>渡された環境変数を使って新しいコンテナでコマンドを実行する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --env '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">環境変数名</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">値</span><code class="language-plaintext highlighter-rouge">' --env </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">環境変数名</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">イメージ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コマンド</span></p>
+
+<ul>
+  <li>バインドマウントを持つ新しいコンテナでコマンドを実行する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --volume </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ホストへのパス</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コンテナへのパス</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">イメージ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コマンド</span></p>
+
+<ul>
+  <li>公開ポートを持った新しいコンテナでコマンドを実行する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --publish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ホスト側のポート</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コンテナ側のポート</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">イメージ</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コマンド</span></p>
+
+<ul>
+  <li>イメージのエントリーポイントを上書きして新しいコンテナでコマンドを実行する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --entrypoint </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コマンド</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">イメージ</span></p>
+
+<ul>
+  <li>新しいコンテナをネットワークに繋ぎ、そのコンテナでコマンドを実行する:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --network </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ネットワーク</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">イメージ</span></p>

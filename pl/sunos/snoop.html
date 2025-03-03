@@ -1,0 +1,35 @@
+<h1 id="snoop">snoop</h1>
+
+<p>Sniffer pakietów sieciowych.
+Odpowiednik tcpdump w systemie SunOS.
+Więcej informacji: <a href="https://www.unix.com/man-page/sunos/1m/snoop">https://www.unix.com/man-page/sunos/1m/snoop</a>.</p>
+
+<ul>
+  <li>Przechwyć pakiety na określonym interfejsie sieciowym:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">e1000g0</span></p>
+
+<ul>
+  <li>Zapisz przechwycone pakiety w pliku zamiast ich wyświetlania:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span></p>
+
+<ul>
+  <li>Wyświetl szczegółowe podsumowanie warstwy protokołu pakietów z pliku:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -V -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span></p>
+
+<ul>
+  <li>Przechwyć pakiety sieciowe, które pochodzą z nazwy hosta i trafiają na dany port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop to port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> from host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_hosta</span></p>
+
+<ul>
+  <li>Przechwyć i wyświetl zrzut heksadecymalny pakietów sieciowych wymienianych między dwoma adresami IP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">snoop -x0 -p4 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip2</span></p>

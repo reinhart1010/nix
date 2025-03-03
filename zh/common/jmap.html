@@ -1,0 +1,34 @@
+<h1 id="jmap">jmap</h1>
+
+<p>Java 内存映射工具。
+更多信息：<a href="https://docs.oracle.com/en/java/javase/20/docs/specs/man/jmap.html">https://docs.oracle.com/en/java/javase/20/docs/specs/man/jmap.html</a>.</p>
+
+<ul>
+  <li>打印 Java 进程的共享对象映射（类似 pmap 的输出）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Java 进程号</span></p>
+
+<ul>
+  <li>打印堆摘要信息：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmap -heap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名.jar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Java 进程号</span></p>
+
+<ul>
+  <li>按类型打印堆使用的直方图：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmap -histo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Java 进程号</span></p>
+
+<ul>
+  <li>将堆的内容转储到二进制文件中以使用 jhat 进行分析：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmap -dump:format=b,file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Java 进程号</span></p>
+
+<ul>
+  <li>将堆中存活的对象转储到二进制文件中以使用 jhat 进行分析：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">jmap -dump:live,format=b,file=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Java 进程号</span></p>

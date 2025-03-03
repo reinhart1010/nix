@@ -1,0 +1,40 @@
+<h1 id="ps">ps</h1>
+
+<p>실행 중인 프로세스에 대한 정보.
+더 많은 정보: <a href="https://keith.github.io/xcode-man-pages/ps.1.html">https://keith.github.io/xcode-man-pages/ps.1.html</a>.</p>
+
+<ul>
+  <li>모든 실행 중인 프로세스 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps aux</code></p>
+
+<ul>
+  <li>전체 명령어 문자열을 포함하여 모든 실행 중인 프로세스 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps auxww</code></p>
+
+<ul>
+  <li>문자열과 일치하는 프로세스 검색:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps aux | grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">문자열</span></p>
+
+<ul>
+  <li>프로세스의 부모 PID 가져오기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps -o ppid= -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span></p>
+
+<ul>
+  <li>메모리 사용량으로 프로세스 정렬:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps -m</code></p>
+
+<ul>
+  <li>CPU 사용량으로 프로세스 정렬:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ps -r</code></p>

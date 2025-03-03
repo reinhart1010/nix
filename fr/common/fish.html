@@ -1,0 +1,49 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="fish">fish</h1>
+
+<p>Friendly Interactive SHell, un interpréteur de ligne de commande, conçu pour être facile à utiliser.
+Plus d'informations : <a href="https://fishshell.com">https://fishshell.com</a>.</p>
+
+<ul>
+  <li>Démarre une session shell interactive :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fish</code></p>
+
+<ul>
+  <li>Exécute une commande, puis termine la session :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fish -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Exécute un script :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fish </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/script.fish</span></p>
+
+<ul>
+  <li>Vérifie les erreurs de syntaxe dans un script :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fish --no-execute </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/script.fish</span></p>
+
+<ul>
+  <li>Démarre une session shell interactive en mode privé, dans laquelle le shell n'a pas accès à l'historique et n'y écrit rien :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fish --private</code></p>
+
+<ul>
+  <li>Affiche les informations de version :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">fish --version</code></p>
+
+<ul>
+  <li>Ajoute et exporte une variable d'environnement, qui persiste entre les redémarrages du shell (à exécuter depuis le shell uniquement) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">set -Ux </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_la_variable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valeur_de_la_variable</span></p>

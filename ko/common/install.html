@@ -1,0 +1,41 @@
+<h1 id="install">install</h1>
+
+<p>파일 복사 및 속성 설정.
+파일 (자주 실행 가능)을 시스템 위치 (예: <code class="language-plaintext highlighter-rouge">/usr/local/bin</code>)에 복사하고 적절한 권한/소유권을 부여합니다.
+더 많은 정보: <a href="https://www.gnu.org/software/coreutils/manual/html_node/install-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/install-invocation.html</a>.</p>
+
+<ul>
+  <li>파일들을 목표에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/원본_파일1 경로/대상/원본_파일2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/목표</span></p>
+
+<ul>
+  <li>파일들을 목표에 복사하고 소유권 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">install --owner </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/원본_파일1 경로/대상/원본_파일2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/목표</span></p>
+
+<ul>
+  <li>파일들을 목표에 복사하고 그룹 소유권 설정:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">install --group </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/원본_파일1 경로/대상/원본_파일2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/목표</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">mode</code>를 설정하고 파일들을 목표에 복사:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">install --mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+x</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/원본_파일1 경로/대상/원본_파일2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/목표</span></p>
+
+<ul>
+  <li>파일들을 목표에 복사하고 원본의 접근/수정 시간 적용:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">install --preserve-timestamps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/원본_파일1 경로/대상/원본_파일2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/목표</span></p>
+
+<ul>
+  <li>파일들을 목표에 복사하고 목표 디렉토리가 없으면 생성:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">install -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/원본_파일1 경로/대상/원본_파일2 …</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/목표</span></p>

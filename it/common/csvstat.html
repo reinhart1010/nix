@@ -1,0 +1,35 @@
+<h1 id="csvstat">csvstat</h1>
+
+<p>Stampa statistiche descrittive per tutte le colonne di un file CSV.
+Incluso in csvkit.
+Maggiori informazioni: <a href="https://csvkit.readthedocs.io/en/latest/scripts/csvstat.html">https://csvkit.readthedocs.io/en/latest/scripts/csvstat.html</a>.</p>
+
+<ul>
+  <li>Mostra tutte le statistiche per tutte le colonne:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvstat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dati.csv</span></p>
+
+<ul>
+  <li>Mostra tutte le statistiche per le colonne 2 e 4:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvstat -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2,4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dati.csv</span></p>
+
+<ul>
+  <li>Mostra la somma per tutte le colonne:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvstat --sum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dati.csv</span></p>
+
+<ul>
+  <li>Mostra la lunghezza massima dei valori della colonna 3:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvstat -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> --len </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dati.csv</span></p>
+
+<ul>
+  <li>Mostra il numero di valori unici nella colonna "nome":</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvstat -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span><code class="language-plaintext highlighter-rouge"> --unique </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dati.csv</span></p>

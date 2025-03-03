@@ -1,0 +1,28 @@
+<h1 id="tee">tee</h1>
+
+<p>Read from <code class="language-plaintext highlighter-rouge">stdin</code> and write to <code class="language-plaintext highlighter-rouge">stdout</code> and files (or commands).
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/tee-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/tee-invocation.html</a>.</p>
+
+<ul>
+  <li>Copy <code class="language-plaintext highlighter-rouge">stdin</code> to each file, and also to <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "example" | tee </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Append to the given files, do not overwrite:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "example" | tee -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Print <code class="language-plaintext highlighter-rouge">stdin</code> to the terminal, and also pipe it into another program for further processing:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "example" | tee </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty</span><code class="language-plaintext highlighter-rouge"> | </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xargs printf "[%s]"</span></p>
+
+<ul>
+  <li>Create a directory called "example", count the number of characters in "example" and write "example" to the terminal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "example" | tee &gt;(xargs mkdir) &gt;(wc -c)</code></p>

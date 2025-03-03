@@ -1,0 +1,38 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="pw-dump">pw-dump</h1>
+
+<p>Exibe o estado atual do PipeWire como JSON, incluindo as informações sobre nós, dispositivos, módulos, portas e outros objetos.
+Veja também: <code class="language-plaintext highlighter-rouge">pw-mon</code>.
+Mais informações: <a href="https://docs.pipewire.org/page_man_pw-dump_1.html">https://docs.pipewire.org/page_man_pw-dump_1.html</a>.</p>
+
+<ul>
+  <li>Exibe uma representação em JSON do estado atual da instância padrão do PipeWire:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-dump</code></p>
+
+<ul>
+  <li>Exibe o estado atual monitorando mudanças, exibindo-as novamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-dump --monitor</code></p>
+
+<ul>
+  <li>Salva o estado atual de uma instância remota para um arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-dump --remote </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_remoto</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.json</span></p>
+
+<ul>
+  <li>Define uma configuração de [C]or:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-dump --color </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">never|always|auto</span></p>
+
+<ul>
+  <li>Exibir ajuda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pw-dump --help</code></p>

@@ -1,0 +1,22 @@
+<h1 id="lnav">lnav</h1>
+
+<p>Advanced log file viewer to analyze logs with little to no setup.
+More information: <a href="https://docs.lnav.org/en/latest/cli.html">https://docs.lnav.org/en/latest/cli.html</a>.</p>
+
+<ul>
+  <li>View logs of a program, specifying log files, directories or URLs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lnav </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/log_or_directory|url</span></p>
+
+<ul>
+  <li>View logs of a specific remote host (SSH passwordless login required):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lnav </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host1.example.com</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/var/log/syslog.log</span></p>
+
+<ul>
+  <li>Validate the format of log files against the configuration and report any errors:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lnav -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/log_directory</span></p>

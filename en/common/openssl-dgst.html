@@ -1,0 +1,34 @@
+<h1 id="openssl-dgst">openssl dgst</h1>
+
+<p>OpenSSL command to generate digest values and perform signature operations.
+More information: <a href="https://www.openssl.org/docs/manmaster/man1/openssl-dgst.html">https://www.openssl.org/docs/manmaster/man1/openssl-dgst.html</a>.</p>
+
+<ul>
+  <li>Calculate the SHA256 digest for a file, saving the result to a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl dgst -sha256 -binary -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file</span></p>
+
+<ul>
+  <li>Sign a file using an RSA key, saving the result to a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl dgst -sign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">private_key_file</span><code class="language-plaintext highlighter-rouge"> -sha256 -sigopt rsa_padding_mode:pss -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file</span></p>
+
+<ul>
+  <li>Verify an RSA signature:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl dgst -verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public_key_file</span><code class="language-plaintext highlighter-rouge"> -signature </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">signature_file</span><code class="language-plaintext highlighter-rouge"> -sigopt rsa_padding_mode:pss </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">signature_message_file</span></p>
+
+<ul>
+  <li>Sign a file using and ECDSA key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl dgst -sign </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">private_key_file</span><code class="language-plaintext highlighter-rouge"> -sha256 -out </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_file</span></p>
+
+<ul>
+  <li>Verify an ECDSA signature:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">openssl dgst -verify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public_key_file</span><code class="language-plaintext highlighter-rouge"> -signature </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">signature_file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">signature_message_file</span></p>

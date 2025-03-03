@@ -1,0 +1,46 @@
+<h1 id="wafw00f">wafw00f</h1>
+
+<p>Identify and fingerprint Web Application Firewall (WAF) products protecting a website.
+More information: <a href="https://github.com/EnableSecurity/wafw00f">https://github.com/EnableSecurity/wafw00f</a>.</p>
+
+<ul>
+  <li>Check if a website is using any WAF:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wafw00f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.example.com</span></p>
+
+<ul>
+  <li>Test for [a]ll detectable WAFs without stopping at the first match:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wafw00f --findall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.example.com</span></p>
+
+<ul>
+  <li>Pass requests through a [p]roxy (such as BurpSuite):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wafw00f --proxy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://localhost:8080</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.example.com</span></p>
+
+<ul>
+  <li>[t]est for a specific WAF product (run <code class="language-plaintext highlighter-rouge">wafw00f -l</code> to get list of all supported WAFs):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wafw00f --test </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Cloudflare|Cloudfront|Fastly|ZScaler|…</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.example.com</span></p>
+
+<ul>
+  <li>Pass custom [H]eaders from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wafw00f --headers </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/headers.txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.example.com</span></p>
+
+<ul>
+  <li>Read target [i]nputs from a file and show verbose output (multiple <code class="language-plaintext highlighter-rouge">v</code> for more verbosity):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wafw00f --input </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/urls.txt</span><code class="language-plaintext highlighter-rouge"> -v</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">v</span></p>
+
+<ul>
+  <li>[l]ist all WAFs that can be detected:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wafw00f --list</code></p>

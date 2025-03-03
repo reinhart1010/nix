@@ -1,0 +1,52 @@
+<h1 id="nl">nl</h1>
+
+<p>파일 또는 <code class="language-plaintext highlighter-rouge">stdin</code>에서 각 행에 번호를 매깁니다.
+더 많은 정보: <a href="https://manned.org/nl.1p">https://manned.org/nl.1p</a>.</p>
+
+<ul>
+  <li>파일에서 빈 줄이 아닌 행에 번호 매기기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">stdin</code>에서 읽기:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span><code class="language-plaintext highlighter-rouge"> | nl -</code></p>
+
+<ul>
+  <li>빈 줄을 포함한 [a]ll [b]ody 행에 번호를 매기거나 [n]ot [b]ody 행에 번호를 매기지 않음:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a|n</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>기본 정규 표현식(BRE) [p]attern과 일치하는 [b]ody 행에만 번호 매기기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl -b p'FooBar[0-9]' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>특정 [i]ncrement로 행 번호 매기기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">증가량</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>행 번호 형식을 [r]ight 또는 [l]eft로 정렬하고 선행 [z]eros를 유지하거나 [n]ot:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rz|ln|rn</span></p>
+
+<ul>
+  <li>행 번호의 [w]idth 지정 (기본값은 6):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">열_너비</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>
+
+<ul>
+  <li>행 번호와 행 사이를 구분하기 위한 특정 문자열 사용 (기본값은 TAB):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nl -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">구분자</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span></p>

@@ -1,0 +1,35 @@
+<h1 id="dot">dot</h1>
+
+<p>Render an image of a <code class="language-plaintext highlighter-rouge">linear directed</code> network graph from a <code class="language-plaintext highlighter-rouge">graphviz</code> file.
+Layouts: <code class="language-plaintext highlighter-rouge">dot</code>, <code class="language-plaintext highlighter-rouge">neato</code>, <code class="language-plaintext highlighter-rouge">twopi</code>, <code class="language-plaintext highlighter-rouge">circo</code>, <code class="language-plaintext highlighter-rouge">fdp</code>, <code class="language-plaintext highlighter-rouge">sfdp</code>, <code class="language-plaintext highlighter-rouge">osage</code> &amp; <code class="language-plaintext highlighter-rouge">patchwork</code>.
+More information: <a href="https://graphviz.org/doc/info/command.html">https://graphviz.org/doc/info/command.html</a>.</p>
+
+<ul>
+  <li>Render a PNG image with a filename based on the input filename and output format (uppercase -O):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">png</span><code class="language-plaintext highlighter-rouge"> -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gv</span></p>
+
+<ul>
+  <li>Render a SVG image with the specified output filename (lowercase -o):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">svg</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.svg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gv</span></p>
+
+<ul>
+  <li>Render the output in PS, PDF, SVG, Fig, PNG, GIF, JPEG, JSON, or DOT format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">format</span><code class="language-plaintext highlighter-rouge"> -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gv</span></p>
+
+<ul>
+  <li>Render a GIF image using <code class="language-plaintext highlighter-rouge">stdin</code> and <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">digraph {this -&gt; that} </span><code class="language-plaintext highlighter-rouge">" | dot -T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gif</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.gif</span></p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot -?</code></p>

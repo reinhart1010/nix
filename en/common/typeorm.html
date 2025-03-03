@@ -1,0 +1,52 @@
+<h1 id="typeorm">typeorm</h1>
+
+<p>A JavaScript ORM that can run on Node.js, browser, Cordova, Ionic, React Native, NativeScript, and Electron platforms.
+More information: <a href="https://typeorm.io/">https://typeorm.io/</a>.</p>
+
+<ul>
+  <li>Generate a new initial TypeORM project structure:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typeorm init</code></p>
+
+<ul>
+  <li>Create an empty migration file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typeorm migration:create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">migration_name</span></p>
+
+<ul>
+  <li>Create a migration file with the SQL statements to update the schema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typeorm migration:generate --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">migration_name</span></p>
+
+<ul>
+  <li>Run all pending migrations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typeorm migration:run</code></p>
+
+<ul>
+  <li>Create a new entity file in a specific directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typeorm entity:create --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">entity</span><code class="language-plaintext highlighter-rouge"> --dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span></p>
+
+<ul>
+  <li>Display the SQL statements to be executed by <code class="language-plaintext highlighter-rouge">typeorm schema:sync</code> on the default connection:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typeorm schema:log</code></p>
+
+<ul>
+  <li>Execute a specific SQL statement on the default connection:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typeorm query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sql_sentence</span></p>
+
+<ul>
+  <li>Display help for a subcommand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">typeorm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span><code class="language-plaintext highlighter-rouge"> --help</code></p>

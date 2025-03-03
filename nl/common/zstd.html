@@ -1,0 +1,34 @@
+<h1 id="zstd">zstd</h1>
+
+<p>Bestanden comprimeren of decomprimeren met Zstandard compressie.
+Meer informatie: <a href="https://github.com/facebook/zstd">https://github.com/facebook/zstd</a>.</p>
+
+<ul>
+  <li>Comprimeer een bestand naar een nieuw bestand met de <code class="language-plaintext highlighter-rouge">.zst</code> extensie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zstd </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Decomprimeer een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zstd --decompress </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.zst</span></p>
+
+<ul>
+  <li>Decomprimeer naar <code class="language-plaintext highlighter-rouge">stdout</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zstd --decompress --stdout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.zst</span></p>
+
+<ul>
+  <li>Comprimeer een bestand met een specifiek compressie level, waar 1=snelste, 19=langzaamste en 3=standaard:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zstd -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">level</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Ontgrendel hogere compressieniveaus (tot en met 22) door gebruik te maken van meer geheugen (voor compressie en decompression):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">zstd --ultra -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">level</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>

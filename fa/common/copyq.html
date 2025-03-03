@@ -1,0 +1,46 @@
+<h1 id="copyq">copyq</h1>
+
+<p>مدیریت کلیپ بورد با قابلیت های پیشرفته.
+اطلاعات بیشتر: <a href="https://copyq.readthedocs.io/en/latest/command-line.html">https://copyq.readthedocs.io/en/latest/command-line.html</a>.</p>
+
+<ul>
+  <li>اجرای کپی کیو برای ذخیره تاریخچه کلیپ بورد:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq</code></p>
+
+<ul>
+  <li>نمایش محتوای کنونی کلیپ بورد:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq clipboard</code></p>
+
+<ul>
+  <li>وارد کردن متن خام به تاریخچه کلیپ بورد:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq add -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text3</span></p>
+
+<ul>
+  <li>وارد کردن متن شامل رشته های فاصله انداز مانند (\n, \t) در تاریخچه کلیپ بورد:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">firstline\nsecondline</span></p>
+
+<ul>
+  <li>چاپ محتوای سه مورد اول در تاریخچه کلیپ بورد:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq read 0 1 2</code></p>
+
+<ul>
+  <li>رونوشت محتوای یک فایل در کلیپ بورد:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq copy &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span></p>
+
+<ul>
+  <li>رونوشت یک عکس با فرمت JPEG در کلیپ بورد:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">copyq copy image/jpeg &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.jpg</span></p>

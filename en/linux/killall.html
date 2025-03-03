@@ -1,0 +1,35 @@
+<h1 id="killall">killall</h1>
+
+<p>Send kill signal to all instances of a process by name (must be exact name).
+All signals except SIGKILL and SIGSTOP can be intercepted by the process, allowing a clean exit.
+More information: <a href="https://manned.org/killall">https://manned.org/killall</a>.</p>
+
+<ul>
+  <li>Terminate a process using the default SIGTERM (terminate) signal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span></p>
+
+<ul>
+  <li>List available signal names (to be used without the 'SIG' prefix):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall --list</code></p>
+
+<ul>
+  <li>Interactively ask for confirmation before termination:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span></p>
+
+<ul>
+  <li>Terminate a process using the SIGINT (interrupt) signal, which is the same signal sent by pressing <code class="language-plaintext highlighter-rouge">Ctrl + C</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall -INT </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span></p>
+
+<ul>
+  <li>Force kill a process:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">killall -KILL </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span></p>

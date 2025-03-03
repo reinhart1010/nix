@@ -1,0 +1,52 @@
+<h1 id="read">read</h1>
+
+<p>Shell builtin para recuperar datos de <code class="language-plaintext highlighter-rouge">stdin</code>.
+Más información: <a href="https://manned.org/read.1p">https://manned.org/read.1p</a>.</p>
+
+<ul>
+  <li>Almacena los datos que escribes desde el teclado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span></p>
+
+<ul>
+  <li>Almacena cada una de las siguientes líneas que introduzcas como valores de un arreglo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arreglo</span></p>
+
+<ul>
+  <li>Especifica el número máximo de caracteres a leer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cuenta_caracteres</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span></p>
+
+<ul>
+  <li>Asigna varios valores a varias variables:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">_ variable1 _ variable2</span><code class="language-plaintext highlighter-rouge"> &lt;&lt;&lt; "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">El apellido es Bond"</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>No dejes que la barra invertida () actúe como carácter de escape:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span></p>
+
+<ul>
+  <li>Muestra un indicador antes de la entrada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read -p "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Introduce aquí tu entrada: </span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span></p>
+
+<ul>
+  <li>No hacer eco de los caracteres introducidos (modo silencioso):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">read -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span></p>
+
+<ul>
+  <li>Lee <code class="language-plaintext highlighter-rouge">stdin</code> y realiza una acción en cada línea:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while read line; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo|ls|rm|…</span><code class="language-plaintext highlighter-rouge"> "$line"; done &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dev/stdin|ruta/al/archivo|…</span></p>

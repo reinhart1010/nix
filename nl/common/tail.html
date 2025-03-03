@@ -1,0 +1,41 @@
+<h1 id="tail">tail</h1>
+
+<p>Toon het laatste deel van een bestand.
+Bekijk ook: <code class="language-plaintext highlighter-rouge">head</code>.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html</a>.</p>
+
+<ul>
+  <li>Toon laatste aantal regels in een bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --lines </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aantal</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon een bestand vanaf een specifiek regelnummer:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --lines +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aantal</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon een specifiek aantal bytes vanaf het einde van een opgegeven bestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --bytes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aantal</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon de laatste regels van een bestand en blijf het bestand lezen tot <code class="language-plaintext highlighter-rouge">Ctrl + C</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Blijf het bestand lezen tot <code class="language-plaintext highlighter-rouge">Ctrl + C</code>, ook als het bestand niet toegangelijk is:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --retry --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>
+
+<ul>
+  <li>Toon de laatste aantal regels in een bestand en ververs iedere 'n' seconden:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tail --lines </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aantal</span><code class="language-plaintext highlighter-rouge"> --sleep-interval </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconden</span><code class="language-plaintext highlighter-rouge"> --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span></p>

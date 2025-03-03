@@ -1,0 +1,29 @@
+<h1 id="csvcut">csvcut</h1>
+
+<p>Filtra e tronca file CSV. Come il comando Unix <code class="language-plaintext highlighter-rouge">cut</code>, ma per dati tabellari.
+Incluso in csvkit.
+Maggiori informazioni: <a href="https://csvkit.readthedocs.io/en/latest/scripts/csvcut.html">https://csvkit.readthedocs.io/en/latest/scripts/csvcut.html</a>.</p>
+
+<ul>
+  <li>Stampa indici e nomi di tutte le colonne:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvcut -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dati.csv</span></p>
+
+<ul>
+  <li>Estrai la prima e terza colonna:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvcut -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,3</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dati.csv</span></p>
+
+<ul>
+  <li>Estrai tutte le colonne eccetto la quarta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvcut -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dati.csv</span></p>
+
+<ul>
+  <li>Estrai le colonne "id" e "nome di battesimo" (in quest'ordine):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">csvcut -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id,"nome di battesimo"</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dati.csv</span></p>

@@ -1,0 +1,28 @@
+<h1 id="setx">setx</h1>
+
+<p>Set persistent environment variables.
+More information: <a href="https://learn.microsoft.com/windows-server/administration/windows-commands/setx">https://learn.microsoft.com/windows-server/administration/windows-commands/setx</a>.</p>
+
+<ul>
+  <li>Set an environment variable for the current user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Set an environment variable for the current machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> /M</code></p>
+
+<ul>
+  <li>Set an environment variable for a user on a remote machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setx /s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> /u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> /p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Set an environment variable from a registry key value:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">setx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span><code class="language-plaintext highlighter-rouge"> /k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry\key\path</span></p>

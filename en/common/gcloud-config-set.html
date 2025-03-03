@@ -1,0 +1,47 @@
+<h1 id="gcloud-config-set">gcloud config set</h1>
+
+<p>Set a property in the Google Cloud CLI configuration.
+Properties control various aspects of Google Cloud CLI behavior.
+More information: <a href="https://cloud.google.com/sdk/gcloud/reference/config/set">https://cloud.google.com/sdk/gcloud/reference/config/set</a>.</p>
+
+<ul>
+  <li>Set the project property in the core section:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud config set project </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_id</span></p>
+
+<ul>
+  <li>Set the compute zone for future operations:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud config set compute/zone </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zone_name</span></p>
+
+<ul>
+  <li>Disable prompting to make gcloud suitable for scripting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud config set disable_prompts true</code></p>
+
+<ul>
+  <li>View the list of properties currently in use:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud config list</code></p>
+
+<ul>
+  <li>Unset a previously set property:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud config unset </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">property_name</span></p>
+
+<ul>
+  <li>Create a new configuration profile:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud config configurations create </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">configuration_name</span></p>
+
+<ul>
+  <li>Switch between different configuration profiles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcloud config configurations activate </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">configuration_name</span></p>

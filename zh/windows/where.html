@@ -1,0 +1,29 @@
+<h1 id="where">where</h1>
+
+<p>显示与搜索模式匹配的文件的位置。
+在默认情况下，搜索是在当前目录和 PATH 环境变量指定的路径中执行的。
+更多信息：<a href="https://learn.microsoft.com/windows-server/administration/windows-commands/where">https://learn.microsoft.com/windows-server/administration/windows-commands/where</a>.</p>
+
+<ul>
+  <li>显示匹配的文件的位置：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">where </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件模式</span></p>
+
+<ul>
+  <li>显示匹配的文件的位置、大小和日期：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">where /T </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件模式</span></p>
+
+<ul>
+  <li>在指定的路径下递归搜索要匹配的文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">where /R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录的路径</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件模式</span></p>
+
+<ul>
+  <li>只返回退出代码，不显示匹配文件列表：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">where /Q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件模式</span></p>

@@ -1,0 +1,52 @@
+<h1 id="install-module">Install-Module</h1>
+
+<p>PowerShell Gallery, NuGet 및 기타 리포지토리에서 PowerShell 모듈을 설치합니다.
+더 많은 정보: <a href="https://learn.microsoft.com/powershell/module/powershellget/install-module">https://learn.microsoft.com/powershell/module/powershellget/install-module</a>.</p>
+
+<ul>
+  <li>모듈 설치 또는 최신 버전으로 업데이트:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-Module </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모듈</span></p>
+
+<ul>
+  <li>특정 버전의 모듈 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-Module </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모듈</span><code class="language-plaintext highlighter-rouge"> -RequiredVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버전</span></p>
+
+<ul>
+  <li>최소 버전을 사용하여 모듈 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-Module </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모듈</span><code class="language-plaintext highlighter-rouge"> -MinimumVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">버전</span></p>
+
+<ul>
+  <li>모듈의 지원되는 버전 범위를 지정하여 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-Module </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모듈</span><code class="language-plaintext highlighter-rouge"> -MinimumVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">최소_버전</span><code class="language-plaintext highlighter-rouge"> -MaximumVersion </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">최대_버전</span></p>
+
+<ul>
+  <li>특정 리포지토리에 모듈 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-Module </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모듈</span><code class="language-plaintext highlighter-rouge"> -Repository </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리포지토리</span></p>
+
+<ul>
+  <li>지정된 리포지토리들에서 모듈 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-Module </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모듈</span><code class="language-plaintext highlighter-rouge"> -Repository </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">리포지토리1, 리포지토리2, …</span></p>
+
+<ul>
+  <li>모듈을 모든 사용자 또는 현재 사용자에게 설치:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-Module </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모듈</span><code class="language-plaintext highlighter-rouge"> -Scope </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AllUsers|CurrentUser</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Install-Module</code>을 통해 설치, 업그레이드 또는 제거될 모듈을 확인하기 위한 테스트 실행:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Install-Module </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">모듈</span><code class="language-plaintext highlighter-rouge"> -WhatIf</code></p>

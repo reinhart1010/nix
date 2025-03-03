@@ -1,0 +1,43 @@
+<h1 id="rename">rename</h1>
+
+<p>Renomeia múltiplos arquivos.
+Nota: essa página refere-se ao comando do pacote <code class="language-plaintext highlighter-rouge">util-linux</code>.
+Para a versão em Perl, veja <code class="language-plaintext highlighter-rouge">file-rename</code> ou <code class="language-plaintext highlighter-rouge">perl-rename</code>.
+Aviso: Esse comando não tem nenhuma proteção e sobrescreverá arquivos sem aviso prévio.
+Mais informações: <a href="https://manned.org/rename">https://manned.org/rename</a>.</p>
+
+<ul>
+  <li>Renomeia arquivos usando substituições simples (substitui 'foo' por 'bar' onde quer que se encontre):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*</span></p>
+
+<ul>
+  <li>Dry-run - exibe quais renomeações ocorreriam sem executá-las:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rename -vn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*</span></p>
+
+<ul>
+  <li>Não sobrescreve os arquivos existentes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rename -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*</span></p>
+
+<ul>
+  <li>Altera as extensões dos arquivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.ext</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.bak</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span></p>
+
+<ul>
+  <li>Acrescenta "foo" no início de todos os nomes de arquivos no diretório atual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">''</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'foo'</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*</span></p>
+
+<ul>
+  <li>Renomeia um grupo de arquivos com numerações crescente acrescentando zeros aos números até terem 3 dígitos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo00</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo?</span><code class="language-plaintext highlighter-rouge"> &amp;&amp; rename </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo0</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo??</span></p>
