@@ -3,7 +3,7 @@ layout: page
 title: common/latexpand (español)
 description: "Simplifica los archivos fuente LaTeX eliminando comentarios y resolviendo `\include`s, `\input`s, etc."
 content_hash: 450373fd9b2b85f26efa48f3c6719b43a1f453f6
-last_modified_at: 2025-03-02
+last_modified_at: 2025-03-03
 related_topics:
   - title: English version
     url: /en/common/latexpand.html
